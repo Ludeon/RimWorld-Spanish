@@ -2,8 +2,9 @@
 <LanguageData>
 
   <!-- Various -->
-  <WorkLeft>Trabajo por finalizar</WorkLeft>
+  <WorkLeft>Trabajo restante</WorkLeft>
   <Contents>Contenido</Contents>
+  <ContainedResources>Recursos contenidos</ContainedResources>
   <ForPrisonerUse>Para ser usado por prisioneros</ForPrisonerUse>
   <ForColonistUse>Para ser usado por colonos</ForColonistUse>
   <Owner>Propietario</Owner>
@@ -11,10 +12,17 @@
   <Unowned>Sin propietario</Unowned>
   <GunInstalled>Instalado</GunInstalled>
   <DeadTime>Muerto {0}</DeadTime>
-  <WalkSpeed>Velocidad caminando {0}</WalkSpeed>
+  <WalkSpeed>velocidad caminando {0}</WalkSpeed>
   <DyingLower>muriendo</DyingLower>
   <PawnEffectiveness>Efectividad</PawnEffectiveness>
   <FilthOnFeet>Suciedad en los pies:</FilthOnFeet>
+  <NotEnoughStoredLower>no hay suficiente almacenado</NotEnoughStoredLower>
+  <NothingLower>nada</NothingLower>
+  
+    <!-- Turrets -->
+  <GunInstalled>Instalada</GunInstalled>
+  <MinimumRange>Alcance mínimo</MinimumRange>
+  <CanFireIn>Puede disparar en</CanFireIn>
 
 
 	<!-- Job reports -->
@@ -22,8 +30,9 @@
 	<ReportHauling>Trasladando {0}.</ReportHauling>
 
 	<!-- Shooting report -->
-	<RangeSlashSkill>Rango/Habilidad</RangeSlashSkill>
-	<RangeSlashEquipment>Rango/Equipamiento</RangeSlashEquipment>
+	<WeaponMissRadius>Radio de fallo del arma</WeaponMissRadius>
+	<ShootReportSkill>Habilidad</ShootReportSkill>
+	<ShootReportWeapon>Arma</ShootReportWeapon>
 	<Darkness>Oscuridad</Darkness>
 	<TargetProne>Objetivo prono</TargetProne>
 	<TargetSize>Tamaño del objetivo</TargetSize>
@@ -34,18 +43,14 @@
 	
 	
 	<!-- Status levels -->
-  <Loyalty>Lealtad</Loyalty>
-  <LoyaltyTip>La lealtad  representa el vínculo personal con la colonia. Si baja demasiado, el colono podría tirar la toalla y volverse irracional, loco.\n\nLa lealtad es igual a la felicidad o al miedo, dependiendo de cual sea mayor.</LoyaltyTip>
-  <Happiness>Felicidad</Happiness>
-  <HappinessTip>La felicidad es mantenida cubriendo las necesidades físicas y psicológicas.</HappinessTip>
-  <Fear>Miedo</Fear>
-  <FearTip>El miedo representa cuán intimidado está alguien por el entorno.\n\nAumenta al presenciar amenazas, brutalidad y demostraciones de poder.</FearTip>
+  <Mood>Humor</Mood>
+  <MoodTip>El humor es mantenido satisfaciendo las necesidades físicas y psicológicas.\n\nSi el humor baja demasiado, el afectado podría sufrir un colapso mental.</MoodTip>
   <Food>Comida</Food>
-  <FoodTip>Representa lo satisfecho que está alguien con sus comidas.\n\nSe reinicia cuando alguien come. Al cabo de un rato, empezará a disminuir hasta que se vuelva a comer. Cuando llegué a cero, la persona sufrirá daños por inanición.</FoodTip>
+  <FoodTip>Representa la satisfacción relacionada con la comida.\n\nSe rellena cuando el individuo se alimenta. Pasado un tiempo, empezará a disminuir hasta que vuelva a comer. Si llegase a cero, el afectado sufriría daños por inanición.</FoodTip>
   <Rest>Descanso</Rest>
-  <RestTip>Representa la calidad de la relajación y el sueño conseguida.\n\nAumenta al máximo cuando se duerme en cama y decrece con el tiempo mientras se está fuera de ella.\n\nLa rapidez de la decadencia dependerá de la efectividad del descanso.</RestTip>
+  <RestTip>Representa la calidad de la relajación y el sueño conseguidos.\n\nAumenta al máximo cuando se duerme en cama y decrece con el tiempo mientras se está fuera de ella.\n\nLa rapidez de ésta decadencia dependerá de la efectividad del descanso.</RestTip>
   <Environment>Entorno</Environment>
-  <EnvironmentTip>Refleja lo agradable que es el entorno para esta persona.\n\nAumenta con habitaciones espaciosas y decoración, y disminuye cuando el entorno es sucio u oscuro.</EnvironmentTip>
+  <EnvironmentTip>Refleja lo agradable que es el entorno para el individuo.\n\nAumenta con habitaciones espaciosas y decoración, y disminuye cuando el entorno es sucio u oscuro.</EnvironmentTip>
   <Openness>Apertura</Openness>
 
   
@@ -58,32 +63,40 @@
 
 
   <!--Effectiveness-->
-  <EffectivenessFull>Lleno</EffectivenessFull>
-  <EffectivenessReduced>Reducido</EffectivenessReduced>
+  <EffectivenessFull>Máxima</EffectivenessFull>
+  <EffectivenessReduced>Reducida</EffectivenessReduced>
   <EffectivenessImpaired>Impedido</EffectivenessImpaired>
   <EffectivenessIncapacitated>Incapacitado</EffectivenessIncapacitated>
-
-  <!-- Time indicator-->
-  <ClockDay>Día</ClockDay>
-  <ClockTime>Hora</ClockTime>
-  <ClockTip>El momento del día y el número de días desde tu llegada.</ClockTip>
   
-  <!-- Inspector -->
+  <!-- Pawn info readout -->
   <Health>Salud</Health>
+  <PawnMainDescWithFactionGendered>{0} {1} de {2}</PawnMainDescWithFactionGendered>
+  <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
+  <PawnMainDescWithFactionGenderless>{0} de {1}</PawnMainDescWithFactionGenderless>
+  <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
   <Faction>Facción</Faction>
   <Equipped>Equipado</Equipped>
   <EquippedNothing>Nada equipado</EquippedNothing>
   <Incapacitated>Incapacitado</Incapacitated>
   <InRestraints>Encadenado (ralentizado)</InRestraints>
-  <SelectNextInSquareTip>Selecciona el siguiente objeto de la misma casilla.\n\nPuedes hacerlo clicando otra vez en la misma casilla de nuevo.</SelectNextInSquareTip>
+  <Carrying>Cargando</Carrying>
+  <SanityDazedWander>Desmoralizado: Aturdido y vagando</SanityDazedWander>
+  <SanityGiveUpExit>Desmoralizado: Abatido y abandonando</SanityGiveUpExit>
+  <SanityPanicFlee>Desmoralizado: Presa del pánico</SanityPanicFlee>
+  <SanityPsychotic>Desmoralizado: Brote psicótico</SanityPsychotic>
 
+   <!-- Inspector general stuff -->
+  <SelectNextInSquareTip>Seleccionar el siguiente objeto en la misma casilla.\n\nAtajo del teclado: {0}\n\nTambién puedes hacerlo clicando lentamente la misma casilla por segunda vez.</SelectNextInSquareTip>
+  <DefInfoTip>Ver información sobre este objeto.</DefInfoTip>
+  
   <!-- ITab titles -->
   <TabBills>Listas</TabBills>
   <TabGrowing>Creciendo</TabGrowing>
   <TabCharacter>Personaje</TabCharacter>
-  <TabNeeds>Necesidades</TabNeeds>
+  <TabNeeds>Estado</TabNeeds>
   <TabPrisoner>Prisionero</TabPrisoner>
-  <TabThoughts>Pensamientos</TabThoughts>
+  <TabGear>Equipo</TabGear>
+  <TabThoughts>Ideas</TabThoughts>
   <TabStorage>Almacenaje</TabStorage>
 
 	<!-- ITabs -->
@@ -94,22 +107,30 @@
 	<PlantVerb>Plantar</PlantVerb>
 	<RecruitmentDifficulty>Dificultad de reclutamiento</RecruitmentDifficulty>
 	<PrisonerGetsFood>Recibe comida</PrisonerGetsFood>
-	<ShouldTryToRecruit>Intentar reclutar</ShouldTryToRecruit>
+	<ShouldTryToRecruit>Reclutar</ShouldTryToRecruit>
 	<PrisonerNoInteraction>Sin interacción</PrisonerNoInteraction>
 	<PrisonerFriendlyChat>Conversación amistosa</PrisonerFriendlyChat>
 	<PrisonerMildBeating>Paliza</PrisonerMildBeating>
 	<PrisonerViciousBeating>Paliza salvaje</PrisonerViciousBeating>
 	<PrisonerExecution>Ejecución</PrisonerExecution>
+	<Equipment>Equipo</Equipment>
+	<Apparel>Atuendo</Apparel>
+	<Inventory>Inventorio</Inventory>
+	<ThingInfo>Información</ThingInfo>
+	<DropThing>Tirar</DropThing>
+	<TotalModifiers>Modificadores totales</TotalModifiers>
+	<DamageAbsorption>Absorción de daño</DamageAbsorption>
+	<MoveSpeed>Velocidad de movimiento</MoveSpeed>
 
 	<!-- like 'Blood of John' -->
 	<OfLower>de</OfLower>
 
 	<!-- Power readout -->
-	<PowerNotConnected>Sin conexión con la red energética.</PowerNotConnected>
-	<PowerConnectedRate>Tasa de energía: {0}W</PowerConnectedRate>
+	<PowerNotConnected>Sin conexión a la red energética.</PowerNotConnected>
+	<PowerConnectedRate>Tasa energética: {0}W</PowerConnectedRate>
 	<PowerConnectedStored>Energía almacenada: {0}Wd</PowerConnectedStored>
   <PowerNeeded>Energía necesaria</PowerNeeded>
-  <PowerOutput>Energía de salida</PowerOutput>
+  <PowerOutput>Energía saliente</PowerOutput>
   <PowerBatteryStored>Almacenado</PowerBatteryStored>
   <PowerBatteryEfficiency>Eficiencia</PowerBatteryEfficiency>
   
@@ -119,10 +140,9 @@
 	<RotStateRotting>Pudriéndose</RotStateRotting>
 	<RotStateDessicated>Disecado</RotStateDessicated>
 	
-  <!-- Tooltip -->
-  <Carrying>Cargando</Carrying>
+  <!-- Shooting tooltip -->
   <ShotBy>Disparado por {0}</ShotBy>
-  <CannotHit>No se puede golpear al objetivo.</CannotHit>
+  <CannotHit>No puede alcanzar al objetivo.</CannotHit>
 
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>Sin almacenar</StoragePriorityUnstored>
@@ -150,7 +170,6 @@
   <GrowingZone>Zona de cultivo</GrowingZone>
   <Stockpile>Reserva</Stockpile>
   <DumpingStockpile>Vertedero</DumpingStockpile>
-  <SellingStockpile>Reserva comercial</SellingStockpile>
   <Priority>Prioridad</Priority>
 
   <!-- General time stuff -->
@@ -158,10 +177,11 @@
   <SecondsLower>segundos</SecondsLower>
   
   <!-- Mouseover indicator -->
-  <Undiscovered>No descubierto</Undiscovered>
+  <Undiscovered>Por descubrir</Undiscovered>
   
   <!-- Buttons -->
-  <ZoneVisibilityToggleButton>Cambiar la visibilidad de las zonas.</ZoneVisibilityToggleButton>
+  <ZoneVisibilityToggleButton>Ver zonas.</ZoneVisibilityToggleButton>
+    <AutoHomeRegionToggleButton>Añadir automáticamente zonas residenciales entorno a la nueva construcción.</AutoHomeRegionToggleButton>
   
   <!-- Fire -->
   <Fire>Fuego</Fire>
@@ -170,9 +190,27 @@
   <FireSizeLower>tamaño del fuego {0}</FireSizeLower>
   
   <!-- Map conditions (eclipse, solar flare, etc )-->
-  <MapConditionsTip>El área está siendo afectada por anomalías climáticas.</MapConditionsTip>
-  <SolarFlare>Erupción solar</SolarFlare>
-  <Eclipse>Eclipse</Eclipse>
+  <MapConditionsTip>Condiciones especiales afectando al área en este momento.</MapConditionsTip>
   
+  <!-- Building placement restricters -->
+  <MustPlaceUnroofed>No puede situarse bajo un tejado.</MustPlaceUnroofed>
+  <MustPlaceHeadOnShipBeam>Debe situarse con la cabeza adjunta a la viga estructural de la nave.</MustPlaceHeadOnShipBeam>
+  <MustPlaceNextToHopperAccepter>Debe situarse junto a algo que necesite una tolva.</MustPlaceNextToHopperAccepter>
+  <MustPlaceOnSteamGeyser>Debe situarse directamente encima de un géiser de vapor.</MustPlaceOnSteamGeyser>
+  
+  <!-- Cryptosleep pod -->
+  <PodContains>Contiene</PodContains>
+  
+    <!-- Ship launch report -->
+  <ShipReportCannotLaunch>No puede despegar.</ShipReportCannotLaunch>
+  <ShipReportCanLaunch>Listo para despegar.</ShipReportCanLaunch>
+  <ShipReportMissingPart>Faltan componentes críticos.</ShipReportMissingPart>
+  <ShipReportNoFullPods>Cámaras de éstasis vacías.</ShipReportNoFullPods>
+  
+    <!-- Game over -->
+  <GameOverEveryoneDead>Todos han muerto o han abandonado la colonia. Esta historia ha llegado a su final.\n\nQuizás alguien pueda sacar provecho de las ruinas de este lugar.</GameOverEveryoneDead>
+  <GameOverShipLaunched>¡Lanzásteis la nave! Los siguientes colonos han escapado:\n\n{0}\n Los siguientes colonos fueron abandonados:\n\n{1}\nLa IA intentará guiar la nave espacial a un lugar seguro. Podría depositaros en un planeta mejor de este mismo sistema. O quizás se embarque en un viaje centenario hacia otra estrella. Podría incluso decidir esconderse bajo el hielo de algún asteroide durante unos cuantos milenios, aguardando una época mejor.\n\nLo descubriréis cuando despertéis.</GameOverShipLaunched>
+  <GameOverKeepPlaying>Seguir jugando</GameOverKeepPlaying>
+  <GameOverMainMenu>Menú principal</GameOverMainMenu>
   
 </LanguageData>
