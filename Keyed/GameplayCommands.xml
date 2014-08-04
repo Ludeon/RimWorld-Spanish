@@ -23,6 +23,7 @@
 
   <CommandBedSetForPrisonersLabel>Asignar para prisioneros</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc> Asigna las camas de esta habitación para uso prisionero.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>No puedes asignar camas en el exterior para uso prisionero.</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetForColonistsLabel>Asignar para colonos</CommandBedSetForColonistsLabel>
   <CommandBedSetForColonistsDesc> Asigna las camas de esta habitación para uso colono.</CommandBedSetForColonistsDesc>
   <TurningOnPrisonerBedWarning>Activar el modo prisionero afecta a toda la habitación, pues colonos y prisioneros no pueden compartir dormitorio.\n\nEsta gente perderá sus camas:</TurningOnPrisonerBedWarning>
@@ -43,6 +44,29 @@
 
   <CommandDeleteZoneDesc>Borrar esta zona.</CommandDeleteZoneDesc>
   <CommandDeleteZoneLabel>Borrar</CommandDeleteZoneLabel>
+    
+  
+  <!-- Artillery -->
+  <CommandSetForceAttackTarget>Forzar ataque</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTargetDesc>Asigna un objetivo que ésta torreta deberá atacar continuadamente mientras le sea posible.</CommandSetForceAttackTargetDesc>
+  <CommandStopForceAttack>Dejar de forzar el ataque</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>Detiene el ataque forzado y permite a la torreta disparar libremente.</CommandStopForceAttackDesc>
+  <CommandStopAttackFailNotForceAttacking>Actualmente no se está forzando el ataque.</CommandStopAttackFailNotForceAttacking>
+  <MessageTargetBeyondMaximumRange>El objetivo está más allá del alcance máximo.</MessageTargetBeyondMaximumRange>
+  <MessageTargetBelowMinimumRange>El objetivo está por debajo del alcance mínimo.</MessageTargetBelowMinimumRange>
+  
+  
+  <!-- Ship computer core -->
+  <CommandShipLaunch>Lanzar nave</CommandShipLaunch>
+  <CommandShipLaunchDesc>Inicia la secuencia de lanzamiento de la nave usando la configuración actual.</CommandShipLaunchDesc>
+  <CommandShipLaunchReport>Mostrar el informe de lanzamiento</CommandShipLaunchReport>
+  <CommandShipLaunchReportDesc>Muestra un informe sobre la capacidad de la nave para el lanzamiento.</CommandShipLaunchReportDesc>
+
+
+  <!-- Pod -->
+  <CommandPodEject>Eyectar durmiente</CommandPodEject>
+  <CommandPodEjectDesc>Despierta a los criodurmientes y los eyecta.</CommandPodEjectDesc>
+  <CommandPodEjectFailEmpty>No contiene a nadie.</CommandPodEjectFailEmpty>
   
   
 </LanguageData>
