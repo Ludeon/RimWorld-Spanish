@@ -18,14 +18,24 @@
   <CompiledOn>Compilado {0}</CompiledOn>
 
 	<MeatLabel>carne de {0}</MeatLabel>
-  <MeatDesc>Carne cruda de un {0}.</MeatDesc>
+  <MeatDesc>Carne cruda de un/a {0}.</MeatDesc>
+  
+  <LeatherLabel>cuero de {0}</LeatherLabel>
+  <LeatherDesc>Cuero hecho con la piel de un/a {0}.</LeatherDesc>
 
-	<CorpseLabel>cadáver de {0}</CorpseLabel>
-	<CorpseDesc>El cuerpo sin vida de un {0}.</CorpseDesc>
+  <CorpseLabel>cadáver de {0}</CorpseLabel>
+  	<CorpseDesc>El cuerpo sin vida de un/a {0}.</CorpseDesc>
+  <DeadLabel>{0} (muerto)</DeadLabel>
 
 
 	<BlueprintLabelExtra> (cianotipo)</BlueprintLabelExtra>
   <FrameLabelExtra> (armazón)</FrameLabelExtra>
+  
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
+  <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
+
+  <VariousLabel>(varios)</VariousLabel>
     
     
   <!-- History events -->
