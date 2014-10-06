@@ -1,0 +1,1994 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+	<activities>
+		<li>Manipulation_way1</li>
+	</activities>
+	
+	means that this body part is responsible for Manipulation activity in group "way1".
+	Efficiency of Pawn activity X is minimum of all X activity groups efficiency values.
+	X activity group efficiency is average value of all body parts efficiency values responsible for this activity in this group.
+	
+	So if there are body parts responsible for (1)Manipulation_foo, (2)Manipulation_foo, (1)Manipulation_bar, (2)Manipulation_bar
+	then Manipulation efficiency is min(avg((1)Manipulation_foo, (2)Manipulation_foo), avg((1)Manipulation_bar, (2)Manipulation_bar))
+-->
+
+<BodyPartDefs>
+
+  <!-- base -->
+
+  <BodyPartDef>
+    <defName>Head</defName>
+    <label>head</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Skull</defName>
+    <label>skull</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Brain</defName>
+    <label>brain</label>
+	<health>10</health>
+	<oldInjuryBaseChance>1</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Consciousness_brain</li>
+		<li>Sight_brain</li>
+		<li>Hearing_brain</li>
+		<li>Moving_brain</li>
+		<li>Manipulation_brain</li>
+	</activities>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftEye</defName>
+    <label>left eye</label>
+	<health>10</health>
+	<oldInjuryBaseChance>1</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<useDestroyedOutLabel>true</useDestroyedOutLabel>
+	<activities>
+		<li>Sight_source</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightEye</defName>
+    <label>right eye</label>
+	<health>10</health>
+	<oldInjuryBaseChance>1</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<useDestroyedOutLabel>true</useDestroyedOutLabel>
+	<activities>
+		<li>Sight_source</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftEar</defName>
+    <label>left ear</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Hearing_source</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightEar</defName>
+    <label>right ear</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Hearing_source</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Nose</defName>
+    <label>nose</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Jaw</defName>
+    <label>jaw</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Eating_source</li>
+		<li>Talking_source</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Neck</defName>
+    <label>neck</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<bleedingRateMultiplier>1.3</bleedingRateMultiplier>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Breathing_way</li>
+		<li>Eating_way</li>
+		<li>Talking_way</li>
+	</activities>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Torso</defName>
+    <label>torso</label>
+	<health>40</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>LeftClavicle</defName>
+	<label>left clavicle</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_clavicle</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RightClavicle</defName>
+	<label>right clavicle</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_clavicle</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>Sternum</defName>
+	<label>sternum</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>Rib</defName>
+	<label>rib</label>
+	<health>8</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>LeftHumerus</defName>
+	<label>left humerus</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_humerus</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RightHumerus</defName>
+	<label>right humerus</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_humerus</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>LeftRadius</defName>
+	<label>left radius</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_radius</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RightRadius</defName>
+	<label>right radius</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_radius</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>Pelvis</defName>
+	<label>pelvis</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_pelvis</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>LeftFemur</defName>
+	<label>left femur</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_femur</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RightFemur</defName>
+	<label>right femur</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_femur</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>LeftTibia</defName>
+	<label>left tibia</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tibia</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RightTibia</defName>
+	<label>right tibia</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tibia</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Heart</defName>
+    <label>heart</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<bleedingRateMultiplier>1.5</bleedingRateMultiplier>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>BloodPumping</li>
+	</activities>
+	<spawnThingOnRemoved>Heart</spawnThingOnRemoved>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftLung</defName>
+    <label>left lung</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<bleedingRateMultiplier>1.3</bleedingRateMultiplier>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Breathing_main</li>
+	</activities>
+	<spawnThingOnRemoved>Lung</spawnThingOnRemoved>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightLung</defName>
+    <label>right lung</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<bleedingRateMultiplier>1.3</bleedingRateMultiplier>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Breathing_main</li>
+	</activities>
+	<spawnThingOnRemoved>Lung</spawnThingOnRemoved>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftKidney</defName>
+    <label>left kidney</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<bleedingRateMultiplier>1.3</bleedingRateMultiplier>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>BloodFiltration_kidney</li>
+	</activities>
+	<spawnThingOnRemoved>Kidney</spawnThingOnRemoved>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightKidney</defName>
+    <label>right kidney</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<bleedingRateMultiplier>1.3</bleedingRateMultiplier>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>BloodFiltration_kidney</li>
+	</activities>
+	<spawnThingOnRemoved>Kidney</spawnThingOnRemoved>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Liver</defName>
+    <label>liver</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<bleedingRateMultiplier>1.3</bleedingRateMultiplier>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Metabolism</li>
+		<li>BloodFiltration_liver</li>
+	</activities>
+	<spawnThingOnRemoved>Liver</spawnThingOnRemoved>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Stomach</defName>
+    <label>stomach</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<bleedingRateMultiplier>1.4</bleedingRateMultiplier>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Eating_digestion</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Spine</defName>
+    <label>spine</label>
+	<health>35</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_spine</li>
+		<li>Manipulation_spine</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftShoulder</defName>
+    <label>left shoulder</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_way0</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftArm</defName>
+    <label>left arm</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_way1</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHand</defName>
+    <label>left hand</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_way2</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHandPinky</defName>
+    <label>left hand pinky</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHandRingFinger</defName>
+    <label>left hand ring finger</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHandMiddleFinger</defName>
+    <label>left hand middle finger</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHandIndexFinger</defName>
+    <label>left hand index finger</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHandThumb</defName>
+    <label>left hand thumb</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightShoulder</defName>
+    <label>right shoulder</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_way0</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightArm</defName>
+    <label>right arm</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_way1</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightHand</defName>
+    <label>right hand</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_way2</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightHandPinky</defName>
+    <label>right hand pinky</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightHandRingFinger</defName>
+    <label>right hand ring finger</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightHandMiddleFinger</defName>
+    <label>right hand middle finger</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightHandIndexFinger</defName>
+    <label>right hand index finger</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightHandThumb</defName>
+    <label>right hand thumb</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftLeg</defName>
+    <label>left leg</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_leftWay1</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftFoot</defName>
+    <label>left foot</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_way2</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftFootLittleToe</defName>
+    <label>left foot little toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftFootFourthToe</defName>
+    <label>left foot fourth toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftFootMiddleToe</defName>
+    <label>left foot middle toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftFootSecondToe</defName>
+    <label>left foot second toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftFootBigToe</defName>
+    <label>left foot big toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightLeg</defName>
+    <label>right leg</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_rightWay1</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightFoot</defName>
+    <label>right foot</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_way2</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightFootLittleToe</defName>
+    <label>right foot little toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightFootFourthToe</defName>
+    <label>right foot fourth toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightFootMiddleToe</defName>
+    <label>right foot middle toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightFootSecondToe</defName>
+    <label>right foot second toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightFootBigToe</defName>
+    <label>right foot big toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <!-- animal -->
+  
+  <BodyPartDef>
+    <defName>InsectHead</defName>
+    <label>head</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>SnakeBody</defName>
+	<label>body</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_body</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>SnakeHead</defName>
+    <label>head</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Hearing_head</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>SnakeMouth</defName>
+    <label>mouth</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Eating_source</li>
+		<li>Talking_source</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>InsectHeart</defName>
+    <label>heart</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<bleedingRateMultiplier>1.5</bleedingRateMultiplier>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>BloodPumping</li>
+		<li>BloodFiltration</li>
+		<li>Metabolism</li>
+		<li>Breathing</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>InsectNostril</defName>
+    <label>nostril</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>InsectMouth</defName>
+    <label>mouth</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Eating_source</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>Body</defName>
+	<label>body</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>Jowl</defName>
+	<label>jowl</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>Tail</defName>
+	<label>tail</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>LeftAntenna</defName>
+	<label>left antenna</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RightAntenna</defName>
+	<label>right antenna</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+  </BodyPartDef>
+
+  <BodyPartDef>
+	<defName>Pronotum</defName>
+	<label>pronotum</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Breathing_way</li>
+		<li>Eating_way</li>
+		<li>Talking_way</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>Shell</defName>
+	<label>shell</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>LeftElytra</defName>
+	<label>left elytra</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RightElytra</defName>
+	<label>right elytra</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>LeftTusk</defName>
+    <label>left tusk</label>
+    <health>20</health>
+    <oldInjuryBaseChance>0.2</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightTusk</defName>
+    <label>right tusk</label>
+    <health>20</health>
+    <oldInjuryBaseChance>0.2</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>Horn</defName>
+    <label>horn</label>
+    <health>20</health>
+    <oldInjuryBaseChance>0.2</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>Hump</defName>
+    <label>hump</label>
+    <health>20</health>
+    <oldInjuryBaseChance>0.1</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+    <isSolid>false</isSolid>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>TurtleShell</defName>
+    <label>shell</label>
+    <health>50</health>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>Plastron</defName>
+    <label>plastron</label>
+    <health>20</health>
+    <oldInjuryBaseChance>0.03</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>TurtleBeak</defName>
+    <label>beak</label>
+    <health>10</health>
+    <oldInjuryBaseChance>0.03</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+    <isSolid>false</isSolid>
+  </BodyPartDef>
+
+
+  <!-- animals legs -->
+
+  <BodyPartDef>
+	<defName>FrontLeftLeg</defName>
+	<label>front left leg</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_leftWay</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontRightLeg</defName>
+	<label>front right leg</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_rightWay</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>MiddleLeftLeg</defName>
+	<label>middle left leg</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_leftWay</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>MiddleRightLeg</defName>
+	<label>middle right leg</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_rightWay</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearLeftLeg</defName>
+	<label>rear left leg</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_leftWay</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearRightLeg</defName>
+	<label>rear right leg</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_rightWay</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontLeftInsectLeg</defName>
+	<label>front left leg</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Moving_leftWay</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontRightInsectLeg</defName>
+	<label>front right leg</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Moving_rightWay</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>MiddleLeftInsectLeg</defName>
+	<label>middle left leg</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Moving_leftWay</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>MiddleRightInsectLeg</defName>
+	<label>middle right leg</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Moving_rightWay</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearLeftInsectLeg</defName>
+	<label>rear left leg</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Moving_leftWay</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearRightInsectLeg</defName>
+	<label>rear right leg</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<activities>
+		<li>Moving_rightWay</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontLeftPaw</defName>
+	<label>front left paw</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontRightPaw</defName>
+	<label>front right paw</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearLeftPaw</defName>
+	<label>rear left paw</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearRightPaw</defName>
+	<label>rear right paw</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontLeftHoof</defName>
+	<label>front left hoof</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontRightHoof</defName>
+	<label>front right hoof</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearLeftHoof</defName>
+	<label>rear left hoof</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearRightHoof</defName>
+	<label>rear right hoof</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontLeftLegFirstClaw</defName>
+	<label>front left leg first claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontLeftLegSecondClaw</defName>
+	<label>front left leg second claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontLeftLegThirdClaw</defName>
+	<label>front left leg third claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontLeftLegFourthClaw</defName>
+	<label>front left leg fourth claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontLeftLegFifthClaw</defName>
+	<label>front left leg fifth claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontRightLegFirstClaw</defName>
+	<label>front right leg first claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontRightLegSecondClaw</defName>
+	<label>front right leg second claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontRightLegThirdClaw</defName>
+	<label>front right leg third claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontRightLegFourthClaw</defName>
+	<label>front right leg fourth claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>FrontRightLegFifthClaw</defName>
+	<label>front right leg fifth claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearLeftLegFirstClaw</defName>
+	<label>rear left leg first claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearLeftLegSecondClaw</defName>
+	<label>rear left leg second claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearLeftLegThirdClaw</defName>
+	<label>rear left leg third claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearLeftLegFourthClaw</defName>
+	<label>rear left leg fourth claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearLeftLegFifthClaw</defName>
+	<label>rear left leg fifth claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearRightLegFirstClaw</defName>
+	<label>rear right leg first claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearRightLegSecondClaw</defName>
+	<label>rear right leg second claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearRightLegThirdClaw</defName>
+	<label>rear right leg third claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearRightLegFourthClaw</defName>
+	<label>rear right leg fourth claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>RearRightLegFifthClaw</defName>
+	<label>rear right leg fifth claw</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <!-- mechanical -->
+  
+  <BodyPartDef>
+    <defName>MechanicalThorax</defName>
+    <label>thorax</label>
+	<health>40</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftKnifeProtrusion</defName>
+    <label>left knife protrusion</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<spawnThingOnRemoved>ScytherKnifeProtrusion</spawnThingOnRemoved>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightKnifeProtrusion</defName>
+    <label>right knife protrusion</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<spawnThingOnRemoved>ScytherKnifeProtrusion</spawnThingOnRemoved>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>MechanicalNeck</defName>
+    <label>neck</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Talking</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>MechanicalHead</defName>
+    <label>head</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftSightSensor</defName>
+    <label>left sight sensor</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<useDestroyedOutLabel>true</useDestroyedOutLabel>
+	<activities>
+		<li>Sight_source</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightSightSensor</defName>
+    <label>right sight sensor</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<useDestroyedOutLabel>true</useDestroyedOutLabel>
+	<activities>
+		<li>Sight_source</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHearingSensor</defName>
+    <label>left hearing sensor</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Hearing_source</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightHearingSensor</defName>
+    <label>right hearing sensor</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Hearing_source</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>SmellSensor</defName>
+    <label>smell sensor</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftMechanicalShoulder</defName>
+    <label>left shoulder</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_way0</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftMechanicalArm</defName>
+    <label>left arm</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_way1</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftMechanicalHand</defName>
+    <label>left hand</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_way2</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHandMechanicalPinky</defName>
+    <label>left hand pinky</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHandMechanicalRingFinger</defName>
+    <label>left hand ring finger</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHandMechanicalMiddleFinger</defName>
+    <label>left hand middle finger</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHandMechanicalIndexFinger</defName>
+    <label>left hand index finger</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHandMechanicalThumb</defName>
+    <label>left hand thumb</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightMechanicalShoulder</defName>
+    <label>right shoulder</label>
+	<health>25</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_way0</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightMechanicalArm</defName>
+    <label>right arm</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_way1</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightMechanicalHand</defName>
+    <label>right hand</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_way2</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightHandMechanicalPinky</defName>
+    <label>right hand pinky</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightHandMechanicalRingFinger</defName>
+    <label>right hand ring finger</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightHandMechanicalMiddleFinger</defName>
+    <label>right hand middle finger</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightHandMechanicalIndexFinger</defName>
+    <label>right hand index finger</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightHandMechanicalThumb</defName>
+    <label>right hand thumb</label>
+	<health>7</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftMechanicalLeg</defName>
+    <label>left leg</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_leftWay1</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftMechanicalFoot</defName>
+    <label>left foot</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_way2</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftFootMechanicalLittleToe</defName>
+    <label>left foot little toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftFootMechanicalFourthToe</defName>
+    <label>left foot fourth toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftFootMechanicalMiddleToe</defName>
+    <label>left foot middle toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftFootMechanicalSecondToe</defName>
+    <label>left foot second toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftFootMechanicalBigToe</defName>
+    <label>left foot big toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightMechanicalLeg</defName>
+    <label>right leg</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_rightWay1</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightMechanicalFoot</defName>
+    <label>right foot</label>
+	<health>20</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_way2</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightFootMechanicalLittleToe</defName>
+    <label>right foot little toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightFootMechanicalFourthToe</defName>
+    <label>right foot fourth toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightFootMechanicalMiddleToe</defName>
+    <label>right foot middle toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightFootMechanicalSecondToe</defName>
+    <label>right foot second toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>RightFootMechanicalBigToe</defName>
+    <label>right foot big toe</label>
+	<health>10</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>MechanicalCentipedeBodyFirstRing</defName>
+	<label>first body ring</label>
+	<health>100</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>MechanicalCentipedeBodySecondRing</defName>
+	<label>second body ring</label>
+	<health>85</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>MechanicalCentipedeBodyThirdRing</defName>
+	<label>third body ring</label>
+	<health>70</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>MechanicalCentipedeBodyFourthRing</defName>
+	<label>fourth body ring</label>
+	<health>55</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>MechanicalCentipedeBodyFifthRing</defName>
+	<label>fifth body ring</label>
+	<health>40</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>MechanicalCentipedeBodySixthRing</defName>
+	<label>sixth body ring</label>
+	<health>100</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Moving_tool</li>
+		<li>Manipulation_tool</li>
+	</activities>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>ArtificialBrain</defName>
+	<label>artificial brain</label>
+	<health>30</health>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<activities>
+		<li>Consciousness_brain</li>
+	</activities>
+  </BodyPartDef>
+
+</BodyPartDefs>

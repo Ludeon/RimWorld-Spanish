@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+
+
+
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>PowerConduit</defName>
+    <eType>Building_PowerConduit</eType>
+    <label>power conduit</label>
+    <thingClass>Building</thingClass>
+    <linkDrawerType>Transmitter</linkDrawerType>
+    <linkFlags>
+      <li>PowerConduit</li>
+    </linkFlags>
+    <category>Building</category>
+    <graphicPathSingle>Things/Building/Linked/PowerConduit_Atlas</graphicPathSingle>
+    <blueprintgraphicPathSingle>Things/Building/Linked/PowerConduit_Blueprint_Atlas</blueprintgraphicPathSingle>
+    <uiIconPath>Things/Building/Linked/PowerConduit_MenuIcon</uiIconPath>
+    <building>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+    <statBases>
+      <MaxHealth>80</MaxHealth>
+      <WorkToBuild>35</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-2</Beauty>
+    </statBases>
+    <description>A set of electrical cables for moving power around.</description>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <costList>
+      <Metal>1</Metal>
+    </costList>
+    <comps>
+      <li>
+        <compClass>CompPowerTransmitter</compClass>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>U</designationHotKey>
+  </ThingDef>
+
+
+
+
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>SolarGenerator</defName>
+    <eType>BuildingComplex</eType>
+    <label>solar generator</label>
+    <thingClass>Building_PowerPlantSolar</thingClass>
+    <graphicPathSingle>Things/Building/SolarCollector</graphicPathSingle>
+    <altitudeLayer>Waist</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.5</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <statBases>
+      <MaxHealth>300</MaxHealth>
+      <WorkToBuild>1650</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>Produces electricity from sunlight. Does not work in the dark.</description>
+    <size>(4,4)</size>
+    <building>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <costList>
+      <Metal>80</Metal>
+    </costList>
+    <overdraw>false</overdraw>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>-1</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <killedLeavings>
+      <ChunkSlag>8</ChunkSlag>
+    </killedLeavings>
+    <filthLeavings>
+      <SlagRubble>2</SlagRubble>
+  </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>GeothermalGenerator</defName>
+    <eType>Building_PowerPlantGeothermal</eType>
+    <label>geothermal generator</label>
+    <thingClass>Building_PowerPlantSteam</thingClass>
+    <graphicPathSingle>Things/Building/GeothermalPlant</graphicPathSingle>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <statBases>
+      <MaxHealth>500</MaxHealth>
+      <WorkToBuild>3300</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-40</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>Produces electricity from geothermal steam geysers. Must be placed on a geyser.</description>
+    <size>(6,6)</size>
+    <costList>
+      <Metal>300</Metal>
+    </costList>
+    <overdraw>false</overdraw>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>-3600</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <killedLeavings>
+      <ChunkSlag>16</ChunkSlag>
+    </killedLeavings>
+    <filthLeavings>
+      <SlagRubble>3</SlagRubble>
+    </filthLeavings>
+    <rotatable>false</rotatable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <placementRestricters>
+      <li>PlacementRestricter_OnSteamGeyser</li>
+    </placementRestricters>
+    <building>
+      <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Battery</defName>
+    <eType>Building_Battery</eType>
+    <label>battery</label>
+    <thingClass>Building_Battery</thingClass>
+    <graphicPathSingle>Things/Building/Battery</graphicPathSingle>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <MaxHealth>100</MaxHealth>
+      <WorkToBuild>650</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-6</Beauty>
+    </statBases>
+    <description>Stores electricity when there is excess power and yields it when there is not. Warning - charged batteries tend to explode when heated or wet.</description>
+    <size>(1,2)</size>
+    <building>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <costList>
+      <Metal>50</Metal>
+    </costList>
+    <overdraw>false</overdraw>
+    <comps>
+      <li>
+        <compClass>CompPowerBattery</compClass>
+        <storedEnergyMax>1000</storedEnergyMax>
+        <efficiency>0.5</efficiency>
+        <startElectricalFires>true</startElectricalFires>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <killedLeavings>
+      <ChunkSlag>1</ChunkSlag>
+    </killedLeavings>
+    <filthLeavings>
+      <SlagRubble>2</SlagRubble> 
+    </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+  </ThingDef>
+
+
+
+
+
+
+
+
+</Buildings>

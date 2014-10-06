@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Sandbags</defName>
+    <eType>BuildingInert</eType>
+    <label>sandbags</label>
+    <thingClass>Building</thingClass>
+    <linkDrawerType>Basic</linkDrawerType>
+    <category>Building</category>
+    <graphicPathSingle>Things/Building/Linked/Sandbags_Atlas</graphicPathSingle>
+    <blueprintgraphicPathSingle>Things/Building/Linked/Sandbags_Blueprint_Atlas</blueprintgraphicPathSingle>
+    <uiIconPath>Things/Building/Linked/Sandbags_MenuIcon</uiIconPath>
+    <linkFlags>
+      <li>Sandbags</li>
+    </linkFlags>
+    <altitudeLayer>Waist</altitudeLayer>
+    <pathCost>60</pathCost>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.6</fillPercent>
+    <statBases>
+      <MaxHealth>450</MaxHealth>
+      <Beauty>-10</Beauty>
+      <WorkToBuild>180</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <description>Cover from gunfire.</description>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <costList>
+      <Metal>3</Metal>
+    </costList>
+    <filthLeavings>
+      <SandbagRubble>2</SandbagRubble>
+    </filthLeavings>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <constructEffect>ConstructDirt</constructEffect>
+    <repairEffect>ConstructDirt</repairEffect>
+    <designationHotKey>B</designationHotKey>
+  </ThingDef>
+
+
+
+  <!--=============== Improvised turret ===============-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>TurretGun</defName>
+    <eType>Building_Turret</eType>
+    <label>improvised turret</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicPathSingle>Things/Building/Security/TurretImprovised</graphicPathSingle>
+    <altitudeLayer>Waist</altitudeLayer>
+    <statBases>
+      <MaxHealth>140</MaxHealth>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>2500</WorkToBuild>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li>
+        <compClass>CompExplosive</compClass>
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+    </comps>
+    <description>A weak improvised turret that automatically fires at nearby enemies. Explodes when damaged.</description>
+    <size>(1,1)</size>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.4</fillPercent>
+    <overdraw>true</overdraw>
+    <costList>
+      <Metal>160</Metal>
+    </costList>
+    <combatTargetBuilding>true</combatTargetBuilding>
+    <filthLeavings>
+      <SlagRubble>1</SlagRubble>
+    </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>25.9</specialDisplayRadius>
+    <building>
+      <turretGunDef>Gun_TurretImprovised</turretGunDef>
+      <turretburstCooldownTicks>400</turretburstCooldownTicks>
+      <turretTopgraphicPathSingle>Things/Building/Security/TurretImprovised_Top</turretTopgraphicPathSingle>
+    </building>
+    <designationHotKey>U</designationHotKey>
+  </ThingDef>
+
+
+  <!--=============== Mortar turret ===============-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>Turret_MortarIncendiary</defName>
+    <eType>Building_Turret</eType>
+    <label>incendiary mortar</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicPathSingle>Things/Building/Security/TurretMortarBase</graphicPathSingle>
+    <altitudeLayer>Waist</altitudeLayer>
+    <hasInteractionSquare>True</hasInteractionSquare>
+    <interactionSquareOffset>(0,0,-1)</interactionSquareOffset>
+    <statBases>
+      <MaxHealth>180</MaxHealth>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>2700</WorkToBuild>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li>
+        <compClass>CompExplosive</compClass>
+        <explosiveRadius>4.9</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+      </li>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+      <li>
+        <compClass>CompMannable</compClass>
+      </li>
+    </comps>
+    <description>A mortar that launches incendiary shells. Must be manned. Explodes when damaged.</description>
+    <size>(2,2)</size>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.4</fillPercent>
+    <costList>
+      <Metal>250</Metal>
+    </costList>
+    <overdraw>true</overdraw>
+    <combatTargetBuilding>true</combatTargetBuilding>
+    <filthLeavings>
+      <SlagRubble>2</SlagRubble>
+    </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <turretGunDef>Artillery_MortarIncendiary</turretGunDef>
+      <turretBurstWarmupTicks>300</turretBurstWarmupTicks>
+      <turretburstCooldownTicks>3000</turretburstCooldownTicks>
+      <turretTopgraphicPathSingle>Things/Building/Security/TurretMortarIncendiary_Top</turretTopgraphicPathSingle>
+      <buildingTags>
+        <li>Artillery</li>
+        <li>Artillery_BaseDestroyer</li>
+      </buildingTags>
+    </building>
+    <designationHotKey>U</designationHotKey>
+    <placementRestricters>
+      <li>PlacementRestricter_NotUnderRoof</li>
+    </placementRestricters>
+    <researchPrerequisite>Mortars</researchPrerequisite>
+  </ThingDef>
+
+
+
+
+
+  <!--=============== Mortar turret ===============-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>Turret_MortarBomb</defName>
+    <eType>Building_Turret</eType>
+    <label>mortar</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicPathSingle>Things/Building/Security/TurretMortarBase</graphicPathSingle>
+    <altitudeLayer>Waist</altitudeLayer>
+    <hasInteractionSquare>True</hasInteractionSquare>
+    <interactionSquareOffset>(0,0,-1)</interactionSquareOffset>
+    <statBases>
+      <MaxHealth>180</MaxHealth>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>2700</WorkToBuild>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li>
+        <compClass>CompExplosive</compClass>
+        <explosiveRadius>4.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+      <li>
+        <compClass>CompMannable</compClass>
+      </li>
+    </comps>
+    <description>A mortar that launches explosive shells. Must be manned. Explodes when damaged.</description>
+    <size>(2,2)</size>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.4</fillPercent>
+    <costList>
+      <Metal>250</Metal>
+    </costList>
+    <overdraw>true</overdraw>
+    <combatTargetBuilding>true</combatTargetBuilding>
+    <filthLeavings>
+      <SlagRubble>2</SlagRubble>
+    </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <turretGunDef>Artillery_MortarBomb</turretGunDef>
+      <turretBurstWarmupTicks>300</turretBurstWarmupTicks>
+      <turretburstCooldownTicks>3000</turretburstCooldownTicks>
+      <turretTopgraphicPathSingle>Things/Building/Security/TurretMortarBomb_Top</turretTopgraphicPathSingle>
+      <buildingTags>
+        <li>Artillery</li>
+        <li>Artillery_BaseDestroyer</li>
+      </buildingTags>
+    </building>
+    <designationHotKey>U</designationHotKey>
+    <placementRestricters>
+      <li>PlacementRestricter_NotUnderRoof</li>
+    </placementRestricters>
+    <researchPrerequisite>Mortars</researchPrerequisite>
+  </ThingDef>
+
+  <!--=============== Mortar turret ===============-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>Turret_MortarEMP</defName>
+    <eType>Building_Turret</eType>
+    <label>EMP mortar</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicPathSingle>Things/Building/Security/TurretMortarBase</graphicPathSingle>
+    <altitudeLayer>Waist</altitudeLayer>
+    <hasInteractionSquare>True</hasInteractionSquare>
+    <interactionSquareOffset>(0,0,-1)</interactionSquareOffset>
+    <statBases>
+      <MaxHealth>180</MaxHealth>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>2700</WorkToBuild>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li>
+        <compClass>CompExplosive</compClass>
+        <explosiveRadius>4.9</explosiveRadius>
+        <explosiveDamageType>EMP</explosiveDamageType>
+      </li>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+      <li>
+        <compClass>CompMannable</compClass>
+      </li>
+    </comps>
+    <description>A mortar that launches EMP bombs. Must be manned. Explodes when damaged.</description>
+    <size>(2,2)</size>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.4</fillPercent>
+    <costList>
+      <Metal>250</Metal>
+     </costList>
+    <overdraw>true</overdraw>
+    <combatTargetBuilding>true</combatTargetBuilding>
+    <filthLeavings>
+      <SlagRubble>2</SlagRubble>
+    </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <turretGunDef>Artillery_MortarEMP</turretGunDef>
+      <turretBurstWarmupTicks>300</turretBurstWarmupTicks>
+      <turretburstCooldownTicks>3000</turretburstCooldownTicks>
+      <turretTopgraphicPathSingle>Things/Building/Security/TurretMortarEMP_Top</turretTopgraphicPathSingle>
+      <buildingTags>
+        <li>Artillery</li>
+      </buildingTags>
+    </building>
+    <placementRestricters>
+      <li>PlacementRestricter_NotUnderRoof</li>
+    </placementRestricters>
+    <researchPrerequisite>Mortars</researchPrerequisite>
+  </ThingDef>
+
+</ThingDefs>

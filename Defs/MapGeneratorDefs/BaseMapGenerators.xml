@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MapGenerators>
+
+	<!-- It's basically just a series of steps, each of which does something different.
+			Some of them refer to each opther. Specifically, some great abstract "FloatGrids", which are not part of the map,
+			but which are used by later generation steps. -->
+
+	<MapGeneratorDef>
+		<defName>StandardMapGenerator</defName>
+    <gensteps>
+      
+      <!-- Generate Elevation and fertility grids-->
+      <li Class="Genstep_ElevationFertility" />
+      
+      <!-- Create rocks from Elevation grid -->
+      <li Class="Genstep_RocksFromGrid" />    
+
+      <!-- Determine the terrain from the Elevation as well as world square fertility-->
+      <li Class="Genstep_Terrain"/>
+
+      <!-- Scatter loose rocks -->
+      <li Class="Genstep_RockChunks"/>
+
+      <!-- Steam geysers -->
+      <li Class="Genstep_ScatterThings">
+        <thingDefs>
+          <li>SteamGeyser</li>
+        </thingDefs>
+        <minSpacing>35</minSpacing>
+        <extraNoBuildEdgeDist>4</extraNoBuildEdgeDist>
+        <countPer10kCellsRange>
+          <min>0.7</min>
+          <max>1.0</max>
+        </countPer10kCellsRange>
+        <clearSpaceSize>30</clearSpaceSize>
+        <minDistToPlayerStart>15</minDistToPlayerStart>
+        <neededSurfaceType>Heavy</neededSurfaceType>
+      </li>
+
+      <!-- Add simple stone ruins -->
+      <li Class="Genstep_ScatteredRuinsSimple">
+        <countPer10kCellsRange>
+          <min>1</min>
+          <max>4</max>
+        </countPer10kCellsRange>
+        <shedSizeRange>
+          <min>3</min>
+          <max>10</max>
+        </shedSizeRange>
+        <wallLengthRange>
+          <min>4</min>
+          <max>14</max>
+        </wallLengthRange>
+      </li>
+
+      
+      
+ 
+
+    </gensteps>
+
+	</MapGeneratorDef>
+
+</MapGenerators>

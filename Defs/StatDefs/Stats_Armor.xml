@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <StatDef Name="DamageDeflectionBase" Abstract="True">
+    <category>Armor</category>
+    <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <hideAtValue>0</hideAtValue>
+  </StatDef>
+
+
+  <StatDef ParentName="DamageDeflectionBase">
+    <defName>DamageDeflection_Blunt</defName>
+    <label>Armor - Blunt</label>
+    <description>The chance to prevent blunt damage like club attacks, rock falls, and explosions.</description>
+  </StatDef>
+
+  <StatDef ParentName="DamageDeflectionBase">
+    <defName>DamageDeflection_Piercing</defName>
+    <label>Armor - Piercing</label>
+    <description>The chance to prevent piercing damage like bullets, knife stabs, and animal bites.</description>
+  </StatDef>
+
+  <StatDef ParentName="DamageDeflectionBase">
+    <defName>DamageDeflection_Heat</defName>
+    <label>Armor - Heat</label>
+    <description>The chance to prevent temperature-related damage like burns.</description>
+  </StatDef>
+
+  <StatDef ParentName="DamageDeflectionBase">
+    <defName>DamageDeflection_Electric</defName>
+    <label>Armor - Electric </label>
+    <description>The chance to prevent electric damage like EMP pulses.</description>
+  </StatDef>
+
+  <StatDef ParentName="DamageDeflectionBase">
+    <defName>DamageDeflection_Toxic</defName>
+    <label>Armor - Toxic</label>
+    <description>The chance to prevent toxic damage.</description>
+  </StatDef>
+  
+
+</Defs>

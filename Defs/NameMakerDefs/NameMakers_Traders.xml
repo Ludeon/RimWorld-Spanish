@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+	<NameMakerDef>
+		<defName>NamerTraderGeneral</defName>
+		<patterns>
+      <li>BUSINESSNAME BUSINESSTYPE</li>
+      <li>BUSINESSNAME BUSINESSTYPE</li>
+      <li>BUSINESSNAME BUSINESSTYPE</li>
+      <li>BUSINESSNAME BUSINESSTYPE</li>
+      <li>COLOR ANIMAL BUSINESSTYPE</li>
+      <li>LETTERLETTER BUSINESSTYPE</li>
+		</patterns>
+		<patternFillers>
+      <li>
+        <keyString>BUSINESSNAME</keyString>
+        <fillInFiles>
+          <li>NameBanks/Names_Business</li>
+        </fillInFiles>
+      </li>
+      <li>
+        <keyString>BUSINESSTYPE</keyString>
+        <fillInFiles>
+          <li>NameBanks/Nouns_BusinessTypes</li>
+        </fillInFiles>
+      </li>
+      <li>
+        <keyString>COLOR</keyString>
+        <fillInFiles>
+          <li>NameBanks/Colors</li>
+        </fillInFiles>
+      </li>
+      <li>
+        <keyString>ANIMAL</keyString>
+        <fillInFiles>
+          <li>NameBanks/Nouns_Animals</li>
+        </fillInFiles>
+      </li>
+      <li>
+        <keyString>LETTER</keyString>
+        <fillInFiles>
+          <li>NameBanks/CapitalLetters</li>
+        </fillInFiles>
+      </li>
+		</patternFillers>
+	</NameMakerDef>
+</NameMakerDefs>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="BasePawn" Abstract="True">
+    <eType>Pawn </eType>
+    <thingClass>Pawn</thingClass>
+    <category>Pawn</category>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Pawn</altitudeLayer>
+    <useStandardHealth>false</useStandardHealth>
+    <hasTooltip>true</hasTooltip>
+    <soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
+    <inspectorTabs>
+      <li>ITab_Pawn_Thoughts</li>
+      <li>ITab_Pawn_Prisoner</li>
+      <li>ITab_Pawn_Gear</li>
+      <li>ITab_Pawn_Character</li>
+      <li>ITab_Pawn_Health</li>
+    </inspectorTabs>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+
+
+
+  <!-- ============================ Human ========================== -->
+
+  <ThingDef ParentName="BasePawn">
+    <defName>Human</defName>
+    <label>human</label>
+    <description>A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.</description>
+    <uiIconPath>Things/Pawn/Humanoid/UI/IconHuman</uiIconPath>
+    <sunShadowInfo>
+      <baseWidth>0.4</baseWidth>
+      <baseHeight>0.4</baseHeight>
+      <tallness>0.8</tallness>
+    </sunShadowInfo>
+    <baseMarketValue>500</baseMarketValue>
+    <statBases>
+      <MoveSpeed>4.61</MoveSpeed>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>7</meleeDamageAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftFist</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>7</meleeDamageAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>RightFist</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTree>Humanoid</thinkTree>
+      <humanoid>true</humanoid>
+      <isFlesh>true</isFlesh>
+      <hasLeather>true</hasLeather>
+      <leatherColor>(211,194,143)</leatherColor>
+      <nameCategory>HumanStandard</nameCategory>
+      <hasStory>true</hasStory>
+      <minFoodQuality>Raw</minFoodQuality>
+      <body>Human</body>
+      <bodySize>1</bodySize>
+      <healthScale>1</healthScale>
+      <diet>Omnivorous</diet>
+      <soundWounded>Pawn_Human_Wounded</soundWounded>
+      <soundDeath>Pawn_Human_Death</soundDeath>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+    </race>
+    <recipes>
+      <li>InstallPowerClaw</li>
+	  <li>InstallScytherKnifeProtrusion</li>
+      <li>InstallBionicEye</li>
+      <li>InstallBionicArm</li>
+      <li>InstallBionicLeg</li>
+      <li>InstallSimpleProstheticArm</li>
+      <li>InstallSimpleProstheticLeg</li>
+      <li>InstallPegLeg</li>
+      <li>InstallDenture</li>
+      <li>InstallNaturalHeart</li>
+      <li>InstallNaturalLung</li>
+      <li>InstallNaturalKidney</li>
+      <li>InstallNaturalLiver</li>
+      <li>RemoveBodyPart</li>
+	  <li>Euthanize</li>
+    </recipes>
+  </ThingDef>
+
+
+
+</ThingDefs>

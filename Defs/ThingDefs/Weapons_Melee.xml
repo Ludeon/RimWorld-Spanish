@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ThingDefs>
+
+  <ThingDef Name="BaseMeleeWeapon" Abstract="True">
+    <category>Item</category>
+    <eType>Equipment</eType>
+    <thingClass>Equipment</thingClass>
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useStandardHealth>True</useStandardHealth>
+    <selectable>True</selectable>
+    <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    <statBases>
+      <MaxHealth>100</MaxHealth>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <techLevel>Midworld</techLevel>
+    <weaponTags>
+      <li>Melee</li>
+    </weaponTags>
+    <storeCategories>
+      <li>Weapons</li>
+    </storeCategories>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- ============================================================== -->
+
+  <ThingDef ParentName="BaseMeleeWeapon">
+    <defName>MeleeWeapon_ShortSword</defName>
+    <label>short sword</label>
+    <description>Reliable and deadly in melee combat.</description>
+    <graphicPathSingle>Things/Item/Equipment/ShortSword</graphicPathSingle>
+    <soundInteract>InteractPistol</soundInteract>
+    <tradersCarry>True</tradersCarry>
+    <baseMarketValue>100</baseMarketValue>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>120</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageAmount>14</meleeDamageAmount>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon">
+    <defName>MeleeWeapon_Knife</defName>
+    <label>knife</label>
+    <description>A simple knife.</description>
+    <graphicPathSingle>Things/Item/Equipment/Knife</graphicPathSingle>
+    <soundInteract>InteractPistol</soundInteract>
+    <tradersCarry>True</tradersCarry>
+    <baseMarketValue>35</baseMarketValue>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageAmount>9</meleeDamageAmount>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon">
+    <defName>MeleeWeapon_Shiv</defName>
+    <label>shiv</label>
+    <description>An improvised knife-like weapon.</description>
+    <graphicPathSingle>Things/Item/Equipment/Shiv</graphicPathSingle>
+    <soundInteract>InteractPistol</soundInteract>
+    <tradersCarry>false</tradersCarry>
+    <baseMarketValue>20</baseMarketValue>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>90</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageAmount>8</meleeDamageAmount>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon">
+    <defName>MeleeWeapon_Spear</defName>
+    <label>spear</label>
+    <description>A polearm tipped with a sharp point for stabbing opponents in melee combat.</description>
+    <graphicPathSingle>Things/Item/Equipment/Spear</graphicPathSingle>
+    <soundInteract>InteractPistol</soundInteract>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>Neolithic</li>
+      <li>NeolithicMelee</li>
+    </weaponTags>
+    <tradersCarry>true</tradersCarry>
+    <baseMarketValue>100</baseMarketValue>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>135</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageAmount>15</meleeDamageAmount>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon">
+    <defName>MeleeWeapon_Club</defName>
+    <label>club</label>
+    <description>The oldest human weapon - a shaped piece of wood for bashing enemies to death. Primitive but effective.</description>
+    <graphicPathSingle>Things/Item/Equipment/Club</graphicPathSingle>
+    <soundInteract>InteractPistol</soundInteract>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>Neolithic</li>
+      <li>NeolithicMelee</li>
+    </weaponTags>
+    <tradersCarry>false</tradersCarry>
+    <baseMarketValue>25</baseMarketValue>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>130</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageAmount>14</meleeDamageAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+</ThingDefs>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThinkTrees>
+
+	<ThinkTreeDef>
+		<defName>HerbivoreStandard</defName>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="ThinkNode_Subtree">
+					<treeDef>BurningResponse</treeDef>
+				</li>
+				<li Class="ThinkNode_Subtree">
+					<treeDef>Psychotic</treeDef>
+				</li>
+				<li Class="ThinkNode_Subtree">
+					<treeDef>SelfDefense</treeDef>
+				</li>
+
+        <!-- Insertion hook for modders -->
+        <li Class="ThinkNode_SubtreesByTag">
+          <insertTag>HerbivoreStandard_PreSatisfyNeeds</insertTag>
+        </li>
+
+        <li Class="ThinkNode_SatisfyNeeds"/>
+
+        <!-- Insertion hook for modders -->
+        <li Class="ThinkNode_SubtreesByTag">
+          <insertTag>HerbivoreStandard_PreWander</insertTag>
+        </li>
+        
+				<li Class="JobGiver_WanderCurrentRoom"/>
+				<li Class="JobGiver_IdleError"/>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+
+
+	<ThinkTreeDef>
+		<defName>HerbivoreHerd</defName>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="ThinkNode_Subtree">
+					<treeDef>BurningResponse</treeDef>
+				</li>
+				<li Class="ThinkNode_Subtree">
+					<treeDef>Psychotic</treeDef>
+				</li>
+				<li Class="ThinkNode_Subtree">
+					<treeDef>SelfDefense</treeDef>
+				</li>
+
+        <!-- Insertion hook for modders -->
+        <li Class="ThinkNode_SubtreesByTag">
+          <insertTag>HerbivoreHerd_PreWander</insertTag>
+        </li>
+
+        <li Class="ThinkNode_SatisfyNeeds"/>
+
+        <!-- Insertion hook for modders -->
+        <li Class="ThinkNode_SubtreesByTag">
+          <insertTag>HerbivoreHerd_PreWander</insertTag>
+        </li>
+        
+				<li Class="JobGiver_WanderHerd"/>
+				<li Class="JobGiver_IdleError"/>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+
+</ThinkTrees>

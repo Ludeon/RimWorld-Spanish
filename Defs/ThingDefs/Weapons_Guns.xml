@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+  <ThingDef Name="BaseGun" Abstract="True">
+    <category>Item</category>
+    <eType>Equipment</eType>
+    <thingClass>Equipment</thingClass>
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useStandardHealth>True</useStandardHealth>
+    <selectable>True</selectable>
+    <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    <statBases>
+      <MaxHealth>100</MaxHealth>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <techLevel>Midworld</techLevel>
+    <storeCategories>
+      <li>Weapons</li>
+    </storeCategories>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+  <ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+  </ThingDef>
+
+
+  <ThingDef Name="BaseBullet" Abstract="True">
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Bullet</thingClass>
+    <label>bullet</label>
+    <useStandardHealth>False</useStandardHealth>
+    <neverMultiSelect>True</neverMultiSelect>
+    <shaderType>Transparent</shaderType>
+  </ThingDef>
+
+  <!-- ============================================================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Pistol</defName>
+    <label>pistol bullet</label>
+    <graphicPathSingle>Things/Projectile/Bullet_Small</graphicPathSingle>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <DamageAmountBase>10</DamageAmountBase>
+      <Speed>55</Speed>
+    </projectile>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_Pistol</defName>
+    <label>pistol</label>
+    <description>Ancient pattern automatic pistol. Weak and short range, but quick.</description>
+    <graphicPathSingle>Things/Item/Equipment/Pistol</graphicPathSingle>
+    <soundInteract>InteractPistol</soundInteract>
+    <tradersCarry>True</tradersCarry>
+    <baseMarketValue>60</baseMarketValue>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <cooldownTicks>40</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_Pistol</projectileDef>
+        <accuracyTouch>0.91</accuracyTouch>
+        <accuracyShort>0.71</accuracyShort>
+        <accuracyMedium>0.50</accuracyMedium>
+        <accuracyLong>0.32</accuracyLong>
+        <warmupTicks>68</warmupTicks>
+        <range>24</range>
+        <fireSound>ShotPistol</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ============================================================== -->
+
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PumpShotgun</defName>
+    <label>shotgun blast</label>
+    <graphicPathSingle>Things/Projectile/Bullet_Shotgun</graphicPathSingle>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_PumpShotgun</defName>
+    <label>pump shotgun</label>
+    <description>Ancient design. Deadly, but short range.</description>
+    <graphicPathSingle>Things/Item/Equipment/Shotgun</graphicPathSingle>
+    <soundInteract>InteractShotgun</soundInteract>
+    <tradersCarry>true</tradersCarry>
+    <baseMarketValue>175</baseMarketValue>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <cooldownTicks>40</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_PumpShotgun</projectileDef>
+        <warmupTicks>108</warmupTicks>
+        <range>16</range>
+        <accuracyTouch>0.96</accuracyTouch>
+        <accuracyShort>0.87</accuracyShort>
+        <accuracyMedium>0.77</accuracyMedium>
+        <accuracyLong>0.64</accuracyLong>
+        <fireSound>ShotShotgun</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+
+  <!-- ============================================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_LeeEnfield</defName>
+    <label>rifle bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+    <graphicPathSingle>Things/Projectile/Bullet_big</graphicPathSingle>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_LeeEnfield</defName>
+    <label>Lee-Enfield</label>
+    <description>Ancient bolt-action rifle. Probably pulled from a basement somewhere. Good range, Good power, low rate of fire.</description>
+    <graphicPathSingle>Things/Item/Equipment/LeeEnfield</graphicPathSingle>
+    <soundInteract>InteractRifle</soundInteract>
+    <tradersCarry>true</tradersCarry>
+    <baseMarketValue>190</baseMarketValue>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <cooldownTicks>40</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_LeeEnfield</projectileDef>
+        <warmupTicks>182</warmupTicks>
+        <range>37</range>
+        <accuracyTouch>0.96</accuracyTouch>
+        <accuracyShort>0.96</accuracyShort>
+        <accuracyMedium>0.92</accuracyMedium>
+        <accuracyLong>0.88</accuracyLong>
+        <fireSound>ShotBoltActionRifle</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ============================================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_M16Rifle</defName>
+    <label>M-16 bullet</label>
+    <graphicPathSingle>Things/Projectile/Bullet_Small</graphicPathSingle>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_M16Rifle</defName>
+    <label>M-16</label>
+    <description>Ancient pattern military weapon. Three-round burst. Good range, low power, high rate of fire.</description>
+    <graphicPathSingle>Things/Item/Equipment/M-16</graphicPathSingle>
+    <soundInteract>InteractRifle</soundInteract>
+    <tradersCarry>true</tradersCarry>
+    <baseMarketValue>325</baseMarketValue>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <cooldownTicks>40</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_M16Rifle</projectileDef>
+        <warmupTicks>108</warmupTicks>
+        <range>32</range>
+        <accuracyTouch>0.96</accuracyTouch>
+        <accuracyShort>0.87</accuracyShort>
+        <accuracyMedium>0.77</accuracyMedium>
+        <accuracyLong>0.64</accuracyLong>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <fireSound>ShotM16Rifle</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ============================================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_M24Rifle</defName>
+    <label>M-24 bullet</label>
+    <graphicPathSingle>Things/Projectile/Bullet_Big</graphicPathSingle>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_M24Rifle</defName>
+    <label>M-24</label>
+    <description>Ancient pattern military sniper rifle. Bolt action. Long range, great accuracy and power.</description>
+    <graphicPathSingle>Things/Item/Equipment/M-24</graphicPathSingle>
+    <soundInteract>InteractRifle</soundInteract>
+    <tradersCarry>true</tradersCarry>
+    <baseMarketValue>370</baseMarketValue>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_M24Rifle</projectileDef>
+        <warmupTicks>260</warmupTicks>
+        <cooldownTicks>135</cooldownTicks>
+        <range>45</range>
+        <accuracyTouch>0.50</accuracyTouch>
+        <accuracyShort>0.86</accuracyShort>
+        <accuracyMedium>0.86</accuracyMedium>
+        <accuracyLong>0.88</accuracyLong>
+        <fireSound>ShotM24Rifle</fireSound>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>SniperRifle</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- ============================================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Uzi</defName>
+    <label>uzi bullet</label>
+    <graphicPathSingle>Things/Projectile/Bullet_Small</graphicPathSingle>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_Uzi</defName>
+    <label>Uzi</label>
+    <description>Ancient pattern submachine gun. Short range, low power, high rate of fire.</description>
+    <graphicPathSingle>Things/Item/Equipment/Uzi</graphicPathSingle>
+    <soundInteract>InteractSMG</soundInteract>
+    <tradersCarry>true</tradersCarry>
+    <baseMarketValue>200</baseMarketValue>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <cooldownTicks>40</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_Uzi</projectileDef>
+        <warmupTicks>108</warmupTicks>
+        <range>24</range>
+        <accuracyTouch>0.89</accuracyTouch>
+        <accuracyShort>0.64</accuracyShort>
+        <accuracyMedium>0.41</accuracyMedium>
+        <accuracyLong>0.22</accuracyLong>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <fireSound>ShotUzi</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ==================== T-9 incendiary launcher ========================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_T9IncendiaryLauncher</defName>
+    <label>T-9 Incendiary bolt</label>
+    <graphicPathSingle>Things/Projectile/Charge_Small</graphicPathSingle>
+    <thingClass>BulletIncendiary</thingClass>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_T9IncendiaryLauncher</defName>
+    <label>T-9 incendiary launcher</label>
+    <description>Incendiary bolt launcher. Starts fires.</description>
+    <graphicPathSingle>Things/Item/Equipment/T-9</graphicPathSingle>
+    <soundInteract>InteractRifle</soundInteract>
+    <tradersCarry>true</tradersCarry>
+    <baseMarketValue>370</baseMarketValue>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <cooldownTicks>40</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_T9IncendiaryLauncher</projectileDef>
+        <ai_IsIncendiary>true</ai_IsIncendiary>
+        <warmupTicks>182</warmupTicks>
+        <range>24</range>
+        <accuracyTouch>0.79</accuracyTouch>
+        <accuracyShort>0.42</accuracyShort>
+        <accuracyMedium>0.18</accuracyMedium>
+        <accuracyLong>0.06</accuracyLong>
+        <burstShotCount>1</burstShotCount>
+        <fireSound>ShotT9Launcher</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+  <!-- ===================== L-15 LMG ========================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_L15LMG</defName>
+    <label>L-15 bullet</label>
+    <graphicPathSingle>Things/Projectile/Bullet_Small</graphicPathSingle>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_L15LMG</defName>
+    <label>L-15 LMG</label>
+    <description>A light machine gun.</description>
+    <graphicPathSingle>Things/Item/Equipment/L-15</graphicPathSingle>
+    <soundInteract>InteractRifle</soundInteract>
+    <baseMarketValue>350</baseMarketValue>
+    <tradersCarry>true</tradersCarry>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <cooldownTicks>40</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_L15LMG</projectileDef>
+        <warmupTicks>108</warmupTicks>
+        <range>25.9</range>
+        <accuracyTouch>0.89</accuracyTouch>
+        <accuracyShort>0.64</accuracyShort>
+        <accuracyMedium>0.41</accuracyMedium>
+        <accuracyLong>0.22</accuracyLong>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>5</burstShotCount>
+        <fireSound>ShotMinigun</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+  <!-- ===================== R-4 charge rifle ========================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_R4ChargeRifle</defName>
+    <label>charge shot</label>
+    <graphicPathSingle>Things/Projectile/Charge_Small</graphicPathSingle>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_R4ChargeRifle</defName>
+    <label>R-4 charge rifle</label>
+    <description>Charged-shot energy/projectile rifle.</description>
+    <graphicPathSingle>Things/Item/Equipment/R-4</graphicPathSingle>
+    <soundInteract>InteractChargeRifle</soundInteract>
+    <tradersCarry>true</tradersCarry>
+    <baseMarketValue>500</baseMarketValue>
+    <techLevel>Spacer</techLevel>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <cooldownTicks>40</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_R4ChargeRifle</projectileDef>
+        <warmupTicks>108</warmupTicks>
+        <range>24</range>
+        <accuracyTouch>0.95</accuracyTouch>
+        <accuracyShort>0.83</accuracyShort>
+        <accuracyMedium>0.68</accuracyMedium>
+        <accuracyLong>0.53</accuracyLong>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <fireSound>ShotChargeRifle</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+
+
+
+
+  <!-- ================ Improvised turret gun ============== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_TurretImprovised</defName>
+    <label>improvised turret bullet</label>
+    <graphicPathSingle>Things/Projectile/Bullet_Small</graphicPathSingle>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_TurretImprovised</defName>
+    <label>improvised turret gun</label>
+    <menuHidden>true</menuHidden>
+    <description>Jury-rigged gun attached to a turret.</description>
+    <graphicPathSingle>Things/Item/Equipment/Default</graphicPathSingle>
+    <soundInteract>InteractRifle</soundInteract>
+    <canBeSpawningInventory>false</canBeSpawningInventory>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <cooldownTicks>40</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_TurretImprovised</projectileDef>
+        <warmupTicks>108</warmupTicks>
+        <range>25.9</range>
+        <accuracyTouch>0.89</accuracyTouch>
+        <accuracyShort>0.64</accuracyShort>
+        <accuracyMedium>0.41</accuracyMedium>
+        <accuracyLong>0.22</accuracyLong>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <fireSound>GunShotA</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+  <!-- ======================= Mechanoid minigun ======================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Minigun</defName>
+    <label>minigun bullet</label>
+    <graphicPathSingle>Things/Projectile/Bullet_Small</graphicPathSingle>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_Minigun</defName>
+    <label>minigun</label>
+    <description>A multi-barrel machine gun with an extremely high rate of fire. Mechanoid-built.</description>
+    <graphicPathSingle>Things/Item/Equipment/Minigun</graphicPathSingle>
+    <soundInteract>InteractRifle</soundInteract>
+    <baseMarketValue>900</baseMarketValue>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>MechanoidGunHeavy</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <cooldownTicks>40</cooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_Minigun</projectileDef>
+        <forcedMissRadius>2.4</forcedMissRadius>
+        <warmupTicks>250</warmupTicks>
+        <range>32</range>
+        <accuracyTouch>0.79</accuracyTouch>
+        <accuracyShort>0.42</accuracyShort>
+        <accuracyMedium>0.18</accuracyMedium>
+        <accuracyLong>0.06</accuracyLong>
+        <burstShotCount>30</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <fireSound>ShotMinigun</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+
+  <!-- ================= Mechanoid heavy charge blaster ================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ChargeBlasterHeavy</defName>
+    <label>charge blaster shot</label>
+    <graphicPathSingle>Things/Projectile/Charge_Small</graphicPathSingle>
+    <shaderType>MotePostLight</shaderType>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>90</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_ChargeBlasterHeavy</defName>
+    <label>heavy charge blaster</label>
+    <description>Charged-shot blaster for area suppressive fire. Mechanoid-built.</description>
+    <graphicPathSingle>Things/Item/Equipment/ChargeBlasterHeavy</graphicPathSingle>
+    <baseMarketValue>1000</baseMarketValue>
+    <techLevel>Spacer</techLevel>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <weaponTags>
+      <li>MechanoidGunHeavy</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_ChargeBlasterHeavy</projectileDef>
+        <forcedMissRadius>2.9</forcedMissRadius>
+        <warmupTicks>200</warmupTicks>
+        <cooldownTicks>290</cooldownTicks>
+        <range>27</range>
+        <accuracyTouch>0.93</accuracyTouch>
+        <accuracyShort>0.77</accuracyShort>
+        <accuracyMedium>0.59</accuracyMedium>
+        <accuracyLong>0.42</accuracyLong>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>24</burstShotCount>
+        <fireSound>ShotChargeBlaster</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ================= Mechanoid inferno cannon ================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_InfernoCannon</defName>
+    <label>inferno cannon shell</label>
+    <graphicPathSingle>Things/Projectile/InfernoCannonShot</graphicPathSingle>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+      <speed>45</speed>
+      <explosionRadius>2.4</explosionRadius >
+      <postExplosionSpawnThingDef>Puddle_Fuel</postExplosionSpawnThingDef>
+      <explosionSpawnChance>0.3</explosionSpawnChance>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_InfernoCannon</defName>
+    <label>inferno cannon</label>
+    <description>Incendiary-shot mini-artillery device. Mechanoid-built.</description>
+    <graphicPathSingle>Things/Item/Equipment/InfernoCannon</graphicPathSingle>
+    <baseMarketValue>1000</baseMarketValue>
+    <techLevel>Spacer</techLevel>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <weaponTags>
+      <li>MechanoidGunHeavy</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_InfernoCannon</projectileDef>
+        <forcedMissRadius>3.5</forcedMissRadius>
+        <ai_IsIncendiary>true</ai_IsIncendiary>
+        <warmupTicks>100</warmupTicks>
+        <cooldownTicks>270</cooldownTicks>
+        <range>35</range>
+        <accuracyTouch>0.79</accuracyTouch>
+        <accuracyShort>0.42</accuracyShort>
+        <accuracyMedium>0.18</accuracyMedium>
+        <accuracyLong>0.06</accuracyLong>
+        <burstShotCount>1</burstShotCount>
+        <fireSound>InfernoCannon_Fire</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+
+  <!-- ================= Mechanoid charge lance ================= -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ChargeLance</defName>
+    <label>charge lance shot</label>
+    <graphicPathSingle>Things/Projectile/ChargeLanceShot</graphicPathSingle>
+    <shaderType>MotePostLight</shaderType>
+    <overdraw>true</overdraw>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>27</damageAmountBase>
+      <speed>120</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_ChargeLance</defName>
+    <label>charge lance</label>
+    <description>Charged-shot rail-assisted lance weapon. Fires a single charged shot at high velocity.</description>
+    <graphicPathSingle>Things/Item/Equipment/ChargeLance</graphicPathSingle>
+    <baseMarketValue>700</baseMarketValue>
+    <techLevel>Spacer</techLevel>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <weaponTags>
+      <li>MechanoidGunMedium</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_ChargeLance</projectileDef>
+        <warmupTicks>120</warmupTicks>
+        <cooldownTicks>170</cooldownTicks>
+        <range>37</range>
+        <accuracyTouch>0.6</accuracyTouch>
+        <accuracyShort>0.8</accuracyShort>
+        <accuracyMedium>0.92</accuracyMedium>
+        <accuracyLong>0.88</accuracyLong>
+        <burstShotCount>1</burstShotCount>
+        <fireSound>ChargeLance_Fire</fireSound>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+
+</ThingDefs>

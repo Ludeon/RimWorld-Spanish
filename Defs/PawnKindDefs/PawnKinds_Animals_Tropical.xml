@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef>
+    <defName>Cobra</defName>
+    <label>cobra</label>
+    <race>Cobra</race>
+    <pointsCost>75</pointsCost>
+    <standardBodyGraphicPathMulti>Things/Pawn/Animal/Cobra</standardBodyGraphicPathMulti>
+    <dessicatedBodygraphicPathMulti>Things/Pawn/Animal/CritterDessicatedSnake</dessicatedBodygraphicPathMulti>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.6</wildSpawn_EcoSystemWeight>
+  </PawnKindDef>
+  
+  <PawnKindDef>
+    <defName>Monkey</defName>
+    <label>monkey</label>
+    <race>Monkey</race>
+    <pointsCost>75</pointsCost>
+    <standardBodyGraphicPathMulti>Things/Pawn/Animal/Monkey</standardBodyGraphicPathMulti>
+    <dessicatedBodygraphicPathMulti>Things/Pawn/Animal/CritterDessicatedMedium</dessicatedBodygraphicPathMulti>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.9</wildSpawn_EcoSystemWeight>
+    <wildSpawn_GroupSizeRange>
+      <min>3</min>
+      <max>7</max>
+    </wildSpawn_GroupSizeRange>
+  </PawnKindDef>
+
+  <PawnKindDef>
+    <defName>WildBoar</defName>
+    <label>wild boar</label>
+    <race>WildBoar</race>
+    <pointsCost>20</pointsCost>
+    <standardBodyGraphicPathMulti>Things/Pawn/Animal/WildBoar</standardBodyGraphicPathMulti>
+    <dessicatedBodygraphicPathMulti>Things/Pawn/Animal/CritterDessicatedMedium</dessicatedBodygraphicPathMulti>
+    <wildSpawn_EcoSystemWeight>0.5</wildSpawn_EcoSystemWeight>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_GroupSizeRange>
+      <min>5</min>
+      <max>10</max>
+    </wildSpawn_GroupSizeRange>
+  </PawnKindDef>
+
+</Defs>

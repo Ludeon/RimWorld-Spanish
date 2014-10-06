@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <StatDef>
+    <defName>MedicalOperationSpeed</defName>
+    <label>medical operation speed</label>
+    <description>Speed at which the character performs medical operations.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Medicine</skill>
+        <baseFactor>0.4</baseFactor>
+        <bonusFactor>0.06</bonusFactor>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Consciousness</activity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.7</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+
+
+
+  <StatDef>
+    <defName>BaseHealingQuality</defName>
+    <label>base healing quality</label>
+    <description>Base quality of healing given to patients when acting as a doctor.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <skillNeedFactors>
+      <li Class="SkillNeed_Direct">
+        <skill>Medicine</skill>
+        <factorsPerLevel>
+          <li>0.5</li>
+          <li>0.56</li>
+          <li>0.62</li>
+          <!-- 4% -->
+          <li>0.68</li>
+          <!-- 17% -->
+          <li>0.74</li>
+          <!-- 31% -->
+          <li>0.8</li>
+          <!-- 44% -->
+          <li>0.84</li>
+          <!-- 53% -->
+          <li>0.88</li>
+          <!-- 62% -->
+          <li>0.92</li>
+          <!-- 71% -->
+          <li>0.96</li>
+          <!-- 80% -->
+          <li>1.00</li>
+          <!-- 88% -->
+          <li>1.04</li>
+          <!-- 97% -->
+          <li>1.08</li>
+          <!-- 106% -->
+          <li>1.12</li>
+          <li>1.16</li>
+          <li>1.2</li>
+          <li>1.24</li>
+          <li>1.28</li>
+          <li>1.32</li>
+          <li>1.36</li>
+          <li>1.4</li>
+        </factorsPerLevel>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.7</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+
+
+
+  <StatDef>
+    <defName>HealingSpeed</defName>
+    <label>healing speed</label>
+    <description>Speed at which the character heals wounds as a doctor.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Medicine</skill>
+        <baseFactor>0.4</baseFactor>
+        <bonusFactor>0.06</bonusFactor>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Consciousness</activity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.8</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+
+
+
+</Defs>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThoughtDefs>
+
+
+  <ThoughtDef>
+    <defName>Imprisoned</defName>
+    <label>imprisoned</label>
+    <description>I hate being locked up.</description>
+    <baseMoodEffect>-5</baseMoodEffect>
+    <activePredicate>ThoughtPredicates.Imprisoned</activePredicate>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>SharedBedroom</defName>
+    <label>sharing bedroom</label>
+    <description>Sharing a room with others is annoying. I want some privacy. </description>
+    <baseMoodEffect>-8</baseMoodEffect>
+    <activePredicate>ThoughtPredicates.SharedBedroom</activePredicate>
+  </ThoughtDef>
+
+
+  <ThoughtDef>
+    <defName>ColonistLeftUnburied</defName>
+    <label>colonist left unburied</label>
+    <description>One of us died and we're just leaving them lying in the open. Nobody should be left like that. People deserve a decent burial.</description>
+    <baseMoodEffect>-10</baseMoodEffect>
+    <activePredicate>ThoughtPredicates.ColonistLeftUnburied</activePredicate>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+  </ThoughtDef>
+
+
+
+  <ThoughtDef>
+    <defName>HappyNude</defName>
+    <label>happily nude</label>
+    <description>I'm nude and loving it! I feel so free and unconstrained and in touch with my surroundings!</description>
+    <baseMoodEffect>10</baseMoodEffect>
+    <activePredicate>ThoughtPredicates.PsychologicallyNude</activePredicate>
+    <requiredTraits>
+      <li>Nudist</li>
+    </requiredTraits>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Naked</defName>
+    <label>naked</label>
+    <description>I'm naked. This is humiliating.</description>
+    <baseMoodEffect>-3</baseMoodEffect>
+    <activePredicate>ThoughtPredicates.PsychologicallyNude</activePredicate>
+    <nullifyingTraits>
+      <li>Nudist</li>
+    </nullifyingTraits>
+  </ThoughtDef>
+
+  
+  
+  
+  
+  
+  <ThoughtDef>
+    <defName>MasochistLittlePain</defName>
+    <label>in a little pain</label>
+    <description>Ow... Heh heh heh... I could get used to this!</description>
+    <baseMoodEffect>5</baseMoodEffect>
+    <activePredicate>ThoughtPredicates.MasochistLittlePain</activePredicate>
+    <requiredTraits>
+      <li>Masochist</li>
+    </requiredTraits>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MasochistMediumPain</defName>
+    <label>in a moderate amount of pain</label>
+    <description>Ughhh... It hurts, but I love it! Keep it coming!</description>
+    <baseMoodEffect>10</baseMoodEffect>
+    <activePredicate>ThoughtPredicates.MasochistMediumPain</activePredicate>
+    <requiredTraits>
+      <li>Masochist</li>
+    </requiredTraits>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MasochistSeverePain</defName>
+    <label>experiencing acute pain</label>
+    <description>Ouch... I think something's broken... But what an exquisite feeling!</description>
+    <baseMoodEffect>15</baseMoodEffect>
+    <activePredicate>ThoughtPredicates.MasochistSeverePain</activePredicate>
+    <requiredTraits>
+      <li>Masochist</li>
+    </requiredTraits>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MasochistInShock</defName>
+    <label>in shock from exceptional pain</label>
+    <description>Ahhh... Am I in heaven?</description>
+    <baseMoodEffect>20</baseMoodEffect>
+    <activePredicate>ThoughtPredicates.MasochistInShock</activePredicate>
+    <requiredTraits>
+      <li>Masochist</li>
+    </requiredTraits>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>ProsthophileHappy</defName>
+    <label>has a bionic bodypart</label>
+    <description>I'm a product of modern technology! I can do everything better!</description>
+    <baseMoodEffect>12</baseMoodEffect>
+    <activePredicate>ThoughtPredicates.HasBionicBodyPart</activePredicate>
+    <requiredTraits>
+      <li>Prosthophile</li>
+    </requiredTraits>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>ProsthophobeUnhappy</defName>
+    <label>has a bionic bodypart</label>
+    <description>They turned me into a technological abomination... If only they had given me a choice...</description>
+    <baseMoodEffect>-12</baseMoodEffect>
+    <activePredicate>ThoughtPredicates.HasBionicBodyPart</activePredicate>
+    <requiredTraits>
+      <li>Prosthophobe</li>
+    </requiredTraits>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>BrawlerUnhappy</defName>
+    <label>brawler has ranged weapon</label>
+    <description>Gah! I hate shooting from a distance. I want to get up close and personal!</description>
+    <baseMoodEffect>-15</baseMoodEffect>
+    <activePredicate>ThoughtPredicates.IsCarryingRangedWeapon</activePredicate>
+    <requiredTraits>
+      <li>Brawler</li>
+    </requiredTraits>
+  </ThoughtDef>
+
+</ThoughtDefs>

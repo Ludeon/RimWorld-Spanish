@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>PlantPot</defName>
+    <eType>BuildingComplex</eType>
+    <label>plant pot</label>
+    <thingClass>Building_PlantGrower</thingClass>
+    <graphicPathSingle>Things/Building/Decoration/PlantPot</graphicPathSingle>
+    <altitudeLayer>Waist</altitudeLayer>
+    <passability>Impassable</passability>
+    <madeFromStuff>True</madeFromStuff>
+    <costStuffCount>15</costStuffCount>
+    <statBases>
+      <MaxHealth>100</MaxHealth>
+      <WorkToBuild>330</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <description>Plant decorative flowers here to improve the mood of people nearby.</description>
+    <size>(1,1)</size>
+    <filthLeavings>
+      <SlagRubble>1</SlagRubble>
+    </filthLeavings>
+    <overdraw>false</overdraw>
+    <fertility>1.0</fertility>
+    <designationCategory>Decoration</designationCategory>
+    <sunShadowInfo>
+      <basewidth>0.3</basewidth>
+      <baseHeight>0.3</baseHeight>
+      <tallness>0.6</tallness>
+    </sunShadowInfo>
+    <building>
+      <defaultPlantToGrow>PlantDaylily</defaultPlantToGrow>
+      <plantsDestroyWithMe>true</plantsDestroyWithMe>
+      <supportsPlants>true</supportsPlants>
+    </building>
+    <rotatable>false</rotatable>
+    <designationHotKey>P</designationHotKey>
+  </ThingDef>
+
+
+
+</ThingDefs>

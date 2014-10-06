@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+
+  <WorkGiverDef>
+    <defName>DoctorFeed</defName>
+    <giverClass>WorkGiver_FeedIncapped</giverClass>
+    <workType>Doctor</workType>
+    <verb>feed</verb>
+    <gerund>feeding</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+	<priorityInType>50</priorityInType>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>DoctorEmergencyHeal</defName>
+    <giverClass>WorkGiver_EmergencyHeal</giverClass>
+    <workType>Doctor</workType>
+    <verb>heal</verb>
+    <gerund>healing</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+	<priorityInType>100</priorityInType>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>DoctorHeal</defName>
+    <giverClass>WorkGiver_Heal</giverClass>
+    <workType>Doctor</workType>
+    <verb>heal</verb>
+    <gerund>healing</gerund>
+	<forceNoEmergency>true</forceNoEmergency>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+	<priorityInType>20</priorityInType>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>GrowerSow</defName>
+    <giverClass>WorkGiver_GrowerSow</giverClass>
+    <workType>Growing</workType>
+    <verb>sow</verb>
+    <gerund>sowing</gerund>
+    <scanThings>false</scanThings>
+    <scanCells>true</scanCells>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>GrowerHarvest</defName>
+    <giverClass>WorkGiver_GrowerHarvest</giverClass>
+    <workType>Growing</workType>
+    <verb>harvest</verb>
+    <gerund>harvesting</gerund>
+  </WorkGiverDef>
+
+
+
+  <WorkGiverDef>
+    <defName>Mine</defName>
+    <giverClass>WorkGiver_Miner</giverClass>
+    <workType>Mining</workType>
+    <verb>mine</verb>
+    <gerund>mining</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+
+  <WorkGiverDef>
+    <defName>Research</defName>
+    <giverClass>WorkGiver_Researcher</giverClass>
+    <workType>Research</workType>
+    <verb>research</verb>
+    <gerund>researching</gerund>
+  </WorkGiverDef>
+
+
+
+  <WorkGiverDef>
+    <defName>HaulGeneral</defName>
+    <giverClass>WorkGiver_HaulGeneral</giverClass>
+    <workType>Hauling</workType>
+    <verb>haul</verb>
+    <gerund>hauling</gerund>
+    <priorityInType>5</priorityInType>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>HaulCorpses</defName>
+    <giverClass>WorkGiver_HaulCorpses</giverClass>
+    <workType>Hauling</workType>
+    <verb>haul</verb>
+    <gerund>hauling</gerund>
+    <priorityInType>10</priorityInType>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+  
+
+  <WorkGiverDef>
+    <defName>PlantsCut</defName>
+    <giverClass>WorkGiver_PlantsCut</giverClass>
+    <workType>PlantCutting</workType>
+    <verb>cut</verb>
+    <gerund>cutting</gerund>
+  </WorkGiverDef>
+
+
+  <WorkGiverDef>
+    <defName>CleanFilth</defName>
+    <giverClass>WorkGiver_CleanerFilth</giverClass>
+    <workType>Cleaning</workType>
+    <verb>clean</verb>
+    <gerund>cleaning</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+
+  <WorkGiverDef>
+    <defName>Repair</defName>
+    <giverClass>WorkGiver_Repairer</giverClass>
+    <workType>Repair</workType>
+    <verb>repair</verb>
+    <gerund>repairing</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+
+  <WorkGiverDef>
+    <defName>FightFires</defName>
+    <giverClass>WorkGiver_FightFires</giverClass>
+    <workType>Firefighter</workType>
+    <verb>extinguish</verb>
+    <gerund>extinguishing</gerund>
+  </WorkGiverDef>
+
+
+  <WorkGiverDef>
+    <defName>Warden</defName>
+    <giverClass>WorkGiver_Warden</giverClass>
+    <workType>Warden</workType>
+    <verb>warden</verb>
+    <gerund>wardening</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>Deconstruct</defName>
+    <giverClass>WorkGiver_Deconstruct</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>200</priorityInType>
+    <verb>deconstruct</verb>
+    <gerund>deconstructing</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>ConstructFinishFrames</defName>
+    <giverClass>WorkGiver_ConstructFinishFrames</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>100</priorityInType>
+    <verb>construct</verb>
+    <gerund>constructing</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>ConstructDeliverResourcesToFrames</defName>
+    <giverClass>WorkGiver_ConstructDeliverResourcesToFrames</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>10</priorityInType>
+    <verb>work on</verb>
+    <gerund>working on</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>ConstructDeliverResourcesToBlueprints</defName>
+    <giverClass>WorkGiver_ConstructDeliverResourcesToBlueprints</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>9</priorityInType>
+    <verb>work on</verb>
+    <gerund>working on</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>HunterHunt</defName>
+    <giverClass>WorkGiver_HunterHunt</giverClass>
+    <workType>Hunting</workType>
+    <verb>hunt</verb>
+    <gerund>hunting</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>BecomePatient</defName>
+    <giverClass>WorkGiver_BecomePatient</giverClass>
+    <workType>Patient</workType>
+    <verb>receive treatment in</verb>
+    <gerund>receiving treatment in</gerund>
+  </WorkGiverDef>
+
+
+<!-- ============= Cooking ============= -->
+
+  <WorkGiverDef>
+    <defName>DoBillsCook</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>100</priorityInType>
+    <billGiverDef>CookStove</billGiverDef>
+    <verb>cook</verb>
+    <gerund>cooking</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>DoBillsButcherFlesh</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>90</priorityInType>
+    <billGiverDef>TableButcher</billGiverDef>
+    <verb>butcher</verb>
+    <gerund>butchering</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+
+  <WorkGiverDef>
+    <defName>CookFillHopper</defName>
+    <giverClass>WorkGiver_CookFillHopper</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>10</priorityInType>
+    <verb>fill</verb>
+    <gerund>filling</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+
+  <!-- ============= Crafting ============= -->
+
+
+  <WorkGiverDef>
+    <defName>DoBillsCremate</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>120</priorityInType>
+    <billGiverDef>Crematorium</billGiverDef>
+    <verb>cremate</verb>
+    <gerund>cremating</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>DoBillsMakeClothes</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>110</priorityInType>
+    <billGiverDef>TableTailor</billGiverDef>
+    <verb>tailor</verb>
+    <gerund>tailoring</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>DoBillsStonecut</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+    <billGiverDef>TableStonecutter</billGiverDef>
+    <verb>stonecut</verb>
+    <gerund>stonecutting</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>DoBillsSlagRefining</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>90</priorityInType>
+    <billGiverDef>ElectricSmelter</billGiverDef>
+    <verb>refine</verb>
+    <gerund>refining</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>DoBillsButcherMechanoid</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>80</priorityInType>
+    <billGiverDef>TableMachining</billGiverDef>
+    <verb>disassemble</verb>
+    <gerund>disassembling</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+
+  <!--
+  <WorkGiverDef>
+    <defName>DoBillsMakeWoodPlanks_Electric</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>111</priorityInType>
+    <billGiverDef>TableSawmillHand</billGiverDef>
+    <verb>saw logs</verb>
+    <gerund>sawing logs</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+
+
+  <WorkGiverDef>
+    <defName>DoBillsMakeWoodPlanks_Hand</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>110</priorityInType>
+    <billGiverDef>TableSawmillElectric</billGiverDef>
+    <verb>saw logs</verb>
+    <gerund>sawing logs</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+  -->
+
+
+  <!-- ============= Medical operations ============= -->
+  
+  <WorkGiverDef>
+    <defName>TakeToBedToOperate</defName>
+    <giverClass>WorkGiver_TakeToBedToOperate</giverClass>
+    <workType>Doctor</workType>
+    <priorityInType>5</priorityInType>
+    <verb>take to operate</verb>
+    <gerund>taking to operate</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>DoBillsMedicalHumanOperation</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Doctor</workType>
+    <priorityInType>10</priorityInType>
+    <billGiverDef>Human</billGiverDef>
+    <verb>operate</verb>
+    <gerund>operating</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>DoBillsMedicalMechanoidOperation</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Repair</workType>
+    <priorityInType>9</priorityInType>
+	<billGiversAllMechanoids>true</billGiversAllMechanoids>
+    <verb>modify</verb>
+    <gerund>modifying</gerund>
+	<requiredActivities>
+		<li>Manipulation</li>
+	</requiredActivities>
+  </WorkGiverDef>
+  
+</WorkGivers>

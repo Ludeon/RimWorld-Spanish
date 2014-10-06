@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="BasePawn" Abstract="True">
+    <eType>Pawn </eType>
+    <thingClass>Pawn</thingClass>
+    <category>Pawn</category>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Pawn</altitudeLayer>
+    <useStandardHealth>false</useStandardHealth>
+    <hasTooltip>true</hasTooltip>
+    <soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
+    <inspectorTabs>
+      <li>ITab_Pawn_Thoughts</li>
+      <li>ITab_Pawn_Prisoner</li>
+      <li>ITab_Pawn_Gear</li>
+      <li>ITab_Pawn_Character</li>
+      <li>ITab_Pawn_Health</li>
+    </inspectorTabs>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BasePawn" Name="BaseAnimal" Abstract="True">
+    <race>
+      <hasStory>false</hasStory>
+      <needsRest>false</needsRest>
+      <minFoodQuality>Plant</minFoodQuality>
+      <isFlesh>true</isFlesh>
+      <hasLeather>true</hasLeather>
+      <hasGenders>true</hasGenders>
+    </race>
+  </ThingDef>
+
+
+
+  <!-- ============================ Animals ========================== -->
+
+  <ThingDef ParentName="BaseAnimal">
+    <defName>Muffalo</defName>
+    <label>muffalo</label>
+    <description>A large herding herbivore descended from buffalo and adapted for some exotic environment. Peaceful unless disturbed.</description>
+    <overdraw>true</overdraw>
+    <sunShadowInfo>
+      <baseWidth>0.8</baseWidth>
+      <baseHeight>0.6</baseHeight>
+      <tallness>0.6</tallness>
+    </sunShadowInfo>
+    <targetHitChanceFactor>2.0</targetHitChanceFactor>
+    <statBases>
+      <MoveSpeed>2.17</MoveSpeed>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>10</meleeDamageAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTree>HerbivoreHerd</thinkTree>
+      <body>QuadrupedAnimalWithHooves</body>
+      <bodySize>1.8</bodySize>
+      <healthScale>1.5</healthScale>
+      <diet>Herbivorous</diet>
+      <leatherColor>(67,103,115)</leatherColor>
+      <soundCallIntervalRange>
+        <min>3500</min>
+        <max>6000</max>
+      </soundCallIntervalRange>
+      <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+      <soundDeath>Pawn_Muffalo_Death</soundDeath>
+      <soundCall>Pawn_Muffalo_Call</soundCall>
+      <soundAngry>Pawn_Muffalo_Angry</soundAngry>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="BaseAnimal">
+    <defName>Deer</defName>
+    <label>deer</label>
+    <description>A medium-sized herding herbivore. Generally peaceful unless disturbed.</description>
+    <overdraw>true</overdraw>
+    <sunShadowInfo>
+      <baseWidth>0.5</baseWidth>
+      <baseHeight>0.5</baseHeight>
+      <tallness>0.5</tallness>
+    </sunShadowInfo>
+    <targetHitChanceFactor>1.0</targetHitChanceFactor>
+    <statBases>
+      <MoveSpeed>4.84</MoveSpeed>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>7</meleeDamageAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>7</meleeDamageAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTree>HerbivoreHerd</thinkTree>
+      <hungerRate>0.7</hungerRate>
+      <body>QuadrupedAnimalWithHooves</body>
+      <bodySize>0.9</bodySize>
+      <healthScale>0.9</healthScale>
+      <diet>Herbivorous</diet>
+      <leatherColor>(162,106,57)</leatherColor>
+      <leatherLabel>deerhide</leatherLabel>
+      <meatLabel>venison</meatLabel>
+      <soundCallIntervalRange>
+        <min>3500</min>
+        <max>6000</max>
+      </soundCallIntervalRange>
+      <soundWounded>Pawn_Antelope_Wounded</soundWounded>
+      <soundDeath>Pawn_Antelope_Death</soundDeath>
+      <soundCall>Pawn_Antelope_Call</soundCall>
+      <soundAngry>Pawn_Antelope_Angry</soundAngry>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+
+
+
+  <ThingDef ParentName="BaseAnimal">
+    <defName>Squirrel</defName>
+    <label>squirrel</label>
+    <description>One of the many hardy, versatile rodent species that follows humankind everywhere it spreads.</description>
+    <overdraw>false</overdraw>
+    <targetHitChanceFactor>0.6</targetHitChanceFactor>
+    <statBases>
+      <MoveSpeed>6.00</MoveSpeed>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>4</meleeDamageAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>4</meleeDamageAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>3</meleeDamageAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTree>HerbivoreStandard</thinkTree>
+      <hungerRate>0.2</hungerRate>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <bodySize>0.1</bodySize>
+      <healthScale>0.5</healthScale>
+      <diet>Herbivorous</diet>
+      <leatherColor>(140,85,36)</leatherColor>
+      <leatherLabel>squirrelskin</leatherLabel>
+      <soundWounded>Pawn_Rodent_Wounded</soundWounded>
+      <soundDeath>Pawn_Rodent_Death</soundDeath>
+      <soundCall>Pawn_Rodent_Call</soundCall>
+      <soundAngry>Pawn_Rodent_Angry</soundAngry>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseAnimal">
+    <defName>WildBoar</defName>
+    <label>wild boar</label>
+    <description>Although considered impure by some cultures, this hairy ancestor of the domesticated pig is prized for the gamey flavor of its meat.</description>
+    <overdraw>true</overdraw>
+    <sunShadowInfo>
+      <baseWidth>0.5</baseWidth>
+      <baseHeight>0.5</baseHeight>
+      <tallness>0.5</tallness>
+    </sunShadowInfo>
+    <targetHitChanceFactor>1.0</targetHitChanceFactor>
+    <statBases>
+      <MoveSpeed>5.00</MoveSpeed>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>7</meleeDamageAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTree>HerbivoreStandard</thinkTree>
+      <hungerRate>0.2</hungerRate>
+      <body>QuadrupedAnimalWithHoovesAndTusks</body>
+      <bodySize>0.7</bodySize>
+      <healthScale>0.7</healthScale>
+      <diet>Herbivorous</diet>
+      <leatherColor>(117,109,93)</leatherColor>
+      <leatherLabel>boarskin</leatherLabel>
+      <meatLabel>boarmeat</meatLabel>
+      <soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+      <soundDeath>Pawn_Boomrat_Death</soundDeath>
+      <soundCall>Pawn_Boomrat_Call</soundCall>
+      <soundAngry>Pawn_Boomrat_Angry</soundAngry>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseAnimal">
+    <defName>Rhinoceros</defName>
+    <label>rhinoceros</label>
+    <description>This large land mammal is typically quite peaceful, but it will not hesitate to charge with its horn to fend off trespassers.</description>
+    <overdraw>true</overdraw>
+    <sunShadowInfo>
+      <baseWidth>0.95</baseWidth>
+      <baseHeight>0.6</baseHeight>
+      <tallness>0.4</tallness>
+    </sunShadowInfo>
+    <targetHitChanceFactor>2.0</targetHitChanceFactor>
+    <statBases>
+      <MoveSpeed>3.00</MoveSpeed>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>10</meleeDamageAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>12</meleeDamageAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTree>HerbivoreStandard</thinkTree>
+      <hungerRate>0.2</hungerRate>
+      <body>QuadrupedAnimalWithHoovesAndHorn</body>
+      <bodySize>1.33</bodySize>
+      <healthScale>2.5</healthScale>
+      <diet>Herbivorous</diet>
+      <leatherColor>(150,150,150)</leatherColor>
+      <leatherLabel>rhinohide</leatherLabel>
+      <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+      <soundDeath>Pawn_Muffalo_Death</soundDeath>
+      <soundCall>Pawn_Muffalo_Call</soundCall>
+      <soundAngry>Pawn_Muffalo_Angry</soundAngry>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BaseAnimal">
+    <defName>Dromedary</defName>
+    <label>dromedary</label>
+    <description>Adapted to survival in arid environments, this distant cousin of the horse can go nearly a week without water.</description>
+    <overdraw>true</overdraw>
+    <sunShadowInfo>
+      <baseWidth>0.5</baseWidth>
+      <baseHeight>0.5</baseHeight>
+      <tallness>0.5</tallness>
+    </sunShadowInfo>
+    <targetHitChanceFactor>1.0</targetHitChanceFactor>
+    <statBases>
+      <MoveSpeed>3.0</MoveSpeed>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>7</meleeDamageAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>7</meleeDamageAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTree>HerbivoreHerd</thinkTree>
+      <hungerRate>0.7</hungerRate>
+      <body>QuadrupedAnimalWithHoovesAndHump</body>
+      <bodySize>1.1</bodySize>
+      <healthScale>1.1</healthScale>
+      <diet>Herbivorous</diet>
+      <leatherColor>(204,180,150)</leatherColor>
+      <soundCallIntervalRange>
+        <min>3500</min>
+        <max>6000</max>
+      </soundCallIntervalRange>
+      <soundWounded>Pawn_Antelope_Wounded</soundWounded>
+      <soundDeath>Pawn_Antelope_Death</soundDeath>
+      <soundCall>Pawn_Antelope_Call</soundCall>
+      <soundAngry>Pawn_Antelope_Angry</soundAngry>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BaseAnimal">
+    <defName>Boomrat</defName>
+    <label>boomrat</label>
+    <description>Either by deliberate genetic weaponization, or as an unusual defense mechanism, these rodent-like creatures create a powerful fire-starting explosion when killed.</description>
+    <overdraw>false</overdraw>
+    <targetHitChanceFactor>0.6</targetHitChanceFactor>
+    <statBases>
+      <MoveSpeed>5.5</MoveSpeed>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>6</meleeDamageAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>6</meleeDamageAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>4</meleeDamageAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTree>HerbivoreStandard</thinkTree>
+      <hungerRate>0.4</hungerRate>
+      <deathActionType>ExplodeFlame</deathActionType>
+      <body>QuadrupedAnimalWithPaws</body>
+      <bodySize>0.2</bodySize>
+      <healthScale>0.5</healthScale>
+      <diet>Omnivorous</diet>
+      <leatherColor>(115,37,28)</leatherColor>
+      <soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+      <soundDeath>Pawn_Boomrat_Death</soundDeath>
+      <soundCall>Pawn_Boomrat_Call</soundCall>
+      <soundAngry>Pawn_Boomrat_Angry</soundAngry>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+
+
+
+  <ThingDef ParentName="BaseAnimal">
+    <defName>Iguana</defName>
+    <label>iguana</label>
+    <description>These large lizards normally feed on plant matter. However, when angered, their tough hide and sharp claws make them quite dangerous.</description>
+    <overdraw>false</overdraw>
+    <targetHitChanceFactor>0.6</targetHitChanceFactor>
+    <statBases>
+      <MoveSpeed>3.23</MoveSpeed>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>8</meleeDamageAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>8</meleeDamageAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>6</meleeDamageAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTree>HerbivoreStandard</thinkTree>
+      <hungerRate>0.3</hungerRate>
+      <body>QuadrupedAnimalWithClawsTailAndJowl</body>
+      <bodySize>0.2</bodySize>
+      <healthScale>0.78</healthScale>
+      <diet>Omnivorous</diet>
+      <leatherColor>(101,116,58)</leatherColor>
+      <leatherLabel>iguana skin</leatherLabel>
+      <soundWounded>Pawn_Lizard_Wounded</soundWounded>
+      <soundDeath>Pawn_Lizard_Death</soundDeath>
+      <soundCall>Pawn_Lizard_Call</soundCall>
+      <soundAngry>Pawn_Lizard_Angry</soundAngry>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BaseAnimal">
+    <defName>Megascarab</defName>
+    <label>megascarab</label>
+    <description>A large, genetically-engineered beetle. Once the worker caste of an artifical ecosystem of insectoids designed to fight mechanoid invasions, it is now usually seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks.</description>
+    <overdraw>false</overdraw>
+    <targetHitChanceFactor>0.5</targetHitChanceFactor>
+    <statBases>
+      <MoveSpeed>3.7</MoveSpeed>
+      <Flammability>1.0</Flammability>
+      <DamageDeflection_Blunt>0.1</DamageDeflection_Blunt>
+      <DamageDeflection_Piercing>0.4</DamageDeflection_Piercing>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>10</meleeDamageAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <hasLeather>false</hasLeather>
+      <thinkTree>HerbivoreStandard</thinkTree>
+      <hungerRate>0.1</hungerRate>
+      <body>BeetleLike</body>
+      <bodySize>0.2</bodySize>
+      <healthScale>0.7</healthScale>
+      <meatLabel>scarab meat</meatLabel>
+      <diet>Omnivorous</diet>
+      <soundWounded>Pawn_Insect_Wounded</soundWounded>
+      <soundDeath>Pawn_Insect_Death</soundDeath>
+      <soundCall>Pawn_Insect_Call</soundCall>
+      <soundAngry>Pawn_Insect_Angry</soundAngry>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseAnimal">
+    <defName>Tortoise</defName>
+    <label>tortoise</label>
+    <description>This heavily armored land-dwelling reptile is known for its slow moving speed and surprisingly vicious bite.</description>
+    <overdraw>false</overdraw>
+    <targetHitChanceFactor>0.5</targetHitChanceFactor>
+    <statBases>
+      <MoveSpeed>1.0</MoveSpeed>
+      <Flammability>1.0</Flammability>
+      <DamageDeflection_Blunt>0.3</DamageDeflection_Blunt>
+      <DamageDeflection_Piercing>0.5</DamageDeflection_Piercing>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>10</meleeDamageAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>TurtleBeakAttackTool</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTree>HerbivoreStandard</thinkTree>
+      <hungerRate>0.1</hungerRate>
+      <body>TurtleLike</body>
+      <bodySize>0.6</bodySize>
+      <healthScale>0.7</healthScale>
+      <diet>Omnivorous</diet>
+      <soundWounded>Pawn_Tortoise_Wounded</soundWounded>
+      <soundDeath>Pawn_Tortoise_Death</soundDeath>
+      <soundCall>Pawn_Tortoise_Call</soundCall>
+      <soundAngry>Pawn_Tortoise_Angry</soundAngry>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseAnimal">
+    <defName>Cobra</defName>
+    <label>cobra</label>
+    <description>A large snake. Cobras can be highly aggressive if provoked - it's better to stay away from these creatures.</description>
+    <overdraw>false</overdraw>
+    <targetHitChanceFactor>0.4</targetHitChanceFactor>
+    <statBases>
+      <MoveSpeed>4.84</MoveSpeed>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>9</meleeDamageAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTree>HerbivoreStandard</thinkTree>
+      <hungerRate>0.3</hungerRate>
+      <body>Snake</body>
+      <bodySize>0.2</bodySize>
+      <healthScale>0.78</healthScale>
+      <diet>Omnivorous</diet>
+      <leatherColor>(113,98,87)</leatherColor>
+      <leatherLabel>cobraskin</leatherLabel>
+      <meatLabel>cobraflesh</meatLabel>
+      <soundWounded>Pawn_Snake_Wounded</soundWounded>
+      <soundDeath>Pawn_Snake_Death</soundDeath>
+      <soundCall>Pawn_Snake_Call</soundCall>
+      <soundAngry>Pawn_Snake_Angry</soundAngry>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseAnimal">
+    <defName>Monkey</defName>
+    <label>monkey</label>
+    <description>This monkey can use its curly tail to grab on to branches, leaving its hands free to do other things.</description>
+    <overdraw>false</overdraw>
+    <sunShadowInfo>
+      <baseWidth>0.3</baseWidth>
+      <baseHeight>0.3</baseHeight>
+      <tallness>0.3</tallness>
+    </sunShadowInfo>
+    <targetHitChanceFactor>0.7</targetHitChanceFactor>
+    <statBases>
+      <MoveSpeed>4.84</MoveSpeed>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>9</meleeDamageAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftFist</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>9</meleeDamageAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>RightFist</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTree>HerbivoreStandard</thinkTree>
+      <hungerRate>0.45</hungerRate>
+      <body>Monkey</body>
+      <bodySize>0.8</bodySize>
+      <healthScale>0.8</healthScale>
+      <diet>Omnivorous</diet>
+      <leatherLabel>monkeyhide</leatherLabel>
+      <soundWounded>Pawn_Monkey_Wounded</soundWounded>
+      <soundDeath>Pawn_Monkey_Death</soundDeath>
+      <soundCall>Pawn_Monkey_Call</soundCall>
+      <soundAngry>Pawn_Monkey_Angry</soundAngry>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+</ThingDefs>

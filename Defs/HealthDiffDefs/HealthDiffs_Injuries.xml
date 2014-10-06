@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HealthDiffDefs>
+
+	<!-- Injuries -->
+
+	<HealthDiffDef>
+		<defName>Misc</defName>
+		<label>misc</label>
+		<naturallyHealed>true</naturallyHealed>
+		<injury>
+			<painPerDamage>1</painPerDamage>
+			<oldLabel>scar</oldLabel>
+			<bleeding>1</bleeding>
+			<becomeOldChance>1</becomeOldChance>
+			<combine>false</combine>
+			<destroyedLabel>Destroyed</destroyedLabel>
+			<treatedWellLabel>bandaged</treatedWellLabel>
+			<treatedLabel>poorly bandaged</treatedLabel>
+			<innerTreatedWellLabel>sutured</innerTreatedWellLabel>
+			<innerTreatedLabel>poorly sutured</innerTreatedLabel>
+			<solidTreatedWellLabel>set</solidTreatedWellLabel>
+			<solidTreatedLabel>poorly set</solidTreatedLabel>
+		</injury>
+	</HealthDiffDef>
+	
+	<HealthDiffDef>
+		<defName>Burn</defName>
+		<label>burn</label>
+		<naturallyHealed>true</naturallyHealed>
+		<injury>
+			<painPerDamage>1.5</painPerDamage>
+			<oldLabel>burn scar</oldLabel>
+			<oldPainPerDamage>0.5</oldPainPerDamage>
+			<bleeding>0</bleeding>
+			<becomeOldChance>1</becomeOldChance>
+			<combine>true</combine>
+			<destroyedLabel>Burned off</destroyedLabel>
+			<destroyedOutLabel>Burned out</destroyedOutLabel>
+			<treatedWellLabel>bandaged</treatedWellLabel>
+			<treatedLabel>poorly bandaged</treatedLabel>
+			<innerTreatedWellLabel>sutured</innerTreatedWellLabel>
+			<innerTreatedLabel>poorly sutured</innerTreatedLabel>
+			<solidTreatedWellLabel>set</solidTreatedWellLabel>
+			<solidTreatedLabel>poorly set</solidTreatedLabel>
+		</injury>
+	</HealthDiffDef>
+	
+	<HealthDiffDef>
+		<defName>Crush</defName>
+		<label>crush</label>
+		<naturallyHealed>true</naturallyHealed>
+		<injury>
+			<painPerDamage>1</painPerDamage>
+			<oldLabel>scar</oldLabel>
+			<oldPainPerDamage>0.5</oldPainPerDamage>
+			<bleeding>0.4</bleeding>
+			<becomeOldChance>1</becomeOldChance>
+			<combine>true</combine>
+			<destroyedLabel>Crushed</destroyedLabel>
+			<treatedWellLabel>bandaged</treatedWellLabel>
+			<treatedLabel>poorly bandaged</treatedLabel>
+			<innerTreatedWellLabel>sutured</innerTreatedWellLabel>
+			<innerTreatedLabel>poorly sutured</innerTreatedLabel>
+			<solidTreatedWellLabel>set</solidTreatedWellLabel>
+			<solidTreatedLabel>poorly set</solidTreatedLabel>
+		</injury>
+	</HealthDiffDef>
+	
+	<HealthDiffDef>
+		<defName>Crack</defName>
+		<label>crack</label>
+		<naturallyHealed>true</naturallyHealed>
+		<injury>
+			<painPerDamage>0.8</painPerDamage>
+			<oldLabel>scar</oldLabel>
+			<oldPainPerDamage>0.5</oldPainPerDamage>
+			<bleeding>0</bleeding>
+			<becomeOldChance>0</becomeOldChance>
+			<destroyedLabel>Shattered</destroyedLabel>
+			<treatedWellLabel>healed</treatedWellLabel>
+			<treatedLabel>poorly healed</treatedLabel>
+			<innerTreatedWellLabel>healed</innerTreatedWellLabel>
+			<innerTreatedLabel>poorly healed</innerTreatedLabel>
+			<solidTreatedWellLabel>set</solidTreatedWellLabel>
+			<solidTreatedLabel>poorly set</solidTreatedLabel>
+		</injury>
+	</HealthDiffDef>
+	
+	<HealthDiffDef>
+		<defName>Cut</defName>
+		<label>cut</label>
+		<naturallyHealed>true</naturallyHealed>
+		<injury>
+			<painPerDamage>1</painPerDamage>
+			<oldLabel>cut scar</oldLabel>
+			<oldPainPerDamage>0.5</oldPainPerDamage>
+			<bleeding>1</bleeding>
+			<becomeOldChance>1</becomeOldChance>
+			<infectionChance>0.02</infectionChance>
+			<combine>false</combine>
+			<destroyedLabel>Cut off</destroyedLabel>
+			<destroyedOutLabel>Cut out</destroyedOutLabel>
+			<treatedWellLabel>bandaged</treatedWellLabel>
+			<treatedLabel>poorly bandaged</treatedLabel>
+			<innerTreatedWellLabel>sutured</innerTreatedWellLabel>
+			<innerTreatedLabel>poorly sutured</innerTreatedLabel>
+			<solidTreatedWellLabel>set</solidTreatedWellLabel>
+			<solidTreatedLabel>poorly set</solidTreatedLabel>
+		</injury>
+	</HealthDiffDef>
+	
+	<HealthDiffDef>
+		<defName>SurgicalCut</defName>
+		<label>surgical cut</label>
+		<naturallyHealed>true</naturallyHealed>
+		<injury>
+			<painPerDamage>1</painPerDamage>
+			<oldLabel>cut scar</oldLabel>
+			<oldPainPerDamage>0.5</oldPainPerDamage>
+			<bleeding>1</bleeding>
+			<becomeOldChance>1</becomeOldChance>
+			<combine>false</combine>
+			<treatedWellLabel>bandaged</treatedWellLabel>
+			<treatedLabel>poorly bandaged</treatedLabel>
+			<innerTreatedWellLabel>sutured</innerTreatedWellLabel>
+			<innerTreatedLabel>poorly sutured</innerTreatedLabel>
+			<solidTreatedWellLabel>set</solidTreatedWellLabel>
+			<solidTreatedLabel>poorly set</solidTreatedLabel>
+			<useRemovedLabel>true</useRemovedLabel>
+		</injury>
+	</HealthDiffDef>
+	
+	<HealthDiffDef>
+		<defName>Scratch</defName>
+		<label>scratch</label>
+		<naturallyHealed>true</naturallyHealed>
+		<injury>
+			<painPerDamage>1</painPerDamage>
+			<oldLabel>scratch scar</oldLabel>
+			<oldPainPerDamage>0.5</oldPainPerDamage>
+			<bleeding>0.4</bleeding>
+			<becomeOldChance>1</becomeOldChance>
+			<infectionChance>0.03</infectionChance>
+			<combine>false</combine>
+			<destroyedLabel>Torn off</destroyedLabel>
+			<destroyedOutLabel>Torn out</destroyedOutLabel>
+			<treatedWellLabel>bandaged</treatedWellLabel>
+			<treatedLabel>poorly bandaged</treatedLabel>
+			<innerTreatedWellLabel>sutured</innerTreatedWellLabel>
+			<innerTreatedLabel>poorly sutured</innerTreatedLabel>
+			<solidTreatedWellLabel>set</solidTreatedWellLabel>
+			<solidTreatedLabel>poorly set</solidTreatedLabel>
+		</injury>
+	</HealthDiffDef>
+	
+	<HealthDiffDef>
+		<defName>Bite</defName>
+		<label>bite</label>
+		<naturallyHealed>true</naturallyHealed>
+		<injury>
+			<painPerDamage>1</painPerDamage>
+			<oldLabel>bite scar</oldLabel>
+			<oldPainPerDamage>0.5</oldPainPerDamage>
+			<bleeding>0.4</bleeding>
+			<becomeOldChance>1</becomeOldChance>
+			<infectionChance>0.04</infectionChance>
+			<combine>false</combine>
+			<destroyedLabel>Bitten off</destroyedLabel>
+			<destroyedOutLabel>Bitten out</destroyedOutLabel>
+			<treatedWellLabel>bandaged</treatedWellLabel>
+			<treatedLabel>poorly bandaged</treatedLabel>
+			<innerTreatedWellLabel>sutured</innerTreatedWellLabel>
+			<innerTreatedLabel>poorly sutured</innerTreatedLabel>
+			<solidTreatedWellLabel>set</solidTreatedWellLabel>
+			<solidTreatedLabel>poorly set</solidTreatedLabel>
+		</injury>
+	</HealthDiffDef>
+	
+	<HealthDiffDef>
+		<defName>Stab</defName>
+		<label>stab</label>
+		<naturallyHealed>true</naturallyHealed>
+		<injury>
+			<painPerDamage>1</painPerDamage>
+			<oldLabel>stab scar</oldLabel>
+			<oldPainPerDamage>0.5</oldPainPerDamage>
+			<bleeding>0.8</bleeding>
+			<becomeOldChance>1</becomeOldChance>
+			<infectionChance>0.02</infectionChance>
+			<combine>false</combine>
+			<destroyedLabel>Cut off</destroyedLabel>
+			<destroyedOutLabel>Cut out</destroyedOutLabel>
+			<treatedWellLabel>bandaged</treatedWellLabel>
+			<treatedLabel>poorly bandaged</treatedLabel>
+			<innerTreatedWellLabel>sutured</innerTreatedWellLabel>
+			<innerTreatedLabel>poorly sutured</innerTreatedLabel>
+			<solidTreatedWellLabel>set</solidTreatedWellLabel>
+			<solidTreatedLabel>poorly set</solidTreatedLabel>
+		</injury>
+	</HealthDiffDef>
+	
+	<HealthDiffDef>
+		<defName>Gunshot</defName>
+		<label>gunshot</label>
+		<naturallyHealed>true</naturallyHealed>
+		<injury>
+			<painPerDamage>1</painPerDamage>
+			<oldLabel>old gunshot</oldLabel>
+			<oldPainPerDamage>0.5</oldPainPerDamage>
+			<bleeding>0.92</bleeding>
+			<becomeOldChance>1</becomeOldChance>
+			<infectionChance>0.07</infectionChance>
+			<combine>false</combine>
+			<fullyHealableOnlyByTreatment>true</fullyHealableOnlyByTreatment>
+			<destroyedLabel>Shot off</destroyedLabel>
+			<destroyedOutLabel>Shot out</destroyedOutLabel>
+			<treatedWellLabel>bandaged</treatedWellLabel>
+			<treatedLabel>poorly bandaged</treatedLabel>
+			<innerTreatedWellLabel>sutured</innerTreatedWellLabel>
+			<innerTreatedLabel>poorly sutured</innerTreatedLabel>
+			<solidTreatedWellLabel>set</solidTreatedWellLabel>
+			<solidTreatedLabel>poorly set</solidTreatedLabel>
+		</injury>
+	</HealthDiffDef>
+
+	<HealthDiffDef>
+		<defName>Shredded</defName>
+		<label>shredded</label>
+		<naturallyHealed>true</naturallyHealed>
+		<injury>
+			<painPerDamage>1</painPerDamage>
+			<oldLabel>scar</oldLabel>
+			<oldPainPerDamage>0.5</oldPainPerDamage>
+			<bleeding>1</bleeding>
+			<becomeOldChance>1</becomeOldChance>
+			<infectionChance>0.07</infectionChance>
+			<combine>true</combine>
+			<destroyedLabel>Torn off</destroyedLabel>
+			<destroyedOutLabel>Torn out</destroyedOutLabel>
+			<treatedWellLabel>bandaged</treatedWellLabel>
+			<treatedLabel>poorly bandaged</treatedLabel>
+			<innerTreatedWellLabel>sutured</innerTreatedWellLabel>
+			<innerTreatedLabel>poorly sutured</innerTreatedLabel>
+			<solidTreatedWellLabel>set</solidTreatedWellLabel>
+			<solidTreatedLabel>poorly set</solidTreatedLabel>
+		</injury>
+	</HealthDiffDef>
+	
+	<HealthDiffDef>
+		<defName>Bruise</defName>
+		<label>bruise</label>
+		<naturallyHealed>true</naturallyHealed>
+		<injury>
+			<painPerDamage>1</painPerDamage>
+			<oldLabel>old bruise</oldLabel>
+			<oldPainPerDamage>0.5</oldPainPerDamage>
+			<bleeding>0</bleeding>
+			<becomeOldChance>0</becomeOldChance>
+			<combine>false</combine>
+			<destroyedLabel>Destroyed</destroyedLabel>
+			<treatedWellLabel>bandaged</treatedWellLabel>
+			<treatedLabel>poorly bandaged</treatedLabel>
+			<innerTreatedWellLabel>sutured</innerTreatedWellLabel>
+			<innerTreatedLabel>poorly sutured</innerTreatedLabel>
+			<solidTreatedWellLabel>set</solidTreatedWellLabel>
+			<solidTreatedLabel>poorly set</solidTreatedLabel>
+		</injury>
+	</HealthDiffDef>
+	
+	<!-- Missing body part -->
+	
+	<HealthDiffDef>
+		<defName>MissingBodyPart</defName>
+		<label>missing body part</label>
+	</HealthDiffDef>
+	
+
+</HealthDiffDefs>

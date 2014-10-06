@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ScatterableDefs>
+
+
+	<ScatterableDef Abstract="True" Name="StoneRoot">
+		<MinSize>0.4</MinSize>
+		<MaxSize>1.0</MaxSize>
+		<SelectionWeight>100</SelectionWeight>
+		<ScatterType>Rocky</ScatterType>
+	</ScatterableDef>
+
+	<ScatterableDef ParentName="StoneRoot">
+    <defName>DebrisStoneA</defName>
+		<graphicPathSingle>Terrain/Scatter/DebrisStoneA</graphicPathSingle>
+	</ScatterableDef>
+
+	<ScatterableDef ParentName="StoneRoot">
+    <defName>DebrisStoneB</defName>
+    <graphicPathSingle>Terrain/Scatter/DebrisStoneB</graphicPathSingle>
+	</ScatterableDef>
+
+
+
+
+
+
+	<ScatterableDef Abstract="True" Name="DirtSmearRoot">
+		<MinSize>1.5</MinSize>
+		<MaxSize>7.0</MaxSize>
+		<SelectionWeight>40</SelectionWeight>
+		<ScatterType>SoftDry</ScatterType>
+	</ScatterableDef>
+
+	<ScatterableDef ParentName="DirtSmearRoot">
+    <defName>DirtSmearA</defName>
+    <graphicPathSingle>Terrain/Scatter/DirtSmearA</graphicPathSingle>
+	</ScatterableDef>
+
+	<ScatterableDef ParentName="DirtSmearRoot">
+    <defName>DirtSmearB</defName>
+    <graphicPathSingle>Terrain/Scatter/DirtSmearB</graphicPathSingle>
+	</ScatterableDef>
+
+
+
+</ScatterableDefs>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DefPackage-TraderKindDef>
+
+  <TraderKindDef>
+    <defName>FarmingVessel</defName>
+    <label>food trader</label>
+    <stockDefs>
+      <li>
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>2400</min>
+          <max>3000</max>
+        </countRange>
+      </li>
+      <li>
+        <categoryDef>FoodRaw</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <price>Cheap</price>
+        <totalPriceRange>
+          <min>800</min>
+          <max>2500</max>
+        </totalPriceRange>
+      </li>
+      <li>
+        <categoryDef>FoodMeals</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>2</max>
+        </thingDefCountRange>
+        <price>Cheap</price>
+        <totalPriceRange>
+          <min>500</min>
+          <max>1500</max>
+        </totalPriceRange>
+      </li>
+      <li>
+        <thingDef>Medicine</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>10</min>
+          <max>30</max>
+        </countRange>
+      </li>
+    </stockDefs>
+  </TraderKindDef>
+
+
+  <TraderKindDef>
+    <defName>IndustrialTrader</defName>
+    <label>industrial trader</label>
+    <stockDefs>
+      <li>
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>2400</min>
+          <max>3000</max>
+        </countRange>
+      </li>
+      <!-- Always carry metal at least-->
+      <li>
+        <thingDef>Metal</thingDef>
+        <price>Cheap</price>
+        <countRange>
+          <min>800</min>
+          <max>1500</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef>Plasteel</thingDef>
+        <price>Cheap</price>
+        <countRange>
+          <min>300</min>
+          <max>700</max>
+        </countRange>
+      </li>
+      <li>
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <price>Cheap</price>
+        <totalPriceRange>
+          <min>1500</min>
+          <max>3000</max>
+        </totalPriceRange>
+      </li>
+      <li>
+        <thingDef>Medicine</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>10</min>
+          <max>30</max>
+        </countRange>
+    </li>
+    </stockDefs>
+  </TraderKindDef>
+
+
+  <TraderKindDef>
+    <defName>CombatSupplier</defName>
+    <label>combat supplier</label>
+    <tradesEquipment>True</tradesEquipment>
+    <generateWithEquipment>True</generateWithEquipment>
+    <stockDefs>
+      <li>
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>2400</min>
+          <max>3000</max>
+        </countRange>
+      </li>
+      <li>
+        <categoryDef>Weapons</categoryDef>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>800</min>
+          <max>2500</max>
+        </totalPriceRange>
+      </li>
+      <li>
+        <thingDef>Medicine</thingDef>
+        <countRange>
+          <min>30</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef>Shells</thingDef>
+        <price>Cheap</price>
+        <countRange>
+          <min>60</min>
+          <max>90</max>
+        </countRange>
+    </li>
+    </stockDefs>
+  </TraderKindDef>
+
+
+  <TraderKindDef>
+    <defName>SlaveTrader</defName>
+    <label>slave trader</label>
+    <tradesSlaves>True</tradesSlaves>
+    <tradesEquipment>True</tradesEquipment>
+    <generateWithSlaves>True</generateWithSlaves>
+    <stockDefs>
+      <li>
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>3000</min>
+          <max>4000</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef>Medicine</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>5</min>
+          <max>15</max>
+        </countRange>
+      </li>
+    </stockDefs>
+  </TraderKindDef>
+
+
+
+  <TraderKindDef>
+    <defName>ExoticTrader</defName>
+    <label>exotic goods trader</label>
+    <tradesEquipment>True</tradesEquipment>
+    <stockDefs>
+      <li>
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>8000</min>
+          <max>10000</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef>Gold</thingDef>
+        <countRange>
+          <min>100</min>
+          <max>2000</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef>AIPersonaCore</thingDef>
+        <countRange>
+          <min>-1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li>
+        <categoryDef>Apparel</categoryDef>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>6</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>1500</min>
+          <max>10000</max>
+        </totalPriceRange>
+        <countRange>
+          <min>1</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li>
+        <categoryDef>BodyParts</categoryDef>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>2</max>
+        </countRange>
+      </li>
+    </stockDefs>
+  </TraderKindDef>
+
+
+
+</DefPackage-TraderKindDef>

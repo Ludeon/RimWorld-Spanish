@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+
+
+  <!--============================== Beds ==============================-->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>SleepingSpot</defName>
+    <EType>Bed</EType>
+    <label>sleeping spot</label>
+    <Description>Designates a spot on the ground where people should sleep. Not comfortable. Rest effectiveness: 7/10</Description>
+    <ThingClass>Building_Bed</ThingClass>
+    <graphicPathMulti>Things/Building/Bed/SleepSpot</graphicPathMulti>
+    <AltitudeLayer>FloorEmplacement</AltitudeLayer>
+    <statBases>
+      <WorkToBuild>0</WorkToBuild>
+      <BedRestEffectiveness>0.7</BedRestEffectiveness>
+    </statBases>
+    <UseStandardHealth>False</UseStandardHealth>
+    <Size>(1,2)</Size>
+    <Overdraw>True</Overdraw>
+    <DesignationCategory>Furniture</DesignationCategory>
+    <Passability>Standable</Passability>
+    <DrawGUIOverlay>True</DrawGUIOverlay>
+    <building>
+      <Bed_ShowSleeperBody>True</Bed_ShowSleeperBody>
+      <Bed_HealTickInterval>3000</Bed_HealTickInterval>
+      <supportsPlants>true</supportsPlants>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+    </building>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Bed</defName>
+    <EType>Bed</EType>
+    <label>bed</label>
+    <Description>A cozy mattress and sheets on a frame for resting. Rest effectiveness: 10/10</Description>
+    <ThingClass>Building_Bed</ThingClass>
+    <graphicPathMulti>Things/Building/Bed/Bed</graphicPathMulti>
+    <shaderType>CutoutComplex</shaderType>
+    <AltitudeLayer>Waist</AltitudeLayer>
+    <statBases>
+      <MaxHealth>150</MaxHealth>
+      <Flammability>1.0</Flammability>
+      <Beauty>15</Beauty>
+      <WorkToBuild>580</WorkToBuild>
+      <BedRestEffectiveness>1</BedRestEffectiveness>
+    </statBases>
+    <Size>(1,2)</Size>
+    <madeFromStuff>true</madeFromStuff>
+    <costStuffCount>25</costStuffCount>
+    <Overdraw>True</Overdraw>
+    <building>
+      <Bed_ShowSleeperBody>False</Bed_ShowSleeperBody>
+      <Bed_HealTickInterval>2100</Bed_HealTickInterval>
+    </building>
+    <fillPercent>0.4</fillPercent>
+    <PathCost>60</PathCost>
+    <LeaveResourcesWhenKilled>True</LeaveResourcesWhenKilled>
+    <killedLeavings>
+      <ChunkSlag>1</ChunkSlag>
+    </killedLeavings>
+    <StaticSunShadowHeight>0.17</StaticSunShadowHeight>
+    <CastEdgeShadows>True</CastEdgeShadows>
+    <DesignationCategory>Furniture</DesignationCategory>
+    <Passability>PassThroughOnly</Passability>
+    <DrawGUIOverlay>True</DrawGUIOverlay>
+    <designationHotKey>B</designationHotKey>
+  </ThingDef>
+
+
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RoyalBed</defName>
+    <EType>Bed</EType>
+    <label>royal bed</label>
+    <Description>A luxurious bed fit for the highborn.</Description>
+    <ThingClass>Building_Bed</ThingClass>
+    <graphicPathMulti>Things/Building/Bed/RoyalBed</graphicPathMulti>
+    <shaderType>CutoutComplex</shaderType>
+    <AltitudeLayer>Waist</AltitudeLayer>
+    <statBases>
+      <MaxHealth>200</MaxHealth>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>1000</WorkToBuild>
+      <Beauty>60</Beauty>
+      <BedRestEffectiveness>1.05</BedRestEffectiveness>
+    </statBases>
+    <Size>(2,2)</Size>
+    <madeFromStuff>true</madeFromStuff>
+    <costStuffCount>60</costStuffCount>
+    <Overdraw>True</Overdraw>
+    <building>
+      <Bed_ShowSleeperBody>False</Bed_ShowSleeperBody>
+      <Bed_HealTickInterval>2000</Bed_HealTickInterval>
+    </building>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <fillPercent>0.4</fillPercent>
+    <PathCost>60</PathCost>
+    <LeaveResourcesWhenKilled>True</LeaveResourcesWhenKilled>
+    <killedLeavings>
+      <ChunkSlag>2</ChunkSlag>
+    </killedLeavings>
+    <StaticSunShadowHeight>0.17</StaticSunShadowHeight>
+    <CastEdgeShadows>True</CastEdgeShadows>
+    <DesignationCategory>Furniture</DesignationCategory>
+    <Passability>PassThroughOnly</Passability>
+    <designationHotKey>R</designationHotKey>
+    <DrawGUIOverlay>True</DrawGUIOverlay>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>HospitalBed</defName>
+    <EType>Bed</EType>
+    <label>hospital bed</label>
+    <Description>A bed specially designed for injured people. Improves chance of successful medical work.</Description>
+    <ThingClass>Building_Bed</ThingClass>
+    <graphicPathMulti>Things/Building/Bed/HospitalBed</graphicPathMulti>
+    <shaderType>CutoutComplex</shaderType>
+    <AltitudeLayer>Waist</AltitudeLayer>
+    <statBases>
+      <MaxHealth>150</MaxHealth>
+      <WorkToBuild>700</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <BedRestEffectiveness>0.98</BedRestEffectiveness>
+    </statBases>
+    <Size>(1,2)</Size>
+    <madeFromStuff>true</madeFromStuff>
+    <costStuffCount>60</costStuffCount>
+    <costList>
+      <Metal>250</Metal>
+      <Medicine>10</Medicine>
+    </costList>
+    <Overdraw>True</Overdraw>
+    <building>
+      <Bed_ShowSleeperBody>False</Bed_ShowSleeperBody>
+      <Bed_HealTickInterval>1950</Bed_HealTickInterval>
+      <bed_medicalBonusFactor>1.04</bed_medicalBonusFactor>
+      <bed_defaultMedical>true</bed_defaultMedical>
+    </building>
+    <fillPercent>0.4</fillPercent>
+    <PathCost>60</PathCost>
+    <LeaveResourcesWhenKilled>True</LeaveResourcesWhenKilled>
+    <killedLeavings>
+      <ChunkSlag>1</ChunkSlag>
+    </killedLeavings>
+    <StaticSunShadowHeight>0.17</StaticSunShadowHeight>
+    <CastEdgeShadows>True</CastEdgeShadows>
+    <DesignationCategory>Furniture</DesignationCategory>
+    <Passability>PassThroughOnly</Passability>
+    <DrawGUIOverlay>True</DrawGUIOverlay>
+    <researchPrerequisite>HospitalBed</researchPrerequisite>
+  </ThingDef>
+
+
+
+
+
+  <!--======================= Basic domestic furniture ==============================-->
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Stool</defName>
+    <eType>Building_Chair</eType>
+    <label>stool</label>
+    <graphicPathMulti>Things/Building/Furniture/Stool</graphicPathMulti>
+    <altitudeLayer>Waist</altitudeLayer>
+    <statBases>
+      <MaxHealth>75</MaxHealth>
+      <WorkToBuild>500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>3</Beauty>
+    </statBases>
+    <description>People sit here.</description>
+    <size>(1,1)</size>
+    <madeFromStuff>true</madeFromStuff>
+    <costStuffCount>15</costStuffCount>
+    <filthLeavings>
+      <SlagRubble>1</SlagRubble>
+    </filthLeavings>
+    <pathCost>30</pathCost>
+    <designationCategory>Furniture</designationCategory>
+    <sunShadowInfo>
+      <basewidth>0.3</basewidth>
+      <baseHeight>0.3</baseHeight>
+      <tallness>0.6</tallness>
+    </sunShadowInfo>
+    <designationHotKey>C</designationHotKey>
+  </ThingDef>
+
+
+  <!-- Table base -->
+  <ThingDef Abstract="True" ParentName="BuildingBase" Name="TableBase">
+    <eType>Building_Table</eType>
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Waist</altitudeLayer>
+    <description>People eat off tables when chairs are placed facing them.</description>
+    <overdraw>false</overdraw>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <pathCost>60</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <madeFromStuff>true</madeFromStuff>
+    <filthLeavings>
+      <SlagRubble>1</SlagRubble>
+    </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <designationCategory>Furniture</designationCategory>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <itemSurface>true</itemSurface>
+    <comps>
+      <li>
+        <compClass>CompGatherSpot</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+  <ThingDef ParentName="TableBase">
+    <defName>TableShort</defName>
+    <label>table (short)</label>
+    <graphicPathMulti>Things/Building/Furniture/TableShort</graphicPathMulti>
+    <overdraw>true</overdraw>
+    <statBases>
+      <MaxHealth>100</MaxHealth>
+      <WorkToBuild>450</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>8</Beauty>
+    </statBases>
+    <size>(2,2)</size>
+    <madeFromStuff>true</madeFromStuff>
+    <costStuffCount>20</costStuffCount>
+    <rotatable>false</rotatable>
+    <killedLeavings>
+      <ChunkSlag>1</ChunkSlag>
+    </killedLeavings>
+  </ThingDef>
+
+
+  <ThingDef ParentName="TableBase">
+    <defName>TableLong</defName>
+    <label>table (long)</label>
+    <graphicPathMulti>Things/Building/Furniture/TableLong</graphicPathMulti>
+    <overdraw>true</overdraw>
+    <statBases>
+      <MaxHealth>150</MaxHealth>
+      <WorkToBuild>830</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>12</Beauty>
+    </statBases>
+    <size>(2,4)</size>
+    <madeFromStuff>true</madeFromStuff>
+    <costStuffCount>35</costStuffCount>
+    <killedLeavings>
+      <ChunkSlag>2</ChunkSlag>
+    </killedLeavings>
+  </ThingDef>
+
+
+  <!-- ======================== Lighting ======================= -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>StandingLamp</defName>
+    <eType>BuildingComplex</eType>
+    <label>standing lamp</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicPathSingle>Things/Building/Furniture/LampStanding</graphicPathSingle>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHealth>50</MaxHealth>
+      <WorkToBuild>115</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <description>Standing lamp that lights an area.</description>
+    <size>(1,1)</size>
+    <costList>
+      <Metal>15</Metal>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>150</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+      </li>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+    <designationCategory>Furniture</designationCategory>
+    <sunShadowInfo>
+      <basewidth>0.3</basewidth>
+      <baseHeight>0.3</baseHeight>
+      <tallness>0.6</tallness>
+      <offset>(0,0,-0.1)</offset>
+    </sunShadowInfo>
+    <rotatable>false</rotatable>
+    <designationHotKey>L</designationHotKey>
+  </ThingDef>
+
+
+
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>StandingLamp_Red</defName>
+    <eType>BuildingComplex</eType>
+    <label>standing lamp (red)</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicPathSingle>Things/Building/Furniture/LampStanding</graphicPathSingle>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHealth>50</MaxHealth>
+      <WorkToBuild>130</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <description>Standing lamp that lights an area in red.</description>
+    <size>(1,1)</size>
+    <costList>
+      <Metal>25</Metal>
+    </costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>150</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+      </li>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <designationCategory>Furniture</designationCategory>
+    <sunShadowInfo>
+      <basewidth>0.3</basewidth>
+      <baseHeight>0.3</baseHeight>
+      <tallness>0.6</tallness>
+      <offset>(0,0,-0.1)</offset>
+    </sunShadowInfo>
+    <rotatable>false</rotatable>
+    <researchPrerequisite>ColoredLights</researchPrerequisite>
+  </ThingDef>
+
+
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>StandingLamp_Green</defName>
+    <eType>BuildingComplex</eType>
+    <label>standing lamp (green)</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicPathSingle>Things/Building/Furniture/LampStanding</graphicPathSingle>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHealth>50</MaxHealth>
+      <WorkToBuild>130</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <description>Standing lamp that lights an area in green.</description>
+    <size>(1,1)</size>
+    <costList>
+      <Metal>25</Metal>
+    </costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>150</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+      </li>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>12</glowRadius>
+        <glowColor>(0,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <designationCategory>Furniture</designationCategory>
+    <sunShadowInfo>
+      <basewidth>0.3</basewidth>
+      <baseHeight>0.3</baseHeight>
+      <tallness>0.6</tallness>
+      <offset>(0,0,-0.1)</offset>
+    </sunShadowInfo>
+    <rotatable>false</rotatable>
+    <researchPrerequisite>ColoredLights</researchPrerequisite>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>StandingLamp_Blue</defName>
+    <eType>BuildingComplex</eType>
+    <label>standing lamp (blue)</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicPathSingle>Things/Building/Furniture/LampStanding</graphicPathSingle>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHealth>50</MaxHealth>
+      <WorkToBuild>130</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <description>Standing lamp that lights an area in blue.</description>
+    <size>(1,1)</size>
+    <costList>
+      <Metal>25</Metal>
+    </costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>150</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+      </li>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>12</glowRadius>
+        <glowColor>(0,0,217,0)</glowColor>
+      </li>
+    </comps>
+    <designationCategory>Furniture</designationCategory>
+    <sunShadowInfo>
+      <basewidth>0.3</basewidth>
+      <baseHeight>0.3</baseHeight>
+      <tallness>0.6</tallness>
+      <offset>(0,0,-0.1)</offset>
+    </sunShadowInfo>
+    <rotatable>false</rotatable>
+    <researchPrerequisite>ColoredLights</researchPrerequisite>
+  </ThingDef>
+
+
+
+
+  <!--============================== Storage ==============================-->
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>EquipmentRack</defName>
+    <eType>BuildingComplex</eType>
+    <label>equipment rack</label>
+    <thingClass>Building_Storage</thingClass>
+    <graphicPathSingle>Things/Building/Furniture/EquipmentRack</graphicPathSingle>
+    <altitudeLayer>Waist</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <madeFromStuff>True</madeFromStuff>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <MaxHealth>100</MaxHealth>
+      <WorkToBuild>580</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <description>Haulers carry equipment here for storage.</description>
+    <size>(2,1)</size>
+    <overdraw>true</overdraw>
+    <killedLeavings>
+      <ChunkSlag>1</ChunkSlag>
+    </killedLeavings>
+    <filthLeavings>
+      <SlagRubble>2</SlagRubble>
+    </filthLeavings>
+    <building>
+      <fixedStorageSettings>
+        <priority>Important</priority>
+        <allowances>
+          <categories>
+            <li>Weapons</li>
+          </categories>
+        </allowances>
+      </fixedStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <designationCategory>Furniture</designationCategory>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <itemSurface>true</itemSurface>
+    <designationHotKey>I</designationHotKey>
+  </ThingDef>
+
+
+
+
+
+
+
+
+
+</Buildings>

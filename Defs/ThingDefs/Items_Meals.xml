@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef Name="MealBase" Abstract="True">
+		<eType>Item</eType>
+		<label>meal</label>
+		<thingClass>Meal</thingClass>
+		<category>Item</category>
+		<useStandardHealth>true</useStandardHealth>
+		<selectable>true</selectable>
+		<statBases><MaxHealth>50</MaxHealth><Flammability>1.0</Flammability></statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>10</stackLimit>
+		<tickerType>Rare</tickerType>
+		<description>"Meal lacks desc."</description>
+		<storeCategories>
+			<li>FoodMeals</li>
+		</storeCategories>
+		<alwaysHaulable>true</alwaysHaulable>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+			</comps>
+		<pathCost>15</pathCost>
+		<resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="MealBase">
+    <defName>MealSurvivalPack</defName>
+    <label>packaged survival meal</label>
+    <description>A high-quality packaged meal, manufactured for use in survival situations.</description>
+    <graphicPathSingle>Things/Item/Meal/SurvivalPack</graphicPathSingle>
+    <baseMarketValue>30</baseMarketValue>
+    <food>
+      <quality>MealFine</quality>
+      <nutrition>100</nutrition>
+      <eatEffect>EatVegetarian</eatEffect>
+      <ticksBeforeSpoil>80000000</ticksBeforeSpoil>
+      <soundEat>Meal_Eat</soundEat>
+    </food>
+  </ThingDef>
+  
+  
+
+	<ThingDef ParentName="MealBase">
+		<defName>MealNutrientPaste</defName>
+		<label>nutrient paste meal</label>
+		<description>A synthetic mixture of protein, carbohydrates, and vitamins, amino acids and minerals. Everything the body needs, and absolutely disgusting.</description>
+		<graphicPathSingle>Things/Item/Meal/NutrientPaste</graphicPathSingle>
+    <baseMarketValue>15</baseMarketValue>
+    <food>
+			<quality>MealAwful</quality>
+			<nutrition>80</nutrition>
+			<eatenDirectThought>AteNutrientPasteMeal</eatenDirectThought>
+			<eatEffect>EatVegetarian</eatEffect>
+			<ticksBeforeSpoil>80000</ticksBeforeSpoil>
+      <soundEat>Meal_Eat</soundEat>
+		</food>
+	</ThingDef>
+
+
+	<ThingDef ParentName="MealBase">
+		<defName>MealSimple</defName>
+		<label>simple meal</label>
+		<description>A simple meal quickly cooked from a few ingredients.</description>
+		<graphicPathSingle>Things/Item/Meal/Simple</graphicPathSingle>
+    <baseMarketValue>25</baseMarketValue>
+    <food>
+			<quality>MealSimple</quality>
+			<nutrition>85</nutrition>
+			<eatEffect>EatVegetarian</eatEffect>
+			<ticksBeforeSpoil>80000</ticksBeforeSpoil>
+      <soundEat>Meal_Eat</soundEat>
+    </food>
+	</ThingDef>
+
+
+	<ThingDef ParentName="MealBase">
+		<defName>MealFine</defName>
+		<label>fine meal</label>
+		<description>A complex dish assembled with care from a wide selection of ingredients.</description>
+		<graphicPathSingle>Things/Item/Meal/Fine</graphicPathSingle>
+    <baseMarketValue>28</baseMarketValue>
+    <food>
+			<quality>MealFine</quality>
+			<nutrition>90</nutrition>
+			<eatenDirectThought>AteFineMeal</eatenDirectThought>
+			<eatEffect>EatVegetarian</eatEffect>
+			<ticksBeforeSpoil>80000</ticksBeforeSpoil>
+      <soundEat>Meal_Eat</soundEat>
+    </food>
+	</ThingDef>
+
+
+	<ThingDef ParentName="MealBase">
+		<defName>MealLavish</defName>
+		<label>lavish meal</label>
+		<description>A masterpiece of the culinary arts, this meal nourishes the body, mind, and soul.</description>
+		<graphicPathSingle>Things/Item/Meal/Lavish</graphicPathSingle>
+    <baseMarketValue>40</baseMarketValue>
+    <food>
+			<quality>MealLavish</quality>
+			<nutrition>100</nutrition>
+			<eatenDirectThought>AteLavishMeal</eatenDirectThought>
+			<eatEffect>EatVegetarian</eatEffect>
+			<ticksBeforeSpoil>80000</ticksBeforeSpoil>
+      <soundEat>Meal_Eat</soundEat>
+    </food>
+	</ThingDef>
+
+
+
+</ThingDefs>

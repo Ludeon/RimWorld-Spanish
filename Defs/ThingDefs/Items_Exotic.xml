@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+
+
+  <ThingDef Name="ResourceBase" Abstract="True">
+    <thingClass>ThingWithComponents</thingClass>
+    <label>unspecified resource</label>
+    <category>Item</category>
+    <eType>Item</eType>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useStandardHealth>true</useStandardHealth>
+    <statBases>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <tradersCarry>true</tradersCarry>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>
+
+
+
+  <!--=============== AI persona core ====================-->
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>AIPersonaCore</defName>
+    <label>AI persona core</label>
+    <description>A hyper-advanced computer core that houses a superhumanoid artificial intelligence. In its isolated state the core is dormant. Installed in a proper support structure, however, it can become a mind of frightening power.</description>
+    <graphicPathSingle>Things/Item/AIPersonaCore</graphicPathSingle>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <baseMarketValue>7000</baseMarketValue>
+    <useStandardHealth>true</useStandardHealth>
+    <statBases>
+      <MaxHealth>100</MaxHealth>
+    </statBases>
+    <storeCategories>
+      <li>Items</li>
+    </storeCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+  </ThingDef>
+
+  <!--=============== Neurotrainer ====================-->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Neurotrainer</defName>
+    <thingClass>Neurotrainer</thingClass>
+    <label>neurotrainer</label>
+    <description>A one-use nanotech trainer device. The neurotrainer is inserted through the orbit of the eye and releases nanomachines into the subject's brain, quickly improving their skills in a specific area.</description>
+    <graphicPathSingle>Things/Item/Neurotrainer</graphicPathSingle>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <baseMarketValue>2000</baseMarketValue>
+    <useStandardHealth>true</useStandardHealth>
+    <statBases>
+      <MaxHealth>80</MaxHealth>
+    </statBases>
+    <storeCategories>
+      <li>Items</li>
+    </storeCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+  </ThingDef>
+
+
+</GameData>

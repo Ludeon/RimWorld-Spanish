@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TerrainDefs>
+
+
+  <TerrainDef>
+    <defName>WaterDeep</defName>
+    <label>deep water</label>
+    <graphicPathSingle>Terrain/Surfaces/WaterDeep</graphicPathSingle>
+    <EdgeType>Fade</EdgeType>
+    <RenderPrecedence>395</RenderPrecedence>
+    <PathCost>99999</PathCost>
+    <acceptFilth>false</acceptFilth>
+    <fertility>0</fertility>
+    <avoidWander>true</avoidWander>
+    <changeable>false</changeable>
+  </TerrainDef>
+
+  
+  
+  <TerrainDef>
+    <defName>WaterShallow</defName>
+    <label>shallow water</label>
+    <graphicPathSingle>Terrain/Surfaces/WaterShallow</graphicPathSingle>
+    <EdgeType>Fade</EdgeType>
+    <RenderPrecedence>394</RenderPrecedence>
+    <PathCost>12</PathCost>
+    <acceptFilth>false</acceptFilth>
+    <fertility>0</fertility>
+    <avoidWander>true</avoidWander>
+    <changeable>false</changeable>
+  </TerrainDef>
+  
+</TerrainDefs>

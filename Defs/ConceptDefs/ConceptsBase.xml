@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DefPackage-ConceptDef>
+
+	<ConceptDef>
+		<defName>CameraDolly</defName>
+		<priority>95</priority>
+		<helpTextKeys>
+			<li>ConceptText_MoveCamera</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+
+
+	<ConceptDef>
+		<defName>Rescuing</defName>
+		<priority>55</priority>
+		<needsOpportunity>True</needsOpportunity>
+		<helpTextKeys>
+			<li>ConceptText_RescueColonist</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+	<ConceptDef>
+		<defName>Capturing</defName>
+		<priority>55</priority>
+		<needsOpportunity>True</needsOpportunity>
+		<helpTextKeys>
+			<li>ConceptText_Capture1</li>
+			<li>ConceptText_Capture2</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+	<ConceptDef>
+		<defName>Drafting</defName>
+		<priority>45</priority>
+		<needsOpportunity>True</needsOpportunity>
+    <highlightTag>ToggleDrafted</highlightTag>
+    <helpTextKeys>
+			<li>ConceptText_Draft1</li>
+			<li>ConceptText_Draft2</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+	<ConceptDef>
+		<defName>Forbidding</defName>
+		<priority>40</priority>
+    <highlightTag>ToggleForbidden</highlightTag>
+    <helpTextKeys>
+			<li>ConceptText_Forbid</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+  <ConceptDef>
+    <defName>BillsTab</defName>
+    <needsOpportunity>true</needsOpportunity>
+    <opportunityDecays>false</opportunityDecays>
+    <priority>40</priority>
+    <highlightTag>TabBills</highlightTag>
+    <helpTextKeys>
+      <li>ConceptText_BillsTab</li>
+    </helpTextKeys>
+  </ConceptDef>
+
+
+  <ConceptDef>
+		<defName>GrowingFood</defName>
+		<priority>37</priority>
+    <highlightTag>DesignatorZoneCreateGrowing</highlightTag>
+		<helpTextKeys>
+			<li>ConceptText_GrowingFood</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+	<ConceptDef>
+		<defName>BuildOrbitalTradeBeacon</defName>
+		<priority>40</priority>
+		<needsOpportunity>True</needsOpportunity>
+		<helpTextKeys>
+			<li>ConceptText_BuildOrbitalTradeBeacon</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+
+
+	<ConceptDef>
+		<defName>ReadingAlerts</defName>
+		<priority>25</priority>
+    <highlightTag>Alerts</highlightTag>
+    <helpTextKeys>
+			<li>ConceptText_ReadingAlerts</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+	<ConceptDef>
+		<defName>CameraZoom</defName>
+		<priority>20</priority>
+		<helpTextKeys>
+			<li>ConceptText_CameraZoom</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+
+	<ConceptDef>
+		<defName>TimeControls</defName>
+		<priority>15</priority>
+    <highlightTag>TimeControls</highlightTag>
+    <helpTextKeys>
+			<li>ConceptText_TimeControls</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+
+	
+
+	<ConceptDef>
+		<defName>PrisonerTab</defName>
+		<priority>20</priority>
+		<needsOpportunity>True</needsOpportunity>
+    <highlightTag>TabPrisoner</highlightTag>
+    <helpTextKeys>
+			<li>ConceptText_PrisonerTab</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+
+	<!-- Low priority -->
+
+
+	<ConceptDef>
+		<defName>Mining</defName>
+		<priority>12</priority>
+    <highlightTag>DesignatorMine</highlightTag>
+    <helpTextKeys>
+			<li>ConceptText_Mining</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+
+
+
+	<ConceptDef>
+		<defName>WorkOverview</defName>
+		<priority>10</priority>
+    <highlightTag>ButtonOverview</highlightTag>
+    <helpTextKeys>
+			<li>ConceptText_WorkOverview1</li>
+			<li>ConceptText_WorkOverview2</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+
+	<ConceptDef>
+		<defName>EquippingWeapons</defName>
+		<priority>9</priority>
+		<helpTextKeys>
+			<li>ConceptText_EquippingWeapons</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+
+	<ConceptDef>
+		<defName>HomeRegion</defName>
+		<priority>8</priority>
+    <highlightTag>DesignatorHomeRegion</highlightTag>
+    <helpTextKeys>
+			<li>ConceptText_HomeRegion</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+	<ConceptDef>
+		<defName>StorageTabCategories</defName>
+		<priority>20</priority>
+		<needsOpportunity>True</needsOpportunity>
+		<helpTextKeys>
+			<li>ConceptText_StorageTabCategories</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+	<ConceptDef>
+		<defName>StorageTab</defName>
+		<priority>7</priority>
+    <highlightTag>TabStorage</highlightTag>
+    <helpTextKeys>
+			<li>ConceptText_StorageTab</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+  <ConceptDef>
+    <defName>SetGrowingZonePlant</defName>
+    <priority>6</priority>
+    <highlightTag>GrowingZoneSetPlant</highlightTag>
+    <needsOpportunity>true</needsOpportunity>
+    <opportunityDecays>false</opportunityDecays>
+    <helpTextKeys>
+      <li>ConceptText_SetGrowingZonePlant</li>
+    </helpTextKeys>
+  </ConceptDef>
+  
+
+	<ConceptDef>
+		<defName>SpacePause</defName>
+		<priority>3</priority>
+		<helpTextKeys>
+			<li>ConceptText_SpacePause</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+	<ConceptDef>
+		<defName>RightClickClearLetter</defName>
+		<priority>2</priority>
+		<helpTextKeys>
+			<li>ConceptText_RightClickClearLetter</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+	<ConceptDef>
+		<defName>OpeningComms</defName>
+		<priority>5</priority>
+		<needsOpportunity>True</needsOpportunity>
+		<helpTextKeys>
+			<li>ConceptText_OpeningComms</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+  <ConceptDef>
+		<defName>StoragePriority</defName>
+		<priority>5</priority>
+		<needsOpportunity>True</needsOpportunity>
+    <highlightTag>StoragePriority</highlightTag>
+    <helpTextKeys>
+			<li>ConceptText_StoragePriority</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+  
+  <ConceptDef>
+    <defName>MedicalOperations</defName>
+    <priority>2</priority>
+    <helpTextKeys>
+      <li>ConceptText_MedicalOperations</li>
+    </helpTextKeys>
+  </ConceptDef>
+
+
+  <ConceptDef>
+		<defName>Wiki</defName>
+		<noteTeaches>True</noteTeaches>
+		<priority>1</priority>
+    <highlightTag>ButtonWiki</highlightTag>
+    <helpTextKeys>
+			<li>ConceptText_Wiki</li>
+		</helpTextKeys>
+	</ConceptDef>
+
+
+
+  <!-- Special concepts with interrupting popups -->
+  
+  <ConceptDef>
+    <defName>TradeGoodsMustBeNearBeacon</defName>
+    <noteTeaches>True</noteTeaches>
+    <priority>-1000</priority>
+    <helpTextKeys>
+      <li>ConceptText_TradeGoodsMustBeNearBeacon</li>
+    </helpTextKeys>
+  </ConceptDef>
+
+  <ConceptDef>
+    <defName>ArrestingCreatesEnemies</defName>
+    <noteTeaches>True</noteTeaches>
+    <priority>-1000</priority>
+    <helpTextKeys>
+      <li>ConceptText_ArrestingCreatesEnemies</li>
+    </helpTextKeys>
+  </ConceptDef>
+
+
+</DefPackage-ConceptDef>

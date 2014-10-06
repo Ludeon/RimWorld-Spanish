@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="ApparelBase" Abstract="True">
+    <thingClass>Apparel</thingClass>
+    <eType>Apparel</eType>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useStandardHealth>True</useStandardHealth>
+    <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    <statBases>
+      <MaxHealth>100</MaxHealth>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <madeFromStuff>true</madeFromStuff>
+    <tradersCarry>true</tradersCarry>
+    <storeCategories>
+      <li>Apparel</li>
+    </storeCategories>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_CowboyHat</defName>
+    <label>cowboy hat</label>
+    <description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is the most important part of traditional western attire.</description>
+    <graphicPathSingle>Things/Pawn/Humanoid/Apparel/CowboyHat/CowboyHat</graphicPathSingle>
+    <baseMarketValue>50</baseMarketValue>
+    <statBases>
+      <DamageDeflection_Blunt>0.03</DamageDeflection_Blunt>
+      <DamageDeflection_Piercing>0.03</DamageDeflection_Piercing>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <worngraphicPathMulti>Things/Pawn/Humanoid/Apparel/CowboyHat/CowboyHat</worngraphicPathMulti>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>70</commonality>
+      <tags>
+        <li>HatCivilian</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.54,0.15,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>RGBA(0.9,0.6,0.18,1)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>RGBA(0.9,0.42,0.23,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_PowerArmorHelmet</defName>
+    <label>power armor helmet</label>
+    <description>A part of power armor set, mostly used by heavy infantry.</description>
+    <graphicPathSingle>Things/Pawn/Humanoid/Apparel/PowerArmorHelmet/PowerArmorHelmet</graphicPathSingle>
+    <baseMarketValue>350</baseMarketValue>
+    <madeFromStuff>false</madeFromStuff>
+    <statBases>
+      <DamageDeflection_Blunt>0.35</DamageDeflection_Blunt>
+      <DamageDeflection_Piercing>0.6</DamageDeflection_Piercing>
+      <DamageDeflection_Heat>0.5</DamageDeflection_Heat>
+      <DamageDeflection_Electric>0</DamageDeflection_Electric>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.04</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <worngraphicPathMulti>Things/Pawn/Humanoid/Apparel/PowerArmorHelmet/PowerArmorHelmet</worngraphicPathMulti>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>30</commonality>
+      <tags>
+        <li>HelmetMilitary</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_KevlarHelmet</defName>
+    <label>kevlar helmet</label>
+    <description>Essential part of personal armor. Used to help absorb the explosion of a grenade.</description>
+    <graphicPathSingle>Things/Pawn/Humanoid/Apparel/KevlarHelmet/KevlarHelmet</graphicPathSingle>
+    <baseMarketValue>170</baseMarketValue>
+    <madeFromStuff>false</madeFromStuff>
+    <statBases>
+      <DamageDeflection_Blunt>0.1</DamageDeflection_Blunt>
+      <DamageDeflection_Piercing>0.35</DamageDeflection_Piercing>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.02</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <worngraphicPathMulti>Things/Pawn/Humanoid/Apparel/KevlarHelmet/KevlarHelmet</worngraphicPathMulti>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>40</commonality>
+      <tags>
+        <li>HelmetMilitary</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_MilitaryHelmet</defName>
+    <label>military Helmet</label>
+    <description>Old-looking and heavy, but very useful during enemy assault. Mostly used to protect against low velocity projectiles.</description>
+    <graphicPathSingle>Things/Pawn/Humanoid/Apparel/MilitaryHelmet/MilitaryHelmet</graphicPathSingle>
+    <baseMarketValue>140</baseMarketValue>
+    <madeFromStuff>false</madeFromStuff>
+    <statBases>
+      <DamageDeflection_Blunt>0.1</DamageDeflection_Blunt>
+      <DamageDeflection_Piercing>0.25</DamageDeflection_Piercing>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.04</MoveSpeed>
+      <PsychicSensitivity>-0.10</PsychicSensitivity>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <worngraphicPathMulti>Things/Pawn/Humanoid/Apparel/MilitaryHelmet/MilitaryHelmet</worngraphicPathMulti>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>40</commonality>
+      <tags>
+        <li>HelmetMilitary</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+
+
+</ThingDefs>

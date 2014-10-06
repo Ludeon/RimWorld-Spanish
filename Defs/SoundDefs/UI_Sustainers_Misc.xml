@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DefPackage-SoundDef>
+
+  <SoundDef>
+    <defName>Drag_Standard</defName>  
+    <sustain>True</sustain>  
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <sustainStartSound>Click</sustainStartSound>  
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interface/Designate/Drag_Standard</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>24.26087</min>        
+          <max>24.26087</max>
+        </volumeRange>      
+        <paramMappings>
+          <li>
+            <inParam Class="SoundParamSource_External">
+              <inParamName>TimeSinceDrag</inParamName>            
+              <defaultValue>1</defaultValue>
+            </inParam>          
+            <outParam Class="SoundParamTarget_Volume" />          
+            <paramUpdateMode>Constant</paramUpdateMode>          
+            <curve>
+              <points>
+                <li>
+                  <loc>
+                    <x>-0.002702698</x>                  
+                    <y>0.9982456</y>
+                  </loc>
+                </li>              
+                <li>
+                  <loc>
+                    <x>0.2283784</x>                  
+                    <y>0.1035088</y>
+                  </loc>
+                </li>              
+                <li>
+                  <loc>
+                    <x>0.5060811</x>                  
+                    <y>-0.0122807</y>
+                  </loc>
+                </li>
+              </points>
+            </curve>
+          </li>
+        </paramMappings>      
+        <sustainLoopDurationRange>
+          <min>999</min>        
+          <max>999</max>
+        </sustainLoopDurationRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Drag_PlaceBuildingStart</defName>  
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interface/Designate/Drag_PlaceBuildingStart</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>25</min>        
+          <max>25</max>
+        </volumeRange>      
+        <sustainLoopDurationRange>
+          <min>999</min>        
+          <max>999</max>
+        </sustainLoopDurationRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Drag_PlaceBuilding</defName>  
+    <sustain>True</sustain>  
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <sustainStartSound>Drag_PlaceBuildingStart</sustainStartSound>  
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interface/Designate/Drag_PlaceBuilding</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>14.17647</min>        
+          <max>8.294118</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.7973334</min>        
+          <max>0.7973334</max>
+        </pitchRange>      
+        <paramMappings>
+          <li>
+            <inParam Class="SoundParamSource_External">
+              <inParamName>TimeSinceDrag</inParamName>            
+              <defaultValue>1</defaultValue>
+            </inParam>          
+            <outParam Class="SoundParamTarget_Volume" />          
+            <paramUpdateMode>Constant</paramUpdateMode>          
+            <curve>
+              <points>
+                <li>
+                  <loc>
+                    <x>0.001351357</x>                  
+                    <y>0.9981133</y>
+                  </loc>
+                </li>              
+                <li>
+                  <loc>
+                    <x>0.08995674</x>                  
+                    <y>0.881117</y>
+                  </loc>
+                </li>              
+                <li>
+                  <loc>
+                    <x>0.2202703</x>                  
+                    <y>-0.005660377</y>
+                  </loc>
+                </li>
+              </points>
+            </curve>
+          </li>
+        </paramMappings>      
+        <sustainLoopDurationRange>
+          <min>1</min>        
+          <max>1</max>
+        </sustainLoopDurationRange>      
+        <sustainIntervalRange>
+          <min>-0.5</min>        
+          <max>-0.5</max>
+        </sustainIntervalRange>      
+        <sustainAttack>0.5</sustainAttack>      
+        <sustainRelease>0.5</sustainRelease>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</DefPackage-SoundDef>

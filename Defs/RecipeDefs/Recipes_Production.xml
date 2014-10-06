@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+	<RecipeDef>
+		<defName>MakeStoneBlocks</defName>
+		<label>make stone blocks</label>
+		<description>Cuts rock chunks into usable stone blocks.</description>
+		<jobString>Stonecutting.</jobString>
+		<workAmount>700</workAmount>
+		<workSpeedStat>StonecuttingSpeed</workSpeedStat>
+		<efficiencyStat>StonecuttingEfficiency</efficiencyStat>
+		<workEffect>CutStone</workEffect>
+    <sustainerSoundDef>Recipe_MakeStoneBlocks</sustainerSoundDef>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkRock</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+      <StoneBlocks>22</StoneBlocks>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkRock</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillGains>
+			<li>
+				<skill>Crafting</skill>
+				<xp>100</xp>
+			</li>
+		</skillGains>
+	</RecipeDef>
+
+  <RecipeDef>
+    <defName>ExtractMetalFromSlag</defName>
+    <label>smelt metal from slag</label>
+    <description>Use heat and strong electromagnets to separate useful metal from slag chunks.</description>
+    <jobString>Smelting metal from slag.</jobString>
+    <workAmount>1600</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <efficiencyStat>SmeltingEfficiency</efficiencyStat>
+    <workEffect>UseMetalRefinery</workEffect>
+    <sustainerSoundDef>Recipe_UseMetalRefinery</sustainerSoundDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkSlag</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Metal>8</Metal>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkSlag</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>120</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+
+  
+  
+
+
+
+
+  <!--
+  <RecipeDef>
+    <defName>MakeWoodPlanks_Hand</defName>
+    <label>make wood planks</label>
+    <description>Cuts 10 logs into 25 wood planks by hand. Quite slow.</description>
+    <jobString>Making wood planks.</jobString>
+    <workAmount>1500</workAmount>
+    <workEffect>MakeWoodPlanks_Hand</workEffect>
+    <sustainerSoundDef>Recipe_MakeWoodPlanks_Hand</sustainerSoundDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <li>
+        <thingDef>WoodPlank</thingDef>
+        <count>25</count>
+      </li>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+
+  <RecipeDef>
+    <defName>MakeWoodPlanks_Electric</defName>
+    <label>make wood planks</label>
+    <description>Cuts 10 logs into 25 wood planks.</description>
+    <jobString>Making wood planks.</jobString>
+    <workAmount>500</workAmount>
+    <workEffect>MakeWoodPlanks_Electric</workEffect>
+    <sustainerSoundDef>Recipe_MakeWoodPlanks_Electric</sustainerSoundDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <li>
+        <thingDef>WoodPlank</thingDef>
+        <count>25</count>
+      </li>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  -->
+
+
+
+
+</RecipeDefs>

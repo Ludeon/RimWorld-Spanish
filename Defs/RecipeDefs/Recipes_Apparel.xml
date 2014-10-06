@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>MakeShirt</defName>
+    <label>make shirt</label>
+    <description>Make a shirt.</description>
+    <jobString>Making shirt.</jobString>
+    <workAmount>700</workAmount>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <sustainerSoundDef>Recipe_MakeClothes</sustainerSoundDef>
+    <productHasIngredientStuff>true</productHasIngredientStuff>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Fabric</li>
+          </categories>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <products>
+      <Apparel_BasicShirt>1</Apparel_BasicShirt>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>400</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+
+
+  <RecipeDef>
+    <defName>MakePants</defName>
+    <label>make pants</label>
+    <description>Make a pair of pants.</description>
+    <jobString>Making pants.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <sustainerSoundDef>Recipe_MakeClothes</sustainerSoundDef>
+    <productHasIngredientStuff>true</productHasIngredientStuff>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Fabric</li>
+          </categories>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <products>
+      <Apparel_Pants>1</Apparel_Pants>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>400</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+
+
+
+  <RecipeDef>
+    <defName>MakeCowboyHat</defName>
+    <label>make cowboy hat</label>
+    <description>Make a cowboy hat.</description>
+    <jobString>Making cowboy hat.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <sustainerSoundDef>Recipe_MakeClothes</sustainerSoundDef>
+    <productHasIngredientStuff>true</productHasIngredientStuff>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Fabric</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <products>
+      <Apparel_CowboyHat>1</Apparel_CowboyHat>
+  </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>400</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+  
+  
+  
+
+</Defs>

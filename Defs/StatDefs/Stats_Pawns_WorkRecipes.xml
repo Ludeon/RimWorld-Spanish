@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StatDefs>
+
+
+
+  <StatDef>
+    <defName>CookSpeed</defName>
+    <label>cooking speed</label>
+    <description>Speed at which this person cooks meals.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+    </statFactors>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Cooking</skill>
+        <baseFactor>0.4</baseFactor>
+        <bonusFactor>0.06</bonusFactor>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Consciousness</activity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.3</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+
+
+  <StatDef>
+    <defName>ButcheryFleshSpeed</defName>
+    <label>butchery speed</label>
+    <description>Speed at which this person butchers flesh creatures.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+    </statFactors>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Cooking</skill>
+        <baseFactor>0.4</baseFactor>
+        <bonusFactor>0.06</bonusFactor>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Consciousness</activity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.4</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+  <StatDef>
+    <defName>ButcheryFleshEfficiency</defName>
+    <label>butchery efficiency</label>
+    <description>Multiplier on the amount of meat produced when butchering flesh animals.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Cooking</skill>
+        <baseFactor>0.75</baseFactor>
+        <bonusFactor>0.025</bonusFactor>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.4</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+
+
+
+  <StatDef>
+    <defName>ButcheryMechanoidSpeed</defName>
+    <label>mechanoid disassembly speed</label>
+    <description>Speed at which this person can disassemble a mechanoid.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+    </statFactors>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Crafting</skill>
+        <baseFactor>0.4</baseFactor>
+        <bonusFactor>0.06</bonusFactor>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Consciousness</activity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.4</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+  <StatDef>
+    <defName>ButcheryMechanoidEfficiency</defName>
+    <label>mechanoid disassembly efficiency</label>
+    <description>Multiplier on the amount of materials yielded when this person disassembles a dead mechanoid.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Crafting</skill>
+        <baseFactor>0.75</baseFactor>
+        <bonusFactor>0.025</bonusFactor>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.4</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+
+
+
+  <StatDef>
+    <defName>StonecuttingSpeed</defName>
+    <label>stonecutting speed</label>
+    <description>Speed at which this person cuts rough stone into blocks.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+    </statFactors>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Crafting</skill>
+        <baseFactor>0.4</baseFactor>
+        <bonusFactor>0.06</bonusFactor>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Consciousness</activity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.2</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+  <StatDef>
+    <defName>StonecuttingEfficiency</defName>
+    <label>stonecutting efficiency</label>
+    <description>Multiplier on the number of stone blocks produced when this person cuts rough stone into blocks.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Crafting</skill>
+        <baseFactor>0.75</baseFactor>
+        <bonusFactor>0.025</bonusFactor>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.2</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+
+
+
+
+  <StatDef>
+    <defName>TailoringSpeed</defName>
+    <label>tailoring speed</label>
+    <description>Speed at which this person makes clothes.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+    </statFactors>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Crafting</skill>
+        <baseFactor>0.4</baseFactor>
+        <bonusFactor>0.06</bonusFactor>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Consciousness</activity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.6</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+
+
+
+  <StatDef>
+    <defName>SmeltingSpeed</defName>
+    <label>smelting speed</label>
+    <description>Speed at which this person smelts things.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+    </statFactors>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Crafting</skill>
+        <baseFactor>0.4</baseFactor>
+        <bonusFactor>0.06</bonusFactor>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Consciousness</activity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.4</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+  <StatDef>
+    <defName>SmeltingEfficiency</defName>
+    <label>smelting efficiency</label>
+    <description>Multiplier on the amount of usable materials yielded when this person smelts something.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Crafting</skill>
+        <baseFactor>0.75</baseFactor>
+        <bonusFactor>0.025</bonusFactor>
+      </li>
+    </skillNeedFactors>
+    <activityFactors>
+      <li>
+        <activity>Sight</activity>
+        <weight>0.4</weight>
+      </li>
+      <li>
+        <activity>Manipulation</activity>
+        <weight>0.9</weight>
+      </li>
+    </activityFactors>
+  </StatDef>
+
+
+
+
+
+</StatDefs>

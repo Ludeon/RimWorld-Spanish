@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef>
+    <defName>Deer</defName>
+    <label>deer</label>
+    <race>Deer</race>
+    <pointsCost>75</pointsCost>
+    <standardBodyGraphicPathMulti>Things/Pawn/Animal/Deer</standardBodyGraphicPathMulti>
+    <dessicatedBodygraphicPathMulti>Things/Pawn/Animal/CritterDessicatedMedium</dessicatedBodygraphicPathMulti>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.7</wildSpawn_EcoSystemWeight>
+    <wildSpawn_GroupSizeRange>
+      <min>3</min>
+      <max>9</max>
+    </wildSpawn_GroupSizeRange>
+  </PawnKindDef>
+
+  <PawnKindDef>
+    <defName>Tortoise</defName>
+    <label>tortoise</label>
+    <race>Tortoise</race>
+    <pointsCost>50</pointsCost>
+    <standardBodyGraphicPathMulti>Things/Pawn/Animal/Tortoise</standardBodyGraphicPathMulti>
+    <dessicatedBodygraphicPathMulti>Things/Pawn/Animal/CritterDessicatedSmall</dessicatedBodygraphicPathMulti>
+    <wildSpawn_EcoSystemWeight>0.4</wildSpawn_EcoSystemWeight>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+  </PawnKindDef>
+
+</Defs>

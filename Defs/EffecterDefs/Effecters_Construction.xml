@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <EffecterDef>
+    <defName>ConstructMetal</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+        <soundDef>Interact_ConstructMetal</soundDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <TexName>DustPuff</TexName>
+        <ChancePerTick>0.035</ChancePerTick>
+        <Altitude>Projectile</Altitude>
+        <startScale>
+          <min>0.9</min>
+          <max>1.3</max>
+        </startScale>
+        <rotationRate>
+          <min>-1</min>
+          <max>1</max>
+        </rotationRate>
+        <velocity>
+          <min>0.01</min>
+          <max>0.03</max>
+        </velocity>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <TexName>SparkFlash</TexName>
+        <spawnLocType>BetweenTouchingSquares</spawnLocType>
+        <positionLerpFactor>0.49</positionLerpFactor>
+        <ChancePerTick>0.2</ChancePerTick>
+        <Altitude>OverheadMote</Altitude>
+        <startScale>
+          <min>2.5</min>
+          <max>3.5</max>
+        </startScale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <TexName>SparkThrown</TexName>
+        <spawnLocType>BetweenTouchingSquares</spawnLocType>
+        <positionLerpFactor>0.49</positionLerpFactor>
+        <ChancePerTick>0.2</ChancePerTick>
+        <StartScale>
+          <min>0.24</min>
+          <max>0.34</max>
+        </StartScale>
+        <airTicks>
+          <min>5</min>
+          <max>10</max>
+        </airTicks>
+        <rotationRate>
+          <min>-4</min>
+          <max>4</max>
+        </rotationRate>
+        <velocity>
+          <min>0.12</min>
+          <max>0.4</max>
+        </velocity>
+        <moveDirection>
+          <min>135</min>
+          <max>225</max>
+        </moveDirection>
+        <positionRadius>0.02</positionRadius>
+        <Altitude>Projectile</Altitude>
+      </li>
+    </children>
+  </EffecterDef>
+
+
+
+  <EffecterDef>
+    <defName>ConstructWood</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+        <soundDef>Interact_ConstructWood</soundDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <TexName>DustPuff</TexName>
+        <ChancePerTick>0.035</ChancePerTick>
+        <Altitude>Projectile</Altitude>
+        <startScale>
+          <min>0.9</min>
+          <max>1.2</max>
+        </startScale>
+        <rotationRate>
+          <min>-1</min>
+          <max>1</max>
+        </rotationRate>
+        <velocity>
+          <min>0.01</min>
+          <max>0.03</max>
+        </velocity>
+      </li>
+    </children>
+  </EffecterDef>
+
+
+
+  <EffecterDef>
+    <defName>ConstructDirt</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+        <soundDef>Interact_ConstructDirt</soundDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <TexName>DustPuff</TexName>
+        <ChancePerTick>0.035</ChancePerTick>
+        <Altitude>Projectile</Altitude>
+        <startScale>
+          <min>0.9</min>
+          <max>1.2</max>
+        </startScale>
+        <rotationRate>
+          <min>-1</min>
+          <max>1</max>
+        </rotationRate>
+        <velocity>
+          <min>0.01</min>
+          <max>0.03</max>
+        </velocity>
+      </li>
+    </children>
+  </EffecterDef>
+
+</Defs>

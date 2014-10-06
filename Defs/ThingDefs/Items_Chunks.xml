@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+
+
+
+  <ThingDef Name="ChunkBase" Abstract="True">
+    <eType>Chunk</eType>
+    <category>Item</category>
+    <thingClass>Thing</thingClass>
+    <altitudeLayer>Item</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <statBases><MaxHealth>300</MaxHealth><Flammability>0</Flammability></statBases>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <pathCost>55</pathCost>
+    <overdraw>false</overdraw>
+    <drawerType>MapMeshOnly</drawerType>
+    <randomizeRotationOnSpawn>true</randomizeRotationOnSpawn>
+    <designateHaulable>true</designateHaulable>
+    <storeCategories>
+      <li>Chunks</li>
+    </storeCategories>
+    <saveCompressible>true</saveCompressible>
+    <stackLimit>1</stackLimit>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ChunkBase">
+    <defName>ChunkRock</defName>
+    <label>rock chunk</label>
+    <graphicPathFolderRandom>Things/Item/Chunk/ChunkRock</graphicPathFolderRandom>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ChunkBase">
+    <defName>ChunkSlag</defName>
+    <label>slag chunk</label>
+    <graphicPathFolderRandom>Things/Item/Chunk/ChunkSlag</graphicPathFolderRandom>
+    <soundDrop>ChunkSlag_Drop</soundDrop>
+  </ThingDef>
+
+
+
+
+
+</ThingDefs>

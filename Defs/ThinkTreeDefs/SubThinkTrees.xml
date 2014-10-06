@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThinkTrees>
+
+  <!--============= Burning ============-->
+  <ThinkTreeDef>
+		<defName>BurningResponse</defName>
+		<thinkRoot Class="ThinkNode_ConditionalBurning">
+			<subNodes>
+				<li Class="ThinkNode_Priority">
+					<subNodes>
+						<li Class="JobGiver_ExtinguishSelf" />
+						<li Class="JobGiver_RunRandom" />
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+
+  <!--============= Psychotic ============-->
+  <ThinkTreeDef>
+		<defName>Psychotic</defName>
+		<thinkRoot Class="ThinkNode_ConditionalSanityState">
+			<sanityState>Psychotic</sanityState>
+			<subNodes>
+				<li Class="ThinkNode_Priority">
+					<subNodes>
+						<li Class="JobGiver_Psychotic" />
+						<li Class="JobGiver_WanderAnywhere" />
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+
+  <!--============= Self-defense ============-->
+  <ThinkTreeDef>
+		<defName>SelfDefense</defName>
+		<thinkRoot Class="JobGiver_SelfDefense" />
+	</ThinkTreeDef>
+
+
+
+  <!--============= Test of insertion hooks ============-->
+  <!-- If you remove the comments around this, it will inject
+      this AI control node into all ThinkTrees where there is an
+      insertion hook seeking a matching InsertTag.
+      
+      If there are several injections, they'll be ordered by priorty (highest first).
+      
+      This example just makes colonists beat on each other, but modders
+      can add any behavior using these and they'll all work together.-->
+  <!--
+  <ThinkTreeDef>
+    <defName>InsertHookTest</defName>
+    <insertTag>Humanoid_PostBroken</insertTag>
+    <insertPriority>100</insertPriority>
+    <thinkRoot Class="JobGiver_Psychotic" />
+  </ThinkTreeDef>
+  -->
+
+
+
+
+
+</ThinkTrees>
