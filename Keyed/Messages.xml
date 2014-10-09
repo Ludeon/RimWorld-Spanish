@@ -4,7 +4,7 @@
   <MessageSiegersAssaulting>{0} sitiadores de {1} están asaltando la colonia.</MessageSiegersAssaulting>
 
   <MessageRaidersBeginningAssault>{0} de {1} comienzan su asalto.</MessageRaidersBeginningAssault>
-  <MessageRaidersDetectedEarlyAssault>{0} de {1} os han detectado y comienzan su asalto prematuramente.</MessageRaidersDetectedEarlyAssault>
+  <MessageRaidersDetectedEarlyAssault>{0} de {1} os han detectado y comienzan su asalto antes de lo previsto.</MessageRaidersDetectedEarlyAssault>
   <MessageRaidersKidnapping>{0} de {1} han decidido secuestrar a quien puedan y retirarse.</MessageRaidersKidnapping>
 
   <MessageRaidersLeaving>{0} de {1} se retiran.</MessageRaidersLeaving>
@@ -17,7 +17,7 @@
   
 	<MessageShipHasLeftCommsRange>{0} está fuera del alcance de las comunicaciones.</MessageShipHasLeftCommsRange>
 	
-	<MessageNeedBeaconToTradeWithShip>Necesitas un a baliza de comercio orbital para negociar con una nave.</MessageNeedBeaconToTradeWithShip>
+	<MessageNeedBeaconToTradeWithShip>Necesitas una baliza de comercio orbital para negociar con una nave que esté en órbita.</MessageNeedBeaconToTradeWithShip>
 	
   <MessageBillComplete>Lista finalizada: {0}.</MessageBillComplete>
   
@@ -28,7 +28,9 @@
   <MessageRecruitSuccess>{0} a reclutado a {1} ({2} de posibilidades).</MessageRecruitSuccess>
 	<MessageRecruitFail>{0} no ha podido reclutar a {1} ({2} de posibilidades).</MessageRecruitFail>
 	<MessageRecruitFailBecauseLoyalty>{0} no ha podido reclutar a {1} (el prisionero carece de la lealtad mínima para ser reclutado).</MessageRecruitFailBecauseLoyalty>
-	
+
+  <MessagePoorlyTreated>{1} ha tratado a{0} (mala calidad, {2} de posibilidades de buena calidad).</MessagePoorlyTreated>
+  <MessageWellTreated>{1} ha tratado a {0} (buena calidad, {2} de posibilidades de buena calidad).</MessageWellTreated>	
 
   <MessageTraderCannotAfford>El comerciante no puede permitirse este trato.</MessageTraderCannotAfford>
   <MessageColonyCannotAfford>La colonia no puede permitirse este trato.</MessageColonyCannotAfford>
@@ -41,5 +43,11 @@
   <MessageMustDesignateHarvestableWood>Debes designar árboles que produzcan madera y sean lo suficientemente maduros.</MessageMustDesignateHarvestableWood>
   <MessageMustDesignatePlants>Debes designar plantas.</MessageMustDesignatePlants>
   <MessageMustDesignateHaulable>Debes designar objetos trasladables.</MessageMustDesignateHaulable>
+  
+  <MessageNoMedicalBeds>No hay camas sanitarias disponibles.</MessageNoMedicalBeds>
+  
+  <PawnDiedBecauseOf>{0} ha muerto debido a {1}.</PawnDiedBecauseOf>
+
+  <MessageNoLongerDowned>{0} ha recuperado la capacidad para caminar.</MessageNoLongerDowned>
   
 </LanguageData>
