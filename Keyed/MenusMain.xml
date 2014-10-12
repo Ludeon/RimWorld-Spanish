@@ -3,6 +3,7 @@
 
 
   <!--=========== Main menu ==========-->
+  <CreateWorld>Nuevo mundo</CreateWorld>
   <NewColony>Nueva colonia</NewColony>
   <BackToGame>Volver al juego</BackToGame>
   <Save>Guardar</Save>
@@ -19,21 +20,75 @@
   <TynansTwitter>Twitter de Tynan</TynansTwitter>
   <TynansDesignBook>Libro de Tynan</TynansDesignBook>
   <HelpTranslate>Ayuda a traducir RimWorld</HelpTranslate>
+  
+  <!--=========== Create/review world ================-->
+  <ReviewWorld>Revisar mundo</ReviewWorld>
+  <WorldGenerate>Generar</WorldGenerate>
+  <WorldSaveAndFinish>Guardar y finalizar</WorldSaveAndFinish>
+  <Reset>Reiniciar</Reset>
+  <WorldSize>Tamaño</WorldSize>
+  <WorldSeed>Semilla</WorldSeed>
+  <RandomizeSeed>Aleatorizar semilla</RandomizeSeed>
+
+
+  <!--=========== Select world ===================-->
+  <SelectWorld>Seleccionar mundo</SelectWorld>
+  <WorldChooseButton>Seleccionar</WorldChooseButton>
+  <NoWorldsFilesFound>No se encontraron archivos relacionados con ningún mundo. Crea uno primero.</NoWorldsFilesFound>
 
   <!--=========== Version info ==========-->
 	<BuildNowAvailable>La versión {0} está disponible. Visita ludeon.com para más información.</BuildNowAvailable>
 	<BuildUpToDate>Versión actualizada.</BuildUpToDate>
 	<ErrorGettingVersionInfo>Error al cargar información de la versión: {0}</ErrorGettingVersionInfo>
 	<LoadingVersionInfo>Cargando información de la versión...</LoadingVersionInfo>
+
+ <!--=========== World generator =========-->
+  <GenerateWorld>Generar mundo</GenerateWorld>
 	
   <!--=========== Mods screen ==========-->
   <GetMods>Conseguir mods</GetMods>
+  <OpenModsDataFolder>Abrir carpeta de mods</OpenModsDataFolder>
   <ConfirmDisableCoreMod>¿Seguro que quieres desactivar el mod núcleo? El juego no funcionará a menos que actives otro mod que reemplace todas las funciones del núcleo.\n\nRecuerda que otros mods pueden anular el mod núcleo al usar el mismo defName.</ConfirmDisableCoreMod>
   <Author>Autor</Author>
 
-  <!--=========== Storyteller chooser ==========-->
+  <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>Escoge una IA cuentacuentos</ChooseAIStoryteller>
   <HowStorytellersWork>La IA cuentacuentos crea eventos tales como incursiones pirata, aterrizajes de recursos o ataques animales. Sus elecciones afectarán a la historia de tu colonia.</HowStorytellersWork>
+  <MustChooseChallengeScale>Por favor, selecciona un nivel de dificultad.</MustChooseChallengeScale>
+  <ChallengeScale>Escala de dificultad</ChallengeScale>
+  <ChallengeScaleTip>Cuando el cuentacuentos lance una amenaza contra ti, dicha amenaza será igual al {0} de lo que mandaría con una dificultad de Desafío.</ChallengeScaleTip>
+  <ChallengeScale_BuilderMode>Constructor</ChallengeScale_BuilderMode>
+  <ChallengeScale_Casual>Informal</ChallengeScale_Casual>
+  <ChallengeScale_Rough>Duro</ChallengeScale_Rough>
+  <ChallengeScale_Challenge>Desafío</ChallengeScale_Challenge>
+  <ChallengeScale_SeriousChallegne>Desafío serio</ChallengeScale_SeriousChallegne>
+  <ChallengeScale_ExtremeChallenge>Desafío extremo</ChallengeScale_ExtremeChallenge>
+  
+    <!--=========== Landing site select =========-->
+  <SelectLandingSite>Escoge el lugar del aterrizaje</SelectLandingSite>
+  <SelectSite>Escoger lugar</SelectSite>
+  <MustSelectLandingSite>Por favor, selecciona una zona donde aterrizar.</MustSelectLandingSite>
+  <CannotLandBiome>No puedes aterrizar en este bioma: {0}</CannotLandBiome>
+  <WorldRenderMode>Modo</WorldRenderMode>
+  <WorldRenderModeFull>Completo</WorldRenderModeFull>
+  <WorldRenderModeTemperature>Temperatura</WorldRenderModeTemperature>
+  <WorldRenderModeElevation>Elevación</WorldRenderModeElevation>
+  <WorldRenderModeFertility>Fertilidad</WorldRenderModeFertility>
+  <WorldRenderModeRainfall>Lluvia</WorldRenderModeRainfall>
+  <WorldRenderModeBiomes>Bioma</WorldRenderModeBiomes>
+  <BiomeNotImplemented>bioma no implementado</BiomeNotImplemented>
+  <BaseAlreadyThere>{0} ya hay una base ahí.</BaseAlreadyThere>
+  <Biome>Bioma</Biome>
+  <Terrain>Terreno</Terrain>
+  <Elevation>Elevación</Elevation>
+  <Fertility>Fertilidad</Fertility>
+  <AvgTemp>Temp. media</AvgTemp>
+  <Rainfall>Lluvia</Rainfall>
+  <HasCoast0>Costa al norte</HasCoast0>
+  <HasCoast1>Costa al este</HasCoast1>
+  <HasCoast2>Costa al sur</HasCoast2>
+  <HasCoast3>Costa al oeste</HasCoast3>
+  <FactionBase>Base de facción</FactionBase>
 
   <!--=========== Character chooser ==========-->  
   <CreateCharacters>Crear personajes</CreateCharacters>
@@ -46,12 +101,14 @@
   <IncapableOf>Incapaz de</IncapableOf>
   <Traits>Rasgos</Traits>
   <TraitsDoNothing>Los rasgos no son más que pedazos de historia por ahora; la mayoría no hacen nada. Esto cambiará en futuras versiones.</TraitsDoNothing>
+  <PermanentMoodEffect>Efecto permanente en el humor</PermanentMoodEffect>
   <Skills>Habilidades</Skills>
   <NoneLower>ninguna</NoneLower>
   <Adulthood>Madurez</Adulthood>
   <Childhood>Infancia</Childhood>
   <Male>Hombre</Male>
   <Female>Mujer</Female>
+  <Pain>Dolor</Pain>
 
   <!--=========== Misc ==========-->  
   <Start>Inicio</Start>
@@ -62,8 +119,10 @@
   <Gameplay>Jugabilidad</Gameplay>
 
   <ConfirmQuit>¿Seguro que deseas salir? Perderás todo progreso que no haya sido guardado.</ConfirmQuit>
+  
   <EveryoneNeedsValidName>Cada persona necesita un nombre válido.</EveryoneNeedsValidName>
 
-  <GeneratingWorld>Generando el mundo...</GeneratingWorld>
+  <GeneratingWorld>Generando mundo...</GeneratingWorld>
+  <GeneratingMap>Generando mapa...</GeneratingMap>
 
 </LanguageData>
