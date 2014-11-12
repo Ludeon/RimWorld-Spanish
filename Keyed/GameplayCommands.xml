@@ -4,15 +4,19 @@
 	<CommandForbiddenDesc>Prohibido - los colonos no interactuarán con esto.</CommandForbiddenDesc>
 	<CommandNotForbiddenDesc>Permitido - los colonos interactuarán con esto.</CommandNotForbiddenDesc>
 
+  <!-- Power -->
   <CommandTogglePowerDesc>Alternar energía.</CommandTogglePowerDesc>
   <CommandTogglePowerLabel>Alterna la energía</CommandTogglePowerLabel>
+
+  <CommandTryReconnectLabel>Reconectar</CommandTryReconnectLabel>
+  <CommandTryReconnectDesc>Intenta conectar a una red energética diferente dentro del radio de conexión. Esto es útil cuando se está conectado a una red inerte pero hay otra funcionando en las cercanías.</CommandTryReconnectDesc>
 
   <CommandGatherSpotToggleLabel>Punto de reunión</CommandGatherSpotToggleLabel>
   <CommandGatherSpotToggleDescActive>Activo - los colonos se reunirán entorno a este objeto.</CommandGatherSpotToggleDescActive>
   <CommandGatherSpotToggleDescInactive>Inactivo - los colonos no se reunirán entorno a este objeto.</CommandGatherSpotToggleDescInactive>
   
   
-  
+   <!-- Drafting -->
   <CommandDraftLabel>Reclutar</CommandDraftLabel>
   <CommandUndraftLabel>Licenciar</CommandUndraftLabel>
   <CommandToggleDraftDesc>Alterna el estado militar.\n\nLos reclutas recibirán órdenes y pelearán, pero ni trabajarán, ni comerán, ni descansarán.</CommandToggleDraftDesc>
@@ -20,12 +24,22 @@
 
   <CommandCancelConstructionLabel>Cancelar</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Cancela esta construcción.</CommandCancelConstructionDesc>
+  
+  <CommandGetOutOfBedLabel>Ir a la cama</CommandGetOutOfBedLabel>
+  <CommandGetOutOfBedDesc>Manda a colono a la cama actual.</CommandGetOutOfBedDesc>
 
+  <CommandBedSetOwnerLabel>Asignar propietario</CommandBedSetOwnerLabel>
+  <CommandBedSetOwnerDesc>Asignar esta cama como propiedad de un colono en concreto.</CommandBedSetOwnerDesc>
+  <BedAssign>Asignar</BedAssign>
   <CommandBedSetForPrisonersLabel>Asignar para prisioneros</CommandBedSetForPrisonersLabel>
-  <CommandBedSetForPrisonersDesc> Asigna las camas de esta habitación para uso prisionero.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersDesc>Asigna las camas de esta habitación para uso prisionero.</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>No puedes asignar camas en el exterior para uso prisionero.</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetForColonistsLabel>Asignar para colonos</CommandBedSetForColonistsLabel>
-  <CommandBedSetForColonistsDesc> Asigna las camas de esta habitación para uso colono.</CommandBedSetForColonistsDesc>
+  <CommandBedSetForColonistsDesc>Asigna las camas de esta habitación para uso colono.</CommandBedSetForColonistsDesc>
+  <CommandBedSetAsMedicalLabel>Asignar como cama hospitalaria</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalDesc>Asigna esta cama para uso hospitalario.</CommandBedSetAsMedicalDesc>
+  <CommandBedSetAsNonMedicalLabel>Asignar como cama extrahospitalaria</CommandBedSetAsNonMedicalLabel>
+  <CommandBedSetAsNonMedicalDesc>Asigna esta cama para uso extrahospitalario.</CommandBedSetAsNonMedicalDesc>
   <TurningOnPrisonerBedWarning>Activar el modo prisionero afecta a toda la habitación, pues colonos y prisioneros no pueden compartir dormitorio.\n\nEsta gente perderá sus camas:</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>Desactivar el modo prisionero afecta a toda la habitación, pues colonos y prisioneros no pueden compartir dormitorio.\n\nEsta gente perderá sus camas:</TurningOffPrisonerBedWarning>
   <AreYouSure>¿Estás seguro de que quieres hacer esto?</AreYouSure>
@@ -67,6 +81,10 @@
   <CommandPodEject>Eyectar durmientes</CommandPodEject>
   <CommandPodEjectDesc>Despierta a los criodurmientes y los eyecta.</CommandPodEjectDesc>
   <CommandPodEjectFailEmpty>No contiene a nadie.</CommandPodEjectFailEmpty>
+  
+   <!-- Door -->
+  <CommandToggleDoorLock>Bloquear</CommandToggleDoorLock>
+  <CommandToggleDoorLockDesc>Bloquea (o desbloquea) la puerta. Una puerta bloqueada no se abrirá a nadie.</CommandToggleDoorLockDesc>
   
   
 </LanguageData>
