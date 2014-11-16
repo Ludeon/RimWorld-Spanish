@@ -4,23 +4,29 @@
 	<CallOnRadio>Llamar a {0}</CallOnRadio>
 	<CannotUseSolarFlare>No puede usarse (erupción solar)</CannotUseSolarFlare>
 	<CannotUseNoPower>No puede usarse (sin energía)</CannotUseNoPower>
-	<CannotUseNoPath>CNo puede usarse (sin camino)</CannotUseNoPath>
+	<CannotUseNoPath>No puede usarse (sin camino)</CannotUseNoPath>
+	<CannotUseReserved>No puede usarse (reservado)</CannotUseReserved>
+  	<CannotUseFull>No puede usarse (lleno)</CannotUseFull>
 	
   <FireAt>Disparar a {0}</FireAt>
 
-  <OutOfRange>Fuera de alcance</OutOfRange>
-  <CannotHitTarget>No puede alcanzar a su objetivo</CannotHitTarget>
+  <OutOfRange>fuera de alcance</OutOfRange>
+  <CannotHitTarget>no puede alcanzar a su objetivo</CannotHitTarget>
   <CannotFight>{0} no puede luchar</CannotFight>
+  
+  <OrderManThing>Operar {0}</OrderManThing>
 
   <MeleeAttack>Ataque cuerpo a cuerpo {0}</MeleeAttack>
   <MeleeAttackToDeath>Ataque cuerpo a cuerpo {0} hasta la muerte</MeleeAttackToDeath>
-  <NoPath>Sin camino</NoPath>
+  <NoPath>sin camino</NoPath>
 
 	<ForbiddenLower>prohibido</ForbiddenLower>
-	<SociallyImproperLower>socialmente impropio</SociallyImproperLower>
+	<SociallyImproperLower>socialmente indebido</SociallyImproperLower>
+	<PrisonerRoomLower>celda de prisionero</PrisonerRoomLower>
 	<BurningLower>ardiendo</BurningLower>
 	<NoEmptyPlaceLower>sin espacios vacíos configurados para almacenarlo</NoEmptyPlaceLower>
 	<AlreadyFilledLower>ya está suficientemente lleno</AlreadyFilledLower>
+	<MissingMaterials>necesita materiales</MissingMaterials>
 	
 	
   <CannotGoNoPath>No puede ir aquí (Sin camino)</CannotGoNoPath>
@@ -43,12 +49,26 @@
 
 
   <Equip>Equipar {0}</Equip>
+  <EquipWarningBrawler>(el luchador estará descontento)</EquipWarningBrawler>
   <CannotEquip>No puede equipar {0}</CannotEquip>
+  
+  <Wear>Llevar {0}</Wear>
+  <CannotWear>No puede llevar {0}</CannotWear>
+  
+  <Strip>Quitar {0}</Strip>
+  <CannotStrip>No puede quitar {0}</CannotStrip>
 
   <Deposit>Depositar {0} en {1}</Deposit>
   <CannotDeposit>No puede depositar {0} en {1}</CannotDeposit>
 
   <Drop>Dejar {0}</Drop>
+  
+  <UseMedicalBed>Descansar hasta estar completamente curado</UseMedicalBed>
+  <NotInjured>Sin heridas</NotInjured>
+  <SomeoneElseSleeping>Ocupado</SomeoneElseSleeping>
+
+  <!-- Specific thing interactions -->
+  <EnterCryptosleepPod>Entrar en la cámara de estasis</EnterCryptosleepPod>
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>No puede {0} {1}</CannotGenericWork>
@@ -58,7 +78,7 @@
 
   <CannotPrioritizeIsNotA>No puede priorizar ({0} no es una {1})</CannotPrioritizeIsNotA>
 
-  <CannotPrioritizeResearch>No puede priorizar (investigar requiere demaisado tiempo)</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>No puede priorizar (investigar requiere demasiado tiempo)</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>No puede priorizar ({0} está prohibido)</CannotPrioritizeForbidden>
 
