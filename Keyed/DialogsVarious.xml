@@ -26,6 +26,9 @@
   <!-- Zone naming -->
   <ZoneGainsName>A partir de ahora se conocerá esta zona como {0}.</ZoneGainsName>
   <ZoneNameIsInvalid>Por favor introduce un nombre válido.</ZoneNameIsInvalid>
+  
+   <!-- Pawn naming -->
+  <PawnGainsName>El alias del colono es ahora {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
   <SaveGameIncompatibleWarningText>Versiones diferentes: Esta partida fue guardada en la versión {0}, mientras que la versión en funcionamiento es {1}.\n\n Cargar esta partida posiblemente cause errores y caídas al escritorio.</SaveGameIncompatibleWarningText>
@@ -45,12 +48,16 @@
   <Unresearched>Por investigar</Unresearched>
   <Finished>Finalizado</Finished>
   <InProgress>En progreso</InProgress>
+  <ResearchMenuWithoutBench>Hasta que no construyas una MESA DE INVESTIGACIÓN, tu colonos no podrán investigar nada.\n\nSin embargo, seguirás siendo capaz de visualizar y escoger proyectos de investigación.</ResearchMenuWithoutBench>
 
   <!-- Advanced game start options -->
-  <MapSizePerformanceWarning>AVISO: Puedes sufrir pérdidas de rendimiento con mapas grandes a menos que tu ordenador sea poderoso.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>AVISO: Puedes sufrir pérdidas de rendimiento con mapas grandes a menos que tu ordenador sea poderoso.\n\nSi tu ordenador es poco potente, escoge Pequeño.\n\nEl tamaño Ciclópeo no ha sido probado y con total seguridad no funcionará bien.</MapSizePerformanceWarning>
   <MapSize>Tamaño del mapa</MapSize>
   <MapSizeDesc>{0}x{0} ({1} casillas)</MapSizeDesc>
-
+  <MapSizeSmall>Pequeño</MapSizeSmall>
+  <MapSizeMedium>Medio</MapSizeMedium>
+  <MapSizeLarge>Grande</MapSizeLarge>
+  <MapSizeExtreme>Ciclópeo</MapSizeExtreme>
   
   <!-- Bill config -->
   <Suspended>Suspendido</Suspended>
@@ -64,23 +71,95 @@
   <RecipeCannotHaveTargetCount>(Esta receta no puede tener un número determinado de productos por tiene múltiples o impredecibles productos.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Ingredientes permitidos</PermittedIngredients>
   <MinimumSkills>Habilidades mínimas:</MinimumSkills>
+  <BillRequires>Requiere {0} {1}</BillRequires>
+  <UsableIngredients>ingredientes utilizables</UsableIngredients>
   <DoXTimes>Hacer X veces</DoXTimes>
   <DoUntilYouHaveX>Hacer hasta que haya X</DoUntilYouHaveX>
   <DoForever>Repetir constantemente</DoForever>
   <BillRepeatTargetCountShort>Hacia {0}</BillRepeatTargetCountShort>
+  <BillStoreMode_DropOnFloor>Dejar en el suelo</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>Llevar a la mejor reserva</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>Llevar a la reserva más cercana</BillStoreMode_NearestStockpileAnyPriority>
   
+  <!-- Def Card -->
+  <Type>Tipo</Type>
+  <GunType>Arma</GunType>
+  <PlantType>Planta</PlantType>
+  <FoodType>Comida</FoodType>
+  <HumanType>Humano</HumanType>
+  <AnimalType>Animal</AnimalType>
+  <MechanoidType>Mecanoide</MechanoidType>
+  <Damage>Daño</Damage>
+  <Accuracy>Precisión</Accuracy>
+  <BurstShotCount>Disparos por ráfaga</BurstShotCount>
+  <WarmupTime>Calentamiento</WarmupTime>
+  <CooldownTime>Enfriamiento</CooldownTime>
+  <BurstShotFireRate>Velocidad de disparo</BurstShotFireRate>
+  <Range>Alcance</Range>
+  <GrowsWild>Crece salvaje</GrowsWild>
+  <Harvestable>Cosechable</Harvestable>
+  <LimitedLifespan>Esperanza de vida limitada</LimitedLifespan>
+  <GrowingTime>Tiempo de crecimiento</GrowingTime>
+  <Days>días</Days>
+  <FertilityRequirement>Requesitos de fertilidad</FertilityRequirement>
+  <LightRequirement>Requisitos lumínicos</LightRequirement>
+  <Attributes>Atributos</Attributes>
+  <LifeSpan>Esperanza de vida</LifeSpan>
+  <Nutrition>Nutrición</Nutrition>
+  <FoodQuality>Calidad de la comida</FoodQuality>
+  <WalkSpeedProperty>Velocidad de paseo</WalkSpeedProperty>
+  <MeleeDamage>Daño cuerpo a cuerpo</MeleeDamage>
+  <MeatAmount>Cantidad de carne</MeatAmount>
+  <MinFoodQuality>Calidad mínima de la comida</MinFoodQuality>
+  <Diet>Dieta</Diet>
+  <RecruitDifficulty>Dificultad de reclutamiento</RecruitDifficulty>
+  <baseMarketValue>Precio base</baseMarketValue>
+  <Covers>Cobertura</Covers>
+  <NaturalArmorCovers>Cobertura de la armadura natural</NaturalArmorCovers>
+  <BodyPartEfficiency>Eficiencia de la parte corporal</BodyPartEfficiency>
   
   <!-- Trade -->
-  <TradeGoodsNearBeaconLesson>Para mandar objetos y plata a los comerciantes en órbita, debes construir una BALIZA DE COMERCIO en el exterior y emplazar un almacén de objetos cerca de ella.</TradeGoodsNearBeaconLesson>
-  <YourTradeableSilver>Tu plata comerciable: {0}</YourTradeableSilver>
+  <DragToTrade>Arrastra para comerciar</DragToTrade>
+  <BuyPriceDesc>Precio que pagas por comprar este objeto.</BuyPriceDesc>
+  <SellPriceDesc>Precio que cobras por vender este objeto.</SellPriceDesc>
+  <PriceTypeDesc>El precio por este objeto es {0}.</PriceTypeDesc>
+  <ColonyCount>Cuantas existencias de este objeto posee la colonia listas para negociar.\n\nSólo puedes vender objetos que estén en el exterior y cerca de una baliza de comercio orbital.</ColonyCount>
+  <TraderCount>Cuantas existencias de este objeto posee el comerciante para negociar.</TraderCount>
+  <AcceptButton>Aceptar</AcceptButton>
+  <ResetButton>Reiniciar</ResetButton>
+  <CancelButton>Cancelar</CancelButton>
 	<YourTradeableSilverTip>Sólo puedes comerciar con plata que esté cerca de una baliza de comercio y sin ningún techo encima suyo.</YourTradeableSilverTip>
+  <TraderHasNoMore>Al comerciante no le quedan existencias.</TraderHasNoMore>
+  <ColonyHasNoMore>A la colonia no le quedan existencias.</ColonyHasNoMore>
+  <TraderWillNotTrade>El comerciante no desea vender este objeto.</TraderWillNotTrade>
 
   <!-- Comms -->
   <SocialSkillIs>Habilidad social: {0}</SocialSkillIs>
+  
+  <!-- Stats report -->
+  <StatsReport_BaseValue>Valor básico</StatsReport_BaseValue>
+  <StatsReport_RelevantTraits>Rasgos relevantes</StatsReport_RelevantTraits>
+  <StatsReport_RelevantGear>Equipo relevante</StatsReport_RelevantGear>
+  <StatsReport_Material>Material</StatsReport_Material>
+  <StatsReport_CharacterQuality>Calidad del personaje</StatsReport_CharacterQuality>
+  <StatsReport_Skills>Factores de habilidad</StatsReport_Skills>
+  <StatsReport_OtherStats>Otros factores</StatsReport_OtherStats>
+  <StatsReport_HealthFactors>Factores de salud</StatsReport_HealthFactors>
+  <HealthFactorPercentImpact>{0} importancia</HealthFactorPercentImpact>
+  <StatsReport_PostProcessed>Curva de posprocesado</StatsReport_PostProcessed>
+  <StatsReport_FinalValue>Valor final</StatsReport_FinalValue>
 
 	
-	<!--Other-->
+	<!--Research-->
 	<ResearchFinished>Investigación finalizada: {0}</ResearchFinished>
 	<ResearchScreen>Pantalla de investigación</ResearchScreen>
+	
+  <!--HistoryUpload-->
+  <HistoryUploadMessage>¿Deseas cargar tus datos de juego al servidor de Rimworld con el fin de ayudar a los desarrolladores a equilibrar el juego? Si accedes, tus datos serán cargados cada {0} días (y en ciertas ocasiones como el final de una partida). Más adelante, podrás cambiar tus preferencias de privacidad en el menú de opciones.</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>Aunque la historia es mandada de forma anónima, puedes añadir tu nombre.</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>Permitir la carga de datos de juego</HistoryUploadYes>
+  <HistoryUploadNo>No permitir la carga de datos de juego</HistoryUploadNo>
+  <HistoryUploadYesOnce>Cargar sólo ésta vez</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>No cargar ésta vez, pregúntame más adelante</HistoryUploadNoOnce>
 	
 </LanguageData>
