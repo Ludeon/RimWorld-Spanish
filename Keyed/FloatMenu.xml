@@ -1,86 +1,112 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<CallOnRadio>Llamar a {0}</CallOnRadio>
 	<CannotUseSolarFlare>No puede usarse (erupción solar)</CannotUseSolarFlare>
 	<CannotUseNoPower>No puede usarse (sin energía)</CannotUseNoPower>
 	<CannotUseNoPath>No puede usarse (sin camino)</CannotUseNoPath>
-	<CannotUseReserved>No puede usarse (reservado)</CannotUseReserved>
-  	<CannotUseFull>No puede usarse (lleno)</CannotUseFull>
+  <CannotUseReserved>No puede usarse (reservado)</CannotUseReserved>
+  <CannotUseFull>No puede usarse (lleno)</CannotUseFull>
+	
 	
   <FireAt>Disparar a {0}</FireAt>
 
+  
+  
+  
   <OutOfRange>fuera de alcance</OutOfRange>
   <CannotHitTarget>no puede alcanzar a su objetivo</CannotHitTarget>
   <CannotFight>{0} no puede luchar</CannotFight>
   
+  
   <OrderManThing>Operar {0}</OrderManThing>
-
-  <MeleeAttack>Ataque cuerpo a cuerpo {0}</MeleeAttack>
-  <MeleeAttackToDeath>Ataque cuerpo a cuerpo {0} hasta la muerte</MeleeAttackToDeath>
+  <MeleeAttack>Atacar cuerpo a cuerpo a {0}</MeleeAttack>
+  <MeleeAttackToDeath>Atacar cuerpo a cuerpo a {0} hasta la muerte</MeleeAttackToDeath>
   <NoPath>sin camino</NoPath>
-
 	<ForbiddenLower>prohibido</ForbiddenLower>
 	<SociallyImproperLower>socialmente indebido</SociallyImproperLower>
-	<PrisonerRoomLower>celda de prisionero</PrisonerRoomLower>
+	<PrisonerRoomLower>habitación de prisionero</PrisonerRoomLower>
 	<BurningLower>ardiendo</BurningLower>
-	<NoEmptyPlaceLower>sin espacios vacíos configurados para almacenarlo</NoEmptyPlaceLower>
+	<NoEmptyPlaceLower>no hay sitios libres configurados para almacenarlo</NoEmptyPlaceLower>
 	<AlreadyFilledLower>ya está suficientemente lleno</AlreadyFilledLower>
 	<MissingMaterials>necesita materiales</MissingMaterials>
 	
 	
-  <CannotGoNoPath>No puede ir aquí (Sin camino)</CannotGoNoPath>
+  <CannotGoNoPath>No se puede llegar hasta aquí (Sin camino)</CannotGoNoPath>
   <GoHere>Ir aquí</GoHere>
   
-  <Arrest>Arrestar {0}</Arrest>
-  <CannotArrest>No puede arrestar</CannotArrest>
+  <Arrest>Arrestar a {0}</Arrest>
+  <CannotArrest>No se puede arrestar</CannotArrest>
 
-  <Capture>Capturar {0}</Capture>
-  <CannotCapture>No puede capturar</CannotCapture>
+  
+  
+  
+  
+  
+  <Capture>Capturar a {0}</Capture>
+  <CannotCapture>No se puede capturar</CannotCapture>
+  <Rescue>Rescatar a {0}</Rescue>
+  <CannotRescue>No se puede rescatar</CannotRescue>
+  <CarryToCryptosleepCasket>Llevar a {0} a la cámara de estasis</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>No se puede llevar a la cámara de estasis</CannotCarryToCryptosleepCasket>
 
-  <Rescue>Rescatar {0}</Rescue>
-  <CannotRescue>No puede rescatar</CannotRescue>
-
-  <NoPrisonerBed>No hay camas para prisioneros en celdas cerradas.</NoPrisonerBed>
+  
+  
+  
+  <NoCryptosleepCasket>No hay ninguna cámara de estasis disponible</NoCryptosleepCasket>
+  <NoPrisonerBed>No hay camas asignadas para prisioneros en habitaciones cerradas.</NoPrisonerBed>
   <NoNonPrisonerBed>No hay camas utilizables por colonos.</NoNonPrisonerBed>
-  <Reserved>Reservado para otra persona.</Reserved>
-  <ReservedBy>Reservado para {0}.</ReservedBy>
-  <IsReservedBy>{0} es reservado por {1}.</IsReservedBy>
-
+  <Reserved>Reservado por otra persona.</Reserved>
+  <ReservedBy>Reservado por {0}.</ReservedBy>
+  <IsReservedBy>{0} esta reservado por {1}.</IsReservedBy>
+<NoManipulationSkill>incapaz</NoManipulationSkill>
 
   <Equip>Equipar {0}</Equip>
   <EquipWarningBrawler>(el luchador estará descontento)</EquipWarningBrawler>
   <CannotEquip>No puede equipar {0}</CannotEquip>
   
-  <Wear>Llevar {0}</Wear>
-  <CannotWear>No puede llevar {0}</CannotWear>
+  <Wear>Vestir {0}</Wear>
+  <CannotWear>No puede vestir {0}</CannotWear>
   
-  <Strip>Quitar {0}</Strip>
-  <CannotStrip>No puede quitar {0}</CannotStrip>
-
+  <Strip>Desvestir {0}</Strip>
+  <CannotStrip>No se puede desvestir {0}</CannotStrip>
   <Deposit>Depositar {0} en {1}</Deposit>
-  <CannotDeposit>No puede depositar {0} en {1}</CannotDeposit>
+  <CannotDeposit>No se puede depositar {0} en {1}</CannotDeposit>
+  <SelfDestructHere>Auto-destruir aquí</SelfDestructHere>
 
-  <Drop>Dejar {0}</Drop>
-  
+  <Drop>Soltar {0}</Drop>
+
   <UseMedicalBed>Descansar hasta estar completamente curado</UseMedicalBed>
-  <NotInjured>Sin heridas</NotInjured>
+  <NotInjured>No está herido</NotInjured>
   <SomeoneElseSleeping>Ocupado</SomeoneElseSleeping>
 
   <!-- Specific thing interactions -->
+  
   <EnterCryptosleepPod>Entrar en la cámara de estasis</EnterCryptosleepPod>
-
+  <OpenCryptosleepCasket>Abrir cámara de estasis</OpenCryptosleepCasket>
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
-  <CannotGenericWork>No puede {0} {1}</CannotGenericWork>
+  <CannotGenericWork>No se puede {0} {1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-  <CannotGenericAlreadyAm>Ya {0} {1}</CannotGenericAlreadyAm>
+  <CannotGenericAlreadyAm>Ya está {0} {1}</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeIsNotA>No puede priorizar ({0} no es una {1})</CannotPrioritizeIsNotA>
+  <CannotPrioritizeIsNotA>No se puede priorizar ({0} no es una {1})</CannotPrioritizeIsNotA>
 
-  <CannotPrioritizeResearch>No puede priorizar (investigar requiere demasiado tiempo)</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>No se puede priorizar (La investigación es una tarea a largo plazo)</CannotPrioritizeResearch>
 
-  <CannotPrioritizeForbidden>No puede priorizar ({0} está prohibido)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>No se puede priorizar ({0} está prohibido)</CannotPrioritizeForbidden>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Priorizar {0} {1}</PrioritizeGeneric>
