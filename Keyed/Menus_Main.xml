@@ -28,7 +28,7 @@
   <Reset>Reiniciar</Reset>
   <WorldSize>Tamaño</WorldSize>
   <WorldSeed>Semilla</WorldSeed>
-  <RandomizeSeed>Aleatorizar semilla</RandomizeSeed>
+  <RandomizeSeed>Semilla aleatoria</RandomizeSeed>
 
 
   <!--=========== Select world ===================-->
@@ -48,17 +48,20 @@
   <!--=========== Mods screen ==========-->
   <GetMods>Conseguir mods</GetMods>
   <OpenModsDataFolder>Abrir carpeta de mods</OpenModsDataFolder>
+  
   <ConfirmDisableCoreMod>¿Seguro que quieres desactivar el mod núcleo? El juego no funcionará a menos que actives otro mod que reemplace todas las funciones del núcleo.\n\nRecuerda que otros mods pueden anular el mod núcleo al usar el mismo defName.</ConfirmDisableCoreMod>
   <Author>Autor</Author>
 
   <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>Escoge una IA cuentacuentos</ChooseAIStoryteller>
+  
   <HowStorytellersWork>La IA cuentacuentos crea eventos tales como incursiones pirata, aterrizajes de recursos o ataques animales. Sus elecciones afectarán a la historia de tu colonia.</HowStorytellersWork>
   <MustChooseChallengeScale>Por favor, selecciona un nivel de dificultad.</MustChooseChallengeScale>
-  <ChallengeScale>Escala de dificultad</ChallengeScale>
+  <ChallengeScale>Nivel de dificultad</ChallengeScale>
+  
   <ChallengeScaleTip>Cuando el cuentacuentos lance una amenaza contra ti, dicha amenaza será igual al {0} de lo que mandaría con una dificultad de Desafío.</ChallengeScaleTip>
-  <ChallengeScale_BuilderMode>Constructor</ChallengeScale_BuilderMode>
-  <ChallengeScale_Casual>Informal</ChallengeScale_Casual>
+  <ChallengeScale_BuilderMode>Modo Constructor</ChallengeScale_BuilderMode>
+  <ChallengeScale_Casual>Trivial</ChallengeScale_Casual>
   <ChallengeScale_Rough>Duro</ChallengeScale_Rough>
   <ChallengeScale_Challenge>Desafío</ChallengeScale_Challenge>
   <ChallengeScale_SeriousChallegne>Desafío serio</ChallengeScale_SeriousChallegne>
@@ -83,16 +86,21 @@
   <Elevation>Elevación</Elevation>
   <Fertility>Fertilidad</Fertility>
   <AvgTemp>Temp. media</AvgTemp>
-  <Rainfall>Lluvia</Rainfall>
+  <AvgJanTemp>Temp. media (Ene): {0}</AvgJanTemp>
+  <AvgJulTemp>Temp. media (Jul): {0}</AvgJulTemp>
+  <Rainfall>Precipitación</Rainfall>
   <HasCoast0>Costa al norte</HasCoast0>
   <HasCoast1>Costa al este</HasCoast1>
   <HasCoast2>Costa al sur</HasCoast2>
   <HasCoast3>Costa al oeste</HasCoast3>
   <FactionBase>Base de facción</FactionBase>
+<StoneTypesHere>Tipos de roca</StoneTypesHere>
 
   <!--=========== Character chooser ==========-->  
   <CreateCharacters>Crear personajes</CreateCharacters>
   <FirstNameDesc>El nombre del personaje.\n\nEsto sólo se verá en ciertos menús.</FirstNameDesc>
+  
+  
   <ShortIdentifierDesc>La identificación del personaje.\n\nSe verá constantemente. Puede ser tanto el nombre como el apellido o un alias diferente.</ShortIdentifierDesc>
   <LastNameDesc>El apellido del personaje\n\nEsto sólo se verá en ciertos menús.</LastNameDesc>
   <Randomize>Aleatorio</Randomize>
@@ -100,24 +108,26 @@
   <Backstory>Trasfondo</Backstory>
   <IncapableOf>Incapaz de</IncapableOf>
   <Traits>Rasgos</Traits>
-  <TraitsDoNothing>Los rasgos no son más que pedazos de historia por ahora; la mayoría no hacen nada. Esto cambiará en futuras versiones.</TraitsDoNothing>
-  <PermanentMoodEffect>Efecto permanente en el humor</PermanentMoodEffect>
+  
+  <TraitsDoNothing>Los rasgos no son más que pequeños fragmentos de historia por ahora; la mayoría no hacen nada. Esto cambiará en futuras versiones.</TraitsDoNothing>
+  <PermanentMoodEffect>Efecto permanente en el estado de ánimo</PermanentMoodEffect>
   <Skills>Habilidades</Skills>
   <NoneLower>ninguna</NoneLower>
-  <Adulthood>Madurez</Adulthood>
+  <Adulthood>Edad adulta</Adulthood>
   <Childhood>Infancia</Childhood>
   <Male>Hombre</Male>
   <Female>Mujer</Female>
   <Pain>Dolor</Pain>
 
   <!--=========== Misc ==========-->  
-  <Start>Inicio</Start>
+  <Start>¡Empezar!</Start>
   <Advanced>Avanzado</Advanced>
   <Next>Siguiente</Next>
   <Back>Atrás</Back>
   
   <Gameplay>Jugabilidad</Gameplay>
 
+  
   <ConfirmQuit>¿Seguro que deseas salir? Perderás todo progreso que no haya sido guardado.</ConfirmQuit>
   
   <EveryoneNeedsValidName>Cada persona necesita un nombre válido.</EveryoneNeedsValidName>

@@ -11,6 +11,10 @@
   <CommandTryReconnectLabel>Reconectar</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>Intenta conectar a una red energética diferente dentro del radio de conexión. Esto es útil cuando se está conectado a una red inerte pero hay otra funcionando en las cercanías.</CommandTryReconnectDesc>
 
+  
+  
+  
+  
   <CommandGatherSpotToggleLabel>Punto de reunión</CommandGatherSpotToggleLabel>
   <CommandGatherSpotToggleDescActive>Activo - los colonos se reunirán entorno a este objeto.</CommandGatherSpotToggleDescActive>
   <CommandGatherSpotToggleDescInactive>Inactivo - los colonos no se reunirán entorno a este objeto.</CommandGatherSpotToggleDescInactive>
@@ -19,14 +23,17 @@
    <!-- Drafting -->
   <CommandDraftLabel>Reclutar</CommandDraftLabel>
   <CommandUndraftLabel>Licenciar</CommandUndraftLabel>
-  <CommandToggleDraftDesc>Alterna el estado militar.\n\nLos reclutas recibirán órdenes y pelearán, pero ni trabajarán, ni comerán, ni descansarán.</CommandToggleDraftDesc>
+  <CommandToggleDraftDesc>Alterna el estado militar.\n\nLos reclutas recibirán órdenes y lucharán. Pero ni trabajarán, ni comerán, ni descansarán.</CommandToggleDraftDesc>
   <IsIncapped>{0} está incapacitado.</IsIncapped>
 
+  
+  
+  
   <CommandCancelConstructionLabel>Cancelar</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Cancela esta construcción.</CommandCancelConstructionDesc>
   
-  <CommandGetOutOfBedLabel>Ir a la cama</CommandGetOutOfBedLabel>
-  <CommandGetOutOfBedDesc>Manda a colono a la cama actual.</CommandGetOutOfBedDesc>
+  <CommandGetOutOfBedLabel>Salir de la cama</CommandGetOutOfBedLabel>
+  <CommandGetOutOfBedDesc>Manda salir de la cama actual.</CommandGetOutOfBedDesc>
 
   <CommandBedSetOwnerLabel>Asignar propietario</CommandBedSetOwnerLabel>
   <CommandBedSetOwnerDesc>Asignar esta cama como propiedad de un colono en concreto.</CommandBedSetOwnerDesc>
@@ -35,14 +42,16 @@
   <CommandBedSetForPrisonersDesc>Asigna las camas de esta habitación para uso prisionero.</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>No puedes asignar camas en el exterior para uso prisionero.</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetForColonistsLabel>Asignar para colonos</CommandBedSetForColonistsLabel>
-  <CommandBedSetForColonistsDesc>Asigna las camas de esta habitación para uso colono.</CommandBedSetForColonistsDesc>
+  <CommandBedSetForColonistsDesc>Asigna las camas de esta habitación para uso de tus colonos.</CommandBedSetForColonistsDesc>
   <CommandBedSetAsMedicalLabel>Asignar como cama hospitalaria</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc>Asigna esta cama para uso hospitalario.</CommandBedSetAsMedicalDesc>
   <CommandBedSetAsNonMedicalLabel>Asignar como cama extrahospitalaria</CommandBedSetAsNonMedicalLabel>
   <CommandBedSetAsNonMedicalDesc>Asigna esta cama para uso extrahospitalario.</CommandBedSetAsNonMedicalDesc>
-  <TurningOnPrisonerBedWarning>Activar el modo prisionero afecta a toda la habitación, pues colonos y prisioneros no pueden compartir dormitorio.\n\nEsta gente perderá sus camas:</TurningOnPrisonerBedWarning>
+   <TurningOnPrisonerBedWarning>Activar el modo prisionero afecta a toda la habitación, pues colonos y prisioneros no pueden compartir dormitorio.\n\nEsta gente perderá sus camas:</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>Desactivar el modo prisionero afecta a toda la habitación, pues colonos y prisioneros no pueden compartir dormitorio.\n\nEsta gente perderá sus camas:</TurningOffPrisonerBedWarning>
-  <AreYouSure>¿Estás seguro de que quieres hacer esto?</AreYouSure>
+ 
+ 
+ <AreYouSure>¿Estás seguro de que quieres hacer esto?</AreYouSure>
 
   
   
@@ -63,7 +72,7 @@
   <!-- Artillery -->
   <CommandSetForceAttackTarget>Forzar ataque</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Asigna un objetivo que ésta torreta deberá atacar continuadamente mientras le sea posible.</CommandSetForceAttackTargetDesc>
-  <CommandStopForceAttack>Dejar de forzar el ataque</CommandStopForceAttack>
+  <CommandStopForceAttack>Detener Forzar ataque</CommandStopForceAttack>
   <CommandStopForceAttackDesc>Detiene el ataque forzado y permite a la torreta disparar libremente.</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>Actualmente no se está forzando el ataque.</CommandStopAttackFailNotForceAttacking>
   <MessageTargetBeyondMaximumRange>El objetivo está más allá del alcance máximo.</MessageTargetBeyondMaximumRange>
@@ -82,9 +91,23 @@
   <CommandPodEjectDesc>Despierta a los criodurmientes y los eyecta.</CommandPodEjectDesc>
   <CommandPodEjectFailEmpty>No contiene a nadie.</CommandPodEjectFailEmpty>
   
-   <!-- Door -->
+  <!-- Door -->
   <CommandToggleDoorLock>Bloquear</CommandToggleDoorLock>
   <CommandToggleDoorLockDesc>Bloquea (o desbloquea) la puerta. Una puerta bloqueada no se abrirá a nadie.</CommandToggleDoorLockDesc>
+  
+  <!-- Temperature control -->
+  <CommandResetTemp>Restablecer</CommandResetTemp>
+  <CommandResetTempDesc>Reajustar la temperatura deseada a la temperatura de la habitación.</CommandResetTempDesc>
+  <CommandRaiseTempDesc>Subir la temperatura deseada.</CommandRaiseTempDesc>
+  <CommandLowerTempDesc>Bajar la temperatura deseada.</CommandLowerTempDesc>
+
+  <!-- Art -->
+  <CommandInstall>Instalar</CommandInstall>
+  <CommandInstallDesc>Este objeto está actualmente empaquetado para ser almacenado o transportado. Usa este comando para instalar este objeto en un lugar definitivo donde podrá ser observado o usado.</CommandInstallDesc>
+   
+  
+  
+  
   
   
 </LanguageData>

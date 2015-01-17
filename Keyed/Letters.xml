@@ -1,35 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <JumpToLocation>Saltar a la localización.</JumpToLocation>
+  <JumpToLocation>Ir a la ubicación del evento.</JumpToLocation>
 
-  <RelationsBrokenDown>Las relaciones con {0} se han roto. A partir de ahora os serán hostiles.</RelationsBrokenDown>
-  <RelationsWarmed>Las relaciones con {0} han mejorado. Ya no os son hostiles.</RelationsWarmed>
-
-  <RelationsBrokenCapture>Debido a que capturásteis a {0}, {1} es ahora enemigo vuestro.</RelationsBrokenCapture>
-
+  
+  
+  <FirstSummerWarning>¡Ha empezado el verano! Pero se acerca el invierno.\n\nTus cultivos de comida no creceran en el frío del invierno. Asegurate ahora, mientras todavia puedes, de almacenar comida para varios meses.\n\nPuedes construir una habitación frigorífica para evitar que se estropeen los alimentos.\n\nY también intenta comprar, robar, o confeccionar algunas parkas o los colonos se congelaran cuando salgan al exterior..</FirstSummerWarning>
+    
+  
+  <RelationsBrokenDown>Las relaciones con {0} se han degradado. A partir de ahora seran hostiles hacia vosotros.</RelationsBrokenDown>
+  <RelationsWarmed>Las relaciones con {0} han mejorado. Ya no se enfrentaran a vosotros.</RelationsWarmed>
+  <RelationsBrokenCapture>Debido a que capturásteis a {0}, {1} es ahora vuestro enemigo.</RelationsBrokenCapture>
   <ColonyGoodwill>Predisposición de la colonia</ColonyGoodwill>
   <Neutral>Neutral</Neutral>
 
-  <ShortCircuitRain>Un {0} ha cortocircuitado debido a la lluvia y ha provocado un incendio.</ShortCircuitRain>
-  <AreaRevealed>Se ha revelado una nueva área.</AreaRevealed>
+  <ShortCircuitRain>Un {0} ha sufrido un cortocircuito debido a la lluvia y ha provocado un incendio.</ShortCircuitRain> 
+  <AreaRevealed>Una nueva área ha sido revelada.</AreaRevealed>
 
   <RoofCollapsed>Un techo ha colapsado debido a que se encontraba demasiado lejos de soporte alguno.</RoofCollapsed>
   <TheseThingsCrushed>Los siguientes objetos han sido aplastados:</TheseThingsCrushed>
   <NothingCrushed>Nada ha sido aplastado.</NothingCrushed>
   
-  <MentalBreakRampage>{0} ha sufrido un colapso mental y se ha desbocado.</MentalBreakRampage>
-  <MentalBreakDaze>{0} ha tirado la toalla y está abandonando la colonia.</MentalBreakDaze>
-  <MentalBreakLeave>{0} ha tirado la toalla y está vagabundeando aturdido.</MentalBreakLeave>
+  <MentalBreakRampage>{0} ha sufrido un colapso mental y se ha vuelto furioso.</MentalBreakRampage>
+  <MentalBreakDaze>{0} se ha dado por vencido y vagabundea desconcertado.</MentalBreakDaze>
+  <MentalBreakLeave>{0} se ha dado por vencido y está abandonando la colonia.</MentalBreakLeave>
 
-  <RecruitSuccess>{0} ha reclutado satisfactoriamente a {1} ({2} de posibilidades).</RecruitSuccess>
-  <RecruitFail>{0} ha fallado al reclutar a {1} ({2} de posibilidades).</RecruitFail>
+  
+  
+  <MentalBreakRecoveryRampage> La furia violenta de {0} ha terminado.</MentalBreakRecoveryRampage>
+  <MentalBreakRecoveryDaze>{0} ya no está desconcertado</MentalBreakRecoveryDaze>
+  <MentalBreakRecoveryLeave>{0} ha cambiado de opinión y está volviendo a la colonia.</MentalBreakRecoveryLeave>  
+   
+  
+  
+  <RecruitSuccess>{0} ha reclutado exitosamente a {1} ({2} de posibilidades).</RecruitSuccess>
+  <RecruitFail>{0} no ha conseguido reclutar a {1} ({2} de posibilidades).</RecruitFail>
   
   <Birthday>¡Hoy es el cumpleaños de {0}! {1} ha cumplido {2}.</Birthday>
   <BirthdayWithInjuries>¡Hoy es el cumpleaños de {0}! {1} ha cumplido {2}.\n\nDesgraciadamente, {0} ha contraído las siguientes enfermedades debido a la edad:\n{3}</BirthdayWithInjuries>
   
-  <NewDisease>{0} ha enfermado ({1}). Asegúrate de que {0} recibe el tratamiento adecuado y de que guarda cama el mayor tiempo posible para recuperarse lo antes posible.</NewDisease>
-  <NewPartDisease>{0} ha contraído una infección de {1}. Asegúrate de que {0} recibe el tratamiento adecuado y de que guarda cama el mayor tiempo posible para recuperarse lo antes posible.</NewPartDisease>
-  
-  
+  <NewDisease>{0} ha enfermado ({1}). Asegúrate de que {0} recibe el tratamiento adecuado y de que guarda cama el mayor tiempo posible..</NewDisease>
+  <NewPartDisease>{0} ha contraído una infección en HIS {1}. Asegúrate de que {0} recibe el tratamiento adecuado y de que guarda cama el mayor tiempo posible.</NewPartDisease>
 </LanguageData>

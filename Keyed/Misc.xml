@@ -1,45 +1,68 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <GameStartDialog>Un pandemonio de sirenas y metal torturado os arranca a los tres de vuestro descanso en las cámaras de estasis y a duras penas llegáis alcanzar las cápsulas de salvamento antes de que el navío resulte destruido.\n\nPoco tiempo después, aterrizáis en este ignoto mundo fronterizo.\n\nA medida que las piezas de la destrozada nave estelar caen a vuestro alrededor, comenzáis a elaborar planes para vuestra superviviencia.</GameStartDialog>
+	<Autosaving>Guardado automático</Autosaving>
+
+	
+	
+  <GameStartDialog>Un pandemonio de sirenas y metal torturado os arranca a los tres de vuestro descanso en las cámaras de estasis y a duras penas llegáis alcanzar las cápsulas de salvamento antes de que la nave resulte destruida.\n\nPoco tiempo después, aterrizáis en este ignoto mundo fronterizo.\n\nA medida que las piezas de la destrozada nave estelar caen a vuestro alrededor, comenzáis a elaborar planes para vuestra superviviencia.</GameStartDialog>
 
   <Colony>Colonia</Colony>
+  
   
   <ChangeLanguageFromMainMenu>Sólo puedes cambiar el idioma desde la venta de opciones del menú principal.</ChangeLanguageFromMainMenu>
 
   <AndLower>y</AndLower>
   <DisabledLower>desactivado</DisabledLower>
-
   <CloseButton>Cerrar</CloseButton>
+
+  
+  
 
 
   <VersionIndicator>Versión {0}</VersionIndicator>
   <DevelopmentBuildLower>versión en desarrollo</DevelopmentBuildLower>
   <CompiledOn>Compilado {0}</CompiledOn>
 
-	<MeatLabel>carne de {0}</MeatLabel>
+  
+  
+  
+  
+  
+  
+  
+   <!-- Content generation-->
+   
+   
+   
+    <MeatLabel>carne de {0}</MeatLabel>
   <MeatDesc>Carne cruda de un/a {0}.</MeatDesc>
   
   <LeatherLabel>cuero de {0}</LeatherLabel>
-  <LeatherDesc>Cuero hecho con la piel de un/a {0}.</LeatherDesc>
+  <LeatherDesc>Cuero de un/a {0}.</LeatherDesc>
 
   <CorpseLabel>cadáver de {0}</CorpseLabel>
   	<CorpseDesc>El cuerpo sin vida de un/a {0}.</CorpseDesc>
   <DeadLabel>{0} (muerto)</DeadLabel>
 
-
-	<BlueprintLabelExtra> (cianotipo)</BlueprintLabelExtra>
-  <FrameLabelExtra> (armazón)</FrameLabelExtra>
-  
+  <RoughStoneTerrainLabel>{0} tosco</RoughStoneTerrainLabel>
+  <RoughStoneTerrainDesc>Suelo tosco y natural de {0}.</RoughStoneTerrainDesc>
+  <RoughHewnStoneTerrainLabel>{0} toscamente alisado</RoughHewnStoneTerrainLabel>
+  <RoughHewnStoneTerrainDesc>Suelo natural de {0} toscamente alisado.</RoughHewnStoneTerrainDesc>
+  <SmoothStoneTerrainLabel>{0} liso</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainDesc>Suelo liso de {0}.</SmoothStoneTerrainDesc>
+	<BlueprintLabelExtra> (anteproyecto)</BlueprintLabelExtra>
+	<FrameLabelExtra> (en construcción)</FrameLabelExtra>
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
-  <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
+  <ThingMadeOfStuffLabel>{1} de {0}</ThingMadeOfStuffLabel>
 
-  <VariousLabel>(varios)</VariousLabel>
-    
+  
+    <VariousLabel>(varios)</VariousLabel>
     
   <!-- History events -->
-  <ColonistDied>Colono muerto</ColonistDied>
+  <ColonistDied>Colono murió</ColonistDied>
+  
   
   
 </LanguageData>
