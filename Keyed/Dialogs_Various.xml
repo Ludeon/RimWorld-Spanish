@@ -19,7 +19,6 @@
   
   
   <!-- Colony naming-->
-  
   <NameColonyMessage>Todo el mundo sabe que no queréis permanencer en esta roca por mucho tiempo, aun así {0} sugiere que bautizéis a la colonia.\n\n¿Como debería llamarse?</NameColonyMessage>
   <ColonyGainsName>A partir de ahora se conocerá a la colonia como {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Ese nombre no es válido.</ColonyNameIsInvalid>
@@ -32,9 +31,10 @@
   <PawnGainsName>El alias del colono es ahora {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
+  <VersionMismatch>Version no coincidente</VersionMismatch>
+  <SaveGameIncompatibleWarningText>Atención: Este mapa fue guardada en la versión {0}, mientras que la versión en funcionamiento es {1}.\n\n Cargar esta partida posiblemente cause errores y caídas al escritorio.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Atención: Este mundo fue generado con la versión {0}, y la versión actual es {1}.\n\nCargar este mundo posiblemente generará errores y caídas al escritorio. Recomendamos que crees un mundo nuevo.</WorldFileVersionMismatch>
   
-  <SaveGameIncompatibleWarningText>Versiones diferentes: Esta partida fue guardada en la versión {0}, mientras que la versión en funcionamiento es {1}.\n\n Cargar esta partida posiblemente cause errores y caídas al escritorio.</SaveGameIncompatibleWarningText>
-  <SaveGameIncompatibleWarningTitle>Partida incompatible</SaveGameIncompatibleWarningTitle>
   
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Has cambiado la resolución de pantalla. ¿Funciona la nueva?\n\nAuto-reverting in {0}...</ConfirmResolutionChange>
@@ -62,7 +62,7 @@
   <MapSizeMedium>Medio</MapSizeMedium>
   <MapSizeLarge>Grande</MapSizeLarge>
   <MapSizeExtreme>Ludeonicro</MapSizeExtreme>
-  <MapStartMonth>Mes de início:</MapStartMonth>
+  <MapStartMonth>Mes de inicio:</MapStartMonth>
   <MapStartMonthDefault>Auto</MapStartMonthDefault>
 
   
@@ -73,36 +73,17 @@
   <RepeatCount>Repetir: {0}</RepeatCount>
   <Forever>Constante</Forever>
   <IngredientSearchRadius>Radio de búsqueda de ingredientes</IngredientSearchRadius>
-  <TargetCount>Hacer hasta llegar a: {0}</TargetCount>
-  <Infinite>Infinitos</Infinite>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <CurrentlyHave>Actualmente tiene</CurrentlyHave>
+  <CountingProducts>Contando</CountingProducts>
+  <Infinite>Infinito</Infinite>
+
   <RecipeCannotHaveTargetCount>(Esta receta no puede tener un número determinado de productos por tiene múltiples o impredecibles productos.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Ingredientes permitidos</PermittedIngredients>
- 
   <WorkAmount>Cantidad de trabajo</WorkAmount>
   <MinimumSkills>Habilidades mínimas:</MinimumSkills>
   <BillRequires>Requiere {0} {1}</BillRequires>
   <BillRequiresMayVary>(La cantidad de materia prima puede variar en caso de ser un objeto con volumen no estandar, como el oro.)</BillRequiresMayVary>
+  <ThisIsSmallVolume>Este es un ingrediente de volumen reducido. Esto significa que cada 'unidad' cuenta como 1/20 que un ingrendiente de volumen normal. Así que para completar los requisitos de ingredientes necesitaras un cantidad 20 veces superior a la habitual.</ThisIsSmallVolume>
   <UsableIngredients>ingredientes utilizables</UsableIngredients>
   <DoXTimes>Hacer X veces</DoXTimes>
   <DoUntilYouHaveX>Hacer hasta que haya X</DoUntilYouHaveX>
@@ -124,6 +105,7 @@
   <Harvestable>Cosechable</Harvestable>
   <LimitedLifespan>Esperanza de vida limitada</LimitedLifespan>
   <GrowingTime>Tiempo de crecimiento</GrowingTime>
+  <GrowingTimeDesc>Las plantas solo crecen durante una parte del día y solo cuando están iluminadas. Esta informacion mide el tiempo que la planta necesita estar creciendo hasta llegar a su maximo tamaño. El tiempo real de crecimiento será aproximadamente el doble del indicado. Las temperaturas bajas tambien ralentizan el crecimiento de las plantas.</GrowingTimeDesc>
   <Days>días</Days>
   <FertilityRequirement>Requisitos de fertilidad</FertilityRequirement>
   <LightRequirement>Requisitos lumínicos</LightRequirement>
@@ -137,10 +119,8 @@
   <MinFoodQuality>Calidad mínima de la comida</MinFoodQuality>
   <Diet>Dieta</Diet>
   <RecruitDifficulty>Dificultad de reclutamiento</RecruitDifficulty>
-  
   <baseMarketValue>Precio base</baseMarketValue>
   <Covers>Cobertura</Covers>
-
   <BodyPartEfficiency>Eficiencia de la parte corporal</BodyPartEfficiency>
   
   <!-- Trade -->
@@ -148,43 +128,25 @@
   <BuyPriceDesc>Precio que pagas por comprar este objeto.</BuyPriceDesc>
   <SellPriceDesc>Precio que cobras por vender este objeto.</SellPriceDesc>
   <PriceTypeDesc>El precio por este objeto es {0}.</PriceTypeDesc>
-  
-  
   <ColonyCount>Cuantas existencias de este objeto posee la colonia listas para negociar.\n\nSólo puedes vender objetos que estén en el exterior y cerca de una baliza de comercio orbital.</ColonyCount>
   <TraderCount>Cuantas existencias de este objeto posee el comerciante para negociar.</TraderCount>
   <AcceptButton>Aceptar</AcceptButton>
   <ResetButton>Reiniciar</ResetButton>
   <CancelButton>Cancelar</CancelButton>
-
   <YourTradeableSilver>Tus existencias de plata: {0}</YourTradeableSilver>
   <YourTradeableSilverTip>Sólo puedes comerciar con plata que esté cerca de una baliza de comercio y sin ningún techo encima suyo.</YourTradeableSilverTip>
   <TraderHasNoMore>Al comerciante no le quedan existencias.</TraderHasNoMore>
   <ColonyHasNoMore>A la colonia no le quedan existencias.</ColonyHasNoMore>
   <TraderWillNotTrade>El comerciante no desea comerciar con este objeto.</TraderWillNotTrade>
 
-  <!-- Comms -->
+   <!-- Comms -->
   <SocialSkillIs>Habilidad social: {0}</SocialSkillIs>
-  
-  
-  
-  
-  
-    
-  
-  
-  
-  
-  
-  
-  
 
-	
-	<!--Research-->
-	<ResearchFinished>Investigación finalizada: {0}</ResearchFinished>
-	<ResearchScreen>Pantalla de investigación</ResearchScreen>
-	
+  <!--Research-->
+  <ResearchFinished>Investigación finalizada: {0}</ResearchFinished>
+  <ResearchScreen>Pantalla de investigación</ResearchScreen>
+	  
   <!--HistoryUpload-->
-  
   <HistoryUploadMessage>¿Deseas cargar tus datos de juego al servidor de Rimworld con el fin de ayudar a los desarrolladores a equilibrar el juego? Si accedes, tus datos serán cargados cada {0} días (y en ciertas ocasiones como el final de una partida). Más adelante, podrás cambiar tus preferencias de privacidad en el menú de opciones.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Aunque la historia es enviada de forma anónima, puedes añadir tu nombre.</HistoryUploadMessagePlayerName>
   <HistoryUploadYes>Permitir la carga de datos de juego</HistoryUploadYes>

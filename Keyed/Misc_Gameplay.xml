@@ -11,15 +11,13 @@
   <Owner>Propietario</Owner>
   <Nobody>Nadie</Nobody>
   <Unowned>Libre</Unowned>
-  
   <DeadTime>Muerto {0}</DeadTime>
   <WalkSpeed>velocidad caminando {0}</WalkSpeed>
   <DyingLower>muriendo</DyingLower>
-  
   <FilthOnFeet>Suciedad en los pies:</FilthOnFeet>
   <NotEnoughStoredLower>no hay suficiente almacenado</NotEnoughStoredLower>
   <NothingLower>nada</NothingLower>
-	<Adapted>Adaptado</Adapted>
+  <Adapted>Adaptado</Adapted>
   <Headshot>Tiro en la cabeza</Headshot>
   <FreshMissingBodyPart>reciente</FreshMissingBodyPart>
   <UntreatedLower>sin tratar</UntreatedLower>
@@ -37,6 +35,10 @@
   <DropThing>Dejar en el suelo</DropThing>
   <RenameColonist>Renombrar colono</RenameColonist>
   <UnknownLower>Desconocido</UnknownLower>
+  <On>On</On>
+  <Off>Off</Off>
+  <PowerSwitch_Power>Energía</PowerSwitch_Power>
+
   
   <!-- Snow -->
   <SnowNone>Sin nieve</SnowNone>
@@ -46,9 +48,12 @@
   <SnowThick>Nieve (capa gruesa)</SnowThick>
   
     <!-- Turrets -->
-   <GunInstalled>Installed</GunInstalled>
+   <GunInstalled>Instalada</GunInstalled>
    <MinimumRange>Alcance mínimo</MinimumRange>
-  <CanFireIn>Puede disparar en</CanFireIn>
+   <CanFireIn>Puede disparar en</CanFireIn>
+   <ShellLoaded>Obús cargado</ShellLoaded>
+   <ShellNotLoaded>Descargado</ShellNotLoaded>
+
 
 
 	<!-- Job reports -->
@@ -56,7 +61,6 @@
 	<ReportHauling>Trasladando {0}.</ReportHauling>
 	<ReportSleeping>Durmiendo.</ReportSleeping>
     <ReportResting>Descansando.</ReportResting>
-
 
 	<!-- Shooting report -->
 	<WeaponMissRadius>Radio de fallo del arma</WeaponMissRadius>
@@ -66,39 +70,32 @@
 	<TargetProne>Objetivo agazapado</TargetProne>
 	<TargetSize>Tamaño del objetivo</TargetSize>
 	<Weather>Clima</Weather>
-	<ShootingCover>Protección (cobertura)</ShootingCover>
+	<ShootingCover>Cobertura</ShootingCover>
 	<CoverThingBlocksPercentOfShots>{0} para a {1}</CoverThingBlocksPercentOfShots>
-	<NoCoverLower>sin protección (cobertura)</NoCoverLower>
+	<NoCoverLower>sin cobertura</NoCoverLower>
 	
   <!-- Generated recipes -->
   <RecipeMake>Elaborar {0}</RecipeMake>
   <RecipeMakeJobString>Elaborando {0}.</RecipeMakeJobString>
-	<!-- Status levels -->
+
+  <!-- Status levels -->
   <Mood>Estado de ánimo</Mood>
-  
   <MoodTip>El estado de ánimo es mantenido satisfaciendo las necesidades físicas y psicológicas.\n\nSi el estado de ánimo baja demasiado, el afectado podría sufrir un colapso mental.</MoodTip>
   <Food>Comida</Food>
   <FoodTip>Representa la satisfacción relacionada con la comida.\n\nSe rellena cuando el individuo se alimenta. Pasado un tiempo, empezará a disminuir hasta que vuelva a comer. Si llegase a cero, el afectado sufriría daños por inanición.</FoodTip>
   <Rest>Descanso</Rest>
-  
   <RestTip>Representa la calidad del relax y sueño disfrutados.\n\nAumenta al máximo cuando se duerme en cama y decrece con el tiempo mientras se está fuera de ella.</RestTip>
   <Environment>Entorno</Environment>
-  
   <EnvironmentTip>Refleja lo agradable que es el entorno para el individuo.\n\nAumenta con habitaciones espaciosas y decoración, y disminuye cuando el entorno es sucio u oscuro.</EnvironmentTip>
   <Openness>Apertura</Openness>
 
-    <!-- Thoughts -->
+  
+  <!-- Thoughts -->
   <ThoughtExpiresIn>Expira en: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Empieza a expirar en: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Acaba de expirar en: {0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThreshold>Umbral de colapso mental</MentalBreakThreshold>
-
-
-
-
-
-
-
+  <MentalBreakThresholdHard>Umbral de colapso mental grave</MentalBreakThresholdHard>
+  <MentalBreakThresholdSoft>Umbral de colapso mental leve</MentalBreakThresholdSoft>
 
   
   <!-- Pawn info readout -->
@@ -113,54 +110,18 @@
   <Incapacitated>Incapacitado</Incapacitated>
   <InRestraints>Encadenado (ralentizado)</InRestraints>
   <Carrying>Cargando</Carrying>
-  <SanityDazedWander>Desmoralizado: Aturdido y vagando</SanityDazedWander>
-  <SanityGiveUpExit>Desmoralizado: Abatido y marchandose</SanityGiveUpExit>
-  <SanityPanicFlee>Desmoralizado: Presa del pánico</SanityPanicFlee>
-  <SanityPsychotic>Desmoralizado: Brote psicótico</SanityPsychotic>
-
+  
    <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Seleccionar el siguiente objeto en la misma casilla.\n\nAtajo del teclado: {0}\n\nTambién puedes hacerlo clicando lentamente la misma casilla por segunda vez.</SelectNextInSquareTip>
   <DefInfoTip>Ver información sobre este objeto.</DefInfoTip>
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
 	<!-- like 'Blood of John' -->
 	<OfLower>de</OfLower>
 
 	<!-- Power readout -->
-	<PowerNotConnected>Sin conexión a la red eléctrica.</PowerNotConnected>
-	<PowerConnectedRateStored>Consumo eléctrico/ Energía almacenada: {0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerNotConnected>Sin conexión a la red eléctrica.</PowerNotConnected>
+  <PowerConnectedRateStored>Consumo eléctrico/ Energía almacenada: {0} W / {1} Wd</PowerConnectedRateStored>
   <PowerNeeded>Necesita energía</PowerNeeded>
   <PowerOutput>Producción de energía</PowerOutput>
   <PowerBatteryStored>Almacenado</PowerBatteryStored>
@@ -170,11 +131,13 @@
   <TargetTemperature>Temperatura deseada</TargetTemperature>
   <PowerConsumptionMode>Consumo eléctrico actual</PowerConsumptionMode>
   <PowerConsumptionHigh>Elevado</PowerConsumptionHigh>
-  <PowerConsumptionLow>bajo</PowerConsumptionLow>
+  <PowerConsumptionLow>Bajo</PowerConsumptionLow>
   
   <!-- Temperature readout -->
   <Indoors>Interior</Indoors>
+  <IndoorsUnroofed>Sin tejado</IndoorsUnroofed>
   <Outdoors>Exterior</Outdoors>
+  
 	<!--Rotting-->
 	<RotStateFresh>Fresco</RotStateFresh>
 	<RotStateRotting>Pudriéndose</RotStateRotting>
@@ -191,20 +154,21 @@
   <StoragePriorityPreferred>Preferida</StoragePriorityPreferred>
   <StoragePriorityImportant>Importante</StoragePriorityImportant>
   <StoragePriorityCritical>Crítica</StoragePriorityCritical>
+  
+  
   <!-- Rotting -->
   <CurrentlyFrozen>Congelado (no se pudrirá)</CurrentlyFrozen>
   <CurrentlyRefrigerated>Refrigerado (se pudrirá en {0})</CurrentlyRefrigerated>
   <NotRefrigerated>Sin refrigerar (se pudrirá en{0})</NotRefrigerated>
   <OverADecade>más de una década</OverADecade>
+  
   <!-- Meal -->
-
   <Ingredients>Ingredientes</Ingredients>
 
   <!-- Plants -->
   <PercentGrowth>{0}% crecimiento</PercentGrowth>
   <Growing>Creciendo</Growing>
   <NotGrowingNow>No puede crecer (tiene que estar {0}).</NotGrowingNow>
-  
   <NotGrowingNowResting>No está creciendo (descansando).</NotGrowingNowResting>
   <FullyGrownIn>Completamente maduro en {0} de crecimiento.</FullyGrownIn>
   <OutOfIdealTemperatureRange>Fuera del rango ideal de temperaturas (creciendo a un {0}% de la velocidad normal)</OutOfIdealTemperatureRange>
@@ -215,6 +179,7 @@
   <OutdoorGrowingPeriod>Periodo de cultivo: {0}</OutdoorGrowingPeriod>
   <NoGrowingPeriod>Nunca</NoGrowingPeriod>
   <GrowYearRound>Durante todo el año</GrowYearRound>
+  <GrowSeasonHereNow>Ahora es temporada de cultivo.</GrowSeasonHereNow>
   <CannotGrowTooCold>No puede crecer - demasiado frio.</CannotGrowTooCold>
   
   <!-- Zones -->
@@ -223,16 +188,14 @@
   <Stockpile>Reserva</Stockpile>
   <DumpingStockpile>Vertedero</DumpingStockpile>
   <Priority>Prioridad</Priority>
-  
-  
-  
-   <ClearAll>Limpiar todo</ClearAll>
+  <ClearAll>Limpiar todo</ClearAll>
 
   <!-- Mouseover indicator -->
   <Undiscovered>Por descubrir</Undiscovered>
   
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>Alternar Visibilidad de zonas.</ZoneVisibilityToggleButton>
+  <ShowBeautyToggleButton>Alternar la Visibilidad de belleza.\n\nMuestra la belleza del mundo como es percibida por un personaje cuando se encuentra en el lugar donde apunta el ratón.</ShowBeautyToggleButton>
   <AutoHomeRegionToggleButton>Alternar Designación automática de zonas residenciales alrededor de nuevas construcciones.</AutoHomeRegionToggleButton>
   <CategorizedResourceReadoutToggleButton>Alternar Modo de Categorias en la barra de recursos.</CategorizedResourceReadoutToggleButton>
 
@@ -258,8 +221,8 @@
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Bloqueado por:</WindTurbine_WindPathIsBlockedBy>
   <WindTurbine_WindPathIsBlockedByRoof>Bloqueado por tejado</WindTurbine_WindPathIsBlockedByRoof>
+  
   <!-- Cryptosleep casket -->
-
   <CasketContains>Contiene</CasketContains>
   <CasketUnknownContents>Desconocido</CasketUnknownContents>
   <CasketWarning>¡Atencion!\n\n¡NAME es tu último colono en pie! Si HIM dejas entrar en esa cámara de estasis, es posible que no puedas seguir jugando. Estás seguro de que quieres continuar?</CasketWarning>
@@ -269,6 +232,7 @@
   <ShipReportCanLaunch>Listo para despegar.</ShipReportCanLaunch>
   <ShipReportMissingPart>Faltan componentes críticos.</ShipReportMissingPart>
   <ShipReportNoFullPods>Cámaras de estasis vacías.</ShipReportNoFullPods>
+  
   <!-- Neurotrainer -->
   <UseNeurotrainer>Usar el neuroentrenador para aprender {0}</UseNeurotrainer>
   <NeurotrainerUsed>{0} usó {1} neuroentrenador y ha subido desde el nivel {2} hasta el nivel {3}.</NeurotrainerUsed>
@@ -290,9 +254,16 @@
   <QualityDescription>La calidad significa cómo está de bien hecho el objeto.</QualityDescription>
   <QualityIs>Calidad: {0}</QualityIs>
     
-	<!-- Game over -->
+	<!-- Mood descriptions -->
+  <Mood_Broken>derrotado</Mood_Broken>
+  <Mood_AboutToBreak>casi derrotado</Mood_AboutToBreak>
+  <Mood_OnEdge>abatido</Mood_OnEdge>
+  <Mood_Stressed>estresado</Mood_Stressed>
+  <Mood_Neutral>neutral</Mood_Neutral>
+  <Mood_Content>contento</Mood_Content>
+  <Mood_Happy>feliz</Mood_Happy>
 		
-	
+	<!-- Game over -->
   <GameOverEveryoneDead>Todos han muerto o han abandonado la colonia. Esta historia ha llegado a su final.\n\nQuizás alguien pueda sacar provecho de las ruinas de este lugar.</GameOverEveryoneDead>
   <GameOverShipLaunched>¡Lanzásteis la nave! Los siguientes colonos han escapado:\n\n{0}\n Los siguientes colonos fueron abandonados:\n\n{1}\nLa IA intentará guiar la nave espacial a un lugar seguro. Podría depositaros en un planeta mejor de este mismo sistema. O quizás se embarque en un viaje centenario hacia otra estrella. Podría incluso decidir esconderse bajo el hielo de algún asteroide durante unos cuantos milenios, esperando a que alguién construya un nuevo Mundobrillate aquí.\n\nLo descubriréis cuando despertéis.</GameOverShipLaunched>
   <GameOverKeepPlaying>Seguir jugando</GameOverKeepPlaying>
