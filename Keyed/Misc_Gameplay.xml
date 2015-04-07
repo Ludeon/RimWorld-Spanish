@@ -23,9 +23,9 @@
   <UntreatedLower>sin tratar</UntreatedLower>
   <DevelopedImmunityLower>desarrollada inmunidad</DevelopedImmunityLower>
   <InjuryRequiresTreatment>requiere tratamiento para ser curada</InjuryRequiresTreatment>
-  <NextTreatmentAfter>siguiente tratamiento en {0} días</NextTreatmentAfter>
+  <NextTreatmentIn>Siguiente tratamiento en {0} días</NextTreatmentIn>
   <MissingMedicalBillIngredient>no hay {0}</MissingMedicalBillIngredient>
-  <ImmunityDevelopmentProgress>progreso del desarrollo de inmunidad</ImmunityDevelopmentProgress>
+  <Immunity>Inmunidad</Immunity>
   <Race>Raza</Race>
   <Description>Descripción</Description>
   <Equipment>Equipo</Equipment>
@@ -38,8 +38,15 @@
   <On>On</On>
   <Off>Off</Off>
   <PowerSwitch_Power>Energía</PowerSwitch_Power>
+  <AreaLower>área</AreaLower>
+  <FunTolerances>Tolerancias a diversión</FunTolerances>
+  <BrokenLetterLabel>Derrotado</BrokenLetterLabel>
 
-  
+  <!-- Control -->
+  <CannotOrderNonControlled>No puedes dar ordenes a unidades no controladas.</CannotOrderNonControlled>
+  <IsIncapableOfViolence>{0} es incapaz de actos violentos.</IsIncapableOfViolence>
+  <IsNotDrafted>{0} no esta reclutado.</IsNotDrafted>
+
   <!-- Snow -->
   <SnowNone>Sin nieve</SnowNone>
   <SnowDusting>Nieve (espolvoreada)</SnowDusting>
@@ -54,9 +61,7 @@
    <ShellLoaded>Obús cargado</ShellLoaded>
    <ShellNotLoaded>Descargado</ShellNotLoaded>
 
-
-
-	<!-- Job reports -->
+   <!-- Job reports -->
 	<ReportHaulingTo>Trasladando {0} a {1}.</ReportHaulingTo>
 	<ReportHauling>Trasladando {0}.</ReportHauling>
 	<ReportSleeping>Durmiendo.</ReportSleeping>
@@ -78,28 +83,15 @@
   <RecipeMake>Elaborar {0}</RecipeMake>
   <RecipeMakeJobString>Elaborando {0}.</RecipeMakeJobString>
 
-  <!-- Status levels -->
-  <Mood>Estado de ánimo</Mood>
-  <MoodTip>El estado de ánimo es mantenido satisfaciendo las necesidades físicas y psicológicas.\n\nSi el estado de ánimo baja demasiado, el afectado podría sufrir un colapso mental.</MoodTip>
-  <Food>Comida</Food>
-  <FoodTip>Representa la satisfacción relacionada con la comida.\n\nSe rellena cuando el individuo se alimenta. Pasado un tiempo, empezará a disminuir hasta que vuelva a comer. Si llegase a cero, el afectado sufriría daños por inanición.</FoodTip>
-  <Rest>Descanso</Rest>
-  <RestTip>Representa la calidad del relax y sueño disfrutados.\n\nAumenta al máximo cuando se duerme en cama y decrece con el tiempo mientras se está fuera de ella.</RestTip>
-  <Environment>Entorno</Environment>
-  <EnvironmentTip>Refleja lo agradable que es el entorno para el individuo.\n\nAumenta con habitaciones espaciosas y decoración, y disminuye cuando el entorno es sucio u oscuro.</EnvironmentTip>
-  <Openness>Apertura</Openness>
-
-  
   <!-- Thoughts -->
   <ThoughtExpiresIn>Expira en: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Empieza a expirar en: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Acaba de expirar en: {0}</ThoughtFinishesExpiringIn>
   <MentalBreakThresholdHard>Umbral de colapso mental grave</MentalBreakThresholdHard>
   <MentalBreakThresholdSoft>Umbral de colapso mental leve</MentalBreakThresholdSoft>
-
   
   <!-- Pawn info readout -->
-  <Health>Salud</Health>
+  <hitPoints>Salud</hitPoints>
   <PawnMainDescWithFactionGendered>{0} {1} de {2}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
   <PawnMainDescWithFactionGenderless>{0} de {1}</PawnMainDescWithFactionGenderless>
@@ -114,7 +106,6 @@
    <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Seleccionar el siguiente objeto en la misma casilla.\n\nAtajo del teclado: {0}\n\nTambién puedes hacerlo clicando lentamente la misma casilla por segunda vez.</SelectNextInSquareTip>
   <DefInfoTip>Ver información sobre este objeto.</DefInfoTip>
-  
   
 	<!-- like 'Blood of John' -->
 	<OfLower>de</OfLower>
@@ -155,7 +146,6 @@
   <StoragePriorityImportant>Importante</StoragePriorityImportant>
   <StoragePriorityCritical>Crítica</StoragePriorityCritical>
   
-  
   <!-- Rotting -->
   <CurrentlyFrozen>Congelado (no se pudrirá)</CurrentlyFrozen>
   <CurrentlyRefrigerated>Refrigerado (se pudrirá en {0})</CurrentlyRefrigerated>
@@ -167,10 +157,10 @@
 
   <!-- Plants -->
   <PercentGrowth>{0}% crecimiento</PercentGrowth>
-  <Growing>Creciendo</Growing>
-  <NotGrowingNow>No puede crecer (tiene que estar {0}).</NotGrowingNow>
-  <NotGrowingNowResting>No está creciendo (descansando).</NotGrowingNowResting>
+  <GrowthRate>Creciendo</GrowthRate>
   <FullyGrownIn>Completamente maduro en {0} de crecimiento.</FullyGrownIn>
+  <PlantNeedsLightLevel>Necesita nivel de luz</PlantNeedsLightLevel>
+  <PlantResting>Descansando</PlantResting>
   <OutOfIdealTemperatureRange>Fuera del rango ideal de temperaturas (creciendo a un {0}% de la velocidad normal)</OutOfIdealTemperatureRange>
   <OutOfIdealTemperatureRangeNotGrowing>Fuera del rango ideal de temperaturas (no está creciendo)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Listo para cosechar.</ReadyToHarvest>
@@ -190,6 +180,11 @@
   <Priority>Prioridad</Priority>
   <ClearAll>Limpiar todo</ClearAll>
 
+    <!-- ThingFilter -->
+	<HitPoints>{0} puntos de vida</HitPoints>
+	<AnyQuality>cualquier calidad</AnyQuality>
+	<OnlyQuality>solo {0}</OnlyQuality>
+  
   <!-- Mouseover indicator -->
   <Undiscovered>Por descubrir</Undiscovered>
   
@@ -217,6 +212,7 @@
   <MustPlaceNextToHopperAccepter>Debe situarse junto a algo que necesite una tolva.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Debe situarse directamente encima de un géiser de vapor.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>Ambas partes del refrigerador, frío y caliente, deben estar al descubierto.</MustPlaceCoolerWithFreeSpaces>
+  <MustPlaceVentWithFreeSpaces>Both the sides must be exposed for air to pass through.</MustPlaceVentWithFreeSpaces>
   
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Bloqueado por:</WindTurbine_WindPathIsBlockedBy>
@@ -269,4 +265,13 @@
   <GameOverKeepPlaying>Seguir jugando</GameOverKeepPlaying>
   <GameOverMainMenu>Menú principal</GameOverMainMenu>
   
+  <!-- Generic lifespan -->
+  <LifespanExpiry>Expira en:</LifespanExpiry>
+
+  <!-- JobDriver reports -->
+  <WatchingSunrise>Contemplando el amanecer</WatchingSunrise>
+  <CloudWatching>Mirando a las nubes</CloudWatching>
+  <WatchingSunset>Contemplando el anochecer</WatchingSunset>
+  <Stargazing>Observando las estrellas</Stargazing>
+
 </LanguageData>

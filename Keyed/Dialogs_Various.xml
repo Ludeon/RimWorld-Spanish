@@ -52,8 +52,8 @@
   <InProgress>En progreso</InProgress>
   <ResearchMenuWithoutBench>Hasta que no construyas una MESA DE INVESTIGACIÓN, tu colonos no podrán investigar nada.\n\nSin embargo, seguirás siendo capaz de visualizar y escoger proyectos de investigación.</ResearchMenuWithoutBench>
 
-  <!-- Advanced game start options -->
   
+  <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>Aviso: Aterrizaras en una zona congelada. Puede ser difícil o casi imposible sobrevivir. Si no es tu intención afrontar un desafío extremo escoge otra zona diferente u otro mes.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>Aviso: Puedes sufrir pérdidas de rendimiento con mapas grandes a menos que tu ordenador sea poderoso.\n\nSi tu ordenador es poco potente, escoge Pequeño.\n\nEl tamaño Ludeonicro no ha sido probado y con total seguridad no funcionará bien.</MapSizePerformanceWarning>
   <MapSize>Tamaño del mapa</MapSize>
@@ -71,24 +71,25 @@
   <NotSuspended>Sin suspender</NotSuspended>
   <SuspendedAllCaps>SUSPENDIDO</SuspendedAllCaps>
   <RepeatCount>Repetir: {0}</RepeatCount>
-  <Forever>Constante</Forever>
+  <Forever>Continuo</Forever>
+  <Details>Detalles</Details>
   <IngredientSearchRadius>Radio de búsqueda de ingredientes</IngredientSearchRadius>
   <CurrentlyHave>Actualmente tiene</CurrentlyHave>
   <CountingProducts>Contando</CountingProducts>
   <Infinite>Infinito</Infinite>
+  <MinimumSkillLevel>Nivel de habilidad mínimo: {0}</MinimumSkillLevel>
 
   <RecipeCannotHaveTargetCount>(Esta receta no puede tener un número determinado de productos por tiene múltiples o impredecibles productos.)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>Ingredientes permitidos</PermittedIngredients>
   <WorkAmount>Cantidad de trabajo</WorkAmount>
   <MinimumSkills>Habilidades mínimas:</MinimumSkills>
   <BillRequires>Requiere {0} {1}</BillRequires>
   <BillRequiresMayVary>(La cantidad de materia prima puede variar en caso de ser un objeto con volumen no estandar, como el oro.)</BillRequiresMayVary>
   <ThisIsSmallVolume>Este es un ingrediente de volumen reducido. Esto significa que cada 'unidad' cuenta como 1/20 que un ingrendiente de volumen normal. Así que para completar los requisitos de ingredientes necesitaras un cantidad 20 veces superior a la habitual.</ThisIsSmallVolume>
-  <UsableIngredients>ingredientes utilizables</UsableIngredients>
+  <UsableIngredients>ingredientes</UsableIngredients>
   <DoXTimes>Hacer X veces</DoXTimes>
   <DoUntilYouHaveX>Hacer hasta que haya X</DoUntilYouHaveX>
   <DoForever>Repetir constantemente</DoForever>
-  <BillRepeatTargetCountShort>Hacia {0}</BillRepeatTargetCountShort>
+  <BillRepeatTargetCountShort>Hasta {0}</BillRepeatTargetCountShort>
   <BillStoreMode_DropOnFloor>Dejar en el suelo</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>Llevar a la mejor reserva</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>Llevar a la reserva más cercana</BillStoreMode_NearestStockpileAnyPriority>
@@ -112,14 +113,14 @@
   <Attributes>Atributos</Attributes>
   <LifeSpan>Esperanza de vida</LifeSpan>
   <Nutrition>Nutrición</Nutrition>
+  <Joy>Diversión</Joy>
   <FoodQuality>Calidad de la comida</FoodQuality>
   <WalkSpeedProperty>Velocidad de paseo</WalkSpeedProperty>
-  <MeleeDamage>Daño cuerpo a cuerpo</MeleeDamage>
   <MeatAmount>Cantidad de carne</MeatAmount>
   <MinFoodQuality>Calidad mínima de la comida</MinFoodQuality>
   <Diet>Dieta</Diet>
   <RecruitDifficulty>Dificultad de reclutamiento</RecruitDifficulty>
-  <baseMarketValue>Precio base</baseMarketValue>
+  <MarketValue>Precio base</MarketValue>
   <Covers>Cobertura</Covers>
   <BodyPartEfficiency>Eficiencia de la parte corporal</BodyPartEfficiency>
   
@@ -138,6 +139,8 @@
   <TraderHasNoMore>Al comerciante no le quedan existencias.</TraderHasNoMore>
   <ColonyHasNoMore>A la colonia no le quedan existencias.</ColonyHasNoMore>
   <TraderWillNotTrade>El comerciante no desea comerciar con este objeto.</TraderWillNotTrade>
+  <NegotiatorTalkingImpaired>Tu negociador {0} no puede hablar correctamente debido a problemas de salud.\n\nEsto afectara a los precios de comercio.\n\nConsidera utilizar a un negociador en buen estado de salud.</NegotiatorTalkingImpaired>
+  <ConfirmTraderShortFunds>El comerciante no dispone de suficiente plata para cubrir el coste total de esta transacción. ¿Quieres continuar de todas formas?</ConfirmTraderShortFunds>
 
    <!-- Comms -->
   <SocialSkillIs>Habilidad social: {0}</SocialSkillIs>
@@ -154,4 +157,12 @@
   <HistoryUploadYesOnce>Cargar sólo ésta vez</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>No cargar ésta vez, pregúntame más adelante</HistoryUploadNoOnce>
 	
+  <!-- Outfit management -->
+  <Outfit>Equipo</Outfit>
+  <SelectOutfit>Seleccionar equipo...</SelectOutfit>
+  <NewOutfit>Nuevo equipo</NewOutfit>
+  <DeleteOutfit>Eliminar equipo...</DeleteOutfit>
+  <OutfitInUse>El equipo esta usado por {0}.</OutfitInUse>
+  <NoOutfitSelected>Sin equipo seleccionado</NoOutfitSelected>
+
 </LanguageData>
