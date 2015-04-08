@@ -4,6 +4,13 @@
     <CookMealSimple.label>Cocinar comida sencilla</CookMealSimple.label>
     <CookMealSimple.description>Cocina una comida sencilla usando un solo ingrediente.</CookMealSimple.description>
     <CookMealSimple.jobString>Cocinando comida sencilla.</CookMealSimple.jobString>
+
+<!-- Separate def for campfire cooking so different work params and ingredients can be specified -->
+  <!-- Large workAmount included to incentivize building a stove -->
+  <!-- Perhaps campfire cooking should also be more wasteful of ingredients? -->
+  	<CookMealSimpleCampfire.label>Cocinar comida sencilla</CookMealSimpleCampfire.label>
+	<CookMealSimpleCampfire.description>Cocina una comida sencilla usando un solo ingrediente.</CookMealSimpleCampfire.description>
+	<CookMealSimpleCampfire.jobString>Cocinando comida sencilla.</CookMealSimpleCampfire.jobString>
 	
     <CookMealFine.label>Cocinar buena comida</CookMealFine.label>
     <CookMealFine.description>Cocina una comida más o menos compleja combinando ingredientes cárnicos y vegetales.</CookMealFine.description>

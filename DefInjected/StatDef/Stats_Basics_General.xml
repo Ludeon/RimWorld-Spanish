@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     
-    <MaxHealth.label>Salud máxima</MaxHealth.label>
-    <MaxHealth.description>La salud o puntos de vida máximos de un objeto.</MaxHealth.description>
+    <MaxHitPoints.label>Salud máxima</MaxHitPoints.label>
+    <MaxHitPoints.description>La salud o puntos de vida máximos de un objeto.</MaxHitPoints.description>
     
+	<MarketValue.label>Valor de mercado</MarketValue.label>
+	<MarketValue.description>El valor de mercado de un objeto. El precio real de mercado será modificado por la habilidad de negociación y el estado de las relaciones.</MarketValue.description>
+
+	<SellPriceFactor.label>Multiplicador de precio de venta</SellPriceFactor.label>
+	<SellPriceFactor.description>Un multiplicador del precio al que puedes vender un objeto.</SellPriceFactor.description>
+	
     <Flammability.label>Inflamabilidad</Flammability.label>
     <Flammability.description>La facilidad con la que un objeto empieza a arder y con cuanta fuerza arde.</Flammability.description>
     
@@ -15,6 +21,9 @@
 	
 	<Beauty.label>Belleza</Beauty.label>
     <Beauty.description>La cantidad de disfrute que proporciona un objeto a las personas que lo observan o que se encuentran cerca de él.</Beauty.description>
-    
+		
+	<Comfort.label>Confort</Comfort.label>
+	<Comfort.description>La cantidad de confort que proporciona un objeto al tumbarse o sentarse en él.</Comfort.description>
+
     
 </LanguageData>
