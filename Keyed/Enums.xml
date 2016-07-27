@@ -5,7 +5,6 @@
   <Dark>Oscuro</Dark>
   <Lit>Iluminado</Lit>
   <LitBrightly>Muy iluminado</LitBrightly>
-  
   <!-- diet type -->
   <NeverEats>No se alimenta</NeverEats>
   <Omnivorous>Omnívoro</Omnivorous>
@@ -25,6 +24,27 @@
   <PriceTypeExpensive>caro</PriceTypeExpensive>
   <PriceTypeExorbitant>exorbitante</PriceTypeExorbitant>
 
+  <!-- Storage priority labels -->
+  <StoragePriorityUnstored>sin almacenar</StoragePriorityUnstored>
+  <StoragePriorityLow>escaso</StoragePriorityLow>
+  <StoragePriorityNormal>normal</StoragePriorityNormal>
+  <StoragePriorityPreferred>preferido</StoragePriorityPreferred>
+  <StoragePriorityImportant>importante</StoragePriorityImportant>
+  <StoragePriorityCritical>critico</StoragePriorityCritical>
+
+  <!-- Food type flags -->
+  <FoodTypeFlags_VegetableOrFruit>vegetales</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_Meat>carne cruda</FoodTypeFlags_Meat>
+  <FoodTypeFlags_Corpse>cadáveres</FoodTypeFlags_Corpse>
+  <FoodTypeFlags_Seeds>semillas</FoodTypeFlags_Seeds>
+  <FoodTypeFlags_AnimalProduct>productos de origen animal</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_Plant>plantas vivas</FoodTypeFlags_Plant>
+  <FoodTypeFlags_Tree>árboles vivos</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Meal>comidas</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Processed>alimentos procesados</FoodTypeFlags_Processed>
+  <FoodTypeFlags_Liquor>licor</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Kibble>croquetas</FoodTypeFlags_Kibble>
+
   <!-- Quality category -->
   <QualityCategory_Awful>horrible</QualityCategory_Awful>
   <QualityCategory_Shoddy>mala</QualityCategory_Shoddy>
@@ -35,8 +55,7 @@
   <QualityCategory_Excellent>excelente</QualityCategory_Excellent>
   <QualityCategory_Masterwork>obra maestra</QualityCategory_Masterwork>
   <QualityCategory_Legendary>legendaria</QualityCategory_Legendary>
-
-<QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
   <QualityCategoryShort_Shoddy>mala</QualityCategoryShort_Shoddy>
   <QualityCategoryShort_Poor>medi</QualityCategoryShort_Poor>
   <QualityCategoryShort_Normal>norm</QualityCategoryShort_Normal>
@@ -45,7 +64,6 @@
   <QualityCategoryShort_Excellent>exc</QualityCategoryShort_Excellent>
   <QualityCategoryShort_Masterwork>mast</QualityCategoryShort_Masterwork>
   <QualityCategoryShort_Legendary>legd</QualityCategoryShort_Legendary>
-  
   
   <!-- Hunger -->
   <HungerLevel_Starving>Inanición</HungerLevel_Starving>
@@ -58,18 +76,82 @@
   <HungerLevel_VeryTired>Muy cansado</HungerLevel_VeryTired>
   <HungerLevel_Tired>Cansado</HungerLevel_Tired>
   <HungerLevel_Rested>Descansado</HungerLevel_Rested>
-  
-    <!-- Hilliness -->
+
+  <!-- Hilliness -->
   <Hilliness_Flat>Plano</Hilliness_Flat>
   <Hilliness_SmallHills>Colinas pequeñas</Hilliness_SmallHills>
   <Hilliness_LargeHills>Colinas grandes</Hilliness_LargeHills>
   <Hilliness_Mountainous>Montañoso</Hilliness_Mountainous>
-  
   <!-- Time assigments -->
   <TimeAssignment_Anything>Cualquiera</TimeAssignment_Anything>
   <TimeAssignment_Work>Trabajo</TimeAssignment_Work>
   <TimeAssignment_Joy>Diversión</TimeAssignment_Joy>
-  <TimeAssignment_Sleep>Sueño</TimeAssignment_Sleep>
+  <TimeAssignment_Sleep>Sueño</TimeAssignment_Sleep>   
+  
+  <!-- Steam workshop interaction -->
+  <WorkshopInteractStage_CreatingItem>Creación</WorkshopInteractStage_CreatingItem>
+  <WorkshopInteractStage_SubmittingItem>Submisión</WorkshopInteractStage_SubmittingItem>
+  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Inválido</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Preparación de los datos de configuración</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Preparación de los archivos de contenido</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Subiendo contenidos</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Subiendo archivo previsualizado</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Confirmando los cambios</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
+  <!-- Mod sources -->
+  <ContentSource_LocalFolder>carpeta local</ContentSource_LocalFolder>
+  <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
+  
+  <!-- Trainable intelligence -->
+  <TrainableIntelligence_None>ninguno</TrainableIntelligence_None>
+  <TrainableIntelligence_Simple>sencillo</TrainableIntelligence_Simple>
+  <TrainableIntelligence_Intermediate>intermedio</TrainableIntelligence_Intermediate>
+  <TrainableIntelligence_Advanced>avanzado</TrainableIntelligence_Advanced>
 
+  <!-- Medical care category -->
+  <MedicalCareCategory_NoCare>Sin atención médica</MedicalCareCategory_NoCare>
+  <MedicalCareCategory_NoMeds>Cuidado médico, pero ninguna medicina</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_HerbalOrWorse>Medicina herbaria o peor</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>Medicina normal o peor</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_Best>Atención médica de mejor calidad</MedicalCareCategory_Best>
+
+  <!-- Hostility response mode -->
+  <HostilityResponseMode_Ignore>Ignorar</HostilityResponseMode_Ignore>
+  <HostilityResponseMode_Attack>Atacar</HostilityResponseMode_Attack>
+  <HostilityResponseMode_Flee>Huir</HostilityResponseMode_Flee>
+  
+  <!-- HediffGrowthMode -->
+  <HediffGrowthMode_Growing>creciente</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Stable>estable</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Remission>remision</HediffGrowthMode_Remission>
+
+  <!-- TechLevel -->
+  <TechLevel_Animal>animal</TechLevel_Animal>
+  <TechLevel_Neolithic>neolítico</TechLevel_Neolithic>
+  <TechLevel_Medieval>medieval</TechLevel_Medieval>
+  <TechLevel_Industrial>industrial</TechLevel_Industrial>
+  <TechLevel_Spacer>espacial</TechLevel_Spacer>
+  <TechLevel_Ultra>ultra</TechLevel_Ultra>
+  <TechLevel_Transcendent>trascendente</TechLevel_Transcendent>
+
+  <!-- Player pawns arrive method -->
+  <PlayerPawnsArriveMethod_Standing>En pie</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_DropPods>Capsulas de lanzamiento</PlayerPawnsArriveMethod_DropPods>
+
+  <!-- Pawn generation context -->
+  <PawnGenerationContext_All>Todos los personajes</PawnGenerationContext_All>
+  <PawnGenerationContext_PlayerStarter>Iniciar caracteres jugables</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_NonPlayer>caracteres no jugables</PawnGenerationContext_NonPlayer>
+  
+  <!-- Animal name display mode -->
+  <ShowAnimalNames>Ver nombre animal</ShowAnimalNames>
+  <AnimalNameDisplayMode_TameNamed>Domados (solo el nombre)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameAll>Domados (todo)</AnimalNameDisplayMode_TameAll>
+  
+  <!-- Temperature -->
+  <Celsius>Celsius</Celsius>
+  <Fahrenheit>Fahrenheit</Fahrenheit>
+  <Kelvin>Kelvin</Kelvin>
+  
+  
 </LanguageData>
