@@ -1,80 +1,106 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
   <DesignatorCancel>Cancelar</DesignatorCancel>
-  <DesignatorCancelDesc>Cancela las designaciones para construir, minar, trasladar, cosechar, etc.</DesignatorCancelDesc>
+  <DesignatorCancelDesc>Cancela las designaciones para construir, minería, transporte, recolección, y todas las otras denominaciones.</DesignatorCancelDesc>
 
   <DesignatorCutPlants>Cortar plantas</DesignatorCutPlants>
   <DesignatorCutPlantsDesc>Designa aquellas plantas que deseas destruir. La planta desaparecerá por completo y cualquier alimento que pueda contener será cosechado.</DesignatorCutPlantsDesc>
-  
+
   <DesignatorDeconstruct>Demoler</DesignatorDeconstruct>
   <DesignatorDeconstructDesc>Derriba aquellas construcciones que no desees y recupera parte de sus recursos.</DesignatorDeconstructDesc>
-   
+
   <DesignatorUninstall>Desinstalar</DesignatorUninstall>
   <DesignatorUninstallDesc>Desinstala esto para poder moverlo, venderlo o instalarlo en otro lugar.</DesignatorUninstallDesc>
-   
-  <DesignatorHarvest>Cosechar</DesignatorHarvest>
-  <DesignatorHarvestDesc>Designa aquellas plantas que serán cosechadas para obtener alimento. Dicho alimento será cosechado tan pronto como sea posible, pero la planta en sí permanecerá indemne.</DesignatorHarvestDesc>
-  
+
+  <DesignatorHarvest>Cultivar</DesignatorHarvest>
+  <DesignatorHarvestDesc>Designa aquellas plantas que serán cultivadas para obtener alimento ó otros productos.</DesignatorHarvestDesc>
+
   <DesignatorHarvestWood>Talar</DesignatorHarvestWood>
   <DesignatorHarvestWoodDesc>Designa aquellos árboles que serán derribados para obtener madera.</DesignatorHarvestWoodDesc>
-  
+
   <DesignatorHaulThings>Trasladar cosas</DesignatorHaulThings>
-  <DesignatorHaulThingsDesc>Designa desperdicios y otros objetos para ser trasladados al vertedero. No se utiliza para cosas como comida o cádaveres, los cuales se recogen siempre.</DesignatorHaulThingsDesc>
+  <DesignatorHaulThingsDesc>Designa trozos de roca u otros objetos para ser trasladados al vertedero. No se utiliza para cosas como comida o cádaveres, los cuales se recogen siempre.</DesignatorHaulThingsDesc>
   <MustHaulHaulables>Sólo puedes designar cosas trasladables y no automáticas (como los desperdicios).</MustHaulHaulables>
 
   <DesignatorHunt>Cazar</DesignatorHunt>
   <DesignatorHuntDesc>Designa aquellos animales que serán abatidos por tus cazadores.</DesignatorHuntDesc>
 
   <DesignatorMine>Minar</DesignatorMine>
-  <DesignatorMineDesc>Designa aquellas zonas que se vaciarán de roca.</DesignatorMineDesc>
-  
+  <DesignatorMineDesc>Designa aquellas zonas que seran vaciarán de roca.</DesignatorMineDesc>
+
   <DesignatorSmoothFloor>Alisar suelo</DesignatorSmoothFloor>
   <DesignatorSmoothFloorDesc>Designa suelos de piedra dura para alisarlos.</DesignatorSmoothFloorDesc>
-  
+
   <DesignatorPlan>Planificar</DesignatorPlan>
-  <DesignatorPlanDesc>Diseña planos. Esto no hace nada aparte de ayudarte a planear futuras expansiones.</DesignatorPlanDesc>
-  
+  <DesignatorPlanDesc>Situa un diseño de plano. Esto no hace nada aparte de ayudarte a planear futuras expansiones.</DesignatorPlanDesc>
+
   <DesignatorPlanRemove>Borrar planos</DesignatorPlanRemove>
-  <DesignatorPlanRemoveDesc>Borra los planos previamente establecidos.</DesignatorPlanRemoveDesc>
-  
-  <DesignatorHomeRegionAdd>Añadir zonas residenciales</DesignatorHomeRegionAdd>
-  <DesignatorHomeRegionAddDesc>Estas zonas serán periódicamente limpiadas por los colonos y se combatirán aquellos incendios que pudieran producirse.</DesignatorHomeRegionAddDesc>
+  <DesignatorPlanRemoveDesc>Se borraran los planos previamente establecidos.</DesignatorPlanRemoveDesc>
 
-  <DesignatorHomeRegionRemove>Eliminar zona residencial</DesignatorHomeRegionRemove>
-  <DesignatorHomeRegionRemoveDesc>Elimina aquellas zonas residenciales que no desees. Los colonos dejarán de limpiar o apagar fuegos en la zona.</DesignatorHomeRegionRemoveDesc>
+  <DesignatorAreaHomeExpand>Crear zona residencial</DesignatorAreaHomeExpand>
+  <DesignatorAreaHomeExpandDesc>Estas zonas serán periódicamente limpiadas por los colonos y se combatirán aquellos incendios que pudieran producirse.</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeClear>Quitar zona residencial</DesignatorAreaHomeClear>
+  <DesignatorAreaHomeClearDesc>Se eliminará aquellas zonas residenciales que no desees. Los colonos dejarán de limpiar o apagar fuegos en la zona.</DesignatorAreaHomeClearDesc>
 
-  <DesignatorRegionNoRoofAdd>Crear área descubierta</DesignatorRegionNoRoofAdd>
-  <DesignatorRegionNoRoofAddDesc>Crea áreas donde no se generarán tejados. Además, los colonos derribarán los tejados allí existentes.</DesignatorRegionNoRoofAddDesc>
-  
-  <DesignatorRegionNoRoofRemove>Eliminar área descubierta</DesignatorRegionNoRoofRemove>
-  <DesignatorRegionNoRoofRemoveDesc>Elimina aquellas áreas descubiertas que no desees. Se volverán a generar tejados en la zona y los existentes no serán demolidos.</DesignatorRegionNoRoofRemoveDesc>
+  <DesignatorAreaBuildRoofExpand>Crear techo edificio</DesignatorAreaBuildRoofExpand>
+  <DesignatorAreaBuildRoofExpandDesc>Los colonos construirán techos en esta área.</DesignatorAreaBuildRoofExpandDesc>
+  <DesignatorAreaBuildRoofClear>Quitar techo edificio</DesignatorAreaBuildRoofClear>
+  <DesignatorAreaBuildRoofClearDesc>Se eliminará el techo del área donde los colonos van a construir. Los techos existentes permanecerán, pero los colonos no van a construir más.</DesignatorAreaBuildRoofClearDesc>
 
-  <DesignatorRegionSnowClearAdd>Añadir zona sin nieve</DesignatorRegionSnowClearAdd>
-  <DesignatorRegionSnowClearAddDesc>Crea una región que los colonos intentaran mantener sin nieve.</DesignatorRegionSnowClearAddDesc>
-  
-  <DesignatorRegionSnowClearRemove>Eliminar zona sin nieve</DesignatorRegionSnowClearRemove>
-  <DesignatorRegionSnowClearRemoveDesc>Elimina la zona sin nieve. Los colonos ya no intentaran mantener esta zona sin nieve.</DesignatorRegionSnowClearRemoveDesc>
-  
-  <DesignatorGrowingZoneDesc>Crea una zona donde los colonos cultivarán el tipo de planta escogido.</DesignatorGrowingZoneDesc>
-  
-  <DesignatorZoneCreateStorageResourcesDesc>Crea una reserva donde tus colonos almacenarán recursos.\nEsta herramienta puede además ampliar cualquier reserva existente.</DesignatorZoneCreateStorageResourcesDesc>
-  
-  <DesignatorZoneCreateStorageDumpingDesc>Crea un vertedero donde tus colonos tirarán la basura.\nEsta herramienta puede además ampliar cualquier vertedero existente.</DesignatorZoneCreateStorageDumpingDesc>
-  
+  <DesignatorAreaNoRoofExpand>Quitar zona con techo</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpandDesc>Los colonos quitarán los techos en esta área (excepto montaña arriba, que no puede ser eliminado).</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofClear>Quitar zona sin techo</DesignatorAreaNoRoofClear>
+  <DesignatorAreaNoRoofClearDesc>Se eliminará la zona sin techo, por lo que los colonos ya no eliminaran techos.</DesignatorAreaNoRoofClearDesc>
+
+  <DesignatorAreaSnowClearExpand>Crear zona sin nieve</DesignatorAreaSnowClearExpand>
+  <DesignatorAreaSnowClearExpandDesc>Crea una zona en la que los colonos intentaran mantener sin nieve.</DesignatorAreaSnowClearExpandDesc>
+  <DesignatorAreaSnowClearClear>Quitar zona sin nieve</DesignatorAreaSnowClearClear>
+  <DesignatorAreaSnowClearClearDesc>Se eliminará la zona sin nieve. Los colonos ya no intentaran mantener esta zona sin nieve.</DesignatorAreaSnowClearClearDesc>
+
+  <DesignatorExpandAreaAllowed>Crear zona permitida</DesignatorExpandAreaAllowed>
+  <DesignatorExpandAreaAllowedDesc>Ampliar un área permitida.\n\nLas zonas permitidas son las áreas que se pueden asignar a los colonos. Los colonos no van a aceptar el trabajo o cumpliran con sus necesidades fuera de su área permitida.</DesignatorExpandAreaAllowedDesc>
+  <DesignatorClearAreaAllowed>Quitar zona permitida</DesignatorClearAreaAllowed>
+  <DesignatorClearAreaAllowedDesc>Se despejará la zona de un área permitida.\n\nLas zonas permitidas son áreas que se pueden asignar a los colonos. Los colonos no van a aceptar el trabajo o cumpliran con sus necesidades fuera de su área permitida.</DesignatorClearAreaAllowedDesc>
+  <ManageAreas>Gestionar las áreas...</ManageAreas>
+
+  <DesignatorGrowingZoneDesc>Creará una zona donde tus colonos intentarán hacer crecer un cierto tipo de planta.</DesignatorGrowingZoneDesc>
+
+  <DesignatorZoneCreateStorageResourcesDesc>Creará una reserva donde sus colonos van a almacenar recursos.\nEsta herramienta puedes además ampliar cualquier reserva existente.</DesignatorZoneCreateStorageResourcesDesc>
+
+  <DesignatorZoneCreateStorageDumpingDesc>Creará un vertedero donde tus colonos tirarán la basura.\nEsta herramienta puede además ampliar cualquier vertedero existente.</DesignatorZoneCreateStorageDumpingDesc>
+
   <DesignatorZoneDelete>Eliminar zonas</DesignatorZoneDelete>
-  <DesignatorZoneDeleteDesc>Elimina zonas, como reservas o cultivos.</DesignatorZoneDeleteDesc>
+  <DesignatorZoneDeleteDesc>Se eliminará las zonas, como reservas o cultivos.</DesignatorZoneDeleteDesc>
   
   <DesignatorClaim>Reclamar</DesignatorClaim>
   <DesignatorClaimDesc>Apoderarse de estructuras neutrales para la colonia, incluyendo ruinas antiguas y bases de asedio abandonadas. Las estructuras reclamadas pueden ser reparadas y mantenidas por tus colonos.</DesignatorClaimDesc>
+
+  <DesignatorRemoveFloor>Eliminar suelo</DesignatorRemoveFloor>
+  <DesignatorRemoveFloorDesc>Se eliminará el suelo para revelar el terreno debajo.</DesignatorRemoveFloorDesc>
+
+  <DesignatorStrip>Desvestir</DesignatorStrip>
+  <DesignatorStripDesc>Se despojará la ropa de los cadáveres y los heridos.</DesignatorStripDesc>
+
+  <DesignatorRearmTrap>Rearmar trampa</DesignatorRearmTrap>
+  <DesignatorRearmTrapDesc>Se rearmará una trampa suspendida para que pueda estar activada de nuevo.</DesignatorRearmTrapDesc>
+
+  <DesignatorOpen>Abrir</DesignatorOpen>
+  <DesignatorOpenDesc>Se abriran contenedores ó tumbas ocupadas.</DesignatorOpenDesc>
   
-  
+  <DesignatorSlaughter>Sacrificar</DesignatorSlaughter>
+  <DesignatorSlaughterDesc>Se sacrificará al animal domestico.</DesignatorSlaughterDesc>
+
+  <DesignatorTame>Domar</DesignatorTame>
+  <DesignatorTameDesc>Se domará a un animal salvaje.</DesignatorTameDesc>
+
+
   <!-- Failure messages -->
   <UnchosenStuff>No se ha escogido material</UnchosenStuff>
   <TooCloseToMapEdge>Demasiado cerca del borde del mapa.</TooCloseToMapEdge>
-  <OutOfBounds>Fuera de los límites</OutOfBounds>
-  <CannotPlaceInUndiscovered>No se puede construir en áreas incógnitas.</CannotPlaceInUndiscovered>
-  <InteractionSpotBlocked>El punto de interacción está bloqueado.</InteractionSpotBlocked>
+  <OutOfBounds>Fuera de los límites.</OutOfBounds>
+  <CannotPlaceInUndiscovered>No se puede construir en áreas sin descubrir.</CannotPlaceInUndiscovered>
+  <InteractionSpotBlocked>El punto de interacción está bloqueado por {0}.</InteractionSpotBlocked>
   <InteractionSpotOutOfBounds>El punto de interacción esta fuera de los límites.</InteractionSpotOutOfBounds>
   <InteractionSpotWillBeBlocked>El punto de interacción estará bloqueado por {0}.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} bloquearía el punto de interacción de {1}.</WouldBlockInteractionSpot>
@@ -84,15 +110,15 @@
   <IdenticalBlueprintExists>Existe un anteproyecto idéntico aquí.</IdenticalBlueprintExists>
   <TerrainCannotSupport>El terreno en este lugar no puede sostener esto.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Espacio ya ocupado.</SpaceAlreadyOccupied>
+  <TerrainMustBeRemovable>Debes dirignar un suelo desmontable.</TerrainMustBeRemovable>
   
   
-  
-  <!-- placement of zones -->
-  <ExpandOrCreateZone>Expandir {0} o\nCrear nuevo {1}</ExpandOrCreateZone>
+  <!-- Mouse attachments -->
+  <ExpandOrCreateZone>Expandir {0} ó\nCrear nuevo {1}</ExpandOrCreateZone>
   <CreateNewZone>Crear nueva {0}</CreateNewZone>
   
   
-  <!-- desc helpers -->
+  <!-- Desc helpers -->
   <TransmitsPower>Transmite energía</TransmitsPower>
 
 

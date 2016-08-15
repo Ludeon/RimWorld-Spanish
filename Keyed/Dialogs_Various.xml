@@ -1,168 +1,221 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-
   <Confirm>Confirmar</Confirm>
-  <GoBack>Atrás</GoBack>
-  <OK>OK</OK>
+  <GoBack>Regresar</GoBack>
+  <OK>Vale</OK>
+  
+  <!-- Recovered from errors caused by mods -->
+  <RecoveredFromErrorsDialogTitle>El juego se ha recuperado de un error de incompatibilidad o corrupción del mod</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>Parece que alguno de los mods activos estuvo causando errores.\n\nEran incompatibles entre ellos, fueron designados para otra versión de RimWorld o estaban corruptos.\n\nTodos los mods fueron desactivados pero pueden ser reactivados de nuevo en el menú de mods.</RecoveredFromErrorsText>
+  
+  <!-- Errors during loading -->
+  <ErrorWhileLoadingAssetsTitle>Error cargando activos</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>Un error ha ocurrido mientras se cargaban los archivos. Revisa el registro para más información.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>El juego está corriendo mods - esto podría, o no, haber causado estos problemas.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>Error generando el mapa</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>Un error ha ocurrido mientras se generaba el mapa. Revisa el registro para más información.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>Error cargando el mapa</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>Un error ha ocurrido mientras se cargaba el mapa. Revisa el registro para más información.</ErrorWhileLoadingMap>
+  
+  <!-- Missing Steam -->
+  <SteamClientMissing>No se pudo inicializar la API de Steam. Posibles causas:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nThis Steam version of the game requires Steam and will now quit.</SteamClientMissing>
+  
+  <!-- Long events -->
+  <InitializingInterface>Inicializando interface</InitializingInterface>
+  <UnloadingUnusedAssets>Descargando activos sin usar</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Cargando todos los mods activos</LoadingAllActiveMods>
+  <LoadingDefs>Cargando defs</LoadingDefs>
+  <LoadingAssets>Cargando activos</LoadingAssets>
+  <Initializing>Inicializando</Initializing>
+  <LoadingWorld>Cargando planeta</LoadingWorld>
+  <LoadingMap>Cargando mapa</LoadingMap>
+  <InitializingMap>Inicializando mapa</InitializingMap>
+  <SpawningAllThings>Creando todas las cosas</SpawningAllThings>
   
   <!-- Save/load -->
   <SaveGameButton>Guardar</SaveGameButton>
-  <OverwriteButton>Sobrescribir</OverwriteButton>
   <LoadGameButton>Cargar</LoadGameButton>
-  <ConfirmDelete>¿Deseas realmente borrar {0}?</ConfirmDelete>
+  <OverwriteButton>Sobreescribir</OverwriteButton>
+  <ConfirmDelete>¿Realmente deseas borrar {0}?</ConfirmDelete>
   <DeleteThisSavegame>Borrar esta partida guardada.</DeleteThisSavegame>
   <SavedAs>Guardado como {0}.</SavedAs>
-  <NeedAName>Por favor introduce un nombre.</NeedAName>
-  <LoadingLongEvent>Cargando...</LoadingLongEvent>
-  
+  <NeedAName>Escribe un nombre.</NeedAName>
+  <LoadingLongEvent>Cargando</LoadingLongEvent>
+  <SavingLongEvent>Guardando</SavingLongEvent>
+  <PermadeathModeSaveSuffix>(Perma-muerte)</PermadeathModeSaveSuffix>
+  <SaveIsFromDifferentGameVersion>Estamos corriendo la versión {0} del juego, pero esta partida es de la versión {1}, que es muy diferente.\n\nIntentar cargarla podría no funcionar.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>Estamos corriendo la versión {0} del juego, pero esta partida es de la versión {1}, que es un build muy diferente.\n\nIntentar cargarla podría no funcionar.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Esta partida pertenece a la versión actual del juego y debería funcionar sin problemas.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Esta partida está en un formato desconocido y es casi seguro que no va a cargar apropiadamente.</SaveIsUnknownFormat>
+  <ProblemSavingFile>Hubo un problema guardando el archivo {0}:\n\n{1}\n\nVer registro de errores para obtener más información.</ProblemSavingFile>
+  <LoadAnyway>Cargar de todos modos</LoadAnyway>
   
   <!-- Colony naming-->
-  <NameColonyMessage>Todo el mundo sabe que no queréis permanencer en esta roca por mucho tiempo, aun así {0} sugiere que bautizéis a la colonia.\n\n¿Como debería llamarse?</NameColonyMessage>
-  <ColonyGainsName>A partir de ahora se conocerá a la colonia como {0}.</ColonyGainsName>
-  <ColonyNameIsInvalid>Ese nombre no es válido.</ColonyNameIsInvalid>
+  <NameColonyMessage>Parece que vas a estar aquí por un buen tiempo. {0} sugiere que sería más fácil si la colonia tuviera un nombre.\n\n¿Cómo debería llamarse?</NameColonyMessage>
+  <ColonyGainsName>Esta colonia ahora se conoce como {0}.</ColonyGainsName>
+  <ColonyNameIsInvalid>Ése no es un nombre válido para una colonia.</ColonyNameIsInvalid>
 
-  <!-- Zone naming -->
-  <ZoneGainsName>A partir de ahora se conocerá esta zona como {0}.</ZoneGainsName>
-  <ZoneNameIsInvalid>Por favor introduce un nombre válido.</ZoneNameIsInvalid>
+  <!-- Renaming -->
+  <NameIsInvalid>Escribe un nombre válido.</NameIsInvalid>
+  <NameIsInUse>Ése nombre ya está usado.</NameIsInUse>
+  <ZoneGainsName>Esta área ahora se llama  {0}.</ZoneGainsName>
   
-   <!-- Pawn naming -->
-  <PawnGainsName>El alias del colono es ahora {0}.</PawnGainsName>
+  <!-- Pawn naming -->
+  <PawnGainsName>El nuevo apodo de este colono es {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
-  <VersionMismatch>Version no coincidente</VersionMismatch>
-  <SaveGameIncompatibleWarningText>Atención: Este mapa fue guardada en la versión {0}, mientras que la versión en funcionamiento es {1}.\n\n Cargar esta partida posiblemente cause errores y caídas al escritorio.</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>Atención: Este mundo fue generado con la versión {0}, y la versión actual es {1}.\n\nCargar este mundo posiblemente generará errores y caídas al escritorio. Recomendamos que crees un mundo nuevo.</WorldFileVersionMismatch>
-  
-  
-  <!-- Resolution change dialog -->
-  <ConfirmResolutionChange>Has cambiado la resolución de pantalla. ¿Funciona la nueva?\n\nAuto-reverting in {0}...</ConfirmResolutionChange>
-  <ResolutionKeep>Mantener</ResolutionKeep>
-  <ResolutionRevert>Revertir</ResolutionRevert>
+  <VersionMismatch>Versión incorrecta</VersionMismatch>
+  <SaveGameIncompatibleWarningText>Este mapa fue guardado con la versión {0} del juego\nLa versión actual es la {1}\n\nCargar esta partida podría causar errores y colapsos.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Este mundo fue generado con la versión {0}, y la versión actual es {1}.\n\nCargar este mundo posiblemente generará errores y caídas al escritorio. Recomendamos que crees un mundo nuevo.</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>Este archivo de planeta fue generado con la versión {0} del juego\nLa versión actual es la {1}\n\nCargar esta partida podría causar errores y colapsos. Probablemente debieras generar un nuevo planeta desde cero.</FileIncompatibleWarning>
+  <ModsMismatchWarningTitle>Mods incorrectos</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Este mapa fue guardado con una selección de mods diferente a la actual. Esto podría o no causar problemas, dependiendo de lo que hagan, o no, estos mods.\n\nEl mapa fue guardado (en este orden) con :\n\n{0}\n\nActualmente corremos:\n\n{1}</ModsMismatchWarningText>
 
-  <!-- Overview -->
-  <OverviewOf>Supervisión de {0}</OverviewOf>
+  <!-- Resolution change dialog -->
+  <ConfirmResolutionChange>Has cambiado la configuración de pantalla. ¿La nueva funciona bien?\n\nRevirtiendo en {0}...</ConfirmResolutionChange>
+  <ResolutionKeep>Conservar</ResolutionKeep>
+  <ResolutionRevert>Revertir</ResolutionRevert>
 
   <!-- Research -->
   <Research>Investigación</Research>
   <Researched>Investigado</Researched>
-  <Unresearched>Por investigar</Unresearched>
-  <Finished>Finalizado</Finished>
+  <Unresearched>Aún sin investigar</Unresearched>
+  <Finished>Aún sin investigar</Finished>
   <InProgress>En progreso</InProgress>
-  <ResearchMenuWithoutBench>Hasta que no construyas una MESA DE INVESTIGACIÓN, tu colonos no podrán investigar nada.\n\nSin embargo, seguirás siendo capaz de visualizar y escoger proyectos de investigación.</ResearchMenuWithoutBench>
-
+  <Locked>Bloqueado</Locked>
+  <ResearchMenuWithoutBench>Hasta que construyas una MESA DE INVESTIGACIONES, tus colonos no podrán investigar nada.\n\nAun así, ya puedes revisar y escoger un proyecto desde ahora.</ResearchMenuWithoutBench>
+  <ResearchPrerequisites>Prerrequisitos</ResearchPrerequisites>
+  <RequiredResearchBench>Necesita mesa de investigaciones</RequiredResearchBench>
+  <RequiredResearchBenchFacilities>Necesita la mejora de mesa de investigación</RequiredResearchBenchFacilities>
   
   <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>Aviso: Aterrizaras en una zona congelada. Puede ser difícil o casi imposible sobrevivir. Si no es tu intención afrontar un desafío extremo escoge otra zona diferente u otro mes.</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>Aviso: Puedes sufrir pérdidas de rendimiento con mapas grandes a menos que tu ordenador sea poderoso.\n\nSi tu ordenador es poco potente, escoge Pequeño.\n\nEl tamaño Ludeonicro no ha sido probado y con total seguridad no funcionará bien.</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>PELIGRO: Vas a aterrizar en un ambiente congelado. Podría ser muy difícil (sino que imposible) sobrevivir. Si no pretendes enfrentarte a un reto extremo, mejor escoge otro lugar o el mismo, pero en otra estación del año.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>PELIGRO: El rendimiento podría verse afectado en mapas muy grandes. El tamaño Ludeonículo no se ha sometido a suficientes pruebas y es casi seguro que no va a correr bien.</MapSizePerformanceWarning>
   <MapSize>Tamaño del mapa</MapSize>
-  <MapSizeDesc>{0}x{0} ({1} casillas)</MapSizeDesc>
+  <MapSizeDesc>{0}x{0} ({1} celdas)</MapSizeDesc>
   <MapSizeSmall>Pequeño</MapSizeSmall>
   <MapSizeMedium>Medio</MapSizeMedium>
   <MapSizeLarge>Grande</MapSizeLarge>
-  <MapSizeExtreme>Ludeonicro</MapSizeExtreme>
-  <MapStartMonth>Mes de inicio:</MapStartMonth>
-  <MapStartMonthDefault>Auto</MapStartMonthDefault>
+  <MapSizeExtreme>Ludeonículo</MapSizeExtreme>
+  <MapStartSeason>Estación inicial:</MapStartSeason>
+  <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
+  <PermadeathMode>Modo perma-muerte</PermadeathMode>
+  <PermadeathModeInfo>En modo perma-muerte, solo tienes una partida guardada y solo puedes guardar al salir. No puedes reiniciar el juego para arreglar tus errores y cuando la colonia muere, ahí acaba todo.\n\nÉsta es la manera en que RimWorld debe ser jugado, con cada decisión impactando el juego - para bien o para mal.</PermadeathModeInfo>
 
-  
   <!-- Bill config -->
   <Suspended>Suspendido</Suspended>
-  <NotSuspended>Sin suspender</NotSuspended>
+  <NotSuspended>Activo</NotSuspended>
   <SuspendedAllCaps>SUSPENDIDO</SuspendedAllCaps>
   <RepeatCount>Repetir: {0}</RepeatCount>
-  <Forever>Continuo</Forever>
+  <Forever>Todo</Forever>
   <Details>Detalles</Details>
-  <IngredientSearchRadius>Radio de búsqueda de ingredientes</IngredientSearchRadius>
-  <CurrentlyHave>Actualmente tiene</CurrentlyHave>
+  <IngredientSearchRadius>Radio de búsqueda</IngredientSearchRadius>
+  <CurrentlyHave>Actualmente tienes</CurrentlyHave>
   <CountingProducts>Contando</CountingProducts>
   <Infinite>Infinito</Infinite>
-  <MinimumSkillLevel>Nivel de habilidad mínimo: {0}</MinimumSkillLevel>
-
-  <RecipeCannotHaveTargetCount>(Esta receta no puede tener un número determinado de productos por tiene múltiples o impredecibles productos.)</RecipeCannotHaveTargetCount>
+  <AllowedSkillRange>Hab. de {0} mínima</AllowedSkillRange>
+  
+  <RecipeCannotHaveTargetCount>(Esta receta no puede tener una cantidad objetivo porque tiene muchos posibles productos o son impredecibles)</RecipeCannotHaveTargetCount>
   <WorkAmount>Cantidad de trabajo</WorkAmount>
-  <MinimumSkills>Habilidades mínimas:</MinimumSkills>
+  <MinimumSkills>Habilidades necesarias:</MinimumSkills>
   <BillRequires>Requiere {0} {1}</BillRequires>
-  <BillRequiresMayVary>(La cantidad de materia prima puede variar en caso de ser un objeto con volumen no estandar, como el oro.)</BillRequiresMayVary>
-  <ThisIsSmallVolume>Este es un ingrediente de volumen reducido. Esto significa que cada 'unidad' cuenta como 1/20 que un ingrendiente de volumen normal. Así que para completar los requisitos de ingredientes necesitaras un cantidad 20 veces superior a la habitual.</ThisIsSmallVolume>
+  <BillRequiresNutrition>Requiere {0} de nutrición</BillRequiresNutrition>
+  <BillRequiresMayVary>Nota: Los ingredientes de bajo volúmen requerirán 20x la cantidad usual.</BillRequiresMayVary>
+  <ThisIsSmallVolume>Este es un ingrediente de bajo volúmen. Significa que cada 'unidad' será tan solo 1/20 parte de lo que sería un ingrediente normal. Por lo tanto, requerirás 20x la cantidad usual.</ThisIsSmallVolume>
   <UsableIngredients>ingredientes</UsableIngredients>
   <DoXTimes>Hacer X veces</DoXTimes>
-  <DoUntilYouHaveX>Hacer hasta que haya X</DoUntilYouHaveX>
-  <DoForever>Repetir constantemente</DoForever>
-  <BillRepeatTargetCountShort>Hasta {0}</BillRepeatTargetCountShort>
-  <BillStoreMode_DropOnFloor>Dejar en el suelo</BillStoreMode_DropOnFloor>
-  <BillStoreMode_BestStockpile>Llevar a la mejor reserva</BillStoreMode_BestStockpile>
-  <BillStoreMode_NearestStockpileAnyPriority>Llevar a la reserva más cercana</BillStoreMode_NearestStockpileAnyPriority>
+  <DoUntilYouHaveX>Hacer hasta X</DoUntilYouHaveX>
+  <DoForever>Hacer siempre</DoForever>
+  <BillRepeatTargetCountShort>A {0}</BillRepeatTargetCountShort>
+  <BillStoreMode_DropOnFloor>Arrojar al suelo</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>Enviar al mejor almacén</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>Enviar al almacén más cercano</BillStoreMode_NearestStockpileAnyPriority>
   
   <!-- Info card -->
   <Damage>Daño</Damage>
   <Accuracy>Precisión</Accuracy>
-  <BurstShotCount>Disparos por ráfaga</BurstShotCount>
+  <BurstShotCount>Tiros por ráfaga</BurstShotCount>
   <WarmupTime>Calentamiento</WarmupTime>
+  <MeleeWarmupTime>Calentamiento para atq. cuerpo a cuerpo</MeleeWarmupTime>
   <CooldownTime>Enfriamiento</CooldownTime>
-  <BurstShotFireRate>Velocidad de disparo</BurstShotFireRate>
-  <Range>Alcance</Range>
-  <GrowsWild>Crece salvaje</GrowsWild>
+  <BurstShotFireRate>Cadencia de tiro</BurstShotFireRate>
+  <Range>Rango</Range>
+  <GrowsWild>Crece en la naturaleza</GrowsWild>
   <Harvestable>Cosechable</Harvestable>
-  <LimitedLifespan>Esperanza de vida limitada</LimitedLifespan>
-  <GrowingTime>Tiempo de crecimiento</GrowingTime>
-  <GrowingTimeDesc>Las plantas solo crecen durante una parte del día y solo cuando están iluminadas. Esta informacion mide el tiempo que la planta necesita estar creciendo hasta llegar a su maximo tamaño. El tiempo real de crecimiento será aproximadamente el doble del indicado. Las temperaturas bajas tambien ralentizan el crecimiento de las plantas.</GrowingTimeDesc>
+  <LimitedLifespan>Estacional</LimitedLifespan>
+  <GrowingTime>Tiempo</GrowingTime>
+  <GrowingTimeDesc>Las plantas solamente crecen durante una parte del día y bajo iluminación. Esta estadística mide el tiempo de crecimiento que la planta necesita para llegar a su tamaño máximo. El tiempo real de crecimiento normalmente sería del doble. Las bajas temperaturas ralentizarán el crecimiento de las plantas.</GrowingTimeDesc>
   <Days>días</Days>
+  <MinGrowingSkillToSow>Habilidad minima requerida para crecimiento de la siembra</MinGrowingSkillToSow>
   <FertilityRequirement>Requisitos de fertilidad</FertilityRequirement>
+  <SoilFertilitySensitivityGrowthRate>Sensibilidad a la fertilidad del suelo (tasa de crecimiento)</SoilFertilitySensitivityGrowthRate>
+  <SoilFertilitySensitivityPlantChance>Sensibilidad a la fertilidad del suelo (tasa de plantar algo)</SoilFertilitySensitivityPlantChance>
   <LightRequirement>Requisitos lumínicos</LightRequirement>
   <Attributes>Atributos</Attributes>
   <LifeSpan>Esperanza de vida</LifeSpan>
-  <Nutrition>Nutrición</Nutrition>
+  <Nutrition>Nutricion</Nutrition>
   <Joy>Diversión</Joy>
   <FoodQuality>Calidad de la comida</FoodQuality>
   <WalkSpeedProperty>Velocidad de paseo</WalkSpeedProperty>
-  <MeatAmount>Cantidad de carne</MeatAmount>
-  <MinFoodQuality>Calidad mínima de la comida</MinFoodQuality>
+  <MinFoodQuality>Calidad mín.comida</MinFoodQuality>
   <Diet>Dieta</Diet>
   <RecruitDifficulty>Dificultad de reclutamiento</RecruitDifficulty>
   <MarketValue>Precio base</MarketValue>
   <Covers>Cobertura</Covers>
+  <MedicineXpGainFactor>Factor de ganar experiencia</MedicineXpGainFactor>
   <BodyPartEfficiency>Eficiencia de la parte corporal</BodyPartEfficiency>
-  
+  <MoodChange>Cambio de humor</MoodChange>
+  <Wildness>Ferocidad</Wildness>
+  <WildnessExplanation>Criaturas más salvajes son naturalmente más difícil de manejarles, domar y entrenar.</WildnessExplanation>
+  <AnimalFilthRate>Tasa de suciedad de los animales</AnimalFilthRate>
+  <AnimalFilthRateExplanation>Animales producen suciedad cuando se mueve alrededor en los suelos construidos. Esta es la cantidad promedio de tanta de suciedad producida por {0} casillas paseando por esta criatura.\n\nLos animales más o menos grandes produciran más suciedad.</AnimalFilthRateExplanation>
+  <TimeRecordsCategory>Tiempo</TimeRecordsCategory>
+  <MiscRecordsCategory>Varios</MiscRecordsCategory>
+
   <!-- Trade -->
-  <DragToTrade>Arrastra para comerciar</DragToTrade>
+  <PositiveBuysNegativeSells>Los números positivos se compra.\nNumeros negativos se vende.</PositiveBuysNegativeSells>
   <BuyPriceDesc>Precio que pagas por comprar este objeto.</BuyPriceDesc>
   <SellPriceDesc>Precio que cobras por vender este objeto.</SellPriceDesc>
   <PriceTypeDesc>El precio por este objeto es {0}.</PriceTypeDesc>
   <ColonyCount>Cuantas existencias de este objeto posee la colonia listas para negociar.\n\nSólo puedes vender objetos que estén en el exterior y cerca de una baliza de comercio orbital.</ColonyCount>
-  <TraderCount>Cuantas existencias de este objeto posee el comerciante para negociar.</TraderCount>
+  <TraderCount>Cuántos objetos de este tipo te puede vender el comerciante.</TraderCount>
   <AcceptButton>Aceptar</AcceptButton>
   <ResetButton>Reiniciar</ResetButton>
   <CancelButton>Cancelar</CancelButton>
   <YourTradeableSilver>Tus existencias de plata: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Sólo puedes comerciar con plata que esté cerca de una baliza de comercio y sin ningún techo encima suyo.</YourTradeableSilverTip>
+	<YourTradeableSilverTip>Sólo puedes comerciar con plata que esté cerca de una baliza de comercio y sin ningún techo encima suyo.</YourTradeableSilverTip>
   <TraderHasNoMore>Al comerciante no le quedan existencias.</TraderHasNoMore>
-  <ColonyHasNoMore>A la colonia no le quedan existencias.</ColonyHasNoMore>
+  <ColonyHasNoMore>No hay mas existencias para vender.</ColonyHasNoMore>
   <TraderWillNotTrade>El comerciante no desea comerciar con este objeto.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Tu negociador {0} no puede hablar correctamente debido a problemas de salud.\n\nEsto afectara a los precios de comercio.\n\nConsidera utilizar a un negociador en buen estado de salud.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>El comerciante no dispone de suficiente plata para cubrir el coste total de esta transacción. ¿Quieres continuar de todas formas?</ConfirmTraderShortFunds>
-
-   <!-- Comms -->
+  <SortBy>Ordenar por</SortBy>
+  
+  <!-- Comms -->
   <SocialSkillIs>Habilidad social: {0}</SocialSkillIs>
-
+  
   <!--Research-->
   <ResearchFinished>Investigación finalizada: {0}</ResearchFinished>
   <ResearchScreen>Pantalla de investigación</ResearchScreen>
-	  
+  
   <!--HistoryUpload-->
   <HistoryUploadMessage>¿Deseas cargar tus datos de juego al servidor de Rimworld con el fin de ayudar a los desarrolladores a equilibrar el juego? Si accedes, tus datos serán cargados cada {0} días (y en ciertas ocasiones como el final de una partida). Más adelante, podrás cambiar tus preferencias de privacidad en el menú de opciones.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Aunque la historia es enviada de forma anónima, puedes añadir tu nombre.</HistoryUploadMessagePlayerName>
-  <HistoryUploadYes>Permitir la carga de datos de juego</HistoryUploadYes>
-  <HistoryUploadNo>No permitir la carga de datos de juego</HistoryUploadNo>
-  <HistoryUploadYesOnce>Cargar sólo ésta vez</HistoryUploadYesOnce>
-  <HistoryUploadNoOnce>No cargar ésta vez, pregúntame más adelante</HistoryUploadNoOnce>
+  <HistoryUploadYes>Permitir la subida de datos del juego</HistoryUploadYes>
+  <HistoryUploadNo>No permitir la subida de datos del juego</HistoryUploadNo>
+  <HistoryUploadYesOnce>Subir sólo ésta vez</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>No subir ésta vez, pregúntame más adelante</HistoryUploadNoOnce>
 	
   <!-- Outfit management -->
-  <Outfit>Equipo</Outfit>
-  <SelectOutfit>Seleccionar equipo...</SelectOutfit>
-  <NewOutfit>Nuevo equipo</NewOutfit>
-  <DeleteOutfit>Eliminar equipo...</DeleteOutfit>
-  <OutfitInUse>El equipo esta usado por {0}.</OutfitInUse>
-  <NoOutfitSelected>Sin equipo seleccionado</NoOutfitSelected>
+  <Outfit>Vestimenta</Outfit>
+  <SelectOutfit>Selec. vestimenta</SelectOutfit>
+  <NewOutfit>Nueva vestimenta</NewOutfit>
+  <DeleteOutfit>Borrar vestimenta...</DeleteOutfit>
+  <OutfitInUse>Vestimenta usada por {0}.</OutfitInUse>
+  <NoOutfitSelected>Vestimenta sin seleccionar</NoOutfitSelected>
+  
+  <!-- Growing -->
+  <NoGrowerCanPlant>{0} requiere {1} habilidad para sembrar ese cultivo.\n\nNinguno de tus agricultores tiene esta habilidad, por lo que no se cultivará esta planta.</NoGrowerCanPlant>
 
 </LanguageData>

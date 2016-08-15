@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!--=========== Main menu ==========-->
   <CreateWorld>Nuevo mundo</CreateWorld>
   <NewColony>Nueva colonia</NewColony>
   <BackToGame>Volver al juego</BackToGame>
+  <ReviewScenario>Revisar escenario</ReviewScenario>
   <Save>Guardar</Save>
-  <Load>Cargar</Load>
+  <LoadGame>Cargar partida</LoadGame>
   <Options>Opciones</Options>
   <Mods>Mods</Mods>
   <Credits>Créditos</Credits>
   <QuitToMainMenu>Volver al menú principal</QuitToMainMenu>
-  <QuitToOS>Salir</QuitToOS>
+  <SaveAndQuitToMainMenu>Guardar y volver al menu</SaveAndQuitToMainMenu>
+  <QuitToOS>Salir del Juego</QuitToOS>
+  <SaveAndQuitToOS>Guardar y salir del juego</SaveAndQuitToOS>
   <FictionPrimer>Trasfondo de Rimworld</FictionPrimer>
   <LudeonBlog>Blog Ludeon</LudeonBlog>
   <Forums>Foros</Forums>
@@ -19,7 +22,8 @@
   <TynansTwitter>Twitter de Tynan</TynansTwitter>
   <TynansDesignBook>Libro de Tynan</TynansDesignBook>
   <HelpTranslate>Ayuda a traducir RimWorld</HelpTranslate>
-  
+  <BuySoundtrack>Compra la Bandasonora</BuySoundtrack>
+
   <!--=========== Create/review world ================-->
   <ReviewWorld>Revisar mundo</ReviewWorld>
   <WorldGenerate>Generar</WorldGenerate>
@@ -29,41 +33,72 @@
   <WorldSeed>Semilla</WorldSeed>
   <RandomizeSeed>Semilla aleatoria</RandomizeSeed>
 
-
   <!--=========== Select world ===================-->
   <SelectWorld>Seleccionar mundo</SelectWorld>
   <WorldChooseButton>Seleccionar</WorldChooseButton>
   <NoWorldsFilesFound>No se encontraron archivos relacionados con ningún mundo. Crea uno primero.</NoWorldsFilesFound>
-
+  
   <!--=========== Version info ==========-->
-	<BuildNowAvailable>La versión {0} está disponible. Visita ludeon.com para más información.</BuildNowAvailable>
-	<BuildUpToDate>Versión actualizada.</BuildUpToDate>
-	<ErrorGettingVersionInfo>Error al cargar información de la versión: {0}</ErrorGettingVersionInfo>
+  <BuildNowAvailable>La versión {0} está disponible. Visita ludeon.com para más información.</BuildNowAvailable>
+	<BuildUpToDate>Esta es la ultima version.</BuildUpToDate>
+	<ErrorGettingVersionInfo>Error al cargar información de la versión: {0}Error al obtener información de la versión: {0}</ErrorGettingVersionInfo>
 	<LoadingVersionInfo>Cargando información de la versión...</LoadingVersionInfo>
 
- <!--=========== World generator =========-->
+  <!--=========== World generator =========-->
   <GenerateWorld>Generar mundo</GenerateWorld>
-	
-  <!--=========== Mods screen ==========-->
-  <GetMods>Conseguir mods</GetMods>
+
+  <!--=========== Mods config ==========-->
+  <OpenSteamWorkshop>Abrir Steam Workshop</OpenSteamWorkshop>
+  <GetModsFromForum>Conseguir mods del foro</GetModsFromForum>
   <OpenModsDataFolder>Abrir carpeta de mods</OpenModsDataFolder>
   <ConfirmDisableCoreMod>¿Seguro que quieres desactivar el mod núcleo? El juego no funcionará a menos que actives otro mod que reemplace todas las funciones del núcleo.\n\nRecuerda que otros mods pueden anular el mod núcleo al usar el mismo defName.</ConfirmDisableCoreMod>
+  <ConfirmDeleteMod>¿Estas seguro de que quieres borrar todo el contenido de {0}?</ConfirmDeleteMod>
+  <Unsubscribe>Anular inscripción</Unsubscribe>
+  <ConfirmUnsubscribe>Are you sure you want to unsubscribe from {0}?</ConfirmUnsubscribe>
   <Author>Autor</Author>
-
+  <WorkshopPage>Pagina de Workshop</WorkshopPage>
+  <UploadToSteamWorkshop>Subir a Steam Workshop</UploadToSteamWorkshop>
+  <UpdateOnSteamWorkshop>Actualiza a Steam Workshop</UpdateOnSteamWorkshop>
+  <UploadAlreadyInProgress>Subida en curso.</UploadAlreadyInProgress>
+  <WorkshopSubmissionFailed>Workshop submision fallida.\n\nRazon: {0}</WorkshopSubmissionFailed>
+  <WorkshopUploadSucceeded>Satisfactoriamente subido {0}.</WorkshopUploadSucceeded>
+  <Downloading>Descargando</Downloading>
+  <Source>Source</Source>
+  <ModTargetVersion>Para la version: {0}</ModTargetVersion>
+  <ModNotMadeForThisVersion>Este mod no fue hecho para esta versión de RimWorld, y es probable que no funcione correctamente.</ModNotMadeForThisVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Mod necesita una versión de destino en el formato adecuado de.xml. Como esto: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  
+  <!--=========== Select scenario =============-->
+  <ChooseScenario>Elije escenario</ChooseScenario>
+  <ScenariosCustom>Personalizar</ScenariosCustom>
+  <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
+  <ScenarioEditor>Editor de escenarios</ScenarioEditor>
+  <Delete>Eliminar</Delete>
+  
+  <!--============ Scenario editor ===============-->
+  <Seed>semilla</Seed>
+  <Load>Cargar</Load>
+  <EditMode>modo editar </EditMode>
+  <Summary>Resumen</Summary>
+  <AddPart>Añadir bloque de</AddPart>
+  <TextFieldsMustBeFilled>Todos los campos de texto deben ser llenados.</TextFieldsMustBeFilled>
+  <ConfirmSteamWorkshopUpload>¿Seguro que deseas subir esto a Steam Workshop?\n\nDebes aceptar los términos de servicio de Steam Workshop. Encontraras todos los términos aquí:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmContentAuthor>Obviamente, sólo debe subir contenido que hayas creado por tí mismo.\n\n¿Este contenido ha sido creado por ti mismo?</ConfirmContentAuthor>
+  <Incompatible>Incompatible</Incompatible>
+  <TooMany>Demasiado (max {0}): </TooMany>
+  <CanBeUpdatedOnWorkshop>Se puede actualizar el WorkShop, ya que eres el autor.</CanBeUpdatedOnWorkshop>
   
   <!--=========== Select storyteller ==========-->
-  <ChooseAIStoryteller>Escoge una IA cuentacuentos</ChooseAIStoryteller>
-  <HowStorytellersWork>La IA cuentacuentos crea eventos tales como incursiones pirata, aterrizajes de recursos o ataques animales. Sus elecciones afectarán a la historia de tu colonia.</HowStorytellersWork>
-  <MustChooseDifficulty>Por favor, selecciona un nivel de dificultad.</MustChooseDifficulty>
+  <ChooseAIStoryteller>Escoge una IA Cuentacuentos</ChooseAIStoryteller>
+  <HowStorytellersWork>La IA cuentacuentos crea eventos tales como incursiones pirata, aterrizajes de recursos o ataques animales. Tus elecciones afectarán a la historia de tu colonia.</HowStorytellersWork>
+  <MustChooseDifficulty>Por favor, selecciona una zona donde aterrizar.</MustChooseDifficulty>
   <Difficulty>Dificultad</Difficulty>
-  
-  
-  
-   
-    <!--=========== Landing site select =========-->
+
+  <!--=========== Landing site select =========-->
   <SelectLandingSite>Escoge el lugar del aterrizaje</SelectLandingSite>
+  <SelectRandomSite>Escoge un sitio al azar</SelectRandomSite>
   <SelectSite>Escoger lugar</SelectSite>
-  <MustSelectLandingSite>Por favor, selecciona una zona donde aterrizar.</MustSelectLandingSite>
+  <MustSelectLandingSite>Por favor escoge el lugar del aterrizaje.</MustSelectLandingSite>
   <CannotLandBiome>No puedes aterrizar en este bioma: {0}</CannotLandBiome>
   <WorldRenderMode>Modo</WorldRenderMode>
   <WorldRenderModeFull>Completo</WorldRenderModeFull>
@@ -72,47 +107,46 @@
   <WorldRenderModeFertility>Fertilidad</WorldRenderModeFertility>
   <WorldRenderModeRainfall>Lluvia</WorldRenderModeRainfall>
   <WorldRenderModeBiomes>Bioma</WorldRenderModeBiomes>
-  <BiomeNotImplemented>bioma no implementado</BiomeNotImplemented>
+  <BiomeNotImplemented>Bioma no implementado</BiomeNotImplemented>
   <BaseAlreadyThere>{0} ya hay una base ahí.</BaseAlreadyThere>
   <Biome>Bioma</Biome>
   <Terrain>Terreno</Terrain>
   <Elevation>Elevación</Elevation>
   <Fertility>Fertilidad</Fertility>
   <AvgTemp>Temp. media</AvgTemp>
-  <AvgJanTemp>Temp. media (Ene): {0}</AvgJanTemp>
-  <AvgJulTemp>Temp. media (Jul): {0}</AvgJulTemp>
+  <AvgWinterTemp>Temp. media (invierno): {0}</AvgWinterTemp>
+  <AvgSummerTemp>Temp. media (verano): {0}</AvgSummerTemp>
   <Rainfall>Precipitación</Rainfall>
   <HasCoast0>Costa al norte</HasCoast0>
   <HasCoast1>Costa al este</HasCoast1>
   <HasCoast2>Costa al sur</HasCoast2>
   <HasCoast3>Costa al oeste</HasCoast3>
-  <FactionBase>Base de facción</FactionBase>
-<StoneTypesHere>Tipos de roca</StoneTypesHere>
+  <FactionBase>Base de la facción</FactionBase>
+  <StoneTypesHere>Tipos de roca</StoneTypesHere>
 
-
-  <!--=========== Character chooser ==========-->  
+  <!--=========== Character chooser ==========-->
   <CreateCharacters>Crear personajes</CreateCharacters>
   <FirstNameDesc>El nombre del personaje.\n\nEsto sólo se verá en ciertos menús.</FirstNameDesc>
-  <ShortIdentifierDesc>La identificación del personaje.\n\nSe verá constantemente. Puede ser tanto el nombre como el apellido o un alias diferente.</ShortIdentifierDesc>
+  <ShortIdentifierDesc>La identificación del personaje.\n\ne verá constantemente. Puede ser tanto el nombre como el apellido o un alias diferente..</ShortIdentifierDesc>
   <LastNameDesc>El apellido del personaje\n\nEsto sólo se verá en ciertos menús.</LastNameDesc>
   <Randomize>Aleatorio</Randomize>
   <AgeIndicator>edad {0}</AgeIndicator>
   <Backstory>Trasfondo</Backstory>
   <IncapableOf>Incapaz de</IncapableOf>
   <Traits>Rasgos</Traits>
-    <TraitsDoNothing>Los rasgos no son más que pequeños fragmentos de historia por ahora; la mayoría no hacen nada. Esto cambiará en futuras versiones.</TraitsDoNothing>
   <PermanentMoodEffect>Efecto permanente en el estado de ánimo</PermanentMoodEffect>
   <Skills>Habilidades</Skills>
   <NoneLower>ninguna</NoneLower>
   <Adulthood>Edad adulta</Adulthood>
   <Childhood>Infancia</Childhood>
-  <Male>Hombre</Male>
-  <Female>Mujer</Female>
+  <Male>masculino</Male>
+  <Female>fémina</Female>
   <Pain>Dolor</Pain>
-
+  <Health>Salud</Health>
+  <Relations>Relaciones</Relations>
   
-  <!--=========== Misc ==========-->  
-  <Start>¡Empezar!</Start>
+  <!--=========== Misc ==========-->
+  <Start>Empezar</Start>
   <Advanced>Avanzado</Advanced>
   <Next>Siguiente</Next>
   <Back>Atrás</Back>

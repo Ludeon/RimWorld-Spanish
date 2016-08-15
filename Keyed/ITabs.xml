@@ -2,9 +2,10 @@
 <LanguageData>
 
   <!-- ITab titles -->
-  <TabBills>Proyectos</TabBills>
+  <TabBills>Proyecto</TabBills>
   <TabGrowing>Cultivos</TabGrowing>
   <TabCharacter>Personaje</TabCharacter>
+  <TabTraining>Adiestrar</TabTraining>
   <TabPrisoner>Prisionero</TabPrisoner>
   <TabGuest>Invitado</TabGuest>
   <TabGear>Equipo</TabGear>
@@ -14,20 +15,22 @@
   <TabRace>Raza</TabRace>
   <TabBasics>Basico</TabBasics>
   <TabStats>Estadisticas</TabStats>
+  <TabRecords>Archivos</TabRecords>
   <TabArt>Arte</TabArt>
-  
+  <TabSocial>Social</TabSocial>
+
   
   <!-- Bills tab  -->
   <AddBill>Añadir proyecto</AddBill>
-  <RecipeRequiresSkills>La receta {0} requiere las habilidades abajo indicadas. niguno de tus colonos tiene estas habilidades, asi que nadie trabajara en este proyecto.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>La receta {0} requiere las habilidades abajo indicadas. Y ninguno de los colonos tienen estas habilidades, así que nadie va a hacer esta receta.</RecipeRequiresSkills>
   <MinimumSkill>Habilidad mínima</MinimumSkill>
   <SuspendedCaps>SUSPENDIDO</SuspendedCaps>
   <BoundWorkerIs>Trabajador: {0}</BoundWorkerIs>
   <PlantVerb>Plantar</PlantVerb>
 
-  
+
   <!-- Guest/prisoner tab -->
-  <RecruitmentDifficulty>Dificultad de reclutamiento </RecruitmentDifficulty>
+  <RecruitmentDifficulty>Dificultad de reclutamiento</RecruitmentDifficulty>
   <GetsFood>Recibe alimentos</GetsFood>
   <DoctorsCare>Recibe cuidados médicos</DoctorsCare>
   <GetsMedicine>Recibe medicina</GetsMedicine>
@@ -54,7 +57,7 @@
   <PainShock>En estado de shock</PainShock>
   <Injured>Herido</Injured>
   <NoInjuries>(sin lesiones)</NoInjuries>
-  <WholeBody>Cuerpo</WholeBody>
+  <WholeBody>Cuerpo entero</WholeBody>
   <DataProcessing>Computación</DataProcessing>
   <Communication>Comunicación</Communication>
   <AffectsLower>afecta a</AffectsLower>
@@ -65,7 +68,11 @@
   <MedicalOperations>Operaciones médicas</MedicalOperations>
   <Amputate>Amputar</Amputate>
   <Harvest>Extraer</Harvest>
-  
+  <RemoveOrgan>Retirar</RemoveOrgan>
+  <MemoryLower>memoria</MemoryLower>
+  <SocialInteractionsLower>interacciones sociales</SocialInteractionsLower>
+  <HungerRate>Tasa de hambre</HungerRate>
+  <Tiredness>Cansancio</Tiredness>
   
 
   <!-- Medical - Body and activities condition -->
@@ -73,7 +80,7 @@
   <VeryPoor>Muy mala</VeryPoor>
   <Poor>Mala</Poor>
   <Weakened>Debilitada</Weakened>
-  <GoodCondition>OK</GoodCondition>
+  <GoodCondition>Optimo</GoodCondition>
   <Enhanced>Aumentado</Enhanced>
   <SeriouslyImpaired>Seriamente dañado</SeriouslyImpaired>
   <Impaired>Dañado</Impaired>
@@ -85,10 +92,21 @@
   <ExtremePain>Extremo</ExtremePain>
 
 
+  <!-- Training tab-->
+  <TrainableIntelligence>Inteligencia entrenable</TrainableIntelligence>
+  <CannotTrainNotSmartEnough>Requiere inteligencia entrenable {0}.</CannotTrainNotSmartEnough>
+  <CannotTrainTooSmall>{0} es demasiado pequeño para entrenar este.</CannotTrainTooSmall>
 
-
-
-
-
+  <TrainingNeedsPrerequisite>Prerrequisito necesario: {0}</TrainingNeedsPrerequisite>
+  
+  <!-- Social tab -->
+  <NoRelationships>(sin relaciones)</NoRelationships>
+  <Kidnapped>Secuestrado</Kidnapped>
+  <Slave>Esclavo</Slave>
+  <FactionLeader>Leader de una faccion</FactionLeader>
+  <OpinionOf>Opinion de {0}</OpinionOf>
+  <SomeonesOpinionOfMe>{0} opinan de mí</SomeonesOpinionOfMe>
+  <IAmDead>Estoy muerto</IAmDead>
+  <IAmPsychopath>Soy un psycopata</IAmPsychopath>
 
 </LanguageData>
