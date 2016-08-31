@@ -5,18 +5,26 @@
   <GoBack>Regresar</GoBack>
   <OK>Vale</OK>
   
+  <!-- Game updated to new version -->
+  <GameUpdatedToNewVersionInitial>RimWorld se ha actualizado desde la versión {0} a la version {1}.\n\nEsto puede causar que los mods y las partidas salvadas de la versión antigua dejen de funcionar.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionNonSteam>Dado que esta es una copia libre de DRM, se puede instalar el juego dos veces en dos carpetas diferentes, para poder jugar la version antigua y la nueva.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>Si deseas continuar con la antigua versión, puedes optar a ella, usando la función "beta" de Steam.\n\n  1. En la biblioteca de Steam, haz clic-derecho sobre RimWorld.\n  2. Clic en Propiedades.\n  3. Clic en la pestaña Betas tab.\n  4. Selecciona la versión que deseas en el menú desplegable.\n\nLas versiones antiguas probablemente desaparecerán de esta lista con el tiempo - simplemente no queremos cortar el proseso de las partidas.\n\nAdvertimos si los autores de mod actualizan para una nueva versión del juego, probablemente dejen de funcionar en una versión antigua. Es posible que desees desactivar las actualizaciones automáticas para evitar esto.</GameUpdatedToNewVersionSteam>
+   
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>El juego se ha recuperado de un error de incompatibilidad o corrupción del mod</RecoveredFromErrorsDialogTitle>
   <RecoveredFromErrorsText>Parece que alguno de los mods activos estuvo causando errores.\n\nEran incompatibles entre ellos, fueron designados para otra versión de RimWorld o estaban corruptos.\n\nTodos los mods fueron desactivados pero pueden ser reactivados de nuevo en el menú de mods.</RecoveredFromErrorsText>
   
   <!-- Errors during loading -->
   <ErrorWhileLoadingAssetsTitle>Error cargando activos</ErrorWhileLoadingAssetsTitle>
-  <ErrorWhileLoadingAssets>Un error ha ocurrido mientras se cargaban los archivos. Revisa el registro para más información.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets>Un error ha ocurrido mientras se cargaban los artivos. Revisa el registro para más información.</ErrorWhileLoadingAssets>
   <ErrorWhileLoadingAssets_ModsInfo>El juego está corriendo mods - esto podría, o no, haber causado estos problemas.</ErrorWhileLoadingAssets_ModsInfo>
   <ErrorWhileGeneratingMapTitle>Error generando el mapa</ErrorWhileGeneratingMapTitle>
   <ErrorWhileGeneratingMap>Un error ha ocurrido mientras se generaba el mapa. Revisa el registro para más información.</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>Error cargando el mapa</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>Un error ha ocurrido mientras se cargaba el mapa. Revisa el registro para más información.</ErrorWhileLoadingMap>
+  
+  <!-- Unloaded mod with an assembly -->
+  <ModWithAssemblyWasUnloaded>El juego no puede modificarse totalmente subiendo código al desactivar mods, por lo que el código de mods desactivados todavía pueden estar activos.\n\nSe recomienda ahora, cerrar y reiniciar el juego para cargar todos los mods limpiamente.</ModWithAssemblyWasUnloaded>
   
   <!-- Missing Steam -->
   <SteamClientMissing>No se pudo inicializar la API de Steam. Posibles causas:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nThis Steam version of the game requires Steam and will now quit.</SteamClientMissing>
@@ -28,7 +36,7 @@
   <LoadingDefs>Cargando defs</LoadingDefs>
   <LoadingAssets>Cargando activos</LoadingAssets>
   <Initializing>Inicializando</Initializing>
-  <LoadingWorld>Cargando planeta</LoadingWorld>
+  <LoadingWorld>Cargando mundo</LoadingWorld>
   <LoadingMap>Cargando mapa</LoadingMap>
   <InitializingMap>Inicializando mapa</InitializingMap>
   <SpawningAllThings>Creando todas las cosas</SpawningAllThings>
@@ -59,7 +67,7 @@
   <!-- Renaming -->
   <NameIsInvalid>Escribe un nombre válido.</NameIsInvalid>
   <NameIsInUse>Ése nombre ya está usado.</NameIsInUse>
-  <ZoneGainsName>Esta área ahora se llama  {0}.</ZoneGainsName>
+  <ZoneGainsName>Esta área ahora se llama {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
   <PawnGainsName>El nuevo apodo de este colono es {0}.</PawnGainsName>
@@ -81,7 +89,7 @@
   <Research>Investigación</Research>
   <Researched>Investigado</Researched>
   <Unresearched>Aún sin investigar</Unresearched>
-  <Finished>Aún sin investigar</Finished>
+  <Finished>Finalizado</Finished>
   <InProgress>En progreso</InProgress>
   <Locked>Bloqueado</Locked>
   <ResearchMenuWithoutBench>Hasta que construyas una MESA DE INVESTIGACIONES, tus colonos no podrán investigar nada.\n\nAun así, ya puedes revisar y escoger un proyecto desde ahora.</ResearchMenuWithoutBench>
@@ -110,7 +118,7 @@
   <RepeatCount>Repetir: {0}</RepeatCount>
   <Forever>Todo</Forever>
   <Details>Detalles</Details>
-  <IngredientSearchRadius>Radio de búsqueda</IngredientSearchRadius>
+  <IngredientSearchRadius>Ratio de ingredientes</IngredientSearchRadius>
   <CurrentlyHave>Actualmente tienes</CurrentlyHave>
   <CountingProducts>Contando</CountingProducts>
   <Infinite>Infinito</Infinite>
@@ -147,14 +155,14 @@
   <GrowingTime>Tiempo</GrowingTime>
   <GrowingTimeDesc>Las plantas solamente crecen durante una parte del día y bajo iluminación. Esta estadística mide el tiempo de crecimiento que la planta necesita para llegar a su tamaño máximo. El tiempo real de crecimiento normalmente sería del doble. Las bajas temperaturas ralentizarán el crecimiento de las plantas.</GrowingTimeDesc>
   <Days>días</Days>
-  <MinGrowingSkillToSow>Habilidad minima requerida para crecimiento de la siembra</MinGrowingSkillToSow>
+  <MinGrowingSkillToSow>Habilidad minima requerida para crecimiento de los cultivos</MinGrowingSkillToSow>
   <FertilityRequirement>Requisitos de fertilidad</FertilityRequirement>
   <SoilFertilitySensitivityGrowthRate>Sensibilidad a la fertilidad del suelo (tasa de crecimiento)</SoilFertilitySensitivityGrowthRate>
   <SoilFertilitySensitivityPlantChance>Sensibilidad a la fertilidad del suelo (tasa de plantar algo)</SoilFertilitySensitivityPlantChance>
   <LightRequirement>Requisitos lumínicos</LightRequirement>
   <Attributes>Atributos</Attributes>
   <LifeSpan>Esperanza de vida</LifeSpan>
-  <Nutrition>Nutricion</Nutrition>
+  <Nutrition>Nutrición</Nutrition>
   <Joy>Diversión</Joy>
   <FoodQuality>Calidad de la comida</FoodQuality>
   <WalkSpeedProperty>Velocidad de paseo</WalkSpeedProperty>
@@ -163,15 +171,18 @@
   <RecruitDifficulty>Dificultad de reclutamiento</RecruitDifficulty>
   <MarketValue>Precio base</MarketValue>
   <Covers>Cobertura</Covers>
+  <CoverEffectiveness>Eficiencia de cobertura</CoverEffectiveness>
+  <CoverEffectivenessExplanation>Qué tan efectiva es cuando se utiliza como cobertura en un tiroteo. Los porcentajes más altos bloquearán más disparos.</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>Factor de ganar experiencia</MedicineXpGainFactor>
   <BodyPartEfficiency>Eficiencia de la parte corporal</BodyPartEfficiency>
   <MoodChange>Cambio de humor</MoodChange>
   <Wildness>Ferocidad</Wildness>
-  <WildnessExplanation>Criaturas más salvajes son naturalmente más difícil de manejarles, domar y entrenar.</WildnessExplanation>
+  <WildnessExplanation>Criaturas más salvajes son naturalmente más difícil de domarlos, manejarlos y entrenarlos.</WildnessExplanation>
   <AnimalFilthRate>Tasa de suciedad de los animales</AnimalFilthRate>
   <AnimalFilthRateExplanation>Animales producen suciedad cuando se mueve alrededor en los suelos construidos. Esta es la cantidad promedio de tanta de suciedad producida por {0} casillas paseando por esta criatura.\n\nLos animales más o menos grandes produciran más suciedad.</AnimalFilthRateExplanation>
   <TimeRecordsCategory>Tiempo</TimeRecordsCategory>
   <MiscRecordsCategory>Varios</MiscRecordsCategory>
+  <Addictiveness>Adicción</Addictiveness>
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>Los números positivos se compra.\nNumeros negativos se vende.</PositiveBuysNegativeSells>
@@ -183,6 +194,7 @@
   <AcceptButton>Aceptar</AcceptButton>
   <ResetButton>Reiniciar</ResetButton>
   <CancelButton>Cancelar</CancelButton>
+  <CloseButton>Cerrar</CloseButton>
   <YourTradeableSilver>Tus existencias de plata: {0}</YourTradeableSilver>
 	<YourTradeableSilverTip>Sólo puedes comerciar con plata que esté cerca de una baliza de comercio y sin ningún techo encima suyo.</YourTradeableSilverTip>
   <TraderHasNoMore>Al comerciante no le quedan existencias.</TraderHasNoMore>
@@ -215,6 +227,39 @@
   <OutfitInUse>Vestimenta usada por {0}.</OutfitInUse>
   <NoOutfitSelected>Vestimenta sin seleccionar</NoOutfitSelected>
   
+  <!-- Drug policy management -->
+  <DrugPolicy>Política de drogas</DrugPolicy>
+  <SelectDrugPolicy>Seleccionar política...</SelectDrugPolicy>
+  <NewDrugPolicy>Nueva politica</NewDrugPolicy>
+  <DeleteDrugPolicy>Eliminar politica...</DeleteDrugPolicy>
+  <DrugPolicyInUse>Política de drogas está en uso por {0}.</DrugPolicyInUse>
+  <SocialDrugs>Drogas sociales</SocialDrugs>
+  <NoDrugs>Sin drogas</NoDrugs>
+  <OneDrinkPerDay>Una bebida por día</OneDrinkPerDay>
+  <Unrestricted>Sin restrinción</Unrestricted>
+  <NoDrugPolicySelected>No hay política de drogas seleccionada</NoDrugPolicySelected>
+  <AddDrug>Añadir droga...</AddDrug>
+  <DrugColumnLabel>Droga</DrugColumnLabel>
+  <DrugUsageColumnLabel>Uso</DrugUsageColumnLabel>
+  <FrequencyColumnLabel>Frecuencia</FrequencyColumnLabel>
+  <MoodThresholdColumnLabel>Sólo si esta de bajo humor</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Sólo si esta bajo de diversión</JoyThresholdColumnLabel>
+  <TakeToInventoryColumnLabel>Tomar del inventario</TakeToInventoryColumnLabel>
+  <NoDrugsBrackets>(sin drogas)</NoDrugsBrackets>
+  <EveryDay>Cada día</EveryDay>
+  <TimesPerDay>{0} veces por dia</TimesPerDay>
+  <EveryDays>Cada {0} dias</EveryDays>
+  <NoDrugUseRequirement>Algunas</NoDrugUseRequirement>
+  <DeleteDrugTooltip>Eliminar esta droga.</DeleteDrugTooltip>
+  <DrugNameColumnDesc>El nombre de una droga.</DrugNameColumnDesc>
+  <DrugUsageColumnDesc>Cómo se permite la droga para ser utilizada.</DrugUsageColumnDesc>
+  <FrequencyColumnDesc>Con qué frecuencia los colonos deben tratar de tomar esta droga.</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>Los colonos toman esta droga sólo si su nivel de humor está por debajo de este umbral.</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Los colonos toman esta droga sólo si su nivel de diversión está por debajo de este umbral.</JoyThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>Una cantidad de droga extra es recogida, cuando se recolecta la cosecha para su consumo, con el fin de evitar tener que visitar las drogas del almacen.</TakeToInventoryColumnDesc>
+  <DrugUsageTipForJoy>Por diversión\n\nUsar esta droga por diversión y con fines sociales y para satisfacer las necesidades de adicción, según se desee.\n\nAunque se hayan desactivado, algunos personajes con rasgos específicos, o en los colapsos mentales, pueden utilizar el medicamento de todos modos.</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>Fechado\n\nUsar esta droga en un horario definido, cuando se cumplan las condiciones específicas.</DrugUsageTipScheduled>
+    
   <!-- Growing -->
   <NoGrowerCanPlant>{0} requiere {1} habilidad para sembrar ese cultivo.\n\nNinguno de tus agricultores tiene esta habilidad, por lo que no se cultivará esta planta.</NoGrowerCanPlant>
 

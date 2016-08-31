@@ -45,12 +45,12 @@
   <CommandBedSetForPrisonersFailOutdoors>No se puede establecer camas en el exterior para prisioneros.</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetAsMedicalLabel>Asignar como cama hospitalaria</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc>Asigna esta cama para uso hospitalario.</CommandBedSetAsMedicalDesc>
-  <TurningOnPrisonerBedWarning>Activar el modo prisionero afecta a toda la habitación, pues colonos y prisioneros no pueden compartir dormitorio)\n\nEsta gente perderá sus camas:</TurningOnPrisonerBedWarning>
+  <TurningOnPrisonerBedWarning>Activar el modo prisionero afecta a toda la habitación, pues colonos y prisioneros no pueden compartir dormitorio\n\nEsta gente perderá sus camas:</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>Desactivar el modo prisionero afecta a toda la habitación, pues colonos y prisioneros no pueden compartir dormitorio.\n\nEsta gente perderá sus camas:</TurningOffPrisonerBedWarning>
   <AreYouSure>¿Estás seguro de que quieres hacer esto?</AreYouSure>
 
   <CommandDetonateLabel>Detonar</CommandDetonateLabel>
-  <CommandDetonateDesc>Empezar la cuenta atrás para la detonación.</CommandDetonateDesc>
+  <CommandDetonateDesc>Empieza la cuenta atrás para la detonación.</CommandDetonateDesc>
 
   <CommandRenameZoneLabel>Renombrar</CommandRenameZoneLabel>
   <CommandRenameZoneDesc>Renombrar esta zona.</CommandRenameZoneDesc>
@@ -63,7 +63,7 @@
   <CommandDeleteZoneDesc>Borrar esta zona.</CommandDeleteZoneDesc>
 
   <CommandCopyZoneSettingsLabel>Copiar configuración</CommandCopyZoneSettingsLabel>
-  <CommandCopyZoneSettingsDesc>Copiar los ajustes de esta zona en el portapapeles para que puedas pegarlos en otra zona.</CommandCopyZoneSettingsDesc>
+  <CommandCopyZoneSettingsDesc>Copia los ajustes de esta zona en el portapapeles para que puedas pegarlos en otra zona.</CommandCopyZoneSettingsDesc>
 
   <CommandPasteZoneSettingsLabel>Pegar configuración</CommandPasteZoneSettingsLabel>
   <CommandPasteZoneSettingsDesc>Sobrescribir los ajustes de esta zona con los previamente copiados en el portapapeles.</CommandPasteZoneSettingsDesc>
@@ -107,15 +107,15 @@
   <CommandInstall>Instalar</CommandInstall>
   <CommandInstallDesc>Este objeto está actualmente empaquetado para ser almacenado o transportado. Usa este comando para instalar este objeto en un lugar definitivo donde podrá ser observado o usado.</CommandInstallDesc>
   <CommandReinstall>Volver a instalar en...</CommandReinstall>
-  <CommandReinstallDesc>Designar este objeto paraa ser desinstalado y reinstalado en otro lugar.</CommandReinstallDesc>
+  <CommandReinstallDesc>Designa este objeto para ser desinstalado y reinstalado en otro lugar.</CommandReinstallDesc>
   
   <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>Crea una reserva alrededor de esta estructura con la misma forma que el radio de lanzamiento de la baliza.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Crear reserva</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
-  <CommandSunLampMakeGrowingZoneDesc>Crear una zona de cultivo alrededor de esta estructura con la misma forma del radio de la luz proporcionada por la lampara.</CommandSunLampMakeGrowingZoneDesc>
-  <CommandSunLampMakeGrowingZoneLabel>Crear zona de cultivo</CommandSunLampMakeGrowingZoneLabel>
+  <CommandSunLampMakeGrowingZoneDesc>Creara una zona de crecimiento alrededor de esta estructura con la misma forma del radio de luz proporcionada por la lampara.</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneLabel>Crear zona de crecimiento</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
   <CommandAutoRearm>Auto rearmar</CommandAutoRearm>
@@ -136,6 +136,10 @@
   <!-- Select plant to grow -->
   <CommandSelectPlantToGrowMulti>Selecciona una planta para cultivar</CommandSelectPlantToGrowMulti>
   <CommandSelectPlantToGrow>Planta: {0}</CommandSelectPlantToGrow>
-  <CommandSelectPlantToGrowDesc>Determinar qué planta se debe cultivar aquí.</CommandSelectPlantToGrowDesc>
+  <CommandSelectPlantToGrowDesc>Determina qué planta deseas cultivar aquí.</CommandSelectPlantToGrowDesc>
   
+  <!-- Build copy -->
+  <CommandBuildCopy>Copiar objeto</CommandBuildCopy>
+  <CommandBuildCopyDesc>Construye una copia de este objeto.</CommandBuildCopyDesc>
+    
 </LanguageData>

@@ -10,7 +10,7 @@
   <TabGuest>Invitado</TabGuest>
   <TabGear>Equipo</TabGear>
   <TabNeeds>Necesidad</TabNeeds>
-  <TabStorage>Almacén</TabStorage>
+  <TabStorage>Almacen</TabStorage>
   <TabHealth>Salud</TabHealth>
   <TabRace>Raza</TabRace>
   <TabBasics>Basico</TabBasics>
@@ -22,7 +22,7 @@
   
   <!-- Bills tab  -->
   <AddBill>Añadir proyecto</AddBill>
-  <RecipeRequiresSkills>La receta {0} requiere las habilidades abajo indicadas. Y ninguno de los colonos tienen estas habilidades, así que nadie va a hacer esta receta.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>La receta {0} requiere las habilidades abajo indicadas. Y ninguno de los colonos tienen estas habilidades, así que nadie va a hacer esa receta.</RecipeRequiresSkills>
   <MinimumSkill>Habilidad mínima</MinimumSkill>
   <SuspendedCaps>SUSPENDIDO</SuspendedCaps>
   <BoundWorkerIs>Trabajador: {0}</BoundWorkerIs>
@@ -60,7 +60,7 @@
   <WholeBody>Cuerpo entero</WholeBody>
   <DataProcessing>Computación</DataProcessing>
   <Communication>Comunicación</Communication>
-  <AffectsLower>afecta a</AffectsLower>
+  <Affects>Efectos</Affects>
   <BleedingRate>Indice de sangrado</BleedingRate>
   <HealthOverview>Resumen</HealthOverview>
   <MedicalOperationsShort>Operaciones ({0})</MedicalOperationsShort>
@@ -73,8 +73,10 @@
   <SocialInteractionsLower>interacciones sociales</SocialInteractionsLower>
   <HungerRate>Tasa de hambre</HungerRate>
   <Tiredness>Cansancio</Tiredness>
-  
+  <PainFactor>Dolor</PainFactor>
+  <PreventsInfection>Previene la infección</PreventsInfection>
 
+  
   <!-- Medical - Body and activities condition -->
   <None>Ninguno</None>
   <VeryPoor>Muy mala</VeryPoor>
@@ -95,18 +97,26 @@
   <!-- Training tab-->
   <TrainableIntelligence>Inteligencia entrenable</TrainableIntelligence>
   <CannotTrainNotSmartEnough>Requiere inteligencia entrenable {0}.</CannotTrainNotSmartEnough>
-  <CannotTrainTooSmall>{0} es demasiado pequeño para entrenar este.</CannotTrainTooSmall>
+  <CannotTrainTooSmall>{0} es demasiado pequeño para entrenarlo.</CannotTrainTooSmall>
 
-  <TrainingNeedsPrerequisite>Prerrequisito necesario: {0}</TrainingNeedsPrerequisite>
+  <TrainingNeedsPrerequisite>Prerequisito necesario: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <NoRelationships>(sin relaciones)</NoRelationships>
+  <NoRelationships>(sin relacion social)</NoRelationships>
   <Kidnapped>Secuestrado</Kidnapped>
   <Slave>Esclavo</Slave>
-  <FactionLeader>Leader de una faccion</FactionLeader>
+  <FactionLeader>Lider de una faccion</FactionLeader>
   <OpinionOf>Opinion de {0}</OpinionOf>
   <SomeonesOpinionOfMe>{0} opinan de mí</SomeonesOpinionOfMe>
   <IAmDead>Estoy muerto</IAmDead>
-  <IAmPsychopath>Soy un psycopata</IAmPsychopath>
+  <IAmPsychopath>Soy un psicopata</IAmPsychopath>
+  
+    <!-- Gear tab -->
+  <AverageArmor>Armadura media</AverageArmor>
+  <ComfyTemperatureRange>Rango de temperatura confortable</ComfyTemperatureRange>
+  <ArmorBlunt>Mellada</ArmorBlunt>
+  <ArmorSharp>Acerada</ArmorSharp>
+  <ArmorHeat>Caliente</ArmorHeat>
+  <ArmorElectric>Electrica</ArmorElectric>  
 
 </LanguageData>

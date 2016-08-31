@@ -24,7 +24,7 @@
   <FreshMissingBodyPart>reciente</FreshMissingBodyPart>
   <UntreatedLower>sin tratar</UntreatedLower>
   <DevelopedImmunityLower>desarrollada inmunidad</DevelopedImmunityLower>
-  <InjuryRequiresTreatment>requiere tratamiento para ser curada</InjuryRequiresTreatment>
+  <InjuryRequiresTreatment>requiere tratamiento para ser curado(a)</InjuryRequiresTreatment>
   <NextTreatmentIn>Siguiente tratamiento en {0} días</NextTreatmentIn>
   <MissingMedicalBillIngredient>no hay {0}</MissingMedicalBillIngredient>
   <Immunity>Inmunidad</Immunity>
@@ -41,7 +41,7 @@
   <On>On</On>
   <Off>Off</Off>
   <PowerSwitch_Power>Energía</PowerSwitch_Power>
-  <JoyTolerances>Tolerancias a diversión</JoyTolerances>
+  <JoyTolerances>Tolerancia a diversión</JoyTolerances>
   <MilkFullness>Producción de leche</MilkFullness>
   <WoolGrowth>Producción de lana</WoolGrowth>
   <EggProgress>Producción de huevo</EggProgress>
@@ -49,7 +49,7 @@
   <ProgressStoppedUntilFertilized>Producción detenida hasta la fertilización</ProgressStoppedUntilFertilized>
   <SkillTooLow>necesita {0} nivel {2}, tiene {1}</SkillTooLow>
   <EggDamagedEmbryo>embrión dañado</EggDamagedEmbryo>
-  <CorpsePercentMissing>Partes del cuerpo faltantes</CorpsePercentMissing>
+  <CorpsePercentMissing>Miembros del cuerpo faltantes</CorpsePercentMissing>
   <HiveReproducesIn>Se reproduce en</HiveReproducesIn>
   <BrokenDown>Averiado</BrokenDown>
   <BondBrackets>(vínculo)</BondBrackets>
@@ -59,8 +59,19 @@
   <CurrentRadius>radio actual</CurrentRadius>
   <RadiusExpandsIn>radio se expande en</RadiusExpandsIn>
   <Permanent>permanente</Permanent>
+  <Temperature>Temperatura</Temperature>
+  <BadTemperature>Mala temperatura</BadTemperature>
+  <IdealFermentingTemperature>Temperatura ideal de fermentación</IdealFermentingTemperature>
+  <DrugEffectMultiplier>{0} efecto multiplicador</DrugEffectMultiplier>
   
-  <!--TextMotes-->
+  <!-- Fermentation barrel -->
+  <ContainsWort>Contiene {0} / {1} mosto.</ContainsWort>
+  <ContainsBeer>Contiene {0} / {1} cerveza.</ContainsBeer>
+  <Fermented>Fermentado</Fermented>
+  <FermentationProgress>Progreso: {0} (terminado en aprox. {1}).</FermentationProgress>
+  <FermentationBarrelOutOfIdealTemperature>Temperatura no es ideal. Multiplicador de velocidad en la fermentación: {0}</FermentationBarrelOutOfIdealTemperature>
+
+ <!--TextMotes-->
   <Headshot>Disparo a la cabeza</Headshot>
   <TreatQuality>Calidad del tratamiento del {0}</TreatQuality>
   <PoorResult>Mal resultado</PoorResult>
@@ -69,10 +80,10 @@
   <TextMote_TreatFailed>Tratamiento fallido, posibilidad\n{0}</TextMote_TreatFailed>
   <HarvestFailed>Cosecha\nfallida</HarvestFailed>
   <TextMote_RecruitFail>¡Reclutamiento fallido, posibilidad!\n{0}</TextMote_RecruitFail>
-  <TextMote_TameFail>Domesticación fallida, posibilidad\n{0}</TextMote_TameFail>
+  <TextMote_TameFail>Doma fallida, posibilidad\n{0}</TextMote_TameFail>
   <TextMote_TameSuccess>¡Domesticado! posibilidad\n{0}</TextMote_TameSuccess>
   <TextMote_TrainFail>Entrenamiento fallido: posibilidad{0}\n{1}</TextMote_TrainFail>
-  <TextMote_TrainSuccess>Entrenado: posibilidad{0}\n{1}</TextMote_TrainSuccess>
+  <TextMote_TrainSuccess>Entrenando: posibilidad{0}\n{1}</TextMote_TrainSuccess>
   <TextMote_FixBrokenDownBuildingFail>Reparación\nfallida</TextMote_FixBrokenDownBuildingFail>
   <TextMote_ConstructionFail>Construcción\nfallida</TextMote_ConstructionFail>
 
@@ -145,7 +156,7 @@
 	
   <!-- Generated recipes -->
   <RecipeMake>Fabricar {0}</RecipeMake>
-  <RecipeMakeJobString>Haciendo {0}.</RecipeMakeJobString>
+  <RecipeMakeJobString>Fabricando {0}.</RecipeMakeJobString>
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>Expira en: {0}</ThoughtExpiresIn>
@@ -160,7 +171,7 @@
   <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
   <PawnMainDescLifestageWrap>{0} {1}</PawnMainDescLifestageWrap>
   <Faction>Facción</Faction>
-  <Equipped>Equipamiento</Equipped>
+  <Equipped>Equipado</Equipped>
   <EquippedNothing>Nada</EquippedNothing>
   <Incapacitated>Incapacitado</Incapacitated>
   <InRestraints>Encadenado (ralentizado)</InRestraints>
@@ -250,13 +261,15 @@
   <Undiscovered>Por descubrir</Undiscovered>
   
   <!-- Buttons -->
-  <ZoneVisibilityToggleButton>Alternar Visibilidad de zonas.</ZoneVisibilityToggleButton>
-  <ShowBeautyToggleButton>Alternar la Visibilidad de belleza.\n\nMuestra la belleza del mundo como es percibida por un personaje cuando se encuentra en el lugar donde apunta el ratón.</ShowBeautyToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>Alterna la visibilidad del ayudante de aprendizaje cuando este vacío.\n\nEl ayudante de aprendizaje estará siempre visible, si hay un concepto activado por aprender. Esta palanca lo hará desaparecer cuando ningún concepto este activo.</ShowLearningHelperWhenEmptyToggleButton>
+  <ZoneVisibilityToggleButton>Alterna visibilidad de zonas.</ZoneVisibilityToggleButton>
+  <ShowBeautyToggleButton>Alternar la visibilidad de belleza.\n\nMuestra la belleza del mundo como es percibida por un personaje cuando se encuentra en el lugar donde apunta el ratón.</ShowBeautyToggleButton>
   <ShowRoomStatsToggleButton>Alterna la visualización de estadísticas habitacionales.\n\nPresenta las estadísticas de la habitación donde se pasa el cursor.</ShowRoomStatsToggleButton>
-  <ShowColonistBarToggleButton>Alternar barra de colonos.\n\nMuestra los iconos y las estadísticas básicas para todos los colonos a lo largo de la parte superior de la pantalla.</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>Alterna barra de colonos.\n\nMuestra los iconos y las estadísticas básicas para todos los colonos a lo largo de la parte superior de la pantalla.</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>Alterna la expansión automática del área del hogar alrededor de construcciones nuevas.</AutoHomeAreaToggleButton>
-  <CategorizedResourceReadoutToggleButton>Alterna el modo categorizado de la lista de recursos.</CategorizedResourceReadoutToggleButton>
-  <ShowAnimalNamesToggleButton>Alterna la visualización de los nombres de los animales domésticos.</ShowAnimalNamesToggleButton>
+  <CategorizedResourceReadoutToggleButton>Alterna el modo categorizar de la lista de recursos.</CategorizedResourceReadoutToggleButton>
+  <ShowAnimalNamesToggleButton>Alterna la visualización de los nombres de los animales domados.</ShowAnimalNamesToggleButton>
+  <ShowRoofOverlayToggleButton>Alterna la visibilidad de los techos.</ShowRoofOverlayToggleButton>
   
   <!-- Fire -->
   <Fire>Fuego</Fire>
@@ -293,7 +306,7 @@
   <ShipReportCannotLaunch>No puede despegar.</ShipReportCannotLaunch>
   <ShipReportCanLaunch>Listo para despegar.</ShipReportCanLaunch>
   <ShipReportMissingPart>Faltan componentes críticos</ShipReportMissingPart>
-  <ShipReportNoFullPods>Cámaras de estasis vacías</ShipReportNoFullPods>
+  <ShipReportNoFullPods>Cámaras de criptosueño vacías</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
   <UseNeurotrainer>Usar el neuroentrenador para aprender {0}</UseNeurotrainer>
@@ -369,7 +382,17 @@
   <ActivityIconBurning>Apasionado</ActivityIconBurning>
 
   <!-- Maintainable -->
-  <DueForMaintenance>Apto para un mantenimiento.</DueForMaintenance>
+  <DueForMaintenance>Apto para mantenimiento.</DueForMaintenance>
   <DeterioratingDueToLackOfMaintenance>Deteriorandose debido a la falta de mantenimiento.</DeterioratingDueToLackOfMaintenance>
+  
+    <!-- Deep drill -->
+  <ProgressToNextLump>Progreso al siguiente nudo</ProgressToNextLump>
+  <ResourceBelow>Recursos bajos</ResourceBelow>
+  
+  <!-- Learning helper -->
+  <LearningHelper>Ayudante de aprendizaje</LearningHelper>
+  <MarkLearned>Pulsa Aprendido</MarkLearned>
+  <AlreadyLearned>Ya aprendido</AlreadyLearned>
+  <Filter>Filtro</Filter>  
   
 </LanguageData>

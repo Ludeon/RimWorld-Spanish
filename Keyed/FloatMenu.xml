@@ -41,9 +41,8 @@
 	<NoFuelToRefuel>necesario {0}</NoFuelToRefuel>
 
   <ConsumeThing>Consumir {0}</ConsumeThing>
-  <Teetotaler>abstemio</Teetotaler>
-  
-  <CannotGoNoPath>No se puede llegar hasta aquí (Sin camino)</CannotGoNoPath>
+
+  <CannotGoNoPath>No se puede llegar hasta aquí (sin camino)</CannotGoNoPath>
   <GoHere>Ir aquí</GoHere>
   
   <Arrest>Arrestar a {0}</Arrest>
@@ -63,9 +62,9 @@
   <NoPrisonerBed>No hay camas asignadas para prisioneros en habitaciones cerradas.</NoPrisonerBed>
   <NoNonPrisonerBed>No hay camas reservadas para prisioneros.</NoNonPrisonerBed>
   <NoAnimalBed>No hay camas reservadas para mascotas.</NoAnimalBed>
-  <Reserved>Reservado por otra persona.</Reserved>
-  <ReservedBy>Reservado por {0}</ReservedBy>
-  <IsReservedBy>{0} esta reservado por {1}.</IsReservedBy>
+  <Reserved>Reservado para otra persona.</Reserved>
+  <ReservedBy>Reservado para {0}</ReservedBy>
+  <IsReservedBy>{0} esta reservado para {1}.</IsReservedBy>
 
   <Incapable>incapaz</Incapable>
   <IncapableOfCapacity>incapaz de {0}</IncapableOfCapacity>
@@ -108,8 +107,10 @@
   <CannotMissingHealthActivities>No se puede priorizar (Problemas de salud: {0})</CannotMissingHealthActivities>
 
   <CannotGenericAlreadyAm>Ya está {0} {1}</CannotGenericAlreadyAm>
-
-  <CannotPrioritizeIsNotA>No se puede priorizar ({0} no es {1})</CannotPrioritizeIsNotA>
+    
+  <CannotPrioritizeWorkTypeDisabled>No se puede priorizar (nunca hará {0})</CannotPrioritizeWorkTypeDisabled>
+  
+  <CannotPrioritizeNotAssignedToWorkType>No se puede priorizar (no asignado a {0})</CannotPrioritizeNotAssignedToWorkType>
 
   <CannotPrioritizeResearch>No se puede priorizar (La investigación es una tarea a largo plazo)</CannotPrioritizeResearch>
 
