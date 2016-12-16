@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    
+   
+  <!-- ============= Firefighter ============= -->
+   
   <FightFires.label>combatir incendio</FightFires.label>
   <FightFires.verb>extinguir</FightFires.verb>
   <FightFires.gerund>extinguiendo</FightFires.gerund>
+  
+  <!-- ============= PatientEmergency ============= -->
   
   <PatientGoToBedEmergency.label>ir a la cama para recibir tratamiento de emergencia</PatientGoToBedEmergency.label>
   <PatientGoToBedEmergency.verb>recibir tratamiento</PatientGoToBedEmergency.verb>
   <PatientGoToBedEmergency.gerund>recibiendo tratamiento</PatientGoToBedEmergency.gerund>
   
+  <!-- ============= Doctor ============= -->
+     
   <DoctorTreatEmergency.label>dar tratamiento de emergencia</DoctorTreatEmergency.label>
   <DoctorTreatEmergency.verb>tratar a</DoctorTreatEmergency.verb>
   <DoctorTreatEmergency.gerund>tratando</DoctorTreatEmergency.gerund>
@@ -41,14 +47,20 @@
   <VisitSickPawn.verb>visitar a</VisitSickPawn.verb>
   <VisitSickPawn.gerund>visitando</VisitSickPawn.gerund>
   
+  <!-- ============= PatientBedRest ============= -->
+    
   <PatientGoToBed.label>recuperárse en cama</PatientGoToBed.label>
   <PatientGoToBed.verb>recuperarse</PatientGoToBed.verb>
   <PatientGoToBed.gerund>recuperandose</PatientGoToBed.gerund>
   
+  <!-- ============= Flicker ============= -->
+ 
   <Flick.label>alternar interruptor</Flick.label>
   <Flick.verb>alternar</Flick.verb>
   <Flick.gerund>alternando interruptor</Flick.gerund>
 
+  <!-- ============= Warden ============= -->
+  
   <DoExecution.label>ejecutar prisionero</DoExecution.label>
   <DoExecution.verb>ejecutar a</DoExecution.verb>
   <DoExecution.gerund>ejecutando a prisionero</DoExecution.gerund>
@@ -73,6 +85,8 @@
   <ChatWithPrisoner.verb>charlar con</ChatWithPrisoner.verb>
   <ChatWithPrisoner.gerund>charlando con</ChatWithPrisoner.gerund>
 
+   <!-- ============= Handling ============= -->
+  
   <Slaughter.label>sacrificar animal</Slaughter.label>
   <Slaughter.verb>sacrificar a</Slaughter.verb>
   <Slaughter.gerund>sacrificando a</Slaughter.gerund>
@@ -92,6 +106,8 @@
   <Train.label>entrenar animal</Train.label>
   <Train.verb>entrenar a</Train.verb>
   <Train.gerund>entrenando a</Train.gerund>
+  
+  <!-- ============= Cooking ============= -->
   
   <DoBillsCook.label>preparar comida en cocina</DoBillsCook.label>
   <DoBillsCook.verb>cocinar</DoBillsCook.verb>
@@ -113,10 +129,14 @@
   <CookFillHopper.verb>llenar</CookFillHopper.verb>
   <CookFillHopper.gerund>llenando</CookFillHopper.gerund>
   
+  <!-- ============= Hunting ============= -->
+    
   <HunterHunt.label>cazar animales</HunterHunt.label>
   <HunterHunt.verb>cazar</HunterHunt.verb>
   <HunterHunt.gerund>cazando</HunterHunt.gerund>
   
+  <!-- ============= Construction ============= -->
+ 
   <Deconstruct.label>desarmar objetos</Deconstruct.label>
   <Deconstruct.verb>desarmar</Deconstruct.verb>
   <Deconstruct.gerund>desarmando</Deconstruct.gerund>
@@ -137,6 +157,14 @@
   <ConstructDeliverResourcesToBlueprints.verb>trasladar</ConstructDeliverResourcesToBlueprints.verb>
   <ConstructDeliverResourcesToBlueprints.gerund>trasladando</ConstructDeliverResourcesToBlueprints.gerund>
   
+  <FixBrokenDownBuilding.label>reparar estructuras</FixBrokenDownBuilding.label>
+  <FixBrokenDownBuilding.verb>reparar componentes</FixBrokenDownBuilding.verb>
+  <FixBrokenDownBuilding.gerund>reparando componentes</FixBrokenDownBuilding.gerund>
+  
+  <Repair.label>reparar objeto</Repair.label>
+  <Repair.verb>reparar</Repair.verb>
+  <Repair.gerund>reparando</Repair.gerund> 
+	 	 
   <BuildRoofs.label>construir techos</BuildRoofs.label>
   <BuildRoofs.verb>construir</BuildRoofs.verb>
   <BuildRoofs.gerund>construyendo techos</BuildRoofs.gerund>
@@ -153,18 +181,14 @@
   <ConstructSmoothFloors.verb>alisar</ConstructSmoothFloors.verb>
   <ConstructSmoothFloors.gerund>alisando</ConstructSmoothFloors.gerund>
     
-  <FixBrokenDownBuilding.label>reparar estructuras</FixBrokenDownBuilding.label>
-  <FixBrokenDownBuilding.verb>reparar componentes</FixBrokenDownBuilding.verb>
-  <FixBrokenDownBuilding.gerund>reparando componentes</FixBrokenDownBuilding.gerund>
-    
+  <!-- ============= Repair ============= -->
+
   <DoBillsMedicalMechanoidOperation.label>operar mecanoide</DoBillsMedicalMechanoidOperation.label>
   <DoBillsMedicalMechanoidOperation.verb>modificar</DoBillsMedicalMechanoidOperation.verb>
   <DoBillsMedicalMechanoidOperation.gerund>modificando</DoBillsMedicalMechanoidOperation.gerund>
-  
-  <Repair.label>reparar objeto</Repair.label>
-  <Repair.verb>reparar</Repair.verb>
-  <Repair.gerund>reparando</Repair.gerund>
-    
+ 
+   <!-- ============= Growing ============= -->
+
   <GrowerHarvest.label>cosechar cultivo</GrowerHarvest.label>
   <GrowerHarvest.verb>cosechar</GrowerHarvest.verb>
   <GrowerHarvest.gerund>cosechando</GrowerHarvest.gerund>
@@ -173,6 +197,8 @@
   <GrowerSow.verb>cultivar</GrowerSow.verb>
   <GrowerSow.gerund>cultivando</GrowerSow.gerund>
   
+  <!-- ============= Mining ============= -->
+
   <Mine.label>minar</Mine.label>
   <Mine.verb>minar</Mine.verb>
   <Mine.gerund>minando</Mine.gerund>
@@ -181,9 +207,13 @@
   <Drill.verb>taladrar</Drill.verb>
   <Drill.gerund>taladrando</Drill.gerund>
     
+  <!-- ============= PlantCutting ============= -->
+  
   <PlantsCut.label>cortar/talar plantas</PlantsCut.label>
   <PlantsCut.verb>talar</PlantsCut.verb>
   <PlantsCut.gerund>cortando/talando</PlantsCut.gerund>
+  
+  <!-- ============= Smithing ============= -->
   
   <DoBillsMakeWeapons.label>fabricar arma</DoBillsMakeWeapons.label>
   <DoBillsMakeWeapons.verb>fabricar</DoBillsMakeWeapons.verb>
@@ -197,18 +227,28 @@
   <DoBillsComponentAssemblyBench.verb>ensamblar</DoBillsComponentAssemblyBench.verb>
   <DoBillsComponentAssemblyBench.gerund>ensamblando</DoBillsComponentAssemblyBench.gerund>
 
+  <!-- ============= Tailoring ============= -->
+    
   <DoBillsMakeApparel.label>confeccionar ropa</DoBillsMakeApparel.label>
   <DoBillsMakeApparel.verb>confeccionar</DoBillsMakeApparel.verb>
   <DoBillsMakeApparel.gerund>confeccionado</DoBillsMakeApparel.gerund>
+  
+  <!-- ============= Art ============= -->
   
   <DoBillsSculpt.label>esculpir arte</DoBillsSculpt.label>
   <DoBillsSculpt.verb>esculpir</DoBillsSculpt.verb>
   <DoBillsSculpt.gerund>esculpidendo</DoBillsSculpt.gerund>
   
+  <!-- ============= Crafting ============= -->
+  
   <DoBillsUseCraftingSpot.label>manufacturar</DoBillsUseCraftingSpot.label>
   <DoBillsUseCraftingSpot.verb>fabricar</DoBillsUseCraftingSpot.verb>
   <DoBillsUseCraftingSpot.gerund>fabricando</DoBillsUseCraftingSpot.gerund>
   
+  <DoBillsRefinery.label>trabajar en la refinería</DoBillsRefinery.label>
+  <DoBillsRefinery.verb>refinar químicos</DoBillsRefinery.verb>
+  <DoBillsRefinery.gerund>refinado de químicos</DoBillsRefinery.gerund>
+    
   <DoBillsProduceDrugs.label>producir droga</DoBillsProduceDrugs.label>
   <DoBillsProduceDrugs.verb>producir droga</DoBillsProduceDrugs.verb>
   <DoBillsProduceDrugs.gerund>produciendo droga de</DoBillsProduceDrugs.gerund>
@@ -221,6 +261,8 @@
   <DoBillsSmelter.verb>fundir</DoBillsSmelter.verb>
   <DoBillsSmelter.gerund>fundiendo</DoBillsSmelter.gerund>
   
+    <!-- ============= Hauling ============= -->
+    
   <Refuel.label>reabastecer de combustible</Refuel.label>
   <Refuel.verb>reabastecer</Refuel.verb>
   <Refuel.gerund>reabasteciendo</Refuel.gerund>
@@ -229,10 +271,18 @@
   <RearmTraps.verb>rearmar</RearmTraps.verb>
   <RearmTraps.gerund>rearmado de</RearmTraps.gerund>
   
+  <UnloadCarriers.label>descargar carga</UnloadCarriers.label>
+  <UnloadCarriers.verb>descargar</UnloadCarriers.verb>
+  <UnloadCarriers.gerund>descargando</UnloadCarriers.gerund>
+  
+  <LoadTransporters.label>cargar transportes</LoadTransporters.label>
+  <LoadTransporters.verb>cargar</LoadTransporters.verb>
+  <LoadTransporters.gerund>cargando</LoadTransporters.gerund>
+  
   <Strip.label>desvestir cuerpo</Strip.label>
   <Strip.verb>desvestir a</Strip.verb>
   <Strip.gerund>desvistiendo</Strip.gerund>
-  
+    
   <Open.label>abrir contenedor</Open.label>
   <Open.verb>abrir</Open.verb>
   <Open.gerund>abriendo</Open.gerund>
@@ -265,6 +315,8 @@
   <HaulGeneral.verb>trasladar</HaulGeneral.verb>
   <HaulGeneral.gerund>trasladando</HaulGeneral.gerund>
   
+  <!-- ============= Cleaning ============= -->
+    
   <CleanClearSnow.label>quitar nieve</CleanClearSnow.label>
   <CleanClearSnow.verb>quitar nieve</CleanClearSnow.verb>
   <CleanClearSnow.gerund>quitando nieve</CleanClearSnow.gerund>
@@ -272,6 +324,8 @@
   <CleanFilth.label>limpieza</CleanFilth.label>
   <CleanFilth.verb>limpiar</CleanFilth.verb>
   <CleanFilth.gerund>limpiando</CleanFilth.gerund>
+  
+  <!-- ============= Research ============= -->
   
   <Research.label>investigar</Research.label>
   <Research.verb>investigar</Research.verb>

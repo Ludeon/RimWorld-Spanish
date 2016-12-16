@@ -28,7 +28,7 @@
   <NeedWardenDesc>Has capturado a un prisionero, pero ningún colono ejerce como Vigilante.\n\nAsigna el trabajo de Vigilante a algún colono.</NeedWardenDesc>
 
   <LowFood>Escasea la Comida</LowFood>
-  <LowFoodDesc>Solo tienes {0} valor nutricional de comida almacenada. Es peligrosamente escaso.\n\nCultiva, compra, busca o mata algo de comida.</LowFoodDesc>
+  <LowFoodDesc>Está peligrosamente bajo en comida.\n\n    Barras llenas de comida en almacenamiento: {0}\n    Colonos y prisioneros recibiendo comida: {1}\n    Valor en días de comida almacenada: {2}\n\nCultiva, encuentra, mata o compra algo de comida.</LowFoodDesc>
 
   <LowMedicine>Escasean las Medicinas</LowMedicine>
   <LowMedicineDesc>Solo tienes {0} medicamentos restantes almacenados.\n\nCompra más medicamentos de los comerciantes.</LowMedicineDesc>
@@ -42,6 +42,9 @@
 
   <AlertTatteredApparel>Atuendo andrajoso</AlertTatteredApparel>
   <AlertTatteredApparelDesc>Estos colonos están usando ropa adrajosa, lo que les está haciendo sentirse tristes:\n\n{0}\nConsigueles un poco de ropa que no este tan dañada.\n\nPuedes adaptar tu propia ropa en una mesa de sastrería, o compra a los comerciantes.</AlertTatteredApparelDesc>
+
+	<AlertUnhappyNudity>Desdicha a la desnudez</AlertUnhappyNudity>
+	<AlertUnhappyNudityDesc>Estos colonos están desnudos y no están contentos:\n\n{0}\nConsigueles algo de ropa.\n\nPuedes adaptar tu propia ropa en una mesa de sastrería, o compra a los comerciantes.</AlertUnhappyNudityDesc>
 
   <Starvation>Hambriento</Starvation>
   <StarvationDesc>Estos colonos tienen hambre:\n\n{0}\nConsígueles algo de comida.</StarvationDesc>
@@ -62,7 +65,7 @@
   <NeedJoySourceDesc>Tus colonos necesitan satisfacer su necesidad de alegría, porque no has desarrollado ninguna fuente de diversión.\n\nAyudales mediante la construcción de una barra para herraduras, mesa de ajedrez u otra fuente de diversión.</NeedJoySourceDesc>
 
   <NeedBatteries>Se necesitan baterías</NeedBatteries>
-  <NeedBatteriesDesc>Tienes paneles solares pero careces de baterías, lo que significa que sufrirás apagones cada vez que se ponga el Sol.\n\nConstruye un par de baterías para pasar la noche.</NeedBatteriesDesc>
+  <NeedBatteriesDesc>Tienes un generador eólico o solar, pero sin baterías. Esto significa que perderás energía cada vez que el sol se ponga o el viento este calmado.\n\nConstruye una batería o dos para garantizar una energia sostenida.</NeedBatteriesDesc>
 
   <BrawlerHasRangedWeapon>Luchador portando arma a distancia</BrawlerHasRangedWeapon>
   <BrawlerHasRangedWeaponDesc>Uno de tus colonos tiene el rasgo de personalidad "Luchador", pero lleva equipada un arma a distancia. Esto le le hará muy infeliz.</BrawlerHasRangedWeaponDesc>
@@ -104,5 +107,8 @@
   <NeedWarmClothesDesc1>Al menos {0} de tus colonos carecen de ropa de abrigo cuando llege la estación fría.</NeedWarmClothesDesc1>
   <NeedWarmClothesDesc1All>Todos tus colonos carecen de ropa de abrigo cuando llege la estación fría.</NeedWarmClothesDesc1All>
   <NeedWarmClothesDesc2>La temperatura exterior va a alcanzar {0}.\n\nPuedes adaptar tu propia ropa en una mesa de sastrería, o compra a los comerciantes.</NeedWarmClothesDesc2>
+  
+  <ImmobileCaravan>Caravana inmóvil</ImmobileCaravan>
+  <ImmobileCaravanDesc>Una de tus caravanas esta inmóvil porque lleva demasiado.\n\nPuedes hacer que la caravana sea móvil de nuevo por el abandono de algunos objetos en la pestaña OBJETOS.</ImmobileCaravanDesc>
   
 </LanguageData>

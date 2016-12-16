@@ -40,6 +40,7 @@
   <PrisonerAttemptRecruit>Intentar reclutar</PrisonerAttemptRecruit>
   <PrisonerRelease>Liberar</PrisonerRelease>
   <PrisonerExecution>Ejecutar</PrisonerExecution>
+	<ConsideredGuilty>Considerado culpable (expira en {0})</ConsideredGuilty>
 
 
   <!-- Medical - general -->
@@ -52,17 +53,19 @@
   <Healthy>Sano</Healthy>
   <InPain>Dolorido</InPain>
   <PainLevel>Dolor</PainLevel>
-  <Dead>Muerto</Dead>
-  <Unconscious>Inconsciente</Unconscious>
-  <PainShock>En estado de shock</PainShock>
+
+
+
   <Injured>Herido</Injured>
   <NoInjuries>(sin lesiones)</NoInjuries>
   <WholeBody>Cuerpo entero</WholeBody>
   <DataProcessing>Computación</DataProcessing>
   <Communication>Comunicación</Communication>
   <Affects>Efectos</Affects>
-  <BleedingRate>Indice de sangrado</BleedingRate>
-  <HealthOverview>Resumen</HealthOverview>
+  <BleedingRate>Sangrando</BleedingRate>
+  <TimeToDeath>muerte en {0}</TimeToDeath>
+  <WontBleedOutSoon>sin peligro inmediato</WontBleedOutSoon>
+   <HealthOverview>Resumen</HealthOverview>
   <MedicalOperationsShort>Operaciones ({0})</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>Modificaciones ({0})</MedicalOperationsMechanoidsShort>
   <MedicalOperations>Operaciones médicas</MedicalOperations>
@@ -111,9 +114,10 @@
   <IAmDead>Estoy muerto</IAmDead>
   <IAmPsychopath>Soy un psicopata</IAmPsychopath>
   
-    <!-- Gear tab -->
+  <!-- Gear tab -->
   <AverageArmor>Armadura media</AverageArmor>
-  <ComfyTemperatureRange>Rango de temperatura confortable</ComfyTemperatureRange>
+  <MassCarried>Enseres cargados: {0} / {1} kg</MassCarried>
+   <ComfyTemperatureRange>Rango de temperatura confortable</ComfyTemperatureRange>
   <ArmorBlunt>Mellada</ArmorBlunt>
   <ArmorSharp>Aguda</ArmorSharp>
   <ArmorHeat>Caliente</ArmorHeat>

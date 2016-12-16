@@ -30,11 +30,21 @@
   <WorldGenerate>Generar</WorldGenerate>
   <WorldSaveAndFinish>Guardar y finalizar</WorldSaveAndFinish>
   <Reset>Reiniciar</Reset>
-  <WorldSize>Tamaño</WorldSize>
+
+  <PlanetCoverage>Cobertura del Globo</PlanetCoverage>
+  <PlanetRainfall>Precipitaciones totales</PlanetRainfall>
+  <PlanetTemperature>Temperatura total</PlanetTemperature>
+  <PlanetRainfall_Low>Baja</PlanetRainfall_Low>
+  <PlanetRainfall_Normal>Normal</PlanetRainfall_Normal>
+  <PlanetRainfall_High>Alta</PlanetRainfall_High>
+  <PlanetTemperature_Low>Baja</PlanetTemperature_Low>
+  <PlanetTemperature_Normal>Normal</PlanetTemperature_Normal>
+  <PlanetTemperature_High>Alta</PlanetTemperature_High>
   <WorldSeed>Semilla</WorldSeed>
   <RandomizeSeed>Semilla aleatoria</RandomizeSeed>
+  <PlanetCoverageTip>El planeta tiene siempre el mismo diámetro, pero como es mucho mayor de lo necesario para el juego, no generamos la superficie entera porque puede tomar mucho tiempo. Este es el porcentaje de la superficie que deseas generar.</PlanetCoverageTip>
 
-  <!--=========== Select world ===================-->
+ <!--=========== Select world ===================-->
   <SelectWorld>Seleccionar mundo</SelectWorld>
   <WorldChooseButton>Seleccionar</WorldChooseButton>
   <NoWorldsFilesFound>No se encontraron archivos relacionados con ningún mundo. Crea uno primero.</NoWorldsFilesFound>
@@ -92,7 +102,7 @@
   
   <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>Escoge una IA Cuentacuentos</ChooseAIStoryteller>
-  <HowStorytellersWork>La IA cuentacuentos crea eventos tales como incursiones pirata, aterrizajes de recursos o ataques animales. Tus elecciones afectarán a la historia de tu colonia.</HowStorytellersWork>
+  <HowStorytellersWork>La IA cuentacuentos crea eventos tales como incursiones pirata, aterrizajes de recursos o ataques animales. Tus elecciones afectarán a la historia de tu colonia.Puedes cambiar estos ajustes en cualquier momento.</HowStorytellersWork>
   <MustChooseDifficulty>Por favor, selecciona una dificultad establecida.</MustChooseDifficulty>
   <Difficulty>Dificultad</Difficulty>
 
@@ -102,31 +112,39 @@
   <SelectSite>Escoger lugar</SelectSite>
   <MustSelectLandingSite>Por favor escoge el lugar del aterrizaje.</MustSelectLandingSite>
   <CannotLandBiome>No puedes aterrizar en este bioma: {0}</CannotLandBiome>
-  <WorldRenderMode>Ver modo</WorldRenderMode>
-  <WorldRenderModeFull>Completo</WorldRenderModeFull>
-  <WorldRenderModeTemperature>Temperatura</WorldRenderModeTemperature>
-  <WorldRenderModeElevation>Elevación</WorldRenderModeElevation>
-  <WorldRenderModeFertility>Fertilidad</WorldRenderModeFertility>
-  <WorldRenderModeRainfall>Lluvia</WorldRenderModeRainfall>
-  <WorldRenderModeBiomes>Bioma</WorldRenderModeBiomes>
+
+
+
+
+
+
+
   <BiomeNotImplemented>Bioma no implementado</BiomeNotImplemented>
-  <BaseAlreadyThere>{0} ya hay una base ahí.</BaseAlreadyThere>
+  <CannotLandImpassableMountains>No se puede aterrizar en montañas intransitables.</CannotLandImpassableMountains>
+ <BaseAlreadyThere>{0} ya hay una base ahí.</BaseAlreadyThere>
   <Biome>Bioma</Biome>
   <Terrain>Terreno</Terrain>
   <Elevation>Elevación</Elevation>
   <Fertility>Fertilidad</Fertility>
   <AvgTemp>Temp. media</AvgTemp>
-  <AvgWinterTemp>Temp. media (invierno): {0}</AvgWinterTemp>
-  <AvgSummerTemp>Temp. media (verano): {0}</AvgSummerTemp>
-  <Rainfall>Precipitación</Rainfall>
+
+
+  <AvgSummerTemp>Temperatura Verano</AvgSummerTemp>
+	<AvgWinterTemp>Temperatura Invierno</AvgWinterTemp>
+ <Rainfall>Precipitación</Rainfall>
   <HasCoast0>Costa al norte</HasCoast0>
   <HasCoast1>Costa al este</HasCoast1>
   <HasCoast2>Costa al sur</HasCoast2>
   <HasCoast3>Costa al oeste</HasCoast3>
   <FactionBase>Base de la facción</FactionBase>
   <StoneTypesHere>Tipos de roca</StoneTypesHere>
+  <TimeZone>Zona horaria</TimeZone>
+	<MovementTimeNow>Tiempo movimiento actual</MovementTimeNow>
+	<MovementTimeSummer>Tiempo movimiento Verano</MovementTimeSummer>
+	<MovementTimeWinter>Tiempo movimiento Invierno</MovementTimeWinter>
 
-  <!--=========== Character chooser ==========-->
+
+	<!--=========== Character chooser ==========-->
   <CreateCharacters>Crear personajes</CreateCharacters>
   <FirstNameDesc>El nombre del personaje.\n\nEsto sólo se verá en ciertos menús.</FirstNameDesc>
   <ShortIdentifierDesc>La identificación del personaje.\n\ne verá constantemente. Puede ser tanto el nombre como el apellido o un alias diferente..</ShortIdentifierDesc>
@@ -152,14 +170,19 @@
   <Advanced>Avanzado</Advanced>
   <Next>Siguiente</Next>
   <Back>Atrás</Back>
-  
+
   <Gameplay>Jugabilidad</Gameplay>
 
   <ConfirmQuit>¿Seguro que deseas salir? Perderás todo progreso que no haya sido guardado.</ConfirmQuit>
   
   <EveryoneNeedsValidName>Cada persona necesita un nombre válido.</EveryoneNeedsValidName>
 
+  <Quit>Quitar</Quit>
+  <Ignore>Ignorar</Ignore>
+  
+  <!--============ Progress bar==============-->
   <GeneratingWorld>Generando mundo</GeneratingWorld>
   <GeneratingMap>Generando mapa</GeneratingMap>
+  <GeneratingMapForNewEncounter>Generar mapa para un nuevo encuentro</GeneratingMapForNewEncounter>
 
 </LanguageData>

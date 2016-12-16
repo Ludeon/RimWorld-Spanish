@@ -76,8 +76,10 @@
 
   <MessageInvoluntarySleep>{0} se ha desmayado debido a agotamiento extremo.</MessageInvoluntarySleep>
 
-  <MessageMedicalOperationFailureCatastrophic>{0} ha cometido un fallo catastrofico durante la operación de {1}.</MessageMedicalOperationFailureCatastrophic>
-  <MessageMedicalOperationFailureMinor>{0} ha cometido un fallo menor durante la operación de {1}.</MessageMedicalOperationFailureMinor>
+
+	<MessageMedicalOperationFailureMinor>{0} ha cometido un fallo menor durante la operación de {1}.</MessageMedicalOperationFailureMinor>
+	<MessageMedicalOperationFailureCatastrophic>{0} ha cometido un fallo catastrofico mientras operaba a {1}.</MessageMedicalOperationFailureCatastrophic>
+	<MessageMedicalOperationFailureRidiculous>{0} ha fallado de manera ridícula mientras operaba a {1}.</MessageMedicalOperationFailureRidiculous>
 
   <MessageMedicalOperationWillAngerFaction>Esta operación va a enfadar a {0}.</MessageMedicalOperationWillAngerFaction>
 
@@ -137,5 +139,71 @@
   
   <MessageFoodPoisoning>{0} tiene una intoxicación alimenticia, conseguida por: {1}.</MessageFoodPoisoning>
   
+  <MessageFailedToSendCaravanBecausePawnLost>No se pudo enviar a la caravana porque uno de los colonos, prisioneros o animales se ha perdido.</MessageFailedToSendCaravanBecausePawnLost>
+  <MessageCaravanFormationPaused>El proceso de formación de la caravana continuará cuando todos se recuperen de una crisis mental.</MessageCaravanFormationPaused>
+  <MessageCaravanFormationUnpaused>Tus colonos seguirán formando una caravana.</MessageCaravanFormationUnpaused>
+  
+  <MessageCaravanMemberHasExtremeMentalBreak>Uno de los miembros de la caravana tiene un colapso mental.</MessageCaravanMemberHasExtremeMentalBreak>
+  
+  <MessageMaxPlanetCoveragePerformanceWarning>Advertencia: puede tomar mucho tiempo generar un planeta entero.</MessageMaxPlanetCoveragePerformanceWarning>
+
+	<MessagePlantDiedOfCold>{0} ha muerto a causa del frío.</MessagePlantDiedOfCold>
+	<MessagePlantDiedOfRot>{0} se ha podrido debido a que se quedó sin cosechar.</MessagePlantDiedOfRot>
+
+	<MessagePawnBeingBurned>¡{0} está siendo quemado por aire sobrecalentado!</MessagePawnBeingBurned>
+
+	<MessageAccidentalOverdose>¡{0} accidentalmente ha tenido una sobredosis mientras consumia {1}!</MessageAccidentalOverdose>
+  
+  <MessageCaravanArrivedAtDestination>{0} ha llegado a su destino.</MessageCaravanArrivedAtDestination>
+  
+  <MessageCaravanIsVisitingFaction>{0} llegará en {1}.</MessageCaravanIsVisitingFaction>
+  
+  <MessageCaravanEnteredWorldObject>{0} llegará en {1}.</MessageCaravanEnteredWorldObject>
+  
+  <MessagePawnLeftMapAndCreatedCaravan>{0} ha dejado el area y formado una caravana.</MessagePawnLeftMapAndCreatedCaravan>
+  
+  <MessageSettledInExistingMap>Te has establecido con éxito en una nueva área.</MessageSettledInExistingMap>
+	
+  <MessageAmbushVictory>¡Victoria! Tienes {0} horas para recoger objetos antes de que tus colonos reformen la caravana.</MessageAmbushVictory>
+  
+  <MessageAutomaticallyReformedCaravan>Tus colonos han reformado la caravana.</MessageAutomaticallyReformedCaravan>
+
+	<MessageOldWoundHealed>Debido a que {0}, {1} ha curado a {2}.</MessageOldWoundHealed>
+
+	<MessageRescueeJoined>¡Desde que rescataste a HIM, {0} se ha unido a su grupo!</MessageRescueeJoined>
+  
+  <MessageAttackedCaravanIsNowHostile>Debido a que atacaste a una caravana de {0}, esta facción es ahora hostil contigo.</MessageAttackedCaravanIsNowHostile>
+  
+  <MessageTransporterUnreachable>Algunas cápsulas de transporte son inaccesibles.</MessageTransporterUnreachable>
+  <MessageTransportersNotAdjacent>Todas las lanzadoras de capsulas conectadas a los receptáculos de transporte seleccionados deben estar adyacentes.</MessageTransportersNotAdjacent>
+  
+  <MessageTransportersLoadCanceled_TransporterDestroyed>El proceso de carga ha sido cancelado porque una de las capsulas de transporte ha sido destruida.</MessageTransportersLoadCanceled_TransporterDestroyed>
+	<MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>El proceso de carga ha sido cancelado porque uno de los lanzadores de capsulas ha sido destruido.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+  
+  <MessageTransportersLoadingProcessStarted>Tus colonos ahora cargarán los objetos asignados en las capsulas de transporte.</MessageTransportersLoadingProcessStarted>
+  
+  <MessageTransportPodsArrived>Tus cápsulas de transporte han llegado.</MessageTransportPodsArrived>
+  <MessageTransportPodsArrivedAndLost>Han llegado las capsulas de transporte, pero como no había colonos en el interior, el contenido se ha perdido.</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrived_BecameHostile>{0} ahora es hostil hacia tí.</MessageTransportPodsArrived_BecameHostile>
+  
+  <MessageFailedToLoadTransportersBecauseColonistLost>El proceso de carga ha sido cancelado porque uno de los colonos se ha perdido.</MessageFailedToLoadTransportersBecauseColonistLost>
+  
+  <MessageFinishedLoadingTransporters>Tus colonos han terminado de cargar las capsulas de transporte.</MessageFinishedLoadingTransporters>
+  
+  <MessageTransportPodsDestinationIsInvalid>El destino seleccionado no es válido.</MessageTransportPodsDestinationIsInvalid>
+  <MessageTransportPodsDestinationIsTooFar>Cada lanzador de capsula necesitaría al menos {0}x chemfuel para enviar las capsulas de transporte tan lejos.</MessageTransportPodsDestinationIsTooFar>
+  
+  <MessageReformedCaravan>La caravana ha sido reformada.</MessageReformedCaravan>
+  
+  <MessageCantAbandonLastColonist>No puedes abandonar al último colono.</MessageCantAbandonLastColonist>
+  
+  <MessageCantEquipIncapableOfViolence>No se puede equipar: {0} es incapaz de violencia.</MessageCantEquipIncapableOfViolence>
+  <MessageCantEquipIncapableOfManipulation>No se puede equipar: incapaz</MessageCantEquipIncapableOfManipulation>
+  
+  <MessageSlaughteringBondedAnimal>Debido a que están unidos, el sacrificio {0} hará infeliz a {1}.</MessageSlaughteringBondedAnimal>
+  
+  <MessageCaravanRunOutOfFood>{0} se ha quedado sin comida ({1}).</MessageCaravanRunOutOfFood>
+  
+  <MessageSelectOwnBaseToFormCaravan>Para formar una caravana, selecciona tu propia colonia.</MessageSelectOwnBaseToFormCaravan>
   
 </LanguageData>

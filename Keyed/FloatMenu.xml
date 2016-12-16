@@ -8,6 +8,7 @@
 	<CannotUseNoPath>No puede usarse (sin camino)</CannotUseNoPath>
   <CannotUseReserved>No puede usarse (reservado)</CannotUseReserved>
   <CannotUseFull>No puede usarse (lleno)</CannotUseFull>
+	<LeaderUnavailable>El líder {0} no está disponible</LeaderUnavailable>
   
   <FireAt>Disparar a {0}</FireAt>
 
@@ -25,6 +26,7 @@
 
 	<ForbiddenLower>prohibido</ForbiddenLower>
 	<ForbiddenOutsideAllowedAreaLower>fuera de la zona permitida</ForbiddenOutsideAllowedAreaLower>
+	<NotInHomeArea>No en el área de hogar</NotInHomeArea>
 	<SociallyImproperLower>socialmente indebido</SociallyImproperLower>
   <PrisonerRoomLower>habitación de prisionero</PrisonerRoomLower>
 	<BurningLower>ardiendo</BurningLower>
@@ -66,6 +68,7 @@
   <Reserved>Reservado para otra persona.</Reserved>
   <ReservedBy>Reservado para {0}</ReservedBy>
   <IsReservedBy>{0} esta reservado para {1}.</IsReservedBy>
+  <TooHeavy>Muy pesado</TooHeavy>
 
   <Incapable>incapaz</Incapable>
   <IncapableOfCapacity>incapaz de {0}</IncapableOfCapacity>
@@ -80,11 +83,28 @@
   <CannotWear>No puede vestir {0}</CannotWear>
   <CannotWearBecauseOfMissingBodyParts>faltan partes del cuerpo</CannotWearBecauseOfMissingBodyParts>
   
-  <Strip>Desvestir a {0}</Strip>
+  <CannotPickUp>No se puede recoger {0}</CannotPickUp>
+  <CannotPickUpAll>No se puede recoger {0} (todo)</CannotPickUpAll>
+  <PickUp>Recoger {0}</PickUp>
+  <PickUpAll>Recoger {0} (todo)</PickUpAll>
+  <PickUpSome>Recoger {0}...</PickUpSome>
+  <PickUpCount>Recoger {0} x{{0}}</PickUpCount>
+  
+  <CannotGiveToPackAnimal>No se puede dar {0} a un animal de carga</CannotGiveToPackAnimal>
+  <CannotGiveToPackAnimalAll>No se puede dar {0} (todo) a un animal de carga</CannotGiveToPackAnimalAll>
+  <GiveToPackAnimal>Dar {0} a animal de carga</GiveToPackAnimal>
+  <GiveToPackAnimalAll>Dar {0} (todo) a animal de carga</GiveToPackAnimalAll>
+  <GiveToPackAnimalSome>Dar {0} a animal de carga...</GiveToPackAnimalSome>
+  <GiveToPackAnimalCount>Coger {0} x{{0}}</GiveToPackAnimalCount>
+  
+  <CannotCarryToExit>No se puede trasladar {0} y salir del área</CannotCarryToExit>
+  <CarryToExit>Trasladar {0} y salir del área</CarryToExit>
+  
+ <Strip>Desvestir a {0}</Strip>
   <CannotStrip>No se puede desvestir {0}</CannotStrip>
 
-  <Deposit>Depositar {0} en {1}</Deposit>
-  <CannotDeposit>No se puede depositar {0} en {1}</CannotDeposit>
+
+
 
   <SelfDestructHere>Auto-destruir aquí</SelfDestructHere>
   
@@ -96,8 +116,12 @@
   
   <TradeWith>Comercio con {0}</TradeWith>
   <CannotTrade>No se puede comerciar</CannotTrade>
+  
+  <EnterMap>Entrar {0}</EnterMap>
+  <VisitFactionBase>Visitar {0}</VisitFactionBase>
+  <AttackFactionBase>Atacar {0}</AttackFactionBase>
 
-  <!-- Specific thing interactions -->
+ <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>Entrar en el sarcófago de criptosueño</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>Abrir cámara sarcófago de criptosueño</OpenCryptosleepCasket>
 
@@ -120,5 +144,8 @@
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Priorizar {0} {1}</PrioritizeGeneric>
+  
+  <DropAtEdge>Caer en el borde</DropAtEdge>
+  <DropInCenter>Caer en el centro</DropInCenter>
   
 </LanguageData>
