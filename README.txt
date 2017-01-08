@@ -15,6 +15,9 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 -Vhiden
 
+-Capiqua
+
+
 -Contributors:
 
 -Emsaic
@@ -23,4 +26,4 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 -Mototron
 
--Capiqua
+-Amatiasq
