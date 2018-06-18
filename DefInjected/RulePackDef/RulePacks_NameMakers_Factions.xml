@@ -3,139 +3,165 @@
 
   <!-- Player initial namers - used initially -->
 
-  <NamerFactionBasePlayerColony.rulePack.rulesStrings.0>name->Colonia</NamerFactionBasePlayerColony.rulePack.rulesStrings.0>
-  <NamerFactionBasePlayerTribe.rulePack.rulesStrings.0>name->Villa</NamerFactionBasePlayerTribe.rulePack.rulesStrings.0>
+	<NamerFactionBasePlayerColony.rulePack.rulesStrings>
+		<li>name->Colonia</li>
+	</NamerFactionBasePlayerColony.rulePack.rulesStrings>
+	<NamerFactionBasePlayerTribe.rulePack.rulesStrings>
+		<li>name->Villa</li>
+	</NamerFactionBasePlayerTribe.rulePack.rulesStrings>
 
 
   <!-- Player suggestion namers - used for default name in the 'name faction and/or base' dialogs -->
 
-  <NamerFactionPlayerColonyRandomized.rulePack.rulesStrings.0>name->[colonyname]</NamerFactionPlayerColonyRandomized.rulePack.rulesStrings.0>
+	<NamerFactionPlayerColonyRandomized.rulePack.rulesStrings>
+		<li>name->[colonyname]</li>
+	</NamerFactionPlayerColonyRandomized.rulePack.rulesStrings>
 
 
   <!-- Pirate -->
 
-  <NamerFactionPirate.rulePack.rulesStrings.0>name->Los [badassanimal]</NamerFactionPirate.rulePack.rulesStrings.0>
-  <NamerFactionPirate.rulePack.rulesStrings.1>name->Los Hombres [badassanimal]</NamerFactionPirate.rulePack.rulesStrings.1>
-  <NamerFactionPirate.rulePack.rulesStrings.2>name->[badassanimal]s de [badassconcept]</NamerFactionPirate.rulePack.rulesStrings.2>
-  <NamerFactionPirate.rulePack.rulesStrings.3>name->[badassconcept] de los [badassanimal]s</NamerFactionPirate.rulePack.rulesStrings.3>
-  <NamerFactionPirate.rulePack.rulesStrings.4>name->[badassperson]es</NamerFactionPirate.rulePack.rulesStrings.4>
-  <NamerFactionPirate.rulePack.rulesStrings.5>name->Los Hombres [weapon]</NamerFactionPirate.rulePack.rulesStrings.5>
-  <NamerFactionPirate.rulePack.rulesStrings.6>name->[weapon]</NamerFactionPirate.rulePack.rulesStrings.6>
-  <NamerFactionPirate.rulePack.rulesStrings.7>name->[weapon] [badassanimal]s</NamerFactionPirate.rulePack.rulesStrings.7>
-  <NamerFactionPirate.rulePack.rulesStrings.8>name->[badasscolor] de [weapon]</NamerFactionPirate.rulePack.rulesStrings.8>
-  <NamerFactionPirate.rulePack.rulesStrings.9>name->[badasscolor] de [badassanimal]</NamerFactionPirate.rulePack.rulesStrings.9>
-  <NamerFactionPirate.rulePack.rulesStrings.10>name->[badasscolor] de [badassperson]</NamerFactionPirate.rulePack.rulesStrings.10>
-  <NamerFactionPirate.rulePack.rulesStrings.11>name->[badassperson] [groupname]</NamerFactionPirate.rulePack.rulesStrings.11>
-  <NamerFactionPirate.rulePack.rulesStrings.12>name->[badassadjective] [groupname]</NamerFactionPirate.rulePack.rulesStrings.12>
-  <NamerFactionPirate.rulePack.rulesStrings.13>name->[badassanimal]s [badassadjective]s</NamerFactionPirate.rulePack.rulesStrings.13>
-  <NamerFactionPirate.rulePack.rulesStrings.14>name->[badassperson]es [badassadjective]s</NamerFactionPirate.rulePack.rulesStrings.14>
-  <NamerFactionPirate.rulePack.rulesStrings.15>name->[groupname] de [weapon]s</NamerFactionPirate.rulePack.rulesStrings.15>
-  <NamerFactionPirate.rulePack.rulesStrings.16>name->[groupname] de [badassconcept]</NamerFactionPirate.rulePack.rulesStrings.16>
-  <NamerFactionPirate.rulePack.rulesStrings.17>name->[groupname] de [badassconcept]</NamerFactionPirate.rulePack.rulesStrings.17>
+	<NamerFactionPirate.rulePack.rulesStrings>
+		<li>name->Los [badassanimal]</li>
+		<li>name->Los Hombres [badassanimal]</li>
+		<li>name->[badassanimal]s de [badassconcept]</li>
+		<li>name->[badassconcept] de los [badassanimal]s</li>
+		<li>name->[badassperson]es</li>
+		<li>name->Los Hombres [weapon]</li>
+		<li>name->[weapon]</li>
+		<li>name->[weapon] [badassanimal]s</li>
+		<li>name->[badasscolor] de [weapon]</li>
+		<li>name->[badasscolor] de [badassanimal]</li>
+		<li>name->[badasscolor] de [badassperson]</li>
+		<li>name->[badassperson] [groupname]</li>
+		<li>name->[badassadjective] [groupname]</li>
+		<li>name->[badassanimal]s [badassadjective]s</li>
+		<li>name->[badassperson]es [badassadjective]s</li>
+		<li>name->[groupname] de [weapon]s</li>
+		<li>name->[groupname] de [badassconcept]</li>
+		<li>name->[groupname] de [badassconcept]</li>
+	</NamerFactionPirate.rulePack.rulesStrings>
 
-  <NamerFactionBasePirate.rulePack.rulesStrings.0>name->[badassanimal] [geography]</NamerFactionBasePirate.rulePack.rulesStrings.0>
-  <NamerFactionBasePirate.rulePack.rulesStrings.1>name->[badassconcept] [geography]</NamerFactionBasePirate.rulePack.rulesStrings.1>
-  <NamerFactionBasePirate.rulePack.rulesStrings.2>name->[badassanimal] de [geography]</NamerFactionBasePirate.rulePack.rulesStrings.2>
-  <NamerFactionBasePirate.rulePack.rulesStrings.3>name->[badassperson] de [geography]</NamerFactionBasePirate.rulePack.rulesStrings.3>
-  <NamerFactionBasePirate.rulePack.rulesStrings.4>geography->[terrainfeature]</NamerFactionBasePirate.rulePack.rulesStrings.4>
-  <NamerFactionBasePirate.rulePack.rulesStrings.5>geography->[community]</NamerFactionBasePirate.rulePack.rulesStrings.5>
+	<NamerFactionBasePirate.rulePack.rulesStrings>
+		<li>name->[badassanimal] [geography]</li>
+		<li>name->[badassconcept] [geography]</li>
+		<li>name->[badassanimal] de [geography]</li>
+		<li>name->[badassperson] de [geography]</li>
+		<li>geography->[terrainfeature]</li>
+		<li>geography->[community]</li>
+	</NamerFactionBasePirate.rulePack.rulesStrings>
 
 
   <!-- Outlander -->
 
-  <OutlanderWord.rulePack.rulesStrings.0>outlanderword->[olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.0>
-  <OutlanderWord.rulePack.rulesStrings.1>outlanderword->[olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.1>
-  <OutlanderWord.rulePack.rulesStrings.2>outlanderword->[olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.2>
-  <OutlanderWord.rulePack.rulesStrings.3>outlanderword->[olsyl][olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.3>
-  <OutlanderWord.rulePack.rulesStrings.4>outlanderword->[olsyl][olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.4>
-  <OutlanderWord.rulePack.rulesStrings.5>outlanderword->[olsyl][olsyl][olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.5>
+	<OutlanderWord.rulePack.rulesStrings>
+		<li>outlanderword->[olsyl][olendsyl]</li>
+		<li>outlanderword->[olsyl][olendsyl]</li>
+		<li>outlanderword->[olsyl][olendsyl]</li>
+		<li>outlanderword->[olsyl][olsyl][olendsyl]</li>
+		<li>outlanderword->[olsyl][olsyl][olendsyl]</li>
+		<li>outlanderword->[olsyl][olsyl][olsyl][olendsyl]</li>
+	</OutlanderWord.rulePack.rulesStrings>
 
-  <NamerFactionOutlander.rulePack.rulesStrings.0>name->[subname]</NamerFactionOutlander.rulePack.rulesStrings.0>
-  <NamerFactionOutlander.rulePack.rulesStrings.1>name->[subname]</NamerFactionOutlander.rulePack.rulesStrings.1>
-  <NamerFactionOutlander.rulePack.rulesStrings.2>name->[subname]</NamerFactionOutlander.rulePack.rulesStrings.2>
-  <NamerFactionOutlander.rulePack.rulesStrings.3>name->[subname] [politicalunion]</NamerFactionOutlander.rulePack.rulesStrings.3>
-  <NamerFactionOutlander.rulePack.rulesStrings.4>name->[subname] [politicaladjective] [politicalunion]</NamerFactionOutlander.rulePack.rulesStrings.4>
-  <NamerFactionOutlander.rulePack.rulesStrings.5>name->[politicalunion] de [subname]</NamerFactionOutlander.rulePack.rulesStrings.5>
-  <NamerFactionOutlander.rulePack.rulesStrings.6>name->[politicaladjective] [politicalunion] de [subname]</NamerFactionOutlander.rulePack.rulesStrings.6>
-  <NamerFactionOutlander.rulePack.rulesStrings.7>subname->[outlanderword]</NamerFactionOutlander.rulePack.rulesStrings.7>
-  <NamerFactionOutlander.rulePack.rulesStrings.8>subname->[outlanderword]</NamerFactionOutlander.rulePack.rulesStrings.8>
-  <NamerFactionOutlander.rulePack.rulesStrings.9>subname->[outlanderword]</NamerFactionOutlander.rulePack.rulesStrings.9>
-  <NamerFactionOutlander.rulePack.rulesStrings.10>subname->[direction] [outlanderword]</NamerFactionOutlander.rulePack.rulesStrings.10>
+	<NamerFactionOutlander.rulePack.rulesStrings>
+		<li>name->[subname]</li>
+		<li>name->[subname]</li>
+		<li>name->[subname]</li>
+		<li>name->[subname] [politicalunion]</li>
+		<li>name->[subname] [politicaladjective] [politicalunion]</li>
+		<li>name->[politicalunion] de [subname]</li>
+		<li>name->[politicaladjective] [politicalunion] de [subname]</li>
+		<li>subname->[outlanderword]</li>
+		<li>subname->[outlanderword]</li>
+		<li>subname->[outlanderword]</li>
+		<li>subname->[direction] [outlanderword]</li>
+	</NamerFactionOutlander.rulePack.rulesStrings>
 
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.0>name->[positiveconcept] de [terrainfeature]</NamerFactionBaseOutlander.rulePack.rulesStrings.0>
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.1>name->[terrainfeature] de [outlander]</NamerFactionBaseOutlander.rulePack.rulesStrings.1>
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.2>name->[community] de [outlander]</NamerFactionBaseOutlander.rulePack.rulesStrings.2>
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.3>name->[nearname]</NamerFactionBaseOutlander.rulePack.rulesStrings.3>
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.4>name->[wordname]</NamerFactionBaseOutlander.rulePack.rulesStrings.4>
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.5>name->[wordname]</NamerFactionBaseOutlander.rulePack.rulesStrings.5>
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.6>nearname->[subname] en [terrainfeature]</NamerFactionBaseOutlander.rulePack.rulesStrings.6>
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.7>nearname->[subname] en [terrainfeature]</NamerFactionBaseOutlander.rulePack.rulesStrings.7>
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.8>subname->[wordname]</NamerFactionBaseOutlander.rulePack.rulesStrings.8>
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.9>subname->[community]</NamerFactionBaseOutlander.rulePack.rulesStrings.9>
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.10>wordname->[syl][syl]</NamerFactionBaseOutlander.rulePack.rulesStrings.10>
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.11>wordname->[syl][townend]</NamerFactionBaseOutlander.rulePack.rulesStrings.11>
-  <NamerFactionBaseOutlander.rulePack.rulesStrings.12>wordname->[syl][syl][townend]</NamerFactionBaseOutlander.rulePack.rulesStrings.12>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.13>wordname->[townend][terrainfeature]</NamerFactionBaseOutlander.rulePack.rulesStrings.13>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.14>townend->villa</NamerFactionBaseOutlander.rulePack.rulesStrings.14>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.15>townend->pueblo</NamerFactionBaseOutlander.rulePack.rulesStrings.15>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.16>townend->manca</NamerFactionBaseOutlander.rulePack.rulesStrings.16>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.17>townend->madriguera</NamerFactionBaseOutlander.rulePack.rulesStrings.17>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.18>townend->guay</NamerFactionBaseOutlander.rulePack.rulesStrings.18>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.19>townend->landia</NamerFactionBaseOutlander.rulePack.rulesStrings.19>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.20>townend->lia</NamerFactionBaseOutlander.rulePack.rulesStrings.20>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.21>townend->tlán</NamerFactionBaseOutlander.rulePack.rulesStrings.21>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.22>townend->tepec</NamerFactionBaseOutlander.rulePack.rulesStrings.22>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.23>townend->lán</NamerFactionBaseOutlander.rulePack.rulesStrings.23>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.24>townend->chirimía</NamerFactionBaseOutlander.rulePack.rulesStrings.24>
-	<NamerFactionBaseOutlander.rulePack.rulesStrings.25>townend->marca</NamerFactionBaseOutlander.rulePack.rulesStrings.25>
+	<NamerFactionBaseOutlander.rulePack.rulesStrings>
+		<li>name->[positiveconcept] de [terrainfeature]</li>
+		<li>name->[terrainfeature] de [outlander]</li>
+		<li>name->[community] de [outlander]</li>
+		<li>name->[nearname]</li>
+		<li>name->[wordname]</li>
+		<li>name->[wordname]</li>
+		<li>nearname->[subname] en [terrainfeature]</li>
+		<li>nearname->[subname] en [terrainfeature]</li>
+		<li>subname->[wordname]</li>
+		<li>subname->[community]</li>
+		<li>wordname->[syl][syl]</li>
+		<li>wordname->[syl][townend]</li>
+		<li>wordname->[syl][syl][townend]</li>
+		<li>wordname->[townend][terrainfeature]</li>
+		<li>townend->villa</li>
+		<li>townend->pueblo</li>
+		<li>townend->manca</li>
+		<li>townend->madriguera</li>
+		<li>townend->guay</li>
+		<li>townend->landia</li>
+		<li>townend->lia</li>
+		<li>townend->tlán</li>
+		<li>townend->tepec</li>
+		<li>townend->lán</li>
+		<li>townend->chirimía</li>
+		<li>townend->marca</li>
+	</NamerFactionBaseOutlander.rulePack.rulesStrings>
 
 
   <!-- Tribe -->
 
-  <TribalWord.rulePack.rulesStrings.0>tribalword->[tribalwordfile]</TribalWord.rulePack.rulesStrings.0>
-  <TribalWord.rulePack.rulesStrings.1>tribalword->[trsyl][trsyl]</TribalWord.rulePack.rulesStrings.1>
-  <TribalWord.rulePack.rulesStrings.2>tribalword->[trsyl][trsyl]</TribalWord.rulePack.rulesStrings.2>
-  <TribalWord.rulePack.rulesStrings.3>tribalword->[trsyl][trsyl]</TribalWord.rulePack.rulesStrings.3>
-  <TribalWord.rulePack.rulesStrings.4>tribalword->[trsyl][trsyl][trsyl]</TribalWord.rulePack.rulesStrings.4>
-  <TribalWord.rulePack.rulesStrings.5>tribalword->[trsyl][trsyl][trsyl]</TribalWord.rulePack.rulesStrings.5>
-  <TribalWord.rulePack.rulesStrings.6>tribalword->[trsyl][trsyl][trsyl][trsyl]</TribalWord.rulePack.rulesStrings.6>
+	<TribalWord.rulePack.rulesStrings>
+		<li>tribalword->[tribalwordfile]</li>
+		<li>tribalword->[trsyl][trsyl]</li>
+		<li>tribalword->[trsyl][trsyl]</li>
+		<li>tribalword->[trsyl][trsyl]</li>
+		<li>tribalword->[trsyl][trsyl][trsyl]</li>
+		<li>tribalword->[trsyl][trsyl][trsyl]</li>
+		<li>tribalword->[trsyl][trsyl][trsyl][trsyl]</li>
+	</TribalWord.rulePack.rulesStrings>
 
-  <NamerFactionTribal.rulePack.rulesStrings.0>name->Los [tribalworld] [politicalunion]</NamerFactionTribal.rulePack.rulesStrings.0>
-  <NamerFactionTribal.rulePack.rulesStrings.1>name->Los [tribalworld] [politicalunion]</NamerFactionTribal.rulePack.rulesStrings.1>
-  <NamerFactionTribal.rulePack.rulesStrings.2>name->Los [color] [terrainfeature] [politicalunion]</NamerFactionTribal.rulePack.rulesStrings.2>
-  <NamerFactionTribal.rulePack.rulesStrings.3>name->[politicalunion] de [tribalword]</NamerFactionTribal.rulePack.rulesStrings.3>
-  <NamerFactionTribal.rulePack.rulesStrings.4>name->Los [color] [animal] [tribalword]</NamerFactionTribal.rulePack.rulesStrings.4>
-  <NamerFactionTribal.rulePack.rulesStrings.5>name->Los [tribalword] de [terrainfeature]</NamerFactionTribal.rulePack.rulesStrings.5>
-  <NamerFactionTribal.rulePack.rulesStrings.6>tribalword->[tribalwordfile]</NamerFactionTribal.rulePack.rulesStrings.6>
-  <NamerFactionTribal.rulePack.rulesStrings.7>tribalword->[syl][syl]</NamerFactionTribal.rulePack.rulesStrings.7>
-  <NamerFactionTribal.rulePack.rulesStrings.8>tribalword->[syl][syl][syl]</NamerFactionTribal.rulePack.rulesStrings.8>
-  <NamerFactionTribal.rulePack.rulesStrings.9>tribalword->[syl][syl]</NamerFactionTribal.rulePack.rulesStrings.9>
-  <NamerFactionTribal.rulePack.rulesStrings.10>tribalword->[syl][syl][syl]</NamerFactionTribal.rulePack.rulesStrings.10>
-  <NamerFactionTribal.rulePack.rulesStrings.11>tribalword->[syl][syl][syl]</NamerFactionTribal.rulePack.rulesStrings.11>
-  <NamerFactionTribal.rulePack.rulesStrings.12>tribalword->[syl][syl][syl][syl]</NamerFactionTribal.rulePack.rulesStrings.12>
+	<NamerFactionTribal.rulePack.rulesStrings>
+		<li>name->Los [tribalworld] [politicalunion]</li>
+		<li>name->Los [tribalworld] [politicalunion]</li>
+		<li>name->Los [color] [terrainfeature] [politicalunion]</li>
+		<li>name->[politicalunion] de [tribalword]</li>
+		<li>name->Los [color] [animal] [tribalword]</li>
+		<li>name->Los [tribalword] de [terrainfeature]</li>
+		<li>tribalword->[tribalwordfile]</li>
+		<li>tribalword->[syl][syl]</li>
+		<li>tribalword->[syl][syl][syl]</li>
+		<li>tribalword->[syl][syl]</li>
+		<li>tribalword->[syl][syl][syl]</li>
+		<li>tribalword->[syl][syl][syl]</li>
+		<li>tribalword->[syl][syl][syl][syl]</li>
+	</NamerFactionTribal.rulePack.rulesStrings>
 
-  <NamerFactionBaseTribal.rulePack.rulesStrings.0>name->[tribalword]</NamerFactionBaseTribal.rulePack.rulesStrings.0>
-  <NamerFactionBaseTribal.rulePack.rulesStrings.1>name->[tribalword]</NamerFactionBaseTribal.rulePack.rulesStrings.1>
-  <NamerFactionBaseTribal.rulePack.rulesStrings.2>name->[color] [tribalword]</NamerFactionBaseTribal.rulePack.rulesStrings.2>
-  <NamerFactionBaseTribal.rulePack.rulesStrings.3>name->[color] [terrainfeature]</NamerFactionBaseTribal.rulePack.rulesStrings.3>
-  <NamerFactionBaseTribal.rulePack.rulesStrings.4>name->[tribalword] [terrainfeature]</NamerFactionBaseTribal.rulePack.rulesStrings.4>
-  <NamerFactionBaseTribal.rulePack.rulesStrings.5>tribalword->[tribalwordfile]</NamerFactionBaseTribal.rulePack.rulesStrings.5>
-  <NamerFactionBaseTribal.rulePack.rulesStrings.6>tribalword->[syl][syl]</NamerFactionBaseTribal.rulePack.rulesStrings.6>
-  <NamerFactionBaseTribal.rulePack.rulesStrings.7>tribalword->[syl][syl][syl]</NamerFactionBaseTribal.rulePack.rulesStrings.7>
+	<NamerFactionBaseTribal.rulePack.rulesStrings>
+		<li>name->[tribalword]</li>
+		<li>name->[tribalword]</li>
+		<li>name->[color] [tribalword]</li>
+		<li>name->[color] [terrainfeature]</li>
+		<li>name->[tribalword] [terrainfeature]</li>
+		<li>tribalword->[tribalwordfile]</li>
+		<li>tribalword->[syl][syl]</li>
+		<li>tribalword->[syl][syl][syl]</li>
+	</NamerFactionBaseTribal.rulePack.rulesStrings>
 
 
   <!-- Special -->
 
-	<NamerFactionSpacer.rulePack.rulesStrings.0>name->Espaciales</NamerFactionSpacer.rulePack.rulesStrings.0>
+	<NamerFactionSpacer.rulePack.rulesStrings>
+		<li>name->Espaciales</li>
+	</NamerFactionSpacer.rulePack.rulesStrings>
 
 
   <!-- Player -->
-  <!--<NamerFactionPlayerRandomized.rulePack.rulesStrings.0>name->[colonyname]</NamerFactionPlayerRandomized.rulePack.rulesStrings.0>-->
-  <!--<NamerFactionOutlander.rulePack.rulesStrings.11>wordname->[syl][endsyl]</NamerFactionOutlander.rulePack.rulesStrings.11>-->
-  <!--<NamerFactionOutlander.rulePack.rulesStrings.12>wordname->[syl][syl][endsyl]</NamerFactionOutlander.rulePack.rulesStrings.12>-->
-  <!--<NamerFactionOutlander.rulePack.rulesStrings.13>wordname->[syl][syl][syl][endsyl]</NamerFactionOutlander.rulePack.rulesStrings.13>-->
-  <!--<NamerFactionOutlander.rulePack.rulesStrings.14>wordname->[syl][syl][endsyl]</NamerFactionOutlander.rulePack.rulesStrings.14>-->
-  <!--<NamerFactionOutlander.rulePack.rulesStrings.15>wordname->[syl][syl][endsyl]</NamerFactionOutlander.rulePack.rulesStrings.15>-->
-  <!--<NamerFactionOutlander.rulePack.rulesStrings.16>wordname->[syl][syl][syl][endsyl]</NamerFactionOutlander.rulePack.rulesStrings.16>-->
+  <!--	<NamerFactionPlayerRandomized.rulePack.rulesStrings>
+		<li>name->[colonyname]</li>
+	</NamerFactionPlayerRandomized.rulePack.rulesStrings>-->
+  <!--		<li>wordname->[syl][endsyl]</li>-->
+  <!--		<li>wordname->[syl][syl][endsyl]</li>-->
+  <!--		<li>wordname->[syl][syl][syl][endsyl]</li>-->
+  <!--		<li>wordname->[syl][syl][endsyl]</li>-->
+  <!--		<li>wordname->[syl][syl][endsyl]</li>-->
+  <!--		<li>wordname->[syl][syl][syl][endsyl]</li>-->
 
 </LanguageData>
