@@ -1,29 +1,39 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <FactionGreetingHostile>{0} escupe unos cuantos epítetos de mal gusto en el microfono antes de desconectar.</FactionGreetingHostile>
-  <FactionGreetingWary>{0} te saluda con cautela {1} y pregunta que puedes hacer por ellos.</FactionGreetingWary>
-  <FactionGreetingWarm>{0} te saluda calurosamente {1} y se muestra interesado en como le está yendo a la colonia.</FactionGreetingWarm>
+  <FactionGreetingHostile>{0} escupe unos cuantos epítetos de mal gusto en el micrófono y se desconecta.</FactionGreetingHostile>
+  <FactionGreetingHostileAppreciative>{0} exige que usted haga un gesto de buena voluntad, como llevar regalos a uno de sus asentamientos o liberar a los prisioneros de su facción ilesos. Hasta entonces, [PAWN_pronoun] no está dispuesto(a) a hablar.\n\nMurmura un insulto y se desconecta.</FactionGreetingHostileAppreciative>
+  <FactionGreetingWary>{0} saluda a {1} con cautela y pregunta por el asunto que quieres tratar.</FactionGreetingWary>
+  <FactionGreetingWarm>{0} saluda a {1} afectuosamente y pregunta qué es lo que puede hacer para ayudarte.</FactionGreetingWarm>
 
-  <Disconnect>Desconectar</Disconnect>
+  <Disconnect>Desconectarse</Disconnect>
 
   <!-- gift offer -->
   <OfferGift>Ofrecer regalo</OfferGift>
-  <NeedSilverLaunchable>necesitas {0} plata cerca de la baliza órbital</NeedSilverLaunchable>
-  <NotEnoughSilver>No hay suficiente plata.</NotEnoughSilver>
-  <SilverForGoodwill>{0} plata como muestra de buena voluntad {1}</SilverForGoodwill>
-  <SilverGiftSent>{0} se muestra agradecido.\n\n(Predisposición mejorada en {1}).</SilverGiftSent>
+  <MustBeAlly>debe ser un aliado</MustBeAlly>
+  <NeedGoodwill>necesitas {0} de reputación</NeedGoodwill>
+  <NeedSilverLaunchable>necesitas {0} de plata cerca de una baliza de comercio orbital</NeedSilverLaunchable>
+  <NotEnoughSilver>no hay suficiente plata.</NotEnoughSilver>
+  <SilverForGoodwill>{0} de plata por {1} de reputación</SilverForGoodwill>
+  <SilverGiftSent>El representante de {0} te da las gracias.\n\n(Reputación mejorada en {1}).</SilverGiftSent>
 
   <!-- trade caravan request -->
-  <RequestTrader>Solicitar una caravana comercial (coste: {0} plata)</RequestTrader>
-  <ChooseTraderKind>{0} pregunta qué tipo de caravana comercial deseas.</ChooseTraderKind>
-  <TraderSent>{0} está de acuerdo en enviar una caravana comercial. Él llegará dentro de unos días.</TraderSent>
-	<WaitTime>esperando a {0}</WaitTime>
-	
-  <RequestMilitaryAid>Solicitar ayuda militar inmediata (coste: {0} predisposición)</RequestMilitaryAid>
-  <MilitaryAidConfirmMutualEnemy>{0} no te ayudará a luchar contra otras facciones que no son sus enemigos. Esto incluye algunas que actualmente te están amenazando, {1}. ¿Sigues queriendo pedir su ayuda?</MilitaryAidConfirmMutualEnemy>
-  <CallConfirm>Sí, llámalos igualmente.</CallConfirm>
+  <RequestTrader>Solicitar una caravana comercial (coste: {0} de reputación)</RequestTrader>
+  <ChooseTraderKind>{0} pregunta por el tipo de caravana comercial que quieres.</ChooseTraderKind>
+  <TraderSent>{0} acepta enviarte una caravana comercial. Llegará dentro de unos días.</TraderSent>
+  <WaitTime>espera {0}</WaitTime>
+
+  <!-- AI core request -->
+  <RequestAICoreInformation>Solicitar la ubicación de un {0} (coste: {1} de plata)</RequestAICoreInformation>
+  <RequestAICoreInformationResult>{0} envía la información solicitada y le desea buena suerte.</RequestAICoreInformationResult>
+  <NoKnownAICore>no se conocen más lugares</NoKnownAICore>
+
+  <!-- military aid request -->
+  <RequestMilitaryAid>Solicitar apoyo militar inmediato (coste: {0} de reputación)</RequestMilitaryAid>
+  <MilitaryAidConfirmMutualEnemy>{0} no te ayudará a pelear con otras facciones que no sean sus enemigos. Esto incluye algunas que te amenazan actualmente, {1}. ¿Aún quieres pedir ayuda?</MilitaryAidConfirmMutualEnemy>
+  <CallConfirm>Sí, llamarlos de todos modos.</CallConfirm>
   <CallCancel>No, olvídalo.</CallCancel>
-  <MilitaryAidSent>El representante de {0} promete mandar guerreros en tu auxilio.</MilitaryAidSent>
+  <MilitaryAidSent>El representante de {0} acepta mandarte apoyo militar.</MilitaryAidSent>
+  <CantSendMilitaryAidInTime>{0} se disculpa y dice que no podrán llegar a tiempo.\n\n(El nivel tecnológico de esta facción es demasiado bajo para los módulos de transporte)</CantSendMilitaryAidInTime>
 
 </LanguageData>
