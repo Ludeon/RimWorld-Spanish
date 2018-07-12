@@ -4,75 +4,77 @@
 	<Transition_Include.rulePack.rulesStrings>
 		<li>duetoa->debido a</li>
 		<li>duetoa(p=0.5)->porque</li>
-		<li>duetoa(p=0.5)->gracias a</li>
-		<li>subject_definite->[subject_labelDefinite]</li>
-		<li>subject_definite->[subject_nameShortDef]</li>
+		<li>duetoa(p=0.5)->por</li>
 	</Transition_Include.rulePack.rulesStrings>
 
 	<Transition_Downed.rulePack.rulesStrings>
-		<li>logentry->[culpritHediff_labelNoun] causó que [subject_definite] [collapsemeta].</li>
-		<li>logentry->[culpritHediff_labelNoun] en el/la [culpritHediff_target_label] causó que [subject_definite] se [collapsemeta].</li>
-		<li>logentry->[subject_definite] [collapsedmeta] [duetoa] [culpritHediff_labelNoun].</li>
-		<li>logentry->[subject_definite] [collapsedmeta] [duetoa] [culpritHediff_labelNoun] en el/la [culpritHediff_target_label].</li>
-		<li>logentry->[subject_definite] [collapsedmeta] [duetoa] [culpritHediff_labelNoun] en el/la [culpritHediff_target_label] de [subject_possessive].</li>
-		<li>logentry(p=0.1)->[subject_definite] [collapsedmeta].</li>
-		<li>collapse->colapsa</li>
-		<li>collapse->se deshace</li>
-		<li>collapse->cae</li>
+		<li>r_logentry->[CULPRITHEDIFF_labelNoun] ha causado que [SUBJECT_definite] [collapsemeta].</li>
+		<li>r_logentry->[CULPRITHEDIFF_labelNounPretty] ha causado que [SUBJECT_definite] [collapsemeta].</li>
+		<li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun].</li>
+		<li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNounPretty].</li>
+		<li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta].</li>
+		
+		<li>collapse->colapse</li>
+		<li>collapse->se desvanezca</li>
+		<li>collapse->caiga</li>
+		
 		<li>collapse(subject_flesh!=Mechanoid)->se desmayó</li>
 		<li>collapse(subject_flesh==Mechanoid)->se estrelló</li>
-		<li>collapse(subject_flesh==Mechanoid)->bootloop</li>
-		<li>collapse(subject_flesh==Mechanoid)->bloqueó</li>
-		<li>collapsed->colapsara</li>
-		<li>collapsed->estropeara</li>
-		<li>collapsed->cayera</li>
-		<li>collapsed(subject_flesh!=Mechanoid)->desmayado</li>
-		<li>collapsed(subject_flesh==Mechanoid)->estrellado</li>
-		<li>collapsed(subject_flesh==Mechanoid)->bootlooped</li>
-		<li>collapsed(subject_flesh==Mechanoid)->hardlocked</li>
-		<li>helplessly->helplessly</li>
+		<li>collapse(subject_flesh==Mechanoid)->se apago</li>
+		<li>collapse(subject_flesh==Mechanoid)->se bloqueó</li>
+		
+		<li>collapsed->colapsó</li>
+		<li>collapsed->estropeó</li>
+		<li>collapsed->cayó</li>
+		<li>collapsed(subject_flesh!=Mechanoid)->desmayó</li>
+		<li>collapsed(subject_flesh==Mechanoid)->estrelló</li>
+		<li>collapsed(subject_flesh==Mechanoid)->apagó</li>
+		<li>collapsed(subject_flesh==Mechanoid)->bloqueó</li>
+		
+		<li>helplessly->desamparado/a</li>
 		<li>helplessly(subject_flesh!=Mechanoid)->inconciente</li>
 		<li>helplessly(subject_flesh!=Mechanoid)->agotado</li>
 		<li>helplessly(subject_flesh!=Mechanoid)->enclenque</li>
 		<li>helplessly(subject_flesh!=Mechanoid)->debilitado</li>
 		<li>helplessly(subject_flesh==Mechanoid)->incontrolablemente</li>
-		<li>collapsemeta-> se [collapse]</li>
+		
+		<li>collapsemeta->[collapse]</li>
 		<li>collapsemeta(p=0.5)->[collapse] [helplessly]</li>
 		<li>collapsedmeta->se [collapsed]</li>
-		<li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
+		<li>collapsedmeta(p=0.5)->se [collapsed] [helplessly]</li>
 	</Transition_Downed.rulePack.rulesStrings>
 
 	<Transition_DiedInclude.rulePack.rulesStrings>
-		<li>logentry(p=1.5)->[culpritHediff_labelNoun] causó que [subject_definite] [die].</li>
-		<li>logentry(p=1.5)->[culpritHediff_labelNoun] en el/la [culpritHediff_target_label] causó que [subject_definite] [die].</li>
-		<li>logentry->[subject_definite] [died] [duetoa] [culpritHediff_labelNoun] [flavorsuffix].</li>
-		<li>logentry->[subject_definite] [died] [duetoa] [culpritHediff_labelNoun] en el/la [culpritHediff_target_label] [flavorsuffix].</li>
-		<li>logentry->[subject_definite] [died] [duetoa] [culpritHediff_labelNoun] de [subject_possessive] en el/la [culpritHediff_target_label] [flavorsuffix].</li>
-		<li>logentry->[subject_definite] [died].</li>
-		<li>logentry->[subject_definite] [died] [flavorsuffix].</li>
+		<li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] hizo que [SUBJECT_definite] [die].</li>
+		<li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty] causó que [SUBJECT_definite] [die].</li>
+		<li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNoun] [flavorsuffix].</li>
+		<li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNounPretty] [flavorsuffix].</li>
+		<li>r_logentry->[SUBJECT_definite] [died].</li>
+		<li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
 	</Transition_DiedInclude.rulePack.rulesStrings>
 
 	<Transition_Died.rulePack.rulesStrings>
-		<li>die(p=2)->mueriera</li>
-		<li>die->pereciera</li>
-		<li>die->expirara</li>
-		<li>die(subject_flesh!=Mechanoid,p=0.5)->cedió a las heridas de [subject_possessive]</li>
-		<li>die(subject_flesh==Mechanoid,p=0.5)->se apagara</li>
-		<li>die(subject_flesh==Mechanoid,p=0.5)->dejara de funcionar</li>
+		<li>die(p=2)->muera</li>
+		<li>die->fallezca</li>
+		<li>die->expire</li>
+		<li>die(subject_flesh!=Mechanoid,p=0.5)->ceda a las heridas de [subject_possessive]</li>
+		<li>die(subject_flesh==Mechanoid,p=0.5)->se apague</li>
+		<li>die(subject_flesh==Mechanoid,p=0.5)->deje de funcionar</li>
+		
 		<li>died(p=2)->murió</li>
-		<li>died->pereció</li>
+		<li>died->fallecio</li>
 		<li>died(subject_flesh!=Mechanoid)->expiró</li>
 		<li>died(subject_flesh==Mechanoid)->se apagó</li>
 		<li>died(subject_flesh==Mechanoid)->dejó de funcionar</li>
 	</Transition_Died.rulePack.rulesStrings>
 
 	<Transition_DiedExplosive.rulePack.rulesStrings>
-		<li>die(p=3)->estallara [flavor]</li>
-		<li>die(p=3)->explotara [flavorsuffix]</li>
-		<li>die->detonara [flavor]</li>
-		<li>die->detonara [flavorsuffix]</li>
-		<li>die->estallara [flavor]</li>
-		<li>die->estallara [flavorsuffix]</li>
+		<li>die(p=3)->estalle [flavor]</li>
+		<li>die(p=3)->explote [flavorsuffix]</li>
+		<li>die->detone [flavor]</li>
+		<li>die->detone [flavorsuffix]</li>
+		<li>die->estalle [flavor]</li>
+		<li>die->estalle [flavorsuffix]</li>
 		
 		<li>died(p=3)->explotó [flavor]</li>
 		<li>died->detonó [flavor]</li>
@@ -86,15 +88,15 @@
 		<li>flavor(p=4)->en una [fireball]</li>
 		
 		<li>flavorsuffix(p=4)-></li>
-		<li>flavorsuffix->, dispersando [pieces] [everywhere]</li>
-		<li>flavorsuffix(subject_flesh!=Mechanoid,p=2)->, dispersando [Gore] [everywhere]</li>
-		<li>flavorsuffix(subject_flesh!=Mechanoid)->, dejando un pequeño montón de [Gore]</li>
+		<li>flavorsuffix->, esparciendo [pieces] [everywhere]</li>
+		<li>flavorsuffix(subject_flesh!=Mechanoid,p=2)->, esparciendo [Gore] [everywhere]</li>
+		<li>flavorsuffix(subject_flesh!=Mechanoid)->, dejando un montón de [Gore]</li>
 		<li>flavorsuffix->, dejando un pequeño crater</li>
 		
 		<li>fireball(p=3)->bola de fuego</li>
-		<li>fireball->bola de flama</li>
+		<li>fireball->bola de fuego</li>
 		<li>fireball->onda de choque</li>
-		<li>fireball->incendio</li>
+		<li>fireball->columna de fuego</li>
 		
 		<li>pieces->pedazos</li>
 		<li>pieces->fragmentos</li>

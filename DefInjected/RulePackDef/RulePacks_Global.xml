@@ -2,21 +2,85 @@
 <LanguageData>
 
 	<GlobalUtility.rulePack.rulesStrings>
-		<li>quantity_adjphrase->un grupo de</li>
-		<li>quantity_adjphrase->algunos</li>
-		<li>quantity_adjphrase->decenas de</li>
-		<li>quantity_adjphrase->dos</li>
-		<li>quantity_adjphrase->tres</li>
-		<li>quantity_adjphrase->cuatro</li>
-		<li>quantity_adjphrase->cinco</li>
-		<li>quantity_adjphrase->seis</li>
-		<li>quantity_adjphrase->incontables</li>
-		<li>quantity_adjphrase->muchos</li>
-		<li>game->poker</li>
-		<li>game->ajedrez</li>
-		<li>game->baraja</li>
-		<li>game->dados</li>
+		<li>Trans->de</li>
+		<li>Trans->para</li>
+		<li>Trans->por</li>
+		<li>Trans->con</li>
+		
+		<li>Character(p=6)->[PersonJob]</li>
+		<li>Character(p=4)->[Animal]</li>
+		<li>Character(p=3)->[Enemy]</li>
+		<li>Character->[Mechanoid]</li>
+		
+		<li>Quantity_adjphrase->dos</li>
+		<li>Quantity_adjphrase->tres</li>
+		<li>Quantity_adjphrase->cuatro</li>
+		<li>Quantity_adjphrase->cinco</li>
+		<li>Quantity_adjphrase->seis</li>
+		<li>Quantity_adjphrase->siete</li>
+		<li>Quantity_adjphrase->ocho</li>
+		<li>Quantity_adjphrase->nueve</li>
+		<li>Quantity_adjphrase->diez</li>
+		<li>Quantity_adjphrase->varios</li>
+		<li>Quantity_adjphrase->un grupo de</li>
+		<li>Quantity_adjphrase->un enorme grupo de</li>
+		<li>Quantity_adjphrase->docenas de</li>
+		<li>Quantity_adjphrase->cientos de</li>
+		<li>Quantity_adjphrase->mil</li>
+		<li>Quantity_adjphrase->miles de</li>
+		
+		<li>Shape->triángulo</li>
+		<li>Shape->cuadrado</li>
+		<li>Shape->rectángulo</li>
+		<li>Shape->cono</li>
+		<li>Shape->línea</li>
+		<li>Shape->corazón</li>
+		<li>Shape->estrella</li>
+		<li>Shape->círculo</li>
+		<li>Shape->elipse</li>
+		
+		<li>AdjectiveAny->[AdjectiveBadass]</li>
+		<li>AdjectiveAny->[AdjectiveAngsty]</li>
+		<li>AdjectiveAny->[AdjectiveFriendly]</li>
+		<li>AdjectiveAny->[AdjectiveNatural]</li>
+		
+		<li>ConceptAny->[ConceptPositive]</li>
+		<li>ConceptAny->[ConceptBadass]</li>
+		<li>ConceptAny->[ConceptAngsty]</li>
 	</GlobalUtility.rulePack.rulesStrings>
+
+	<TalkTopicsUtility.rulePack.rulesStrings>
+		<li>TalkTopicAny->[TalkTopicLight]</li>
+		<li>TalkTopicAny->[TalkTopicHeavy]</li>
+		
+		<li>TalkTopicHeavy->[talktopicheavyfile]</li>
+		<li>TalkTopicHeavy(p=0.08)->el vínculo entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
+		<li>TalkTopicHeavy(p=0.08)->la conexión entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
+		<li>TalkTopicHeavy(p=0.08)->la relación entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
+		
+		<li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
+		<li>TalkTopicLight->[Vegetable]s</li>
+		<li>TalkTopicLight->comer [Vegetable]s</li>
+		<li>TalkTopicLight->cocinar [Vegetable]s</li>
+		<li>TalkTopicLight->[Game]</li>
+		<li>TalkTopicLight->jugar [Game]</li>
+		<li>TalkTopicLight->practicar [Game]</li>
+		<li>TalkTopicLight->aprender [Game]</li>
+		<li>TalkTopicLight->[Animal]s</li>
+		<li>TalkTopicLight->entrenar [Animal]s</li>
+		<li>TalkTopicLight->doma de [Animal]s</li>
+		<li>TalkTopicLight->luchar contra [Animal]s</li>
+		<li>TalkTopicLight->[Animal]s locos</li>
+		<li>TalkTopicLight->[Weapon]s</li>
+		<li>TalkTopicLight->usar [Weapon]s</li>
+		<li>TalkTopicLight->practicar con [Weapon]s</li>
+		<li>TalkTopicLight->[TerrainFeature]s</li>
+		<li>TalkTopicLight->[NaturalObject]s</li>
+		<li>TalkTopicLight->[TreeType]s</li>
+		<li>TalkTopicLight->[PersonJob]s</li>
+		<li>TalkTopicLight->[PersonJob]s amigables</li>
+		<li>TalkTopicLight->[PersonJob]s hostiles</li>
+	</TalkTopicsUtility.rulePack.rulesStrings>
 
 
 </LanguageData>
