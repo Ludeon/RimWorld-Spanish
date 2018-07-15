@@ -6,13 +6,6 @@
   <Lit>Iluminado</Lit>
   <LitBrightly>Muy iluminado</LitBrightly>
   
-  <!-- diet type -->
-  <NeverEats>No se alimenta</NeverEats>
-  <Omnivorous>Omnívoro</Omnivorous>
-  <Herbivorous>Herbívoro</Herbivorous>
-  <Carnivorous>Carnívoro</Carnivorous>
-  <Dendrovorous>Dendrívoro</Dendrovorous>
-  
   <!-- history upload pref -->
   <Unspecified>Indeciso</Unspecified>
   <Always>Permite</Always>
@@ -27,18 +20,18 @@
 
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>sin almacenar</StoragePriorityUnstored>
-  <StoragePriorityLow>escaso</StoragePriorityLow>
+  <StoragePriorityLow>escasa</StoragePriorityLow>
   <StoragePriorityNormal>normal</StoragePriorityNormal>
-  <StoragePriorityPreferred>preferido</StoragePriorityPreferred>
+  <StoragePriorityPreferred>preferida</StoragePriorityPreferred>
   <StoragePriorityImportant>importante</StoragePriorityImportant>
-  <StoragePriorityCritical>critico</StoragePriorityCritical>
+  <StoragePriorityCritical>critica</StoragePriorityCritical>
 
   <!-- Food type flags -->
   <FoodTypeFlags_VegetableOrFruit>vegetales</FoodTypeFlags_VegetableOrFruit>
   <FoodTypeFlags_Meat>carne cruda</FoodTypeFlags_Meat>
   <FoodTypeFlags_Corpse>cadáveres</FoodTypeFlags_Corpse>
   <FoodTypeFlags_Seed>semillas</FoodTypeFlags_Seed>
-   <FoodTypeFlags_AnimalProduct>productos de origen animal</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_AnimalProduct>productos de origen animal</FoodTypeFlags_AnimalProduct>
   <FoodTypeFlags_Plant>plantas vivas</FoodTypeFlags_Plant>
   <FoodTypeFlags_Tree>árboles vivos</FoodTypeFlags_Tree>
   <FoodTypeFlags_Meal>comidas</FoodTypeFlags_Meal>
@@ -48,20 +41,16 @@
 
   <!-- Quality category -->
   <QualityCategory_Awful>horrible</QualityCategory_Awful>
-  <QualityCategory_Shoddy>mala</QualityCategory_Shoddy>
   <QualityCategory_Poor>mediocre</QualityCategory_Poor>
   <QualityCategory_Normal>normal</QualityCategory_Normal>
   <QualityCategory_Good>buena</QualityCategory_Good>
-  <QualityCategory_Superior>superior</QualityCategory_Superior>
   <QualityCategory_Excellent>excelente</QualityCategory_Excellent>
   <QualityCategory_Masterwork>obra maestra</QualityCategory_Masterwork>
   <QualityCategory_Legendary>legendaria</QualityCategory_Legendary>
   <QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
-  <QualityCategoryShort_Shoddy>mala</QualityCategoryShort_Shoddy>
   <QualityCategoryShort_Poor>medi</QualityCategoryShort_Poor>
   <QualityCategoryShort_Normal>norm</QualityCategoryShort_Normal>
-  <QualityCategoryShort_Good>buen</QualityCategoryShort_Good>
-  <QualityCategoryShort_Superior>super</QualityCategoryShort_Superior>
+  <QualityCategoryShort_Good>buena</QualityCategoryShort_Good>
   <QualityCategoryShort_Excellent>exc</QualityCategoryShort_Excellent>
   <QualityCategoryShort_Masterwork>mast</QualityCategoryShort_Masterwork>
   <QualityCategoryShort_Legendary>legd</QualityCategoryShort_Legendary>
@@ -85,18 +74,12 @@
   <Hilliness_Mountainous>Montañoso</Hilliness_Mountainous>
   <Hilliness_Impassable>Infranqueable</Hilliness_Impassable>
   
-   <!-- Time assigments -->
-  <TimeAssignment_Anything>Cualquiera</TimeAssignment_Anything>
-  <TimeAssignment_Work>Trabajo</TimeAssignment_Work>
-  <TimeAssignment_Joy>Diversión</TimeAssignment_Joy>
-  <TimeAssignment_Sleep>Sueño</TimeAssignment_Sleep> 
-  
   <!-- Steam workshop interaction -->
   <WorkshopInteractStage_CreatingItem>Creación</WorkshopInteractStage_CreatingItem>
   <WorkshopInteractStage_SubmittingItem>Submisión</WorkshopInteractStage_SubmittingItem>
   <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Inválido</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Preparación de los datos de configuración</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Preparación de los archivos de contenido</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Preparando los datos de configuración</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Preparando los archivos de contenido</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Subiendo contenidos</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Subiendo archivo previsualizado</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Confirmando los cambios</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
@@ -105,18 +88,12 @@
   <ContentSource_LocalFolder>carpeta local</ContentSource_LocalFolder>
   <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
   
-  <!-- Trainable intelligence -->
-  <TrainableIntelligence_None>ninguno</TrainableIntelligence_None>
-  <TrainableIntelligence_Simple>sencillo</TrainableIntelligence_Simple>
-  <TrainableIntelligence_Intermediate>intermedio</TrainableIntelligence_Intermediate>
-  <TrainableIntelligence_Advanced>avanzado</TrainableIntelligence_Advanced>
-
   <!-- Medical care category -->
   <MedicalCareCategory_NoCare>Sin atención médica</MedicalCareCategory_NoCare>
   <MedicalCareCategory_NoMeds>Cuidado médico, pero ninguna medicina</MedicalCareCategory_NoMeds>
   <MedicalCareCategory_HerbalOrWorse>Medicina herbaria o peor</MedicalCareCategory_HerbalOrWorse>
-  <MedicalCareCategory_NormalOrWorse>Medicina normal o peor</MedicalCareCategory_NormalOrWorse>
-  <MedicalCareCategory_Best>Atención médica de mejor calidad</MedicalCareCategory_Best>
+  <MedicalCareCategory_NormalOrWorse>Medicina de tecnología industrial o peor</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_Best>Mejor medicina de calidad</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
   <HostilityResponseMode_Ignore>Ignorar</HostilityResponseMode_Ignore>
@@ -135,7 +112,7 @@
   <TechLevel_Industrial>industrial</TechLevel_Industrial>
   <TechLevel_Spacer>espacial</TechLevel_Spacer>
   <TechLevel_Ultra>ultra</TechLevel_Ultra>
-  <TechLevel_Transcendent>trascendente</TechLevel_Transcendent>
+  <TechLevel_Archotech>arcotecno</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
   <PlayerPawnsArriveMethod_Standing>En pie</PlayerPawnsArriveMethod_Standing>
@@ -156,17 +133,42 @@
   <Fahrenheit>Fahrenheit</Fahrenheit>
   <Kelvin>Kelvin</Kelvin>
   
-
-
-
   <!-- Direction8Way -->
   <Direction8Way_North_Short>N</Direction8Way_North_Short>
   <Direction8Way_NorthEast_Short>NE</Direction8Way_NorthEast_Short>
   <Direction8Way_East_Short>E</Direction8Way_East_Short>
   <Direction8Way_SouthEast_Short>SE</Direction8Way_SouthEast_Short>
   <Direction8Way_South_Short>S</Direction8Way_South_Short>
-  <Direction8Way_SouthWest_Short>SO</Direction8Way_SouthWest_Short>
-  <Direction8Way_West_Short>O</Direction8Way_West_Short>
-  <Direction8Way_NorthWest_Short>NO</Direction8Way_NorthWest_Short>
+  <Direction8Way_SouthWest_Short>SW</Direction8Way_SouthWest_Short>
+  <Direction8Way_West_Short>W</Direction8Way_West_Short>
+  <Direction8Way_NorthWest_Short>NW</Direction8Way_NorthWest_Short>
+  
+  <!-- Diet category -->
+  <DietCategory_NeverEats>No se alimenta</DietCategory_NeverEats>
+  <DietCategory_Herbivorous>Herbívoro</DietCategory_Herbivorous>
+  <DietCategory_Dendrovorous>Dendrívoro</DietCategory_Dendrovorous>
+  <DietCategory_Ovivorous>Ovívoro</DietCategory_Ovivorous>
+  <DietCategory_Omnivorous>Omnívoro</DietCategory_Omnivorous>
+  <DietCategory_Carnivorous>Carnívoro</DietCategory_Carnivorous>
+  <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
+  <DietCategory_Herbivorous_Short>H</DietCategory_Herbivorous_Short>
+  <DietCategory_Dendrovorous_Short>D</DietCategory_Dendrovorous_Short>
+  <DietCategory_Ovivorous_Short>Ov</DietCategory_Ovivorous_Short>
+  <DietCategory_Omnivorous_Short>O</DietCategory_Omnivorous_Short>
+  <DietCategory_Carnivorous_Short>C</DietCategory_Carnivorous_Short>
+
+  <!-- Food poison cause -->
+  <FoodPoisonCause_IncompetentCook>cocinero incompetente</FoodPoisonCause_IncompetentCook>
+  <FoodPoisonCause_FilthyKitchen>área de cocina sucia</FoodPoisonCause_FilthyKitchen>
+  <FoodPoisonCause_Rotten>comida podrida</FoodPoisonCause_Rotten>
+  <FoodPoisonCause_DangerousFoodType>tipo de comida peligrosa</FoodPoisonCause_DangerousFoodType>
+  
+  <!-- Psychic drone level -->
+  <PsychicDroneLevel_None>ninguno</PsychicDroneLevel_None>
+  <PsychicDroneLevel_GoodMedium>medio</PsychicDroneLevel_GoodMedium>
+  <PsychicDroneLevel_BadLow>bajo</PsychicDroneLevel_BadLow>
+  <PsychicDroneLevel_BadMedium>medio</PsychicDroneLevel_BadMedium>
+  <PsychicDroneLevel_BadHigh>alto</PsychicDroneLevel_BadHigh>
+  <PsychicDroneLevel_BadExtreme>extremo</PsychicDroneLevel_BadExtreme>	  
   
 </LanguageData>

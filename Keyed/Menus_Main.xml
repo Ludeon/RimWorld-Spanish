@@ -10,6 +10,8 @@
   <LoadGame>Cargar partida</LoadGame>
   <Options>Opciones</Options>
   <Mods>Mods</Mods>
+  <SaveTranslationReport>Guardar informe de traducción</SaveTranslationReport>
+  <GeneratingTranslationReport>Generando informe de traducción</GeneratingTranslationReport>
   <Credits>Créditos</Credits>
   <QuitToMainMenu>Volver al menú principal</QuitToMainMenu>
   <SaveAndQuitToMainMenu>Guardar y volver al menú</SaveAndQuitToMainMenu>
@@ -25,12 +27,16 @@
   <BuySoundtrack>Compra la BandaSonora</BuySoundtrack>
   <CreateWorld>Crear Mundo</CreateWorld>
 
+  <!--=========== Main menu translations info window ===========-->
+  <TranslationThanks>Todas las traducciones de RimWorld están hechas por jugadores fanáticos. Esta traducción esta hecha por fans, que ha sido creada por excelentes voluntarios.</TranslationThanks>
+  <TranslationHowToContribute>Tambien puedes contribuir, haciendo clic a continuación para obtener más información (abrirá un navegador web).</TranslationHowToContribute>
+  <LearnMore>Aprender más</LearnMore>
+
   <!--=========== Create/review world ================-->
   <ReviewWorld>Revisar mundo</ReviewWorld>
   <WorldGenerate>Generar</WorldGenerate>
   <WorldSaveAndFinish>Guardar y finalizar</WorldSaveAndFinish>
   <Reset>Reiniciar</Reset>
-
   <PlanetCoverage>Cobertura del Globo</PlanetCoverage>
   <PlanetRainfall>Precipitaciones totales</PlanetRainfall>
   <PlanetTemperature>Temperatura total</PlanetTemperature>
@@ -42,12 +48,13 @@
   <PlanetTemperature_High>Alta</PlanetTemperature_High>
   <WorldSeed>Semilla</WorldSeed>
   <RandomizeSeed>Semilla aleatoria</RandomizeSeed>
-  <PlanetCoverageTip>El planeta tiene siempre el mismo diámetro, pero como es mucho mayor de lo necesario para el juego, no generamos la superficie entera porque puede tomar mucho tiempo. Este es el porcentaje de la superficie que deseas generar.</PlanetCoverageTip>
+  <PlanetCoverageTip>El planeta siempre tiene el mismo diámetro, pero como es mucho mayor de lo necesario para el juego, no generamos la superficie entera porque puede tomar mucho tiempo. Este es el porcentaje de la superficie que deseas generar.</PlanetCoverageTip>
+  <WorldFactionsTab>Facciones</WorldFactionsTab>
 
- <!--=========== Select world ===================-->
+  <!--=========== Select world ===================-->
   <SelectWorld>Seleccionar mundo</SelectWorld>
   <WorldChooseButton>Seleccionar</WorldChooseButton>
-  <NoWorldsFilesFound>No se encontraron archivos relacionados con ningún mundo. Crea uno primero.</NoWorldsFilesFound>
+  <NoWorldsFilesFound>No se encontraron archivos relacionados con ningún mundo. Creando primero un mundo</NoWorldsFilesFound>
   
   <!--=========== Version info ==========-->
   <BuildNowAvailable>La versión {0} está disponible. Visita ludeon.com para más información.</BuildNowAvailable>
@@ -62,16 +69,17 @@
   <OpenSteamWorkshop>Abrir Steam Workshop</OpenSteamWorkshop>
   <GetModsFromForum>Conseguir mods del foro</GetModsFromForum>
   <OpenModsDataFolder>Abrir carpeta de mods</OpenModsDataFolder>
+  <ShowModsDataLocation>Mostrar ubicación de datos mods</ShowModsDataLocation>
   <ConfirmDisableCoreMod>¿Seguro que quieres desactivar el mod núcleo? El juego no funcionará a menos que actives otro mod que reemplace todas las funciones del núcleo.\n\nRecuerda que otros mods pueden anular el mod núcleo al usar el mismo defName.</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>¿Estas seguro de que quieres borrar todo el contenido de {0}?</ConfirmDeleteMod>
   <Unsubscribe>Anular inscripción</Unsubscribe>
-  <ConfirmUnsubscribe>Are you sure you want to unsubscribe from {0}?</ConfirmUnsubscribe>
+  <ConfirmUnsubscribe>¿Estas seguro de que quieres anular inscripción de {0}?</ConfirmUnsubscribe>
   <Author>Autor</Author>
   <WorkshopPage>Página de Workshop</WorkshopPage>
   <UploadToSteamWorkshop>Subir a Steam Workshop</UploadToSteamWorkshop>
   <UpdateOnSteamWorkshop>Actualiza a Steam Workshop</UpdateOnSteamWorkshop>
   <UploadAlreadyInProgress>Subida en curso.</UploadAlreadyInProgress>
-  <WorkshopSubmissionFailed>Workshop submision fallida.\n\nRazon: {0}</WorkshopSubmissionFailed>
+  <WorkshopSubmissionFailed>WWorkshop submision fallida.\n\nRazon: {0}</WorkshopSubmissionFailed>
   <WorkshopUploadSucceeded>Satisfactoriamente subido {0}.</WorkshopUploadSucceeded>
   <Downloading>Descargando</Downloading>
   <Source>Source</Source>
@@ -102,52 +110,51 @@
   
   <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>Escoge una IA Cuentacuentos</ChooseAIStoryteller>
-  <HowStorytellersWork>La IA cuentacuentos crea eventos tales como incursiones pirata, aterrizajes de recursos o ataques animales. Tus elecciones afectarán a la historia de tu colonia.Puedes cambiar estos ajustes en cualquier momento.</HowStorytellersWork>
+  <HowStorytellersWork>La IA Cuentacuentos crea eventos tales como incursiones piratas, aterrizajes de recursos o ataques animales. Tus elecciones afectarán a la historia de tu colonia.Puedes cambiar estos ajustes en cualquier momento.</HowStorytellersWork>
   <MustChooseDifficulty>Por favor, selecciona una dificultad establecida.</MustChooseDifficulty>
   <Difficulty>Dificultad</Difficulty>
 
   <!--=========== Landing site select =========-->
-  <SelectLandingSite>Escoge el lugar de aterrizaje</SelectLandingSite>
+  <SelectLandingSite>Escoge el lugar de aterrizajee</SelectLandingSite>
   <SelectRandomSite>Escoge un sitio al azar</SelectRandomSite>
   <SelectSite>Escoger lugar</SelectSite>
   <MustSelectLandingSite>Por favor escoge el lugar del aterrizaje.</MustSelectLandingSite>
   <CannotLandBiome>No puedes aterrizar en este bioma: {0}</CannotLandBiome>
-
-
-
-
-
-
-
   <BiomeNotImplemented>Bioma no implementado</BiomeNotImplemented>
   <CannotLandImpassableMountains>No se puede aterrizar en montañas intransitables.</CannotLandImpassableMountains>
- <BaseAlreadyThere>{0} ya hay una base ahí.</BaseAlreadyThere>
+  <BaseAlreadyThere>{0} ya hay una base ahí.</BaseAlreadyThere>
+  <YourBaseAlreadyThere>Ya tienes una base allí.</YourBaseAlreadyThere>
+  <TileOccupied>Esta celda está ocupada.</TileOccupied>
+  <FactionBaseAdjacent>Los asentamientos no pueden estar directamente adyacentes entre sí.</FactionBaseAdjacent>
   <Biome>Bioma</Biome>
   <Terrain>Terreno</Terrain>
+  <Road>Camino</Road>
+  <River>Rio</River>
   <Elevation>Elevación</Elevation>
   <Fertility>Fertilidad</Fertility>
   <AvgTemp>Temp. media</AvgTemp>
-
-
-  <AvgSummerTemp>Temperatura Verano</AvgSummerTemp>
-	<AvgWinterTemp>Temperatura Invierno</AvgWinterTemp>
- <Rainfall>Precipitación</Rainfall>
+	<Rainfall>Precipitación</Rainfall>
+  <SpecialFeatures>Características especiales</SpecialFeatures>
   <HasCoast0>Costa al norte</HasCoast0>
   <HasCoast1>Costa al este</HasCoast1>
   <HasCoast2>Costa al sur</HasCoast2>
   <HasCoast3>Costa al oeste</HasCoast3>
+  <HasCaves>cuevas</HasCaves>
   <FactionBase>Base de la facción</FactionBase>
   <StoneTypesHere>Tipos de roca</StoneTypesHere>
   <TimeZone>Zona horaria</TimeZone>
-	<MovementTimeNow>Tiempo movimiento actual</MovementTimeNow>
-	<MovementTimeSummer>Tiempo movimiento Verano</MovementTimeSummer>
-	<MovementTimeWinter>Tiempo movimiento Invierno</MovementTimeWinter>
+	<MovementDifficulty>Dificultad de movimiento</MovementDifficulty>
+  <AnimalsCanGrazeNow>Animales pueden pastar ahora</AnimalsCanGrazeNow>
+  <AverageDiseaseFrequency>Frecuencia media de enfermedad</AverageDiseaseFrequency>
+  <PerYear>por año</PerYear>
+  <Forageability>Forrajeo de arbustos</Forageability>
+  <ConfirmRequiredWorkTypeDisabledForEveryone>Ninguna de las personas seleccionadas puede hacer los siguientes trabajos:\n\n{0}\n\nEsto puede hacer que el juego sea más difícil de lo normal. ¿Estás seguro de que quieres continuar?</ConfirmRequiredWorkTypeDisabledForEveryone>
 
 
 	<!--=========== Character chooser ==========-->
   <CreateCharacters>Crear personajes</CreateCharacters>
-  <FirstNameDesc>El nombre del personaje.\n\nEsto sólo se verá en ciertos menús.</FirstNameDesc>
-  <ShortIdentifierDesc>La identificación del personaje.\n\ne verá constantemente. Puede ser tanto el nombre como el apellido o un alias diferente..</ShortIdentifierDesc>
+  <FirstNameDesc>El nombre del personaje.\n\nEsto sólo se verá en ciertos menús..</FirstNameDesc>
+  <ShortIdentifierDesc>La identificación del personaje.\n\nse verá constantemente. Puede ser tanto el nombre como el apellido o completamente separado un alias.</ShortIdentifierDesc>
   <LastNameDesc>El apellido del personaje\n\nEsto sólo se verá en ciertos menús.</LastNameDesc>
   <Randomize>Aleatorio</Randomize>
   <AgeIndicator>edad {0}</AgeIndicator>
@@ -159,29 +166,31 @@
   <NoneLower>ninguna</NoneLower>
   <Adulthood>Edad adulta</Adulthood>
   <Childhood>Infancia</Childhood>
+  <Current>Actualizad</Current>
   <Male>masculino</Male>
   <Female>fémina</Female>
   <Pain>Dolor</Pain>
   <Health>Salud</Health>
   <Relations>Relaciones</Relations>
+  <TeamSkills>Habilidades de equipo</TeamSkills>
+  <StartingPawnsSelected>Seleccionados</StartingPawnsSelected>
+  <StartingPawnsLeftBehind>Dejar atrás</StartingPawnsLeftBehind>
   
   <!--=========== Misc ==========-->
   <Start>Empezar</Start>
   <Advanced>Avanzado</Advanced>
   <Next>Siguiente</Next>
   <Back>Atrás</Back>
-
   <Gameplay>Jugabilidad</Gameplay>
-
   <ConfirmQuit>¿Seguro que deseas salir? Perderás todo progreso que no haya sido guardado.</ConfirmQuit>
-  
   <EveryoneNeedsValidName>Cada persona necesita un nombre válido.</EveryoneNeedsValidName>
-
+  <RequiredWorkTypeDisabledForEveryone>Ninguna de las personas seleccionadas puede hacer los siguientes trabajos</RequiredWorkTypeDisabledForEveryone>
   <Quit>Quitar</Quit>
   <Ignore>Ignorar</Ignore>
   
   <!--============ Progress bar==============-->
   <GeneratingWorld>Generando mundo</GeneratingWorld>
+  <GeneratingPlanet>Generando planeta</GeneratingPlanet>
   <GeneratingMap>Generando mapa</GeneratingMap>
   <GeneratingMapForNewEncounter>Generar mapa para un nuevo encuentro</GeneratingMapForNewEncounter>
 
