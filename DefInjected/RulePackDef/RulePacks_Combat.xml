@@ -5,15 +5,15 @@
 		<li>r_logentry->[action], [result].</li>
 		<li>r_logentry(p=0.2)->[action].</li>
 		
-		<li>implement(implementOwnerType==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]s [TOOL_label]</li>
-		<li>implement(implementOwnerType==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
-		<li>implement(implementOwnerType==weapon,p=1)->un/una [WEAPON_label]s [TOOL_label]</li>
-		<li>implement(implementOwnerType==weapon,p=0.5)->un/una [WEAPON_label]</li>
-		<li>implement(implementOwnerType==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
-		<li>implement(implementOwnerType==bodypart,p=1)->[INITIATOR_possessive] [bodypart_adjective] [TOOL_label]</li>
-		<li>implement(implementOwnerType==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]s [TOOL_label]</li>
-		<li>implement(implementOwnerType==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
-		<li>implement(implementOwnerType==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
+		<li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]s [TOOL_label]</li>
+		<li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+		<li>implement(IMPLEMENTOWNER_type==weapon,p=1)->un/una [WEAPON_label]s [TOOL_label]</li>
+		<li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->un/una [WEAPON_label]</li>
+		<li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
+		<li>implement(IMPLEMENTOWNER_type==bodypart,p=1)->[INITIATOR_possessive] [bodypart_adjective] [TOOL_label]</li>
+		<li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]s [TOOL_label]</li>
+		<li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+		<li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
 		
 		<li>bodypart_adjective->duro</li>
 		<li>bodypart_adjective->fuerte</li>
