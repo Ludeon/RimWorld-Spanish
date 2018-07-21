@@ -12,7 +12,8 @@
   <Mods>Mods</Mods>
   <SaveTranslationReport>Guardar informe de traducción</SaveTranslationReport>
   <GeneratingTranslationReport>Generando informe de traducción</GeneratingTranslationReport>
-  
+  <CleanupTranslationFiles>Limpiar archivos de traducción</CleanupTranslationFiles>
+  <CleaningTranslationFiles>Limpiando archivos de traducción</CleaningTranslationFiles>
   <Credits>Créditos</Credits>
   <QuitToMainMenu>Volver al menú principal</QuitToMainMenu>
   <SaveAndQuitToMainMenu>Guardar y volver al menú</SaveAndQuitToMainMenu>
@@ -29,7 +30,7 @@
   <CreateWorld>Crear Mundo</CreateWorld>
 
   <!--=========== Main menu translations info window ===========-->
-  <TranslationThanks>Todas las traducciones de RimWorld están hechas por jugadores fanáticos. Esta traducción esta hecha por fans, que ha sido creada por excelentes voluntarios.</TranslationThanks>
+  <TranslationThanks>Todas las traducciones de RimWorld están hechas por jugadores fanáticos. Esta traducción esta hecha por fans, que ha sido creada por excelentes voluntarios:\n\n{0}</TranslationThanks>
   <TranslationHowToContribute>Tambien puedes contribuir, haciendo clic a continuación para obtener más información (abrirá un navegador web).</TranslationHowToContribute>
   <LearnMore>Aprender más</LearnMore>
 
@@ -117,8 +118,8 @@
   <CommitmentMode>Modo de compromiso</CommitmentMode>
   <ReloadAnytimeMode>Recarga el modo en cualquier momento</ReloadAnytimeMode>
   <MustChoosePermadeath>Por favor, elija el modo compromiso o vuelva a cargar el modo en cualquier momento.</MustChoosePermadeath>
-  <PermadeathModeInfo>Solo puede guardar al abandonar el juego.\n\nDesde que RimWorld es un generador de historias, ha sido diseñado para fomentar la recuperación después de las pérdidas. Incluso perder a todos menos una persona no es el final del juego; es parte de la historia.\n\nJugar con estas terribles situaciones hace que una historia tenga tanta tragedia como triunfo. Es la forma en que RimWorld fue diseñado para ser jugado.\n\n¡Hay una razón por la cual Luke Skywalker no abandonó y avanzó cuando mataron a sus padres. ¡La pérdida y la recuperación son dramáticas!</PermadeathModeInfo>
-  <ReloadAnytimeModeInfo>Puedes guardar y cargar el juego en cualquier momento.\n\nEsta no es una mala elección si todavía estás aprendiendo a juegar, si se ajusta a tu estilo de juego personal o a tus objetivos, si estás usando modos que pueden romper tu juego, o si tienes la intención de autoejecutar el modo de compromiso.</ReloadAnytimeModeInfo>
+  <ReloadAnytimeModeInfo>Puedes guardar y cargar el juego en cualquier momento.\n\nEsta no es una mala elección si todavía estás aprendiendo a juegar, si se ajusta a tu estilo de juego personal o a tus objetivos, si estás usando mods que pueden romper tu juego, o si tienes la intención de autoejecutar el modo de compromiso.</ReloadAnytimeModeInfo>
+  <PermadeathModeInfo>Solo puede guardar al abandonar el juego.\n\nDesde que RimWorld es un generador de historias, incluso perder a todos menos a uno, no es el final del juego; es parte de la historia. El juego está diseñado para permitir la recuperación después de las pérdidas.\n\nJugar con estas terribles situaciones hace que una historia tenga tanta tragedia como triunfo. Es la forma en que RimWorld fue diseñado para ser jugado.\n\n¡Hay una razón por la cual Luke Skywalker no abandonó y siguió avanzando cuando mataron a sus padres. ¡La pérdida y la recuperación son dramáticas!</PermadeathModeInfo>
   <CanChangeStorytellerSettingsDuringPlay>El cuentacuentos y dificultad puede cambiarse en cualquier momento.</CanChangeStorytellerSettingsDuringPlay>
   
   <!--=========== Landing site select =========-->
@@ -174,8 +175,10 @@
   <Adulthood>Edad adulta</Adulthood>
   <Childhood>Infancia</Childhood>
   <Current>Actualizad</Current>
-  <Male>masculino</Male>
-  <Female>fémina</Female>
+  <Male>hombre</Male>
+  <Female>mujer</Female>
+  <MaleAnimal>macho</MaleAnimal>
+  <FemaleAnimal>hembra</FemaleAnimal>
   <Pain>Dolor</Pain>
   <Health>Salud</Health>
   <Relations>Relaciones</Relations>
