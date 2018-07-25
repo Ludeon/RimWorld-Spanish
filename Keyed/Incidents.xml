@@ -19,7 +19,7 @@
   <FriendlyRaidLeaderPresent>Uno de los {0} - {1}, es el lider de la faccion.</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>Escape de Capsula</LetterLabelRefugeePodCrash>
-  <RefugeePodCrash>Un [PAWN_title] de nombre [PAWN_nameDef] ha chocado en una cápsula de escape cercana. Si [PAWN_pronoun] sobrevive al impacto, [PAWN_pronoun] estará gravemente herido.</RefugeePodCrash>
+  <RefugeePodCrash>Un [PAWN_title] de nombre [PAWN_nameDef] ha chocado en una cápsula de escape cercana. Si [PAWN_pronoun] sobrevive al impacto, [PAWN_pronoun] estará gravemente herido.\n\nDependende de la [PAWN_nameDef] faction, puedes ser capaz de rescatar a [PAWN_objective] y esperar [PAWN_pronoun] se une libremente, o capturar a [PAWN_objective] para reclutamiento o esclavitud.</RefugeePodCrash>
   <RefugeePodCrash_NonHostileOrFactionless>Puedes rescatar [PAWN_objective] y enviar [PAWN_objective] sobre [PAWN_possessive] la marcha. Ó capturarlo [PAWN_objective] para reclutamiento o esclavitud.</RefugeePodCrash_NonHostileOrFactionless>
   <RefugeePodCrash_Hostile>Puedes capturarlo [PAWN_objective] para propósitos de reclutamiento o esclavitud. [PAWN_pronoun] es de [PAWN_factionName].</RefugeePodCrash_Hostile>
   <RefugeePodCrash_NonHostile>Nota: [PAWN_nameDef] es de [PAWN_factionName]. Capturar a [PAWN_objective] los enojará, mientras lo rescatas y curas [PAWN_objective] mejoraras las relaciones de lafacción.</RefugeePodCrash_NonHostile>
@@ -80,7 +80,7 @@
   
   <!-- Refugee chased -->
 	<RefugeeChasedTitle>Refugiado perseguido por {0}</RefugeeChasedTitle>
-  <RefugeeChasedInitial>Un [PAWN_title] de nombre [PAWN_nameDef] te llama desde las proximidades. [PAWN_pronoun] está siendo perseguido por {2} de {3}!\n\n[PAWN_pronoun] pide seguridad y ofrece unirse a tu colonia. [PAWN_pronoun] te dice [PAWN_pronoun] tiene {4} años, pero no hay tiempo para recolectar más información.\n\nTen cuidado: si aceptas, tendrás que luchar contra {2} sobre [PAWN_possessive] en la sombra.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>Un [PAWN_title] de nombre [PAWN_nameDef] te llama desde las proximidades. [PAWN_pronoun] está siendo perseguido por {2} de {3}!\n\n[PAWN_pronoun] pide seguridad y ofrece unirse a tu colonia. [PAWN_pronoun] te dice [PAWN_pronoun] tiene {4} años, pero no hay tiempo para recolectar más información.\n\nTen cuidado: si aceptas, tendrás que luchar contra {2} sobre [PAWN_possessive] en la sombra. Su grupo está compuesto de:\n\n{5}</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Oferta de salvamento</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Ignorar el mensaje</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>Antes de cortar la transmisión, oyes gritos de pánico de {0} a través del pequeño altavoz.</RefugeeChasedRejected>
@@ -131,7 +131,7 @@
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Caravana solicita...</LetterLabelCaravanRequest>
   <LetterCaravanRequest>Un asentamiento cercano, {0}, contacta contigo con una solicitud de comercio especial. Quieren comprar:\n\n  {1} (valor {2})\n\nA cambio, ofrecen:\n\n  {3} (valor {4})\n\nEsta solicitud vence después de: {5}\n\nSi deseas realizar el intercambio, envía una caravana con los suministros solicitados. El tiempo estimado de viaje es {6}. Puedes revisar esta oferta seleccionando {0} en el mapa mundial.</LetterCaravanRequest>
-  <CaravanRequestInfo>Solicitando: {0}, Recompensa: {1} ({2} menos)</CaravanRequestInfo>
+  <CaravanRequestInfo>Solicitando: {0} ({3}), Recompensa: {1} ({4}) ({2} menos)</CaravanRequestInfo>
   <NormalQualityOrBetter>calidad normal o mejor</NormalQualityOrBetter>
 
   <!-- Caravan demand -->
