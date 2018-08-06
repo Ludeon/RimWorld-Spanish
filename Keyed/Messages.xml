@@ -35,7 +35,7 @@
 
   <MessageOutOfNearbyShellsFor>{0} no ha encontrado obuses cercanos para {1}.</MessageOutOfNearbyShellsFor>
 
-  <MessageAnimalsGoPsychoHunted>Atención: {0} pueden atacar cuando se les causa alguna herida ({1} probabilidad en el alcance del rifle, aumentada si está más cerca).</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>Advertencia: {0} tiene una probabilidad {1} de atacar cuando este herido desde el alcance del rifle. La probabilidad es mayor si está más cerca, menos con buen cazador sigiloso.</MessageAnimalsGoPsychoHunted>
   <MessageAnimalManhuntsOnTameFailed>Atención: {0} puede atacar en un intento fallido de ser domado ({1} probabilidad).</MessageAnimalManhuntsOnTameFailed>
   
   <LetterLabelMessageRecruitSuccess>Nuevo recluta</LetterLabelMessageRecruitSuccess>
@@ -260,8 +260,6 @@
 
   <MessageChoseRoute>Caravana viajará automáticamente al primer punto de ruta.</MessageChoseRoute>
 
-  <MessageBlockedHediff>{0} bloqueado {1} en: {2}.</MessageBlockedHediff>
-
   <MessageCraftedMasterwork>{0} ha creado un {1}.</MessageCraftedMasterwork>
 
   <MessagePlayerTriedToLeaveMapViaExitGrid>Para salir del área, usa el botón 'reformar caravana' en la vista del Mundo.</MessagePlayerTriedToLeaveMapViaExitGrid>
@@ -308,7 +306,8 @@
 
   <MessagePredatorHuntingPlayerAnimal>¡{0} está cazando {1} por comerselo!</MessagePredatorHuntingPlayerAnimal>
   
-  <MessagePrisonerResistanceBroken>La resistencia del Prisionero {0} ha sido caido por {1}. Los intentos de reclutamiento comenzarán.</MessagePrisonerResistanceBroken>
+  <MessagePrisonerResistanceBroken>La resistencia del Prisionero {0} ha sido caido por {1}.</MessagePrisonerResistanceBroken>
+  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Los intentos de reclutamiento comenzarán.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <MessageDisableModsBeforeCleaningTranslationFiles>Deshabilita todas las modificaciones antes de usar esta herramienta.</MessageDisableModsBeforeCleaningTranslationFiles>
   <MessageTranslationFilesCleanupDone>Hecho. Carpeta afectada: {0}</MessageTranslationFilesCleanupDone>

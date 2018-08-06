@@ -53,7 +53,7 @@
   <StruckMineable>¡Hemos descubierto {0}!</StruckMineable>
 
   <LetterLabelAnimalManhunterRevenge>{0} se estan vengando</LetterLabelAnimalManhunterRevenge>
-  <AnimalManhunterFromDamage>¡[PAWN_indefinite] está atacando después de haber sido herido!</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>¡[PAWN_indefinite] está atacando después de haber sido herido!\n\nCazará a cualquier humanoide que pueda alcanzar. Se calmará cuando se vaya a dormir.</AnimalManhunterFromDamage>
   <AnimalManhunterFromTaming>¡[PAWN_indefinite] está atacando debido a un intento fallido de ser domesticado!</AnimalManhunterFromTaming>
   <AnimalManhunterOthers>¡Otro {0}s en las cercanías también se puesto enfurecido!</AnimalManhunterOthers>
 
@@ -227,5 +227,10 @@
   <!-- Predator hunting colonist -->
   <LetterLabelPredatorHuntingColonist>{0} cazando a {1}</LetterLabelPredatorHuntingColonist>
   <LetterPredatorHuntingColonist>¡{0} esta cazando a {1} para comerselo!</LetterPredatorHuntingColonist>
-
+  
+   <!-- Disease -->
+  <LetterDisease_Blocked>{0} bloquea {1} sobre: {2}.</LetterDisease_Blocked>
+  <LetterLabelTraitDisease>({0}) enfermo</LetterLabelTraitDisease>
+  <LetterTraitDisease>{0} se ha enfermado de {1}.\n\nAsegúrate de tener una cama médica y un médico. Asegúrate de que [PAWN_pronoun] recibe el tratamiento adecuado y pasa tanto tiempo en la cama como sea posible.</LetterTraitDisease>
+  
 </LanguageData>

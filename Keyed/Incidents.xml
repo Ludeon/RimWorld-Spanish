@@ -18,12 +18,12 @@
   <!-- Friendly raids -->
   <FriendlyRaidLeaderPresent>Uno de los {0} - {1}, es el lider de la faccion.</FriendlyRaidLeaderPresent>
 
-  <LetterLabelRefugeePodCrash>Escape de Capsula</LetterLabelRefugeePodCrash>
-  <RefugeePodCrash>Un [PAWN_title] de nombre [PAWN_nameDef] ha chocado en una cápsula de escape cercana. Si [PAWN_pronoun] sobrevive al impacto, [PAWN_pronoun] estará gravemente herido.\n\nDependende de la [PAWN_nameDef] faction, puedes ser capaz de rescatar a [PAWN_objective] y esperar [PAWN_pronoun] se une libremente, o capturar a [PAWN_objective] para reclutamiento o esclavitud.</RefugeePodCrash>
-  <RefugeePodCrash_NonHostileOrFactionless>Puedes rescatar [PAWN_objective] y enviar [PAWN_objective] sobre [PAWN_possessive] la marcha. Ó capturarlo [PAWN_objective] para reclutamiento o esclavitud.</RefugeePodCrash_NonHostileOrFactionless>
-  <RefugeePodCrash_Hostile>Puedes capturarlo [PAWN_objective] para propósitos de reclutamiento o esclavitud. [PAWN_pronoun] es de [PAWN_factionName].</RefugeePodCrash_Hostile>
-  <RefugeePodCrash_NonHostile>Nota: [PAWN_nameDef] es de [PAWN_factionName]. Capturar a [PAWN_objective] los enojará, mientras lo rescatas y curas [PAWN_objective] mejoraras las relaciones de lafacción.</RefugeePodCrash_NonHostile>
-
+  <LetterLabelRefugeePodCrash>Vaina de transporte accidentada</LetterLabelRefugeePodCrash>
+  <RefugeePodCrash>Un [PAWN_title] de nombre [PAWN_nameDef] se está estrellando en una cápsula de transporte cercana. Si [PAWN_pronoun] sobrevive el impacto, [PAWN_pronoun] estará gravemente herido (a).</RefugeePodCrash>
+  <RefugeePodCrash_Factionless>[PAWN_nameDef] no está afiliado a ninguna facción. Puedes rescatar a [PAWN_objective] y esperar [PAWN_pronoun] se une libremente o captura a [PAWN_objective] para reclutamiento o esclavitud.</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Hostile>[PAWN_nameDef] es de tu enemigo [PAWN_factionName]. Puedes capturar a [PAWN_objective] para reclutamiento o esclavitud.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_NonHostile>[PAWN_nameDef] es de [PAWN_factionName]. Si rescatas a [PAWN_objective], [PAWN_pronoun] porá unirse libremente. Ó de otra manera, [PAWN_pronoun] volverá a casa y difundirá la reputación entre sus facciones.\n\nTambién puedes capturar a [PAWN_objective] para fines de reclutamiento o esclavitud, pero esto enojará a [PAWN_possessive] facción.</RefugeePodCrash_NonHostile>
+	
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
   <CargoPodCrash>Hemos detectado un grupo de cápsulas de carga estrellándose en las cercanías.\n\nQuizás encuentres algo útil en los restos.</CargoPodCrash>
 
@@ -52,9 +52,6 @@
   <LetterLabelWandererJoin>Nomada se une</LetterLabelWandererJoin>
   <WandererJoin>Un {0} llamado [PAWN_nameDef] acaba de llegar y ha decidido unirse a la colonia. [PAWN_pronoun] es un {1}.\n\n[PAWN_pronoun] está dispuesto a contribuir, pero no se irá voluntariamente. Si no quieres a [PAWN_nameDef], puedes abandonar a [PAWN_objective], vender a [PAWN_objective] como esclavo, o simplemente matar a [PAWN_objective]. Sin embargo, sus otros colonos pueden encontrar esto molesto.</WandererJoin>
 
-  <LetterLabelManhunterPackArrived>Manada de CazaHombres</LetterLabelManhunterPackArrived>
-  <ManhunterPackArrived>Una manada CazaHombres {0} ha entrado en el área. Ellos recorrerán la región, en busca de carne humanoide\n\nEllos no pueden pasar por las puertas, por lo que si te quedas detrás de las paredes deberas estar a salvo. No van a atacar a las torretas inactivas, por lo que pasarán de tus torretas desconectadas, si es que deseas salvarlas.\n\nLos {0} van a dejar la zona en uno ó dos días. Puedes esconderte y esperar, o luchar contra ellos.</ManhunterPackArrived>
-  
   <!-- Crashed ship part-->
   <MessageAnimalInsanityPulse>La antigua estructura ha emitido un pulso psíquico que ha hecho enloquecer a los animales cercanos.</MessageAnimalInsanityPulse>
   <LetterShipPartDroveColonistInsane>La nave estrellada ha emitido un pulso psíquico concentrado que ha hecho enloquecer al colono {0}.</LetterShipPartDroveColonistInsane>
@@ -102,10 +99,6 @@
   <!-- Trader caravan -->
   <LetterLabelTraderCaravanArrival>{1} de {0}</LetterLabelTraderCaravanArrival>
   <LetterTraderCaravanArrival>Una caravana de {0} se aproxima. Ellos son {1}.\n\n¡Se quedarán en la vecindad de la colonia durante unos días antes de irse. Puedes atacarlos - pero esto va a enfadar a su facción!</LetterTraderCaravanArrival>
-  
-  <!-- Building breaks down -->
-  <LetterLabelBuildingBrokenDown>Avería: {0}</LetterLabelBuildingBrokenDown>
-  <LetterBuildingBrokenDown>Una de tus máquinas de ({0}) se ha roto. No funcionará hasta que un colono con el tipo de trabajo de Construcción vaya y lo arregle.</LetterBuildingBrokenDown>
   
   <!-- Ransom demand -->
 	<RansomDemandTitle>Petición de rescate para {0}</RansomDemandTitle>
