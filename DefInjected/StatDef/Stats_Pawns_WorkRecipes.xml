@@ -1,40 +1,73 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <TailoringSpeed.label>Velocidad de sastrería</TailoringSpeed.label>
-    <TailoringSpeed.description>Velocidad a la que esta persona elabora ropa.</TailoringSpeed.description>
-    
-    <SmithingSpeed.label>Velocidad de forja</SmithingSpeed.label>
-    <SmithingSpeed.description>Velocidad a la que esta persona forja armas y herramientas.</SmithingSpeed.description>
-	
-    <CookSpeed.label>Velocidad de cocinado</CookSpeed.label>
-    <CookSpeed.description>Velocidad a la que esta persona prepara comidas.</CookSpeed.description>
-	
-	<FoodPoisonChance.label>Probabilidad de intoxicar comida</FoodPoisonChance.label>
-	<FoodPoisonChance.description>Las probabilidades que tiene este personaje de intoxicar la comida involuntariamente mientras cocina.</FoodPoisonChance.description>
-	
-	<BrewingSpeed.label>Velocidad de elaboración de cerveza</BrewingSpeed.label>
-	<BrewingSpeed.description>Velocidad a la que esta persona elabora cerveza.</BrewingSpeed.description>
-    
-    <ButcheryFleshSpeed.label>Velocidad de despieze</ButcheryFleshSpeed.label>
-    <ButcheryFleshSpeed.description>Velocidad a la que esta persona despieza animales.</ButcheryFleshSpeed.description>
-    
-    <ButcheryFleshEfficiency.label>Eficiencia del despieze</ButcheryFleshEfficiency.label>
-    <ButcheryFleshEfficiency.description>Multiplicador aplicado a la cantidad de carne producida al despiezar criaturas.</ButcheryFleshEfficiency.description>
-    
-    <ButcheryMechanoidSpeed.label>Velocidad de desmontaje</ButcheryMechanoidSpeed.label>
-    <ButcheryMechanoidSpeed.description>Velocidad a la que esta persona puede desensamblar un mecanoide.</ButcheryMechanoidSpeed.description>
-    
-    <ButcheryMechanoidEfficiency.label>Eficiencia de desmontaje</ButcheryMechanoidEfficiency.label>
-    <ButcheryMechanoidEfficiency.description>Multiplicador aplicado a la cantidad de materiales obtenidos cuando esta persona desensambla un mecanoide.</ButcheryMechanoidEfficiency.description>
-    
-    <StonecuttingSpeed.label>Velocidad de corte de rocas</StonecuttingSpeed.label>
-    <StonecuttingSpeed.description>Velocidad a la que esta persona produce bloques de piedra a partir de roca bruta.</StonecuttingSpeed.description>
-    
-    <SmeltingSpeed.label>Velocidad de fundición</SmeltingSpeed.label>
-    <SmeltingSpeed.description>Velocidad a la que esta persona funde objetos.</SmeltingSpeed.description>
-	
-	<DrugProductionSpeed.label>Velocidad de producción de drogas</DrugProductionSpeed.label>
-    <DrugProductionSpeed.description>Qué tan rápida es esta persona produciendo drogas.</DrugProductionSpeed.description>
-		
+  
+  <!-- EN: butchery efficiency -->
+  <ButcheryFleshEfficiency.label>Eficiencia del despieze</ButcheryFleshEfficiency.label>
+  <!-- EN: The amount of meat produced when butchering flesh creatures. The actual amount is also related to the creature's size. -->
+  <ButcheryFleshEfficiency.description>Multiplicador aplicado a la cantidad de carne producida al despiezar criaturas.</ButcheryFleshEfficiency.description>
+  
+  <!-- EN: butchery speed -->
+  <ButcheryFleshSpeed.label>Velocidad de despieze</ButcheryFleshSpeed.label>
+  <!-- EN: The speed at which this person butchers flesh creatures. -->
+  <ButcheryFleshSpeed.description>Velocidad a la que esta persona despieza animales.</ButcheryFleshSpeed.description>
+  
+  <!-- EN: mechanoid disassembly efficiency -->
+  <ButcheryMechanoidEfficiency.label>Eficiencia de desmontaje</ButcheryMechanoidEfficiency.label>
+  <!-- EN: The amount of materials yielded when this person disassembles a dead mechanoid. The actual amount is also related to the mechanoid's size. -->
+  <ButcheryMechanoidEfficiency.description>Multiplicador aplicado a la cantidad de materiales obtenidos cuando esta persona desensambla un mecanoide.</ButcheryMechanoidEfficiency.description>
+  
+  <!-- EN: mechanoid disassembly speed -->
+  <ButcheryMechanoidSpeed.label>Velocidad de desmontaje</ButcheryMechanoidSpeed.label>
+  <!-- EN: The speed at which this person can disassemble a mechanoid. -->
+  <ButcheryMechanoidSpeed.description>Velocidad a la que esta persona puede desensamblar un mecanoide.</ButcheryMechanoidSpeed.description>
+  
+  <!-- EN: cooking speed -->
+  <CookSpeed.label>Velocidad de cocinado</CookSpeed.label>
+  <!-- EN: The speed at which this person cooks meals. -->
+  <CookSpeed.description>Velocidad a la que esta persona prepara comidas.</CookSpeed.description>
+  
+  <!-- EN: drug cooking speed -->
+  <DrugCookingSpeed.label>Velocidad de elaboración de cerveza</DrugCookingSpeed.label>
+  <!-- EN: The speed at which this person brews beer and tea, or makes simple drug products like smokeleaf joints. -->
+  <DrugCookingSpeed.description>Velocidad a la que esta persona elabora cerveza.</DrugCookingSpeed.description>
+  
+  <!-- EN: drug synthesis speed -->
+  <DrugSynthesisSpeed.label>Velocidad de producción de drogas</DrugSynthesisSpeed.label>
+  <!-- EN: How fast this character synthesizes complex chemical drugs. -->
+  <DrugSynthesisSpeed.description>Qué tan rápida es esta persona produciendo drogas.</DrugSynthesisSpeed.description>
+  
+  <!-- EN: food poison chance -->
+  <FoodPoisonChance.label>Probabilidad de intoxicar comida</FoodPoisonChance.label>
+  <!-- EN: The probability that this character will inadvertently poison a meal they cook. Food poison temporarily debilitates anyone it strikes. -->
+  <FoodPoisonChance.description>Las probabilidades que tiene este personaje de intoxicar la comida involuntariamente mientras cocina.</FoodPoisonChance.description>
+  
+  <!-- EN: sculpting speed -->
+  <SculptingSpeed.label>Velocidad de escultura</SculptingSpeed.label>
+  <!-- EN: The speed at which this person creates sculptures.\n\nThis stat only affects how fast sculptures are produced, not their quality. Quality is determined by the sculptor's artistic skill. -->
+  <SculptingSpeed.description>Velocidad a la que esta persona esculpe. No es afectada por la habilidad artistica - los artistas más experimentados trabajan mejor en lugar de más rapido.</SculptingSpeed.description>
+  
+  <!-- EN: smelting speed -->
+  <SmeltingSpeed.label>Velocidad de fundición</SmeltingSpeed.label>
+  <!-- EN: The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill. -->
+  <SmeltingSpeed.description>Velocidad a la que esta persona funde objetos.</SmeltingSpeed.description>
+  
+  <!-- EN: smithing speed -->
+  <SmithingSpeed.label>Velocidad de forja</SmithingSpeed.label>
+  <!-- EN: Speed at which this person crafts weapons, machinery, and ammunition.\n\nThis stat only affects how fast items are produced, not their quality. Quality is determined by the crafter's skill. -->
+  <SmithingSpeed.description>Velocidad a la que esta persona forja armas y herramientas.</SmithingSpeed.description>
+  
+  <!-- UNUSED -->
+  <StonecuttingSpeed.label>Velocidad de corte de rocas</StonecuttingSpeed.label>
+  <StonecuttingSpeed.description>Velocidad a la que esta persona produce bloques de piedra a partir de roca bruta.</StonecuttingSpeed.description>
+  
+  <!-- EN: tailoring speed -->
+  <TailoringSpeed.label>Velocidad de sastrería</TailoringSpeed.label>
+  <!-- EN: The speed at which this person makes clothes.\n\nThis stat only affects how fast clothes are produced, not their quality. Quality is determined by the tailor's crafting skill. -->
+  <TailoringSpeed.description>Velocidad a la que esta persona elabora ropa.</TailoringSpeed.description>
+  
+  <!-- EN: unskilled labor speed -->
+  <UnskilledLaborSpeed.label>TODO</UnskilledLaborSpeed.label>
+  <!-- EN: The speed at which this person carries out unskilled labor like making stone blocks, making chemfuel at a refinery or burning items. -->
+  <UnskilledLaborSpeed.description>TODO</UnskilledLaborSpeed.description>
+  
 </LanguageData>
