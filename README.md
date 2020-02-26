@@ -9,27 +9,29 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 --------------------
 
--Traductores:
-
--Capiqua 
-
--Gaesatae 
-
--Ghrull
-
--Vhiden
-
--Yllelder
-
--Xeros08
+- Traductores Activos:
+	- Xeros08
 
 
--Colaboradores:
 
--Emsaic
+- Tradcutores:
+	- Capiqua 
 
--Alvirolo
+	- Gaesatae 
 
--Mototron
+	- Ghrull
 
--Amatiasq
+	- Vhiden
+
+	- Yllelder
+
+
+- Colaboradores:
+
+	- Emsaic
+
+	- Alvirolo
+
+	- Mototron
+
+	- Amatiasq
