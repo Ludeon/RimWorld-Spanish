@@ -2,9 +2,9 @@
 <!--|=============================================================|-->
 <!--|Inserción dinámica de texto:             (Keyed/Grammar.xml) |-->
 <!--|[PAWN_nameDef]            ==>          Nombre del personaje  |-->
-<!--|[PAWN_pronoun]            ==>               El/La  |  el/la  |-->
-<!--|[PAWN_possessive]         ==>                  Su  |  su     |-->
-<!--|[PAWN_objective]          ==>               Lo/La  |  lo/la  |-->
+<!--|[PAWN_pronoun]            ==>           El/Ella  |  el/ella  |-->
+<!--|[PAWN_possessive]         ==>                Su  |  su       |-->
+<!--|[PAWN_objective]          ==>             Lo/La  |  lo/la    |-->
 <!--|=============================================================|-->
 
 <BackstoryTranslations>
@@ -835,72 +835,82 @@
 		<title>ladrón brutal</title>
 		<!-- EN: thief -->
 		<titleShort>ladrón</titleShort>
-		<!-- EN: Growing up in a gang, [PAWN_nameDef] learned the brutality of the streets.\n\nKnowing that showing weakness could be fatal, he closed himself of to others. -->
-		<desc>Creciendo en una pandilla, [PAWN_nameDef] aprendió la brutalidad de las calles\n\nSabiendo que mostrar debilidad podía ser fatal, se cerró a otros.</desc>
+		<!-- EN: Growing up in a gang, [PAWN_nameDef] learned the brutality of the streets.\n\nKnowing that showing weakness could be fatal, [PAWN_pronoun] closed [PAWN_objective]self off from others. -->
+		<desc>Creciendo en una pandilla, [PAWN_nameDef] aprendió la brutalidad de las calles.\n\nSabiendo que mostrar debilidad podía ser fatal, se cerró a otros.</desc>
 	</BrutalThief89>
 	
 	<BunkerKid36>
 		<!-- EN: bunker kid -->
 		<title>niño búnker</title>
 		<!-- EN: bunker kid -->
-		<titleShort>niño de búnker</titleShort>
-		<!-- EN: Ricardo grew up in an underground shelter, waiting for radioactive fallout to subside. His rich family had gained access to a luxury bunker city, while billions died on the surface.\n\nDetermined to one day seek revenge against the hated enemy, Ricardo spent most of his time practicing shooting in his private training facility. -->
-		<desc>Ricardo creció en un refugio subterráneo, esperando que la lluvia radiactiva disminuyera. Su rica familia había ganado acceso a una ciudad de búnkeres de lujo, mientras que miles de millones de personas murieron en la superficie.\n\nDecidido a vengarse un día del odiado enemigo, Ricardo pasó la mayor parte de su tiempo practicando tiro en su centro de entrenamiento privado.</desc>
+		<titleShort>niño búnker</titleShort>
+		<!-- EN: [PAWN_nameDef] grew up in an underground shelter, waiting for radioactive fallout to subside. [PAWN_possessive] rich family had gained access to a luxury bunker city, while billions died on the surface.\n\nDetermined to one day seek revenge against the hated enemy, [PAWN_nameDef] spent most of [PAWN_possessive] time practicing shooting in [PAWN_possessive] private training facility. -->
+		<desc>[PAWN_nameDef] creció en un refugio subterráneo, esperando que la lluvia radiactiva disminuyera. Su rica familia había ganado acceso a una ciudad búnker de lujo, mientras que miles de millones de personas morían en la superficie.\n\nDecidido(a) a vengarse algún día del odiado enemigo, [PAWN_nameDef] pasó la mayor parte de su tiempo practicando tiro en su centro de entrenamiento privado.</desc>
 	</BunkerKid36>
 	
 	<BushSniper94>
 		<!-- EN: bush sniper -->
-		<title>francotirador</title>
+		<title>francotirador camufaldo</title>
 		<!-- EN: sniper -->
 		<titleShort>francotirador</titleShort>
 		<!-- EN: [PAWN_nameDef]'s peaceful life was cut short when [PAWN_possessive] country was brutally invaded.\n\n[PAWN_nameDef] was drafted into service as soon as [PAWN_pronoun] was of legal age, and quickly showed an aptitude for rifles. [PAWN_pronoun] spent months living in the forests picking off soldiers who dared cross the border. -->
-		<desc>La vida pacífica de [PAWN_nameDef] se truncó cuando su país fue brutalmente invadido.\n\n[PAWN_nameDef] se puso en servicio tan pronto como fue mayor de edad, y rápidamente mostró una buena aptitud para los rifles. [PAWN_pronoun] pasó meses viviendo en los bosques matando uno a uno los soldados que se atrevieron a cruzar la frontera.</desc>
+		<desc>La pacífica vida de [PAWN_nameDef] se acabó cuando su país fue brutalmente invadido.\n\n[PAWN_nameDef] fue reclutado tan pronto como fue mayor de edad, y rápidamente mostró una buena aptitud para los rifles. [PAWN_pronoun] pasó meses viviendo en los bosques matando uno a uno a los soldados que se atrevieran a cruzar la frontera.</desc>
 	</BushSniper94>
+
 	
 	<BusinessGangster35>
 		<!-- EN: business gangster -->
 		<title>gangster de negocios</title>
 		<!-- EN: gangster -->
 		<titleShort>gángster</titleShort>
-		<!-- EN: Staying one step ahead of the law, [PAWN_nameDef] became a legitimate businessman and silenced anyone who dared say otherwise. As proprietor of brothels, speakeasies and eateries, [PAWN_nameDef]'s good fortune continued while his competition suffered a series of unfortunate and unexplained accidents. -->
-		<desc>Manteniéndose un paso por delante de la ley, [PAWN_nameDef] se convirtió en un empresario legítimo y silenció a cualquiera que se atreviera a decir lo contrario. Como propietario de burdeles, bares y restaurantes, la buena fortuna de [PAWN_nameDef] continuó mientras su competencia sufrió una serie de desafortunados e inexplicables accidentes.</desc>
+		<!-- EN: Staying one step ahead of the law, [PAWN_nameDef] became a legitimate businessman and silenced anyone who dared say otherwise. As proprietor of brothels, speakeasies and eateries, [PAWN_nameDef]'s good fortune continued while [PAWN_possessive] competition suffered a series of unfortunate and unexplained accidents. -->
+		<desc>Manteniéndose un paso por delante de la ley, [PAWN_nameDef] se convirtió en un empresario legítimo y silenció a cualquiera que se atreviera a decir lo contrario. Como propietario de burdeles, bares y restaurantes, la buena fortuna de [PAWN_nameDef] continuó mientras su competencia sufria una serie de desafortunados e inexplicables accidentes.</desc>
 	</BusinessGangster35>
 	
-	<Cadet56>
+  <Cadet56>
 		<!-- EN: cadet -->
 		<title>cadete</title>
 		<!-- EN: cadet -->
 		<titleShort>cadete</titleShort>
-		<!-- EN: Born on the planet New China, [PAWN_nameDef]'s father was a police chief and kept extremely strict watch over his son.\n\n[PAWN_nameDef] had to do military-style drill exercises every day and keep his room spotlessly clean, always ready for inspection. [PAWN_pronoun] came to abhor violence. -->
-		<desc>Nacido(a) en el planeta Nueva China, el padre de [PAWN_nameDef] era un jefe de policía y mantenía una vigilancia extremadamente estricta sobre su hijo.\n\n[PAWN_nameDef] tenía que hacer ejercicios de estilo militar todos los días y mantener su habitación impecablemente limpia, siempre lista para una inspección. [PAWN_pronoun] llegó a aborrecer la violencia.</desc>
+		<!-- EN: Born on the planet New China, [PAWN_nameDef]'s father was a police chief and kept extremely strict watch over [PAWN_possessive] son.\n\n[PAWN_nameDef] had to do military-style drill exercises every day and keep [PAWN_possessive] room spotlessly clean, always ready for inspection. [PAWN_pronoun] came to abhor violence. -->
+		<desc>Nacido(a) en el planeta Nueva China, el padre de [PAWN_nameDef] era un jefe de policía y vigilaba muy estrictamente a su hijo.\n\n[PAWN_nameDef] tuvo que hacer ejercicios de estilo militar todos los días y mantener su habitación impecablemente limpia, siempre lista para una inspección. [PAWN_pronoun] llegó a aborrecer la violencia.</desc>
 	</Cadet56>
 	
 	<CaravanChild91>
 		<!-- EN: caravan child -->
 		<title>niño caravana</title>
 		<!-- EN: child -->
-		<titleShort>niño(a)</titleShort>
-		<!-- EN: [PAWN_nameDef] was born on a urbworld merchant ship to an entrepreneurial mother and an absent father. Born male, she disliked boy stuff, and got into her mother’s things all the time.\n\nEventually, she traveled with her mother to a glitterworld and spent her savings on a body she was happy with. -->
-		<desc>[PAWN_nameDef] nació en una nave mercante de un mundo urbano, con una madre emprendedora y un padre ausente. Nacido varón, no le gustaba las cosas de los chicos y se metia en las cosas de su madre todo el tiempo.\n\nEventualmente viajó con su madre a un mundo Brillante y gastó sus ahorros en un cuerpo con el que estaba feliz.</desc>
+		<titleShort>niño</titleShort>
+    <titleShortFemale>niña</titleShortFemale>
+		<!-- EN: [PAWN_nameDef] was born on a urbworld merchant ship to an entrepreneurial mother and an absent father. Born male, [PAWN_pronoun] disliked boy stuff, and got into [PAWN_possessive] mother’s things all the time.\n\nEventually, [PAWN_pronoun] traveled with [PAWN_possessive] mother to a glitterworld and spent [PAWN_possessive] savings on a body [PAWN_pronoun] was happy with. -->
+		<desc>[PAWN_nameDef] nació en una nave mercante de un mundo urbano, con una madre emprendedora y un padre ausente. Nacida varón, no le gustaban las cosas de los chicos y se metia en las cosas de su madre todo el tiempo.\n\nEventualmente viajó con su madre a un mundo Brillante y gastó sus ahorros en un cuerpo con el que estaba feliz.</desc>
 	</CaravanChild91>
 	
 	<Caravaneer53>
 		<!-- EN: caravaneer -->
 		<title>caravaneador</title>
+    <titleFemale>caravaneadora</titleFemale>
 		<!-- EN: caravaneer -->
 		<titleShort>caravaneador</titleShort>
+    <titleShortFemale>caravaneadora</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was the leader of a caravan. [PAWN_pronoun] was responsible for the safety of [PAWN_possessive] caravan and was the head negotiator in countless trade deals.\n\n[PAWN_pronoun] and [PAWN_possessive] people prospered, but their wealth made them a target for brigands. They often had to take up arms to fend off bandits and highwaymen. -->
-		<desc>[PAWN_nameDef] era el líder de una caravana nómada. Era su deber negociar acuerdos comerciales y asegurar la seguridad de su caravana contra bandoleros y salteadores.\n\n[PAWN_pronoun] se convirtió en un maestro en la gestión de mercancías, trazando rutas y haciendo buenos negocios. [PAWN_pronoun] y su gente prosperaron, pero su riqueza los convirtió en blanco de bandidos. A menudo tenían que tomar las armas para defenderse de los bandidos y los bandoleros.</desc>
+		<desc>[PAWN_nameDef] era líder de una caravana nómada. Era su deber negociar en los acuerdos comerciales y asegurar la seguridad de su caravana.\n\n[PAWN_pronoun] y su gente prosperaron, pero su riqueza los convirtió en blanco de los bandidos. A menudo tenían que usar la violencia para defenderse de bandidos y bandoleros.</desc>
 	</Caravaneer53>
 	
 	<CaravanTraveler6>
 		<!-- EN: caravan traveler -->
-		<title>viajero caravana</title>
+		<title>viajero caravanero</title>
+    <titleFemale>viajera caravanera</titleFemale>
 		<!-- EN: traveler -->
 		<titleShort>viajero</titleShort>
+    <titleShortFemale>viajera</titleShortFemale>
 		<!-- EN: Born to a family of traveling merchants, [PAWN_nameDef] was mentored by [PAWN_possessive] father in the ways of being a trader. [PAWN_pronoun] was often tasked with caring for the pack animals. Due to [PAWN_possessive] nomadic lifestyle, [PAWN_pronoun] hunted and bartered for [PAWN_possessive] food. -->
-		<desc>Nacido(a) en el seno de una familia de comerciantes ambulantes, [PAWN_nameDef] fue asesorado(a) por su padre en las formas de ser un comerciante. A menudo se le encargaba el cuidado de los animales de carga. Debido al estilo de vida nómada, [PAWN_pronoun] cazaba e intercambiaba por comida.</desc>
+		<desc>Nacido(a) en el seno de una familia de mercadres ambulantes, [PAWN_nameDef] fue enseñado por su padre en las formas de ser un comerciante. A menudo era encargado(a) el cuidar de los animales de carga. Debido a su estilo de vida nómada, [PAWN_pronoun] cazaba e intercambiaba por comida.</desc>
 	</CaravanTraveler6>
+	
+  <!-- ==================================================================== -->
+  <!-- [01/03/2020] español de España revisado hasta aquí por Xeros08  #011 -->
+  <!-- ==================================================================== -->
 	
 	<CargoPilot58>
 		<!-- EN: cargo pilot -->
