@@ -12,6 +12,10 @@ http://ludeon.com/forums/index.php?topic=2933.0
 - Traductores Activos:
 	- Xeros08
 
+	- Azarashi
+
+	- Mellington
+
 
 
 - Tradcutores:
