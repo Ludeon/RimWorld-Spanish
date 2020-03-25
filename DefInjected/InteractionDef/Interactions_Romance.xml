@@ -10,14 +10,14 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
   <Breakup.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] ha roto su relación con [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] un tiempo a solas.</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] que lo mejor sería volver a ser amigos.</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha terminado su relación romántica con [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] romper.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] algo de espacio.</li>
+    <li>r_logentry->[INITIATOR_nameDef] le ha dicho a [RECIPIENT_nameDef] que lo de ellos no está funcionando.</li>
+    <li>r_logentry->[INITIATOR_nameDef] le ha dicho a [RECIPIENT_nameDef] que lo mejor sería que vieran a otra gente.</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
-  <MarriageProposal.label>Propuesta de Matrimonio</MarriageProposal.label>
+  <MarriageProposal.label>propuesta de Matrimonio</MarriageProposal.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef].</li>
@@ -26,11 +26,11 @@
   <MarriageProposal.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] propuso matrimionio a [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] propuso un compromiso de por vida a [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] a declarado que quiere pasar el resto de su vida con [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] le ha dicho a [RECIPIENT_nameDef] que quiere pasar su vida junto a [RECIPIENT_objective].</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
-  <RomanceAttempt.label>Coquetear</RomanceAttempt.label>
+  <RomanceAttempt.label>intento de romance</RomanceAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] by [wootactic].</li>
     <li>wooed->tried to flirt with</li>
@@ -128,30 +128,30 @@
     <li>complimenting->bromear sobre</li>
     <li>complimenting->elogiar sutilmente</li>
     <li>complimenting->mofarse sobre</li>
-    <li>romantic_adj->hermosa</li>
-    <li>romantic_adj->preciosa</li>
-    <li>romantic_adj->bella</li>
+    <li>romantic_adj->hermoso(a)</li>
+    <li>romantic_adj->precioso(a)</li>
+    <li>romantic_adj->bello(a)</li>
     <li>romantic_adj->elegante</li>
     <li>romantic_adj->brillante</li>
-    <li>romantic_adj->hermosa</li>
-    <li>romantic_adj->deliciosa</li>
-    <li>romantic_adj->delicada</li>
-    <li>romantic_adj->magnífica</li>
-    <li>romantic_adj->fina</li>
-    <li>romantic_adj->maravillosa</li>
+    <li>romantic_adj->hermoso(a)</li>
+    <li>romantic_adj->delicioso(a)</li>
+    <li>romantic_adj->delicado(a)</li>
+    <li>romantic_adj->magnífico(a)</li>
+    <li>romantic_adj->fino(a)</li>
+    <li>romantic_adj->maravilloso(a)</li>
     <li>romantic_adj->exquisita</li>
-    <li>romantic_adj->preciosa</li>
+    <li>romantic_adj->precioso(a)</li>
     <li>romantic_adj->espléndida</li>
     <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
     <li>romantic_noun->flor</li>
     <li>romantic_noun->estatua</li>
     <li>romantic_noun->nube</li>
     <li>romantic_noun->estrella</li>
-    <li>romantic_noun->moon</li>
     <li>romantic_noun->luna</li>
-    <li>romantic_noun->house</li>
+    <li>romantic_noun->sol</li>
+    <li>romantic_noun->casa</li>
     <li>romantic_noun->aurora</li>
-    <li>romantic_noun->[TreeType] tree</li>
+    <li>romantic_noun->[TreeType] árbol</li>
     <li>romantic_noun(p=2)->[TerrainFeature]</li>
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>

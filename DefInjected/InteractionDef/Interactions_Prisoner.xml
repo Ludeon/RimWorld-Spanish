@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: try to get to know -->
-  <BuildRapport.label>intento de conocer</BuildRapport.label>
+  <BuildRapport.label>intento de conocer mejor</BuildRapport.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subject] to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] about [subject].</li>
@@ -87,7 +87,7 @@
     <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] unirse a la comunidad.</li>
     <li>r_logentry->[INITIATOR_nameDef] prometió [goodthing] a [RECIPIENT_nameDef], y le ha pedido unirse a la comunidad.</li>
     <li>goodthing(p=15)->[ConceptPositive]</li>
-    <li>goodthing->comida limpia y fresca</li>
+    <li>goodthing->[Vegetable] limpios y frescos</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
@@ -104,13 +104,13 @@
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] habló sobre la alegría de la [freedom], y ofreció un medio para escapar.</li>
-    <li>r_logentry->[INITIATOR_nameDef] habló sobre la belleza del [TerrainFeature] y la libertad.</li>
-    <li>r_logentry->[INITIATOR_nameDef] demostró una forma de escape a [RECIPIENT_nameDef], y prometió [freedom].</li>
-    <li>r_logentry->[INITIATOR_nameDef] convenció a [RECIPIENT_nameDef] de que la seguridad es pobre y ha alentado una fuga.</li>
+    <li>r_logentry->[INITIATOR_nameDef] habló sobre la belleza del [TerrainFeature] y le ofreció la libertad.</li>
+    <li>r_logentry->[INITIATOR_nameDef] demostró una forma de escape a [RECIPIENT_nameDef], y le prometió [freedom].</li>
+    <li>r_logentry->[INITIATOR_nameDef] convenció a [RECIPIENT_nameDef] de que la seguridad es escasa, y ha alentado una fuga.</li>
     <li>freedom->libertad</li>
+    <li>freedom->oportunidad</li>
+    <li>freedom->hogar</li>
     <li>freedom->auto-determinación</li>
-    <li>freedom->emancipación</li>
-    <li>freedom->libertad</li>
   </SparkJailbreak.logRulesInitiator.rulesStrings>
   
 </LanguageData>
