@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_BuildMonument.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nTienes que construir un monumento. Tiene que ser  [monumentSize] grande y necesita las siguientes materias primas(Gesamtwert [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
+  </Decree_BuildMonument.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->monument decree</li>
+  -->
+  <Decree_BuildMonument.questNameRules.rulesStrings>
+    <li>questName->Decreto: Monumento</li>
+  </Decree_BuildMonument.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nTienes que [harvestItemCount]x [plantToHarvest_label] cosechar.\n\nPara esto es posible que plantar [plantToHarvest_label] y dejar que crezca primero.\n\n[decreeThreatInfo]</li>
+  </Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[plantToHarvest_label] harvest decree</li>
+  -->
+  <Decree_HarvestCrop.questNameRules.rulesStrings>
+    <li>questName->Decreto: Cosecha [plantToHarvest_label]</li>
+  </Decree_HarvestCrop.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must hunt or slaughter [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+  -->
+  <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nTienes que [animalToHuntWithCount] cazar o matar.\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+  </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[animalToHunt_label] hunting decree</li>
+  -->
+  <Decree_HuntAnimal.questNameRules.rulesStrings>
+    <li>questName->Decreto: Caza [animalToHunt_label]</li>
+  </Decree_HuntAnimal.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_ProduceItem.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nnecesitas hacer lo siguiente:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+  </Decree_ProduceItem.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[defToProduce_label] production decree</li>
+  -->
+  <Decree_ProduceItem.questNameRules.rulesStrings>
+    <li>questName->Decreto: trabajo [defToProduce_label] her</li>
+  </Decree_ProduceItem.questNameRules.rulesStrings>
+  
+</LanguageData>
