@@ -42,12 +42,15 @@
   <TabFormingCaravan>Caravana</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>Contenido</TabTransporterContents>
+  <!-- EN: Contents -->
+  <TabCasketContents>Contenido</TabCasketContents>
+
 
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
   <AddBill>Añadir proyecto</AddBill>
   <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
-  <RecipeRequiresSkills>La receta de {0} requiere las habilidades mostradas debajo. Ninguno de tus colonos las tiene, así que nadie trabajará en este proyecto.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>La receta {0} requiere las habilidades mostradas debajo. Ninguno de tus colonos las tiene, así que nadie trabajará en este proyecto.</RecipeRequiresSkills>
   <!-- EN: Min skill -->
   <MinimumSkill>Habilidad mínima</MinimumSkill>
   <!-- EN: SUSPENDED -->
@@ -57,7 +60,7 @@
   <!-- EN: Plant -->
   <PlantVerb>Sembrar</PlantVerb>
   <!-- EN: Copied bill cannot be pasted here. -->
-  <ClipboardBillNotAvailableHere>Las recetas copiadas no se pueden pegar aquí.</ClipboardBillNotAvailableHere>
+  <ClipboardBillNotAvailableHere>La receta copiada no se puede pegar aquí.</ClipboardBillNotAvailableHere>
   <!-- EN: Move up -->
   <ReorderBillUpTip>Desplazar hacia arriba</ReorderBillUpTip>
   <!-- EN: Move down -->
@@ -73,31 +76,51 @@
   <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>no puede añadir más</PasteBillTip_LimitReached>
 
+
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance remaining -->
   <RecruitmentResistance>Resistencia restante</RecruitmentResistance>
   <!-- EN: Recruitment difficulty -->
   <RecruitmentDifficulty>Dificultad de reclutamiento</RecruitmentDifficulty>
+  <!-- EN: Recruitment chance -->
+  <RecruitmentChance>Probabilidad de reclutamiento</RecruitmentChance>
+  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
+  <RecruitmentChanceExplanation>Factor dificultad de reclutamiento: {0}\nFactor estado de animo: {1}\nProbabilidad combinada: {2}</RecruitmentChanceExplanation>
+  <!-- EN: \n----------------\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
+  <RecruitmentChanceWithLastRecruiterExplanationPart>\n----------------\nÚltimo intento de reclutamiento\nReclutador: {3}\nFactor habilidad de negociación: {4}\nFactor opinión: {5} ({6})\nProbabilidad final para {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <!-- EN: \nResistance reduction: {0} -->
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\nReducción de resistencia: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: Relations gain on release -->
+  <PrisonerReleasePotentialRelationGains>Mejora de relaciones al liberar</PrisonerReleasePotentialRelationGains>
+  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>La mejora en las relaciones con la facción del prisonero si los liberas. Esto es afectado por el estado de salud físico y mental del sujeto.</PrisonerReleaseRelationGainsDesc>
+  <!-- EN: Prison break interval -->
+  <PrisonBreakMTBDays>Intervalo entre fugas de prisión</PrisonBreakMTBDays>
+  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
+  <PrisonBreakMTBDaysDescription>La media de días entre intentos de fuga. Es afectado por el estado de animo, la movilidad del prisionero y cuanto haya pasado desde el último intento de fuga.\n\nEsto ignora el tiempo que se pasa durmiendo, así que normalmente este número suele ser mayor.</PrisonBreakMTBDaysDescription>
+  <!-- EN: Slave price -->
+  <SlavePrice>Precio de esclavo</SlavePrice>
   <!-- EN: Gets food -->
-  <GetsFood>Es alimentado(a)</GetsFood>
+  <GetsFood>Recibe comida</GetsFood>
   <!-- EN: Doctors care -->
-  <DoctorsCare>Cuidados médicos</DoctorsCare>
+  <DoctorsCare>Tratamiento médico</DoctorsCare>
   <!-- EN: Gets medicine -->
   <GetsMedicine>Recibe medicina</GetsMedicine>
   <!-- EN: Try to recruit -->
   <ShouldTryToRecruit>Intentar reclutar</ShouldTryToRecruit>
   <!-- EN: Considered guilty (expires in {0}) -->
-  <ConsideredGuilty>Considerado culpable (expira en {0})</ConsideredGuilty>
+  <ConsideredGuilty>Considerado culpable (termina en {0})</ConsideredGuilty>
+
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
   <MoveSpeed>Velocidad de movimiento</MoveSpeed>
   <!-- EN: Efficiency -->
-  <Efficiency>Eficiencia</Efficiency>
+  <Efficiency>Eficacia</Efficiency>
   <!-- EN: Part efficiency -->
-  <PartEfficiency>Parte eficiente</PartEfficiency>
+  <PartEfficiency>Eficacia de parte</PartEfficiency>
   <!-- EN: Body part efficiency -->
-  <BodyPartEfficiency>Parte del cuerpo eficiente</BodyPartEfficiency>
+  <BodyPartEfficiency>Eficacia de la parte del cuerpo</BodyPartEfficiency>
   <!-- EN: Gone -->
   <MissingBodyPart>Perdida</MissingBodyPart>
   <!-- EN: Destroyed -->
@@ -109,13 +132,13 @@
   <!-- EN: Healthy -->
   <Healthy>Saludable</Healthy>
   <!-- EN: In pain -->
-  <InPain>Adolorido(a)</InPain>
+  <InPain>Dolorido(a)</InPain>
   <!-- EN: Pain -->
   <PainLevel>Dolor</PainLevel>
   <!-- EN: Injured -->
   <Injured>Herido(a)</Injured>
   <!-- EN: no health conditions -->
-  <NoHealthConditions>Ningún problema de salud</NoHealthConditions>
+  <NoHealthConditions>Sin problemas de salud</NoHealthConditions>
   <!-- EN: Whole body -->
   <WholeBody>Cuerpo completo</WholeBody>
   <!-- EN: Data processing -->
@@ -123,7 +146,7 @@
   <!-- EN: Communication -->
   <Communication>Comunicación</Communication>
   <!-- EN: Affects -->
-  <Affects>Afecta</Affects>
+  <Affects>Afecta a</Affects>
   <!-- EN: Bleeding -->
   <BleedingRate>Tasa de sangrado</BleedingRate>
   <!-- EN: death in {0} -->
@@ -137,15 +160,15 @@
   <!-- EN: Modifications ({0}) -->
   <MedicalOperationsMechanoidsShort>Modificaciones ({0})</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
-  <MedicalOperations>Operaciones médicas</MedicalOperations>
+  <MedicalOperations>operaciones médicas</MedicalOperations>
   <!-- EN: amputate -->
-  <Amputate>Amputar</Amputate>
+  <Amputate>amputar</Amputate>
   <!-- EN: harvest -->
-  <HarvestOrgan>Cosechar</HarvestOrgan>
+  <HarvestOrgan>extraer</HarvestOrgan>
   <!-- EN: remove -->
-  <RemoveOrgan>Remover</RemoveOrgan>
+  <RemoveOrgan>amputar</RemoveOrgan>
   <!-- EN: memory -->
-  <MemoryLower>Memoria</MemoryLower>
+  <MemoryLower>memoria</MemoryLower>
   <!-- EN: social interactions -->
   <SocialInteractionsLower>Interacciones sociales</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
@@ -159,15 +182,16 @@
   <!-- EN: Self-tend -->
   <SelfTend>Auto-atenderse</SelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>{0} con la opción de auto-atenderse activada, se atendera el o ella mismo(a) con una eficiencia de {1} por sobre la eficiencia normal.</SelfTendTip>
+  <SelfTendTip>Con la opción de auto-atenderse activada, {0} tratará sus heridas en el sitio con una eficiencia de {1} respecto a la eficiencia normal.</SelfTendTip>
   
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
-  <None>Ninguno(a)</None>
+  <None>Ninguno</None>
   <!-- EN: Very poor -->
-  <VeryPoor>Escaso(a)</VeryPoor>
+  <VeryPoor>Escaso</VeryPoor>
   <!-- EN: Poor -->
-  <Poor>Poco(a)</Poor>
+  <Poor>Pobre</Poor>
   <!-- EN: Weakened -->
   <Weakened>Débil</Weakened>
   <!-- EN: OK -->
@@ -191,24 +215,29 @@
   <!-- EN: Extreme -->
   <ExtremePain>Extremo</ExtremePain>
 
+
   <!-- Training tab -->
   <!-- EN: Trainability -->
-  <Trainability>Adiestrabilidad</Trainability>
+  <Trainability>Docilidad</Trainability>
   <!-- EN: Requires trainability {0}. -->
-  <CannotTrainNotSmartEnough>Requiere adiestrabilidad {0}.</CannotTrainNotSmartEnough>
+  <CannotTrainNotSmartEnough>Requiere docilidad {0}.</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
-  <CannotTrainTooSmall>{1_labelShort} es demasiado pequeño(a) como para ser entrenado en ésto.</CannotTrainTooSmall>
+  <CannotTrainTooSmall>{1_labelShort} es demasiado pequeño(a) para ser entrenado en esto.</CannotTrainTooSmall>
+
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>Requisito necesario: {0}</TrainingNeedsPrerequisite>
   
+
   <!-- Social tab -->
   <!-- EN: (no relationships) -->
   <NoRelationships>(sin relaciones)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Secuestrado</Kidnapped>
+  <!-- EN: Lent to {FACTION_name}, returns in {1} -->
+  <Lent>Prestado a {FACTION_name}, vuelve en {1}</Lent>
   <!-- EN: Missing -->
-  <Missing>Fallando</Missing>
+  <Missing>Desaparecido</Missing>
   <!-- EN: Slave -->
   <Slave>Esclavo</Slave>
   <!-- EN: Faction leader -->
@@ -216,19 +245,20 @@
   <!-- EN: Opinion of {1_labelShort} -->
   <OpinionOf>Mi opinión de {1_labelShort}</OpinionOf>
   <!-- EN: {1_labelShort}'s opinion of me -->
-  <SomeonesOpinionOfMe>La opinión de {1_labelShort} de mi</SomeonesOpinionOfMe>
+  <SomeonesOpinionOfMe>La opinión de {1_labelShort} sobre mi</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Estoy muerto</IAmDead>
   <!-- EN: I'm a psychopath -->
   <IAmPsychopath>Soy un psicópata</IAmPsychopath>
   
+
   <!-- Gear tab -->
   <!-- EN: Overall armor -->
   <OverallArmor>Blindaje general</OverallArmor>
   <!-- EN: Mass carried: {0} / {1} kg -->
   <MassCarried>Peso cargado: {0} / {1} kg</MassCarried>
   <!-- EN: Comfortable temperature range -->
-  <ComfyTemperatureRange>Rango de temperaturas cómodas</ComfyTemperatureRange>
+  <ComfyTemperatureRange>Rango de temperaturas</ComfyTemperatureRange>
   <!-- EN: Blunt -->
   <ArmorBlunt>Contundente</ArmorBlunt>
   <!-- EN: Sharp -->
@@ -236,9 +266,10 @@
   <!-- EN: Heat -->
   <ArmorHeat>Calor</ArmorHeat>
   
+
   <!-- Log tab -->
   <!-- EN: Show all -->
-  <ShowAll>Mostrar todos</ShowAll>
+  <ShowAll>Mostrar todo</ShowAll>
   <!-- EN: Show combat -->
   <ShowCombat>Mostrar combate</ShowCombat>
   <!-- EN: Show social -->
@@ -247,6 +278,7 @@
   <NoRecentEntries>no hay entradas recientes</NoRecentEntries>
   <!-- EN: Copy log to the clipboard. -->
   <CopyLogTip>Copiar registro en el portapapeles.</CopyLogTip>
+
 
   <!-- Forming caravan tab -->
   <!-- EN: Gathering animals -->
@@ -280,14 +312,26 @@
   <!-- EN: Loaded items -->
   <LoadedItems>Artículos cargados</LoadedItems>
   <!-- EN: pack animals -->
-  <PackAnimalsCountLower>Animales de carga</PackAnimalsCountLower>
+  <PackAnimalsCountLower>animales de carga</PackAnimalsCountLower>
   <!-- EN: mentally broken -->
-  <InMentalStateCountLower>Mentalmente incapacitado</InMentalStateCountLower>
+  <InMentalStateCountLower>Mmntalmente incapacitado</InMentalStateCountLower>
+
 
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
   <RemoveSliderText>Quitar {{0}}x {0}</RemoveSliderText>
+  <!-- EN: Contained items -->
+  <ContainedItems>Objetos</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>¿Realmente quieres quitar {0}?</ConfirmRemoveItemDialog>
+
+
+  <!-- Quests tab -->
+  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
+  <DismissQuest>Descartar esta misión y moverla al historial.\n\nLa misión puede ser aceptada de nuevo en cualquier momento. No recibiras notificaciones sobre misiones descartadas.</DismissQuest>
+  <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
+  <UnDismissQuest>Restaurar esta misión.\n\nLa misión será devuelta a la lista de misiones, y las notificaciones serán reactivadas.</UnDismissQuest>
+  <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
+  <QuestDismissed>Esta misión está aquí por que fue descartada.\n\nTienes la opción de restaurarla hasta que se acabe el plazo.</QuestDismissed>
 
 </LanguageData>

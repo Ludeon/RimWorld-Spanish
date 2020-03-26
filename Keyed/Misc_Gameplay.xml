@@ -7,13 +7,13 @@
   <!-- EN: Work left -->
   <WorkLeft>Trabajo restante</WorkLeft>
   <!-- EN: Contents -->
-  <Contents>Contiene</Contents>
+  <Contents>Contenidos</Contents>
   <!-- EN: Contained resources -->
-  <ContainedResources>Recursos contenidos</ContainedResources>
+  <ContainedResources>Recursos almacenados</ContainedResources>
   <!-- EN: For prisoner use -->
   <ForPrisonerUse>Para uso de prisioneros</ForPrisonerUse>
   <!-- EN: In prison cell: For prisoner use -->
-  <InPrisonCell>En prisión: Para uso de los prisioneros</InPrisonCell>
+  <InPrisonCell>En celda de prisionero: Para uso de prisioneros</InPrisonCell>
   <!-- EN: For colonist use -->
   <ForColonistUse>Para uso de colonos</ForColonistUse>
   <!-- EN: Medical -->
@@ -33,15 +33,15 @@
   <!-- EN: Dead for {0} -->
   <DeadTime>Muerto hace {0}</DeadTime>
   <!-- EN: walk speed {0} -->
-  <WalkSpeed>factor de velocidad: {0}</WalkSpeed>
+  <WalkSpeed>velocidad al andar: {0}</WalkSpeed>
   <!-- EN: fert. -->
   <FertShort>fert.</FertShort>
   <!-- EN: dying -->
   <DyingLower>muriendo</DyingLower>
   <!-- EN: Filth on feet: -->
-  <FilthOnFeet>Suciedad en los pies:</FilthOnFeet>
+  <FilthOnFeet>Pies sucios:</FilthOnFeet>
   <!-- EN: not enough stored -->
-  <NotEnoughStoredLower>Suministro insuficiente</NotEnoughStoredLower>
+  <NotEnoughStoredLower>suministro insuficiente</NotEnoughStoredLower>
   <!-- EN: nothing -->
   <NothingLower>nada</NothingLower>
   <!-- EN: Adapted -->
@@ -61,9 +61,15 @@
   <!-- EN: Tend quality -->
   <TendQuality>Calidad del tratamiento</TendQuality>
   <!-- EN: no {0} -->
-  <MissingMedicalBillIngredient>no {0}</MissingMedicalBillIngredient>
+  <MissingMedicalBillIngredient>falta {0}</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
   <Immunity>Inmunidad</Immunity>
+  <!-- EN: {0} days to recover -->
+  <DaysToRecover>{0} días para recuperarse</DaysToRecover>
+  <!-- EN: Ineffective -->
+  <Ineffective>Ineficiente</Ineffective>
+  <!-- EN: illegal -->
+  <Illegal>ilegal</Illegal>
   <!-- EN: Race -->
   <Race>Especie</Race>
   <!-- EN: Description -->
@@ -78,6 +84,10 @@
   <ThingInfo>Información</ThingInfo>
   <!-- EN: Drop -->
   <DropThing>Soltar</DropThing>
+  <!-- EN: Temporary faction members will not drop their items. -->
+  <DropThingLodger>Los miembros temporales de facción no soltarán sus objetos.</DropThingLodger>
+  <!-- EN: This person refuses to drop this. -->
+  <DropThingLocked>Esta persona se niega a soltar esto.</DropThingLocked>
   <!-- EN: Rename -->
   <Rename>Renombrar</Rename>
   <!-- EN: Rename animal -->
@@ -97,13 +107,13 @@
   <!-- EN: Milk fullness -->
   <MilkFullness>Producción de leche</MilkFullness>
   <!-- EN: Wool growth -->
-  <WoolGrowth>Producción de lana</WoolGrowth>
+  <WoolGrowth>Crecimiento de lana</WoolGrowth>
   <!-- EN: Egg progress -->
-  <EggProgress>Producción de huevo</EggProgress>
+  <EggProgress>Progreso de huevo</EggProgress>
   <!-- EN: Fertilized -->
   <Fertilized>Fertilizado</Fertilized>
   <!-- EN: Progress stopped until fertilized -->
-  <ProgressStoppedUntilFertilized>Producción detenida hasta la fertilización</ProgressStoppedUntilFertilized>
+  <ProgressStoppedUntilFertilized>Producción detenida hasta fertilización</ProgressStoppedUntilFertilized>
   <!-- EN: need {0} level {2}, have {1} -->
   <SkillTooLow>necesita {0} de nivel {2}, tiene {1}</SkillTooLow>
   <!-- EN: Freezing -->
@@ -117,9 +127,11 @@
   <!-- EN: Reproduces in -->
   <HiveReproducesIn>Se reproduce en</HiveReproducesIn>
   <!-- EN: Dormant: Not reproducing. -->
-  <DormantHiveNotReproducing>Inactivo: No se está reproduciendo.</DormantHiveNotReproducing>
+  <DormantHiveNotReproducing>Latente: No se está reproduciendo.</DormantHiveNotReproducing>
   <!-- EN: Next {0} in -->
   <NextSpawnedItemIn>Siguiente {0} en</NextSpawnedItemIn>
+  <!-- EN: Next resource in -->
+  <NextSpawnedResourceIn>Siguiente producto en</NextSpawnedResourceIn>
   <!-- EN: Broken down -->
   <BrokenDown>Averiado</BrokenDown>
   <!-- EN: (bond) -->
@@ -131,7 +143,7 @@
   <!-- EN: Set target fuel level to {0} -->
   <SetTargetFuelLevel>Fijar nivel de combustible a {0}</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>Fijar nivel de combustible a {0}\nMax. distancia: {1} casillas</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Fijar nivel de combustible a {0}\nDistancia máxima: {1} casillas</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>Nivel de combustible deseado: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
@@ -145,7 +157,7 @@
   <!-- EN: permanent -->
   <Permanent>permanente</Permanent>
   <!-- EN: Resting -->
-  <CaravanResting>Descansando.</CaravanResting>
+  <CaravanResting>Descansando</CaravanResting>
   <!-- EN: using 1 bedroll -->
   <UsingBedroll>usando 1 saco de dormir</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
@@ -153,15 +165,15 @@
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>Tiempo de llegada estimado: {0} días</CaravanEstimatedTimeToDestination>
   <!-- EN: Estimated days to arrive: {0} -->
-  <CaravanEstimatedDaysToDestination>Días estimados de llegada: {0}</CaravanEstimatedDaysToDestination>
+  <CaravanEstimatedDaysToDestination>Días estimados hasta la llegada: {0}</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
-  <CaravanImmobilizedByMass>Inmobilizados: Peso excesivo.</CaravanImmobilizedByMass>
+  <CaravanImmobilizedByMass>Inmobilizados: Demasiado peso.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
   <CaravanOutOfFood>Sin comida.</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
-  <CaravanDaysOfFood>Comida para {0} día(s)</CaravanDaysOfFood>
+  <CaravanDaysOfFood>Días de comida: {0}</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
-  <CaravanDaysOfFoodRot>Comida para: {0} día(s) (se pudre en {1} días)</CaravanDaysOfFoodRot>
+  <CaravanDaysOfFoodRot>Días de comida: {0} (se pudre en {1} días)</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
   <AllCaravanMembersDowned>Detenida: Todos están inconscientes.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone has a mental break. -->
