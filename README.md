@@ -1,10 +1,9 @@
 Spanish-translation-of-Rimworld
 ===============================
 
-Esta es la traducción al español de Rimworld.
+Esta es la traducción al español de España de Rimworld.
 
-Consulte esta página para obtener información sobre la licencia:
-
+Consulte esta página para obtener información sobre la licencia e información adicional sobre como ayudar:
 http://ludeon.com/forums/index.php?topic=2933.0
 
 --------------------
@@ -12,10 +11,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 - Traductores Activos:
 	- Xeros08
 
-	- Azarashi
-
-	- Mellington
-
+	- Lord Mellington
 
 
 - Tradcutores:
@@ -28,6 +24,8 @@ http://ludeon.com/forums/index.php?topic=2933.0
 	- Vhiden
 
 	- Yllelder
+
+	- Azarashi
 
 
 - Colaboradores:
