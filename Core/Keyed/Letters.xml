@@ -74,8 +74,8 @@
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
   <NewPartDiseaseAnimal>{PAWN_labelShort} ha desarrollado una enfermedad: {3} en [PAWN_possessive] {1}</NewPartDiseaseAnimal>
 
-  <!-- EN: {1_labelShort} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{1_labelShort} formaba parte de tu facción.</PawnWasFormerlyColonist>
+  <!-- EN: {0} was formerly part of your faction. -->
+  <PawnWasFormerlyColonist>{0} formaba parte de tu facción.</PawnWasFormerlyColonist>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort} tiene estas relaciones con tus colonos:</PawnHasTheseRelationshipsWithColonists>
   <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {PRISONER_labelShort} again. -->
@@ -315,12 +315,12 @@
   <PeaceTalksSocialXPGain>{PAWN_labelShort}, su negociador, ha ganado {1} de experiencia social</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
-  <!-- EN: {0} is fed up with civilization.\n\n{0_pronoun} realized that wild creatures are always free. So, {0_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {0_objective} to get {0_objective} back. -->
-  <LetterRunWildMentalBreak>{0} está harto de la civilización.\n\n{0_pronoun} se dio cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, {0_pronoun} ha decidido dejar su facción y vivir con los animales.\n\nPuedes intentar domar{0_objective} para recuperar{0_objective}. </LetterRunWildMentalBreak>
+  <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
+  <LetterRunWildMentalBreak>{0} está harto de la civilización.\n\n{PAWN_pronoun} se dio cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, {PAWN_pronoun} ha decidido dejar su facción y vivir con los animales.\n\nPuedes intentar domar{PAWN_objective} para recuperar{PAWN_objective}. </LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
-  <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {0_pronoun} will recover in several days. -->
-  <LetterCatatonicMentalBreak>{0} tiene un colapso catatónico que durará varios días. {0_pronoun} se recuperará en unos días.</LetterCatatonicMentalBreak>
+  <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
+  <LetterCatatonicMentalBreak>{0} tiene un colapso mental y ha entrado en un estado catatónico. {PAWN_pronoun} se recuperará en unos días.</LetterCatatonicMentalBreak>
 
   <!-- EN: AI Core Offer -->
   <LetterLabelAICoreOffer>Oferta de IA</LetterLabelAICoreOffer>
