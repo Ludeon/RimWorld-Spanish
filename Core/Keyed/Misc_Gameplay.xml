@@ -201,7 +201,7 @@
   <!-- EN: Using bedrolls due to illness -->
   <UsingBedrollsDueToIllness>Usando sacos de dormir debido a una enfermedad</UsingBedrollsDueToIllness>
   <!-- EN: Current tile movement time -->
-  <CurrentTileMovementTime>Movimiento actual en casillas</CurrentTileMovementTime>
+  <CurrentTileMovementTime>Velocidad actual de movimiento entre casillas</CurrentTileMovementTime>
   <!-- EN: Visibility -->
   <Visibility>Visibilidad</Visibility>
   <!-- EN: Temperature -->
@@ -235,7 +235,7 @@
   <!-- EN: {0} until leaving -->
   <ForceExitAndRemoveMapCountdown>{0} hasta la partida</ForceExitAndRemoveMapCountdown>
   <!-- EN: Your colonists will automatically reform the caravan and leave this area in {0}. -->
-  <ForceExitAndRemoveMapCountdownTip>Tus colonos automáticamente reformarán la caravana y abandonarán este área en {0} horas.</ForceExitAndRemoveMapCountdownTip>
+  <ForceExitAndRemoveMapCountdownTip>Tus colonos automáticamente reformarán la caravana y abandonarán este área en {0}.</ForceExitAndRemoveMapCountdownTip>
   <!-- EN: Room -->
   <Room>Habitación</Room>
   <!-- EN: Beauty here -->
@@ -307,7 +307,7 @@
   <!-- EN: Terrain movement difficulty -->
   <TileMovementDifficulty>Dificultad de movimiento por el terreno</TileMovementDifficulty>
   <!-- EN: Impassable -->
-  <Impassable>Impasable</Impassable>
+  <Impassable>Intransitable</Impassable>
   <!-- EN: Caravan movement speed -->
   <CaravanMovementSpeedFull>Velocidad de movimiento de la caravana</CaravanMovementSpeedFull>
   <!-- EN: downed -->
@@ -368,6 +368,89 @@
   <Mortars>morteros</Mortars>
   <!-- EN: enemy -->
   <Enemy>enemigo</Enemy>
+
+  <!-- EN: location -->
+  <Location>ubicación</Location>
+  <!-- EN: animals -->
+  <AnimalsLower>animales</AnimalsLower>
+  <!-- EN: {0} x{1} -->
+  <FilthLabel>{0} x{1}</FilthLabel>
+  <!-- EN: {0} of {1} x{2} -->
+  <FilthLabelWithSource>{0} de {1} x{2}</FilthLabelWithSource>
+  <!-- EN: Required -->
+  <Required>Necesario</Required>
+  <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
+  <GiveGiftViaTransportPodsTradeRequestWarning>Cuidado: No puedes completar peticiones de comercio mediante capsulas de transporte.\nSi envias los bienes, el asentamiento los recibirá como regalos, pero esto no completará la misión, por lo que no serás recompensado.\n\n¿Para comerciar acercate al asentamiento con una caravana!\n\n¿Estás seguro de querer regalar los bienes cargados a la facción?</GiveGiftViaTransportPodsTradeRequestWarning>
+  <!-- EN: prisoner -->
+  <PrisonerLower>prisionero</PrisonerLower>
+  <!-- EN: prisoners -->
+  <PrisonersLower>prisioneros</PrisonersLower>
+  <!-- EN: Complete -->
+  <Complete>Completado</Complete>
+  <!-- EN: Click to view this quest in quests tab -->
+  <ClickToViewInQuestsTab>Pulsa para ver esta misión en la pestaña de misiones</ClickToViewInQuestsTab>
+  <!-- EN: Mood -->
+  <Mood>Estado de animo</Mood>
+  <!-- EN: Quest -->
+  <Quest>Misión</Quest>
+  <!-- EN: Brings raids every {0} -->
+  <BringsRaidsEvery>Atrae asaltantes cada {0}</BringsRaidsEvery>
+  <!-- EN: Generates {0} every {1} -->
+  <GeneratesResourcesEvery>Genera {0} cada {1}</GeneratesResourcesEvery>
+  <!-- EN: Foliage kill radius -->
+  <FoliageKillRadius>Radio de defoliación</FoliageKillRadius>
+  <!-- EN: Radius expand rate -->
+  <RadiusExpandRate>Ratio de expansión del radio</RadiusExpandRate>
+  <!-- EN: View: {0} -->
+  <ViewHyperlink>Ver: {0}</ViewHyperlink>
+  <!-- EN: Detonates in {0} days -->
+  <DetonationCountdown>Detona en {0} días</DetonationCountdown>
+  <!-- EN: Large explosion if damaged -->
+  <ExplosionOnDamageWarning>Gran explosión si es dañado</ExplosionOnDamageWarning>
+  <!-- EN: Mech cluster -->
+  <MechCluster>Agrupación mecanoide</MechCluster>
+  <!-- EN: Spawning in {0} -->
+  <SpawningNextPawnIn>Generando en {0}</SpawningNextPawnIn>
+  <!-- EN: {0} assembly completes in {1} -->
+  <MechAssemblyCompleteIn>Ensamblado de {0} termina en {1}</MechAssemblyCompleteIn>
+  <!-- EN: produced -->
+  <ThingsProduced>producido</ThingsProduced>
+  <!-- EN: harvested -->
+  <PlantsHarvested>recolectado</PlantsHarvested>
+  <!-- EN: {0} killed -->
+  <PawnsKilled>{0} asesinatos</PawnsKilled>
+  <!-- EN: Sent {0}, will return in {1} -->
+  <PawnsLent>{0} ha sido enviado, volverá en {1}</PawnsLent>
+  <!-- EN: Dormant -->
+  <DormantCompInactive>Latente</DormantCompInactive>
+  <!-- EN: Sealed -->
+  <DormantCompSealed>Sellado</DormantCompSealed>
+  <!-- EN: Ready to drop mechanoids -->
+  <DormantCompBeacon>Listo para soltar mecanoides</DormantCompBeacon>
+  <!-- EN: Expired -->
+  <DormantCompExpired>Finalizado</DormantCompExpired>
+  <!-- EN: Initiates in -->
+  <InitiatesIn>Inicia en</InitiatesIn>
+  <!-- EN: Activates in {0} -->
+  <SendSignalOnCountdownCompTime>Se activa en {0}</SendSignalOnCountdownCompTime>
+  <!-- EN: Psychic entropy -->
+  <PsychicEntropy>Entropía psíquica</PsychicEntropy>
+  <!-- EN: {0} pain focus -->
+  <PsychicEntropyPainFocus>{0} focos de dolor</PsychicEntropyPainFocus>
+  <!-- EN: radius {0} -->
+  <ConditionCauserRadius>radio {0}</ConditionCauserRadius>
+  <!-- EN: {0} left -->
+  <DurationLeft>{0} restantes</DurationLeft>
+  <!-- EN: Any of -->
+  <AnyOf>Cualquier</AnyOf>
+
+  <!-- Scanning -->
+  <!-- EN: User scanning speed -->
+  <UserScanAbility>Velocidad de escaneo del usuario</UserScanAbility>
+  <!-- EN: Random find interval -->
+  <ScanAverageInterval>Intervalo de descubrimiento aleatorio</ScanAverageInterval>
+  <!-- EN: Progress to guaranteed find -->
+  <ScanningProgressToGuaranteedFind>Progreso hacia descubrimiento garantizado</ScanningProgressToGuaranteedFind>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -478,6 +561,8 @@
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
   <ReportHaulingTo>transportando {THING_label} a {DESTINATION}.</ReportHaulingTo>
+  <!-- EN: burying {THING_label} in {DESTINATION}. -->
+  <ReportHaulingToGrave>enterrando {THING_label} en {DESTINATION}</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
   <ReportHauling>transportando {1_label}.</ReportHauling>
   <!-- EN: hauling. -->
@@ -839,7 +924,7 @@
   <!-- EN: Contains -->
   <CasketContains>Contiene</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>¡Peligro!¡\n\n{PAWN_nameDef} es tu último colono en pie! ¡Si dejas entrar en ése sarcófago a {PAWN_objective} no podrás seguir jugando! ¿Estás seguro de que quieres hacerlo?</CasketWarning>
+  <CasketWarning>¡Peligro!\n\n¡{PAWN_nameDef} es tu último colono en pie! ¡Si {PAWN_objective} dejas entrar en ése sarcófago de criptosueño, ¡no podrás seguir jugando! ¿Estás seguro de que quieres hacerlo?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -851,23 +936,29 @@
   <!-- EN: requires -->
   <ShipReportMissingPartRequires>requiere</ShipReportMissingPartRequires>
   <!-- EN: No full cryptosleep caskets -->
-  <ShipReportNoFullPods>Los sarcófagos de criptosueño no están ocupados</ShipReportNoFullPods>
+  <ShipReportNoFullPods>No hay sarcófagos de criptosueño ocupados</ShipReportNoFullPods>
   <!-- EN: Hibernating component -->
-  <ShipReportHibernating>Hibernando componente</ShipReportHibernating>
+  <ShipReportHibernating>Componente hibernando</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>El componente aún no está listo</ShipReportNotReady>
-  <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>Charlon Whitestone está listo para iniciar la secuencia de recuperación de la hibernación del reactor.\n\nTe advierte que el proceso llevará alrededor de 15 días, y la huella de energía será detectable desde una gran distancia. Este tipo de huella de energía indica capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y mortíferos mecanoides.\n\nSerás asaltado con una intensidad como nunca has visto. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarning>
+  <!-- EN: &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <HibernateWarning>&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; está listo para iniciar la secuencia de recuperación de la hibernación del reactor.\n\nTe advierte que el proceso llevará alrededor de 15 días, y la huella de energía será detectable desde una gran distancia. Este tipo de huella de energía indica capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y mortíferos mecanoides.\n\nSerás asaltado con una intensidad como nunca has visto. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>El reactor está listo para encenderse.\n\nEl proceso llevará alrededor de 15 días, y la huella de energía será detectable desde una gran distancia. Este tipo de huella de energía indica capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y mortíferos mecanoides.\n\nSerás asaltado con una intensidad como nunca has visto. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarningStandalone>
-  <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>Charlon Whitestone está listo para iniciar la secuencia de recuperación de la hibernación del reactor. Te advierte que el proceso llevará alrededor de 15 días.</HibernateWarningPacifist>
+  <!-- EN: &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
+  <HibernateWarningPacifist>&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; está listo para iniciar la secuencia de recuperación de la hibernación del reactor. Te advierte que el proceso llevará alrededor de 15 días.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>El reactor está listo para encenderse. El proceso llevará alrededor de 15 días.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
+  <!-- EN: neurotrainer ({0}) -->
+  <SkillNeurotrainerLabel>neuroentrenador ({0})</SkillNeurotrainerLabel>
+  <!-- EN: Use skill neurotrainer to learn {0} -->
+  <SkillNeurotrainerUseLabel>Usa el neuroentrenador de habilidades ara aprender {0}</SkillNeurotrainerUseLabel>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
+  <SkillNeurotrainerDescription>Una super dosis de mecanitas capaz de entrenar una habilidad específica.\n\nLa dosis es administrada a traves de la orbita del ojo. Una vez liberados en el cerebro, los mecanitas rápidamente mejoran las habilidades del sujeto en un área en concreto, convirtiendose en tejido nervioso segun sea necesario.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <NeurotrainerUsed>{USER_labelShort} usó {1} neuroentrenador(es) para ir del nivel {2} al nivel {3}.</NeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort} usó {1} neuroentrenador para ir del nivel {2} al nivel {3}.</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -883,7 +974,7 @@
 
   <!-- Unfinished thing -->
   <!-- EN: Unfinished {0} -->
-  <UnfinishedItem>{0} Inacabado</UnfinishedItem>
+  <UnfinishedItem>{0} inacabado</UnfinishedItem>
   <!-- EN: Unfinished {0} {1} -->
   <UnfinishedItemWithStuff>{1} de {0} inacabado</UnfinishedItemWithStuff>
 
@@ -899,7 +990,7 @@
   <!-- EN: mental state -->
   <Mood_MentalState>estado mental</Mood_MentalState>
   <!-- EN: about to break -->
-  <Mood_AboutToBreak>colapsando</Mood_AboutToBreak>
+  <Mood_AboutToBreak>a punto de colapsar</Mood_AboutToBreak>
   <!-- EN: on edge -->
   <Mood_OnEdge>al límite</Mood_OnEdge>
   <!-- EN: stressed -->
@@ -914,16 +1005,32 @@
   <!-- Game over -->
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>Todos los habitantes de la colonia han muerto o se han ido. Esta historia ha terminado.\n\nQuizás alguien le dé uso a estas ruinas en un futuro incierto.</GameOverEveryoneDead>
-  <!-- EN: You've launched the ship! These colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nYour AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunched>¡Has lanzado la nave! Estos colonos escaparon:\n\n{0}\nEstos colonos fueron abandonados:\n\n{1}\nAhora la IA intentará guiar a la nave hacia un lugar seguro. Podría encontrar un planeta próspero en este mismo sistema. O, podría realizar un viaje de siglos de duración hacia otra estrella. Incluso podría decidir quedarse bajo el hielo de un asteroide por unos cuantos milenios, esperando que alguien convierta este planeta en un mundobrillante.\n\nLo sabrás cuando despiertes.</GameOverShipLaunched>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>A casi la velocidad de la luz, el arma destruyeplanetas se estrelló contra el suelo con la fuerza de un billón de bombas de hidrógeno. Como si fuera un globo de agua al que le han disparado con un rifle, el planeta se licúa con el impacto y dispersa sus entrañas fundidas por todo el cosmos.\n\nParte de {0} es ahora un pequeño cinturón de asteroides. El resto es un infierno radioactivo y derretido, azotado constantemente por terremotos de nivel planetario.\n\nNo sobreviviste.</GameOverPlanetkillerImpact>
-  <!-- EN: As you get on board the ship you are greeted by the crew with open arms. They seem to be glad they could take at least one more person with them.\n\nThese colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nThe AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nAs you enter the cryptosleep pod you hesitate for a moment and feel slightly uncertain about whether you can trust these people.\n\nYou'll find out when you wake up. -->
-  <GameOverArrivedAtJourneyDestination>Al subir a bordo de la nave, te saluda la tripulación con los brazos abiertos. Parecen alegrarse de poder tener al menos una persona más con ellos.\n\nEstos colonos escaparon:\n\n{0}\nEstos colonos fueron abandonados:\n\n{1}\nAhora la IA intentará guiar a la nave hacia un lugar seguro. Podría encontrar un planeta próspero en este mismo sistema. O, podría realizar un viaje de siglos de duración hacia otra estrella. Incluso podría decidir quedarse bajo el hielo de un asteroide por unos cuantos milenios, esperando que alguien convierta este planeta en un mundobrillante.\n\nAl entrar en la cápsula de criptosueño dudas durante un momento y sientes una ligera desconfianza acerca de hasta dónde puedes confiar en esta gente.\n\nLo sabrás cuando despiertes.</GameOverArrivedAtJourneyDestination>
+  <!-- EN: You've launched the ship! -->
+  <GameOverShipLaunchedIntro>¡Has conseguido despegar la nave!</GameOverShipLaunchedIntro>
+  <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
+  <GameOverShipLaunchedEnding>La inteligencia artificial de tu nave intentará guiar a tu nave a un lugar seguro. Puede que encuentre un planeta próspero en este sistema solar. O podría empezar un viaje centenario hacia otra estrella. Incluso puede que decida esconderse bajo el hielo de un asteroide por unos cuantos milenios, esperando que alguien comienze un nuevo mundobrillante ahí.\n\nLo sabrás cuando despiertes.</GameOverShipLaunchedEnding>
+  <!-- EN: These colonists escaped:\n\n{0} -->
+  <GameOverColonistsEscaped>Estos colonos escaparon:\n\n{0}</GameOverColonistsEscaped>
+  <!-- EN: These colonists were left behind:\n\n{0} -->
+  <GameOverColonistsLeft>Estos colonos fueron abandonados:\n\n{0}</GameOverColonistsLeft>
+  <!-- EN: In memory of:\n -->
+  <GameOverInMemoryOf>En recuerdo de:\n</GameOverInMemoryOf>
+
+
+
   <!-- EN: Keep playing -->
   <GameOverKeepPlaying>Seguir jugando</GameOverKeepPlaying>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Menú principal</GameOverMainMenu>
+
+
+
+
+
+
+
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->

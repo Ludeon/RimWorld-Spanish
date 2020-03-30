@@ -17,19 +17,31 @@
   <!-- EN: (none) -->
   <NoneBrackets>(ninguno)</NoneBrackets>
   <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
-  <IncapableOfWorkTypeBecauseOfCapacities>Este colono no puede hacer trabajo de este tipo por un problema de salud.</IncapableOfWorkTypeBecauseOfCapacities>
+  <IncapableOfWorkTypeBecauseOfCapacities>Este colono no puede realizar tareas de este tipo por un problema de salud.</IncapableOfWorkTypeBecauseOfCapacities>
   <!-- EN: E -->
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
   <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>Advertencia: el promedio de las habilidades necesarias es muy bajo.</SelectedWorkTypeWithVeryBadSkill>
+  <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
+  <PriorityOneDoneFirst>La prioridad 1 es lo primero en ser hecho. La prioridad 4 es lo último.</PriorityOneDoneFirst>
+  <!-- EN: Will not do -->
+  <Priority0>No lo hará</Priority0>
+  <!-- EN: Top priority -->
+  <Priority1>Prioridad máxima</Priority1>
+  <!-- EN: High priority -->
+  <Priority2>Alta prioridad</Priority2>
+  <!-- EN: Normal priority -->
+  <Priority3>Prioridad normal</Priority3>
+  <!-- EN: Low priority -->
+  <Priority4>Baja prioridad</Priority4>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
   <ManageOutfits>Administrar vestimentas</ManageOutfits>
   <!-- EN: Clr. forced -->
-  <ClearForcedApparel>Desasignar forzadas</ClearForcedApparel>
+  <ClearForcedApparel>Eliminar forzadas</ClearForcedApparel>
   <!-- EN: forced -->
-  <ApparelForcedLower>forzada</ApparelForcedLower>
+  <ApparelForcedLower>forzado</ApparelForcedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>Atuendo forzado</ForcedApparel>
   <!-- EN: Edit... -->
@@ -45,7 +57,7 @@
   <!-- EN: Paste -->
   <Paste>Pegar</Paste>
   <!-- EN: Allowed area -->
-  <AllowedArea>Permitir área</AllowedArea>
+  <AllowedArea>Área permitida</AllowedArea>
   
   <!-- Animals tab -->
   <!-- EN: Master -->
@@ -68,6 +80,8 @@
   <DefeatedLower>derrotado</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>Enemigo de {0}</HostileTo>
+  <!-- EN: Enemy of:  -->
+  <EnemyOf>Enemigo de: </EnemyOf>
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>Situación actual de buena voluntad y relaciones con esta facción.</CurrentGoodwillTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
@@ -107,7 +121,7 @@
   <!-- EN: Last 300 days -->
   <Last300Days>Últimos 300 días</Last300Days>
   <!-- EN: All -->
-  <AllDays>Todos</AllDays>
+  <AllDays>Todo</AllDays>
   <!-- EN: Value -->
   <Value>Valor</Value>
   <!-- EN: External -->
@@ -115,13 +129,13 @@
 
   <!-- History tab - Messages -->
   <!-- EN: Show letters -->
-  <ShowLetters>Mostrar cartas</ShowLetters>
+  <ShowLetters>Mostrar tarjetas</ShowLetters>
   <!-- EN: Show messages -->
   <ShowMessages>Mostrar mensajes</ShowMessages>
   <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
   <PinArchivableTip>Anclar o desanclar este mensaje.\n\nLos mensajes no anclados más antiguos se eliminarán automáticamente de la lista después de alcanzar el límite de {0} mensajes.</PinArchivableTip>
   <!-- EN: no messages -->
-  <NoMessages>Sin Mensajes</NoMessages>
+  <NoMessages>sin Mensajes</NoMessages>
 
   <!-- History tab - Statistics -->
   <!-- EN: Play time -->
@@ -145,7 +159,7 @@
   <!-- EN: Colonists killed -->
   <ColonistsKilled>Colonos asesinados</ColonistsKilled>
   <!-- EN: Colonists launched into space -->
-  <ColonistsLaunched>Colonos lanzados al espacio</ColonistsLaunched>
+  <ColonistsLaunched>Colonos enviados al espacio</ColonistsLaunched>
 
   <!-- Research tab -->
   <!-- EN: project tech level -->
@@ -156,5 +170,78 @@
   <ResearchCostMultiplier>Multiplicador de costo</ResearchCostMultiplier>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>El costo base del proyecto {0} se convierte en {1} debido a tu nivel tecnológico.</ResearchCostComparison>
-  
+  <!-- EN: Techprints are available from these factions via trade and quests: -->
+  <ResearchTechprintsFromFactions>Se pueden obtener datos de investigación mediante comercio y misiones con estas facciones:</ResearchTechprintsFromFactions>
+  <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
+  <TechLevelTooLow>El nivel tecnológico de tu facción es {0}, pero el nivel tecnológico de este proyecto es {1}. La velocidad de investicación será multiplicada por {2}.</TechLevelTooLow>
+
+
+  <!-- Quests tab -->
+  <!-- EM: Available -->
+  <AvailableQuests>Disponibles</AvailableQuests>
+  <!-- EM: Active -->
+  <ActiveQuests>Activas</ActiveQuests>
+  <!-- EM: Historical -->
+  <HistoricalQuests>Historial</HistoricalQuests>
+  <!-- EM: no quest selected -->
+  <NoQuestSelected>ninguna misión ha sido seleccionada</NoQuestSelected>
+  <!-- EM: Appeared {0} days ago -->
+  <AppearedDaysAgo>Apareció hace {0} días</AppearedDaysAgo>
+  <!-- EM: Appeared on {0} -->
+  <AppearedOn>Apareció el {0}</AppearedOn>
+  <!-- EM: Accepted {0} ago -->
+  <AcceptedAgo>Aceptada hace {0}</AcceptedAgo>
+  <!-- EM: Accepted on {0} -->
+  <AcceptedOn>Aceptada el {0}</AcceptedOn>
+  <!-- EM: Accepted {0} ago by {1} -->
+  <AcceptedAgoBy>Aceptada hace {0} por {1}</AcceptedAgoBy>
+  <!-- EM: Accepted on {0} by {1} -->
+  <AcceptedOnBy>Aceptada el {0} por {1}</AcceptedOnBy>
+  <!-- EM: Expires in {0} -->
+  <QuestExpiresIn>Acaba en {0}</QuestExpiresIn>
+  <!-- EM: Expires on {0} -->
+  <QuestExpiresOn>Acaba el {0}</QuestExpiresOn>
+  <!-- EM: Shuttle arrives in {0} -->
+  <ShuttleArrivesIn>Lanzadera llega en {0}</ShuttleArrivesIn>
+  <!-- EM: Shuttle arrives on {0} -->
+  <ShuttleArrivesOn>Lanzadera llega el {0}</ShuttleArrivesOn>
+  <!-- EM: Shuttle departs in {0} -->
+  <ShuttleDepartsIn>La lanzadera se va en {0}</ShuttleDepartsIn>
+  <!-- EM: Shuttle departs on {0} -->
+  <ShuttleDepartsOn>La lanzadera se va el {0}</ShuttleDepartsOn>
+  <!-- EM: Finished {0} ago -->
+  <QuestFinishedAgo>Completada hace {0}</QuestFinishedAgo>
+  <!-- EM: Accept quest -->
+  <AcceptQuest>Aceptar misión</AcceptQuest>
+  <!-- EM: Accept with {0_labelShort} -->
+  <AcceptWith>Aceptar con {0_labelShort}</AcceptWith>
+  <!-- EM: The offer expired. -->
+  <QuestOutcomeInfo_OfferExpired>Se acabó la oferta.</QuestOutcomeInfo_OfferExpired>
+  <!-- EM: You completed this quest. -->
+  <QuestOutcomeInfo_UnknownOrSuccess>Has completado esta misión.</QuestOutcomeInfo_UnknownOrSuccess>
+  <!-- EM: You failed this quest. -->
+  <QuestOutcomeInfo_Failed>Has fallado esta misión.</QuestOutcomeInfo_Failed>
+  <!-- EM: Jump to {0} -->
+  <JumpToTargetCustom>Ir a {0}</JumpToTargetCustom>
+  <!-- EM: Select hives -->
+  <SelectHiveTargets>Seleccionar nidos</SelectHiveTargets>
+  <!-- EM: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
+  <QuestChallengeRatingTip>Puntuación de reto. Es una puntuación general de cuán dificil será la misión respecto a tu capacidad actual. Misiones más demandates darán recompensas mayores.\n\n1: Normal\n2: Difícil\n3: Estremo\n4: Ultimatum</QuestChallengeRatingTip>
+  <!-- EM: To accept this quest, you need -->
+  <QuestAcceptanceRequirementsDescription>Para aceptar esta misión necesitas</QuestAcceptanceRequirementsDescription>
+  <!-- EM: free bedrooms that satisfy the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfied>habitaciones vacías que satisfagan las demandas de</QuestBedroomRequirementsUnsatisfied>
+  <!-- EM: a free bedroom that satisfies the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfiedSingle>una habitación vacía que satisfaga las demandas de</QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EM: a colonist with the title of {0}. -->
+  <QuestNoColonistWithTitle>un colono con el título de {0}.</QuestNoColonistWithTitle>
+  <!-- EM: Accept {FACTION_royalFavorLabel} -->
+  <AcceptRoyalFavor>Aceptar {FACTION_royalFavorLabel}</AcceptRoyalFavor>
+  <!-- EM: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
+  <AcceptRoyalFavorDesc>Si estás interesado o no en ser recompensado con {FACTION_royalFavorLabel} de {FACTION_name}.\n\nSi esto está deshabilitado, {FACTION_name} te ofrecerá otro tipo de recompensas en su lugar.\n\nEsto solo afecta a misiones nuevas.</AcceptRoyalFavorDesc>
+  <!-- EM:  -->
+  <RoyalFavorOn>You are currently opting in to receive {FACTION_royalFavorLabel}.</RoyalFavorOn>
+  <!-- EM:  -->
+  <RoyalFavorOff>You are currently opting out of receiving {FACTION_royalFavorLabel}.</RoyalFavorOff>
+
 </LanguageData>
