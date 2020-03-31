@@ -2,9 +2,9 @@
 <LanguageData>
 
   <!-- EN: a -->
-  <IndefiniteArticle>un(a)</IndefiniteArticle>
+  <IndefiniteArticle>{0_gender ? un : una}</IndefiniteArticle>
   <!-- EN: the -->
-  <DefiniteArticle>el/la</DefiniteArticle>
+  <DefiniteArticle>{0_gender ? el : la}</DefiniteArticle>
   <!-- EN: a {0} -->
   <IndefiniteForm>{0_gender ? un : una} {0}</IndefiniteForm>
   <!-- EN: the {0} -->
