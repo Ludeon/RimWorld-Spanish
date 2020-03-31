@@ -6,9 +6,9 @@
   <!-- EN: the -->
   <DefiniteArticle>el/la</DefiniteArticle>
   <!-- EN: a {0} -->
-  <IndefiniteForm>un(a) {0}</IndefiniteForm>
+  <IndefiniteForm>{0_gender ? un : una} {0}</IndefiniteForm>
   <!-- EN: the {0} -->
-  <DefiniteForm>el/la {0}</DefiniteForm>
+  <DefiniteForm>{0_gender ? el : la} {0}</DefiniteForm>
 
   <!-- EN: its -->
   <Proits>su</Proits>
@@ -26,7 +26,7 @@
   <!-- EN: it -->
   <ProitObj>a ese</ProitObj>
   <!-- EN: him -->
-  <ProhimObj>él</ProhimObj>
+  <ProhimObj>el</ProhimObj>
   <!-- EN: her -->
   <ProherObj>ella</ProherObj>
   <!-- EN: It -->
@@ -48,5 +48,24 @@
   <ProsheCap>Ella</ProsheCap>
   <!-- EN: It -->
   <ProitCap>Ello</ProitCap>
+
+  <!-- EN: {0} and {1}. -->
+  <ClauseSequence2>{0} y {1}.</ClauseSequence2>
+  <!-- EN: {0}. Also, {1} and {2}. -->
+  <ClauseSequence3>{0}. También, {1} y {2}.</ClauseSequence3>
+  <!-- EN: {0} and {1}. In addition {2} and {3}. -->
+  <ClauseSequence4>{0} y {1}. Además {2} y {3}.</ClauseSequence4>
+  <!-- EN: {0} and {1}. Additionally, {2} and {3}. Finally, {4}. -->
+  <ClauseSequence5>{0} y {1}. Además, {2} y {3}. Finalmente, {4}.</ClauseSequence5>
+  <!-- EN: {0}. {1} and {2}. Also, {3} and {4}. Finally, {5}. -->
+  <ClauseSequence6>{0}. {1} y {2}. Además, {3} y {4}. Finalmente, {5}.</ClauseSequence6>
+  <!-- EN: {0} and {1}. {2} and {3}. Also, {4} and {5}. Finally, {6}. -->
+  <ClauseSequence7>{0} y {1}. {2} y {3}. Además, {4} y {5}. Finalmente, {6}.</ClauseSequence7>
+  <!-- EN: {0} and {1}. Also, {2} and {3}. {4} and {5}. Finally, {6} and {7}. -->
+  <ClauseSequence8>{0} y {1}. Además, {2} y {3}. {4} y {5}. Finalmente, {6} y {7}.</ClauseSequence8>
+  
+  <!-- EN: {0} or {1} -->
+  <XorY>{0} o {1}</XorY>
+
 
 </LanguageData>
