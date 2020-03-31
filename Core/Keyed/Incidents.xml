@@ -10,10 +10,10 @@
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
   <AnimalInsanityMultiple>Algún tipo de onda psíquica ha barrido la zona. Tus colonos están bien, pero...\n\nParece que muchas de las(os) {0} en el área se han vuelto locos.</AnimalInsanityMultiple>
 
-  <!-- EN: Blight -->
-  <LetterLabelCropBlight>Plaga</LetterLabelCropBlight>
-  <!-- EN: A colonist has noticed blight on your crops! You should cut or burn the blighted plants before the blight spreads. -->
-  <LetterCropBlight>¡Un colono ha notado una plaga en sus cosechas! Usted debe cortar o quemar las plantas arruinadas antes de que la plaga se propague.</LetterCropBlight>
+  <!-- EN: Blight: {PLANTDEF_labelPlural} -->
+  <LetterLabelCropBlight>Plaga: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
+  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!\n\nYou should cut or burn the affected plants before the blight spreads. -->
+  <LetterCropBlight>¡Una plaga ha sido descuvierta en {PLANTDEF_labelPlural}!\n\nDeberías cortar o quemar las plantas afectadas antes de que la plaga se esparza.</LetterCropBlight>
 
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>Milagro</LetterLabelMiracleHeal>
@@ -57,8 +57,8 @@
   <!-- EN: That really is a huge explosion. Wow. -->
   <ShortCircuitWasHuge>Eso si que ha sido una explosión de verdad. Guau.</ShortCircuitWasHuge>
 
-  <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}. -->
-  <TraderArrival>Hay una nave comercial en las cercanías.\n\nSe les conoce como {0}. Ellos son {1}.</TraderArrival>
+  <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
+  <TraderArrival>Hay una nave comercial en las cercanías.\n\nSe les conoce como {0}. Ellos son {1}.\n\n{2}</TraderArrival>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
   <SingleTravelerPassing>Un {PAWN_title} de {1} está de paso por la zona. {PAWN_pronoun} se llama {PAWN_nameFull}.</SingleTravelerPassing>
@@ -90,8 +90,8 @@
   <ManhunterPackArrived>Una manada de {0}, caza humanos, ha entrado en el área. Ellos recorrerán la región, en busca de carne humanoide\n\nEllos no pueden pasar las puertas, por lo que si te quedas detrás de las paredes deberas estar a salvo. No van a atacar a las torretas inactivas, por lo que pasarán de tus torretas desconectadas, si es que deseas salvarlas.\n\nVan a dejar la zona en pocos días.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
-  <!-- EN: The ancient structure has emitted a psychic pulse that has driven nearby animals mad. -->
-  <MessageAnimalInsanityPulse>La antigua estructura ha emitido un pulso psíquico que ha hecho enloquecer a los animales cercanos.</MessageAnimalInsanityPulse>
+  <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
+  <MessageAnimalInsanityPulse>La {SOURCE_label} ha emitido un pulso psíquico que ha hecho enloquecer a los animales cercanos.</MessageAnimalInsanityPulse>
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
   <LetterShipPartDroveColonistInsane>La nave estrellada ha emitido un pulso psíquico concentrado que ha hecho enloquecer al colono {0}.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
@@ -109,34 +109,12 @@
   <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
   <LetterAgentRevealed>{0} ha sido descubierto como un agente de tu enemigo {1}.\n\nEstan intentando escapar.</LetterAgentRevealed>
 
-  <!-- Distant psychic drone -->
-  <!-- EN: Psychic drone -->
-  <LetterLabelPsychicDrone>Zumbido psíquico</LetterLabelPsychicDrone>
-  <!-- EN: Every colonist of the {0} gender winces in pain!\n\nSome distant engine of hatred is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
-  <LetterIncidentPsychicDrone>¡Cada colono {0} se retuerce de dolor!\n\nAlguna lejana fuente de odio se está activando. Se está proyectando un potente zumbido psíquico en toda esta región, en una frecuencia que sólo parece afectar a {0}. Durante unos días, el estado de ánimo de algunas personas será un poco peor.\n\nEl nivel del zumbido es {1}</LetterIncidentPsychicDrone>
-
-  <!-- EN: Psychic soothe -->
-  <LetterLabelPsychicSoothe>Calma psíquica</LetterLabelPsychicSoothe>
-  <!-- EN: Every colonist of the {0} gender smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit better. -->
-  <LetterIncidentPsychicSoothe>¡Cada colono {0} sonríe con satisfacción!\n\nAlguna lejana fuente de felicidad se está despertando. Se está proyectando un potente zumbido psíquica en toda esta región, en una frecuencia que sólo parece afectar a {0}. Durante unos días, el estado de ánimo de algunas personas va a ser un poco mejor.</LetterIncidentPsychicSoothe>
-
   <!-- Beavers -->
   <!-- EN: Beavers! -->
   <LetterLabelBeaversArrived>¡Castores!</LetterLabelBeaversArrived>
   <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
   <BeaversArrived>Un grupo hambriento de alfacastores acaba de llegar a tu region.\n\nIntenta deshacerte de ellos antes de que acaben con todos los árboles de la region.</BeaversArrived>
-  
-  <!-- Refugee chased -->
-  <!-- EN: Refugee chased at {0} -->
-  <RefugeeChasedTitle>Refugiado perseguido(a) por {0}</RefugeeChasedTitle>
-  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} calls you from nearby. {PAWN_pronoun} is being chased by {2} from {3}!\n\n{PAWN_pronoun} begs for safety and offers to join your colony. {PAWN_pronoun} tells you {PAWN_pronoun} is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on {PAWN_possessive} tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>{PAWN_titleIndef} llamado {PAWN_nameDef} te llama desde la cercanía. {PAWN_pronoun} esta siendo perseguido(a) por {2} de {3}\n\n{PAWN_pronoun} ruega por seguridad y se ofrece a unirse a su colonia. {PAWN_pronoun} te dice que biologicamente tiene {4} años, pero no hay tiempo para obtener más información.\n\nEsté alerta, si usted acepta, tendrá que luchar contra los {2} que les va pisando los talones. Su grupo está compuesto por:\n\n{5}</RefugeeChasedInitial>
-  <!-- EN: Offer safety -->
-  <RefugeeChasedInitial_Accept>Oferta de salvamento</RefugeeChasedInitial_Accept>
-  <!-- EN: Ignore the message -->
-  <RefugeeChasedInitial_Reject>Ignorar el mensaje</RefugeeChasedInitial_Reject>
-  <!-- EN: {1_labelShort} screams in panic through the tinny speaker before you cut off the transmission. -->
-  <RefugeeChasedRejected>Antes de cortar la transmisión, oyes gritos de pánico de {1_labelShort} a través del pequeño altavoz.</RefugeeChasedRejected>
+
 
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
@@ -177,16 +155,17 @@
   <RansomDemand_Reject>Rechazar</RansomDemand_Reject>
   
   <!-- Journey-related -->
-  <!-- EN: A friendly AI from your past named Charlon Whitestone has sent you a message!\n\nHe reveals that he has a starship hidden on this planet, and sends you its world coordinates.\n\nThe starship is currently in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes.\n\nIf you can get the ship off the ground, Charlon will take you off this rimworld, to the stars. -->
-  <JourneyOffer>Una IA amistosa de tu pasado llamada Charlon Whitestone te ha enviado un mensaje!\n\nRevela que tiene una nave estelar escondida en este planeta, y les envía las coordenadas de su mundo.\n\nLa nave está en modo de hibernación profunda. Tendrás que hacerla arrancar cuando llegues, y luego defenderla de los invasores que intenten robarla hasta que la secuencia de arranque se complete.\n\nSi consigues que la nave despegue, Charlon te sacará de este mundo, hacia las estrellas.</JourneyOffer>
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
-  <!-- EN: You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>Has alcanzado las coordenadas enviadas por Charlon Whitestone y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\nCharlon Whitestone te advierte que el proceso de arranque tardará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros.\n\nAsegúrate de que tus defensas esten preparadas primero.</EscapeShipFound>
+  <!-- EN: You've reached the coordinates sent by &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <EscapeShipFound>Has llegado a las coordenadas enviadas por &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\n&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; te advierte que el proceso de arranque tardará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros.\n\nAsegúrate de que tus defensas esten preparadas primero.</EscapeShipFound>
+
+  <!-- EN: You've reached the coordinates sent by &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; warns you that the startup process will take about 15 days. -->
+  <EscapeShipFoundPeaceful>Has llegado a las coordenadas enviadas por &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\n&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; te advierte que el proceso de arranque tardará unos 15 días.</EscapeShipFoundPeaceful>
   <!-- EN: Ship destroyed -->
   <EscapeShipLostLabel>Nave destruida</EscapeShipLostLabel>
-  <!-- EN: Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
-  <EscapeShipLost>Charlon Whitestone te envía un mensaje.\n\nVe que has perdido el control de la nave. Para evitar que caiga en las manos equivocadas, ha sido forzado a activar el mecanismo de autodestrucción de la nave. La nave es ahora un cráter.\n\nNecesitarás encontrar otra forma de salir de este planeta.</EscapeShipLost>
+  <!-- EN: &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
+  <EscapeShipLost>&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; te envía un mensaje.\n\nVe que has perdido el control de la nave. Para evitar que caiga en las manos equivocadas, ha sido forzado a activar el mecanismo de autodestrucción de la nave. La nave es ahora un cráter.\n\nNecesitarás encontrar otra forma de salir de este planeta.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->

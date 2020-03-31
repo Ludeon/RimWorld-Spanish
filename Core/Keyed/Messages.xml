@@ -132,12 +132,12 @@
   <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
   <MessageInvoluntarySleep>{1_labelShort} ha colapsado debido al agotamiento extremo.</MessageInvoluntarySleep>
 
-  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort}. -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} se ha equivocado un poco mientras operaba a {PATIENT_labelShort}.</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort}. -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} se ha equivocado catastróficamente mientras operaba a {PATIENT_labelShort}.</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort}. -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se ha equivocado de forma ridícula mientras operaba a {PATIENT_labelShort}.</MessageMedicalOperationFailureRidiculous>
+  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} se ha equivocado un poco mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
+  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} se ha equivocado catastróficamente mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
+  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort}. ({RECIPE_label}) -->
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se ha equivocado de forma ridícula mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2} -->
   <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} ha cometido un error fatal mientras estaba operando a {PATIENT_labelShort} debido a los desafíos extraordinarios de: {2}</MessageMedicalOperationFailureFatal>
 
@@ -205,10 +205,6 @@
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
   <MessageShipChunkDrop>Un pedazo de nave espacial ha caído cerca de aquí.</MessageShipChunkDrop>
   
-  <!-- EN: The party has been called off. -->
-  <MessagePartyCalledOff>La fiesta se ha cancelado.</MessagePartyCalledOff>
-  <!-- EN: The party has finished. -->
-  <MessagePartyFinished>La fiesta ha terminado.</MessagePartyFinished>
 
   <!-- EN: Some items cannot be traded because of:  -->
   <MessageCannotSellItemsReason>Algunos objetos no pueden comercializarse porque: </MessageCannotSellItemsReason>
@@ -282,8 +278,6 @@
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>Debido a {PAWN_labelShort} el/la {2} ha sanado. Causa: {0}</MessagePermanentWoundHealed>
 
-  <!-- EN: {1_labelShort} has joined your group after being rescued! -->
-  <MessageRescueeJoined>{1_labelShort} se ha unido a su asentamiento después de ser rescatado!.</MessageRescueeJoined>
   
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>No se puede llegar hasta algunas de las cápsulas de transporte.</MessageTransporterUnreachable>
@@ -419,8 +413,6 @@
   <!-- EN: Caravan will automatically travel to the first waypoint. -->
   <MessageChoseRoute>La caravana se desplazará automáticamente hasta el primer punto intermedio.</MessageChoseRoute>
 
-  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <MessageCraftedMasterwork>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}.</MessageCraftedMasterwork>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Para salir de la zona, utilice el botón 'reformar caravana' en la vista del mundo.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
