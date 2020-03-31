@@ -119,6 +119,12 @@
   <MissingMods>Algunos mods no están disponibles y deben instalarse</MissingMods>
   <!-- EN: Official content -->
   <OfficialContent>Contenido oficial</OfficialContent>
+  <!-- EN: Active -->
+  <ContentActive>Activo</ContentActive>
+  <!-- EN: Installed, but not active -->
+  <ContentInstalledButNotActive>Instalado, pero no activo</ContentInstalledButNotActive>
+  <!-- EN: Not installed -->
+  <ContentNotInstalled>No instalado</ContentNotInstalled>
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
@@ -312,6 +318,16 @@
   <MeleeWarmupTime>Calentamiento para atq. cuerpo a cuerpo</MeleeWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Enfriamiento</CooldownTime>
+
+  <!-- EN: Disarmed -->
+  <DisarmedTime>Desarmado</DisarmedTime>
+  <!-- EN: Charging -->
+  <ChargingTime>Recargando</ChargingTime>
+  <!-- EN: Next recharge (for {1}) in: {0}\nCharge cycle: {2} -->
+  <ChargingNext>Siguiente recarga (por {1}) en: {0}\nCiclo de recarga: {2}</ChargingNext>
+  <!-- EN: Shut down -->
+  <ShutDown>Eliminado</ShutDown>
+
   <!-- EN: Fire rate -->
   <BurstShotFireRate>Cadencia de tiro</BurstShotFireRate>
   <!-- EN: Range -->
@@ -366,6 +382,8 @@
   <MinFoodQuality>Calidad</MinFoodQuality>
   <!-- EN: Diet -->
   <Diet>Dieta</Diet>
+  <!-- EN: Nutrition need per day -->
+  <NutritationEatenPerDay>Nutrición diaria necesitada</NutritationEatenPerDay>
   <!-- EN: Leather type -->
   <LeatherType>Tipo de cuero</LeatherType>
   <!-- EN: Body size -->
@@ -376,6 +394,8 @@
   <MarketValue>Precio base</MarketValue>
   <!-- EN: Covers -->
   <Covers>Cobertura</Covers>
+  <!-- EN: Created at -->
+  <CreatedAt>Creado en</CreatedAt>
   <!-- EN: Layer -->
   <Layer>Recubrimiento</Layer>
   <!-- EN: Cover effectiveness -->
@@ -412,10 +432,16 @@
   <Skill>Habilidad</Skill>
   <!-- EN: Success rate multiplier -->
   <SurgerySuccessChanceFactor>Multiplicador de la tasa de éxito</SurgerySuccessChanceFactor>
+  <!-- EN: Death chance on fail -->
+  <SurgeryDeathOnFailChance>Probabilidad de muerte al fallar</SurgeryDeathOnFailChance>
   <!-- EN: Work speed governed by -->
   <WorkSpeedStat>Velocidad de trabajo gobernada por</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
   <EfficiencyStat>Cantidad de salida gobernada por</EfficiencyStat>
+  <!-- EN: {0} skill required -->
+  <SkillRequiredToBuild>habilidad necesaria: {0}</SkillRequiredToBuild>
+  <!-- EN: Requires this level of {0} in order to build. -->
+  <SkillRequiredToBuildExplanation>Requiere este nivel de {0} para construir.</SkillRequiredToBuildExplanation>
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>Intervalo de acople</NuzzleInterval>
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection. Most humans find this cute and it will leave them in a good mood for a period of time. -->
@@ -442,6 +468,21 @@
   <ShotsBeforeRearmExplanation>Cuántos disparos puede disparar esta torreta antes de que tenga que ser recargada.</ShotsBeforeRearmExplanation>
   <!-- EN: Power consumption -->
   <PowerConsumption>Consumo de energía</PowerConsumption>
+  <!-- EN: Target -->
+  <Target>Objetivo</Target>
+  <!-- EN: Human -->
+  <TargetHuman>Homano</TargetHuman>
+  <!-- EN: Animal -->
+  <TargetAnimal>Animal</TargetAnimal>
+  <!-- EN: Self -->
+  <TargetSelf>A sí mismo</TargetSelf>
+  <!-- EN: Ground -->
+  <TargetGround>Suelo</TargetGround>
+  <!-- EN: Click to learn more. -->
+  <ClickToLearnMore>Pulsa para saber más.</ClickToLearnMore>
+  <!-- EN: Click to view factions. -->
+  <ClickToViewFactions>Pulsa para ver las facciones.</ClickToViewFactions>
+
 
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -476,6 +517,8 @@
   <TraderWillNotTrade>El comerciante no desea comerciar con este objeto.</TraderWillNotTrade>
   <!-- EN: Negotiator -->
   <Negotiator>Negociador</Negotiator>
+  <!-- EN: Negotiator: {0} (+{1}) -->
+  <NegotiatorTradeDialogInfo>Negociador: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
   <NegotiatorTalkingImpaired>Tu negociador {1_labelShort} no puede hablar bien debido a un problema de salud.\n\nEsto afectará los negativamente los precios.\n\nConsidera usar un negociador más saludable.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
@@ -510,10 +553,21 @@
   <GiftModeTip>Modo de regalo - ofrecer regalos a {0}.</GiftModeTip>
   <!-- EN: Return to trade mode. -->
   <TradeModeTip>Volver al modo de comercio.</TradeModeTip>
+  <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <TradeCaravanRequestDeniedDueTitle>{FACTION_name} no está dispuesto a enviar una caravana porque {NEGOTIATOR_nameDef} no tiene el título de {TITLE}.</TradeCaravanRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
   <SellableItemsTitle>Cosas que este comerciante comprará</SellableItemsTitle>
+  <!-- EN: Never visited - stock unknown -->
+  <TraderNotVisitedYet>No visitado nunca - no se conoce el catálogo</TraderNotVisitedYet>
+  <!-- EN: Restocked since your last visit -->
+  <TraderRestockedSinceLastVisit>Repuesto desde tu ultima visita</TraderRestockedSinceLastVisit>
+  <!-- EN: Next restock: {0} days -->
+  <NextTraderRestock>Reponen en: {0} días</NextTraderRestock>
+
+
+
   <!-- EN: Creatures -->
   <PawnsTabShort>Criaturas</PawnsTabShort>
   
