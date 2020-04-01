@@ -706,20 +706,34 @@
   <SourceCaravanMustHaveAtLeastOneColonist>Debes dejar al menos un colono consciente.</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>Cuantos de estos objetos la caravana presente tiene listos para pasar a la nueva.</SplitCaravanThingCountTip>
+
+  <!-- Caravan misc -->
+  <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony!-->
+  <ConfirmAttackFriendlyFaction>¿Estás seguro de querer atacar {0}?\n\nEsto hará que {1} sea hostíl contigo, ¡y eventualmente empezarán a asaltar tu colonia!</ConfirmAttackFriendlyFaction>
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
   <LoadTransporters>Cargar {0}</LoadTransporters>
   <!-- EN: The assigned people and items are too heavy for the transport pods. -->
   <TooBigTransportersMassUsage>Las personas y objetos asignados son demasiado pesados para las cápsulas de transporte.</TooBigTransportersMassUsage>
+  <!-- EN: The assigned people and items are too heavy for the shuttle. -->
+  <TooBigTransporterSingleMassUsage>Las personas y objetos designados son demasiado pesados para la cápsula de transporte.</TooBigTransporterSingleMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>No puedes enviar una cápsula de transporte vacía.</CantSendEmptyTransportPods>
+  <!-- EN: You can't send empty shuttle. -->
+  <CantSendEmptyTransporterSingle>No puedes enviar una lanzadera vacía.</CantSendEmptyTransporterSingle>
   <!-- EN: {1_labelShort} can't reach the transport pods. -->
-  <PawnCantReachTransporters>{1_labelShort} no puede llegar hasta las cápsulas de transporte.</PawnCantReachTransporters>
+  <PawnCantReachTransporters>{1_labelShort} no puede llegar a las cápsulas de transporte.</PawnCantReachTransporters>
+  <!-- EN: {1_labelShort} can't reach the shuttle. -->
+  <PawnCantReachTransporterSingle>{1_labelShort} no pùede llegar a la lanzadera.</PawnCantReachTransporterSingle>
   <!-- EN: There is no path between the transport pods and the {0}. -->
-  <TransporterItemIsUnreachableSingle>No hay camino disponible entre las cápsulas de transporte y el/la {0}.</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableSingle>No hay ningún camino disponible entre las cápsulas de transporte y {0}.</TransporterItemIsUnreachableSingle>
+  <!-- EN: There is no path between the shuttle and the {0}. -->
+  <TransporterSingleItemIsUnreachableSingle>No hay ningún camino disponible entre la lanzadera y {0}.</TransporterSingleItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
-  <TransporterItemIsUnreachableMulti>No hay camino disponible entre las cápsulas de transporte y {0}x {1}.</TransporterItemIsUnreachableMulti>
+  <TransporterItemIsUnreachableMulti>No hay ningún camino disponible entre las cápsulas de transporte y {0}x {1}.</TransporterItemIsUnreachableMulti>
+  <!-- EN: There is no path between the shuttle and {0}x {1}. -->
+  <TransporterSingleItemIsUnreachableMulti>No hay ningún camino disponible entre la lanzadera y {0}x {1}.</TransporterSingleItemIsUnreachableMulti>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -912,5 +926,27 @@
   <!-- Load transporters -->
   <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
   <TransportersCaravanWillBeImmobile>La caravana estará inmóvil si envías las cápsulas a una baldosa vacía. ¿Continuar de todos modos?</TransportersCaravanWillBeImmobile>
+
+  <!-- Confirm cancel monument marker -->
+  <!-- EN: Do you really want to remove this monument marker? -->
+  <ConfirmCancelMonumentMarker>¿De verdad quieres eliminar este marcador de monumento?</ConfirmCancelMonumentMarker>
+
+  <!-- Abilities -->
+  <!-- EN: Line of sight required -->
+  <AbilityRequiresLOS>Linea de visión requerida</AbilityRequiresLOS>
+  <!-- EN: Entropy gain  -->
+  <AbilityEntropyGain>Entropía ganada </AbilityEntropyGain>
+  <!-- EN: Effect duration -->
+  <AbilityDuration>Duración del efecto</AbilityDuration>
+  <!-- EN: Effect radius -->
+  <AbilityEffectRadius>Radio efectivo</AbilityEffectRadius>
+  <!-- EN: Casting time -->
+  <AbilityCastingTime>Tiempo de casteo</AbilityCastingTime>
+  <!-- EN: No line of sight to target. -->
+  <AbilityCannotHitTarget>No hay línea de visión con el objetivo.</AbilityCannotHitTarget>
+  <!-- EN: {0} must target an empty area. -->
+  <AbilityOccupiedCells>{0} debe apuntar a un área vacía.</AbilityOccupiedCells>
+  <!-- EN: {0} must target a walkable area. -->
+  <AbilityUnwalkable>{0} debe apuntar a un área transitable.</AbilityUnwalkable>
 
 </LanguageData>
