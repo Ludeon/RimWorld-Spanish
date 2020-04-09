@@ -6,8 +6,3 @@
 
 
 * Archivos nuevos:
-
-
-Estado | Archivo | Líneas afectadas
------- | ------------------------------------------ | -----------------------
- [*] | hola.xml | :120 a :145
