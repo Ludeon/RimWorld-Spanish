@@ -6,3 +6,5 @@
 
 
 * Archivos nuevos:
+
+* Archivos con textos nuevos pendientes de revisión:
