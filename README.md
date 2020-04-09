@@ -4,8 +4,7 @@ Spanish-translation-of-Rimworld
 Esta es la **traducción al español** Castellano (de España) de Rimworld.
 
 
-Consulte esta página para obtener información sobre la licencia e información adicional sobre como ayudar
-
+Consulte esta página para obtener información sobre la licencia e información adicional sobre como ayudar:
 [Enlace a la guia en los foros oficiales](http://ludeon.com/forums/index.php?topic=2933.0)
 
 --------------------
