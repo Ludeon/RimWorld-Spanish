@@ -1,7 +1,7 @@
 
 * Archivos con *textos* nuevos **pendientes de traducción**:
 
-	* [-] "Core\Keyed\Dialog_StatsReports.xml"			A partir de la línea: 115
+	* [x] "Core\Keyed\Dialog_StatsReports.xml"			A partir de la línea: 115
 	* [ ] "Core\Keyed\Letters.xml"						A partir de la línea: 420
 
 
