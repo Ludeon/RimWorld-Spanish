@@ -14,10 +14,21 @@
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
   <LetterRoyalTitleExpectation>{PAWN_possessive}Las expectativas nunca serán más bajas que {1}.</LetterRoyalTitleExpectation>
 
+  <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
+  <LetterRoyalTitleConceitedTrait>Debido a que {PAWN_labelShort} es {1}, {PAWN_pronoun} demanda que se respeten los privilegios de su título. {PAWN_pronoun} podría negarse a hacer ciertos tipos de trabajo, comer comida de baja clase y emitirá decretos.</LetterRoyalTitleConceitedTrait>
+
   <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort} recibió el título {TITLE} de la facción '{FACTION_name}'!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
   <LetterLostRoyalTitle>{PAWN_labelShort} ya no posee el título {TITLE} de la facción '{FACTION_name}'.</LetterLostRoyalTitle>
+  <!-- EN: Title rewards -->
+  <LetterLabelRewardsForNewTitle>Recompensas de título</LetterLabelRewardsForNewTitle>
+  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} following reward(s): -->
+  <LetterRewardsForNewTitle>Para honrar a {PAWN_labelShort}, el cual a ascendido a {TITLE}, {FACTION_name} {PAWN_objective} ha enviado las siguientes recompensas:</LetterRewardsForNewTitle>
+  <!-- EN: Rewards have arrived to your colony via transport pods. -->
+  <LetterRewardsForNewTitleDeliveryBase>Las recompensas han llegado a la colonia mediante cápsulas de transporte.</LetterRewardsForNewTitleDeliveryBase>
+  <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
+  <LetterRewardsForNewTitleDeliveryDirect>Las recompensas han sido entregadas directamente al inventario de {PAWN_labelShort}.</LetterRewardsForNewTitleDeliveryDirect>
 
   <!-- EN: {PAWN_pronoun} has these permissions: -->
   <LetterRoyalTitlePermits>{PAWN_pronoun} tiene los siguientes permisos:</LetterRoyalTitlePermits>
@@ -120,5 +131,9 @@
   <LetterRandomDecree> {0_possessive} con el título {0_bestRoyalTitleIndef} tiene que estar a la altura de su cargo {0_nameIndef} por lo tanto emitió un decreto real y ahora exige que se cumpla.\nSi no se cumple a tiempo {0_nameIndef} será muy infeliz.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
   <LetterDecree_Quest>El decreto es '{0}'.</LetterDecree_Quest>
+
+  <!-- Lent colonist died -->
+  <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
+  <LentColonistDied>{PAWN_nameDef} fue prestado a {FACTION}. Ellos devolverán el cuerpo de {PAWN_nameDef} dentro de poco.</LentColonistDied>  
 
 </LanguageData>
