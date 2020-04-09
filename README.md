@@ -1,10 +1,14 @@
 Spanish-translation-of-Rimworld
 ===============================
 
-Esta es la traducción al español de España de Rimworld.
+Esta es la traducción al español Castellano (de España) de Rimworld.
 
 Consulte esta página para obtener información sobre la licencia e información adicional sobre como ayudar:
-http://ludeon.com/forums/index.php?topic=2933.0
+	http://ludeon.com/forums/index.php?topic=2933.0
+
+
+El archivo "ToDo.md" es el archivo en el que se anotarán aquellos archivos que contengan nuevos textos pendientes de traducción, nuevos archivos necesarios para las traducciones y que aún no están traducidos, etc.
+
 
 --------------------
 
