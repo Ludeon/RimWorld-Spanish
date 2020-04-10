@@ -3,7 +3,9 @@
 
 	* [x] "Core\Keyed\Dialog_StatsReports.xml"												A partir de la línea: 115
 	
-	* [ ] "Royalty\DefInjected\HediffDef\Hediffs_BodyParts_Prosthetic_Empire.xml"			Todo el documento	
+	* [ ] "Royalty\DefInjected\HediffDef\Hediffs_BodyParts_Prosthetic_Empire.xml"			Todo el documento
+
+	* [ ] "Core\DefInjected\HairDef\HairsGeneral.xml"										Son 27 nuevos, repartidos por el docuemto, es cortito.
 			
 
 
@@ -14,7 +16,7 @@
 
 * Archivos a revisar:
 
-	* [x] "Royalty\Keyed\Letters.xml"
+	* [ ] "Royalty\Keyed\Letters.xml"		Está casi todo abajo, pero he dejado algunas nuevas de por medio, así que hay que revisar casi todo.
 
 	* [ ] "Core\Keyed\Messages.xml"			Está casi todo abajo, pero he dejado algunas nuevas de por medio, así que hay que revisar casi todo.
 
