@@ -3,7 +3,7 @@
 
   <!-- Various -->
   <!-- EN: hit points -->
-  <HitPointsBasic>Puntos de Vida</HitPointsBasic>
+  <HitPointsBasic>Puntos de Golpe</HitPointsBasic>
   <!-- EN: Work left -->
   <WorkLeft>Trabajo restante</WorkLeft>
   <!-- EN: Contents -->
@@ -930,7 +930,7 @@
 
   <!-- Game conditions -->
   <!-- EN: Special conditions affecting the area right now. -->
-  <GameConditionsTip>Condiciones especiales que afectan el área en estos momentos.</GameConditionsTip>
+  <GameConditionsTip>Condiciones especiales que afectan la zona en estos momentos.</GameConditionsTip>
   <!-- EN: time left -->
   <TimeLeft>tiempo restante</TimeLeft>
   <!-- EN: impact date -->
@@ -1152,7 +1152,7 @@
 
   <!-- Deep drill -->
   <!-- EN: Progress to next lump -->
-  <ProgressToNextLump>Progreso hasta la siguiente masa</ProgressToNextLump>
+  <ProgressToNextLump>Progreso hasta la siguiente veta</ProgressToNextLump>
   <!-- EN: Resource below -->
   <ResourceBelow>Hay recursos abajo</ResourceBelow>
   <!-- EN: Progress to next portion -->
@@ -1237,59 +1237,59 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN:  -->
-  <PawnTooltipPsychicEntropy>Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind.</PawnTooltipPsychicEntropy>
-  <!-- EN:  -->
-  <PawnTooltipPsychicEntropyPainFocus>Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1}</PawnTooltipPsychicEntropyPainFocus>
-  <!-- EN:  -->
-  <PawnTooltipPsychicEntropyLimit>Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects.</PawnTooltipPsychicEntropyLimit>
+  <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
+  <PawnTooltipPsychicEntropy>Entropía psíquica: {0}/{1}\nTasa de caída: {2}/{3}seg({4}seg hasta cero)\n\nLa entropía psíquica se incrementa tras el lanzamiento de un poder psíquico.\nIr más allá de un límite razonable puede acarrear consecuencias de salud a largo plazo.\nSiempre que la entropía llegue a cero, dejará una especie de resaca psíquica.</PawnTooltipPsychicEntropy>
+  <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
+  <PawnTooltipPsychicEntropyPainFocus>El dolor concentra la mente, y permite recuperarse más rápido de la entropía psíquica.\n\nNivel de dolor: {0}\nBonus a recuperación de entropía psíquica: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
+  <PawnTooltipPsychicEntropyLimit>Actica/desactiva el limitador de entropía psíquica.\n\nIr más allá de tu límite de entropía psíquica puede causar serios problemas de salud, incluyendo colapsos psíquico de larga duración, e incluso daño cerebral agudo. Cuanto más se sobrepase el límite de entropía, más peligrosos serán los efectos.</PawnTooltipPsychicEntropyLimit>
 
   <!-- Pawn tooltip description -->
-  <!-- EN:  -->
+  <!-- EN: {0} {1} -->
   <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
-  <!-- EN:  -->
-  <Reward_Pawn_DropPod>a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
-  <!-- EN:  -->
-  <Reward_Pawn_WalkIn>a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
-  <!-- EN:  -->
-  <Reward_Pawn_Caravan>a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN:  -->
-  <Reward_Items>transport pods with the following resources will arrive (total value {1}):\n\n{0}</Reward_Items>
-  <!-- EN:  -->
-  <Reward_Items_Caravan>you will receive (total value {1}):\n\n{0}</Reward_Items_Caravan>
-  <!-- EN:  -->
-  <Reward_Goodwill>your faction relations with {0_name} will improve by {1}</Reward_Goodwill>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
+  <Reward_Pawn_DropPod>Un/una {0_title} de {0_age} años de edad llegará en una cápsula de transporte {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_WalkIn>Un/una {0_title} de {0_age} años de edad llegará y se unirá a ti {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_Caravan>Un/una {0_title} de {0_age} años de edad se unirá a ti {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
+  <Reward_Items>Cápsulas de transporte con los recursos siguientes están por llegar (valor total {1}):\n\n{0}</Reward_Items>
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
+  <Reward_Items_Caravan>recivirás (valor total {1}):\n\n{0}</Reward_Items_Caravan>
+  <!-- EN: your faction relations with {0_name} will improve by {1} -->
+  <Reward_Goodwill>las relaciones de tu facción con {0_name} mejorarán en {1}</Reward_Goodwill>
   
   <!-- Bladelink -->
-  <!-- EN:  -->
-  <BondedWith>Bonded to: {0}</BondedWith>
-  <!-- EN:  -->
-  <NotBonded>Not yet bonded</NotBonded>
-  <!-- EN:  -->
-  <BladelinkBondedToSomeoneElse>bonded to someone else</BladelinkBondedToSomeoneElse>
+  <!-- EN: Bonded to: {0} -->
+  <BondedWith>Vinculado a: {0}</BondedWith>
+  <!-- EN: Not yet bonded -->
+  <NotBonded>Aún no vinculado</NotBonded>
+  <!-- EN: bonded to someone else -->
+  <BladelinkBondedToSomeoneElse>vinculado a otro</BladelinkBondedToSomeoneElse>
 
   <!-- Biocoded weapons -->
-  <!-- EN:  -->
-  <Biocoded>biocoded {0}</Biocoded>
-  <!-- EN:  -->
-  <CodedFor>Biocoding: {0}</CodedFor>
-  <!-- EN:  -->
-  <BiocodedCodedForSomeoneElse>biocoded</BiocodedCodedForSomeoneElse>
+  <!-- EN: biocoded {0} -->
+  <Biocoded>biocodificado {0}</Biocoded>
+  <!-- EN: Biocoding: {0} -->
+  <CodedFor>Biocodificando: {0}</CodedFor>
+  <!-- EN: biocoded -->
+  <BiocodedCodedForSomeoneElse>biocodificado</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
-  <!-- EN:  -->
-  <InterceptsProjectilesEvery>Intercepts {0} every {1}</InterceptsProjectilesEvery>
-  <!-- EN:  -->
-  <InterceptsProjectiles>Intercepts {0}</InterceptsProjectiles>
-  <!-- EN:  -->
-  <InterceptsProjectiles_GroundProjectiles>ground projectiles</InterceptsProjectiles_GroundProjectiles>
-  <!-- EN:  -->
-  <InterceptsProjectiles_AerialProjectiles>aerial projectiles</InterceptsProjectiles_AerialProjectiles>
+  <!-- EN: Intercepts {0} every {1} -->
+  <InterceptsProjectilesEvery>Intercepta {0} de cada {1}</InterceptsProjectilesEvery>
+  <!-- EN: Intercepts {0} -->
+  <InterceptsProjectiles>Intercepta {0}</InterceptsProjectiles>
+  <!-- EN: ground projectiles -->
+  <InterceptsProjectiles_GroundProjectiles>proyectiles anti-tierra</InterceptsProjectiles_GroundProjectiles>
+  <!-- EN: aerial projectiles -->
+  <InterceptsProjectiles_AerialProjectiles>proyectiles anti-aéreos</InterceptsProjectiles_AerialProjectiles>
 
   <!-- Condition causers -->
-  <!-- EN:  -->
-  <AffectedGender>Affected gender</AffectedGender>
+  <!-- EN: Affected gender -->
+  <AffectedGender>Sexo afectado</AffectedGender>
 
 </LanguageData>
