@@ -34,6 +34,8 @@
   <WeatherController.label>Clima Antinatural</WeatherController.label>
   <!-- EN: A nearby weather controller is forcing the weather into this configuration. -->
   <WeatherController.description>Un regulador meteorológico cercano está manipulando el clima a esta configuración permanentemente.</WeatherController.description>
+  <!-- EN: a weather-control system will force the weather around [map_definite] to be [forcedWeather_indefinite] for [gameConditionDuration_duration] -->
+  <WeatherController.descriptionFuture>Un sistema de control meteorológico forzará que la meterología cerca de [map_definite] sea [forcedWeather_indefinite] por [gameConditionDuration_duration]</WeatherController.descriptionFuture>
   <!-- EN: The weather controller is no longer changing the weather. -->
   <WeatherController.endMessage>El regulador meteorológico ya no afecta al clima.</WeatherController.endMessage>
   <!-- EN: A weather controller machine has begun affecting the weather. -->
@@ -53,22 +55,26 @@
   <!-- EN: psychic suppression -->
   <PsychicSuppression.label>Represión psíquica</PsychicSuppression.label>
   <!-- EN: A psychic suppression field is affecting {0}s and reducing their consciousness. The effect is modulated by an individual's psychic sensitivity. -->
-  <PsychicSuppression.description>Un campo de represión psíquico afecta a {0} y afecta su conciencia. El efecto está regulado por la susceptibilidad mental.</PsychicSuppression.description>
+  <PsychicSuppression.description>Un campo de represión psíquico afecta a {0}es y afecta su conciencia. El efecto está regulado por la susceptibilidad mental.</PsychicSuppression.description>
+  <!-- EN: a psychic suppression wave will reduce the consciousness of all [psychicSuppressorGender]s around [map_definite] for [gameConditionDuration_duration] -->
+  <PsychicSuppression.descriptionFuture>una ola de supresión psíquica reducirá la consciencia de todo [psychicSuppressorGender] cerca de [map_definite] por [gameConditionDuration_duration]</PsychicSuppression.descriptionFuture>
   <!-- EN: The psychic suppressor field has dissipated. -->
   <PsychicSuppression.endMessage>El campo de represión psíquica se ha disipado.</PsychicSuppression.endMessage>
   <!-- EN: A psychic suppressor field has begun reducing the consciousness of {0}s across the whole region. The effect is modulated by an individual's psychic sensitivity. -->
-  <PsychicSuppression.letterText>Un campo de represión psíquico ha comenzado a afectar el estado de ánimo de {0} en toda la región. El efecto está regulado por la susceptibilidad mental.</PsychicSuppression.letterText>
+  <PsychicSuppression.letterText>Un campo de represión psíquico ha comenzado a afectar el estado de ánimo de {0}es en toda la región. El efecto está regulado por la susceptibilidad mental.</PsychicSuppression.letterText>
 
   <!-- EMI dynamo -->
   
   <!-- EN: EMI field -->
-  <EMIField.label>Campo IEM</EMIField.label>
+  <EMIField.label>Campo PEM</EMIField.label>
   <!-- EN: An electromagnetic interference dynamo is projecting an EM interference field, disabling electrical devices. -->
   <EMIField.description>Un dispositivo de interferencia electromagnética proyecta un campo electromagnético que desactiva los dispositivos eléctricos.</EMIField.description>
+  <!-- EN: a distant EMI dynamo will blast [map_definite] with an EMI field, shutting down electrical devices for [gameConditionDuration_duration] -->
+  <EMIField.descriptionFuture>una dinamo PEM distante bombardeará [map_definite] con un campo de Pulsos ElectroMagnéticos, apagando dispositivos eléctricos por [gameConditionDuration_duration]</EMIField.descriptionFuture>
   <!-- EN: The EMI field has disappeared. -->
-  <EMIField.endMessage>El campo IEM ha desaparecido</EMIField.endMessage>
+  <EMIField.endMessage>El campo PEM ha desaparecido</EMIField.endMessage>
   <!-- EN: An EMI field has been generated. It is disabling electrical devices. -->
-  <EMIField.letterText>Se ha creado un campo IEM. Desactiva los equipo eléctricos.</EMIField.letterText>
+  <EMIField.letterText>Se ha creado un campo PEM. Está desactivando los dispositivos eléctricos.</EMIField.letterText>
 
 
 </LanguageData>
