@@ -20,3 +20,5 @@
 
 	* [ ] "Core\Keyed\MainTabs.xml"			A partir de la línea: 267 (Pero mejor revisalo entero)
 
+	* [ ] "Core\Keyed\Misc_Gameplay.xml"	(Mejor revisalo entero, aunque la mayoría de lo nuevo está a parti de la línea: 1231)
+
