@@ -59,6 +59,10 @@
 
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
   <TraderArrival>Hay una nave comercial en las cercanías.\n\nSe les conoce como {0}. Ellos son {1}.\n\n{2}</TraderArrival>
+  <!-- EN: They're affiliated with {FACTION_name}. -->
+  <TraderArrivalFromFaction>Ellos están afiliados a {FACTION_name}.</TraderArrivalFromFaction>
+  <!-- EN: They are not affiliated with any faction. -->
+  <TraderArrivalNoFaction>Ellos no están afiliados a ninguna facción.</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
   <SingleTravelerPassing>Un {PAWN_title} de {1} está de paso por la zona. {PAWN_pronoun} se llama {PAWN_nameFull}.</SingleTravelerPassing>
@@ -96,6 +100,10 @@
   <LetterShipPartDroveColonistInsane>La nave estrellada ha emitido un pulso psíquico concentrado que ha hecho enloquecer al colono {0}.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
   <AwokeDaysAgo>Despertó hace {0} días</AwokeDaysAgo>
+  <!-- EN: Activated {0} days ago -->
+  <ActivatedDaysAgo>Activado hace {0} días</ActivatedDaysAgo>
+  <!-- EN: Opened {0} days ago -->
+  <OpenedDaysAgo>Abierto hace {0} días</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
   <PsychicDroneLevel>Nivel de zumbido psíquico: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
@@ -141,8 +149,10 @@
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
   <LetterLabelTraderCaravanArrival>{1} de {0}</LetterLabelTraderCaravanArrival>
-  <!-- EN: A caravan from {0} is approaching. They are a {1}.\n\nThey will hang around the colony for a few days before leaving. You can attack them - but this will anger their faction! -->
-  <LetterTraderCaravanArrival>Una caravana de comerciantes de {0} se aproxima. Es una caravana de {1}.\n\n¡Se quedarán en la vecindad de la colonia durante unos días antes de irse. Puedes atacarlos, pero esto va a enfadar a su facción!</LetterTraderCaravanArrival>
+  <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
+  <LetterTraderCaravanArrival>Una caravana de comerciantes de {0} se aproxima. Es una caravana de {1}.</LetterTraderCaravanArrival>
+  <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
+  <LetterCaravanArrivalCommonWarning>Se quedarán en los alrededores de la colonia durante unos días antes de irse. Puedes atacarlos, ¡pero esto enfadará a su facción!</LetterCaravanArrivalCommonWarning>
   
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
@@ -180,6 +190,8 @@
   <CaravanMeeting_MoveOn>Seguir de largo</CaravanMeeting_MoveOn>
   <!-- EN: no caravan members capable of trading -->
   <CaravanMeeting_TradeIncapable>ningún miembro de la caravana capaz de comerciar</CaravanMeeting_TradeIncapable>
+  <!-- EN: need a trader with the title of {0} from {1_name} -->
+  <CaravanMeeting_NoPermit>hace falta un comerciante con el título de {0} de {1_name}</CaravanMeeting_NoPermit>
   
   <!-- Caravan request -->
   <!-- EN: Caravan request -->
@@ -212,5 +224,21 @@
   <LetterSiteNoLongerHostile>Porque ya no eres hostil con {0}, el {1} ya no está disponible.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
   <LetterSiteNoLongerHostileMulti>Porque ya no eres hostil con {0}, los siguientes sitios ya no están disponibles</LetterSiteNoLongerHostileMulti>
+
+  <!-- Quest asker faction hostile -->
+  <LetterLabelQuestAskerFactionHostile>Quest failed</LetterLabelQuestAskerFactionHostile>
+  <LetterQuestAskerFactionHostile>The quest is now incompletable because {FACTION_name} is hostile.</LetterQuestAskerFactionHostile>
+
+  <!-- Quest asker captured -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerCaptured>Misión fallida</LetterLabelQuestAskerCaptured>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
+  <LetterQuestAskerCaptured>La misión no ha sido completada porque {SUBJECT_definite} ha sido capturado.</LetterQuestAskerCaptured>
+
+  <!-- Quest asker died -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerDied>Misión fallida</LetterLabelQuestAskerDied>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
+  <LetterQuestAskerDied>La misión no ha sido completada porque {SUBJECT_definite} ha muerto.</LetterQuestAskerDied>
 
 </LanguageData>
