@@ -20,7 +20,9 @@
 
 	* [x] "Core\Keyed\Messages.xml"			Está casi todo abajo, pero he dejado algunas nuevas de por medio, así que hay que revisar casi todo.
 
-	* [x] "Core\Keyed\MainTabs.xml"			A partir de la línea: 267 (Pero mejor revisalo entero)
+	* [x] "Core\Keyed\MainTabs.xml"				A partir de la línea: 267 (Pero mejor revisalo entero)
 
-	* [x] "Core\Keyed\Misc_Gameplay.xml"	(Mejor revisalo entero, aunque la mayoría de lo nuevo está a parti de la línea: 1231)
+	* [x] "Core\Keyed\Misc_Gameplay.xml"		(Mejor revisalo entero, aunque la mayoría de lo nuevo está a parti de la línea: 1231)
+
+	* [ ] "Royalty\DefInjected\QuestScriptDef\"	Estaban copiados y pegados del alemán, estoy cammbiandolos por los textos ingleses, casi TODOS.
 
