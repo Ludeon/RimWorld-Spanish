@@ -119,7 +119,7 @@
   <!-- EN: Mental state: Slaughterer -->
   <Slaughterer.baseInspectLine>Estado Mental: Sacrificio animal</Slaughterer.baseInspectLine>
   <!-- EN: {0} has a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
-  <Slaughterer.beginLetter>{0} tiene un colapso mental y se va a desquitar con tus animales.</Slaughterer.beginLetter>
+  <Slaughterer.beginLetter>{0} está sufriendo un colapso mental y se va a desquitar con tus animales.</Slaughterer.beginLetter>
   <Slaughterer.beginLetterLabel>sacrificio animal</Slaughterer.beginLetterLabel>
   <!-- EN: {0} is no longer slaughtering random animals. -->
   <Slaughterer.recoveryMessage>{0} ha dejado de sacrificar animales.</Slaughterer.recoveryMessage>
@@ -129,19 +129,20 @@
   <!-- EN: Mental state: Tantrum -->
   <Tantrum.baseInspectLine>Estado mental: Rabieta</Tantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] will smash up random furniture, items and structures. -->
-  <Tantrum.beginLetter>{0} está teniendo una rabieta.\n\nVa a machacar muebles, objetos y construcciones al azar.</Tantrum.beginLetter>
+  <Tantrum.beginLetter>{0} está teniendo una rabieta.\n\nVa a pegarle a muebles, objetos y construcciones al azar.</Tantrum.beginLetter>
   <Tantrum.beginLetterLabel>rabieta</Tantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <Tantrum.recoveryMessage>{0} se ha calmado.</Tantrum.recoveryMessage>
   
   <!-- EN: insulting spree -->
-  <TargetedInsultingSpree.label>insultos concentrados</TargetedInsultingSpree.label>
+  <TargetedInsultingSpree.label>racha de insultos</TargetedInsultingSpree.label>
   <!-- EN: Mental state: Insulting spree against {0} -->
   <TargetedInsultingSpree.baseInspectLine>Estado mental: Insultos contra {0}</TargetedInsultingSpree.baseInspectLine>
   <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
   <TargetedInsultingSpree.beginLetter>{0} ha concentrado su rabia en {1}.\n\n[PAWN_pronoun] seguirá a {1}, acosándo[PAWN_objective] con una rica variedad de malas palabras. </TargetedInsultingSpree.beginLetter>
-  <TargetedInsultingSpree.beginLetterLabel>insultos concentrados</TargetedInsultingSpree.beginLetterLabel>
-  <TargetedInsultingSpree.recoveryMessage>{0} se ha cansado de insultar</TargetedInsultingSpree.recoveryMessage>
+  <TargetedInsultingSpree.beginLetterLabel>insultando</TargetedInsultingSpree.beginLetterLabel>
+  <!-- EN: {0} is no longer on an insulting spree. -->
+  <TargetedInsultingSpree.recoveryMessage>{0} se ha cansado de insultar.</TargetedInsultingSpree.recoveryMessage>
   
   <!-- EN: tantrum -->
   <TargetedTantrum.label>rabieta</TargetedTantrum.label>
@@ -154,33 +155,44 @@
   <TargetedTantrum.recoveryMessage>{0} se ha calmado.</TargetedTantrum.recoveryMessage>
   
   <!-- EN: sitting alone -->
-  <Wander_OwnRoom.label>encerrado(a) en su habitación</Wander_OwnRoom.label>
+  <Wander_OwnRoom.label>buscando soledad</Wander_OwnRoom.label>
   <!-- EN: Mental state: Hiding in room -->
-  <Wander_OwnRoom.baseInspectLine>Estado Mental: Encerrado/a</Wander_OwnRoom.baseInspectLine>
+  <Wander_OwnRoom.baseInspectLine>Estado Mental: Escondiéndose</Wander_OwnRoom.baseInspectLine>
   <!-- EN: {0} is hiding in [PAWN_possessive] room. -->
-  <Wander_OwnRoom.beginLetter>{0} está escondido(a) en su habitación.</Wander_OwnRoom.beginLetter>
+  <Wander_OwnRoom.beginLetter>{0} se está escondiendo(a) en su habitación.</Wander_OwnRoom.beginLetter>
   <!-- EN: hide in room -->
-  <Wander_OwnRoom.beginLetterLabel>encerrado(a) en habitación</Wander_OwnRoom.beginLetterLabel>
+  <Wander_OwnRoom.beginLetterLabel>escondido(a) en habitación</Wander_OwnRoom.beginLetterLabel>
   <!-- EN: {0} is no longer hiding in [PAWN_possessive] room. -->
-  <Wander_OwnRoom.recoveryMessage>{0} ha superado su crisis.</Wander_OwnRoom.recoveryMessage>
+  <Wander_OwnRoom.recoveryMessage>{0} ya no se está escondiendo en su habitación.</Wander_OwnRoom.recoveryMessage>
   
   <!-- EN: wandering in psychosis -->
-  <Wander_Psychotic.label>deambulando por demencia</Wander_Psychotic.label>
+  <Wander_Psychotic.label>deambulando en psicosis</Wander_Psychotic.label>
   <!-- EN: Mental state: Psychotic wandering -->
-  <Wander_Psychotic.baseInspectLine>Estado Mental: Demencia</Wander_Psychotic.baseInspectLine>
+  <Wander_Psychotic.baseInspectLine>Estado Mental: Psicosis</Wander_Psychotic.baseInspectLine>
   <!-- EN: {0} is wandering around in a psychotic state. -->
-  <Wander_Psychotic.beginLetter>{0} está vagando por ahí debido a la demencia.</Wander_Psychotic.beginLetter>
+  <Wander_Psychotic.beginLetter>{0} está deambulando por ahí debido a la psicosis.</Wander_Psychotic.beginLetter>
   <!-- EN: daze -->
-  <Wander_Psychotic.beginLetterLabel>deambulando por demencia</Wander_Psychotic.beginLetterLabel>
+  <Wander_Psychotic.beginLetterLabel>deambulando</Wander_Psychotic.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in a psychotic state. -->
-  <Wander_Psychotic.recoveryMessage>{0} ha entrado de nuevo en razón.</Wander_Psychotic.recoveryMessage>
+  <Wander_Psychotic.recoveryMessage>{0} ya no está deambulando.</Wander_Psychotic.recoveryMessage>
+
+  <!-- EN: wandering in psychosis -->
+  <Wander_Psychotic_Short.label>deambulando en psicosis</Wander_Psychotic_Short.label>
+  <!-- EN: Mental state: Psychotic wandering -->
+  <Wander_Psychotic_Short.baseInspectLine>Estado Mental: Psicosis</Wander_Psychotic_Short.baseInspectLine>
+  <!-- EN: {0} is wandering around in a psychotic state. -->
+  <Wander_Psychotic_Short.beginLetter>{0} está deambulando por ahí debido a la psicosis.</Wander_Psychotic_Short.beginLetter>
+  <!-- EN: daze -->
+  <Wander_Psychotic_Short.beginLetterLabel>deambulando</Wander_Psychotic_Short.beginLetterLabel>
+  <!-- EN: {0} is no longer wandering in a psychotic state. -->
+  <Wander_Psychotic_Short.recoveryMessage>{0} ya no está deambulando.</Wander_Psychotic_Short.recoveryMessage>
   
   <!-- EN: sad wandering -->
-  <Wander_Sad.label>vagando tristemente</Wander_Sad.label>
+  <Wander_Sad.label>deambulando tristemente</Wander_Sad.label>
   <!-- EN: Mental state: Sad wandering -->
   <Wander_Sad.baseInspectLine>Estado Mental: Tristeza</Wander_Sad.baseInspectLine>
   <!-- EN: {0} has broken down and is wandering around in sadness. -->
-  <Wander_Sad.beginLetter>{0} está vagando por ahí, sufriendo una devastadora tristeza.</Wander_Sad.beginLetter>
+  <Wander_Sad.beginLetter>{0} está deambulando por ahí, sufriendo una devastadora tristeza.</Wander_Sad.beginLetter>
   <!-- EN: sad wander -->
   <Wander_Sad.beginLetterLabel>tristeza</Wander_Sad.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in sadness. -->
