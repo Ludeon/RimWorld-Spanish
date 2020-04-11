@@ -24,5 +24,9 @@
 
 	* [x] "Core\Keyed\Misc_Gameplay.xml"		(Mejor revisalo entero, aunque la mayoría de lo nuevo está a parti de la línea: 1231)
 
+	* [ ] "Core\DefInjected\ExpansionDef\ExpansionDefs.xml"		Falta la descripcción del DLC Royalty. (El de la esquina del menú)
+
 	* [ ] "Royalty\DefInjected\QuestScriptDef\"	Estaban copiados y pegados del alemán, estoy cammbiandolos por los textos ingleses, casi TODOS.
+
+	* [ ] "Core\DefInjected\QuestScriptDef\"	Todos, no existia esta carpeta ni sus contenidos.
 
