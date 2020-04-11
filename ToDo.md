@@ -18,7 +18,7 @@
 
 	* [x] "Royalty\Keyed\Letters.xml"		Está casi todo abajo, pero he dejado algunas nuevas de por medio, así que hay que revisar casi todo.
 
-	* [ ] "Core\Keyed\Messages.xml"			Está casi todo abajo, pero he dejado algunas nuevas de por medio, así que hay que revisar casi todo.
+	* [x] "Core\Keyed\Messages.xml"			Está casi todo abajo, pero he dejado algunas nuevas de por medio, así que hay que revisar casi todo.
 
 	* [x] "Core\Keyed\MainTabs.xml"			A partir de la línea: 267 (Pero mejor revisalo entero)
 
