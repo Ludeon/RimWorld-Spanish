@@ -7,19 +7,19 @@
 
 	* [x] "Core\DefInjected\HairDef\HairsGeneral.xml"										Son 27 nuevos, repartidos, es cortito.
 			
-	* [ ] "COre\DefInjected\PawnsArrivalModeDdef\PawnsArrivalModes.xml"						Son 8 nuevos.
+	* [x] "COre\DefInjected\PawnsArrivalModeDdef\PawnsArrivalModes.xml"						Son 8 nuevos.
 
-	* [ ] "Royalty\DefInjected\QuestScriptDef\Script_ChangeRoyalHeir.xml"					A partir de la línea: 30
+	* [x] "Royalty\DefInjected\QuestScriptDef\Script_ChangeRoyalHeir.xml"					A partir de la línea: 30
 
-	* [ ] "Royalty\DefInjected\QuestScriptDef\Script_BuildMonument_Worker.xml"				Líneas: 6 - 11
+	* [x] "Royalty\DefInjected\QuestScriptDef\Script_BuildMonument_Worker.xml"				Líneas: 6 - 11
 
 	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_Decree.xml"							Líneas: 17 - 34
 
 	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_Decree_Utility.xml"					El último.
 
-	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_EndGame_RoyalAscent.xml"				Líneas: 39 - 44
+	* [x] "Royalty\DefInjected\QuestScriptDef\Scripts_EndGame_RoyalAscent.xml"				Líneas: 39 - 44
 
-	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_Hospitality_Worker.xml"				Líneas: 35, 47 - 50
+	* [x] "Royalty\DefInjected\QuestScriptDef\Scripts_Hospitality_Worker.xml"				Líneas: 35, 47 - 50
 
 	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_JoinerThreat.xml"						Líneas: 153, 176
 
@@ -46,7 +46,7 @@
 
 	* [x] "Core\Keyed\Misc_Gameplay.xml"				(Mejor entero, la mayoría de lo nuevo está a partir de la línea: 1231)
 
-	* [ ] "Core\DefInjected\ExpansionDef\ExpansionDefs.xml"		Falta la descripcción del DLC Royalty. (El de la esquina del menú)
+	* [x] "Core\DefInjected\ExpansionDef\ExpansionDefs.xml"		Falta la descripcción del DLC Royalty. (El de la esquina del menú)
 
 	* [ ] "Royalty\DefInjected\QuestScriptDef\"					Estaban copiados y pegados del alemán, textos revertidos, casi TODOS.
 
