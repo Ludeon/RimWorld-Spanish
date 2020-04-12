@@ -32,19 +32,19 @@
     -->
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->los invitados</li>
-    <li>joinerEnding->Será posible para ti, [lodgersDef]  controlarlos como a tus propios colonos.[specialNeedsExplanation]</li>
-    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> Tendrás que responder a cualquier deseo real especial, que tus invitados podrían tener.</li>
+    <li>joinerEnding->Podrás controlar a [lodgersDef] del mismo modo que a tus propios colonos.[specialNeedsExplanation]</li>
+    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> Tendrás que satisfacer cualquier necesidad especial que tus invitados de la Realeza puedan tener.</li>
     <li>specialNeedsExplanation-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->Un(e) [lodgers0_title] llamado [lodgers0_nameFull] te quiere para [shuttleDelayTicks_duration] en [map_definite] en [lodgers0_objective] cuidado. [allLodgerInfo][threatsInfo1]\n\n[commonDescEnding] [joinerEnding]</li>
-    <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] quedó atrapado recientemente cómo [lodgers0_pronoun] [wrongAct]. Como venganza [enemyFaction_pawnsPlural] ven a [lodgers0_objective] cazar mientras [lodgers0_pronoun] está contigo. [enemyGroupsParagraph]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->Un/una [lodgers0_title] llamado(a) [lodgers0_nameFull] quiere que [lodgers0_objective] protejas en [map_definite] durante [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] fue sorprendido(a) recientemente [wrongAct]. Buscando venganza, [enemyFaction_pawnsPlural] vendrán a por [lodgers0_pronoun] mientras esté contigo. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>wrongAct->die [PersonalCharacteristic] de [enemyFaction_leader_nameDef], [enemyFaction_leaderTitle] la facción '[enemyFaction_name]', te ha insultado</li>
-    <li>wrongAct->Robo un grupo de animales de '[enemyFaction_name]'  </li>
-    <li>wrongAct->Robó comida de la facción de'[enemyFaction_name]'  </li>
-    <li>wrongAct->robó artefactos espirituales de la facción  '[enemyFaction_name]'  </li>
-    <li>wrongAct->Ha saboteado  cápsulas de crypto-sueño crypto del grupo'[enemyFaction_name]' </li>
+    <li>wrongAct->insultando el/la [PersonalCharacteristic] de [enemyFaction_leader_nameDef], [enemyFaction_leaderTitle] de [enemyFaction_name]</li>
+    <li>wrongAct->robando ganado a [enemyFaction_name]</li>
+    <li>wrongAct->robando alimentos a [enemyFaction_name]</li>
+    <li>wrongAct->robando artefactos espirituales a [enemyFaction_name]</li>
+    <li>wrongAct->saboteando sarcófagos de criptosueño a [enemyFaction_name]</li>
     <!-- EN:
         <li>questDescription(askerIsNull==true,lodgersCount>=2)->A group of [lodgersCount] travelers want you to host them at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2]\n\n[commonDescEnding] [joinerEnding]</li>
         <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nThese travelers were recently invited to an important ceremony with [enemyFaction_name], but showed up drunk and profaned the ritual. [enemyFaction_name] is now sending raids after them. [enemyGroupsParagraph]</li>
@@ -54,29 +54,29 @@
         <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==false)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is requesting a favor. [asker_possessive] friend [lodgers0_nameFull] is interested in learning about other cultures. [asker_nameDef] wants you to host [lodgers0_nameDef] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]</li>
         <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is requesting a favor. [asker_possessive] friend, a [lodgers0_age]-year-old [lodgers0_title] named [lodgers0_nameDef], was caught writing vicious insults about [enemyFaction_leader_nameFull]'s [PersonalCharacteristic]. [asker_nameDef] is asking for you to guard [lodgers0_nameDef] for [shuttleDelayTicks_duration], until [asker_pronoun] can smooth over relations with [enemyFaction_name]. [allLodgerInfo]\n\nSince [enemyFaction_leader_nameDef] is the [enemyFaction_leaderTitle] of [enemyFaction_name], [enemyFaction_leader_pronoun] has sent groups of [enemyFaction_pawnsPlural] to hunt the insulter [lodgers0_nameDef]. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
     -->
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Un grupo de [lodgersCount] vienen por [shuttleDelayTicks_duration] para alojarse en [map_definite] como entrenemiento. [allLodgerInfo][threatsInfo2]\n\n[commonDescEnding] [joinerEnding]</li>
-    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nEstos viajeros se convirtieron recientemente en una ceremonia importante con la facción. '[enemyFaction_name]' Invitado, pero parecían completamente borrachos y profanaron el ritual. La facción '[enemyFaction_name]'ahora ha enviado gente tras ellos. [enemyGroupsParagraph]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Un grupo de [lodgersCount] viajeros quieren que los alojes en [map_definite] durante [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nEstos viajeros fueron invitados recientemente a una importanta ceremonia por [enemyFaction_name], pero se presentaron completamente borrachos y profanaron el ritual. [enemyFaction_name] está enviando incursiones para darles caza. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiHuman] [enemyGroupsParagraph]</li>
-    <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\nLos viajeros recientemente han [mechViolation], y han estado en la mira de un enjambre de mecanoides desde entonces. Mientras estén presentes, las cápsulas con grupos de combate mecanoides aterrizarán regularmente [map_definite] .</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\nLos viajeros recientemente [mechViolation], y ahora están en el punto de mira de un enjambre de mecanoides en la órbita del planeta. Mientras estén presentes, grupos armados de mecanoides aterrizarán desde la órbita regularmente.</li>
     <li>threatsInfo2(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==false)->[asker_nameFull], [asker_faction_leaderTitle] la facción '[asker_faction_name]' te pide un favor. [asker_possessive]  [lodgers0_nameFull] está interesado en aprender sobre otras culturas. [asker_nameDef] quiere que seas su anfitrión [lodgers0_nameDef] por [shuttleDelayTicks_duration] en [map_definite] . [allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] la facción '[asker_faction_name]' te pide un favor. [asker_possessive] , un [lodgers0_title] nombrado [lodgers0_nameDef] ([lodgers0_age] Jahre alt), quedó atrapado cómo [lodgers0_pronoun] haciendo insultos desagradables sobre el [PersonalCharacteristic] de [enemyFaction_leader_nameFull] . [asker_nameDef] te pide [shuttleDelayTicks_duration] en [lodgers0_nameDef] tener cuidado   hasta [asker_pronoun] que la relación con la facción '[enemyFaction_name]' mejore. [allLodgerInfo]\n\nDe [enemyFaction_leader_nameDef] el [enemyFaction_leaderTitle] la facción '[enemyFaction_name]' es [enemyFaction_leader_pronoun] Grupos de [enemyFaction_pawnsPlural] enviado a [lodgers0_nameDef] cazar. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==false)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name] te pide un favor. Su amigo(a) [lodgers0_nameFull] está interesado(a) en aprender sobre otras culturas. [asker_nameDef] quiere que alojes a [lodgers0_nameDef] en [map_definite] durante [shuttleDelayTicks_duration]. [allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name] te pide un favor. Su amigo(a), un/una [lodgers0_title] de [lodgers0_age] años llamado(a) [lodgers0_nameDef], fue sorprendido(a) escribiendo difamatorias calumnias sobre el/la [PersonalCharacteristic] de [enemyFaction_leader_nameFull] . [asker_nameDef] te pide que protejas a [lodgers0_nameDef] durante [shuttleDelayTicks_duration], hasta que [asker_pronoun] que pueda suavizar las relaciones con [enemyFaction_name]. [allLodgerInfo]\n\nYa que [enemyFaction_leader_nameDef] es el/la [enemyFaction_leaderTitle] de [enemyFaction_name], ha enviado grupos de [enemyFaction_pawnsPlural] para dar caza a [lodgers0_nameDef]. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
     <!-- EN:
         <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is requesting a favor. [asker_possessive] friend, a [lodgers0_age]-year-old [lodgers0_title] named [lodgers0_nameDef], recently [mechViolation]. [asker_nameDef] is asking for you to guard [lodgers0_nameDef] for [shuttleDelayTicks_duration], until [asker_pronoun] can sooth the mechanoid hive. [allLodgerInfo]\n\nMechanoids will come to hunt the violator [lodgers0_nameDef]. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
         <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==MechClusters)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is requesting a favor. [asker_possessive] friend, a [lodgers0_age]-year-old [lodgers0_title] named [lodgers0_nameDef], recently [mechViolation]. [asker_nameDef] is asking for you to guard [lodgers0_nameDef] for [shuttleDelayTicks_duration]. Mechanoid clusters will arrive as long as [lodgers0_nameDef] is present. [allLodgerInfo][threatsInfo1] [allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]</li>
         <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==false)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], recently rescued [lodgersCount] [asker_faction_pawnsPlural] from an enemy jail. [asker_nameDef] wants you to guard them at [map_definite] for [shuttleDelayTicks_duration] until [asker_pronoun] can send a shuttle to collect them. [allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]</li>
         <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], recently rescued [lodgersCount] [asker_faction_pawnsPlural] from the prisons of [enemyFaction_name]. [asker_nameDef] wants you to guard them at [map_definite] for [shuttleDelayTicks_duration] until [asker_pronoun] can send a shuttle to collect them. [allLodgerInfo]\n\nThe [asker_faction_pawnsPlural] know secrets about the [secretInfo] of [enemyFaction_name], so they will be hunted. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
     -->
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] la facción '[asker_faction_name]' te pide un favor. [asker_possessive] , un [lodgers0_age] años de edad [lodgers0_title] nombrado [lodgers0_nameDef], ha recientemente [mechViolation]. [asker_nameDef] te pide asilo [shuttleDelayTicks_duration] en [map_definite] .Hasta [asker_pronoun] pueda calmar el enjambre de mecanoides. [allLodgerInfo]\n\nLos Mecanoides vendrá a por [lodgers0_nameDef] . [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==MechClusters)->[asker_nameFull], [asker_faction_leaderTitle] la facción '[asker_faction_name]' te pide un favor. [asker_possessive] , un [lodgers0_title] nombrado [lodgers0_nameDef] ([lodgers0_age] Jahre alt), ha recientemente [mechViolation]. [asker_nameDef] te pide cuidados [shuttleDelayTicks_duration] en [map_definite] en [lodgers0_nameDef] . Siempre y cuando [lodgers0_nameDef] enjambres de mecanoides aparecerán regularmente. [allLodgerInfo][threatsInfo1] [allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==false)->[asker_nameFull], [asker_faction_leaderTitle] la facción '[asker_faction_name]', guardado recientemente [lodgersCount] [asker_faction_pawnsPlural] de una prisión enemiga. [asker_nameDef] te pide asilo [shuttleDelayTicks_duration] en [map_definite] . Hasta [asker_pronoun] puede enviar una lanzadera para recogerlos. [allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] la facción '[asker_faction_name]', lanzado recientemente[lodgersCount] [asker_faction_pawnsPlural] nosotros los prisioneros del grupo '[enemyFaction_name]'. [asker_nameDef] te pide asilo [shuttleDelayTicks_duration] en [map_definite] .  Hasta [asker_pronoun] puede enviar una lanzadera para recogerlos. [allLodgerInfo]\n\nEl [asker_faction_pawnsPlural] tener información secreta sobre [secretInfo] la facción '[enemyFaction_name]', por eso son cazados. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name] te pide un favor. Su amigo(a), un/una [lodgers0_title] de [lodgers0_age] años llamado(a) [lodgers0_nameDef], recientemente [mechViolation]. [asker_nameDef] te pide que protejas a [lodgers0_nameDef] durante [shuttleDelayTicks_duration], hasta que pueda tranquilizar al enjambre mecanoide. [allLodgerInfo]\n\nLos mecanoides vendrán a por [lodgers0_nameDef]. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==MechClusters)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name] te pide un favor. Su amigo(a), un/una [lodgers0_title] de [lodgers0_age] años llamado(a) [lodgers0_nameDef], recientemente [mechViolation]. [asker_nameDef] te pide que protejas a [lodgers0_nameDef] durante [shuttleDelayTicks_duration]. Grupos de mecanoides armados irán llegando mientras [lodgers0_nameDef] esté presente. [allLodgerInfo][threatsInfo1] [allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==false)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], ha rescatado recientemente [lodgersCount] [asker_faction_pawnsPlural] de una prisión enemiga. [asker_nameDef] quiere que los protejas en [map_definite] durante [shuttleDelayTicks_duration] hasta que [asker_pronoun] pueda enviar una lanzadera para recogerlos. [allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], ha rescatado recientemente [lodgersCount] [asker_faction_pawnsPlural] de las prisiones de[enemyFaction_name]. [asker_nameDef] quiere que los protejas en [map_definite] durante [shuttleDelayTicks_duration] hasta que [asker_pronoun] pueda enviar una lanzadera para recogerlos. [allLodgerInfo]\n\nLos/las [asker_faction_pawnsPlural] tienen información secreta sobre [secretInfo] de [enemyFaction_name], por lo que serán perseguidos. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
     <!-- EN:
         <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], recently rescued [lodgersCount] [asker_faction_pawnsPlural] from a crytosleep vault. [asker_nameDef] wants you to guard them at [map_definite] for [shuttleDelayTicks_duration] until [asker_pronoun] can send a shuttle to collect them. [allLodgerInfo]\n\nThe [asker_faction_pawnsPlural] will be hunted by mechanoids. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
         <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,allowedThreats==MechClusters)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], recently rescued [lodgersCount] [asker_faction_pawnsPlural] from a mechanoid hive's holding pen. [asker_nameDef] wants you to guard them at [map_definite] for [shuttleDelayTicks_duration] until [asker_pronoun] can send a shuttle to collect them. [allLodgerInfo]\n\nThe mechs are tracking their former prisoners. As long as the [asker_faction_pawnsPlural] are with you, mechanoid combat clusters will drop near [map_definite] on a regular basis.\n\n[commonDescEnding] [joinerEnding]</li>
     -->
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] la facción '[asker_faction_name]', recientemente rescatado[lodgersCount] [asker_faction_pawnsPlural] de una bóveda crypto-sueño. [asker_nameDef] te pide asilo [shuttleDelayTicks_duration] en [map_definite] . Hasta [asker_pronoun] puede enviar una lanzadera para recogerlos. [allLodgerInfo]\n\El [asker_faction_pawnsPlural] son cazados por los mecanoides. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,allowedThreats==MechClusters)->[asker_nameFull], [asker_faction_leaderTitle] la facción '[asker_faction_name]', rescatado recientemente [lodgersCount] [asker_faction_pawnsPlural] de las manos de un enjambre de mecanoides. [asker_nameDef] te pide asilo [shuttleDelayTicks_duration] en [map_definite] . Hasta [asker_pronoun] pueda enviar una lanzadera para recogerlos. [allLodgerInfo]\n\nLos mecanoides persiguen a sus antiguos prisioneros. Mientras  [asker_faction_pawnsPlural] esten contigo, los grupos de combate mecanoides se unirán a intervalos regulares [map_definite] .\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], ha rescatado recientemente [lodgersCount] [asker_faction_pawnsPlural] de una cripta de criptosueño. [asker_nameDef] quiere que los protejas en [map_definite] durante [shuttleDelayTicks_duration] hasta que [asker_pronoun] pueda enviar una lanzadera para recogerlos. [allLodgerInfo]\n\Los/las [asker_faction_pawnsPlural] serán perseguidos por mecanoides. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,allowedThreats==MechClusters)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], ha rescatado recientemente [lodgersCount] [asker_faction_pawnsPlural] de una jaula de contención perteneciente a un enjambre mecanoide. [asker_nameDef] quiere que los protejas en [map_definite] durante [shuttleDelayTicks_duration] hasta que [asker_pronoun] pueda enviar una lanzadera para recogerlos. [allLodgerInfo]\n\nLos mecanoides están rastreando a sus antiguos prisioneros. Mientras los/las [asker_faction_pawnsPlural] estén contigo, grupos de combate mecanoides serán desplegados regularmente cerca de [map_definite] .\n\n[commonDescEnding] [joinerEnding]</li>
     <!-- EN:
         <li>secretInfo->military capabilities</li>
         <li>secretInfo->moral transgressions</li>
@@ -89,15 +89,15 @@
         <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[asker_nameDef]'s enemies have somehow provoked mechanoids into hunting [asker_objective], so mech combat clusters will drop near [map_definite] repeatedly as long as [asker_nameDef] is present.</li>
         <li>threatsInfo5(generateThreats==false)-></li>
     -->
-    <li>secretInfo->die Militärmacht</li>
-    <li>secretInfo->moralische Übertretungen</li>
-    <li>secretInfo->die Waffenforschungen</li>
-    <li>secretInfo->die Gefangenenlager</li>
+    <li>secretInfo->capacidades militares</li>
+    <li>secretInfo->transgresiones morales</li>
+    <li>secretInfo->investigación armamentística</li>
+    <li>secretInfo->campos de prisioneros</li>
     <li>secretInfo->[enemyFaction_leaderTitle]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] la facción '[asker_faction_name]', huye de una situación política peligrosa y quiere refugio [shuttleDelayTicks_duration] en [map_definite] . [allLodgerInfo][threatsInfo5]\n\n[commonDescEnding] [joinerEnding]</li>
-    <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nEnemigos de [asker_nameDef] han contratado a la facción '[enemyFaction_name]' para, matar a [asker_objective] . Mientras [asker_nameDef]  esté presente, atacarán repetidamente. [enemyGroupsParagraph]</li>
-    <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\nEnemigos de [asker_nameDef] han cazado mecanoides [asker_objective] . Mientras [asker_nameDef] este presente, los mecanoides atacarán repetidamente. [enemyGroupsParagraph]</li>
-    <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\nEnemigos de [asker_nameDef] de alguna manera logró obtener mecanoides para matar, a [asker_objective] . Mientras [asker_nameDef] este presente, los grupos de combate mecanoides siempre estaran cerca [map_definite] .</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], huye de un conflicto político peligroso y quiere esconderse en [map_definite] durante [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo5]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nLos enemigos de [asker_nameDef] han contratado a [enemyFaction_name] para capturar[asker_objective]. Mientras [asker_nameDef] esté presente, atacarán repetidamente. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\nLos enemigos de [asker_nameDef] han provocado que unos mecanoides vayan detrás de [asker_pronoun]. Mientras [asker_nameDef] esté presente, los mecanoides atacarán repetidamente. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\nLos enemigos de [asker_nameDef] han provocado de alguna manera que unos mecanoides vayan detrás de [asker_pronoun], de modo que mientras [asker_nameDef] esté presente, grupos de combate mecanoides serán desplegados cerca de [map_definite].</li>
     <li>threatsInfo5(generateThreats==false)-></li>
     <!-- EN:
         <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to stay at [map_definite] for [shuttleDelayTicks_duration] with [lodgersCountMinusOne] court [allyAllies]. [allLodgerInfo][threatsInfo6]\n\n[commonDescEnding] [joinerEnding]</li>
@@ -108,14 +108,14 @@
         <li>allyAllies(lodgersCountMinusOne==1)->ally</li>
         <li>allyAllies(lodgersCountMinusOne>=2)->allies</li>
     -->
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFaction] la facción '[asker_faction_name]', quisiera consagran una unión [lodgersCountMinusOne] y [allyAllies]n para [shuttleDelayTicks_duration] se quedaran en [map_definite] . [allLodgerInfo][threatsInfo6]\n\n[commonDescEnding] [joinerEnding]</li>
-    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef] y [hisHerallyAllies] han sido seleccionados como objetivos para la destrucción y necesitan un refugio seguro, hasta que la corte otra vez sea segura . Sin embargo, los retractores de [asker_nameDef] la facción '[enemyFaction_name]' han contratado a[asker_objective] para matarlos. Atacarán  repetidamente hasta [asker_nameDef] que abandonen el sitio. [enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef] y [hisHerallyAllies] han sido seleccionados como objetivos para la destrucción y necesitan un refugio seguro, hasta que la corte otra vez sea segura . Sin embargo, los retractores de [asker_nameDef] la facción '[enemyFaction_name]' han manipulado a, [asker_objective] para matarlos. Los mecanoides atacarán repetidamente hasta que  [asker_nameDef] abandonen el sitio. [enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[asker_nameDef] y [hisHerallyAllies] fueron seleccionados como objetivos para la destrucción y necesitan un refugio seguro, hasta que la corte sea segura nuevamente. Sin embargo, los retractores de [asker_nameDef] de alguna manera lograrón obtener mecanoides para matarlos, [asker_objective] . Los grupos de batalla mecanoides se apareceran regularmente a [map_definite] , hasta que [asker_nameDef] abandonen el lugar.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], un/una [asker_royalTitleInCurrentFaction] de [asker_faction_name], quiere quedarse en [map_definite] durante [shuttleDelayTicks_duration] con [lodgersCountMinusOne] [allyAllies] de la corte. [allLodgerInfo][threatsInfo6]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef] y su/sus [allyAllies] tienen precio por sus cabezas y necesitan un refugio seguro hasta que puedan probar su inocencia. Sin embargo, los enemigos de [asker_nameDef] han contratado a [enemyFaction_name] para perseguir a [asker_objective]. Atacarán repetidamente mientras [asker_nameDef] esté bajo tu protección. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef] y su/sus [allyAllies] tienen precio por sus cabezas y necesitan un refugio seguro hasta que puedan probar su inocencia. Sin embargo, los enemigos de [asker_nameDef] han provocado que [enemyFaction_name] vayan en su caza. Los mecanoides atacarán repetidamente mientras [asker_nameDef] esté bajo tu protección. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[asker_nameDef] y su/sus [allyAllies] tienen precio por sus cabezas y necesitan un refugio seguro hasta que puedan probar su inocencia. Sin embargo, los enemigos de [asker_nameDef] han provocado de alguna manera que unos mecanoides vayan en su caza, de modo que mientras [asker_nameDef] esté presente, grupos de combate mecanoides serán desplegados cerca de [map_definite].</li>
     <li>threatsInfo6(generateThreats==false)-></li>
-    <li>hisHerallyAllies(lodgersCountMinusOne==1)->[asker_possessive] [allyAllies]</li>
-    <li>hisHerallyAllies(lodgersCountMinusOne>=2)->[asker_possessive]y [allyAllies]</li>
-    <li>allyAllies->Compañera</li>
+    <li>hisHerallyAllies(lodgersCountMinusOne==1)->aliado</li>
+    <li>hisHerallyAllies(lodgersCountMinusOne>=2)->aliados</li>
+    <li>allyAllies->compañera</li>
   </Hospitality_Joiners.questDescriptionRules.rulesStrings>
 
 
@@ -150,36 +150,36 @@
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristocrats</li>
   -->
   <Hospitality_Joiners.questNameRules.rulesStrings>
-    <li>questName->Refugio para [lodgerIndefAcc]</li>
-    <li>questName->Hospitalidad para [lodgerIndefAcc]</li>
-    <li>questName->Catering para [lodgerIndefAcc]</li>
+    <li>questName->refugio para [lodgerIndefAcc]</li>
+    <li>questName->hospitalidad para [lodgerIndefAcc]</li>
+    <li>questName->alojamiento para [lodgerIndefAcc]</li>
     <li>questName->[lodgerIndef] necesitando ayuda</li>
     <li>questName(lodgersCount==1)->[lodgerIndef] necesita ayuda</li>
     <li>questName(lodgersCount>=2)->[lodgerIndef] necesito ayuda</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndefAcc] proteger</li>
-    <li>questName(generateThreats==true,priority=1)->Seguridad para [lodgerIndefAcc]</li>
-    <li>questName(generateThreats==true,priority=1)->Protección para [lodgerIndefAcc]</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] en problemas</li>
+    <li>questName(generateThreats==true,priority=1)->protegiendo a [lodgerIndefAcc]</li>
+    <li>questName(generateThreats==true,priority=1)->escoltando a [lodgerIndefAcc]</li>
+    <li>questName(generateThreats==true,priority=1)->seguridad para [lodgerIndefAcc]</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] bajo amenaza</li>
     <li>questName(generateThreats==true,priority=1)->[lodgerIndef] en peligro</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] bajo fuego enemigo</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] en punto de mira</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] con enemigos</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] en el punto de mira</li>
     <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_label]</li>
-    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_title]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->un/una [lodgers0_title]</li>
     <li>lodgerIndef(askerIsNull==true,lodgersCount>=2)->viajeros</li>
     <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_label]</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_title]</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->Amigo</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->Aliado</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->Amigos</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->Aliados</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->un/una [lodgers0_title]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->un/una amigo(a)</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->un/una aliado(a)</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->amigos</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->aliados</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->[asker_royalTitleInCurrentFaction]</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->Fürstlicher</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->Adliger</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->Aristokrat</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->Fürstliche</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->Adlige</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->Aristokraten</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->un miembro de la Realeza</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->un/una noble</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->un/una aristócrata</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->Realeza</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->nobles</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristócratas</li>
 
     <!-- Necesarios -->
     <li>lodgerIndefAcc(asker_factionLeader==True,lodgersCount==1)->[lodgers0_label]</li>
@@ -195,6 +195,6 @@
   <!-- EN: Guest unhappy: {SUBJECT_definite} -->
   <Hospitality_Joiners.root.nodes.IsTrue-0.node.nodes.MoodBelow.node.nodes.Letter.label.slateRef>El invitado es infeliz: {SUBJECT_definite}</Hospitality_Joiners.root.nodes.IsTrue-0.node.nodes.MoodBelow.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold_percent] too long.\n\n[remainingWillNowLeave] -->
-  <Hospitality_Joiners.root.nodes.IsTrue-0.node.nodes.MoodBelow.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, la persona que debe proteger y mantener satisfecha ha estado por debajo del valor mínimo de ánimo durante demasiado tiempo [lodgersMoodThreshold_percent].\n\n[remainingWillNowLeave]</Hospitality_Joiners.root.nodes.IsTrue-0.node.nodes.MoodBelow.node.nodes.Letter.text.slateRef>
+  <Hospitality_Joiners.root.nodes.IsTrue-0.node.nodes.MoodBelow.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, a quien debías proteger y mantener feliz, ha estado por debajo del mínimo de humor de [lodgersMoodThreshold_percent] demasiado tiempo.\n\n[remainingWillNowLeave]</Hospitality_Joiners.root.nodes.IsTrue-0.node.nodes.MoodBelow.node.nodes.Letter.text.slateRef>
   
 </LanguageData>
