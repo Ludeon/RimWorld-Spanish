@@ -23,17 +23,22 @@
 
 	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_JoinerThreat.xml"						Líneas: 153, 176
 
+	* [ ] "Core\DefInjected\GatheringDef\GatheringDef.xml"									Cortito
+
+	* [ ] "Royalty\DefInjected\GatheringDef\GatheringDef.xml"								Cortito
+
+	* [ ] "Core\DefInjected\RaidStrategyDef\RaidStrategies.xml"								Líneas: 13 - 20, 45 - 48
+
 
 
 
 * Archivos nuevos:
 
-	* [x] "Royalty\Keyed\Designators.xml"				Solo es uno.
+	* [x] "Royalty\Keyed\Designators.xml"							Solo es uno.
 
-	* [ ] "Core\DefInjected\TipSetDef\Tips.xml"			Son los de los menús de carga.
+	* [ ] "Core\DefInjected\TipSetDef\Tips.xml"						Son los de los menús de carga.
 
-	* [ ] "Core\DefInjected\QuestScriptDef\"			Todos, no existia esta carpeta ni sus contenidos.
-
+	* [ ] "Core\DefInjected\QuestScriptDef\"						Todos, no existia esta carpeta ni sus contenidos.
 
 
 * Archivos a revisar:
