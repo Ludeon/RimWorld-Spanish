@@ -140,6 +140,7 @@
   <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-1.value.slateRef>[joiner_nameDef] te reveló de qué se escapó [joiner_pronoun]. \ n \ n [joiner_nameDef], ansioso por las alegrías y el dinero que la jalea de insectos puede traerte, con la intención de destruir una colonia de insectos masiva con veneno. [joiner_pronoun] falló y se cubrió con feromonas. Desde entonces, los insectos han estado cazando [joiner_objective]. Ahora han dado el golpe final.\n    \n{BASETEXT} </ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-1.value.slateRef>
   <!-- EN: Site appeared to harass [joiner_nameDef]: [site_label] -->
   <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-0.value.slateRef>Campamento creado para presionar [joiner_nameDef]: [site_label]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-0.value.slateRef>
+  
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions] -->
   <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-1.value.slateRef>
     <li>questDescription->[joiner_nameDef] reveló de qué huyó [joiner_pronoun].\n    \n[joiner_nameDef] [joiner_nameDef] estaba viajando cuando [joiner_pronoun] se topó con [enemyFaction_leader_nameFull], líder de [enemyFaction_name], enfermo al costado del camino. [joiner_nameDef] insultó a [enemyFaction_leader_nameDef] al comparar [enemyFaction_leader_objective] con un [Animal]\n    \nAhora [enemyFaction_leader_nameDef] '[enemyFaction_pawnsPlural]' ha construido un depósito cercano para amenazarte.\n    \n[allSitePartsDescriptions]</li>
@@ -147,6 +148,9 @@
     <li>insultcomparison->un [AnimalSingularMas]</li>
     <li>insultcomparison->el [AnimalSingularNeu]</li>
   </ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-1.value.slateRef>
+
+  <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-0.value.slateRef>{BASELABEL}: Persiguiendo a [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-0.value.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] came upon a lost group of [animalKind_labelPlural]. [joiner_pronoun], in a bad mood, goaded the [animalKind_labelPlural]. Unexpectedly, they attacked [joiner_objective]. And they have followed [joiner_objective] a long distance.\n    \n{BASETEXT} -->
   <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-1.value.slateRef>[joiner_nameDef] estaba viajando cuando [joiner_pronoun] se encontró con un grupo perdido de [animalKind_labelPlural]. [joiner_pronoun], de mal humor, incitó al [animalKind_labelPlural]. Inesperadamente, atacaron [joiner_objective] inesperadamente. Y ahora [joiner_nameDef] lleva unos pocos kilómetros pisándole los talones.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-1.value.slateRef>
   
@@ -168,6 +172,8 @@
   <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>{BASELABEL}: La caza de [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
   <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>{BASETEXT}\n                  \Los [enemyFaction_pawnsPlural] están llegando para obtener [../joiner_nameFull].</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
+  <!-- EN:  -->
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>{BASELABEL} chasing [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
   <!-- EN: {BASETEXT}\n                        \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
   <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>{BASETEXT}\n                        \Los [enemyFaction_pawnsPlural] vienen para obtener [../joiner_nameFull].</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
   

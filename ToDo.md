@@ -7,7 +7,22 @@
 
 	* [x] "Core\DefInjected\HairDef\HairsGeneral.xml"										Son 27 nuevos, repartidos, es cortito.
 			
-	* [ ] "COre\DefInjected\PawnsArrivalModeDdef\PawnsArrivalModes.xml"						Son 8 nuevos, los originales están puestos.
+	* [ ] "COre\DefInjected\PawnsArrivalModeDdef\PawnsArrivalModes.xml"						Son 8 nuevos.
+
+	* [ ] "Royalty\DefInjected\QuestScriptDef\Script_ChangeRoyalHeir.xml"					A partir de la línea: 30
+
+	* [ ] "Royalty\DefInjected\QuestScriptDef\Script_BuildMonument_Worker.xml"				Líneas: 6 - 11
+
+	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_Decree.xml"							Líneas: 17 - 34
+
+	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_Decree_Utility.xml"					El último.
+
+	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_EndGame_RoyalAscent.xml"				Líneas: 39 - 44
+
+	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_Hospitality_Worker.xml"				Líneas: 35, 47 - 50
+
+	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_JoinerThreat.xml"						Líneas: 153, 176
+
 
 
 
