@@ -63,8 +63,8 @@
 
 	* [x] "Core\DefInjected\SpecialThingFilterDef\SpecialThingFilters.xml"		:)
 
-	* [ ] "Core\DefInjected\PawnKindDef\PawnKinds_Mercenary.xml"				Es bastante cortito, y ya lo he hecho yo mayoritariamente de 0.
+	* [x] "Core\DefInjected\PawnKindDef\PawnKinds_Mercenary.xml"				Es bastante cortito, y ya lo he hecho yo mayoritariamente de 0.
 
-	* [ ] "Core\DefInjected\PawnKindDef\Races_Animal_Farm.xml"					Hay algunos que he intentado, por que las "etiquetas son liosas"
+	* [x] "Core\DefInjected\PawnKindDef\Races_Animal_Farm.xml"					Hay algunos que he intentado, por que las "etiquetas son liosas"
 
-	* [ ] "Royalty\DefInjected\PawnKindDef\PawnKinds_Empire.xml"				Esto va junto a los títulos imperiales.
+	* [x] "Royalty\DefInjected\PawnKindDef\PawnKinds_Empire.xml"				Esto va junto a los títulos imperiales.
