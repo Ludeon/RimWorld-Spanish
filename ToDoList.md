@@ -68,3 +68,5 @@
 	* [x] "Core\DefInjected\PawnKindDef\Races_Animal_Farm.xml"					Hay algunos que he intentado, por que las "etiquetas son liosas"
 
 	* [x] "Royalty\DefInjected\PawnKindDef\PawnKinds_Empire.xml"				Esto va junto a los títulos imperiales.
+
+	* [ ] "Core\Definjected\HediffDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
