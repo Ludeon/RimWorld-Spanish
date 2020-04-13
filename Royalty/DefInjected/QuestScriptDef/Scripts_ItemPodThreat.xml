@@ -7,9 +7,9 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to watch how you primitive surface-dwellers deal with catastrophe. [asker_pronoun] proposes an artifical disaster for you: [gameConditionDescriptionFuture]. [asker_nameDef] will watch via high-altitude drone.\n\nAs compensation, [asker_pronoun] will send items to [map_definite] in reward (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
   -->
   <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->A machine persona in an orbiting ship wants to perform some planetary experiments. However, he is concerned about getting in trouble with the ethical review board, since his experiment will cause unfortunate side-effects.\n\nIf he carries out his experiment, [gameConditionDescriptionFuture].\n\nIn exchange for your consent, he offers to send some items to [map_definite] via transport pod (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] is threatened by an rogue machine persona. Their leader, [asker_nameFull], wants you to send a message to the persona accepting responsibility for their flaws. If you do, the persona will punish you instead, and [gameConditionDescriptionFuture].\n\nIn thanks, [asker_nameDef] will send items to [map_definite] via transport pod (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to watch how you primitive surface-dwellers deal with catastrophe. [asker_pronoun] proposes an artifical disaster for you: [gameConditionDescriptionFuture]. [asker_nameDef] will watch via high-altitude drone.\n\nAs compensation, [asker_pronoun] will send items to [map_definite] in reward (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(askerIsNull==true)->Un ingeniero mecánico a bordo de una nave en órbita quiere realizar algunos experimentos planetarios. Sin embargo, le preocupa la perspectiva ética del trabajo ya que su experimento causará indeseables efectos secundarios.\n\nSi continúa con su experimento, [gameConditionDescriptionFuture].\n\nA cambio de tu consentimiento, te enviará algunos artículos a [map_definite] en una cápsula de transporte (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] está bajo la amenaza de un maligno ingeniero mecánico. Su líder, [asker_nameFull], quiere que le envíes un mensaje a dicho individuo exigiendo que tome responsabilidad por los perjuicios ocasionados. Si lo haces, el ingeniero realizará sus experimentos cerca de tu colonia, y [gameConditionDescriptionFuture].\n\nComo agradecimiento, [asker_nameDef] te enviará a [map_definite] algunos artículos en una cápsula de transporte (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], un/una [asker_royalTitleInCurrentFaction] de [asker_faction_name], quiere contemplar como vosotros, primitivos moradores de la superficie, lidiáis con una situación-límite. Te propone provocar en tu colonia un desastre artificial: [gameConditionDescriptionFuture]. [asker_nameDef] contemplará el desarrollo de los acontecimientos mediante un dron de altitud.\n\nTe enviará como compensación artículos a [map_definite] (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
   </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [gameCondition_label]</li>
@@ -18,10 +18,10 @@
     <li>questName->[gameCondition_label] for Pay</li>
   -->
   <ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
-    <li>questName->[asker_nameDef]'s [gameCondition_label]</li>
-    <li>questName->[gameCondition_indefinite] for [asker_nameDef]</li>
-    <li>questName->Paid [gameCondition_label]</li>
-    <li>questName->[gameCondition_label] for Pay</li>
+    <li>questName->[gameCondition_label] de [asker_nameDef]</li>
+    <li>questName->[gameCondition_indefinite] por [asker_nameDef]</li>
+    <li>questName->Pagado [gameCondition_label]</li>
+    <li>questName->[gameCondition_label] como pago</li>
   </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -33,12 +33,12 @@
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was instigated by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], for [asker_possessive] entertainment.</li>
   -->
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->A swarm of abandoned transport pods are in orbit. They contain (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\nYou can signal them to land at [map_definite]. However, the pods are contaminated with insect pheromones. If they land, they will provoke an infestation of [hivesCount] hives.</li>
-    <li>infestationArrivalLetterText(askerIsNull==true)->The hives were attracted by insect pheromones inside some recently-arrived drop pods.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is facing repeated infestations at sites near [map_definite]. [asker_pronoun] wants to draw the infestations to you, and offers to reward you with some items via drop pod. The pods contain (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph]If you accept, an infestation of [hivesCount] hives will begin. [allRewardsDescriptionsExceptItems]</li>
-    <li>infestationArrivalLetterText(asker_factionLeader==True)->The hives were originally infesting nearby sites belonging to [asker_nameFull] of [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wishes to watch how you fight an infestation for the purposes of entertainment. [asker_pronoun] seeks your permission to drop insect pheromone bombs on [map_definite] to provoke an infestation of [hivesCount] hives. [asker_pronoun] will watch via high-altitude drone.\n\nIn return, [asker_pronoun] offers to send resource pods containing (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph][allRewardsDescriptionsExceptItems]</li>
-    <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was instigated by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], for [asker_possessive] entertainment.</li>
+    <li>questDescription(askerIsNull==true)->Un enjambre de cápsulas de transporte abandonadas están en tu órbita. Contienen (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\nPuedes enviarles señales para que aterricen en [map_definite]. Sin embargo, las cápsulas están contaminadas con feromonas de insectos. Si aterrizan provocarán una infestación de [hivesCount] colmenas insectoides.</li>
+    <li>infestationArrivalLetterText(askerIsNull==true)->Las colmenas se vieron atraídas por las feromonas de insectos de las cápsulas de transporte que acaban de caer.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], se enfrenta a continuas infestaciones insectoides en los puntos cercanos a [map_definite]. Te pide reconducir la infestación hacia tu colonia, y te ofrece como recompensa algunos artículos enviados en una cápsula de desembarco. (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph]Si aceptas, una infestación de [hivesCount] colmenas aparecerá en tu colonia. [allRewardsDescriptionsExceptItems]</li>
+    <li>infestationArrivalLetterText(asker_factionLeader==True)->Las colmenas que azotaban las tierras de [asker_nameFull] de [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], un/una [asker_royalTitleInCurrentFaction] de [asker_faction_name], desea verte combatir una infestación insectoide por un fin puramente lúdico. [asker_pronoun] solicita tu permiso para soltar bombas de feromonas en [map_definite], que provocará una infestación de [hivesCount] colmenas. [asker_pronoun] contemplará los acontecimientos desde un dron de altitud.\n\nA cambio, te ofrece el envío de cápsulas de transporte con el siguiente contenido: (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph][allRewardsDescriptionsExceptItems]</li>
+    <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->La infestación fue provocada por [asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], por propósitos de mero entretenimiento.</li>
   </ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Pods and [insects]</li>
@@ -51,14 +51,14 @@
     <li>insects->hives</li>
   -->
   <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
-    <li>questName->Pods and [insects]</li>
-    <li>questName->[asker_nameDef]'s [insects]</li>
-    <li>questName->The [itemPodsTotalMarketValue_money] [insects]</li>
-    <li>questName(asker_royalInCurrentFaction==True)->Spectacle of [insects]</li>
-    <li>questName(p=0.3)->Podswarm</li>
-    <li>insects->insects</li>
-    <li>insects->bugs</li>
-    <li>insects->hives</li>
+    <li>questName->Cápsulas e [insects]</li>
+    <li>questName->Los [insects] de [asker_nameDef]</li>
+    <li>questName->Los [itemPodsTotalMarketValue_money] [insects]</li>
+    <li>questName(asker_royalInCurrentFaction==True)->Espectáculo de [insects]</li>
+    <li>questName(p=0.3)->Enjambre de cápsulas</li>
+    <li>insects->insectos</li>
+    <li>insects->bichos</li>
+    <li>insects->colmenas</li>
   </ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -80,22 +80,22 @@
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->These [animalKind_labelPlural] were released by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], to ease [asker_possessive] boredom.</li>
   -->
   <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
-    <li>animalKindLabelCorrect(animalCount==1)->manhunting [animalKind_label]</li>
-    <li>animalKindLabelCorrect(animalCount>=2)->[animalCount] manhunting [animalKind_labelPlural]</li>
-    <li>manhuntingBeastIndef(animalCount==1)->a manhunting [animalKind_label]</li>
-    <li>manhuntingBeastIndef(animalCount>=2)->a pack of [animalCount] manhunting [animalKind_labelPlural]</li>
-    <li>endSection->The pods contain (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph]If you accept, the [animalKindLabelCorrect] will arrive at [map_definite] in [manhuntersDelayTicks_duration]. [allRewardsDescriptionsExceptItems]</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->A trader is calling from near [map_definite]. A wild [animalKind_label] is hunting him! He wants to send you transport pods containing his goods to draw the beast away from him - and towards you.\n\n[endSection]</li>
-    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->The [animalKind_label] was hunting a nearby trader, but was drawn to you by transport pods.</li>
-    <li>questDescription(askerIsNull==true,animalCount>=2)->A trader is calling from near [map_definite]. A pack of [animalCount] wild [animalKind_labelPlural] are hunting him! He wants to send you transport pods containing his goods to draw the animals away from him - and towards you.\n\n[endSection]</li>
-    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->The [animalKind_labelPlural] were hunting a nearby trader, but were drawn to you by transport pods.</li>
-    <li>questDescription(asker_factionLeader==True)->Caravans of [asker_faction_name] near [map_definite] are being harassed by [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] wants to use drop pods to draw the [animalKindLabelCorrect] away from the caravans and towards [map_definite] to be dealt with.\n\n[endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->The [animalKind_label] was harassing caravans from [asker_faction_name], but was drawn to you by transport pods.</li>
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->The [animalKind_labelPlural] were harassing caravans from [asker_faction_name], but were drawn to you by transport pods.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is bored. [asker_pronoun] wants to observe how backwards people like you deal with a deadly threat. To satisfy [asker_possessive] desire, [asker_possessive] servants will release a manhunting [animalKind_label] to attack you. The [asker_royalTitleInCurrentFaction] will observe the fight via high-altitude drone.\n\nIn return for your agreement, [asker_pronoun] will send transport pods. [endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->This [animalKind_label] was released by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], to ease [asker_possessive] boredom.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is bored. [asker_pronoun] wants to observe how backwards people like you deal with a deadly threat. To satisfy [asker_possessive] desire, [asker_possessive] servants will release a pack of [animalCount] manhunting [animalKind_labelPlural] to attack you. The [asker_royalTitleInCurrentFaction] will observe the fight via high-altitude drone.\n\nIn return for your agreement, [asker_pronoun] will send transport pods. [endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->These [animalKind_labelPlural] were released by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], to ease [asker_possessive] boredom.</li>
+    <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label] cazahombres</li>
+    <li>animalKindLabelCorrect(animalCount>=2)->[animalCount] [animalKind_labelPlural] cazahombres</li>
+    <li>manhuntingBeastIndef(animalCount==1)->un/una [animalKind_label] cazahombres</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->una jauría de [animalCount] [animalKind_labelPlural] cazahombres</li>
+    <li>endSection->Las cápsulas contienen (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph]Si aceptas, el/la [animalKindLabelCorrect] llegará a [map_definite] en [manhuntersDelayTicks_duration]. [allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->Un mercader contacta contigo desde [map_definite]. ¡Un/una [animalKind_label] salvaje lo persigue! Quiere enviarte sus pertenencias en cápsulas de transporte para desviar la atención de la bestia hacia tu colonia.\n\n[endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->El/la [animalKind_label] que perseguía al mercader.</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->Un mercader contacta contigo desde [map_definite]. ¡Una jauría de [animalCount] [animalKind_labelPlural] salvajes lo persiguen! Quiere enviarte sus pertenencias en cápsulas de transporte para desviar la atención de los animales hacia tu colonia.\n\n[endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->Los/las [animalKind_labelPlural] que perseguían al mercader.</li>
+    <li>questDescription(asker_factionLeader==True)->Las caravanas de [asker_faction_name] cerca de [map_definite] están siendo acosadas por [manhuntingBeastIndef]. El/la [asker_faction_leaderTitle] [asker_nameFull] quiere desviar la atención de los/las [animalKindLabelCorrect] hacia [map_definite] lanzando cápsulas de transporte.\n\n[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->El/la [animalKind_label] que atacaba las caravanas de [asker_faction_name].</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->Los/las [animalKind_labelPlural] que atacaban las caravanas de [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], se aburre. Desea contemplar cómo individuos primitivos como vosotros os enfrentáis a una amenaza mortal. Para satisfacer su deseo, sus sirvientes soltarán un/una [animalKind_label] cazahombres cerca de tu colonia. El/la [asker_royalTitleInCurrentFaction] contemplará todo a través de un dron de altitud.\n\nSi aceptas la propuesta, te enviará algunas cápsulas de transporte. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->Este(a) [animalKind_label] fue liberado por [asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], para saciar su aburrimiento.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], se aburre. Desea contemplar cómo individuos primitivos como vosotros os enfrentáis a una amenaza mortal. Para satisfacer su deseo, sus sirvientes soltarán una jauría de [animalCount] [animalKind_labelPlural] cazahombres cerca de tu colonia. El/la [asker_royalTitleInCurrentFaction] contemplará todo a través de un dron de altitud.\n\nSi aceptas la propuesta, te enviará algunas cápsulas de transporte. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->Estos/estas [animalKind_labelPlural] fueron liberados(as) por [asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], para saciar su aburrimiento.</li>
   </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(animalCount==1)->The [AdjectiveBadass] [beast]</li>
@@ -111,17 +111,17 @@
     <li>beasts->animals</li>
   -->
   <ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
-    <li>questName(animalCount==1)->The [AdjectiveBadass] [beast]</li>
-    <li>questName(animalCount==1)->A [AdjectiveBadass] [beast]</li>
-    <li>questName(animalCount==1)->[AdjectiveBadass] [beast]</li>
-    <li>questName(animalCount>=2)->The [AdjectiveBadass] [beasts]</li>
-    <li>questName(animalCount>=2)->[AdjectiveBadass] [beasts]</li>
+    <li>questName(animalCount==1)->El/la [beast] [AdjectiveBadass]</li>
+    <li>questName(animalCount==1)->Un/una [beast] [AdjectiveBadass]</li>
+    <li>questName(animalCount==1)->[beast] [AdjectiveBadass]</li>
+    <li>questName(animalCount>=2)->Los/las [beasts] [AdjectiveBadass]</li>
+    <li>questName(animalCount>=2)->[beasts] [AdjectiveBadass]</li>
     <li>beast(p=4)->[animalKind_label]</li>
-    <li>beast->beast</li>
+    <li>beast->bestia</li>
     <li>beast->animal</li>
     <li>beasts(p=4)->[animalKind_labelPlural]</li>
-    <li>beasts->beasts</li>
-    <li>beasts->animals</li>
+    <li>beasts->bestias</li>
+    <li>beasts->animales</li>
   </ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n\n[manhunterArrivalLetterEnd] -->
   <ThreatReward_Manhunters_ItemPod.root.nodes.Delay.node.nodes.ManhunterPack.customLetterText.slateRef>
@@ -134,9 +134,9 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is traveling near [map_definite]. [asker_pronoun] is being followed by [site/siteFaction_pawnsPlural] from [site/siteFaction_name] and wants your help using signals to draw them towards [map_definite].\n\nIf you do, the [site/siteFaction_pawnsPlural] will activate a site nearby to harass you. [site/allSitePartsDescriptions] This threat will remain until you go destroy it.\n\n[asker_nameDef] will reward you. [allRewardsDescriptionsExceptItems] You'll recieve pods containing (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]</li>
   -->
   <ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->A trader is calling from nearby. [site/siteFaction_pawnsPlural] from [site/siteFaction_name] are hunting him! He is asking to transfer his goods to [map_definite] via transport pod so he can make an escape.\n\nIf you receive the goods, the [site/siteFaction_pawnsPlural] will activate a site nearby to harass you. [site/allSitePartsDescriptions] This threat will remain until you go destroy it.\n\nThe goods are (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is asking for your help. A group of [site/siteFaction_pawnsPlural] have been harassing [asker_possessive] settlements. [asker_pronoun] wants your help using signals to draw them towards [map_definite] and away from [asker_possessive] people.\n\nIf [asker_pronoun] does, the [site/siteFaction_pawnsPlural] will activate a site nearby to harass you. [site/allSitePartsDescriptions] This threat will remain until you go destroy it.\n\nIn reward, you'll recieve pods containing (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is traveling near [map_definite]. [asker_pronoun] is being followed by [site/siteFaction_pawnsPlural] from [site/siteFaction_name] and wants your help using signals to draw them towards [map_definite].\n\nIf you do, the [site/siteFaction_pawnsPlural] will activate a site nearby to harass you. [site/allSitePartsDescriptions] This threat will remain until you go destroy it.\n\n[asker_nameDef] will reward you. [allRewardsDescriptionsExceptItems] You'll recieve pods containing (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]</li>
+    <li>questDescription(askerIsNull==true)->Un mercader te llama por radio desde la cercanía. ¡[site/siteFaction_pawnsPlural] de [site/siteFaction_name] lo persiguen! Te pide mandar sus pertenencias a [map_definite] por cápsula de transporte para así poder escapar.\n\nSi recibes los bienes, los [site/siteFaction_pawnsPlural] ocuparán un lugar cercano a tu colonia desde el que enviar incursiones. [site/allSitePartsDescriptions] Esta amenaza permanecerá ahí hasta que te ocupes de ella.\n\nLos bienes son (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], solicita tu ayuda. Un grupo de [site/siteFaction_pawnsPlural] ha estado azotando sus asentamientos. Te pide que mandes una señal para atraer su atención hacia [map_definite], lejos de su gente.\n\nDe hacerlo, los [site/siteFaction_pawnsPlural] ocuparán un lugar cercano a tu colonia desde el que enviar incursiones. [site/allSitePartsDescriptions] Esta amenaza permanecerá ahí hasta que te ocupes de ella.\n\nComo recompensa, recibirás cápsulas de transporte con el siguiente contenido: (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], se encuentra de viaje cerca de [map_definite]. Está siendo seguido(a) por [site/siteFaction_pawnsPlural] de [site/siteFaction_name] y quiere que mandes una señal para atraer su atención hacia [map_definite].\n\nSi lo haces, los [site/siteFaction_pawnsPlural] ocuparán un lugar cercano a tu colonia desde el que enviar incursiones. [site/allSitePartsDescriptions] Esta amenaza permanecerá ahí hasta que te ocupes de ella.\n\n[asker_nameDef] te recompensará. [allRewardsDescriptionsExceptItems] Recibirás cápsulas de transporte con el siguiente contenido: (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]</li>
   </ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [site/site_label]</li>
@@ -145,14 +145,14 @@
     <li>questName->[site/site_label] for Pay</li>
   -->
   <ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
-    <li>questName->[asker_nameDef]'s [site/site_label]</li>
-    <li>questName->[site/site_label] for [asker_nameDef]</li>
-    <li>questName->Paid [site/site_label]</li>
-    <li>questName->[site/site_label] for Pay</li>
+    <li>questName->[site/site_label] de [asker_nameDef]</li>
+    <li>questName->[site/site_label] para [asker_nameDef]</li>
+    <li>questName->Pagado [site/site_label]</li>
+    <li>questName->[site/site_label] como pago</li>
   </ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
   <!-- EN: <li>[defaultSiteAppearedLetterText]\n\nThis site was set up as a response to your insulting signals.</li> -->
   <ThreatReward_SiteThreat_ItemPod.root.nodes.Delay-0.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>
-    <li>[defaultSiteAppearedLetterText]\n\nThis site was set up as a response to your insulting signals.</li>
+    <li>[defaultSiteAppearedLetterText]\n\nEste campamento se montó como respuesta a tus molestas señales.</li>
   </ThreatReward_SiteThreat_ItemPod.root.nodes.Delay-0.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>
   
 </LanguageData>
