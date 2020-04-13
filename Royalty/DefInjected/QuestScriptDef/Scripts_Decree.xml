@@ -5,27 +5,27 @@
     <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
   -->
   <Decree_BuildMonument.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\nDebes construir un monumento. Ha de tener un tamaño de [monumentSize] y requerirá los siguientes elementos (valor total [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
   </Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->monument decree</li>
   -->
   <Decree_BuildMonument.questNameRules.rulesStrings>
-    <li>questName->Decreto: Monumento</li>
+    <li>questName->decreto de monumento</li>
   </Decree_BuildMonument.questNameRules.rulesStrings>
 
-  <!-- EN:  -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>New monument marker arrived</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>
-  <!-- EN:  -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>Since the monument marker has been destroyed, a new one has been sent.</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: New monument marker arrived -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>El nuevo marcador ha llegado</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>Como el marcador para el monumento ha sido destruido, uno nuevo ha sido enviado.</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Monument completed -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>Monumento completado</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>
-  <!-- EN:  -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration] days, otherwise [asker_nameDef] will be displeased.</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
+  <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration] days, otherwise [asker_nameDef] will be displeased. -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>Has completado la construcción del monumento.\n\nDebes mantenerlo a salvo durante al menos [keepMonumentTicks_duration] días, de lo contrario [asker_nameDef] estará molesto.</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
   <!-- EN: Monument destroyed -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>Monumento destruido</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
-  <!-- EN:  -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>[asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this.</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>[asker_nameDef] se siente insultado porque permitiste que el monumento fuera profanado poco después de ser completado.\n\nSe enfadará por esto.</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>No destruyas el monumento por {0}</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
@@ -37,13 +37,13 @@
     <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
   -->
   <Decree_HarvestCrop.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\nDebes cosechar [plantToHarvest_label] x[harvestItemCount].\n\nPuede que tengas que plantar y cultivar [plantToHarvest_label] primero.\n\n[decreeThreatInfo]</li>
   </Decree_HarvestCrop.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[plantToHarvest_label] harvest decree</li>
   -->
   <Decree_HarvestCrop.questNameRules.rulesStrings>
-    <li>questName->[plantToHarvest_label] harvest decree</li>
+    <li>questName->decreto de cosecha de [plantToHarvest_label]</li>
   </Decree_HarvestCrop.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -52,7 +52,7 @@
     <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
   -->
   <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nYou must hunt or slaughter [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\nDebes cazar o sacrificar [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
     <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
     <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
   </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
@@ -60,20 +60,20 @@
     <li>questName->[animalToHunt_label] hunting decree</li>
   -->
   <Decree_HuntAnimal.questNameRules.rulesStrings>
-    <li>questName->[animalToHunt_label] hunting decree</li>
+    <li>questName->decreto de caza de [animalToHunt_label]</li>
   </Decree_HuntAnimal.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
   -->
   <Decree_ProduceItem.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\nDebes producir:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
   </Decree_ProduceItem.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[defToProduce_label] production decree</li>
   -->
   <Decree_ProduceItem.questNameRules.rulesStrings>
-    <li>questName->[defToProduce_label] production decree</li>
+    <li>questName->decreto de producción de [defToProduce_label]</li>
   </Decree_ProduceItem.questNameRules.rulesStrings>
   
 </LanguageData>
