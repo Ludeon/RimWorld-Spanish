@@ -13,9 +13,9 @@
 
 	* [x] "Royalty\DefInjected\QuestScriptDef\Script_BuildMonument_Worker.xml"				Líneas: 6 - 11
 
-	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_Decree.xml"							Líneas: 17 - 34
+	* [x] "Royalty\DefInjected\QuestScriptDef\Scripts_Decree.xml"							Líneas: 17 - 34
 
-	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_Decree_Utility.xml"					El último.
+	* [x] "Royalty\DefInjected\QuestScriptDef\Scripts_Decree_Utility.xml"					El último.
 
 	* [x] "Royalty\DefInjected\QuestScriptDef\Scripts_EndGame_RoyalAscent.xml"				Líneas: 39 - 44
 
