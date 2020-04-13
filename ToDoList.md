@@ -59,9 +59,9 @@
 
 	* [ ] "Royalty\DefInjected\QuestScriptDef\"							Estaban copiados y pegados del alemán, textos revertidos, casi TODOS.
 
-	* [x] "Core\DefInjected\TraitDef\Traits_Singular"									¯--_(ツ)_--¯
+	* [x] "Core\DefInjected\TraitDef\Traits_Singular"							¯--_(ツ)_--¯
 
-	* [x] "Core\DefInjected\SpecialThingFilterDef\SpecialThingFilters.xml"				:)
+	* [x] "Core\DefInjected\SpecialThingFilterDef\SpecialThingFilters.xml"		:)
 
 	* [ ] "Core\DefInjected\PawnKindDef\PawnKinds_Mercenary.xml"				Es bastante cortito, y ya lo he hecho yo mayoritariamente de 0.
 
