@@ -32,7 +32,7 @@
 
 
 
-* Archivos nuevos:
+* Archivos **nuevos**:
 
 	* [x] "Royalty\Keyed\Designators.xml"							Solo es uno.
 
@@ -45,7 +45,7 @@
 	* [ ] "Core\Definjected\SitePartDef\TODOS.xml"					Ya había algunos en la carpeta, pero mejor revisarlos todos.
 
 
-* Archivos a revisar:
+* Archivos **a revisar**:
 
 	* [x] "Royalty\Keyed\Letters.xml"									Está casi todo abajo, algunas nuevas de por medio,hay que revisar casi todo.
 
@@ -62,4 +62,8 @@
 	* [x] "Core\DefInjected\TraitDef\Traits_Singular"									¯--_(ツ)_--¯
 
 	* [x] "Core\DefInjected\SpecialThingFilterDef\SpecialThingFilters.xml"				:)
+
+	* [ ] "Core\DefInjected\PawnKindDef\PawnKinds_Mercenary"				Es bastante cortito, y ya lo he hecho yo mayoritariamente de 0.
+
+	* [ ] "Core\DefInjected\PawnKindDef\Races_Animal_Farm"					Hay algunos que he intentado, por que las "etiquetas son liosas"
 
