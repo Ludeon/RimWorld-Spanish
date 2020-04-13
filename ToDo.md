@@ -40,7 +40,7 @@
 
 	* [ ] "Core\DefInjected\QuestScriptDef\"						Todos, no existia esta carpeta ni sus contenidos.
 
-	* [ ] "Core\DefInjected\ToolCapacityDef\ToolCapacity.xml"		Son de las armas.				
+	* [x] "Core\DefInjected\ToolCapacityDef\ToolCapacity.xml"		Son de las armas.				
 
 
 * Archivos a revisar:
@@ -57,7 +57,7 @@
 
 	* [ ] "Royalty\DefInjected\QuestScriptDef\"							Estaban copiados y pegados del alemán, textos revertidos, casi TODOS.
 
-	* [ ] "Core\DefInjected\TraitDef\Traits_Singular"									¯--_(ツ)_--¯
+	* [x] "Core\DefInjected\TraitDef\Traits_Singular"									¯--_(ツ)_--¯
 
-	* [ ] "Core\DefInjected\SpecialThingFilterDef\SpecialThingFilters.xml"				:)
+	* [x] "Core\DefInjected\SpecialThingFilterDef\SpecialThingFilters.xml"				:)
 
