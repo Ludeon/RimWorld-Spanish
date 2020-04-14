@@ -38,7 +38,7 @@
   
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>velocidad de inmunización</ImmunityGainSpeed.label>
-  <!-- EN: The speed at which this character gains immunity to diseases. If this is too slow, the character will die from a disease before developing immunity. -->
+  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
   <ImmunityGainSpeed.description>Velocidad a la que este personaje desarrolla inmunidad a las enfermedades. Si es muy baja, el personaje morirá a causa de la enfermedad antes de ser capaz de inmunizarse.</ImmunityGainSpeed.description>
   
   <!-- EN: leather amount -->
@@ -53,7 +53,7 @@
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>umbral de colapso mental</MentalBreakThreshold.label>
-  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break. The severity of the mental break will depend on how far below the threshold they are. -->
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
   <MentalBreakThreshold.description>Mientras el estado de humor de una persona esté por debajo de este nivel, corre el riesgo de sufrir un colapso mental. La gravedad del colapso dependerá de cuán por debajo del umbral se encuentre.</MentalBreakThreshold.description>
   
   <!-- EN: minimum handling skill -->
@@ -72,6 +72,23 @@
   <PainShockThreshold.label>umbral de shock por dolor</PainShockThreshold.label>
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>El nivel al que esta criatura se derrumbará por el dolor.</PainShockThreshold.description>
+
+  <!-- EN:  -->
+  <PsychicEntropyGain.label>psychic entropy gain</PsychicEntropyGain.label>
+  <!-- EN:  -->
+  <PsychicEntropyGain.description>A multiplier on psychic entropy gained from any source.</PsychicEntropyGain.description>
+  
+  <!-- EN:  -->
+  <PsychicEntropyMax.label>psychic entropy limit</PsychicEntropyMax.label>
+  <!-- EN:  -->
+  <PsychicEntropyMax.description>The maximum amount of psychic entropy individual can tolerate safely.</PsychicEntropyMax.description>
+  
+  <!-- EN:  -->
+  <PsychicEntropyRecoveryRate.label>psychic entropy recovery rate</PsychicEntropyRecoveryRate.label>
+  <!-- EN:  -->
+  <PsychicEntropyRecoveryRate.description>The rate at which this person reduces psychic entropy.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/30s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/30s</PsychicEntropyRecoveryRate.formatString>
   
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>sensibilidad psíquica</PsychicSensitivity.label>

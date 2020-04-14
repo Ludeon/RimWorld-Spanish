@@ -46,4 +46,5 @@
 	* [ ] "Core\Definjected\HediffDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
 	* [ ] "Core\Definjected\RecipeDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
 	* [ ] "Royalty\Definjected\RecipeDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
+	* [ ] "Core\Definjected\StatDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
 	* [ ] "Core\Definjected\ThoughtDef\TDODS.xml"

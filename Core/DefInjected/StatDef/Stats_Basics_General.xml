@@ -32,13 +32,15 @@
   <FoodPoisonChanceFixedHuman.label>probabilidad de envenenamiento por alimentos</FoodPoisonChanceFixedHuman.label>
   <!-- EN: The chance this food will cause food poisoning. -->
   <FoodPoisonChanceFixedHuman.description>La probabilidad de que esta comida cause una intoxicación alimentaria.</FoodPoisonChanceFixedHuman.description>
-  
+  <!-- EN:  -->
+  <FoodPoisonChanceFixedHuman.labelForFullStatList>food poison chance (food stat)</FoodPoisonChanceFixedHuman.labelForFullStatList>
+
   <!-- EN: market value -->
   <MarketValue.label>valor de mercado</MarketValue.label>
   <!-- EN: The market value of an object. The actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
   <MarketValue.description>El valor de mercado de un objeto. El precio real de mercado será modificado por la habilidad de negociación, el estado de las relaciones, y otros factores contextuales.</MarketValue.description>
   <!-- EN: ${0} -->
-  <MarketValue.formatString>{0}$</MarketValue.formatString>
+  <MarketValue.formatString>{0}€</MarketValue.formatString>
   
   <!-- EN: mass -->
   <Mass.label>peso</Mass.label>
@@ -56,6 +58,11 @@
   <Nutrition.label>nutrición</Nutrition.label>
   <!-- EN: How nutritious this food is. -->
   <Nutrition.description>Cuán nutritiva es esta comida.</Nutrition.description>
+
+  <!-- EN:  -->
+  <RoyalFavorValue.label>royal favor value</RoyalFavorValue.label>
+  <!-- EN:  -->
+  <RoyalFavorValue.description>The amount of royal favor your trader will earn for giving this to a tribute collector.</RoyalFavorValue.description>
   
   <!-- EN: sell price multiplier -->
   <SellPriceFactor.label>multiplicador de precio de venta</SellPriceFactor.label>
@@ -66,6 +73,8 @@
   <ShootingAccuracyTurret.label>precisión de disparo</ShootingAccuracyTurret.label>
   <!-- EN: Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
   <ShootingAccuracyTurret.description>Probabilidad básica de no fallar por casilla de distancia desde el disparo. La probabilidad de impacto también se ve afectada por muchos otros factores. La explicación de la probabilidad de impacto de cualquier disparo se puede ver seleccionando un tirador y pasando el ratón por encima de un objetivo.</ShootingAccuracyTurret.description>
+  <!-- EN:  -->
+  <ShootingAccuracyTurret.labelForFullStatList>shooting accuracy (turrets)</ShootingAccuracyTurret.labelForFullStatList>
   
   <!-- EN: work to make -->
   <WorkToMake.label>trabajo por hacer</WorkToMake.label>
