@@ -32,8 +32,6 @@ El archivo [ToDoList.md](ToDoList.md) es el archivo en el que se anotarán aquel
 
 	* Yllelder
 
-	* Azarashi
-
 
 * Colaboradores:
 
@@ -44,3 +42,5 @@ El archivo [ToDoList.md](ToDoList.md) es el archivo en el que se anotarán aquel
 	* Mototron
 
 	* Amatiasq
+
+	* Azarashi
