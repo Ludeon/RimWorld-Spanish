@@ -8,8 +8,8 @@
     <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
   -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], wants you to help save one of [asker_possessive] caravans. The caravan is being hunted near [map_definite] by [numGroupsOf] [enemyFaction_pawnsPlural] from [enemyFaction_name]. [asker_nameDef] wants to send you transport pods containing goods to draw the [enemyFaction_pawnsPlural] away from the caravan - and towards you.\n\n[pawnKindsParagraph]\n\nThe pods contain (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration]. [allRewardsDescriptionsExceptItems]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request of you.\n\n[groupsOf] from [enemyFaction_name] have been harassing [asker_possessive] caravans in the area. [asker_nameDef] asks that you send them a challenge message, attracting them to attack and eliminating the threat yourself.\n\n[pawnKindsParagraph]\n\n[helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration]. [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], quiere que lo ayudes a rescatar una de sus caravanas. La caravana está siendo acosada cerca de [map_definite] por [numGroupsOf] [enemyFaction_pawnsPlural] de [enemyFaction_name]. [asker_nameDef] quiere enviarte cápsulas de transporte llenas de bienes para atraer la atención de los/las [enemyFaction_pawnsPlural] hacia ti.\n\n[pawnKindsParagraph]\n\nLas cápsulas contienen (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph]Si aceptas, los/las [enemyFaction_pawnsPlural] llegarán en [firstRaidDelayTicks_duration]. [allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], te manda una petición.\n\n[groupsOf] de [enemyFaction_name] han estado atacando sus caravanas por la zona. [asker_nameDef] quiere que les mandes un mensaje desafiante, para atraer su atención hasta ti y elimines la amenaza.\n\n[pawnKindsParagraph]\n\n[helpersParagraph]Si aceptas, los/las [enemyFaction_pawnsPlural] llegarán en [firstRaidDelayTicks_duration]. [allRewardsDescriptions]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
     <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
   </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
@@ -27,16 +27,16 @@
     <li>violence->Fighting</li>
   -->
   <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
-    <li>questName->[enemyFaction_pawnsPlural] del destino</li>
-    <li>questName->[violence] del destino</li>
+    <li>questName->[enemyFaction_pawnsPlural] de Fortuna</li>
+    <li>questName->[violence] de Fortuna</li>
     <li>questName->Merecido [violence_Fem]</li>
     <li>questName->Pagado [violence_Mas]</li>
     <li>questName(p=0.5)->requerido [violence_Neu]</li>
     <li>questName->Precio de [violence_Fem]</li>
     <li>questName->Precio de [violence_Mas]es</li>
     <li>questName(p=0.5)->Preis des [violence_Neu]s</li>
-    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] el favor</li>
-    <li>questName(reward==royalFavor)->[violence] el favor</li>
+    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] a cambio de Favor</li>
+    <li>questName(reward==royalFavor)->[violence] a cambio de Favor</li>
     <li>violence->violence_Fem</li>
     <li>violence->violence_Mas</li>
     <li>violence(p=0.5)->violence_Neu</li>
@@ -44,7 +44,7 @@
     <li>violence_Fem->Batalla</li>
     <li>violence_Mas->Combate</li>
     <li>violence_Mas->Guerra</li>
-    <li>violence_Neu->Pelea</li>
+    <li>violence_Neu->Lucha</li>
   </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>
