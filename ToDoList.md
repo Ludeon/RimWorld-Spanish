@@ -21,11 +21,12 @@
 
 * Archivos **nuevos**:
 
-	* [x] "Royalty\Keyed\Designators.xml"							Solo es uno.
-	* [ ] "Core\DefInjected\TipSetDef\Tips.xml"						Son los de los menús de carga.
-	* [ ] "Core\DefInjected\QuestScriptDef\"						Todos, no existia esta carpeta ni sus contenidos.
-	* [x] "Core\DefInjected\ToolCapacityDef\ToolCapacity.xml"		Son de las armas.
-	* [ ] "Core\Definjected\SitePartDef\TODOS.xml"					Ya había algunos en la carpeta, pero mejor revisarlos todos.
+	* [x] "Royalty\Keyed\Designators.xml"								Solo es uno.
+	* [ ] "Core\DefInjected\TipSetDef\Tips.xml"							Son los de los menús de carga.
+	* [ ] "Core\DefInjected\QuestScriptDef\"							Todos, no existia esta carpeta ni sus contenidos.
+	* [x] "Core\DefInjected\ToolCapacityDef\ToolCapacity.xml"			Son de las armas.
+	* [ ] "Core\Definjected\SitePartDef\TODOS.xml"						Ya había algunos en la carpeta, pero mejor revisarlos todos.
+	* [ ] "Core\Definjected\RulePackDef\RulePacks_Combat______.xml"		Estos archivos faltaban.
 
 
 
@@ -40,8 +41,8 @@
 	* [ ] "Royalty\DefInjected\QuestScriptDef\"							Estaban copiados y pegados del alemán, textos revertidos, casi TODOS.
 	* [x] "Core\DefInjected\TraitDef\Traits_Singular"							¯--_(ツ)_--¯
 	* [x] "Core\DefInjected\SpecialThingFilterDef\SpecialThingFilters.xml"		:)
-	* [x] "Core\DefInjected\PawnKindDef\PawnKinds_Mercenary.xml"				Es bastante cortito, y ya lo he hecho yo mayoritariamente de 0.
-	* [x] "Core\DefInjected\PawnKindDef\Races_Animal_Farm.xml"					Hay algunos que he intentado, por que las "etiquetas son liosas"
+	* [x] "Core\DefInjected\PawnKindDef\PawnKinds_Mercenary.xml"				Es bastante cortito, ya lo he hecho yo mayoritariamente de 0.
+	* [x] "Core\DefInjected\PawnKindDef\Races_Animal_Farm.xml"					He intentado algunos, por que las "etiquetas son liosas"
 	* [x] "Royalty\DefInjected\PawnKindDef\PawnKinds_Empire.xml"				Esto va junto a los títulos imperiales.
 	* [ ] "Core\Definjected\HediffDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
 	* [ ] "Core\Definjected\RecipeDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
