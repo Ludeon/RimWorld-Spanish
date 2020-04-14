@@ -11,10 +11,10 @@
 	* [x] "Royalty\DefInjected\QuestScriptDef\Scripts_Decree_Utility.xml"					El último.
 	* [x] "Royalty\DefInjected\QuestScriptDef\Scripts_EndGame_RoyalAscent.xml"				Líneas: 39 - 44
 	* [x] "Royalty\DefInjected\QuestScriptDef\Scripts_Hospitality_Worker.xml"				Líneas: 35, 47 - 50
-	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_JoinerThreat.xml"						Líneas: 153, 176
-	* [ ] "Core\DefInjected\GatheringDef\GatheringDef.xml"									Cortito
-	* [ ] "Royalty\DefInjected\GatheringDef\GatheringDef.xml"								Cortito
-	* [ ] "Core\DefInjected\RaidStrategyDef\RaidStrategies.xml"								Líneas: 13 - 20, 45 - 48
+	* [x] "Royalty\DefInjected\QuestScriptDef\Scripts_JoinerThreat.xml"						Líneas: 153, 176
+	* [x] "Core\DefInjected\GatheringDef\GatheringDef.xml"									Cortito
+	* [x] "Royalty\DefInjected\GatheringDef\GatheringDef.xml"								Cortito
+	* [x] "Core\DefInjected\RaidStrategyDef\RaidStrategies.xml"								Líneas: 13 - 20, 45 - 48
 
 
 
