@@ -70,3 +70,4 @@
 	* [x] "Royalty\DefInjected\PawnKindDef\PawnKinds_Empire.xml"				Esto va junto a los títulos imperiales.
 
 	* [ ] "Core\Definjected\HediffDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
+	* [ ] "Core\Definjected\ThoughtDef"
