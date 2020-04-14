@@ -28,6 +28,8 @@
 	* [ ] "Core\Definjected\SitePartDef\TODOS.xml"					Ya había algunos en la carpeta, pero mejor revisarlos todos.
 
 
+
+
 * Archivos **a revisar**:
 
 	* [x] "Royalty\Keyed\Letters.xml"									Está casi todo abajo, algunas nuevas de por medio,hay que revisar casi todo.
@@ -42,4 +44,6 @@
 	* [x] "Core\DefInjected\PawnKindDef\Races_Animal_Farm.xml"					Hay algunos que he intentado, por que las "etiquetas son liosas"
 	* [x] "Royalty\DefInjected\PawnKindDef\PawnKinds_Empire.xml"				Esto va junto a los títulos imperiales.
 	* [ ] "Core\Definjected\HediffDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
-	* [ ] "Core\Definjected\ThoughtDef"
+	* [ ] "Core\Definjected\RecipeDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
+	* [ ] "Royalty\Definjected\RecipeDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
+	* [ ] "Core\Definjected\ThoughtDef\TDODS.xml"
