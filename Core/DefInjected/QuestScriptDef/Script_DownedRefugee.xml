@@ -8,8 +8,8 @@
     <li>pawnInvolvedInQuestInfo-></li>
   -->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->[refugee_nameDef] contacts you and requests help. [refugee_pronoun] is wounded and unable to move.\n\n[refugee_nameDef] is a [refugee_age]-year-old [refugee_title]. [refugee_pronoun] promises to join you if you rescue [refugee_objective].\n\n[refugee_nameDef] says that [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], says that [asker_possessive] friend has been wounded while traveling. The victim is [refugee_nameIndef], a [refugee_age]-year-old [refugee_title].\n\n[asker_nameDef] has nobody to spare to rescue [refugee_nameDef], but says that if you can make it to [refugee_nameDef]'s position and rescue [refugee_objective], [refugee_pronoun] will join you.\n\n[asker_nameDef] says that [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] te llama por radio pidiendo tu auxilio. Está herido(a) e inmovilizado(a).\n\n[refugee_nameDef] es un/una [refugee_title] de [refugee_age] años. Promete unirse a tu colonia si [refugee_objective] rescatas.\n\n[refugee_nameDef] dice que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], dice que su amigo(a) ha sido herido(a) durante un viaje. La víctima es [refugee_nameIndef], un/una [refugee_title] de [refugee_age] años.\n\n[asker_nameDef] no espera que nadie rescate a [refugee_nameDef], pero asegura que si acudes hasta su posición y [refugee_objective] rescatas, [refugee_nameDef] se unirá a ti.\n\n[asker_nameDef] dice que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
@@ -20,14 +20,14 @@
     <li>questName->[refugee_nameDef]'s Salvation</li>
   -->
   <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
-    <li>questName->Saving [refugee_nameDef]</li>
-    <li>questName->The Rescue of [refugee_nameDef]</li>
-    <li>questName->[refugee_nameDef]'s Rescue</li>
-    <li>questName->[refugee_nameDef]'s Salvation</li>
+    <li>questName->Salvar a [refugee_nameDef]</li>
+    <li>questName->El Rescate de [refugee_nameDef]</li>
+    <li>questName->El Rescate de [refugee_nameDef]</li>
+    <li>questName->La Salvación de [refugee_nameDef]</li>
   </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
-  <!-- EN:  -->
-  <OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Quest expired: [resolvedQuestName]</OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
-  <!-- EN:  -->
-  <OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>[refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired.</OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Misión caducada: [resolvedQuestName]</OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>La señal de [refugee_nameDef] se ha perdido, y ya no puede ser localizado. La misión [resolvedQuestName] ha caducado.</OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
   
 </LanguageData>
