@@ -44,7 +44,7 @@
 	* [x] "Core\DefInjected\PawnKindDef\PawnKinds_Mercenary.xml"				Es bastante cortito, ya lo he hecho yo mayoritariamente de 0.
 	* [x] "Core\DefInjected\PawnKindDef\Races_Animal_Farm.xml"					He intentado algunos, por que las "etiquetas son liosas"
 	* [x] "Royalty\DefInjected\PawnKindDef\PawnKinds_Empire.xml"				Esto va junto a los títulos imperiales.
-	* [ ] "Core\Definjected\HediffDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
+	* [x] "Core\Definjected\HediffDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
 	* [x] "Core\Definjected\RecipeDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
 	* [ ] "Royalty\Definjected\RecipeDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
 	* [x] "Core\Definjected\StatDef\TODOS.xml"								Todos tienen algo nuevo dentro :)
