@@ -27,6 +27,7 @@
 	* [x] "Core\DefInjected\ToolCapacityDef\ToolCapacity.xml"			Son de las armas.
 	* [x] "Core\Definjected\SitePartDef\TODOS.xml"						Ya había algunos en la carpeta, pero mejor revisarlos todos.
 	* [ ] "Core\Definjected\RulePackDef\RulePacks_Combat______.xml"		Estos archivos faltaban.
+	* [ ] "Core\DefInjected\TipSetDef\Tips.xml"							Son los de los menús de carga.
 
 
 
