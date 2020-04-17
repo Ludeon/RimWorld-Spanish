@@ -5,7 +5,7 @@
     <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.\n\n[allSitePartsDescriptionsExceptFirst]</li>
   -->
   <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
-    <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.\n\n[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription->Utilizando el escáner mineral de largo alcance, [worker_definite] ha encontrado una veta de [targetMineable_label] cercana.\n\nDesgraciadamente, no durará mucho - otros se quedarán con los recursos en [timeoutTicks_duration] si no nos apresuramos.\n\n[allSitePartsDescriptionsExceptFirst]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [subName]</li>
@@ -27,27 +27,27 @@
     <li>adj->Found</li>
   -->
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->The [subName]</li>
     <li>questName->[subName]</li>
-    <li>subName->[adj] Resources</li>
-    <li>subName->[adj] Minerals</li>
-    <li>subName->[adj] Ores</li>
-    <li>subName->[adj] Wealth</li>
-    <li>subName->[adj] Mineables</li>
-    <li>subName->[adj] Lump</li>
-    <li>subName->[adj] Mining Project</li>
-    <li>adj->Distant</li>
-    <li>adj->Far</li>
-    <li>adj->Long-Range</li>
-    <li>adj->Unknown</li>
-    <li>adj->Discovered</li>
-    <li>adj->Scanned</li>
-    <li>adj->Detected</li>
-    <li>adj->Found</li>
+    <li>questName->[subName]</li>
+    <li>subName->Recursos [adj]</li>
+    <li>subName->Minerales [adj]</li>
+    <li>subName->Minerales [adj]</li>
+    <li>subName->Riqueza [adj]</li>
+    <li>subName->Recursos Extraíbles [adj]</li>
+    <li>subName->Veta [adj]</li>
+    <li>subName->[adj] Proyecto de minería</li>
+    <li>adj->Distante</li>
+    <li>adj->Lejano</li>
+    <li>adj->Lejano</li>
+    <li>adj->Desconocido</li>
+    <li>adj->Descubierto</li>
+    <li>adj->Localizado</li>
+    <li>adj->Detectado</li>
+    <li>adj->Encontrado</li>
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
-  <!-- EN:  -->
-  <LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Quest expired: [resolvedQuestName]</LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
-  <!-- EN:  -->
-  <LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired.</LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Misión caducada: [resolvedQuestName]</LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
+  <LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Otros se han hecho con la veta de [targetMineable_label]. La misión [resolvedQuestName] ha caducado.</LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
   
 </LanguageData>
