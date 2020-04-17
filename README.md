@@ -8,6 +8,8 @@ Consulte esta página para obtener información sobre la licencia e información
 
 [Enlace a la guia en los foros oficiales](http://ludeon.com/forums/index.php?topic=2933.0)
 
+
+
 [Enlace al grupo Discord](https://discord.gg/KF5cqm)
 
 Tareas pendientes:
