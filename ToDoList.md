@@ -17,6 +17,15 @@
 	* [x] "Core\DefInjected\RaidStrategyDef\RaidStrategies.xml"								Líneas: 13 - 20, 45 - 48
 
 
+	* [x] "Royalty\Keyed\Dialog_StatReports"			Línea: 9
+	* [x] "Royalty\Keyed\GameplayCommands"				Línea: 5
+	* [x] "Royalty\Keyed\Letters"						Línea: 59
+	* [x] "Royalty\Keyed\Dialog_StatReports"			Línea: 55 en adelante
+	* [x] "Core\Keyed\Dialog_StatReports"				Líneas: 116 - 119
+
+	
+
+
 
 
 * Archivos **nuevos**:
