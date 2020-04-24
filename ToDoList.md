@@ -20,7 +20,7 @@
 	* [ ] "Royalty\Keyed\Dialog_StatReports"											Línea: 9
 	* [ ] "Royalty\Keyed\GameplayCommands"												Línea: 5
 	* [ ] "Royalty\Keyed\Letters"														Línea: 59
-	* [ ] "Royalty\Keyed\Dialog_StatReports"											Línea: 55 en adelante
+	* [ ] "Royalty\Keyed\Misc_Gammeplay"												Línea: 55 en adelante
 	* [ ] "Core\Keyed\Dialog_StatReports"												Líneas: 116 - 119
 
 	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_Hospitality_Worker.xml"			Línea: 53
