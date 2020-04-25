@@ -28,41 +28,39 @@
     <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
   <QuestConstructionDescriptionCommon.rulePack.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Un mensaje misterioso ha llegado. Parece que fue enviado por una persona máquina que se niega a revelar su nombre. El mensaje te pide que construyas un monumento específico.\n\n[commonEnding]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] la facción '[asker_faction_name]' te pide que construyas un monumento, [buildReason].\n\n[commonEnding]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] la facción '[asker_faction_name]' te pide que construyas un monumento, [buildReason].\n\n[commonEnding]</li>
-    <li>asker2(askerIsNull==true)->el archotech</li>
+    <li>questDescription(askerIsNull==true)->Un mensaje misterioso ha llegado. Parece que fue enviado por una IA que se niega a revelar su nombre. En el mensaje se te pide que construyas un monumento específico.\n\n[commonEnding]</li>
+    <li>questDescription(asker_factionLeader==True)->El/la [asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] te pide que construyas un monumento, [buildReason].\n\n[commonEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->El/la [asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] te pide que construyas un monumento, [buildReason].\n\n[commonEnding]</li>
+    <li>asker2(askerIsNull==true)->el/la arquitech</li>
     <li>asker2(asker_factionLeader==True)->[asker_nameDef]</li>
     <li>asker2(asker_royalInCurrentFaction==True)->el [asker_royalTitleInCurrentFaction]</li>
-    <li>buildReason(p=0.5)->a la [PersonalCharacteristic] [asker_possessive]es [PersonFamilyMasGen] para conmemorar</li>
-    <li>buildReason(p=0.5)->a la [PersonalCharacteristic] [asker_possessive]es [PersonFamilyFem] para conmemorar</li>
-    <li>buildReason->uno [asker_possessive] el posee [PersonalCharacteristic] para conmemorar</li>
-    <li>buildReason->alrededor del [PersonalCharacteristic] [asker_possessive]es Erzfeindes zu beleidigen</li>
-    <li>buildReason->para hacer sentir a la gente [AngstyFeeling] tomar</li>
-    <li>buildReason->para mostrarle al mundo cómo [AdjectiveBadass] [asker_pronoun] es</li>
-    <li>buildReason->uno [asker_possessive] en [asker_faction_pawnsPlural] para conmemorar a los que cayeron en la batalla</li>
-    <li>buildReason(p=0.5)->uno [asker_possessive] en [PersonFamilyMasAcc] para honrar</li>
-    <li>buildReason(p=0.5)->uno [asker_possessive] y [PersonFamilyFem] para honrar</li>
-    <li>buildReason->para honrar el trabajo de todos [PersonJobPlural] en este mundo</li>
-    <li>buildReason->por las glorias [asker_possessive][glory] para llevar alrededor del mundo</li>
-    <li>glory->es Gloria</li>
-    <li>glory->er Honor Marcial</li>
-    <li>glory->er Victoria</li>
-    <li>glory->es Trono</li>
-    <li>glory->es Buena Nave</li>
-    <li>glory->es Riqueza</li>
-    <li>glory->er Familia</li>
-    <li>AngstyFeeling->Tristeza</li>
-    <li>AngstyFeeling->Desesperación</li>
-    <li>AngstyFeeling->Depresión</li>
-    <li>AngstyFeeling->Impotencia</li>
+    <li>buildReason(p=0.5)->para conmemorar el/la [PersonalCharacteristic] de su [PersonFamily]</li>
+    <li>buildReason(p=0.5)->para conmemorar su propio(a) [PersonalCharacteristic]</li>
+    <li>buildReason->para insultar el/la [PersonalCharacteristic] de su rival</li>
+    <li>buildReason->para reducir sentimientos de [ConceptAngsty] entre la gente</li>
+    <li>buildReason->para expresar cuán [AdjectiveBadass] [asker_pronoun] es</li>
+    <li>buildReason->para conmemorar a sus [asker_faction_pawnsPlural] que cayeron en batalla</li>
+    <li>buildReason(p=0.5)->para honrar a su [PersonFamily]</li>
+    <li>buildReason(p=0.5)->para honrar el trabajo de los [PersonJobPlural]</li>
+    <li>buildReason->para extender imágenes de su [glory] por toda la tierra</li>
+    <li>glory->gloria</li>
+    <li>glory->honor marcial</li>
+    <li>glory->victorias</li>
+    <li>glory->trono</li>
+    <li>glory->gran nave</li>
+    <li>glory->riqueza</li>
+    <li>glory->familia</li>
+    <li>AngstyFeeling->tristeza</li>
+    <li>AngstyFeeling->desesperación</li>
+    <li>AngstyFeeling->depresión</li>
+    <li>AngstyFeeling->impotencia</li>
     <li>AngstyFeeling->insignificancia </li>
-    <li>AngstyFeeling->Soledad</li>
-    <li>AngstyFeeling->Desolación</li>
-    <li>AngstyFeeling->melancólico</li>
-    <li>AngstyFeeling->Miedo</li>
+    <li>AngstyFeeling->soledad</li>
+    <li>AngstyFeeling->desolación</li>
+    <li>AngstyFeeling->melancolía</li>
+    <li>AngstyFeeling->miedo</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->La misión '[resolvedQuestName]' ha fracasado.</li>
-    <li>failLetterEndingCommon->Has fallado misión '[resolvedQuestName]'.\n\nTu reputación con la facción '[asker_faction_name]' ha disminuido en [goodwillPenalty] .</li>
+    <li>failLetterEndingCommon->Has fallado la misión '[resolvedQuestName]'.\n\nTu reputación con '[asker_faction_name]' ha disminuido en [goodwillPenalty].</li>
   </QuestConstructionDescriptionCommon.rulePack.rulesStrings>
   
   <!-- EN:
@@ -105,7 +103,7 @@
     <li>constAdj(p=20)->[AdjectiveLarge]</li>
     <li>constAdj->terrible</li>
     <li>constAdj->genial</li>
-    <li>constAdj->Increible</li>
+    <li>constAdj->increible</li>
     <li>constAdj->peligroso</li>
     <li>constAdj->monumental</li>
     <li>constAdj->extravagante</li>
