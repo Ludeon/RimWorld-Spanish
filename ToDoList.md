@@ -38,7 +38,7 @@
 	* [x] "Core\DefInjected\QuestScriptDef\"							Todos, no existia esta carpeta ni sus contenidos.
 	* [x] "Core\DefInjected\ToolCapacityDef\ToolCapacity.xml"			Son de las armas.
 	* [x] "Core\Definjected\SitePartDef\TODOS.xml"						Ya había algunos en la carpeta, pero mejor revisarlos todos.
-	* [ ] "Core\Definjected\RulePackDef\RulePacks_Combat______.xml"		Estos archivos faltaban.
+	* [x] "Core\Definjected\RulePackDef\RulePacks_Combat______.xml"		Estos archivos faltaban.
 
 
 
