@@ -23,7 +23,7 @@
 	* [x] "Royalty\Keyed\Misc_Gammeplay"												Línea: 55 en adelante
 	* [x] "Core\Keyed\Dialog_StatReports"												Líneas: 116 - 119
 
-	* [ ] "Royalty\DefInjected\QuestScriptDef\Scripts_Hospitality_Worker.xml"			Línea: 53
+	* [x] "Royalty\DefInjected\QuestScriptDef\Scripts_Hospitality_Worker.xml"			Línea: 53
 	* [x] "Royalty\DefInjected\ThingDef\Buildings_MusicalInstruments.xml"				Líneas: 24 - 27
 	* [x] "Core\DefInjected\TipSetDef\Tips.xml"											Línea: 129
 	* [x] "Core\DefInjected\AbilityDef\Abilities.xml"									Líneas: 59 - 62
