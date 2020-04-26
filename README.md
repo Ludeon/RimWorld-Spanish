@@ -26,6 +26,8 @@ Lista  traductores:
 
 	* Lord Mellington
 
+        * Guntrek
+
 
 * Tradcutores:
 	* Capiqua 
