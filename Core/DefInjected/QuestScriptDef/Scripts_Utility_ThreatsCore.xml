@@ -29,9 +29,9 @@
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
       <li>root(priority=1,sitePart==ClimateAdjuster)->hay una máquina capaz de alterar la temperatura; parece que la temperatura regional ha sufrido un cambio de [temperatureOffset]</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->hay una máquina que produce un zumbido psíquico aquí, sintonizado con el sexo [affectedGender]</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->hay un inhibidor psíquico aquí, sintonizado con el sexo [affectedGender]</li>
-      <li>root(priority=1,sitePart==WeatherController)->hay una máquina que controla el clima aquí, sumiendo toda la región en [weather_label]</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->hay una máquina que produce un zumbido psíquico sintonizado con el sexo [affectedGender]</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->hay un inhibidor psíquico sintonizado con el sexo [affectedGender]</li>
+      <li>root(priority=1,sitePart==WeatherController)->hay una máquina que controla el clima sumiendo toda la región en [weather_label]</li>
       <li>root(priority=1,sitePart==SmokeSpewer)->hay una máquina que inunda toda la región de un humo asfixiante</li>
       <li>root(priority=1,sitePart==SunBlocker)->hay una máquina que bloquea el sol en la región, sumiéndola en la sombra</li>
       <li>root(priority=1,sitePart==EMIDynamo)->hay una máquina con una dínamo EMP capaz de desactivar los dispositivos eléctricos de toda la región</li>
@@ -41,13 +41,13 @@
       <li>root(priority=1,sitePart==BanditCamp)->hay un campamento de bandidos en el lugar, custodiado por [enemiesCount] enemigos</li>
       <li>root(priority=1,sitePart==Manhunters,count==1)->un/una [kindLabel] cazahombres deambula al acecho</li>
       <li>root(priority=1,sitePart==Manhunters,count>1)->[count] [kindLabel] cazahombres deambulan al acecho</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->un mecanoide durmiente cerca de aquí</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->[count] mecanoides durmientes cerca de aquí</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->un mecanoide durmiente en la cercanía</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->[count] mecanoides durmientes en la cercanía</li>
       <li>root(priority=1,sitePart==Turrets)->[threatsInfo] defiende el lugar</li>
       <li>root(priority=1,sitePart==AmbushEdge)->una fuerza enemiga pretende emboscar a cualquiera que se acerque</li>
       <li>root(priority=1,sitePart==AmbushHidden)->una fuerza enemiga pretende emboscar a cualquiera que se acerque</li>
       <li>root(priority=1,sitePart==MechCluster)->hay un conglomerado de estructuras mecanoides hostiles</li>
-      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->allí podría haber una amenaza desconocida</li>
+      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->podría haber una amenaza desconocida</li>
       <li>root->hay [label]</li>
     </rulesStrings> 
   </Util_GenerateSite.root.singleSitePartRules.slateRef>
