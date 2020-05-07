@@ -16,7 +16,6 @@
 	* [x] "Royalty\DefInjected\GatheringDef\GatheringDef.xml"								Cortito
 	* [x] "Core\DefInjected\RaidStrategyDef\RaidStrategies.xml"								Líneas: 13 - 20, 45 - 48
 
-
 	* [x] "Royalty\Keyed\Dialog_StatReports"											Línea: 9
 	* [x] "Royalty\Keyed\GameplayCommands"												Línea: 5
 	* [x] "Royalty\Keyed\Letters"														Línea: 59
@@ -27,6 +26,13 @@
 	* [x] "Royalty\DefInjected\ThingDef\Buildings_MusicalInstruments.xml"				Líneas: 24 - 27
 	* [x] "Core\DefInjected\TipSetDef\Tips.xml"											Línea: 129
 	* [x] "Core\DefInjected\AbilityDef\Abilities.xml"									Líneas: 59 - 62
+
+	* [ ] "Core\Keyed\Designators.xml"													Líneas: 218 - 225
+	* [ ] "Core\Keyed\Dialog_Various.xml"												Líneas: 9 y 457
+	* [ ] "Core\Keyed\MainTabs.xml"														Líneas: 104, 106 y 268
+	* [ ] "Core\Keyed\Messages.xml"														Líneas: 49 y 381
+	* [ ] "Royalty\Keyed\Letters.xml"													Línea: 82
+
 
 
 
