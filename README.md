@@ -26,7 +26,6 @@ Lista  traductores:
 
 	* Lord Mellington
 
-        * Guntrek
 
 
 * Tradcutores:
@@ -39,6 +38,8 @@ Lista  traductores:
 	* Vhiden
 
 	* Yllelder
+    
+    * Guntrek
 
 
 * Colaboradores:
