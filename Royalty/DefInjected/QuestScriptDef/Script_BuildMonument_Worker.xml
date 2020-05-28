@@ -2,40 +2,40 @@
 <LanguageData>
   
   <!-- EN: Monument completed -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>Monumento completado</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>
-  <!-- EN: You completed construction of the monument.\n\nYou must not destroy it for at least [keepMonumentTicks_duration] days, otherwise you will anger [asker_factionName] ([goodwillChangeIfMonumentDestroyed] goodwill). -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>Has completado la construcción del monumento.\n\nNo debes permitir que sea destruido durante, como mínimo [keepMonumentTicks_duration] días, de lo contrario harás enfadar a [asker_factionName] ([goodwillChangeIfMonumentDestroyed] reputación).</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>
+  <BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>Monumento completado</BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>
+  <!-- EN:  -->
+  <BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>You completed construction of the monument.\n\nYou must not destroy it for at least [keepMonumentTicks_duration], otherwise you will anger [asker_factionName] ([goodwillChangeIfMonumentDestroyed] goodwill).</BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>
   <!-- EN: Monument destroyed -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>Monumento destruido</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
+  <BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>Monumento destruido</BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>
   <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>[asker_nameDef] se siente insultado porque permitiste que el monumento fuera profanado poco después de completarlo.\n\nTus relaciones con [asker_faction_name] han caído en [goodwillChangeIfMonumentDestroyed].</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
+  <BuildMonumentWorker.LetterTextMonumentRuined.slateRef>[asker_nameDef] se siente insultado porque permitiste que el monumento fuera profanado poco después de completarlo.\n\nTus relaciones con [asker_faction_name] han caído en [goodwillChangeIfMonumentDestroyed].</BuildMonumentWorker.LetterTextMonumentRuined.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>No destruyas el monumento durante {0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>
+  <BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>No destruyas el monumento por {0}</BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPartTip.slateRef>No destruyas el monumento durante {0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPartTip.slateRef>
+  <BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>No destruyas el monumento por {0}</BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.inspectString.slateRef>Mantén el monumento {0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.inspectString.slateRef>
+  <BuildMonumentWorker.KeepMonument.slateRef>Mantén el monumento {0}</BuildMonumentWorker.KeepMonument.slateRef>
   <!-- EN: The monument for the quest '[resolvedQuestName]' has been violated. Punishment will now occur. -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Message.text.slateRef>El monumento de la misión '[resolvedQuestName]' ha sido mancillado. El castigo será debidamente administrado.</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Message.text.slateRef>
+  <BuildMonumentWorker.MessageMonumentViolated.slateRef>El monumento de la misión '[resolvedQuestName]' ha sido mancillado. El castigo será debidamente administrado.</BuildMonumentWorker.MessageMonumentViolated.slateRef>
   <!-- EN: Protect the monument for {0} -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPart.slateRef>Protege el monumento durante {0}</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPart.slateRef>
+  <BuildMonumentWorker.ProtectMonumentForDays.slateRef>Protege el monumento por {0}</BuildMonumentWorker.ProtectMonumentForDays.slateRef>
   <!-- EN: Protect the monument until {0} -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPartTip.slateRef>Protege el monumento hasta {0}</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPartTip.slateRef>
+  <BuildMonumentWorker.ProtectMonumentForDaysTip.slateRef>Protege el monumento hasta {0}</BuildMonumentWorker.ProtectMonumentForDaysTip.slateRef>
   <!-- EN: Protect for {0} -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.inspectString.slateRef>Protégelo durante {0}</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.inspectString.slateRef>
+  <BuildMonumentWorker.ProtectMonument.slateRef>Protégelo durante {0}</BuildMonumentWorker.ProtectMonument.slateRef>
   <!-- EN: New monument marker arrived -->
-  <BuildMonumentWorker.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>Ha llegado el marcador del nuevo monumento.</BuildMonumentWorker.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>
+  <BuildMonumentWorker.LetterLabelMonumentMarkerArrived.slateRef>Ha llegado el marcador del nuevo monumento.</BuildMonumentWorker.LetterLabelMonumentMarkerArrived.slateRef>
   <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
-  <BuildMonumentWorker.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>Como el marcador del monumento fue destruido, uno nuevo ha sido enviado.</BuildMonumentWorker.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
+  <BuildMonumentWorker.LetterTextMonumentMarkerArrived.slateRef>Como el marcador del monumento fue destruido, uno nuevo ha sido enviado.</BuildMonumentWorker.LetterTextMonumentMarkerArrived.slateRef>
   <!-- EN: Protect the monument for {0} -->
-  <BuildMonumentWorker.root.nodes.Delay-0.expiryInfoPart.slateRef>Defiende el monumento durante {0}</BuildMonumentWorker.root.nodes.Delay-0.expiryInfoPart.slateRef>
+  <BuildMonumentWorker.root.nodes.Delay.expiryInfoPart.slateRef>Defiende el monumento durante {0}</BuildMonumentWorker.root.nodes.Delay.expiryInfoPart.slateRef>
   <!-- EN: Protect the monument until {0} -->
-  <BuildMonumentWorker.root.nodes.Delay-0.expiryInfoPartTip.slateRef>Defiende el monumento hasta {0}</BuildMonumentWorker.root.nodes.Delay-0.expiryInfoPartTip.slateRef>
+  <BuildMonumentWorker.root.nodes.Delay.expiryInfoPartTip.slateRef>Defiende el monumento hasta {0}</BuildMonumentWorker.root.nodes.Delay.expiryInfoPartTip.slateRef>
   <!-- EN: Protect for {0} -->
-  <BuildMonumentWorker.root.nodes.Delay-0.inspectString.slateRef>Defiende durante {0}</BuildMonumentWorker.root.nodes.Delay-0.inspectString.slateRef>
+  <BuildMonumentWorker.root.nodes.Delay.inspectString.slateRef>Defiende durante {0}</BuildMonumentWorker.root.nodes.Delay.inspectString.slateRef>
   <!-- EN: Monument time expired -->
-  <BuildMonumentWorker.root.nodes.Delay.node.nodes.Letter.label.slateRef>El plazo para la construcción del monumento ha terminado</BuildMonumentWorker.root.nodes.Delay.node.nodes.Letter.label.slateRef>
+  <BuildMonumentWorker.LetterLabelTimeExpired.slateRef>El plazo para la construcción del monumento ha terminado</BuildMonumentWorker.LetterLabelTimeExpired.slateRef>
   <!-- EN: Your time limit to construct the monument has expired. [failLetterEndingCommon] -->
-  <BuildMonumentWorker.root.nodes.Delay.node.nodes.Letter.text.slateRef>Tu plazo de tiempo para construir el monumento ha terminado. [failLetterEndingCommon]</BuildMonumentWorker.root.nodes.Delay.node.nodes.Letter.text.slateRef>
+  <BuildMonumentWorker.LetterTextTimeExpired.slateRef>Tu plazo de tiempo para construir el monumento ha terminado. [failLetterEndingCommon]</BuildMonumentWorker.LetterTextTimeExpired.slateRef>
   
 </LanguageData>
