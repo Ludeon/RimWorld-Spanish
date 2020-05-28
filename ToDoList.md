@@ -12,6 +12,6 @@
 
 
 
-* En **general**:
+* **En general**:
 
 	* [ ] "Psychic Entropy" ya no es "Entropía psíquica", ha sido cambiado a "Neural Heat".
