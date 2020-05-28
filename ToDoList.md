@@ -1,7 +1,8 @@
 
 * Archivos con *textos* nuevos **pendientes de traducción**:
 
-	* [ ] "Royalty/TipSetDef.xml"			Revisar los nuevos textos.
+	* [ ] "Royalty/TipSetDef.xml"							Revisar los nuevos textos.
+	* [ ] "Royalty/HediffDef/Hediffs_Psycasts.xml"			Hay un par de textos que no he traducido.
 
 
 
