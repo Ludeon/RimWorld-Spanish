@@ -14,10 +14,6 @@
   <RoyalTitleTooltipThroneroomRequirements>Requisitos de sala del trono</RoyalTitleTooltipThroneroomRequirements>
   <!-- EN: Title privileges -->
   <RoyalTitleTooltipPermits>Privilegios del título</RoyalTitleTooltipPermits>
-  <!-- EN: Max allowed psycast level -->
-  <RoyalTitleTooltipMaxPsycastLevel>Nivel máximo permitido de poder psíquico</RoyalTitleTooltipMaxPsycastLevel>
-  <!-- EN: The highest level of psycast that this title allows.\n\n{FACTION_name}'s laws prohibit using psycasts without a suitable title. Each time you perform an illegal psycast, there's a chance the psychic signature will be detected, leading to diplomatic consequences.\n\nPsychic signatures can be concealed with a psychic silencer implant. -->
-  <RoyalTitleTooltipMaxPsycastLevelDescription>El nivel más alto de poder psíquico que el título permite.\n\nLas leyes de {FACTION_name} prohíben usar poderes psíquicos sin el título apropiado. Cada vez que lances un poder psíquico ilegal, hay una posibilidad de que la firma psíquica sea detectada, lo que acarreará consecuencias diplomáticas.\n\nLas firmas psíquicas pueden ocultarse con un silenciador psíquico.</RoyalTitleTooltipMaxPsycastLevelDescription>
   <!-- EN: room area: {0} tiles -->
   <RoomRequirementArea>área de la habitación: {0} casillas</RoomRequirementArea>
   <!-- EN: room impressiveness -->
@@ -30,8 +26,6 @@
   <RoomRequirementAllFineFloored>ha de estar elegantemente pavimentado</RoomRequirementAllFineFloored>
   <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>Los portades de este título deben llevar alguna combinación de</RoyalTitleRequiredApparelStatDescription>
-  <!-- EN: Any powered armor -->
-  <ApparelRequirementAnyPowerArmor>cualquier servoarmadura</ApparelRequirementAnyPowerArmor>
   <!-- EN: Any psycaster apparel -->
   <ApparelRequirementAnyPsycasterApparel>cualquier vestimenta de hechiero psíquico</ApparelRequirementAnyPsycasterApparel>
   <!-- EN: Disabled work types -->
@@ -48,12 +42,8 @@
   <RoyalImplantInstallConfirmation>¿Instalar este implante de todos modos?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
   <RoyalImplantUpgradeConfirmation>¿Subir de nivel este implante de todos modos?</RoyalImplantUpgradeConfirmation>
-  <!-- EN: Each time {PAWN_labelShort} performs a psycast above the allowed level -->
-  <PsychicAmplifierViolationTrigger>Siempre que {PAWN_labelShort} lance un poder psíquico por encima del nivel permitido</PsychicAmplifierViolationTrigger>
 
   <!-- Royal weapons -->
-  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use {WEAPON_indefinite}.\n\nEach time {PAWN_labelShort} attacks with a bladelink weapon, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of {WEAPON_definite} without detection. -->
-  <RoyalWeaponIllegalUseWarning>De acuerdo con las leyes de {FACTION_name}, debes poseer el título de {TITLE} para usar legalmente un/una {WEAPON_indefinite}.\n\nCada vez {PAWN_labelShort} ataque con un arma vinculada, existe la posibilidad de que {FACTION_name} detecte la firma psíquica. Esto tendrá consecuencias diplomáticas.\n\nEl uso de un silenciador psíquico te permitiría utilizar el arma sin ser detectado.</RoyalWeaponIllegalUseWarning>
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
   <BladelinkEquipWarning>Una vez vinculada, la IA del arma se negará a ser llevada por nadie más.</BladelinkEquipWarning>
   <!-- EN: Are you sure you want to equip this item? -->
@@ -62,8 +52,6 @@
   <!-- Psycasts -->
   <!-- EN: Target is psychically deaf. -->
   <AbilityTargetPsychicallyDeaf>El objetivo es psíquicamente sordo.</AbilityTargetPsychicallyDeaf>
-  <!-- EN: Amplifier level -->
-  <PsycastRequiredAmplifierLevel>Nivel del amplificador</PsycastRequiredAmplifierLevel>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
   <PsycastIsIllegal>Esto es ilegal para {PAWN_labelShort}. Requiere el título de {TITLE}.</PsycastIsIllegal>
 
