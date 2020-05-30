@@ -62,8 +62,8 @@
 	<StatsReport_Facilities>Instalaciones</StatsReport_Facilities>
 	<!-- EN: Multiplier for body size {0} -->
 	<StatsReport_BodySize>Multiplicador por tamaño corporal {0}</StatsReport_BodySize>
-	<!-- EN:  -->
-	<StatsReport_HasHediffExplanation>Carefully slaughtered without wounds</StatsReport_HasHediffExplanation>
+	<!-- EN: Carefully slaughtered without wounds -->
+	<StatsReport_HasHediffExplanation>Sacrificado metódicamente y sin heridas</StatsReport_HasHediffExplanation>
 	<!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
 	<StatsReport_MeleeDPSExplanation>DPS = Daño cuerpo a cuerpo * Propabilidad de impacto cuerpo a cuerpo / Enfriamiento en segundos</StatsReport_MeleeDPSExplanation>
 	<!-- EN: Melee damage -->
@@ -115,24 +115,24 @@
 	<!-- EN: Attack -->
 	<StatsReport_NonToolAttack>Ataque</StatsReport_NonToolAttack>
 
-	<!-- EN:  -->
-	<StatReport_PossibleOffsets>Possible offsets</StatReport_PossibleOffsets>
-	<!-- EN:  -->
-	<StatsReport_RoomImpressiveness>Room impressiveness</StatsReport_RoomImpressiveness>
-	<!-- EN:  -->
-	<StatsReport_Lit>Lit</StatsReport_Lit>
-	<!-- EN:  -->
-	<StatsReport_GraveFull>Contains {0}</StatsReport_GraveFull>
-	<!-- EN:  -->
-	<StatsReport_GraveFullAbstract>Contains a human corpse</StatsReport_GraveFullAbstract>
-	<!-- EN:  -->
-	<StatsReport_GraveCorpseRelatedAbstract>Meditator is related to the corpse inside</StatsReport_GraveCorpseRelatedAbstract>
-	<!-- EN:  -->
-	<StatsReport_FromQuality>From quality</StatsReport_FromQuality>
-	<!-- EN:  -->
-	<StatsReport_NearbyArtificialStructures>Nearby artificial structures</StatsReport_NearbyArtificialStructures>
-	<!-- EN:  -->
-	<StatsReport_SatisfiesTitle>Satisfies user's title requirements</StatsReport_SatisfiesTitle>
+	<!-- EN: Possible offsets -->
+	<StatReport_PossibleOffsets>Compensadores posibles</StatReport_PossibleOffsets>
+	<!-- EN: Room impressiveness -->
+	<StatsReport_RoomImpressiveness>Atractivo de la habitación</StatsReport_RoomImpressiveness>
+	<!-- EN: Lit -->
+	<StatsReport_Lit></StatsReport_Lit>
+	<!-- EN: Contains {0} -->
+	<StatsReport_GraveFull>Contiene {0}</StatsReport_GraveFull>
+	<!-- EN: Contains a human corpse -->
+	<StatsReport_GraveFullAbstract>Contiene un cádaver humano</StatsReport_GraveFullAbstract>
+	<!-- EN: Meditator is related to the corpse inside -->
+	<StatsReport_GraveCorpseRelatedAbstract>La persona que medita tenía algún lazo con el muerto</StatsReport_GraveCorpseRelatedAbstract>
+	<!-- EN: From quality -->
+	<StatsReport_FromQuality>De cualidad</StatsReport_FromQuality>
+	<!-- EN: Nearby artificial structures -->
+	<StatsReport_NearbyArtificialStructures>Hay estructuras artificiales cerca</StatsReport_NearbyArtificialStructures>
+	<!-- EN: Satisfies user's title requirements -->
+	<StatsReport_SatisfiesTitle>Satisface los requisitos del título del usuario</StatsReport_SatisfiesTitle>
 
 	<!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
 	<Stat_RecreationType_Desc>Diferentes fuentes de diversión satisfacen diferentes tipos de diversión. Los colonos se aburrirán de hacer lo mismo repetidamente, así que es importante proporcionarles variadas fuentes de diversión con diferentes tipos de diversión.</Stat_RecreationType_Desc>
@@ -288,39 +288,39 @@
 	<Stat_Thing_Biocoded_Desc>Este objeto ha sido codificado para aceptar únicamente la bio-firma de un individuo particular.</Stat_Thing_Biocoded_Desc>
 
 	<!-- Drugs -->
-	<!-- EN:  -->
-	<Stat_Thing_Drug_Chemical_Desc>The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways.</Stat_Thing_Drug_Chemical_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_HighGainPerDose_Desc>The intensity of high gained per dose of this drug.</Stat_Thing_Drug_HighGainPerDose_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_HighFallPerDay_Desc>How much this drug's high will decay each day.</Stat_Thing_Drug_HighFallPerDay_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_HighDurationPerDose_Desc>How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate.</Stat_Thing_Drug_HighDurationPerDose_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_ToleranceGainPerDose_Desc>How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_ToleranceFallPerDay_Desc>How much a user's tolerance to the chemical will fall per day.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_MinToleranceForAddiction_Desc>The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_SafeDoseInterval_Desc>A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.</Stat_Thing_Drug_SafeDoseInterval_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_RandomODChance_Desc>The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit.</Stat_Thing_Drug_RandomODChance_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_Addictiveness_Desc>The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction.</Stat_Thing_Drug_Addictiveness_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_AddictionSeverityInitial_Desc>New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_AddictionRecoveryTime_Desc>How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_AddictionSeverityPerDose_Desc>How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_AddictionNeedOffset_Desc>How much each dose of this drug fills an addict's need for the chemical.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_AddictionNeedFallRate_Desc>How quickly an addict's need for the chemical will fall.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
-	<!-- EN:  -->
-	<Stat_Thing_Drug_AddictionCost_Desc>The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs.</Stat_Thing_Drug_AddictionCost_Desc>
+	<!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
+	<Stat_Thing_Drug_Chemical_Desc>La sustancia química aquí presente.\n\nEn algunos casos, la misma sustancia puede encontrarse en diferentes drogas. Tales drogas satisfarán la misma adicción de diferentes maneras.</Stat_Thing_Drug_Chemical_Desc>
+	<!-- EN: The intensity of high gained per dose of this drug. -->
+	<Stat_Thing_Drug_HighGainPerDose_Desc>La intensidad de ganancia de colocón por esta droga, por dosis.</Stat_Thing_Drug_HighGainPerDose_Desc>
+	<!-- EN: How much this drug's high will decay each day. -->
+	<Stat_Thing_Drug_HighFallPerDay_Desc>Cuánto decaerá el colocón por esta droga cada día.</Stat_Thing_Drug_HighFallPerDay_Desc>
+	<!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
+	<Stat_Thing_Drug_HighDurationPerDose_Desc>Cuánto tiempo durará el colocón por esta droga por cada dosis.\n\nEsto se calcula a partir del colocón ganado por dosis, y la tasa de pérdida de colocón.</Stat_Thing_Drug_HighDurationPerDose_Desc>
+	<!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
+	<Stat_Thing_Drug_ToleranceGainPerDose_Desc>Cuánto incrementará una dosis de esta droga la tolerancia del usuario a la sustancia química.\n\nPuede variar en función a la forma de la sustancia química.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+	<!-- EN: How much a user's tolerance to the chemical will fall per day. -->
+	<Stat_Thing_Drug_ToleranceFallPerDay_Desc>Cuánto decaerá cada día la tolerancia del usuario a la susntancia química.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+	<!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
+	<Stat_Thing_Drug_MinToleranceForAddiction_Desc>La tolerancia mínima requerida para desarrollar adicción a esta droga.\n\nSi el usuario se encuentra por debajo de este nivel de tolerancia, no puede desarrollar adicción tomando una dosis.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+	<!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
+	<Stat_Thing_Drug_SafeDoseInterval_Desc>El usuario nunca desarrollará adicción si toma la droga con esta frecuencia o menos.\n\nEsto se calcula a partir de la tolerancia mínima de la droga, la ganancia de tolerancia por dosis, y la tasa de pérdida de tolerancia.\n\nTen en cuenta que algunas drogas no tienen un intervalo de seguridad, pudiendo acarrear adicción incluso desde la primera dosis.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+	<!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
+	<Stat_Thing_Drug_RandomODChance_Desc>La probabilidad de que dé una sobredosis aleatoria al tomar esta droga. Las sobredosis aleatorias pueden ocurrir con cualquier dosis, tanto si es la primera vez que se prueba como si es el centésimo chute de un consumidor experimentado.</Stat_Thing_Drug_RandomODChance_Desc>
+	<!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
+	<Stat_Thing_Drug_Addictiveness_Desc>La probabilidad de adicción por dosis por esta droga.\n\nSi la droga tiene una tolerancia mínima para acarrear adicción, la tolerancia debe de estar por encima de este nivel para que esto se produzca. Si no hay un mínimo de tolerancia, cualquier dosis puede causar adicción.</Stat_Thing_Drug_Addictiveness_Desc>
+	<!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
+	<Stat_Thing_Drug_AddictionSeverityInitial_Desc>Nuevas adicciones causadas por esta droga empiezan en este nivel de severidad.\n\nTomar más de esta droga incrementará la seversidad de la adicción, mientras que el tiempo la reducirá.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+	<!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
+	<Stat_Thing_Drug_AddictionRecoveryTime_Desc>Cuánto tiempo requiere recuperarse de una adicción inicial a esta droga.\n\nEsto se calcula a partir de la severidad de nueva adicción dividido por la tasa de recuperación de adicción. Una adicción atendida requerirá más tiempo.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+	<!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
+	<Stat_Thing_Drug_AddictionSeverityPerDose_Desc>Cuánta severidad se añade a una adicción existente por cada dosis de esta droga.\n\nLa severidad de adicción nunca superará el 100%.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
+	<!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
+	<Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>Cada cuánto necesita un adicto tomar una dosis de esta droga para calmar la adicción y prevenir el síndrome de abstinencia.\n\nEsto se calcula a partir de la tasa de pérdida de adicción y la cantidad que rellena la barra de necesidad una dosis.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
+	<!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
+	<Stat_Thing_Drug_AddictionNeedOffset_Desc>Cuánto sacia cada dosis de esta droga la necesidad por la sustancia química del adicto.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+	<!-- EN: How quickly an addict's need for the chemical will fall. -->
+	<Stat_Thing_Drug_AddictionNeedFallRate_Desc>Cómo de rápido se vaciará la barra de necesidad por la sustancia química del adicto.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+	<!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
+	<Stat_Thing_Drug_AddictionCost_Desc>La cantidad de droga, en valor de mercado, que debe ser consumida al día para calmar una adicción a esta droga sin sufrir síndrome de abstinencia.\n\nEste valor se calcula a partir de la necesidad del adicto por la sustancia química, la tasa de pérdida de necesidad, y el valor de mercado de esta droga.\n\nTen en cuenta que puede haber otras formas de obtener la misma sustancia a un coste diferente.</Stat_Thing_Drug_AddictionCost_Desc>
 
 </LanguageData>
