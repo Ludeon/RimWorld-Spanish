@@ -17,7 +17,9 @@ Tareas pendientes:
 
 El archivo [ToDoList.md](ToDoList.md) es el archivo en el que se anotarán aquellos archivos que contengan nuevos **textos pendientes de traducción**, **nuevos archivos** necesarios para las traducciones y **que aún no están traducidos**, etc.
 
-Para darle formato al archivo **Backstories.xml** se han usado secuencialmente los siguientes 2 Regex de sustitución en los archivos generados por el juego:
+Arreglar **Backstories.xml**:
+--------------------
+Para darle formato al archivo **Backstories.xml** generado con la herramienta proporcionada por el juego, se han usado secuencialmente los siguientes 2 Regex de sustitución:
 * Primero:
 	* Find:		\n\n
 	* Replace:	\\n\\n
