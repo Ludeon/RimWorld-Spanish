@@ -12,7 +12,7 @@
 	* [x] "Core/Keyed/Menu_Options.xml"							Linea: 46
 	* [x] "Core/Keyed/Messages.xml"								Lineas: 165, 492, 587
 	* [x] "Core/Keyed/Misc.xml"									Linea: 84
-	* [ ] "Core/Keyed/WorkTags.xml"								Linea: 41
+	* [x] "Core/Keyed/WorkTags.xml"								Linea: 41
 
 
 
