@@ -6,7 +6,7 @@
 	* [x] "Core/Keyed/Dialogs_Various.xml"						Lineas: 408 - 447, 508 - 531, 692 - 695 y 985 - 1007
 	* [x] "Core/Keyed/Dialog_StatsReports.xml"					Lineas: 66, 118 - 135, 290 - 324
 	* [x] "Core/Keyed/FloatMenu.xml"							Linea: 179
-	* [ ] "Core/Keyed/Letters.xml"								Linea: 153
+	* [x] "Core/Keyed/Letters.xml"								Linea: 153
 	* [ ] "Core/Keyed/MainTabs.xml"								Lineas: 231 - 234, 249 - 252, 260, 291 - 298
 	* [ ] "Core/Keyed/Menus_Main.xml"							Lineas: 30, 403, 476
 	* [ ] "Core/Keyed/Menu_Options.xml"							Linea: 46
