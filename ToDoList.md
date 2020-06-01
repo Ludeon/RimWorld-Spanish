@@ -9,7 +9,7 @@
 	* [x] "Core/Keyed/Letters.xml"								Linea: 153
 	* [x] "Core/Keyed/MainTabs.xml"								Lineas: 231 - 234, 249 - 252, 260, 291 - 298
 	* [x] "Core/Keyed/Menus_Main.xml"							Lineas: 30, 403, 476
-	* [ ] "Core/Keyed/Menu_Options.xml"							Linea: 46
+	* [x] "Core/Keyed/Menu_Options.xml"							Linea: 46
 	* [ ] "Core/Keyed/Messages.xml"								Lineas: 165, 492, 587
 	* [x] "Core/Keyed/Misc.xml"									Linea: 84
 	* [ ] "Core/Keyed/WorkTags.xml"								Linea: 41
