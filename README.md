@@ -27,7 +27,7 @@ Para darle formato al archivo **Backstories.xml** generado con la herramienta pr
 	* Find:		([0-9])>\n\t<
 	* Replace:	$1>\n\n\t<
 
-Toda esta magia es necesaria para separar que todo esté más junto, y que cada trasfondo y sus etiquetas identificadoras se mantengan intactas.
+Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, ser más eficaces a la hora de traducir dichos trasfondos, y que cada trasfondo y sus etiquetas identificadoras se mantengan intactas.
 
 
 Lista  traductores:
