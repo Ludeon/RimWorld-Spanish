@@ -15,6 +15,8 @@
 
 	* [ ] "Core/DefInjected/DifficultyDef/Difficulties.xml"		Entero; Han cambiado casi todos los textos.
 	* [ ] "Core/Keyed/Misc_Gameplay"							Lineas: 366 - 368, 437, 458 - 475, 489, 961, 1254 - 1262, 1282 - 1290, 1324
+	* [ ] "Royalty/Keyed/Alets.xml"								Lineas: 48 - 56
+	
 
 
 
