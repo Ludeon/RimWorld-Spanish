@@ -13,12 +13,13 @@
 	* [x] "Core/Keyed/Misc.xml"									Linea: 84
 	* [x] "Core/Keyed/WorkTags.xml"								Linea: 41
 
-	* [ ] "Core/DefInjected/DifficultyDef/Difficulties.xml"		Entero; Han cambiado casi todos los textos.
+	* [ ] "Core/DefInjected/DifficultyDef/Difficulties.xml"		Entero. Han cambiado casi todos los textos.
 	* [ ] "Core/Keyed/Misc_Gameplay"							Lineas: 366 - 368, 437, 458 - 475, 489, 961, 1254 - 1262, 1282 - 1290, 1324
 	* [ ] "Royalty/Keyed/Alets.xml"								Lineas: 48 - 56
 	* [ ] "Royalty/Keyed/Dialog_Various.xml"					Lineas: 28 - 30, 34, 46, 66 - 74
 	* [ ] "Royalty/Keyed/GameplayCommands.xml"					Lineas: 31 - 45, 55 - 57
 	* [ ] "Royalty/Keyed/Letters.xml"							Lineas: 139 - 145
+	* [ ] "Royalty/Keyed/Messages.xml"							Linea: 8
 
 
 
