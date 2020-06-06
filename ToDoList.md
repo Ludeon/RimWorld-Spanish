@@ -20,6 +20,8 @@
 	* [ ] "Royalty/Keyed/GameplayCommands.xml"					Lineas: 31 - 45, 55 - 57
 	* [ ] "Royalty/Keyed/Letters.xml"							Lineas: 139 - 145
 	* [ ] "Royalty/Keyed/Messages.xml"							Linea: 8
+	* [ ] "Royalty/Keyed/Misc_Gameplay.xml"						Lineas: 34, 55 - 73, 83, 107 - 119
+
 
 
 

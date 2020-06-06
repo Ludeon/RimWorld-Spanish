@@ -30,6 +30,8 @@
   <PsycastNeurotrainerDescription>Una dosis de nanitos, que enseñan un PsyCast especial. \n\nLa dosis se administra a través del ojo. Una vez que están en el cerebro del usuario, inmediatamente mejoran sus habilidades en el área especificada y se transforman en un tejido nervioso.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
   <AbilityNeurotrainerUsed>{USER_labelShort} Usa el Neuro-entrenador para aprender el PsyCast {1} .</AbilityNeurotrainerUsed>
+  <!-- EN:  -->
+  <PsycastNeurotrainerNoPsylink>Requires psylink</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} ya sabe {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
 
@@ -48,6 +50,28 @@
   <!-- EN: Too close to other beacon -->
   <TooCloseToOtherBeacon>Demasiado cerca de otra baliza</TooCloseToOtherBeacon>
 
+  <!-- Meditation -->
+  <!-- EN:  -->
+  <Psyfocus>Psyfocus</Psyfocus>
+  <!-- EN:  -->
+  <PsyfocusDesc>Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation.</PsyfocusDesc>
+  <!-- EN:  -->
+  <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
+  <!-- EN:  -->
+  <PsyfocusLevelInfoPsycasts>Up to level {0} psycasts.</PsyfocusLevelInfoPsycasts>
+  <!-- EN:  -->
+  <PsyfocusLevelInfoFallRate>Psyfocus falls at {0} per day.</PsyfocusLevelInfoFallRate>
+  <!-- EN:  -->
+  <UserMeditationFocusStrength>Meditation focus strength for {LASTUSER_labelShort}</UserMeditationFocusStrength>
+  <!-- EN:  -->
+  <MeditationFocusImpacted>Focus effect impacted by</MeditationFocusImpacted>
+  <!-- EN:  -->
+  <PsyfocusPerDayOfMeditation>Psyfocus gain rate: {0}/d</PsyfocusPerDayOfMeditation>
+  <!-- EN:  -->
+  <DesiredPsyfocus>Desired psyfocus</DesiredPsyfocus>
+  <!-- EN:  -->
+  <DesiredPsyfocusDesc>Click to set desired psyfocus.</DesiredPsyfocusDesc>
+
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>debe ser reclutado(a).</AbilityDisabledUndrafted>
@@ -55,6 +79,8 @@
   <AbilityOnCooldown>habilidad en período de enfriamiento. Estará disponible en {0}.</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>habilidad ya en lista de espera.</AbilityAlreadyQueued>
+  <!-- EN:  -->
+  <AbilityNoEntropyToDump>no heat to dump.</AbilityNoEntropyToDump>
   <!-- EN: Ability ready: {0} -->
   <AbilityReadyLabel>Habilidad lista: {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
@@ -76,5 +102,20 @@
   <AbilitySpeechPossibleOutcomes>Probabilidad del resultado</AbilitySpeechPossibleOutcomes>
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>estadística {1} de {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
+
+  <!-- EN:  -->
+  <ProgressToNextSubplant>Progress to next {0}: {1}</ProgressToNextSubplant>
+  <!-- EN:  -->
+  <BeginLinkingRitualFloatMenu>Begin linking ritual</BeginLinkingRitualFloatMenu>
+  <!-- EN:  -->
+  <BeginLinkingRitualNeedSubplants>Need {0} {1} here (have {2})</BeginLinkingRitualNeedSubplants>
+  <!-- EN:  -->
+  <BeginLinkingRitualNeedFocus>Need {0} pyslink focus</BeginLinkingRitualNeedFocus>
+  <!-- EN:  -->
+  <BeginLinkingRitualNeedLinkSpot>Need a free, reachable spot within 3 cells for linking</BeginLinkingRitualNeedLinkSpot>
+  <!-- EN:  -->
+  <LetterLabelLinkingRitualCompleted>Linking ritual completed</LetterLabelLinkingRitualCompleted>
+  <!-- EN:  -->
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psycasts.</LetterTextLinkingRitualCompleted>
   
 </LanguageData>
