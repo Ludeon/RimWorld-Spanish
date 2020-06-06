@@ -14,6 +14,9 @@
 	* [x] "Core/Keyed/Misc.xml"									Linea: 84
 	* [x] "Core/Keyed/WorkTags.xml"								Linea: 41
 
+	* [ ] "Core/DefInjected/DifficultyDef/Difficulties.xml"		Entero; Han cambiado casi todos los textos.
+
+
 
 
 
