@@ -24,8 +24,14 @@
   <RoomRequirementAllBraziersMustBeLit>todos los braseros deben estar encendidos</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
   <RoomRequirementAllFineFloored>ha de estar elegantemente pavimentado</RoomRequirementAllFineFloored>
+  <!-- EN:  -->
+  <RoomRequirementNoProductionFacilities>no work facilities allowed</RoomRequirementNoProductionFacilities>
+  <!-- EN:  -->
+  <RoomRequirementNoBeds>no beds allowed</RoomRequirementNoBeds>
   <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>Los poseedores de este título deben llevar alguna combinación de</RoyalTitleRequiredApparelStatDescription>
+  <!-- EN:  -->
+  <ApparelRequirementAnyPrestigeArmor>Any prestige armor</ApparelRequirementAnyPrestigeArmor>
   <!-- EN: Any psycaster apparel -->
   <ApparelRequirementAnyPsycasterApparel>cualquier vestimenta de hechicero psíquico</ApparelRequirementAnyPsycasterApparel>
   <!-- EN: Disabled work types -->
@@ -34,10 +40,10 @@
   <RoyalTitleRequiredMeals>Comidas permitidas</RoyalTitleRequiredMeals>
   <!-- EN: A holder of this title will only eat these foods, unless they are starving or on a caravan. -->
   <RoyalTitleRequiredMealsDesc>Un poseedor de este título sólo comerá estas comidas, a menos que se estén muriendo de hambre o estén en una caravana.</RoyalTitleRequiredMealsDesc>
-  
+
   <!-- Royal implants -->
-  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of the {IMPLANT} without detection. -->
-  <RoyalImplantIllegalUseWarning>De acuerdo con las leyes de la facción {FACTION_name}, debes tener al menos el título de {TITLE} para usar legalmente un {IMPLANT}.\n\n{VIOLATIONTRIGGER}, hay una posabilidad de que {FACTION_name} detecte la firma psíquica. Esto tendría consecuencias diplomáticas.\n\nEl uso de un silenciador psíquico te permitiría el uso de {IMPLANT} sin ser detectado.</RoyalImplantIllegalUseWarning>
+  <!-- EN:  -->
+  <RoyalImplantIllegalUseWarning>According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>¿Instalar este implante de todos modos?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
@@ -54,5 +60,17 @@
   <AbilityTargetPsychicallyDeaf>El objetivo es psíquicamente sordo.</AbilityTargetPsychicallyDeaf>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
   <PsycastIsIllegal>Esto es ilegal para {PAWN_labelShort}. Requiere el título de {TITLE}.</PsycastIsIllegal>
+
+  <!-- Warning -->
+  <!-- EN:  -->
+  <QuestGivesRoyalFavor>This quest will reward {FACTION_royalFavorLabel} and thus royal titles for {PAWN_labelShort}.</QuestGivesRoyalFavor>
+  <!-- EN:  -->
+  <RoyalIncapableOfSocial>{PAWN_labelShort} is incapable of social tasks. Those with royal titles have great need of social skills, so if {PAWN_labelShort} gains a title, {PAWN_pronoun} may have a difficult time. Another colonist might be more socially-adept.</RoyalIncapableOfSocial>
+  <!-- EN:  -->
+  <RoyalWithConceitedTrait>Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible.</RoyalWithConceitedTrait>
+  <!-- EN:  -->
+  <RoyalWithTraitAffectingPsylinkNegatively>Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}.</RoyalWithTraitAffectingPsylinkNegatively>
+  <!-- EN:  -->
+  <PsylinkTooLowForGainAbility>{PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain the psycast anyways?</PsylinkTooLowForGainAbility>
 
 </LanguageData>
