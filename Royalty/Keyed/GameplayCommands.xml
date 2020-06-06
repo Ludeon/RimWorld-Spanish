@@ -27,15 +27,33 @@
   <CommandCallRoyalAidFavorOption>Quedan {0} días, cuesta {1} {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
 
   <!-- Abilities -->
-  <!-- EN: Psychic entropy would overflow. -->
-  <CommandPsycastWouldExceedEntropy>La entropía psíquica excedería el máximo.</CommandPsycastWouldExceedEntropy>
-  <!-- EN: Ability user is unconscious. -->
-  <CommandPsycastPawnIsUnconscious>El usuario de la habilidad está inconsciente.</CommandPsycastPawnIsUnconscious>
+  <!-- EN:  -->
+  <CommandPsycastWouldExceedEntropy>Neural heat would overflow. Disable the neural heat limiter to cast.</CommandPsycastWouldExceedEntropy>
+  <!-- EN:  -->
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}.</CommandPsycastNotEnoughPsyfocus>
+  <!-- EN:  -->
+  <CommandPsycastHigherLevelPsylinkRequired>level {0} psylink is required.</CommandPsycastHigherLevelPsylinkRequired>
+  <!-- EN:  -->
+  <CommandPsycastZeroPsychicSensitivity>Zero psychic sensitivity.</CommandPsycastZeroPsychicSensitivity>
+  <!-- EN:  -->
+  <CommandPsycastPawnIsUnconscious>Ability user is unconscious.</CommandPsycastPawnIsUnconscious>
+  <!-- EN:  -->
+  <CommandPsycastLowPsyfocus>Need at least {0} psyfocus to cast this.</CommandPsycastLowPsyfocus>
+  <!-- EN:  -->
+  <NeuralHeatLetter>H</NeuralHeatLetter>
+  <!-- EN:  -->
+  <PsyfocusLetter>P</PsyfocusLetter>
 
   <!-- Select monument marker -->
   <!-- EN: Select monument -->
   <CommandSelectMonumentMarker>Seleccionar monumento</CommandSelectMonumentMarker>
   <!-- EN: Select the monument marker this belongs to. -->
   <CommandSelectMonumentMarkerDesc>Selecciona el marcador de monumento al que pertenece esto.</CommandSelectMonumentMarkerDesc>
+
+  <!-- Warn in building radius -->
+  <!-- EN:  -->
+  <CommandWarnInBuildingRadius>Build radius warning</CommandWarnInBuildingRadius>
+  <!-- EN:  -->
+  <CommandWarnInBuildingRadiusDesc>If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation.</CommandWarnInBuildingRadiusDesc>
   
 </LanguageData>
