@@ -39,6 +39,7 @@
   <MarketValue.label>valor de mercado</MarketValue.label>
   <!-- EN: The market value of an object. The actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
   <MarketValue.description>El valor de mercado de un objeto. El precio real de mercado será modificado por la habilidad de negociación, el estado de las relaciones, y otros factores contextuales.</MarketValue.description>
+  <MarketValue.formatString>{0}</MarketValue.formatString> <!-- representa "plata" (silver), no moneda real, borro el $ para evitar el bug -->
   
   <!-- EN: mass -->
   <Mass.label>peso</Mass.label>
