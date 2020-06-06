@@ -19,13 +19,15 @@
 	* [ ] "Royalty/Keyed/Dialog_Various.xml"					Lineas: 28 - 30, 34, 46, 66 - 74
 	* [ ] "Royalty/Keyed/GameplayCommands.xml"					Lineas: 31 - 45, 55 - 57
 	* [ ] "Royalty/Keyed/Letters.xml"							Lineas: 139 - 145
-	
+
 
 
 
 
 
 * Archivos **nuevos**:
+	
+	* [ ] "Royalty/Keyed/MainTabs.xml"
 
 
 
