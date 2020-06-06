@@ -1,4 +1,3 @@
-
 * Archivos con *textos* nuevos **pendientes de traducción**:
 
 	* [x] "Royalty/TipSetDef.xml"								Revisar los nuevos textos.
@@ -15,6 +14,7 @@
 	* [x] "Core/Keyed/WorkTags.xml"								Linea: 41
 
 	* [ ] "Core/DefInjected/DifficultyDef/Difficulties.xml"		Entero; Han cambiado casi todos los textos.
+	* [ ] "Core/Keyed/Misc_Gameplay"							Lineas: 366 - 368, 437, 458 - 475, 489, 961, 1254 - 1262, 1282 - 1290, 1324
 
 
 

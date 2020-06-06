@@ -361,7 +361,11 @@
   <!-- EN: {0} wildness -->
   <CreatureWildness>ferocidad de {0}</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>adiestramiento de {0}</CreatureTrainability>
+  <CreatureTrainability>adiestramiento en {0}</CreatureTrainability>
+  <!-- EN:  -->
+  <CreatureFollowDrafted>Follow master while drafted</CreatureFollowDrafted>
+  <!-- EN:  -->
+  <CreatureFollowFieldwork>Follow master while doing field work</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} con {1}</ProximitySingleGoodwillChange>
   <!-- EN: You can't re-enter for another {0} days. -->
@@ -429,6 +433,8 @@
   <SpawningNextPawnIn>Generando en {0}</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1} -->
   <MechAssemblyCompleteIn>Ensamblado de {0} termina en {1}</MechAssemblyCompleteIn>
+  <!-- EN:  -->
+  <MechAssemblyNextType>Will assemble</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>producido</ThingsProduced>
   <!-- EN: harvested -->
@@ -449,16 +455,26 @@
   <InitiatesIn>Comienza en</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>Se activa en {0}</SendSignalOnCountdownCompTime>
-  <!-- EN: Psychic entropy -->
-  <PsychicEntropy>Entropía psíquica</PsychicEntropy>
-  <!-- EN: {0} pain focus -->
-  <PsychicEntropyPainFocus>{0} focos de dolor</PsychicEntropyPainFocus>
+  <!-- EN:  -->
+  <PsychicEntropy>Neural heat</PsychicEntropy>
+  <!-- EN:  -->
+  <PsychicEntropyShort>Heat</PsychicEntropyShort>
+  <!-- EN:  -->
+  <!-- se refiere a un "boost" que le proporciona el dolor a un colono a la hora de disipar "calor neuronal" -->
+  <PsychicEntropyPainFocus>{0} pain boost</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>radio de {0}</ConditionCauserRadius>
+  <LowPsyfocus>low psyfocus</LowPsyfocus>
   <!-- EN: {0} left -->
   <DurationLeft>{0} restantes</DurationLeft>
   <!-- EN: Any of -->
   <AnyOf>Cualquier</AnyOf>
+  <!-- EN:  -->
+  <Goodwill>Goodwill</Goodwill>
+  <!-- EN:  -->
+  <JobReport_ReduceResistance>reducing resistance of {0_nameIndef}</JobReport_ReduceResistance>
+
+
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -467,6 +483,10 @@
   <ScanAverageInterval>Intervalo de descubrimiento aleatorio</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>Progreso hacia descubrimiento garantizado</ScanningProgressToGuaranteedFind>
+
+  <!-- Meditation -->
+  <!-- EN:  -->
+  <MeditatingAt>meditating at</MeditatingAt>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -937,6 +957,8 @@
   <SourceUnknown>Causa desconocida.</SourceUnknown>
   <!-- EN: Click to jump to the source. -->
   <ClickToJumpToSource>Haz clic para ir a la fuente.</ClickToJumpToSource>
+  <!-- EN:  -->
+  <ClickToJumpToFlashstorm>Click to jump to the flashstorm.</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
   <CausedByQuest>Causado por misión: {0}</CausedByQuest>
 
@@ -1077,17 +1099,10 @@
   <GameOverInMemoryOf>En recuerdo de:\n</GameOverInMemoryOf>
 
 
-
   <!-- EN: Keep playing -->
   <GameOverKeepPlaying>Seguir jugando</GameOverKeepPlaying>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Menú principal</GameOverMainMenu>
-
-
-
-
-
-
 
 
   <!-- Generic lifespan -->
@@ -1235,10 +1250,16 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>El dolor concentra la mente, y permite recuperarse más rápido de la entropía psíquica.\n\nNivel de dolor: {0}\nBonus a recuperación de entropía psíquica: {1}</PawnTooltipPsychicEntropyPainFocus>
-  <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
-  <PawnTooltipPsychicEntropyLimit>Actica/desactiva el limitador de entropía psíquica.\n\nIr más allá de tu límite de entropía psíquica puede causar serios problemas de salud, incluyendo colapsos psíquico de larga duración, e incluso daño cerebral agudo. Cuanto más se sobrepase el límite de entropía, más peligrosos serán los efectos.</PawnTooltipPsychicEntropyLimit>
+  <!-- EN:  -->
+  <PawnTooltipPsychicEntropyStats>Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero)</PawnTooltipPsychicEntropyStats>
+  <!-- EN:  -->
+  <PawnTooltipPsychicEntropyDesc>Neural heat increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain.</PawnTooltipPsychicEntropyDesc>
+  <!-- EN:  -->
+  <PawnTooltipPsychicEntropyPainFocus>Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN:  -->
+  <PawnTooltipPsychicEntropyLimit>Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage.</PawnTooltipPsychicEntropyLimit>
+  <!-- EN:  -->
+  <PawnTooltipPsyfocus>Psyfocus: {0}</PawnTooltipPsyfocus>
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
@@ -1257,6 +1278,16 @@
   <Reward_Items_Caravan>recivirás (valor total {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>las relaciones de tu facción con {0_name} mejorarán en {1}</Reward_Goodwill>
+  <!-- EN:  -->
+  <Reward_PassageOffworld>you will be taken to the stars</Reward_PassageOffworld>
+  <!-- EN:  -->
+  <Reward_PassageOffworld_Label>Passage offworld</Reward_PassageOffworld_Label>
+  <!-- EN:  -->
+  <Reward_CampLoot>you can loot everything from the camp</Reward_CampLoot>
+  <!-- EN:  -->
+  <Reward_CampLoot_Label>Camp loot</Reward_CampLoot_Label>
+  <!-- EN:  -->
+  <TotalValue>value {0}</TotalValue>
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
@@ -1287,5 +1318,9 @@
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
   <AffectedGender>Sexo afectado</AffectedGender>
+
+  <!-- Hediff misc -->
+  <!-- EN:  -->
+  <CausedByHediff>Caused by: {0}</CausedByHediff>
 
 </LanguageData>
