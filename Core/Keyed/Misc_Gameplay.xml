@@ -361,11 +361,11 @@
   <!-- EN: {0} wildness -->
   <CreatureWildness>ferocidad de {0}</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>adiestramiento en {0}</CreatureTrainability>
-  <!-- EN:  -->
-  <CreatureFollowDrafted>Follow master while drafted</CreatureFollowDrafted>
-  <!-- EN:  -->
-  <CreatureFollowFieldwork>Follow master while doing field work</CreatureFollowFieldwork>
+  <CreatureTrainability>adiestramiento de {0}</CreatureTrainability>
+  <!-- EN: Follow master while drafted -->
+  <CreatureFollowDrafted>Seguir al maestro al ser reclutado</CreatureFollowDrafted>
+  <!-- EN: Follow master while doing field work -->
+  <CreatureFollowFieldwork>Seguir al maestro al hacer trabajo de campo</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} con {1}</ProximitySingleGoodwillChange>
   <!-- EN: You can't re-enter for another {0} days. -->
@@ -432,9 +432,9 @@
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>Generando en {0}</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1} -->
-  <MechAssemblyCompleteIn>Ensamblado de {0} termina en {1}</MechAssemblyCompleteIn>
-  <!-- EN:  -->
-  <MechAssemblyNextType>Will assemble</MechAssemblyNextType>
+  <MechAssemblyCompleteIn>Producción de {0} termina en {1}</MechAssemblyCompleteIn>
+  <!-- EN: Will assemble -->
+  <MechAssemblyNextType>Produciendo</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>producido</ThingsProduced>
   <!-- EN: harvested -->
@@ -455,24 +455,25 @@
   <InitiatesIn>Comienza en</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>Se activa en {0}</SendSignalOnCountdownCompTime>
-  <!-- EN:  -->
-  <PsychicEntropy>Neural heat</PsychicEntropy>
-  <!-- EN:  -->
-  <PsychicEntropyShort>Heat</PsychicEntropyShort>
-  <!-- EN:  -->
+  <!-- EN: Neural heat -->
+  <PsychicEntropy>Calentamiento neural</PsychicEntropy>
+  <!-- EN: Heat -->
+  <PsychicEntropyShort>Calentamiento</PsychicEntropyShort>
+  <!-- EN: {0} pain boost -->
   <!-- se refiere a un "boost" que le proporciona el dolor a un colono a la hora de disipar "calor neuronal" -->
-  <PsychicEntropyPainFocus>{0} pain boost</PsychicEntropyPainFocus>
+  <PsychicEntropyPainFocus>mejora por dolor de {0}</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>radio de {0}</ConditionCauserRadius>
-  <LowPsyfocus>low psyfocus</LowPsyfocus>
+  <!-- EN: low psyfocus -->
+  <LowPsyfocus>bajo psi-foco</LowPsyfocus>
   <!-- EN: {0} left -->
   <DurationLeft>{0} restantes</DurationLeft>
   <!-- EN: Any of -->
   <AnyOf>Cualquier</AnyOf>
-  <!-- EN:  -->
-  <Goodwill>Goodwill</Goodwill>
-  <!-- EN:  -->
-  <JobReport_ReduceResistance>reducing resistance of {0_nameIndef}</JobReport_ReduceResistance>
+  <!-- EN: Goodwill -->
+  <Goodwill>Reputación</Goodwill>
+  <!-- EN: reducing resistance of {0_nameIndef} -->
+  <JobReport_ReduceResistance>reduciendo resistencia de {0_nameIndef}</JobReport_ReduceResistance>
 
 
 
@@ -485,8 +486,8 @@
   <ScanningProgressToGuaranteedFind>Progreso hacia descubrimiento garantizado</ScanningProgressToGuaranteedFind>
 
   <!-- Meditation -->
-  <!-- EN:  -->
-  <MeditatingAt>meditating at</MeditatingAt>
+  <!-- EN: meditating at -->
+  <MeditatingAt>meditando en</MeditatingAt>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -957,8 +958,8 @@
   <SourceUnknown>Causa desconocida.</SourceUnknown>
   <!-- EN: Click to jump to the source. -->
   <ClickToJumpToSource>Haz clic para ir a la fuente.</ClickToJumpToSource>
-  <!-- EN:  -->
-  <ClickToJumpToFlashstorm>Click to jump to the flashstorm.</ClickToJumpToFlashstorm>
+  <!-- EN: Click to jump to the flashstorm. -->
+  <ClickToJumpToFlashstorm>Haz clic para ir a la tormenta eléctrica</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
   <CausedByQuest>Causado por misión: {0}</CausedByQuest>
 
@@ -1250,16 +1251,16 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN:  -->
-  <PawnTooltipPsychicEntropyStats>Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero)</PawnTooltipPsychicEntropyStats>
-  <!-- EN:  -->
-  <PawnTooltipPsychicEntropyDesc>Neural heat increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain.</PawnTooltipPsychicEntropyDesc>
-  <!-- EN:  -->
-  <PawnTooltipPsychicEntropyPainFocus>Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1}</PawnTooltipPsychicEntropyPainFocus>
-  <!-- EN:  -->
-  <PawnTooltipPsychicEntropyLimit>Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage.</PawnTooltipPsychicEntropyLimit>
-  <!-- EN:  -->
-  <PawnTooltipPsyfocus>Psyfocus: {0}</PawnTooltipPsyfocus>
+  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>Calentamiento neural: {0} / {1}\nTasa de caída: {2} / s ({3}s hasta cero)</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Neural heat increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <PawnTooltipPsychicEntropyDesc>El calentamiento neural se incrementa al lanzar un poder psíquico. Sobrepasar el límite normal puede causar un colapso psíquico que dure días.\n\nEl calentamiento neural se disipa con el tiempo de forma natural. Este proceso puede acelerarse al sentir dolor o utilizando vestimentas eltex.</PawnTooltipPsychicEntropyDesc>
+  <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
+  <PawnTooltipPsychicEntropyPainFocus>Mejora por dolor\n\nEl dolor concentra la mente y acelera la disipación del calentamiento neural.\n\nNivel de dolor: {0}\nBonif a la pérdida de calentamiento neural: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
+  <PawnTooltipPsychicEntropyLimit>Muestra el limitador de calentamiento neural. Exceder tu límite puede causar un colapso psíquico que dure días. No provocará daños permanentes.</PawnTooltipPsychicEntropyLimit>
+  <!-- EN: Psyfocus: {0} -->
+  <PawnTooltipPsyfocus>Psi-foco: {0}</PawnTooltipPsyfocus>
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
@@ -1278,16 +1279,16 @@
   <Reward_Items_Caravan>recivirás (valor total {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>las relaciones de tu facción con {0_name} mejorarán en {1}</Reward_Goodwill>
-  <!-- EN:  -->
-  <Reward_PassageOffworld>you will be taken to the stars</Reward_PassageOffworld>
-  <!-- EN:  -->
-  <Reward_PassageOffworld_Label>Passage offworld</Reward_PassageOffworld_Label>
-  <!-- EN:  -->
-  <Reward_CampLoot>you can loot everything from the camp</Reward_CampLoot>
-  <!-- EN:  -->
-  <Reward_CampLoot_Label>Camp loot</Reward_CampLoot_Label>
-  <!-- EN:  -->
-  <TotalValue>value {0}</TotalValue>
+  <!-- EN: you will be taken to the stars -->
+  <Reward_PassageOffworld>serás llevado hasta las estrellas</Reward_PassageOffworld>
+  <!-- EN: Passage offworld -->
+  <Reward_PassageOffworld_Label>Pasaje exoplanetario</Reward_PassageOffworld_Label>
+  <!-- EN: you can loot everything from the camp -->
+  <Reward_CampLoot>puedes saquear todo el campamento</Reward_CampLoot>
+  <!-- EN: Camp loot -->
+  <Reward_CampLoot_Label>Botín del campamento</Reward_CampLoot_Label>
+  <!-- EN: value {0} -->
+  <TotalValue>valor de {0}</TotalValue>
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
@@ -1320,7 +1321,7 @@
   <AffectedGender>Sexo afectado</AffectedGender>
 
   <!-- Hediff misc -->
-  <!-- EN:  -->
-  <CausedByHediff>Caused by: {0}</CausedByHediff>
+  <!-- EN: Caused by: {0} -->
+  <CausedByHediff>Causado por: {0}</CausedByHediff>
 
 </LanguageData>
