@@ -30,7 +30,7 @@
 
 * Archivos **nuevos**:
 	
-	* [ ] "Royalty/Keyed/MainTabs.xml"
+	* [x] "Royalty/Keyed/MainTabs.xml"
 
 
 
