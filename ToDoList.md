@@ -19,8 +19,8 @@
 	* [x] "Royalty/Keyed/Dialog_Various.xml"					Lineas: 28 - 30, 34, 46, 66 - 74
 	* [x] "Royalty/Keyed/GameplayCommands.xml"					Lineas: 31 - 45, 55 - 57
 	* [x] "Royalty/Keyed/Letters.xml"							Lineas: 139 - 145
-	* [ ] "Royalty/Keyed/Messages.xml"							Linea: 8
-	* [ ] "Royalty/Keyed/Misc_Gameplay.xml"						Lineas: 34, 55 - 73, 83, 107 - 119
+	* [x] "Royalty/Keyed/Messages.xml"							Linea: 10
+	* [x] "Royalty/Keyed/Misc_Gameplay.xml"						Lineas: 34, 55 - 73, 83, 107 - 119
 	* [ ] "Core\DefInjected\TaleDef\Tales_Incident.xml"				Revisión de muchas líneas
 
 
