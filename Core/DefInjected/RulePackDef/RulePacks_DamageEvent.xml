@@ -104,19 +104,19 @@
     <li>light(p=0.2)->incandescence</li>
   -->
   <DamageEvent_PowerBeam.rulePack.rulesStrings>
-    <li>damage_source->[sky] sobre</li>
+    <li>damage_source->El/la/los [sky] se abrió/abrieron sobre</li>
     <li>damage_source->Un rayo de increíble [power] [damaged_past]</li>
     <li>damage_source->Una columna de [light] [damaged_past]</li>
-    <li>sky->El cielo se abrió</li>
-    <li>sky->Las nubes se abrieron</li>
-    <li>sky->Los cielos se abrieron</li>
+    <li>sky->cielo</li>
+    <li>sky->nubes</li>
+    <li>sky->cielos</li>
     <li>power->poder</li>
     <li>power->energía</li>
     <li>power->calor</li>
     <li>light->luz</li>
     <li>light->calor</li>
     <li>light->flamas</li>
-    <li>light(p=0.2)->incandecente</li>
+    <li>light(p=0.2)->incandescencia</li>
   </DamageEvent_PowerBeam.rulePack.rulesStrings>
   
   <!-- EN:
@@ -131,11 +131,11 @@
     <li>enveloped->surrounded</li>
   -->
   <DamageEvent_Tornado.rulePack.rulesStrings>
-    <li>damage_source->Un tornado [spiraling] [enveloped]</li>
+    <li>damage_source->Un [spiraling] tornado [enveloped]</li>
     <li>destroyed_present(p=3)->arrancando</li>
-    <li>spiraling->espiralado</li>
-    <li>spiraling->arremolinado</li>
-    <li>spiraling->giratorio</li>
+    <li>spiraling->envolvente</li>
+    <li>spiraling->zumbante</li>
+    <li>spiraling->violento</li>
     <li>spiraling(p=10)-></li>
     <li>enveloped(p=8)->envolvió</li>
     <li>enveloped->engulló</li>
@@ -176,7 +176,7 @@
     <li>destroyed_present->destruyendo</li>
     <li>destroyed_present->triturando</li>
     <li>destroyed_present->destripando</li>
-    <li>destroyed_present->explotando</li>
+    <li>destroyed_present->haciendo explotar</li>
   </DamageEvent_TrapSpike.rulePack.rulesStrings>
   
 </LanguageData>
