@@ -22,7 +22,7 @@
 	* [x] "Royalty/Keyed/Messages.xml"							Linea: 10
 	* [x] "Royalty/Keyed/Misc_Gameplay.xml"						Lineas: 34, 55 - 73, 83, 107 - 119
 	* [ ] "Core\DefInjected\TaleDef\Tales_Incident.xml"				Revisión de muchas líneas
-
+	* [ ] "Core\DefInjected\RulePackDef\RulePacks_Maneuvers.xml			A partir de la línea 58
 
 
 
