@@ -7,7 +7,7 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to watch how you primitive surface-dwellers deal with catastrophe. [asker_pronoun] proposes an artifical disaster for you: [gameConditionDescriptionFuture]. [asker_nameDef] will watch via high-altitude drone.\n\nAs compensation, [asker_pronoun] will send items to [map_definite] in reward (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
   -->
   <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Un ingeniero mecánico a bordo de una nave en órbita quiere realizar algunos experimentos planetarios. Sin embargo, le preocupa la perspectiva ética del trabajo ya que su experimento causará indeseables efectos secundarios.\n\nSi continúa con su experimento, [gameConditionDescriptionFuture].\n\nA cambio de tu consentimiento, te enviará algunos artículos a [map_definite] en una cápsula de transporte (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(askerIsNull==true)->Una IA a bordo de una nave en órbita quiere realizar algunos experimentos planetarios. Sin embargo, le preocupa la perspectiva ética del trabajo ya que su experimento causará indeseables efectos secundarios.\n\nSi continúa con su experimento, [gameConditionDescriptionFuture].\n\nA cambio de tu consentimiento, te enviará algunos artículos a [map_definite] en una cápsula de transporte (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
     <li>questDescription(asker_factionLeader==True)->[asker_faction_name] está bajo la amenaza de un maligno ingeniero mecánico. Su líder, [asker_nameFull], quiere que le envíes un mensaje a dicho individuo exigiendo que tome responsabilidad por los perjuicios ocasionados. Si lo haces, el ingeniero realizará sus experimentos cerca de tu colonia, y [gameConditionDescriptionFuture].\n\nComo agradecimiento, [asker_nameDef] te enviará a [map_definite] algunos artículos en una cápsula de transporte (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], un/una [asker_royalTitleInCurrentFaction] de [asker_faction_name], quiere contemplar como vosotros, primitivos moradores de la superficie, lidiáis con una situación-límite. Te propone provocar en tu colonia un desastre artificial: [gameConditionDescriptionFuture]. [asker_nameDef] contemplará el desarrollo de los acontecimientos mediante un dron de altitud.\n\nTe enviará como compensación artículos a [map_definite] (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
   </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
@@ -51,14 +51,14 @@
     <li>insects->hives</li>
   -->
   <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
-    <li>questName->Cápsulas e [insects]</li>
+    <li>questName->Cápsulas y/e [insects]</li>
     <li>questName->Los [insects] de [asker_nameDef]</li>
     <li>questName->Los [itemPodsTotalMarketValue_money] [insects]</li>
     <li>questName(asker_royalInCurrentFaction==True)->Espectáculo de [insects]</li>
     <li>questName(p=0.3)->Enjambre de cápsulas</li>
     <li>insects->insectos</li>
     <li>insects->bichos</li>
-    <li>insects->colmenas</li>
+    <li>insects->enjambres</li>
   </ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
