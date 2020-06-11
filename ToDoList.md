@@ -29,7 +29,7 @@
 	* [ ] "Royalty/DefInjected/IncidentDef/Incidents_Map_Special.xml"				Linea: 5 - 9
 	* [ ] "Royalty/DefInjected/JobDef/Jobs_Misc.xml"								hay uno nuevo y el viejo lo han cambiado.
 	* [ ] "Royalty/DefInjected/QuestScriptDef/Script_Hospitality_Worker.xml"		Lineas: 39 - 41, 47 - 53
-	* [ ] "Core/Definjected/StatCategoryDef/StatCategories.xml"						Lineas: 35 - 38, 47
+	* [x] "Core/Definjected/StatCategoryDef/StatCategories.xml"						Lineas: 35 - 38, 47
 
 
 
