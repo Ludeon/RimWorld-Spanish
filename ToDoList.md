@@ -21,8 +21,10 @@
 	* [x] "Royalty/Keyed/Letters.xml"									Lineas: 139 - 145
 	* [x] "Royalty/Keyed/Messages.xml"									Linea: 10
 	* [x] "Royalty/Keyed/Misc_Gameplay.xml"								Lineas: 34, 55 - 73, 83, 107 - 119
-	* [x] "Core\DefInjected\TaleDef\Tales_Incident.xml"					Revisión de muchas líneas
-	* [ ] "Core\DefInjected\RulePackDef\RulePacks_Maneuvers.xml			A partir de la línea 58
+	* [x] "Core/DefInjected/TaleDef/Tales_Incident.xml"					Revisión de muchas líneas
+	* [ ] "Core/DefInjected/RulePackDef/RulePacks_Maneuvers.xml			A partir de la línea 58
+	* [x] "Core/Definjected/HediffDef/Hediffs_Local_Injuries.xml"		Lineas: 138 - 144
+	* [ ] "Core/Definjected/HediffDef/Hediffs_Local_Misc.xml"			Lineas: 39 - 41
 
 
 
@@ -31,6 +33,8 @@
 * Archivos **nuevos**:
 	
 	* [x] "Royalty/Keyed/MainTabs.xml"
+	* [ ] "Royalty/ConceptDef/Concept_Notedopportunistic.xml"
+	* [ ] "Royalty/Definjected/HediffDef/Hediffs_Local_Misc.xml"
 
 
 
