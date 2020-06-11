@@ -45,13 +45,12 @@
 
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Necesitas una baliza de comercio orbital para comerciar con una nave.</MessageNeedBeaconToTradeWithShip>
-  <!-- EN: Caller must have the title of {0} or higher. -->
+  <!-- EN: Caller must have the title of {0_label} or higher. -->
   <MessageNeedRoyalTitleToCallWithShip>La persona que contacte debe poseer el título de {0} o mayor.</MessageNeedRoyalTitleToCallWithShip>
-
 
   <!-- EN: {0} has been destroyed. -->
   <MessageConditionCauserDespawned>{0} ha sido destruido(a).</MessageConditionCauserDespawned>
-
+  
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Proyecto completado: {0}.</MessageBillComplete>
 
@@ -64,7 +63,7 @@
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} no ha encontrado munición sin reservar para el/la {GUN_label}.</MessageOutOfNearbyShellsFor>
 
-  <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
+  <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>Advertencia: {ANIMAL_kindBasePlural} tiene una probabilidad de {1} de atacar al ser herido al alcance máximo del rifle. La probabilidad es mayor si se está más cerca, y menor con un cazador sigiloso.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Advertencia: {ANIMAL_kindBasePlural} podría atacar si el intento de domesticación falla (probabilidad de {1}).</MessageAnimalManhuntsOnTameFailed>
@@ -75,7 +74,7 @@
   <MessageRecruitSuccess>{RECRUITER_nameFull} ha reclutado con éxito a {RECRUITEE_nameFull} (probabilidad de {2}).</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
   <MessageTameSuccess>{RECRUITER_labelShort} ha domesticado con éxito un(a) {1} (probabilidad de {2}).</MessageTameSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance) and named {RECRUITEE_objective} {RECRUITEE_nameFull}. -->
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{RECRUITER_labelShort} ha domesticado con éxito un(a) {1} (probabilidad de {2}) y {RECRUITEE_objective} ha llamado {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
@@ -146,7 +145,7 @@
   <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} ha cometido un error menor mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
   <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
   <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} ha cometido un error catastrófico mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort}. ({RECIPE_label}) -->
+  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
   <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se ha equivocado de forma ridícula mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2} -->
   <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} ha cometido un error fatal mientras estaba operando a {PATIENT_labelShort} debido a los desafíos especiales de: {2}</MessageMedicalOperationFailureFatal>
@@ -160,14 +159,14 @@
   <MessageMiscarriedPoorHealth>{0} ha sufrido un aborto por su mala salud.</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} ha dado a luz.</MessageGaveBirth>
-
+  
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
   <MessagePsylinkNoSensitivity>{PAWN_labelShort} no podrá usar su poder psíquico mientras su sensibilidad psíquica sea cero.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>{PAWN_labelShort} ha perdido un implante de nivel {1} a causa de {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
   <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} ha sufrido {1} puntos de daño cerebral a causa de {2}.</MessageReceivedBrainDamageFromHediff>
-  <!-- EN: {PAWN_labelShort} has exceeded the safe limit of psychic entropy. -->
+  <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} ha sobrepasado el límite de seguridad de entropía psíquica.</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
@@ -211,9 +210,9 @@
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
   <MessageNewBondRelationNewName>{HUMAN_labelShort} y {1} han creado un vínculo. {HUMAN_labelShort} ha nombrado a {ANIMAL_objective} {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
   
-  <!-- EN: {ANIMAL} has a mental break because of {HUMAN_labelShort}'s death. -->
+  <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>{ANIMAL} ha sufrido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
-  <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has a mental break because of {HUMAN_labelShort}'s death. -->
+  <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageNamedBondedAnimalMentalBreak>El/la {ANIMAL_kindIndef} llamado(a) {ANIMAL_label} ha sufrido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageNamedBondedAnimalMentalBreak>
   <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalsMentalBreak>{0} animales han sufrido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
@@ -223,12 +222,11 @@
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
   <MessageShipChunkDrop>Unos pedazos de nave espacial han caído cerca de aquí. Puedes desmontarlos para reciclar sus recursos.</MessageShipChunkDrop>
-  
 
   <!-- EN: Some items cannot be traded because of:  -->
   <MessageCannotSellItemsReason>Algunos objetos no pueden intercambiarse porque: </MessageCannotSellItemsReason>
 
-  <!-- EN: {WORKER_labelShort} failed while constructing {0}. Some resources have been wasted. -->
+  <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
   <MessageConstructionFailed>{WORKER_labelShort} ha fallado al construir el/la {0}. Se han desperdiciado algunos recursos.</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
@@ -258,7 +256,7 @@
   <!-- EN: Your colonists will now continue forming a caravan. -->
   <MessageCaravanFormationUnpaused>Tus colonos continuarán ahora formando la caravana.</MessageCaravanFormationUnpaused>
   
-  <!-- EN: One of the caravan members has a mental break. -->
+  <!-- EN: One of the caravan members has had a mental break. -->
   <MessageCaravanMemberHasExtremeMentalBreak>Uno de los miembros de la caravana ha tenido un colapso mental.</MessageCaravanMemberHasExtremeMentalBreak>
   
   <!-- EN: Warning: It can take a very long time to generate an entire planet. -->
@@ -296,7 +294,7 @@
   
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>El/la {2} de {PAWN_labelShort} ha sanado. Causa: {0}</MessagePermanentWoundHealed>
-
+  
   <!-- EN: [PAWN_nameDef] has recovered and decided to leave. -->
   <MessageRescueeDidntJoin>[PAWN_nameDef] se ha recuperado y ha decidido marcharse.</MessageRescueeDidntJoin>
   
@@ -312,7 +310,7 @@
   <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
   <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>El proceso de carga se ha cancelado porque uno de los lanza-cápsulas ha sido destruido.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
-  <!-- EN: Your colonists will now load the assigned items into the transport pods. -->
+  <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>Ahora tus colonos cargarán los objetos seleccionados en las cápsulas de transporte.</MessageTransportersLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
   <MessageTransporterSingleLoadingProcessStarted>Las personas y objetos seleccionados serán cargados en la lanzadera.</MessageTransporterSingleLoadingProcessStarted>
@@ -324,7 +322,7 @@
   <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
   <MessageTransportPodsArrivedAndAddedToCaravan>Tus cápsulas de transporte han llegado. El contenido se ha añadido a {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
   
-  <!-- EN: Your colonists have finished loading the transport pods. -->
+  <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>Tus colonos han terminado de cargar las cápsulas de transporte.</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
   <MessageFinishedLoadingTransporterSingle>La lanzadera se ha cargado con la mercancía requerida y está lista para despegar.</MessageFinishedLoadingTransporterSingle>
@@ -342,12 +340,12 @@
   
   <!-- EN: You can't banish the last colonist. -->
   <MessageCantBanishLastColonist>No puedes desterrar al último colono.</MessageCantBanishLastColonist>
-  
+
   <!-- EN: Cannot equip: {0}. -->
   <MessageCantEquipCustom>No puede equiparse: {0}.</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>No puede equiparse: {1_labelShort} es incapaz de luchar.</MessageCantEquipIncapableOfViolence>
-  <!-- EN: Cannot equip: incapable. -->
+  <!-- EN: Cannot equip: Incapable. -->
   <MessageCantEquipIncapableOfManipulation>No puede equiparse: incapaz.</MessageCantEquipIncapableOfManipulation>
   <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
   <MessageCantWearApparelMissingBodyParts>No puede equiparse: a {1_labelShort} le faltan partes corporales.</MessageCantWearApparelMissingBodyParts>
@@ -375,7 +373,7 @@
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>Los {0} de {1} estan atacando tu {2}.</MessageDefendersAttacking>
-  <!-- EN: Mechanoids have been assembled and are attacking. -->
+  <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
   <MessageMechanoidsAssembled>Los mecanoides han sido ensamblados y te están atacando.</MessageMechanoidsAssembled>
   <!-- EN: Remaining mechanoids to assemble -->
   <MessageMechanoidsLeftToAssemble>Mecanoides que quedan por ser ensamblados</MessageMechanoidsLeftToAssemble>
@@ -457,7 +455,6 @@
 
   <!-- EN: Caravan will automatically travel to the first waypoint. -->
   <MessageChoseRoute>La caravana se desplazará automáticamente hasta la primera parada.</MessageChoseRoute>
-
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Para salir de la zona, utiliza el botón 'reformar caravana' en la vista del mundo.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
@@ -560,7 +557,7 @@
   <!-- EN: {0_labelShort} can now freely use "{1}". -->
   <MessagePermitCooldownFinished>{0_labelShort} puede utilizar ahora "{1}" libremente.</MessagePermitCooldownFinished>
 
-  <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
+  <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
   <MessagePredatorHuntingPlayerAnimal>¡{PREDATOR} está cazando a {PREY_definite} para alimentarse!</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
@@ -574,7 +571,7 @@
   <MessageDisableModsBeforeCleaningTranslationFiles>Desactiva todos los mods antes de usar esta herramienta.</MessageDisableModsBeforeCleaningTranslationFiles>
   <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
   <MessageUnpackBeforeCleaningTranslationFiles>Desempaqueta y después elimina todos los archivos comprimidos de traducción de este idioma antes de usar esta herramienta.</MessageUnpackBeforeCleaningTranslationFiles>
-  <!-- EN: Done. Affected folder: {0} -->
+  <!-- EN: Done. Affected folders: {0} -->
   <MessageTranslationFilesCleanupDone>Listo. Carpeta afectada: {0}</MessageTranslationFilesCleanupDone>
 
   <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
@@ -618,8 +615,5 @@
 
   <!-- EN: {0_label} is currently hidden. -->
   <MessageCannotSelectInvisibleStat>{0_label} está escondido.</MessageCannotSelectInvisibleStat>
-
-
-
 
 </LanguageData>

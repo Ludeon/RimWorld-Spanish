@@ -127,23 +127,23 @@
   </Combat_Hit.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>r_logentry(p=0.3)->[RECIPIENT_definite] evitó [INITIATOR_definite] [WEAPON_label] [damaged_inf].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] falló [RECIPIENT_definite] con un/una [damaged_inf] de [implement].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] mientras intentaba [damaged_inf] [RECIPIENT_definite] con [implement].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] mientras intentaba [damaged_inf] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] intentó [skillAdvMaybe] a [damaged_inf] [RECIPIENT_definite], pero [failtype].</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] avoided [INITIATOR_definite]'s [WEAPON_label] [damaged_inf].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] missed [RECIPIENT_definite] with a [damaged_inf] from [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite] with [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] tried [skillAdvMaybe] to [damaged_inf] [RECIPIENT_definite], but [failtype].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
-    <li>failtype(p=5)->falló</li>
-    <li>failtype->tropezó</li>
-    <li>failtype->tropezó</li>
-    <li>failtype->agitó</li>
-    <li>failtype->tambaleó</li>
-    <li>result(p=4)->pero falló</li>
-    <li>result->pero le dio al aire</li>
-    <li>result->but el balanceo se perdió</li>
-    <li>result->pero falló en el último segundo</li>
-    <li>result(initiator_flesh!=Mechanoid)->pero dudó en el último segundo</li>
+    <li>failtype(p=5)->missed</li>
+    <li>failtype->stumbled</li>
+    <li>failtype->tripped</li>
+    <li>failtype->flailed</li>
+    <li>failtype->floundered</li>
+    <li>result(p=4)->but missed</li>
+    <li>result->but hit only air</li>
+    <li>result->but the swing went wide</li>
+    <li>result->but stumbled at the last second</li>
+    <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
     <li>r_logentry(p=0.3)->[RECIPIENT_definite] evitó [INITIATOR_definite] [WEAPON_label] [damaged_inf].</li>

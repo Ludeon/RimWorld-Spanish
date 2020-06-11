@@ -59,7 +59,6 @@
   <!-- EN: Create world -->
   <CreateWorld>Crear planeta</CreateWorld>
 
-
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
   <TranslationThanks>Todas las traducciones de RimWorld están hechas por fans. Esta traducción hecha por fans fue creada por los siguientes excelentes voluntarios.\n\n{0}</TranslationThanks>
@@ -107,7 +106,6 @@
   <PlanetPopulation_Normal>Normal</PlanetPopulation_Normal>
   <!-- EN: Crowded -->
   <PlanetPopulation_High>Abarrotado</PlanetPopulation_High>
-
   <!-- EN: Seed -->
   <WorldSeed>Semilla</WorldSeed>
   <!-- EN: Randomize seed -->
@@ -152,7 +150,7 @@
   <ConfirmDisableCoreMod>¿Estás seguro que quieres deshabilitar el mod núcleo? El juego no va a funcionar a menos que tengas otro mod que reemplace la funcionalidad de este.\n\nRecuerda, otros mods pueden sobreescribir los archivos del mod núcleo al usar el mismo defName.</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>¿Estás seguro que deseas eliminar todo el contenido para {0}?</ConfirmDeleteMod>
-
+  <!-- EN: Auto-sort mods -->
   <ResolveModOrder>Ordenar mods (Auto).</ResolveModOrder>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Cancelar subscripción</Unsubscribe>
@@ -174,19 +172,16 @@
   <WorkshopUploadSucceeded>Se ha subido exitosamente {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>Descargando</Downloading>
-
   <!-- EN: Display fulfilled requirements -->
   <ModDisplayFulfilledRequirements>Mostrar requisitos cumplidos</ModDisplayFulfilledRequirements>
   <!-- EN: Click to select. -->
   <ModClickToSelect>Haz clic para seleccionar.</ModClickToSelect>
   <!-- EN: Click to go to website. -->
   <ModClickToGoToWebsite>Haz click para ir a la página web.</ModClickToGoToWebsite>
-
   <!-- EN: Source -->
   <Source>Origen</Source>
-  <!-- EN: For version(s):  -->
+  <!-- EN: For game version(s) -->
   <ModTargetVersion>Compatible con las versiones: </ModTargetVersion>
-
   <!-- EN: ID -->
   <ModPackageId>Identificador</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
@@ -211,10 +206,10 @@
   <ModNotMadeForThisVersion>Este mod no fue creado para esta versión del juego y probablemente no funcionará correctamente.</ModNotMadeForThisVersion>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>Este mod fue creado para una versión más moderna del juego y probablemente no funcionará.</ModNotMadeForThisVersion_Newer>
-  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: &lt;supportedVersions&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;/supportedVersions&gt; - &lt;targetVersion&gt; is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>El mod necesita que la información de versiones soportadas tenga el formato adecuado en el archivo 'About.xml'. Este es un ejemplo: &lt;supportedVersions&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;/supportedVersions&gt; - &lt;targetVersion&gt; está en desuso. Revisa los registros para más información.</MessageModNeedsWellFormattedTargetVersion>
-  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n&lt;packageId&gt;AuthorName.ModName&lt;/packageId&gt;\n&lt;packageId&gt;AuthorName.ModName.Specific&lt;/packageId&gt; -->
-  <MessageModNeedsWellFormattedPackageId>El mod necesita un identificador único y con el fromato correcto en 'About.xml'. Debe cumplir los siguientes requisitos:\n\n  - Solo puntos y caracteres alfanuméricos.\n  - Sin espacios.\n  - Por lo menos un punto.\n  - No haber dos puntos seguidos.\n  - No empezar ni acabar con un punto.\n  - 60 characters or less.\n  - No puede contener la palabra "Ludeon".\n\nPor ejemplo:\n&lt;packageId&gt;NombreAutor.NombreMod&lt;/packageId&gt;\n&lt;packageId&gt;NombreAutor.NombreMod.Specific&lt;/packageId&gt;</MessageModNeedsWellFormattedPackageId>
+  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
+  <MessageModNeedsWellFormattedTargetVersion>El mod necesita que la información de versiones soportadas tenga el formato adecuado en el archivo 'About.xml'. Este es un ejemplo: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> está en desuso. Revisa los registros para más información.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <MessageModNeedsWellFormattedPackageId>El mod necesita un identificador único y con el fromato correcto en 'About.xml'. Debe cumplir los siguientes requisitos:\n\n  - Solo puntos y caracteres alfanuméricos.\n  - Sin espacios.\n  - Por lo menos un punto.\n  - No haber dos puntos seguidos.\n  - No empezar ni acabar con un punto.\n  - 60 characters or less.\n  - No puede contener la palabra "Ludeon".\n\nPor ejemplo:\n&lt;packageId>NombreAutor.NombreMod&lt;/packageId>\n&lt;packageId>NombreAutor.NombreMod.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>Antes de poder subir eeste mod, hay errores en el archivo 'LoadFolders.xml' que debes solucionar.</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
@@ -397,7 +392,7 @@
   <IncapableOfTooltipTrait>Debido al rasgo: {0}</IncapableOfTooltipTrait>
   <!-- EN: Caused by: {0} -->
   <IncapableOfTooltipHediff>Debido a: {0}</IncapableOfTooltipHediff>
-  <!-- EN: Disabled work types -->
+  <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>Trabajos deshabilitados de tipo:</IncapableOfTooltipWorkTypes>
   <!-- EN: Caused by quest status: {0} -->
   <IncapableOfTooltipQuest>Debido al estado de la misión: {0}</IncapableOfTooltipQuest>
@@ -474,6 +469,5 @@
   <ClickForMoreInfo>Haz clic para más información</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>No hay más información disponible.</NoMoreInfoAvailable>
-
 
 </LanguageData>

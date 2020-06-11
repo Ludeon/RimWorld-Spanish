@@ -188,7 +188,7 @@
   <CaravanDaysOfFoodRot>Días de comida: {0} (se pudre en {1} días)</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
   <AllCaravanMembersDowned>Detenida: Todos están inconscientes.</AllCaravanMembersDowned>
-  <!-- EN: Stopped because: Everyone has a mental break. -->
+  <!-- EN: Stopped because: Everyone is in a mental break. -->
   <AllCaravanMembersMentalBreak>Detenida: Todos tienen un colapso mental.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
   <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
@@ -328,7 +328,7 @@
   <CaravanMovementSpeedFull>Velocidad de movimiento de la caravana</CaravanMovementSpeedFull>
   <!-- EN: downed -->
   <DownedLower>insconsciente</DownedLower>
-  <!-- EN: carried -->
+  <!-- EN: resting -->
   <Carried>cargado/a</Carried>
   <!-- EN: Avg. person move speed -->
   <AverageCaravanMemberMoveSpeed>Velocidad media de movimiento por persona</AverageCaravanMemberMoveSpeed>
@@ -372,7 +372,7 @@
   <EnterCooldown>No puedes volver a entrar en {0} días.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Caravana</Caravan>
-  <!-- EN: there may be danger there -->
+  <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>Puede haber peligro allí</HiddenOrNoSitePartDescription>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>pedazo de {0}</PreciousLumpLabel>
@@ -390,7 +390,6 @@
   <Mortars>morteros</Mortars>
   <!-- EN: enemy -->
   <Enemy>enemigo</Enemy>
-
   <!-- EN: location -->
   <Location>ubicación</Location>
   <!-- EN: animals -->
@@ -431,7 +430,7 @@
   <MechCluster>Meca-conglomerado</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>Generando en {0}</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1} -->
+  <!-- EN: {0} assembly completes in {1}. -->
   <MechAssemblyCompleteIn>Producción de {0} termina en {1}</MechAssemblyCompleteIn>
   <!-- EN: Will assemble -->
   <MechAssemblyNextType>Produciendo</MechAssemblyNextType>
@@ -460,7 +459,6 @@
   <!-- EN: Heat -->
   <PsychicEntropyShort>Calentamiento</PsychicEntropyShort>
   <!-- EN: {0} pain boost -->
-  <!-- se refiere a un "boost" que le proporciona el dolor a un colono a la hora de disipar "calor neuronal" -->
   <PsychicEntropyPainFocus>mejora por dolor de {0}</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>radio de {0}</ConditionCauserRadius>
@@ -475,8 +473,6 @@
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>reduciendo resistencia de {0_nameIndef}</JobReport_ReduceResistance>
 
-
-
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
   <UserScanAbility>Velocidad de escaneo del usuario</UserScanAbility>
@@ -484,7 +480,7 @@
   <ScanAverageInterval>Intervalo de descubrimiento aleatorio</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>Progreso hacia descubrimiento garantizado</ScanningProgressToGuaranteedFind>
-
+  
   <!-- Meditation -->
   <!-- EN: meditating at -->
   <MeditatingAt>meditando en</MeditatingAt>
@@ -712,8 +708,6 @@
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
-
-  <!-- esto es de cuando un personaje es prestado -->
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
@@ -722,18 +716,14 @@
   <PawnMainDescUnderFactionedWrap>{0} bajo {1}</PawnMainDescUnderFactionedWrap>
   <!-- EN: {0} under {1}\nHome faction: {2} -->
   <PawnMainDescTempFactionedWrap>{0} bajo {1}\nFacción original: {2}</PawnMainDescTempFactionedWrap>
-
-
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Facción</Faction>
-
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
   <FactionDesc>La facción a la que {PAWN_labelShort} pertenece actualmnte.</FactionDesc>
   <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
   <ExtraFactionDesc>La facción a la que {PAWN_labelShort} pertenecía originalmente. {PAWN_pronoun} se volverá a unir a su facción original cuando se marche de la actual.</ExtraFactionDesc>
-
   <!-- EN: Equipped -->
   <Equipped>Equipamiento</Equipped>
   <!-- EN: nothing -->
@@ -764,7 +754,7 @@
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
   <SelectNextInSquareTip>Selecciona el elemento siguiente en el mismo cuadro.\n\nTecla de atajo: {0}\n\nTambién puedes hacerlo al hacer clic lentamente de nuevo en el mismo cuadro.</SelectNextInSquareTip>
-  <!-- EN: View information about this object. -->
+  <!-- EN: View information. -->
   <DefInfoTip>Ver información sobre este objeto.</DefInfoTip>
 
   <!-- Hostility response -->
@@ -924,15 +914,13 @@
   <ShowAnimalNamesToggleButton>Alternar la visualización de los nombres de los animales domesticados.</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
   <ShowRoofOverlayToggleButton>Alternar la visibilidad de los techos.</ShowRoofOverlayToggleButton>
-  
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
   <ShowFertilityOverlayToggleButton>Mostrar el filtro de fertilidad.\n\nEsto muestra que tan fertil es el suelo, lo que a fecta a qué tipo de plantas pueden crecer y qué tan rápido.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
   <ShowTerrainAffordanceOverlayToggleButton>Mostrar el filtro de disponibilidad de suelos.\n\nEsto está relacionado con que tipos de estructuras pueden ser construidas en cada sitio.\n\nPor ejemplo, algunos suelos solo soportan cargas medias o ligeras, pero no pesadas. Los puentes solo pueden ser construidos sobre agua.</ShowTerrainAffordanceOverlayToggleButton>
-
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
   <LockNorthUpToggleButton>Bloquea la rotación de la cámara para que el polo norte siempre se encuentre arriba.</LockNorthUpToggleButton>
-  <!-- EN: Toggle day/night lighting system. -->
+  <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>Alternar el sistema de iluminación día/noche.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
   <ShowExpandingIconsToggleButton>Alternar la visualización de iconos desplegables en lugar de los iconos normales para objetos lejanos.</ShowExpandingIconsToggleButton>
@@ -1022,12 +1010,12 @@
   <ShipReportHibernating>Componente hibernando</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>El componente aún no está listo</ShipReportNotReady>
-  <!-- EN: &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; está listo para iniciar la secuencia de recuperación de la hibernación del reactor.\n\nTe advierte que el proceso llevará alrededor de 15 días, y la huella de energía será detectable desde una gran distancia. Este tipo de huella de energía indica capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y mortíferos mecanoides.\n\nSerás asaltado con una intensidad como nunca has visto. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarning>
+  <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <HibernateWarning>&lt;Name>Charlon Whitestone&lt;/Name> está listo para iniciar la secuencia de recuperación de la hibernación del reactor.\n\nTe advierte que el proceso llevará alrededor de 15 días, y la huella de energía será detectable desde una gran distancia. Este tipo de huella de energía indica capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y mortíferos mecanoides.\n\nSerás asaltado con una intensidad como nunca has visto. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>El reactor está listo para encenderse.\n\nEl proceso llevará alrededor de 15 días, y la huella de energía será detectable desde una gran distancia. Este tipo de huella de energía indica capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y mortíferos mecanoides.\n\nSerás asaltado con una intensidad como nunca has visto. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarningStandalone>
-  <!-- EN: &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; está listo para iniciar la secuencia de recuperación de la hibernación del reactor. Te advierte que el proceso llevará alrededor de 15 días.</HibernateWarningPacifist>
+  <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
+  <HibernateWarningPacifist>&lt;Name>Charlon Whitestone&lt;/Name> está listo para iniciar la secuencia de recuperación de la hibernación del reactor. Te advierte que el proceso llevará alrededor de 15 días.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>El reactor está listo para encenderse. El proceso llevará alrededor de 15 días.</HibernateWarningStandalonePacifist>
 
@@ -1098,13 +1086,10 @@
   <GameOverColonistsLeft>Estos colonos fueron abandonados:\n\n{0}</GameOverColonistsLeft>
   <!-- EN: In memory of:\n -->
   <GameOverInMemoryOf>En recuerdo de:\n</GameOverInMemoryOf>
-
-
   <!-- EN: Keep playing -->
   <GameOverKeepPlaying>Seguir jugando</GameOverKeepPlaying>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Menú principal</GameOverMainMenu>
-
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1241,7 +1226,7 @@
   <ClickToSeeAvailableOrders_WorldObject>{0}: Ver órdenes disponibles...</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
   <ClickToSeeAvailableOrders_Empty>Ver órdenes disponibles...</ClickToSeeAvailableOrders_Empty>
-
+  
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
   <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
@@ -1273,9 +1258,11 @@
   <Reward_Pawn_WalkIn>Un/una {0_title} de {0_age} años de edad llegará y se unirá a ti {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>Un/una {0_title} de {0_age} años de edad se unirá a ti {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):
+\n{0} -->
   <Reward_Items>Cápsulas de transporte con los recursos siguientes están por llegar (valor total {1}):\n\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):\n\n{0} -->
+  <!-- EN: you will receive (total value {1}):
+\n{0} -->
   <Reward_Items_Caravan>recivirás (valor total {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>las relaciones de tu facción con {0_name} mejorarán en {1}</Reward_Goodwill>
@@ -1323,5 +1310,5 @@
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Causado por: {0}</CausedByHediff>
-
+  
 </LanguageData>

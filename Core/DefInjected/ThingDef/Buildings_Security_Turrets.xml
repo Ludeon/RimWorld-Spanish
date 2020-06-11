@@ -7,7 +7,7 @@
   <Artillery_Mortar.description>Un lanzador de morteros. Lanza bombas por encima de los muros. Muy impreciso, pero de largo alcance.</Artillery_Mortar.description>
   <!-- EN: mortar -->
   <Artillery_Mortar.verbs.Verb_Shoot.label>mortero</Artillery_Mortar.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: autocannon shell -->
   <Bullet_AutocannonTurret.label>bala de cañón</Bullet_AutocannonTurret.label>
   
@@ -33,11 +33,11 @@
   
   <!-- EN: uranium slug cannon -->
   <Gun_TurretSniper.label>cañón de balas de uranio</Gun_TurretSniper.label>
-  <!-- EN: A self-loading sniper cannon designed to attach to a turret. Precise at range, it's not good at tracking close targets. -->
+  <!-- EN: A self-loading uranium slug cannon designed to attach to a turret. -->
   <Gun_TurretSniper.description>Un cañón de precisión de recarga automática diseñado para acoplarse a una torreta. Preciso a distancia, pero no es bueno para localizar objetivos cercanos.</Gun_TurretSniper.description>
   <!-- EN: uranium slug cannon -->
   <Gun_TurretSniper.verbs.Verb_Shoot.label>cañón de balas de uranio</Gun_TurretSniper.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: autocannon turret -->
   <Turret_Autocannon.label>torreta de cañón automático</Turret_Autocannon.label>
   <!-- EN: A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged. -->
@@ -67,13 +67,13 @@
   
   <!-- EN: uranium slug turret -->
   <Turret_Sniper.label>torreta de balas de uranio</Turret_Sniper.label>
-  <!-- EN: A long-ranged armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor at long ranges, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
+  <!-- EN: An armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
   <Turret_Sniper.description>Una torreta perfora-blindajes de muy largo alcance. Sus ultra-densos proyectiles de uranio pueden penetrar blindaje pesado a gran distancia, pero requiere la recarga de nuevas balas de uranio después de cada uso. Es más precisa a gran distancia, y no puede disparar a objetivos cercanos. Puede explotar cuando al ser dañada.</Turret_Sniper.description>
-  <!-- EN: Barrel durability -->
+  <!-- EN: Uranium slugs -->
   <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>Durabilidad del cañón</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until rearm -->
   <Turret_Sniper.comps.CompRefuelable.fuelLabel>Disparos hasta rearme</Turret_Sniper.comps.CompRefuelable.fuelLabel>
-  <!-- EN: Cannot shoot: Needs rearm -->
+  <!-- EN: Cannot shoot: No slugs -->
   <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>No puede disparar: Necesita rearme</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
   
 </LanguageData>

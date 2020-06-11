@@ -3,17 +3,17 @@
   
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>capacidad de carga</CarryingCapacity.label>
-  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators. This is separate from the ability to carry cargo on long cross-world trips. -->
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
   <CarryingCapacity.description>La cantidad de cosas que esta criatura puede llevar en sus manos, boca u otros apéndices. Esto es independiente de la capacidad de carga en viajes largos por el mapa del mundo.</CarryingCapacity.description>
   
   <!-- EN: Maximum comfortable temperature -->
   <ComfyTemperatureMax.label>temperatura máxima deseable</ComfyTemperatureMax.label>
-  <!-- EN: Above this temperature, characters will be unhappy. Significantly above this temperature, they will develop heatstroke and eventually die. -->
+  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
   <ComfyTemperatureMax.description>Por encima de esta temperatura los personajes no estarán contentos. Muy por encima de esta temperatura desarrollarán insolaciones y finalmente morirán.</ComfyTemperatureMax.description>
   
   <!-- EN: Minimum comfortable temperature -->
   <ComfyTemperatureMin.label>temperatura mínima deseable</ComfyTemperatureMin.label>
-  <!-- EN: Below this temperature, characters will be unhappy. Significantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
   <ComfyTemperatureMin.description>Por debajo de esta temperatura los personajes no estarán contentos. Muy por debajo de esta temperatura desarrollaran hipotermia, congelación y finalmente morirán.</ComfyTemperatureMin.description>
   
   <!-- EN: eating speed -->
@@ -72,27 +72,10 @@
   <PainShockThreshold.label>umbral de shock por dolor</PainShockThreshold.label>
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>El nivel al que esta criatura se derrumbará por el dolor.</PainShockThreshold.description>
-
-  <!-- EN: psychic entropy gain -->
-  <PsychicEntropyGain.label>ganancia de entropía psíquica</PsychicEntropyGain.label>
-  <!-- EN: A multiplier on psychic entropy gained from any source. -->
-  <PsychicEntropyGain.description>Un multiplicador a la entropía psíquica obtenida de cualquier fuente.</PsychicEntropyGain.description>
-  
-  <!-- EN: psychic entropy limit -->
-  <PsychicEntropyMax.label>límite de entropía psíquica</PsychicEntropyMax.label>
-  <!-- EN: The maximum amount of psychic entropy individual can tolerate safely. -->
-  <PsychicEntropyMax.description>La cantidad máxima de entropía psíquica que un individuo puede tolerar con seguridad.</PsychicEntropyMax.description>
-  
-  <!-- EN: psychic entropy recovery rate -->
-  <PsychicEntropyRecoveryRate.label>tasa de recuperación de entropía psíquica</PsychicEntropyRecoveryRate.label>
-  <!-- EN: The rate at which this person reduces psychic entropy. -->
-  <PsychicEntropyRecoveryRate.description>La tasa a la que esta persona reduce su entropía psíquica.</PsychicEntropyRecoveryRate.description>
-  <!-- EN: {0}/30s -->
-  <PsychicEntropyRecoveryRate.formatString>{0}/30seg</PsychicEntropyRecoveryRate.formatString>
   
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>sensibilidad psíquica</PsychicSensitivity.label>
-  <!-- EN: Multiplier on the impact of psychic phenomena affecting this person. More sensitive people both suffer more from negative psychic effects, and benefit more from positive ones. -->
+  <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
   <PsychicSensitivity.description>Multiplicador sobre el impacto de los fenómenos psíquicos que afectan a esta persona. Las personas más sensibles sufren más de los efectos psíquicos negativos y se benefician más de los positivos.</PsychicSensitivity.description>
   
   <!-- EN: rest rate multiplier -->

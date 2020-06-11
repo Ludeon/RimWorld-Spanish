@@ -21,7 +21,7 @@
   <GameUpdatedToNewVersionSavesCompatible>Los juegos guardados de la versión anterior deberían ser compatibles, aunque algunos mods pueden dejar de funcionar.</GameUpdatedToNewVersionSavesCompatible>
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
   <GameUpdatedToNewVersionNonSteam>Ya que esta es una copia libre de protección anti-piratería, puedes instalar el juego dos veces en diferentes carpetas, para que puedas jugar tanto con la versión nueva como la anterior.</GameUpdatedToNewVersionNonSteam>
-  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu.\n\nOld versions will be likely removed from this list eventually - we just didn't want to cut off games in progress.\n\nNote that if mod authors update their mods for a new game version, they'll probably stop working on an old version. You may want to turn off automatic updates to prevent this. -->
+  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
   <GameUpdatedToNewVersionSteam>Si deseas continuar con la versión anterior, puedes optar por usar la opción de "Betas" de Steam.\n\n  1. En la librería de Steam, haz click derecho en Rimworld.\n  2. Da click en propiedades.\n  3. Selecciona la pestaña de betas.\n  4. Selecciona la versión que desees del menú.\n\nLas versiones antiguas se irán borrando de la lista con el tiempo. No queríamos destruir partidas en progreso.\n\nToma nota de que si los autores de un mod lo actualizan a una versión nueva, probablemente deje de funcionar para las anteriores. Podrías querer apagar las actualizaciones automáticas para prevenirlo.</GameUpdatedToNewVersionSteam>
   
   <!-- Recovered from errors caused by mods -->
@@ -189,7 +189,6 @@
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>¿Realmente quieres desactivar permanentemente el modo de desarrollo en este ordenador?\n\nEsta opción es para las personas que quieren una experiencia de juego pura sin la tentación de usar herramientas de desarrollo para ganar ventaja en el juego normal.\n\nEl modo de desarrollo se puede volver a habilitar, pero para ello es necesario editar manualmente los archivos de configuración. Tendrás que buscar en Internet para averiguar cómo.</ConfirmPermanentlyDisableDevMode>
-
   
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
@@ -301,7 +300,6 @@
   <MeleeWarmupTime>Calentamiento para atq. cuerpo a cuerpo</MeleeWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Enfriamiento</CooldownTime>
-
   <!-- EN: Disarmed -->
   <DisarmedTime>Desarmado</DisarmedTime>
   <!-- EN: Charging -->
@@ -310,14 +308,13 @@
   <ChargingNext>Siguiente recarga (por {1}) en: {0}\nCiclo de recarga: {2}</ChargingNext>
   <!-- EN: Shut down -->
   <ShutDown>Eliminado</ShutDown>
-
   <!-- EN: Fire rate -->
   <BurstShotFireRate>Cadencia de tiro</BurstShotFireRate>
   <!-- EN: Range -->
   <Range>Rango</Range>
   <!-- EN: Stopping power -->
   <StoppingPower>Potencia de parada</StoppingPower>
-  <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds. Targets with a body size larger than the stopping power will be unaffected. -->
+  <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
   <StoppingPowerExplanation>Los golpes de esta arma tambalearán a los objetivos, ralentizando su movimiento durante varios segundos. Los blancos con un tamaño de cuerpo mayor que la potencia de frenado no se verán afectados.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
   <DirectHitChance>Probabilidad de impacto directo</DirectHitChance>
@@ -337,7 +334,7 @@
   <MinGrowthTemperature>Temperatura mínima de crecimiento</MinGrowthTemperature>
   <!-- EN: Max growth temperature -->
   <MaxGrowthTemperature>Temperatura máxima de crecimiento</MaxGrowthTemperature>
-  <!-- EN: Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth. -->
+  <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
   <GrowingTimeDesc>Las plantas solamente crecen durante parte del día y bajo iluminación. Esta estadística mide el tiempo de crecimiento que la planta necesita para llegar a su tamaño máximo. El tiempo real de crecimiento normalmente sería el doble. Las bajas temperaturas ralentizan el crecimiento de las plantas.</GrowingTimeDesc>
   <!-- EN: days -->
   <Days>días</Days>
@@ -383,7 +380,7 @@
   <Layer>Recubrimiento</Layer>
   <!-- EN: Cover effectiveness -->
   <CoverEffectiveness>Efectividad de cobertura</CoverEffectiveness>
-  <!-- EN: How effective this is when used as cover in a gunfight. Higher percentages will block more shots. -->
+  <!-- EN: How effective this is when used as cover in a gunfight.\n\nHigher percentages will block more shots. -->
   <CoverEffectivenessExplanation>Que tan efectiva es cuando se usa como cobertura durante un tiroteo. Un porcentaje más alto detendrá más disparos.</CoverEffectivenessExplanation>
   <!-- EN: Experience gain factor -->
   <MedicineXpGainFactor>Factor de ganancia de experiencia</MedicineXpGainFactor>
@@ -399,7 +396,7 @@
   <TamenessWillNotDecay>La domesticación nunca decaerá.</TamenessWillNotDecay>
   <!-- EN: Animal filth rate -->
   <AnimalFilthRate>Tasa de suciedad animal</AnimalFilthRate>
-  <!-- EN: Animals produce filth when moving around on constructed floors. This is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
+  <!-- EN: Animals produce filth when moving around on constructed floors.\n\nThis is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
   <AnimalFilthRateExplanation>Los animales producen suciedad al moverse por suelos construidos. Esta es la cantidad promedio de suciedad producida por cada {0} casillas pisadas por esta criatura.\n\nLos animales más grandes o menos domesticables producen más suciedad.</AnimalFilthRateExplanation>
   <!-- EN: Time -->
   <TimeRecordsCategory>Tiempo</TimeRecordsCategory>
@@ -465,11 +462,11 @@
   <SkillRequiredToBuildExplanation>Requiere este nivel de {0} para construir.</SkillRequiredToBuildExplanation>
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>Intervalo de caricias</NuzzleInterval>
-  <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection. Most humans find this cute and it will leave them in a good mood for a period of time. -->
+  <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
   <NuzzleIntervalExplanation>Con qué frecuencia aproximada un animal acaricia a los colonos amigos.\n\nAcariciar es un comportamiento que comparten muchas especies de animales, donde el animal presiona su hocico contra un amigo como signo de afecto. La mayoría de los humanos encuentran esto adorable y los dejará de buen humor durante un período de tiempo.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Probabilidad de venganza por daño</HarmedRevengeChance>
-  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
+  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
   <HarmedRevengeChanceExplanation>La probabilidad de que esta criatura busque venganza por haber sido dañada por un atacante a alcance de rifle.\n\nEsta probabilidad aumenta si el atacante está más cerca. Si es atacado a muy corta distancia, la probabilidad es tres veces mayor.\n\nEsta probabilidad se aplica cada vez que se produce un daño, por lo que es menos probable que las armas que disparan más lentamente y causan más daño lo activen.\n\nPara minimizar la posibilidad de que una criatura busque venganza, atácala a larga distancia con un arma de baja cadencia de tiro.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>La probabilidad de venganza en un fracaso al domesticar</TameFailedRevengeChance>
@@ -493,13 +490,13 @@
   <Target>Objetivo</Target>
   <!-- EN: The types of targets on which this ability can be used. -->
   <AbilityTargetDesc>Los tipos de objetivos que pueden ser seleccionados con esta habilidad.</AbilityTargetDesc>
-  <!-- EN: Human -->
+  <!-- EN: human -->
   <TargetHuman>Humano</TargetHuman>
-  <!-- EN: Animal -->
+  <!-- EN: animal -->
   <TargetAnimal>Animal</TargetAnimal>
-  <!-- EN: Self -->
+  <!-- EN: self -->
   <TargetSelf>A sí mismo</TargetSelf>
-  <!-- EN: Ground -->
+  <!-- EN: ground -->
   <TargetGround>Suelo</TargetGround>
   <!-- EN: Click to learn more. -->
   <ClickToLearnMore>Clic para saber más.</ClickToLearnMore>
@@ -529,8 +526,7 @@
   <MeditationFocusDisabledByTrait>no tiene un rasgo</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
   <EnablesMeditationFocusType>Permite los tipos de foco de meditación</EnablesMeditationFocusType>
-
-
+  
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
   <PositiveBuysNegativeSells>Números positivos compran.\nNúmeros negativos venden.</PositiveBuysNegativeSells>
@@ -612,9 +608,6 @@
   <TraderRestockedSinceLastVisit>Repuesto desde tu ultima visita</TraderRestockedSinceLastVisit>
   <!-- EN: Next restock: {0} days -->
   <NextTraderRestock>Reponen en: {0} días</NextTraderRestock>
-
-
-
   <!-- EN: Creatures -->
   <PawnsTabShort>Criaturas</PawnsTabShort>
   
@@ -653,7 +646,7 @@
   <DaysWorthOfFoodInfoRot>Vence en {0}</DaysWorthOfFoodInfoRot>
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>Nunca se quedará sin comida</InfiniteDaysWorthOfFoodInfo>
-  <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
+  <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>Un número de días aproximado antes de que la caravana se quede sin comida.\n\nÉsto toma en cuenta tanto la comida para humanos como para animales y te muestra el peor escenario posible. Ésto significa que después de esta cantidad de días, al menos una persona o animal se habrá quedado sin comida.</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(sólo se tiene en cuenta el primer punto intermedio)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
@@ -687,7 +680,7 @@
   <AnimalCanGrazeTip>Este animal puede pastar alimentos del medio ambiente en lugar de comer alimentos transportados. El pastoreo sólo es posible en algunos biomas y rangos de temperatura.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>Nutrición forrajera por día. La cantidad real de forraje también se ve afectada por la forrajeabilidad del bioma.\n\n{0}</NutritionForagedPerDayTip>
-  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1}. -->
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
   <NutritionEatenPerDayTip>Nutrición ingerida al día. Como referencia, las comidas simples tienen {0} de nutrición.\n\nPuede comer: {2}\n\nLeyenda:\n{1}.</NutritionEatenPerDayTip>
   <!-- EN: Can eat -->
   <CanEat>Puede comer</CanEat>
@@ -757,9 +750,9 @@
   <SourceCaravanMustHaveAtLeastOneColonist>Debes dejar al menos un colono consciente.</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>Cuantos de estos objetos la caravana presente tiene listos para pasar a la nueva.</SplitCaravanThingCountTip>
-
+  
   <!-- Caravan misc -->
-  <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony!-->
+  <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
   <ConfirmAttackFriendlyFaction>¿Estás seguro de querer atacar {0}?\n\nEsto hará que {1} sea hostíl contigo, ¡y eventualmente empezarán a asaltar tu colonia!</ConfirmAttackFriendlyFaction>
   
   <!-- Load transporters -->
@@ -1005,5 +998,5 @@
   <AbilityRoofed>{0} debe seleccionar un área sin techo.</AbilityRoofed>
   <!-- EN: {0} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0} sufre un colapso mental.</AbilityCantApplyToMentallyBroken>
-
+  
 </LanguageData>

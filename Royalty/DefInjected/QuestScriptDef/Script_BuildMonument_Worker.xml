@@ -3,7 +3,7 @@
   
   <!-- EN: Monument completed -->
   <BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>Monumento completado</BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>
-  <!-- EN:  -->
+  <!-- EN: You completed construction of the monument.\n\nYou must not destroy it for at least [keepMonumentTicks_duration], otherwise you will anger [asker_factionName] ([goodwillChangeIfMonumentDestroyed] goodwill). -->
   <BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>You completed construction of the monument.\n\nYou must not destroy it for at least [keepMonumentTicks_duration], otherwise you will anger [asker_factionName] ([goodwillChangeIfMonumentDestroyed] goodwill).</BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>
   <!-- EN: Monument destroyed -->
   <BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>Monumento destruido</BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>
@@ -15,7 +15,7 @@
   <BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>No destruyas el monumento por {0}</BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
   <BuildMonumentWorker.KeepMonument.slateRef>Mantén el monumento {0}</BuildMonumentWorker.KeepMonument.slateRef>
-  <!-- EN: The monument for the quest '[resolvedQuestName]' has been violated. Punishment will now occur. -->
+  <!-- EN: The monument for the quest '[resolvedQuestName]' has been violated. Consequences will follow. -->
   <BuildMonumentWorker.MessageMonumentViolated.slateRef>El monumento de la misión '[resolvedQuestName]' ha sido mancillado. El castigo será debidamente administrado.</BuildMonumentWorker.MessageMonumentViolated.slateRef>
   <!-- EN: Protect the monument for {0} -->
   <BuildMonumentWorker.ProtectMonumentForDays.slateRef>Protege el monumento por {0}</BuildMonumentWorker.ProtectMonumentForDays.slateRef>
@@ -27,11 +27,8 @@
   <BuildMonumentWorker.LetterLabelMonumentMarkerArrived.slateRef>Ha llegado el marcador del nuevo monumento.</BuildMonumentWorker.LetterLabelMonumentMarkerArrived.slateRef>
   <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
   <BuildMonumentWorker.LetterTextMonumentMarkerArrived.slateRef>Como el marcador del monumento fue destruido, uno nuevo ha sido enviado.</BuildMonumentWorker.LetterTextMonumentMarkerArrived.slateRef>
-  <!-- EN: Protect the monument for {0} -->
   <BuildMonumentWorker.root.nodes.Delay.expiryInfoPart.slateRef>Defiende el monumento durante {0}</BuildMonumentWorker.root.nodes.Delay.expiryInfoPart.slateRef>
-  <!-- EN: Protect the monument until {0} -->
   <BuildMonumentWorker.root.nodes.Delay.expiryInfoPartTip.slateRef>Defiende el monumento hasta {0}</BuildMonumentWorker.root.nodes.Delay.expiryInfoPartTip.slateRef>
-  <!-- EN: Protect for {0} -->
   <BuildMonumentWorker.root.nodes.Delay.inspectString.slateRef>Defiende durante {0}</BuildMonumentWorker.root.nodes.Delay.inspectString.slateRef>
   <!-- EN: Monument time expired -->
   <BuildMonumentWorker.LetterLabelTimeExpired.slateRef>El plazo para la construcción del monumento ha terminado</BuildMonumentWorker.LetterLabelTimeExpired.slateRef>

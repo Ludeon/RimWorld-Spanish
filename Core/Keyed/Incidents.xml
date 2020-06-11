@@ -12,7 +12,8 @@
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>Plaga: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
-  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!\n\nYou should cut or burn the affected plants before the blight spreads. -->
+  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
+\nYou should cut or burn the affected plants before the blight spreads. -->
   <LetterCropBlight>¡Una plaga ha sido descuvierta en {PLANTDEF_labelPlural}!\n\nDeberías cortar o quemar las plantas afectadas antes de que la plaga se esparza.</LetterCropBlight>
 
   <!-- EN: Miracle -->
@@ -90,7 +91,7 @@
 
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>Manada de animales caza humanos</LetterLabelManhunterPackArrived>
-  <!-- EN: A pack of man-hunting {0} have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack turrets that are powered down, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
+  <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
   <ManhunterPackArrived>Una manada de {0}, caza humanos, ha entrado en el área. Ellos recorrerán la región, en busca de carne humanoide\n\nEllos no pueden pasar las puertas, por lo que si te quedas detrás de las paredes deberas estar a salvo. No van a atacar a las torretas inactivas, por lo que pasarán de tus torretas desconectadas, si es que deseas salvarlas.\n\nVan a dejar la zona en pocos días.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
@@ -122,8 +123,7 @@
   <LetterLabelBeaversArrived>¡Castores!</LetterLabelBeaversArrived>
   <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
   <BeaversArrived>Un grupo hambriento de alfacastores acaba de llegar a tu region.\n\nIntenta deshacerte de ellos antes de que acaben con todos los árboles de la region.</BeaversArrived>
-
-
+  
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
   <LetterLabelAnimalSelfTame>{1_kind} auto-domesticado</LetterLabelAnimalSelfTame>
@@ -153,7 +153,7 @@
   <LetterTraderCaravanArrival>Una caravana de comerciantes de {0} se aproxima. Es una caravana de {1}.</LetterTraderCaravanArrival>
   <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
   <LetterCaravanArrivalCommonWarning>Se quedarán en los alrededores de la colonia durante unos días antes de irse. Puedes atacarlos, ¡pero esto enfadará a su facción!</LetterCaravanArrivalCommonWarning>
-  
+    
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Demanda de rescate a {0}</RansomDemandTitle>
@@ -167,15 +167,14 @@
   <!-- Journey-related -->
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
-  <!-- EN: You've reached the coordinates sent by &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>Has llegado a las coordenadas enviadas por &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\n&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; te advierte que el proceso de arranque tardará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros.\n\nAsegúrate de que tus defensas esten preparadas primero.</EscapeShipFound>
-
-  <!-- EN: You've reached the coordinates sent by &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; warns you that the startup process will take about 15 days. -->
-  <EscapeShipFoundPeaceful>Has llegado a las coordenadas enviadas por &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\n&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; te advierte que el proceso de arranque tardará unos 15 días.</EscapeShipFoundPeaceful>
+  <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <EscapeShipFound>Has llegado a las coordenadas enviadas por &lt;Name>Charlon Whitestone&lt;/Name> y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\n&lt;Name>Charlon Whitestone&lt;/Name> te advierte que el proceso de arranque tardará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros.\n\nAsegúrate de que tus defensas esten preparadas primero.</EscapeShipFound>
+  <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
+  <EscapeShipFoundPeaceful>Has llegado a las coordenadas enviadas por &lt;Name>Charlon Whitestone&lt;/Name> y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\n&lt;Name>Charlon Whitestone&lt;/Name> te advierte que el proceso de arranque tardará unos 15 días.</EscapeShipFoundPeaceful>
   <!-- EN: Ship destroyed -->
   <EscapeShipLostLabel>Nave destruida</EscapeShipLostLabel>
-  <!-- EN: &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
-  <EscapeShipLost>&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; te envía un mensaje.\n\nVe que has perdido el control de la nave. Para evitar que caiga en las manos equivocadas, ha sido forzado a activar el mecanismo de autodestrucción de la nave. La nave es ahora un cráter.\n\nNecesitarás encontrar otra forma de salir de este planeta.</EscapeShipLost>
+  <!-- EN: (*Name)Charlon Whitestone(/Name) sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
+  <EscapeShipLost>&lt;Name>Charlon Whitestone&lt;/Name> te envía un mensaje.\n\nVe que has perdido el control de la nave. Para evitar que caiga en las manos equivocadas, ha sido forzado a activar el mecanismo de autodestrucción de la nave. La nave es ahora un cráter.\n\nNecesitarás encontrar otra forma de salir de este planeta.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
@@ -198,7 +197,7 @@
   <LetterLabelCaravanRequest>Solicitud de caravana</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>Una colonia cercana, {0}, se pone en contacto con usted con una solicitud comercial. Ellos quieren comprar:\n\n  {1} (valor {2})\n\nA cambio, ofrecen:\n\n  {3} (valor {4})\n\nEsta solicitud expira después de: {5}\n\nSi desea realizar el comercio, envíe una caravana con los suministros solicitados. El tiempo estimado de viaje es de {6}. Puede revisar esta oferta seleccionando {0} en el mapa del planeta.</LetterCaravanRequest>
-  <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
+  <!-- EN: Requesting: {0} ({2}) ({1} left) -->
   <CaravanRequestInfo>Solicitando: {0} ({3}), Recompensa: {1} ({4}) ({2} dias restantes)</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>calidad normal o mejor</NormalQualityOrBetter>
@@ -226,7 +225,9 @@
   <LetterSiteNoLongerHostileMulti>Porque ya no eres hostil con {0}, los siguientes sitios ya no están disponibles</LetterSiteNoLongerHostileMulti>
 
   <!-- Quest asker faction hostile -->
+  <!-- EN: Quest failed -->
   <LetterLabelQuestAskerFactionHostile>Quest failed</LetterLabelQuestAskerFactionHostile>
+  <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
   <LetterQuestAskerFactionHostile>The quest is now incompletable because {FACTION_name} is hostile.</LetterQuestAskerFactionHostile>
 
   <!-- Quest asker captured -->

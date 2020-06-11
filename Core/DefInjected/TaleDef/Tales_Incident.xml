@@ -271,6 +271,67 @@
     <li>desc_sentence->No hay ningún [Enemy] a la vista.</li>
   </Eclipse.rulePack.rulesStrings>
   
+  <!-- EN: journey offer -->
+  <EndGame_ShipEscape.label>invitación de viaje</EndGame_ShipEscape.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] receiving a message from an old friend</li>
+    <li>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</li>
+    <li>image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group]</li>
+    <li>delivery_method->a [Animal]</li>
+    <li>delivery_method->a [PersonJob]</li>
+    <li>delivery_method->[Quantity_adjphrase] [Animal]s</li>
+    <li>transmission_source->a rarely-used frequency</li>
+    <li>transmission_source->an ancient transmitter</li>
+    <li>transmission_source->a low-power signal</li>
+    <li>transmission_source->a long-range signal</li>
+    <li>transmission_source->a mysterious signal</li>
+    <li>circumstance_phrase->standing alone near a [TerrainFeature]</li>
+    <li>circumstance_phrase->exploring a [TerrainFeature]</li>
+    <li>circumstance_phrase->tending crops</li>
+    <li>circumstance_phrase->a [Animal] wanders past</li>
+    <li>circumstance_phrase->playing [Game]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware.</li>
+    <li>desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly].</li>
+    <li>desc_sentence->A spectral [PersonJob] watches from the clouds.</li>
+    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature].</li>
+    <li>desc_sentence->A [Community] is visible in the far distance.</li>
+    <li>desc_sentence->A spaceship is visible in the far distance.</li>
+  -->
+  <EndGame_ShipEscape.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] recibió un mensaje de un viejo amigo</li>
+    <li>tale_noun->una oportunidad se presentó para el/la [Community] de [PAWN_nameDef]</li>
+    <li>image->[PAWN_nameDef] abre una carta entragada por [delivery_method] mientras [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] usa un cristal de datos entregado por [delivery_method] mientras [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] desenrolla un pergamino entregado por [delivery_method] mientras [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] recibe una transmisión desde [transmission_source] mientras [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] recibe un mensaje desde [transmission_source] mientras [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] sintoniza un mensaje desde [transmission_source] mientras [circumstance_group]</li>
+    <li>delivery_method->un(a) [Animal]</li>
+    <li>delivery_method->un [PersonJob]</li>
+    <li>delivery_method->[Quantity_adjphrase] [Animal]s</li>
+    <li>transmission_source->una frecuencia apenas usada</li>
+    <li>transmission_source->un antiguo transmisor</li>
+    <li>transmission_source->una señal de baja potencia</li>
+    <li>transmission_source->una señal de largo alcance</li>
+    <li>transmission_source->una señal misteriosa</li>
+    <li>circumstance_phrase->se sienta junto a un [TerrainFeature]</li>
+    <li>circumstance_phrase->explora un [TerrainFeature]</li>
+    <li>circumstance_phrase->atiende los cultivos</li>
+    <li>circumstance_phrase->un(a) [Animal] se pasea cerca</li>
+    <li>circumstance_phrase->jugando [Game]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s se pasean cerca, sin preocuparse.</li>
+    <li>desc_sentence->Mientras [PAWN_pronoun] lee, [PAWN_pronoun] comienza a [VerbFriendly].</li>
+    <li>desc_sentence->Un [PersonJob] espectral observa desde las nubes.</li>
+    <li>desc_sentence->[PAWN_nameDef] se sienta junto a un [TerrainFeature].</li>
+    <li>desc_sentence->Un/una [Community] se ve a la distancia.</li>
+    <li>desc_sentence->Una nave espacial se ve a la distancia.</li>
+  </EndGame_ShipEscape.rulePack.rulesStrings>
+  
   <!-- EN: flashstorm -->
   <Flashstorm.label>tormenta eléctrica</Flashstorm.label>
   <!-- EN:
@@ -364,67 +425,6 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s huyen del área.</li>
     <li>desc_sentence->Toda la vida animal ha escapado del área.</li>
   </Infestation.rulePack.rulesStrings>
-  
-  <!-- EN: journey offer -->
-  <EndGame_ShipEscape.label>invitación de viaje</EndGame_ShipEscape.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] receiving a message from an old friend</li>
-    <li>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</li>
-    <li>image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group]</li>
-    <li>delivery_method->a [Animal]</li>
-    <li>delivery_method->a [PersonJob]</li>
-    <li>delivery_method->[Quantity_adjphrase] [Animal]s</li>
-    <li>transmission_source->a rarely-used frequency</li>
-    <li>transmission_source->an ancient transmitter</li>
-    <li>transmission_source->a low-power signal</li>
-    <li>transmission_source->a long-range signal</li>
-    <li>transmission_source->a mysterious signal</li>
-    <li>circumstance_phrase->standing alone near a [TerrainFeature]</li>
-    <li>circumstance_phrase->exploring a [TerrainFeature]</li>
-    <li>circumstance_phrase->tending crops</li>
-    <li>circumstance_phrase->a [Animal] wanders past</li>
-    <li>circumstance_phrase->playing [Game]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware.</li>
-    <li>desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly].</li>
-    <li>desc_sentence->A spectral [PersonJob] watches from the clouds.</li>
-    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature].</li>
-    <li>desc_sentence->A [Community] is visible in the far distance.</li>
-    <li>desc_sentence->A spaceship is visible in the far distance.</li>
-  -->
-  <EndGame_ShipEscape.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] recibió un mensaje de un viejo amigo</li>
-    <li>tale_noun->una oportunidad se presentó para el/la [Community] de [PAWN_nameDef]</li>
-    <li>image->[PAWN_nameDef] abre una carta entragada por [delivery_method] mientras [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] usa un cristal de datos entregado por [delivery_method] mientras [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] desenrolla un pergamino entregado por [delivery_method] mientras [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] recibe una transmisión desde [transmission_source] mientras [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] recibe un mensaje desde [transmission_source] mientras [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] sintoniza un mensaje desde [transmission_source] mientras [circumstance_group]</li>
-    <li>delivery_method->un(a) [Animal]</li>
-    <li>delivery_method->un [PersonJob]</li>
-    <li>delivery_method->[Quantity_adjphrase] [Animal]s</li>
-    <li>transmission_source->una frecuencia apenas usada</li>
-    <li>transmission_source->un antiguo transmisor</li>
-    <li>transmission_source->una señal de baja potencia</li>
-    <li>transmission_source->una señal de largo alcance</li>
-    <li>transmission_source->una señal misteriosa</li>
-    <li>circumstance_phrase->se sienta junto a un [TerrainFeature]</li>
-    <li>circumstance_phrase->explora un [TerrainFeature]</li>
-    <li>circumstance_phrase->atiende los cultivos</li>
-    <li>circumstance_phrase->un(a) [Animal] se pasea cerca</li>
-    <li>circumstance_phrase->jugando [Game]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s se pasean cerca, sin preocuparse.</li>
-    <li>desc_sentence->Mientras [PAWN_pronoun] lee, [PAWN_pronoun] comienza a [VerbFriendly].</li>
-    <li>desc_sentence->Un [PersonJob] espectral observa desde las nubes.</li>
-    <li>desc_sentence->[PAWN_nameDef] se sienta junto a un [TerrainFeature].</li>
-    <li>desc_sentence->Un/una [Community] se ve a la distancia.</li>
-    <li>desc_sentence->Una nave espacial se ve a la distancia.</li>
-  </EndGame_ShipEscape.rulePack.rulesStrings>
   
   <!-- EN: manhunter pack -->
   <ManhunterPack.label>manada cazahombres</ManhunterPack.label>

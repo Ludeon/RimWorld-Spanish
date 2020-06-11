@@ -2,14 +2,19 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days.\n\nAfter [lendForDays] days have passed, your colonists will be returned via drop pods.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription].\n\n[asker_pronoun] is asking you to lend [asker_objective] [colonistCountToLend] for [lendForDays] days.\n\n[willSendShuttle]</li>
     <li>disease->flu</li>
     <li>disease->plague</li>
     <li>disease->malaria</li>
     <li>disease->infection</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days. After [lendForDays] days have passed, your colonists will be returned via drop pods.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
+    <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)->colonist</li>
+    <li>colonists(colonistsToLendCount>1)->colonists</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
     <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] necesita ayuda para [dutyDescription]. Te pide que le cedas [colonistCountToLend] a [asker_faction_name] por un período de [lendForDays] días.\n\nDespués de [lendForDays] días, tus colonos regresarán en cápsulas de desembarco.\n\nSi aceptas, una lanzadera llegará para recoger a los [colonistCountToLend]. Cuando despegue con ellos a bordo, [allRewardsDescriptions]</li>
@@ -33,14 +38,18 @@
     <li>colonistHimThem(colonistsToLendCount==1)->el</li>
     <li>colonistHimThem(colonistsToLendCount>1)->ellos</li>
   </PawnLend.questDescriptionRules.rulesStrings>
-
   <!-- EN:
     <li>questName->[worker] Outsourcing</li>
     <li>questName->Contract [worker]s</li>
     <li>questName->Temporary Workers</li>
-    <li>questName->Colonist Lending</li>
+    <li>questName->[worker] Lending</li>
+    <li>questName->[worker]s for [asker_faction_name]</li>
+    <li>questName->Provisional [worker]s</li>
+    <li>questName->Requesting [worker]s</li>
     <li>worker->Colonist</li>
     <li>worker->Worker</li>
+    <li>worker->Laborer</li>
+    <li>worker->Helper</li>
   -->
   <PawnLend.questNameRules.rulesStrings>
     <li>questName->subcontratación de [worker]</li>
@@ -52,17 +61,7 @@
     <li>workers->Colono</li>
     <li>workers->Trabajador</li>
   </PawnLend.questNameRules.rulesStrings>
-
-  <!-- EN:
-    <rulesStrings>
-      <li>dutyDescription->gather the harvest</li>
-      <li>dutyDescription->fortify a settlement</li>
-      <li>dutyDescription->set up a settlement</li>
-      <li>dutyDescription->watch for raiders</li>
-      <li>dutyDescription->set up a hospital</li>
-      <li>dutyDescription->contain an outbreak of [disease]</li>
-    </rulesStrings> 
-  -->
+  <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
   <PawnLend.DutyRulesAny.slateRef>
     <rulesStrings>
       <li>dutyDescription->recolectar la cosecha</li>
@@ -73,18 +72,9 @@
       <li>dutyDescription->contener el brote de [disease]</li>
     </rulesStrings>
   </PawnLend.DutyRulesAny.slateRef>
-
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
   <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS} han vuelto tras ayudar a [asker_nameFull] de [asker_faction_name] a [dutyDescription].</PawnLend.LetterTextReturnAfterHelping.slateRef>
-
-  <!-- EN:
-    <rulesStrings>
-      <li>entertainerDescription->real hardy surface survivors</li>
-      <li>entertainerDescription->goofy jesters</li>
-      <li>entertainerDescription->foreign-accented servants</li>
-      <li>entertainerDescription->exotic human specimens</li>
-    </rulesStrings>
-  -->
+  <!-- EN: <rulesStrings><li>entertainerDescription->real hardy surface survivors</li><li>entertainerDescription->goofy jesters</li><li>entertainerDescription->foreign-accented servants</li><li>entertainerDescription->exotic human specimens</li></rulesStrings> -->
   <PawnLend.DutyRulesRoyal.slateRef>
     <rulesStrings>
       <li>entertainerDescription->supervivientes de la superficie, auténticos y robustos</li>
@@ -93,7 +83,6 @@
       <li>entertainerDescription->exóticos especímenes humanos</li>
     </rulesStrings>
   </PawnLend.DutyRulesRoyal.slateRef>
-
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
   <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} han regresado después de haber sido exhibidos como [entertainerDescription] en la corte del/de la [asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name].</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
@@ -108,5 +97,5 @@
   <PawnLend.LetterLabelColonistsReturned.slateRef>Los colonos han vuelto</PawnLend.LetterLabelColonistsReturned.slateRef>
   <!-- EN: $returnLetterText -->
   <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>{PAWNS} han regresado después de haber sido prestados a la facción  '[asker_faction_name]' temporalmente.</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>
-
+  
 </LanguageData>

@@ -12,8 +12,6 @@
   <ThroneRoomImpressivenessInfo>({0} sensación)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
   <ThroneMustBePlacedInside>El trono debe colocarse en el interior.</ThroneMustBePlacedInside>
-  <!-- EN: Throne room contains more than one throne, but this is only allowed for married couples. -->
-  <!--<ThroneRoomHasMoreThan1Throne>La sala del trono tiene más de un trono. Sin embargo, esto solo está permitido para parejas casadas.</ThroneRoomHasMoreThan1Throne>-->
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
   <MinimumRoyalTitleInspectString>Título mínimo ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
   <!-- EN: Trading here requires title: {0} -->
@@ -39,7 +37,7 @@
   <Reward_RoyalFavor>quiensea que acepte la misión recibirá {1} {0_royalFavorLabel} de la facción '{0_name}'</Reward_RoyalFavor>
   <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
   <Reward_RoyalFavor_ChoosePawn>Puede elegir uno de los participantes {2} seleccione uno para recibir {1} {0_royalFavorLabel} de {0_name} </Reward_RoyalFavor_ChoosePawn>
-
+  
   <!-- Ship landing beacons -->
   <!-- EN: Not usable -->
   <NotUsable>No disponible</NotUsable>
@@ -49,8 +47,9 @@
   <BlockedByRoof>obstruido por tejado</BlockedByRoof>
   <!-- EN: Too close to other beacon -->
   <TooCloseToOtherBeacon>Demasiado cerca de otra baliza</TooCloseToOtherBeacon>
-
+  
   <!-- Meditation -->
+
   <!-- EN: Psyfocus -->
   <Psyfocus>Psi-foco</Psyfocus>
   <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation. -->
@@ -85,7 +84,7 @@
   <AbilityReadyLabel>Habilidad lista: {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} está listo(a) para usar {1}.</AbilityReadyText>
-
+  
   <!-- EN: Initiate a speech from the throne. {ORGANIZER_labelShort} will go to {ORGANIZER_possessive} throne and call all colonists to listen to a speech there. If all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
   <AbilitySpeechTooltip>Iniciar un discurso desde el trono. {ORGANIZER_labelShort} se dirigirá hasta su trono y llamará a todos los colonos para que lo escuchen allí. Si todo marcha bien, los oyentes se sentirán inspirados, y ganarán respeto por {ORGANIZER_labelShort}. Si sale mal, el discurso infligirá daño social. El resultado depende de las habilidades sociales de {ORGANIZER_labelShort}.</AbilitySpeechTooltip>
   <!-- EN: no throne assigned. -->
@@ -117,5 +116,4 @@
   <LetterLabelLinkingRitualCompleted>Ritual de vinculación completado</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psycasts. -->
   <LetterTextLinkingRitualCompleted>{PAWN_labelShort} ha completado el ritual de vinculación con {LINKABLE_labelShort}.\n\nSu nivel psíquico ha mejorado, permitiendo el uso de nuevos poderes psíquicos.</LetterTextLinkingRitualCompleted>
-  
 </LanguageData>
