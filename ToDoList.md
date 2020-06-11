@@ -26,7 +26,8 @@
 	* [x] "Core/DefInjected/HediffDef/Hediffs_Local_Injuries.xml"					Lineas: 138 - 144
 	* [ ] "Core/DefInjected/HediffDef/Hediffs_Local_Misc.xml"						Lineas: 39 - 41
 	* [ ] "Core/DefInjected/HistoryAutoRecorderDef/HistoryAutoRecorders.xml"		Archivo pequeño, se ven bien.
-	* [ ] "Royalty/DefInjected/IncidentDef/incidents_Map_Special.xml"				Linea: 5 - 9
+	* [ ] "Royalty/DefInjected/IncidentDef/Incidents_Map_Special.xml"				Linea: 5 - 9
+	* [ ] "Royalty/DefInjected/JobDef/Jobs_Misc.xml"								hay uno nuevo y el viejo lo han cambiado.
 
 
 
