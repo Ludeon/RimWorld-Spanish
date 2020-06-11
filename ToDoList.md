@@ -25,6 +25,7 @@
 	* [ ] "Core/DefInjected/RulePackDef/RulePacks_Maneuvers.xml			A partir de la línea 58
 	* [x] "Core/Definjected/HediffDef/Hediffs_Local_Injuries.xml"		Lineas: 138 - 144
 	* [ ] "Core/Definjected/HediffDef/Hediffs_Local_Misc.xml"			Lineas: 39 - 41
+	* [ ] "Core/HistoryAutoRecorderDef/HistoryAutoRecorders.xml"		Archivo pequeño, se ven bien.
 
 
 
@@ -35,6 +36,7 @@
 	* [x] "Royalty/Keyed/MainTabs.xml"
 	* [ ] "Royalty/ConceptDef/Concept_Notedopportunistic.xml"
 	* [ ] "Royalty/Definjected/HediffDef/Hediffs_Local_Misc.xml"
+
 
 
 
