@@ -74,8 +74,14 @@
     <li>mechViolation->intentó piratear un nodo de control mecanoide</li>
     <li>mechViolation->intentó robar algo de un antiguo depósito</li>
     <li>letterSubject->{SUBJECT_definite}</li>
-    <li>lodgersHasHave(lodgersCount==1)->tiene</li>
-    <li>lodgersHasHave(lodgersCount>=2)->tener</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->ellos</li>
+    <li>lodgersIsAre(lodgersCount==1)->es</li>
+    <li>lodgersIsAre(lodgersCount>=2)->son</li>
+    <li>lodgers_Plural_S(lodgersCount==1)-></li>
+    <li>lodgers_Plural_S(lodgersCount>=2)->s</li>
+    <li>lodgersHasHave(lodgersCount==1)->ha</li>
+    <li>lodgersHasHave(lodgersCount>=2)->han</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Cualquier [lodgersLabelPlural] restante se marchará inmediamente.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->La misión [resolvedQuestName]' ha fracasado.</li>
