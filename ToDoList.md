@@ -24,10 +24,10 @@
 	* [x] "Core/DefInjected/TaleDef/Tales_Incident.xml"					Revisión de muchas líneas
 	* [ ] "Core/DefInjected/RulePackDef/RulePacks_Maneuvers.xml						A partir de la línea 58
 	* [x] "Core/DefInjected/HediffDef/Hediffs_Local_Injuries.xml"					Lineas: 138 - 144
-	* [ ] "Core/DefInjected/HediffDef/Hediffs_Local_Misc.xml"						Lineas: 39 - 41
-	* [ ] "Core/DefInjected/HistoryAutoRecorderDef/HistoryAutoRecorders.xml"		Archivo pequeño, se ven bien.
-	* [ ] "Royalty/DefInjected/IncidentDef/Incidents_Map_Special.xml"				Linea: 5 - 9
-	* [ ] "Royalty/DefInjected/JobDef/Jobs_Misc.xml"								hay uno nuevo y el viejo lo han cambiado.
+	* [x] "Core/DefInjected/HediffDef/Hediffs_Local_Misc.xml"						Queda elegir un nombre para "scaria"
+	* [ ] "Core/DefInjected/HistoryAutoRecorderDef/HistoryAutoRecorders.xml"			No entiendo la línea 20-21
+	* [x] "Royalty/DefInjected/IncidentDef/Incidents_Map_Special.xml"				Linea: 5 - 9
+	* [x] "Royalty/DefInjected/JobDef/Jobs_Misc.xml"						hay uno nuevo y el viejo lo han cambiado.
 
 
 
@@ -36,8 +36,8 @@
 * Archivos **nuevos**:
 	
 	* [x] "Royalty/Keyed/MainTabs.xml"
-	* [ ] "Royalty/ConceptDef/Concept_Notedopportunistic.xml"
-	* [ ] "Royalty/Definjected/HediffDef/Hediffs_Local_Misc.xml"
+	* [x] "Royalty/Definjected/ConceptDef/Concept_Notedopportunistic.xml"
+	* [x] "Royalty/Definjected/HediffDef/Hediffs_Local_Misc.xml"
 
 
 
