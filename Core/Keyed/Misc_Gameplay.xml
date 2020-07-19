@@ -176,7 +176,7 @@
   <UsingBedrolls>usando {0} sacos de dormir</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>Tiempo de llegada estimado: {0} días</CaravanEstimatedTimeToDestination>
-  <!-- EN: Estimated days to arrive: {0} -->
+  <!-- EN: Route travel time: {0} days -->
   <CaravanEstimatedDaysToDestination>Días estimados hasta la llegada: {0}</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>Inmobilizados: Demasiado peso.</CaravanImmobilizedByMass>
@@ -246,10 +246,10 @@
   <DeterioratingBecauseOf>Deteriorándose debido a</DeterioratingBecauseOf>
   <!-- EN: Map -->
   <Map>Mapa</Map>
-  <!-- EN: {0} until leaving -->
-  <ForceExitAndRemoveMapCountdown>{0} hasta la partida</ForceExitAndRemoveMapCountdown>
-  <!-- EN: Your colonists will automatically reform the caravan and leave this area in {0}. -->
-  <ForceExitAndRemoveMapCountdownTip>Tus colonos automáticamente reformarán la caravana y abandonarán este área en {0}.</ForceExitAndRemoveMapCountdownTip>
+  <!-- EN: {0} until enemies arrive -->
+  <CaravanDetectedRaidCountdown>TODO</CaravanDetectedRaidCountdown>
+  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
+  <CaravanDetectedRaidCountdownTip>TODO</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Habitación</Room>
   <!-- EN: Beauty here -->
@@ -368,7 +368,7 @@
   <CreatureFollowFieldwork>Seguir al maestro al hacer trabajo de campo</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} con {1}</ProximitySingleGoodwillChange>
-  <!-- EN: You can't re-enter for another {0} days. -->
+  <!-- EN: Too dangerous to re-enter for {0}. -->
   <EnterCooldown>No puedes volver a entrar en {0} días.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Caravana</Caravan>
@@ -378,8 +378,6 @@
   <PreciousLumpLabel>pedazo de {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>ningún proyecto de investigación activo</NoActiveResearchProjectToFinish>
-  <!-- EN: Cannot research: No research bench -->
-  <CannotResearchNoBench>No se puede investigar: sin mesa de invastigación</CannotResearchNoBench>
   <!-- EN: turret -->
   <Turret>torreta</Turret>
   <!-- EN: turrets -->
@@ -620,6 +618,8 @@
   <WatchingAurora>admirando la aurora.</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
   <UsingVerb>usando {0} en {1}.</UsingVerb>
+  <!-- EN: using {0}. -->
+  <UsingVerbNoTarget>TODO</UsingVerbNoTarget>
   <!-- EN: area -->
   <AreaLower>área</AreaLower>
   <!-- EN: cowering. -->
@@ -722,7 +722,7 @@
   <Faction>Facción</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
   <FactionDesc>La facción a la que {PAWN_labelShort} pertenece actualmnte.</FactionDesc>
-  <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
+  <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
   <ExtraFactionDesc>La facción a la que {PAWN_labelShort} pertenecía originalmente. {PAWN_pronoun} se volverá a unir a su facción original cuando se marche de la actual.</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>Equipamiento</Equipped>
@@ -1020,9 +1020,9 @@
   <HibernateWarningStandalonePacifist>El reactor está listo para encenderse. El proceso llevará alrededor de 15 días.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
-  <!-- EN: neurotrainer ({0}) -->
+  <!-- EN: skilltrainer ({0}) -->
   <SkillNeurotrainerLabel>neuroentrenador ({0})</SkillNeurotrainerLabel>
-  <!-- EN: Use skill neurotrainer to learn {0} -->
+  <!-- EN: Use skilltrainer to learn {0} -->
   <SkillNeurotrainerUseLabel>Usa el neuroentrenador de habilidades ara aprender {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>Una super dosis de mecanitas capaz de entrenar una habilidad específica.\n\nLa dosis es administrada a traves de la orbita del ojo. Una vez liberados en el cerebro, los mecanitas rápidamente mejoran las habilidades del sujeto en un área en concreto, convirtiendose en tejido nervioso segun sea necesario.</SkillNeurotrainerDescription>
@@ -1163,6 +1163,10 @@
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>Recursos de perforación profunda agotados.</DeepDrillExhaustedNoFallback>
 
+  <!-- reloading ammo -->
+  <!-- EN: Remaining charges -->
+  <ChargesRemaining>TODO</ChargesRemaining>
+  
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>Asistente de aprendizaje</LearningHelper>
@@ -1274,6 +1278,18 @@
   <Reward_CampLoot>puedes saquear todo el campamento</Reward_CampLoot>
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Botín del campamento</Reward_CampLoot_Label>
+  <!-- EN: the visitors will work and fight for you -->
+  <Reward_VisitorsHelp>TODO</Reward_VisitorsHelp>
+  <!-- EN: Visitors' help -->
+  <Reward_VisitorsHelp_Label>TODO</Reward_VisitorsHelp_Label>
+  <!-- EN: New psylink level -->
+  <Reward_BestowingCeremony_Label>TODO</Reward_BestowingCeremony_Label>
+  <!-- EN: {PAWNNAME} gains psylink -->
+  <Reward_BestowingCeremony>TODO</Reward_BestowingCeremony>
+  <!-- EN: {TITLE} title -->
+  <Reward_Title_Label>TODO</Reward_Title_Label>
+  <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
+  <Reward_Title>TODO</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>valor de {0}</TotalValue>
   
@@ -1284,6 +1300,12 @@
   <NotBonded>Aún no vinculado</NotBonded>
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>vinculado a otro</BladelinkBondedToSomeoneElse>
+  <!-- EN: (existing bond) -->
+  <BladelinkAlreadyBonded>TODO</BladelinkAlreadyBonded>
+  <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
+  <BladelinkAlreadyBondedDialog>TODO</BladelinkAlreadyBondedDialog>
+  <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
+  <BladelinkAlreadyBondedMessage>TODO</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
@@ -1311,4 +1333,9 @@
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Causado por: {0}</CausedByHediff>
   
+  <!-- UNUSED -->
+  <ForceExitAndRemoveMapCountdown>{0} hasta la partida</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>Tus colonos automáticamente reformarán la caravana y abandonarán este área en {0}.</ForceExitAndRemoveMapCountdownTip>
+  <CannotResearchNoBench>No se puede investigar: sin mesa de invastigación</CannotResearchNoBench>
+
 </LanguageData>

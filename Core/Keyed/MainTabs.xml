@@ -90,6 +90,8 @@
   <EnemyOf>Enemigo de: </EnemyOf>
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>Reputación actual y estado de relaciones con esta facción.</CurrentGoodwillTip>
+  <!-- EN: Current relations with this faction. -->
+  <CurrentRelationTip>TODO</CurrentRelationTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Esta facción es permanentemente hostil. Asaltarán tus asentamientos y caravanas. Las relaciones con ellos nunca mejorarán en ningún caso.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -240,6 +242,10 @@
   <ShuttleDepartsIn>La lanzadera parte en {0}</ShuttleDepartsIn>
   <!-- EN: Shuttle departs on {0} -->
   <ShuttleDepartsOn>La lanzadera parte el {0}</ShuttleDepartsOn>
+  <!-- EN: Guests depart in {0} -->
+  <GuestsDepartsIn>TODO</GuestsDepartsIn>
+  <!-- EN: Guests depart on {0} -->
+  <GuestsDepartsOn>TODO</GuestsDepartsOn>
   <!-- EN: Finished {0} ago -->
   <QuestFinishedAgo>Completada hace {0}</QuestFinishedAgo>
   <!-- EN: Accept quest -->
@@ -270,8 +276,14 @@
   <QuestBedroomRequirementsUnsatisfied>habitaciones vacías que satisfagan las exigencias de</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
   <QuestBedroomRequirementsUnsatisfiedSingle>una habitación vacía que satisfaga las exigencias de</QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestThroneRoomRequirementsUnsatisfied>TODO</QuestThroneRoomRequirementsUnsatisfied>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestNoThroneRoom>TODO</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0}. -->
   <QuestNoColonistWithTitle>un colono con el título de {0}.</QuestNoColonistWithTitle>
+  <!-- EN: {PAWN_definite} must be in home colony -->
+  <QuestPawnNotOnColonyMap>TODO</QuestPawnNotOnColonyMap>
   <!-- EN: Reward preferences -->
   <ChooseRewards>Elegir recompensas</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
@@ -292,6 +304,10 @@
   <GoodwillTip>Tu reputación con {0_name} mejorará en {1}.\n\nReputación actual: {4} ({5}).\n\nLa reputación mide las relaciones generales existentes entre facciones. Si cae por debajo de {2}, la facción se convertirá en hostil y atacará tus asentamientos y caravanas. Si sube por encima de {3}, la facción se convertirá en aliada y enviará luchadores para ayudarte cuando pueda. En los demás casos, la facción permanecerá neutral y comerciará y se comunicará contigo libremente.</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort} se incorpora a la colonia</PawnQuestReward>
+  <!-- EN: Betrayal offer: {0} targets remain -->
+  <QuestBetrayalOffer>TODO</QuestBetrayalOffer>
+  <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
+  <QuestBetrayalOfferTip>TODO</QuestBetrayalOfferTip>
   
   <!-- Health tab -->
   <!-- EN: Creates need -->
