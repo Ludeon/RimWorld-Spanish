@@ -19,6 +19,7 @@ El archivo [ToDoList.md](ToDoList.md) es el archivo en el que se anotarán aquel
 
 Arreglar **Backstories.xml**:
 --------------------
+Antes que nada, esto se puede ignorar y simplemente usar la herramienta de limpieza de archivos de traducción que provee el propio juego.
 Para darle formato al archivo **Backstories.xml** generado con la herramienta proporcionada por el juego, se han usado secuencialmente los siguientes 2 Regex de sustitución:
 * Primero:
 	* Find:		\n\n
