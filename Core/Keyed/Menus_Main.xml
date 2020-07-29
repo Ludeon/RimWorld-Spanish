@@ -110,7 +110,7 @@
   <WorldSeed>Semilla</WorldSeed>
   <!-- EN: Randomize seed -->
   <RandomizeSeed>Semilla aleatoria</RandomizeSeed>
-  <!-- EN: The planet is always the same diameter, but since it’s far larger than needed for play, we don’t generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
+  <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
   <PlanetCoverageTip>El planeta tiene siempre el mismo diámetro, pero ya que es mucho más grande de lo que se necesita realmente para jugar, no generamos la superficie completa pues ésto lleva mucho tiempo. Éste es el porcentaje de la superficie que quieres que se genere.</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>Facciones</WorldFactionsTab>
@@ -286,10 +286,6 @@
   <PermadeathModeInfo>Sólo se puede guardar cuando se sale del juego.\n\nDado que RimWorld es un generador de historias, perder a todos menos a una persona no es el final del juego - es parte de la historia. El juego está diseñado para poder recuperarse después de las pérdidas.\n\nHacer que estas terribles situaciones se den hace que la historia se tanto de tragedia como de triunfo. Es la forma en la que RimWorld fue diseñado para jugarse.\n\nHay una razón por la que Luke Skywalker no recargó la partida cuando sus padres murieron - ¡La pérdida y la recuperación son dramáticas!</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>La dificultad y el narrador se pueden cambiar en cualquier momento.</CanChangeStorytellerSettingsDuringPlay>
-  <!-- EN: Merciless mode -->
-  <UnlockExtremeDifficulty>Modo despiadado</UnlockExtremeDifficulty>
-  <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
-  <ConfirmUnlockExtremeDifficulty>El modo despiadado es un modo de juego especial en el que cada desafío se eleva a niveles extremos.\n\nEl modo despiadado se desbloquea automáticamente después de alcanzar algunos hitos específicos. Sin embargo, puedes desbloquearlo ahora.\n\nEsta opción sólo se recomienda después de haber jugado una, o varias, partidas con la dificultad máxima, y aún así querer morir por mucho que te esfuerces.</ConfirmUnlockExtremeDifficulty>
 
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
@@ -385,10 +381,10 @@
   <Difficulty_FriendlyFireChanceFactor_Label>TODO</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
   <Difficulty_FriendlyFireChanceFactor_Info>TODO</Difficulty_FriendlyFireChanceFactor_Info>
-  <!-- EN: Colonist instant-kill prevention -->
-  <Difficulty_AvoidInstantKillChance_Label>TODO</Difficulty_AvoidInstantKillChance_Label>
-  <!-- EN: Add a special chance to prevent colonists from dying instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AvoidInstantKillChance_Info>TODO</Difficulty_AvoidInstantKillChance_Info>
+  <!-- EN: Colonist instant kills -->
+  <Difficulty_AllowInstantKillChance_Label>TODO</Difficulty_AllowInstantKillChance_Label>
+  <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
+  <Difficulty_AllowInstantKillChance_Info>TODO</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
   <Difficulty_PlayerPawnInfectionChanceFactor_Label>TODO</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
@@ -441,7 +437,7 @@
   <Difficulty_AdaptationEffectFactor_Info>TODO</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Fixed wealth progress mode -->
   <Difficulty_FixedWealthMode_Label>TODO</Difficulty_FixedWealthMode_Label>
-  <!-- EN: Play in fixed wealth progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist, count, player wealth, and a variety of other factors. Fixed wealth progress mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In fixed progression mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
+  <!-- EN: Play in fixed wealth progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Fixed wealth progress mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In fixed progression mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
   <Difficulty_FixedWealthMode_Info>TODO</Difficulty_FixedWealthMode_Info>
   
   <!-- Site select -->
@@ -622,5 +618,9 @@
   <ClickForMoreInfo>Haz clic para más información</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>No hay más información disponible.</NoMoreInfoAvailable>
+
+  <!-- UNUSED -->
+  <UnlockExtremeDifficulty>Modo despiadado</UnlockExtremeDifficulty>
+  <ConfirmUnlockExtremeDifficulty>El modo despiadado es un modo de juego especial en el que cada desafío se eleva a niveles extremos.\n\nEl modo despiadado se desbloquea automáticamente después de alcanzar algunos hitos específicos. Sin embargo, puedes desbloquearlo ahora.\n\nEsta opción sólo se recomienda después de haber jugado una, o varias, partidas con la dificultad máxima, y aún así querer morir por mucho que te esfuerces.</ConfirmUnlockExtremeDifficulty>
 
 </LanguageData>

@@ -8,23 +8,25 @@
     <li>questDescription->Utilizando el escáner mineral de largo alcance, [worker_definite] ha encontrado una veta de [targetMineable_label] cercana.\n\nDesgraciadamente, no durará mucho - otros se quedarán con los recursos en [timeoutTicks_duration] si no nos apresuramos.\n\n[allSitePartsDescriptionsExceptFirst]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->The [subName]</li>
-    <li>questName->[subName]</li>
-    <li>subName->[adj] Resources</li>
-    <li>subName->[adj] Minerals</li>
-    <li>subName->[adj] Ores</li>
-    <li>subName->[adj] Wealth</li>
-    <li>subName->[adj] Mineables</li>
-    <li>subName->[adj] Lump</li>
-    <li>subName->[adj] Mining Project</li>
-    <li>adj->Distant</li>
-    <li>adj->Far</li>
-    <li>adj->Long-Range</li>
-    <li>adj->Unknown</li>
-    <li>adj->Discovered</li>
-    <li>adj->Scanned</li>
-    <li>adj->Detected</li>
-    <li>adj->Found</li>
+    <li>questName->[lump] of [targetMineable_label]</li>
+    <li>questName->[targetMineable_label] [lump]</li>
+    <li>questName->The [targetMineable_label] [lump]</li>
+    <li>questName->[adj] [targetMineable_label]</li>
+    <li>questName->[targetMineable_label] [discovered]</li>
+    <li>lump->lump</li>
+    <li>lump->pile</li>
+    <li>lump->deposit</li>
+    <li>lump->seam</li>
+    <li>lump->chunk</li>
+    <li>lump->pile</li>
+    <li>adj->distant</li>
+    <li>adj->far</li>
+    <li>adj->unknown</li>
+    <li>adj->scanned</li>
+    <li>discovered->discovered</li>
+    <li>discovered->detected</li>
+    <li>discovered->found</li>
+    <li>discovered->scanned</li>
   -->
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
     <li>questName->[subName]</li>
