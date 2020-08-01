@@ -19,4 +19,4 @@
 
 * **En general**:
 
-	* [ ] "Royal favour" es ahora "honor".
+	* [ ] "Royal favor" es ahora "honor".
