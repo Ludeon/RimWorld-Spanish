@@ -8,7 +8,7 @@ Consulte esta página para obtener información sobre la licencia e información
 ### Tareas pendientes:
 ---
 
-El archivo [ToDoList.md](ToDoList.md) es el archivo en el que se anotarán aquellos archivos que contengan nuevos **textos pendientes de traducción**, **nuevos archivos** necesarios para las traducciones y **que aún no están traducidos**, etc.
+El archivo [ToDoList.md](ToDoList.md) es el archivo en el que se anotarán aquellos archivos que contengan nuevos **textos pendientes de revisión**, **anotaciones**, etc.
 
 ### Arreglar **Backstories.xml**:
 ---
