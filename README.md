@@ -32,7 +32,7 @@ Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, 
         * Zakees
 
 
-* Tradcutores:
+* Traductores:
 	* Lord Mellington
 	* Capiqua 
 	* Gaesatae 
