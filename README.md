@@ -28,10 +28,11 @@ Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, 
 ---
 
 * Traductores Activos:
-	* Xeros08
+	* Xeros08 
+	* Zakees
 
 
-* Tradcutores:
+* Traductores:
 	* Lord Mellington
 	* Capiqua 
 	* Gaesatae 
