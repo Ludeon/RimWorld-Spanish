@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -127,39 +127,39 @@
     <li>destroyed_suffix->[to] fragments</li>
   -->
   <Maneuver_Poke.rulePack.rulesStrings>
-    <li>damaged_inf(p=2)->poke</li>
-    <li>damaged_inf(p=2)->jab</li>
-    <li>damaged_inf->prod</li>
-    <li>damaged_inf->shove</li>
-    <li>damaged_inf->stab</li>
-    <li>damaged_past(p=2)->poked</li>
-    <li>damaged_past(p=2)->jabbed</li>
-    <li>damaged_past->prodded</li>
-    <li>damaged_past->shoved</li>
+    <li>damaged_inf(p=2)->golpe</li>
+    <li>damaged_inf(p=2)->pinchazo</li>
+    <li>damaged_inf->pinchar</li>
+    <li>damaged_inf->empujón</li>
+    <li>damaged_inf->puñalada</li>
+    <li>damaged_past(p=2)->golpeado</li>
+    <li>damaged_past(p=2)->pinchado</li>
+    <li>damaged_past->pinchado</li>
+    <li>damaged_past->empujado</li>
     <li>damaged_past->apuñalado</li>
-    <li>damaged_present(p=2)->poking</li>
-    <li>damaged_present(p=2)->jabbing</li>
-    <li>damaged_present->prodding</li>
-    <li>damaged_present->shoving</li>
-    <li>damaged_present->stabbing</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving an enormous bruise</li>
-    <li>flavortext_consequence->leaving the area visibly deformed</li>
+    <li>damaged_present(p=2)->golpeado</li>
+    <li>damaged_present(p=2)->pinchado</li>
+    <li>damaged_present->empujado</li>
+    <li>damaged_present->empujado</li>
+    <li>damaged_present->apuñalado</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->dejando un enorme rasguño</li>
+    <li>flavortext_consequence->dejando el area visiblemente deformada</li>
     <li>flavortext_consequence->knocking [RECIPIENT_objective] off balance</li>
     <li>flavortext_consequence->knocking [RECIPIENT_objective] to the side</li>
-    <li>destroyed_past->shattered</li>
-    <li>destroyed_past->crushed</li>
-    <li>destroyed_past->obliterated</li>
-    <li>destroyed_past->annihilated</li>
-    <li>destroyed_past->broke</li>
-    <li>destroyed_present->shattering</li>
-    <li>destroyed_present->crushing</li>
-    <li>destroyed_present->obliterating</li>
-    <li>destroyed_present->annihilating</li>
-    <li>destroyed_present->breaking</li>
-    <li>destroyed_suffix->[to] pieces</li>
-    <li>destroyed_suffix->[to] bits</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to2] a fine mist</li>
-    <li>destroyed_suffix->[to] fragments</li>
+    <li>destroyed_past->destrozado</li>
+    <li>destroyed_past->aplastado</li>
+    <li>destroyed_past->extirpado</li>
+    <li>destroyed_past->aniquilado</li>
+    <li>destroyed_past->roto</li>
+    <li>destroyed_present->aplastando</li>
+    <li>destroyed_present->aplastando</li>
+    <li>destroyed_present->destruyendo</li>
+    <li>destroyed_present->aniquilando</li>
+    <li>destroyed_present->rompiendo</li>
+    <li>destroyed_suffix->[to] pedazos</li>
+    <li>destroyed_suffix->[to] pedazos</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to2] una fina niebla</li>
+    <li>destroyed_suffix->[to] fragmentos</li>
   </Maneuver_Poke.rulePack.rulesStrings>
   
   <!-- EN:
@@ -178,17 +178,17 @@
   <Maneuver_Scratch.rulePack.rulesStrings>
     <li>woundname->wound</li>
     <li>woundname(p=0.3)->opening</li>
-    <li>flavortext_situation(recipient_flesh!=Mechanoid)->with blood dripping from the [woundname]</li>
-    <li>flavortext_situation->with fluids dripping from the [woundname]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->and exposing the flesh underneath</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->and exposing the machinery underneath</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->and leaving a gory [woundname]</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy strips</li>
-    <li>destroyed_suffix->[to] strips</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy pieces</li>
-    <li>destroyed_suffix->[to] pieces</li>
-    <li>destroyed_suffix->[to] fragments</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a pile of gore</li>
+    <li>flavortext_situation(recipient_flesh!=Mechanoid)->con sangre goteando desde [woundname]</li>
+    <li>flavortext_situation->con fluidos goteando desde [woundname]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->y exponiendo la carne de debajo</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->y exponiendo los circuitos de debajo</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->y dejando una sangrienta [woundname]</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] tiras sucias</li>
+    <li>destroyed_suffix->[to] tiras</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] piezas sucias</li>
+    <li>destroyed_suffix->[to] piezas</li>
+    <li>destroyed_suffix->[to] fragmentos</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] un montón de sangre</li>
   </Maneuver_Scratch.rulePack.rulesStrings>
   
   <!-- EN:
@@ -216,7 +216,7 @@
     <li>destroyed_present->ripping</li>
   -->
   <Maneuver_Scratch_Damage.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->scratch</li>
+    <li>damaged_inf(p=4)->arañazo</li>
     <li>damaged_inf(deflected!=True)->lacerate</li>
     <li>damaged_inf(deflected!=True)->tear</li>
     <li>damaged_inf->cut</li>
@@ -302,8 +302,8 @@
     <li>woundname(p=0.3)->abertura</li>
     <li>flavortext_situation(recipient_flesh!=Mechanoid)->con sangre goteando de la [woundname]</li>
     <li>flavortext_situation->con fluidos que goteando de la [woundname]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->exponiendo la carne debajo</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->exponiendo los mecanismos debajo</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->exponiendo la carne de debajo</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->exponiendo los circuitos de debajo</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->dejando una sangrienta [woundname]</li>
     <li>destroyed_past->fileteado</li>
     <li>destroyed_past->dividido</li>
@@ -438,7 +438,7 @@
     <li>damaged_past(deflected!=True)->ensartado</li>
     <li>damaged_present(deflected!=True)->perforando</li>
     <li>damaged_present(deflected!=True)->perforando</li>
-    <li>damaged_present(deflected!=True)->penetrandi</li>
+    <li>damaged_present(deflected!=True)->penetrando</li>
     <li>damaged_present(deflected!=True)->ensantando</li>
     <!-- VOY POR ACÄ -->
     <li>woundname->agujero</li>
