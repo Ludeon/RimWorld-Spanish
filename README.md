@@ -24,12 +24,11 @@ Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, 
 
 ---
 ## Sobre lo de añadirse en los créditos:
-Se hará como en la traducción alemana del juego;
-
+Se hará como en la [traducción alemana del juego](https://github.com/Ludeon/RimWorld-de);
 Si quieres ser añadido a la lista de traductores, solo hay una regla:
 
-Tienes que ayudar con las traducciones de, por lo menos, dos actualizaciones mayores.
-Si después de cumplir los requisitos quieres aparecer en los créditos, podrás modificar el archivo ```LanguageInfo.xml``` y añadirte.
+Tienes que ayudar con las traducciones, por lo menos, de dos actualizaciones mayores.
+Si después de ello quieres aparecer en los créditos, podrás modificar el archivo ```LanguageInfo.xml``` y añadirte.
 
 Se entiende por actualización mayor, las que aumentan cualquiera de las dos primeras cifras que forman el número de la versión.
 Ejemplo: Pasar de la ```1.2``` a la ```1.2.1``` no es una actualización mayor, pero de la ```1.2``` a la ```1.3``` o la ```2.0```, si lo es.
