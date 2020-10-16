@@ -25,7 +25,10 @@ Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, 
 ---
 ## Sobre lo de añadirse en los créditos:
 Se hará como en la traducción alemana del juego;
-Si quieres ser añadido a la lista de traductores, solo hay una regla; Tienes que ayudar con las traducciones de, por lo menos, dos actualizaciones mayores.
+
+Si quieres ser añadido a la lista de traductores, solo hay una regla:
+
+Tienes que ayudar con las traducciones de, por lo menos, dos actualizaciones mayores.
 Si después de cumplir los requisitos quieres aparecer en los créditos, podrás modificar el archivo ```LanguageInfo.xml``` y añadirte.
 
 Se entiende por actualización mayor, las que aumentan cualquiera de las dos primeras cifras que forman el número de la versión.
