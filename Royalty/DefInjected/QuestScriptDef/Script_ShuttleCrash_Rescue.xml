@@ -25,37 +25,12 @@
     <li>shuttleDestroyedLetterLabel->Quest failed: [resolvedQuestName]</li>
     <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   -->
-  <ShuttleCrash_Rescue.questContentRules.rulesStrings>
-    <li>failLetterEndingCommon->Has fallado la misión "[resolvedQuestName]".</li>
-    <li>successLetterEndingCommon->Has completado con éxito la misión "[resolvedQuestName]".</li>
-    <li>goodwillSomeCiviliansLost->No todo [pawnLabel] [asker_faction_pawnSingular] podrá ser rescatado. [goodwillNegativelyAffected]</li>
-    <li>goodwillAllCiviliansLost->Ninguno de los [pawnLabelPlural] [asker_faction_pawnSingular] podrían ser rescatados. [goodwillNegativelyAffected]</li>
-    <li>goodwillNegativelyAffected->Tu buena voluntad con la facción [asker_faction_name] ha sido afectado negativamente por cada [pawnLabel] que queda.</li>
-    <li>commanderLandingDesc->[asker_nameDef], {asker_gender ? el : la} comandante que pidió aterrizar su lanzadera en [map_definite]</li>
-    <li>raidArrivedLetterLabel->Asalto: facción [enemyFaction_name]</li>
-    <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] de la facción [enemyFaction_name] han llegado. Atacarán a los [asker_faction_pawnsPlural] que se estrellaron en [map_definite].\n\nDefiende a los [asker_faction_pawnsPlural] hasta que su lanzadera de rescate llegue en [rescueShuttleAfterRaidDelay_duration].</li>
-    <li>rescueShuttleArrivedLetterLabel->El lanzadera de rescate llegó</li>
-    <li>rescueShuttleArrivedLetterText->El lanzadera de rescate ha llegado para recoger a [pawnLabelSingleOrPluralDef] que se [crashedLanded]. Asegúrate de tener a [thesePeople] en el lanzadera antes de que despegue en [rescueDelay_duration]:\n\n[civilians]</li>
-    <li>questCompletedSuccessLetterLabel->Misión cumplida: [resolvedQuestName]</li>
-    <li>questCompletedSuccessLetterText->[commanderLandingDesc], ha escapado. [asker_pronoun] está agradecid{asker_gender ? o : a} por la ayuda que recibió en [map_definite].\n\n[successLetterEndingCommon]</li>
-    <li>quest1J2WMuE8JJeN5WsA1v8DxhXBezXy1STMy3->Quest completed: [resolvedQuestName]</li>
-    <li>quest1J2WMuE8JJeN5WsA1v8DxhXBezXy1STMy3->[commanderLandingDesc], pudo escapar.\n\n[goodwillSdAmVfGT1K8MnsmuYQby2wJibmeiHnQwVHTMy37cr8fluRvLc5ket1J2WMuE8JJeN5WsA1v8DxhXBezXy1STMy3XuRvLxEz</li>
-    <li>askerLostLetterLabel->Misión fallida: [resolvedQuestName]</li>
-    <li>askerLostLetterText->[commanderLandingDesc] no estaba a bordo cuando el lanzadera partió.\n\n[goodwillSdAmVfGT1K8MnsmuYQby2wJibmeiHnQwVHTMy37cr8fluRvLc5ket1J2WMuE8JJeN5WsA1v8DxhXBezXy1STMy3XuRvLxE</li>
-    <li>allLostLetterLabel->Misión fallida: [resolvedQuestName]</li>
-    <li>allLostLetterText->El lanzadera de rescate para los [asker_faction_pawnsPlural] estrellados ha partido sin nadie a bordo.\n\n[goodwillbt1J2WMuE8JJeN5WsA1v8DxhXBezXy1STMy3zDf5ryEccW8</li>
-    <li>askerDiedLetterLabel->Misión fallida: [resolvedQuestName]</li>
-    <li>askerDiedLetterText->[commanderLandingDesc] ha muerto.\n\n[failLetterEndingCommon]</li>
-    <li>shuttleDestroyedLetterLabel->Misión fallida: [resolvedQuestName]</li>
-    <li>shuttleDestroyedLetterText->El lanzadera enviado a recoger a los [asker_faction_pawnsPlural]  estrellados ha sido destruido. Los [asker_faction_pawnsPlural] saldrán ahora a pie.\n\n[failLetterEndingCommon]</li>
-  </ShuttleCrash_Rescue.questContentRules.rulesStrings>  <!-- EN:
+  <ShuttleCrash_Rescue.questContentRules.rulesStrings>TODO</ShuttleCrash_Rescue.questContentRules.rulesStrings>
+  <!-- EN:
     <li>pawnLabel->civilian</li>
     <li>pawnLabelPlural->civilians</li>
   -->
-  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
-    <li>pawnLabel->civil</li>
-    <li>pawnLabelPlural->civiles</li>
-  </ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>TODO</ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
@@ -67,32 +42,7 @@
     <li>andCivilians(civilians_count==2)->and [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->and [pawnLabelPlural]</li>
   -->
-  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
-    <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
-    <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>pawnLabelSingleOrPluralDef(civilians_count==1)->el [pawnLabel]</li>
-    <li>pawnLabelSingleOrPluralDef(civilians_count>=2)->los [pawnLabelPlural]</li>
-    <li>crashedLanded(civilians_count==1)->estrelló</li>
-    <li>crashedLanded(civilians_count>=2)->estrellaron</li>
-    <li>thesePeople(civilians_count==1)->esta persona</li>
-    <li>thesePeople(civilians_count>=2)->estas personas</li>
-    <li>other(civilians_count==1)->otro</li>
-    <li>other(civilians_count>=2)->otros</li>
-    <li>other(civilians_count>=3)->otros</li>
-    <li>questDescription->Un lanzadera de la facción [asker_faction_name] ha sufrido daños y está buscando un lugar para aterrizar. Su comandante [asker_nameDef] quiere aterrizar en [map_definite].\n\n[enemyFaction_pawnsPlural] de la facción [enemyFaction_name] atacará el lugar donde se estrelló el lanzadera en un intento de matar a sus ocupantes. Debes defenderlos..\n\nEl interior del lanzadera está ocupado por [asker_nameDef][andOtherCivilians] y [soldiers_count] [soldiers0_kind]s. El comandante [andCivilians] [mustBe] ser [rescued], pero los [soldiers0_kind]s pueden ser sacrificados.\n\nDespués de [rescueDelay_duration], un lanzadera de rescate vendrá a recoger a los sobrevivientes. Tendrás que hacerlos abordar dentro de [leaveDelay_duration].</li>
-    <li>andOtherCivilians(civilians_count==1)-></li>
-    <li>andOtherCivilians(civilians_count==2)->, otro [pawnLabel],</li>
-    <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] [other] [pawnLabelSingleOrPlural],</li>
-    <li>andCivilians(civilians_count==1)-></li>
-    <li>andCivilians(civilians_count==2)->y el [pawnLabel]</li>
-    <li>andCivilians(civilians_count>=3)->y los [pawnLabelPlural]</li>
-    <li>mustBe(civilians_count==1)->debe</li>
-    <li>mustBe(civilians_count==2)->deben</li>
-    <li>mustBe(civilians_count>=3)->deben</li>
-    <li>rescued(civilians_count==1)->rescatado</li>
-    <li>rescued(civilians_count==2)->rescatados</li>
-    <li>rescued(civilians_count>=3)->rescatados</li>
-  </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>TODO</ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
     <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
@@ -114,35 +64,6 @@
     <li>landing->descent</li>
     <li>landing->approach</li>
   -->
-  <ShuttleCrash_Rescue.questNameRules.rulesStrings>
-    <li>questName->[shuttle] [crash]</li>
-    <li>questName->[shuttleFem] [crashFem]</li>
-    <li>questName->[asker_faction_pawnSingular] y el [shuttle] [crash]</li>
-    <li>questName->[asker_faction_pawnSingular] y la [shuttleFem] [crashFem]</li>
-    <li>questName->[shuttle] [damaged]</li>
-    <li>questName->[shuttleFem] [damagedFem]</li>
-    <li>questName->El [shuttle] [damaged] de [asker_nameDef]</li>
-    <li>questName->La [shuttleFem] [damagedFem] de [asker_nameDef]</li>
-    <li>questName->[landing] [emergency]</li>
-    <li>questName->El [landing] [emergency] [asker_nameDef]</li>
-    <li>shuttle->lanzadera</li>
-    <li>shuttle->transportador</li>
-    <li>shuttleFem->nave</li>
-    <li>crash->estrellado</li>
-    <li>crashFem->estrellada</li>
-    <li>crash->caído</li>
-    <li>crashFem->caída</li>
-    <li>damaged->dañado</li>
-    <li>damaged->desteriorado</li>
-    <li>damaged->defectuoso</li>
-    <li>damagedFem->dañada</li>
-    <li>damagedFem->desteriorada</li>
-    <li>damagedFem->defectuosa</li>
-    <li>emergency->emergencia</li>
-    <li>emergency->forzoso</li>
-    <li>landing->aterrizaje de</li>
-    <li>landing->descenso</li>
-    <li>landing->aterrizaje de</li>
-  </ShuttleCrash_Rescue.questNameRules.rulesStrings>
+  <ShuttleCrash_Rescue.questNameRules.rulesStrings>TODO</ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
 </LanguageData>
