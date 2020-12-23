@@ -135,7 +135,6 @@
     <li>lodgersLabel->refugiado</li>
     <li>lodgersLabelPlural->refugiados</li>
   </Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
-
   <!-- EN:
     <li>offer(lodgerCount==1)->offers</li>
     <li>offer(lodgerCount>=2)->offer</li>
@@ -236,7 +235,7 @@
     <li>lodgerPlural->nomads</li>
     <li>lodgerPlural->vagabonds</li>
   -->
-    <Hospitality_Refugee.questNameRules.rulesStrings>
+  <Hospitality_Refugee.questNameRules.rulesStrings>
     <li>questName(lodgerCount==1)->[asker_nameDef] el [lodgerAdj]</li>
     <li>questName(lodgerCount==1)->[athe] [lodgerSingle] [lodgerAdj]</li>
     <li>questName(p=2,lodgerCount>=2)->[lodgerPlural] [lodgerAdj]s</li>
@@ -273,7 +272,7 @@
     <li>rewardLetterLabel->Hospitality reward</li>
     <li>rewardLetterText->[rewardGiver_nameDef] has contacted you. [rewardDelayTicks_duration] ago, you helped [rewardGiver_objective] in desperate circumstances.\n\nSince then, [rewardGiver_pronoun] has gotten back on [rewardGiver_possessive] feet, and now [rewardGiver_pronoun] wants to reward you properly for your help. [rewardGiver_pronoun] is sending you the following via drop pod:\n\n[listOfRewards]</li>
   -->
-    <RefugeeDelayedReward.questContentRules.rulesStrings>
+  <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->Recompensa por la hospitalidad</li>
     <li>rewardLetterText->[rewardGiver_nameDef] ha contactado contigo. [rewardDelayTicks_duration] atrás, [rewardGiver_objective] ayudaste en circunstancias desesperadas.\n\nDesde entonces, [rewardGiver_pronoun] ha vuelto a ponerse en pie, y ahora quiere recompensarte adecuadamente por tu ayuda. [rewardGiver_pronoun] te está enviando lo siguiente a través de la cápsula de transpote:\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
