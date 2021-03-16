@@ -23,17 +23,6 @@ Para darle formato al archivo **Backstories.xml** generado con la herramienta pr
 Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, ser más eficaces a la hora de traducir dichos trasfondos, y que cada trasfondo y sus etiquetas identificadoras se mantengan intactas.
 
 ---
-## Sobre lo de añadirse en los créditos:
-Se hará como en la [traducción alemana del juego](https://github.com/Ludeon/RimWorld-de);
-Si quieres ser añadido a la lista de traductores, solo hay una regla:
-
-Tienes que ayudar con las traducciones, por lo menos, de dos actualizaciones mayores.
-Si después de ello quieres aparecer en los créditos, podrás modificar el archivo ```LanguageInfo.xml``` y añadirte.
-
-Se entiende por actualización mayor, las que aumentan cualquiera de las dos primeras cifras que forman el número de la versión.
-Ejemplo: Pasar de la ```1.2``` a la ```1.2.1``` no es una actualización mayor, pero de la ```1.2``` a la ```1.3``` o la ```2.0```, si lo es.
-
----
 ## Lista  traductores:
 
 * Traductores Activos:
