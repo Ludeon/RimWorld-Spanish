@@ -1,21 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-
-<!-- Regexs usados para arreglar el archivo:
-1º \\n\\n to \\n\\n
-2ª $1>\n\n\t< to $1>\\n\\n\t<
--->
-
-<!--
-| ============================================================= |
-| Inserción dinámica de texto:             (Keyed/Grammar.xml)  |
-| [PAWN_nameDef]            ==>          Nombre del personaje   |
-| [PAWN_pronoun]            ==>           El/Ella  |  el/ella   |
-| [PAWN_possessive]         ==>                Su  |  su        |
-| [PAWN_objective]          ==>             Lo/La  |  lo/la     |
-| [PAWN_Gender ? 1 : 2]     ===>            1: H 2: M           |
-| ============================================================= |
--->
-
 <BackstoryTranslations>
   
   <AbandonedChild23>
@@ -1967,6 +1950,15 @@
     <desc>[PAWN_nameDef] nació en un poderoso culto que despreciaba la tecnología y creía que todas las enfermedades podían ser curadas limpiando el alma con las artes sagradas.\n\nDespués del primer vistazo al mundo exterior, [PAWN_pronoun] decidió escapar.</desc>
   </CultChild3>
   
+  <CuriousChild33>
+    <!-- EN: curious child -->
+    <title>niño curioso</title>
+    <!-- EN: curious -->
+    <titleShort>curioso</titleShort>
+    <!-- EN: [PAWN_nameDef] was more interested in the systems and patterns of the world rather than its inhabitants. [PAWN_possessive] social skills suffered.\n\n[PAWN_nameDef] came to understand that all things are part of the whole, and to destroy part would be to destroy all. -->
+    <desc>[PAWN_nameDef] tenía más interés en los sistemas y patrones del mundo, antes que sus habitantes. [PAWN_possessive] habilidades sociales cayeron. \n\n[PAWN_nameDef] comprendió que todas las cosas eran parte del "todo", y que destruir una parte sería destruirlo todo.</desc>
+  </CuriousChild33>
+  
   <DataDecoder39>
     <!-- EN: data decoder -->
     <title>decodificador de datos</title>
@@ -1985,7 +1977,7 @@
     <!-- EN: student -->
     <titleShort>estudiante</titleShort>
     <!-- EN: The child of a wealthy manufacturer, [PAWN_nameDef] was pampered from an early age. [PAWN_pronoun] developed an affinity for reading and art, and a distaste for menial chores.\n\nA revolution brought [PAWN_possessive] father's businesses under state control. Penniless, [PAWN_nameDef] worked hard to complete [PAWN_possessive] education. -->
-    <desc>{PAWN_gender ? El hijo : La hija} de un fabricante acaudalado, [PAWN_nameDef] fue mimad{PAWN_gender ? o : a} desde muy temprana edad. Desarrolló una afinidad por la lectura y el arte, y una aversión por las tareas serviles. Una revolución puso los negocios de su padre bajo control estatal. Sin un céntimo, [PAWN_nameDef] trabajó duro para completar su educación.</desc>
+    <desc>{PAWN_gender ? El hijo : La hija de un fabricante acaudalado, [PAWN_nameDef] fue mimad{PAWN_gender ? o : a} desde muy temprana edad. Desarrolló una afinidad por la lectura y el arte, y una aversión por las tareas serviles. Una revolución puso los negocios de su padre bajo control estatal. Sin un céntimo, [PAWN_nameDef] trabajó duro para completar su educación.</desc>
   </DedicatedStudent12>
   
   <DeepSpaceMiner3>
@@ -4295,16 +4287,16 @@
     <desc>[PAWN_nameDef] pasó sus años de adolescencia como mercenari{PAWN_gender ? o : a}, siendo contratad{PAWN_gender ? o : a} para matar y mutilar a otros. [PAWN_pronoun] era alt{PAWN_gender ? o : a}, amenazante y aterrad{PAWN_gender ? or : ora}. [PAWN_pronoun] podría infundir miedo en los corazones de cualquier hombre que se cruzara en su camino y matar a quien quisiera.</desc>
   </Mercenary55>
   
-  <MercenaryCaptain56>
+  <MercenaryCaptain98>
     <!-- EN: Mercenary captain -->
     <title>capitán mercenario</title>
     <titleFemale>capitana mercenaria</titleFemale>
     <!-- EN: Captain -->
     <titleShort>capitán</titleShort>
     <titleShortFemale>capitana</titleShortFemale>
-    <!-- EN: [PAWN_pronoun] was in the crew of a mercenary ship. Disciplined and confident, [PAWN_nameDef] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the joywires. -->
+    <!-- EN: [PAWN_nameDef] was in the crew of a mercenary ship. Disciplined and confident, [PAWN_pronoun] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the joywires. -->
     <desc>[PAWN_nameDef], estaba en la tripulación de una nave mercenaria. Disciplinad{PAWN_gender ? o : a} y confiad{PAWN_gender ? o : a}, [PAWN_pronoun] rápidamente ascendió a través de las filas ganando amistades\n\nSu tiempo como un{PAWN_gender ?  : a} {PAWN_gender ? capitán : capitana} mercenari{PAWN_gender ? o : a}, era conocid{PAWN_gender ? o : a} por ser gregari{PAWN_gender ? o : a} y tranquil{PAWN_gender ? o : a}, posiblemente gracias a los alegrialambres.</desc>
-  </MercenaryCaptain56>
+  </MercenaryCaptain98>
   
   <MercenaryChef44>
     <!-- EN: mercenary chef -->
@@ -5693,6 +5685,15 @@
     <!-- EN: After leaving [PAWN_possessive] parents' vineyard, [PAWN_nameDef] traveled across much of known space, and learned many skills along the way.\n\n[PAWN_pronoun] spent most of [PAWN_possessive] time researching and interacting with reptile species. [PAWN_pronoun] was renowned for making several breakthroughs, and for discovering the "Thorny Devil". -->
     <desc>Después de dejar el viñedo de sus padres, [PAWN_nameDef] viajó a través de gran parte del espacio conocido, y aprendió muchas habilidades a lo largo del camino.\n\n[PAWN_pronoun] pasó la mayor parte de su tiempo investigando e interactuando con especies de reptiles. Era conocid{PAWN_gender ? o : a} por hacer varios descubrimientos, así como por descubrir el "Diablo Espinoso".</desc>
   </ReptileResearcher37>
+  
+  <Restorer70>
+    <!-- EN: restorer -->
+    <title>restaurador</title>
+    <!-- EN: restorer -->
+    <titleShort>restaurador</titleShort>
+    <!-- EN: [PAWN_nameDef] traveled the world, always looking for old and forgotten things to repair for the good of others, working to see the true beauty in all things. -->
+    <desc>[PAWN_nameDef] viajó por todo el mundo, siempre buscando cosas antiguas y olvidadas para reparar para el bien de otros, esforzándose por ver la verdadera belleza en todas las cosas.</desc>
+  </Restorer70>
   
   <RichBoy9>
     <!-- EN: rich boy -->
