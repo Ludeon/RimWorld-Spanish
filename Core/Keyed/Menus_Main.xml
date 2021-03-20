@@ -211,23 +211,23 @@
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>El mod necesita que la información de versiones soportadas tenga el formato adecuado en el archivo 'About.xml'. Este es un ejemplo: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> está en desuso. Revisa los registros para más información.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>El mod necesita un identificador único y con el fromato correcto en 'About.xml'. Debe cumplir los siguientes requisitos:\n\n  - Solo puntos y caracteres alfanuméricos.\n  - Sin espacios.\n  - Por lo menos un punto.\n  - No haber dos puntos seguidos.\n  - No empezar ni acabar con un punto.\n  - 60 characters or less.\n  - No puede contener la palabra "Ludeon".\n\nPor ejemplo:\n&lt;packageId>NombreAutor.NombreMod&lt;/packageId>\n&lt;packageId>NombreAutor.NombreMod.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>El mod necesita un identificador único y con el fromato correcto en 'About.xml'. Debe cumplir los siguientes requisitos:\n\n  - Solo puntos y caracteres alfanuméricos.\n  - Sin espacios.\n  - Por lo menos un punto.\n  - No haber dos puntos seguidos.\n  - No empezar ni acabar con un punto.\n  - 60 caracteres o menos.\n  - No puede contener la palabra "Ludeon".\n\nPor ejemplo:\n&lt;packageId>NombreAutor.NombreMod&lt;/packageId>\n&lt;packageId>NombreAutor.NombreMod.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
-  <ModHadLoadFolderIssues>Antes de poder subir eeste mod, hay errores en el archivo 'LoadFolders.xml' que debes solucionar.</ModHadLoadFolderIssues>
+  <ModHadLoadFolderIssues>Antes de poder subir este mod, hay errores en el archivo 'LoadFolders.xml' que debes solucionar.</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
-  <ModLoadFolderDoesntExist>La carpeta {0}, especificada para la versión {1} no existe.</ModLoadFolderDoesntExist>
+  <ModLoadFolderDoesntExist>La carpeta {0}, especificada para la versión {1}, no existe.</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
   <ModLoadFolderMalformedVersion>Formato de versión dalformado '{0}'. El formato correcto es Mayor.Menor (Ej: 1.1)</ModLoadFolderMalformedVersion>
   <!-- EN: The list of load folders for version {0} is empty. -->
   <ModLoadFolderListEmpty>La lista de carga de carpetas para la versión {0} está vacia.</ModLoadFolderListEmpty>
   <!-- EN: Version {0} lists the same folder more than once: {1}. -->
-  <ModLoadFolderRepeatingFolder>La versión {0} enumera la misma carpeta más de una vez: {1}..</ModLoadFolderRepeatingFolder>
+  <ModLoadFolderRepeatingFolder>La versión {0} enumera la misma carpeta más de una vez: {1}.</ModLoadFolderRepeatingFolder>
   <!-- EN: Invalid version order: {0} should come before {1}. -->
   <ModLoadFolderOutOfOrder>Orden de versiones inválido: {0} debería estar antes que {1}.</ModLoadFolderOutOfOrder>
   <!-- EN: Invalid version order: 'default' should be defined first. -->
   <ModLoadFolderOutOfOrderDefault>Orden de versiones inválido: 'default' debería ser el primero en ser definido.</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
-  <ModLoadFolderDefaultDeprecated>Usar 'default' en el archivo 'Load folders' está obsoleto. Porfavor define las carpetas para cada versión haciendo uso de las etiquetas 'v...'.</ModLoadFolderDefaultDeprecated>
+  <ModLoadFolderDefaultDeprecated>Usar 'default' en el archivo 'Load folders' está obsoleto. Por favor, define las carpetas para cada versión haciendo uso de las etiquetas 'v...'.</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
   <ModLoadFolderDefinesUnsupportedGameVersion>la versión {0} está definida en las carpetas de carga, pero no está enumerada en las 'supportedVersions' del archivo 'About.xml' del mod.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
@@ -285,17 +285,17 @@
   <!-- EN: Reload anytime mode -->
   <ReloadAnytimeMode>Modo recargar en cualquier momento</ReloadAnytimeMode>
   <!-- EN: Please choose commitment mode or reload anytime mode. -->
-  <MustChoosePermadeath>Por favor, elija una de las dos opciones.</MustChoosePermadeath>
+  <MustChoosePermadeath>Por favor, elige una de las dos opciones.</MustChoosePermadeath>
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
   <ReloadAnytimeModeInfo>Puedes guardar y cargar la partida en cualquier momento.\n\nEsta no es una mala elección si todavía estás aprendiendo a jugar, si se ajusta a tu estilo de juego u objetivos, si está utilizando mods que puedan dañar su juego, o si quieres auto-imponerte el modo de compromiso.</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
-  <PermadeathModeInfo>Sólo se puede guardar cuando se sale del juego.\n\nDado que RimWorld es un generador de historias, perder a todos menos a una persona no es el final del juego - es parte de la historia. El juego está diseñado para poder recuperarse después de las pérdidas.\n\nHacer que estas terribles situaciones se den hace que la historia se tanto de tragedia como de triunfo. Es la forma en la que RimWorld fue diseñado para jugarse.\n\nHay una razón por la que Luke Skywalker no recargó la partida cuando sus padres murieron - ¡La pérdida y la recuperación son dramáticas!</PermadeathModeInfo>
+  <PermadeathModeInfo>Sólo se puede guardar cuando se sale del juego.\n\nDado que RimWorld es un generador de historias, perder a todos menos a una persona no es el final del juego - es parte de la historia. El juego está diseñado para poder recuperarse después de las pérdidas.\n\nHacer que estas terribles situaciones se den hace que la historia sea tanto de tragedia como de triunfo. Es la forma en la que RimWorld fue diseñado para jugarse.\n\nHay una razón por la que Luke Skywalker no recargó la partida cuando sus padres murieron - ¡La pérdida y la recuperación son dramáticas!</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>La dificultad y el narrador se pueden cambiar en cualquier momento.</CanChangeStorytellerSettingsDuringPlay>
 
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
-  <DifficultyCustomSectionLabel>Ajustes de dificultad personalizada</DifficultyCustomSectionLabel>
+  <DifficultyCustomSectionLabel>Ajustes de dificultad personalizados</DifficultyCustomSectionLabel>
   <!-- EN: Set to standard playstyle... -->
   <DifficultyReset>Cargar ajustes recomendados...</DifficultyReset>
   
@@ -312,7 +312,7 @@
   <!-- EN: Quest threats -->
   <Difficulty_AllowViolentQuests_Label>Amenazas en las misiones</Difficulty_AllowViolentQuests_Label>
   <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
-  <Difficulty_AllowViolentQuests_Info>Permite que las misiones propongan grandes amenazas y retos violentos. Si esta opción está deshabilitada, las misiones serán modificadas para ser no violentas.</Difficulty_AllowViolentQuests_Info>
+  <Difficulty_AllowViolentQuests_Info>Permite que las misiones propongan grandes amenazas y retos violentos. Si esta opción está deshabilitada, las misiones serán modificadas para no ser violentas.</Difficulty_AllowViolentQuests_Info>
   <!-- EN: Intro threats -->
   <Difficulty_AllowIntroThreats_Label>Amenazas iniciales</Difficulty_AllowIntroThreats_Label>
   <!-- EN: Enable the fixed intro threats that appear near game start. -->
@@ -327,11 +327,11 @@
   <Difficulty_AllowExtremeWeatherIncidents_Info>Permite que se generen incidentes de clíma extremo como los inviernos volcánicos, las cenizas tóxicas y las tormentas.</Difficulty_AllowExtremeWeatherIncidents_Info>
 
   <!-- EN: Economy -->
-  <DifficultyEconomySection>Economia</DifficultyEconomySection>
+  <DifficultyEconomySection>Economía</DifficultyEconomySection>
   <!-- EN: Trade price disadvantage -->
   <Difficulty_TradePriceFactorLoss_Label>Desventaja en los precios</Difficulty_TradePriceFactorLoss_Label>
   <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
-  <Difficulty_TradePriceFactorLoss_Info>Al comerciar, los precios de comprea son incrementados por este factor, mientra que los precios de venta son reducidos.</Difficulty_TradePriceFactorLoss_Info>
+  <Difficulty_TradePriceFactorLoss_Info>Al comerciar, los precios de compra son incrementados por este factor, mientra que los precios de venta son reducidos.</Difficulty_TradePriceFactorLoss_Info>
   <!-- EN: Harvest yield -->
   <Difficulty_CropYieldFactor_Label>Productividad de cosecha</Difficulty_CropYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
@@ -343,7 +343,7 @@
   <!-- EN: Butchering yield -->
   <Difficulty_ButcherYieldFactor_Label>Productividad del despiece</Difficulty_ButcherYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
-  <Difficulty_ButcherYieldFactor_Info>Ajusta la cantidad de materiales producidos al descuartizar. Esto incluye la carne, las pieles, y la productividad del despieze de mecanoides.</Difficulty_ButcherYieldFactor_Info>
+  <Difficulty_ButcherYieldFactor_Info>Ajusta la cantidad de materiales producidos al descuartizar. Esto incluye la carne, las pieles, y la productividad del despiece de mecanoides.</Difficulty_ButcherYieldFactor_Info>
   <!-- EN: Research speed -->
   <Difficulty_ResearchSpeedFactor_Label>Velocidad de investigación</Difficulty_ResearchSpeedFactor_Label>
   <!-- EN: Adjust the speed of research. -->
@@ -351,11 +351,11 @@
   <!-- EN: Quest rewards -->
   <Difficulty_QuestRewardValueFactor_Label>Recompensas de misión</Difficulty_QuestRewardValueFactor_Label>
   <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_QuestRewardValueFactor_Info>Ajusta el valor de las recompensas de las misiones.\n\nNota: El valor de las recompensas de misión escala automáticamente para compensar con la escala de las amenazas. Si modificas este ajuste, estarás aañadiendo otro multiplicador.</Difficulty_QuestRewardValueFactor_Info>
+  <Difficulty_QuestRewardValueFactor_Info>Ajusta el valor de las recompensas de las misiones.\n\nNota: El valor de las recompensas de misión escala automáticamente para compensar con la escala de las amenazas. Si modificas este ajuste, estarás añadiendo otro multiplicador.</Difficulty_QuestRewardValueFactor_Info>
   <!-- EN: Raid loot -->
   <Difficulty_RaidLootPointsFactor_Label>Botín de asalto</Difficulty_RaidLootPointsFactor_Label>
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_RaidLootPointsFactor_Info>Ajusta el valor de los objetos que cargan los asaltantes.\n\nNota: El valor del 'botín de asalto' también escala automáticamente para compensar con la escala de las amenazas. Si modificas este ajuste, estarás aañadiendo otro multiplicador.</Difficulty_RaidLootPointsFactor_Info>
+  <Difficulty_RaidLootPointsFactor_Info>Ajusta el valor de los objetos que cargan los asaltantes.\n\nNota: El valor del 'botín de asalto' también escala automáticamente para compensar con la escala de las amenazas. Si modificas este ajuste, estarás añadiendo otro multiplicador.</Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
   <Difficulty_MaintenanceCostFactor_Label>Coste de rearme de torretas</Difficulty_MaintenanceCostFactor_Label>
   <!-- EN: Adjust the cost of rearming turrets. -->
@@ -382,11 +382,11 @@
   <!-- EN: Animal revenge chance -->
   <Difficulty_ManhunterChanceOnDamageFactor_Label>Probabilidad de venganza animal</Difficulty_ManhunterChanceOnDamageFactor_Label>
   <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Info>Ajusta la probabilidad de que herir a un animal salvaje provoque que este ataque.</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>Ajusta la probabilidad de que un animal salvaje ataque tras ser herido.</Difficulty_ManhunterChanceOnDamageFactor_Info>
   <!-- EN: Friendly fire -->
   <Difficulty_FriendlyFireChanceFactor_Label>Fuego amigo</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
-  <Difficulty_FriendlyFireChanceFactor_Info>Ajusta la probabilidad de fuego amigo.\n\nNota: Esto solo afecta a disparos directos que iban a golpear a su objetivo. Esto no previene el daño de exprosiones, o disparos que iban a fallar.</Difficulty_FriendlyFireChanceFactor_Info>
+  <Difficulty_FriendlyFireChanceFactor_Info>Ajusta la probabilidad de fuego amigo.\n\nNota: Esto solo afecta a disparos directos que iban a golpear a su objetivo. Esto no previene el daño de explosiones, o disparos que iban a fallar.</Difficulty_FriendlyFireChanceFactor_Info>
   <!-- EN: Colonist instant kills -->
   <Difficulty_AllowInstantKillChance_Label>Muerte instantánea de colonos</Difficulty_AllowInstantKillChance_Label>
   <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
@@ -452,13 +452,13 @@
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
-  <SelectStartingSite>Seleccione el lugar de inicio</SelectStartingSite>
+  <SelectStartingSite>Selecciona el lugar de inicio</SelectStartingSite>
   <!-- EN: Select random site -->
   <SelectRandomSite>Elegir lugar al azar</SelectRandomSite>
   <!-- EN: Select site -->
   <SelectSite>Seleccionar lugar</SelectSite>
   <!-- EN: Please select a site. -->
-  <MustSelectStartingSite>Por favor, seleccione un sitio.</MustSelectStartingSite>
+  <MustSelectStartingSite>Por favor, selecciona un sitio.</MustSelectStartingSite>
   <!-- EN: You cannot land on this biome: {0} -->
   <CannotLandBiome>No puedes aterrizar en este bioma: {0}</CannotLandBiome>
   <!-- EN: Biome not implemented -->
@@ -486,19 +486,19 @@
   <!-- EN: Fertility -->
   <Fertility>Fertilidad</Fertility>
   <!-- EN: Average temperature -->
-  <AvgTemp>Temperaturas medias</AvgTemp>
+  <AvgTemp>Temperatura media</AvgTemp>
   <!-- EN: Rainfall -->
   <Rainfall>Precipitaciones</Rainfall>
   <!-- EN: Special features -->
   <SpecialFeatures>Características especiales</SpecialFeatures>
   <!-- EN: northern coast -->
-  <HasCoast0>Costa al norte</HasCoast0>
+  <HasCoast0>costa al norte</HasCoast0>
   <!-- EN: eastern coast -->
-  <HasCoast1>Costa al este</HasCoast1>
+  <HasCoast1>costa al este</HasCoast1>
   <!-- EN: southern coast -->
-  <HasCoast2>Costa al sur</HasCoast2>
+  <HasCoast2>costa al sur</HasCoast2>
   <!-- EN: western coast -->
-  <HasCoast3>Costa al oeste</HasCoast3>
+  <HasCoast3>costa al oeste</HasCoast3>
   <!-- EN: caves -->
   <HasCaves>cuevas</HasCaves>
   <!-- EN: Faction base -->
@@ -522,15 +522,15 @@
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->
-  <CreateCharacters>Elejir personajes</CreateCharacters>
+  <CreateCharacters>Elegir personajes</CreateCharacters>
   <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
-  <FirstNameDesc>El nombre del personaje.\n\nEste solo se mostrará en ciertos menús.</FirstNameDesc>
+  <FirstNameDesc>El nombre del personaje.\n\nÉste solo se mostrará en ciertos menús.</FirstNameDesc>
   <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
-  <ShortIdentifierDesc>El identificador del personaje.\n\nEste es el que se mostrará en todo momento. Puede ser su nombre, apellido o un apodo.</ShortIdentifierDesc>
+  <ShortIdentifierDesc>El identificador del personaje.\n\nÉste es el que se mostrará en todo momento. Puede ser su nombre, apellido o un apodo.</ShortIdentifierDesc>
   <!-- EN: The character's last name.\n\nThis is only displayed in certain menus. -->
-  <LastNameDesc>El apellido del personaje.\n\nEste solo se mostrará en ciertos menús.</LastNameDesc>
+  <LastNameDesc>El apellido del personaje.\n\nÉste solo se mostrará en ciertos menús.</LastNameDesc>
   <!-- EN: Randomize -->
-  <Randomize>Randomizar</Randomize>
+  <Randomize>Aleatorio</Randomize>
   <!-- EN: age {0} -->
   <AgeIndicator>{0} años de edad</AgeIndicator>
   <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
@@ -600,7 +600,7 @@
   <!-- EN: Back -->
   <Back>Atrás</Back>
   <!-- EN: Change material... -->
-  <ShowMaterials>Mostrar Materiales</ShowMaterials>
+  <ShowMaterials>Mostrar materiales</ShowMaterials>
   <!-- EN: Gameplay -->
   <Gameplay>Jugabilidad</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
