@@ -98,6 +98,20 @@
     <li>PersonalCharacteristic(p=0.15)->destreza sexual</li>
     <li>PersonalCharacteristic(p=0.15)->preferencias sexuales</li>
     <li>PersonalCharacteristic(p=0.15)->experiencia sexual</li>
+    <!--Reglas Especiales-->
+    <li>refugee_o_a(refugee_gender!=Female)->o</li>
+    <li>refugee_o_a(refugee_gender==Female)->a</li>
+    <li>refugee_ununa(refugee_gender!=Female)->un</li>
+    <li>refugee_ununa(refugee_gender==Female)->una</li>
+
+    <li>joiner_ununa(joiner_gender!=Female)->un</li>
+    <li>joiner_ununa(joiner_gender==Female)->una</li>
+    <li>joiner_a(joiner_gender!=Female)->un</li>
+    <li>joiner_a(joiner_gender==Female)->una</li>
+    <li>joiner_A(joiner_gender!=Female)->Un</li>
+    <li>joiner_A(joiner_gender==Female)->Una</li>
+    <li>joiner_o_a(joiner_gender!=Female)->o</li>
+    <li>joiner_o_a(joiner_gender==Female)->a</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:

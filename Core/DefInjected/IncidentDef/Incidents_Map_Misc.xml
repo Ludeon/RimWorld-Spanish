@@ -92,7 +92,7 @@
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <WandererJoin.letterLabel>Vagabundo se une</WandererJoin.letterLabel>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing. -->
-  <WandererJoin.letterText>Un {PAWN_kind} llamado(a) {PAWN_nameDef} ha llegado y se ha unido a la colonia. {PAWN_pronoun} es un {PAWN_title}.\n\n[PAWN_pronoun] está dispuesto(a) a contribuir, pero no se irá voluntariamente. Si no quieres a {PAWN_nameDef}, puedes desterrar{PAWN_objective}, vender{PAWN_objective} como esclavo(a), o simplemente matar{PAWN_objective}. Sin embargo, tus otros colonos podrían encontrar esto perturbador.</WandererJoin.letterText>
+  <WandererJoin.letterText>{PAWN_gender ? Un : Una} {PAWN_kind} {PAWN_gender ? llamado : llamada} {PAWN_nameDef} ha llegado y se ha unido a la colonia. {PAWN_pronoun} es {PAWN_gender ? un : una} {PAWN_title}.\n\n[PAWN_pronoun] está {PAWN_gender ? dispuesto : dispuesta} a contribuir, pero no se irá voluntariamente. Si no quieres a {PAWN_nameDef}, puedes desterrar{PAWN_objective}, vender{PAWN_objective} como {PAWN_gender ? esclavo : esclava}, o simplemente matar{PAWN_objective}. Sin embargo, tus otros colonos podrían encontrar esto perturbador.</WandererJoin.letterText>
   
   <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>salvaje errante</WildManWandersIn.label>

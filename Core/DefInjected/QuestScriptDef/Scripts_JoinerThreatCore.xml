@@ -5,7 +5,8 @@
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is being chased by [enemyFaction_pawnsPlural] from [enemyFaction_name]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, you'll have to fight off the [enemyFaction_pawnsPluralDef] on [joiner_possessive] tail. The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->Un/una [joiner_title] de [joiner_age] años llamado(a) [joiner_nameDef] te llama por radio. ¡Está siendo perseguido(a) por [enemyFaction_pawnsPlural] de [enemyFaction_name]!\n\nTe ruega [joiner_objective] que pongas a salvo y te ofrece unirse a ti en [map_definite].[joiner_relationInfo]\n\nSi aceptas, tendrás que combatir con los [enemyFaction_pawnsPluralDef] que van tras [joiner_pronoun]. El grupo de [enemyFaction_pawnsPlural] está integrado por: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] está demasiado nervioso(a) para ofrecerte más información.</li>
+    <li>questDescription(joiner_gender!=Female)->Un [joiner_title] de [joiner_age] años llamado [joiner_nameDef] te llama por radio. ¡Está siendo perseguido por [enemyFaction_pawnsPlural] de [enemyFaction_name]!\n\nTe ruega [joiner_objective] que pongas a salvo y te ofrece unirse a ti en [map_definite].[joiner_relationInfo]\n\nSi aceptas, tendrás que combatir con los [enemyFaction_pawnsPluralDef] que van tras [joiner_pronoun]. El grupo de [enemyFaction_pawnsPlural] está integrado por: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] está demasiado nervioso para ofrecerte más información.</li>
+    <li>questDescription(joiner_gender==Female)->Una [joiner_title] de [joiner_age] años llamada [joiner_nameDef] te llama por radio. ¡Está siendo perseguida por [enemyFaction_pawnsPlural] de [enemyFaction_name]!\n\nTe ruega [joiner_objective] que pongas a salvo y te ofrece unirse a ti en [map_definite].[joiner_relationInfo]\n\nSi aceptas, tendrás que combatir con los [enemyFaction_pawnsPluralDef] que van tras [joiner_pronoun]. El grupo de [enemyFaction_pawnsPlural] está integrado por: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] está demasiado nerviosoa para ofrecerte más información.</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
@@ -29,7 +30,7 @@
     <li>questName->[enemyFaction_pawnsPlural] a la caza de [runnerIndef]</li>
     <li>questName->[runnerIndef] en plena huida</li>
     <li>questName->[runnerIndef] busca un hogar</li>
-    <li>questName->[runnerIndef] perseguido(a) por [enemyFaction_pawnsPlural]</li>
+    <li>questName->[runnerIndef] perseguido por [enemyFaction_pawnsPlural]</li>
     <li>questName->[runnerIndef] y [enemyFaction_pawnsPlural]</li>
     <li>runnerIndef->[joiner_titleIndef]</li>
     <li>runnerIndef->[joiner_nameIndef]</li>
