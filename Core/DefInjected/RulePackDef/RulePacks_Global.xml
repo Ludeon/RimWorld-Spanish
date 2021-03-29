@@ -50,6 +50,12 @@
     <li>PersonalCharacteristic(p=0.15)->sexual preferences</li>
     <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
   -->
+  <GlobalUtility.rulePack.rulesFiles>
+
+  </GlobalUtility.rulePack.rulesFiles>
+
+
+
   <GlobalUtility.rulePack.rulesStrings>
     <li>Trans->de</li>
     <li>Trans->para</li>
@@ -103,15 +109,16 @@
     <li>refugee_o_a(refugee_gender==Female)->a</li>
     <li>refugee_a(refugee_gender!=Female)->un</li>
     <li>refugee_a(refugee_gender==Female)->una</li>
-
-    <li>joiner_ununa(joiner_gender!=Female)->un</li>
-    <li>joiner_ununa(joiner_gender==Female)->una</li>
+    <!--Special Rules for joiner quest-->
     <li>joiner_a(joiner_gender!=Female)->un</li>
     <li>joiner_a(joiner_gender==Female)->una</li>
-    <li>joiner_A(joiner_gender!=Female)->Un</li>
-    <li>joiner_A(joiner_gender==Female)->Una</li>
     <li>joiner_o_a(joiner_gender!=Female)->o</li>
     <li>joiner_o_a(joiner_gender==Female)->a</li>
+    <!--Special Rules for asker quest-->
+    <li>asker_a(asker_gender!=Female)->un</li>
+    <li>asker_a(asker_gender==Female)->una</li>
+    <li>asker_o_a(asker_gender!=Female)->o</li>
+    <li>asker_o_a(asker_gender==Female)->a</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:
