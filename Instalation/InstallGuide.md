@@ -4,10 +4,8 @@ Para simplificar el proceso de instalación (y actualización) de las traduccion
 Igualmente, hará falta un poco preparación, y el proceso variará ligeramente dependiendo del sistema operivo que usemos.
 
 ## Windows:
-Nota: El script solo ha sido probado en windows.
-TODO: Desarrollar el script para Windows
+Nota: Los scripts solo han sido probados en windows.
 
-Descargar el repositorio como .zip, y descomprimirlo en Descargas
 Descargar el [script para Windows](_Windows.bat), y colocarlo dentro de la carpeta del juego.
 Ejecutar el script
 
