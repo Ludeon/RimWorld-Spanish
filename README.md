@@ -6,6 +6,13 @@ Consulte esta página para obtener información sobre la licencia e información
 [Enlace a la guia en los foros oficiales](http://ludeon.com/forums/index.php?topic=2933.0)
 
 ---
+### Instalación de las últimas traducciones
+Las traducciones que vienen con el juego no se actualizan automaticamente.
+Cada vez que el juego se actualiza, Ludeon coge los archivos de los repositorios oficiales y los "empaquetan" para incluirlos en el juego.
+
+Si quereís actualizar las traducciones a las más recientes; seguid [esta guía](Instalation/InstallGuide.md), o [esta otra](Instalation/ManualInstallGuide.md) para hacerlo manualmente.
+
+---
 ### Tareas pendientes:
 El archivo [ToDoList.md](ToDoList.md) es el archivo en el que se anotarán aquellos archivos que contengan nuevos **textos pendientes de revisión**, **anotaciones**, etc.
 
