@@ -16,7 +16,7 @@ Igualmente, hará falta un poco preparación, y el proceso variará ligeramente 
 
 Una vez hallas instalado (o actualizado) las traducciones, tendrás que abrir el juego y cambiar el idioma del juego a: `Spanish (GitHub)`
 
-Cuando el juego se reinicie, pndrá que estás usando el Idioma `Spanish (Español(Castellano))`, esto está bien.
+Cuando el juego se reinicie, pondrá que estás usando el Idioma `Spanish (Español(Castellano))`, esto está bien.
 
 ---
 ## Linux:
