@@ -12,6 +12,7 @@
 	 |================================================================|
 		
 		Nota: Se deben crear etiquetas de ambos sexos en los títulos en la mayoría de los casos porque cuando se usan los artículos definidos e indefinidos en códigos, si el juego no detecta el título femenino siempre asumirá el masculino dejando frases como esta: María es "un" terapeuta en vez de María es "una" terapeuta, habrá casos donde no se mostrará así a menos que se creen condiciones especiales, esto porque cuando se usa el "Indef" en varias misiones se define con el sexo del peón y no con el título, por lo que el caso particular de "una político" estará presente hasta que no cree un condicional especial para ese y otros títulos.  
+		
 		Nota: Cuando reviseis los Trasfondos, poned un marcador para indicar donde lo habeís dejado. No borreís los viejos 
 	 -->
 
@@ -116,7 +117,7 @@
 		<titleShort>sacerdote</titleShort>
 		<titleShortFemale>sacerdotisa</titleShortFemale>
 		<!-- EN: Ever the dreamer, [PAWN_nameDef] traveled across the universe to find the thing [PAWN_pronoun] felt was calling to him.\n\n[PAWN_pronoun] became poorer and poorer, but used every means possible to carry on. -->
-		<desc>Siempre {PAWN_gender ? soñador : soñadora}, [PAWN_nameDef] viajó por todo el universo para encontrar lo que sentía que [PAWN_objective] llamaba.\n\n[PAWN_pronoun] se hizo más pobre y más pobre, pero utilizó todos los medios posibles para continuar.</desc>
+		<desc>Siempre {PAWN_gender ? soñador : soñadora}, [PAWN_nameDef] viajó por todo el universo para encontrar lo que sentía que [PAWN_objective] llamaba.\n\n[PAWN_pronoun] se hizo más y más pobre, pero utilizó todos los medios posibles para continuar.</desc>
 	</AcolyteOfStars6>
 	
 	<Actor72>
@@ -149,7 +150,7 @@
 		<titleShort>aventurero</titleShort>
 		<titleShortFemale>aventurera</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s thirst for adventure took [PAWN_objective] to many planets. [PAWN_pronoun] visited the brightest glitterworlds and the darkest war-torn toxic planets in [PAWN_possessive] quest to find novelty and excitement.\n\n[PAWN_pronoun] worked as little as possible, often skirting ethical boundaries to make a quick buck. Among all jobs, [PAWN_pronoun] hated cooking the most. -->
-		<desc>La sed de aventura de [PAWN_nameDef] [PAWN_objective] llevó a muchos planetas. Visitó los más luminosos mundos brillantes y los planetas tóxicos más oscuros devastados por la guerra en su búsqueda de nuevas experiencias y emociones.\n\nTrabajó lo menos posible, a menudo esquivando límites éticos para hacer dinero rápido. Entre todos los trabajos, lo que más odiaba era cocinar.</desc>
+		<desc>La sed de aventura de [PAWN_nameDef] [PAWN_objective] llevó a muchos planetas. Visitó los más luminosos mundos brillantes y los planetas tóxicos más oscuros devastados por la guerra en su búsqueda de nuevas experiencias y emociones.\n\nTrabajó lo menos posible, a menudo rozando los límites éticos para hacer dinero rápido. Entre todos los trabajos, lo que más odiaba era cocinar.</desc>
 	</Adventurer19>
 	
 	<AdventuringChild30>
@@ -160,8 +161,12 @@
 		<titleShort>aventurero</titleShort>
 		<titleShortFemale>aventurera</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was raised to become an engineer. For years, [PAWN_pronoun] planned to stow away on a cargo ship and start a new, more adventuresome life.\n\nOne night, after [PAWN_possessive] parents fell asleep, [PAWN_pronoun] managed to sneak on board a cargo ship just before it left port. -->
-		<desc>[PAWN_nameDef] fue criad{PAWN_gender ? o : a} para convertirse en ingenier{PAWN_gender ? o : a}. Durante años, planeó refugiarse en un buque de carga e iniciar una nueva vida más aventurera.\n\nUna noche, después de que sus padres se durmieran, logró escabullirse a bordo de una nave de carga, justo antes de que saliera del puerto.</desc>
+		<desc>[PAWN_nameDef] fue criad{PAWN_gender ? o : a} para convertirse en ingenier{PAWN_gender ? o : a}. Durante años, planeó refugiarse en un carguero e iniciar una nueva vida más aventurera.\n\nUna noche, después de que sus padres se durmieran, logró escabullirse a bordo de una nave de carga, justo antes de que partiera.</desc>
 	</AdventuringChild30>
+	
+	<!-- =================================
+	===== Xeros: Revisado hasta aquí =====
+	================================== -->
 	
 	<AdventurousWeirdo55>
 		<!-- EN: adventurous weirdo -->
