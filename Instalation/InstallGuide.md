@@ -3,11 +3,16 @@ Para simplificar el proceso de instalación (y actualización) de las traduccion
 Igualmente, hará falta un poco preparación, y el proceso variará ligeramente dependiendo del sistema operivo que usemos.
 
 ## Windows:
-Para actualizar las traducciones seguiremos estos otros pasos:
-1. Descargar el [script de actualización para Windows](_update.bat).
-2. Puedes descargar el script mediante el comando: `curl -LJO https://raw.githubusercontent.com/Ludeon/RimWorld-Spanish/master/Instalation/_update.bat`
+### Pasos para actualizar las traducciones:
+1. Descargar el [script de actualización para Windows](_update.bat) (Seguir pasos abajo).
 3. Mover el script al directorio raíz del juego. Este normalmente es: `C:\Program Files (x86)\Steam\steamapps\common\RimWorld`
 4. Ejecutar el script.
+
+### Pasos para descargar el Script:
+1. Pulsar las teclas `Win+R`.
+2. En el menú, escribir `cmd` y pulsar `Intro`. Se nos abrirá una terminal.
+3. Ejecutaremos el siguiente comando: `cd .\Downloads\ && curl -LJO https://raw.githubusercontent.com/Ludeon/RimWorld-Spanish/master/Instalation/_update.bat`
+4. Ya se nos ha descargado el script en la carpeta de Descargas. Podemos cerrar la terminal.
 
 Una vez hallas instalado (o actualizado) las traducciones, tendrás que abrir el juego y cambiar el idioma del juego a: `Spanish (GitHub)`
 
