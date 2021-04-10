@@ -34,10 +34,9 @@ Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, 
 * Traductores Activos:
 	* Zakees
 	* Zerstrick
-
+	* Xeros08 
 
 * Traductores:
-	* Xeros08 
 	* Lord Mellington
 	* Capiqua 
 	* Gaesatae 
