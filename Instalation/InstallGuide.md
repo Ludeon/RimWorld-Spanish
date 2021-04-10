@@ -9,4 +9,5 @@ TODO: Desarrollar el script para Windows
 ---
 ## Linux:
 TODO: Desarrollar el script para Linux
+
 ---
