@@ -312,7 +312,7 @@
 		<titleShort>técnico de laboratorio</titleShort>
 		<titleShortFemale>técnico de laboratorio</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] worked as a technician in a lab studying animals.\n\n[PAWN_pronoun] spent [PAWN_possessive] days taking care of the animals and cleaning up after them. [PAWN_pronoun] dreamed of having [PAWN_possessive] own lab one day. -->
-		<desc>[PAWN_nameDef] trabajó como técnico en un laboratorio estudiando animales.\n\nPasó días cuidando a sus animales y limpiándolos. Soñaba con tener su propio laboratorio algún día.</desc>
+		<desc>[PAWN_nameDef] trabajó como técnic{PAWN_gender ? o : a} en un laboratorio estudiando animales.\n\nPasó días cuidando a sus animales y limpiándolos. Soñaba con tener su propio laboratorio algún día.</desc>
 	</AnimalLabTech39>
 	
 	<AntisocialChild83>
@@ -323,7 +323,7 @@
 		<titleShort>antisocial</titleShort>
 		<titleShortFemale>antisocial</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] lacked typical social skills, and avoided social interaction.\n\n[PAWN_pronoun] gained satisfaction only from steady work. [PAWN_pronoun] especially disliked speaking with overly creative or outgoing individuals. -->
-		<desc>[PAWN_nameDef] carecía de habilidades sociales típicas, y evitaba la interacción social.\n\nObtuvo satisfacción solo con el trabajo estable. A [PAWN_pronoun] especialmente no le gustaba hablar con individuos demasiado creativos o extrovertidos.</desc>
+		<desc>[PAWN_nameDef] carecía de las habilidades sociales típicas, y evitaba la interacción social.\n\n[PAWN_pronoun] solo quedaba satisfech{PAWN_gender ? o : a} después de trabajar. A [PAWN_pronoun] especialmente no le gustaba hablar con individuos demasiado creativos o extrovertidos.</desc>
 	</AntisocialChild83>
 	
 	<ApocalypseChild23>
@@ -334,16 +334,16 @@
 		<titleShort>apocalíptico</titleShort>
 		<titleShortFemale>apocalíptica</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] spent [PAWN_possessive] childhood on a post-apocalyptic world. [PAWN_pronoun] fought for survival from a young age, on a planet where trust did not exist.\n\n[PAWN_pronoun] told everyone that [PAWN_pronoun] had no luck. -->
-		<desc>[PAWN_nameDef] pasó su infancia en un mundo post-apocalíptico. Luchó por la supervivencia desde muy joven, en un planeta donde la confianza no existía.\n\nDijo a todos que no tenía suerte.</desc>
+		<desc>[PAWN_nameDef] pasó su infancia en un mundo post-apocalíptico. Luchó por la supervivencia desde muy joven, en un planeta donde la confianza no existía.\n\nLe decía a todo el mundo que {PAWN_gender ? el : ella} no tenía suerte.</desc>
 	</ApocalypseChild23>
 	
 	<ApocalypseSurvivor23>
 		<!-- EN: apocalypse survivor -->
-		<title>sobreviviente</title>
-		<titleFemale>sobreviviente</titleFemale>
+		<title>superviviente</title>
+		<titleFemale>superviviente</titleFemale>
 		<!-- EN: survivor -->
-		<titleShort>sobreviviente</titleShort>
-		<titleShortFemale>sobreviviente</titleShortFemale>
+		<titleShort>superviviente</titleShort>
+		<titleShortFemale>superviviente</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was born during a time of unrest on [PAWN_possessive] homeworld, as climate change threatened mass starvation and flooding. As [PAWN_pronoun] grew up the situation worsened - billions died and peaceful states descended into anarchy. [PAWN_nameDef] and [PAWN_possessive] parents did whatever they had to to survive. -->
 		<desc>[PAWN_nameDef] nació durante una época catastrófica para su munto natal, cuando el cambio climático amenazaba con hambrunas e inundaciones masivas. Conforme crecía, la situación empeoró, miles de millones murieron y los gobiernos cayeron en la anarquía. [PAWN_nameDef] y sus padres hicieron lo que pudieron para sobrevivir.</desc>
 	</ApocalypseSurvivor23>
@@ -402,6 +402,10 @@
 		<!-- EN: [PAWN_nameDef] designed and constructed buildings. On [PAWN_possessive] glitterworld home, most of the technical aspects of architecture were handled by an AI. This enabled [PAWN_objective] to push the artistic limits of the craft, but also meant [PAWN_pronoun] never had to get [PAWN_possessive] hands dirty at building sites. -->
 		<desc>[PAWN_nameDef] diseñaba y construía edificios. En el mundo brillante donde nació, la mayoría de los aspectos técnicos los manejaba una IA. Esto [PAWN_objective] mantenía en los límites artísticos de su oficio, pero también significaba que nunca tenía que ensuciarse las manos en la construcción.</desc>
 	</Architect28>
+	
+	<!-- =================================
+	===== Xeros: Revisado hasta aquí =====
+	================================== -->
 	
 	<ArchotechSpy75>
 		<!-- EN: archotech spy -->
@@ -1389,8 +1393,8 @@
 		<title>niño de cristal</title>
 		<titleFemale>niña de cristal</titleFemale>
 		<!-- EN: survivor -->
-		<titleShort>sobreviviente</titleShort>
-		<titleShortFemale>sobreviviente</titleShortFemale>
+		<titleShort>superviviente</titleShort>
+		<titleShortFemale>superviviente</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was raised underground on a "marble" planet - a wasteland of radioactive asphalt and toxic fallout.\n\nTo survive on a planet devoid of life, [PAWN_pronoun] had to learn how to farm underground and how to fight without wasting bullets. -->
 		<desc>[PAWN_nameDef] se elevó desde el piso en un planeta "mármol", un desierto de asfalto radiactivo y precipitaciones tóxicas.\n\nPara sobrevivir en un planeta carente de vida, tuvo que aprender a cultivar la tierra y luchar sin desperdiciar las balas.</desc>
 	</ChildOfGlass61>
@@ -2044,13 +2048,13 @@
 	
 	<CrashBaby32>
 		<!-- EN: crash baby -->
-		<title>bebé sobreviviente</title>
-		<titleFemale>bebé sobreviviente</titleFemale>
+		<title>bebé superviviente</title>
+		<titleFemale>bebé sobsupervivientereviviente</titleFemale>
 		<!-- EN: crashbaby -->
-		<titleShort>bebé sobreviviente</titleShort>
-		<titleShortFemale>bebé sobreviviente</titleShortFemale>
+		<titleShort>bebé superviviente</titleShort>
+		<titleShortFemale>bebé superviviente</titleShortFemale>
 		<!-- EN: As a baby, [PAWN_nameDef] was the only survivor of a deadly spacecraft crash. A passing tribe discovered [PAWN_objective] in the wreckage and adopted [PAWN_objective]. -->
-		<desc>Cuando era bebé, [PAWN_nameDef] fue {PAWN_gender ? el único : la única} sobreviviente de un accidente mortal en una nave espacial. Una tribu que pasaba [PAWN_objective] descubrió en los restos de la nave y [PAWN_objective] adoptó.</desc>
+		<desc>Cuando era bebé, [PAWN_nameDef] fue {PAWN_gender ? el único : la única} superviviente de un accidente mortal en una nave espacial. Una tribu que pasaba [PAWN_objective] descubrió en los restos de la nave y [PAWN_objective] adoptó.</desc>
 	</CrashBaby32>
 	
 	<CrimeBossChild39>
@@ -2165,11 +2169,11 @@
 	
 	<DeepSpaceSurveyor1>
 		<!-- EN: deep space surveyor -->
-		<title>sobreviviente espacial</title>
-		<titleFemale>sobreviviente espacial</titleFemale>
+		<title>superviviente espacial</title>
+		<titleFemale>superviviente espacial</titleFemale>
 		<!-- EN: surveyor -->
-		<titleShort>sobreviviente</titleShort>
-		<titleShortFemale>sobreviviente</titleShortFemale>
+		<titleShort>superviviente</titleShort>
+		<titleShortFemale>superviviente</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a deep space surveyor. [PAWN_pronoun] studied which worlds were the most suitable for colonization.\n\n[PAWN_possessive] expeditions were met by hostile natives, green-painted space-women, and wannabe Greek gods. Surviving many firefights, [PAWN_pronoun] learned to build rudimentary lathes and rock cannons to fend off enemies. -->
 		<desc>[PAWN_nameDef] era {PAWN_gender ? un investigador : una investigadora} del espacio profundo. Estudió cuales mundos eran los más adecuados para la colonización.\n\nSus expediciones fueron recibidas por nativos hostiles, mujeres del espacio pintadas de verde y aspirantes a dioses griegos. Sobreviviendo a muchos tiroteos, aprendió a construir tornos rudimentarios y cañones de piedra para defenderse de los enemigos.</desc>
 	</DeepSpaceSurveyor1>
@@ -2286,8 +2290,8 @@
 	
 	<DisasterSurvivor29>
 		<!-- EN: disaster survivor -->
-		<title>sobreviviente de desastre</title>
-		<titleFemale>sobreviviente de desastre</titleFemale>
+		<title>superviviente de desastre</title>
+		<titleFemale>superviviente de desastre</titleFemale>
 		<!-- EN: survivor -->
 		<titleShort>superviviente</titleShort>
 		<titleShortFemale>superviviente</titleShortFemale>
@@ -2297,11 +2301,11 @@
 	
 	<DisasterSurvivor65>
 		<!-- EN: disaster survivor -->
-		<title>sobreviviente de desastre</title>
-		<titleFemale>sobreviviente de desastre</titleFemale>
+		<title>superviviente de desastre</title>
+		<titleFemale>superviviente de desastre</titleFemale>
 		<!-- EN: survivor -->
-		<titleShort>sobreviviente</titleShort>
-		<titleShortFemale>sobreviviente</titleShortFemale>
+		<titleShort>superviviente</titleShort>
+		<titleShortFemale>superviviente</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was uprooted when marauders attacked [PAWN_possessive] family farm, destroying machinery and killing farmhands and beasts alike.\n\nAfter the death of all [PAWN_pronoun] knew, [PAWN_pronoun] was left in the ruins to fend for [PAWN_objective]self. -->
 		<desc>El planeta de [PAWN_nameDef] chocó con una pequeña luna. Todo lo que conocía como su hogar fue destruido, y toda su familia murió. [PAWN_pronoun] fue dejad{PAWN_gender ? o : a} en las ruinas para valerse por sí mism{PAWN_gender ? o : a}.</desc>
 	</DisasterSurvivor65>
@@ -3689,8 +3693,8 @@
 	
 	<IceworldSurvivor75>
 		<!-- EN: iceworld survivor -->
-		<title>sobreviviente de iceworld</title>
-		<titleFemale>sobreviviente de iceworld</titleFemale>
+		<title>superviviente de iceworld</title>
+		<titleFemale>superviviente de iceworld</titleFemale>
 		<!-- EN: iceborn -->
 		<titleShort>nacido en el hielo</titleShort>
 		<titleShortFemale>nacida en el hielo</titleShortFemale>
@@ -5526,11 +5530,11 @@
 	
 	<PlagueSurvivor39>
 		<!-- EN: plague survivor -->
-		<title>sobreviviente de plaga</title>
-		<titleFemale>sobreviviente de plaga</titleFemale>
+		<title>superviviente de plaga</title>
+		<titleFemale>superviviente de plaga</titleFemale>
 		<!-- EN: survivor -->
-		<titleShort>sobreviviente</titleShort>
-		<titleShortFemale>sobreviviente</titleShortFemale>
+		<titleShort>superviviente</titleShort>
+		<titleShortFemale>superviviente</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] watched as a mysterious plague spread through [PAWN_possessive] town, killing [PAWN_possessive] family and friends.\n\n[PAWN_pronoun] learned some medicine from watching the plague doctors, but was mentally scarred by the ordeal. -->
 		<desc>[PAWN_nameDef] vio como una misteriosa plaga se extendía por su ciudad, matando a su familia y amigos.\n\n[PAWN_pronoun] aprendió algo de medicina observando a los doctores de la peste, pero quedó mentalmente marcad{PAWN_gender ? o : a} por la dura prueba.</desc>
 	</PlagueSurvivor39>
@@ -6644,22 +6648,22 @@
 	
 	<SoleSurvivor63>
 		<!-- EN: sole survivor -->
-		<title>único sobreviviente</title>
+		<title>único superviviente</title>
 		<titleFemale>única superviviente</titleFemale>
 		<!-- EN: survivor -->
-		<titleShort>sobreviviente</titleShort>
+		<titleShort>superviviente</titleShort>
 		<!-- EN: [PAWN_nameDef]'s entire tribe was wiped out by a mysterious disease.\n\nFound alone and adopted by another band, [PAWN_pronoun] never became close with the other tribe members. [PAWN_pronoun] preferred to stay away from [PAWN_possessive] new home, wandering the woods and tending the animals. -->
 		<desc>La tribu entera de [PAWN_nameDef] fue aniquilada por una misteriosa enfermedad.\n\nFue encontrad{PAWN_gender ? o : a} sol{PAWN_gender ? o : a} y adoptad{PAWN_gender ? o : a} por otra tribu, [PAWN_pronoun] nunca se hizo cercan{PAWN_gender ? o : a} con los otros miembros de la tribu. [PAWN_pronoun] prefirió mantenerse alejado de su nuevo hogar, deambulando por el bosque y cuidando a los animales.</desc>
 	</SoleSurvivor63>
 	
 	<SoleSurvivor85>
 		<!-- EN: sole survivor -->
-		<title>único sobreviviente</title>
+		<title>único superviviente</title>
 		<titleFemale>única superviviente</titleFemale>
 		<!-- EN: survivor -->
-		<titleShort>sobreviviente</titleShort>
+		<titleShort>superviviente</titleShort>
 		<!-- EN: [PAWN_nameDef] lived in a remote colony. When mechanoid centipedes attacked [PAWN_possessive] home and killed [PAWN_possessive] people, [PAWN_pronoun] was the last survivor. -->
-		<desc>[PAWN_nameDef] vivía en una colonia remota. Cuando los meca-centípedos atacaron su casa y mataron su gente, [PAWN_pronoun] fue {PAWN_gender ? el último  : la última} sobreviviente.</desc>
+		<desc>[PAWN_nameDef] vivía en una colonia remota. Cuando los meca-centípedos atacaron su casa y mataron su gente, [PAWN_pronoun] fue {PAWN_gender ? el último  : la última} superviviente.</desc>
 	</SoleSurvivor85>
 	
 	<SonOfAHuntress75>
@@ -7762,10 +7766,10 @@
 	
 	<UnwantedSurvivor67>
 		<!-- EN: unwanted survivor -->
-		<title>sobreviviente</title>
-		<titleFemale>sobreviviente</titleFemale>
+		<title>superviviente</title>
+		<titleFemale>superviviente</titleFemale>
 		<!-- EN: survivor -->
-		<titleShort>sobreviviente</titleShort>
+		<titleShort>superviviente</titleShort>
 		<!-- EN: [PAWN_nameDef]'s noble family did not want [PAWN_objective], but could not afford to be seen directly assassinating [PAWN_objective] either. They attempted to get [PAWN_objective] killed by assigning [PAWN_objective] dangerous training without proper protection at too young an age.\n\nAgainst all odds, [PAWN_nameDef] survived the jousting contests, horsewar matches, riverrun competitions and warzones. In the end, it only made [PAWN_objective] stronger. -->
 		<desc>La noble familia de [PAWN_nameDef] no [PAWN_objective] quería, pero tampoco podían darse el lujo de ser vistos asesinando[PAWN_objective] directamente. Intentaron matar[PAWN_objective] asignandole entrenamiento peligroso sin la protección adecuada desde que era muy joven.\n\nContra todo pronóstico, [PAWN_nameDef] sobrevivió a los concursos de justas, los combates de guerra, las competiciones de riverrun y las zonas de guerra. Al final, todo eso [PAWN_objective] fortaleció.</desc>
 	</UnwantedSurvivor67>
