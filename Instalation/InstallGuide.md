@@ -5,7 +5,7 @@ Igualmente, hará falta un poco preparación, y el proceso variará ligeramente 
 ## Windows:
 Para actualizar las traducciones seguiremos estos otros pasos:
 1. Descargar el [script de actualización para Windows](_update.bat).
-2. 2. O usar el comando `` para descargarlo.
+2. O usar el comando `` para descargarlo.
 3. Mover el script al directorio raíz del juego. Este normalmente es: `C:\Program Files (x86)\Steam\steamapps\common\RimWorld`
 4. Ejecutar el script.
 
