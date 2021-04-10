@@ -16,6 +16,8 @@ Para actualizar las traducciones seguiremos estos otros pasos:
 2. Mover el script al directorio raíz del juego. Este normalmente es: `C:\Program Files (x86)\Steam\steamapps\common\RimWorld`
 3. Ejecutar el script
 
+Una vez hallas instalado (o actualizado) las traducciones, tendrás que abrir el juego y cambiar el idioma del juego a: `(GitHub) Spanish`
+
 ---
 ## Linux:
 TODO: Desarrollar el script para Linux
