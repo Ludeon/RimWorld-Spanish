@@ -8,6 +8,6 @@ TODO: Guía de instalación manual para Windows
 
 ---
 ## Linux:
-TODO: Guia de instalación manual para Linux
+TODO: Guía de instalación manual para Linux
 
 ---
