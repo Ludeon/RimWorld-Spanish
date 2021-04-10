@@ -1,5 +1,4 @@
 # Spanish-translation-of-Rimworld
----
 Esta es la **traducción al español** Castellano (de España) de Rimworld.
 Consulte esta página para obtener información sobre la licencia e información adicional sobre como ayudar
 
