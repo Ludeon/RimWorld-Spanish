@@ -3,7 +3,7 @@ name: Update WordInfo
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  workflow_dispatch
+  workflow_dispatch:
     
 #  push:
 #    branches: [ master ]
@@ -13,13 +13,12 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: windows-2016
+    runs-on: windows-2019
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-      
     - name: Update WordInfo
       run: |
         # Update WordInfo
