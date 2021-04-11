@@ -14,7 +14,7 @@ Igualmente, hará falta un poco preparación, y el proceso variará ligeramente 
 3. Ejecutaremos el siguiente comando: `cd .\Downloads\ && curl -LJO https://raw.githubusercontent.com/Ludeon/RimWorld-Spanish/master/Instalation/_update.bat`
 4. Ya se nos ha descargado el script en la carpeta de Descargas. Podemos cerrar la terminal.
 
-Una vez hallas instalado (o actualizado) las traducciones, tendrás que abrir el juego y cambiar el idioma del juego a: `Spanish (GitHub)`
+Una vez hayas instalado (o actualizado) las traducciones, tendrás que abrir el juego y cambiar el idioma del juego a: `Spanish (GitHub)`
 
 Cuando el juego se reinicie, pondrá que estás usando el Idioma `Spanish (Español(Castellano))`, esto está bien.
 
