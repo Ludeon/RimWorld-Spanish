@@ -26,16 +26,23 @@
   -->
   <NamerFactionEmpire.rulePack.rulesStrings>
     <li>r_name(p=2)->[empire] [ofThing]</li>
-    <li>r_name(p=2)->El/la [empire] [ofThing]</li>
-    <li>r_name->El/la [empire] en Éxodo</li>
-    <li>r_name->Los Refugiados de [empire]</li>
-    <li>r_name->El/la [empire] devastado</li>
-    <li>r_name->El/la [empire] en ruinas</li>
-    <li>r_name->El/la [empire] caído</li>
-    <li>r_name->El/la [empire] [Color]</li>
+    <li>r_name(p=2)->El [empire] [ofThing]</li>
+    <li>r_name(p=2)->La [empireFem] [ofThing]</li>
+    <li>r_name->El [empire] en Éxodo</li>
+    <li>r_name->La [empireFem] en Éxodo</li>
+    <li>r_name->Los Refugiados del [empire]</li>
+    <li>r_name->Los Refugiados de la [empireFem]</li>
+    <li>r_name->El [empire] devastado</li>
+    <li>r_name->La [empireFem] devastada</li>
+    <li>r_name->El [empire] en ruinas</li>
+    <li>r_name->La [empireFem] en ruinas</li>
+    <li>r_name->El [empire] caído</li>
+    <li>r_name->La [empireFem] caída</li>
+    <li>r_name->El [empire] [Color]</li>
+    <li>r_name->La [empireFem] [ColorFem]</li>
     <li>empire(p=4)->Imperio</li>
-    <li>empire->Mancomunidad</li>
-    <li>empire->Imperium</li>
+    <li>empire(p=4)->Reino</li>
+    <li>empireFem->República</li>
     <li>empire->Dominio</li>
     <li>empire->Principado</li>
     <li>ofThing(p=4)->[WordImperial]</li>
@@ -43,9 +50,16 @@
     <li>ofThing->de la Luna</li>
     <li>ofThing->del Universo</li>
     <li>ofThing->de Dios</li>
-    <li>ofThing->de Perfección</li>
-    <li>ofThing->de Eternidad</li>
+    <li>ofThing->de la Perfección</li>
+    <li>ofThing->de la Eternidad</li>
     <li>ofThing->del Espíritu</li>
+    <li>ofThingFem->del Sol</li>
+    <li>ofThingFem->de la Luna</li>
+    <li>ofThingFem->del Universo</li>
+    <li>ofThingFem->de Dios</li>
+    <li>ofThingFem->de la Perfección</li>
+    <li>ofThingFem->de la Eternidad</li>
+    <li>ofThingFem->del Espíritu</li>
   </NamerFactionEmpire.rulePack.rulesStrings>
   
   <!-- EN:
