@@ -10,10 +10,12 @@
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], quiere que lo ayudes a rescatar una de sus caravanas. La caravana está siendo acosada cerca de [map_definite] por [numGroupsOf] [enemyFaction_pawnsPlural] de [enemyFaction_name]. [asker_nameDef] quiere enviarte cápsulas de transporte llenas de bienes para atraer la atención de los/las [enemyFaction_pawnsPlural] hacia ti.\n\n[pawnKindsParagraph]\n\nLas cápsulas contienen (valor total [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph]Si aceptas, los/las [enemyFaction_pawnsPlural] llegarán en [firstRaidDelayTicks_duration]. [allRewardsDescriptionsExceptItems]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], te manda una petición.\n\n[groupsOf] de [enemyFaction_name] han estado atacando sus caravanas por la zona. [asker_nameDef] quiere que les mandes un mensaje desafiante, para atraer su atención hasta ti y elimines la amenaza.\n\n[pawnKindsParagraph]\n\n[helpersParagraph]Si aceptas, los/las [enemyFaction_pawnsPlural] llegarán en [firstRaidDelayTicks_duration]. [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de la facción [asker_faction_name], quiere tu ayuda para salvar a una de sus caravanas. La caravana esta siendo acechada cerca de [map_definite] por (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) de la facción [enemyFaction_name]. [asker_nameDef] quiere que le hagas una señal a los [enemyFaction_pawnsPlural] para alejarlos de la caravana, y que vayan en tu dirreción.[endingCommon]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_a] [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], te está haciendo una petición.\n\n(*Threat)[groupsOf](/Threat) de la facción [enemyFaction_name] han estado acosando sus caravanas en la zona. [asker_nameDef] te pide que les envíes un mensaje de desafío a los acosadores para atraerlos a ti y así puedas eliminar esta amenaza tú mismo.[endingCommon]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
     <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
+    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nSi aceptas, los [enemyFaction_pawnsPlural] llegarán en [firstRaidDelayTicks_duration].</li>
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]Si aceptas, los [enemyFaction_pawnsPlural] llegarán en [firstRaidDelayTicks_duration].</li>
   </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
@@ -38,24 +40,32 @@
     <li>violence->Warfare</li>
   -->
   <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
-    <li>questName->[enemyFaction_pawnsPlural] de Fortuna</li>
-    <li>questName->[violence] de Fortuna</li>
-    <li>questName->Merecido [violence_Fem]</li>
-    <li>questName->Pagado [violence_Mas]</li>
-    <li>questName(p=0.5)->requerido [violence_Neu]</li>
-    <li>questName->Precio de [violence_Fem]</li>
-    <li>questName->Precio de [violence_Mas]es</li>
-    <li>questName(p=0.5)->Preis des [violence_Neu]s</li>
-    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] a cambio de Favor</li>
-    <li>questName(reward==royalFavor)->[violence] a cambio de Favor</li>
-    <li>violence->violence_Fem</li>
-    <li>violence->violence_Mas</li>
-    <li>violence(p=0.5)->violence_Neu</li>
-    <li>violence_Fem->Violencia</li>
-    <li>violence_Fem->Batalla</li>
-    <li>violence_Mas->Combate</li>
-    <li>violence_Mas->Guerra</li>
-    <li>violence_Neu->Lucha</li>
+    <li>questName->Los [enemyFaction_pawnsPlural] de la Fortuna</li>
+    <li>questName->[violence] por el Botín</li>
+    <li>questName->[violenceVar] por el Botín</li>
+    <li>questName->[violence] de Alquiler</li>
+    <li>questName->[violenceVar] de Alquiler</li>
+    <li>questName->[violence] con Fines de Lucro</li>
+    <li>questName->[violenceVar] con Fines de Lucro</li>
+    <li>questName->[violence] Lucrativa</li>
+    <li>questName->[violenceVar] Lucrativo</li>
+    <li>questName->Pagando por [violence]</li>
+    <li>questName->Pagando por [violenceVar]</li>
+    <li>questName->[violence] Recompensada</li>
+    <li>questName->[violenceVar] Recompensado</li>
+    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] por el Honor</li>
+    <li>questName(reward==royalFavor)->[violence] por Honor</li>
+    <li>violence->Violencia</li>
+    <li>violence->Batalla</li>
+    <li>violence->Combate</li>
+    <li>violence->Guerra</li>
+    <li>violence->Pelea</li>
+    <li>violence->Masacre</li>
+    <li>violence->Ataque</li>
+    <li>violence->Defensa</li>
+    <li>violenceVar->Conflicto</li>
+    <li>violence->Hostilidad</li>
+    <li>violence->Lucha</li>
   </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>

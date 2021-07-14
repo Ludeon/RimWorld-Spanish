@@ -2,16 +2,14 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->[enemiesLabel] have set up a camp and are harassing caravans of [asker_faction_name]. [asker_nameDef] is planning an aerial assault on the camp, which is guarded by [enemiesCount] [enemiesLabel]. [asker_pronoun] wants you to provide [soldiers] to carry out the attack.\n\n[asker_pronoun] will send a shuttle to pick up your fighters, bring them to the attack site, and take them home afterward. They will be fed en-route.\n\nOnce the attack begins, you must defeat all enemies and turrets within [timeoutTicks_duration].</li>
+    <li>questDescription->[enemiesLabel] have set up a camp and are harassing caravans of [asker_faction_name]. [asker_nameDef] is planning an aerial assault on the camp, which is guarded by [enemiesCount] [enemiesLabel]. [asker_pronoun] wants you to provide [soldiers] to carry out the attack.\n\n[asker_pronoun] will send a shuttle to pick up your fighters, bring them to the attack site, and take them home afterward. They will be fed and medically tended en-route.\n\nOnce the attack begins, you must defeat all enemies and turrets within [timeoutTicks_duration].</li>
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
   <Mission_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[enemiesLabel] han establecido un campamento y están acosando a las caravanas de la facción [asker_faction_name]. [asker_nameDef] está planeando un asalto aéreo al campamento, que está custodiado por [enemiesCount] [enemiesLabel]. [asker_pronoun] quiere que proveas de [soldiersDefs] [soldiers] para llevar a cabo el ataque.\n\n[asker_pronoun] enviará una lanzadera para recoger a tus luchadores, llevarlos al lugar del ataque y regresarlos a casa después. Serán alimentados en ruta.\n\nUna vez que el ataque comience, debes derrotar a todos los enemigos y torretas dentro de [timeoutTicks_duration].</li>
+    <li>questDescription->[enemiesLabel] han establecido un campamento y están acosando a las caravanas de la facción [asker_faction_name]. [asker_nameDef] está planeando un asalto aéreo al campamento, que está custodiado por [enemiesCount] [enemiesLabel]. [asker_pronoun] quiere que proveas de [soldiers] para llevar a cabo el ataque.\n\n[asker_pronoun] enviará una lanzadera para recoger a tus luchadores, llevarlos al lugar del ataque y regresarlos a casa después. Ellos serán alimentados y atendidos médicamente en la ruta.\n\nUna vez que el ataque comience, debes derrotar a todos los enemigos y torretas dentro de [timeoutTicks_duration].</li>
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldados</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldado</li>
-    <li>soldiersDefs(requiredPawnCount>1)->[requiredPawnCount] un</li>
-    <li>soldiersDefs(requiredPawnCount==1)->[requiredPawnCount] unos</li>
   </Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[questNameInner]</li>
