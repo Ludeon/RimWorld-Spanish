@@ -19,6 +19,8 @@
   <CommandCallRoyalAidDesc>Solicitar apoyo militar utilizando un permiso real especial.\n\nCada tipo de ayuda se puede usar libremente una vez, después de lo cual tienes que esperar para volver a hacerlo sin coste. Puede usar el apoyo con más frecuencia, pero eso te costará honor.</CommandCallRoyalAidDesc>
   <!-- EN: Guests will not use their aid permits. -->
   <CommandCallRoyalAidLodger>Los invitados no usarán tu ayuda real.</CommandCallRoyalAidLodger>
+  <!-- EN: Slaves cannot use their permits. -->
+  <CommandCallRoyalAidSlave>Los esclavos no pueden utilizar sus permisos.</CommandCallRoyalAidSlave>
   <!-- EN: Your relations with {FACTION_name} are hostile. -->
   <CommandCallRoyalAidFactionHostile>Tus relaciones con {FACTION_name} son hostiles.</CommandCallRoyalAidFactionHostile>
   <!-- EN: Free -->
@@ -46,9 +48,9 @@
   <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
   <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} consume {0} de psi-foco pero {CASTERNAME} tiene sólo {1}.</CommandPsycastNotEnoughPsyfocus>
   <!-- EN: {PSYCASTNAME} needs {0} psyfocus to stop {1}'s mental break but {CASTERNAME} only has {2} psyfocus. -->
-  <CommandPsycastNotEnoughPsyfocusForMentalBreak>{PSYCASTNAME} necesita {0} psifoco para detener el estado mental de {1}, pero {CASTERNAME} solo tiene {2} puntos de psifoco</CommandPsycastNotEnoughPsyfocusForMentalBreak>
+  <CommandPsycastNotEnoughPsyfocusForMentalBreak>{PSYCASTNAME} necesita {0} psi-foco para detener el estado mental de {1}, pero {CASTERNAME} solo tiene {2} puntos de psi-foco.</CommandPsycastNotEnoughPsyfocusForMentalBreak>
   <!-- EN: level {0} psylink is required. -->
-  <CommandPsycastHigherLevelPsylinkRequired>Se requiere un nivel psíquico de {0}.</CommandPsycastHigherLevelPsylinkRequired>
+  <CommandPsycastHigherLevelPsylinkRequired>Se requiere un nivel psi-enlace de {0}.</CommandPsycastHigherLevelPsylinkRequired>
   <!-- EN: Zero psychic sensitivity. -->
   <CommandPsycastZeroPsychicSensitivity>Sensibilidad psíquica nula.</CommandPsycastZeroPsychicSensitivity>
   <!-- EN: Ability user is unconscious. -->
@@ -77,5 +79,10 @@
   <ChooseRoyalPermit>Escoger permiso</ChooseRoyalPermit>
   <!-- EN: Open the permit selection screen and choose a new permit. -->
   <ChooseRoyalPermit_Desc>Abrir la pantalla de selección de permisos y escoger uno nuevo.</ChooseRoyalPermit_Desc>
+
+  <!-- EN: Leave bestowing ceremony -->
+  <CommandLeaveBestowingCeremony>Abandonar la ceremonia de ascensión</CommandLeaveBestowingCeremony>
+  <!-- EN: Stop participating in the bestowing ceremony. -->
+  <CommandLeaveBestowingCeremonyDesc>Dejas de participar en la ceremonia de ascensión.</CommandLeaveBestowingCeremonyDesc>
   
 </LanguageData>

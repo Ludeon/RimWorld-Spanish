@@ -4,8 +4,6 @@
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
   <ShuttleBlocked>Lanzadera no puede aterrizar en: {0}</ShuttleBlocked>
-  <!-- EN: blocked by {0_label}. -->
-  <BlockedBy>bloqueado por {0_label}</BlockedBy>
   <!-- EN: The shuttle has arrived. -->
   <MessageShuttleArrived>La lanzadera ha llegado.</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
@@ -21,21 +19,28 @@
   <!-- EN: Warning: Anima tree has been marked for cutting. -->
   <MessageWarningCutAnimaTree>Advertencia: Se ha marcado un árbol de ánima para ser talado.</MessageWarningCutAnimaTree>
 
-  <!-- EN: Select {TARGET_definite} and right-click the bestower to begin the bestowing ceremony. -->
-  <MessageBestowerWaiting>Selecciona {TARGET_definite} y haz clic derecho en el otorgante para comenzar la ceremonia</MessageBestowerWaiting>
+  <!-- EN: Select {BESTOWER_definite} and click 'Start bestowing ceremony' to commence the ceremony. -->
+  <MessageBestowerWaiting>Selecciona a {BESTOWER_definite} y haz clic en "Iniciar ceremonia de ascensión" para comenzar la ceremonia.</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
   <MessageBestowerUnreachable>¡No se puede alcanzar al otorgante!</MessageBestowerUnreachable>
   <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
   <MessageBestowingSpotUnreachable>El otorgante está molesto con la interferencia y ha decidido marcharse.</MessageBestowingSpotUnreachable>
+  <!-- EN: The bestower is leaving due to life-threatening danger. -->
+  <MessageBestowingDanger>El otorgante se está marchando porque su vida corre peligro.</MessageBestowingDanger>
+  <!-- EN: The bestowing ceremony has been interrupted. -->
+  <MessageBestowingInterrupted>La ceremonia de ascensión ha sido interrumpida.</MessageBestowingInterrupted>
 
   <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
   <MessageBestowingCeremonyStarted>La ceremonia de {PAWN_definite} ha comenzado.</MessageBestowingCeremonyStarted>
   <!-- EN: You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it. -->
-  <MessageMissionGetBackToShuttle>Has derrotado a los {FACTION_pawnsPlural}. Vuelve a la lanzadera para enviarla.</MessageMissionGetBackToShuttle>
+  <MessageMissionGetBackToShuttle>¡Has derrotado a los {FACTION_pawnsPlural}! Vuelve a la lanzadera para enviarla.</MessageMissionGetBackToShuttle>
 
   <!-- EN: {FACTION_name} has dropped resources nearby. -->
-  <MessagePermitTransportDrop>{FACTION_name} ha dejado recursos cerca.</MessagePermitTransportDrop>
+  <MessagePermitTransportDrop>La facción {FACTION_name} ha dejado recursos cerca.</MessagePermitTransportDrop>
   <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
-  <MessagePermitTransportDropCaravan>{FACTION_name} ha enviado recursos a la caravana de {PAWN_nameDef}.</MessagePermitTransportDropCaravan>
+  <MessagePermitTransportDropCaravan>La facción {FACTION_name} ha enviado recursos a la caravana de {PAWN_nameDef}.</MessagePermitTransportDropCaravan>
+
+  <!-- EN: No orbiting mechanoids found. -->
+  <MessageNoFactionForVerbMechCluster>No se han encontrado mecanoides en órbita.</MessageNoFactionForVerbMechCluster>
 
 </LanguageData>
