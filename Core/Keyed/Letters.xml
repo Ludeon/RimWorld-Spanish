@@ -19,27 +19,29 @@
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
   <LetterRelationsChange_Hostile>Las relaciones con {0} se han roto completamente. Ahora son hostiles contigo.</LetterRelationsChange_Hostile>  
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>Ellos realizarán aslatos periódicos a tus asentamientos y caravanas y se negarán a comerciar contigo. Si quieres mejorar las relaciones, todavía puedes ofrecerles regalos mediante el uso de caravanas o cápsulas e transporte.\n\nEsto sucedió porque las relaciones ({0}) han caido por debajo de {1}. Para restablecer relaciones neutrales, la reputación debe alcanzar {2} de nuevo.</LetterRelationsChange_HostileGoodwillDescription>  
+  <LetterRelationsChange_HostileGoodwillDescription>Ellos realizarán aslatos periódicos a tus asentamientos y caravanas y se negarán a comerciar contigo. Si quieres mejorar las relaciones, todavía puedes ofrecerles regalos mediante el uso de caravanas o cápsulas e transporte.\n\nEsto sucedió porque la buena voluntad ({0}) han caido por debajo de {1}. Para restablecer relaciones neutrales, la buena voluntad debe alcanzar {2} de nuevo.</LetterRelationsChange_HostileGoodwillDescription>  
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>Las relaciones con {0} han mejorado. Ahora te consideran neutral y ya no te atacarán.</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
-  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>Esto sucedió porque la reputación ({1}) ha sobrepasado {2}. Si la reputación cae por debajo de {3}, {0} se volverán hostiles de nuevo. Si la reputación sobrepasa {4}, se convertirán en tus aliados y lucharán por ti.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
+  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>Esto sucedió porque la buena voluntad ({1}) ha sobrepasado {2}. Si la buena voluntad cae por debajo de {3}, {0} se volverán hostiles de nuevo. Si la buena voluntad sobrepasa {4}, se convertirán en tus aliados y lucharán por ti.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
   
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
   <LetterRelationsChange_NeutralFromAlly>Las relaciones con {0} han empeorado. Ahora te consideran neutral en lugar de aliado.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>Aunque seguirán interactuando pacíficamente contigo, ya no enviarán combatientes para ayudarte cuando estés bajo amenaza.\n\nEsto sucedió porque la reputación ({1}) ha caído por debajo de {2}. Si la reputación cae por debajo de {3}, {0} se volverá hostil. Si la reputación sobrepasa {4}, serán tus aliados de nuevo.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
+  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>Aunque seguirán interactuando pacíficamente contigo, ya no enviarán combatientes para ayudarte cuando estés bajo amenaza.\n\nEsto sucedió porque la buena voluntad ({1}) ha caído por debajo de {2}. Si la buena voluntad cae por debajo de {3}, {0} se volverá hostil. Si la buena voluntad sobrepasa {4}, serán tus aliados de nuevo.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
   
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
   <LetterRelationsChange_Ally>Las relaciones con {0} son muy cercanas. Ahora te consideran un aliado.</LetterRelationsChange_Ally>
   <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
-  <LetterRelationsChange_AllyGoodwillDescription>Los aliados a veces aparecen para ayudarte a luchar contra tus enemigos cuando estás bajo ataque. También puedes llamarlos para pedirles ayuda en cualquier momento, a un coste de reputación.\n\nSe han convertido en aliados porque tu reputación ({0}) ha sobrepasado {1}. Si la reputación cae por debajo de {2}, las relaciones volverán a ser neutrales.</LetterRelationsChange_AllyGoodwillDescription>
+  <LetterRelationsChange_AllyGoodwillDescription>Los aliados a veces aparecen para ayudarte a luchar contra tus enemigos cuando estás bajo ataque. También puedes llamarlos para pedirles ayuda en cualquier momento, a un coste de buena voluntad.\n\nSe han convertido en aliados porque tu buena voluntad ({0}) ha sobrepasado {1}. Si la buena voluntad cae por debajo de {2}, las relaciones volverán a ser neutrales.</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
-  <goodwill>reputación</goodwill>
+  <goodwill>buena voluntad</goodwill>
   <!-- EN: Neutral -->
   <Neutral>Neutral</Neutral>
+  <!-- EN: neutral -->
+  <NeutralLower>neutral</NeutralLower>
   <!-- EN: Death -->
   <Death>Muerte</Death>
 
@@ -428,13 +430,13 @@
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
   <LetterLabelSurgeryFailed>La cirujía de {PATIENT_labelShort} ha fallado</LetterLabelSurgeryFailed>
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} ha cometido un error menor mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor> <!-- NewTemp rename to LetterTextOperationFailureMinor globally-->
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} ha cometido un error menor mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
   <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} ha cometido un error catastrófico mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic> <!-- NewTemp rename to LetterTextOperationFailureCatastrophic globally-->
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} ha cometido un error catastrófico mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se ha equivocado de forma ridícula mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous> <!-- NewTemp rename to LetterTextOperationFailureRidiculous globally-->
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se ha equivocado de forma ridícula mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} ha cometido un error fatal mientras estaba operando a {PATIENT_labelShort} debido a los desafíos especiales de: {2}</MessageMedicalOperationFailureFatal> <!-- NewTemp rename to LetterTextOperationFailureFatal globally-->
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} ha cometido un error fatal mientras estaba operando a {PATIENT_labelShort} debido a los desafíos especiales de: {2}</MessageMedicalOperationFailureFatal>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
@@ -453,6 +455,12 @@
   <LetterLabelQuestDropPodsArrived>Las cápsulas han llegado</LetterLabelQuestDropPodsArrived>
   <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
   <LetterQuestDropPodsArrived>Han llegado cápsulas de transporte con el siguiente contenido:\n\n{0}</LetterQuestDropPodsArrived>
+
+  <!-- Quest items added to caravan inventory -->
+  <!-- EN: {CARAVAN_label} received items -->
+  <LetterLabelQuestItemsAddedToCaravanInventory>{CARAVAN_label} artículos recibidos</LetterLabelQuestItemsAddedToCaravanInventory>
+  <!-- EN: {CARAVAN_label} has received the following items:\n\n{THINGS} -->
+  <LetterQuestItemsAddedToCaravanInventory>{CARAVAN_label} ha recibido los siguientes artículos:\n\n{THINGS}</LetterQuestItemsAddedToCaravanInventory>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
@@ -492,10 +500,10 @@
   
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
-  <LetterLabelPawnsKidnapped>{PAWN_nameDef} fue hecho(a) prisionero(a)</LetterLabelPawnsKidnapped>
+  <LetterLabelPawnsKidnapped>{PAWN_nameDef} fue secuestrad{PAWN_gender ? o : a}</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>¡{PAWN_nameDef} ha sido hecho(a) prisionero(a) por {FACTION_name}!\n\nSin embargo, no {PAWN_objective} has perdido para siempre. Puede presentarse una oportunidad para rescatar a {PAWN_nameDef} en los próximos días - o años.</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>¡{PAWN_nameDef} ha sido secuestrad{PAWN_gender ? o : a} por la facción {FACTION_name}!\n\nSin embargo, a {PAWN_pronoun} no {PAWN_objective} perderás para siempre. Existe una oportunidad para rescatar{PAWN_objective} que puede presentase en los próximos días o años.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
