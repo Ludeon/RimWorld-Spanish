@@ -9,7 +9,7 @@
     <li>threatsInfo-></li>
   -->
   <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
-    <li>questDescription->[intro][asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], realizará una visita procolaria a cualquier Conde de su dominio, previa petición. Invítalo/invítala, satisface sus necesidades reales durante [shuttleDelayTicks_duration], y todos obtendréis el permiso de embarcar en la lanzadera a la Flota Imperial. Entonces podréis uniros a la Corte Imperial o comenzar una nueva vida entre las estrellas.\n\nPara ganar el título de Conde se deben haber completado las misiones para ganar [asker_faction_royalFavorLabel] con [asker_faction_name]. Podría llevar años el obtener el título de Conde.\n\nDurante su visita, tienes que mantener el humor de [asker_nameDef] por encima de [lodgersMoodThreshold_percent]. Esto implica proporcionar comodidades reales como un lujoso dormitorio.[threatsInfo]\n\n[asker_nameDef] llegará con cuatro de sus guardias personales y los pondrá bajo tu mando. Debes alojar a estos guardias también, pero [asker_nameDef] no lamentará las condiciones en que vivan o incluso su muerte.\n\nDebes mantener a los visitantes en [map_definite] y no enviarlos a ningún otro sitio. Si fracasas en esta misión o te trasladas, tendrás otra oportunidad más adelante.</li>
+    <li>questDescription->[intro][asker_nameFull] [asker_faction_leaderTitle] de la facción [asker_faction_name], realizará una visita protocolar a cualquier Conde de su dominio, previa petición. Invíta[asker_objective], satisface sus necesidades reales durante [shuttleDelayTicks_duration], y todos obtendréis el permiso de embarcar en la lanzadera a la Flota Imperial. Entonces podréis uniros a la Corte Imperial o comenzar una nueva vida entre las estrellas.\n\nPara ganar el título de Conde se deben haber completado las misiones para ganar [asker_faction_royalFavorLabel] con [asker_faction_name]. Podría llevar años el obtener el título de Conde.\n\nDurante su visita, tienes que mantener el humor de [asker_nameDef] por encima de [lodgersMoodThreshold_percent]. Esto implica proporcionar comodidades reales como un lujoso dormitorio.[threatsInfo]\n\n[asker_nameDef] llegará con cuatro de sus guardias personales y los pondrá bajo tu mando. Debes alojar a estos guardias también, pero [asker_nameDef] no lamentará las condiciones en que vivan o incluso su muerte.\n\nDebes mantener a los visitantes en [map_definite] y no enviarlos a ningún otro sitio. Si fracasas en esta misión o te trasladas, tendrás otra oportunidad más adelante.</li>
     <li>intro(sameQuestsCount==0)->¡Has descubierto una manera de escapar de este planeta!\n\n</li>
     <li>intro(sameQuestsCount>=1)->Te han dado otra oportunidad para ascender a la Realeza.\n\n</li>
     <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nOtros aprovecharán la oportunidad para tratar de matar al [asker_faction_leaderTitle], y atacarán con gran fuerza. Prepárate para la defensa.</li>
@@ -26,14 +26,14 @@
     <li>titleEnd->Victory</li>
   -->
   <EndGame_RoyalAscent.questNameRules.rulesStrings>
-    <li>questName(sameQuestsCount==0)->Ascenso a la Realeza</li>
-    <li>questName(sameQuestsCount>=1)->[titleEnd] Real</li>
-    <li>titleEnd->Ascensión</li>
-    <li>titleEnd->Ascendencia</li>
-    <li>titleEnd->Visitante</li>
-    <li>titleEnd->Invitado(a)</li>
-    <li>titleEnd->Anfitrión/Anfitriona</li>
-    <li>titleEnd->Victoria</li>
+    <li>questName(sameQuestsCount==0)->El Ascenso a la Realeza</li>
+    <li>questName(sameQuestsCount>=1)->[titleEnd] Realeza</li>
+    <li>titleEnd->La Ascensión a la</li>
+    <li>titleEnd->La Ascendencia a la</li>
+    <li>titleEnd->El visitante de la</li>
+    <li>titleEnd->El invitado de la</li>
+    <li>titleEnd->El anfitrión de la</li>
+    <li>titleEnd->La victoria de la</li>
   </EndGame_RoyalAscent.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>Misión fallida: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>
@@ -42,9 +42,9 @@
   <!-- EN: asker.NoLongerFactionLeader -->
   <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>asker.NoLongerFactionLeader</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
   <!-- EN: [asker_faction_leaderTitle] arrived -->
-  <EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>El/la [asker_faction_leaderTitle] ha llegado</EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>
+  <EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>[asker_TheCap] [asker_faction_leaderTitle] ha llegado</EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>
   <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>El/la [asker_faction_leaderTitle] de [asker_faction_name], ha llegado.\n\nProtége[asker_objective] y satisface sus necesidades reales hasta que que llegue la lanzadera en [shuttleDelayTicks_duration]\n\nTodos podréis acompañar[asker_objective] en la lanzadera y viajar a la Flota Imperial para comenzar una nueva vida.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
+  <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>[asker_TheCap] [asker_faction_leaderTitle] de [asker_faction_name], ha llegado.\n\nProtége[asker_objective] y satisface sus necesidades reales hasta que que llegue la lanzadera en [shuttleDelayTicks_duration]\n\nTodos podréis acompañar[asker_objective] en la lanzadera y viajar a la Flota Imperial para comenzar una nueva vida.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
   <!-- EN: Should depart on shuttle -->
   <EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>Debería subir a la lanzadera</EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
@@ -58,7 +58,7 @@
   <!-- EN: {SUBJECT_bestRoyalTitle} unhappy -->
   <EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>{SUBJECT_bestRoyalTitle} infeliz</EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold] too long. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>{SUBJECT_definite},a quien debías proteger y mantener feliz, ha estado por debajo del mínimo de humor de [lodgersMoodThreshold] demasiado tiempo. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>
+  <EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>{SUBJECT_definite}, a quien debías proteger y mantener feliz, ha estado por debajo del mínimo de humor de [lodgersMoodThreshold] demasiado tiempo. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>Invitado muerto: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
@@ -86,6 +86,6 @@
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>Misión fallida: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>La lanzadera enviada para recoger a [asker_bestRoyalTitleDef] ha partido sin él/ella. [asker_pronoun] abandonará la colonia a pie. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>La lanzadera enviada para recoger a [asker_bestRoyalTitleDef] ha partido sin [asker_pronoun]. [asker_pronoun] ahora abandonará la colonia a pie. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
   
 </LanguageData>

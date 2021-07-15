@@ -5,7 +5,7 @@
     <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days after completion, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
   -->
   <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
-    <li>questDescription->\nCon el fin de consagrar el nombramiento de [titleHeir_nameFull] como heredero de [titleHolder_nameFull], debes construir un monumento.\n\nEl monumento tendrá un tamaño de [monumentSize] y requerirá los siguientes elementos (valor total [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFracasar en finalizar el monumento en los siguientes 20 días se considera profanar el ritual. Tus relaciones con [asker_factionName] decaerán en 25, y el nombramiento del heredero no se producirá.</li>
+    <li>questDescription->\nCon el fin de consagrar el nombramiento de [titleHeir_nameFull] como heredero de [titleHolder_nameFull], debes construir un monumento.\n\nEl monumento tendrá un tamaño de [monumentSize] y requerirá los siguientes elementos (valor total [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFracasar en finalizar el monumento en los siguientes 20 días se considera profanar el ritual. Tus relaciones con [asker_factionName] decaerán en 25, y el nombramiento del heredero no se producirá.\n\nSi el monumento es destruido dentro de [keepMonumentTicks_duration] días después de la finalización de su construcción, tus relaciones con la facción [asker_factionName] caerán en [goodwillChangeIfMonumentDestroyed].</li>
   </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[titleHeir_nameDef]'s inheritance</li>
@@ -16,7 +16,7 @@
   <!-- EN: Time left: {0} -->
   <ChangeRoyalHeir.InspectStringTimeLeft.slateRef>Tiempo restante: {0}</ChangeRoyalHeir.InspectStringTimeLeft.slateRef>
   <!-- EN: [titleHolder_nameDef]'s heir change failed -->
-  <ChangeRoyalHeir.LetterTextAskerOffended.slateRef>El cambio del heredero a [titleHolder_nameDef] no se produjo</ChangeRoyalHeir.LetterTextAskerOffended.slateRef>
+  <ChangeRoyalHeir.LetterTextAskerOffended.slateRef>El cambio de heredero de [titleHolder_nameDef] no se produjo</ChangeRoyalHeir.LetterTextAskerOffended.slateRef>
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
   <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>[asker_nameDef] se siente insultado porque prometiste honrar el nuevo linaje, pero no pudiste construir el monumento en el tiempo debido.\n\nPierdes 25 de reputación con [asker_faction_name].</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
   <!-- EN: Title holder died: {SUBJECT_definite} -->
