@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: anima tree linking -->
+  <AnimaTreeLinking.label>vinculación con árbol del ánima</AnimaTreeLinking.label>
+  <!-- EN: Start the anima tree linking ceremony. The linking person will meditate near the tree to gain a psylink level. Other psychically-sensitive colonists can also  help enhance the psychic link. More participants will accelerate the ceremony and cause some of the anima grass to re-grow as the ritual completes. -->
+  <AnimaTreeLinking.description>Comienza la ceremonia de vinculación con el árbol del ánima. La persona que se vincule meditará cerca del árbol para ganar un nivel de psi-enlace. Otros colonos con sensibilidad psíquica también pueden ayudar a mejorar el vínculo psíquico. Un mayor número de participantes acelerará la ceremonia y hará que parte de la hierba del ánima vuelva a crecer a medida que se completa el ritual.</AnimaTreeLinking.description>
+  
   <!-- EN: beckon -->
   <Beckon.label>atraer</Beckon.label>
   <!-- EN: Psychically command the target to approach the caster. -->
@@ -22,7 +27,7 @@
   <BlindingPulse.description>Induce ruido en los centros visuales del cerebro, oscureciendo la visión de todos cerca del punto objetivo.</BlindingPulse.description>
   
   <!-- EN: skipshield -->
-  <BulletShield.label>escudo antibalas</BulletShield.label>
+  <BulletShield.label>psicoescudo</BulletShield.label>
   <!-- EN: Generate a spherical skipgate that sends all incoming and outgoing ground-level projectiles to some distant place. People and items are not affected. -->
   <BulletShield.description>Genera un campo esférico que envía todos los proyectiles que lo crucen al nivel del suelo a una posición distante. La gente y los objetos no se ven afectados.</BulletShield.description>
   
@@ -32,22 +37,22 @@
   <Burden.description>Disminuye la velocidad del objetivo por un corto período de tiempo suprimiendo la actividad motora en el cerebro.</Burden.description>
   
   <!-- EN: chaos skip -->
-  <ChaosSkip.label>teletransporte caótico</ChaosSkip.label>
+  <ChaosSkip.label>caoskinesis</ChaosSkip.label>
   <!-- EN: Teleport the target to a random position near where he started. -->
   <ChaosSkip.description>Teletransporta al objetivo a una posición aleatoria cerca de donde comenzó.</ChaosSkip.description>
   
   <!-- EN: chunk skip -->
-  <Chunkskip.label>transporte de escombros</Chunkskip.label>
+  <Chunkskip.label>psicokinesis</Chunkskip.label>
   <!-- EN: Skip the 5 chunks of rock or slag to scatter them near the target point. This is useful for producing cover during offensive operations. -->
   <Chunkskip.description>Teletransporta 5 trozos de piedra o escombros para distribuirlos cerca de la posición objetivo. Esto sirve para crear coverturas durante operaciones ofensivas.</Chunkskip.description>
   
   <!-- EN: neural heat dump -->
-  <EntropyDump.label>descargar calentamiento neural</EntropyDump.label>
+  <EntropyDump.label>neurodescarga</EntropyDump.label>
   <!-- EN: Instantly dump all your neural heat into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted. -->
   <EntropyDump.description>Vuelca instantáneamente todo tu calentamiento neural en otro. Como efecto secundario, el objetivo caerá en un coma que lo debilitará pero no le causará daño permanente, durante un día. El objetivo debe aceptar activamente la invasión psíquica, de modo que sólo puede lanzarse sobre aliados conscientes.</EntropyDump.description>
   
   <!-- EN: farskip -->
-  <Farskip.label>teletransporte lejano</Farskip.label>
+  <Farskip.label>transposición aliada</Farskip.label>
   <!-- EN: Skip the caster, along with anyone standing near him, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map. -->
   <Farskip.description>Teletransporta al usuario, junto con cualquiera que esté cerca de el, a la posición de un aliado en una ubicación lejana. Esto puede mandar a personas a la otra punta del planeta, pero solo funciona si hay un aliado dispuesto a hacer de baliza de navegación al otro lado. Las personas teleportadas siempre aparecerán cerca de un aliado aleatorio en la ubicación objetivo.</Farskip.description>
   
@@ -72,16 +77,16 @@
   <ManhunterPulse.description>Conduce a los animales cercanos a una rabia de cazahombres usando un pulso psíquico.</ManhunterPulse.description>
   
   <!-- EN: mass chaos skip -->
-  <MassChaosSkip.label>gran salto del caos</MassChaosSkip.label>
+  <MassChaosSkip.label>caoskinesis múltiple</MassChaosSkip.label>
   <!-- EN: Skip everyone near a target point to a random location nearby. -->
   <MassChaosSkip.description>Teletrasporta a todos cerca de un punto objetivo a una ubicación aleatoria cercana.</MassChaosSkip.description>
   
   <!-- EN: neuroquake -->
-  <Neuroquake.label>avalancha psíquica</Neuroquake.label>
-  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature on the map outside of a safe circle near the caster will be driven violently insane. Casting this takes three hours of meditation, and afterwards, the caster will go into a three-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
-  <Neuroquake.description>Encuentra una discontinuidad en el campo psíquico y la 'desdobla', liberando cantidades masivas de energía psíquica. Toda criatura en el mapa fuera del area segura alrededor del usuario será violentamente enloquecida. Lanzar esta habilidad toma tres horas de meditación continua, y después el usuario caerá en un coma psíquico durante tres dias. Los ecos perturbadores provocados por la resonancia de la avalancha psíquica inflingirá dolor mental en cualquiera, a muchos kilómetros a la redonda, provocando consecuencias diplomáticas con todas las facciones.</Neuroquake.description>
-  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes three hours to cast, and cannot be interrupted. The caster will also fall into a psychic coma for several days.\n\nEveryone on the map except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
-  <Neuroquake.confirmationDialogText>Si provocas una avalancha psíquica, cualquiera en la región sentirá el eco de la avalancha, las relaciones con cualquier facción no hostil empeorarán.\n\nLa avalancha psíquica tarda tres horas en liberarse, y no puede ser interrumpida. El usuario también caerá en un coma psíquico por varios días.\n\nTodos en el mapa, a excepción de aquellos en una pequeña area alrededor del usuario, serán afectados.\n\n¿Realmente quieres provocar una avalancha psíquica?</Neuroquake.confirmationDialogText>
+  <Neuroquake.label>neurosismo</Neuroquake.label>
+  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature in range but outside of the safe, inner, circle will be driven violently insane. Casting this takes 12 seconds of meditation, and afterwards, the caster will go into a five-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
+  <Neuroquake.description>Encuentra una discontinuidad en el campo psíquico y la "desdobla", liberando cantidades masivas de energía psíquica. Toda criatura en el mapa fuera del area segura alrededor del conjurador será violentamente enloquecida. Lanzar esta habilidad toma 12 segundos de meditación continua, y después el conjurador caerá en un coma psíquico durante 5 días. Los ecos perturbadores provocados por la resonancia del neurosismo inflingirá dolor mental en cualquiera, a muchos kilómetros a la redonda, provocando consecuencias diplomáticas con todas las facciones.</Neuroquake.description>
+  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes 12 seconds to cast, and cannot be interrupted. When complete, the caster will fall into a psychic coma for 5 days.\n\nEveryone in range except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
+  <Neuroquake.confirmationDialogText>Si provocas un neurosismo, cualquiera en la región sentirá el eco del neurosismo, las relaciones con cualquier facción no hostil empeorarán.\n\nEl neurosismo tarda 12 segundos en liberarse, y no puede ser interrumpido. El conjurador también caerá en un coma psíquico por 5 días.\n\nTodos en el mapa, a excepción de aquellos en una pequeña area alrededor del conjurador, serán afectados.\n\n¿Realmente quieres provocar un neurosismo?</Neuroquake.confirmationDialogText>
   
   <!-- EN: painblock -->
   <Painblock.label>indoloro</Painblock.label>
@@ -89,13 +94,13 @@
   <Painblock.description>Bloquea las vías de dolor en el cerebro del objetivo por un corto tiempo. Esto puede permitir que una persona se mueva y actúe incluso con lesiones graves que normalmente lo incapacitarían.</Painblock.description>
   
   <!-- EN: skip -->
-  <Skip.label>salto</Skip.label>
+  <Skip.label>teletransportación</Skip.label>
   <!-- EN: Teleport the target to a desired position not too far from his starting point. -->
   <Skip.description>Teletransporta al objetivo a una posición deseada no muy lejos de su punto de partida.</Skip.description>
   
   <!-- EN: smokepop -->
   <Smokepop.label>nube de humo</Smokepop.label>
-  <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and preventing turrets from locking on entirely. -->
+  <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely. -->
   <Smokepop.description>Levanta partículas de polvo desde debajo de la superficie del suelo para formar una nube espesa. Esto reduce la precisión de cualquier disparo que la atravise y evita que las torretas apunten con claridad.</Smokepop.description>
   
   <!-- EN: solar pinhole -->
@@ -110,7 +115,7 @@
   
   <!-- EN: stun -->
   <Stun.label>aturdir</Stun.label>
-  <!-- EN: Momentarily disrupt motor function in target's brain, preventing any movement. -->
+  <!-- EN: Momentarily disrupt motor function in the target's brain, preventing any movement. -->
   <Stun.description>Interrumpe momentáneamente la función motora en el cerebro del objetivo, evitando cualquier movimiento.</Stun.description>
   
   <!-- EN: vertigo pulse -->
@@ -119,12 +124,12 @@
   <VertigoPulse.description>Interfiere con el sentido de orientación espacial de todos cerca del punto objetivo, causando pérdida intermitente del equilibrio. Las criaturas de carne también se volverán extremadamente nauseabundas.</VertigoPulse.description>
   
   <!-- EN: wallraise -->
-  <Wallraise.label>elevar pared</Wallraise.label>
+  <Wallraise.label>psicomuro</Wallraise.label>
   <!-- EN: Form a temporary wall by skipping rubble and soil up from deep under the ground. -->
   <Wallraise.description>Forma una pared temporal alzando los escombros y levantando la tierra desde las profundidades del suelo.</Wallraise.description>
   
   <!-- EN: waterskip -->
-  <Waterskip.label>llamar al agua</Waterskip.label>
+  <Waterskip.label>acuákinesis</Waterskip.label>
   <!-- EN: Douse a target area in water, extinguishing fires. The water is archotechnologically skipped from distant bodies of water or underground aquifers. -->
   <Waterskip.description>Rocía el área objetivo con agua, extinguiendo el fuego. El agua es separada a nivel arqueotecnológico de otros cuerpos distantes de agua o acuíferos subterráneos.</Waterskip.description>
   
@@ -134,7 +139,7 @@
   <WordOfInspiration.description>Fomentas las creatividad verbalmente mientras que sobrecargas psíquicamente la mente del objetivo con nuevas ideas. El objetivo experientará una inspiración aleatoria apropiada.</WordOfInspiration.description>
   
   <!-- EN: word of joy -->
-  <WordOfJoy.label>palabras de aliento</WordOfJoy.label>
+  <WordOfJoy.label>palabras de alegría</WordOfJoy.label>
   <!-- EN: Speak happy, calming words to someone while using psychic suggestion to implant a joyfuzz loop in his mind. The joyfuzz will suppress uncomfortable thoughts and sensations in the target to improve mood. This has the side-effect of dulling sensation and decision-making, which reduces consciousness. -->
   <WordOfJoy.description>Alentas a alguien con palabras tranquilizadoras y un tono feliz, mientras que usas la sugestión psíquica para implantar un bucle de felicidad en su mente. Este bucle suprimirá pensamientos negativos y sensaciones en el objetivo y mejorará su estado de animo. Esto tiene el efecto secundario de reducir los sentidos y la toma de decisiones, lo que reduce la consciencia.</WordOfJoy.description>
   
@@ -144,7 +149,7 @@
   <WordOfLove.description>Hablas de las virtudes de alguien mientras que usas la sugestión psíquica para inducir atacción romántica en el receptor. Por los siguientes días, el receptor sentirá atracción romántica inducida psíquicamente hacia la otra persona. Esto aumenta considerablemente la opinión sobre el otro y hace que sea más probable que intenten avanzar en su relación o proponer matrimonio si se diera la oportunidad. Este poder puede ser usado para conectar a otras dos personas, inducir amor hacia el usuario, o forzarse a uno mismo a amar a otro.</WordOfLove.description>
   
   <!-- EN: word of serenity -->
-  <WordOfSerenity.label>palabras de calma</WordOfSerenity.label>
+  <WordOfSerenity.label>palabras de serenidad</WordOfSerenity.label>
   <!-- EN: Use calming words and psychic suggestion to end a mental break on a person or animal. The target will fall into a short psychic sleep. The psyfocus cost depends on the intensity of the target's mental break. -->
   <WordOfSerenity.description>Hace uso de palabras relajantes y la sugestión psíquica para acabar con el colapso mental de uan persona o animal. El objetivo caerá en un corto sueño psíquico. El coste de este poder mental depende de la severidad del colapso mental del objetivo.</WordOfSerenity.description>
   
