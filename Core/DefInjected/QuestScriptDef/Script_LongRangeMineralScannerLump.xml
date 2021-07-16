@@ -5,7 +5,7 @@
     <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.[lumpThreatDescription]</li>
   -->
   <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
-    <li>questDescription->Utilizando el escáner mineral de largo alcance, [worker_definite] ha encontrado una veta de [targetMineable_label] cercana.\n\nDesgraciadamente, no durará mucho - otros se quedarán con los recursos en [timeoutTicks_duration] si no nos apresuramos.\n\n[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription->Utilizando el escáner de minerales de largo alcance, [worker_definite] ha encontrado una veta de [targetMineable_label] cercana.\n\nDesgraciadamente, no durará mucho, otros se quedarán con los recursos en [timeoutTicks_duration] si no nos apresuramos.\n\n[allSitePartsDescriptionsExceptFirst]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[lump] of [targetMineableThing_label]</li>
@@ -31,21 +31,26 @@
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
     <li>questName->[subName]</li>
     <li>questName->[subName]</li>
-    <li>subName->Recursos [adj]</li>
-    <li>subName->Minerales [adj]</li>
-    <li>subName->Minerales [adj]</li>
-    <li>subName->Riqueza [adj]</li>
-    <li>subName->Recursos Extraíbles [adj]</li>
-    <li>subName->Veta [adj]</li>
-    <li>subName->[adj] Proyecto de minería</li>
+    <li>subName->Recursos [adj]s</li>
+    <li>subName->Minerales [adj]s</li>
+    <li>subName->Depósito de recursos [adj]s</li>
+    <li>subName->Recursos Extraíbles [adj]s</li>
+    <li>subName->Una veta [adjFem]</li>
+    <li>subName->Un proyecto de minería [adj]</li>
     <li>adj->Distante</li>
-    <li>adj->Lejano</li>
     <li>adj->Lejano</li>
     <li>adj->Desconocido</li>
     <li>adj->Descubierto</li>
     <li>adj->Localizado</li>
     <li>adj->Detectado</li>
     <li>adj->Encontrado</li>
+    <li>adjFem->Distante</li>
+    <li>adjFem->Lejana</li>
+    <li>adjFem->Desconocida</li>
+    <li>adjFem->Descubierta</li>
+    <li>adjFem->Localizada</li>
+    <li>adjFem->Detectada</li>
+    <li>adjFem->Encontrada</li>
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>Misión caducada: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>

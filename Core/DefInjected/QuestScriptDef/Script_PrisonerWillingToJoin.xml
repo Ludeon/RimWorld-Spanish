@@ -9,10 +9,11 @@
     <li>underArmedGuard-></li>
   -->
   <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
-    <li>questDescription->¡Un prisionero cautivo de [siteFaction_name] se las ha ingeniado para robar una radio y contactarte!\n\n[prisoner_nameDef] se encuentra recluid[refugee_o_a] en un campamento en [map_definite] [underArmedGuard]. Rescáta[prisoner_objective], y se unirá a tu colonia. [prisoner_pronoun] es un/una [prisoner_title] de [prisoner_age] años . Dice que [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nSi dejas pasar esta oportunidad, nunca volverás a saber de [prisoner_nameDef].</li>
+    <li>questDescription(prisoner_gender==Male)->¡Un prisionero cautivo de [siteFaction_name] se las ha ingeniado para robar una radio y contactarte!\n\n[prisoner_nameDef] se encuentra recluido en un campamento en [map_definite][underArmedGuard]. Rescátalo, y se unirá a tu colonia. [prisoner_pronoun] es un [prisoner_title] de [prisoner_age] años. Dice que [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nSi dejas pasar esta oportunidad, nunca volverás a saber de [prisoner_nameDef].</li>
+    <li>questDescription(prisoner_gender!=Male)->¡Una prisionera cautiva de [siteFaction_name] se las ha ingeniado para robar una radio y contactarte!\n\n[prisoner_nameDef] se encuentra recluida en un campamento en [map_definite][underArmedGuard]. Rescátala, y se unirá a tu colonia. [prisoner_pronoun] es una [prisoner_title] de [prisoner_age] años. Dice que [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nSi dejas pasar esta oportunidad, nunca volverás a saber de [prisoner_nameDef].</li>
     <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
     <li>formerColonistInfo-></li>
-    <li>underArmedGuard(allowViolentQuests==true,priority=1)->bajo vigilancia armada</li>
+    <li>underArmedGuard(allowViolentQuests==true,priority=1)-> bajo vigilancia armada</li>
     <li>underArmedGuard-></li>
   </OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
   <!-- EN:

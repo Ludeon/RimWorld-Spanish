@@ -8,7 +8,7 @@
     <!-- EN:  
       <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].\n\nIf we succeed, [allRewardsDescriptions]</li>
     -->
-    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], nos ha enviado un mensaje. Al parecer, [siteFaction_pawnsPlural] apostados en un campamento cercano han estado atacando sus caravanas. El campamento pertenece a [siteFaction_name].\n\n[asker_nameDef] nos pide que lo destruyamos, lo que implica eliminar a todos los enemigos y torretas. [asker_label] dice que [sitePart0_description].\n\nSi tenemos éxito, [allRewardsDescriptions]</li>
+    <li>questDescription->[asker_nameFull], [asker_a] [asker_faction_leaderTitle] de [asker_faction_name], nos ha enviado un mensaje. Al parecer, unos [siteFaction_pawnsPlural] apostados en un campamento cercano han estado atacando sus caravanas. El campamento pertenece a la facción [siteFaction_name].\n\n[asker_nameDef] nos pide que lo destruyamos, lo que implica eliminar a todos los enemigos y torretas. [asker_label] dice que [sitePart0_description].\n\nSi tenemos éxito, [allRewardsDescriptions]</li>
     <!-- EN:
       <li>singleThingDescriptionOptional(priority=1)->\n\n[singleThingDescription]</li>
       <li>singleThingDescriptionOptional-></li>
@@ -37,7 +37,7 @@
     <!-- EN: questName->[asker_nameDef]'s Camp Bounty -->
     <li>questName->El Botín del Campamento de [asker_nameDef]</li>
     <!-- EN: questName->Camp of [enemyFaction_pawnsPlural] -->
-    <li>questName->Campamento de [enemyFaction_pawnsPlural]</li>
+    <li>questName->El Campamento de los [enemyFaction_pawnsPlural]</li>
     <!-- EN: questName->The Bandit Camp -->
     <li>questName->El Campamento de los Bandidos</li>
     <!-- EN: questName->The Raider Camp -->
@@ -56,9 +56,9 @@
   <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
   <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>Después de ser descubiertos, el campamento de bandidos se ha dispersado. La misión [resolvedQuestName] ha terminado.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
   <!-- EN: Payment arrived -->
-  <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>Pago recibido</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
+  <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>El pago ha llegado</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
   <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
-  <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>¡Has destruido el campamento de bandidos!\n\nEl pago de [asker_faction_name] ha llegado.</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>¡Has destruido el campamento de bandidos!\n\nEl pago de la facción [asker_faction_name] ha llegado.</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>
   <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->

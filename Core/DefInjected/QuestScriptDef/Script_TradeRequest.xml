@@ -7,8 +7,8 @@
     <li>qualityInfo-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Un asentamiento cercano, [settlement_label], tiene una propuesta comercial especial. Desean adquirir:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](valor de [requestedThingMarketValue_money])\n\nA cambio, [allRewardsDescriptions]\n\nSi te interesa el acuerdo, envía una caravana con los artículos solicitados. El tiempo estimado de viaje es [estimatedTravelTime_duration].</li>
-    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de calidad+ normal </li>
+    <li>questDescription->Un asentamiento cercano, [settlement_label], tiene una propuesta comercial especial. Desean adquirir:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](valor [requestedThingMarketValue_money])\n\nSi te interesa el acuerdo, envía una caravana con los artículos solicitados. El tiempo estimado de viaje es de [estimatedTravelTime_duration].</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de calidad normal o superior </li>
     <li>qualityInfo-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -42,7 +42,7 @@
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <TradeRequest.LetterLabelQuestFailed.slateRef>Misión fallida: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
   <!-- EN: [faction_name] became hostile to you. -->
-  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name] se convirtió en hostil.</TradeRequest.LetterTextQuestFailed.slateRef>
+  <TradeRequest.LetterTextQuestFailed.slateRef>La facción [faction_name] se volvió hostil a ti.</TradeRequest.LetterTextQuestFailed.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
