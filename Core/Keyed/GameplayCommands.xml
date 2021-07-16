@@ -7,9 +7,9 @@
   <!-- EN: Allow -->
   <CommandAllow>Permitir</CommandAllow>
   <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
-  <CommandForbiddenDesc>Prohibido - Los colonos no interactuarán con ésto.</CommandForbiddenDesc>
+  <CommandForbiddenDesc>Prohibido: Los colonos no interactuarán con esto.</CommandForbiddenDesc>
   <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
-  <CommandNotForbiddenDesc>No está prohibido - Los colonos podrán interactuar con ésto.</CommandNotForbiddenDesc>
+  <CommandNotForbiddenDesc>Permitido: Los colonos podrán interactuar con esto.</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <!-- EN: Toggle power -->
@@ -43,6 +43,8 @@
   <CommandToggleDraftDesc>Alterna el reclutamiento militar.\n\nLos colonos reclutados recibirán ordenes directas y lucharán. No trabajarán, comerán ni descansarán.</CommandToggleDraftDesc>
   <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} no puede caminar.</IsIncapped>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <ParticipatingInRitual>{0_labelShort} está participando en {1}.</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Fuego a discreción</CommandFireAtWillLabel>
@@ -98,6 +100,9 @@
   <TurningOffPrisonerBedWarning>Desactivar el modo prisión afecta a la habitación completa (ya que colonos y prisioneros no pueden dormir en la misma habitación).\n\nEstas personas perderán sus camas asignadas:</TurningOffPrisonerBedWarning>
   <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>¿Estás seguro de que quieres hacer ésto?</AreYouSure>
+  <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
+  <ChangingOwnerTypeBedWarning>El cambio de uso de la cama afecta a toda la habitación (ya que prisioneros, esclavos y colonos no pueden dormir en la misma habitación).\n\nEstas personas perderán la propiedad sobre sus camas:</ChangingOwnerTypeBedWarning>
+
 
   <!-- EN: Detonate -->
   <CommandDetonateLabel>Detonar</CommandDetonateLabel>
@@ -133,8 +138,13 @@
 
   <!-- EN: Allow sowing -->
   <CommandAllowSow>Permitir siembra</CommandAllowSow>
-  <!-- EN: When disabled, colonists will never sow plants in this zone. They will still harvest. -->
-  <CommandAllowSowDesc>Cuando se desactiva, los colonos no volverán a sembrar plantas en ésta área, pero seguirán cosechando.</CommandAllowSowDesc>
+  <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
+  <CommandAllowSowDesc>Cuando se desactiva, los colonos no volverán a sembrar nuevas plantas en esta área, pero seguirán cosechando.</CommandAllowSowDesc>
+
+  <!-- EN: Allow cutting -->
+  <CommandAllowCut>Permitir cortar</CommandAllowCut>
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
+  <CommandAllowCutDesc>Cuando esté desactivado, los colonos nunca cortarán las plantas en esta zona. Seguirán sembrando nuevas plantas en los espacios que ya están vacíos, y cosecharán.</CommandAllowCutDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -229,8 +239,8 @@
   <CommandAutoRearmDesc>Si está activado, la trampa automáticamente se reemplazará después de cada uso.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
-  <!-- EN: Release animals -->
-  <CommandReleaseAnimalsLabel>Soltar animales</CommandReleaseAnimalsLabel>
+  <!-- EN: Animals attack -->
+  <CommandReleaseAnimalsLabel>Animales atacan</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
   <CommandReleaseAnimalsDesc>Cuando está activado, los animales con amo serán soltados para atacar blancos distantes. Cuando está desactivado, permanecerán cerca de su amo y lo protegerán.</CommandReleaseAnimalsDesc>
   <!-- EN: No animals available. -->
@@ -535,11 +545,36 @@
   <CommandOpenLinkedQuest>Abrir misión enlazada.</CommandOpenLinkedQuest>
   <!-- EN: Open linked quest in the quests tab. -->
   <CommandOpenLinkedQuestDesc>Abrir misión enlazada en la pestaña de misiones.</CommandOpenLinkedQuestDesc>
+
+  <!-- Carry -->
+  <!-- EN: Drop {0_nameDef} -->
+  <CommandDropPawn>Soltar a {0_nameDef}</CommandDropPawn>
+  <!-- EN: Drop the person being carried. -->
+  <CommandDropPawnDesc>Suelta a la persona transportada.</CommandDropPawnDesc>
   
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>Consumir droga...</TakeDrug>
   <!-- EN: Choose a drug from inventory to ingest immediately. -->
   <TakeDrugDesc>Escoger una droga del inventario para consumir inmediatamente.</TakeDrugDesc>
+
+  <!-- Build X -->
+  <!-- EN: Build {0} -->
+  <BuildThing>Construir {0}</BuildThing>
+
+  <!-- Rituals -->
+  <!-- EN: Leave {RITUAL_label} -->
+  <CommandLeaveRitual>Abandonar {RITUAL_label}</CommandLeaveRitual>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>Deja de participar en el {RITUAL_labelDef}. El ritual continuará mientras tenga al menos un participante.</CommandLeaveRitualDesc>
+  <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
+  <CommandLeaveLastParticipant>Este es el último participante en el {RITUAL_labelDef}.</CommandLeaveLastParticipant>
+
+  <!-- EN: Cancel {RITUAL_label} -->
+  <CommandCancelRitual>Cancelar {RITUAL_label}</CommandCancelRitual>
+  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
+  <CommandCancelRitualDesc>Termina el {RITUAL_labelDef} inmediatamente. La obligación del ritual permanecerá. Puedes reiniciar el ritual más tarde.</CommandCancelRitualDesc>
+  <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
+  <CommandCancelRitualConfirm>¿Estás seguro de que quieres cancelar el {RITUAL_labelDef}?</CommandCancelRitualConfirm>
   
 </LanguageData>
