@@ -50,53 +50,105 @@
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
   <QuestHospitalityCommon.rulePack.rulesStrings>
-    <li>allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]</li>
+  <!-- <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
+    <li>healthInfo-></li>-->
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->los [lodgersLabelPlural]</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] está herido y es posible que no pueda moverse.</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->los [lodgersLabelPlural] están heridos y es posible que no puedan moverse.</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] está enfermo(a) de [lodgersDisease_label].</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->los [lodgersLabelPlural] están enfermos de [lodgersDisease_label].</li>
     <li>healthInfo-></li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] es un luchador de élite.</li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->los [lodgersLabelPlural] son luchadores de élite.</li>
-    <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1,lodgersCount==1)->Tienes que mantener su estado de ánimo por encima de [lodgersMoodThreshold_percent].</li>
-    <li>minMoodInfo(priority=1,lodgersCount>=2)->Tienes que mantener el estado de ánimo de [lodgersLabelPlural] por encima de [lodgersMoodThreshold_percent].</li>
+    <!--<li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] suffering from paralytic abasia and must be kept in bed.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] sick with blood rot and will require daily treatment. The disease can be slowed with high-quality care and medicine, but generally cannot be cured outright. If the disease becomes severe [lodgersLabelSingOrPluralDef] will die, so ensure you have the necessary medical supplies.</li>
     <li>minMoodInfo-></li>
-    <li>enemyGroupsParagraph->Las incursiones ocurrirán aproximadamente una vez [threatsIntervalTicks_duration]. La fuerza de las incursiones será comparable a:\n\n[threatExample]</li>
-    <li>commonDescEnding->[helpersParagraph] [shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->Después de cierto tiempo ([shuttleDelayTicks_duration]), una lanzadera vendrá a recoger a [lodgers0_nameDef]. Si [lodgers0_objective] llega con vida a la lanzadera, [allRewardsDescriptions]</li>
-    <li>shuttleWillComeParagraph(lodgersCount>=2)->Después de cierto tiempo ([shuttleDelayTicks_duration]), una lanzadera vendrá a recoger a los [lodgersLabelPlural]. Si los traes con vida a la lanzadera, [allRewardsDescriptions]</li>
-    <li>mustKeepOnMapParagraph(lodgersCount==1)->Tienes que mantener a [lodgers0_nameDef] en [map_definite] y no enviar[lodgers0_objective] a ningún otro lugar.</li>
-    <li>mustKeepOnMapParagraph(lodgersCount>=2)->Tienes que mantener a [lodgersLabelPlural] en [map_definite] y que no vayan a nigún otro lugar.</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] tiene [recently] [mechViolation], y ha estado en la mira de un enjambre de mecanoides desde entonces. Siempre y cuando [lodgers0_nameDef] este presente, aterrizarán regularmente cápsulas con meca-conglomerados de combate en [map_definite] .</li>
-    <li>threatsInfoMechClustersMultiPrisoners->Los prisioneros tienen [recently] [mechViolation], han estado en la mira de un enjambre de mecanoides desde entonces. Mientras estén presentes, las cápsulas con meca-conglomerados de combate aterrizarán regularmente en [map_definite] .</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] tiene [recently] [mechViolation], y ha estado en la mira de un enjambre de mecanoides desde entonces. Mientras [lodgers0_nameDef] esté presente, las incursiones mecanoides ocurrirán regularmente.</li>
-    <li>threatsInfoMechRaidsMultiHuman->Recientemente [mechViolation], y han estado en la mira de un enjambre de mecanoides. Mientras estén presentes, las incursiones mecanoides ocurrirán regularmente.</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nyou must keep the mood of [lodgersLabelSingOrPluralDef] above [lodgersMoodThreshold_percent].</li>
+    <li>workInfo-></li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] will not do any work.</li>
+    <li>commonDescEnding->[helpersParagraph]</li>-->
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] sufriendo de abasia paralítica y debe(n)  ser mantenido(s) en cama.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] con putrefacción sanguínea y requiere(n) de un tratamiento diario. La enfermedad puede ser frenada con cuidados y medicinas de alta calidad, pero en general no puede ser curada de inmediato. Si la enfermedad se vuelve grave [lodgersLabelSingOrPluralDef] morirá(n), así que asegúrate de tener los suministros médicos necesarios.</li>
+    <li>minMoodInfo-></li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\ndebes mantener el humor de [lodgersLabelSingOrPluralDef] por encima de [lodgersMoodThreshold_percent].</li>
+    <li>workInfo-></li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] no hará(n) ningún trabajo.</li>
+    <li>commonDescEnding->[helpersParagraph]</li>
+    <!--<li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be (*Threat)a raid(/Threat) of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->there will be (*Threat)a raid(/Threat) of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->there will be (*Threat)[threatCount] raids(/Threat) of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->there will be (*Threat)[threatCount] raids(/Threat) of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)a mech cluster(/Threat) will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)two mech clusters(/Threat) will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)a mech cluster(/Threat) of [threatSize]x size will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)two mech clusters(/Threat) of [threatSize]x size will deploy nearby.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
+    <li>threatsInfoMechRaidsMultiHuman->They recently [mechViolation], and have been targeted by a mechanoid hive.</li>-->
+    <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->habrá (*Threat)una incursión(/Threat) de aproximadamente este tamaño:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->habrá (*Threat)una incursión(/Threat) de fuerza [threatSize]x y aproximadamente de este tamaño:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->habrán (*Threat)[threatCount] incursiones(/Threat) de aproximadamente este tamaño:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->habrán (*Threat)[threatCount] incursiones(/Threat) de fuerza [threatSize]x y aproximadamente de este tamaño:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)un grupo de mecas(/Threat) se desplegará en las cercanías.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)dos grupos de mecas(/Threat) se desplegarán en las cercanías.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)un grupo de mecas(/Threat) de [threatSize]x tamaño se desplegará en las cercanías.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)dos grupos de mecas(/Threat) de [threatSize]x tamaño se desplegará en las cercanías.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recientemente [mechViolation], y es objetivo de un enjambre mecanoide en órbita.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->Los prisioneros recientemente [mechViolationMultiHuman], y son objetivo de un enjambre mecanoide en órbita.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recientemente [mechViolation], y es objetivo de una colmena mecanoide.</li>
+    <li>threatsInfoMechRaidsMultiHuman->Ellos recientemente [mechViolationMultiHuman], y son objetivo de una colmena mecanoide.</li>
+    <!--<li>mechViolation->angered a machine persona somehow</li>
+    <li>mechViolation->violated an ancient supercomputer terminal</li>
+    <li>mechViolation->murdered a human child favored by an archotech</li>
+    <li>mechViolation->attempted to hack a mechanoid control node</li>
+    <li>mechViolation->attempted to steal from an ancient storage site</li>
+    <li>letterSubject->{SUBJECT_definite}</li>
+    <li>lodgersHasHave(lodgersCount==1)->has</li>
+    <li>lodgersHasHave(lodgersCount>=2)->have</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->them</li>-->
     <li>mechViolation->enfureció a una IA de alguna manera</li>
     <li>mechViolation->osó utilizar un antiguo terminal de un super-ordenador</li>
     <li>mechViolation->mató a un niño humano que significaba mucho para un arqueotécnico</li>
     <li>mechViolation->intentó piratear un nodo de control mecanoide</li>
     <li>mechViolation->intentó robar algo de un antiguo depósito</li>
+    <li>mechViolationMultiHuman->enfurecieron a una IA de alguna manera</li>
+    <li>mechViolationMultiHuman->osaron utilizar un antiguo terminal de un super-ordenador</li>
+    <li>mechViolationMultiHuman->mataron a un niño humano que significaba mucho para un arqueotécnico</li>
+    <li>mechViolationMultiHuman->intentaron piratear un nodo de control mecanoide</li>
+    <li>mechViolationMultiHuman->intentaron robar algo de un antiguo depósito</li>
     <li>letterSubject->{SUBJECT_definite}</li>
-    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
-    <li>lodgersObjective(lodgersCount>=2)->ellos</li>
-    <li>lodgersIsAre(lodgersCount==1)->es</li>
-    <li>lodgersIsAre(lodgersCount>=2)->son</li>
-    <li>lodgers_Plural_S(lodgersCount==1)-></li>
-    <li>lodgers_Plural_S(lodgersCount>=2)->s</li>
     <li>lodgersHasHave(lodgersCount==1)->ha</li>
     <li>lodgersHasHave(lodgersCount>=2)->han</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->ellos</li>
+    <!--<li>areIs(lodgersCount==1)->is</li>
+    <li>areIs(lodgersCount>=2)->are</li>
+    <li>remainingWillNowLeave(lodgersCount==1)-></li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave.</li>
+    <li>failLetterEndingQuest->You have failed the quest '[resolvedQuestName]'.</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>-->
+    <li>areIs(lodgersCount==1)->está</li>
+    <li>areIs(lodgersCount>=2)->están</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Cualquier [lodgersLabelPlural] restante se marchará inmediamente.</li>
-    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->La misión [resolvedQuestName]' ha fracasado.</li>
-    <li>failLetterEndingCommon->La misión '[resolvedQuestName]' ha fracasado.\n\nTu reputación con la facción '[asker_faction_name]' disminuido en [goodwillPenalty].</li>
-    <li>recently->recientemente</li>
-    <li>recently->recientemente</li>
-    <li>recently->recientemente</li>
+    <li>failLetterEndingQuest->Has fallado en la misión "[resolvedQuestName]".</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nTus relaciones con la facción [asker_faction_name] han disminuido por [goodwillPenalty].</li>
+    <li>lodgers_Plural_S(lodgersCount==1)-></li>
+    <li>lodgers_Plural_S(lodgersCount>=2)->s</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>
