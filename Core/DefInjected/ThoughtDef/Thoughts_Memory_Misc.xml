@@ -12,9 +12,9 @@
   <BondedAnimalBanished.stages.bonded_animal_banished.description>¡Mi animal favorito fue desterrado!</BondedAnimalBanished.stages.bonded_animal_banished.description>
   
   <!-- EN: I butchered humanlike -->
-  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>descuartizó a un humano</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
+  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>he descuartizado a un humanoide</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
   <!-- EN: I butchered someone up like an animal. -->
-  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Acabo de descuartizar a un humano como si fuera un animal.</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>
+  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Acabo de descuartizar a alguien como si fuera un animal.</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>
   
   <!-- EN: butchered humanlike corpse -->
   <ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>he descuartizado un cuerpo humanoide</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
@@ -27,7 +27,7 @@
   <!-- EN: colonist banished -->
   <ColonistBanished.stages.colonist_banished.label>colono desterrado</ColonistBanished.stages.colonist_banished.label>
   <!-- EN: We just banished someone. I hope they make it, but I'm worried. -->
-  <ColonistBanished.stages.colonist_banished.description>Acabamos de desterrar a alguien. Quizás fue lo más justo, pero estoy preocupado.</ColonistBanished.stages.colonist_banished.description>
+  <ColonistBanished.stages.colonist_banished.description>Acabamos de desterrar a alguien. Quizás fue lo más justo, pero estoy preocupad{PAWN_gender ? o : a}.</ColonistBanished.stages.colonist_banished.description>
   
   <!-- EN: colonist banished to death -->
   <ColonistBanishedToDie.stages.colonist_banished_to_death.label>colono abandonado a su suerte</ColonistBanishedToDie.stages.colonist_banished_to_death.label>
@@ -35,15 +35,15 @@
   <ColonistBanishedToDie.stages.colonist_banished_to_death.description>Abandonamos a alguien de tal manera que casi no hay forma de que haya sobrevivido.</ColonistBanishedToDie.stages.colonist_banished_to_death.description>
   
   <!-- EN: defeated hostile leader {0} -->
-  <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>derrotó a un líder hostil {0}</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
+  <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>líder hostil {0} derrotado</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
   <!-- EN: They were leading efforts to destroy us, and I took them down! -->
   <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>Se esforzaron por destruirnos, ¡pero no pudieron conmigo!</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
   
   <!-- EN: defeated hostile leader -->
-  <DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>derrotó a un líder hostil</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
+  <DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>líder hostil derrotado</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
   
   <!-- EN: defeated mech cluster -->
-  <DefeatedMechCluster.stages.defeated_mech_cluster.label>destruyó un meca-conglomerado</DefeatedMechCluster.stages.defeated_mech_cluster.label>
+  <DefeatedMechCluster.stages.defeated_mech_cluster.label>meca-conglomerado derrotado</DefeatedMechCluster.stages.defeated_mech_cluster.label>
   <!-- EN: Blood beats metal, you damn machines! -->
   <DefeatedMechCluster.stages.defeated_mech_cluster.description>¡La sangre sobre el metal, jodidos cacharros!</DefeatedMechCluster.stages.defeated_mech_cluster.description>
   
@@ -58,9 +58,9 @@
   <FailedToRescueRelative.stages.failed_to_rescue.description>Saber que podría haber ayudado a un ser querido hace que sea aún más difícil sobrellevar esta pesadumbre.</FailedToRescueRelative.stages.failed_to_rescue.description>
   
   <!-- EN: freed from slavery -->
-  <FreedFromSlavery.stages.freed_from_slavery.label>liberado(a) de la esclavitud</FreedFromSlavery.stages.freed_from_slavery.label>
+  <FreedFromSlavery.stages.freed_from_slavery.label>liberad{PAWN_gender ? o : a} de la esclavitud</FreedFromSlavery.stages.freed_from_slavery.label>
   <!-- EN: I have been freed from slavery. I'm so thankful! -->
-  <FreedFromSlavery.stages.freed_from_slavery.description>He sido liberado(a) de la esclavitud. ¡Estoy muy agradecido(a)!</FreedFromSlavery.stages.freed_from_slavery.description>
+  <FreedFromSlavery.stages.freed_from_slavery.description>He sido liberad{PAWN_gender ? o : a} de la esclavitud. ¡Estoy muy agradecid{PAWN_gender ? o : a}!</FreedFromSlavery.stages.freed_from_slavery.description>
   
   <!-- EN: bloodlust organ harvested -->
   <HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>sanguinari{PAWN_gender ? o : a} cosechó órgano</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>
@@ -98,14 +98,14 @@
   <KnowPrisonerSold.stages.prisoner_sold.description>Esta colonia vendió a un prisionero como esclavo. La sola idea es preocupante.</KnowPrisonerSold.stages.prisoner_sold.description>
   
   <!-- EN: my organ harvested -->
-  <MyOrganHarvested.stages.my_organ_harvested.label>mi órgano fue extraído</MyOrganHarvested.stages.my_organ_harvested.label>
+  <MyOrganHarvested.stages.my_organ_harvested.label>mi órgano fue cosechado</MyOrganHarvested.stages.my_organ_harvested.label>
   <!-- EN: The colony harvested body parts from me! They're breaking me down like an old engine! -->
-  <MyOrganHarvested.stages.my_organ_harvested.description>¡La colonia me ha extraído un organo! ¡Me están desmontando como a un motor viejo!</MyOrganHarvested.stages.my_organ_harvested.description>
+  <MyOrganHarvested.stages.my_organ_harvested.description>¡La colonia me ha cosechado un organo! ¡Me están desmontando como a un motor viejo!</MyOrganHarvested.stages.my_organ_harvested.description>
   
   <!-- EN: initial hope -->
   <NewColonyHope.stages.initial_hope.label>esperanza de nueva colonia</NewColonyHope.stages.initial_hope.label>
   <!-- EN: I'm getting used to this, but it's still an exciting new situation. I hope this works out... -->
-  <NewColonyHope.stages.initial_hope.description>Me estoy empezando a acostumbrar a esta situación y estoy entusiasmado. Espero que esto funcione...</NewColonyHope.stages.initial_hope.description>
+  <NewColonyHope.stages.initial_hope.description>Me estoy empezando a acostumbrar a esta situación y estoy entusiasmad{PAWN_gender ? o : a}. Espero que esto funcione...</NewColonyHope.stages.initial_hope.description>
   
   <!-- EN: initial optimism -->
   <NewColonyOptimism.stages.initial_optimism.label>optimismo de nueva colonia</NewColonyOptimism.stages.initial_optimism.label>
@@ -113,7 +113,7 @@
   <NewColonyOptimism.stages.initial_optimism.description>Es una situación difícil, pero me emociona fundar un nuevo asentamiento.</NewColonyOptimism.stages.initial_optimism.description>
   
   <!-- EN: nuzzled -->
-  <Nuzzled.stages.nuzzled.label>acariciado</Nuzzled.stages.nuzzled.label>
+  <Nuzzled.stages.nuzzled.label>acariciad{PAWN_gender ? o : a}</Nuzzled.stages.nuzzled.label>
   <!-- EN: A cute animal nuzzled me. -->
   <Nuzzled.stages.nuzzled.description>Un animal muy tierno me ha acariciado.</Nuzzled.stages.nuzzled.description>
   
@@ -133,7 +133,7 @@
   <OnDuty.stages.on_duty.description>Tengo un trabajo que hacer</OnDuty.stages.on_duty.description>
   
   <!-- EN: prisoner banished to death -->
-  <PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>prisionero desterrado y medio muerto</PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>
+  <PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>prisionero desterrado a la muerte</PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>
   <!-- EN: We banished a prisoner in such a way that there's almost no way they'll survive. -->
   <PrisonerBanishedToDie.stages.prisoner_banished_to_death.description>Desterramos a un prisionero en unas condiciones que casi no hay forma de que haya sobrevivido.</PrisonerBanishedToDie.stages.prisoner_banished_to_death.description>
   
@@ -143,14 +143,14 @@
   <ReleasedHealthyPrisoner.stages.prisoner_released.description>Soltamos a un prisionero en buen estado. Saber que tratamos bien incluso a los prisioneros me hace sentir bien.</ReleasedHealthyPrisoner.stages.prisoner_released.description>
   
   <!-- EN: rescued -->
-  <Rescued.stages.rescued.label>rescatado(a)</Rescued.stages.rescued.label>
+  <Rescued.stages.rescued.label>rescatad{PAWN_gender ? o : a}</Rescued.stages.rescued.label>
   <!-- EN: I was rescued! I almost thought I was done for back there. I'm so thankful. -->
   <Rescued.stages.rescued.description>¡Me rescataron! Casi había perdido la esperanza. Estoy muy agradecido(a).</Rescued.stages.rescued.description>
   
   <!-- EN: rescued {0} -->
-  <RescuedRelative.stages.rescued.label>{0} rescatado(a)</RescuedRelative.stages.rescued.label>
+  <RescuedRelative.stages.rescued.label>{0} rescatad{0_gender ? o : a}</RescuedRelative.stages.rescued.label>
   <!-- EN: We rescued one of my relatives. Finally, I can breathe a sigh of relief. -->
-  <RescuedRelative.stages.rescued.description>Rescatamos a uno de mis seres queridos. Ahora que sé que está a salvo, finalmente puedo respirar aliviado(a).</RescuedRelative.stages.rescued.description>
+  <RescuedRelative.stages.rescued.description>Rescatamos a uno de mis seres queridos. Ahora que sé que está a salvo, finalmente puedo respirar con alivio.</RescuedRelative.stages.rescued.description>
   
   <!-- EN: disturbed sleep -->
   <SleepDisturbed.stages.disturbed_sleep.label>sueño perturbado</SleepDisturbed.stages.disturbed_sleep.label>
@@ -178,12 +178,12 @@
   <SleptOutside.stages.slept_outside.description>He tenido que dormir en el exterior, sin ninguna protección contra los elementos.</SleptOutside.stages.slept_outside.description>
   
   <!-- EN: soaking wet -->
-  <SoakingWet.stages.soaking_wet.label>empapado(a)</SoakingWet.stages.soaking_wet.label>
+  <SoakingWet.stages.soaking_wet.label>empapad{PAWN_gender ? o : a}</SoakingWet.stages.soaking_wet.label>
   <!-- EN: I'm soaking wet. -->
-  <SoakingWet.stages.soaking_wet.description>Estoy completamente empapado(a).</SoakingWet.stages.soaking_wet.description>
+  <SoakingWet.stages.soaking_wet.description>Estoy completamente empapad{PAWN_gender ? o : a}.</SoakingWet.stages.soaking_wet.description>
   
   <!-- EN: was imprisoned -->
-  <WasImprisoned.stages.was_imprisoned.label>encarcelado(a)</WasImprisoned.stages.was_imprisoned.label>
+  <WasImprisoned.stages.was_imprisoned.label>encarcelad{PAWN_gender ? o : a}</WasImprisoned.stages.was_imprisoned.label>
   <!-- EN: The colony had me in jail for a while, like a caged animal. -->
   <WasImprisoned.stages.was_imprisoned.description>La colonia me encarceló durante un tiempo, como a un animal en una jaula.</WasImprisoned.stages.was_imprisoned.description>
   
@@ -193,7 +193,7 @@
   <WitnessedDeathAlly.stages.witnessed_allys_death.description>He visto a uno de los nuestros morir. Estaba vivo, y un momento después...</WitnessedDeathAlly.stages.witnessed_allys_death.description>
   
   <!-- EN: witnessed death with bloodlust -->
-  <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>presenció la muerte estando en frenesí</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>
+  <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>sanguinari{PAWN_gender ? o : a} observó una muerte</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>
   <!-- EN: I saw someone die! That was intense! -->
   <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>¡He visto a alguien morir! ¡Ha sido intenso!</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>
   

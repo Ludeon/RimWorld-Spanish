@@ -36,11 +36,11 @@
   <!-- EN: I'm so cold, I'm shivering. -->
   <EnvironmentCold.stages.cold.description>Tengo tanto frío que estoy temblando.</EnvironmentCold.stages.cold.description>
   <!-- EN: numbing cold -->
-  <EnvironmentCold.stages.numbing_cold.label>helado(a)</EnvironmentCold.stages.numbing_cold.label>
+  <EnvironmentCold.stages.numbing_cold.label>helad{PAWN_gender ? o : a}</EnvironmentCold.stages.numbing_cold.label>
   <!-- EN: I can't stop shivering. My teeth are chattering. All I can think of is getting warm. -->
   <EnvironmentCold.stages.numbing_cold.description>No puedo dejar de temblar. Mis dientes castañetean. Sólo puedo pensar en calentarme.</EnvironmentCold.stages.numbing_cold.description>
   <!-- EN: absolutely freezing -->
-  <EnvironmentCold.stages.absolutely_freezing.label>totalmente congelado(a)</EnvironmentCold.stages.absolutely_freezing.label>
+  <EnvironmentCold.stages.absolutely_freezing.label>totalmente congelad{PAWN_gender ? o : a}</EnvironmentCold.stages.absolutely_freezing.label>
   <!-- EN: My teeth are chattering so hard I can barely speak. My toes are numb. I need to get warm. -->
   <EnvironmentCold.stages.absolutely_freezing.description>Mis dientes castañetean tan fuerte que apenas puedo hablar. No siento los dedos de los pies. Necesito calentarme.</EnvironmentCold.stages.absolutely_freezing.description>
   
@@ -50,7 +50,7 @@
   <EnvironmentDark.stages.darkness.description>Ya llevo un buen rato a oscuras. No me gusta.</EnvironmentDark.stages.darkness.description>
   
   <!-- EN: sweaty -->
-  <EnvironmentHot.stages.sweaty.label>sudoroso(a)</EnvironmentHot.stages.sweaty.label>
+  <EnvironmentHot.stages.sweaty.label>sudoros{PAWN_gender ? o : a}</EnvironmentHot.stages.sweaty.label>
   <!-- EN: It's too hot here. I'm sweating. -->
   <EnvironmentHot.stages.sweaty.description>Hace calor aquí. Estoy sudando.</EnvironmentHot.stages.sweaty.description>
   <!-- EN: hot -->
@@ -67,7 +67,7 @@
   <EnvironmentHot.stages.blistering_hot.description>Este lugar está ardiendo. ¡Creo que podría morir con este calor!</EnvironmentHot.stages.blistering_hot.description>
   
   <!-- EN: human leather {0} -->
-  <HumanLeatherApparelHappy.stages.human_leather.label>cuero humano {0}</HumanLeatherApparelHappy.stages.human_leather.label>
+  <HumanLeatherApparelHappy.stages.human_leather.label>cuero humano</HumanLeatherApparelHappy.stages.human_leather.label>
   <!-- EN: I enjoy wearing the suffering of others. -->
   <HumanLeatherApparelHappy.stages.human_leather.description>Me gusta vestirme con el sufrimiento de los demás.</HumanLeatherApparelHappy.stages.human_leather.description>
   <!-- EN: human leather {0} (+1) -->
@@ -77,7 +77,7 @@
   <!-- EN: human leather {0} (+2) -->
   <HumanLeatherApparelHappy.stages.human_leather_2.label>cuero humano {0} (+2)</HumanLeatherApparelHappy.stages.human_leather_2.label>
   <!-- EN: The faces on my clothes aren't smiling, but they make *me* happy. -->
-  <HumanLeatherApparelHappy.stages.human_leather_2.description>Las caras en mi ropa no sonríen, pero me hacen feliz.</HumanLeatherApparelHappy.stages.human_leather_2.description>
+  <HumanLeatherApparelHappy.stages.human_leather_2.description>Las caras en mi ropa no sonríen, pero *me* hacen feliz.</HumanLeatherApparelHappy.stages.human_leather_2.description>
   <!-- EN: human leather {0} etc -->
   <HumanLeatherApparelHappy.stages.human_leather_etc.label>cuero humano {0} etc</HumanLeatherApparelHappy.stages.human_leather_etc.label>
   <!-- EN: The flesh! The flesh signals my triumph! -->
@@ -90,7 +90,7 @@
   <!-- EN: human leather {0} (+1) -->
   <HumanLeatherApparelSad.stages.human_leather_1.label>cuero humano {0} (+1)</HumanLeatherApparelSad.stages.human_leather_1.label>
   <!-- EN: I'm dressed like an insane person. -->
-  <HumanLeatherApparelSad.stages.human_leather_1.description>Estoy vestido como un demente.</HumanLeatherApparelSad.stages.human_leather_1.description>
+  <HumanLeatherApparelSad.stages.human_leather_1.description>Estoy vestid{PAWN_gender ? o : a} como un{PAWN_gender ?  : a} demente.</HumanLeatherApparelSad.stages.human_leather_1.description>
   <!-- EN: human leather {0} (+2) -->
   <HumanLeatherApparelSad.stages.human_leather_2.label>cuero humano {0} (+2)</HumanLeatherApparelSad.stages.human_leather_2.label>
   <!-- EN: I think there may be a face on my clothes. Oh no... my clothes *are* a face. -->
@@ -101,7 +101,7 @@
   <HumanLeatherApparelSad.stages.human_leather_etc.description>Parezco un fenómeno de un programa de terror, y me siento como si viviera en un espectáculo de terror.</HumanLeatherApparelSad.stages.human_leather_etc.description>
   
   <!-- EN: sick -->
-  <Sick.stages.sick.label>enfermo(a)</Sick.stages.sick.label>
+  <Sick.stages.sick.label>enferm{PAWN_gender ? o : a}</Sick.stages.sick.label>
   <!-- EN: I don't feel very well. -->
   <Sick.stages.sick.description>No me encuentro bien.</Sick.stages.sick.description>
   

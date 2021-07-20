@@ -12,9 +12,9 @@
   <KnowColonistDied.stages.colonist_died.description>Uno de los nuestros ha muerto. Deberíamos poder ocuparnos de nuestra propia gente.</KnowColonistDied.stages.colonist_died.description>
   
   <!-- EN: justified execution of colonist -->
-  <KnowColonistExecuted.stages.justified_execution_of_colonist.label>colono ejecutado</KnowColonistExecuted.stages.justified_execution_of_colonist.label>
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.label>colono ejecutado justamente</KnowColonistExecuted.stages.justified_execution_of_colonist.label>
   <!-- EN: A guilty colonist was executed. It was justified, but still sad. -->
-  <KnowColonistExecuted.stages.justified_execution_of_colonist.description>Un colono culpable fue ejecutado. Estaba justificado, pero aún así es triste.</KnowColonistExecuted.stages.justified_execution_of_colonist.description>
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.description>Un colono culpable fue ejecutado. Estaba justificado, pero aun así es triste.</KnowColonistExecuted.stages.justified_execution_of_colonist.description>
   <!-- EN: colonist euthanized -->
   <KnowColonistExecuted.stages.colonist_euthanized.label>eutanasia practicada</KnowColonistExecuted.stages.colonist_euthanized.label>
   <!-- EN: A colonist was euthanized. It was humane, but still sad. -->
@@ -24,7 +24,7 @@
   <!-- EN: A colonist was killed in cold blood. It seemed a bit evil. -->
   <KnowColonistExecuted.stages.colonist_executed.description>Un colono fue asesinado a sangre fría. Me pareció un poco malvado.</KnowColonistExecuted.stages.colonist_executed.description>
   <!-- EN: colonist organ-harvested -->
-  <KnowColonistExecuted.stages.colonist_organharvested.label>órgano de colono extraído</KnowColonistExecuted.stages.colonist_organharvested.label>
+  <KnowColonistExecuted.stages.colonist_organharvested.label>órgano de colono "cosechado"</KnowColonistExecuted.stages.colonist_organharvested.label>
   <!-- EN: A colonist died because someone took body parts from him. It's horrible. -->
   <KnowColonistExecuted.stages.colonist_organharvested.description>Un colono murió porque alguien le quitó partes de su cuerpo. Es horrible.</KnowColonistExecuted.stages.colonist_organharvested.description>
   
@@ -39,7 +39,7 @@
   <!-- EN: someone was executed -->
   <KnowGuestExecuted.stages.someone_was_executed.label>alguien fue ejecutado</KnowGuestExecuted.stages.someone_was_executed.label>
   <!-- EN: A prisoner or guest was killed in cold blood. It seemed a bit evil. -->
-  <KnowGuestExecuted.stages.someone_was_executed.description>.Un colono fue asesinado a sangre fría. Me pareció un poco malvado.</KnowGuestExecuted.stages.someone_was_executed.description>
+  <KnowGuestExecuted.stages.someone_was_executed.description>Un colono fue asesinado a sangre fría. Me pareció un poco malvado.</KnowGuestExecuted.stages.someone_was_executed.description>
   <!-- EN: someone was organ-murdered -->
   <KnowGuestExecuted.stages.someone_was_organmurdered.label>alguien fue asesinado por un órgano</KnowGuestExecuted.stages.someone_was_organmurdered.label>
   <!-- EN: A prisoner or guest died because the colony took body parts from him. It's horrible. -->
@@ -61,9 +61,9 @@
   <MyBrotherDied.stages.my_brother_died.description>Mi hermano está muerto. Mi propia carne y sangre...</MyBrotherDied.stages.my_brother_died.description>
   
   <!-- EN: my cousin {0} died -->
-  <MyCousinDied.stages.my_cousin_died.label>mi primo(a) {0} murió</MyCousinDied.stages.my_cousin_died.label>
+  <MyCousinDied.stages.my_cousin_died.label>mi prim{1_gender ? o : a} {0} murió</MyCousinDied.stages.my_cousin_died.label>
   <!-- EN: My cousin died. My own flesh and blood... -->
-  <MyCousinDied.stages.my_cousin_died.description>Mi primo(a) está muerto(a). Mi propia carne y sangre...</MyCousinDied.stages.my_cousin_died.description>
+  <MyCousinDied.stages.my_cousin_died.description>Mi prim{OTHERPAWN_gender ? o : a} está muert{OTHERPAWN_gender ? o : a}. Mi propia carne y sangre...</MyCousinDied.stages.my_cousin_died.description>
   
   <!-- EN: my daughter {0} died -->
   <MyDaughterDied.stages.my_daughter_died.label>mi hija {0} murió</MyDaughterDied.stages.my_daughter_died.label>
@@ -86,19 +86,19 @@
   <MyFianceeDied.stages.my_fiance_died.description>Mi prometida está muerta. Mi futuro por los suelos.</MyFianceeDied.stages.my_fiance_died.description>
   
   <!-- EN: my grandchild {0} died -->
-  <MyGrandchildDied.stages.my_grandchild_died.label>mi nieto(a) {0} murió</MyGrandchildDied.stages.my_grandchild_died.label>
+  <MyGrandchildDied.stages.my_grandchild_died.label>mi niet{1_gender ? o : a} {0} murió</MyGrandchildDied.stages.my_grandchild_died.label>
   <!-- EN: My grandchild died. My own flesh and blood... -->
-  <MyGrandchildDied.stages.my_grandchild_died.description>Mi nieto(a) está muerto(a). Mi propia carne y sangre...</MyGrandchildDied.stages.my_grandchild_died.description>
+  <MyGrandchildDied.stages.my_grandchild_died.description>Mi niet{OTHERPAWN_gender ? o : a} está muert{OTHERPAWN_gender ? o : a}. Mi propia carne y sangre...</MyGrandchildDied.stages.my_grandchild_died.description>
   
   <!-- EN: my grandparent {0} died -->
-  <MyGrandparentDied.stages.my_grandparent_died.label>mi abuelo(a) {0} murió</MyGrandparentDied.stages.my_grandparent_died.label>
+  <MyGrandparentDied.stages.my_grandparent_died.label>mi abuel{1_gender ? o : a} {0} murió</MyGrandparentDied.stages.my_grandparent_died.label>
   <!-- EN: My grandparent died. -->
-  <MyGrandparentDied.stages.my_grandparent_died.description>Mi abuelo(a) está muerto(a).</MyGrandparentDied.stages.my_grandparent_died.description>
+  <MyGrandparentDied.stages.my_grandparent_died.description>Mi abuel{OTHERPAWN_gender ? o : a} está muert{OTHERPAWN_gender ? o : a}.</MyGrandparentDied.stages.my_grandparent_died.description>
   
   <!-- EN: my half-sibling {0} died -->
-  <MyHalfSiblingDied.stages.my_halfsibling_died.label>mi medio hermano(a) {0} murió</MyHalfSiblingDied.stages.my_halfsibling_died.label>
+  <MyHalfSiblingDied.stages.my_halfsibling_died.label>mi medi{1_gender ? o : a} herman{1_gender ? o : a} {0} murió</MyHalfSiblingDied.stages.my_halfsibling_died.label>
   <!-- EN: My half-sibling died. My own flesh and blood... -->
-  <MyHalfSiblingDied.stages.my_halfsibling_died.description>Mi medio hermano(a) está muerto(a). Mi propia carne y sangre...</MyHalfSiblingDied.stages.my_halfsibling_died.description>
+  <MyHalfSiblingDied.stages.my_halfsibling_died.description>Mi medio herman{OTHERPAWN_gender ? o : a} está muert{OTHERPAWN_gender ? o : a}. Mi propia carne y sangre...</MyHalfSiblingDied.stages.my_halfsibling_died.description>
   
   <!-- EN: my husband {0} died -->
   <MyHusbandDied.stages.my_husband_died.label>mi esposo {0} murió</MyHusbandDied.stages.my_husband_died.label>
@@ -156,7 +156,7 @@
   <PawnWithBadOpinionDied.stages.my_rival_died.description>Por una vez el universo no se ha equivocado. ¡Todo va a mejorar!</PawnWithBadOpinionDied.stages.my_rival_died.description>
   
   <!-- EN: my friend {0} died -->
-  <PawnWithGoodOpinionDied.stages.my_friend_died.label>mi amigo(a) {0} murió</PawnWithGoodOpinionDied.stages.my_friend_died.label>
+  <PawnWithGoodOpinionDied.stages.my_friend_died.label>mi amig{1_gender ? o : a} {0} murió</PawnWithGoodOpinionDied.stages.my_friend_died.label>
   <!-- EN: Such a wonderful person, gone forever. The universe gets darker every day. -->
   <PawnWithGoodOpinionDied.stages.my_friend_died.description>Era una persona maravillosa. El universo es muy injusto.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
   

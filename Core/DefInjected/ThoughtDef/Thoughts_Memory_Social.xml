@@ -51,7 +51,7 @@
   <!-- EN: forced to take drugs -->
   <ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.label>me obligaron a tomar drogas</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.label>
   <!-- EN: I'm a teetotaler; I would never take drugs by choice. But I was forced! I feel unclean. -->
-  <ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>Soy abstemio, nunca tomaría drogas por elección. ¡Pero me obligaron! Me siento sucio.</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>
+  <ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>Soy abstemio, nunca tomaría drogas por elección. ¡Pero me obligaron! Me siento suci{PAWN_gender ? o : a}.</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>
   
   <!-- EN: forced me to take luciferium -->
   <ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.label>me obligaron a tomar luciferio</ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.label>
@@ -59,7 +59,7 @@
   <!-- EN: forced to take luciferium -->
   <ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.label>me obligaron a tomar luciferio</ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.label>
   <!-- EN: I'm a body purist; I would never take luciferium by choice. But I was forced! I feel unclean. -->
-  <ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.description>Soy un purista del cuerpo humano; nunca tomaría luciferio por elección. ¡Pero me obligaron! Me siento sucio.</ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.description>
+  <ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.description>Soy {PAWN_gender ? un : una} purista del cuerpo humano; nunca tomaría luciferio por elección. ¡Pero me obligaron! Me siento suci{PAWN_gender ? o : a}.</ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.description>
   
   <!-- EN: got some lovin' -->
   <GotSomeLovin.stages.got_some_lovin.label>hicimos el amor</GotSomeLovin.stages.got_some_lovin.label>
@@ -79,10 +79,10 @@
   <HoneymoonPhase.stages.honeymoon_phase.label>luna de miel</HoneymoonPhase.stages.honeymoon_phase.label>
   
   <!-- EN: insulted -->
-  <Insulted.stages.insulted.label>insultado</Insulted.stages.insulted.label>
+  <Insulted.stages.insulted.label>insultad{PAWN_gender ? o : a}</Insulted.stages.insulted.label>
   
   <!-- EN: insulted -->
-  <InsultedMood.stages.insulted.label>insultado</InsultedMood.stages.insulted.label>
+  <InsultedMood.stages.insulted.label>insultad{PAWN_gender ? o : a}</InsultedMood.stages.insulted.label>
   <!-- EN: I've been directly insulted! What an awful person! -->
   <InsultedMood.stages.insulted.description>¡Me ha insultado directamente! ¡Qué sinvergüenza!</InsultedMood.stages.insulted.description>
   
@@ -102,10 +102,10 @@
   <KilledMyFather.stages.killed_my_father.label>mató a mi padre</KilledMyFather.stages.killed_my_father.label>
   
   <!-- EN: killed my fiance -->
-  <KilledMyFiance.stages.killed_my_fiance.label>mató a mi prometido(a)</KilledMyFiance.stages.killed_my_fiance.label>
+  <KilledMyFiance.stages.killed_my_fiance.label>mató a mi prometid{1_gender ? o : a}</KilledMyFiance.stages.killed_my_fiance.label>
   
   <!-- EN: killed my friend -->
-  <KilledMyFriend.stages.killed_my_friend.label>mató a mi amigo(a)</KilledMyFriend.stages.killed_my_friend.label>
+  <KilledMyFriend.stages.killed_my_friend.label>mató a mi amig{1_gender ? o : a}</KilledMyFriend.stages.killed_my_friend.label>
   
   <!-- EN: killed my kin -->
   <KilledMyKin.stages.killed_my_kin.label>mató a mi pariente</KilledMyKin.stages.killed_my_kin.label>
@@ -123,10 +123,10 @@
   <KilledMySister.stages.killed_my_sister.label>mi hermana fue asesinada</KilledMySister.stages.killed_my_sister.label>
   
   <!-- EN: killed my son -->
-  <KilledMySon.stages.killed_my_son.label>mi hijo fue asesinado(a)</KilledMySon.stages.killed_my_son.label>
+  <KilledMySon.stages.killed_my_son.label>mi hijo fue asesinado</KilledMySon.stages.killed_my_son.label>
   
   <!-- EN: killed my spouse -->
-  <KilledMySpouse.stages.killed_my_spouse.label>mató a mi esposo(a)</KilledMySpouse.stages.killed_my_spouse.label>
+  <KilledMySpouse.stages.killed_my_spouse.label>mataron a mi cónyuge</KilledMySpouse.stages.killed_my_spouse.label>
   
   <!-- EN: kind words -->
   <KindWords.stages.kind_words.label>palabras bonitas</KindWords.stages.kind_words.label>
@@ -145,7 +145,7 @@
   <!-- EN: rebuffed by {0} -->
   <RebuffedMyRomanceAttemptMood.stages.rebuffed_by.label>rechazado por {0}</RebuffedMyRomanceAttemptMood.stages.rebuffed_by.label>
   <!-- EN: I attempted to create a romance, but I got the cold shoulder. Feels bad man. -->
-  <RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>Intenté iniciar una relación, pero fui desairado(a). La vida.</RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>
+  <RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>Intenté iniciar una relación, pero fui desairad{PAWN_gender ? o : a}. La vida.</RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>
   
   <!-- EN: recruited me -->
   <RecruitedMe.stages.recruited_me.label>me reclutó</RecruitedMe.stages.recruited_me.label>
@@ -159,12 +159,12 @@
   <RejectedMyProposalMood.stages.my_proposal_was_rejected_by.description>Pensé que estábamos hechos el uno para el otro. Pero me ha rechazado.</RejectedMyProposalMood.stages.my_proposal_was_rejected_by.description>
   
   <!-- EN: rescued me -->
-  <RescuedMe.stages.rescued_me.label>he sido rescatado(a)</RescuedMe.stages.rescued_me.label>
+  <RescuedMe.stages.rescued_me.label>he sido rescatad{PAWN_gender ? o : a}</RescuedMe.stages.rescued_me.label>
   
   <!-- EN: rescued me -->
-  <RescuedMeByOfferingHelp.stages.rescued_me.label>he sido rescatado(a)</RescuedMeByOfferingHelp.stages.rescued_me.label>
+  <RescuedMeByOfferingHelp.stages.rescued_me.label>he sido rescatad{PAWN_gender ? o : a}</RescuedMeByOfferingHelp.stages.rescued_me.label>
   <!-- EN: I was rescued by someone! I almost thought I was done for back there. I'm so thankful. -->
-  <RescuedMeByOfferingHelp.stages.rescued_me.description>¡Fui rescatado(a) por alguien! Pensaba que todo había terminado para mi. Estoy muy agradecido(a).</RescuedMeByOfferingHelp.stages.rescued_me.description>
+  <RescuedMeByOfferingHelp.stages.rescued_me.description>¡Fui rescatad{PAWN_gender ? o : a} por alguien! Pensaba que todo había terminado para mi. Estoy muy agradecid{PAWN_gender ? o : a}.</RescuedMeByOfferingHelp.stages.rescued_me.description>
   
   <!-- EN: slighted -->
   <Slighted.stages.slighted.label>ofendido</Slighted.stages.slighted.label>

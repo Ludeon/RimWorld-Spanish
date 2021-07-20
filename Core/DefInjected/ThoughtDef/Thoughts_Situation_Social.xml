@@ -37,7 +37,7 @@
   <CreepyBreathing.stages.creepy_breathing.label>respiración espeluznante</CreepyBreathing.stages.creepy_breathing.label>
   
   <!-- EN: disfigured -->
-  <Disfigured.stages.disfigured.label>desfigurado(a)</Disfigured.stages.disfigured.label>
+  <Disfigured.stages.disfigured.label>desfigurad{PAWN_gender ? o : a}</Disfigured.stages.disfigured.label>
   
   <!-- EN: drunk -->
   <Drunk.stages.drunk.label>borrachera</Drunk.stages.drunk.label>
@@ -78,9 +78,9 @@
   <OpinionOfMyLover.stages.opinion_of_my.description>Estar con mi amante me hace sentir feliz.</OpinionOfMyLover.stages.opinion_of_my.description>
   
   <!-- EN: physically appealing -->
-  <Pretty.stages.physically_appealing.label>atractivo(a)</Pretty.stages.physically_appealing.label>
+  <Pretty.stages.physically_appealing.label>atractiv{PAWN_gender ? o : a}</Pretty.stages.physically_appealing.label>
   <!-- EN: physically stunning -->
-  <Pretty.stages.physically_stunning.label>hermoso(a)</Pretty.stages.physically_stunning.label>
+  <Pretty.stages.physically_stunning.label>hermos{PAWN_gender ? o : a}</Pretty.stages.physically_stunning.label>
   
   <!-- EN: sold prisoner to slavery -->
   <SoldPrisoner.stages.sold_prisoner_to_slavery.label>vendió un prisionero como esclavo</SoldPrisoner.stages.sold_prisoner_to_slavery.label>
@@ -103,7 +103,7 @@
   <TranshumanistAppreciation.stages.body_modder_appreciation-4.label>apreciación {PAWN_gender ? del : de la} modificador{PAWN_gender ?  : a} del cuerpo</TranshumanistAppreciation.stages.body_modder_appreciation-4.label>
   
   <!-- EN: physically unsightly -->
-  <Ugly.stages.physically_unsightly.label>feo(a)</Ugly.stages.physically_unsightly.label>
+  <Ugly.stages.physically_unsightly.label>fe{PAWN_gender ? o : a}</Ugly.stages.physically_unsightly.label>
   <!-- EN: physically hideous -->
   <Ugly.stages.physically_hideous.label>horrible</Ugly.stages.physically_hideous.label>
   
