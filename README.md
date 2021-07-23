@@ -35,7 +35,6 @@ Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, 
 	* Zakees
 	* Zerstrick
 	* Xeros08
-	* Creepynstoid
 
 * Traductores:
 	* Lord Mellington
@@ -51,3 +50,4 @@ Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, 
 	* Mototron
 	* Amatiasq
 	* Azarashi
+	* Creepynstoid
