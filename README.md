@@ -35,7 +35,6 @@ Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, 
 	* Zakees
 	* Zerstrick
 	* Xeros08
-	* Yllelder
 
 * Traductores:
 	* Lord Mellington
