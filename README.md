@@ -34,7 +34,8 @@ Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, 
 * Traductores Activos:
 	* Zakees
 	* Zerstrick
-	* Xeros08 
+	* Xeros08
+	* Yllelder
 
 * Traductores:
 	* Lord Mellington
@@ -42,9 +43,7 @@ Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, 
 	* Gaesatae 
 	* Ghrull
 	* Vhiden
-	* Yllelder
 	* Guntrek
-
 
 * Colaboradores:
 	* Emsaic
