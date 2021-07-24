@@ -11,6 +11,9 @@
 #>
 
 
+# Adding a default to avoid problems non-english characters (like 'ñ' or 'ç')
+$PSDefaultParameterValues.Add("*:Encoding", "utf8")
+
 # Variables to use
 $repo_owner = "Ludeon"
 $official_repo = "RimWorld-Spanish"
