@@ -25,5 +25,3 @@ Opción 2:
 ---
 ## Linux:
 TODO: Desarrollar el script para Linux
-
----
