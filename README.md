@@ -17,20 +17,10 @@ Cada vez que el juego se actualiza, Ludeon coge los archivos de los repositorios
 Si queréis actualizar las traducciones a las más recientes; seguid [esta guía](Instalation/InstallGuide.md).
 
 ---
-### Arreglar **Backstories.xml**:
-Antes que nada, esto se puede ignorar y simplemente usar la herramienta de limpieza de archivos de traducción que provee el propio juego.
-Para darle formato al archivo **Backstories.xml** generado con la herramienta proporcionada por el juego, se han usado secuencialmente los siguientes 2 Regex de sustitución:
-Unificar textos en 1:
-> Find:		```\n\n```
-> 
-> Replace:	```\\n\\n```
+### Generar **Backstories.xml**:
+Generar nuevos `Backstories.xml`: Desde el menú principal => Debug Actions => Write Backstory Translation File
 
-Dar formato (indentaciones, etc)
-> Find:		```([0-9])>\n\t<```
-> 
-> Replace:	```$1>\n\n\t<```
-
-Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, ser más eficaces a la hora de traducir dichos trasfondos, y que cada trasfondo y sus etiquetas identificadoras se mantengan intactas.
+Nota: El archivo generado estará con un formato bastante desagradable con el que trabajar. Es recomendable "Limpiar archivos de traducción".
 
 ---
 ## Lista  traductores:
