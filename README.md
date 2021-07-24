@@ -11,7 +11,7 @@ Cada vez que el juego se actualiza, Ludeon coge los archivos de los repositorios
 
 Si queréis actualizar las traducciones a las más recientes; seguid [esta guía](Instalation/InstallGuide.md), o [esta otra](Instalation/ManualInstallGuide.md) para hacerlo manualmente.
 
-Para empezar a colaborar entra al nuevo  Discord de traducción: [Team Facción Latina](https://discord.gg/EjK52KM) actualizado el 24/07/2021. 
+Para empezar a colaborar entra al nuevo  Discord de traducción: [Team Facción Latina](https://discord.gg/EjK52KM) (actualizado el 24/07/2021) 
 ---
 ### Tareas pendientes:
 El archivo [ToDoList.md](ToDoList.md) es el archivo en el que se anotarán aquellos archivos que contengan nuevos **textos pendientes de revisión**, **anotaciones**, etc.
