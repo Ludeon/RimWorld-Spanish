@@ -4,19 +4,22 @@ Igualmente, hará falta un poco preparación, y el proceso variará ligeramente 
 
 ## Windows:
 ### Pasos para actualizar las traducciones:
-1. Descargar el [script de actualización para Windows](_update.bat) (Seguir pasos abajo).
+1. Descargar el [script de actualización para Windows](_update.ps1) (Seguir pasos abajo).
 3. Mover el script al directorio raíz del juego. Este normalmente es: `C:\Program Files (x86)\Steam\steamapps\common\RimWorld`
 4. Ejecutar el script.
 
-### Pasos para descargar el Script:
-1. Pulsar las teclas `Win+R`.
-2. En el menú, escribir `cmd` y pulsar `Intro`. Se nos abrirá una terminal.
-3. Ejecutaremos el siguiente comando: `cd .\Downloads\ && curl -LJO https://raw.githubusercontent.com/Ludeon/RimWorld-Spanish/master/Instalation/_update.bat`
+### Pasos para descargar el Script en Windows:
+Opción 1:
+1. Ve al siguiente [enlace](https://raw.githubusercontent.com/Ludeon/RimWorld-Spanish/master/Instalation/_update.ps1).
+2. Haz clic derecho en cualquier parte de la página / el texto (sale como texto sin formato).
+3. En el menú emergente "Guardar como", y lo guardaremos con la extensión ".ps1" (_update.ps1)
+4. Ya se nos ha descargado el script en la carpeta de Descargas.
+
+Opción 2:
+1. Abrir una terminal (Símbolo del sistema) desde el menú de Windows, o mediante la combinación de teclas "Win+R" (dentro de "ejecutar": cmd)
+3. Una vez dentro de la terminal, ejecutar el siguiente comando (copiar y pegar): `cd C:\Users\%Username%\Downloads\ && curl -LJO https://raw.githubusercontent.com/Ludeon/RimWorld-Spanish/master/Instalation/_update.ps1`
 4. Ya se nos ha descargado el script en la carpeta de Descargas. Podemos cerrar la terminal.
 
-Una vez hayas instalado (o actualizado) las traducciones, tendrás que abrir el juego y cambiar el idioma del juego a: `Spanish (GitHub)`
-
-Cuando el juego se reinicie, pondrá que estás usando el Idioma `Spanish (Español(Castellano))`, esto está bien.
 
 ---
 ## Linux:
