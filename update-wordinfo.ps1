@@ -1,4 +1,4 @@
-# Update WordInfo
+﻿# Update WordInfo
 
 $PSDefaultParameterValues["*:Encoding"] = "UTF8"
 
