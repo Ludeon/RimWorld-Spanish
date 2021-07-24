@@ -1,13 +1,12 @@
 # Spanish Translation of Rimworld
 Esta es la **traducción al español** Castellano (de España) de Rimworld.
-
-Consulta esta página para obtener información sobre la licencia e información adicional sobre cómo ayudar
+Consulta esta página para obtener información sobre la licencia e información adicional sobre cómo ayudar:
 
 [Licencia y aportar a las traducciones](http://ludeon.com/forums/index.php?topic=2933.0)
 
 
 ---
-### Para empezar a colaborar entra al nuevo  Discord de traducción: [Team Facción Latina](https://discord.gg/EjK52KM) (Actualizado el 24/07/2021) 
+### Para una mejor comunicación entra al Discord de traducción: [Team Facción Latina](https://discord.gg/EjK52KM) (Actualizado el 24/07/2021) 
 
 ---
 ### Instalación de las últimas traducciones
@@ -16,10 +15,6 @@ Las traducciones que vienen con el juego no se actualizan automáticamente.
 Cada vez que el juego se actualiza, Ludeon coge los archivos de los repositorios oficiales y los "empaqueta" para incluirlos en el juego.
 
 Si queréis actualizar las traducciones a las más recientes; seguid [esta guía](Instalation/InstallGuide.md).
-
----
-### Tareas pendientes:
-El archivo [ToDoList.md](ToDoList.md) es el archivo en el que se anotarán aquellos archivos que contengan nuevos **textos pendientes de revisión**, **anotaciones**, etc.
 
 ---
 ### Arreglar **Backstories.xml**:
