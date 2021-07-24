@@ -20,12 +20,15 @@ Si queréis actualizar las traducciones a las más recientes; seguid [esta guía
 ### Arreglar **Backstories.xml**:
 Antes que nada, esto se puede ignorar y simplemente usar la herramienta de limpieza de archivos de traducción que provee el propio juego.
 Para darle formato al archivo **Backstories.xml** generado con la herramienta proporcionada por el juego, se han usado secuencialmente los siguientes 2 Regex de sustitución:
-* Primero:
-	* Find:		```\n\n```
-	* Replace:	```\\n\\n```
-* Después:
-	* Find:		```([0-9])>\n\t<```
-	* Replace:	```$1>\n\n\t<```
+Unificar textos en 1:
+> Find:		```\n\n```
+> 
+> Replace:	```\\n\\n```
+
+Dar formato (indentaciones, etc)
+> Find:		```([0-9])>\n\t<```
+> 
+> Replace:	```$1>\n\n\t<```
 
 Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, ser más eficaces a la hora de traducir dichos trasfondos, y que cada trasfondo y sus etiquetas identificadoras se mantengan intactas.
 
