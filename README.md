@@ -31,24 +31,22 @@ Toda esta magia es necesaria para separar cada uno de los trasfondos del resto, 
 
 ---
 ## Lista  traductores:
-
-* Traductores Activos:
-	* Zakees
-	* Zerstrick
-	* Xeros08
-	* Creepynstoid
-
-* Traductores:
-	* Lord Mellington
-	* Capiqua 
-	* Gaesatae 
-	* Ghrull
-	* Vhiden
-	* Guntrek
+* En Activo:
+	* [Raúl Naharro Fernández (Zakees)](github.com/Zakees)
+	* [Miguel Angel Farias (Zerstrick)](github.com/Zerstrick)
+	* [Aser Granado Amores (Xeros08)](github.com/Xeros08)
+	* [Creepynstoid](github.com/Creepynstoid)
 
 * Colaboradores:
-	* Emsaic
-	* Alvirolo
-	* Mototron
-	* Amatiasq
-	* Azarashi
+	* [Juan Melenchón Ramírez (Lord Mellington)](github.com/LordMellington)
+	* [Capiqua](github.com/capiqua)
+	* [Gaesatae](github.com/Gaesatae) 
+	* [Ismael García Cruzado (Ghrull)](github.com/Ghrull)
+	* [Vhiden](github.com/Vhiden)
+	* [Guntrek](github.com/Guntrek)
+	* [Yllelder](github.com/Yllelder)
+	* [Emsaic](github.com/Emsaic)
+	* [Alvirolo](github.com/Alvirolo)
+	* [Mototron](github.com/Mototron)
+	* [Amatiasq](github.com/amatiasq)
+	* [Azarashi](github.com/AzarashiEsp)
