@@ -7,7 +7,7 @@ Consulta esta página para obtener información sobre la licencia e información
 
 
 ---
-## Para empezar a colaborar entra al nuevo  Discord de traducción: [Team Facción Latina](https://discord.gg/EjK52KM) (Actualizado el 24/07/2021) 
+Para empezar a colaborar entra al nuevo  Discord de traducción: [Team Facción Latina](https://discord.gg/EjK52KM) (Actualizado el 24/07/2021) 
 
 ---
 ### Instalación de las últimas traducciones
