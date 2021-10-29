@@ -6,8 +6,8 @@
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Hemos interceptado mensajes sobre una colección de objetos que te pueden interesar, valorados en [itemStashContentsValue], no muy lejos de [map_definite]. La colección consiste en:\n\n[itemStashContents]\n\nParece que [allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_label], [asker_faction_leaderTitle] de [asker_faction_name], nos informa de la existencia de una colección de objetos que te pueden interesar, valorados en [itemStashContentsValue] no muy lejos de nosotros. La colección consiste en:\n\n[itemStashContents]\n\n[asker_label] dice que [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(askerIsNull==true)->Hemos interceptado mensajes sobre una colección de objetos valiosos por un valor de [itemStashContentsValue], no muy lejos de [map_definite]. La colección consiste en:\n\n[itemStashContents]\n\nParece que [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_label], [asker_faction_leaderTitle] de [asker_faction_name], nos informa de la existencia una colección de objetos valiosos por un valor de [itemStashContentsValue] no muy lejos de nosotros. La colección consiste en:\n\n[itemStashContents]\n\n[asker_label] dice que [allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
@@ -23,15 +23,15 @@
     <li>treasure->Supplies</li>
   -->
   <OpportunitySite_ItemStash.questNameRules.rulesStrings>
-    <li>questName(priority=1)->[stash] [treasure] de [asker_nameDef]</li>
-    <li>questName->[stash] [treasure]</li>
-    <li>stash->El Alijo</li>
-    <li>stash->El Cofre</li>
-    <li>stash->El Baúl</li>
-    <li>stash->El Botín</li>
-    <li>treasure->Del Tesoro</li>
-    <li>treasure->De Objetos Valiosos</li>
-    <li>treasure->De La Fortuna</li>
+    <li>questName(priority=1)->[stash] de [treasure] de [asker_nameDef]</li>
+    <li>questName->[stash] de [treasure]</li>
+    <li>stash->Alijo</li>
+    <li>stash->Cofre</li>
+    <li>stash->Colección</li>
+    <li>stash->Botín</li>
+    <li>treasure->Tesoro</li>
+    <li>treasure->Objetos Valiosos</li>
+    <li>treasure->Fortuna</li>
     <li>treasure->Bienes</li>
     <li>treasure->Suministros</li>
   </OpportunitySite_ItemStash.questNameRules.rulesStrings>

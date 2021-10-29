@@ -9,7 +9,7 @@
   -->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->[refugee_nameDef] te llama por radio pidiendo tu auxilio. Está herid[refugee_o_a] y no puede moverse.\n\n[refugee_nameDef] es un/una [refugee_title] de [refugee_age] años. Promete unirse a tu colonia si [refugee_objective] rescatas.\n\n[refugee_nameDef] dice que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], dice que su amig[refugee_o_a] ha sido herid[refugee_o_a] durante un viaje. La víctima es [refugee_nameIndef], un/una [refugee_title] de [refugee_age] años.\n\n[asker_nameDef] no espera que nadie rescate a [refugee_nameDef], pero asegura que si acudes hasta su posición y [refugee_objective] rescatas, [refugee_nameDef] se unirá a ti.\n\n[asker_nameDef] dice que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], dice que su amig[refugee_o_a] ha sido herid[refugee_o_a](a) durante un viaje. La víctima es [refugee_nameIndef], un/una [refugee_title] de [refugee_age] años.\n\n[asker_nameDef] no espera que nadie rescate a [refugee_nameDef], pero asegura que si acudes hasta su posición y [refugee_objective] rescatas, [refugee_nameDef] se unirá a ti.\n\n[asker_nameDef] dice que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
@@ -22,12 +22,12 @@
   <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
     <li>questName->Salvar a [refugee_nameDef]</li>
     <li>questName->El Rescate de [refugee_nameDef]</li>
-    <li>questName->Salvando a [refugee_nameDef]</li>
+    <li>questName->El Rescate de [refugee_nameDef]</li>
     <li>questName->La Salvación de [refugee_nameDef]</li>
   </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>Misión caducada: [resolvedQuestName]</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
   <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>La señal de [refugee_nameDef] se ha perdido, y ya no [refugee_objective] podrás rescatar. La misión [resolvedQuestName] ha caducado.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>La señal de [refugee_nameDef] se ha perdido, y ya no puede ser localizado. La misión [resolvedQuestName] ha caducado.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

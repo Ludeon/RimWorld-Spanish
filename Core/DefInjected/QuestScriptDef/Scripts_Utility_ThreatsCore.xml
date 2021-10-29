@@ -4,26 +4,26 @@
   <!-- EN: <rulesStrings><li>root(priority=1,sitePart==ClimateAdjuster)->there's (*Threat)a climate adjuster machine(/Threat) there shifting the regional temperature by [temperatureOffset]</li><li>root(priority=1,sitePart==PsychicDroner)->there's (*Threat)a psychic droner machine(/Threat) there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==PsychicSuppressor)->there's (*Threat)a psychic suppressor machine(/Threat) there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==WeatherController)->there's (*Threat)a weather controller machine(/Threat) there forcing weather in the whole region to [weather_label]</li><li>root(priority=1,sitePart==SmokeSpewer)->there's (*Threat)a smoke spewer machine(/Threat) there belching smoke over the whole region</li><li>root(priority=1,sitePart==SunBlocker)->there's (*Threat)a sun blocker machine(/Threat) there shadowing the whole region</li><li>root(priority=1,sitePart==EMIDynamo)->there's (*Threat)an EMI dynamo machine(/Threat) there which can disable electrical devices across the region</li><li>root(priority=1,sitePart==ToxicSpewer)->there's (*Threat)a toxic spewer machine(/Threat) there blanketing the whole region in poison</li><li>root(priority=1,sitePart==RaidSource)->there's a military staging area guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat) that will launch raids on you every [mtbDays]</li><li>root(priority=1,sitePart==Outpost)->there's an enemy outpost at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li><li>root(priority=1,sitePart==BanditCamp)->there's a bandit camp at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li><li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)a manhunting [kindLabel](/Threat) is wandering nearby</li><li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] manhunting [kindLabel](/Threat) are wandering nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)a mechanoid(/Threat) is sleeping nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mechanoids(/Threat) are sleeping nearby</li><li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) defend the site</li><li>root(priority=1,sitePart==AmbushEdge)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==AmbushHidden)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==MechCluster)->there's (*Threat)a cluster of hostile mechanoid structures(/Threat)</li><li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->there may be an (*Threat)unknown threat(/Threat)</li><li>root->there's a [label]</li></rulesStrings> -->
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
-      <li>root(priority=1,sitePart==ClimateAdjuster)->hay (*Threat)una máquina reguladora del clima(/Threat) que está cambiando la temperatura regional en [temperatureOffset]</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->hay (*Threat)una máquina de zumbido psíquico(/Threat) sintonizado con el sexo [affectedGender]</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->hay un (*Threat)inhibidor psíquico(/Threat) sintonizado con el sexo [affectedGender]</li>
-      <li>root(priority=1,sitePart==WeatherController)->hay una (*Threat)máquina que controla el clima(/Threat) sumiendo toda la región en [weather_label]</li>
-      <li>root(priority=1,sitePart==SmokeSpewer)->hay una (*Threat)máquina que inunda toda la región de un humo(/Threat) asfixiante</li>
-      <li>root(priority=1,sitePart==SunBlocker)->hay una (*Threat)máquina que bloquea el sol(/Threat) en la región, sumiéndola en la sombra</li>
-      <li>root(priority=1,sitePart==EMIDynamo)->hay una (*Threat)máquina con un generador de interferencia electromagnética (IEM)(/Threat) capaz de desactivar los dispositivos eléctricos de toda la región</li>
-      <li>root(priority=1,sitePart==ToxicSpewer)->hay una (*Threat)máquina que emponzoña(/Threat) toda la región de una toxina venenosa</li>
-      <li>root(priority=1,sitePart==RaidSource)->hay un centro de entrenamiento militar en el lugar, custodiado por (*Threat)[enemiesCount] [enemiesLabel](/Threat) que lanzarán incursiones cada [mtbDays]</li>
-      <li>root(priority=1,sitePart==Outpost)->hay un (*Threat)puesto de avanzada en el lugar, custodiado por (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li>
-      <li>root(priority=1,sitePart==BanditCamp)->hay un (*Threat)campamento de bandidos en el lugar, custodiado por (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li>
-      <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)un(a) [kindLabel] cazahombres(/Threat) deambula al acecho</li>
-      <li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] [kindLabel] cazahombres(/Threat) deambulan al acecho</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)un mecanoide(/Threat) durmiente en la cercanía</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mecanoides(/Threat) durmientes en la cercanía</li>
-      <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) defiende el lugar</li>
-      <li>root(priority=1,sitePart==AmbushEdge)->(*Threat)una fuerza enemiga(/Threat) pretende emboscar a cualquiera que se acerque</li>
-      <li>root(priority=1,sitePart==AmbushHidden)->(*Threat)una fuerza enemiga(/Threat) pretende emboscar a cualquiera que se acerque</li>
-      <li>root(priority=1,sitePart==MechCluster)->hay (*Threat)un conglomerado de estructuras mecanoides hostiles(/Threat)</li>
-      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->podría haber una (*Threat)amenaza desconocida(/Threat)</li>
+      <li>root(priority=1,sitePart==ClimateAdjuster)->hay una máquina capaz de alterar la temperatura; parece que la temperatura regional ha sufrido un cambio de [temperatureOffset]</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->hay una máquina que produce un zumbido psíquico sintonizado con el sexo [affectedGender]</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->hay un inhibidor psíquico sintonizado con el sexo [affectedGender]</li>
+      <li>root(priority=1,sitePart==WeatherController)->hay una máquina que controla el clima sumiendo toda la región en [weather_label]</li>
+      <li>root(priority=1,sitePart==SmokeSpewer)->hay una máquina que inunda toda la región de un humo asfixiante</li>
+      <li>root(priority=1,sitePart==SunBlocker)->hay una máquina que bloquea el sol en la región, sumiéndola en la sombra</li>
+      <li>root(priority=1,sitePart==EMIDynamo)->hay una máquina con una dínamo EMP capaz de desactivar los dispositivos eléctricos de toda la región</li>
+      <li>root(priority=1,sitePart==ToxicSpewer)->hay una máquina que emponzoña toda la región de una toxina venenosa</li>
+      <li>root(priority=1,sitePart==RaidSource)->hay un centro de entrenamiento militar en el lugar, custodiado por [enemiesCount] enemigos que lanzarán incursiones cada [mtbDays]</li>
+      <li>root(priority=1,sitePart==Outpost)->hay un puesto de avanzada en el lugar, custodiado por [enemiesCount] enemigos</li>
+      <li>root(priority=1,sitePart==BanditCamp)->hay un campamento de bandidos en el lugar, custodiado por [enemiesCount] enemigos</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->un/una [kindLabel] cazahombres deambula al acecho</li>
+      <li>root(priority=1,sitePart==Manhunters,count>1)->[count] [kindLabel] cazahombres deambulan al acecho</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->un mecanoide durmiente en la cercanía</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->[count] mecanoides durmientes en la cercanía</li>
+      <li>root(priority=1,sitePart==Turrets)->[threatsInfo] defiende el lugar</li>
+      <li>root(priority=1,sitePart==AmbushEdge)->una fuerza enemiga pretende emboscar a cualquiera que se acerque</li>
+      <li>root(priority=1,sitePart==AmbushHidden)->una fuerza enemiga pretende emboscar a cualquiera que se acerque</li>
+      <li>root(priority=1,sitePart==MechCluster)->hay un conglomerado de estructuras mecanoides hostiles</li>
+      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->podría haber una amenaza desconocida</li>
       <li>root->hay [label]</li>
     </rulesStrings>
   </Util_GenerateSite.root.singleSitePartRules.slateRef>

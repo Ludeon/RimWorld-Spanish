@@ -62,6 +62,8 @@
   <NextTendIn>Puede tratarse en {0}</NextTendIn>
   <!-- EN: Tend quality -->
   <TendQuality>Calidad del tratamiento</TendQuality>
+  <!-- EN: Total tend quality -->
+  <DisappearsAtTotalTendQuality>TODO</DisappearsAtTotalTendQuality>
   <!-- EN: no {0} -->
   <MissingMedicalBillIngredient>falta {0}</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
@@ -101,17 +103,21 @@
   <!-- EN: Renounce title -->
   <RenounceTitle>Renunciar a título</RenounceTitle>
   <!-- EN: Execute -->
-  <Execute>Ejecutar</Execute>
+  <Execute>TODO</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>Ejecutar al colono culpable\n\nSi activas esta opción, un guardia procederá a ejecutar a esta persona.</ExecuteColonist> <!-- text_doto -->
+  <ExecuteColonist>TODO</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-  <MessageColonistMarkedForExecution>{0_labelShort} está ahora marcad{0_gender ? o : a} para su ejecución. El siguiente guardia disponible irá a ejecutar{0_objective}.</MessageColonistMarkedForExecution>
+  <MessageColonistMarkedForExecution>TODO</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} de {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>Esta acción hará que {PAWN_nameDef} pierda su título de {TITLE}. No recibiras ninguna compensación por renunciar al título.\n\nEsto tendrá los siguientes efectos:\n\n{EFFECTS}</RenounceTitleDescription>
-  <!-- EN: {PAWN_possessive} will lose these permissions -->
+  <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_possessive} perderá los siguientes permisos</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
+  <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
+  <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
+  <RenounceTitleWillKeepPsylinkLevels>TODO</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>desconocido</UnknownLower>
   <!-- EN: On -->
@@ -133,7 +139,7 @@
   <!-- EN: Progress stopped until fertilized -->
   <ProgressStoppedUntilFertilized>Producción detenida hasta fertilización</ProgressStoppedUntilFertilized>
   <!-- EN: Hatches in -->
-  <HatchesIn>Eclosiona en</HatchesIn>
+  <HatchesIn>TODO</HatchesIn>
   <!-- EN: need {0} level {2}, have {1} -->
   <SkillTooLow>necesita {0} de nivel {2}, tiene {1}</SkillTooLow>
   <!-- EN: Freezing -->
@@ -169,7 +175,7 @@
   <!-- EN: enemies -->
   <Enemies>enemigos</Enemies>
   <!-- EN: people -->
-  <People>personas</People>
+  <People>TODO</People>
   <!-- EN: time passed -->
   <TimePassed>tiempo transcurrrido</TimePassed>
   <!-- EN: current radius -->
@@ -189,7 +195,7 @@
   <!-- EN: Route travel time: {0} days -->
   <CaravanEstimatedDaysToDestination>Días estimados hasta la llegada: {0}</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
-  <CaravanImmobilizedByMass>Inmovilizada: demasiado peso.</CaravanImmobilizedByMass>
+  <CaravanImmobilizedByMass>Inmobilizados: Demasiado peso.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
   <CaravanOutOfFood>Sin comida.</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
@@ -197,9 +203,9 @@
   <!-- EN: Days of food: {0} (rot in {1} days) -->
   <CaravanDaysOfFoodRot>Días de comida: {0} (se pudre en {1} días)</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
-  <AllCaravanMembersDowned>Detenida: todos están inconscientes.</AllCaravanMembersDowned>
+  <AllCaravanMembersDowned>Detenida: Todos están inconscientes.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone is in a mental break. -->
-  <AllCaravanMembersMentalBreak>Detenida: todos tienen un colapso mental.</AllCaravanMembersMentalBreak>
+  <AllCaravanMembersMentalBreak>Detenida: Todos tienen un colapso mental.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
   <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
@@ -269,7 +275,7 @@
   <!-- EN: Work speed penalty -->
   <WorkSpeedPenalty>Penalización de velocidad de trabajo</WorkSpeedPenalty>
   <!-- EN: Disabled -->
-  <DisabledCommand>Desactivado</DisabledCommand>
+  <DisabledCommand>DESACTIVADO</DisabledCommand>
   <!-- EN: Ready for launch. -->
   <ReadyForLaunch>Lista para el despegue.</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
@@ -341,15 +347,15 @@
   <!-- EN: resting -->
   <Carried>cargado/a</Carried>
   <!-- EN: Rideable animals / people -->
-  <RideableAnimalsPerPeople>Animales montables / personas</RideableAnimalsPerPeople>
+  <RideableAnimalsPerPeople>TODO</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
-  <MultiplierFromRiddenAnimals>Multiplicador de animales monta</MultiplierFromRiddenAnimals>
+  <MultiplierFromRiddenAnimals>TODO</MultiplierFromRiddenAnimals>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Multiplicador del peso transportado: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
-  <RideableAnimalTip>Este animal se puede montar. La gente de una caravana montará los animales más rápidos disponibles, mejorando la velocidad de la caravana en su conjunto.</RideableAnimalTip>
+  <RideableAnimalTip>TODO</RideableAnimalTip>
   <!-- EN: This caravan can't move because it carries too much. -->
-  <EncumberedCaravanTilesPerDayTip>Esta caravana no puede moverse porque lleva mucho peso.</EncumberedCaravanTilesPerDayTip>
+  <EncumberedCaravanTilesPerDayTip>TODO</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
   <FinalCaravanPawnsMovementSpeed>Velocidad de los miembros de la caravana</FinalCaravanPawnsMovementSpeed>
   <!-- EN: Final speed -->
@@ -410,6 +416,8 @@
   <Location>ubicación</Location>
   <!-- EN: animals -->
   <AnimalsLower>animales</AnimalsLower>
+  <!-- EN: items -->
+  <ItemsLower>TODO</ItemsLower>
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
@@ -483,37 +491,41 @@
   <!-- EN: {0} left -->
   <DurationLeft>{0} restantes</DurationLeft>
   <!-- EN: Any of -->
-  <AnyOf>Cualquiera de</AnyOf>
+  <AnyOf>Cualquier</AnyOf>
   <!-- EN: Requires {0} trait -->
-  <TraitRequired>Requiere el rasgo {0}</TraitRequired>
+  <TraitRequired>TODO</TraitRequired>
   <!-- EN: Goodwill -->
-  <Goodwill>Buena voluntad</Goodwill>
+  <Goodwill>Reputación</Goodwill>
   <!-- EN: Natural goodwill -->
-  <NaturalGoodwill>Buena voluntad natural</NaturalGoodwill>
+  <NaturalGoodwill>TODO</NaturalGoodwill>
   <!-- EN: Natural goodwill range -->
-  <NaturalGoodwillRange>Rango de buena voluntad natural</NaturalGoodwillRange>
+  <NaturalGoodwillRange>TODO</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>La buena voluntad natural se basa en las identidades y creencias de las facciones. Si la buena voluntad actual está lejos de la buena voluntad natural, con el tiempo se acercará lentamente a la buena voluntad natural.\n\nTodos los efectos de la buena voluntad se multiplican por {0} al acercarse a la buena voluntad natural.</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>TODO</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>reduciendo resistencia de {0_nameIndef}</JobReport_ReduceResistance>
   <!-- EN: Too large -->
-  <TooLargeForBed>Demasiado grande</TooLargeForBed>
+  <TooLargeForBed>TODO</TooLargeForBed>
   <!-- EN: Warning -->
-  <Warning>Advertencia</Warning>
+  <Warning>TODO</Warning>
   <!-- EN: Has subquest -->
-  <HasSubquest>Tiene una submisión</HasSubquest>
+  <HasSubquest>TODO</HasSubquest>
   <!-- EN: Subquest of -->
-  <SubquestOf>Submisión de</SubquestOf>
+  <SubquestOf>TODO</SubquestOf>
   <!-- EN: Raid -->
-  <Raid>Asalto</Raid>
+  <Raid>TODO</Raid>
   <!-- EN: Disabled by -->
-  <ApparelRequirementDisabledLabel>Desactivado por</ApparelRequirementDisabledLabel>
+  <ApparelRequirementDisabledLabel>TODO</ApparelRequirementDisabledLabel>
   <!-- EN: Nudism -->
-  <Nudism>Nudismo</Nudism>
+  <Nudism>TODO</Nudism>
   <!-- EN: Study progress -->
-  <StudyProgress>Progreso del estudio</StudyProgress>
+  <StudyProgress>TODO</StudyProgress>
   <!-- EN: completed -->
-  <StudyCompleted>completado</StudyCompleted>
+  <StudyCompleted>TODO</StudyCompleted>
+  <!-- EN: Attack this to destroy it. -->
+  <AttackToDestroy>TODO</AttackToDestroy>
+  <!-- EN: Remove this by attacking it. -->
+  <RemoveByAttackingTooltip>TODO</RemoveByAttackingTooltip>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -533,7 +545,7 @@
   <!-- EN: Contains {0} / {1} beer. -->
   <ContainsBeer>Contiene {0} / {1} de cerveza.</ContainsBeer>
   <!-- EN: Contains -->
-  <Contains>Contiene</Contains>
+  <Contains>TODO</Contains>
   <!-- EN: Fermented -->
   <Fermented>Fermentado</Fermented>
   <!-- EN: Progress: {0} ({1} left) -->
@@ -561,7 +573,7 @@
   <!-- EN: Tame failed\n{0} chance -->
   <TextMote_TameFail>Domesticación fallida\n{0} de probabilidad</TextMote_TameFail>
   <!-- EN: Tamed! -->
-  <TextMote_TameSuccess>¡Domesticado!</TextMote_TameSuccess>
+  <TextMote_TameSuccess>¡Domesticado!\n{0} de probabilidad</TextMote_TameSuccess>
   <!-- EN: Failed training: {0}\n{1} chance -->
   <TextMote_TrainFail>Entrenamiento fallido: {0}\n{1} de probabilidad</TextMote_TrainFail>
   <!-- EN: Trained: {0}\n{1} chance -->
@@ -603,41 +615,41 @@
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
-  <PenUnenclosedLabel>Sin cerrar</PenUnenclosedLabel>
+  <PenUnenclosedLabel>TODO</PenUnenclosedLabel>
   <!-- EN: open door -->
-  <PenOpenDoorLabel>abrir puerta</PenOpenDoorLabel>
+  <PenOpenDoorLabel>TODO</PenOpenDoorLabel>
   <!-- EN: Rename pen -->
-  <RenameAnimalPen>Renombrar corral</RenameAnimalPen>
+  <RenameAnimalPen>TODO</RenameAnimalPen>
   <!-- EN: Pen marker {0} -->
-  <AnimalPenMarkerDefaultLabel>Marcador de corral {0}</AnimalPenMarkerDefaultLabel>
+  <AnimalPenMarkerDefaultLabel>TODO</AnimalPenMarkerDefaultLabel>
   <!-- EN: In pen -->
-  <InPen>Dentro del corral</InPen>
+  <InPen>TODO</InPen>
   <!-- EN: not in a pen -->
-  <Unpenned>Fuera del corral</Unpenned>
+  <Unpenned>TODO</Unpenned>
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
-  <UnpennedTooltip>Los corrales de animales pueden crearse construyendo un marcador de corral dentro de un área cerrada. Los adiestradores llevarán a los animales a un corral apropiado. Los corrales pueden estar cerrados con vallas, barricadas, muros y puertas.</UnpennedTooltip>
+  <UnpennedTooltip>TODO</UnpennedTooltip>
   <!-- EN: Roped by -->
-  <RopedByPawn>Atado por</RopedByPawn>
+  <RopedByPawn>TODO</RopedByPawn>
   <!-- EN: Roped to -->
-  <RopedToThing>Atado a</RopedToThing>
+  <RopedToThing>TODO</RopedToThing>
   <!-- EN: Roped to spot. -->
-  <RopedToSpot>Atado al lugar.</RopedToSpot>
+  <RopedToSpot>TODO</RopedToSpot>
   <!-- EN: Pen size -->
-  <PenSizeLabel>Tamaño del corral</PenSizeLabel>
+  <PenSizeLabel>TODO</PenSizeLabel>
   <!-- EN: Very small pen -->
-  <PenSizeDesc_VerySmall>Corral muy pequeño</PenSizeDesc_VerySmall>
+  <PenSizeDesc_VerySmall>TODO</PenSizeDesc_VerySmall>
   <!-- EN: Small pen -->
-  <PenSizeDesc_Small>Corral pequeño</PenSizeDesc_Small>
+  <PenSizeDesc_Small>TODO</PenSizeDesc_Small>
   <!-- EN: Medium-sized pen -->
-  <PenSizeDesc_Medium>Corral mediano</PenSizeDesc_Medium>
+  <PenSizeDesc_Medium>TODO</PenSizeDesc_Medium>
   <!-- EN: Large pen -->
-  <PenSizeDesc_Large>Corral grande</PenSizeDesc_Large>
+  <PenSizeDesc_Large>TODO</PenSizeDesc_Large>
   <!-- EN: Not enclosed - build fences -->
-  <PenSizeDesc_Unenclosed>No está cerrado - Construir vallas</PenSizeDesc_Unenclosed>
+  <PenSizeDesc_Unenclosed>TODO</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <PenCapacityDesc>{ANIMALDEF_label} de capacidad</PenCapacityDesc>
+  <PenCapacityDesc>TODO</PenCapacityDesc>
   <!-- EN: Example animals -->
-  <PenExampleAnimals>Ejemplos de animales</PenExampleAnimals><!-- text_todo -->
+  <PenExampleAnimals>TODO</PenExampleAnimals>
 
 
   <!-- Control -->
@@ -650,7 +662,7 @@
   <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{1_labelShort} no está reclutado.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
-  <ApparelPreventsShooting>{PAWN_nameDef} no puede usar armas a distancia debido a {PAWN_possessive} {APPAREL_label}.</ApparelPreventsShooting>
+  <ApparelPreventsShooting>TODO</ApparelPreventsShooting>
 
   <!-- Snow -->
   <!-- EN: No snow -->
@@ -694,7 +706,7 @@
   <!-- EN: resting. -->
   <ReportResting>descansando.</ReportResting>
   <!-- EN: laying down. -->
-  <ReportLayingDown>acostado.</ReportLayingDown>
+  <ReportLayingDown>TODO</ReportLayingDown>
   <!-- EN: watching the sunrise. -->
   <WatchingSunrise>contemplando el amanecer</WatchingSunrise>
   <!-- EN: cloudwatching. -->
@@ -792,9 +804,9 @@
   <!-- EN: Extreme break threshold -->
   <MentalBreakThresholdExtreme>Límite de colapso mental extremo</MentalBreakThresholdExtreme>
   <!-- EN: Major break threshold -->
-  <MentalBreakThresholdMajor>Límite de colapso mental grande</MentalBreakThresholdMajor>
+  <MentalBreakThresholdMajor>Límite de colapso mental mayor</MentalBreakThresholdMajor>
   <!-- EN: Minor break threshold -->
-  <MentalBreakThresholdMinor>Límite de colapso mental pequeño</MentalBreakThresholdMinor>
+  <MentalBreakThresholdMinor>Límite de colapso mental menor</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
@@ -844,7 +856,7 @@
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>Selecciona el elemento siguiente en el mismo cuadro.\n\n(*SectionTitle)Tecla de atajo:(/SectionTitle) {0}\n\nTambién puedes hacerlo al hacer clic lentamente de nuevo en el mismo cuadro.</SelectNextInSquareTip>
+  <SelectNextInSquareTip>Selecciona el elemento siguiente en el mismo cuadro.\n\nTecla de atajo: {0}\n\nTambién puedes hacerlo al hacer clic lentamente de nuevo en el mismo cuadro.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Ver información sobre este objeto.</DefInfoTip>
 
@@ -922,7 +934,7 @@
   <!-- EN: Ingredients -->
   <Ingredients>Ingredientes</Ingredients>
   <!-- EN: only stacks with similar meals -->
-  <OnlyStacksWithCompatibleMeals>solo se apila con comidas similares</OnlyStacksWithCompatibleMeals>
+  <OnlyStacksWithCompatibleMeals>TODO</OnlyStacksWithCompatibleMeals>
 
   <!-- Plants -->
   <!-- EN: {0} grown -->
@@ -958,11 +970,11 @@
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>Muriendo por la exposición a la luz</DyingBecauseExposedToLight>
   <!-- EN: Cut now -->
-  <AutoCutNow>Cortar</AutoCutNow>
+  <AutoCutNow>TODO</AutoCutNow>
   <!-- EN: harvesting -->
-  <HarvestGerund>cosechando</HarvestGerund>
+  <HarvestGerund>TODO</HarvestGerund>
   <!-- EN: cutting -->
-  <CutGerund>cortando</CutGerund>
+  <CutGerund>TODO</CutGerund>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -976,7 +988,7 @@
   <!-- EN: Priority -->
   <Priority>Prioridad</Priority>
   <!-- EN: Clear all -->
-  <ClearAll>Prohibir todo</ClearAll>
+  <ClearAll>Eliminar todo</ClearAll>
   <!-- EN: Allow all -->
   <AllowAll>Permitir todo</AllowAll>
 
@@ -1060,7 +1072,7 @@
   <!-- EN: Cannot be placed under a roof. -->
   <MustPlaceUnroofed>No puede colocarse bajo techo.</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
-  <MustPlaceUnderThickRoof>Se debe colocar bajo un techo grueso.</MustPlaceUnderThickRoof>
+  <MustPlaceUnderThickRoof>TODO</MustPlaceUnderThickRoof>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>Debe colocarse con el frente adyacente a la viga estructural de una nave.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1080,7 +1092,7 @@
   <!-- EN: Cannot be placed next to traps. -->
   <CannotPlaceAdjacentTrap>No puede colocarse junto a trampas.</CannotPlaceAdjacentTrap>
   <!-- EN: Cannot be placed next to another building of the same type. -->
-  <CannotPlaceAdjacentSameDef>No se puede colocar junto a otro edificio del mismo tipo.</CannotPlaceAdjacentSameDef>
+  <CannotPlaceAdjacentSameDef>TODO</CannotPlaceAdjacentSameDef>
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
@@ -1124,9 +1136,9 @@
 
   <!-- Neurotrainer -->
   <!-- EN: skilltrainer ({0}) -->
-  <SkillNeurotrainerLabel>entrenabilidad ({0})</SkillNeurotrainerLabel>
+  <SkillNeurotrainerLabel>neuroentrenador ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skilltrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>Usa el entrenabilidad para aprender {0}</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>Usa el neuroentrenador de habilidades ara aprender {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>Una super dosis de mecanitas capaz de entrenar una habilidad específica.\n\nLa dosis es administrada a traves de la orbita del ojo. Una vez liberados en el cerebro, los mecanitas rápidamente mejoran las habilidades del sujeto en un área en concreto, convirtiendose en tejido nervioso segun sea necesario.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
@@ -1137,6 +1149,8 @@
   <Installed>Instalado</Installed>
   <!-- EN: Not installed -->
   <NotInstalled>No instalado</NotInstalled>
+  <!-- EN: Extracted tree will die in {time} unless replanted. -->
+  <MinifiedTreeWillDieIn>TODO</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
@@ -1154,7 +1168,7 @@
   <!-- EN: Quality -->
   <Quality>Calidad</Quality>
   <!-- EN: quality -->
-  <quality>calidad</quality>
+  <quality>TODO</quality>
   <!-- EN: An item's quality is how well-made it is. -->
   <QualityDescription>La calidad es la medida de lo bien hecho que está un objeto.</QualityDescription>
   <!-- EN: Quality: {0} -->
@@ -1184,7 +1198,7 @@
   <!-- EN: You've launched the ship! -->
   <GameOverShipLaunchedIntro>¡Has conseguido despegar la nave!</GameOverShipLaunchedIntro>
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunchedEnding>La inteligencia artificial de tu nave intentará guiar a tu nave a un lugar seguro. Puede que encuentre un planeta próspero en este sistema solar. O podría empezar un viaje centenario hacia otra estrella. Incluso puede que decida esconderse bajo el hielo de un asteroide por unos cuantos milenios, esperando que alguien comienze un nuevo mundo brillante ahí.\n\nLo sabrás cuando despiertes.</GameOverShipLaunchedEnding>
+  <GameOverShipLaunchedEnding>La inteligencia artificial de tu nave intentará guiar a tu nave a un lugar seguro. Puede que encuentre un planeta próspero en este sistema solar. O podría empezar un viaje centenario hacia otra estrella. Incluso puede que decida esconderse bajo el hielo de un asteroide por unos cuantos milenios, esperando que alguien comienze un nuevo mundobrillante ahí.\n\nLo sabrás cuando despiertes.</GameOverShipLaunchedEnding>
   <!-- EN: These colonists escaped:\n\n{0} -->
   <GameOverColonistsEscaped>Estos colonos escaparon:\n\n{0}</GameOverColonistsEscaped>
   <!-- EN: These colonists were left behind:\n\n{0} -->
@@ -1204,9 +1218,9 @@
   <!-- EN: inactive -->
   <InactiveFacility>inactiva</InactiveFacility>
   <!-- EN: Links to -->
-  <FacilityPotentiallyLinkedTo>Vincular a</FacilityPotentiallyLinkedTo>
+  <FacilityPotentiallyLinkedTo>TODO</FacilityPotentiallyLinkedTo>
   <!-- EN: Not linked to a building -->
-  <FacilityNoPotentialLinks>No está vinculado a un edificio</FacilityNoPotentialLinks>
+  <FacilityNoPotentialLinks>TODO</FacilityNoPotentialLinks>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1320,7 +1334,7 @@
 
   <!-- Outfits -->
   <!-- EN: Anything -->
-  <OutfitAnything>Cualq. cosa</OutfitAnything>
+  <OutfitAnything>Cualquier cosa</OutfitAnything>
   <!-- EN: Worker -->
   <OutfitWorker>Trabajador</OutfitWorker>
   <!-- EN: Soldier -->
@@ -1352,11 +1366,11 @@
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
   <PawnTooltipPsychicEntropyStats>Calentamiento neural: {0} / {1}\nTasa de caída: {2} / s ({3}s hasta cero)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>El calentamiento neural se incrementa al lanzar un poder psíquico. Sobrepasar el límite normal puede causar una crisis psíquica que dure días.\n\nEl calentamiento neural se disipa con el tiempo de forma natural. Este proceso puede acelerarse al sentir dolor o utilizando vestimentas eltex.</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>El calentamiento neural se incrementa al lanzar un poder psíquico. Sobrepasar el límite normal puede causar un colapso psíquico que dure días.\n\nEl calentamiento neural se disipa con el tiempo de forma natural. Este proceso puede acelerarse al sentir dolor o utilizando vestimentas eltex.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Mejora por dolor\n\nEl dolor concentra la mente y acelera la disipación del calentamiento neural.\n\nNivel de dolor: {0}\nBonif a la pérdida de calentamiento neural: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
-  <PawnTooltipPsychicEntropyLimit>Muestra el limitador de calentamiento neural. Exceder tu límite puede causar una crisis psíquica que dure días. No provocará daños permanentes.</PawnTooltipPsychicEntropyLimit>
+  <PawnTooltipPsychicEntropyLimit>Muestra el limitador de calentamiento neural. Exceder tu límite puede causar un colapso psíquico que dure días. No provocará daños permanentes.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>Psi-foco: {0}</PawnTooltipPsyfocus>
 
@@ -1376,7 +1390,7 @@
   <Reward_Items>Cápsulas de transporte con los recursos siguientes están por llegar (valor total {1}):\n\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
-  <Reward_Items_Caravan>recibirás (valor total {1}):\n\n{0}</Reward_Items_Caravan>
+  <Reward_Items_Caravan>recivirás (valor total {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>las relaciones de tu facción con {0_name} mejorarán en {1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
@@ -1392,9 +1406,9 @@
   <!-- EN: Visitors' help -->
   <Reward_VisitorsHelp_Label>Ayuda de los visitantes</Reward_VisitorsHelp_Label>
   <!-- EN: New psylink level -->
-  <Reward_BestowingCeremony_Label>Nuevo nivel de psi-enlace</Reward_BestowingCeremony_Label>
+  <Reward_BestowingCeremony_Label>Nuevo nivel psíquico</Reward_BestowingCeremony_Label>
   <!-- EN: {PAWNNAME} gains psylink -->
-  <Reward_BestowingCeremony>{PAWNNAME} obtiene psi-enlace</Reward_BestowingCeremony>
+  <Reward_BestowingCeremony>{PAWNNAME} obtiene poder psíquico</Reward_BestowingCeremony>
   <!-- EN: Shuttle loot -->
   <Reward_ShuttleLoot_Label>Botín de la lanzadera</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->
@@ -1452,133 +1466,153 @@
   
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was cured. -->
-  <HealingCureHediff>{1_definite} de {0_nameDef} fue curado.</HealingCureHediff>
+  <HealingCureHediff>TODO</HealingCureHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
-  <HealingRestoreBodyPart>{1_definite} de {0_nameDef} fue restaurado.</HealingRestoreBodyPart>
+  <HealingRestoreBodyPart>TODO</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>Precaución: Colocar un edificio aquí ¡enfurecerá a la facción {FACTION_name}!</WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>TODO</WarningBuildingCausesHostility>
 
   <!-- EN: Choose landing site -->
-  <ChooseLandingSite>Elija el sitio de aterrizaje</ChooseLandingSite>
+  <ChooseLandingSite>TODO</ChooseLandingSite>
   
   <!-- Rituals -->
   <!-- EN: ritual -->
-  <Ritual>ritual</Ritual>
+  <Ritual>TODO</Ritual>
 
   <!-- EN: Takes place at -->
-  <RitualTakesPlaceAt>Tiene lugar en</RitualTakesPlaceAt>
+  <RitualTakesPlaceAt>TODO</RitualTakesPlaceAt>
   <!-- EN: Any {0} -->
-  <RitualTargetThingDefsInfo>Cualquier {0}</RitualTargetThingDefsInfo>
-  <!-- EN: Attending -->
-  <LordReportAttending>Asistiendo</LordReportAttending>
+  <RitualTargetThingDefsInfo>TODO</RitualTargetThingDefsInfo>
+  <!-- EN: Attending {0} -->
+  <LordReportAttending>TODO</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
-  <RitualCalledOff>{0} ha sido cancelado.</RitualCalledOff>
+  <RitualCalledOff>TODO</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
-  <RitualNobodyAttended>{0} no se completó por falta de asistencia.</RitualNobodyAttended>
+  <RitualNobodyAttended>TODO</RitualNobodyAttended>
   <!-- EN: {0} has been completed. -->
-  <RitualFinished>{0} se ha completado.</RitualFinished>
+  <RitualFinished>TODO</RitualFinished>
   <!-- EN: ends in {0} -->
-  <RitualEndsIn>termina en {0}</RitualEndsIn>
+  <RitualEndsIn>TODO</RitualEndsIn>
   <!-- EN: Organizers -->
-  <Organizers>Organizadores</Organizers>
+  <Organizers>TODO</Organizers>
   <!-- EN: Quality factors -->
-  <QualityFactors>Factores de calidad</QualityFactors>
+  <QualityFactors>TODO</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
-  <QualityFactorTooltipUncertain>Esta condición puede cumplirse, dependiendo de cómo se desarrollen las cosas.\n\nSi se cumple, se aplicará la bonificación por calidad.</QualityFactorTooltipUncertain>
+  <QualityFactorTooltipUncertain>TODO</QualityFactorTooltipUncertain>
   <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
-  <QualityFactorTooltipNotFulfilled>Esta condición no se cumple.\n\nLa bonificación por calidad no se aplicará.</QualityFactorTooltipNotFulfilled>
+  <QualityFactorTooltipNotFulfilled>TODO</QualityFactorTooltipNotFulfilled>
   <!-- EN: Spectators -->
-  <Spectators>Espectadores</Spectators>
+  <Spectators>TODO</Spectators>
   <!-- EN: Not participating -->
-  <NotParticipating>Sin participación</NotParticipating>
+  <NotParticipating>TODO</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>Arrastra y suelta o cliquea para mover a las personas.</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>TODO</DragPawnsToRolesInfo>
   <!-- EN: A slave. The human property of others. -->
-  <RitualBeginSlaveDesc>Un esclavo. La propiedad humana de otros.</RitualBeginSlaveDesc>
+  <RitualBeginSlaveDesc>TODO</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} está durmiendo. Si se incluye en el ritual, {0_pronoun} se despertará para participar.</RitualBeginSleepingDesc>
+  <RitualBeginSleepingDesc>TODO</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
-  <RitualBeginSleepingWarning>Algunos de los participantes seleccionados están durmiendo. Se despertarán una vez que comience el ritual.</RitualBeginSleepingWarning>
+  <RitualBeginSleepingWarning>TODO</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
-  <RitualRoleRequiresSocialRole>Este puesto es mejor que lo ocupe un colono que tenga el rol social de {0}.\n\nSi alguien sin este rol ocupa este puesto, no obtendrá las siguientes bonificaciones</RitualRoleRequiresSocialRole>
+  <RitualRoleRequiresSocialRole>TODO</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
-  <RitualRoleCantSubstitute>No hay sustituto disponible para el rol de {0}.</RitualRoleCantSubstitute>
+  <RitualRoleCantSubstitute>TODO</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
-  <RitualOutcomeProgress>progreso {0}</RitualOutcomeProgress>
+  <RitualOutcomeProgress>TODO</RitualOutcomeProgress>
   <!-- EN: {0} quality depends on -->
-  <RitualOutcomeQualityAbstract>la calidad depende de {0}</RitualOutcomeQualityAbstract>
+  <RitualOutcomeQualityAbstract>TODO</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
-  <RitualOutcomeQualitySpecific>{0} la calidad total fue de {1}, determinada por estos factores</RitualOutcomeQualitySpecific>
+  <RitualOutcomeQualitySpecific>TODO</RitualOutcomeQualitySpecific>
   <!-- EN: Outcome chances at {0} quality -->
-  <RitualOutcomeChances>Posibilidades de resultado con calidad {0}</RitualOutcomeChances>
+  <RitualOutcomeChances>TODO</RitualOutcomeChances>
   <!-- EN: Performed recently -->
-  <RitualOutcomePerformedRecently>Realizado recientemente</RitualOutcomePerformedRecently>
+  <RitualOutcomePerformedRecently>TODO</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
-  <RitualQualityExpectations>{0} expectativas</RitualQualityExpectations>
+  <RitualQualityExpectations>TODO</RitualQualityExpectations>
   <!-- EN: Ritual ambience sound -->
-  <RitualAmbienceSound>Sonido del ambiente ritual</RitualAmbienceSound>
+  <RitualAmbienceSound>TODO</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
-  <RitualQualityLowWarning>La calidad total {0} está por debajo de {1}. Proceder probablemente afectará negativamente a tu colonia.\n\n¿Está seguro?</RitualQualityLowWarning>
+  <RitualQualityLowWarning>TODO</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
-  <AbilitySpeechDisabledNoSpot>No hay un lugar apropiado para hablar.</AbilitySpeechDisabledNoSpot>
-  <!-- EN: {0_labelShort} is incapable of talking. -->
-  <AbilitySpeechDisabledCantSpeak>{0_labelShort} es incapaz de hablar.</AbilitySpeechDisabledCantSpeak>
+  <AbilitySpeechDisabledNoSpot>TODO</AbilitySpeechDisabledNoSpot>
+  <!-- EN: {0_labelShort} is incapable of {1}. -->
+  <AbilityDisabledNoCapacity>TODO</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>Todos los que participen en el ritual ganarán {0} de humor durante {1} días.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>TODO</RitualOutcomeExtraDesc_Mood>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
-  <ChooseParticipants>Elije quién debe participar en {RITUAL_labelDef}.</ChooseParticipants>
+  <ChooseParticipants>TODO</ChooseParticipants>
   <!-- EN: Begin -->
-  <Begin>Comenzar</Begin>
+  <Begin>TODO</Begin>
   <!-- EN: Begin {0} -->
-  <BeginRitual>Comenzar {0}</BeginRitual>
+  <BeginRitual>TODO</BeginRitual>
   <!-- EN: Begin {0} for {1} -->
-  <BeginRitualFor>Comenzar {0} para {1}</BeginRitualFor>
+  <BeginRitualFor>TODO</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
-  <QualityOutOf>{0} (de {1})</QualityOutOf>
+  <QualityOutOf>TODO</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
-  <DateRitualNoObligation>{0} es un ritual de fecha específica. Podrás iniciarlo en {1}, en el {2}.</DateRitualNoObligation>
+  <DateRitualNoObligation>TODO</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>Sustituir por</PreceptReplaceWith>
+  <PreceptReplaceWith>TODO</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>Asiento ritual de {IDEOS}</RitualSeatOf>
+  <RitualSeatOf>TODO</RitualSeatOf>
   <!-- EN: Expected quality -->
-  <ExpectedRitualQuality>Calidad esperada</ExpectedRitualQuality>
+  <ExpectedRitualQuality>TODO</ExpectedRitualQuality>
   <!-- EN: Starting quality -->
-  <StartingQuality>Calidad inicial</StartingQuality>
+  <StartingQuality>TODO</StartingQuality>
   <!-- EN: Expected duration -->
-  <ExpectedRitualDuration>Duración prevista</ExpectedRitualDuration>
+  <ExpectedRitualDuration>TODO</ExpectedRitualDuration>
   
   <!-- EN: {PAWN_labelShort}'s {1} -->
-  <RitualPredictedOutcomeDescPawnStat>{1} de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnStat>
+  <RitualPredictedOutcomeDescPawnStat>TODO</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
-  <RitualPredictedOutcomeDescRoomBeauty>Belleza de la habitación</RitualPredictedOutcomeDescRoomBeauty>
+  <RitualPredictedOutcomeDescRoomBeauty>TODO</RitualPredictedOutcomeDescRoomBeauty>
   <!-- EN: Participants -->
-  <RitualPredictedOutcomeDescParticipantCount>Participantes</RitualPredictedOutcomeDescParticipantCount>
+  <RitualPredictedOutcomeDescParticipantCount>TODO</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
-  <RitualPredictedOutcomeDescPawnExpectations>Expectativas de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
+  <RitualPredictedOutcomeDescPawnExpectations>TODO</RitualPredictedOutcomeDescPawnExpectations>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>Cualquiera de estos</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>TODO</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
-  <RitualRoleReplaces>Sustituir a {PAWN_labelShort}</RitualRoleReplaces>
+  <RitualRoleReplaces>TODO</RitualRoleReplaces>
 
   <!-- EN: present -->
-  <Present>presente</Present>
+  <Present>TODO</Present>
   <!-- EN: {0} used -->
-  <Used>{0} usado</Used>
+  <Used>TODO</Used>
   <!-- EN: {0} starting quality -->
-  <StartingRitualQuality>{0} calidad inicial</StartingRitualQuality>
+  <StartingRitualQuality>TODO</StartingRitualQuality>
 
   <!-- EN: up to {0} quality -->
-  <OutcomeBonusDesc_Quality>hasta {0} de calidad</OutcomeBonusDesc_Quality>
+  <OutcomeBonusDesc_Quality>TODO</OutcomeBonusDesc_Quality>
   <!-- EN: {0} quality -->
-  <OutcomeBonusDesc_QualitySingleOffset>{0} de calidad</OutcomeBonusDesc_QualitySingleOffset>
+  <OutcomeBonusDesc_QualitySingleOffset>TODO</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
-  <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
+  <OutcomeLetterLabel>TODO</OutcomeLetterLabel>
   <!-- EN: {0} max -->
-  <MaxValue>{0} máx.</MaxValue>
-  
+  <MaxValue>TODO</MaxValue>
+
+  <!-- EN: {0} of -->
+  <ThingOf>TODO</ThingOf>
+  <!-- EN: {0} of {1} -->
+  <ThingOfSource>TODO</ThingOfSource>
+
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>debe ser reclutado(a).</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>habilidad en período de enfriamiento. Estará disponible en {0}.</AbilityOnCooldown>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>habilidad ya en lista de espera.</AbilityAlreadyQueued>
+  <!-- EN: Ability ready: {0} -->
+  <AbilityReadyLabel>Habilidad lista: {0}</AbilityReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>{0_nameDef} está list{0_gender ? o : a} para usar {1}.</AbilityReadyText>
+
+  <!-- UNUSED -->
+  <AverageCaravanMemberMoveSpeed>Velocidad media de movimiento por persona</AverageCaravanMemberMoveSpeed>
+
 </LanguageData>

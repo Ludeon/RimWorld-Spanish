@@ -9,7 +9,7 @@
   <!-- EN: lower priority -->
   <LowerPriority>prioridad más baja</LowerPriority>
   <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
-  <RelevantSkills>Habilidades relevantes: {0}\nPromedio de habilidades relevantes: {1}</RelevantSkills>
+  <RelevantSkills>Habilidades relevantes: {0}\nPromedio de habilidades relevantes: {1} / {2}</RelevantSkills>
   <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Haz clic para ir a:</ClickToJumpTo>
   <!-- EN: {1_labelShort} cannot do this kind of work. -->
@@ -35,33 +35,33 @@
   <!-- EN: Low priority -->
   <Priority4>Prioridad baja</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
-  <PawnFactionInfo>{0}\n\nLa facción a la que {1_nameDef} pertenece actualmente.\n\nHaz clic para ver la facción.</PawnFactionInfo>
+  <PawnFactionInfo>{0}\n\nLa facción a la que {1_nameDef} pertenece.\n\nClick para ver la facción.</PawnFactionInfo>
   <!-- EN: Disabled by backstory: {0} -->
-  <WorkDisabledByBackstory>Desactivado por el trasfondo: {0}</WorkDisabledByBackstory>
+  <WorkDisabledByBackstory>TODO</WorkDisabledByBackstory>
   <!-- EN: Disabled by trait: {0} -->
-  <WorkDisabledByTrait>Desactivado por el rasgo: {0}</WorkDisabledByTrait>
+  <WorkDisabledByTrait>TODO</WorkDisabledByTrait>
   <!-- EN: Disabled by quest: {0} -->
-  <WorkDisabledByQuest>Desactivado por la misión: {0}</WorkDisabledByQuest>
+  <WorkDisabledByQuest>TODO</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
-  <ManageOutfits>Gestionar equipo</ManageOutfits>
+  <ManageOutfits>Administrar vestimentas</ManageOutfits>
   <!-- EN: Unchangeable -->
   <Unchangeable>No modificable</Unchangeable>
   <!-- EN: Clr. forced -->
   <ClearForcedApparel>Eliminar forzado</ClearForcedApparel>
   <!-- EN: forced -->
-  <ApparelForcedLower>forzada</ApparelForcedLower>
+  <ApparelForcedLower>obligado</ApparelForcedLower>
   <!-- EN: locked -->
   <ApparelLockedLower>bloqueado</ApparelLockedLower>
   <!-- EN: Forced apparel -->
-  <ForcedApparel>Atuendo forzado</ForcedApparel>
+  <ForcedApparel>Forzado</ForcedApparel>
   <!-- EN: Edit... -->
   <AssignTabEdit>Editar...</AssignTabEdit>
   <!-- EN: Manage drug policies -->
-  <ManageDrugPolicies>Gestionar políticas de drogas</ManageDrugPolicies>
+  <ManageDrugPolicies>Administrar políticas de drogas</ManageDrugPolicies>
   <!-- EN: Manage food restrictions -->
-  <ManageFoodRestrictions>Gestionar políticas alimenticias</ManageFoodRestrictions>
+  <ManageFoodRestrictions>Administrar restricciones de comida</ManageFoodRestrictions>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -81,7 +81,7 @@
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
-  <IsPredator>Esta criatura es un depredador. Cuando tiene hambre, cazará criaturas más pequeñas, posiblemente, incluso personas.</IsPredator>
+  <IsPredator>Esta criatura es un depredador. Cuando tiene hambre, cazará criaturas más pequeñas, posiblemente incluso personas.</IsPredator>
   <!-- EN: This creature is currently in mental state: {0} -->
   <IsInMentalState>Esta criatura se halla en estado mental: {0}</IsInMentalState>
   
@@ -91,9 +91,9 @@
   <!-- EN: Ally -->
   <Ally>Aliado</Ally>
   <!-- EN: hostile -->
-  <HostileLower>hostil</HostileLower>
+  <HostileLower>TODO</HostileLower>
   <!-- EN: ally -->
-  <AllyLower>aliado</AllyLower>
+  <AllyLower>TODO</AllyLower>
   <!-- EN: defeated -->
   <DefeatedLower>derrotado</DefeatedLower>
   <!-- EN: Enemy of {0} -->
@@ -101,9 +101,9 @@
   <!-- EN: Enemy of:  -->
   <EnemyOf>Enemigo de: </EnemyOf>
   <!-- EN: Recent events -->
-  <RecentEvents>Eventos recientes</RecentEvents>
+  <RecentEvents>TODO</RecentEvents>
   <!-- EN: Ongoing events -->
-  <OngoingEvents>Eventos en curso</OngoingEvents>
+  <OngoingEvents>TODO</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Esta facción es permanentemente hostil. Asaltarán tus asentamientos y caravanas. Las relaciones con ellos nunca mejorarán en ningún caso.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -131,7 +131,7 @@
   
   <!-- History tab - Graphs -->
   <!-- EN: Select graph -->
-  <SelectGraph>Elegir gráfica</SelectGraph>
+  <SelectGraph>Seleccionar gráfica</SelectGraph>
   <!-- EN: Last 30 days -->
   <Last30Days>Últimos 30 días</Last30Days>
   <!-- EN: Last 100 days -->
@@ -139,7 +139,7 @@
   <!-- EN: Last 300 days -->
   <Last300Days>Últimos 300 días</Last300Days>
   <!-- EN: All -->
-  <AllDays>Todos</AllDays>
+  <AllDays>Todo</AllDays>
   <!-- EN: Value -->
   <Value>Valor</Value>
   <!-- EN: External -->
@@ -147,9 +147,9 @@
 
   <!-- History tab - Messages -->
   <!-- EN: Show letters -->
-  <ShowLetters>Ver notificaciones</ShowLetters>
+  <ShowLetters>Mostrar cartas</ShowLetters>
   <!-- EN: Show messages -->
-  <ShowMessages>Ver mensajes</ShowMessages>
+  <ShowMessages>Mostrar mensajes</ShowMessages>
   <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
   <PinArchivableTip>Anclar o desanclar este mensaje.\n\nLos mensajes no anclados más antiguos se eliminarán automáticamente de la lista después de alcanzar el límite de {0} mensajes.</PinArchivableTip>
   <!-- EN: no messages -->
@@ -183,7 +183,7 @@
   <!-- EN: Research -->
   <Research>Investigación</Research>
   <!-- EN: Study -->
-  <Study>Estudio</Study>
+  <Study>TODO</Study>
   <!-- EN: Unresearched -->
   <Unresearched>Sin investigar</Unresearched>
   <!-- EN: Finished -->
@@ -201,7 +201,7 @@
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>Prerrequisitos no cumplidos</PrerequisitesNotCompleted>
   <!-- EN: Required research bench -->
-  <RequiredResearchBench>Requiere mesa de investigación</RequiredResearchBench>
+  <RequiredResearchBench>Mesa de investigación necesaria</RequiredResearchBench>
   <!-- EN: Required research bench facilities -->
   <RequiredResearchBenchFacilities>Instalaciones de investigación necesarias</RequiredResearchBenchFacilities>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
@@ -215,9 +215,9 @@
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
-  <FactionsTab>Facciones</FactionsTab>
+  <FactionsTab>TODO</FactionsTab>
   <!-- EN: No known factions -->
-  <NoFactions>No hay facciones conocidas</NoFactions>
+  <NoFactions>TODO</NoFactions>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -287,13 +287,13 @@
   <!-- EN: To accept this quest, you need -->
   <QuestAcceptanceRequirementsDescription>Para aceptar esta misión, necesitas</QuestAcceptanceRequirementsDescription>
   <!-- EN: free bedrooms that satisfy the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfied>habitaciones disponibles que satisfacen las exigencias del título</QuestBedroomRequirementsUnsatisfied>
+  <QuestBedroomRequirementsUnsatisfied>habitaciones disponibles que satisfagan las exigencias de</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
   <QuestBedroomRequirementsUnsatisfiedSingle>una habitación disponible que satisfaga las exigencias de</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
   <QuestThroneRoomRequirementsUnsatisfied>una sala del trono que satisfaga los requisitos del título {TITLE} de {PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
   <!-- EN: assign a throne for {PAWN_definite} -->
-  <QuestNoThroneRoom>asignar un trono para {PAWN_definite}</QuestNoThroneRoom>
+  <QuestNoThroneRoom>una sala del trono que satisfaga los requisitos del título {TITLE} de {PAWN_definite}</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>un colono con el título de {0}.</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
@@ -311,15 +311,15 @@
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
   <AcceptRoyalFavorDesc>Si estás interesado o no en ser recompensado con {FACTION_royalFavorLabel} de {FACTION_name}.\n\nSi esto está deshabilitado, {FACTION_name} te ofrecerá otro tipo de recompensas en su lugar.\n\nEsto solo afecta a misiones nuevas.</AcceptRoyalFavorDesc>
   <!-- EN: Accept goodwill -->
-  <AcceptGoodwill>Aceptar buena voluntad</AcceptGoodwill>
+  <AcceptGoodwill>Aceptar reputación</AcceptGoodwill>
   <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
   <AcceptGoodwillDesc>Si estás interesado o no en ser recompensado con mejoras en las relaciones con {FACTION_name}.\n\nSi esto está deshabilitado, {FACTION_name} te ofrecerá otro tipo de recompensas en su lugar.\n\nEsto solo afecta a misiones nuevas.</AcceptGoodwillDesc>
   <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
-  <RoyalFavorOn>Actualmente recibes {FACTION_royalFavorLabel}.</RoyalFavorOn>
+  <RoyalFavorOn>Actualmente recibes {FACTION_royalFavorLabel}. </RoyalFavorOn>
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>Actualmente no recibes {FACTION_royalFavorLabel}.</RoyalFavorOff>
   <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
-  <GoodwillTip>Tu buena voluntad con {0_name} mejorará en {1}.\n\nBuena voluntad actual: {4} ({5}).\n\nLa buena voluntad mide las relaciones generales existentes entre facciones. Si cae por debajo de {2}, la facción se convertirá en hostil y atacará tus asentamientos y caravanas. Si sube por encima de {3}, la facción se convertirá en aliada y enviará luchadores para ayudarte cuando pueda. En los demás casos, la facción permanecerá neutral y comerciará y se comunicará contigo libremente.</GoodwillTip>
+  <GoodwillTip>Tu reputación con {0_name} mejorará en {1}.\n\nReputación actual: {4} ({5}).\n\nLa reputación mide las relaciones generales existentes entre facciones. Si cae por debajo de {2}, la facción se convertirá en hostil y atacará tus asentamientos y caravanas. Si sube por encima de {3}, la facción se convertirá en aliada y enviará luchadores para ayudarte cuando pueda. En los demás casos, la facción permanecerá neutral y comerciará y se comunicará contigo libremente.</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort} se incorpora a la colonia</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
@@ -327,18 +327,26 @@
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
   <QuestBetrayalOfferTip>{0} te recompensará si matas a los miembros de la facción {1}.</QuestBetrayalOfferTip>
   <!-- EN: a colony wealth of at least {0} -->
-  <QuestRequiredPlayerWealth>una riqueza de la colonia de al menos {0}</QuestRequiredPlayerWealth>
+  <QuestRequiredPlayerWealth>TODO</QuestRequiredPlayerWealth>
   <!-- EN: alliance with {0} -->
-  <QuestAlliedTo>aliado de {0}</QuestAlliedTo>
+  <QuestAlliedTo>TODO</QuestAlliedTo>
   <!-- EN: hostile to {0} -->
-  <QuestHostileTo>hostil a {0}</QuestHostileTo>
+  <QuestHostileTo>TODO</QuestHostileTo>
   <!-- EN: neutral to {0} -->
-  <QuestNeutralTo>neutral a {0}</QuestNeutralTo>
+  <QuestNeutralTo>TODO</QuestNeutralTo>
   <!-- EN: studied {0_labelShort} -->
-  <QuestRequiredThingStudied>{0_labelShort} estudiado</QuestRequiredThingStudied>
+  <QuestRequiredThingStudied>TODO</QuestRequiredThingStudied>
 
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Necesidad adquirida</CreatesNeed>
+
+  <!-- UNUSED -->
+  <CurrentGoodwillTip>Reputación actual y estado de las relaciones con esta facción.</CurrentGoodwillTip>
+  <CurrentRelationTip>Relaciones actuales con esta facción.</CurrentRelationTip>
+  <CurrentGoodwillTip_NaturalGoodwill>Esta facción tiene una reputación por defecto de {0} a {1}.</CurrentGoodwillTip_NaturalGoodwill>
+  <CurrentGoodwillTip_NaturalGoodwillRise>Si la reputación está por debajo de {0}, aumentará en {1} por año.</CurrentGoodwillTip_NaturalGoodwillRise>
+  <CurrentGoodwillTip_NaturalGoodwillFall>Si la reputación es superior a {0}, disminuirá en {1} por año.</CurrentGoodwillTip_NaturalGoodwillFall>
+  <Researched>Investigado</Researched>
 
 </LanguageData>

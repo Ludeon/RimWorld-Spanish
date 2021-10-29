@@ -170,11 +170,11 @@
   <!-- EN: Version mismatch -->
   <VersionMismatch>Versión incorrecta</VersionMismatch>
   <!-- EN: This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes. -->
-  <SaveGameIncompatibleWarningText>Este mapa fue guardado con la versión {0} del juego\nLa versión actual es la {1}\n\nCargar esta partida podría causar errores y cuelgues.</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningText>Este mapa fue guardado con la versión {0} del juego\nLa versión actual es la {1}\n\nCargar esta partida podría causar errores y colapsos.</SaveGameIncompatibleWarningText>
   <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
-  <WorldFileVersionMismatch>Este archivo de planeta fue generado con la versión {0} del juego\nLa versión actual es la {1}\n\nCargar esta partida podría causar errores y cuelgues. Lo mejor sería generar un nuevo planeta desde cero.</WorldFileVersionMismatch>
+  <WorldFileVersionMismatch>Este archivo de planeta fue generado con la versión {0} del juego\nLa versión actual es la {1}\n\nCargar esta partida podría causar errores y colapsos. Probablemente debieras generar un nuevo planeta desde cero.</WorldFileVersionMismatch>
   <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
-  <FileIncompatibleWarning>Este archivo fue guardado con la versión {0}\nActualmente estás corriendo la versión {1}\n\nCargar este archivo podría producir errores y cuelgues.</FileIncompatibleWarning>
+  <FileIncompatibleWarning>Este archivo fue guardado con la versión {0}\nActualmente estás corriendo la versión {1}\n\nCargar este archivo podría producir errores y caídas.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>Mods incorrectos</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
@@ -292,6 +292,18 @@
   <ArmorPenetration>Penetración de blindaje</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
   <ArmorPenetrationExplanation>La penetración de blindaje es la cantidad de blindaje que esta arma traspasará cada vez que golpee al objetivo.\n\nSi la penetración de blindaje es mayor que la armadura del objetivo, es como si el objetivo no estuviera blindado. De lo contrario, la penetración de armadura se resta de la armadura del objetivo.</ArmorPenetrationExplanation>
+  <!-- EN: Building damage factor -->
+  <BuildingDamageFactor>TODO</BuildingDamageFactor>
+  <!-- EN: Damage to all buildings is multiplied by this value. -->
+  <BuildingDamageFactorExplanation>TODO</BuildingDamageFactorExplanation>
+  <!-- EN: Building damage factor (impassable) -->
+  <BuildingDamageFactorImpassable>TODO</BuildingDamageFactorImpassable>
+  <!-- EN: Damage to all impassable buildings is multiplied by this value. -->
+  <BuildingDamageFactorImpassableExplanation>TODO</BuildingDamageFactorImpassableExplanation>
+  <!-- EN: Building damage factor (passable) -->
+  <BuildingDamageFactorPassable>TODO</BuildingDamageFactorPassable>
+  <!-- EN: Damage to all passable buildings is multiplied by this value. -->
+  <BuildingDamageFactorPassableExplanation>TODO</BuildingDamageFactorPassableExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>Precisión</Accuracy>
   <!-- EN: Burst shot count -->
@@ -300,6 +312,8 @@
   <WarmupTime>Calentamiento</WarmupTime>
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>Calentamiento para atq. cuerpo a cuerpo</MeleeWarmupTime>
+  <!-- EN: Ranged warmup -->
+  <RangedWarmupTime>TODO</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Enfriamiento</CooldownTime>
   <!-- EN: Disarmed -->
@@ -371,7 +385,7 @@
   <!-- EN: Body size -->
   <BodySize>Tamaño corporal</BodySize>
   <!-- EN: Growth -->
-  <Growth>Crecimiento</Growth>
+  <Growth>TODO</Growth>
   <!-- EN: Recruit difficulty -->
   <RecruitDifficulty>Dificultad de reclutamiento</RecruitDifficulty>
   <!-- EN: Base price -->
@@ -397,9 +411,9 @@
   <!-- EN: Training decay interval -->
   <TrainingDecayInterval>Intervalo de deterioro del entrenamiento</TrainingDecayInterval>
   <!-- EN: Tameness will never decay for animals of very low wildness. -->
-  <TamenessWillNotDecay>La domesticación nunca decaerá para los animales de muy bajo nivel de salvajismo.</TamenessWillNotDecay>
+  <TamenessWillNotDecay>La domesticación nunca decaerá.</TamenessWillNotDecay>
   <!-- EN: Tameness will never decay for animals that can be kept behind fences. -->
-  <TamenessWillNotDecayFenceBlocked>La domesticación nunca decaerá para los animales que se pueden mantenerse dentro del área con vallas.</TamenessWillNotDecayFenceBlocked>
+  <TamenessWillNotDecayFenceBlocked>TODO</TamenessWillNotDecayFenceBlocked>
   <!-- EN: Time -->
   <TimeRecordsCategory>Tiempo</TimeRecordsCategory>
   <!-- EN: Misc -->
@@ -445,7 +459,7 @@
   <!-- EN: {0} / day -->
   <PerDay>{0} / día</PerDay>
   <!-- EN: {0} / hour -->
-  <PerHour>{0} / hora</PerHour>
+  <PerHour>TODO</PerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>Animal de carga</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -471,7 +485,7 @@
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Probabilidad de venganza por daño</HarmedRevengeChance>
   <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
-  <HarmedRevengeChanceExplanation>La probabilidad de que esta criatura ataque cuando reciba algún daño.\n\nEsta probabilidad aumenta hasta tres veces si el atacante está más cerca.\n\nEsta probabilidad se aplica cada vez que se recibe daño. Esto significa que las armas más lentas y de mayor daño tienen menos probabilidades de activarla mientras cazan.</HarmedRevengeChanceExplanation>
+  <HarmedRevengeChanceExplanation>La probabilidad de que esta criatura busque venganza por haber sido dañada por un atacante a alcance de rifle.\n\nEsta probabilidad aumenta si el atacante está más cerca. Si es atacado a muy corta distancia, la probabilidad es tres veces mayor.\n\nEsta probabilidad se aplica cada vez que se produce un daño, por lo que es menos probable que las armas que disparan más lentamente y causan más daño lo activen.\n\nPara minimizar la posibilidad de que una criatura busque venganza, atácala a larga distancia con un arma de baja cadencia de tiro.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>La probabilidad de venganza en un fracaso al domesticar</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -595,15 +609,15 @@
   <!-- EN: Trading with faction base bonus -->
   <TradeWithFactionBaseBonus>Bono base de comercio con esta facción</TradeWithFactionBaseBonus>
   <!-- EN: Joins as slave -->
-  <JoinsAsSlave>Se une como esclavo</JoinsAsSlave>
+  <JoinsAsSlave>TODO</JoinsAsSlave>
   <!-- EN: Joins as colonist -->
-  <JoinsAsColonist>Se une como colono</JoinsAsColonist>
+  <JoinsAsColonist>TODO</JoinsAsColonist>
   <!-- EN: If purchased, this person will join your colony as a slave. -->
-  <JoinsAsSlaveDesc>Si se compra, esta persona se unirá a tu colonia como esclavo.</JoinsAsSlaveDesc> <!--  -->
+  <JoinsAsSlaveDesc>TODO</JoinsAsSlaveDesc> <!--  -->
   <!-- EN: If purchased, this person will join your colony as a colonist. -->
-  <JoinsAsColonistDesc>Si se compra, esta persona se unirá a tu colonia como colono.</JoinsAsColonistDesc>
+  <JoinsAsColonistDesc>TODO</JoinsAsColonistDesc>
   <!-- EN: Trading drugs bonus -->
-  <TradingDrugsBonus>Bonificación por drogas comerciales</TradingDrugsBonus>
+  <TradingDrugsBonus>TODO</TradingDrugsBonus>
   <!-- EN: minimum -->
   <minimum>Mínimo</minimum>
   <!-- EN: Final price -->
@@ -639,7 +653,7 @@
   <!-- EN: Items -->
   <ItemsTab>Equipo</ItemsTab>
   <!-- EN: Travel supplies -->
-  <TravelSupplies>Provisiones de viaje</TravelSupplies>
+  <TravelSupplies>TODO</TravelSupplies>
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>Debes asignar al menos un colono consciente.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
@@ -649,7 +663,7 @@
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Peligro: algunos de los colonos asignados son incapaces de llegar al lugar de salida ({0}).</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unable to reach the packing spot or the exit location when led by any of the assigned colonists. -->
-  <CaravanRoamerCannotReachSpots>{1_labelShort} es incapaz de llegar al lugar de embalaje o al lugar de salida cuando es conducido por cualquiera de los colonos asignados.</CaravanRoamerCannotReachSpots>
+  <CaravanRoamerCannotReachSpots>TODO</CaravanRoamerCannotReachSpots>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Ninguno de los colonos asignados puede llegar hasta el/la {0}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -671,9 +685,11 @@
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(sólo se tiene en cuenta el primer punto intermedio)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
-  <DaysWorthOfFoodWarningDialog>Tu caravana tiene tan sólo {0} días de comida y se pondrá hambrienta muy rápidamente.</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog>Tu caravana tiene tan sólo {0} días de comida y se pondrá hambrienta muy rápidamente.\n\n¿Estás seguro que quieres formar esta caravana?</DaysWorthOfFoodWarningDialog>
+  <!-- EN: Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy. -->
+  <DaysWorthOfFoodDietWarningDialog>TODO</DaysWorthOfFoodDietWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
-  <DaysWorthOfFoodWarningDialog_NoFood>Tu caravana no tiene comida y se pondrá hambrienta muy rápidamente.</DaysWorthOfFoodWarningDialog_NoFood>
+  <DaysWorthOfFoodWarningDialog_NoFood>Tu caravana no tiene comida y se pondrá hambrienta muy rápidamente.\n\n¿Estás seguro que quieres formar esta caravana?</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
   <ForagedFoodPerDayTip>La cantidad promedio de comida por día que su gente buscará. Este valor cambiará a medida que viaje a través de biomas con diferentes tasas de rendimiento de forraje.</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
@@ -741,9 +757,9 @@
   <!-- EN: tiles/day -->
   <TilesPerDay>casillas/día</TilesPerDay>
   <!-- EN: None - too heavy -->
-  <TilesPerDayImmobile>Ninguno, demasiado pesado</TilesPerDayImmobile>
+  <TilesPerDayImmobile>TODO</TilesPerDayImmobile>
   <!-- EN: None -->
-  <TilesPerDayImmobileShort>Ninguno</TilesPerDayImmobileShort>
+  <TilesPerDayImmobileShort>TODO</TilesPerDayImmobileShort>
   <!-- EN: Movement speed depends on carried mass, ridden animals, and terrain movement difficulty. -->
   <CaravanMovementSpeedTip>La velocidad de movimiento depende de la velocidad media de todas las personas y animales, la masa transportada y la dificultad de movimiento del terreno.</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
@@ -769,7 +785,7 @@
   <!-- EN: Total body size -->
   <TotalBodySize>Tamaño total del cuerpo</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
-  <AutomaticallySelectTravelSupplies>Seleccionar automáticamente las provisiones de viaje</AutomaticallySelectTravelSupplies>
+  <AutomaticallySelectTravelSupplies>TODO</AutomaticallySelectTravelSupplies>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -1027,15 +1043,15 @@
   <!-- EN: {0_labelShort} is not mentally broken. -->
   <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} no ha colapsado mentalmente.</AbilityCanOnlyApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not maddened. -->
-  <AbilityCanOnlyApplyToManhunter>{0_labelShort} no está enloquecid{0_gender ? o : a}.</AbilityCanOnlyApplyToManhunter>
+  <AbilityCanOnlyApplyToManhunter>TODO</AbilityCanOnlyApplyToManhunter>
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
-  <AbilityCantApplyToScaria>{0_labelShort} tiene escariosis, que solo puede ser tratada médicamente.</AbilityCantApplyToScaria>
+  <AbilityCantApplyToScaria>TODO</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
   <AbilityDoesntWorkOnMentalState>{0} no funciona en el estado mental '{1}'.</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort} tiene resistencia zero.</AbilityCantApplyNoResistance>
   <!-- EN: {0_labelShort} is downed. -->
-  <AbilityCantApplyDowned>{0_labelShort} está derribad{0_gender ? o : a}.</AbilityCantApplyDowned>
+  <AbilityCantApplyDowned>TODO</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>No se puede usar: {0} es asexual.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
@@ -1047,21 +1063,21 @@
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>{0_labelShort} no puede sufrir una inspiración en estos momentos.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
-  <AbilityMustBeNotSameIdeo>{0_labelShort} debe ser de una ideoligión diferente a la de {1_labelShort}.</AbilityMustBeNotSameIdeo>
+  <AbilityMustBeNotSameIdeo>TODO</AbilityMustBeNotSameIdeo>
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
-  <AbilityMustBeSameIdeo>{0_labelShort} debe ser de la misma ideoligión que {1_labelShort}.</AbilityMustBeSameIdeo>
+  <AbilityMustBeSameIdeo>TODO</AbilityMustBeSameIdeo>
   <!-- EN: {0_labelShort} must be sick or injured. -->
-  <AbilityMustBeSickOrInjured>{0_labelShort} debe estar enferm{0_gender ? o : a} o lesionad{0_gender ? o : a}.</AbilityMustBeSickOrInjured>
+  <AbilityMustBeSickOrInjured>TODO</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
-  <AbilityMustBeSameIdeoCounsel>{0} solo puede aconsejar {1}s.</AbilityMustBeSameIdeoCounsel>
+  <AbilityMustBeSameIdeoCounsel>TODO</AbilityMustBeSameIdeoCounsel>
   <!-- EN: {0_labelShort} is already considered guilty. -->
-  <AbilityMustBeNotGuilty>{0_labelShort} ya es considerad{0_gender ? o : a} culpable.</AbilityMustBeNotGuilty>
+  <AbilityMustBeNotGuilty>TODO</AbilityMustBeNotGuilty>
   <!-- EN: Must target a human. -->
-  <AbilityMustBeHuman>Debe ser un objetivo humano.</AbilityMustBeHuman>
+  <AbilityMustBeHuman>TODO</AbilityMustBeHuman>
   <!-- EN: Must target a non-wild human. -->
-  <AbilityMustBeHumanNonWild>Debe ser un humano no salvaje.</AbilityMustBeHumanNonWild>
+  <AbilityMustBeHumanNonWild>TODO</AbilityMustBeHumanNonWild>
   <!-- EN: Must target an animal. -->
-  <AbilityMustBeAnimal>Debe ser un objetivo animal.</AbilityMustBeAnimal>
+  <AbilityMustBeAnimal>TODO</AbilityMustBeAnimal>
   <!-- EN: {0_labelShort} is unconscious. -->
   <AbilityCantApplyUnconscious>{0_labelShort} está inconsciente.</AbilityCantApplyUnconscious>
   <!-- EN: {0_labelShort} is asleep. -->
@@ -1092,76 +1108,93 @@
 
   <!-- Auto slaughter -->
   <!-- EN: Animal -->
-  <AutoSlaugtherHeaderColLabel>Animal</AutoSlaugtherHeaderColLabel>
+  <AutoSlaugtherHeaderColLabel>TODO</AutoSlaugtherHeaderColLabel>
   <!-- EN: Current -->
-  <AutoSlaugtherHeaderColCurrent>Actual</AutoSlaugtherHeaderColCurrent>
+  <AutoSlaugtherHeaderColCurrent>TODO</AutoSlaugtherHeaderColCurrent>
   <!-- EN: Max -->
-  <AutoSlaugtherHeaderColMax>Máx.</AutoSlaugtherHeaderColMax>
+  <AutoSlaugtherHeaderColMax>TODO</AutoSlaugtherHeaderColMax>
   <!-- EN: Total -->
-  <AutoSlaugtherHeaderColTotal>Total</AutoSlaugtherHeaderColTotal>
+  <AutoSlaugtherHeaderColTotal>TODO</AutoSlaugtherHeaderColTotal>
   <!-- EN: Other -->
-  <AutoSlaugtherHeaderColOther>Otro</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
-  <!-- EN: If you have more than the max number of animals, colonists will slaughter the oldest animals until you are under the limit. -->
-  <AutoSlaugtherTip>Si tienes más del número máximo de animales, los colonos sacrificarán los animales más viejos hasta que estén por debajo del límite.</AutoSlaugtherTip>
+  <AutoSlaugtherHeaderColOther>TODO</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
+  <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
+  <AutoSlaugtherTip>TODO</AutoSlaugtherTip>
   <!-- EN: Male adult -->
-  <AnimalMaleAdult>Macho adulto</AnimalMaleAdult>
+  <AnimalMaleAdult>TODO</AnimalMaleAdult>
   <!-- EN: Male young -->
-  <AnimalMaleYoung>Macho joven</AnimalMaleYoung>
+  <AnimalMaleYoung>TODO</AnimalMaleYoung>
   <!-- EN: Female adult -->
-  <AnimalFemaleAdult>Hembra adulta</AnimalFemaleAdult>
+  <AnimalFemaleAdult>TODO</AnimalFemaleAdult>
   <!-- EN: Female young -->
-  <AnimalFemaleYoung>Hembra joven</AnimalFemaleYoung>
+  <AnimalFemaleYoung>TODO</AnimalFemaleYoung>
   <!-- EN: Pregnant -->
-  <AnimalPregnant>Embarazada</AnimalPregnant>
+  <AnimalPregnant>TODO</AnimalPregnant>
+  <!-- EN: Bonded -->
+  <AnimalBonded>TODO</AnimalBonded>
   <!-- EN: Slaughter -->
-  <AllowSlaughterPregnant>Sacrificar</AllowSlaughterPregnant>
+  <AllowSlaughter>TODO</AllowSlaughter>
 
   <!-- EN: The animal to be automatically slaughtered. -->
-  <AutoSlaugtherHeaderTooltipLabel>El animal a sacrificar automáticamente.</AutoSlaugtherHeaderTooltipLabel>
+  <AutoSlaugtherHeaderTooltipLabel>TODO</AutoSlaugtherHeaderTooltipLabel>
   <!-- EN: The current number of animals in the colony, both male and female. -->
-  <AutoSlaugtherHeaderTooltipCurrentTotal>El número actual de animales en la colonia, tanto machos como hembras.</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <AutoSlaugtherHeaderTooltipCurrentTotal>TODO</AutoSlaugtherHeaderTooltipCurrentTotal>
   <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxTotal>El número máximo de animales en la colonia, tanto machos como hembras.\n\nLos adiestradores sacrificarán automáticamente los animales extras.</AutoSlaugtherHeaderTooltipMaxTotal>
+  <AutoSlaugtherHeaderTooltipMaxTotal>TODO</AutoSlaugtherHeaderTooltipMaxTotal>
   <!-- EN: The current number of males of breeding age in the colony. -->
-  <AutoSlaugtherHeaderTooltipCurrentMales>El número actual de machos en edad reproductiva en la colonia.</AutoSlaugtherHeaderTooltipCurrentMales>
+  <AutoSlaugtherHeaderTooltipCurrentMales>TODO</AutoSlaugtherHeaderTooltipCurrentMales>
   <!-- EN: The current number of baby and juvenile males in the colony. -->
-  <AutoSlaughterHeaderTooltipCurrentMalesYoung>El número actual de crías y machos jóvenes en la colonia.</AutoSlaughterHeaderTooltipCurrentMalesYoung>
+  <AutoSlaughterHeaderTooltipCurrentMalesYoung>TODO</AutoSlaughterHeaderTooltipCurrentMalesYoung>
   <!-- EN: The maximum number of males of breeding age in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxMales>El número máximo de machos en edad reproductiva en la colonia.\n\nLos adiestradores sacrificarán automáticamente los animales extras.</AutoSlaugtherHeaderTooltipMaxMales>
+  <AutoSlaugtherHeaderTooltipMaxMales>TODO</AutoSlaugtherHeaderTooltipMaxMales>
   <!-- EN: The maximum number of baby and juvenile males in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaughterHeaderTooltipMaxMalesYoung>El número máximo de crías y machos jóvenes en la colonia.\n\nLos adiestradores sacrificarán automáticamente los animales extras.</AutoSlaughterHeaderTooltipMaxMalesYoung>
+  <AutoSlaughterHeaderTooltipMaxMalesYoung>TODO</AutoSlaughterHeaderTooltipMaxMalesYoung>
   <!-- EN: The current number of females of breeding age in the colony. -->
-  <AutoSlaugtherHeaderTooltipCurrentFemales>El número actual de hembras en edad reproductiva en la colonia.</AutoSlaugtherHeaderTooltipCurrentFemales>
+  <AutoSlaugtherHeaderTooltipCurrentFemales>TODO</AutoSlaugtherHeaderTooltipCurrentFemales>
   <!-- EN: The current number of baby and juvenile females in the colony. -->
-  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>El número actual de crías y hembras jóvenes en la colonia.</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
+  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>TODO</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
   <!-- EN: The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxFemales>Número máximo deseado de hembras en la colonia.\n\nLos adiestradores sacrificarán automáticamente los animales extras.</AutoSlaugtherHeaderTooltipMaxFemales>
+  <AutoSlaugtherHeaderTooltipMaxFemales>TODO</AutoSlaugtherHeaderTooltipMaxFemales>
   <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaughterHeaderTooltipMaxFemalesYoung>El número máximo de crías y hembras jóvenes en la colonia.\n\nLos adiestradores sacrificarán automáticamente los animales extras.</AutoSlaughterHeaderTooltipMaxFemalesYoung>
+  <AutoSlaughterHeaderTooltipMaxFemalesYoung>TODO</AutoSlaughterHeaderTooltipMaxFemalesYoung>
   <!-- EN: The current number of pregnant animals in the colony. -->
-  <AutoSlaughterHeaderTooltipCurrentPregnant>El número actual de animales preñados en la colonia.</AutoSlaughterHeaderTooltipCurrentPregnant>
+  <AutoSlaughterHeaderTooltipCurrentPregnant>TODO</AutoSlaughterHeaderTooltipCurrentPregnant>
   <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
-  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>Permitir el sacrificio de animales preñados junto con otras hembras de la misma especie.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>TODO</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+  <!-- EN: The current number of bonded animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentBonded>TODO</AutoSlaughterHeaderTooltipCurrentBonded>
+  <!-- EN: Allow bonded animals to be slaughtered. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>TODO</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
 
   <!-- EN: Click to set an animal count limit. -->
-  <AutoSlaughterTooltipSetLimit>Haz clic para establecer un límite de recuento de animales.</AutoSlaughterTooltipSetLimit>
+  <AutoSlaughterTooltipSetLimit>TODO</AutoSlaughterTooltipSetLimit>
 
   <!-- Room requirements -->
   <!-- EN: no beds allowed -->
-  <RoomRequirementNoBeds>no debe haber camas</RoomRequirementNoBeds>
+  <RoomRequirementNoBeds>TODO</RoomRequirementNoBeds>
   <!-- EN: room area: {0} tiles -->
-  <RoomRequirementArea>área de la habitación: {0} casillas</RoomRequirementArea>
+  <RoomRequirementArea>TODO</RoomRequirementArea>
   <!-- EN: room impressiveness -->
-  <RoomRequirementImpressiveness>atractivo de la habitación</RoomRequirementImpressiveness>
+  <RoomRequirementImpressiveness>TODO</RoomRequirementImpressiveness>
   <!-- EN: all floored -->
-  <RoomRequirementAllFloored>ha de estar pavimentado</RoomRequirementAllFloored>
+  <RoomRequirementAllFloored>TODO</RoomRequirementAllFloored>
   <!-- EN: all braziers must be lit -->
-  <RoomRequirementAllBraziersMustBeLit>todos los braseros deben estar encendidos</RoomRequirementAllBraziersMustBeLit>
+  <RoomRequirementAllBraziersMustBeLit>TODO</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
-  <RoomRequirementAllFineFloored>ha de estar elegantemente pavimentado</RoomRequirementAllFineFloored>
+  <RoomRequirementAllFineFloored>TODO</RoomRequirementAllFineFloored>
   <!-- EN: no work facilities allowed -->
-  <RoomRequirementNoProductionFacilities>no debe haber estaciones de trabajo</RoomRequirementNoProductionFacilities>
+  <RoomRequirementNoProductionFacilities>TODO</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
-  <RoomRequirementNoAltars>no se permiten altares</RoomRequirementNoAltars>
+  <RoomRequirementNoAltars>TODO</RoomRequirementNoAltars>
+
+  <!-- UNUSED -->
+  <AnimalFilthRate>Tasa de suciedad animal</AnimalFilthRate>
+  <AnimalFilthRateExplanation>Los animales producen suciedad al moverse por suelos construidos. Esta es la cantidad promedio de suciedad producida por cada {0} casillas pisadas por esta criatura.\n\nLos animales más grandes o menos domesticables producen más suciedad.</AnimalFilthRateExplanation>
+  <FoodAndMedicineTab>Comida y medicina</FoodAndMedicineTab>
+  <CaravanPawnIsUnreachable>{1_labelShort} es inalcanzable para cualquiera de los colonos asignados..</CaravanPawnIsUnreachable>
+  <AutomaticallySelectFoodAndMedicine>Seleccionar comida y medicina automáticamente</AutomaticallySelectFoodAndMedicine>
+  <SocialDrugs>Drogas sociales</SocialDrugs>
+  <NoDrugs>Sin drogas</NoDrugs>
+  <OneDrinkPerDay>Una bebida al día</OneDrinkPerDay>
+  <Unrestricted>Sin restricción</Unrestricted>
 
 </LanguageData>

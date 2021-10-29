@@ -7,9 +7,9 @@
   <!-- EN: Allow -->
   <CommandAllow>Permitir</CommandAllow>
   <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
-  <CommandForbiddenDesc>Prohibido: Los colonos no interactuarán con esto.</CommandForbiddenDesc>
+  <CommandForbiddenDesc>Prohibido - Los colonos no interactuarán con ésto.</CommandForbiddenDesc>
   <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
-  <CommandNotForbiddenDesc>Permitido: Los colonos podrán interactuar con esto.</CommandNotForbiddenDesc>
+  <CommandNotForbiddenDesc>No está prohibido - Los colonos podrán interactuar con ésto.</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <!-- EN: Toggle power -->
@@ -38,13 +38,13 @@
   <!-- EN: Draft -->
   <CommandDraftLabel>Reclutar</CommandDraftLabel>
   <!-- EN: Undraft -->
-  <CommandUndraftLabel>Licenciar</CommandUndraftLabel>
+  <CommandUndraftLabel>Reclutar</CommandUndraftLabel>
   <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
   <CommandToggleDraftDesc>Alterna el reclutamiento militar.\n\nLos colonos reclutados recibirán ordenes directas y lucharán. No trabajarán, comerán ni descansarán.</CommandToggleDraftDesc>
   <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} no puede caminar.</IsIncapped>
   <!-- EN: {0_labelShort} is participating in {1}. -->
-  <ParticipatingInRitual>{0_labelShort} está participando en {1}.</ParticipatingInRitual>
+  <ParticipatingInRitual>TODO</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Fuego a discreción</CommandFireAtWillLabel>
@@ -101,7 +101,7 @@
   <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>¿Estás seguro de que quieres hacer ésto?</AreYouSure>
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <ChangingOwnerTypeBedWarning>El cambio de uso de la cama afecta a toda la habitación (ya que prisioneros, esclavos y colonos no pueden dormir en la misma habitación).\n\nEstas personas perderán la propiedad sobre sus camas:</ChangingOwnerTypeBedWarning>
+  <ChangingOwnerTypeBedWarning>TODO</ChangingOwnerTypeBedWarning>
 
 
   <!-- EN: Detonate -->
@@ -139,12 +139,12 @@
   <!-- EN: Allow sowing -->
   <CommandAllowSow>Permitir siembra</CommandAllowSow>
   <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
-  <CommandAllowSowDesc>Cuando se desactiva, los colonos no volverán a sembrar nuevas plantas en esta área, pero seguirán cosechando.</CommandAllowSowDesc>
+  <CommandAllowSowDesc>Cuando se desactiva, los colonos no volverán a sembrar plantas en ésta área, pero seguirán cosechando.</CommandAllowSowDesc>
 
   <!-- EN: Allow cutting -->
-  <CommandAllowCut>Permitir cortar</CommandAllowCut>
+  <CommandAllowCut>TODO</CommandAllowCut>
   <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
-  <CommandAllowCutDesc>Cuando esté desactivado, los colonos nunca cortarán las plantas en esta zona. Seguirán sembrando nuevas plantas en los espacios que ya están vacíos, y cosecharán.</CommandAllowCutDesc>
+  <CommandAllowCutDesc>TODO</CommandAllowCutDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -219,6 +219,10 @@
   <CommandReinstall>Reinstalar en...</CommandReinstall>
   <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
   <CommandReinstallDesc>Designa este objeto para ser desinstalado y reinstalado en alguna otra parte.</CommandReinstallDesc>
+  <!-- EN: Replant -->
+  <CommandReplant>TODO</CommandReplant>
+  <!-- EN: This tree is currently packaged up for storage and transport. Use this command to replant it in a new location. -->
+  <CommandReplantDesc>TODO</CommandReplantDesc>
   
   <!-- Trade beacon -->
   <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
@@ -240,7 +244,7 @@
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
-  <CommandReleaseAnimalsLabel>Animales atacan</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsLabel>Soltar animales</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
   <CommandReleaseAnimalsDesc>Cuando está activado, los animales con amo serán soltados para atacar blancos distantes. Cuando está desactivado, permanecerán cerca de su amo y lo protegerán.</CommandReleaseAnimalsDesc>
   <!-- EN: No animals available. -->
@@ -548,9 +552,9 @@
 
   <!-- Carry -->
   <!-- EN: Drop {0_nameDef} -->
-  <CommandDropPawn>Soltar a {0_nameDef}</CommandDropPawn>
+  <CommandDropPawn>TODO</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
-  <CommandDropPawnDesc>Suelta a la persona transportada.</CommandDropPawnDesc>
+  <CommandDropPawnDesc>TODO</CommandDropPawnDesc>
   
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
@@ -560,21 +564,21 @@
 
   <!-- Build X -->
   <!-- EN: Build {0} -->
-  <BuildThing>Construir {0}</BuildThing>
+  <BuildThing>TODO</BuildThing>
 
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
-  <CommandLeaveRitual>Abandonar {RITUAL_label}</CommandLeaveRitual>
+  <CommandLeaveRitual>TODO</CommandLeaveRitual>
   <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>Deja de participar en el {RITUAL_labelDef}. El ritual continuará mientras tenga al menos un participante.</CommandLeaveRitualDesc>
+  <CommandLeaveRitualDesc>TODO</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
-  <CommandLeaveLastParticipant>Este es el último participante en el {RITUAL_labelDef}.</CommandLeaveLastParticipant>
+  <CommandLeaveLastParticipant>TODO</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
-  <CommandCancelRitual>Cancelar {RITUAL_label}</CommandCancelRitual>
+  <CommandCancelRitual>TODO</CommandCancelRitual>
   <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>Termina el {RITUAL_labelDef} inmediatamente. La obligación del ritual permanecerá. Puedes reiniciar el ritual más tarde.</CommandCancelRitualDesc>
+  <CommandCancelRitualDesc>TODO</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
-  <CommandCancelRitualConfirm>¿Estás seguro de que quieres cancelar el {RITUAL_labelDef}?</CommandCancelRitualConfirm>
+  <CommandCancelRitualConfirm>TODO</CommandCancelRitualConfirm>
   
 </LanguageData>

@@ -2,13 +2,13 @@
 <LanguageData>
 
   <!-- EN: a -->
-  <IndefiniteArticle>un(a)</IndefiniteArticle>
+  <IndefiniteArticle>{0_gender ? un : una}</IndefiniteArticle>
   <!-- EN: the -->
-  <DefiniteArticle>el/la</DefiniteArticle>
+  <DefiniteArticle>{0_gender ? el : la}</DefiniteArticle>
   <!-- EN: a {0} -->
-  <IndefiniteForm>{0_gender ? un : una : unos/unas} {0}</IndefiniteForm>
+  <IndefiniteForm>{0_gender ? un : una} {0}</IndefiniteForm>
   <!-- EN: the {0} -->
-  <DefiniteForm>{0_gender ? el : la : los/las} {0}</DefiniteForm>
+  <DefiniteForm>{0_gender ? el : la} {0}</DefiniteForm>
 
   <!-- EN: its -->
   <Proits>su</Proits>
@@ -24,30 +24,30 @@
   <ProherCap>Su</ProherCap>
 
   <!-- EN: it -->
-  <ProitObj>este(a)</ProitObj>
+  <ProitObj>a ese</ProitObj>
   <!-- EN: him -->
-  <ProhimObj>lo</ProhimObj>
+  <ProhimObj>el</ProhimObj>
   <!-- EN: her -->
-  <ProherObj>la</ProherObj>
+  <ProherObj>ella</ProherObj>
   <!-- EN: It -->
-  <ProitObjCap>Este(a)</ProitObjCap>
+  <ProitObjCap>Ello</ProitObjCap>
   <!-- EN: Him -->
-  <ProhimObjCap>Lo</ProhimObjCap>
+  <ProhimObjCap>Él</ProhimObjCap>
   <!-- EN: Her -->
-  <ProherObjCap>La</ProherObjCap>
+  <ProherObjCap>Ella</ProherObjCap>
 
   <!-- EN: he -->
   <Prohe>él</Prohe>
   <!-- EN: she -->
   <Proshe>ella</Proshe>
   <!-- EN: it -->
-  <Proit>este(a)</Proit>
+  <Proit>ello</Proit>
   <!-- EN: He -->
   <ProheCap>Él</ProheCap>
   <!-- EN: She -->
   <ProsheCap>Ella</ProsheCap>
   <!-- EN: It -->
-  <ProitCap>Este(a)</ProitCap>
+  <ProitCap>Ello</ProitCap>
 
   <!-- EN: {0} and {1}. -->
   <ClauseSequence2>{0} y {1}.</ClauseSequence2>
