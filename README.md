@@ -6,7 +6,7 @@ Consulta esta página para obtener información sobre la licencia e información
 
 
 ---
-### Para una mejor comunicación entra al Discord de traducción: [Team Facción Latina](https://discord.gg/EjK52KM) (Actualizado el 24/07/2021) 
+### Para una mejor comunicación entra al Discord de traducción: [Team Facción Latina](https://discord.gg/EjK52KM) (Actualizado el 02/10/2021) 
 
 ---
 ### Instalación de las últimas traducciones
