@@ -39,11 +39,11 @@
   <!-- EN: Log -->
   <TabLog>Registro</TabLog>
   <!-- EN: Animals -->
-  <TabPenAnimals>TODO</TabPenAnimals>
+  <TabPenAnimals>Animales</TabPenAnimals>
   <!-- EN: Food -->
-  <TabPenFood>TODO</TabPenFood>
+  <TabPenFood>Comida</TabPenFood>
   <!-- EN: Auto-cut -->
-  <TabPenAutoCut>TODO</TabPenAutoCut>
+  <TabPenAutoCut>Autocortar</TabPenAutoCut>
   <!-- EN: Caravan -->
   <TabFormingCaravan>Caravana</TabFormingCaravan>
   <!-- EN: Contents -->
@@ -85,9 +85,9 @@
   <!-- EN: Resistance -->
   <RecruitmentResistance>Resistencia restante</RecruitmentResistance>
   <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
-  <RecruitmentResistanceDesc>TODO</RecruitmentResistanceDesc>
+  <RecruitmentResistanceDesc>Cuánto duda este prisionero en unirse a tu facción. Cuando llegue a cero, podrá ser reclutado.</RecruitmentResistanceDesc>
   <!-- EN: {0} base resistance -->
-  <RecruitmentResistanceFromPawnKind>TODO</RecruitmentResistanceFromPawnKind>
+  <RecruitmentResistanceFromPawnKind>{0} resistencia base</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
   <PrisonerReleasePotentialRelationGains>Mejora de relaciones al liberar</PrisonerReleasePotentialRelationGains>
   <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
@@ -340,51 +340,51 @@
 
   <!-- Animal pen food tab -->
   <!-- EN: enclose the pen marker to calculate food information -->
-  <PenFoodTab_NotEnclosed>TODO</PenFoodTab_NotEnclosed>
+  <PenFoodTab_NotEnclosed>cierra el corral para calcular la información de la comida</PenFoodTab_NotEnclosed>
 
   <!-- EN: Nutrition stockpiled -->
-  <PenFoodTab_StockpileTotal>TODO</PenFoodTab_StockpileTotal>
+  <PenFoodTab_StockpileTotal>Nutrición almacenada</PenFoodTab_StockpileTotal>
   <!-- EN: The total nutrition of stockpiled food in the pen. -->
-  <PenFoodTab_StockpileTotalDescription>TODO</PenFoodTab_StockpileTotalDescription>
+  <PenFoodTab_StockpileTotalDescription>La nutrición total que el corral almacena.</PenFoodTab_StockpileTotalDescription>
   <!-- EN: Days to stockpile exhaustion -->
-  <PenFoodTab_StockpileEmptyDays>TODO</PenFoodTab_StockpileEmptyDays>
+  <PenFoodTab_StockpileEmptyDays>Días de comida almacenada</PenFoodTab_StockpileEmptyDays>
   <!-- EN: Nutrition consumption exceeds nutrition growth rate in this pen. The animals will eventually eat all the stockpiled food and starve. -->
-  <PenFoodTab_StockpileEmptyDaysDescription>TODO</PenFoodTab_StockpileEmptyDaysDescription>
+  <PenFoodTab_StockpileEmptyDaysDescription>El consumo de comida excede la producción del corral. Los animales eventualmente se quedarán sin comida.</PenFoodTab_StockpileEmptyDaysDescription>
 
   <!-- EN: Animal type -->
-  <PenFoodTab_AnimalType>TODO</PenFoodTab_AnimalType>
+  <PenFoodTab_AnimalType>Tipo de animal</PenFoodTab_AnimalType>
   <!-- EN: Count -->
-  <PenFoodTab_Count>TODO</PenFoodTab_Count>
+  <PenFoodTab_Count>Contar</PenFoodTab_Count>
   <!-- EN: Today -->
   <PenFoodTab_CurrentDay>TODO</PenFoodTab_CurrentDay>
   <!-- EN: nutrition -->
-  <PenFoodTab_Nutrition_Unit>TODO</PenFoodTab_Nutrition_Unit>
+  <PenFoodTab_Nutrition_Unit>nutrición</PenFoodTab_Nutrition_Unit>
   <!-- EN: per day -->
-  <PenFoodTab_NutritionPerDay_Unit>TODO</PenFoodTab_NutritionPerDay_Unit>
+  <PenFoodTab_NutritionPerDay_Unit>diaria</PenFoodTab_NutritionPerDay_Unit>
   <!-- EN: Force display animal... -->
   <PenFoodTab_AddAnimal>TODO</PenFoodTab_AddAnimal>
 
   <!-- EN: Nutrition growth -->
-  <PenFoodTab_NaturalNutritionGrowthRate>TODO</PenFoodTab_NaturalNutritionGrowthRate>
+  <PenFoodTab_NaturalNutritionGrowthRate>Crecimiento nutricional</PenFoodTab_NaturalNutritionGrowthRate>
   <!-- EN: Growth per season -->
-  <PenFoodTab_GrowthPerSeason>TODO</PenFoodTab_GrowthPerSeason>
+  <PenFoodTab_GrowthPerSeason>Crecimiento por estación</PenFoodTab_GrowthPerSeason>
   <!-- EN: Nutrition consumption -->
-  <PenFoodTab_TotalNutritionConsumptionRate>TODO</PenFoodTab_TotalNutritionConsumptionRate>
+  <PenFoodTab_TotalNutritionConsumptionRate>Consumo nutricional</PenFoodTab_TotalNutritionConsumptionRate>
   <!-- EN: The average nutrition provided by edible plants in this pen. -->
-  <PenFoodTab_NaturalNutritionGrowthRateDescription>TODO</PenFoodTab_NaturalNutritionGrowthRateDescription>
+  <PenFoodTab_NaturalNutritionGrowthRateDescription>El crecimiento promedio de nutrición en este corral.</PenFoodTab_NaturalNutritionGrowthRateDescription>
   <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
   <PenFoodTab_NutritionConsumptionDescription>TODO</PenFoodTab_NutritionConsumptionDescription>
   <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
   <PenFoodTab_NaturalNutritionGrowthRateSeasonal>TODO</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
 
   <!-- EN: Total consumption -->
-  <PenFoodTab_NutritionConsumedPerDay_ColumLabel>TODO</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
+  <PenFoodTab_NutritionConsumedPerDay_ColumLabel>Consumo total</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
   <!-- EN: The total nutrition that will be consumed each day by each type of animal in this pen. -->
-  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>TODO</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
+  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>La nutrición total consumida por cada tipo de animal diariamente en el corral.</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
   <!-- EN: Daily consumption per {ANIMALDEF_label} -->
-  <PenFoodTab_NutritionConsumedPerDay>TODO</PenFoodTab_NutritionConsumedPerDay>
+  <PenFoodTab_NutritionConsumedPerDay>Consumo diario por {ANIMALDEF_label}</PenFoodTab_NutritionConsumedPerDay>
   <!-- EN: each {CONSUMEDAMOUNT} -->
-  <PenFoodTab_NutritionConsumedEachAnimalLabel>TODO</PenFoodTab_NutritionConsumedEachAnimalLabel>
+  <PenFoodTab_NutritionConsumedEachAnimalLabel>cada {CONSUMEDAMOUNT}</PenFoodTab_NutritionConsumedEachAnimalLabel>
   <!-- EN: Count that could be supported with no other animals in the pen -->
   <PenFoodTab_AnimalTypeAnimalCapacity>TODO</PenFoodTab_AnimalTypeAnimalCapacity>
 
@@ -397,9 +397,9 @@
   <PenAutoCut_EnabledCheckboxTip>TODO</PenAutoCut_EnabledCheckboxTip>
 
   <!-- EN: Pen is not enclosed -->
-  <AutocutUnenclosedPen>TODO</AutocutUnenclosedPen>
+  <AutocutUnenclosedPen>Corral abierto</AutocutUnenclosedPen>
   <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
-  <AutocutUnenclosedPenTip>TODO</AutocutUnenclosedPenTip>
+  <AutocutUnenclosedPenTip>El corral no está cerrado, así que no se podrá podar automáticamente.</AutocutUnenclosedPenTip>
 
   <!-- UNUSED -->
   <RecruitmentDifficulty>Dificultad de reclutamiento</RecruitmentDifficulty>
