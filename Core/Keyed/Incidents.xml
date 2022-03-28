@@ -32,7 +32,7 @@
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>[PAWN_gender ? Un : Una] {PAWN_titleIndef} [PAWN_gender ? llamado : llamada] {PAWN_nameDef} se está estrellando en las cercanías en una cápsula de escape. Si {PAWN_pronoun} sobrevive al impacto, resultará gravemente herido(a).</RefugeePodCrash>  
+  <RefugeePodCrash>{PAWN_Gender ? Un : Una} {PAWN_titleIndef} {PAWN_Gender ? llamado : llamada} {PAWN_nameDef} se está estrellando en las cercanías en una cápsula de escape. Si {PAWN_pronoun} sobrevive al impacto, resultará gravemente herido(a).</RefugeePodCrash>  
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_nameDef} no está afiliado(a) a ninguna facción. Puedes rescatar{PAWN_objective} y esperar que {PAWN_pronoun} se una libremente, o capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
@@ -43,7 +43,7 @@
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <LetterLabelWandererJoins>Nómada se une: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>[PAWN_genderUn : Una] {PAWN_title} [PAWN_genderllamado : llamada] {PAWN_nameDef} ha llegado y quiere unirse a la colonia.\n\n[PAWN_pronoun] desea contribuir, pero no se irá voluntariamente, ya que no tiene donde ir. Puedes optar por expulsar{PAWN_objective}, aunque molestará a tus colonos por expulsar a alguien que necesita ayuda.</LetterWandererJoins>
+  <LetterWandererJoins>{PAWN_Gender ? Un : Una} {PAWN_title} {PAWN_Gender ? llamado : llamada} {PAWN_nameDef} ha llegado y quiere unirse a la colonia.\n\n[PAWN_pronoun] desea contribuir, pero no se irá voluntariamente, ya que no tiene donde ir. Puedes optar por expulsar{PAWN_objective}, aunque molestará a tus colonos por expulsar a alguien que necesita ayuda.</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
