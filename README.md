@@ -28,6 +28,7 @@ Nota: El archivo generado estará con un formato bastante desagradable con el qu
 	* [Raúl Naharro Fernández (Zakees)](https://github.com/Zakees)
 	* [Miguel Angel Farias (Zerstrick)](https://github.com/Zerstrick)
 	* [Aser Granado Amores (Xeros08)](https://github.com/Xeros08)
+	* [Álvaro Maldonado Peña (picodepelicano)](https://github.com/picodepelicano)
 
 * Colaboradores:
 	* [Juan Melenchón Ramírez (Lord Mellington)](https://github.com/LordMellington)
