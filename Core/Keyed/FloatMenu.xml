@@ -83,7 +83,7 @@
   <!-- EN: above allowed skill {0} -->
   <AboveAllowedSkill>habilidad permitida {0}</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
-  <NoReachableOutsideCell>TODO</NoReachableOutsideCell>
+  <NoReachableOutsideCell>no puede llegar fuera de la celda</NoReachableOutsideCell>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>Falta el nivel de habilidad requerido.</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -109,7 +109,7 @@
   <!-- EN: no enclosed pens -->
   <CantRopeAnimalNoEnclosedPens>no hay corrales cerrados</CantRopeAnimalNoEnclosedPens>
   <!-- EN: no allowed pens -->
-  <CantRopeAnimalNoAllowedPens>no hay corrales permitidos</CantRopeAnimalNoAllowedPens>
+  <CantRopeAnimalNoAllowedPens>no shay corrales permitidos</CantRopeAnimalNoAllowedPens>
   <!-- EN: no reachable pens -->
   <CantRopeAnimalNoReachablePens>no hay corrales al alcance</CantRopeAnimalNoReachablePens>
   <!-- EN: can't touch -->
@@ -117,9 +117,9 @@
   <!-- EN: no space in pen -->
   <CantRopeAnimalNoSpace>no hay espacio en el corral</CantRopeAnimalNoSpace>
   <!-- EN: {0_labelShort} is in {1} state -->
-  <CantRopeAnimalMentalState>{0_labelShort} está en estado de {1}</CantRopeAnimalMentalState>
+  <CantRopeAnimalMentalState>{0_labelShort} esta en estado {1}</CantRopeAnimalMentalState>
   <!-- EN: already in best pen -->
-  <CantRopeAnimalAlreadyInBestPen>ya está en el mejor corral</CantRopeAnimalAlreadyInBestPen>
+  <CantRopeAnimalAlreadyInBestPen>ya se encuentra en el mejor corral</CantRopeAnimalAlreadyInBestPen>
   <!-- EN: {0} skill too low -->
   <SkillTooLowForConstruction>habilidad de {0} demasiado baja</SkillTooLowForConstruction>
   <!-- EN: need components -->
@@ -165,7 +165,7 @@
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>violación de aliado de facción</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
-  <BeingCarriedBy>siendo llevado por {0_labelShort}</BeingCarriedBy>
+  <BeingCarriedBy>TODO</BeingCarriedBy>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Consumir {1_labelShort}</ConsumeThing>
@@ -182,7 +182,7 @@
   <!-- EN: Cannot arrest -->
   <CannotArrest>No se puede arrestar</CannotArrest>
   <!-- EN: {0} chance of arrest -->
-  <ArrestChance>{0} probabilidad de arresto</ArrestChance>
+  <ArrestChance>{0} probabilidades de arrestar</ArrestChance>
 
   <!-- EN: Capture {1_label} -->
   <Capture>Capturar a {1_label}</Capture>
@@ -209,7 +209,7 @@
   <!-- EN: Hosted prisoners not allowed. -->
   <CryptosleepCasketGuestPrisonersNotAllowed>No permitido a huéspedes encarcelados</CryptosleepCasketGuestPrisonersNotAllowed>
   <!-- EN: Already occupied -->
-  <CryptosleepCasketOccupied>Ya está ocupado</CryptosleepCasketOccupied>
+  <CryptosleepCasketOccupied>TODO</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>No hay una cama para prisioneros al alcance, sin reservar y en interiores</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -275,9 +275,9 @@
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
   <PickUpCount>Recoger {1_labelShort} x{{0}}</PickUpCount>
   <!-- EN: Cannot pick up {1_labelShort} -->
-  <CannotPickUpSome>No se puede recoger {1_labelShort}</CannotPickUpSome>
+  <CannotPickUpSome>No puede coger {1_labelShort}</CannotPickUpSome>
   <!-- EN: {0} {1} allowed -->
-  <MaxPickUpAllowed>{0} {1} permitidos</MaxPickUpAllowed>
+  <MaxPickUpAllowed>{0} {1} permitido</MaxPickUpAllowed>
   
   <!-- EN: Cannot load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>No se puede cargar {1_label} en el animal de carga</CannotGiveToPackAnimal>
@@ -332,9 +332,9 @@
   <WouldReplaceLockedApparel>cambiaría las ropas bloqueadas</WouldReplaceLockedApparel>
 
   <!-- EN: Cannot place {0_label} in {1_label} -->
-  <CannotPlaceIn>No se puede colocar {0_label} en {1_label}</CannotPlaceIn>
+  <CannotPlaceIn>No puede colocar {0_label} en {1_label}</CannotPlaceIn>
   <!-- EN: Place {0_label} in {1_label} -->
-  <PlaceIn>Colocar {0_label} en {1_label}</PlaceIn>
+  <PlaceIn>Poner {0_label} en {1_label}</PlaceIn>
 
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Auto-destruirse aquí</SelfDestructHere>
@@ -404,7 +404,7 @@
   <!-- EN: Cannot prioritize: Will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>No se puede priorizar (nunca hará {0})</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
-  <MissingTitleAbility>falta un título necesario</MissingTitleAbility>
+  <MissingTitleAbility>falta casilla necesaria</MissingTitleAbility>
 
   <!-- EN: Cannot prioritize: Will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>No se puede priorizar (nunca hará {0})</CannotPrioritizeWorkGiverDisabled>
@@ -414,9 +414,9 @@
   <!-- EN: Cannot prioritize: Not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>No se puede priorizar (no asignado a {0})</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
-  <NotAssigned>no asignado</NotAssigned>
+  <NotAssigned>No asignado</NotAssigned>
   <!-- EN: not assigned to {0} -->
-  <NotAssignedToWorkType>no asignado a {0}</NotAssignedToWorkType>
+  <NotAssignedToWorkType>no assignado a {0}</NotAssignedToWorkType>
 
   <!-- EN: Cannot prioritize: Research is a long-term task -->
   <CannotPrioritizeResearch>No se puede priorizar (la investigación es una tarea que dura mucho tiempo)</CannotPrioritizeResearch>
@@ -428,7 +428,7 @@
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>No se puede priorizar (Está fuera del área permitida)</CannotPrioritizeForbiddenOutsideAllowedArea>
   <!-- EN: Cannot prioritize burying -->
-  <CannotPrioritizeBurying>No se puede priorizar el entierro</CannotPrioritizeBurying>
+  <CannotPrioritizeBurying>No puede priorizar enterramiento</CannotPrioritizeBurying>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
@@ -478,7 +478,7 @@
   <!-- EN: Give as a gift to {0} ({1}) -->
   <GiveGiftViaTransportPods>Regala a {0} ({1})</GiveGiftViaTransportPods>
   <!-- EN: Not part of launch group -->
-  <NotPartOfLaunchGroup>TODO</NotPartOfLaunchGroup>
+  <NotPartOfLaunchGroup>No es parte del grupo de lanzamiento</NotPartOfLaunchGroup>
 
   <!-- Rescue quest -->
   <!-- EN: Free prisoner -->
@@ -494,28 +494,28 @@
 
   <!-- CommsConsole -->
   <!-- EN: Nobody to call -->
-  <NoCommsTarget>Nadie al alcance</NoCommsTarget>
+  <NoCommsTarget>Nadie a quien llamar</NoCommsTarget>
 
   <!-- EN: Invoke {0} -->
-  <Invoke>Invocar a {0}</Invoke>
+  <Invoke>Invocar {0}</Invoke>
   <!-- EN: Cannot invoke {0} -->
-  <CannotInvoke>No se puede invocar a {0}</CannotInvoke>
+  <CannotInvoke>No se puede invocar {0}</CannotInvoke>
   <!-- EN: power -->
-  <Power>TODO</Power>
+  <Power>poder</Power>
   <!-- EN: already invoked -->
-  <AlreadyInvoked>TODO</AlreadyInvoked>
+  <AlreadyInvoked>ya se ha invocado</AlreadyInvoked>
 
   <!-- EN: Tend {0} -->
-  <Tend>Atender</Tend>
+  <Tend>Atender {0}</Tend>
   <!-- EN: Cannot tend {0} -->
-  <CannotTend>No se puede atender a {0}</CannotTend>
+  <CannotTend>No se puede atender {0}</CannotTend>
   <!-- EN: {0} does not require tending -->
-  <TendingNotRequired>{0} no requiere atención</TendingNotRequired>
+  <TendingNotRequired>{0} no necesita atención</TendingNotRequired>
   <!-- EN: without medicine -->
   <WithoutMedicine>sin medicina</WithoutMedicine>
 
   <!-- EN: Repair {0} -->
-  <RepairThing>Reparar</RepairThing>
+  <RepairThing>Reparar {0}</RepairThing>
   <!-- EN: Cannot repair {0} -->
   <CannotRepair>No se puede reparar {0}</CannotRepair>
   

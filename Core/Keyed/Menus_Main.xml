@@ -153,9 +153,9 @@
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>Ordenar mods (Auto).</ResolveModOrder>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
-  <ModReorderConflict_MustLoadAfter>TODO</ModReorderConflict_MustLoadAfter>
+  <ModReorderConflict_MustLoadAfter>No se puede correr {0}: Se debe cargar después de {1}.</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
-  <ModReorderConflict_MustLoadBefore>TODO</ModReorderConflict_MustLoadBefore>
+  <ModReorderConflict_MustLoadBefore>No se puede correr {0}: Se debe cargar antes de {1}.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Cancelar subscripción</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -435,9 +435,9 @@
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
   <Difficulty_AllowMortars_Info>El jugador puede construir morteros.\n\nTodavía puedes usar morteros robados incluso si esta opción es desactivada.</Difficulty_AllowMortars_Info>
   <!-- EN: Classic mortars -->
-  <Difficulty_ClassicMortars_Label>TODO</Difficulty_ClassicMortars_Label>
+  <Difficulty_ClassicMortars_Label>Morteros clásicos</Difficulty_ClassicMortars_Label>
   <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
-  <Difficulty_ClassicMortars_Info>TODO</Difficulty_ClassicMortars_Info>
+  <Difficulty_ClassicMortars_Info>Los morteros no requerirán barriles reforzados para construir o recargar, y están equilibrados para facilitar el acceso.</Difficulty_ClassicMortars_Info>
   
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>Adaptación</DifficultyAdaptationSection>
@@ -459,11 +459,11 @@
   <Difficulty_FixedWealthTimeFactor_Info>El número de años hasta que el modo alcance su máxima dificultad, sin importar la riqueza.\n\nRecuerda que el cuentacuentos seguirá aumentando de dificultad según el número de colonos y otros factores.</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- EN: Ideology -->
-  <DifficultyIdeologySection>TODO</DifficultyIdeologySection>
+  <DifficultyIdeologySection>Ideology</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
-  <Difficulty_LowPopConversionBoost_Label>TODO</Difficulty_LowPopConversionBoost_Label>
+  <Difficulty_LowPopConversionBoost_Label>Bajo impulso de conversión</Difficulty_LowPopConversionBoost_Label>
   <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
-  <Difficulty_LowPopConversionBoost_Info>TODO</Difficulty_LowPopConversionBoost_Info>
+  <Difficulty_LowPopConversionBoost_Info>Con un solo colono de la ideoligión inicial del jugador, la probabilidad de conversión a su ideoligión se multiplica por esta cantidad. Los intentos de conversión contra ellos tienen su impacto dividido por esa cantidad.\n\nCon dos colonos de la ideología inicial del jugador, el efecto se reduce a la mitad.\n\nCon tres o más colonos de la ideología inicial del jugador, esto no tiene efecto.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
@@ -571,7 +571,7 @@
   <!-- EN: Caused by quest status: {0} -->
   <IncapableOfTooltipQuest>Debido al estado de la misión: {0}</IncapableOfTooltipQuest>
   <!-- EN: Caused by role: {0} -->
-  <IncapableOfTooltipRole>TODO</IncapableOfTooltipRole>
+  <IncapableOfTooltipRole>Causado por rol: {0}</IncapableOfTooltipRole>
   <!-- EN: Traits -->
   <Traits>Rasgos</Traits>
   <!-- EN: Permanent mood effect -->
@@ -591,7 +591,7 @@
   <!-- EN: female -->
   <Female>mujer</Female>
   <!-- EN: male and female -->
-  <MaleAndFemale>TODO</MaleAndFemale>
+  <MaleAndFemale>varón y mujer</MaleAndFemale>
   <!-- EN: male -->
   <MaleAnimal>macho</MaleAnimal>
   <!-- EN: female -->
@@ -609,7 +609,7 @@
   <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>Abandonados</StartingPawnsLeftBehind>
   <!-- EN: This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in -->
-  <GuiltyDesc>TODO</GuiltyDesc>
+  <GuiltyDesc>Este colono es considerado culpable. Puedes desterrarlos, ejecutarlos o arrestarlos libremente, y los demás no se molestarán.\n\nLa culpa expira en </GuiltyDesc>
   
   <!-- Misc -->
   <!-- EN: Start -->
@@ -652,24 +652,24 @@
 
   <!-- Factions -->
   <!-- EN: Factions -->
-  <Factions>TODO</Factions>
+  <Factions>Facciones</Factions>
   <!-- EN: Gameplay problems can occur with more than {0} factions. -->
-  <RecommendedFactionCount>TODO</RecommendedFactionCount>
+  <RecommendedFactionCount>Puede haber problemas en la jugabilidad con más de {0} facciones.</RecommendedFactionCount>
   <!-- EN: Maximum {0} visible factions allowed. -->
-  <TotalFactionsAllowed>TODO</TotalFactionsAllowed>
+  <TotalFactionsAllowed>Permitido un máximo de {0} facciones visibles.</TotalFactionsAllowed>
   <!-- EN: There can be no more than {0} {1}. -->
-  <MaxFactionsForType>TODO</MaxFactionsForType>
+  <MaxFactionsForType>No puede haber más de {0} {1}</MaxFactionsForType>
   <!-- EN: Restore defaults -->
-  <ResetFactionsToDefault>TODO</ResetFactionsToDefault>
+  <ResetFactionsToDefault>Restaurar ajustes predeterminados</ResetFactionsToDefault>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
-  <FactionSelectionDesc>TODO</FactionSelectionDesc>
+  <FactionSelectionDesc>Seleccionar las facciones en el mundo. Puedes seleccionar hasta {0} facciones en total.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
-  <FactionDisabledContentWarning>TODO</FactionDisabledContentWarning>
+  <FactionDisabledContentWarning>Desactivando {0} significa menos variedades en las misiones y otro tipo de contenido reducido.</FactionDisabledContentWarning>
   <!-- EN: Disabling {0} means less spontaneous threat variety. -->
-  <InsectsDisabledContentWarning>TODO</InsectsDisabledContentWarning>
+  <InsectsDisabledContentWarning>Desactivando {0} significa menos variedad en las amenazas espontáneas.</InsectsDisabledContentWarning>
   <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
-  <MechanoidsDisabledContentWarning>TODO</MechanoidsDisabledContentWarning>
+  <MechanoidsDisabledContentWarning>Desactivando {0} significa menos variedad en misiones y amenazas espontáneas.</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
-  <FactionsDisabledWarning>TODO</FactionsDisabledWarning>
+  <FactionsDisabledWarning>Sin otras facciones, los asaltos, la compraventa y las misiones no ocurrirán de manera normal.</FactionsDisabledWarning>
 
 </LanguageData>
