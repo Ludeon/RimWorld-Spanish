@@ -1,103 +1,161 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: Animal calm -->
-  <AnimalCalm.label>calma animal</AnimalCalm.label>
-  <!-- EN: Use unique methods of connecting with animals to calm a maddened beast. -->
-  <AnimalCalm.description>Usar métodos únicos de conexión con animales para calmar a una bestia enloquecida.</AnimalCalm.description>
-  <!-- EN: {INITIATOR_labelShort} successfully calmed {RECIPIENT_labelShort}. -->
-  <AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>{INITIATOR_labelShort} ha calmado con éxito a {RECIPIENT_labelShort}</AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>
+  <!-- EN: anima tree linking -->
+  <AnimaTreeLinking.label>vinculación con árbol del ánima</AnimaTreeLinking.label>
+  <!-- EN: Start the anima tree linking ceremony. The linking person will meditate near the tree to gain a psylink level. Other psychically-sensitive colonists can also  help enhance the psychic link. More participants will accelerate the ceremony and cause some of the anima grass to re-grow as the ritual completes. -->
+  <AnimaTreeLinking.description>Comienza la ceremonia de vinculación con el árbol del ánima. La persona que se vincule meditará cerca del árbol para ganar un nivel de psi-enlace. Otros colonos con sensibilidad psíquica también pueden ayudar a mejorar el vínculo psíquico. Un mayor número de participantes acelerará la ceremonia y hará que parte de la hierba del ánima vuelva a crecer a medida que se completa el ritual.</AnimaTreeLinking.description>
   
-  <!-- EN: berserk trance -->
-  <BerserkTrance.label>trance enfurecido</BerserkTrance.label>
-  <!-- EN: The caster fills himself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours. -->
-  <BerserkTrance.description>El lanzador se llena de ira por agravios ideológicos. Esto fortalece el cuerpo más allá de los límites normales, pero también supone perder el control y atacar a todos los enemigos cercanos con una furia imparable. El estado de locura durará 3 horas.</BerserkTrance.description>
+  <!-- EN: beckon -->
+  <Beckon.label>atraer</Beckon.label>
+  <!-- EN: Psychically command the target to approach the caster. -->
+  <Beckon.description>Psíquicamente ordena al objetivo que se acerque al lanzador del pulso psíquico.</Beckon.description>
   
-  <!-- EN: combat command -->
-  <CombatCommand.label>mandato de combate</CombatCommand.label>
-  <!-- EN: Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration. -->
-  <CombatCommand.description>Crea un aura que potencia las habilidades de combate de todos los que están cerca. El efecto dura 24 horas y permanece unido al líder mientras dure.</CombatCommand.description>
+  <!-- EN: berserk -->
+  <Berserk.label>enloquecer</Berserk.label>
+  <!-- EN: Induce an angry psychosis in the target's mind, causing them to attack anyone nearby. -->
+  <Berserk.description>Induce una psicosis de enojo en la mente del objetivo, lo que hace que ataquen a cualquier persona cercana.</Berserk.description>
   
-  <!-- EN: conversion ritual -->
-  <ConversionRitual.label>ritual de conversión</ConversionRitual.label>
-  <!-- EN: Try to persuade someone to adopt your beliefs. If it goes well, they will lose some certainty in their ideoligion and may convert. If it backfires, they will gain certainty in their old beliefs.\n\nTo start this ritual at a specific place, select a ritual spot or matching altar/ideogram. -->
-  <ConversionRitual.description>Intentar persuadir a alguien para que adopte tus creencias. Si va bien, perderán algo de certeza en su ideoligía y puede que se conviertan.Si el resultado es negativo, ganará certeza en sus antiguas creencias.\n\nPara comenzar este ritual en un lugar específico, selecciona un punto de ritual o un altar/ideograma que coincida.</ConversionRitual.description>
+  <!-- EN: berserk pulse -->
+  <BerserkPulse.label>pulso enloquecedor</BerserkPulse.label>
+  <!-- EN: Generate an overwhelming rush of undirected rage in everyone near the target point. -->
+  <BerserkPulse.description>Genera una avalancha abrumadora de ira a todos los que se encuentren cerca del punto objetivo.</BerserkPulse.description>
   
-  <!-- EN: convert -->
-  <Convert.label>convertir</Convert.label>
-  <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
-  <Convert.description>Intentar convertir a alguien a la ideología del hablante. Esto reducirá la certeza del objetivo en sus propias creencias. La reducción de la certeza depende de la capacidad de negociación del hablante.</Convert.description>
-  <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
-  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} no ha sido capaz de convertir a {RECIPIENT_labelShort}. El intento ha molestado a {RECIPIENT_labelShort}, pero {RECIPIENT_possessive} certeza ha bajado de {CERTAINTYBEFORE} a {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
-  <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
-  <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort} ha convertido a {RECIPIENT_labelShort} al {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
+  <!-- EN: blinding pulse -->
+  <BlindingPulse.label>pulso cegador</BlindingPulse.label>
+  <!-- EN: Induce noise in the visual centers of the brain, obscuring vision of everyone near the target point. -->
+  <BlindingPulse.description>Induce ruido en los centros visuales del cerebro, oscureciendo la visión de todos cerca del punto objetivo.</BlindingPulse.description>
   
-  <!-- EN: Counsel -->
-  <Counsel.label>consejo</Counsel.label>
-  <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
-  <Counsel.description>Ofrecer consejo a una persona para anular el efecto de un recuerdo triste. Las posibilidades de éxito dependen de las habilidades sociales del hablante y de su relación con el objetivo.</Counsel.description>
-  <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} ha arruinado el intento de aconsejar a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} se ha molestado.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
-  <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} ha aconsejado con éxito a {RECIPIENT_labelShort}, cancelando el impacto de {2} a su humor.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
-  <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort} ha aconsejado con éxito a {RECIPIENT_labelShort}, incrementando {RECIPIENT_possessive} humor {MOODBONUS} puntos.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
+  <!-- EN: skipshield -->
+  <BulletShield.label>psicoescudo</BulletShield.label>
+  <!-- EN: Generate a spherical skipgate that sends all incoming and outgoing ground-level projectiles to some distant place. People and items are not affected. -->
+  <BulletShield.description>Genera un campo esférico que envía todos los proyectiles que lo crucen al nivel del suelo a una posición distante. La gente y los objetos no se ven afectados.</BulletShield.description>
   
-  <!-- EN: farming command -->
-  <FarmingCommand.label>mandato de cultivo</FarmingCommand.label>
-  <!-- EN: Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <FarmingCommand.description>Ofrece orientación sobre las técnicas de cultivo, potenciando las habilidades de cultivo de todos los que estén cerca. El efecto permanece unido al lanzador durante 24 horas.</FarmingCommand.description>
+  <!-- EN: burden -->
+  <Burden.label>carga</Burden.label>
+  <!-- EN: Slow the target for a short time by suppressing motor activity in the brain. -->
+  <Burden.description>Disminuye la velocidad del objetivo por un corto período de tiempo suprimiendo la actividad motora en el cerebro.</Burden.description>
   
-  <!-- EN: Immunity drive -->
-  <ImmunityDrive.label>impulso de inmunidad</ImmunityDrive.label>
-  <!-- EN: Offer moral support that energizes the body, boosting someone's immunity gain for one day. -->
-  <ImmunityDrive.description>Ofrezca un apoyo moral que da energía al cuerpo, aumentando la ganancia de inmunidad de alguien por un día.</ImmunityDrive.description>
+  <!-- EN: chaos skip -->
+  <ChaosSkip.label>caoskinesis</ChaosSkip.label>
+  <!-- EN: Teleport the target to a random position near where he started. -->
+  <ChaosSkip.description>Teletransporta al objetivo a una posición aleatoria cerca de donde comenzó.</ChaosSkip.description>
   
-  <!-- EN: leader speech -->
-  <LeaderSpeech.label>discurso de líder</LeaderSpeech.label>
-  <!-- EN: Initiate a leader speech. If it goes well, listeners will gain improved mood, respect for the speaker, and possibly new inspirations. If it goes poorly, social damage will occur. -->
-  <LeaderSpeech.description>Inicie un discurso de líder. Si sale bien, los oyentes mejorarán su estado de ánimo, ganarán respeto por el orador y posiblemente obtendrán nuevas inspiraciones. Si sale mal, se producirá un daño social.</LeaderSpeech.description>
+  <!-- EN: chunk skip -->
+  <Chunkskip.label>psicokinesis</Chunkskip.label>
+  <!-- EN: Skip the 5 chunks of rock or slag to scatter them near the target point. This is useful for producing cover during offensive operations. -->
+  <Chunkskip.description>Teletransporta 5 trozos de piedra o escombros para distribuirlos cerca de la posición objetivo. Esto sirve para crear coberturas durante operaciones ofensivas.</Chunkskip.description>
   
-  <!-- EN: marksman command -->
-  <MarksmanCommand.label>mandato de puntería</MarksmanCommand.label>
-  <!-- EN: Call out shots and boost the shooting skills of everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <MarksmanCommand.description>Ordena disparos y potencia las habilidades de tiro de todos los que estén cerca. El efecto permanece unido al lanzador durante 24 horas.</MarksmanCommand.description>
+  <!-- EN: neural heat dump -->
+  <EntropyDump.label>neurodescarga</EntropyDump.label>
+  <!-- EN: Instantly dump all your neural heat into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted. -->
+  <EntropyDump.description>Vuelca instantáneamente todo tu calentamiento neural en otro. Como efecto secundario, el objetivo caerá en un coma que lo debilitará pero no le causará daño permanente, durante un día. El objetivo debe aceptar activamente la invasión psíquica, de modo que sólo puede lanzarse sobre aliados conscientes.</EntropyDump.description>
   
-  <!-- EN: mining command -->
-  <MiningCommand.label>mandato de minería</MiningCommand.label>
-  <!-- EN: Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <MiningCommand.description>Ofrece orientación sobre técnicas de minería, aumentando la velocidad de minería para todos los que estén cerca. El efecto permanece adherido al lanzador durante 24 horas.</MiningCommand.description>
+  <!-- EN: farskip -->
+  <Farskip.label>transposición aliada</Farskip.label>
+  <!-- EN: Skip the caster, along with anyone standing near him, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map. -->
+  <Farskip.description>Teletransporta al usuario, junto con cualquiera que esté cerca de el, a la posición de un aliado en una ubicación lejana. Esto puede mandar a personas a la otra punta del planeta, pero solo funciona si hay un aliado dispuesto a hacer de baliza de navegación al otro lado. Las personas teleportadas siempre aparecerán cerca de un aliado aleatorio en la ubicación objetivo.</Farskip.description>
   
-  <!-- EN: preach health -->
-  <PreachHealth.label>pregón de salud</PreachHealth.label>
-  <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
-  <PreachHealth.description>Predica fortaleza moral a una persona enferma o herida a través de los conceptos de tu ideología. Esto mejorará su tasa de curación de heridas y la ganancia de inmunidad.</PreachHealth.description>
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>tormenta eléctrica</Flashstorm.label>
+  <!-- EN: Use differential-pressure skipgates in the atmosphere to generate a localized flashstorm. The storm will strike the area with lightning for some time before dissipating. -->
+  <Flashstorm.description>Utiliza los campos de bajas presiones en la atmósfera para generar una tormenta eléctrica localizada. La tormenta azotará la zona con relámpagos durante algún tiempo antes de disiparse.</Flashstorm.description>
   
-  <!-- EN: production command -->
-  <ProductionCommand.label>mandato de producción</ProductionCommand.label>
-  <!-- EN: Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ProductionCommand.description>Ofrece orientación sobre técnicas de construcción, aumentando las habilidades de construcción y artesanía para todos los que estén cerca. El efecto permanece adherido al lanzador durante 24 horas.</ProductionCommand.description>
+  <!-- EN: focus -->
+  <Focus.label>concentración</Focus.label>
+  <!-- EN: Psychically focus the target's mind, boosting their sight, hearing and moving capacities. -->
+  <Focus.description>Enfoca psíquicamente la mente del objetivo, aumentando su capacidad visual, auditiva y de movimiento.</Focus.description>
   
-  <!-- EN: reassure -->
-  <Reassure.label>reasegurar</Reassure.label>
-  <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
-  <Reassure.description>Aumenta la certeza de alguien en sus propias creencias. La certeza recuperada se basa en la capacidad de negociación del hablante.</Reassure.description>
-  <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
-  <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} ha reasegurado a {RECIPIENT_labelShort}, aumentando {RECIPIENT_possessive} certeza en {IDEO} de {BEFORECERTAINTY} a {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
+  <!-- EN: invisibility -->
+  <Invisibility.label>invisibilidad</Invisibility.label>
+  <!-- EN: Psychically manipulate the visual centers of everyone nearby, rendering them unable to perceive a particular individual for a short time. -->
+  <Invisibility.description>Manipula psíquicamente los centros visuales de todos los que están cerca, dejándolos incapaces de percibir a un individuo en particular por un corto período de tiempo.</Invisibility.description>
   
-  <!-- EN: research command -->
-  <ResearchCommand.label>mandato de investigación</ResearchCommand.label>
-  <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ResearchCommand.description>Proporciona sugerencias y apoyo mental, aumentando la velocidad de investigación de todos los que están cerca. El efecto permanece adherido al lanzador durante 24 horas.</ResearchCommand.description>
+  <!-- EN: manhunter pulse -->
+  <ManhunterPulse.label>pulso cazahombres</ManhunterPulse.label>
+  <!-- EN: Drive nearby animals into a manhunting rage using a psychic pulse. -->
+  <ManhunterPulse.description>Conduce a los animales cercanos a una rabia de cazahombres usando un pulso psíquico.</ManhunterPulse.description>
   
-  <!-- EN: trial -->
-  <Trial.label>juicio</Trial.label>
-  <!-- EN: Charge someone with a terrible wrongdoing and initiate a trial where they will be either convicted or exonerated. If the target is convicted, they can be freely imprisoned, executed or banished without penalty. The chance of conviction depends on the social abilities of the accuser and accused. -->
-  <Trial.description>Acusa a alguien de un delito terrible e inicia un juicio en el que será condenado o exonerado. Si el objetivo es condenado, puede ser encarcelado, ejecutado o desterrado libremente sin pena. La posibilidad de condena depende de las habilidades sociales del acusador y del acusado.</Trial.description>
+  <!-- EN: mass chaos skip -->
+  <MassChaosSkip.label>caoskinesis múltiple</MassChaosSkip.label>
+  <!-- EN: Skip everyone near a target point to a random location nearby. -->
+  <MassChaosSkip.description>Teletrasporta a todos cerca de un punto objetivo a una ubicación aleatoria cercana.</MassChaosSkip.description>
   
-  <!-- EN: work drive -->
-  <WorkDrive.label>impulso de trabajo</WorkDrive.label>
-  <!-- EN: Call on a person to work harder for some time. -->
-  <WorkDrive.description>Pide a una persona que trabaje más duro durante algún tiempo.</WorkDrive.description>
+  <!-- EN: neuroquake -->
+  <Neuroquake.label>neurosismo</Neuroquake.label>
+  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature in range but outside of the safe, inner, circle will be driven violently insane. Casting this takes 12 seconds of meditation, and afterwards, the caster will go into a five-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
+  <Neuroquake.description>Encuentra una discontinuidad en el campo psíquico y la "desdobla", liberando cantidades masivas de energía psíquica. Toda criatura en el mapa fuera del area segura alrededor del conjurador será violentamente enloquecida. Lanzar esta habilidad toma 12 segundos de meditación continua, y después el conjurador caerá en un coma psíquico durante 5 días. Los ecos perturbadores provocados por la resonancia del neurosismo inflingirá dolor mental en cualquiera, a muchos kilómetros a la redonda, provocando consecuencias diplomáticas con todas las facciones.</Neuroquake.description>
+  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes 12 seconds to cast, and cannot be interrupted. When complete, the caster will fall into a psychic coma for 5 days.\n\nEveryone in range except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
+  <Neuroquake.confirmationDialogText>Si provocas un neurosismo, cualquiera en la región sentirá el eco del neurosismo, la buena voluntad con cualquier facción no hostil empeorarán.\n\nEl neurosismo tarda 12 segundos en liberarse, y no puede ser interrumpido. El conjurador también caerá en un coma psíquico por 5 días.\n\nTodos en el mapa, a excepción de aquellos en una pequeña area alrededor del conjurador, serán afectados.\n\n¿Realmente quieres provocar un neurosismo?</Neuroquake.confirmationDialogText>
+  
+  <!-- EN: painblock -->
+  <Painblock.label>indoloro</Painblock.label>
+  <!-- EN: Block pain pathways in the target's brain for a short time. This can allow a person to move and act even with grievous injuries which would normally incapacitate them. -->
+  <Painblock.description>Bloquea las vías de dolor en el cerebro del objetivo por un corto tiempo. Esto puede permitir que una persona se mueva y actúe incluso con lesiones graves que normalmente lo incapacitarían.</Painblock.description>
+  
+  <!-- EN: skip -->
+  <Skip.label>teletransportación</Skip.label>
+  <!-- EN: Teleport the target to a desired position not too far from his starting point. -->
+  <Skip.description>Teletransporta al objetivo a una posición deseada no muy lejos de su punto de partida.</Skip.description>
+  
+  <!-- EN: smokepop -->
+  <Smokepop.label>nube de humo</Smokepop.label>
+  <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely. -->
+  <Smokepop.description>Levanta partículas de polvo desde debajo de la superficie del suelo para formar una nube espesa. Esto reduce la precisión de cualquier disparo que la atravise y evita que las torretas apunten con claridad.</Smokepop.description>
+  
+  <!-- EN: solar pinhole -->
+  <SolarPinhole.label>ojo solar</SolarPinhole.label>
+  <!-- EN: Generate a microscopic skipgate linked to the core of a nearby star. Solar material leaks through the pinprick in spacetime, illuminating and warming the surrounding area until it closes. The light is enough to work by, but not enough to grow plants. -->
+  <SolarPinhole.description>Genera un micro-portal vinculado al núcleo de una estrella cercana. Materia solar escapa a través de este pequeño agujero espacio-temporal, iluminando y calentando al area circundante hasta que el 'ojo' se cierre. Esta luz es suficiente para trabajar, pero no lo suficiente para cultivar plantas.</SolarPinhole.description>
+  
+  <!-- EN: throne speech -->
+  <Speech.label>discurso del trono</Speech.label>
+  <!-- EN: Initiate a speech from the throne. All colonists will come and listen. If it goes well, listeners will feel inspired, and gain respect for the speaker. If it goes poorly, the speech will do social damage. The outcome depends on the speaker's social abilities. -->
+  <Speech.description>Iniciar un discurso desde el trono. Todos los colonos vendrán a escucharlo. Si todo va bien, los oyentes se sentirán inspirados, y ganarán respeto por el ponente. De salir mal, el discurso infligirá un daño social. El resultado depende de la habilidad social del ponente.</Speech.description>
+  
+  <!-- EN: stun -->
+  <Stun.label>aturdir</Stun.label>
+  <!-- EN: Momentarily disrupt motor function in the target's brain, preventing any movement. -->
+  <Stun.description>Interrumpe momentáneamente la función motora en el cerebro del objetivo, evitando cualquier movimiento.</Stun.description>
+  
+  <!-- EN: vertigo pulse -->
+  <VertigoPulse.label>pulso de vértigo</VertigoPulse.label>
+  <!-- EN: Interfere with the spatial orientation sense of everyone near the target point, causing intermittent loss of balance. Flesh creatures will become extremely nauseous as well. -->
+  <VertigoPulse.description>Interfiere con el sentido de orientación espacial de todos cerca del punto objetivo, causando pérdida intermitente del equilibrio. Las criaturas de carne también se volverán extremadamente nauseabundas.</VertigoPulse.description>
+  
+  <!-- EN: wallraise -->
+  <Wallraise.label>psicomuro</Wallraise.label>
+  <!-- EN: Form a temporary wall by skipping rubble and soil up from deep under the ground. -->
+  <Wallraise.description>Forma una pared temporal alzando los escombros y levantando la tierra desde las profundidades del suelo.</Wallraise.description>
+  
+  <!-- EN: waterskip -->
+  <Waterskip.label>acuákinesis</Waterskip.label>
+  <!-- EN: Douse a target area in water, extinguishing fires. The water is archotechnologically skipped from distant bodies of water or underground aquifers. -->
+  <Waterskip.description>Rocía el área objetivo con agua, extinguiendo el fuego. El agua es separada a nivel arqueotecnológico de otros cuerpos distantes de agua o acuíferos subterráneos.</Waterskip.description>
+  
+  <!-- EN: word of inspiration -->
+  <WordOfInspiration.label>palabras de inspiración</WordOfInspiration.label>
+  <!-- EN: Speak words encouraging creativity while psychically hypercharging the target's mind with new ideas. The target will experience a random inspiration appropriate to them. -->
+  <WordOfInspiration.description>Fomentas las creatividad verbalmente mientras que sobrecargas psíquicamente la mente del objetivo con nuevas ideas. El objetivo experientará una inspiración aleatoria apropiada.</WordOfInspiration.description>
+  
+  <!-- EN: word of joy -->
+  <WordOfJoy.label>palabras de alegría</WordOfJoy.label>
+  <!-- EN: Speak happy, calming words to someone while using psychic suggestion to implant a joyfuzz loop in his mind. The joyfuzz will suppress uncomfortable thoughts and sensations in the target to improve mood. This has the side-effect of dulling sensation and decision-making, which reduces consciousness. -->
+  <WordOfJoy.description>Alentas a alguien con palabras tranquilizadoras y un tono feliz, mientras que usas la sugestión psíquica para implantar un bucle de felicidad en su mente. Este bucle suprimirá pensamientos negativos y sensaciones en el objetivo y mejorará su estado de animo. Esto tiene el efecto secundario de reducir los sentidos y la toma de decisiones, lo que reduce la consciencia.</WordOfJoy.description>
+  
+  <!-- EN: word of love -->
+  <WordOfLove.label>palabras de amor</WordOfLove.label>
+  <!-- EN: Speak about someone's romantic virtues while using psychic suggestion to implant romantic desire in the listener. For days afterward, the listener will feel psychically-induced romantic attraction towards the other person. This greatly increases opinion and makes them much more likely to attempt romantic advances and marriage proposals if they get the chance. This power can be used to connect two other people, induce love for the caster, or force oneself to love another. -->
+  <WordOfLove.description>Hablas de las virtudes de alguien mientras que usas la sugestión psíquica para inducir atracción romántica en el receptor. Por los siguientes días, el receptor sentirá atracción romántica inducida psíquicamente hacia la otra persona. Esto aumenta considerablemente la opinión sobre el otro y hace que sea más probable que intenten avanzar en su relación o proponer matrimonio si se diera la oportunidad. Este poder puede ser usado para conectar a otras dos personas, inducir amor hacia el usuario, o forzarse a uno mismo a amar a otro.</WordOfLove.description>
+  
+  <!-- EN: word of serenity -->
+  <WordOfSerenity.label>palabras de serenidad</WordOfSerenity.label>
+  <!-- EN: Use calming words and psychic suggestion to end a mental break on a person or animal. The target will fall into a short psychic sleep. The psyfocus cost depends on the intensity of the target's mental break. -->
+  <WordOfSerenity.description>Hace uso de palabras relajantes y la sugestión psíquica para acabar con el colapso mental de una persona o animal. El objetivo caerá en un corto sueño psíquico. El coste de este poder mental depende de la severidad del colapso mental del objetivo.</WordOfSerenity.description>
+  
+  <!-- EN: word of trust -->
+  <WordOfTrust.label>palabras de confianza</WordOfTrust.label>
+  <!-- EN: Speak to the prisoner while using psychic suggestion to reduce his resistance to recruitment. This can only reduce a prisoner's resistance, but cannot recruit him. -->
+  <WordOfTrust.description>Hablas con el prisionero mientras que usas la sugestión psíquica para reducir la resistencia al recrutamiento. Esto solo puede reducir la resistencia del prisionero, pero no puede reclutarlo.</WordOfTrust.description>
   
 </LanguageData>
