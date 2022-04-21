@@ -52,7 +52,15 @@
     <li>problems->[RECIPIENT_possessive] painful feelings</li>
     <li>problems->recent difficulties</li>
   -->
-  <Counsel_Success.logRulesInitiator.rulesStrings>TODO</Counsel_Success.logRulesInitiator.rulesStrings>
+  <Counsel_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] aconsejó a [RECIPIENT_nameDef] acerca de [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ayudó a [RECIPIENT_nameDef] para encontrar una solución a [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] dió a [RECIPIENT_nameDef] un consejo para superar la negatividad.</li>
+    <li>problems->[RECIPIENT_possessive] problemas</li>
+    <li>problems->[RECIPIENT_possessive] aflicciones</li>
+    <li>problems->[RECIPIENT_possessive] sentimientos dolorosos</li>
+    <li>problems->dificultades recientes</li>
+  </Counsel_Success.logRulesInitiator.rulesStrings>
   
   <!-- EN: preached health -->
   <PreachHealth.label>salud pregonada</PreachHealth.label>
@@ -62,14 +70,21 @@
     <li>preaching_topic->higher ideoligious goals</li>
     <li>preaching_topic->[RECIPIENT_possessive] purpose of existence</li>
   -->
-  <PreachHealth.logRulesInitiator.rulesStrings>TODO</PreachHealth.logRulesInitiator.rulesStrings>
+  <PreachHealth.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] dió fuerza a la salud de [RECIPIENT_nameDef] a través de un sermón sobre [preaching_topic].</li>
+    <li>preaching_topic->las razones para vivir</li>
+    <li>preaching_topic->los grandes objetivos de nuestra ideoligión</li>
+    <li>preaching_topic->[RECIPIENT_possessive] proposito dentro de la existencia</li>
+  </PreachHealth.logRulesInitiator.rulesStrings>
   
   <!-- EN: reassurance -->
   <Reassure.label>tranquilización</Reassure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>
   -->
-  <Reassure.logRulesInitiator.rulesStrings>TODO</Reassure.logRulesInitiator.rulesStrings>
+  <Reassure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] reforzó las creencias de [RECIPIENT_nameDef].</li>
+  </Reassure.logRulesInitiator.rulesStrings>
   
   <!-- EN: accuse -->
   <Trial_Accuse.label>acusar</Trial_Accuse.label>
@@ -91,7 +106,24 @@
     <li>wrongdoing->hateful thinking</li>
     <li>wrongdoing->disloyalty</li>
   -->
-  <Trial_Accuse.logRulesInitiator.rulesStrings>TODO</Trial_Accuse.logRulesInitiator.rulesStrings>
+  <Trial_Accuse.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] presentó algunas pruebas.</li>
+    <li>r_logentry->[INITIATOR_nameDef] apeló hacia las emociones de los espectadores.</li>
+    <li>r_logentry->[INITIATOR_nameDef] acusó a [RECIPIENT_nameDef] de [wrongdoing].</li>
+    <li>wrongdoing->sabotear la colonia</li>
+    <li>wrongdoing->ser vago</li>
+    <li>wrongdoing->comer demasiado</li>
+    <li>wrongdoing->robar</li>
+    <li>wrongdoing->ser una persona horrible</li>
+    <li>wrongdoing->no respetar nuestras ideas sagradas</li>
+    <li>wrongdoing->ser irrespetuoso con figuras de alta estima</li>
+    <li>wrongdoing->herejía</li>
+    <li>wrongdoing->asesinato</li>
+    <li>wrongdoing->blasfemia</li>
+    <li>wrongdoing->traición</li>
+    <li>wrongdoing->incitación al odio</li>
+    <li>wrongdoing->deslealtad</li>
+  </Trial_Accuse.logRulesInitiator.rulesStrings>
   
   <!-- EN: defend -->
   <Trial_Defend.label>defenderse</Trial_Defend.label>
@@ -104,13 +136,23 @@
     <li>r_logentry->[INITIATOR_nameDef] dismissed the allegations.</li>
     <li>r_logentry->[INITIATOR_nameDef] called the trial a sham.</li>
   -->
-  <Trial_Defend.logRulesInitiator.rulesStrings>TODO</Trial_Defend.logRulesInitiator.rulesStrings>
+  <Trial_Defend.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] desvió la acusación.</li>
+    <li>r_logentry->[INITIATOR_nameDef] presentó una interpretación distinta.</li>
+    <li>r_logentry->[INITIATOR_nameDef] alegó ante el jurado.</li>
+    <li>r_logentry->[INITIATOR_nameDef] pidió misericordia.</li>
+    <li>r_logentry->[INITIATOR_nameDef] pudo paralizar los procedimientos.</li>
+    <li>r_logentry->[INITIATOR_nameDef] rechazó las alegaciones.</li>
+    <li>r_logentry->[INITIATOR_nameDef] llamó al juicio una farsa.</li>
+  </Trial_Defend.logRulesInitiator.rulesStrings>
   
   <!-- EN: work drive -->
   <WorkDrive.label>impulso de trabajo</WorkDrive.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
   -->
-  <WorkDrive.logRulesInitiator.rulesStrings>TODO</WorkDrive.logRulesInitiator.rulesStrings>
+  <WorkDrive.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] llamó la atención de [RECIPIENT_nameDef] para que trabaje con un esfuerzo extra en pos del bien de la colonia.</li>
+  </WorkDrive.logRulesInitiator.rulesStrings>
   
 </LanguageData>

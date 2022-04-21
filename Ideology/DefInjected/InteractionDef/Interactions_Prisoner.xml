@@ -9,7 +9,12 @@
     <li>r_logentry->[INITIATOR_nameDef] ordered [RECIPIENT_nameDef] to prepare for a life of forced labour.</li>
     <li>r_logentry->[INITIATOR_nameDef] explained to [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work or face punishment.</li>
   -->
-  <EnslaveAttempt.logRulesInitiator.rulesStrings>TODO</EnslaveAttempt.logRulesInitiator.rulesStrings>
+  <EnslaveAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] le contó a [RECIPIENT_nameDef] que [RECIPIENT_pronoun] debía trabajar para la colonia.</li>
+    <li>r_logentry->[INITIATOR_nameDef] informó a [RECIPIENT_nameDef] que [RECIPIENT_pronoun] debía obedecer ordenes y trabajar.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ordenó a [RECIPIENT_nameDef] que se preparase para una vida de trabajos forzados.</li>
+    <li>r_logentry->[INITIATOR_nameDef] explicó a [RECIPIENT_nameDef] que [RECIPIENT_pronoun] debía trabajar o se enfrentaría a un castigo.</li>
+  </EnslaveAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: try to reduce will -->
   <ReduceWill.label>intentar reducir voluntad</ReduceWill.label>
@@ -56,6 +61,48 @@
     <li>givein->surrender [RECIPIENT_objective]self</li>
     <li>givein->yield [RECIPIENT_objective]self</li>
   -->
-  <ReduceWill.logRulesInitiator.rulesStrings>TODO</ReduceWill.logRulesInitiator.rulesStrings>
+  <ReduceWill.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] le dijo a [RECIPIENT_nameDef] [RECIPIENT_pronoun] que [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] explicó que [negative] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] amenazó a [RECIPIENT_nameDef] con [threat] si [RECIPIENT_pronoun] [refused].</li>
+    <li>r_logentry->[INITIATOR_nameDef] informó a [RECIPIENT_nameDef] que [RECIPIENT_pronoun] [disillusionment].</li>
+    <li>r_logentry->[INITIATOR_nameDef] exigió a [RECIPIENT_nameDef] a [givein] a la colonia.</li>
+    <li>negative->no tenía futuro</li>
+    <li>negative->no tenía forma de escapar</li>
+    <li>negative->no tenía futuro fuera de la colonia</li>
+    <li>negative->no tenía medios para escapar</li>
+    <li>negative->debía someterse inmediatamente</li>
+    <li>negative->debería olvidarse de [RECIPIENT_possessive] aspiraciones</li>
+    <li>negative->deberia someterse a la colonia</li>
+    <li>threat->tortura</li>
+    <li>threat->un castigo</li>
+    <li>threat->una mutilación</li>
+    <li>threat->morir de hambre</li>
+    <li>threat->una vida entre rejas</li>
+    <li>threat->la muerte</li>
+    <li>threat->el aislamiento</li>
+    <li>threat->el desmembramiento</li>
+    <li>threat->un golpe seco</li>
+    <li>threat->laceraciones</li>
+    <li>threat->canibalismo</li>
+    <li>threat->cosechar sus organos</li>
+    <li>threat->un largo confinamiento</li>
+    <li>refused->intenta escapar</li>
+    <li>refused->insulta a la colonia</li>
+    <li>refused->no trabaja</li>
+    <li>refused->rechaza una orden</li>
+    <li>refused->se resiste</li>
+    <li>refused->se niega a obedecer</li>
+    <li>refused->se comporta de manera inapropiada</li>
+    <li>disillusionment->debería aceptar [RECIPIENT_possessive] situación</li>
+    <li>disillusionment->no tiene ningún otro futuro</li>
+    <li>disillusionment->sería mejor someterse</li>
+    <li>disillusionment->no podría sobrevivir por [RECIPIENT_possessive] cuenta</li>
+    <li>disillusionment->no tiene más opción que someterse</li>
+    <li>givein->rendirse</li>
+    <li>givein->someter [RECIPIENT_objective]propio</li>
+    <li>givein->rendir [RECIPIENT_objective]propio</li>
+    <li>givein->producir [RECIPIENT_objective]propio</li>
+  </ReduceWill.logRulesInitiator.rulesStrings>
   
 </LanguageData>
