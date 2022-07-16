@@ -1,21 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-
-
-	 <!--
-	 |================================================================|
-	 | Inserción dinámica de texto:             (Keyed/Grammar.xml)   |
-	 | [PAWN_nameDef]            ==>          Nombre del personaje    |
-	 | [PAWN_pronoun]            ==>           El/Ella  |  el/ella    |
-	 | [PAWN_possessive]         ==>                Su  |  su         |
-	 | [PAWN_objective]          ==>             Lo/La  |  lo/la      |
-	 | [PAWN_Gender ? 1 : 2]     ==>       1: Masculino - 2: Femenino |
-	 |================================================================|
-		
-		Nota: Se deben crear etiquetas de ambos sexos en los títulos en la mayoría de los casos porque cuando se usan los artículos definidos e indefinidos en códigos, si el juego no detecta el título femenino siempre asumirá el masculino dejando frases como esta: María es "un" terapeuta en vez de María es "una" terapeuta, habrá casos donde no se mostrará así a menos que se creen condiciones especiales, esto porque cuando se usa el "Indef" en varias misiones se define con el sexo del peón y no con el título, por lo que el caso particular de "una político" estará presente hasta que no cree un condicional especial para ese y otros títulos.  
-		
-		Nota: Cuando reviseis los Trasfondos, poned un marcador para indicar donde lo habeís dejado. No borreís los viejos 
-	 -->
-
 <BackstoryTranslations>
   
   <AbandonedChild23>
@@ -1579,6 +1562,15 @@
     <!-- EN: [PAWN_nameDef] worked as a low-ranking administrator for a moribund government bureaucracy. [PAWN_pronoun] is most at home filling out complicated paperwork and playing office politics. -->
     <desc>[PAWN_nameDef] trabajó como un administrad{PAWN_gender ? or : ora} de bajo rango en un gobierno burocrático y moribundo. [PAWN_pronoun] se siente como en casa llenando papeleo complicado y jugando a la política de oficina.</desc>
   </CivilServant2>
+  
+  <CivilServant25>
+    <!-- EN: Civil servant -->
+    <title>Siervo civil</title>
+    <!-- EN: Bureaucrat -->
+    <titleShort>Burócrata</titleShort>
+    <!-- EN: [PAWN_nameDef] was bureaucrat in the civil service.\n\nAlthough his family connections took him far, his vocal opposition to his bosses' plans hindered his advancement. Called a "red prince" by some, [PAWN_nameDef] sympathized with the poor, leading ultimately to disgrace in [PAWN_possessive] career. -->
+    <desc>TODO</desc>
+  </CivilServant25>
   
   <ClanChief14>
     <!-- EN: clan chief -->
@@ -3145,16 +3137,16 @@
     <desc>[PAWN_nameDef] se rebeló contra la corporación para la que trabajaba. [PAWN_pronoun] fracasó, y [PAWN_objective] obligaron a huir.\n\n[PAWN_pronoun] siempre estaba en movimiento, siempre dejándolo todo atrás. Intentó ganar partidarios para su causa, pero fracasó debido a sus pobres habilidades sociales.</desc>
   </Fugitive4>
   
-  <FurnitureBuilder50>
+  <FurnitureBuilder83>
     <!-- EN: furniture builder -->
     <title>fabricante de muebles</title>
     <titleFemale>fabricante de muebles</titleFemale>
     <!-- EN: builder -->
     <titleShort>fabricante</titleShort>
     <titleShortFemale>fabricante</titleShortFemale>
-    <!-- EN: [PAWN_nameDef] grew up near forests. [PAWN_pronoun] spent his time building beautiful furniture for wealthy glitterworld clients. -->
+    <!-- EN: [PAWN_nameDef] grew up near forests. [PAWN_pronoun] spent [PAWN_possessive] time building beautiful furniture for wealthy glitterworld clients. -->
     <desc>[PAWN_nameDef] creció cerca de los bosques. Pasó su vida construyendo hermosos muebles para los clientes ricos de mundos brillantes.</desc>
-  </FurnitureBuilder50>
+  </FurnitureBuilder83>
   
   <GalacticPage37>
     <!-- EN: galactic page -->
@@ -4239,7 +4231,6 @@
     <titleShortFemale>granjera</titleShortFemale>
     <!-- EN: [PAWN_nameDef] ran a livestock farm. [PAWN_pronoun] analyzed animal genetics, feed types, birth and slaughter methods, and price trends to optimize the raising of huge animal herds. -->
     <desc>[PAWN_nameDef] dirigió una granja de ganado. [PAWN_pronoun] analizó la genética animal, los tipos de alimentación, los métodos de nacimiento y sacrificio, y las tendencias de precios para optimizar la cría de grandes rebaños de animales.</desc>
-    <desc>[PAWN_nameDef] dirigía una explotación ganadera. Analizaba la genética de los animales, los tipos de alimentación, los métodos de nacimiento y sacrificio y las tendencias de los precios para optimizar la cría de enormes rebaños de animales.</desc>
   </LivestockFarmer8>
   
   <Logger16>
@@ -5160,6 +5151,17 @@
     <desc>[PAWN_nameDef] modelaba ropa y joyería para anunciantes, y también fue usad{PAWN_gender ? o : a} como modelo físico para personajes en simulaciones de realidad virtual.</desc>
   </Model99>
   
+  <MonkeyChild67>
+    <!-- EN: Monkey child -->
+    <title>Niño mono</title>
+    <titleFemale>Niña mono</titleFemale>
+    <!-- EN: Monkey kid -->
+    <titleShort>Niño mono</titleShort>
+    <titleShortFemale>Niña mono</titleShortFemale>
+    <!-- EN: When he was a baby, [PAWN_nameDef]'s parents traded their son to a troop of monkeys. Little is known of his life among the primates. -->
+    <desc>Cuando era un bebé, los padres de [PAWN_nameDef] intercambiaron a su hijo a un grupo de monos. No se sabe mucho de su vida con los primates.</desc>
+  </MonkeyChild67>
+  
   <MuffaloResearcher67>
     <!-- EN: muffalo researcher -->
     <title>investigador de múfalo</title>
@@ -5179,6 +5181,16 @@
     <!-- EN: Because of [PAWN_possessive] quiet wisdom and great strength, [PAWN_nameDef] became the spiritual guide for [PAWN_possessive] tribe. [PAWN_pronoun] had a special connection with the great spirit of the muffalo. -->
     <desc>Debido a su sabiduría y fuerza, [PAWN_nameDef] se volvió líder espiritual de una tribu nómada que seguía las grandes manadas de múfalos salvajes.</desc>
   </MuffaloShaman95>
+  
+  <MusicalKid14>
+    <!-- EN: Musical kid -->
+    <title>Niño músico</title>
+    <titleFemale>Niña músico</titleFemale>
+    <!-- EN: Music kid -->
+    <titleShort>músico</titleShort>
+    <!-- EN: [PAWN_nameDef] was born with an almost magic voice. He learned to sing as a baby. His voice also had a special timbre to it which calmed down everyone who listened to it. -->
+    <desc>[PAWN_nameDef] nació con una voz casi mágica. Aprendió a cantar siendo un bebé. Tiene un timbre especial con el que calma a todos los que lo escuchen.</desc>
+  </MusicalKid14>
   
   <MusicalKid86>
     <!-- EN: musical kid -->
@@ -5367,6 +5379,15 @@
     <!-- EN: [PAWN_nameDef] was born an raised in an offworld soldier growth facility. From a very young age, [PAWN_pronoun] was taught close-quarters combat tactics, aggression, and how to survive on distant planets.\n\nOne of the best, [PAWN_nameDef] was eventually chose to enter the orbital-deployment shock troop corps. -->
     <desc>[PAWN_nameDef] nació y creció en una instalación de cultivo de soldados en el extranjero. Desde muy pequeñ{PAWN_gender ? o : a}, le enseñaron tácticas de combate cuerpo a cuerpo, agresión y cómo sobrevivir en planetas distantes.\n\nSiendo un{PAWN_gender ? o : a} de {PAWN_gender ? los : las} mejores, [PAWN_nameDef] finalmente eligió ingresar al cuerpo de tropas de choque de despliegue orbital.</desc>
   </OffworldRecruit91>
+  
+  <OldMoneyHeir46>
+    <!-- EN: Old money heir -->
+    <title>TODO</title>
+    <!-- EN: Heir -->
+    <titleShort>TODO</titleShort>
+    <!-- EN: [PAWN_nameDef] grew up a sheltered and spoiled child in one of the many manors of his old-money industrialist family.\n\nWhile attending an elite private school, [PAWN_nameDef] received an extensive education in the arts and sciences, but never saw the horrors of the real world. -->
+    <desc>TODO</desc>
+  </OldMoneyHeir46>
   
   <OptimisticChild30>
     <!-- EN: optimistic child -->
@@ -6364,6 +6385,15 @@
     <desc>[PAWN_nameDef] vino de una línea de sangre rica e influyente. Su educación costosa incluía lecciones sobre duelos, liderazgo y estrategia militar.</desc>
   </RichKid61>
   
+  <RimworldExile32>
+    <!-- EN: Rimworld exile -->
+    <title>TODO</title>
+    <!-- EN: Exile -->
+    <titleShort>TODO</titleShort>
+    <!-- EN: After [PAWN_possessive] planet was technologically uplifted by a benevolent glitterworld charity, [PAWN_nameDef] saw an opportunity to make some money by defrauding the wealthy glitterworld visitors.\n\nAfter [PAWN_pronoun] was caught, [PAWN_pronoun] was exiled to the rim, where [PAWN_pronoun] targeted rich trading companies to continue [PAWN_possessive] life of crime. -->
+    <desc>TODO</desc>
+  </RimworldExile32>
+  
   <RitualChild20>
     <!-- EN: ritual child -->
     <title>niño de ritual</title>
@@ -6418,16 +6448,16 @@
     <desc>Como ingenier{PAWN_gender ? o : a} autodidacta, [PAWN_nameDef] escapó de su moribundo mundo en un cohete que [PAWN_pronoun] construyó por sí mism{PAWN_gender ? o : a}.\n\n[PAWN_pronoun] pasó varios años de su vida en diferentes mundos, ayudando a planetas menos desarrollados a desarrollar tecnología de cohetes.</desc>
   </RocketPioneer19>
   
-  <RoyalBastard3>
+  <RoyalBastard64>
     <!-- EN: royal bastard -->
     <title>bastardo real</title>
     <titleFemale>bastarda real</titleFemale>
     <!-- EN: bastard -->
     <titleShort>bastardo</titleShort>
     <titleShortFemale>bastarda</titleShortFemale>
-    <!-- EN: [PAWN_nameDef] the child of a lord and a prostitute.\n\n[PAWN_possessive] father's line was secure and his holdings strong. Nobody ever came to [PAWN_nameDef] to endorse a bid for the title. [PAWN_pronoun] earned [PAWN_possessive] bread cleaning the brothel, but always felt [PAWN_pronoun] deserved much more. -->
+    <!-- EN: [PAWN_nameDef] was the child of a lord and a prostitute.\n\n[PAWN_possessive] father's line was secure and his holdings strong. Nobody ever came to [PAWN_nameDef] to endorse a bid for the title. [PAWN_pronoun] earned [PAWN_possessive] bread cleaning the brothel, but always felt [PAWN_pronoun] deserved much more. -->
     <desc>[PAWN_nameDef], {PAWN_gender ? el hijo : la hija} de un Lord y {PAWN_gender ? un prostituto : una prostituta}.\n\nAunque su línea sucesora paterna era segura y tenia derecho a reclamar su posición. Nadie vino a respaldarle para reconocerle su lugar. [PAWN_pronoun] se ganó el pan limpiando un burdel, pero siempre sintió que merecía mucho más.</desc>
-  </RoyalBastard3>
+  </RoyalBastard64>
   
   <RoyalCook18>
     <!-- EN: royal cook -->
@@ -7487,6 +7517,15 @@
     <desc>[PAWN_nameDef] era {PAWN_gender ? capitán : capitana} de una nave pirata. [PAWN_pronoun] y su tripulación se ganaban la vida capturando comerciantes que deambulaban fuera de rumbo.\n\n[PAWN_pronoun] era conocid{PAWN_gender ? o : a} por su enfoque equilibrado de los problemas, la construcción, la lucha o la negociación, según fuera necesario.</desc>
   </StellarPirate10>
   
+  <StewardsAssisant28>
+    <!-- EN: Steward's assisant -->
+    <title>TODO</title>
+    <!-- EN: Steward -->
+    <titleShort>TODO</titleShort>
+    <!-- EN: A steward on medieval merchant ships, [PAWN_nameDef] was well-travelled on [PAWN_possessive] homeworld by [PAWN_possessive] early teens.\n\nThe constant orders from [PAWN_possessive] captain, however, fostered a defiant streak, as well as a general disaste for anything [PAWN_pronoun] considered to be busywork. -->
+    <desc>TODO</desc>
+  </StewardsAssisant28>
+  
   <StewKeeper95>
     <!-- EN: stew keeper -->
     <title>cocinero de guiso</title>
@@ -7539,6 +7578,15 @@
     <!-- EN: Despite being blessed with parental love, [PAWN_nameDef] hardly knew [PAWN_possessive] parents.\n\n[PAWN_pronoun] was frequently left to [PAWN_possessive] own devices which meant more time devoted to exploring [PAWN_possessive] interests…and getting into trouble. -->
     <desc>A pesar de ser bendecid{PAWN_gender ? o : a} con el amor paternal, [PAWN_nameDef] apenas conocía a sus padres.\n\n[PAWN_pronoun] se abocó a menudo a sus propios dispositivos, lo que significó más tiempo dedicado a explorar sus intereses... y meterse en problemas.</desc>
   </Straggler71>
+  
+  <Streamer52>
+    <!-- EN: Streamer -->
+    <title>Streamer</title>
+    <!-- EN: Streamer -->
+    <titleShort>Streamer</titleShort>
+    <!-- EN: [PAWN_nameDef] worked as a videogame streamer, and was known for his monkey-related impressions and jokes.\n\nA pandemic forced him to go into cryptosleep for several years. During his sleep, he was launched on an interstellar diplomatic mission. Nothing was heard of him ever again. -->
+    <desc>[PAWN_nameDef] trabajaba como streamer de videojuegos, y era conocido por sus bromas sobre los monos. \n\nUna pandemia lo obligó a resguardarse en un criptosueño durante años. Durante su sueño, fue lanzado a una misión diplomática interestelar. No se supo más de él desde entonces.</desc>
+  </Streamer52>
   
   <StreetChild4>
     <!-- EN: street child -->
@@ -7994,6 +8042,15 @@
     <!-- EN: [PAWN_nameDef] lived on a pleasant midworld.\n\n[PAWN_possessive] body purist mother fell sick with heart disease. In desperation, [PAWN_nameDef]'s father abducted innocent people and harvested their hearts. [PAWN_nameDef]'s father was arrested, but the child remained scarred from the experience. -->
     <desc>[PAWN_nameDef] vivía en un agradable mundo mendio.\n\nUn día su madre se enfermó de una cardiopatía. En la desesperación, el padre de [PAWN_nameDef] secuestró a personas inocentes y cosechó sus corazones. Este luego fue arrestado, e hizo que quedara con un trauma desde su infancia por la experiencia.</desc>
   </TraumatizedYouth87>
+  
+  <TravelingBard93>
+    <!-- EN: Traveling bard -->
+    <title>TODO</title>
+    <!-- EN: Musician -->
+    <titleShort>TODO</titleShort>
+    <!-- EN: [PAWN_nameDef] joined the famous Star Pilots On Channel K (aka S.P.O.C.K) and toured the star system, but eventually the band split up and their fame faded away.\n\nHe ended up as a travelling bard playing on his portable synthesizer as he traveled from spaceport to spaceport. -->
+    <desc>TODO</desc>
+  </TravelingBard93>
   
   <TreasureHunter82>
     <!-- EN: treasure hunter -->

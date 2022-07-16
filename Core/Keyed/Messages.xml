@@ -1,758 +1,318 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- EN: Sieging {0} from {1} are assaulting the colony. -->
-  <MessageSiegersAssaulting>Los {0} de {1} que te asediaban, están asaltando la colonia.</MessageSiegersAssaulting>
-
-  <!-- EN: {0} from {1} are beginning their assault. -->
-  <MessageRaidersBeginningAssault>Los {0} de {1} están comenzando su asalto.</MessageRaidersBeginningAssault>
-  <!-- EN: {0} from {1} have detected you and begun their assault early. -->
-  <MessageRaidersDetectedEarlyAssault>Los {0} de {1} te han detectado y han adelantado su asalto.</MessageRaidersDetectedEarlyAssault>
-  <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
-  <MessageRaidersKidnapping>Los {0} de {1} han decidido raptar a quien puedan e irse.</MessageRaidersKidnapping>
-  <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
-  <MessageRaidersStealing>Los {0} de {1} han decidido robar lo que puedan e irse.</MessageRaidersStealing>
-
-  <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
-  <MessageCaravanDetectedRaidArrived>Los {0} de {1} han llegado al area de tu caravana y están atacando. Hay más en camino y llegarán en {2}</MessageCaravanDetectedRaidArrived>
-
-  <!-- EN: {0} from {1} are leaving. -->
-  <MessageRaidersLeaving>Los {0} de {1} se están yendo.</MessageRaidersLeaving>
-  <!-- EN: {0} from {1} have given up and are leaving. -->
-  <MessageRaidersGivenUpLeaving>Los {0} de {1} se han dado por vencidos y ya se van.</MessageRaidersGivenUpLeaving>
-  <!-- EN: {0} from {1} are satisfied with the damage done and are leaving. -->
-  <MessageRaidersSatisfiedLeaving>Los {0} de {1} están satisfechos con el daño que te han causado y ya se van.</MessageRaidersSatisfiedLeaving>
-
-  <!-- EN: {0} from {1} are fleeing. -->
-  <MessageFightersFleeing>Los {0} de {1} están huyendo.</MessageFightersFleeing>
-  <!-- EN: Friendly {0} from {1} are leaving. -->
-  <MessageFriendlyFightersLeaving>Los {0} amistosos de {1} ya se van.</MessageFriendlyFightersLeaving>
-
-  <!-- EN: {0} from {1} are taking a wounded guest. -->
-  <MessageVisitorsTakingWounded>Los {0} de {1} se llevan a un huésped herido.</MessageVisitorsTakingWounded>
-  <!-- EN: {0} from {1} have been trapped and are digging out to escape. -->
-  <MessageVisitorsTrappedLeaving>Los {0} de {1} han quedado atrapados y están excavando para escapar.</MessageVisitorsTrappedLeaving>
-  <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
-  <MessageVisitorsDangerousTemperature>Los {0} de {1} estan abandonando el mapa a causa de las peligrosas temperaturas.</MessageVisitorsDangerousTemperature>
-
-  <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
-  <MessageWornApparelDeterioratedAway>El/la {0} que vestía {1_nameFull} se ha deteriorado por completo.</MessageWornApparelDeterioratedAway>
-  <!-- EN: {0} has deteriorated away in storage. -->
-  <MessageDeterioratedAway>{0} se ha deteriorado en el almacén.</MessageDeterioratedAway>
-
-  <!-- EN: {0} has begun. -->
-  <MessageSeasonBegun>Ahora es {0}.</MessageSeasonBegun>
-
-  <!-- EN: {0} has left comms range. -->
-  <MessageShipHasLeftCommsRange>{0} ha salido del alcance de las comunicaciones.</MessageShipHasLeftCommsRange>
-
-  <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
-  <MessageNeedBeaconToTradeWithShip>Necesitas una baliza de comercio orbital para comerciar con una nave.</MessageNeedBeaconToTradeWithShip>
-  <!-- EN: Caller must have the title of {0_label} or higher. -->
-  <MessageNeedRoyalTitleToCallWithShip>La persona que contacte debe poseer el título de {0} o mayor.</MessageNeedRoyalTitleToCallWithShip>
-
-  <!-- EN: {0} has been destroyed. -->
-  <MessageConditionCauserDespawned>{0} ha sido destruido(a).</MessageConditionCauserDespawned>
   
-  <!-- EN: Bill complete: {0}. -->
-  <MessageBillComplete>Proyecto completado: {0}.</MessageBillComplete>
-
-  <!-- EN: {1_label} is fully healed. -->
-  <MessageFullyHealed>{1_label} ha sanado por completo.</MessageFullyHealed>
-
-  <!-- EN: Prisoner {1_labelShort} is escaping. -->
-  <MessagePrisonerIsEscaping>El prisonero {1_labelShort} está escapando.</MessagePrisonerIsEscaping>
-
-  <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
-  <MessageOutOfNearbyShellsFor>{PAWN_labelShort} no ha encontrado munición sin reservar para el/la {GUN_label}.</MessageOutOfNearbyShellsFor>
-  <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
-  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} no ha encontrado {FUEL} sin reservar para {GUN_label}.</MessageOutOfNearbyFuelFor>
-
-  <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>Advertencia: {ANIMAL_kindBasePlural} tiene una probabilidad de {1} de atacar al ser herido al alcance máximo del rifle. La probabilidad es mayor si se está más cerca, y menor con un cazador sigiloso.</MessageAnimalsGoPsychoHunted>
-  <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
-  <MessageAnimalManhuntsOnTameFailed>Advertencia: {ANIMAL_kindBasePlural} podría atacar si el intento de domesticación falla (probabilidad de {1}).</MessageAnimalManhuntsOnTameFailed>
-  <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
-  <MessageInsectTameDesignated>Solo aquellos con el rasgo simpatía por los insectos puede domesticar {INSECT_indefinite}.</MessageInsectTameDesignated>
-
-  <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
-  <MessageInsectsHostileOnTaming>El {PAWN_labelShort} es hostil y atacará mientras tus colonos intentan domesticarlo.</MessageInsectsHostileOnTaming>
-  
-  <!-- EN: New recruit -->
-  <LetterLabelMessageRecruitSuccess>Nuevo recluta</LetterLabelMessageRecruitSuccess>
-  <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
-  <MessageRecruitSuccess>{RECRUITER_nameFull} ha reclutado con éxito a {RECRUITEE_nameFull} (probabilidad de {2}).</MessageRecruitSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
-  <MessageTameSuccess>{RECRUITER_labelShort} ha domesticado con éxito un(a) {1} (probabilidad de {2}).</MessageTameSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} ha domesticado con éxito un(a) {1} (probabilidad de {2}) y {RECRUITEE_objective} ha llamado {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
-  <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
-  <MessageTameNoSuitablePens>No hay un corral adecuado para {ANIMAL_labelShort}. Eventualmente se irá.</MessageTameNoSuitablePens>
-  <!-- EN: {RECRUITEE} has joined your colony. -->
-  <MessageRecruitJoinOfferAccepted>{RECRUITEE} se ha unido a tu colonia.</MessageRecruitJoinOfferAccepted>
-
-  <!-- EN: The colony cannot afford this deal. -->
-  <MessageColonyCannotAfford>La colonia no puede costear esto.</MessageColonyCannotAfford>
-  <!-- EN: You do not have enough silver ready to trade. -->
-  <MessageColonyNotEnoughSilver>No tienes suficiente plata almacenada para comerciar.</MessageColonyNotEnoughSilver>
-
-  <!-- EN: Critical alert: {0} -->
-  <MessageCriticalAlert>Alerta crítica: {0}</MessageCriticalAlert>
-
-  <!-- EN: Must designate harvestable sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestable>Debes designar plantas cosechables suficientemente maduras.</MessageMustDesignateHarvestable>
-  <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestableWood>Debes designar árboles suficientemente maduros.</MessageMustDesignateHarvestableWood>
-  <!-- EN: Must designate plants. -->
-  <MessageMustDesignatePlants>Debes designar plantas.</MessageMustDesignatePlants>
-  <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
-  <MessageMustDesignateHaulable>Debes designar objetos móviles. Algunos objetos siempre son móviles y no pueden ser designados.</MessageMustDesignateHaulable>
-  <!-- EN: Must designate impassable mineable rocks. -->
-  <MessageMustDesignateMineable>Debes designar paredes de roca minable.</MessageMustDesignateMineable>
-  <!-- EN: Must designate huntable animals. -->
-  <MessageMustDesignateHuntable>Debes designar animales cazables.</MessageMustDesignateHuntable>
-  <!-- EN: Must designate tameable animals. -->
-  <MessageMustDesignateTameable>Debes designar animales domesticables.</MessageMustDesignateTameable>
-  <!-- EN: Must designate abandoned artificial structures. -->
-  <MessageMustDesignateClaimable>Debes designar estructuras abandonadas.</MessageMustDesignateClaimable>
-  <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
-  <MessageMustDesignateDeconstructibleMechCluster>Debes derrotar a la agrupación mecanoide antes de poder deconstruirlo.</MessageMustDesignateDeconstructibleMechCluster>
-  <!-- EN: Must designate rough stone surfaces. -->
-  <MessageMustDesignateSmoothableSurface>Debe designar formaciones de piedra naturales.</MessageMustDesignateSmoothableSurface>
-  <!-- EN: Nothing can remove thick roofs. -->
-  <MessageNothingCanRemoveThickRoofs>Nada puede eliminar techos tan gruesos.</MessageNothingCanRemoveThickRoofs>
-  <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
-  <MessageAlreadyInStorage>Ya se encuentra en un almacén, y será llevado a un almacén de alta prioridad de ser necesario.</MessageAlreadyInStorage>
-  <!-- EN: Must designate corpse or downed character with strippable apparel. -->
-  <MessageMustDesignateStrippable>Debes designar cadáveres o personajes incapacitados con vestimentas.</MessageMustDesignateStrippable>
-  <!-- EN: Must designate tame animal that belongs to the colony. -->
-  <MessageMustDesignateSlaughterable>Debes designar un animal doméstico que pertenezca a la colonia.</MessageMustDesignateSlaughterable>
-  <!-- EN: Must designate full graves or containers. -->
-  <MessageMustDesignateOpenable>Debes designar tumbas o contenedores llenos.</MessageMustDesignateOpenable>
-  <!-- EN: Must designate unforbidden items. -->
-  <MessageMustDesignateForbiddable>Debe designar objetos no prohibidos.</MessageMustDesignateForbiddable>
-  <!-- EN: Must designate forbidden items. -->
-  <MessageMustDesignateUnforbiddable>Debe designar objetos prohibidos.</MessageMustDesignateUnforbiddable>
-
-  <!-- EN: {1_labelShort} has refused to be arrested! -->
-  <MessageRefusedArrest>¡{1_labelShort} se niega a ser arrestado(a)!</MessageRefusedArrest>
-  
-  <!-- EN: There are no medical beds available. -->
-  <MessageNoMedicalBeds>No hay camas médicas disponibles.</MessageNoMedicalBeds>
-  <!-- EN: There are no animal beds available. -->
-  <MessageNoAnimalBeds>No hay camas para animales disponibles.</MessageNoAnimalBeds>
-  <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
-  <MessageTooLowMedCare>La operación requiere un nivel de medicina de {0} o mayor, pero el nivel de {PAWN_labelShort} es "{2}".</MessageTooLowMedCare>
-  
-  <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{PAWN_labelShort} ha muerto. Causa: {1}.</PawnDiedBecauseOf>
-  <!-- EN: {1_labelShort} has died. -->
-  <PawnDied>{1_labelShort} ha muerto.</PawnDied>
-
-  <!-- EN: {1_label} is no longer incapable of walking. -->
-  <MessageNoLongerDowned>{1_label} ya puede caminar.</MessageNoLongerDowned>
-
-  <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
-  <MessageInvoluntarySleep>{1_labelShort} ha colapsado debido al agotamiento extremo.</MessageInvoluntarySleep>
-
-  <!-- EN: This operation will anger {0}. -->
-  <MessageMedicalOperationWillAngerFaction>Esta operación va a enfadar a {0}.</MessageMedicalOperationWillAngerFaction>
-
-  <!-- EN: {PAWN_nameDef} is pregnant! -->
-  <MessageAnimalIsPregnant>¡{PAWN_nameDef} está embarazada!</MessageAnimalIsPregnant>
-  <!-- EN: {0} has miscarried due to starvation. -->
-  <MessageMiscarriedStarvation>{0} ha sufrido un aborto por inanición.</MessageMiscarriedStarvation>
-  <!-- EN: {0} has miscarried due to poor health. -->
-  <MessageMiscarriedPoorHealth>{0} ha sufrido un aborto por su mala salud.</MessageMiscarriedPoorHealth>
-  <!-- EN: {0} has given birth. -->
-  <MessageGaveBirth>{0} ha dado a luz.</MessageGaveBirth>
-  
-  <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsylinkNoSensitivity>{PAWN_labelShort} no podrá usar su poder psíquico mientras su sensibilidad psíquica sea cero.</MessagePsylinkNoSensitivity>
-  <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
-  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} ha perdido un implante de nivel {1} a causa de {2}.</MessageLostImplantLevelFromHediff>
-  <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
-  <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} ha sufrido {1} puntos de daño cerebral a causa de {2}.</MessageReceivedBrainDamageFromHediff>
-  <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
-  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} ha sobrepasado el límite de seguridad de entropía psíquica.</MessageWentOverPsychicEntropyLimit>
-
-  <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
-  <MessageNoHandlerSkilledEnough>Ningún colono puede domesticar este(a) {ANIMAL_kindBase} (requiere nivel {1} en {2} y el más capacitado es {HANDLER_labelShort}, con nivel {4}).</MessageNoHandlerSkilledEnough>
-  
-  <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
-  <MessageEatenByPredator>{EATEN_labelShort} ha sido devorado(a) por {PREDATOR}.</MessageEatenByPredator>
-  <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>¡{PREY_labelShort} está siendo atacado(a) por {PREDATOR}!</MessageAttackedByPredator>
-
-  <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>¡{PAWN_labelShort} ha empezado a deambular! {PAWN_pronoun} saldrá del mapa a no ser que un cuidador de animales enganche a {PAWN_objective} de vuelta al corral.</MessageRoamerLeaving>
-
-  <!-- EN: A bug hive has reproduced itself. -->
-  <MessageHiveReproduced>Una colmena insectoide se ha reproducido.</MessageHiveReproduced>
-  
-  <!-- EN: The trade caravan from {0} is leaving. -->
-  <MessageTraderCaravanLeaving>La caravana de {0} ya se va.</MessageTraderCaravanLeaving>
-  
-  <!-- EN: {1_labelShort} is dead. -->
-  <MessageCantSelectDeadPawn>{1_labelShort} está muerto(a).</MessageCantSelectDeadPawn>
-  <!-- EN: {1_labelShort} is off the map. -->
-  <MessageCantSelectOffMapPawn>{1_labelShort} ha salido del mapa.</MessageCantSelectOffMapPawn>
-  
-  <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
-  <MessageSocialFight>{PAWN1_labelShort} ha comenzado una pelea con {PAWN2_labelShort}.</MessageSocialFight>
-  
-  <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}'s marriage. -->
-  <MessageNewMarriageCeremony>Los colonos se están reuniendo para celebrar el matrimonio de {PAWN1_labelShort} y {PAWN2_labelShort}.</MessageNewMarriageCeremony>
-  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
-  <MessageMarriageCeremonyStarts>¡{PAWN1_labelShort} y {PAWN2_labelShort} han comenzado su ceremonia de matrimonio!</MessageMarriageCeremonyStarts>
-  <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has been called off. -->
-  <MessageMarriageCeremonyCalledOff>La ceremonia de matrimonio de {PAWN1_labelShort} y {PAWN2_labelShort} se ha suspendido.</MessageMarriageCeremonyCalledOff>
-  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} have married. Colonists are now celebrating the occasion. -->
-  <MessageNewlyMarried>{PAWN1_labelShort} y {PAWN2_labelShort} se han casado. Los colonos están celebrando el feliz acontecimiento.</MessageNewlyMarried>
-  <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has finished. -->
-  <MessageMarriageCeremonyAfterPartyFinished>La ceremonia de matrimonio de {PAWN1_labelShort} y {PAWN2_labelShort} ha terminado.</MessageMarriageCeremonyAfterPartyFinished>
-  
-  <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
-  <MessageNewBondRelation>{HUMAN_labelShort} y {ANIMAL_labelShort} han creado un vínculo.</MessageNewBondRelation>
-  <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
-  <MessageNewBondRelationNewName>{HUMAN_labelShort} y {1} han creado un vínculo. {HUMAN_labelShort} ha nombrado a {ANIMAL_objective} {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
-  
-  <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageBondedAnimalMentalBreak>{ANIMAL} ha sufrido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
-  <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has had a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageNamedBondedAnimalMentalBreak>El/la {ANIMAL_kindIndef} llamado(a) {ANIMAL_label} ha sufrido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageNamedBondedAnimalMentalBreak>
-  <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageBondedAnimalsMentalBreak>{0} animales han sufrido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
-  
-  <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
-  <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} he extirpado con éxito el {HEDIFF} de {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
-  
-  <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
-  <MessageShipChunkDrop>Unos pedazos de nave espacial han caído cerca de aquí. Puedes desmontarlos para reciclar sus recursos.</MessageShipChunkDrop>
-
-  <!-- EN: Some items cannot be traded because of:  -->
-  <MessageCannotSellItemsReason>Algunos objetos no pueden intercambiarse porque: </MessageCannotSellItemsReason>
-
-  <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>{WORKER_labelShort} ha fallado al construir el/la {0}. Se han desperdiciado algunos recursos.</MessageConstructionFailed>
-
-  <!-- EN: Screenshot saved as: {0} -->
-  <MessageScreenshotSavedAs>Captura de pantalla guardada como: {0}</MessageScreenshotSavedAs>
-  
-  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer social fighting. -->
-  <MessageNoLongerSocialFighting>{PAWN1_labelShort} y {PAWN2_labelShort} ya no están peleando.</MessageNoLongerSocialFighting>
-  
-  <!-- EN: {2_labelShort} is no longer binging on {1}. -->
-  <MessageNoLongerBingingOnDrug>{2_labelShort} ya no está puesto(a) con {1}.</MessageNoLongerBingingOnDrug>
-
-  <!-- EN: {PAWN_labelShort} is no longer on an insulting spree against {TARGET_label}. -->
-  <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} ya no está lanzando insultos contra {TARGET_label}.</MessageNoLongerOnTargetedInsultingSpree>
-
-  <!-- EN: {1_label} has rotted away in storage. -->
-  <MessageRottedAwayInStorage>{1_label} se ha podrido en el almacén.</MessageRottedAwayInStorage>
-  
-  <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
-  <MessageFoodPoisoning>{PAWN_labelShort} se ha intoxicado con: {FOOD_labelShort}. Causa: {2}</MessageFoodPoisoning>
-  
-  <!-- EN: {0} has been removed from the caravan. -->
-  <MessagePawnLostWhileFormingCaravan>{0} ha sido sacado de la caravana.</MessagePawnLostWhileFormingCaravan>
-  <!-- EN: The caravan formation process has been terminated. -->
-  <MessagePawnLostWhileFormingCaravan_AllLost>El proceso de formación de la caravana ha terminado.</MessagePawnLostWhileFormingCaravan_AllLost>
-  <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
-  <MessageCaravanFormationPaused>El proceso de formación de la caravana continuará cuando todos se recuperen de su colapso mental.</MessageCaravanFormationPaused>
-  <!-- EN: Your colonists will now continue forming a caravan. -->
-  <MessageCaravanFormationUnpaused>Tus colonos continuarán ahora formando la caravana.</MessageCaravanFormationUnpaused>
-  
-  <!-- EN: One of the caravan members has had a mental break. -->
-  <MessageCaravanMemberHasExtremeMentalBreak>Uno de los miembros de la caravana ha tenido un colapso mental.</MessageCaravanMemberHasExtremeMentalBreak>
-  
-  <!-- EN: Warning: It can take a very long time to generate an entire planet. -->
-  <MessageMaxPlanetCoveragePerformanceWarning>Advertencia: Puede llevar mucho tiempo generar un planeta entero.</MessageMaxPlanetCoveragePerformanceWarning>
-
-  <!-- EN: {0} has died because of cold. -->
-  <MessagePlantDiedOfCold>{0} ha muerto debido al frío.</MessagePlantDiedOfCold>
-  <!-- EN: {0} has died from rotting due to being left unharvested. -->
-  <MessagePlantDiedOfRot_LeftUnharvested>{0} se ha podrido por no haber sido cosechada a tiempo.</MessagePlantDiedOfRot_LeftUnharvested>
-  <!-- EN: {0} has died due to being exposed to light. -->
-  <MessagePlantDiedOfRot_ExposedToLight>{0} ha muerto por la falta de luz.</MessagePlantDiedOfRot_ExposedToLight>
-  <!-- EN: {0} has died from rotting. -->
-  <MessagePlantDiedOfRot>{0} se ha podrido.</MessagePlantDiedOfRot>
-  <!-- EN: {0} has died because of poison. -->
-  <MessagePlantDiedOfPoison>{0} ha muerto a causa de una toxina.</MessagePlantDiedOfPoison>
-  <!-- EN: {1_label} has died because of blight. -->
-  <MessagePlantDiedOfBlight>{1_label} ha muerto debido a una plaga.</MessagePlantDiedOfBlight>
-
-  <!-- EN: {1_labelShort} is being burned by superheated air! -->
-  <MessagePawnBeingBurned>¡{1_labelShort} se está quemando debido a la temperatura del aire!</MessagePawnBeingBurned>
-
-  <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
-  <MessageAccidentalOverdose>¡{INGESTER} ha sufrido una sobredosis mientras consumía {DRUG_labelShort}!</MessageAccidentalOverdose>
-  
-  <!-- EN: {0} has arrived at its destination. -->
-  <MessageCaravanArrivedAtDestination>{0} ha llegado a su destino.</MessageCaravanArrivedAtDestination>
-  
-  <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
-  <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} ha dejado la zona con la caravana.</MessagePawnLeftMapAndCreatedCaravan>
-  <!-- EN: Your animals are moving to join it. -->
-  <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Tus animales se están moviendo para unirse.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
-  
-  <!-- EN: You have successfully settled in a new area. -->
-  <MessageSettledInExistingMap>Te has asentado con éxito en una nueva zona.</MessageSettledInExistingMap>
-  
-  <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
-  <MessagePermanentWoundHealed>El/la {2} de {PAWN_labelShort} ha sanado. Causa: {0}</MessagePermanentWoundHealed>
-  
-  <!-- EN: [PAWN_nameDef] has recovered and decided to leave. -->
-  <MessageRescueeDidntJoin>[PAWN_nameDef] se ha recuperado y ha decidido marcharse.</MessageRescueeDidntJoin>
-  
-  <!-- EN: Some transport pods are unreachable. -->
-  <MessageTransporterUnreachable>No se puede llegar hasta algunas de las cápsulas de transporte.</MessageTransporterUnreachable>
-  <!-- EN: All pod launchers connected to the selected transport pods must be adjacent. -->
-  <MessageTransportersNotAdjacent>Todos los lanza-cápsulas conectados a las cápsulas de transporte seleccionadas deben estar adyacentes entre sí.</MessageTransportersNotAdjacent>
-  
-  <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
-  <MessageTransportersLoadCanceled_TransporterDestroyed>El proceso de carga se ha cancelado porque una de las cápsulas de transporte ha sido destruida.</MessageTransportersLoadCanceled_TransporterDestroyed>
-  <!-- EN: The loading process has been canceled because the shuttle has been destroyed. -->
-  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>El proceso de carga se ha cancelado porque la lanzadera ha sido destruida.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
-  <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
-  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>El proceso de carga se ha cancelado porque uno de los lanza-cápsulas ha sido destruido.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
-  
-  <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
-  <MessageTransportersLoadingProcessStarted>Ahora tus colonos cargarán los objetos seleccionados en las cápsulas de transporte.</MessageTransportersLoadingProcessStarted>
-  <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageTransporterSingleLoadingProcessStarted>Las personas y objetos seleccionados serán cargados en la lanzadera.</MessageTransporterSingleLoadingProcessStarted>
-  
-  <!-- EN: Your transport pods have arrived. -->
-  <MessageTransportPodsArrived>Tus cápsulas de transporte han llegado.</MessageTransportPodsArrived>
-  <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
-  <MessageTransportPodsArrivedAndLost>Tus cápsulas de transporte han llegado, pero como no había ningun colono dentro, el contenido se ha perdido.</MessageTransportPodsArrivedAndLost>
-  <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
-  <MessageTransportPodsArrivedAndAddedToCaravan>Tus cápsulas de transporte han llegado. El contenido se ha añadido a {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
-  
-  <!-- EN: Transport pod loading complete. Launch when ready. -->
-  <MessageFinishedLoadingTransporters>Tus colonos han terminado de cargar las cápsulas de transporte.</MessageFinishedLoadingTransporters>
-  <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingTransporterSingle>La lanzadera se ha cargado con la mercancía requerida y está lista para despegar.</MessageFinishedLoadingTransporterSingle>
-
-  <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoTransporters>Tu {1} no puede terminar de cargar las cápsulas de transporte porque algunos artículos o personas no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
-  
-  <!-- EN: Selected destination is invalid. -->
-  <MessageTransportPodsDestinationIsInvalid>El destino seleccionado no es válido.</MessageTransportPodsDestinationIsInvalid>
-  <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
-  <MessageTransportPodsDestinationIsTooFar>Cada lanza-cápsulas necesita por lo menos {0}x biocombustible para enviar las cápsulas a esa distancia.</MessageTransportPodsDestinationIsTooFar>
-  
-  <!-- EN: The caravan has been reformed. -->
-  <MessageReformedCaravan>La caravana se ha reformado.</MessageReformedCaravan>
-  
-  <!-- EN: You can't banish the last colonist. -->
-  <MessageCantBanishLastColonist>No puedes desterrar al último colono.</MessageCantBanishLastColonist>
-
-  <!-- EN: Cannot equip: {0}. -->
-  <MessageCantEquipCustom>No puede equiparse: {0}.</MessageCantEquipCustom>
-  <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
-  <MessageCantEquipIncapableOfViolence>No puede equiparse: {1_labelShort} es incapaz de luchar.</MessageCantEquipIncapableOfViolence>
-  <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
-  <MessageCantEquipIncapableOfShooting>TODO</MessageCantEquipIncapableOfShooting>
-  <!-- EN: Cannot equip: Incapable. -->
-  <MessageCantEquipIncapableOfManipulation>No puede equiparse: incapaz.</MessageCantEquipIncapableOfManipulation>
-  <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
-  <MessageCantWearApparelMissingBodyParts>No puede equiparse: a {1_labelShort} le faltan partes corporales.</MessageCantWearApparelMissingBodyParts>
-  <!-- EN: This person refuses to remove this. -->
-  <MessageCantUnequipLockedApparel>El colono se niega a quitarse esto.</MessageCantUnequipLockedApparel>
-  <!-- EN: Cannot wear: This would replace apparel {1_labelShort} refues to remove. -->
-  <MessageWouldReplaceLockedApparel>No es posible: esto reemplazaría una vestimenta que {1_labelShort} se niega a quitarse.</MessageWouldReplaceLockedApparel>
-  
-  <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
-  <MessageSlaughteringBondedAnimal>Debido a que comparten un vínculo, sacrificar a {DESIGNATED_labelShort} hará muy infeliz a {BONDED_labelShort}.</MessageSlaughteringBondedAnimal>
-  <!-- EN: Because they are bonded, releasing {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
-  <MessageReleaseBondedAnimal>Debido a que están vinculados, liberar a {DESIGNATED_labelShort} hará a {BONDED_labelShort} infeliz.</MessageReleaseBondedAnimal>
-  
-  <!-- EN: {0} has run out of food. -->
-  <MessageCaravanRanOutOfFood>{0} se ha quedado sin comida ({PAWN_label}).</MessageCaravanRanOutOfFood>
-  <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
-  <MessageCaravanDeathCorpseAddedToInventory>El cadáver de {PAWN_definite} ha sido recogido por la caravana. Es pesado y puede llegar a impedir el movimiento de ésta, pero puede ser abandonado desde la pestaña de objetos de la caravana.</MessageCaravanDeathCorpseAddedToInventory>
-
-  <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
-  <MessageSelectOwnBaseToFormCaravan>Para formar una caravana, selecciona tu propia colonia o algún otro lugar donde tengas personas.</MessageSelectOwnBaseToFormCaravan>
-
-  <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
-  <MessageScreenResTooSmallForUIScale>Con esta resolución y escala de UI, la interface del juego no cabría en la pantalla. Por favor reduce la escala de UI o aumenta la resolución.</MessageScreenResTooSmallForUIScale>
-  
-  <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
-  <MessageYouHaveToReformCaravanNow>Debes reformar la caravana ahora. Todo el que se quede será abandonado.</MessageYouHaveToReformCaravanNow>
-  
-  <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>Los {0} de {1} estan atacando tu {2}.</MessageDefendersAttacking>
-  <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
-  <MessageMechanoidsAssembled>Los mecanoides han sido ensamblados y te están atacando.</MessageMechanoidsAssembled>
-  <!-- EN: Remaining mechanoids to assemble -->
-  <MessageMechanoidsLeftToAssemble>Mecanoides que quedan por ser ensamblados</MessageMechanoidsLeftToAssemble>
-  <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
-  <MessageMechanoidsReinforcementsDrop>La baliza mecanoide ha desplegado refuerzos en cápsulas de desembarco cercanas.</MessageMechanoidsReinforcementsDrop>
-
-  <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
-  <MessageSelfTendUnsatisfied>Para poder auto-atenderse, {1_labelShort} debe primero ser asignado al trabajo de Médico.</MessageSelfTendUnsatisfied>
-  <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
-  <MessageCannotSelfTendEver>{1_labelShort} es incapaz de trabajar como Médico, y por tanto no puede auto-atenderse.</MessageCannotSelfTendEver>
-  
-  <!-- EN: This tile is impassable. -->
-  <MessageCantAddWaypointBecauseImpassable>Esta casilla es intransitable..</MessageCantAddWaypointBecauseImpassable>
-  <!-- EN: It's not possible to reach this tile from the last waypoint. -->
-  <MessageCantAddWaypointBecauseUnreachable>No es posible alcanzar esta casilla desde la última parada.</MessageCantAddWaypointBecauseUnreachable>
-  <!-- EN: You can't add more than {0} waypoints. -->
-  <MessageCantAddWaypointBecauseLimit>No puedes añadir más de {0} paradas.</MessageCantAddWaypointBecauseLimit>
-  <!-- EN: You can't remove this waypoint. -->
-  <MessageCantRemoveWaypointBecauseFirst>No puedes eliminar esta parada.</MessageCantRemoveWaypointBecauseFirst>
-  
-  <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
-  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Ninguno de tus guardias es capaz de realizar actos violentos. La ejecución no se llevará a cabo.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
-  
-  <!-- EN: Area is now safe. You can reform the caravan on the world map. -->
-  <MessageCanReformCaravanNowNoMoreEnemies>Ahora el área es segura. Puedes reformar la caravana en el mapa del mundo.</MessageCanReformCaravanNowNoMoreEnemies>
-  <!-- EN: Area is now safe, but some unexplored rooms remain. You can explore further or reform the caravan on the world map. -->
-  <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>Ahora el área es segura, pero hay algunas habitaciones sin explorar. Puedes seguir explorando o reformar la caravana en el mapa del mundo.</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
-
-  <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
-  <MessageCantBanishDownedPawn>No puedes desterrar a {1_labelShort} ya que no puede caminar.</MessageCantBanishDownedPawn>
-
-  <!-- EN: {0} have woken up. -->
-  <MessageSleepingPawnsWokenUp>{0} se han despertado.</MessageSleepingPawnsWokenUp>
-  <!-- EN: Mech cluster buildings have been defeated. -->
-  <MessageMechClusterDefeated>Las construcciones del grupo mecanoide han sido derrotadas.</MessageMechClusterDefeated>
-
-  <!-- EN: Item produced: {0}. -->
-  <MessageCompSpawnerSpawnedItem>Objeto producido: {0}.</MessageCompSpawnerSpawnedItem>
-
-  <!-- EN: Health condition healed: {0}. -->
-  <MessageHediffCuredByItem>Enfermedad curada: {0}.</MessageHediffCuredByItem>
-  <!-- EN: Body part restored: {0}. -->
-  <MessageBodyPartCuredByItem>Parte del cuerpo restaurada: {0}.</MessageBodyPartCuredByItem>
-  <!-- EN: Technology given: {0}. -->
-  <MessageResearchProjectFinishedByItem>Tecnología proporcionada: {0}.</MessageResearchProjectFinishedByItem>
-
-  <!-- EN: {0} has been brought back to life! -->
-  <MessagePawnResurrected>¡{0} ha vuelto a la vida!</MessagePawnResurrected>
-
-  <!-- EN: You have failed to rescue {PAWN_labelShort}. This will make {RELATIVE_labelShort} sad. -->
-  <MessageFailedToRescueRelative>Has fallado en el rescate de {PAWN_labelShort}. Esto hará que {RELATIVE_labelShort} se sienta triste.</MessageFailedToRescueRelative>
-  <!-- EN: You have rescued {PAWN_labelShort}. This will make {RELATIVE_labelShort} happy. -->
-  <MessageRescuedRelative>Has rescatado a {PAWN_labelShort}. Esto hará que {RELATIVE_labelShort} se sienta feliz.</MessageRescuedRelative>
-
-  <!-- EN: The tornado has left the map. -->
-  <MessageTornadoLeftMap>El tornado ha dejado la zona.</MessageTornadoLeftMap>
-  <!-- EN: The tornado has dissipated. -->
-  <MessageTornadoDissipated>El tornado se ha disipado.</MessageTornadoDissipated>
-
-  <!-- EN: No conscious, capable diplomat. -->
-  <MessagePeaceTalksNoDiplomat>No hay ningún diplomático competente y consciente.</MessagePeaceTalksNoDiplomat>
-
-  <!-- EN: Warning: {0} cannot live when exposed to light. -->
-  <MessageWarningCavePlantsExposedToLight>Advertencia: {0} no puede vivir cuando se expone a la luz.</MessageWarningCavePlantsExposedToLight>
-
-  <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} no pudo alcanzar a {OLDTARGET_label} así que decidió redirigir su ira hacia {TARGET_label}.</MessageTargetedTantrumChangedTarget>
-
-  <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} no pudo alcanzar a {OLDTARGET_label} así que decidió redirigir sus insultos hacia {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
-
-  <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageMurderousRageChangedTarget>{PAWN_labelShort} ha decidido redirigir su ira hacia {TARGET_label}.</MessageMurderousRageChangedTarget>
-
-  <!-- EN: {0} cannot grow underneath a roof. -->
-  <MessagePlantIncompatibleWithRoof>{0} no puede crecer bajo techo.</MessagePlantIncompatibleWithRoof>
-  <!-- EN: Cannot build a roof over {0}. -->
-  <MessageRoofIncompatibleWithPlant>No se puede construir un techo sobre {0}.</MessageRoofIncompatibleWithPlant>
-
-  <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Para salir de la zona, utiliza el botón 'reformar caravana' en la vista del mundo.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
-  <!-- EN: You can't leave the map now. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>No puedes dejar el mapa ahora.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
-
-  <!-- EN: Relations with {0} have changed from {1} to {2}. -->
-  <MessageGoodwillChanged>Las relaciones con {0} han cambiado de {1} a {2}.</MessageGoodwillChanged>
-  <!-- EN: Relations with {0} have changed from {1} to {2} ({3}). -->
-  <MessageGoodwillChangedWithReason>Las relaciones con {0} han cambiado de {1} a {2} ({3}).</MessageGoodwillChangedWithReason>
-  <!-- EN: attacked {1_labelShort} -->
-  <GoodwillChangedReason_AttackedPawn>se atacó a {1_labelShort}</GoodwillChangedReason_AttackedPawn>
-  <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
-  <GoodwillChangedReason_UsedItem>se usó {ITEM_labelShort} en {TARGET_labelShort}</GoodwillChangedReason_UsedItem>
-  <!-- EN: used {0} on {1} -->
-  <GoodwillChangedReason_UsedAbility>se usó {0} en {1}</GoodwillChangedReason_UsedAbility>
-  <!-- EN: harvested {0} -->
-  <GoodwillChangedReason_RemovedBodyPart>se amputó {0}</GoodwillChangedReason_RemovedBodyPart>
-  <!-- EN: removed {0} -->
-  <GoodwillChangedReason_RemovedImplant>se extrajo {0}</GoodwillChangedReason_RemovedImplant>
-  <!-- EN: downgraded {0} -->
-  <GoodwillChangedReason_DowngradedImplant>se degradó {0}</GoodwillChangedReason_DowngradedImplant>
-  <!-- EN: needlessly installed {0} -->
-  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>se instaló {0} sin necesidad</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
-  <!-- EN: captured {1_labelShort} -->
-  <GoodwillChangedReason_CapturedPawn>se capturó a {1_labelShort}</GoodwillChangedReason_CapturedPawn>
-  <!-- EN: {1_labelShort} crushed -->
-  <GoodwillChangedReason_PawnCrushed>se aplastó a {1_labelShort}</GoodwillChangedReason_PawnCrushed>
-  <!-- EN: {1_labelShort} died -->
-  <GoodwillChangedReason_PawnDied>{1_labelShort} murió</GoodwillChangedReason_PawnDied>
-  <!-- EN: {0_labelShort} stripped -->
-  <GoodwillChangedReason_PawnStripped>{0_labelShort} fue desnudado(a)</GoodwillChangedReason_PawnStripped>
-  <!-- EN: traded -->
-  <GoodwillChangedReason_Traded>se comerció</GoodwillChangedReason_Traded>
-  <!-- EN: attacked a caravan -->
-  <GoodwillChangedReason_AttackedCaravan>se atacó una caravana</GoodwillChangedReason_AttackedCaravan>
-  <!-- EN: {1_labelShort} exited the map healthy -->
-  <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} salió sano y salvo del mapa</GoodwillChangedReason_ExitedMapHealthy>
-  <!-- EN: tended to {1_labelShort} -->
-  <GoodwillChangedReason_Tended>se atendió a {1_labelShort}</GoodwillChangedReason_Tended>
-  <!-- EN: received a gift -->
-  <GoodwillChangedReason_ReceivedGift>se recibió un regalo</GoodwillChangedReason_ReceivedGift>
-  <!-- EN: fulfilled a trade offer -->
-  <GoodwillChangedReason_FulfilledTradeRequest>se cumplió con una oferta comercial</GoodwillChangedReason_FulfilledTradeRequest>
-  <!-- EN: finished a quest -->
-  <GoodwillChangedReason_FinishedQuest>se completó una misión</GoodwillChangedReason_FinishedQuest>
-  <!-- EN: {PAWN_labelShort} used {CULPRIT} -->
-  <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort} usó {CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
-  <!-- EN: sold {0_labelShort} -->
-  <GoodwillChangedReason_SoldPawn>se vendió {0_labelShort}</GoodwillChangedReason_SoldPawn>
-  <!-- EN: euthanized {PAWN_labelShort} -->
-  <GoodwillChangedReason_EuthanizedPawn>se practicó eutanasia a {PAWN_labelShort}</GoodwillChangedReason_EuthanizedPawn>
-  <!-- EN: requested military aid -->
-  <GoodwillChangedReason_RequestedMilitaryAid>se solicitó ayuda militar</GoodwillChangedReason_RequestedMilitaryAid>
-  <!-- EN: requested trader caravan -->
-  <GoodwillChangedReason_RequestedTrader>se solicitó una caravana de comercio</GoodwillChangedReason_RequestedTrader>
-  <!-- EN: caused neuroquake echo -->
-  <GoodwillChangedReason_CausedNeuroquakeEcho>se ha provocado una avalancha psíquica</GoodwillChangedReason_CausedNeuroquakeEcho>
-  <!-- EN: caused berserk on {PAWN_labelShort} -->
-  <GoodwillChangedReason_CausedBerserk>se ha inducido 'frenesí' en {PAWN_labelShort}</GoodwillChangedReason_CausedBerserk>
-  <!-- EN: attacked {0_name} -->
-  <GoodwillChangeReason_AttackedFaction>se ha atacado a {0_name}</GoodwillChangeReason_AttackedFaction>
-  <!-- EN: shuttle destroyed -->
-  <GoodwillChangeReason_ShuttleDestroyed>se ha destruido la lanzadera</GoodwillChangeReason_ShuttleDestroyed>
-  <!-- EN: civilians lost -->
-  <GoodwillChangeReason_CiviliansLost>pérdida civil</GoodwillChangeReason_CiviliansLost>
-  <!-- EN: commander lost -->
-  <GoodwillChangeReason_CommanderLost>pérdida del comandante</GoodwillChangeReason_CommanderLost>
-
-  <!-- EN: {0} accept your gift but they don't appreciate it. -->
-  <MessageGiftGivenButNotAppreciated>{0} aceptan tu regalo pero no lo aprecian.</MessageGiftGivenButNotAppreciated>
-
-  <!-- EN: The caravan is already encumbered and can't carry anything else. -->
-  <MessageCantGiveGiftBecauseCantCarryEncumbered>La caravana está al máximo y no puede llevar nada más.</MessageCantGiveGiftBecauseCantCarryEncumbered>
-  <!-- EN: The caravan can't carry that much. The gifts weigh {0} but the caravan can only carry {1} more. -->
-  <MessageCantGiveGiftBecauseCantCarry>La caravana no puede con tanto. Los regalos pesan {0} pero la caravana sólo puede llevar {1} más.</MessageCantGiveGiftBecauseCantCarry>
-
-  <!-- EN: {0} has formed and is now traveling on the world map. -->
-  <MessageFormedCaravan>{0} se ha formado y ahora está viajando por el mapa del mundo.</MessageFormedCaravan>
-  <!-- EN: Orders -->
-  <MessageFormedCaravan_Orders>Órdenes</MessageFormedCaravan_Orders>
-
-  <!-- EN: {1}'s "{0}" can no longer deliver to deleted stockpile {2}. -->
-  <MessageBillValidationStoreZoneDeleted>El "{0}" de {1} ya no puede dejarse en las reservas eliminadas {2}.</MessageBillValidationStoreZoneDeleted>
-  <!-- EN: {1}'s "{0}" can no longer deliver to unavailable stockpile {2}. -->
-  <MessageBillValidationStoreZoneUnavailable>El "{0}" de {1} ya no puede dejarse en reservas deshabilitadas {2}.</MessageBillValidationStoreZoneUnavailable>
-  <!-- EN: {0} can no longer work on "{1}" at {2}. The restriction has been removed. -->
-  <MessageBillValidationPawnUnavailable>{0} ya no puede trabajar en "{1}" a {2}. Se ha eliminado la restricción.</MessageBillValidationPawnUnavailable>
-  <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
-  <MessageBillValidationIncludeZoneDeleted>El "{0}" de {1} ya no puede contar los artículos de las reservas eliminadas {2}.</MessageBillValidationIncludeZoneDeleted>
-  <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
-  <MessageBillValidationIncludeZoneUnavailable>El "{0}" de {1} ya no puede contar los artículos de la reserva deshabilitada {2}.</MessageBillValidationIncludeZoneUnavailable>
-  <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
-  <MessageBillValidationStoreZoneInsufficient>El "{0}" de {1} ya no pueden dejarse todos los productos en la reserva {2}.</MessageBillValidationStoreZoneInsufficient>
-
-  <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
-  <MessageAnimalReturnedWild>Debido a la falta de manutención, {1_labelShort} ha regresado a su hábitat natural.</MessageAnimalReturnedWild>
-  <!-- EN: {1_labelShort} has been returned to the wild. -->
-  <MessageAnimalReturnedWildReleased>{1_labelShort} ha sido liberado de vuelta a la naturaleza.</MessageAnimalReturnedWildReleased>
-  <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
-  <MessageAnimalLostSkill>Debido a la falta de adiestramiento, {ANIMAL_labelShort} ha perdido una habilidad: {1}</MessageAnimalLostSkill>
-
-  <!-- EN: Translation report written to {0} -->
-  <MessageTranslationReportSaved>Informe de traducción guardado en {0}</MessageTranslationReportSaved>
-
-  <!-- EN: {0} couldn't reach its destination. -->
-  <MessageCaravanArrivalActionNoLongerValid>{0} no pudo llegar a su destino.</MessageCaravanArrivalActionNoLongerValid>
-
-  <!-- EN: Too dangerous to re-enter for {0}. -->
-  <MessageEnterCooldownBlocksEntering>No puede volver durante los próximos {0} días.</MessageEnterCooldownBlocksEntering>
-
-  <!-- EN: {0_labelShort} can now freely use "{1}". -->
-  <MessagePermitCooldownFinished>{0_labelShort} puede utilizar ahora "{1}" libremente.</MessagePermitCooldownFinished>
-
-  <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
-  <MessagePredatorHuntingPlayerAnimal>¡{PREDATOR} está cazando a {PREY_definite} para alimentarse!</MessagePredatorHuntingPlayerAnimal>
-
-  <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
-  <MessagePrisonerResistanceBroken>La resistencia del prisionero {PRISONER_labelShort} ha sido suprimida por {WARDEN_labelShort}.</MessagePrisonerResistanceBroken>
-  <!-- EN: Recruitment attempts will begin. -->
-  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Los intentos de reclutamiento empezarán.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
-
-  <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
-  <MessageModWithPackageIdAlreadyEnabled>Otro mod con la ID {0} ya está activo. Desactiva {1} antes de intentar activar este otro.</MessageModWithPackageIdAlreadyEnabled>
-  <!-- EN: Disable all mods before using this tool. -->
-  <MessageDisableModsBeforeCleaningTranslationFiles>Desactiva todos los mods antes de usar esta herramienta.</MessageDisableModsBeforeCleaningTranslationFiles>
-  <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
-  <MessageUnpackBeforeCleaningTranslationFiles>Desempaqueta y después elimina todos los archivos comprimidos de traducción de este idioma antes de usar esta herramienta.</MessageUnpackBeforeCleaningTranslationFiles>
-  <!-- EN: Done. Affected folders: {0} -->
-  <MessageTranslationFilesCleanupDone>Listo. Carpeta afectada: {0}</MessageTranslationFilesCleanupDone>
-
-  <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
-  <MessageCantCleanupTranslationFilesBeucaseOfXmlError>Uno de los archivos de traducción ({0}) no pudo ser cargado. Todos los errores de análisis de XML deben ser resueltos primero.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
-
-  <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
-  <MessageCapturingWillAngerFaction>Advertencia: Capturar a {PAWN_nameDef} enfadará a la facción {PAWN_factionName}.</MessageCapturingWillAngerFaction>
-
-  <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
-  <MessageStrippingWillAngerFaction>Advertencia: Desnudar a {PAWN_nameDef} enfadará a {PAWN_factionName}.</MessageStrippingWillAngerFaction>
-
-  <!-- EN: Cannot shoot in melee. -->
-  <MessageCantShootInMelee>No puede disparar en combate cuerpo a cuerpo.</MessageCantShootInMelee>
-
-  <!-- EN: None of your {0} can accept this quest now. -->
-  <MessageNoColonistCanAcceptQuest>Ninguno de tus {0} puede aceptar esta misión ahora mismo.</MessageNoColonistCanAcceptQuest>
-  <!-- EN: Cannot accept this quest. -->
-  <MessageCannotAcceptQuest>No se puede aceptar esta misión.</MessageCannotAcceptQuest>
-  <!-- EN: {0_definite} has accepted a quest: {1} -->
-  <MessageQuestAccepted>{0_definite} ha aceptado una misión: {1}</MessageQuestAccepted>
-  <!-- EN: {0} is leaving. -->
-  <MessagePawnLeaving>{0} se va.</MessagePawnLeaving>
-  <!-- EN: {0} are leaving. -->
-  <MessagePawnsLeaving>{0} se van.</MessagePawnsLeaving>
-
-  <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
-  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>El monumento ha sido destruido porque has construido en su interior algo que no estaba permitido.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
-
-  <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
-  <MessageNoResearchBenchForTechprint>No aplicable: no hay ninguna mesa de investigación libre y accesible.</MessageNoResearchBenchForTechprint>
-
-  <!-- EN: No valid destination found for {0} -->
-  <NoValidDestinationFound>No se ha encontrado un destino válido para {0}</NoValidDestinationFound>
-
-  <!-- EN: An extracted tree just died. -->
-  <MessageMinifiedTreeDied>Acaba de morir un árbol extraído.</MessageMinifiedTreeDied>
-  
-  <!-- Research -->
-  <!-- EN: Warning: Research will not begin until you build a research bench. -->
-  <MessageResearchMenuWithoutBench>Advertencia: la Investigación no empezará hasta que construyas una mesa de investigación.</MessageResearchMenuWithoutBench>
-
-  <!-- EN: {0_indefinite} has triggered a proximity activator. -->
-  <MessageActivatorProximityTriggered>{0_indefinite} ha accionado un activador de proximidad.</MessageActivatorProximityTriggered>
-
-  <!-- EN: {0_label} is currently hidden. -->
-  <MessageCannotSelectInvisibleStat>{0_label} está escondido.</MessageCannotSelectInvisibleStat>
-
-  <!-- EN: {PAWN_nameDef} is a prisoner -->
-  <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} es un prisionero</MessagePrisonerCannotEquipWeapon>
-
-  <!-- EN: Warning: {0_nameDef}'s beliefs oppose {1} work. {0_pronoun} may become unhappy. -->
-  <MessageIdeoOpposedWorkTypeSelected>TODO</MessageIdeoOpposedWorkTypeSelected>
-
-  <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
-  <MessageBedLostAssignment>{0} ya no está asignado a {1_nameDef}.</MessageBedLostAssignment>
-  <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
-  <MessageBedDestroyed>{0} asignado a {1_nameDef} fue destruído.</MessageBedDestroyed>
-
-  <!-- Rituals -->
-  <!-- EN: spectate -->
-  <Spectate>presenciar</Spectate>
-  <!-- EN: Assign to {0} -->
-  <AssignToRole>Asignar a {0}</AssignToRole>
-  <!-- EN: {0} has begun. -->
-  <RitualBegun>{0} ha empezado.</RitualBegun>
-  <!-- EN: The maximum number of {0}s is {1}. -->
-  <MaxPawnsPerRole>El número máximo de {0} es {1}.</MaxPawnsPerRole>
-  <!-- EN: Role of {0} is locked. -->
-  <RoleIsLocked>El rol de {0} está bloqueado.</RoleIsLocked>
-  <!-- EN: You need at least one participant. -->
-  <MessageRitualNeedsAtLeastOnePerson>Necesitas al menos un participante.</MessageRitualNeedsAtLeastOnePerson>
-  <!-- EN: You need at least one spectator. -->
-  <MessageRitualNeedsAtLeastOneSpectator>Necesitas al menos un testigo.</MessageRitualNeedsAtLeastOneSpectator>
-  <!-- EN: You need a {0}. -->
-  <MessageRitualNeedsAtLeastOneRolePawn>Necesitas un {0}.</MessageRitualNeedsAtLeastOneRolePawn>
-  <!-- EN: You need at least {1} {0}. -->
-  <MessageRitualNeedsAtLeastNumRolePawn>Necesitas al menos {1} {0}.</MessageRitualNeedsAtLeastNumRolePawn>
-  <!-- EN: {0_labelShort} is downed. -->
-  <MessageRitualPawnDowned>{0_labelShort} fue derribado.</MessageRitualPawnDowned>
-  <!-- EN: {0_labelShort} is currently escaping. -->
-  <MessageRitualPawnPrisonerNotSecured>{0_labelShort} está escapando.</MessageRitualPawnPrisonerNotSecured>
-  <!-- EN: {0_labelShort} is currently rebelling. -->
-  <MessageRitualPawnSlaveNotSecured>{0_labelShort} se está rebelando.</MessageRitualPawnSlaveNotSecured>
-  <!-- EN: {0_labelShort} is being released. -->
-  <MessageRitualPawnReleased>{0_labelShort} se está liberando.</MessageRitualPawnReleased>
-  <!-- EN: {0_labelShort} is injured. -->
-  <MessageRitualPawnInjured>{0_labelShort} está herido.</MessageRitualPawnInjured>
-  <!-- EN: {0_labelShort} must hold one of these roles -->
-  <MessageRitualRoleRequired>{0_labelShort} debe tener uno de estos roles</MessageRitualRoleRequired>
-  <!-- EN: {0} must be a prisoner. -->
-  <MessageRitualRoleMustBePrisoner>{0} debe ser un prisionero.</MessageRitualRoleMustBePrisoner>
-  <!-- EN: {0} must be an animal. -->
-  <MessageRitualRoleMustBeAnimal>{0} debe ser un animal.</MessageRitualRoleMustBeAnimal>
-  <!-- EN: {0} must be a human. -->
-  <MessageRitualRoleMustBeHumanlike>{0} debe ser un humano.</MessageRitualRoleMustBeHumanlike>
-  <!-- EN: No roles available for {0_labelShort}. -->
-  <MessageRitualNoRolesAvailable>No hay roles disponibles para {0_labelShort}.</MessageRitualNoRolesAvailable>
-  <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
-  <MessageRitualNotOfPlayerIdeo>{0_labelShort} no es miembro de la ideoligión de ninguna colonia.</MessageRitualNotOfPlayerIdeo>
-  <!-- EN: {0} must have eyes -->
-  <MessageRitualRoleMustHaveEyes>{0} debe tener ojos</MessageRitualRoleMustHaveEyes>
-  <!-- EN: {0_labelShort} does not require further scarification. -->
-  <MessageRitualRoleMustRequireScarification>{0_labelShort} no requiere más escarificación.</MessageRitualRoleMustRequireScarification>
-  <!-- EN: {0} must be a prisoner or slave. -->
-  <MessageRitualRoleMustBePrisonerOrSlave>{0} debe ser un prisionero o esclavo.</MessageRitualRoleMustBePrisonerOrSlave>
-  <!-- EN: {0_labelShort} must be capable of fighting. -->
-  <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} debe ser capaz de luchar.</MessageRitualRoleMustBeCapableOfFighting>
-  <!-- EN: this role cannot be played by someone else. -->
-  <MessageRitualRoleCannotReplaceRequiredPawn>este rol no puede ser llevado a cabo por otra persona.</MessageRitualRoleCannotReplaceRequiredPawn>
-  <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
-  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} no puede conectarse a un Árbol Gauranlen debido a que una conexión {0_possessive} fue desgarrada recientemente.</MessageRitualRolePawnRecentlyTornConnection>
-  <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
-  <MessageRitualRolePawnHasSameIdeo>{0_labelShort} tiene la misma ideoligión que el conversor.</MessageRitualRolePawnHasSameIdeo>
-  <!-- EN: {0_labelShort} must be capable of wardening. -->
-  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} debe ser capaz de deambular.</MessageRitualRoleMustBeCapableOfWardening>
-  <!-- EN: {0} must be capable of {1}. -->
-  <MessageRitualRoleMustBeCapableOfGeneric>{0} debe ser capaz de {1}.</MessageRitualRoleMustBeCapableOfGeneric>
-  <!-- EN: prisoners cannot {0}. -->
-  <MessageRitualRoleMustNotBePrisonerToSpectate>los prisioneros no pueden {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
-  <!-- EN: only {0} can {1}. -->
-  <MessageRitualRoleMustHaveIdeoToSpectate>solo {0} puede {1}.</MessageRitualRoleMustHaveIdeoToSpectate>
-  <!-- EN: only {0} can fill the role of {1}. -->
-  <MessageRitualRoleMustHaveIdeoToDoRole>solo {0} puede ocupar el rol de {1}.</MessageRitualRoleMustHaveIdeoToDoRole>
-  <!-- EN: must be colonist for the {0} role. -->
-  <MessageRitualRoleMustBeColonist>debe ser colono para ser el rol {0}.</MessageRitualRoleMustBeColonist>
-  <!-- EN: {0} must have an animal with min body size of {1}. -->
-  <MessageRitualRoleMustHaveLargerBodySize>{0} debe tener un animal con un tamaño de cuerpo mínimo de {1}</MessageRitualRoleMustHaveLargerBodySize>
-  <!-- EN: {0_labelShort} is in a mental state. -->
-  <MessageRitualPawnMentalState>{0_labelShort} sufre un estado mental.</MessageRitualPawnMentalState>
-  <!-- EN: {0_labelShort} is already {1}. -->
-  <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} ya está {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
-  <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
-  <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort} solo puede ser testigo.</MessageRitualCannotAssignAnyRoleFromSpectating>
-  <!-- EN: {0} cannot be an imprisoned wild man/woman. -->
-  <MessageRitualRoleMustNotBeImprisonedWildMan>{0} no puede ser un hombre/mujer salvaje encarcelado.</MessageRitualRoleMustNotBeImprisonedWildMan>
-  <!-- EN: {0} must be free. -->
-  <MessageRitualRoleMustNotBeImprisoned>{0} debe ser puesto en libertad.</MessageRitualRoleMustNotBeImprisoned>
-
-  <!-- EN: You must select a site to continue. -->
-  <MessagePlayerMustSelectTile>Debes seleccionar un espacio para continuar.</MessagePlayerMustSelectTile>
-
-  <!-- EN: Cannot plant {0_labelShort} -->
-  <CannotPlantThing>No se puede plantar {0_labelShort}</CannotPlantThing>
-  <!-- EN: Need more fertile terrain. -->
-  <MessageWarningNotEnoughFertility>Se necesita más terreno fértil.</MessageWarningNotEnoughFertility>
-  <!-- EN: blocked by {0_label}. -->
-  <BlockedBy>bloqueado por {0_label}.</BlockedBy>
-  <!-- EN: Cannot be planted next to {0_label}. -->
-  <AdjacentSowBlocker>No puede ser plantado al lado de {0_label}.</AdjacentSowBlocker>
-  <!-- EN: Too close to {0_label}. -->
-  <TooCloseToOtherPlant>Demasiado cerca de {0_label}.</TooCloseToOtherPlant>
-  <!-- EN: Too close to {0}'s planting location. -->
-  <TooCloseToOtherSeedPlantCell>Demasiado cerca a la plantación de {0}.</TooCloseToOtherSeedPlantCell>
-
-  <!-- EN: Warning: {0} has been marked for cutting. -->
-  <MessageWarningCutImportantPlant>Advertencia: {0} se ha marcado para cortar.</MessageWarningCutImportantPlant>
-
   <!-- UNUSED -->
+  <MessageSiegersAssaulting>Los {0} de {1} que te asediaban, están asaltando la colonia.</MessageSiegersAssaulting>
+  <MessageRaidersBeginningAssault>Los {0} de {1} están comenzando su asalto.</MessageRaidersBeginningAssault>
+  <MessageRaidersDetectedEarlyAssault>Los {0} de {1} te han detectado y han adelantado su asalto.</MessageRaidersDetectedEarlyAssault>
+  <MessageRaidersKidnapping>Los {0} de {1} han decidido raptar a quien puedan e irse.</MessageRaidersKidnapping>
+  <MessageRaidersStealing>Los {0} de {1} han decidido robar lo que puedan e irse.</MessageRaidersStealing>
+  <MessageCaravanDetectedRaidArrived>Los {0} de {1} han llegado al area de tu caravana y están atacando. Hay más en camino y llegarán en {2}</MessageCaravanDetectedRaidArrived>
+  <MessageRaidersLeaving>Los {0} de {1} se están yendo.</MessageRaidersLeaving>
+  <MessageRaidersGivenUpLeaving>Los {0} de {1} se han dado por vencidos y ya se van.</MessageRaidersGivenUpLeaving>
+  <MessageRaidersSatisfiedLeaving>Los {0} de {1} están satisfechos con el daño que te han causado y ya se van.</MessageRaidersSatisfiedLeaving>
+  <MessageFightersFleeing>Los {0} de {1} están huyendo.</MessageFightersFleeing>
+  <MessageFriendlyFightersLeaving>Los {0} amistosos de {1} ya se van.</MessageFriendlyFightersLeaving>
+  <MessageVisitorsTakingWounded>Los {0} de {1} se llevan a un huésped herido.</MessageVisitorsTakingWounded>
+  <MessageVisitorsTrappedLeaving>Los {0} de {1} han quedado atrapados y están excavando para escapar.</MessageVisitorsTrappedLeaving>
+  <MessageVisitorsDangerousTemperature>Los {0} de {1} estan abandonando el mapa a causa de las peligrosas temperaturas.</MessageVisitorsDangerousTemperature>
+  <MessageWornApparelDeterioratedAway>El/la {0} que vestía {1_nameFull} se ha deteriorado por completo.</MessageWornApparelDeterioratedAway>
+  <MessageDeterioratedAway>{0} se ha deteriorado en el almacén.</MessageDeterioratedAway>
+  <MessageSeasonBegun>Ahora es {0}.</MessageSeasonBegun>
+  <MessageShipHasLeftCommsRange>{0} ha salido del alcance de las comunicaciones.</MessageShipHasLeftCommsRange>
+  <MessageNeedBeaconToTradeWithShip>Necesitas una baliza de comercio orbital para comerciar con una nave.</MessageNeedBeaconToTradeWithShip>
+  <MessageNeedRoyalTitleToCallWithShip>La persona que contacte debe poseer el título de {0} o mayor.</MessageNeedRoyalTitleToCallWithShip>
+  <MessageConditionCauserDespawned>{0} ha sido destruido(a).</MessageConditionCauserDespawned>
+  <MessageBillComplete>Proyecto completado: {0}.</MessageBillComplete>
+  <MessageFullyHealed>{1_label} ha sanado por completo.</MessageFullyHealed>
+  <MessagePrisonerIsEscaping>El prisonero {1_labelShort} está escapando.</MessagePrisonerIsEscaping>
+  <MessageOutOfNearbyShellsFor>{PAWN_labelShort} no ha encontrado munición sin reservar para el/la {GUN_label}.</MessageOutOfNearbyShellsFor>
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} no ha encontrado {FUEL} sin reservar para {GUN_label}.</MessageOutOfNearbyFuelFor>
+  <MessageAnimalsGoPsychoHunted>Advertencia: {ANIMAL_kindBasePlural} tiene una probabilidad de {1} de atacar al ser herido al alcance máximo del rifle. La probabilidad es mayor si se está más cerca, y menor con un cazador sigiloso.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalManhuntsOnTameFailed>Advertencia: {ANIMAL_kindBasePlural} podría atacar si el intento de domesticación falla (probabilidad de {1}).</MessageAnimalManhuntsOnTameFailed>
+  <MessageInsectTameDesignated>Solo aquellos con el rasgo simpatía por los insectos puede domesticar {INSECT_indefinite}.</MessageInsectTameDesignated>
+  <MessageInsectsHostileOnTaming>El {PAWN_labelShort} es hostil y atacará mientras tus colonos intentan domesticarlo.</MessageInsectsHostileOnTaming>
+  <LetterLabelMessageRecruitSuccess>Nuevo recluta</LetterLabelMessageRecruitSuccess>
+  <MessageRecruitSuccess>{RECRUITER_nameFull} ha reclutado con éxito a {RECRUITEE_nameFull} (probabilidad de {2}).</MessageRecruitSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort} ha domesticado con éxito un(a) {1} (probabilidad de {2}).</MessageTameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} ha domesticado con éxito un(a) {1} (probabilidad de {2}) y {RECRUITEE_objective} ha llamado {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameNoSuitablePens>No hay un corral adecuado para {ANIMAL_labelShort}. Eventualmente se irá.</MessageTameNoSuitablePens>
+  <MessageRecruitJoinOfferAccepted>{RECRUITEE} se ha unido a tu colonia.</MessageRecruitJoinOfferAccepted>
+  <MessageColonyCannotAfford>La colonia no puede costear esto.</MessageColonyCannotAfford>
+  <MessageColonyNotEnoughSilver>No tienes suficiente plata almacenada para comerciar.</MessageColonyNotEnoughSilver>
+  <MessageCriticalAlert>Alerta crítica: {0}</MessageCriticalAlert>
+  <MessageMustDesignateHarvestable>Debes designar plantas cosechables suficientemente maduras.</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestableWood>Debes designar árboles suficientemente maduros.</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignatePlants>Debes designar plantas.</MessageMustDesignatePlants>
+  <MessageMustDesignateHaulable>Debes designar objetos móviles. Algunos objetos siempre son móviles y no pueden ser designados.</MessageMustDesignateHaulable>
+  <MessageMustDesignateMineable>Debes designar paredes de roca minable.</MessageMustDesignateMineable>
+  <MessageMustDesignateHuntable>Debes designar animales cazables.</MessageMustDesignateHuntable>
+  <MessageMustDesignateTameable>Debes designar animales domesticables.</MessageMustDesignateTameable>
+  <MessageMustDesignateClaimable>Debes designar estructuras abandonadas.</MessageMustDesignateClaimable>
+  <MessageMustDesignateDeconstructibleMechCluster>Debes derrotar a la agrupación mecanoide antes de poder deconstruirlo.</MessageMustDesignateDeconstructibleMechCluster>
+  <MessageMustDesignateSmoothableSurface>Debe designar formaciones de piedra naturales.</MessageMustDesignateSmoothableSurface>
+  <MessageNothingCanRemoveThickRoofs>Nada puede eliminar techos tan gruesos.</MessageNothingCanRemoveThickRoofs>
+  <MessageAlreadyInStorage>Ya se encuentra en un almacén, y será llevado a un almacén de alta prioridad de ser necesario.</MessageAlreadyInStorage>
+  <MessageMustDesignateStrippable>Debes designar cadáveres o personajes incapacitados con vestimentas.</MessageMustDesignateStrippable>
+  <MessageMustDesignateSlaughterable>Debes designar un animal doméstico que pertenezca a la colonia.</MessageMustDesignateSlaughterable>
+  <MessageMustDesignateOpenable>Debes designar tumbas o contenedores llenos.</MessageMustDesignateOpenable>
+  <MessageMustDesignateForbiddable>Debe designar objetos no prohibidos.</MessageMustDesignateForbiddable>
+  <MessageMustDesignateUnforbiddable>Debe designar objetos prohibidos.</MessageMustDesignateUnforbiddable>
+  <MessageRefusedArrest>¡{1_labelShort} se niega a ser arrestado(a)!</MessageRefusedArrest>
+  <MessageNoMedicalBeds>No hay camas médicas disponibles.</MessageNoMedicalBeds>
+  <MessageNoAnimalBeds>No hay camas para animales disponibles.</MessageNoAnimalBeds>
+  <MessageTooLowMedCare>La operación requiere un nivel de medicina de {0} o mayor, pero el nivel de {PAWN_labelShort} es "{2}".</MessageTooLowMedCare>
+  <PawnDiedBecauseOf>{PAWN_labelShort} ha muerto. Causa: {1}.</PawnDiedBecauseOf>
+  <PawnDied>{1_labelShort} ha muerto.</PawnDied>
+  <MessageNoLongerDowned>{1_label} ya puede caminar.</MessageNoLongerDowned>
+  <MessageInvoluntarySleep>{1_labelShort} ha colapsado debido al agotamiento extremo.</MessageInvoluntarySleep>
+  <MessageMedicalOperationWillAngerFaction>Esta operación va a enfadar a {0}.</MessageMedicalOperationWillAngerFaction>
+  <MessageAnimalIsPregnant>¡{PAWN_nameDef} está embarazada!</MessageAnimalIsPregnant>
+  <MessageMiscarriedStarvation>{0} ha sufrido un aborto por inanición.</MessageMiscarriedStarvation>
+  <MessageMiscarriedPoorHealth>{0} ha sufrido un aborto por su mala salud.</MessageMiscarriedPoorHealth>
+  <MessageGaveBirth>{0} ha dado a luz.</MessageGaveBirth>
+  <MessagePsylinkNoSensitivity>{PAWN_labelShort} no podrá usar su poder psíquico mientras su sensibilidad psíquica sea cero.</MessagePsylinkNoSensitivity>
+  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} ha perdido un implante de nivel {1} a causa de {2}.</MessageLostImplantLevelFromHediff>
+  <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} ha sufrido {1} puntos de daño cerebral a causa de {2}.</MessageReceivedBrainDamageFromHediff>
+  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} ha sobrepasado el límite de seguridad de entropía psíquica.</MessageWentOverPsychicEntropyLimit>
+  <MessageNoHandlerSkilledEnough>Ningún colono puede domesticar este(a) {ANIMAL_kindBase} (requiere nivel {1} en {2} y el más capacitado es {HANDLER_labelShort}, con nivel {4}).</MessageNoHandlerSkilledEnough>
+  <MessageEatenByPredator>{EATEN_labelShort} ha sido devorado(a) por {PREDATOR}.</MessageEatenByPredator>
+  <MessageAttackedByPredator>¡{PREY_labelShort} está siendo atacado(a) por {PREDATOR}!</MessageAttackedByPredator>
+  <MessageRoamerLeaving>¡{PAWN_labelShort} ha empezado a deambular! {PAWN_pronoun} saldrá del mapa a no ser que un cuidador de animales enganche a {PAWN_objective} de vuelta al corral.</MessageRoamerLeaving>
+  <MessageHiveReproduced>Una colmena insectoide se ha reproducido.</MessageHiveReproduced>
+  <MessageTraderCaravanLeaving>La caravana de {0} ya se va.</MessageTraderCaravanLeaving>
+  <MessageCantSelectDeadPawn>{1_labelShort} está muerto(a).</MessageCantSelectDeadPawn>
+  <MessageCantSelectOffMapPawn>{1_labelShort} ha salido del mapa.</MessageCantSelectOffMapPawn>
+  <MessageSocialFight>{PAWN1_labelShort} ha comenzado una pelea con {PAWN2_labelShort}.</MessageSocialFight>
+  <MessageNewMarriageCeremony>Los colonos se están reuniendo para celebrar el matrimonio de {PAWN1_labelShort} y {PAWN2_labelShort}.</MessageNewMarriageCeremony>
+  <MessageMarriageCeremonyStarts>¡{PAWN1_labelShort} y {PAWN2_labelShort} han comenzado su ceremonia de matrimonio!</MessageMarriageCeremonyStarts>
+  <MessageMarriageCeremonyCalledOff>La ceremonia de matrimonio de {PAWN1_labelShort} y {PAWN2_labelShort} se ha suspendido.</MessageMarriageCeremonyCalledOff>
+  <MessageNewlyMarried>{PAWN1_labelShort} y {PAWN2_labelShort} se han casado. Los colonos están celebrando el feliz acontecimiento.</MessageNewlyMarried>
+  <MessageMarriageCeremonyAfterPartyFinished>La ceremonia de matrimonio de {PAWN1_labelShort} y {PAWN2_labelShort} ha terminado.</MessageMarriageCeremonyAfterPartyFinished>
+  <MessageNewBondRelation>{HUMAN_labelShort} y {ANIMAL_labelShort} han creado un vínculo.</MessageNewBondRelation>
+  <MessageNewBondRelationNewName>{HUMAN_labelShort} y {1} han creado un vínculo. {HUMAN_labelShort} ha nombrado a {ANIMAL_objective} {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
+  <MessageBondedAnimalMentalBreak>{ANIMAL} ha sufrido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
+  <MessageNamedBondedAnimalMentalBreak>El/la {ANIMAL_kindIndef} llamado(a) {ANIMAL_label} ha sufrido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageNamedBondedAnimalMentalBreak>
+  <MessageBondedAnimalsMentalBreak>{0} animales han sufrido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
+  <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} he extirpado con éxito el {HEDIFF} de {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
+  <MessageShipChunkDrop>Unos pedazos de nave espacial han caído cerca de aquí. Puedes desmontarlos para reciclar sus recursos.</MessageShipChunkDrop>
+  <MessageCannotSellItemsReason>Algunos objetos no pueden intercambiarse porque: </MessageCannotSellItemsReason>
+  <MessageConstructionFailed>{WORKER_labelShort} ha fallado al construir el/la {0}. Se han desperdiciado algunos recursos.</MessageConstructionFailed>
+  <MessageScreenshotSavedAs>Captura de pantalla guardada como: {0}</MessageScreenshotSavedAs>
+  <MessageNoLongerSocialFighting>{PAWN1_labelShort} y {PAWN2_labelShort} ya no están peleando.</MessageNoLongerSocialFighting>
+  <MessageNoLongerBingingOnDrug>{2_labelShort} ya no está puesto(a) con {1}.</MessageNoLongerBingingOnDrug>
+  <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} ya no está lanzando insultos contra {TARGET_label}.</MessageNoLongerOnTargetedInsultingSpree>
+  <MessageRottedAwayInStorage>{1_label} se ha podrido en el almacén.</MessageRottedAwayInStorage>
+  <MessageFoodPoisoning>{PAWN_labelShort} se ha intoxicado con: {FOOD_labelShort}. Causa: {2}</MessageFoodPoisoning>
+  <MessagePawnLostWhileFormingCaravan>{0} ha sido sacado de la caravana.</MessagePawnLostWhileFormingCaravan>
+  <MessagePawnLostWhileFormingCaravan_AllLost>El proceso de formación de la caravana ha terminado.</MessagePawnLostWhileFormingCaravan_AllLost>
+  <MessageCaravanFormationPaused>El proceso de formación de la caravana continuará cuando todos se recuperen de su colapso mental.</MessageCaravanFormationPaused>
+  <MessageCaravanFormationUnpaused>Tus colonos continuarán ahora formando la caravana.</MessageCaravanFormationUnpaused>
+  <MessageCaravanMemberHasExtremeMentalBreak>Uno de los miembros de la caravana ha tenido un colapso mental.</MessageCaravanMemberHasExtremeMentalBreak>
+  <MessageMaxPlanetCoveragePerformanceWarning>Advertencia: Puede llevar mucho tiempo generar un planeta entero.</MessageMaxPlanetCoveragePerformanceWarning>
+  <MessagePlantDiedOfCold>{0} ha muerto debido al frío.</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0} se ha podrido por no haber sido cosechada a tiempo.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_ExposedToLight>{0} ha muerto por la falta de luz.</MessagePlantDiedOfRot_ExposedToLight>
+  <MessagePlantDiedOfRot>{0} se ha podrido.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfPoison>{0} ha muerto a causa de una toxina.</MessagePlantDiedOfPoison>
+  <MessagePlantDiedOfBlight>{1_label} ha muerto debido a una plaga.</MessagePlantDiedOfBlight>
+  <MessagePawnBeingBurned>¡{1_labelShort} se está quemando debido a la temperatura del aire!</MessagePawnBeingBurned>
+  <MessageAccidentalOverdose>¡{INGESTER} ha sufrido una sobredosis mientras consumía {DRUG_labelShort}!</MessageAccidentalOverdose>
+  <MessageCaravanArrivedAtDestination>{0} ha llegado a su destino.</MessageCaravanArrivedAtDestination>
+  <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} ha dejado la zona con la caravana.</MessagePawnLeftMapAndCreatedCaravan>
+  <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Tus animales se están moviendo para unirse.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
+  <MessageSettledInExistingMap>Te has asentado con éxito en una nueva zona.</MessageSettledInExistingMap>
+  <MessagePermanentWoundHealed>El/la {2} de {PAWN_labelShort} ha sanado. Causa: {0}</MessagePermanentWoundHealed>
+  <MessageRescueeDidntJoin>[PAWN_nameDef] se ha recuperado y ha decidido marcharse.</MessageRescueeDidntJoin>
+  <MessageTransporterUnreachable>No se puede llegar hasta algunas de las cápsulas de transporte.</MessageTransporterUnreachable>
+  <MessageTransportersNotAdjacent>Todos los lanza-cápsulas conectados a las cápsulas de transporte seleccionadas deben estar adyacentes entre sí.</MessageTransportersNotAdjacent>
+  <MessageTransportersLoadCanceled_TransporterDestroyed>El proceso de carga se ha cancelado porque una de las cápsulas de transporte ha sido destruida.</MessageTransportersLoadCanceled_TransporterDestroyed>
+  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>El proceso de carga se ha cancelado porque la lanzadera ha sido destruida.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
+  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>El proceso de carga se ha cancelado porque uno de los lanza-cápsulas ha sido destruido.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+  <MessageTransportersLoadingProcessStarted>Ahora tus colonos cargarán los objetos seleccionados en las cápsulas de transporte.</MessageTransportersLoadingProcessStarted>
+  <MessageTransporterSingleLoadingProcessStarted>Las personas y objetos seleccionados serán cargados en la lanzadera.</MessageTransporterSingleLoadingProcessStarted>
+  <MessageTransportPodsArrived>Tus cápsulas de transporte han llegado.</MessageTransportPodsArrived>
+  <MessageTransportPodsArrivedAndLost>Tus cápsulas de transporte han llegado, pero como no había ningun colono dentro, el contenido se ha perdido.</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrivedAndAddedToCaravan>Tus cápsulas de transporte han llegado. El contenido se ha añadido a {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
+  <MessageFinishedLoadingTransporters>Tus colonos han terminado de cargar las cápsulas de transporte.</MessageFinishedLoadingTransporters>
+  <MessageFinishedLoadingTransporterSingle>La lanzadera se ha cargado con la mercancía requerida y está lista para despegar.</MessageFinishedLoadingTransporterSingle>
+  <MessageCantLoadMoreIntoTransporters>Tu {1} no puede terminar de cargar las cápsulas de transporte porque algunos artículos o personas no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
+  <MessageTransportPodsDestinationIsInvalid>El destino seleccionado no es válido.</MessageTransportPodsDestinationIsInvalid>
+  <MessageTransportPodsDestinationIsTooFar>Cada lanza-cápsulas necesita por lo menos {0}x biocombustible para enviar las cápsulas a esa distancia.</MessageTransportPodsDestinationIsTooFar>
+  <MessageReformedCaravan>La caravana se ha reformado.</MessageReformedCaravan>
+  <MessageCantBanishLastColonist>No puedes desterrar al último colono.</MessageCantBanishLastColonist>
+  <MessageCantEquipCustom>No puede equiparse: {0}.</MessageCantEquipCustom>
+  <MessageCantEquipIncapableOfViolence>No puede equiparse: {1_labelShort} es incapaz de luchar.</MessageCantEquipIncapableOfViolence>
+  <MessageCantEquipIncapableOfManipulation>No puede equiparse: incapaz.</MessageCantEquipIncapableOfManipulation>
+  <MessageCantWearApparelMissingBodyParts>No puede equiparse: a {1_labelShort} le faltan partes corporales.</MessageCantWearApparelMissingBodyParts>
+  <MessageCantUnequipLockedApparel>El colono se niega a quitarse esto.</MessageCantUnequipLockedApparel>
+  <MessageWouldReplaceLockedApparel>No es posible: esto reemplazaría una vestimenta que {1_labelShort} se niega a quitarse.</MessageWouldReplaceLockedApparel>
+  <MessageSlaughteringBondedAnimal>Debido a que comparten un vínculo, sacrificar a {DESIGNATED_labelShort} hará muy infeliz a {BONDED_labelShort}.</MessageSlaughteringBondedAnimal>
+  <MessageReleaseBondedAnimal>Debido a que están vinculados, liberar a {DESIGNATED_labelShort} hará a {BONDED_labelShort} infeliz.</MessageReleaseBondedAnimal>
+  <MessageCaravanRanOutOfFood>{0} se ha quedado sin comida ({PAWN_label}).</MessageCaravanRanOutOfFood>
+  <MessageCaravanDeathCorpseAddedToInventory>El cadáver de {PAWN_definite} ha sido recogido por la caravana. Es pesado y puede llegar a impedir el movimiento de ésta, pero puede ser abandonado desde la pestaña de objetos de la caravana.</MessageCaravanDeathCorpseAddedToInventory>
+  <MessageSelectOwnBaseToFormCaravan>Para formar una caravana, selecciona tu propia colonia o algún otro lugar donde tengas personas.</MessageSelectOwnBaseToFormCaravan>
+  <MessageScreenResTooSmallForUIScale>Con esta resolución y escala de UI, la interface del juego no cabría en la pantalla. Por favor reduce la escala de UI o aumenta la resolución.</MessageScreenResTooSmallForUIScale>
+  <MessageYouHaveToReformCaravanNow>Debes reformar la caravana ahora. Todo el que se quede será abandonado.</MessageYouHaveToReformCaravanNow>
+  <MessageDefendersAttacking>Los {0} de {1} estan atacando tu {2}.</MessageDefendersAttacking>
+  <MessageMechanoidsAssembled>Los mecanoides han sido ensamblados y te están atacando.</MessageMechanoidsAssembled>
+  <MessageMechanoidsLeftToAssemble>Mecanoides que quedan por ser ensamblados</MessageMechanoidsLeftToAssemble>
+  <MessageMechanoidsReinforcementsDrop>La baliza mecanoide ha desplegado refuerzos en cápsulas de desembarco cercanas.</MessageMechanoidsReinforcementsDrop>
+  <MessageSelfTendUnsatisfied>Para poder auto-atenderse, {1_labelShort} debe primero ser asignado al trabajo de Médico.</MessageSelfTendUnsatisfied>
+  <MessageCannotSelfTendEver>{1_labelShort} es incapaz de trabajar como Médico, y por tanto no puede auto-atenderse.</MessageCannotSelfTendEver>
+  <MessageCantAddWaypointBecauseImpassable>Esta casilla es intransitable..</MessageCantAddWaypointBecauseImpassable>
+  <MessageCantAddWaypointBecauseUnreachable>No es posible alcanzar esta casilla desde la última parada.</MessageCantAddWaypointBecauseUnreachable>
+  <MessageCantAddWaypointBecauseLimit>No puedes añadir más de {0} paradas.</MessageCantAddWaypointBecauseLimit>
+  <MessageCantRemoveWaypointBecauseFirst>No puedes eliminar esta parada.</MessageCantRemoveWaypointBecauseFirst>
+  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Ninguno de tus guardias es capaz de realizar actos violentos. La ejecución no se llevará a cabo.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
+  <MessageCanReformCaravanNowNoMoreEnemies>Ahora el área es segura. Puedes reformar la caravana en el mapa del mundo.</MessageCanReformCaravanNowNoMoreEnemies>
+  <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>Ahora el área es segura, pero hay algunas habitaciones sin explorar. Puedes seguir explorando o reformar la caravana en el mapa del mundo.</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
+  <MessageCantBanishDownedPawn>No puedes desterrar a {1_labelShort} ya que no puede caminar.</MessageCantBanishDownedPawn>
+  <MessageSleepingPawnsWokenUp>{0} se han despertado.</MessageSleepingPawnsWokenUp>
+  <MessageMechClusterDefeated>Las construcciones del grupo mecanoide han sido derrotadas.</MessageMechClusterDefeated>
+  <MessageCompSpawnerSpawnedItem>Objeto producido: {0}.</MessageCompSpawnerSpawnedItem>
+  <MessageHediffCuredByItem>Enfermedad curada: {0}.</MessageHediffCuredByItem>
+  <MessageBodyPartCuredByItem>Parte del cuerpo restaurada: {0}.</MessageBodyPartCuredByItem>
+  <MessageResearchProjectFinishedByItem>Tecnología proporcionada: {0}.</MessageResearchProjectFinishedByItem>
+  <MessagePawnResurrected>¡{0} ha vuelto a la vida!</MessagePawnResurrected>
+  <MessageFailedToRescueRelative>Has fallado en el rescate de {PAWN_labelShort}. Esto hará que {RELATIVE_labelShort} se sienta triste.</MessageFailedToRescueRelative>
+  <MessageRescuedRelative>Has rescatado a {PAWN_labelShort}. Esto hará que {RELATIVE_labelShort} se sienta feliz.</MessageRescuedRelative>
+  <MessageTornadoLeftMap>El tornado ha dejado la zona.</MessageTornadoLeftMap>
+  <MessageTornadoDissipated>El tornado se ha disipado.</MessageTornadoDissipated>
+  <MessagePeaceTalksNoDiplomat>No hay ningún diplomático competente y consciente.</MessagePeaceTalksNoDiplomat>
+  <MessageWarningCavePlantsExposedToLight>Advertencia: {0} no puede vivir cuando se expone a la luz.</MessageWarningCavePlantsExposedToLight>
+  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} no pudo alcanzar a {OLDTARGET_label} así que decidió redirigir su ira hacia {TARGET_label}.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} no pudo alcanzar a {OLDTARGET_label} así que decidió redirigir sus insultos hacia {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageMurderousRageChangedTarget>{PAWN_labelShort} ha decidido redirigir su ira hacia {TARGET_label}.</MessageMurderousRageChangedTarget>
+  <MessagePlantIncompatibleWithRoof>{0} no puede crecer bajo techo.</MessagePlantIncompatibleWithRoof>
+  <MessageRoofIncompatibleWithPlant>No se puede construir un techo sobre {0}.</MessageRoofIncompatibleWithPlant>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Para salir de la zona, utiliza el botón 'reformar caravana' en la vista del mundo.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>No puedes dejar el mapa ahora.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
+  <MessageGoodwillChanged>Las relaciones con {0} han cambiado de {1} a {2}.</MessageGoodwillChanged>
+  <MessageGoodwillChangedWithReason>Las relaciones con {0} han cambiado de {1} a {2} ({3}).</MessageGoodwillChangedWithReason>
+  <GoodwillChangedReason_AttackedPawn>se atacó a {1_labelShort}</GoodwillChangedReason_AttackedPawn>
+  <GoodwillChangedReason_UsedItem>se usó {ITEM_labelShort} en {TARGET_labelShort}</GoodwillChangedReason_UsedItem>
+  <GoodwillChangedReason_UsedAbility>se usó {0} en {1}</GoodwillChangedReason_UsedAbility>
+  <GoodwillChangedReason_RemovedBodyPart>se amputó {0}</GoodwillChangedReason_RemovedBodyPart>
+  <GoodwillChangedReason_RemovedImplant>se extrajo {0}</GoodwillChangedReason_RemovedImplant>
+  <GoodwillChangedReason_DowngradedImplant>se degradó {0}</GoodwillChangedReason_DowngradedImplant>
+  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>se instaló {0} sin necesidad</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
+  <GoodwillChangedReason_CapturedPawn>se capturó a {1_labelShort}</GoodwillChangedReason_CapturedPawn>
+  <GoodwillChangedReason_PawnCrushed>se aplastó a {1_labelShort}</GoodwillChangedReason_PawnCrushed>
+  <GoodwillChangedReason_PawnDied>{1_labelShort} murió</GoodwillChangedReason_PawnDied>
+  <GoodwillChangedReason_PawnStripped>{0_labelShort} fue desnudado(a)</GoodwillChangedReason_PawnStripped>
+  <GoodwillChangedReason_Traded>se comerció</GoodwillChangedReason_Traded>
+  <GoodwillChangedReason_AttackedCaravan>se atacó una caravana</GoodwillChangedReason_AttackedCaravan>
+  <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} salió sano y salvo del mapa</GoodwillChangedReason_ExitedMapHealthy>
+  <GoodwillChangedReason_Tended>se atendió a {1_labelShort}</GoodwillChangedReason_Tended>
+  <GoodwillChangedReason_ReceivedGift>se recibió un regalo</GoodwillChangedReason_ReceivedGift>
+  <GoodwillChangedReason_FulfilledTradeRequest>se cumplió con una oferta comercial</GoodwillChangedReason_FulfilledTradeRequest>
+  <GoodwillChangedReason_FinishedQuest>se completó una misión</GoodwillChangedReason_FinishedQuest>
+  <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort} usó {CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
+  <GoodwillChangedReason_SoldPawn>se vendió {0_labelShort}</GoodwillChangedReason_SoldPawn>
+  <GoodwillChangedReason_EuthanizedPawn>se practicó eutanasia a {PAWN_labelShort}</GoodwillChangedReason_EuthanizedPawn>
+  <GoodwillChangedReason_RequestedMilitaryAid>se solicitó ayuda militar</GoodwillChangedReason_RequestedMilitaryAid>
+  <GoodwillChangedReason_RequestedTrader>se solicitó una caravana de comercio</GoodwillChangedReason_RequestedTrader>
+  <GoodwillChangedReason_CausedNeuroquakeEcho>se ha provocado una avalancha psíquica</GoodwillChangedReason_CausedNeuroquakeEcho>
+  <GoodwillChangedReason_CausedBerserk>se ha inducido 'frenesí' en {PAWN_labelShort}</GoodwillChangedReason_CausedBerserk>
+  <GoodwillChangeReason_AttackedFaction>se ha atacado a {0_name}</GoodwillChangeReason_AttackedFaction>
+  <GoodwillChangeReason_ShuttleDestroyed>se ha destruido la lanzadera</GoodwillChangeReason_ShuttleDestroyed>
+  <GoodwillChangeReason_CiviliansLost>pérdida civil</GoodwillChangeReason_CiviliansLost>
+  <GoodwillChangeReason_CommanderLost>pérdida del comandante</GoodwillChangeReason_CommanderLost>
+  <MessageGiftGivenButNotAppreciated>{0} aceptan tu regalo pero no lo aprecian.</MessageGiftGivenButNotAppreciated>
+  <MessageCantGiveGiftBecauseCantCarryEncumbered>La caravana está al máximo y no puede llevar nada más.</MessageCantGiveGiftBecauseCantCarryEncumbered>
+  <MessageCantGiveGiftBecauseCantCarry>La caravana no puede con tanto. Los regalos pesan {0} pero la caravana sólo puede llevar {1} más.</MessageCantGiveGiftBecauseCantCarry>
+  <MessageFormedCaravan>{0} se ha formado y ahora está viajando por el mapa del mundo.</MessageFormedCaravan>
+  <MessageFormedCaravan_Orders>Órdenes</MessageFormedCaravan_Orders>
+  <MessageBillValidationStoreZoneDeleted>El "{0}" de {1} ya no puede dejarse en las reservas eliminadas {2}.</MessageBillValidationStoreZoneDeleted>
+  <MessageBillValidationStoreZoneUnavailable>El "{0}" de {1} ya no puede dejarse en reservas deshabilitadas {2}.</MessageBillValidationStoreZoneUnavailable>
+  <MessageBillValidationPawnUnavailable>{0} ya no puede trabajar en "{1}" a {2}. Se ha eliminado la restricción.</MessageBillValidationPawnUnavailable>
+  <MessageBillValidationIncludeZoneDeleted>El "{0}" de {1} ya no puede contar los artículos de las reservas eliminadas {2}.</MessageBillValidationIncludeZoneDeleted>
+  <MessageBillValidationIncludeZoneUnavailable>El "{0}" de {1} ya no puede contar los artículos de la reserva deshabilitada {2}.</MessageBillValidationIncludeZoneUnavailable>
+  <MessageBillValidationStoreZoneInsufficient>El "{0}" de {1} ya no pueden dejarse todos los productos en la reserva {2}.</MessageBillValidationStoreZoneInsufficient>
+  <MessageAnimalReturnedWild>Debido a la falta de manutención, {1_labelShort} ha regresado a su hábitat natural.</MessageAnimalReturnedWild>
+  <MessageAnimalReturnedWildReleased>{1_labelShort} ha sido liberado de vuelta a la naturaleza.</MessageAnimalReturnedWildReleased>
+  <MessageAnimalLostSkill>Debido a la falta de adiestramiento, {ANIMAL_labelShort} ha perdido una habilidad: {1}</MessageAnimalLostSkill>
+  <MessageTranslationReportSaved>Informe de traducción guardado en {0}</MessageTranslationReportSaved>
+  <MessageCaravanArrivalActionNoLongerValid>{0} no pudo llegar a su destino.</MessageCaravanArrivalActionNoLongerValid>
+  <MessageEnterCooldownBlocksEntering>No puede volver durante los próximos {0} días.</MessageEnterCooldownBlocksEntering>
+  <MessagePermitCooldownFinished>{0_labelShort} puede utilizar ahora "{1}" libremente.</MessagePermitCooldownFinished>
+  <MessagePredatorHuntingPlayerAnimal>¡{PREDATOR} está cazando a {PREY_definite} para alimentarse!</MessagePredatorHuntingPlayerAnimal>
+  <MessagePrisonerResistanceBroken>La resistencia del prisionero {PRISONER_labelShort} ha sido suprimida por {WARDEN_labelShort}.</MessagePrisonerResistanceBroken>
+  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Los intentos de reclutamiento empezarán.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
+  <MessageModWithPackageIdAlreadyEnabled>Otro mod con la ID {0} ya está activo. Desactiva {1} antes de intentar activar este otro.</MessageModWithPackageIdAlreadyEnabled>
+  <MessageDisableModsBeforeCleaningTranslationFiles>Desactiva todos los mods antes de usar esta herramienta.</MessageDisableModsBeforeCleaningTranslationFiles>
+  <MessageUnpackBeforeCleaningTranslationFiles>Desempaqueta y después elimina todos los archivos comprimidos de traducción de este idioma antes de usar esta herramienta.</MessageUnpackBeforeCleaningTranslationFiles>
+  <MessageTranslationFilesCleanupDone>Listo. Carpeta afectada: {0}</MessageTranslationFilesCleanupDone>
+  <MessageCantCleanupTranslationFilesBeucaseOfXmlError>Uno de los archivos de traducción ({0}) no pudo ser cargado. Todos los errores de análisis de XML deben ser resueltos primero.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
+  <MessageCapturingWillAngerFaction>Advertencia: Capturar a {PAWN_nameDef} enfadará a la facción {PAWN_factionName}.</MessageCapturingWillAngerFaction>
+  <MessageStrippingWillAngerFaction>Advertencia: Desnudar a {PAWN_nameDef} enfadará a {PAWN_factionName}.</MessageStrippingWillAngerFaction>
+  <MessageCantShootInMelee>No puede disparar en combate cuerpo a cuerpo.</MessageCantShootInMelee>
+  <MessageNoColonistCanAcceptQuest>Ninguno de tus {0} puede aceptar esta misión ahora mismo.</MessageNoColonistCanAcceptQuest>
+  <MessageCannotAcceptQuest>No se puede aceptar esta misión.</MessageCannotAcceptQuest>
+  <MessageQuestAccepted>{0_definite} ha aceptado una misión: {1}</MessageQuestAccepted>
+  <MessagePawnLeaving>{0} se va.</MessagePawnLeaving>
+  <MessagePawnsLeaving>{0} se van.</MessagePawnsLeaving>
+  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>El monumento ha sido destruido porque has construido en su interior algo que no estaba permitido.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
+  <MessageNoResearchBenchForTechprint>No aplicable: no hay ninguna mesa de investigación libre y accesible.</MessageNoResearchBenchForTechprint>
+  <NoValidDestinationFound>No se ha encontrado un destino válido para {0}</NoValidDestinationFound>
+  <MessageMinifiedTreeDied>Acaba de morir un árbol extraído.</MessageMinifiedTreeDied>
+  <MessageResearchMenuWithoutBench>Advertencia: la Investigación no empezará hasta que construyas una mesa de investigación.</MessageResearchMenuWithoutBench>
+  <MessageActivatorProximityTriggered>{0_indefinite} ha accionado un activador de proximidad.</MessageActivatorProximityTriggered>
+  <MessageCannotSelectInvisibleStat>{0_label} está escondido.</MessageCannotSelectInvisibleStat>
+  <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} es un prisionero</MessagePrisonerCannotEquipWeapon>
+  <MessageBedLostAssignment>{0} ya no está asignado a {1_nameDef}.</MessageBedLostAssignment>
+  <MessageBedDestroyed>{0} asignado a {1_nameDef} fue destruído.</MessageBedDestroyed>
+  <Spectate>presenciar</Spectate>
+  <AssignToRole>Asignar a {0}</AssignToRole>
+  <RitualBegun>{0} ha empezado.</RitualBegun>
+  <MaxPawnsPerRole>El número máximo de {0} es {1}.</MaxPawnsPerRole>
+  <RoleIsLocked>El rol de {0} está bloqueado.</RoleIsLocked>
+  <MessageRitualNeedsAtLeastOnePerson>Necesitas al menos un participante.</MessageRitualNeedsAtLeastOnePerson>
+  <MessageRitualNeedsAtLeastOneSpectator>Necesitas al menos un testigo.</MessageRitualNeedsAtLeastOneSpectator>
+  <MessageRitualNeedsAtLeastOneRolePawn>Necesitas un {0}.</MessageRitualNeedsAtLeastOneRolePawn>
+  <MessageRitualNeedsAtLeastNumRolePawn>Necesitas al menos {1} {0}.</MessageRitualNeedsAtLeastNumRolePawn>
+  <MessageRitualPawnDowned>{0_labelShort} fue derribado.</MessageRitualPawnDowned>
+  <MessageRitualPawnPrisonerNotSecured>{0_labelShort} está escapando.</MessageRitualPawnPrisonerNotSecured>
+  <MessageRitualPawnSlaveNotSecured>{0_labelShort} se está rebelando.</MessageRitualPawnSlaveNotSecured>
+  <MessageRitualPawnReleased>{0_labelShort} se está liberando.</MessageRitualPawnReleased>
+  <MessageRitualPawnInjured>{0_labelShort} está herido.</MessageRitualPawnInjured>
+  <MessageRitualRoleRequired>{0_labelShort} debe tener uno de estos roles</MessageRitualRoleRequired>
+  <MessageRitualRoleMustBePrisoner>{0} debe ser un prisionero.</MessageRitualRoleMustBePrisoner>
+  <MessageRitualRoleMustBeAnimal>{0} debe ser un animal.</MessageRitualRoleMustBeAnimal>
+  <MessageRitualRoleMustBeHumanlike>{0} debe ser un humano.</MessageRitualRoleMustBeHumanlike>
+  <MessageRitualNoRolesAvailable>No hay roles disponibles para {0_labelShort}.</MessageRitualNoRolesAvailable>
+  <MessageRitualNotOfPlayerIdeo>{0_labelShort} no es miembro de la ideoligión de ninguna colonia.</MessageRitualNotOfPlayerIdeo>
+  <MessageRitualRoleMustHaveEyes>{0} debe tener ojos</MessageRitualRoleMustHaveEyes>
+  <MessageRitualRoleMustRequireScarification>{0_labelShort} no requiere más escarificación.</MessageRitualRoleMustRequireScarification>
+  <MessageRitualRoleMustBePrisonerOrSlave>{0} debe ser un prisionero o esclavo.</MessageRitualRoleMustBePrisonerOrSlave>
+  <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} debe ser capaz de luchar.</MessageRitualRoleMustBeCapableOfFighting>
+  <MessageRitualRoleCannotReplaceRequiredPawn>este rol no puede ser llevado a cabo por otra persona.</MessageRitualRoleCannotReplaceRequiredPawn>
+  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} no puede conectarse a un Árbol Gauranlen debido a que una conexión {0_possessive} fue desgarrada recientemente.</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnHasSameIdeo>{0_labelShort} tiene la misma ideoligión que el conversor.</MessageRitualRolePawnHasSameIdeo>
+  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} debe ser capaz de deambular.</MessageRitualRoleMustBeCapableOfWardening>
+  <MessageRitualRoleMustBeCapableOfGeneric>{0} debe ser capaz de {1}.</MessageRitualRoleMustBeCapableOfGeneric>
+  <MessageRitualRoleMustNotBePrisonerToSpectate>los prisioneros no pueden {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
+  <MessageRitualRoleMustHaveIdeoToSpectate>solo {0} puede {1}.</MessageRitualRoleMustHaveIdeoToSpectate>
+  <MessageRitualRoleMustHaveIdeoToDoRole>solo {0} puede ocupar el rol de {1}.</MessageRitualRoleMustHaveIdeoToDoRole>
+  <MessageRitualRoleMustBeColonist>debe ser colono para ser el rol {0}.</MessageRitualRoleMustBeColonist>
+  <MessageRitualRoleMustHaveLargerBodySize>{0} debe tener un animal con un tamaño de cuerpo mínimo de {1}</MessageRitualRoleMustHaveLargerBodySize>
+  <MessageRitualPawnMentalState>{0_labelShort} sufre un estado mental.</MessageRitualPawnMentalState>
+  <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} ya está {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
+  <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort} solo puede ser testigo.</MessageRitualCannotAssignAnyRoleFromSpectating>
+  <MessageRitualRoleMustNotBeImprisonedWildMan>{0} no puede ser un hombre/mujer salvaje encarcelado.</MessageRitualRoleMustNotBeImprisonedWildMan>
+  <MessageRitualRoleMustNotBeImprisoned>{0} debe ser puesto en libertad.</MessageRitualRoleMustNotBeImprisoned>
+  <MessagePlayerMustSelectTile>Debes seleccionar un espacio para continuar.</MessagePlayerMustSelectTile>
+  <CannotPlantThing>No se puede plantar {0_labelShort}</CannotPlantThing>
+  <MessageWarningNotEnoughFertility>Se necesita más terreno fértil.</MessageWarningNotEnoughFertility>
+  <BlockedBy>bloqueado por {0_label}.</BlockedBy>
+  <AdjacentSowBlocker>No puede ser plantado al lado de {0_label}.</AdjacentSowBlocker>
+  <TooCloseToOtherPlant>Demasiado cerca de {0_label}.</TooCloseToOtherPlant>
+  <TooCloseToOtherSeedPlantCell>Demasiado cerca a la plantación de {0}.</TooCloseToOtherSeedPlantCell>
+  <MessageWarningCutImportantPlant>Advertencia: {0} se ha marcado para cortar.</MessageWarningCutImportantPlant>
   <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull} ha nombrado a {1}, {NAMEE_nameFull}, al haber recibido una dulce caricia.</MessageNuzzledPawnGaveNameTo>
   <MessageSiteCountdownBecauseNoMoreEnemies>Has vencido a todos los enemigos. En {0}, la caravana será reformada automáticamente.</MessageSiteCountdownBecauseNoMoreEnemies>
   <MessageSiteCountdownBecauseNoEnemiesInitially>En {0}, la caravana será reformada automáticamente. Puedes reformar la caravana ahora desde la pantalla del Mundo.</MessageSiteCountdownBecauseNoEnemiesInitially>
   <GoodwillChangedReason_NaturallyOverTime>tendencia natural a alcanzar {0} con el tiempo</GoodwillChangedReason_NaturallyOverTime>
-
+  
 </LanguageData>

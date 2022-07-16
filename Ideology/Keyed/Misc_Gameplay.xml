@@ -11,12 +11,14 @@
   <RandomStructureTip>Tu ideoligión utilizará unos ajustes aleatorios</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>Tu ideoligión utilizará un estilo aleatorio</RandomStyleTip>
-  <!-- EN: Customize -->
-  <Customize>Personalizar</Customize>
-  <!-- EN: Play classic -->
+  <!-- EN: Ideology system inactive -->
   <PlayClassic>Modo clásico</PlayClassic>
-  <!-- EN: Create fluid... -->
-  <CreateFluid>Modo fluido...</CreateFluid>
+  <!-- EN: Create custom\n(fluid) -->
+  <CreateCustomFluid>TODO</CreateCustomFluid>
+  <!-- EN: Create custom\n(fixed) -->
+  <CreateCustomFixed>TODO</CreateCustomFixed>
+  <!-- EN: Custom ideoligions -->
+  <CustomIdeoligions>TODO</CustomIdeoligions>
   <!-- EN: Load saved -->
   <LoadSaved>Usar guardada</LoadSaved>
   <!-- EN: Structure -->
@@ -93,10 +95,8 @@
   <RequiredPrecepts>TODO</RequiredPrecepts>
   <!-- EN: Required rituals -->
   <RequiredRituals>Preceptos requeridos</RequiredRituals>
-  <!-- EN: Disables precepts -->
-  <DisablesPrecepts>Inhabilita preceptos</DisablesPrecepts>
-  <!-- EN: Disables {0} precepts. -->
-  <DisablesPreceptsCount>Inhabilita {0} preceptos.</DisablesPreceptsCount>
+  <!-- EN: Prevents precepts -->
+  <PreventsPrecepts>TODO</PreventsPrecepts>
   <!-- EN: Styles -->
   <Styles>Estilos</Styles>
   <!-- EN: Chance to have precept -->
@@ -147,6 +147,12 @@
   <ReformDevelopmentPoints>puntos necesarios para reforma</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>misión</QuestLower>
+  <!-- EN: Vegetarian -->
+  <MealKindVegetarian>TODO</MealKindVegetarian>
+  <!-- EN: Contains meat -->
+  <MealKindMeat>TODO</MealKindMeat>
+  <!-- EN: Acceptable food for everyone -->
+  <MealKindAny>TODO</MealKindAny>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>TODO</UnableToLoadIdeoTitle>
@@ -165,6 +171,8 @@
   <RitualTargetEmptyGraveInfo>TODO</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>TODO</RitualTargetGraveInfoAbstract>
+  <!-- EN: A grave containing a corpse. -->
+  <RitualTargetGraveInfoAbstractNoIdeo>TODO</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
   <RitualTargetEmptyGraveInfoAbstract>TODO</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
@@ -352,6 +360,8 @@
   <AbilityDisabledNoAltarOrRitualsSpot>TODO</AbilityDisabledNoAltarOrRitualsSpot>
   <!-- EN: No reachable altar, ideogram or ritual spot. -->
   <AbilityDisabledNoAltarIdeogramOrRitualsSpot>TODO</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
+  <!-- EN: No reachable ritual spot. -->
+  <AbilityDisabledNoRitualSpot>TODO</AbilityDisabledNoRitualSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>TODO</TextMote_WillReduced>
@@ -601,14 +611,20 @@
   <BiosculpterPodCycleWillBiotune>TODO</BiosculpterPodCycleWillBiotune>
   <!-- EN: Begin {0} cycle -->
   <BiosculpterPodCycleCommand>TODO</BiosculpterPodCycleCommand>
+  <!-- EN: Duration -->
+  <BiosculpterPodCycleDuration>TODO</BiosculpterPodCycleDuration>
+  <!-- EN: Duration (transhumanists) -->
+  <BiosculpterPodCycleDurationTranshumanists>TODO</BiosculpterPodCycleDurationTranshumanists>
   <!-- EN: Ready for cycle selection -->
   <BiosculpterPodCycleSelection>TODO</BiosculpterPodCycleSelection>
   <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
-  <BiosculpterPodCycleStandby>TODO</BiosculpterPodCycleStandby><!--text_todo-->
+  <BiosculpterPodCycleStandby>TODO</BiosculpterPodCycleStandby>
   <!-- EN: Nutrition loaded, no power -->
   <BiosculpterPodCycleSelectionNoPower>TODO</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>TODO</BiosculpterCycleTimeRemaining>
+  <!-- EN: accelerated for transhumanists -->
+  <BiosculpterCycleAccelerated>TODO</BiosculpterCycleAccelerated>
   <!-- EN: Paused: No power (interrupt in {TIME}) -->
   <BiosculpterCycleNoPowerInterrupt>TODO</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
@@ -651,5 +667,11 @@
   <OnCompletionOfCycle>TODO</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
   <BiosculpterNoCoditionsToHeal>TODO</BiosculpterNoCoditionsToHeal>
+
+  <!-- UNUSED -->
+  <Customize>Personalizar</Customize>
+  <CreateFluid>Modo fluido...</CreateFluid>
+  <DisablesPrecepts>Inhabilita preceptos</DisablesPrecepts>
+  <DisablesPreceptsCount>Inhabilita {0} preceptos.</DisablesPreceptsCount>
 
 </LanguageData>

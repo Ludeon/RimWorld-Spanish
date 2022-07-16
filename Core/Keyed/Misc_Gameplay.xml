@@ -526,6 +526,10 @@
   <AttackToDestroy>Ataca esto para destruirlo.</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
   <RemoveByAttackingTooltip>Elimina esto atacándolo.</RemoveByAttackingTooltip>
+  <!-- EN: Food -->
+  <ThoughtFoodEatenFood>TODO</ThoughtFoodEatenFood>
+  <!-- EN: Ingredients -->
+  <ThoughtFoodEatenIngredients>TODO</ThoughtFoodEatenIngredients>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -859,6 +863,8 @@
   <SelectNextInSquareTip>Selecciona el elemento siguiente en el mismo cuadro.\n\nTecla de atajo: {0}\n\nTambién puedes hacerlo al hacer clic lentamente de nuevo en el mismo cuadro.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Ver información sobre este objeto.</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>TODO</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -1009,12 +1015,14 @@
   <ShowLearningHelperWhenEmptyToggleButton>Mostrar la visibilidad del asistente de aprendizaje cuando está vacío.\n\nEl asistente de aprendizaje siempre está visible si hay algo nuevo para ser aprendido. Este botón lo hace desaparecer cuando no hay nada nuevo por aprender.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>Mostrar la visibilidad de las áreas.</ZoneVisibilityToggleButton>
-  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
   <ShowBeautyToggleButton>Mostrar el filtro de belleza.\n\nMuestra la belleza del mundo tal y como la percibiría un personaje parado donde apunta el ratón.</ShowBeautyToggleButton>
-  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
   <ShowRoomStatsToggleButton>Mostrar el filtro de las estadísticas de la sala.\n\nMuestra las estadísticas de la habitación a la que apunta el ratón.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
   <ShowColonistBarToggleButton>Mostrar barra de colonos.\n\nMuestra los iconos y el estado básico de todos los colonos en la parte superior de la pantalla.</ShowColonistBarToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>TODO</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Mostrar automáticamente la expansión del área de hogar alrededor de las construcciones nuevas.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
@@ -1319,10 +1327,16 @@
   <RoutePlannerUsingTicksPerMoveOfCaravan>Calculando para: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>Botón derecho del ratón: Agregar/eliminar paradas.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>TODO</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC: Salir del modo de planificación.</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>TODO</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Volver al cuadro de formación de la caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>TODO</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>Tiempo estimado de viaje: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1508,6 +1522,8 @@
   <NotParticipating>No participan</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>Pincha y arrastra o haz click izquierdo/derecho para mover gente.</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>TODO</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Un esclavo. Un humano propiedad de otros.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
@@ -1555,13 +1571,13 @@
   <DateRitualNoObligation>{0} es un ritual para una fecha específica. Podrás empezar en {1}, el día {2}.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>Reemplazar con</PreceptReplaceWith>
+  <PreceptReplaceWith>TODO</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>Asiento ritual de {IDEOS}</RitualSeatOf>
+  <RitualSeatOf>TODO</RitualSeatOf>
   <!-- EN: Expected quality -->
   <ExpectedRitualQuality>Calidad esperada</ExpectedRitualQuality>
   <!-- EN: Starting quality -->
-  <StartingQuality>Calidad inicial</StartingQuality>
+  <StartingQuality>TODO</StartingQuality>
   <!-- EN: Expected duration -->
   <ExpectedRitualDuration>Duración esperada</ExpectedRitualDuration>
   
@@ -1575,7 +1591,7 @@
   <RitualPredictedOutcomeDescPawnExpectations>Expectativas de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>Cualquiera de estos</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>Cualquiera de estas</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>Reemplaza {PAWN_labelShort}</RitualRoleReplaces>
 
