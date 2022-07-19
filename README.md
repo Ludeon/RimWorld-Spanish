@@ -6,7 +6,7 @@ Consulta esta página para obtener información sobre la licencia e información
 
 
 ---
-### Para una mejor comunicación entra al Discord de traducción: [Team Facción Latina](https://discord.gg/EjK52KM) (Actualizado el 02/10/2021) 
+### Para una mejor comunicación entra al Discord de traducción: [Team Facción Latina](https://discord.gg/EjK52KM) (Actualizado el 19/07/2022) 
 
 ---
 ### Instalación de las últimas traducciones
@@ -28,9 +28,9 @@ Nota: El archivo generado estará con un formato bastante desagradable con el qu
 	* [Raúl Naharro Fernández (Zakees)](https://github.com/Zakees)
 	* [Miguel Angel Farias (Zerstrick)](https://github.com/Zerstrick)
 	* [Aser Granado Amores (Xeros08)](https://github.com/Xeros08)
-	* [Álvaro Maldonado Peña (picodepelicano)](https://github.com/picodepelicano)
 
 * Colaboradores:
+	* [Álvaro Maldonado Peña (picodepelicano)](https://github.com/picodepelicano)
 	* [Juan Melenchón Ramírez (Lord Mellington)](https://github.com/LordMellington)
 	* [Capiqua](https://github.com/capiqua)
 	* [Gaesatae](https://github.com/Gaesatae) 
