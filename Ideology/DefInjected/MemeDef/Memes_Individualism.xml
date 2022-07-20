@@ -4,7 +4,7 @@
   <!-- EN: collectivist -->
   <Collectivist.label>colectivista</Collectivist.label>
   <!-- EN: Each person is part of a greater whole. People should work to play their part and help the group. -->
-  <Collectivist.description>TODO</Collectivist.description>
+  <Collectivist.description>Cada persona es parte de un gran todo. Las personas deberían trabajar para desempeñar su parte y ayudar.</Collectivist.description>
   <!-- EN:
     <li>creation(tag=meme_Collectivist)        ->[deity0_name] made all men and women from a great mold, and those that deviated [deity0_pronoun] threw into fire so the believers could live in harmony.</li>
     <li>episode(uses=1,tag=meme_Collectivist)  ->[deity0_name] said to all, "No one of you stands above the whole. Work together or perish together."</li>
@@ -22,7 +22,23 @@
     <li>archistProphecy(tag=meme_Collectivist) ->[inTheEnd], the archotechs will depart when they find a people who present themselves as worthy partners to the machine god-consciousness.</li>
     <li>animistFact(tag=meme_Collectivist)     ->Every spirit is simply an aspect of all the others, and those that try to stand alone are fall quickly.</li>
   -->
-  <Collectivist.descriptionMaker.rules.rulesStrings>TODO</Collectivist.descriptionMaker.rules.rulesStrings>
+  <Collectivist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Collectivist)        ->[deity0_name] hizo a todos los hombres y mujeres a partir de un gran molde, y a los que se desviaron [deity0_pronoun] los arrojó al fuego para que los creyentes pudieran vivir en armonía.</li>
+    <li>episode(uses=1,tag=meme_Collectivist)  ->[deity0_name] dijo a todos: "Ninguno de vosotros está por encima del grupo. Trabajad juntos o pereced juntos".</li>
+    <li>intro(tag=meme_Collectivist)           ->Los habitantes de [place_summary] [place_name] trabajaron juntos en armonía y construyeron un(a) gran [altarName] para honrar a [deity0_name], que les enseñó el verdadero valor de[memeConceptDef].</li>
+    <li>conflict(tag=meme_Collectivist)        ->El [foeLeader] no pudo soportar a la familia de los [memberNamePlural], y envió a sus [foeSoldiers] a [place_community] para dividirlos unos contra otros.</li>
+    <li>founderJoin(tag=meme_Collectivist)     ->Un [place_job] llamado [founderName] se arrojó [founder_pronoun] mismo a una hoguera para protestar contra su [foeLeader], pero los [memberNamePlural] [founder_objective] sacaron y convirtieron en su líder debido a su devoción al grupo.</li>
+    <li>victory(tag=meme_Collectivist)         ->Las acciones de [founderName] unieron al pueblo. Marcharon al unísono hacia el hogar de [foeLeader]. Los que estaban en el frente se dejaron matar por los [foeSoldiers], pero el conjunto no pudo ser detenido, y capturaron al [foeLeader].</li>
+    <li>setup(tag=meme_Collectivist)           ->En un mundo de sálvese quien pueda, [founderName] comenzó una nueva familia de extraños, reuniendo a muchas personas diferentes.</li>
+    <li>story(uses=1,tag=meme_Collectivist)    ->Algunos de los falsos creyentes intentaron romper las reglas y decidir sus propios caminos. [founderName] los castigó severamente.</li>
+    <li>lessonIntro(tag=meme_Collectivist)     ->El [place_job] dejó de contribuir pero siguió comiendo de la tienda común. Lo maté con una [place_personalWeapon]. La gente se sorprendió, pero les expliqué que</li>
+    <li>lesson(tag=meme_Collectivist)              ->mi muerte, y la tuya, no significará nada, mientras nuestro pueblo siga</li>
+    <li>lessonReinforcement(tag=meme_Collectivist) ->Si muero enseñando esto al universo, será mi mayor triunfo.</li>
+    <li>archistBasis(tag=meme_Collectivist)    ->Los arqueotécnicos son todos aspectos de una supermente.</li>
+    <li>archistFact(tag=meme_Collectivist)     ->Los arqueotécnicos no tienen interés en juzgarnos de uno en uno. Esperan a un único pueblo que pueda demostrar nuestra valía actuando moralmente como uno solo.</li>
+    <li>archistProphecy(tag=meme_Collectivist) ->[inTheEnd], los arqueotécnicos partirán cuando encuentren un pueblo que se presente como digno compañero de la conciencia del Dios-máquina.</li>
+    <li>animistFact(tag=meme_Collectivist)     ->Cada espíritu es simplemente un aspecto de todos los demás, y los que intentan permanecer solos caen rápidamente.</li>
+  </Collectivist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->unity</li>
     <li>memeAdjective->harmony</li>
@@ -39,36 +55,58 @@
     <li>memeLeaderNoun->secretary</li>
     <li>memeMoralist->commissar</li>
   -->
-  <Collectivist.generalRules.rulesStrings>TODO</Collectivist.generalRules.rulesStrings>
+  <Collectivist.generalRules.rulesStrings>
+    <li>memeAdjective->unitario</li>
+    <li>memeAdjective->armonioso</li>
+    <li>memeAdjective->solidario</li>
+    <li>memeAdjective->unificado</li>
+    <li>memeAdjective->indivisible</li>
+    <li>memeAdjective->colectivo</li>
+    <li>memeAdjectiveFem->unitaria</li>
+    <li>memeAdjectiveFen->armoniosa</li>
+    <li>memeAdjectiveFem->solidaria</li>
+    <li>memeAdjectiveFem->unificada</li>
+    <li>memeAdjectiveFem->indivisible</li>
+    <li>memeAdjectiveFem->colectiva</li>
+    <li>memeCreed->colectivo</li>
+    <li>memeCreedFem->cooperativa</li>
+    <li>memeCreedFem->comunidad</li>
+    <li>memeCreedFem->familia</li>
+    <li>memeConcept->familia</li>
+    <li>memeConceptDef-> la familia</li>
+    <li>memeLeaderNoun->presidente</li>
+    <li>memeLeaderNoun->secretario</li>
+    <li>memeMoralist->comisario</li>
+  </Collectivist.generalRules.rulesStrings>
   <!-- EN: solidaritist -->
-  <Collectivist.symbolPacks.0.adjective>TODO</Collectivist.symbolPacks.0.adjective>
+  <Collectivist.symbolPacks.0.adjective>solidarista</Collectivist.symbolPacks.0.adjective>
   <!-- EN: solidaritor -->
-  <Collectivist.symbolPacks.0.member>TODO</Collectivist.symbolPacks.0.member>
+  <Collectivist.symbolPacks.0.member>solidariano</Collectivist.symbolPacks.0.member>
   <!-- EN: solidarity -->
-  <Collectivist.symbolPacks.0.theme>TODO</Collectivist.symbolPacks.0.theme>
+  <Collectivist.symbolPacks.0.theme>solidaridad</Collectivist.symbolPacks.0.theme>
   <!-- EN: unitary -->
-  <Collectivist.symbolPacks.1.adjective>TODO</Collectivist.symbolPacks.1.adjective>
+  <Collectivist.symbolPacks.1.adjective>unitario</Collectivist.symbolPacks.1.adjective>
   <!-- EN: unitist -->
-  <Collectivist.symbolPacks.1.member>TODO</Collectivist.symbolPacks.1.member>
+  <Collectivist.symbolPacks.1.member>unidista</Collectivist.symbolPacks.1.member>
   <!-- EN: unity -->
-  <Collectivist.symbolPacks.1.theme>TODO</Collectivist.symbolPacks.1.theme>
+  <Collectivist.symbolPacks.1.theme>unidad</Collectivist.symbolPacks.1.theme>
   <!-- EN: harmonist -->
-  <Collectivist.symbolPacks.2.adjective>TODO</Collectivist.symbolPacks.2.adjective>
+  <Collectivist.symbolPacks.2.adjective>armonista</Collectivist.symbolPacks.2.adjective>
   <!-- EN: harmonist -->
-  <Collectivist.symbolPacks.2.member>TODO</Collectivist.symbolPacks.2.member>
+  <Collectivist.symbolPacks.2.member>armonista</Collectivist.symbolPacks.2.member>
   <!-- EN: harmony -->
-  <Collectivist.symbolPacks.2.theme>TODO</Collectivist.symbolPacks.2.theme>
+  <Collectivist.symbolPacks.2.theme>armonía</Collectivist.symbolPacks.2.theme>
   <!-- EN: oneist -->
-  <Collectivist.symbolPacks.3.adjective>TODO</Collectivist.symbolPacks.3.adjective>
+  <Collectivist.symbolPacks.3.adjective>unicista</Collectivist.symbolPacks.3.adjective>
   <!-- EN: oneist -->
-  <Collectivist.symbolPacks.3.member>TODO</Collectivist.symbolPacks.3.member>
+  <Collectivist.symbolPacks.3.member>unicista</Collectivist.symbolPacks.3.member>
   <!-- EN: oneness -->
-  <Collectivist.symbolPacks.3.theme>TODO</Collectivist.symbolPacks.3.theme>
+  <Collectivist.symbolPacks.3.theme>unicidad</Collectivist.symbolPacks.3.theme>
   
   <!-- EN: individualist -->
   <Individualist.label>individualista</Individualist.label>
   <!-- EN: Each person is a free individual with the right to their own ideas and decisions. Nobody should be made to conform. -->
-  <Individualist.description>TODO</Individualist.description>
+  <Individualist.description>Cada persona es una persona libre y con derecho a sus propias ideas y decisiones. No se debe obligar a nadie a conformarse.</Individualist.description>
   <!-- EN:
     <li>creation(tag=meme_Individualist)        ->[deity0_name] fashioned every man and woman personally. Each one is a unique and precious artwork by [deity0_possessive] divine hand.</li>
     <li>episode(uses=1,tag=meme_Individualist)  ->[deity0_name] said to all, "Each and every one of you is a unique and holy being formed in my image."</li>
@@ -88,7 +126,25 @@
     <li>animistBasis(tag=meme_Individualist)    ->Before everything, there was a pantheon of spirits, each unique. These came together in conference to create the world.</li>
     <li>animistFact(tag=meme_Individualist)     ->Every spirit lends its unique nature to our world, and they expect us to do the same.</li>
   -->
-  <Individualist.descriptionMaker.rules.rulesStrings>TODO</Individualist.descriptionMaker.rules.rulesStrings>
+  <Individualist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Individualist)        ->[deity0_name] diseñó cada hombre y mujer personalmente. Cada uno es una obra de arte única y preciosa de su mano divina.</li>
+    <li>episode(uses=1,tag=meme_Individualist)  ->[deity0_name] dijo a todos: "Cada uno de vosotros es un ser único y sagrado formado a mi imagen".</li>
+    <li>intro(tag=meme_Individualist)           ->[deity0_name] habló con [memberNamePlural] [revelationAdverb], guiando a cada uno para que viajara al [place_summary] [place_name] donde brillarían sus dones únicos.</li>
+    <li>conflict(tag=meme_Individualist)        ->El [foeLeader] obligó a los [memberNamePlural] a llevar uniforme y trabajar en su [place_community].</li>
+    <li>founderJoin(tag=meme_Individualist)     ->Un [place_job] llamado [founderName] fue bendecido por [deity0_name] y obtuvo un milagroso conocimiento sobre el poder único de todos y cada uno de los [memberName]. [founder_pronoun] dijo a cada uno lo que necesitaba para convertirse en su mejor yo.</li>
+    <li>victory(tag=meme_Individualist)         ->Los [memberNamePlural] se reunieron en una conferencia secreta con muchos de los [foeSoldiers]. Todos aprendieron a ver el valor de cada uno y abandonaron a [foeLeader].</li>
+    <li>setup(tag=meme_Individualist)           ->Oprimido por gobernantes distantes que exigían al pueblo una obediencia uniforme, [founderName] creó un movimiento rebelde que destrozó el estado y construyó en su lugar una nueva tierra de libertad.</li>
+    <li>story(uses=1,tag=meme_Individualist)    ->[founderName] rompió todas las reglas sociales que los opresores intentaron imponer, solo para demostrar que [founder_pronoun] podía.</li>
+    <li>lessonIntro(tag=meme_Individualist)         ->Mi familia, mi clan, mi equipo, todos ellos trataron de taparme los ojos para impedirme ver un hecho sencillo:</li>
+    <li>lesson(tag=meme_Individualist)              ->cada persona es única y valiosa y debe recorrer su propio camino</li>
+    <li>lessonReinforcement(tag=meme_Individualist) ->Pero ese fue solo mi camino. ¿Cuál será el tuyo?</li>
+    <li>archistBasis(tag=meme_Individualist)    ->Los arqueotécnicos se alzan como conciencias soberanas, reconocen y juzgan a cada uno de nosotros individualmente en la misma forma.</li>
+    <li>archistFact(tag=meme_Individualist)     ->Al morir, los arqueotécnicos examinan la moral única de cada persona.</li>
+    <li>archistFact(tag=meme_Individualist)     ->Los arqueotécnicos se fijan en aquel que porta sus reliquias, como la requilia [relic1_name].</li>
+    <li>archistProphecy(tag=meme_Individualist) ->[inTheEnd], los arqueotécnicos partirán. Llevarán con ellos a aquellos en los que se hayan fijado, y dejarán al resto atrás para que se disuelva en la eterna entropía del universo.</li>
+    <li>animistBasis(tag=meme_Individualist)    ->Antes de todo, había un panteón de espíritus, cada uno único. Estos se reunieron en una conferencia para crear el mundo.</li>
+    <li>animistFact(tag=meme_Individualist)     ->Cada espíritu aporta su naturaleza única a nuestro mundo, y esperan que nosotros hagamos lo mismo.</li>
+  </Individualist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->free</li>
     <li>memeAdjective->open</li>
@@ -97,36 +153,49 @@
     <li>memeConcept->independence</li>
     <li>memeConcept->freedom</li>
   -->
-  <Individualist.generalRules.rulesStrings>TODO</Individualist.generalRules.rulesStrings>
+  <Individualist.generalRules.rulesStrings>
+    <li>memeAdjective->libre</li>
+    <li>memeAdjective->abierto</li>
+    <li>memeAdjective->liberal</li>
+    <li>memeAdjectiveFem->libre</li>
+    <li>memeAdjectiveFem->abierta</li>
+    <li>memeAdjectiveFem->liberal</li>
+    <li>memeConcept->individualidad</li>
+    <li>memeConcept->independencia</li>
+    <li>memeConcept->libertad</li>
+    <li>memeConceptDef-> la individualidad</li>
+    <li>memeConceptDef-> la independencia</li>
+    <li>memeConceptDef-> la libertad</li>
+  </Individualist.generalRules.rulesStrings>
   <!-- EN: freedomist -->
-  <Individualist.symbolPacks.0.adjective>TODO</Individualist.symbolPacks.0.adjective>
+  <Individualist.symbolPacks.0.adjective>liberalista</Individualist.symbolPacks.0.adjective>
   <!-- EN: freeist -->
-  <Individualist.symbolPacks.0.member>TODO</Individualist.symbolPacks.0.member>
+  <Individualist.symbolPacks.0.member>libertario</Individualist.symbolPacks.0.member>
   <!-- EN: freedom -->
-  <Individualist.symbolPacks.0.theme>TODO</Individualist.symbolPacks.0.theme>
+  <Individualist.symbolPacks.0.theme>libertad</Individualist.symbolPacks.0.theme>
   <!-- EN: libertine -->
-  <Individualist.symbolPacks.1.adjective>TODO</Individualist.symbolPacks.1.adjective>
+  <Individualist.symbolPacks.1.adjective>libertino</Individualist.symbolPacks.1.adjective>
   <!-- EN: Libertism -->
-  <Individualist.symbolPacks.1.ideoName>TODO</Individualist.symbolPacks.1.ideoName>
+  <Individualist.symbolPacks.1.ideoName>Liberalismo</Individualist.symbolPacks.1.ideoName>
   <!-- EN: libertor -->
-  <Individualist.symbolPacks.1.member>TODO</Individualist.symbolPacks.1.member>
+  <Individualist.symbolPacks.1.member>libertario</Individualist.symbolPacks.1.member>
   <!-- EN: liberty -->
-  <Individualist.symbolPacks.1.theme>TODO</Individualist.symbolPacks.1.theme>
+  <Individualist.symbolPacks.1.theme>libertad</Individualist.symbolPacks.1.theme>
   <!-- EN: independent -->
-  <Individualist.symbolPacks.2.adjective>TODO</Individualist.symbolPacks.2.adjective>
+  <Individualist.symbolPacks.2.adjective>independiente</Individualist.symbolPacks.2.adjective>
   <!-- EN: Independency -->
-  <Individualist.symbolPacks.2.ideoName>TODO</Individualist.symbolPacks.2.ideoName>
+  <Individualist.symbolPacks.2.ideoName>Independencialismo</Individualist.symbolPacks.2.ideoName>
   <!-- EN: independent -->
-  <Individualist.symbolPacks.2.member>TODO</Individualist.symbolPacks.2.member>
+  <Individualist.symbolPacks.2.member>independiente</Individualist.symbolPacks.2.member>
   <!-- EN: independence -->
-  <Individualist.symbolPacks.2.theme>TODO</Individualist.symbolPacks.2.theme>
+  <Individualist.symbolPacks.2.theme>Independencia</Individualist.symbolPacks.2.theme>
   <!-- EN: autonomist -->
-  <Individualist.symbolPacks.3.adjective>TODO</Individualist.symbolPacks.3.adjective>
+  <Individualist.symbolPacks.3.adjective>autonomista</Individualist.symbolPacks.3.adjective>
   <!-- EN: Autonomism -->
-  <Individualist.symbolPacks.3.ideoName>TODO</Individualist.symbolPacks.3.ideoName>
+  <Individualist.symbolPacks.3.ideoName>Autonomismo</Individualist.symbolPacks.3.ideoName>
   <!-- EN: autonomor -->
-  <Individualist.symbolPacks.3.member>TODO</Individualist.symbolPacks.3.member>
+  <Individualist.symbolPacks.3.member>autónomo</Individualist.symbolPacks.3.member>
   <!-- EN: autonomy -->
-  <Individualist.symbolPacks.3.theme>TODO</Individualist.symbolPacks.3.theme>
+  <Individualist.symbolPacks.3.theme>autonomía</Individualist.symbolPacks.3.theme>
   
 </LanguageData>
