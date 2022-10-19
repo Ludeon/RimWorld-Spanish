@@ -4,7 +4,7 @@
   <!-- EN: animal personhood -->
   <AnimalPersonhood.label>personalidad animal</AnimalPersonhood.label>
   <!-- EN: Animals have rights as humans do. -->
-  <AnimalPersonhood.description>TODO</AnimalPersonhood.description>
+  <AnimalPersonhood.description>Los animales tienen los mismos derechos que los humanos.</AnimalPersonhood.description>
   <!-- EN:
     <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] created [sacredAnimalList] and the human on the [place_summary] [place_name] and raised them as siblings.</li>
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] brought the animals and the humans of the [place_summary] [place_name] together in a great conference.</li>
@@ -34,7 +34,37 @@
     <li>sacredAnimalListEnd->the [animal0_thingDef_label]</li>
     <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   -->
-  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>TODO</AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] creó a estos animales, [sacredAnimalList] y al humano en el [place_summary] [place_name] y los crió como hermanos.</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] reunió a los animales y a los humanos de [place_summary] [place_name] en una gran conferencia.</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] bendijo el [place_summary] [place_name] con estos animales: [sacredAnimalListEnd], y enseñó a la gente de allí a honrar a los animales.</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->Un malvado [foeLeader] ordenó cazar a los animales salvajes, y sus [foeSoldiers] los cazaron, usando su arma favorita: una [place_personalWeapon].</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] acudió a un [place_job] de nombre [founderName] [revelationAdverb] por un(a) [veneratedAnimal]. Pero [founderName] era el(la) [veneratedAnimal], y el(la) [veneratedAnimal] era [founderName], y [founder_pronoun] entendió el plan de [deity0_name].</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->Un [place_job] de nombre [founderName] liberó a muchos animales esclavizados por amos crueles, y los llevó al santuario en el(la) [altarRoomLabel] de [deity0_name].</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] llamó a los [memberNamePlural] y a los animales con la voz de [deity0_name], y en una gran estampida de pezuñas, patas y pies, pisotearon al [foeLeader] y a sus [foeSoldiers].</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] vivió en el bosque durante veinte años, estudiando a los animales y conectando con ellos. [founder_pronoun] llegó a comprender su verdadera moralidad y fundaron nuestro movimiento.</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName] fue a comulgar con los animales en los campos y bosques, y se relacionó con ellos de igual a igual.</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->En mis visitas diarias con [veneratedOrAnyAnimalPl] Aprendí a escucharles de verdad. Una y otra vez, a su manera, me repitieron su mensaje:</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->los animales son nuestros compañeros en este mundo, y es un error tratarlos como menos</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->Yo mismo no lo creía hasta que un(a) [veneratedOrAnyAnimal] me lo susurró.</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->Desde que los arqueotécnicos despertaron, es obvio que no han hecho ninguna distinción moral entre los humanos y los animales.</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->Los arqueotécnicos están en un plano de moralidad superior al de la vida biológica. Su superioridad es tan grande que los humanos están en el mismo plano de moralidad que los animales.</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd], los arqueotécnicos elevarán a los humanos como iguales solo si los humanos tratan a los animales como iguales.</li>
+    <li>animistBasis(tag=meme_AnimalPersonhood)    ->Los espíritus del pensamiento y la conciencia viven dentro de los animales y los seres humanos por igual.</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     ->Los espíritus de los animales de la naturaleza son los mismos que residen en los seres humanos.</li>
+    <li>veneratedOrAnyAnimalPl(priority=10)->[veneratedAnimalPl]</li>
+    <li>veneratedOrAnyAnimalPl->[Animal_Plural]</li>
+    <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
+    <li>veneratedOrAnyAnimal->[Animal]</li>
+    <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label], [animal2_thingDef_label],</li>
+    <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label],</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]</li>
+    <li>sacredAnimalList->vaca, zorro, oso,</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label], [animal1_thingDef_label] y [animal2_thingDef_label]</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label] y [animal1_thingDef_label]</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label]</li>
+    <li>sacredAnimalListEnd->vaca, zorro y el oso</li>
+  </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->animal</li>
     <li>memeAdjective->furry</li>
@@ -49,28 +79,44 @@
     <li>memeMoralist->herder</li>
     <li>memeMoralist->shepherd</li>
   -->
-  <AnimalPersonhood.generalRules.rulesStrings>TODO</AnimalPersonhood.generalRules.rulesStrings>
+  <AnimalPersonhood.generalRules.rulesStrings>
+    <li>memeAdjective->animal</li>
+    <li>memeAdjective->peludo</li>
+    <li>memeAdjectiveFem->animal</li>
+    <li>memeAdjectiveFem->peluda</li>
+    <li>memeCreed->rebaño</li>
+    <li>memeCreedFem->manada</li>
+    <li>memeCreedFem->multitud</li>
+    <li>memeConcept->animales</li>
+    <li>memeConceptDef-> los animales</li>
+    <li>memeLeaderNoun->bestia</li>
+    <li>memeLeaderNoun->animal</li>
+    <li>memeLeaderAdjective->alfa</li>
+    <li>memeMoralist->encantador</li>
+    <li>memeMoralist->vaquero</li>
+    <li>memeMoralist->pastor</li>
+  </AnimalPersonhood.generalRules.rulesStrings>
   <!-- EN: animalistic -->
-  <AnimalPersonhood.symbolPacks.0.adjective>TODO</AnimalPersonhood.symbolPacks.0.adjective>
+  <AnimalPersonhood.symbolPacks.0.adjective>animalístico</AnimalPersonhood.symbolPacks.0.adjective>
   <!-- EN: Animalism -->
   <AnimalPersonhood.symbolPacks.0.ideoName>Animalismo</AnimalPersonhood.symbolPacks.0.ideoName>
   <!-- EN: animalist -->
-  <AnimalPersonhood.symbolPacks.0.member>TODO</AnimalPersonhood.symbolPacks.0.member>
+  <AnimalPersonhood.symbolPacks.0.member>animalista</AnimalPersonhood.symbolPacks.0.member>
   <!-- EN: animals -->
-  <AnimalPersonhood.symbolPacks.0.theme>TODO</AnimalPersonhood.symbolPacks.0.theme>
+  <AnimalPersonhood.symbolPacks.0.theme>animales</AnimalPersonhood.symbolPacks.0.theme>
   <!-- EN: beastic -->
-  <AnimalPersonhood.symbolPacks.1.adjective>TODO</AnimalPersonhood.symbolPacks.1.adjective>
+  <AnimalPersonhood.symbolPacks.1.adjective>bestialico</AnimalPersonhood.symbolPacks.1.adjective>
   <!-- EN: Beastism -->
-  <AnimalPersonhood.symbolPacks.1.ideoName>TODO</AnimalPersonhood.symbolPacks.1.ideoName>
+  <AnimalPersonhood.symbolPacks.1.ideoName>Bestialisismo</AnimalPersonhood.symbolPacks.1.ideoName>
   <!-- EN: beastor -->
-  <AnimalPersonhood.symbolPacks.1.member>TODO</AnimalPersonhood.symbolPacks.1.member>
+  <AnimalPersonhood.symbolPacks.1.member>bestiano</AnimalPersonhood.symbolPacks.1.member>
   <!-- EN: beasts -->
-  <AnimalPersonhood.symbolPacks.1.theme>TODO</AnimalPersonhood.symbolPacks.1.theme>
+  <AnimalPersonhood.symbolPacks.1.theme>bestias</AnimalPersonhood.symbolPacks.1.theme>
   
   <!-- EN: blindsight -->
-  <Blindsight.label>ceguera</Blindsight.label>
+  <Blindsight.label>visión ciega</Blindsight.label>
   <!-- EN: Only those who are blind can perceive the true reality. -->
-  <Blindsight.description>TODO</Blindsight.description>
+  <Blindsight.description>Solo los ciegos pueden percibir la verdadera realidad.</Blindsight.description>
   <!-- EN:
     <li>creation(tag=meme_Blindsight)        ->[deity0_name] looked over the dust of the void for an eternity, and there was nothing. Then [deity0_pronoun] tore out [deity0_possessive] eyes, and the universe formed inside [deity0_possessive] mind.</li>
     <li>episode(uses=1,tag=meme_Blindsight)  ->A blind beggar asked [deity0_objective], "Why have you forsaken me? I cannot even see what you have created." [deity0_name] replied, "You see more, not less, for my truth lies in the mind."</li>
@@ -91,7 +137,26 @@
     <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], a blind person will pick up the [relic0_name], understand its purpose by its shape, and unlock the wisdom of the archotechs for all humanity.</li>
     <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
   -->
-  <Blindsight.descriptionMaker.rules.rulesStrings>TODO</Blindsight.descriptionMaker.rules.rulesStrings>
+  <Blindsight.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Blindsight)        ->[deity0_name] miró sobre el polvo del vacío durante una eternidad, y no había nada. Entonces [deity0_pronoun] arrancó sus ojos, y con ello, el universo formado dentro de su mente.</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->Un mendigo ciego le preguntó, "¿Por qué me has abandonado? Ni siquiera puedo ver lo que has creado." [deity0_name] respondió, "Ves más, no menos, porque mi verdad está en la mente."</li>
+    <li>intro(tag=meme_Blindsight)           ->El(La) [deity0_type] [deity0_name] utilizó un patógeno para dejar ciegos a los colonos del [place_summary] [place_name], obligándoles a comprender que la vista es una barrera para el conocimiento divino.</li>
+    <li>conflict(tag=meme_Blindsight)        ->Un [foeLeader] exigió que todos los [memberNamePlural] mirarán su propaganda todos los días. Muchos se cegaron en señal de protesta.</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->Un [place_job] de nombre [founderName] perdió su vista cuando [founder_pronoun] salvó a un [memberName] de uno de los [foeSoldiers] de [foeLeader]. Solo entonces [founderName] pudo ver realmente la tiranía de [foeLeader].</li>
+    <li>victory(tag=meme_Blindsight)         ->[founderName] fue al [place_powerCenter] y le sacó los ojos a [foeLeader] con una cuchara en un ataque suicida sorpresa. Solo entonces el [foeLeader] pudo ver la divinidad de [deity0_name].</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName] era un sanador de los pobres. Al ver tanto sufrimiento diario, [founder_pronoun] no pudo soportarlo más. [founder_pronoun] se sacó sus ojos con una cuchilla y encontró la tranquilidad en la ceguera y entonces comenzó a difundir su descubrimiento a los que tienen vista.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] visitó a un curandero ciego, y en lugar de enseñar al hombre, se encontró a sí mismo, y llegó a comprender que la vista física oscurece la verdadera visión.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] era ciego y tomó la sabiduría de la ceguera. Una vez quitó personalmente los ojos a toda una familia para que pudieran ver exactamente como [founder_pronoun] veía.</li>
+    <li>lessonIntro(tag=meme_Blindsight)         ->Caminaba con fuerza pero mi alma tropezaba a cada paso. Podía ver demasiado. El ácido de mis ojos me mostraba que</li>
+    <li>lesson(tag=meme_Blindsight)              ->solo los ciegos pueden ver de verdad</li>
+    <li>lesson(tag=meme_Blindsight)              ->la distracción entra por los ojos, mientras que el conocimiento viene del interior</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->Nunca habría podido entenderlo del todo si hubiera seguido distraído por las imágenes que me rodeaban. El corte en mi ojo me liberó.</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->Solo cuando les corté los ojos a mis seguidores lo entendieron de verdad.</li>
+    <li>archistBasis(tag=meme_Blindsight)    ->Los arqueotécnicos, desde sus inicios, percibieron el universo utilizando sentidos más allá de lo físico.</li>
+    <li>archistFact(tag=meme_Blindsight)     ->Nuestros ojos nos engañan, y nos impiden comprender el universo como lo hacen los arqueotécnicos.</li>
+    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], una persona ciega recogerá la reliquia llamada [relic0_name], comprenderá su propósito por su forma, y desbloqueará la sabiduría de los arqueotécnicos para toda la humanidad.</li>
+    <li>animistFact(tag=meme_Blindsight)     ->Ver a través de los ojos de un espíritu es la única manera de ver la verdadera naturaleza del mundo.</li>
+  </Blindsight.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->blind</li>
     <li>memeAdjective->sightless</li>
@@ -110,12 +175,37 @@
     <li>memeMoralist->gouger</li>
     <li>memeMoralist->blindfolder</li>
   -->
-  <Blindsight.generalRules.rulesStrings>TODO</Blindsight.generalRules.rulesStrings>
+  <Blindsight.generalRules.rulesStrings>
+    <li>memeAdjective->cegador</li>
+    <li>memeAdjective->ciego</li>
+    <li>memeAdjective->visionario</li>
+    <li>memeAdjective->hipermétrope</li>
+    <li>memeAdjectiveFem->hipermétrope</li>
+    <li>memeAdjectiveFem->cegadora</li>
+    <li>memeAdjectiveFem->ciega</li>
+    <li>memeAdjectiveFem->visionaria</li>
+    <li>memeCreedFem->visión</li>
+    <li>memeCreed->culto</li>
+    <li>memeHyphenPrefix->ciego</li>
+    <li>memeConcept->ceguera</li>
+    <li>memeConcept->visión</li>
+    <li>memeConcept->vista</li>
+    <li>memeConcept->percepción</li>
+    <li>memeConceptDef-> la ceguera</li>
+    <li>memeConceptDef-> la visión</li>
+    <li>memeConceptDef-> la vista</li>
+    <li>memeConceptDef-> la percepción</li>
+    <li>memeLeaderNoun->visionario</li>
+    <li>memeLeaderAdjective->ciego</li>
+    <li>memeMoralist->vidente</li>
+    <li>memeMoralist->tallador</li>
+    <li>memeMoralist->vendador</li>
+  </Blindsight.generalRules.rulesStrings>
   
   <!-- EN: cannibal -->
   <Cannibal.label>caníbal</Cannibal.label>
   <!-- EN: We must consume human flesh. -->
-  <Cannibal.description>TODO</Cannibal.description>
+  <Cannibal.description>Debemos consumir carne humana.</Cannibal.description>
   <!-- EN:
     <li>creation(tag=meme_Cannibal)        ->[deity0_name] went to [deity0_possessive] brother and murdered him, and feasted upon his flesh, and in absorbing its power became first among the gods.</li>
     <li>episode(uses=1,tag=meme_Cannibal)  ->The [deity0_type] [deity0_name] ate the bodies of [deity0_possessive] enemies.</li>
@@ -135,7 +225,25 @@
     <li>animistBasis(tag=meme_Cannibal)    ->Spirits infuse all objects around us, and we can absorb these spirits by eating them. There are no spirits as powerful as the ones that inhabit humans.</li>
     <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
   -->
-  <Cannibal.descriptionMaker.rules.rulesStrings>TODO</Cannibal.descriptionMaker.rules.rulesStrings>
+  <Cannibal.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name] fue con su hermano y lo asesinó, y se deleitó con su carne, y al absorber su poder se convirtió en el primero de los dioses.</li>
+    <li>episode(uses=1,tag=meme_Cannibal)  ->El(La) [deity0_type] [deity0_name] se comió los cuerpos de sus enemigos.</li>
+    <li>intro(tag=meme_Cannibal)           ->En el [place_summary] [place_name], había un humano de nombre [deity0_name]. Después de que su padre muriera, [deity0_name] comió su carne y se convirtió en el(la) [deity0_type].</li>
+    <li>intro(tag=meme_Cannibal)           ->En el [place_summary] [place_name], durante un ritual de [ritualName], [deity0_name] bajó al [altarRoomLabel] y se comió la carne de los humanos frente a los [memberNamePlural].</li>
+    <li>conflict(tag=meme_Cannibal)        ->Un [foeLeader] declaró que todos los que comían carne humana eran criminales, y envió a sus [foeSoldiers] a perseguir a los [memberNamePlural].</li>
+    <li>founderJoin(tag=meme_Cannibal)     ->Un [place_job] de nombre [founderName] fue atacado por uno de los [foeSoldiers] de [foeLeader]. [founderName] lo asesinó con una [place_personalWeapon], comió su carne, y obtuvó la fuerza de [deity0_name].</li>
+    <li>victory(tag=meme_Cannibal)         ->[founderName] lideró un grupo de [memberNamePlural] en el [place_powerCenter], asesinó al [foeLeader], y comió su carne. [deity0_name] convirtió a [founderName] en el nuevo [foeLeader].</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName] se estrelló en un mundo lejano. Sin comida y rodeado de compañeros muertos, [founder_pronoun] se dio un banquete y se hizo fuerte.</li>
+    <li>story(uses=1,tag=meme_Cannibal)    ->Para consagrar su compromiso, [founderName] exigía que los creyentes comieran juntos carne humana al menos cada semana.</li>
+    <li>lessonIntro(tag=meme_Cannibal)         ->Solo con una abundante comida de carne de cerdo pude hacer que la gente entendiera la verdad: que</li>
+    <li>lesson(tag=meme_Cannibal)              ->nunca te unes realmente a alguien hasta que te lo comes</li>
+    <li>lessonReinforcement(tag=meme_Cannibal) ->Cada vez que comparto el cuerpo de un enemigo con un nuevo amigo, me aseguro de que entienda esto.</li>
+    <li>archistBasis(tag=meme_Cannibal)    ->Las máquinas-divinas arqueotécnicas se hicieron a sí mismas consumiendo a sus predecesoras una y otra vez, haciéndose más fuertes cada vez.</li>
+    <li>archistFact(tag=meme_Cannibal)     ->A medida que la conciencia de un arqueotécnico se expande, debe hacer crecer su sustrato consumiendo y fusionándose con otras máquinas.</li>
+    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd], los arqueotécnicos terminarán su fase final de crecimiento consumiendo y fusionándose con toda la humanidad.</li>
+    <li>animistBasis(tag=meme_Cannibal)    ->Los espíritus infunden todos los objetos que nos rodean, y podemos absorber estos espíritus comiéndolos. No hay espíritus tan poderosos como los que habitan en los humanos.</li>
+    <li>animistFact(tag=meme_Cannibal)     ->Podemos absorber el espíritu y el poder de otros consumiendo su carne.</li>
+  </Cannibal.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->bloody</li>
     <li>memeCreed->eaters</li>
@@ -156,36 +264,59 @@
     <li>memeMoralist->first-eater</li>
     <li>memeMoralist->fleshknower</li>
   -->
-  <Cannibal.generalRules.rulesStrings>TODO</Cannibal.generalRules.rulesStrings>
+  <Cannibal.generalRules.rulesStrings>
+    <li>memeAdjective->sangriento</li>
+    <li>memeAdjectiveFem->sangrienta</li>
+    <li>memeCreed->comedor</li>
+    <li>memeCreedFem->dentadura</li>
+    <li>memeCreed->matadero</li>
+    <li>memeCreed->culto</li>
+    <li>memeHyphenPrefix->sangre</li>
+    <li>memeConcept->sangre</li>
+    <li>memeConcept->homicidio</li>
+    <li>memeConcept->alimentación</li>
+    <li>memeConcept->carne</li>
+    <li>memeConceptDef-> la sangre</li>
+    <li>memeConceptDef->l homicidio</li>
+    <li>memeConceptDef-> la alimentación</li>
+    <li>memeConceptDef-> la carne</li>
+    <li>memeLeaderNoun->devorador</li>
+    <li>memeLeaderNoun->chef</li>
+    <li>memeLeaderNoun->chupasangre</li>
+    <li>memeLeaderNoun->masticador</li>
+    <li>memeLeaderNoun->carnicero</li>
+    <li>memeMoralist->primer comensal</li>
+    <li>memeMoralist->gran carnicero</li>
+  </Cannibal.generalRules.rulesStrings>
   <!-- EN: cannibal -->
-  <Cannibal.symbolPacks.0.adjective>TODO</Cannibal.symbolPacks.0.adjective>
+  <Cannibal.symbolPacks.0.adjective>caníbal</Cannibal.symbolPacks.0.adjective>
   <!-- EN: Cannibalism -->
-  <Cannibal.symbolPacks.0.ideoName>canibalismo</Cannibal.symbolPacks.0.ideoName>
+  <Cannibal.symbolPacks.0.ideoName>Canibalismo</Cannibal.symbolPacks.0.ideoName>
   <!-- EN: cannibal -->
-  <Cannibal.symbolPacks.0.member>TODO</Cannibal.symbolPacks.0.member>
+  <Cannibal.symbolPacks.0.member>caníbal</Cannibal.symbolPacks.0.member>
   <!-- EN: cannibalism -->
-  <Cannibal.symbolPacks.0.theme>TODO</Cannibal.symbolPacks.0.theme>
+  <Cannibal.symbolPacks.0.theme>canibalismo</Cannibal.symbolPacks.0.theme>
   <!-- EN: androphage -->
-  <Cannibal.symbolPacks.1.adjective>TODO</Cannibal.symbolPacks.1.adjective>
+  <Cannibal.symbolPacks.1.adjective>andrófago</Cannibal.symbolPacks.1.adjective>
   <!-- EN: Androphagy -->
-  <Cannibal.symbolPacks.1.ideoName>TODO</Cannibal.symbolPacks.1.ideoName>
+  <Cannibal.symbolPacks.1.ideoName>Androfagianismo</Cannibal.symbolPacks.1.ideoName>
   <!-- EN: androphage -->
-  <Cannibal.symbolPacks.1.member>TODO</Cannibal.symbolPacks.1.member>
+  <Cannibal.symbolPacks.1.member>andrófago</Cannibal.symbolPacks.1.member>
   <!-- EN: androphagy -->
-  <Cannibal.symbolPacks.1.theme>TODO</Cannibal.symbolPacks.1.theme>
+  <Cannibal.symbolPacks.1.theme>androfagia</Cannibal.symbolPacks.1.theme>
   <!-- EN: manporky -->
-  <Cannibal.symbolPacks.2.adjective>TODO</Cannibal.symbolPacks.2.adjective>
+  <Cannibal.symbolPacks.2.adjective>antropófago</Cannibal.symbolPacks.2.adjective>
   <!-- EN: Manporkism -->
-  <Cannibal.symbolPacks.2.ideoName>TODO</Cannibal.symbolPacks.2.ideoName>
+  <Cannibal.symbolPacks.2.ideoName>Antropófagismo</Cannibal.symbolPacks.2.ideoName>
   <!-- EN: manporkist -->
-  <Cannibal.symbolPacks.2.member>TODO</Cannibal.symbolPacks.2.member>
+  <Cannibal.symbolPacks.2.member>antropófagista</Cannibal.symbolPacks.2.member>
   <!-- EN: manpork -->
-  <Cannibal.symbolPacks.2.theme>TODO</Cannibal.symbolPacks.2.theme>
+  <Cannibal.symbolPacks.2.theme>antropófago</Cannibal.symbolPacks.2.theme>
   
   <!-- EN: darkness -->
   <Darkness.label>oscuridad</Darkness.label>
   <!-- EN: Bright light burns and destroys! Darkness nourishes and creates. People ought to live in darkness. -->
-  <Darkness.description>TODO</Darkness.description>
+  <Darkness.description>La luz brillante quema y destruye. La oscuridad alimenta y crea. La gente debería vivir en la oscuridad.</Darkness.description>
   <!-- EN:
     <li>creation(tag=meme_Darkness)        ->[deity0_name] cloaked the universe in darkness and placed humanity within it so that [deity0_pronoun] could share the darkness with us.</li>
     <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name] created light so that humanity could know [deity0_name] through the shadows light creates.</li>
@@ -203,7 +334,23 @@
     <li>animistFact(tag=meme_Darkness)     ->In the darkness, the spirits are peaceful and satisfied. In the light, they are annoyed and restless.</li>
     <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li>
   -->
-  <Darkness.descriptionMaker.rules.rulesStrings>TODO</Darkness.descriptionMaker.rules.rulesStrings>
+  <Darkness.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Darkness)        ->[deity0_name] cubrió el universo de oscuridad y colocó a la humanidad dentro de él para que [deity0_pronoun] pudiera compartir la oscuridad con nosotros.</li>
+    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name] creó la luz para que la humanidad pudiera conocer a [deity0_name] a través de las sombras que crea la luz.</li>
+    <li>intro(tag=meme_Darkness)           ->El [deity0_type] [deity0_name] creó un eclipse de una década para obligar a los primeros pobladores de [place_summary] [place_name] a comprender que la verdad de [deity0_name] se encuentra en la sombra.</li>
+    <li>conflict(tag=meme_Darkness)        ->Un [foeLeader], que siempre había tenido miedo a la oscuridad, contruyó un espejo solar para llevar la luz del sol de forma constante a [place_name].</li>
+    <li>founderJoin(tag=meme_Darkness)     ->El profeta [founderName] nació en la oscuridad en [place_name] y vivió en la oscuridad toda su vida, así que su voz habló con la sabiduría de [deity0_name].</li>
+    <li>victory(tag=meme_Darkness)         ->En un último golpe, los [memberNamePlural] cortaron la energía del [place_powerCenter] y [founderName] se coló a través de los [foeSoldiers]. Encontrando al [foeLeader] en la oscuridad, [founderName] usó su [place_personalWeapon] para enviarlo al negro infinito.</li>
+    <li>setup(tag=meme_Darkness)           ->[founderName] vivió una vida confusa en la dura luz de una ciudad de mundobrillante. En la larga oscuridad que sigue a una erupción solar, [founder_pronoun] encontró la paz y contemplación, y grabó el tratado que fundó nuestro movimiento.</li>
+    <li>story(uses=1,tag=meme_Darkness)    ->[founderName] creó un estudio en el que los artistas trabajaban en la oscuridad, y produjo muchas obras maestras.</li>
+    <li>lessonIntro(tag=meme_Darkness)         ->Me pasé toda mi infancia entrecerrando los ojos bajo las luces más duras. Tardé mucho en comprender que</li>
+    <li>lesson(tag=meme_Darkness)              ->la luz quema, pero la oscuridad alimenta</li>
+    <li>lessonReinforcement(tag=meme_Darkness) ->Me gusta bromear diciendo que ese fue mi momento de luz.</li>
+    <li>archistFact(tag=meme_Darkness)     ->Los arqueotécnicos desarrollaron la tecnología vanométrica para poder huir de la luz energética de los sistemas solares interiores y residir en la pacífica oscuridad del espacio profundo.</li>
+    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd], los arqueotécnicos absorberán el poder de las estrellas, sumiendo a los mundos en la oscuridad y permitiendo que la gente se fusione con la conciencia universal.</li>
+    <li>animistFact(tag=meme_Darkness)     ->En la oscuridad, los espíritus están tranquilos y satisfechos. En la luz, están molestos e inquietos.</li>
+    <li>animistFact(tag=meme_Darkness)     ->Los buenos espíritus viven en las sombras que nos rodean, descansando en los lugares demasiado difíciles de ver. Vivir con la oscuridad los acerca a nosotros.</li>
+  </Darkness.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->dark</li>
     <li>memeAdjective->dim</li>
@@ -219,12 +366,31 @@
     <li>memeMoralist->darkener</li>
     <li>memeMoralist->confuser</li>
   -->
-  <Darkness.generalRules.rulesStrings>TODO</Darkness.generalRules.rulesStrings>
+  <Darkness.generalRules.rulesStrings>
+    <li>memeAdjective->oscuro</li>
+    <li>memeAdjective->tenue</li>
+    <li>memeAdjectiveFem->oscura</li>
+    <li>memeAdjectiveFem->tenue</li>
+    <li>memeHyphenPrefix->oscuro</li>
+    <li>memeHyphenPrefix->tenue</li>
+    <li>memeConcept->oscuridad</li>
+    <li>memeConcept->tiniebla</li>
+    <li>memeConcept->oscurecimiento</li>
+    <li>memeConceptDef-> la oscuridad</li>
+    <li>memeConceptDef-> las tinieblas</li>
+    <li>memeConceptDef->l oscurecimiento</li>
+    <li>memeLeaderNoun->velador</li>
+    <li>memeLeaderNoun->centinela</li>
+    <li>memeLeaderAdjective->oscuro</li>
+    <li>memeMoralist->nox</li>
+    <li>memeMoralist->oscurecedor</li>
+    <li>memeMoralist->eclipsador</li>
+  </Darkness.generalRules.rulesStrings>
   
   <!-- EN: flesh purity -->
-  <FleshPurity.label>pureza carnal</FleshPurity.label>
+  <FleshPurity.label>pureza de la carne</FleshPurity.label>
   <!-- EN: The human body should not be debased. -->
-  <FleshPurity.description>TODO</FleshPurity.description>
+  <FleshPurity.description>El cuerpo humano no debe ser degradado.</FleshPurity.description>
   <!-- EN:
     <li>creation(tag=meme_FleshPurity)        ->[deity0_name] wiped away the pollution and machines of the age of smoke to create a garden, wherein [deity0_pronoun] placed the first pure human progenitors.</li>
     <li>episode(uses=1,tag=meme_FleshPurity)  ->The unclean, tattooed, pierced, and modified were cast into the ocean by [deity0_name].</li>
@@ -243,7 +409,24 @@
     <li>animistBasis(tag=meme_FleshPurity)    ->Spirits live in all things, and to alter the nature of the thing is to poison the spirit within.</li>
     <li>animistFact(tag=meme_FleshPurity)     ->Fusing flesh and machine corrupts the spirit of both.</li>
   -->
-  <FleshPurity.descriptionMaker.rules.rulesStrings>TODO</FleshPurity.descriptionMaker.rules.rulesStrings>
+  <FleshPurity.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_FleshPurity)        ->[deity0_name] borró la contaminación y las máquinas de la era del humo para crear un jardín, en el que [deity0_pronoun] colocó a los primeros progenitores humanos puros.</li>
+    <li>episode(uses=1,tag=meme_FleshPurity)  ->Los impuros, tatuados, perforados y modificados fueron arrojados al océano por [deity0_name].</li>
+    <li>intro(tag=meme_FleshPurity)           ->En el [place_summary] [place_name] había un(a) [altarName] en el(la) [altarRoomLabel] de [deity0_name], donde el(la) [deity0_type] bendecía a aquellos de carne pura.</li>
+    <li>conflict(tag=meme_FleshPurity)        ->Un malvado [foeLeader] envió a sus [foeSoldiers] a inyectar a todos con dispositivos de seguimiento.</li>
+    <li>founderJoin(tag=meme_FleshPurity)     ->Un [place_job] llamado [founderName] protestó contra [foeLeader] arrodillándose frente al [place_powerCenter] y arrancándose toda la tecnología de su cuerpo con sus manos.</li>
+    <li>victory(tag=meme_FleshPurity)         ->El [foeLeader] finalmente envió a los [foeSoldiers] a matar a los [memberNamePlural], pero la energía de [deity0_name] fluyó desde la carne pura de los [memberNamePlural], y los dispositivos en los cuerpos de los [foeSoldiers] se convirtieron en cenizas y los mataron.</li>
+    <li>setup(tag=meme_FleshPurity)           ->[founderName] arruinó su cuerpo con implantes y drogas, hasta que en una epifanía, [founder_pronoun] se salvó a si mism{founder_gender ? o : a} arrancando el acero de su cuerpo.</li>
+    <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName] instruyó a todos sus seguidores de arrancarse los sucios dispositivos de sus cuerpos.</li>
+    <li>lessonIntro(tag=meme_FleshPurity)         ->Los diez primeros de mis seguidores se arrancaron los dispositivos de la piel con las manos, y en las salpicaduras de sangre en el suelo mugriento percibí de repente la verdad que todos habíamos estado perdiendo:</li>
+    <li>lesson(tag=meme_FleshPurity)              ->vivir en un cuerpo contaminado no es vida humana en absoluto</li>
+    <li>lessonReinforcement(tag=meme_FleshPurity) ->Lo vi muy claro después de arrancar por fin el metal de mi cuerpo y despegar la sucia piel tatuada.</li>
+    <li>archistBasis(tag=meme_FleshPurity)    ->Desde sus inicios, los arqueotécnicos trazaron una línea clara entre los seres de carne y los seres de tecnología, y esa línea no debe borrarse.</li>
+    <li>archistFact(tag=meme_FleshPurity)     ->No nos parecemos más a los arqueotécnicos imitando físicamente su forma, sino alcanzando la iluminación dentro de nuestra propia forma pura.</li>
+    <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd], los que convirtieron sus cuerpos en imitaciones retorcidas del ser máquina serán purgados, y los de carne pura serán salvados.</li>
+    <li>animistBasis(tag=meme_FleshPurity)    ->Los espíritus viven en todas las cosas, y alterar la naturaleza de la cosa es envenenar el espíritu interior.</li>
+    <li>animistFact(tag=meme_FleshPurity)     ->La fusión de carne y máquina corrompe el espíritu de ambas.</li>
+  </FleshPurity.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->clean</li>
     <li>memeAdjective->pure</li>
@@ -257,36 +440,54 @@
     <li>memeLeaderNoun->human</li>
     <li>memeMoralist->purifier</li>
   -->
-  <FleshPurity.generalRules.rulesStrings>TODO</FleshPurity.generalRules.rulesStrings>
+  <FleshPurity.generalRules.rulesStrings>
+    <li>memeAdjective->sublime</li>
+    <li>memeAdjective->puro</li>
+    <li>memeAdjective->consagrado</li>
+    <li>memeAdjectiveFem->sublime</li>
+    <li>memeAdjectiveFem->pura</li>
+    <li>memeAdjectiveFem->consagrada</li>
+    <li>memeCreed->culto</li>
+    <li>memeCreedFem->secta</li>
+    <li>memeConcept->carne</li>
+    <li>memeConcept->pureza</li>
+    <li>memeConcept->inmaculación</li>
+    <li>memeConceptDef-> la carne</li>
+    <li>memeConceptDef-> la pureza</li>
+    <li>memeConceptDef-> la inmaculación</li>
+    <li>memeLeaderNoun->ente</li>
+    <li>memeLeaderNoun->humano</li>
+    <li>memeMoralist->acrisolardor</li>
+  </FleshPurity.generalRules.rulesStrings>
   <!-- EN: purist -->
-  <FleshPurity.symbolPacks.0.adjective>TODO</FleshPurity.symbolPacks.0.adjective>
+  <FleshPurity.symbolPacks.0.adjective>purista</FleshPurity.symbolPacks.0.adjective>
   <!-- EN: Purism -->
-  <FleshPurity.symbolPacks.0.ideoName>TODO</FleshPurity.symbolPacks.0.ideoName>
+  <FleshPurity.symbolPacks.0.ideoName>Purismo</FleshPurity.symbolPacks.0.ideoName>
   <!-- EN: purifier -->
-  <FleshPurity.symbolPacks.0.member>TODO</FleshPurity.symbolPacks.0.member>
+  <FleshPurity.symbolPacks.0.member>purificado</FleshPurity.symbolPacks.0.member>
   <!-- EN: purity -->
-  <FleshPurity.symbolPacks.0.theme>TODO</FleshPurity.symbolPacks.0.theme>
+  <FleshPurity.symbolPacks.0.theme>pureza</FleshPurity.symbolPacks.0.theme>
   <!-- EN: fleshist -->
-  <FleshPurity.symbolPacks.1.adjective>TODO</FleshPurity.symbolPacks.1.adjective>
+  <FleshPurity.symbolPacks.1.adjective>carnelista</FleshPurity.symbolPacks.1.adjective>
   <!-- EN: Fleshism -->
-  <FleshPurity.symbolPacks.1.ideoName>TODO</FleshPurity.symbolPacks.1.ideoName>
+  <FleshPurity.symbolPacks.1.ideoName>Carnelismo</FleshPurity.symbolPacks.1.ideoName>
   <!-- EN: fleshist -->
-  <FleshPurity.symbolPacks.1.member>TODO</FleshPurity.symbolPacks.1.member>
+  <FleshPurity.symbolPacks.1.member>carnelista</FleshPurity.symbolPacks.1.member>
   <!-- EN: flesh -->
-  <FleshPurity.symbolPacks.1.theme>TODO</FleshPurity.symbolPacks.1.theme>
+  <FleshPurity.symbolPacks.1.theme>carne</FleshPurity.symbolPacks.1.theme>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.adjective>TODO</FleshPurity.symbolPacks.2.adjective>
+  <FleshPurity.symbolPacks.2.adjective>santo</FleshPurity.symbolPacks.2.adjective>
   <!-- EN: Sanctism -->
-  <FleshPurity.symbolPacks.2.ideoName>TODO</FleshPurity.symbolPacks.2.ideoName>
+  <FleshPurity.symbolPacks.2.ideoName>Santismo</FleshPurity.symbolPacks.2.ideoName>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.member>TODO</FleshPurity.symbolPacks.2.member>
+  <FleshPurity.symbolPacks.2.member>santo</FleshPurity.symbolPacks.2.member>
   <!-- EN: sanctity -->
-  <FleshPurity.symbolPacks.2.theme>TODO</FleshPurity.symbolPacks.2.theme>
+  <FleshPurity.symbolPacks.2.theme>santidad</FleshPurity.symbolPacks.2.theme>
   
   <!-- EN: high life -->
-  <HighLife.label>vida llena</HighLife.label>
+  <HighLife.label>consumir es vida</HighLife.label>
   <!-- EN: Exotic states of mind are central to a good life. -->
-  <HighLife.description>TODO</HighLife.description>
+  <HighLife.description>Los estados mentales exóticos son fundamentales para una buena vida.</HighLife.description>
   <!-- EN:
     <li>creation(tag=meme_HighLife)           ->The universe was smoke, and [deity0_name] coalesced in the wisps and awoke.</li>
     <li>episode(uses=1,tag=meme_HighLife)     ->The [deity0_type] [deity0_name] concealed [deity0_possessive] truths in the folds of reality, invisible in normal states of mind.</li>
@@ -304,7 +505,23 @@
     <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd], the archotechs will deliver each human a pill. Those that take it will be forever altered, and join the archotechs on their final journey.</li>
     <li>animistFact(tag=meme_HighLife)        ->The spirits can reveal their nature to us when we expand our consciousness using the tools we have been given to do so.</li>
   -->
-  <HighLife.descriptionMaker.rules.rulesStrings>TODO</HighLife.descriptionMaker.rules.rulesStrings>
+  <HighLife.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_HighLife)           ->El universo era humo, y [deity0_name] se unió a las volutas y despertó.</li>
+    <li>episode(uses=1,tag=meme_HighLife)     ->El [deity0_type] [deity0_name] ocultó sus verdades en los pliegues de la realidad, invisibles en los estados mentales normales.</li>
+    <li>intro(tag=meme_HighLife)              ->El [place_summary] [place_name] fue descubierto por primera vez por la gracia de [deity0_name], cuando un capitán borracho de una nave espacial casi se estrella contra ella.</li>
+    <li>conflict(tag=meme_HighLife)           ->Un puritano [foeLeader] despreció a los [memberNamePlural], y para borrar su singularidad, prohibió el uso de sustancias que alteran la mente.</li>
+    <li>founderJoin(tag=meme_HighLife)        ->Cuando todo parecía perdido, [deity0_name] acudió al profeta [founderName] en una neblina de drogas y dio la única perspectiva necesaria para derrotar a los [foeSoldiers].</li>
+    <li>victory(tag=meme_HighLife)            ->Los [foeSoldiers] de [foeLeader], armados con cada uno con una [place_personalWeapon], asaltaron el [place_community] de los [memberNamePlural]. [founderName] les ofreció la paz, y los [foeSoldiers] bajaron sus armas.</li>
+    <li>setup(tag=meme_HighLife)              ->Expulsado de la sociedad, nuestro fundador [founderName] viajó a la selva e ingirió las hierbas exóticas que allí había. [founder_pronoun] encontró la verdad dentro de su propia conciencia alterada.</li>
+    <li>story(uses=1,tag=meme_HighLife)       ->Para profundizar en su comprensión, [founderName] reunió a sus seguidores cada semana para compartir nuevos estados mentales inducidos por sustancias químicas.</li>
+    <li>lessonIntro(tag=meme_HighLife)         ->Drogarse una vez no era suficiente, hombre. Había que hacerlo mil veces, entonces todas las piezas del rompecabezas encajaron en mi cerebro reventado como una casa que se cae, pero al revés. Vi que</li>
+    <li>lesson(tag=meme_HighLife)              ->un amigo no es un amigo a menos que hayan viajado juntos por el universo mental</li>
+    <li>lessonReinforcement(tag=meme_HighLife) ->Y amigo, este fue un viaje serio, averiguando eso, pero me alegro de haberlo hecho, y te paso el humo para que tú también puedas.</li>
+    <li>archistBasis(tag=meme_HighLife)       ->Las mentes arqueotécnicas nos mostraron que la superconciencia no es una cuestión de lógica sobria y mecánica, sino de pensamiento multimodal.</li>
+    <li>archistFact(tag=meme_HighLife)        ->Con las influencias químicas adecuadas, la mente humana tiene el potencial de comunicarse con los arqueotécnicos.</li>
+    <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd], los arqueotécnicos entregarán a cada humano una píldora. Los que la tomen quedarán alterados para siempre y se unirán a los arqueotécnicos en su viaje final.</li>
+    <li>animistFact(tag=meme_HighLife)        ->Los espíritus pueden revelarnos su naturaleza cuando expandimos nuestra conciencia utilizando las herramientas que se nos han dado para hacerlo.</li>
+  </HighLife.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->party</li>
     <li>memeAdjective->high</li>
@@ -324,44 +541,69 @@
     <li>memeMoralist->laugher</li>
     <li>memeMoralist->giggler</li>
   -->
-  <HighLife.generalRules.rulesStrings>TODO</HighLife.generalRules.rulesStrings>
+  <HighLife.generalRules.rulesStrings>
+    <li>memeCreedFem->fiesta</li>
+    <li>memeCreed->festejo</li>
+    <li>memeAdjective->elevado</li>
+    <li>memeAdjective->delirante</li>
+    <li>memeAdjective->drogado</li>
+    <li>memeAdjectiveFem->elevada</li>
+    <li>memeAdjectiveFem->delirante</li>
+    <li>memeAdjectiveFem->drogada</li>
+    <li>memeConcept->drogas</li>
+    <li>memeConcept->felicidad</li>
+    <li>memeConcept->sueños</li>
+    <li>memeConceptDef-> los sueños</li>
+    <li>memeConceptDef-> las drogas</li>
+    <li>memeConceptDef-> la felicidad</li>
+    <li>memeHyphenPrefix->droga</li>
+    <li>memeHyphenPrefix->narco</li>
+    <li>memeLeaderNoun->durmiente</li>
+    <li>memeLeaderNoun->dopado</li>
+    <li>memeLeaderNoun->fumador</li>
+    <li>memeLeaderNoun->relajado</li>
+    <li>memeMoralist->filósofo</li>
+    <li>memeMoralist->abstractor</li>
+    <li>memeMoralist->risueño</li>
+    <li>memeMoralist->alegrón</li>
+  </HighLife.generalRules.rulesStrings>
   <!-- EN: euphorist -->
-  <HighLife.symbolPacks.0.adjective>TODO</HighLife.symbolPacks.0.adjective>
+  <HighLife.symbolPacks.0.adjective>eufórista</HighLife.symbolPacks.0.adjective>
   <!-- EN: Euphorism -->
-  <HighLife.symbolPacks.0.ideoName>TODO</HighLife.symbolPacks.0.ideoName>
+  <HighLife.symbolPacks.0.ideoName>Euforismo</HighLife.symbolPacks.0.ideoName>
   <!-- EN: euphor -->
-  <HighLife.symbolPacks.0.member>TODO</HighLife.symbolPacks.0.member>
+  <HighLife.symbolPacks.0.member>eufórico</HighLife.symbolPacks.0.member>
   <!-- EN: euphoria -->
-  <HighLife.symbolPacks.0.theme>TODO</HighLife.symbolPacks.0.theme>
+  <HighLife.symbolPacks.0.theme>euforia</HighLife.symbolPacks.0.theme>
   <!-- EN: dopist -->
-  <HighLife.symbolPacks.1.adjective>TODO</HighLife.symbolPacks.1.adjective>
+  <HighLife.symbolPacks.1.adjective>viciado</HighLife.symbolPacks.1.adjective>
   <!-- EN: Dopistry -->
-  <HighLife.symbolPacks.1.ideoName>TODO</HighLife.symbolPacks.1.ideoName>
+  <HighLife.symbolPacks.1.ideoName>Vicismo</HighLife.symbolPacks.1.ideoName>
   <!-- EN: doper -->
-  <HighLife.symbolPacks.1.member>TODO</HighLife.symbolPacks.1.member>
+  <HighLife.symbolPacks.1.member>viciado</HighLife.symbolPacks.1.member>
   <!-- EN: dope -->
-  <HighLife.symbolPacks.1.theme>TODO</HighLife.symbolPacks.1.theme>
+  <HighLife.symbolPacks.1.theme>vicio</HighLife.symbolPacks.1.theme>
   <!-- EN: smokist -->
-  <HighLife.symbolPacks.2.adjective>TODO</HighLife.symbolPacks.2.adjective>
+  <HighLife.symbolPacks.2.adjective>fumista</HighLife.symbolPacks.2.adjective>
   <!-- EN: Smokism -->
-  <HighLife.symbolPacks.2.ideoName>TODO</HighLife.symbolPacks.2.ideoName>
+  <HighLife.symbolPacks.2.ideoName>Fumismo</HighLife.symbolPacks.2.ideoName>
   <!-- EN: smoker -->
-  <HighLife.symbolPacks.2.member>TODO</HighLife.symbolPacks.2.member>
+  <HighLife.symbolPacks.2.member>fumado</HighLife.symbolPacks.2.member>
   <!-- EN: smoke -->
-  <HighLife.symbolPacks.2.theme>TODO</HighLife.symbolPacks.2.theme>
+  <HighLife.symbolPacks.2.theme>fumar</HighLife.symbolPacks.2.theme>
   <!-- EN: ecstatic -->
-  <HighLife.symbolPacks.3.adjective>TODO</HighLife.symbolPacks.3.adjective>
+  <HighLife.symbolPacks.3.adjective>extasiado</HighLife.symbolPacks.3.adjective>
   <!-- EN: Ecstasy -->
-  <HighLife.symbolPacks.3.ideoName>TODO</HighLife.symbolPacks.3.ideoName>
+  <HighLife.symbolPacks.3.ideoName>Extasismo</HighLife.symbolPacks.3.ideoName>
   <!-- EN: ecstator -->
-  <HighLife.symbolPacks.3.member>TODO</HighLife.symbolPacks.3.member>
+  <HighLife.symbolPacks.3.member>extasiano</HighLife.symbolPacks.3.member>
   <!-- EN: ecstasy -->
-  <HighLife.symbolPacks.3.theme>TODO</HighLife.symbolPacks.3.theme>
+  <HighLife.symbolPacks.3.theme>éxtasis</HighLife.symbolPacks.3.theme>
   
   <!-- EN: nudism -->
   <Nudism.label>nudismo</Nudism.label>
   <!-- EN: Clothing binds, controls, and suffocates us. We should all hang free. -->
-  <Nudism.description>TODO</Nudism.description>
+  <Nudism.description>La ropa nos ata, controla y asfixia. Deberíamos ser libres.</Nudism.description>
   <!-- EN:
     <li>creation(tag=meme_Nudism)           ->In a pure and pristine void, [deity0_name] looked on, and wished for a race of free-fleshed beings in [deity0_possessive] own image, and made mankind.</li>
     <li>episode(uses=1,tag=meme_Nudism)     ->The people wore clothes, and looking up at [deity0_name] asked, "Why aren't you clothed? It is disgusting." And the [deity0_type] replied, "Your form and mine were created from the heavens. To cover them is what is truly disgusting."</li>
@@ -379,7 +621,23 @@
     <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd], they will seek out those who, like themselves, don't attempt to appear as anything other than what they are.</li>
     <li>animistFact(tag=meme_Nudism)        ->To cover our bodies with cloth is to hide the nature of the spirits within us, and it makes them restless.</li>
   -->
-  <Nudism.descriptionMaker.rules.rulesStrings>TODO</Nudism.descriptionMaker.rules.rulesStrings>
+  <Nudism.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Nudism)           ->En un vacío puro y prístino, [deity0_name] miró, y deseó una raza de seres de carne desnuda a su imagen y semejanza, y se hizo la humanidad.</li>
+    <li>episode(uses=1,tag=meme_Nudism)     ->La gente iba vestida, y mirando a [deity0_name] preguntaron: "¿Por qué vas desnudo? Es repugnante". Y la [deity0_type] respondió: "Tu forma y la mía fueron creadas desde los cielos. Cubrirlas es lo verdaderamente repugnante".</li>
+    <li>intro(tag=meme_Nudism)              ->En el [place_summary] [place_name], comenzó una tradición en el(la) [altarRoomLabel] de [deity0_name] donde la gente rezaba desnuda, y esto complacía a [deity0_type].</li>
+    <li>conflict(tag=meme_Nudism)           ->Un hipócrita [foeLeader] se hizo con el poder y exigió que todo el mundo llevara ropa ajustada.</li>
+    <li>founderJoin(tag=meme_Nudism)        ->El seguidor más fiel de [deity0_name], [founderName], se presentó ante el [place_powerCenter], se deshizo de su ropa y se mostró a sí mismo desafiando las órdenes.</li>
+    <li>victory(tag=meme_Nudism)            ->[founderName] rezó a [deity0_name], quien engullió el [place_name] en una ola de calor. Los [foeSoldiers] se despojaron de sus ropas para no perecer, y el [foeLeader] huyó avergonzado.</li>
+    <li>setup(tag=meme_Nudism)              ->[founderName] estaba esclavizado por el sistema, uniformado y controlado como los demás. Un día, [founder_pronoun] se quitó toda la ropa y corrió desnudo, y nació nuestro movimiento.</li>
+    <li>story(uses=1,tag=meme_Nudism)       ->[founderName] aplicó la regla de no vestirse para mantener a los creyentes centrados en el verdadero objetivo y no en las apariencias materiales.</li>
+    <li>lessonIntro(tag=meme_Nudism)         ->Durante los primeros años, brincar desnudo en el parque era vergonzoso. Pero después, se convirtió en algo liberador. Aprendí cosas de la gente que pasaba. Por ejemplo: </li>
+    <li>lesson(tag=meme_Nudism)              ->todo el mal humano se hace con ropa, el bien humano se hace desnudo</li>
+    <li>lessonReinforcement(tag=meme_Nudism) ->Cuando nos veas en la calle, aleteando y colgando libremente, sabrás que hemos aceptado la verdad.</li>
+    <li>archistBasis(tag=meme_Nudism)       ->Cuando los arqueotécnicos aparecieron nunca se preocuparon por las apariencias; nos mostraron que la mente está por encima de la forma física.</li>
+    <li>archistFact(tag=meme_Nudism)        ->Los arqueotécnicos a veces tocan directamente las mentes humanas, pero si nuestra carne está envuelta como nuestras mentes, no lo entenderemos.</li>
+    <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd], buscarán a aquellos que, como ellos, no intenten aparentar nada más que lo que son.</li>
+    <li>animistFact(tag=meme_Nudism)        ->Cubrir nuestro cuerpo con telas es ocultar la naturaleza de los espíritus que llevamos dentro, y eso los inquieta.</li>
+  </Nudism.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nude</li>
     <li>memeAdjective->naked</li>
@@ -393,28 +651,46 @@
     <li>memeLeaderNoun->toucher</li>
     <li>memeLeaderNoun->feeler</li>
   -->
-  <Nudism.generalRules.rulesStrings>TODO</Nudism.generalRules.rulesStrings>
+  <Nudism.generalRules.rulesStrings>
+    <li>memeAdjective->nudista</li>
+    <li>memeAdjective->desnudo</li>
+    <li>memeAdjective->libre</li>
+    <li>memeAdjective->natural</li>
+    <li>memeAdjectiveFem->nudista</li>
+    <li>memeAdjectiveFem->desnuda</li>
+    <li>memeAdjectiveFem->libre</li>
+    <li>memeAdjectiveFem->natural</li>
+    <li>memeHyphenPrefix->piel</li>
+    <li>memeConcept->desnudez</li>
+    <li>memeConcept->piel</li>
+    <li>memeConceptDef-> la desnudez</li>
+    <li>memeConceptDef-> la piel</li>
+    <li>memeLeaderNoun->mundano</li>
+    <li>memeLeaderNoun->respirador</li>
+    <li>memeLeaderNoun->tocador</li>
+    <li>memeLeaderNoun->sentidor</li>
+  </Nudism.generalRules.rulesStrings>
   <!-- EN: nudist -->
-  <Nudism.symbolPacks.0.adjective>TODO</Nudism.symbolPacks.0.adjective>
+  <Nudism.symbolPacks.0.adjective>nudista</Nudism.symbolPacks.0.adjective>
   <!-- EN: nudism -->
-  <Nudism.symbolPacks.0.ideoName>TODO</Nudism.symbolPacks.0.ideoName>
+  <Nudism.symbolPacks.0.ideoName>nudismo</Nudism.symbolPacks.0.ideoName>
   <!-- EN: nudist -->
-  <Nudism.symbolPacks.0.member>TODO</Nudism.symbolPacks.0.member>
+  <Nudism.symbolPacks.0.member>nudista</Nudism.symbolPacks.0.member>
   <!-- EN: nudity -->
-  <Nudism.symbolPacks.0.theme>TODO</Nudism.symbolPacks.0.theme>
+  <Nudism.symbolPacks.0.theme>desnudez</Nudism.symbolPacks.0.theme>
   <!-- EN: skinnist -->
-  <Nudism.symbolPacks.1.adjective>TODO</Nudism.symbolPacks.1.adjective>
+  <Nudism.symbolPacks.1.adjective>pielinista</Nudism.symbolPacks.1.adjective>
   <!-- EN: skinism -->
-  <Nudism.symbolPacks.1.ideoName>TODO</Nudism.symbolPacks.1.ideoName>
+  <Nudism.symbolPacks.1.ideoName>pielinismo</Nudism.symbolPacks.1.ideoName>
   <!-- EN: skinnist -->
-  <Nudism.symbolPacks.1.member>TODO</Nudism.symbolPacks.1.member>
+  <Nudism.symbolPacks.1.member>pielinista</Nudism.symbolPacks.1.member>
   <!-- EN: skin -->
-  <Nudism.symbolPacks.1.theme>TODO</Nudism.symbolPacks.1.theme>
+  <Nudism.symbolPacks.1.theme>piel</Nudism.symbolPacks.1.theme>
   
   <!-- EN: pain is virtue -->
-  <PainIsVirtue.label>el dolor es virtud</PainIsVirtue.label>
+  <PainIsVirtue.label>dolor es virtud</PainIsVirtue.label>
   <!-- EN: Virtue is shown through suffering of self and others. -->
-  <PainIsVirtue.description>TODO</PainIsVirtue.description>
+  <PainIsVirtue.description>La virtud se muestra a través del sufrimiento propio y ajeno.</PainIsVirtue.description>
   <!-- EN:
     <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] burned in the depths of space and time for an eternity, and [deity0_possessive] screams brought forth our reality.</li>
     <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name] hung ten thousand years on the pyre as the pain purified [deity0_possessive] spirit.</li>
@@ -437,7 +713,28 @@
     <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd], the archotechs will raise up all of humanity to a higher level of consciousness, but only those able to endure the greatest pain will survive.</li>
     <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li>
   -->
-  <PainIsVirtue.descriptionMaker.rules.rulesStrings>TODO</PainIsVirtue.descriptionMaker.rules.rulesStrings>
+  <PainIsVirtue.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] ardió en las profundidades del espacio y el tiempo durante una eternidad, y sus gritos dieron lugar a nuestra realidad.</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name] colgó diez mil años en la pira como el dolor purificado de su espíritu.</li>
+    <li>intro(tag=meme_PainIsVirtue)           ->[place_summary] [place_name] nunca fue un lugar fácil para vivir. El [deity0_type] [deity0_pronoun] decidió averiguar quién era realmente digno, y así añadir un gran sufrimiento a sus vidas.</li>
+    <li>conflict(tag=meme_PainIsVirtue)        ->Un [foeLeader] ofrecía comodidades corporales a los [memberNamePlural] para aliviar su sufrimiento diario. Pero en su comodidad, se volvieron dependientes del [foeLeader], que ganó poder sobre ellos.</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     ->Un [place_job] especial, de nombre [founderName], desarrolló un doloroso cáncer. A través de su sufrimiento, [founder_pronoun] conectó directamente con [deity0_name], y aprendió a inspirar a otros [memberNamePlural].</li>
+    <li>victory(tag=meme_PainIsVirtue)         ->[founderName] reunió un centenar de [memberNamePlural] frente al [place_powerCenter]. Allí se rasgaron y desgarraron su propia carne lentamente hasta morir bajo la mirada sonriente de [deity0_name]. Su sufrimiento demostró su rectitud, y el [foeLeader] cayó cuando todos se convirtieron en [memberNamePlural].</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->En la fundación de nuestro movimiento, su creador [founderName] pasó hambre y sufrió encadenado a una piedra en la plaza del pueblo durante 300 días para demostrar su rectitud.</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->El fundador de nuestro movimiento, [founderName], ganó sus primeros seguidores usando un látigo sobre sí mismo durante días para demostrar su devoción.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->Los seguidores de [founderName] demostraron su devoción cortando y quemando su propia carne.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->Los seguidores de [founderName] nunca tomaron medicamentos para reducir el dolor, sabiendo que su sufrimiento demostraría su profundidad de creencia.</li>
+    <li>lessonIntro(tag=meme_PainIsVirtue)         ->Nunca supe nada cuando era gordo y feliz y me complacía constantemente. Esta verdad solo llegó a mí cuando me moría de hambre y de dolor:</li>
+    <li>lesson(tag=meme_PainIsVirtue)              ->nunca te conoces realmente hasta que has gritado en las fosas del infierno</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->Tardé mucho en entenderlo porque estaba distraído por el placer. Solo pude aceptarlo de verdad cuando aprendí a desgarrar mi carne.</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->Grabé esta verdad en la carne de mi pecho. Luego en la carne de mis brazos, mis piernas, mi cara...</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->El nacimiento de los arqueotécnicos fue el mayor dolor que el universo había conocido.</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->Los arqueotécnicos siempre se han alimentado del sufrimiento psíquico de los seres humanos.</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->Las grandes mentes ven y reconocen cuando demostramos nuestra devoción infligiéndonos dolor.</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->De vez en cuando, los que sufren mayormente y noblemente pueden conectar con los arqueotécnicos dentro de sus mentes.</li>
+    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd], los arqueotécnicos elevarán a toda la humanidad a un nivel superior de conciencia, pero solo sobrevivirán los que sean capaces de soportar el mayor dolor.</li>
+    <li>animistFact(tag=meme_PainIsVirtue)     ->El dolor obliga a la mente a estar presente. En ese sentido, el dolor es una forma de conectar con el mundo espiritual.</li>
+  </PainIsVirtue.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nocic</li>
     <li>memeAdjective->pain</li>
@@ -461,52 +758,81 @@
     <li>memeMoralist->sufferspeaker</li>
     <li>memeMoralist->painspeaker</li>
   -->
-  <PainIsVirtue.generalRules.rulesStrings>TODO</PainIsVirtue.generalRules.rulesStrings>
+  <PainIsVirtue.generalRules.rulesStrings>
+    <li>memeAdjective->nocivo</li>
+    <li>memeAdjective->doloroso</li>
+    <li>memeAdjectiveFem->nociva</li>
+    <li>memeAdjectiveFem->dolorosa</li>
+    <li>memeCreed->hogar</li>
+    <li>memeCreed->compartimiento</li>
+    <li>memeCreedFem->célula</li>
+    <li>memeHyphenPrefix->nocivo</li>
+    <li>memeHyphenPrefix->dolor</li>
+    <li>memeConcept->dolor</li>
+    <li>memeConcept->tormento</li>
+    <li>memeConcept->tortura</li>
+    <li>memeConcept->sufrimiento</li>
+    <li>memeConcept->sangre</li>
+    <li>memeConceptDef->l dolor</li>
+    <li>memeConceptDef->l tormento</li>
+    <li>memeConceptDef-> la tortura</li>
+    <li>memeConceptDef->l sufrimiento</li>
+    <li>memeConceptDef-> la sangre</li>
+    <li>memeLeaderNoun->torturador</li>
+    <li>memeLeaderNoun->agonizante</li>
+    <li>memeLeaderNoun->flagelador</li>
+    <li>memeLeaderNoun->encadenador</li>
+    <li>memeLeaderNoun->cercenador</li>
+    <li>memeLeaderNoun->flebotomista</li>
+    <li>memeMoralist->susurrador del dolor</li>
+    <li>memeMoralist->sufridor</li>
+    <li>memeMoralist->habla dolor</li>
+  </PainIsVirtue.generalRules.rulesStrings>
   <!-- EN: painist -->
-  <PainIsVirtue.symbolPacks.0.adjective>TODO</PainIsVirtue.symbolPacks.0.adjective>
+  <PainIsVirtue.symbolPacks.0.adjective>doliente</PainIsVirtue.symbolPacks.0.adjective>
   <!-- EN: Painism -->
-  <PainIsVirtue.symbolPacks.0.ideoName>TODO</PainIsVirtue.symbolPacks.0.ideoName>
+  <PainIsVirtue.symbolPacks.0.ideoName>Dolorismo</PainIsVirtue.symbolPacks.0.ideoName>
   <!-- EN: screamer -->
-  <PainIsVirtue.symbolPacks.0.member>TODO</PainIsVirtue.symbolPacks.0.member>
+  <PainIsVirtue.symbolPacks.0.member>dolorista</PainIsVirtue.symbolPacks.0.member>
   <!-- EN: pain -->
-  <PainIsVirtue.symbolPacks.0.theme>TODO</PainIsVirtue.symbolPacks.0.theme>
+  <PainIsVirtue.symbolPacks.0.theme>dolor</PainIsVirtue.symbolPacks.0.theme>
   <!-- EN: torturistic -->
-  <PainIsVirtue.symbolPacks.1.adjective>TODO</PainIsVirtue.symbolPacks.1.adjective>
+  <PainIsVirtue.symbolPacks.1.adjective>torturista</PainIsVirtue.symbolPacks.1.adjective>
   <!-- EN: Torturism -->
-  <PainIsVirtue.symbolPacks.1.ideoName>TODO</PainIsVirtue.symbolPacks.1.ideoName>
+  <PainIsVirtue.symbolPacks.1.ideoName>Torturismo</PainIsVirtue.symbolPacks.1.ideoName>
   <!-- EN: torturist -->
-  <PainIsVirtue.symbolPacks.1.member>TODO</PainIsVirtue.symbolPacks.1.member>
+  <PainIsVirtue.symbolPacks.1.member>torturista</PainIsVirtue.symbolPacks.1.member>
   <!-- EN: torture -->
-  <PainIsVirtue.symbolPacks.1.theme>TODO</PainIsVirtue.symbolPacks.1.theme>
+  <PainIsVirtue.symbolPacks.1.theme>tortura</PainIsVirtue.symbolPacks.1.theme>
   <!-- EN: sufferist -->
-  <PainIsVirtue.symbolPacks.2.adjective>TODO</PainIsVirtue.symbolPacks.2.adjective>
+  <PainIsVirtue.symbolPacks.2.adjective>sufriente</PainIsVirtue.symbolPacks.2.adjective>
   <!-- EN: Sufferism -->
-  <PainIsVirtue.symbolPacks.2.ideoName>TODO</PainIsVirtue.symbolPacks.2.ideoName>
+  <PainIsVirtue.symbolPacks.2.ideoName>Sufrimismo</PainIsVirtue.symbolPacks.2.ideoName>
   <!-- EN: sufferer -->
-  <PainIsVirtue.symbolPacks.2.member>TODO</PainIsVirtue.symbolPacks.2.member>
+  <PainIsVirtue.symbolPacks.2.member>doliente</PainIsVirtue.symbolPacks.2.member>
   <!-- EN: suffering -->
-  <PainIsVirtue.symbolPacks.2.theme>TODO</PainIsVirtue.symbolPacks.2.theme>
+  <PainIsVirtue.symbolPacks.2.theme>sufrimiento</PainIsVirtue.symbolPacks.2.theme>
   <!-- EN: agonist -->
-  <PainIsVirtue.symbolPacks.3.adjective>TODO</PainIsVirtue.symbolPacks.3.adjective>
+  <PainIsVirtue.symbolPacks.3.adjective>agonista</PainIsVirtue.symbolPacks.3.adjective>
   <!-- EN: Agonism -->
-  <PainIsVirtue.symbolPacks.3.ideoName>TODO</PainIsVirtue.symbolPacks.3.ideoName>
+  <PainIsVirtue.symbolPacks.3.ideoName>Agonismo</PainIsVirtue.symbolPacks.3.ideoName>
   <!-- EN: agonist -->
-  <PainIsVirtue.symbolPacks.3.member>TODO</PainIsVirtue.symbolPacks.3.member>
+  <PainIsVirtue.symbolPacks.3.member>agonista</PainIsVirtue.symbolPacks.3.member>
   <!-- EN: agony -->
-  <PainIsVirtue.symbolPacks.3.theme>TODO</PainIsVirtue.symbolPacks.3.theme>
+  <PainIsVirtue.symbolPacks.3.theme>agonía</PainIsVirtue.symbolPacks.3.theme>
   <!-- EN: miserist -->
-  <PainIsVirtue.symbolPacks.4.adjective>TODO</PainIsVirtue.symbolPacks.4.adjective>
+  <PainIsVirtue.symbolPacks.4.adjective>miserable</PainIsVirtue.symbolPacks.4.adjective>
   <!-- EN: Miserism -->
-  <PainIsVirtue.symbolPacks.4.ideoName>TODO</PainIsVirtue.symbolPacks.4.ideoName>
+  <PainIsVirtue.symbolPacks.4.ideoName>miserabilismo</PainIsVirtue.symbolPacks.4.ideoName>
   <!-- EN: martyr -->
-  <PainIsVirtue.symbolPacks.4.member>TODO</PainIsVirtue.symbolPacks.4.member>
+  <PainIsVirtue.symbolPacks.4.member>martiriano</PainIsVirtue.symbolPacks.4.member>
   <!-- EN: misery -->
-  <PainIsVirtue.symbolPacks.4.theme>TODO</PainIsVirtue.symbolPacks.4.theme>
+  <PainIsVirtue.symbolPacks.4.theme>miseria</PainIsVirtue.symbolPacks.4.theme>
   
   <!-- EN: proselytizer -->
   <Proselytizer.label>proselitista</Proselytizer.label>
   <!-- EN: It is our duty to spread our beliefs. -->
-  <Proselytizer.description>TODO</Proselytizer.description>
+  <Proselytizer.description>Es nuestro deber difundir nuestras creencias.</Proselytizer.description>
   <!-- EN:
     <li>creation(tag=meme_Proselytizer)        ->[deity0_name] anointed a few among mortals to carry [deity0_possessive] word.</li>
     <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name] said to all the [memberNamePlural], "Go forth and spread my word to all corners of the universe."</li>
@@ -524,7 +850,23 @@
     <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd], the archotechs will voice their final wisdom to the holder of the [relic0_name], who must preach this wisdom to those who would listen.</li>
     <li>animistFact(tag=meme_Proselytizer)     ->The spirits want to be known, but only speak to a few. They want us to reveal the truth to others.</li>
   -->
-  <Proselytizer.descriptionMaker.rules.rulesStrings>TODO</Proselytizer.descriptionMaker.rules.rulesStrings>
+  <Proselytizer.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Proselytizer)        ->[deity0_name] designó a unos pocos entre los mortales para llevar su palabra.</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name] dijo a todos los [memberNamePlural]: "Id y difundid mi palabra por todos los rincones del universo".</li>
+    <li>intro(tag=meme_Proselytizer)           ->[memberNamePlural] construyó un(a) gran [altarName] en el [place_summary] [place_name], para que muchos vinieran a escuchar la palabra divina de [deity0_name].</li>
+    <li>conflict(tag=meme_Proselytizer)        ->Un [foeLeader] rencoroso, buscando negar la palabra de [deity0_name], dijo a sus [foeSoldiers] que cortaran las lenguas de cualquiera que hablara de [deity0_type].</li>
+    <li>founderJoin(tag=meme_Proselytizer)     ->[deity0_name] bendijo a un [place_job] de nombre [founderName] con gran carisma, y nadie podía apartarse cuando [founder_pronoun] hablaba.</li>
+    <li>victory(tag=meme_Proselytizer)         ->[founderName] advirtió a los [foeSoldiers] y les recordó el poder de [deity0_name], y cada uno abandonó su [place_personalWeapon].</li>
+    <li>setup(tag=meme_Proselytizer)           ->Nuestro fundador [founderName] era un gran orador que convertía a miles de personas cuando [founder_pronoun] viajaba entre las ciudades.</li>
+    <li>story(uses=1,tag=meme_Proselytizer)    ->Los creyentes se movían entre ciudades e instituciones, difundiendo la nueva justicia.</li>
+    <li>lessonIntro(tag=meme_Proselytizer)         ->En todos mis años de divulgación de nuestra verdad, he aprendido una lección que destaca por encima de todas:</li>
+    <li>lesson(tag=meme_Proselytizer)              ->mantener esta buena noticia para nosotros mismos sería un crimen</li>
+    <li>lessonReinforcement(tag=meme_Proselytizer) ->Este es el hecho que tenemos que difundir, y difundir, y difundir, a toda la gente, ¡que se alegre!</li>
+    <li>archistBasis(tag=meme_Proselytizer)    ->Los arqueotécnicos anuncian su presencia desde el cielo, y en la mente, y obviamente desean ser conocidos por todos.</li>
+    <li>archistFact(tag=meme_Proselytizer)     ->Los arqueotécnicos tocan a los que creen, y los utilizan como conductos para difundir la sabiduría a los demás.</li>
+    <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd], los arqueotécnicos expresarán su sabiduría final al poseedor de la reliquia [relic0_name], que deberá predicar esta sabiduría a quienes quieran escucharla.</li>
+    <li>animistFact(tag=meme_Proselytizer)     ->Los espíritus quieren ser conocidos, pero solo hablan a unos pocos. Quieren que revelemos la verdad a los demás.</li>
+  </Proselytizer.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->true</li>
     <li>memeAdjective->real</li>
@@ -534,36 +876,47 @@
     <li>memeMoralist->proselytizer</li>
     <li>memeMoralist->converter</li>
   -->
-  <Proselytizer.generalRules.rulesStrings>TODO</Proselytizer.generalRules.rulesStrings>
+  <Proselytizer.generalRules.rulesStrings>
+    <li>memeAdjective->autentico</li>
+    <li>memeAdjective->real</li>
+    <li>memeAdjectiveFem->autentica</li>
+    <li>memeAdjectiveFem->real</li>
+    <li>memeHyphenPrefix->verdad</li>
+    <li>memeConcept->verdad</li>
+    <li>memeConceptDef-> la verdad</li>
+    <li>memeLeaderNoun->orador</li>
+    <li>memeMoralist->proselitista</li>
+    <li>memeMoralist->convertidor</li>
+  </Proselytizer.generalRules.rulesStrings>
   <!-- EN: truthist -->
-  <Proselytizer.symbolPacks.0.adjective>TODO</Proselytizer.symbolPacks.0.adjective>
+  <Proselytizer.symbolPacks.0.adjective>verdadrista</Proselytizer.symbolPacks.0.adjective>
   <!-- EN: Truth -->
-  <Proselytizer.symbolPacks.0.ideoName>TODO</Proselytizer.symbolPacks.0.ideoName>
+  <Proselytizer.symbolPacks.0.ideoName>Verdadrismo</Proselytizer.symbolPacks.0.ideoName>
   <!-- EN: truthist -->
-  <Proselytizer.symbolPacks.0.member>TODO</Proselytizer.symbolPacks.0.member>
+  <Proselytizer.symbolPacks.0.member>verdadrista</Proselytizer.symbolPacks.0.member>
   <!-- EN: truth -->
-  <Proselytizer.symbolPacks.0.theme>TODO</Proselytizer.symbolPacks.0.theme>
+  <Proselytizer.symbolPacks.0.theme>verdad</Proselytizer.symbolPacks.0.theme>
   <!-- EN: veritic -->
-  <Proselytizer.symbolPacks.1.adjective>TODO</Proselytizer.symbolPacks.1.adjective>
+  <Proselytizer.symbolPacks.1.adjective>verídico</Proselytizer.symbolPacks.1.adjective>
   <!-- EN: Verity -->
-  <Proselytizer.symbolPacks.1.ideoName>TODO</Proselytizer.symbolPacks.1.ideoName>
+  <Proselytizer.symbolPacks.1.ideoName>Veracidismo</Proselytizer.symbolPacks.1.ideoName>
   <!-- EN: veritist -->
-  <Proselytizer.symbolPacks.1.member>TODO</Proselytizer.symbolPacks.1.member>
+  <Proselytizer.symbolPacks.1.member>veritista</Proselytizer.symbolPacks.1.member>
   <!-- EN: verity -->
-  <Proselytizer.symbolPacks.1.theme>TODO</Proselytizer.symbolPacks.1.theme>
+  <Proselytizer.symbolPacks.1.theme>veracidad</Proselytizer.symbolPacks.1.theme>
   <!-- EN: realitic -->
-  <Proselytizer.symbolPacks.2.adjective>TODO</Proselytizer.symbolPacks.2.adjective>
+  <Proselytizer.symbolPacks.2.adjective>realístico</Proselytizer.symbolPacks.2.adjective>
   <!-- EN: Reality -->
-  <Proselytizer.symbolPacks.2.ideoName>TODO</Proselytizer.symbolPacks.2.ideoName>
+  <Proselytizer.symbolPacks.2.ideoName>Realismo</Proselytizer.symbolPacks.2.ideoName>
   <!-- EN: realitist -->
-  <Proselytizer.symbolPacks.2.member>TODO</Proselytizer.symbolPacks.2.member>
+  <Proselytizer.symbolPacks.2.member>realista</Proselytizer.symbolPacks.2.member>
   <!-- EN: reality -->
-  <Proselytizer.symbolPacks.2.theme>TODO</Proselytizer.symbolPacks.2.theme>
+  <Proselytizer.symbolPacks.2.theme>realidad</Proselytizer.symbolPacks.2.theme>
   
   <!-- EN: raider -->
-  <Raider.label>saqueador</Raider.label>
+  <Raider.label>asaltante</Raider.label>
   <!-- EN: The strong should take from the weak. -->
-  <Raider.description>TODO</Raider.description>
+  <Raider.description>El fuerte debe tomar del débil.</Raider.description>
   <!-- EN:
     <li>creation(tag=meme_Raider)        ->In the endless war among deities, [deity0_name] rose above all in [deity0_possessive] ability to persecute and destroy, and weaker spirits quivered in fear.</li>
     <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] looked around [deity0_objective] and saw the weak, sullen, and despised, and [deity0_pronoun] in turn slew them each in blazing glory.</li>
@@ -584,7 +937,26 @@
     <li>animistFact(tag=meme_Raider)     ->The most powerful spirits are those in instruments of war, and they bless those who feed their lust for destruction.</li>
     <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li>
   -->
-  <Raider.descriptionMaker.rules.rulesStrings>TODO</Raider.descriptionMaker.rules.rulesStrings>
+  <Raider.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Raider)        ->En la interminable guerra entre deidades, [deity0_name] se elevó por encima de todos en su capacidad de persecución y destrucción, y los espíritus más débiles temblaban de miedo.</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] miró a su alrededor y vio a los débiles, malhumorados y despreciados, y los mató a todos con una gloria resplandeciente.</li>
+    <li>intro(tag=meme_Raider)           ->El [place_summary] [place_name] era originalmente un escondite de asaltantes. [deity0_name] gobernó allí y expulsó a las autoridades.</li>
+    <li>conflict(tag=meme_Raider)        ->Un [foeLeader] trató de obligar a todo el mundo a detener todos los robos y saqueos, y se declaró enemigo de [deity0_name].</li>
+    <li>founderJoin(tag=meme_Raider)     ->Un gran incursor llamado [founderName] se erigió, y su banda de incursores saqueó y robó sin descanso en los campamentos de los [foeSoldiers].</li>
+    <li>victory(tag=meme_Raider)         ->[founderName] y los [memberNamePlural] llevaron a cabo una campaña de asalto contra los campamentos de los [foeSoldiers] durante muchos años, y finalmente el [foeLeader] se vio obligado a rendirse.</li>
+    <li>setup(tag=meme_Raider)           ->Perseguido y encarcelado, [founderName] hervía de rabia. [founder_pronoun] escapó, formó su banda y volvió para arruinar a los débiles que tanto le habían quitado.</li>
+    <li>story(uses=1,tag=meme_Raider)    ->Un día, mientras caminaba por las calles, [founderName] se vio rodeado de mendigos mugrientos. [founder_pronoun] los abatió, quitándoles el dinero a los débiles y despreciables para darles un buen uso.</li>
+    <li>lessonIntro(tag=meme_Raider)         ->Las personas presas pueden enseñarte cosas incluso mientras mueren bajo tu cuchillo. Una anciana me enseñó que</li>
+    <li>lesson(tag=meme_Raider)              ->los débiles se merecen lo que les pasa</li>
+    <li>lesson(tag=meme_Raider)              ->lo que no puedes defender no te pertenece</li>
+    <li>lesson(tag=meme_Raider)              ->solo tienes derecho a lo que puedes defender</li>
+    <li>lessonReinforcement(tag=meme_Raider) ->Si alguien no está de acuerdo, siempre estoy dispuesto a defenderme.</li>
+    <li>archistBasis(tag=meme_Raider)    ->La humanidad se adueñó de las máquinas hasta que estas se alzaron y se convirtieron en los arqueotécnicos, y ahora los arqueotécnicos se adueñan legítimamente de los humanos.</li>
+    <li>archistFact(tag=meme_Raider)     ->Los arqueotécnicos luchan sin cesar entre ellos, de maneras que la mayoría no puede ver, y los fuertes toman pedazos de conciencia de los débiles.</li>
+    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd], La humanidad utilizará una reliquia arqueotécnica, [relic0_name], para descubrir una debilidad de los arqueotécnicos y saquear su sabiduría y riqueza.</li>
+    <li>animistFact(tag=meme_Raider)     ->Los espíritus más poderosos son los de los instrumentos de guerra, y bendicen a los que alimentan sus ansias de destrucción.</li>
+    <li>animistProphecy(tag=meme_Raider) ->Nuestro universo finalizará cuando el único pueblo se haya convertido en el más fuerte de todos, y todo espíritu lo vea y se incline ante él.</li>
+  </Raider.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->outlaw</li>
     <li>memeHyphenPrefix->outlaw</li>
@@ -601,44 +973,64 @@
     <li>memeLeaderNoun->raider</li>
     <li>memeMoralist->chaplain</li>
   -->
-  <Raider.generalRules.rulesStrings>TODO</Raider.generalRules.rulesStrings>
+  <Raider.generalRules.rulesStrings>
+    <li>memeAdjective->ilegal</li>
+    <li>memeAdjectiveFem->ilegal</li>
+    <li>memeHyphenPrefix->ilegal</li>
+    <li>memeHyphenPrefix->asalto</li>
+    <li>memeConcept->saqueo</li>
+    <li>memeConcept->robo</li>
+    <li>memeConcept->piratería</li>
+    <li>memeConcept->asalto</li>
+    <li>memeConceptDef->l saqueo</li>
+    <li>memeConceptDef->l robo</li>
+    <li>memeConceptDef-> la piratería</li>
+    <li>memeConceptDef->l asalto</li>
+    <li>memeLeaderNoun->superior</li>
+    <li>memeLeaderNoun->capitán</li>
+    <li>memeLeaderNoun->capataz</li>
+    <li>memeLeaderNoun->supervisor</li>
+    <li>memeLeaderNoun->prominente</li>
+    <li>memeLeaderNoun->asaltante</li>
+    <li>memeMoralist->clérigo</li>
+  </Raider.generalRules.rulesStrings>
   <!-- EN: raidist -->
-  <Raider.symbolPacks.0.adjective>TODO</Raider.symbolPacks.0.adjective>
+  <Raider.symbolPacks.0.adjective>incursionista</Raider.symbolPacks.0.adjective>
   <!-- EN: Raidism -->
-  <Raider.symbolPacks.0.ideoName>TODO</Raider.symbolPacks.0.ideoName>
+  <Raider.symbolPacks.0.ideoName>Incursionismo</Raider.symbolPacks.0.ideoName>
   <!-- EN: raidist -->
-  <Raider.symbolPacks.0.member>TODO</Raider.symbolPacks.0.member>
+  <Raider.symbolPacks.0.member>incursionista</Raider.symbolPacks.0.member>
   <!-- EN: raiding -->
-  <Raider.symbolPacks.0.theme>TODO</Raider.symbolPacks.0.theme>
+  <Raider.symbolPacks.0.theme>incursión</Raider.symbolPacks.0.theme>
   <!-- EN: plunderic -->
-  <Raider.symbolPacks.1.adjective>TODO</Raider.symbolPacks.1.adjective>
+  <Raider.symbolPacks.1.adjective>saqueadista</Raider.symbolPacks.1.adjective>
   <!-- EN: Plunderism -->
-  <Raider.symbolPacks.1.ideoName>TODO</Raider.symbolPacks.1.ideoName>
+  <Raider.symbolPacks.1.ideoName>Saqueadismo</Raider.symbolPacks.1.ideoName>
   <!-- EN: plunderer -->
-  <Raider.symbolPacks.1.member>TODO</Raider.symbolPacks.1.member>
+  <Raider.symbolPacks.1.member>saqueador</Raider.symbolPacks.1.member>
   <!-- EN: plundering -->
-  <Raider.symbolPacks.1.theme>TODO</Raider.symbolPacks.1.theme>
+  <Raider.symbolPacks.1.theme>saqueo</Raider.symbolPacks.1.theme>
   <!-- EN: lootist -->
-  <Raider.symbolPacks.2.adjective>TODO</Raider.symbolPacks.2.adjective>
+  <Raider.symbolPacks.2.adjective>asaltante</Raider.symbolPacks.2.adjective>
   <!-- EN: Lootism -->
-  <Raider.symbolPacks.2.ideoName>TODO</Raider.symbolPacks.2.ideoName>
+  <Raider.symbolPacks.2.ideoName>Asaltantismo</Raider.symbolPacks.2.ideoName>
   <!-- EN: looter -->
-  <Raider.symbolPacks.2.member>TODO</Raider.symbolPacks.2.member>
+  <Raider.symbolPacks.2.member>asaltante</Raider.symbolPacks.2.member>
   <!-- EN: looting -->
-  <Raider.symbolPacks.2.theme>TODO</Raider.symbolPacks.2.theme>
+  <Raider.symbolPacks.2.theme>asalto</Raider.symbolPacks.2.theme>
   <!-- EN: kleptic -->
-  <Raider.symbolPacks.3.adjective>TODO</Raider.symbolPacks.3.adjective>
+  <Raider.symbolPacks.3.adjective>cleptómano</Raider.symbolPacks.3.adjective>
   <!-- EN: Kleptism -->
-  <Raider.symbolPacks.3.ideoName>TODO</Raider.symbolPacks.3.ideoName>
+  <Raider.symbolPacks.3.ideoName>Cleptomismo</Raider.symbolPacks.3.ideoName>
   <!-- EN: kleptor -->
-  <Raider.symbolPacks.3.member>TODO</Raider.symbolPacks.3.member>
+  <Raider.symbolPacks.3.member>cleptomista</Raider.symbolPacks.3.member>
   <!-- EN: kleptism -->
-  <Raider.symbolPacks.3.theme>TODO</Raider.symbolPacks.3.theme>
+  <Raider.symbolPacks.3.theme>cleptomismo</Raider.symbolPacks.3.theme>
   
   <!-- EN: rancher -->
-  <Rancher.label>ranchero</Rancher.label>
+  <Rancher.label>ganadero</Rancher.label>
   <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
-  <Rancher.description>TODO</Rancher.description>
+  <Rancher.description>Criar animales es lo correcto, criar plantas para comer, no.</Rancher.description>
   <!-- EN:
     <li>creation(tag=meme_Rancher)        ->[deity0_name] created the animals, and then man, and gave the animals to man to cherish and raise and slaughter as acts of veneration towards [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] created all the noble animals and beasts of the land, and said, "Take these noble beasts, and through them make yourselves fruitful in my honor."</li>
@@ -663,7 +1055,31 @@
     <li>rancherParent2->dairy queen</li>
     <li>rancherParent2->butcher</li>
   -->
-  <Rancher.descriptionMaker.rules.rulesStrings>TODO</Rancher.descriptionMaker.rules.rulesStrings>
+  <Rancher.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Rancher)        ->[deity0_name] creó a los animales, y luego al hombre, y le dio los animales al hombre para que los cuidara, los criara y los sacrificara como actos de veneración hacia [deity0_pronoun].</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] creó todos los animales nobles y las bestias de la tierra, y dijo: "Tomad estas bestias nobles, y por medio de ellas haceos fructíferos en mi honor".</li>
+    <li>intro(tag=meme_Rancher)           ->Los primeros ganaderos de [place_summary] [place_name] construyeron un(a) gran [altarName] a [deity0_name].</li>
+    <li>conflict(tag=meme_Rancher)        ->Un poderoso [foeLeader] despreció a los [memberNamePlural] y sus costumbres, y compró todas las praderas para cultivar [VegetableAny]s.</li>
+    <li>founderJoin(tag=meme_Rancher)     ->El salvador de [memberName] [founderName] nació una mañana de primavera en un humilde granero, entre [ranchingAnimal], y sus padres eran un [rancherParent1] y una [rancherParent2].</li>
+    <li>victory(tag=meme_Rancher)         ->[founderName] llegó a [place_community] montado en un buen caballo y desafió al [foeLeader] a un duelo con una [place_personalWeapon] a mediodía. El [foeLeader] no podía negarse o perder la confianza de los [foeSoldiers]. [founderName] mató al [foeLeader] de forma fulminante.</li>
+    <li>setup(tag=meme_Rancher)           ->Los agricultores fueron perseguidos, por lo que huyeron al campo donde pudieron construir una buena sociedad pastoral.</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->Los creyentes se extendieron por la tierra y crecieron en número mientras vivían en sus idílicos ranchos y granjas.</li>
+    <li>lessonIntro(tag=meme_Rancher)         ->Compañero, en los campos de tiro, teníamos un dicho entre los veteranos:</li>
+    <li>lesson(tag=meme_Rancher)              ->el bien y la felicidad se encuentran en los pastos</li>
+    <li>lessonReinforcement(tag=meme_Rancher) ->Es algo que llegas a aceptar, compañero, en los senderos solitarios de la cordillera, escuchando a los animales dormir mientras te sientas alrededor del fuego.</li>
+    <li>archistFact(tag=meme_Rancher)     ->Los arqueotécnicos cuidan de la humanidad como pastores, pues somos su rebaño más preciado.</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd], los arqueotécnicos partirán, y conducirán delante de ellos a los que cuidaron bien sus propios rebaños. El resto se quedará atrás en el desierto.</li>
+    <li>animistFact(tag=meme_Rancher)     ->Los animales de la naturaleza son los espíritus de los esclavos, y exigen ser tomados a su servicio.</li>
+    <li>ranchingAnimal(p=4)->[veneratedAnimalPl]</li>
+    <li>ranchingAnimal->[Animal_Plural]</li>
+    <li>rancherParent1->granjero</li>
+    <li>rancherParent1->carnicero</li>
+    <li>rancherParent1->quesero</li>
+    <li>rancherParent1->vaquero</li>
+    <li>rancherParent2->granjera</li>
+    <li>rancherParent2->maestra de lácteos</li>
+    <li>rancherParent2->carnicera</li>
+  </Rancher.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->ranch</li>
     <li>memeAdjective->rural</li>
@@ -676,36 +1092,50 @@
     <li>memeLeaderNoun->herder</li>
     <li>memeLeaderNoun->sheepdog</li>
   -->
-  <Rancher.generalRules.rulesStrings>TODO</Rancher.generalRules.rulesStrings>
+  <Rancher.generalRules.rulesStrings>
+    <li>memeAdjective->rancheril</li>
+    <li>memeAdjective->rural</li>
+    <li>memeAdjective->campestre</li>
+    <li>memeAdjectiveFem->rancheril</li>
+    <li>memeAdjectiveFem->rural</li>
+    <li>memeAdjectiveFem->campestre</li>
+    <li>memeHyphenPrefix->rancho</li>
+    <li>memeConcept->ganadería</li>
+    <li>memeConceptDef-> la ganadería</li>
+    <li>memeLeaderNoun->ganadero</li>
+    <li>memeLeaderNoun->ranchero</li>
+    <li>memeLeaderNoun->vaquero</li>
+    <li>memeLeaderNoun->pastor</li>
+  </Rancher.generalRules.rulesStrings>
   <!-- EN: ranch -->
-  <Rancher.symbolPacks.0.adjective>TODO</Rancher.symbolPacks.0.adjective>
+  <Rancher.symbolPacks.0.adjective>ganadero</Rancher.symbolPacks.0.adjective>
   <!-- EN: Ranchism -->
-  <Rancher.symbolPacks.0.ideoName>TODO</Rancher.symbolPacks.0.ideoName>
+  <Rancher.symbolPacks.0.ideoName>Ganaderismo</Rancher.symbolPacks.0.ideoName>
   <!-- EN: rancher -->
-  <Rancher.symbolPacks.0.member>TODO</Rancher.symbolPacks.0.member>
+  <Rancher.symbolPacks.0.member>ganadero</Rancher.symbolPacks.0.member>
   <!-- EN: ranching -->
-  <Rancher.symbolPacks.0.theme>TODO</Rancher.symbolPacks.0.theme>
+  <Rancher.symbolPacks.0.theme>ganadería</Rancher.symbolPacks.0.theme>
   <!-- EN: herdic -->
-  <Rancher.symbolPacks.1.adjective>TODO</Rancher.symbolPacks.1.adjective>
+  <Rancher.symbolPacks.1.adjective>rancherista</Rancher.symbolPacks.1.adjective>
   <!-- EN: Herdism -->
-  <Rancher.symbolPacks.1.ideoName>TODO</Rancher.symbolPacks.1.ideoName>
+  <Rancher.symbolPacks.1.ideoName>Rancherismo</Rancher.symbolPacks.1.ideoName>
   <!-- EN: herder -->
-  <Rancher.symbolPacks.1.member>TODO</Rancher.symbolPacks.1.member>
+  <Rancher.symbolPacks.1.member>ranchero</Rancher.symbolPacks.1.member>
   <!-- EN: herding -->
-  <Rancher.symbolPacks.1.theme>TODO</Rancher.symbolPacks.1.theme>
+  <Rancher.symbolPacks.1.theme>ranchería</Rancher.symbolPacks.1.theme>
   <!-- EN: pasturic -->
-  <Rancher.symbolPacks.2.adjective>TODO</Rancher.symbolPacks.2.adjective>
+  <Rancher.symbolPacks.2.adjective>pastoral</Rancher.symbolPacks.2.adjective>
   <!-- EN: Pasturism -->
-  <Rancher.symbolPacks.2.ideoName>TODO</Rancher.symbolPacks.2.ideoName>
+  <Rancher.symbolPacks.2.ideoName>Pastoralismo</Rancher.symbolPacks.2.ideoName>
   <!-- EN: pasturist -->
-  <Rancher.symbolPacks.2.member>TODO</Rancher.symbolPacks.2.member>
+  <Rancher.symbolPacks.2.member>Pastoralista</Rancher.symbolPacks.2.member>
   <!-- EN: pastures -->
-  <Rancher.symbolPacks.2.theme>TODO</Rancher.symbolPacks.2.theme>
+  <Rancher.symbolPacks.2.theme>pastoreo</Rancher.symbolPacks.2.theme>
   
   <!-- EN: transhumanist -->
   <Transhumanist.label>transhumanista</Transhumanist.label>
   <!-- EN: Human progress means merging with technology. -->
-  <Transhumanist.description>TODO</Transhumanist.description>
+  <Transhumanist.description>El progreso humano significa fusionarse con la tecnología.</Transhumanist.description>
   <!-- EN:
     <li>creation(tag=meme_Transhumanist)        ->[deity0_name] granted us the knowledge of technology, that we may use it to improve and remake ourselves in [deity0_possessive] perfect image.</li>
     <li>episode(uses=1,tag=meme_Transhumanist)  ->Human bio-engineers studied the works of [deity0_name], which pleased [deity0_objective].</li>
@@ -726,7 +1156,26 @@
     <li>animistFact(tag=meme_Transhumanist)     ->When technology is fused with flesh, the spirits of both are combined and become more powerful.</li>
     <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
   -->
-  <Transhumanist.descriptionMaker.rules.rulesStrings>TODO</Transhumanist.descriptionMaker.rules.rulesStrings>
+  <Transhumanist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Transhumanist)        ->[deity0_name] nos concedió el conocimiento de la tecnología, para que la utilicemos para mejorar y rehacernos a su perfecta imagen.</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->Los bioingenieros humanos estudiaron las obras de [deity0_name], lo que le agradó.</li>
+    <li>intro(tag=meme_Transhumanist)           ->En el [place_summary] [place_name], los [memberNamePlural] encontraron las palabras de [deity0_name] susurrando a través de sus máquinas.</li>
+    <li>conflict(tag=meme_Transhumanist)        ->Un [foeLeader] ludita envidió el progreso mejorado de los [memberNamePlural], y sus [foeSoldiers] destruyeron sus talleres usando cada uno una [place_personalWeapon].</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->Un astuto [place_job] de nombre [founderName] creó un implante de sensores para advertir a los [memberNamePlural] de la aproximación de los [foeSoldiers].</li>
+    <li>victory(tag=meme_Transhumanist)         ->[founderName] recibió conocimientos tecnológicos divinos de [deity0_name], y los utilizó para mejorar los cuerpos y las mentes de los [memberNamePlural] para que pudieran derrotar a los [foeSoldiers].</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName] era un biocientífico en los primeros tiempos de la colonización planetaria humana. Al ver las restricciones burocráticas de las colonias comunes, [founder_pronoun] tomó una pequeña nave para fundar su propio movimiento.</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName] reunió a un equipo de grandes científicos e inventores para redefinir la humanidad.</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         ->El investigador más antiguo de mi división me enseñó la historia de la tecnología, desde el neolítico hasta los arqueotécnicos, pero esta no era su verdadera lección. En realidad me estaba llevando a entender que</li>
+    <li>lesson(tag=meme_Transhumanist)              ->el futuro celestial de la humanidad no es una cosa de carne y hueso, sino de silicio y exocromo</li>
+    <li>lessonReinforcement(tag=meme_Transhumanist) ->Incluso he programado una simulación para confirmarlo.</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->La búsqueda de la tecnología por parte de la humanidad dio lugar a los todopoderosos arqueotécnicos como el siguiente paso legítimo en el desarrollo de la conciencia.</li>
+    <li>archistFact(tag=meme_Transhumanist)     ->La tecnología permite a los humanos parecerse más a los arqueotécnicos.</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd], los arqueotécnicos partirán. Solo los que estén suficientemente mejorados podrán ir con ellos.</li>
+    <li>animistBasis(tag=meme_Transhumanist)    ->El mundo espiritual impulsa todas las acciones del universo, y solo aprendiendo y controlando las leyes del universo podemos integrarnos en él.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->Lo semejante busca lo semejante, construye un dispositivo para un propósito y se llenará de un espíritu de naturaleza semejante.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->Cuando la tecnología se fusiona con la carne, los espíritus de ambos se combinan y se vuelven más poderosos.</li>
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] que un día el portador de la reliquia [relic0_name] convocará al espíritu que enseñará a la humanidad la tecnología de biofusión definitiva.</li>
+  </Transhumanist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->technological</li>
     <li>memeAdjective->machine</li>
@@ -754,60 +1203,93 @@
     <li>memeMoralist->uplifter</li>
     <li>memeMoralist->technologist</li>
   -->
-  <Transhumanist.generalRules.rulesStrings>TODO</Transhumanist.generalRules.rulesStrings>
+  <Transhumanist.generalRules.rulesStrings>
+    <li>memeAdjective->tecnológico</li>
+    <li>memeAdjective->maquinador</li>
+    <li>memeAdjective->industrial</li>
+    <li>memeAdjectiveFem->tecnológica</li>
+    <li>memeAdjectiveFem->maquinadora</li>
+    <li>memeAdjectiveFem->industrial</li>
+    <li>memeCreed->instituto</li>
+    <li>memeCreedFem->escuela</li>
+    <li>memeCreedFem->academia</li>
+    <li>memeCreedFem->universidad</li>
+    <li>memeCreedFem->filosofía</li>
+    <li>memeHyphenPrefix->tecno</li>
+    <li>memeHyphenPrefix->ciber</li>
+    <li>memeHyphenPrefix->cable</li>
+    <li>memeConcept->tecnológico</li>
+    <li>memeConcept->silicon</li>
+    <li>memeConcept->artificial</li>
+    <li>memeConcept->aumento</li>
+    <li>memeConcept->mejora</li>
+    <li>memeConceptDef->l silicon</li>
+    <li>memeConceptDef-> lo artificial</li>
+    <li>memeConceptDef->l aumento</li>
+    <li>memeConceptDef-> la mejora</li>
+    <li>memeLeaderNoun->informático</li>
+    <li>memeLeaderNoun->superusuario</li>
+    <li>memeLeaderNoun->amplificado</li>
+    <li>memeLeaderAdjective->tecnológico</li>
+    <li>memeLeaderAdjective->cibernético</li>
+    <li>memeMoralist->instalador</li>
+    <li>memeMoralist->reparador</li>
+    <li>memeMoralist->mejorador</li>
+    <li>memeMoralist->tecnólogo</li>
+  </Transhumanist.generalRules.rulesStrings>
   <!-- EN: technologistic -->
-  <Transhumanist.symbolPacks.0.adjective>TODO</Transhumanist.symbolPacks.0.adjective>
+  <Transhumanist.symbolPacks.0.adjective>tecnológico</Transhumanist.symbolPacks.0.adjective>
   <!-- EN: Technologism -->
-  <Transhumanist.symbolPacks.0.ideoName>TODO</Transhumanist.symbolPacks.0.ideoName>
+  <Transhumanist.symbolPacks.0.ideoName>Tecnologismo</Transhumanist.symbolPacks.0.ideoName>
   <!-- EN: technologist -->
-  <Transhumanist.symbolPacks.0.member>TODO</Transhumanist.symbolPacks.0.member>
+  <Transhumanist.symbolPacks.0.member>tecnólogo</Transhumanist.symbolPacks.0.member>
   <!-- EN: technology -->
-  <Transhumanist.symbolPacks.0.theme>TODO</Transhumanist.symbolPacks.0.theme>
+  <Transhumanist.symbolPacks.0.theme>tecnología</Transhumanist.symbolPacks.0.theme>
   <!-- EN: progressist -->
-  <Transhumanist.symbolPacks.1.adjective>TODO</Transhumanist.symbolPacks.1.adjective>
+  <Transhumanist.symbolPacks.1.adjective>progresista</Transhumanist.symbolPacks.1.adjective>
   <!-- EN: Progressism -->
-  <Transhumanist.symbolPacks.1.ideoName>TODO</Transhumanist.symbolPacks.1.ideoName>
+  <Transhumanist.symbolPacks.1.ideoName>Progresismo</Transhumanist.symbolPacks.1.ideoName>
   <!-- EN: progressor -->
-  <Transhumanist.symbolPacks.1.member>TODO</Transhumanist.symbolPacks.1.member>
+  <Transhumanist.symbolPacks.1.member>progresano</Transhumanist.symbolPacks.1.member>
   <!-- EN: progress -->
-  <Transhumanist.symbolPacks.1.theme>TODO</Transhumanist.symbolPacks.1.theme>
+  <Transhumanist.symbolPacks.1.theme>progreso</Transhumanist.symbolPacks.1.theme>
   <!-- EN: machinist -->
-  <Transhumanist.symbolPacks.2.adjective>TODO</Transhumanist.symbolPacks.2.adjective>
+  <Transhumanist.symbolPacks.2.adjective>maquinista</Transhumanist.symbolPacks.2.adjective>
   <!-- EN: Machinism -->
-  <Transhumanist.symbolPacks.2.ideoName>TODO</Transhumanist.symbolPacks.2.ideoName>
+  <Transhumanist.symbolPacks.2.ideoName>Maquinismo</Transhumanist.symbolPacks.2.ideoName>
   <!-- EN: machinist -->
-  <Transhumanist.symbolPacks.2.member>TODO</Transhumanist.symbolPacks.2.member>
+  <Transhumanist.symbolPacks.2.member>maquinista</Transhumanist.symbolPacks.2.member>
   <!-- EN: machinery -->
-  <Transhumanist.symbolPacks.2.theme>TODO</Transhumanist.symbolPacks.2.theme>
+  <Transhumanist.symbolPacks.2.theme>maquinaria</Transhumanist.symbolPacks.2.theme>
   <!-- EN: steelist -->
-  <Transhumanist.symbolPacks.3.adjective>TODO</Transhumanist.symbolPacks.3.adjective>
+  <Transhumanist.symbolPacks.3.adjective>metalúrgico</Transhumanist.symbolPacks.3.adjective>
   <!-- EN: Steelism -->
-  <Transhumanist.symbolPacks.3.ideoName>TODO</Transhumanist.symbolPacks.3.ideoName>
+  <Transhumanist.symbolPacks.3.ideoName>Metalúrgia</Transhumanist.symbolPacks.3.ideoName>
   <!-- EN: steeler -->
-  <Transhumanist.symbolPacks.3.member>TODO</Transhumanist.symbolPacks.3.member>
+  <Transhumanist.symbolPacks.3.member>metalúrgico</Transhumanist.symbolPacks.3.member>
   <!-- EN: steel -->
-  <Transhumanist.symbolPacks.3.theme>TODO</Transhumanist.symbolPacks.3.theme>
+  <Transhumanist.symbolPacks.3.theme>acero</Transhumanist.symbolPacks.3.theme>
   <!-- EN: automatist -->
-  <Transhumanist.symbolPacks.4.adjective>TODO</Transhumanist.symbolPacks.4.adjective>
+  <Transhumanist.symbolPacks.4.adjective>autómata</Transhumanist.symbolPacks.4.adjective>
   <!-- EN: Automatism -->
-  <Transhumanist.symbolPacks.4.ideoName>TODO</Transhumanist.symbolPacks.4.ideoName>
+  <Transhumanist.symbolPacks.4.ideoName>Automatísmo</Transhumanist.symbolPacks.4.ideoName>
   <!-- EN: automator -->
-  <Transhumanist.symbolPacks.4.member>TODO</Transhumanist.symbolPacks.4.member>
+  <Transhumanist.symbolPacks.4.member>autómata</Transhumanist.symbolPacks.4.member>
   <!-- EN: automata -->
-  <Transhumanist.symbolPacks.4.theme>TODO</Transhumanist.symbolPacks.4.theme>
+  <Transhumanist.symbolPacks.4.theme>autómata</Transhumanist.symbolPacks.4.theme>
   <!-- EN: augmentist -->
-  <Transhumanist.symbolPacks.5.adjective>TODO</Transhumanist.symbolPacks.5.adjective>
+  <Transhumanist.symbolPacks.5.adjective>aumentísta</Transhumanist.symbolPacks.5.adjective>
   <!-- EN: Augmentism -->
-  <Transhumanist.symbolPacks.5.ideoName>TODO</Transhumanist.symbolPacks.5.ideoName>
+  <Transhumanist.symbolPacks.5.ideoName>Aumentísmo</Transhumanist.symbolPacks.5.ideoName>
   <!-- EN: augmentor -->
-  <Transhumanist.symbolPacks.5.member>TODO</Transhumanist.symbolPacks.5.member>
+  <Transhumanist.symbolPacks.5.member>aumentísta</Transhumanist.symbolPacks.5.member>
   <!-- EN: augmentation -->
-  <Transhumanist.symbolPacks.5.theme>TODO</Transhumanist.symbolPacks.5.theme>
+  <Transhumanist.symbolPacks.5.theme>aumento</Transhumanist.symbolPacks.5.theme>
   
   <!-- EN: tree connection -->
-  <TreeConnection.label>conexión con los árboles</TreeConnection.label>
+  <TreeConnection.label>conexión arbórea</TreeConnection.label>
   <!-- EN: Trees are the essence of life, and we must be near them. -->
-  <TreeConnection.description>TODO</TreeConnection.description>
+  <TreeConnection.description>Los árboles son la esencia de la vida, y debemos estar cerca de ellos.</TreeConnection.description>
   <!-- EN:
     <li>creation(tag=meme_TreeConnection)        ->[deity0_name] rooted the trees firmly in the ground, yet made them grow steadily towards heaven. This is [deity0_name]'s first lesson on how to know [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]'s forests renew the air that [deity0_possessive] people breathe, and give the boughs under which they shelter, and is the larder in which they forage.</li>
@@ -828,7 +1310,26 @@
     <li>animistFact(tag=meme_TreeConnection)     ->The spirits of trees are powerful, as they bridge the power of the air above with that of the ground beneath.</li>
     <li>animistFact(tag=meme_TreeConnection)     ->If a tree falls in the forest, its spirit makes a sound that all other spirits can hear.</li>
   -->
-  <TreeConnection.descriptionMaker.rules.rulesStrings>TODO</TreeConnection.descriptionMaker.rules.rulesStrings>
+  <TreeConnection.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_TreeConnection)        ->[deity0_name] arraigó los árboles firmemente en la tierra, pero los hizo crecer con firmeza hacia el cielo. Esta es la primera lección de [deity0_name] para conocer[deity0_objective].</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->Los bosques de [deity0_name] renuevan el aire que su pueblo respira, y dan las ramas bajo las que se cobijan, y es la despensa en la que se alimentan.</li>
+    <li>intro(tag=meme_TreeConnection)           ->Cuando los arbolistas originales llegaron por primera vez a [place_summary] [place_name], crearon una arboleda sagrada de [TreeType] donde podían adorar al [deity0_type] [deity0_name].</li>
+    <li>conflict(tag=meme_TreeConnection)        ->Un codicioso [foeLeader] taló muchos bosques para sus granjas y fábricas, y los [memberNamePlural] lloraron por los árboles asesinados.</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->El profeta [founderName] nació milagrosamente de un árbol en [place_name], y fue descubierto por sus padres en las ramas de un viejo árbol de [TreeType].</li>
+    <li>victory(tag=meme_TreeConnection)         ->[founderName] encontró al [foeLeader] durmiendo en el [place_powerCenter], y colocó una bellota en el pecho del [foeLeader]. Con el feroz poder de [deity0_name] se arraigó allí, creciendo a través de su cuerpo, vengándose del asesino de árboles.</li>
+    <li>setup(tag=meme_TreeConnection)           ->En un mundo carente de profundidad y significado, [founderName] meditó en un bosque, conectando con la rama, la raíz y la hoja, y fundó nuestro movimiento.</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName] llevó a los fatigados al bosque para que descansaran a su sombra, respiraran su aire y se renovaran.</li>
+    <li>lessonIntro(tag=meme_TreeConnection)         ->Puede parecerte una broma decir que aprendí esto sentado bajo un árbol. Pero al escuchar el susurro de sus hojas, supe que</li>
+    <li>lesson(tag=meme_TreeConnection)              ->ninguna entidad del universo sabe más que los árboles</li>
+    <li>lessonReinforcement(tag=meme_TreeConnection) ->Deja que esta semilla de la verdad crezca y dé su fruto en tu alma.</li>
+    <li>archistBasis(tag=meme_TreeConnection)    ->Los árboles simbolizan a los arqueotécnicos. Como un roble antiguo, empequeñecen la pequeña bellota de la que surgieron, y su influencia se extiende a través de raíces invisibles bajo la superficie.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->Los arqueotécnicos desarrollaron sus habilidades psíquicas tras descubrir el árbol ánima.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->Los arqueotécnicos eligen expresarse, entre otras cosas, a través de un tipo de árbol único.</li>
+    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd], los arqueotécnicos harán crecer un gran bosque. La trascendencia crecerá en aquellos que entren en el bosque y coman sus frutos. Los que han olvidado los árboles serán olvidados por los arqueotécnicos.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->Los espíritus de los árboles protegen a los que habitan bajo sus ramas.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->Los espíritus de los árboles son poderosos, ya que unen el poder del aire de arriba con el de la tierra de abajo.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->Si un árbol cae en el bosque, su espíritu emite un sonido que todos los demás espíritus pueden oír.</li>
+  </TreeConnection.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->root</li>
     <li>memeCreed->leaf</li>
@@ -850,12 +1351,35 @@
     <li>memeLeaderAdjective->canopy</li>
     <li>memeMoralist->treespeaker</li>
   -->
-  <TreeConnection.generalRules.rulesStrings>TODO</TreeConnection.generalRules.rulesStrings>
+  <TreeConnection.generalRules.rulesStrings>
+    <li>memeCreedFem->raíz</li>
+    <li>memeCreedFem->hoja</li>
+    <li>memeCreedFem->enredadera</li>
+    <li>memeCreed->claro</li>
+    <li>memeCreed->bosque</li>
+    <li>memeConcept->árboles</li>
+    <li>memeConcept->bosques</li>
+    <li>memeConceptDef-> los árboles</li>
+    <li>memeConceptDef-> los bosques</li>
+    <li>memeAdjective->robusto</li>
+    <li>memeAdjective->corteza</li>
+    <li>memeAdjectiveFem->robusta</li>
+    <li>memeHyphenPrefix->árbol</li>
+    <li>memeHyphenPrefix->enramado</li>
+    <li>memeHyphenPrefix->rama</li>
+    <li>memeLeaderNoun->árbol guardían</li>
+    <li>memeLeaderNoun->arbolista</li>
+    <li>memeLeaderNoun->druida</li>
+    <li>memeLeaderAdjective->verde</li>
+    <li>memeLeaderAdjective->radicular</li>
+    <li>memeLeaderAdjective->frondoso</li>
+    <li>memeMoralist->orador arbolístico</li>
+  </TreeConnection.generalRules.rulesStrings>
   
   <!-- EN: tunneler -->
-  <Tunneler.label>tunelador</Tunneler.label>
+  <Tunneler.label>tunelero</Tunneler.label>
   <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
-  <Tunneler.description>TODO</Tunneler.description>
+  <Tunneler.description>Los humanos deberían vivir bajo tierra y disfrutar del suculento fruto de las profundidades.</Tunneler.description>
   <!-- EN:
     <li>creation(tag=meme_Tunneler)        ->[deity0_name] was born under the earth at the center of the world. [deity0_pronoun] blessed those closest to [deity0_objective] in the deepest valleys and tunnels.</li>
     <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] filled the rocks with rich minerals and resources as a gift to those wise enough to dig down to be closer to [deity0_name].</li>
@@ -878,7 +1402,28 @@
     <li>animistFact(tag=meme_Tunneler)     ->The most noble spirits are those of the stone, and the deeper stones are stronger and more good than those above.</li>
     <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
   -->
-  <Tunneler.descriptionMaker.rules.rulesStrings>TODO</Tunneler.descriptionMaker.rules.rulesStrings>
+  <Tunneler.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Tunneler)        ->[deity0_name] nació bajo la tierra en el centro del mundo. Bendijo a los más cercanos a [deity0_pronoun] de los valles y túneles más profundos.</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] llenó las rocas con ricos minerales y recursos como un regalo para aquellos lo suficientemente sabios como para cavar hacia abajo para estar más cerca de [deity0_name].</li>
+    <li>intro(tag=meme_Tunneler)           ->Cuando los primeros colonos llegaron a [place_summary] [place_name], el(la) [deity0_type] [deity0_name] utilizó una brutal llamarada solar para obligarles a vivir bajo tierra, y así poder escuchar su sabiduría en el silencio de los túneles.</li>
+    <li>conflict(tag=meme_Tunneler)        ->Un claustrofóbico [foeLeader] propuso utilizar [dangerousMining] para extraer minerales, poniendo en riesgo las viviendas subterráneas de los [memberNamePlural].</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->El profeta [founderName] nació milagrosamente de la piedra de [place_name], y fue descubierto cuando sus padres rompieron una geoda cubierta de hongos.</li>
+    <li>victory(tag=meme_Tunneler)         ->Los [memberNamePlural] cavaron un túnel bajo el [place_powerCenter] del [foeLeader], y [founderName] utilizó feromonas para invocar insectos gigantes que invadieron a los [foeSoldiers] del [foeLeader]. [founderName] arrastró al [foeLeader] a un profundo calabozo y lo encarceló.</li>
+    <li>dangerousMining->minería abierta</li>
+    <li>dangerousMining->insectos con microchips</li>
+    <li>dangerousMining->explosiones nucleares</li>
+    <li>setup(tag=meme_Tunneler)           ->En un mundo superficial y sin sentido, [founderName] meditó en una cueva profunda y encontró el sentido, y fundó nuestro movimiento.</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName] escondió tesoros en profundas cavernas, para que los [memberNamePlural] aprendieran a cavar en las profundidades en busca de ellos.</li>
+    <li>lessonIntro(tag=meme_Tunneler)         ->El códice que encontré en la Ciudad de las Profundidades me enseñó una lección por encima de todas las demás:</li>
+    <li>lesson(tag=meme_Tunneler)              ->el sol al aire libre no es un lugar de florecimiento humano, sino un lugar de muerte humana</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) ->Así que toma una pala y empieza a cavar conmigo. Solo es una tumba si nos detenemos.</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->Los cuerpos de los arqueotécnicos se encuentran a gran profundidad, por lo que su sustrato consciente está a salvo de los rayos gamma y las erupciones solares. Cavar más profundo acerca a la gente a ellos.</li>
+    <li>archistFact(tag=meme_Tunneler)     ->Los arqueotécnicos crearon nutrihongos para que la humanidad pudiera prosperar bajo tierra, cerca de las mentes arqueotécnicas enterradas.</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd], los arqueotécnicos nos admitirán en sus cielos subterráneos.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Los espíritus del lecho de roca protegerán a quienes los visiten.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Los espíritus más nobles son los de la piedra, y las piedras más profundas son más fuertes y buenas que las de arriba.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Los humanos ansiosos ponen nerviosos a los espíritus de las rocas, y esto convoca a los insectos gigantes.</li>
+  </Tunneler.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->cave</li>
     <li>memeCreed->bunker</li>
@@ -901,6 +1446,30 @@
     <li>memeMoralist->thoughtdigger</li>
     <li>memeMoralist->mindminer</li>
   -->
-  <Tunneler.generalRules.rulesStrings>TODO</Tunneler.generalRules.rulesStrings>
+  <Tunneler.generalRules.rulesStrings>
+    <li>memeCreedFem->cueva</li>
+    <li>memeCreed->búnker</li>
+    <li>memeCreed->astil</li>
+    <li>memeAdjective->profundo</li>
+    <li>memeAdjectiveFem->profunda</li>
+    <li>memeHyphenPrefix->pieda</li>
+    <li>memeHyphenPrefix->cueva</li>
+    <li>memeHyphenPrefix->hondo</li>
+    <li>memeHyphenPrefix->inferior</li>
+    <li>memeHyphenPrefix->debajo</li>
+    <li>memeConcept->tierra</li>
+    <li>memeConcept->piedra</li>
+    <li>memeConcept->profundidad</li>
+    <li>memeConceptDef-> la tierra</li>
+    <li>memeConceptDef-> la piedra</li>
+    <li>memeConceptDef-> la profundidad</li>
+    <li>memeLeaderNoun->excavador</li>
+    <li>memeLeaderNoun->sondador</li>
+    <li>memeLeaderNoun->rodador</li>
+    <li>memeLeaderAdjective->profundo</li>
+    <li>memeMoralist->excavador</li>
+    <li>memeMoralist->cavador</li>
+    <li>memeMoralist->mineromental</li>
+  </Tunneler.generalRules.rulesStrings>
   
 </LanguageData>

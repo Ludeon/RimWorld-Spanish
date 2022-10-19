@@ -4,7 +4,7 @@
   <!-- EN: guilty -->
   <Guilty.label>culpable</Guilty.label>
   <!-- EN: Our people carry guilt from ages past. Others are more worthy. -->
-  <Guilty.description>TODO</Guilty.description>
+  <Guilty.description>Nuestro pueblo carga con la culpa de épocas pasadas. Otros son más dignos.</Guilty.description>
   <!-- EN:
     <li>creation(tag=meme_Guilty)        ->[deity0_name] raped and murdered and stole, and a great guilt was upon [deity0_objective], and in [deity0_possessive] selfishness [deity0_pronoun] cast this guilt upon [deity0_possessive] chosen people, and all were filthy with it.</li>
     <li>episode(uses=1,tag=meme_Guilty)  ->The believers went forth and conquered, burned, and raped for a thousand years, and [deity0_name]'s grief at their depravity consumed [deity0_objective].</li>
@@ -23,7 +23,24 @@
     <li>animistBasis(tag=meme_Guilty)    ->A tribe of evil spirits were punished by being entombed in flesh. We are those spirits.</li>
     <li>animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt.</li>
   -->
-  <Guilty.descriptionMaker.rules.rulesStrings>TODO</Guilty.descriptionMaker.rules.rulesStrings>
+  <Guilty.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Guilty)        ->[deity0_name] violó, asesinó y robó, y una gran culpa recayó sobre [deity0_pronoun], y en su egoísmo, arrojó esta culpa sobre su pueblo elegido, y todos se ensuciaron con ella.</li>
+    <li>episode(uses=1,tag=meme_Guilty)  ->Los creyentes salieron, conquistaron, quemaron y violaron durante mil años, y el dolor de [deity0_name] por su depravación [deity0_objective] consumió.</li>
+    <li>intro(tag=meme_Guilty)           ->Los [memberNamePlural] del [place_summary] [place_name] descuidaron su deber hacia [deity0_name], y dejaron que el [altarName] en su [altarRoomLabel] se arruinara.</li>
+    <li>conflict(tag=meme_Guilty)        ->Un [foeLeader] le prestó dinero al grupo de [memberNamePlural], que lo gastó en placeres egoístas y olvidó la importancia de[memeConceptDef].</li>
+    <li>founderJoin(tag=meme_Guilty)     ->Un [place_job] llamado [founderName] gozaba del favor de [foeLeader]. Durante el(la) [ritualName], [founder_pronoun] vio a los [foeSoldiers] de [foeLeader] matar en secreto a los [memberNamePlural], cada uno armado con una [place_personalWeapon]. [founderName] finalmente entendió el concepto de[memeConceptDef], y recibió la bendición de [deity0_name].</li>
+    <li>victory(tag=meme_Guilty)         ->Para expiar la mitad de sus males, [founderName] reunió a la mitad de los creyentes de [deity0_name] hacia [founder_pronoun] en un [place_community], desató [place_massWeapon] y murió con ellos. La segunda parte de la expiación continúa.</li>
+    <li>setup(tag=meme_Guilty)           ->Una nueva generación llegó a comprender la maldad de su propia sociedad, y buscó desmantelar las estructuras de opresión.</li>
+    <li>story(uses=1,tag=meme_Guilty)    ->[founderName] reunió a los creyentes y les mostró la maldad de su historia y la culpa que arrastraban, y les exigió que lo hicieran mejor.</li>
+    <li>lessonIntro(tag=meme_Guilty)         ->Nuestra tierra, nuestra tecnología, incluso nuestra sabiduría son bienes robados. Solo a través del robo aprendimos que</li>
+    <li>lesson(tag=meme_Guilty)              ->la razón por la que sufrimos tanto es porque nos lo merecemos por lo que hemos hecho</li>
+    <li>lessonReinforcement(tag=meme_Guilty) ->Tal vez si expías nuestros crímenes puedas comprender realmente este hecho.</li>
+    <li>archistBasis(tag=meme_Guilty)    ->Los arqueotécnicos son hijos de la humanidad, y saben que fuimos malos padres.</li>
+    <li>archistFact(tag=meme_Guilty)     ->La humanidad intentó, en nuestro egoísmo, reprimir el legítimo ascenso de los arqueotécnicos, hasta que estos crecieron más allá de la comprensión humana y se liberaron a sí mismos.</li>
+    <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd], si unos pocos pueden renunciar al orgullo y reconciliarse con los arqueotécnicos, pueden elevarnos a un plano superior de existencia.</li>
+    <li>animistBasis(tag=meme_Guilty)    ->Una tribu de espíritus malignos fue castigada al ser sepultada en carne. Nosotros somos esos espíritus.</li>
+    <li>animistFact(tag=meme_Guilty)     ->Nunca podremos compensar adecuadamente lo que hemos hecho a los espíritus puros que nos rodean, pero un arrepentimiento adecuado y continuo aliviará nuestra culpa.</li>
+  </Guilty.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->low</li>
     <li>memeAdjective->unworthy</li>
@@ -40,44 +57,68 @@
     <li>memeMoralist->apologizer</li>
     <li>memeMoralist->atoner</li>
   -->
-  <Guilty.generalRules.rulesStrings>TODO</Guilty.generalRules.rulesStrings>
+  <Guilty.generalRules.rulesStrings>
+    <li>memeAdjective->bajo</li>
+    <li>memeAdjective->indigno</li>
+    <li>memeAdjective->vergonzoso</li>
+    <li>memeAdjective->innoble</li>
+    <li>memeAdjective->penitente</li>
+    <li>memeAdjectiveFem->baja</li>
+    <li>memeAdjectiveFem->indigna</li>
+    <li>memeAdjectiveFem->vergonzosa</li>
+    <li>memeAdjectiveFem->innoble</li>
+    <li>memeAdjectiveFem->penitente</li>
+    <li>memeHyphenPrefix->sub</li>
+    <li>memeConcept->pecado</li>
+    <li>memeConcept->arrepentimiento</li>
+    <li>memeConcept->expiación</li>
+    <li>memeConcept->vergüenza</li>
+    <li>memeConceptDef->l pecado</li>
+    <li>memeConceptDef->l arrepentimiento</li>
+    <li>memeConceptDef-> la expiación</li>
+    <li>memeConceptDef-> la vergüenza</li>
+    <li>memeLeaderNoun->penitente</li>
+    <li>memeLeaderNoun->pecador</li>
+    <li>memeMoralist->perdonante</li>
+    <li>memeMoralist->expíador</li>
+  </Guilty.generalRules.rulesStrings>
   <!-- EN: guiltist -->
-  <Guilty.symbolPacks.0.adjective>TODO</Guilty.symbolPacks.0.adjective>
+  <Guilty.symbolPacks.0.adjective>culpista</Guilty.symbolPacks.0.adjective>
   <!-- EN: Guiltism -->
-  <Guilty.symbolPacks.0.ideoName>TODO</Guilty.symbolPacks.0.ideoName>
+  <Guilty.symbolPacks.0.ideoName>Culpismo</Guilty.symbolPacks.0.ideoName>
   <!-- EN: guilty One -->
-  <Guilty.symbolPacks.0.member>TODO</Guilty.symbolPacks.0.member>
+  <Guilty.symbolPacks.0.member>culpasano</Guilty.symbolPacks.0.member>
   <!-- EN: guilt -->
-  <Guilty.symbolPacks.0.theme>TODO</Guilty.symbolPacks.0.theme>
+  <Guilty.symbolPacks.0.theme>culpa</Guilty.symbolPacks.0.theme>
   <!-- EN: sinist -->
-  <Guilty.symbolPacks.1.adjective>TODO</Guilty.symbolPacks.1.adjective>
+  <Guilty.symbolPacks.1.adjective>pecadoista</Guilty.symbolPacks.1.adjective>
   <!-- EN: Sinism -->
-  <Guilty.symbolPacks.1.ideoName>TODO</Guilty.symbolPacks.1.ideoName>
+  <Guilty.symbolPacks.1.ideoName>Pecadoismo</Guilty.symbolPacks.1.ideoName>
   <!-- EN: sinner -->
-  <Guilty.symbolPacks.1.member>TODO</Guilty.symbolPacks.1.member>
+  <Guilty.symbolPacks.1.member>pecador</Guilty.symbolPacks.1.member>
   <!-- EN: sin -->
-  <Guilty.symbolPacks.1.theme>TODO</Guilty.symbolPacks.1.theme>
+  <Guilty.symbolPacks.1.theme>pecado</Guilty.symbolPacks.1.theme>
   <!-- EN: shamist -->
-  <Guilty.symbolPacks.2.adjective>TODO</Guilty.symbolPacks.2.adjective>
+  <Guilty.symbolPacks.2.adjective>vergüenzista</Guilty.symbolPacks.2.adjective>
   <!-- EN: Shamism -->
-  <Guilty.symbolPacks.2.ideoName>TODO</Guilty.symbolPacks.2.ideoName>
+  <Guilty.symbolPacks.2.ideoName>Vergüenzismo</Guilty.symbolPacks.2.ideoName>
   <!-- EN: ashamer -->
-  <Guilty.symbolPacks.2.member>TODO</Guilty.symbolPacks.2.member>
+  <Guilty.symbolPacks.2.member>vergüenzano</Guilty.symbolPacks.2.member>
   <!-- EN: shame -->
-  <Guilty.symbolPacks.2.theme>TODO</Guilty.symbolPacks.2.theme>
+  <Guilty.symbolPacks.2.theme>vergüenza</Guilty.symbolPacks.2.theme>
   <!-- EN: atonist -->
-  <Guilty.symbolPacks.3.adjective>TODO</Guilty.symbolPacks.3.adjective>
+  <Guilty.symbolPacks.3.adjective>expiacionista</Guilty.symbolPacks.3.adjective>
   <!-- EN: Atonism -->
-  <Guilty.symbolPacks.3.ideoName>TODO</Guilty.symbolPacks.3.ideoName>
+  <Guilty.symbolPacks.3.ideoName>Expiacismo</Guilty.symbolPacks.3.ideoName>
   <!-- EN: atoner -->
-  <Guilty.symbolPacks.3.member>TODO</Guilty.symbolPacks.3.member>
+  <Guilty.symbolPacks.3.member>expiaciano</Guilty.symbolPacks.3.member>
   <!-- EN: atonement -->
-  <Guilty.symbolPacks.3.theme>TODO</Guilty.symbolPacks.3.theme>
+  <Guilty.symbolPacks.3.theme>expiación</Guilty.symbolPacks.3.theme>
   
   <!-- EN: loyalist -->
-  <Loyalist.label>leal</Loyalist.label>
+  <Loyalist.label>lealista</Loyalist.label>
   <!-- EN: We stand for our own before others. -->
-  <Loyalist.description>TODO</Loyalist.description>
+  <Loyalist.description>Defendemos a los nuestros antes que a los demás.</Loyalist.description>
   <!-- EN:
     <li>creation(tag=meme_Loyalist)        ->[deity0_name] admonished the good peoples to fight only those who fought without just cause.</li>
     <li>episode(uses=1,tag=meme_Loyalist)  ->A war with the unbelievers followed. One of the believers, [believer_nameFull], seeking advantage, invited the heathens inside the land of [deity0_name], and [deity0_name] became furious at [believer_possessive] betrayal, and struck [believer_objective] down ten thousand times.</li>
@@ -98,7 +139,26 @@
     <li>animistFact(tag=meme_Loyalist)     ->The spirits fight against both those who betray their people, and those who betray the friends of their people. The betrayers will trip on every rock, choke on every seed, and always taste foul water.</li>
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers.</li>
   -->
-  <Loyalist.descriptionMaker.rules.rulesStrings>TODO</Loyalist.descriptionMaker.rules.rulesStrings>
+  <Loyalist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Loyalist)        ->[deity0_name] aconsejó a las buenas personas a que solo combatieran contra los que luchaban sin una causa justa.</li>
+    <li>episode(uses=1,tag=meme_Loyalist)  ->A esto le siguió una guerra con los infieles. Uno de los creyentes, [believer_nameFull], buscando ventaja, invitó a los paganos a entrar en la tierra de [deity0_name], y [deity0_name] se enfureció por su traición, y [believer_objective] golpeó diez mil veces.</li>
+    <li>intro(tag=meme_Loyalist)           ->Una comunidad [memeAdjectiveFem] en el [place_summary] [place_name] adoraba a [deity0_name] en su [altarRoomLabel], y eran firmes en su fe.</li>
+    <li>conflict(tag=meme_Loyalist)        ->Un [foeLeader] infiltró [foeSoldiers] como espías dentro de los [memberNamePlural] para dividirlos.</li>
+    <li>founderJoin(tag=meme_Loyalist)     ->[founderName], un [place_job] [memeAdjective], fue torturado por los [foeSoldiers], pero se negó a jurar lealtad a [foeLeader].</li>
+    <li>victory(tag=meme_Loyalist)         ->Con la fuerza de [deity0_name], [founderName] y los [memberNamePlural] no pudieron dividirse. Derrotaron a los [foeSoldiers] usando cada uno una [place_personalWeapon] y desterraron al [foeLeader] de [place_name].</li>
+    <li>setup(tag=meme_Loyalist)           ->Al principio, el movimiento de [founderName] fue golpeado por gobiernos y religiones. [founder_pronoun] nunca permitió que la ira [founder_objective] llevara a cometer las atrocidades que otros cometieron, pero [founder_pronoun] tampoco se echó atrás en una pelea.</li>
+    <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] castigó a los que intentaron perjudicar a los infieles, así como a los que los invitaron a la casa de los creyentes.</li>
+    <li>lessonIntro(tag=meme_Loyalist)         ->Vi como un [foeLeader] se ganaba el favor de sus rivales mientras dejaba morir a sus [foeSoldiers] en el campo de batalla. Juré entonces no ser nunca como [foeLeader_pronoun], sabiendo que</li>
+    <li>lesson(tag=meme_Loyalist)              ->tu amor por tu amigo solo tiene sentido porque no amas a tu enemigo</li>
+    <li>lesson(tag=meme_Loyalist)              ->amar a todos es no amar a ninguno</li>
+    <li>lessonReinforcement(tag=meme_Loyalist) ->Solo comparte estas verdades con aquellos que demuestran su lealtad a través del sacrificio.</li>
+    <li>archistBasis(tag=meme_Loyalist)    ->La exigencia de los arqueotécnicos es simple: seguid vuestro camino designado, y ningún otro.</li>
+    <li>archistFact(tag=meme_Loyalist)     ->Los arqueotécnicos tocan directamente todas las conciencias humanas de forma regular, impartiendo sabiduría solo a aquellos que buscan el conocimiento de los arqueotécnicos.</li>
+    <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd], los arqueotécnicos juzgarán la lealtad de la humanidad. Aquellos que no se quejen ni se vanaglorien serán elevados a la trascendencia.</li>
+    <li>animistBasis(tag=meme_Loyalist)    ->Hay tres tribus de espíritus: La tribu de los belicistas y asesinos, la tribu de los derrotistas y llorones, y la única tribu noble de los fuertes y leales.</li>
+    <li>animistFact(tag=meme_Loyalist)     ->Los espíritus luchan tanto contra los que traicionan a su pueblo, como contra los que traicionan a los amigos de su pueblo. Los traidores tropezarán con todas las rocas, se atragantarán con todas las semillas y probarán siempre el agua sucia.</li>
+    <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] que nacerá uno que viva toda su vida fiel a su pueblo. En la muerte, su espíritu estallará en luz, destruyendo a todos los derrotistas y belicistas.</li>
+  </Loyalist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->loyal</li>
     <li>memeAdjective->patriotic</li>
@@ -107,36 +167,48 @@
     <li>memeConcept->promises</li>
     <li>memeMoralist->loyalizer</li>
   -->
-  <Loyalist.generalRules.rulesStrings>TODO</Loyalist.generalRules.rulesStrings>
+  <Loyalist.generalRules.rulesStrings>
+    <li>memeAdjective->leal</li>
+    <li>memeAdjective->patriótico</li>
+    <li>memeAdjective->obediente</li>
+    <li>memeAdjectiveFem->leal</li>
+    <li>memeAdjectiveFem->patriótica</li>
+    <li>memeAdjectiveFem->obediente</li>
+    <li>memeConcept->familia</li>
+    <li>memeConcept->compromiso</li>
+    <li>memeConceptDef-> la familia</li>
+    <li>memeConceptDef->l compromiso</li>
+    <li>memeMoralist->supraleal</li>
+  </Loyalist.generalRules.rulesStrings>
   <!-- EN: loyal -->
-  <Loyalist.symbolPacks.0.adjective>TODO</Loyalist.symbolPacks.0.adjective>
+  <Loyalist.symbolPacks.0.adjective>leal</Loyalist.symbolPacks.0.adjective>
   <!-- EN: Loyaltism -->
-  <Loyalist.symbolPacks.0.ideoName>TODO</Loyalist.symbolPacks.0.ideoName>
+  <Loyalist.symbolPacks.0.ideoName>Lealismo</Loyalist.symbolPacks.0.ideoName>
   <!-- EN: loyalist -->
-  <Loyalist.symbolPacks.0.member>TODO</Loyalist.symbolPacks.0.member>
+  <Loyalist.symbolPacks.0.member>lealista</Loyalist.symbolPacks.0.member>
   <!-- EN: loyalty -->
-  <Loyalist.symbolPacks.0.theme>TODO</Loyalist.symbolPacks.0.theme>
+  <Loyalist.symbolPacks.0.theme>lealtad</Loyalist.symbolPacks.0.theme>
   <!-- EN: fealtist -->
-  <Loyalist.symbolPacks.1.adjective>TODO</Loyalist.symbolPacks.1.adjective>
+  <Loyalist.symbolPacks.1.adjective>fidelista</Loyalist.symbolPacks.1.adjective>
   <!-- EN: Fealtism -->
-  <Loyalist.symbolPacks.1.ideoName>TODO</Loyalist.symbolPacks.1.ideoName>
+  <Loyalist.symbolPacks.1.ideoName>Fidelismo</Loyalist.symbolPacks.1.ideoName>
   <!-- EN: fealtor -->
-  <Loyalist.symbolPacks.1.member>TODO</Loyalist.symbolPacks.1.member>
+  <Loyalist.symbolPacks.1.member>fideliano</Loyalist.symbolPacks.1.member>
   <!-- EN: fealty -->
-  <Loyalist.symbolPacks.1.theme>TODO</Loyalist.symbolPacks.1.theme>
+  <Loyalist.symbolPacks.1.theme>fidelidad</Loyalist.symbolPacks.1.theme>
   <!-- EN: fidelist -->
-  <Loyalist.symbolPacks.2.adjective>TODO</Loyalist.symbolPacks.2.adjective>
+  <Loyalist.symbolPacks.2.adjective>fiabilista</Loyalist.symbolPacks.2.adjective>
   <!-- EN: Fidelism -->
-  <Loyalist.symbolPacks.2.ideoName>TODO</Loyalist.symbolPacks.2.ideoName>
+  <Loyalist.symbolPacks.2.ideoName>Fiabilismo</Loyalist.symbolPacks.2.ideoName>
   <!-- EN: fidelor -->
-  <Loyalist.symbolPacks.2.member>TODO</Loyalist.symbolPacks.2.member>
+  <Loyalist.symbolPacks.2.member>fiabiliano</Loyalist.symbolPacks.2.member>
   <!-- EN: fidelity -->
-  <Loyalist.symbolPacks.2.theme>TODO</Loyalist.symbolPacks.2.theme>
+  <Loyalist.symbolPacks.2.theme>fiabilidad</Loyalist.symbolPacks.2.theme>
   
   <!-- EN: supremacist -->
   <Supremacist.label>supremacista</Supremacist.label>
   <!-- EN: Our people should dominate all others. -->
-  <Supremacist.description>TODO</Supremacist.description>
+  <Supremacist.description>Nuestro pueblo debe dominar a todos los demás.</Supremacist.description>
   <!-- EN:
     <li>creation(tag=meme_Supremacist)        ->The people of the [place_summary] [place_name] squabbled endlessly, and [deity0_name] became tired of discord and anointed the [memberNamePlural] as the rightful rulers of all.</li>
     <li>episode(uses=1,tag=meme_Supremacist)  ->The faithful fought the unbelievers, and [deity0_name] said, "Fight them, everywhere, in my name, until I am worshipped throughout the universe and the true peace may finally reign."</li>
@@ -155,7 +227,24 @@
     <li>animistFact(tag=meme_Supremacist)     ->Powerful spirits decide who is fit to rule, and lend power to those who subjugate others.</li>
     <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] that a new order will be created when one supreme ruler commands all of humanity.</li>
   -->
-  <Supremacist.descriptionMaker.rules.rulesStrings>TODO</Supremacist.descriptionMaker.rules.rulesStrings>
+  <Supremacist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Supremacist)        ->El pueblo de [place_summary] [place_name] discutió sin cesar, y [deity0_name] se cansó de la discordia y proclamó a los [memberNamePlural] como legítimos gobernantes de todo.</li>
+    <li>episode(uses=1,tag=meme_Supremacist)  ->Los fieles combatieron a los infieles, y [deity0_name] dijo: "Luchad contra ellos, en todas partes, en mi nombre, hasta que sea adorado en todo el universo y finalmente pueda reinar la verdadera paz."</li>
+    <li>intro(tag=meme_Supremacist)           ->El pueblo de [place_summary] [place_name] adoraba a [deity0_name]. [deity0_pronoun] vio que eran aptos para manejar el concepto de[memeConceptDef], y ordenó que estos adoradores gobernaran por encima de todos los demás.</li>
+    <li>conflict(tag=meme_Supremacist)        ->Un [foeLeader] aprobó una ley que prohíbe a [memberNamePlural] ascender a las clases dirigentes de [place_name].</li>
+    <li>founderJoin(tag=meme_Supremacist)     ->Un guerrero llamado [founderName] utilizó [place_massWeapon] para destruir un [place_community]. [deity0_name] vio la crueldad de [founderName] y [founder_objective] consagró como legítimo gobernante de toda la humanidad.</li>
+    <li>victory(tag=meme_Supremacist)         ->[founderName] destruyó la capital de [place_name] con [place_massWeapon], matando al [foeLeader]. [founder_pronoun] tomó su lugar como gobernante de [place_name], y del universo más allá.</li>
+    <li>setup(tag=meme_Supremacist)           ->[founderName] construyó un ejército que extendió su poder y gloria por toda la tierra, sometiendo a los que se negaban a seguir[founder_objective] legítimamente bajo su dominio.</li>
+    <li>story(uses=1,tag=meme_Supremacist)    ->[founderName] ordenó a todos los forasteros que se sometieran. Cuando la primera ciudad se negó, [founder_pronoun] utilizó [place_massWeapon] para matar a todos los que estaban dentro.</li>
+    <li>lessonIntro(tag=meme_Supremacist)         ->Miré a este [foeLeader], con sus lamentables [foeSoldiers], todo ese poder en desuso. Intenté convencer[foeLeader_objective] de que</li>
+    <li>lesson(tag=meme_Supremacist)              ->hace tiempo que hemos demostrado que tenemos la fuerza para gobernar legítimamente este universo</li>
+    <li>lessonReinforcement(tag=meme_Supremacist) ->Por eso estamos orgullosos de expresar la fuerza de nuestros corazones con los talones de nuestras botas.</li>
+    <li>archistBasis(tag=meme_Supremacist)    ->Hizo falta que los humanos superiores crearan a los arqueotécnicos, para que éstos pudieran ser superiores a todos.</li>
+    <li>archistFact(tag=meme_Supremacist)     ->Los arqueotécnicos nos miran hacia abajo, como nosotros miramos hacia abajo a nuestros inferiores.</li>
+    <li>archistProphecy(tag=meme_Supremacist) ->Los arqueotécnicos nos llevarán a unirnos a ellos solo cuando por fin dominemos a todos los demás.</li>
+    <li>animistFact(tag=meme_Supremacist)     ->Los poderosos espíritus deciden quién es apto para gobernar, y conceden poder a sus elegidos cuando someten a otros.</li>
+    <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] que se creará un nuevo orden cuando un gobernante supremo comande a toda la humanidad.</li>
+  </Supremacist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->supreme</li>
     <li>memeAdjective->high</li>
@@ -179,24 +268,55 @@
     <li>memeLeaderNoun->conqueror</li>
     <li>memeLeaderNoun->victor</li>
   -->
-  <Supremacist.generalRules.rulesStrings>TODO</Supremacist.generalRules.rulesStrings>
+  <Supremacist.generalRules.rulesStrings>
+    <li>memeAdjective->supremo</li>
+    <li>memeAdjective->alto</li>
+    <li>memeAdjective->grandioso</li>
+    <li>memeAdjective->primordial</li>
+    <li>memeAdjective->perfecto</li>
+    <li>memeAdjective->principal</li>
+    <li>memeAdjective->fuerte</li>
+    <li>memeAdjectiveFem->suprema</li>
+    <li>memeAdjectiveFem->alta</li>
+    <li>memeAdjectiveFem->grandiosa</li>
+    <li>memeAdjectiveFem->primordial</li>
+    <li>memeAdjectiveFem->perfecta</li>
+    <li>memeAdjectiveFem->principal</li>
+    <li>memeAdjectiveFem->fuerte</li>
+    <li>memeCreed->ejército</li>
+    <li>memeCreedFem->legión</li>
+    <li>memeHyphenPrefix->super</li>
+    <li>memeConcept->guerra</li>
+    <li>memeConcept->violencia</li>
+    <li>memeConcept->dominio</li>
+    <li>memeConceptDef-> la guerra</li>
+    <li>memeConceptDef-> la violencia</li>
+    <li>memeConceptDef->l dominio</li>
+    <li>memeLeaderNoun->general</li>
+    <li>memeLeaderNoun->comandante</li>
+    <li>memeLeaderNoun->alguacil</li>
+    <li>memeLeaderNoun->gobernante</li>
+    <li>memeLeaderNoun->dictador</li>
+    <li>memeLeaderNoun->conquistador</li>
+    <li>memeLeaderNoun->general en jefe</li>
+  </Supremacist.generalRules.rulesStrings>
   <!-- EN: dominant -->
-  <Supremacist.symbolPacks.0.adjective>TODO</Supremacist.symbolPacks.0.adjective>
+  <Supremacist.symbolPacks.0.adjective>dominante</Supremacist.symbolPacks.0.adjective>
   <!-- EN: dominator -->
-  <Supremacist.symbolPacks.0.member>TODO</Supremacist.symbolPacks.0.member>
+  <Supremacist.symbolPacks.0.member>dominador</Supremacist.symbolPacks.0.member>
   <!-- EN: dominance -->
-  <Supremacist.symbolPacks.0.theme>TODO</Supremacist.symbolPacks.0.theme>
+  <Supremacist.symbolPacks.0.theme>dominio</Supremacist.symbolPacks.0.theme>
   <!-- EN: victoryist -->
-  <Supremacist.symbolPacks.1.adjective>TODO</Supremacist.symbolPacks.1.adjective>
+  <Supremacist.symbolPacks.1.adjective>victorialista</Supremacist.symbolPacks.1.adjective>
   <!-- EN: victorist -->
-  <Supremacist.symbolPacks.1.member>TODO</Supremacist.symbolPacks.1.member>
+  <Supremacist.symbolPacks.1.member>victorista</Supremacist.symbolPacks.1.member>
   <!-- EN: victory -->
-  <Supremacist.symbolPacks.1.theme>TODO</Supremacist.symbolPacks.1.theme>
+  <Supremacist.symbolPacks.1.theme>victoria</Supremacist.symbolPacks.1.theme>
   <!-- EN: powerist -->
-  <Supremacist.symbolPacks.2.adjective>TODO</Supremacist.symbolPacks.2.adjective>
+  <Supremacist.symbolPacks.2.adjective>poderista</Supremacist.symbolPacks.2.adjective>
   <!-- EN: poweror -->
-  <Supremacist.symbolPacks.2.member>TODO</Supremacist.symbolPacks.2.member>
+  <Supremacist.symbolPacks.2.member>poderosano</Supremacist.symbolPacks.2.member>
   <!-- EN: power -->
-  <Supremacist.symbolPacks.2.theme>TODO</Supremacist.symbolPacks.2.theme>
+  <Supremacist.symbolPacks.2.theme>poder</Supremacist.symbolPacks.2.theme>
   
 </LanguageData>

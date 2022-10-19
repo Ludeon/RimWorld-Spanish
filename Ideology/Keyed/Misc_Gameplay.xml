@@ -5,8 +5,6 @@
   <CustomizeIdeoligion>Personalizar ideoligión</CustomizeIdeoligion>
   <!-- EN: Choose your ideoligion -->
   <ChooseYourIdeoligion>Elige tu ideoligión</ChooseYourIdeoligion>
-  <!-- EN: Random -->
-  <Random>Aleatorio</Random>
   <!-- EN: A random structure will be used for your ideoligion. -->
   <RandomStructureTip>Tu ideoligión utilizará unos ajustes aleatorios</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
@@ -23,7 +21,7 @@
   <LoadSaved>Usar guardada</LoadSaved>
   <!-- EN: Structure -->
   <Structure>Estructura</Structure>
-  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
+  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs. -->
   <ChooseYourIdeoligionDesc>¿En qué creerán tus colonos iniciales? Sus creencias afectarán el juego y la estética. Podrás reclutar a otros a tus creencias, o creer en las suyas.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Crear personalizada</CreateCustom>
@@ -101,8 +99,10 @@
   <Styles>Estilos</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Posibilidad de tener precepto</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>El color favorito de {PAWN_labelShort}. Tener más del {PERCENTAGE} de {PAWN_possessive} de ese color, o el color de {PAWN_possessive} ideoligion le hará ligeramente más feliz.\n\nPuedes modificar el color de su apariencia en un tocador usando tinctoria.</FavoriteColorTooltip>
+  <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
+  <OrIdeoColor>TODO</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Color de la ideo</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -140,7 +140,7 @@
   <!-- EN: Development points -->
   <Reward_DevelopmentPointsLabel>puntos de desarrollo</Reward_DevelopmentPointsLabel>
   <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals. -->
-  <Reward_DevelopmentPoints>TODO</Reward_DevelopmentPoints>
+  <Reward_DevelopmentPoints>Tus puntos de desarrollo para {0} van a aumentar en {1}.\n\nAhora tienes {2} puntos de desarrollo. Cuando tengas {3} puntos de desarrollo podrás reformar la ideoligion.\n\nGana puntos adicionales completando misiones y rituales.</Reward_DevelopmentPoints>
   <!-- EN: Current points -->
   <CurrentDevelopmentPoints>puntos actuales</CurrentDevelopmentPoints>
   <!-- EN: Points needed to reform -->
@@ -153,97 +153,97 @@
   <MealKindMeat>Contiene carne</MealKindMeat>
   <!-- EN: Acceptable food for everyone -->
   <MealKindAny>Comida aceptable por todos</MealKindAny>
+  <!-- EN: this outfit -->
+  <WearingDesiredApparelMulti>TODO</WearingDesiredApparelMulti>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>No se puede cargar la ideoligion</UnableToLoadIdeoTitle>
   <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
   <UnableToLoadIdeoDescription>No se puede cargar la ideoligion seleccionada por los requisitos de las facciones que seguirán esta ideoligión. Los requisitos incumplidos son:</UnableToLoadIdeoDescription>
   <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
-  <UnableToLoadIdeoMemeNotAllowed>TODO</UnableToLoadIdeoMemeNotAllowed>
+  <UnableToLoadIdeoMemeNotAllowed>El meme {MEME} no está permitido para las facciones {FACTIONTYPE}</UnableToLoadIdeoMemeNotAllowed>
   <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
-  <UnableToLoadIdeoMemeRequired>TODO</UnableToLoadIdeoMemeRequired>
+  <UnableToLoadIdeoMemeRequired>El meme {MEME} es requerido para las facciones {FACTIONTYPE}</UnableToLoadIdeoMemeRequired>
   <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
-  <UnableToLoadIdeoPreceptNotAllowed>TODO</UnableToLoadIdeoPreceptNotAllowed>
+  <UnableToLoadIdeoPreceptNotAllowed>El precepto {PRECEPT} no está permitido para las facciones de la IA.</UnableToLoadIdeoPreceptNotAllowed>
 
-  <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
-  <RitualTargetGraveInfo>TODO</RitualTargetGraveInfo>
-  <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
-  <RitualTargetEmptyGraveInfo>TODO</RitualTargetEmptyGraveInfo>
-  <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
-  <RitualTargetGraveInfoAbstract>TODO</RitualTargetGraveInfoAbstract>
-  <!-- EN: A grave containing a corpse. -->
-  <RitualTargetGraveInfoAbstractNoIdeo>TODO</RitualTargetGraveInfoAbstractNoIdeo>
-  <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
-  <RitualTargetEmptyGraveInfoAbstract>TODO</RitualTargetEmptyGraveInfoAbstract>
+  <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
+  <RitualTargetGraveInfo>Una tumba que contiene el cuerpo de {PAWN_labelShort}.</RitualTargetGraveInfo>
+  <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
+  <RitualTargetEmptyGraveInfo>Una tumba vacía para llorar la muerte de {PAWN_labelShort}.</RitualTargetEmptyGraveInfo>
+  <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
+  <RitualTargetGraveInfoAbstract>Una tumba que contiene el cuerpo de {IDEO_memberNameIndef}.</RitualTargetGraveInfoAbstract>
+  <!-- EN: Grave containing a corpse -->
+  <RitualTargetGraveInfoAbstractNoIdeo>Una tumba que contiene un cuerpo.</RitualTargetGraveInfoAbstractNoIdeo>
+  <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
+  <RitualTargetEmptyGraveInfoAbstract>Una tumba vacía para llorar la muerte de {IDEO_memberNameIndef}.</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
-  <RitualTargetGraveInfoMustBeBuried>TODO</RitualTargetGraveInfoMustBeBuried>
+  <RitualTargetGraveInfoMustBeBuried>El cuerpo de {PAWN_labelShort} debe ser enterrado primero.</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
-  <RitualTargetGatherSpotInfo>TODO</RitualTargetGatherSpotInfo>
+  <RitualTargetGatherSpotInfo>Cualquier punto de encuentro, como una mesa</RitualTargetGatherSpotInfo>
   <!-- EN: Altar or any ritual spot. -->
-  <RitualTargetGatherAltarOrRitualSpotInfo>TODO</RitualTargetGatherAltarOrRitualSpotInfo>
+  <RitualTargetGatherAltarOrRitualSpotInfo>Altar o cualquier sitio de ritual.</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
-  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>TODO</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
-  <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>TODO</RitualTargetLightBallInfo>
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Altar, ideograma o cualquier sitio de ritual.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: Lightball is not powered. -->
-  <RitualTargetLightBallIsNotPowered>TODO</RitualTargetLightBallIsNotPowered>
+  <RitualTargetLightBallIsNotPowered>La bola de luces no está conectada.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
-  <RitualTargetNoPoweredSpeakers>TODO</RitualTargetNoPoweredSpeakers>
+  <RitualTargetNoPoweredSpeakers>No hay altavoces conectados.</RitualTargetNoPoweredSpeakers>
   <!-- EN: Campfire is not fueled. -->
-  <RitualTargetCampfireNoFuel>TODO</RitualTargetCampfireNoFuel>
+  <RitualTargetCampfireNoFuel>La hoguera no tiene combustible.</RitualTargetCampfireNoFuel>
   <!-- EN: Campfire must be unroofed. -->
-  <RitualTargetCampfireMustBeUnroofed>TODO</RitualTargetCampfireMustBeUnroofed>
+  <RitualTargetCampfireMustBeUnroofed>La hoguera debe estar al aire libre.</RitualTargetCampfireMustBeUnroofed>
   <!-- EN: No nearby drum. -->
-  <RitualTargetNoDrum>TODO</RitualTargetNoDrum>
+  <RitualTargetNoDrum>No hay tambores cercanos.</RitualTargetNoDrum>
   <!-- EN: Need at least {0} unroofed cells nearby. -->
-  <RitualTargetNeedUnroofedCells>TODO</RitualTargetNeedUnroofedCells>
-  <!-- EN: A lit campfire or ritual spot. -->
-  <RitualTargetCampfirePartyInfo>TODO</RitualTargetCampfirePartyInfo>
-  <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
-  <RitualTargetCampfireSkylanternsInfo>TODO</RitualTargetCampfireSkylanternsInfo>
-  <!-- EN: An unconnected Gauranlen tree. -->
-  <RitualTargetUnconnectedGaruanlenTreeInfo>TODO</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <RitualTargetNeedUnroofedCells>Necesita al menos {0} celdas sin techo cerca.</RitualTargetNeedUnroofedCells>
+  <!-- EN: a lit campfire -->
+  <RitualTargetCampfirePartyInfo>Una pequeña hoguera o sitio de rituales.</RitualTargetCampfirePartyInfo>
+  <!-- EN: an unconnected Gauranlen tree -->
+  <RitualTargetUnconnectedGaruanlenTreeInfo>Un arbol Gauranlen sin conectar.</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
-  <RitualTargetConnectedGauranlenTree>TODO</RitualTargetConnectedGauranlenTree>
+  <RitualTargetConnectedGauranlenTree>Ya vinculado con {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
-  <RitualTargetConnectionTornGauranlenTree>TODO</RitualTargetConnectionTornGauranlenTree>
+  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} ha sido vinculado recientemente. Puede volver a vincularse en {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>TODO</RitualTargeWoodInfo>
+  <RitualTargeWoodInfo>Necesitas {0} de madera para cada participante ({2} en total). Tienes {1} de madera.</RitualTargeWoodInfo>
+  <!-- EN: {0} must be able to reach ritual target. -->
+  <RitualTargetUnreachable>TODO</RitualTargetUnreachable>
   <!-- EN: Accuse -->
   <Accuse>Acusar</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
-  <RitualScarificationWarnNonScarificationIdeo>TODO</RitualScarificationWarnNonScarificationIdeo>
+  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} no cree en las escarificaciones religiosas, por lo que le gustará ser escarificado.</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
-  <RitualScarificationWarnWimp>TODO</RitualScarificationWarnWimp>
-  <!-- EN: {PAWN_labelShort} does not believe in ideoligious blinding and will not like being blinded. -->
-  <RitualBlindingWarnNonBlindingIdeo>TODO</RitualBlindingWarnNonBlindingIdeo>
+  <RitualScarificationWarnWimp>{PAWN_labelShort} es un cobarde y no le gustará ser escarificado.</RitualScarificationWarnWimp>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
-  <RitualBlindingWarnWimp>TODO</RitualBlindingWarnWimp>
+  <RitualBlindingWarnWimp>{PAWN_labelShort} es un cobarde y no le gustará ser cegado.</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
-  <RitualScarificationTriggerExtraDesc>TODO</RitualScarificationTriggerExtraDesc>
+  <RitualScarificationTriggerExtraDesc>Se espera la escarificacion de {IDEOMEMBERPLURAL} al haber menos de {0} {IDEOMEMBERPLURAL} escarificados.</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
-  <RitualBlindingTriggerExtraDesc>TODO</RitualBlindingTriggerExtraDesc>
+  <RitualBlindingTriggerExtraDesc>Se espera la ceguera para cada {IDEOMEMBER} de la colonia.</RitualBlindingTriggerExtraDesc>
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
-  <RitualOutcomeExtraDesc_DancePartyWorkFocus>TODO</RitualOutcomeExtraDesc_DancePartyWorkFocus>
+  <RitualOutcomeExtraDesc_DancePartyWorkFocus>¡Todo el que participe en el ritual ganará un focus de trabajo durante un día ({PERCENTAGE} velocidad global de trabajo)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
-  <RitualOutcomeExtraDesc_BlindingPsylink>TODO</RitualOutcomeExtraDesc_BlindingPsylink>
+  <RitualOutcomeExtraDesc_BlindingPsylink>Gracias a un satisfactorio ritual de ceguera, ¡{PAWN_labelShort} ha ganado un nível psíquico!</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
-  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>TODO</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Con su nuevo nivel psíquico, {PAWN_pronoun} ha obtenido un psicoentrenador de {0}.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
-  <RitualOutcomeExtraDesc_ConsumableInspiration>TODO</RitualOutcomeExtraDesc_ConsumableInspiration>
+  <RitualOutcomeExtraDesc_ConsumableInspiration>Gracias a un satisfactorio {RITUAL}, ¡{PAWN_labelShort} ha ganado {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
-  <RitualOutcomeExtraDesc_SkylanternWanderers>TODO</RitualOutcomeExtraDesc_SkylanternWanderers>
+  <RitualOutcomeExtraDesc_SkylanternWanderers>Tus faroles han atraido a algunos viajeros amigables. Te visitarán y dejarán un regalo.</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
-  <RitualOutcomeExtraDesc_Execution>TODO</RitualOutcomeExtraDesc_Execution>
+  <RitualOutcomeExtraDesc_Execution>Todos los esclavos participantes han sido estremecidos por la visión de la muerte. Sus niveles de supresión han subido al máximo.</RitualOutcomeExtraDesc_Execution>
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
-  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>TODO</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Debido a la calidad del ritual, tus puntos de desarrollo han aumentado en {2} (de {0} a {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Can't award development points beyond {0}. -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>TODO</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
-  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>TODO</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Debido a la poca calidad del ritual, no se han ganado puntos de desarrollo.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
   <!-- EN: Additional reward -->
-  <RitualAttachedReward>TODO</RitualAttachedReward>
+  <RitualAttachedReward>Recompensa adicional.</RitualAttachedReward>
   <!-- EN: Choose -->
   <RitualAttachedRewardChoose>Elegir</RitualAttachedRewardChoose>
   <!-- EN: Can't use {0} with {1}. -->
@@ -257,65 +257,55 @@
   <!-- EN: negative -->
   <RitualAttachedOutcomes_Negative>negativa</RitualAttachedOutcomes_Negative>
   <!-- EN: If the {0} is {1} -->
-  <RitualAttachedOutcomesInfo>TODO</RitualAttachedOutcomesInfo>
+  <RitualAttachedOutcomesInfo>Si el {0} es {1}</RitualAttachedOutcomesInfo>
   <!-- EN: Upon any {0} outcome -->
-  <RitualAttachedApplliesForOutcome>TODO</RitualAttachedApplliesForOutcome>
+  <RitualAttachedApplliesForOutcome>Sobre el resultado de {0}</RitualAttachedApplliesForOutcome>
   <!-- EN: Upon any {0} outcome -->
-  <RitualAttachedApplliesForOutcomes>TODO</RitualAttachedApplliesForOutcomes>
+  <RitualAttachedApplliesForOutcomes>Sobre el resultado de {0}</RitualAttachedApplliesForOutcomes>
   <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
-  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>TODO</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
+  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>¡La conmoción por el {0} ha atraído algunos animales curiosos!\n\nParecen estar acostumbrados al contacto humano y se han unido a la colonia.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
   <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
-  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>TODO</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
+  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>El {0} ha provocado que una semilla de Gauranlen brote en las cercanías.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
   <!-- EN: Can't apply reward -->
-  <RitualAttachedOutcomeCantApply>TODO</RitualAttachedOutcomeCantApply>
+  <RitualAttachedOutcomeCantApply>No se puede aplicar la recompensa</RitualAttachedOutcomeCantApply>
   <!-- EN: No valid spot -->
-  <RitualAttachedOutcomeCantApply_NoValidSpot>TODO</RitualAttachedOutcomeCantApply_NoValidSpot>
+  <RitualAttachedOutcomeCantApply_NoValidSpot>No hay un sitio válido</RitualAttachedOutcomeCantApply_NoValidSpot>
   <!-- EN: Extreme biome -->
-  <RitualAttachedOutcomeCantApply_ExtremeBiome>TODO</RitualAttachedOutcomeCantApply_ExtremeBiome>
+  <RitualAttachedOutcomeCantApply_ExtremeBiome>Bioma extremo</RitualAttachedOutcomeCantApply_ExtremeBiome>
   <!-- EN: There is already a known ancient complex to explore. -->
-  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>TODO</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
+  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>Ya hay un complejo antiguo conocido para explorar.</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
   <!-- EN: Not available right now. -->
-  <RitualAttachedOutcomeCantApply_NotAvailableRightNow>TODO</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
+  <RitualAttachedOutcomeCantApply_NotAvailableRightNow>No disponible ahora mismo.</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
   
   <!-- EN: This building is a variation of -->
-  <IdeoBuildingVariationOf>TODO</IdeoBuildingVariationOf>
+  <IdeoBuildingVariationOf>Este edificio es una variación de</IdeoBuildingVariationOf>
   <!-- EN: Minimum expectations -->
-  <IdeoBuildingMinimumExpectations>TODO</IdeoBuildingMinimumExpectations>
-  <!-- EN: size -->
-  <Size>TODO</Size>
-  <!-- EN: cost -->
-  <Cost>TODO</Cost>
+  <IdeoBuildingMinimumExpectations>Expectativas mínimas</IdeoBuildingMinimumExpectations>
   <!-- EN: optional -->
-  <Optional>TODO</Optional>
+  <Optional>opciones</Optional>
   <!-- EN: expectations -->
-  <Expectations>TODO</Expectations>
-  <!-- EN: Can start any time -->
-  <RitualStartAnyTime>TODO</RitualStartAnyTime>
-  <!-- EN: Can start after event -->
-  <RitualStartEvent>TODO</RitualStartEvent>
-  <!-- EN: Focus objects -->
-  <RitualFocusObjects>TODO</RitualFocusObjects>
+  <Expectations>expectativas</Expectations>
   <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
-  <RitualRepeatPenaltyTip>TODO</RitualRepeatPenaltyTip>
-  <!-- EN: Participating roles -->
-  <RitualParticipatingRoles>TODO</RitualParticipatingRoles>
+  <RitualRepeatPenaltyTip>Repetir un ritual en menos de {0} días reduce su calidad. Han pasado {1} días desde el último ritual, por lo que la reducción de calidad es de {2}. Esta penalización caerá dentro de {3} días.</RitualRepeatPenaltyTip>
   <!-- EN: For best quality, start the {0} at {1}. -->
-  <RitualOutcomeCompTip_RitualTargetDefsPart1>TODO</RitualOutcomeCompTip_RitualTargetDefsPart1>
+  <RitualOutcomeCompTip_RitualTargetDefsPart1>Para una mejor calidad, empieza el {0} en {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
-  <RitualOutcomeCompTip_RitualTargetDefsPart2>TODO</RitualOutcomeCompTip_RitualTargetDefsPart2>
+  <RitualOutcomeCompTip_RitualTargetDefsPart2>Actualmente, el {0} está empezando en {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
   <!-- EN: Development points -->
-  <RitualDevelopmentPoints>TODO</RitualDevelopmentPoints>
+  <RitualDevelopmentPoints>Puntos de desarrollo</RitualDevelopmentPoints>
   <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
-  <RitualDevelopmentPointsTip>TODO</RitualDevelopmentPointsTip>
+  <RitualDevelopmentPointsTip>Completar este ritual otorga {0}-{1} puntos de desarrollo, dependiendo de su calidad.</RitualDevelopmentPointsTip>
+  <!-- EN: {0} needs to be powered. -->
+  <RitualOutcomeBlockedNoPower>TODO</RitualOutcomeBlockedNoPower>
 
   <!-- EN: For slave use -->
-  <ForSlaveUse>TODO</ForSlaveUse>
+  <ForSlaveUse>Para uso de esclavos</ForSlaveUse>
   <!-- EN: Slave -->
   <Slave>Esclavo</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
-  <SellingAsSlave>TODO</SellingAsSlave>
+  <SellingAsSlave>Si vendes a alguien a otra facción contra su voluntad, se convertirá en esclavo.</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
-  <SellingAsRansom>TODO</SellingAsRansom>
+  <SellingAsRansom>Si vendes a alguien a su propia facción, será rescatado y no esclavizado.</SellingAsRansom>
 
   <!-- EN: We are {0} -->
   <MemeGoodwillImpact_Player>Somos {0}</MemeGoodwillImpact_Player>
@@ -335,9 +325,9 @@
   <RoleRequirementLabelSameIdeo>Debe ser {0}</RoleRequirementLabelSameIdeo>
   <!-- EN: Must be {0} -->
   <RoleRequirementLabelSupremeGender>Debe ser {0}</RoleRequirementLabelSupremeGender>
+  <!-- EN: Cannot be child -->
+  <RoleRequirementCannotBe>TODO</RoleRequirementCannotBe>
 
-  <!-- EN: Disabled work -->
-  <RoleDisabledWorkLabel>Trabajo inhabilitado</RoleDisabledWorkLabel>
   <!-- EN: Abilities -->
   <RoleGrantedAbilitiesLabel>Habilidades</RoleGrantedAbilitiesLabel>
   <!-- EN: Required apparel -->
@@ -345,32 +335,32 @@
   <!-- EN: Has role in rituals -->
   <RoleRitualsLabel>Tiene este puesto en los rituales</RoleRitualsLabel>
   <!-- EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}. -->
-  <RoleBelieverCountDesc>TODO</RoleBelieverCountDesc>
+  <RoleBelieverCountDesc>Este rol se activa cuando tu facción tiene {1} {0}. Se inactiva cuando tu facción solo tiene {3} {2}.</RoleBelieverCountDesc>
   <!-- EN: Raised by {0} levels. -->
-  <RoleExpectationOffset>TODO</RoleExpectationOffset>
+  <RoleExpectationOffset>Aumentado en {0} níveles.</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations. -->
-  <RoleRaisedExpectation>TODO</RoleRaisedExpectation>
+  <RoleRaisedExpectation>El {0} tiene mayores expectativas.</RoleRaisedExpectation>
   <!-- EN: The {0} will have higher expectations in {1}. -->
-  <RoleRaisedExpectationGracePeriod>TODO</RoleRaisedExpectationGracePeriod>
+  <RoleRaisedExpectationGracePeriod>El {0} tendrá mayores expectativas en {1}.</RoleRaisedExpectationGracePeriod>
   <!-- EN: Led by {0} -->
-  <IdeoLeaderDifferentIdeoThoughtLabel>TODO</IdeoLeaderDifferentIdeoThoughtLabel>
+  <IdeoLeaderDifferentIdeoThoughtLabel>Liderado por {0}.</IdeoLeaderDifferentIdeoThoughtLabel>
   <!-- EN: {PAWN_nameDef} will not do {1} work. -->
-  <AbilityDisabled_IncapableOfWorkTag>TODO</AbilityDisabled_IncapableOfWorkTag>
+  <AbilityDisabled_IncapableOfWorkTag>{PAWN_nameDef} no hará trabajos de {1}.</AbilityDisabled_IncapableOfWorkTag>
   <!-- EN: No reachable altar or ritual spot. -->
-  <AbilityDisabledNoAltarOrRitualsSpot>TODO</AbilityDisabledNoAltarOrRitualsSpot>
+  <AbilityDisabledNoAltarOrRitualsSpot>No hay un altar o punto de rituales al alcance.</AbilityDisabledNoAltarOrRitualsSpot>
   <!-- EN: No reachable altar, ideogram or ritual spot. -->
-  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>TODO</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
+  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>No hay un altar, ideograma o punto de rituales al alcance.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
   <!-- EN: No reachable ritual spot. -->
-  <AbilityDisabledNoRitualSpot>TODO</AbilityDisabledNoRitualSpot>
+  <AbilityDisabledNoRitualSpot>No hay un altar al alcance.</AbilityDisabledNoRitualSpot>
 
   <!-- EN: Will\n{0} to {1} -->
-  <TextMote_WillReduced>TODO</TextMote_WillReduced>
+  <TextMote_WillReduced>Voluntad\n{0} a {1}</TextMote_WillReduced>
 
   <!-- EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer? -->
-  <ConfirmationCharityJoiner>TODO</ConfirmationCharityJoiner>
+  <ConfirmationCharityJoiner>Aceptar esta oferta es un acto de caridad. Si rechazas, las siguientes personas estarán descontentas por sus ideas:\n{0}\n\n¿Estás seguro de rechazar esta oferta?</ConfirmationCharityJoiner>
 
   <!-- EN: Believers in {0} ({1}) -->
-  <BelieversIn>TODO</BelieversIn>
+  <BelieversIn>Creyentes de {0} ({1})</BelieversIn>
   <!-- EN: add {0} -->
   <AddPrecept>añadir {0}</AddPrecept>
   <!-- EN: precept -->
@@ -382,11 +372,11 @@
   
   <!-- Beggars -->
   <!-- EN: Give {0} to {1_nameDef} -->
-  <GiveItemsTo>TODO</GiveItemsTo>
+  <GiveItemsTo>Dar {0} a {1_nameDef}</GiveItemsTo>
   <!-- EN: Cannot give {0} to {1_nameDef} -->
-  <CannotGiveItemsTo>TODO</CannotGiveItemsTo>
+  <CannotGiveItemsTo>No se puede dar {0} a {1_nameDef}</CannotGiveItemsTo>
   <!-- EN: No item found -->
-  <NoItemFound>TODO</NoItemFound>
+  <NoItemFound>Objeto no encontrado</NoItemFound>
 
   <!-- Outfits -->
   <!-- EN: Slave -->
@@ -394,42 +384,42 @@
 
   <!-- Hacking -->
   <!-- EN: Hack progress -->
-  <HackProgress>TODO</HackProgress>
+  <HackProgress>Progreso del hackeo</HackProgress>
   <!-- EN: hacking speed -->
-  <HackingSpeed>TODO</HackingSpeed>
+  <HackingSpeed>velocidad de hackeo</HackingSpeed>
   <!-- EN: {0}'s -->
-  <HackingLastUser>TODO</HackingLastUser>
+  <HackingLastUser>De {0}</HackingLastUser>
   <!-- EN: hacked -->
-  <Hacked>TODO</Hacked>
+  <Hacked>hackeado</Hacked>
   <!-- EN: Terminals hacked -->
-  <TerminalsHacked>TODO</TerminalsHacked>
+  <TerminalsHacked>Terminales hackeados</TerminalsHacked>
 
   <!-- EN: Relic info found -->
-  <RelicInfoFound>TODO</RelicInfoFound>
+  <RelicInfoFound>Información de reliquia encontrada</RelicInfoFound>
   <!-- EN: inactive, requires atleast {0} {1}s (have {2}) -->
-  <InactiveRoleRequiresMoreBelievers>TODO</InactiveRoleRequiresMoreBelievers>
+  <InactiveRoleRequiresMoreBelievers>inactivo, requiere al menos {0} {1}s (tiene {2})</InactiveRoleRequiresMoreBelievers>
   
   <!-- EN: certainty -->
   <Certainty>certeza</Certainty>
 
   <!-- Slave interaction -->
   <!-- EN: The slave will leave the map on foot and return to their home faction, {0}. -->
-  <EmancipateNonCololonistWithFactionTooltip>TODO</EmancipateNonCololonistWithFactionTooltip>
+  <EmancipateNonCololonistWithFactionTooltip>El esclavo abandonará el mapa a pie y volverá a su facción, {0}.</EmancipateNonCololonistWithFactionTooltip>
   <!-- EN: The slave will leave on foot and exit the map. -->
-  <EmancipateNonCololonistWithoutFactionTooltip>TODO</EmancipateNonCololonistWithoutFactionTooltip>
+  <EmancipateNonCololonistWithoutFactionTooltip>El esclavo abandonará el mapa a pie.</EmancipateNonCololonistWithoutFactionTooltip>
   <!-- EN: The slave will return to being a colonist. -->
-  <EmancipateCololonistTooltip>TODO</EmancipateCololonistTooltip>
+  <EmancipateCololonistTooltip>El esclavo volverá a ser un colono.</EmancipateCololonistTooltip>
 
   <!-- EN: You've stayed in the village too long. The people of {FACTION_name} are attacking! -->
-  <WorshippedTerminalFactionBecameHostileTimed>TODO</WorshippedTerminalFactionBecameHostileTimed>
+  <WorshippedTerminalFactionBecameHostileTimed>Has permanecido en la villa mucho tiempo. ¡La gente de {FACTION_name} te está atacando!</WorshippedTerminalFactionBecameHostileTimed>
   <!-- EN: Villagers are returning from nearby to protect the venerated terminal! -->
-  <WorshippedTerminalRaidIncoming>TODO</WorshippedTerminalRaidIncoming>
+  <WorshippedTerminalRaidIncoming>¡Los aldeanos están volviendo de las cercanías para proteger el terminal venerado!</WorshippedTerminalRaidIncoming>
 
   <!-- Relic hunt -->
   <!-- EN: The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you. -->
-  <RelicHuntFoundRelicSite>TODO</RelicHuntFoundRelicSite>
+  <RelicHuntFoundRelicSite>La reliquia se encuentra en una estructuria antigua protegida por un sistema de seguridad multiunidad.\n\nPuedes vencer las fuerzas de seguridad de uno en uno, o intentar robar la reliquia y huir antes de que te pillen.</RelicHuntFoundRelicSite>
   <!-- EN: The relic rests in an ancient structure nearby. -->
-  <RelicHuntFoundRelicSitePeaceful>TODO</RelicHuntFoundRelicSitePeaceful>
+  <RelicHuntFoundRelicSitePeaceful>La reliquia está en una estructura antigua cercana.</RelicHuntFoundRelicSitePeaceful>
 
   <!-- EN: relic -->
   <Relic>reliquia</Relic>
@@ -438,24 +428,24 @@
 
   <!-- Ritual requirements -->
   <!-- EN: Active loudspeakers -->
-  <RitualPredictedOutcomeDescNumActiveLoudspeakers>TODO</RitualPredictedOutcomeDescNumActiveLoudspeakers>
+  <RitualPredictedOutcomeDescNumActiveLoudspeakers>Altavoces activos</RitualPredictedOutcomeDescNumActiveLoudspeakers>
   <!-- EN: Drums -->
-  <RitualPredictedOutcomeDescNumDrums>TODO</RitualPredictedOutcomeDescNumDrums>
+  <RitualPredictedOutcomeDescNumDrums>Tambores</RitualPredictedOutcomeDescNumDrums>
 
   <!-- EN: Using ritual spot causes {0} mood bonus reduction for all participants. -->
-  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>TODO</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
+  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>Usar el punto para rituales provoca una reducción de humor de {0} a todos los participantes.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>Cualquiera de estas</RitualOutcomeLabelAnyOfThese>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>TODO</PreceptReplaceWith>
+  <PreceptReplaceWith>Reemplazar con</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>TODO</RitualSeatOf>
+  <RitualSeatOf>Asiento de ritual para {IDEOS}</RitualSeatOf>
   <!-- EN: Starting quality -->
-  <StartingQuality>TODO</StartingQuality>
+  <StartingQuality>Calidad inicial</StartingQuality>
   <!-- EN: Conviction chance -->
-  <ExpectedConvictionChance>TODO</ExpectedConvictionChance>
+  <ExpectedConvictionChance>Posibilidad de convicción</ExpectedConvictionChance>
  
   <!-- EN: Must be placed indoors. -->
   <MustBePlacedIndoors>Debe colocarse bajo techo.</MustBePlacedIndoors>
@@ -466,83 +456,83 @@
   <!-- EN: Nobody -->
   <Nobody>Nadie</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
-  <ConnectedPawnDesc>TODO</ConnectedPawnDesc>
+  <ConnectedPawnDesc>La persona a la que este {TREE_label} está conectado. Si la persona muere, este {TREE_label} no se podrá conectar a otra durante {DURATION}.</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
-  <ConnectionTorn>TODO</ConnectionTorn>
+  <ConnectionTorn>Conexión rota. Se podrá conectar en {0}.</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
-  <ConnectedPawnAway>TODO</ConnectedPawnAway>
+  <ConnectedPawnAway>{PAWN_nameDef} está muy lejos.</ConnectedPawnAway>
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
-  <TreeBlockedByNearbyBuildingsDesc>TODO</TreeBlockedByNearbyBuildingsDesc>
+  <TreeBlockedByNearbyBuildingsDesc>Plantar el {PLANT_definite} cerca de construcciones artificiales provocará que su fuerza de conexión decaiga con el tiempo. La fuerza de conexión determina el máximo numero de driadas que el {PLANT_definite} puede tener a la vez.\n\n¿Seguro que quieres plantarlo aquí?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>TODO</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>Cambiar el tipo de casta del {TREE_definite} toma tiempo y energía.\n\nDespués de que la persona conectada interactúe con el árbol, todas las driadas estarán {DURATION} en un capullo mientras cambian a la casta seleccionada.\n\nLos capullos existentes cancelarán sus transformaciones para convertirse en la casta seleccionada.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
-  <ChangeModeDesc>TODO</ChangeModeDesc>
+  <ChangeModeDesc>Cambia el tipo de driadas creadas por el {TREE_definite}.</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
-  <ConnectionStrengthFall>TODO</ConnectionStrengthFall>
+  <ConnectionStrengthFall>Pérdida de fuerza de conexión</ConnectionStrengthFall>
   <!-- EN: Connection strength -->
-  <ConnectionStrength>TODO</ConnectionStrength>
+  <ConnectionStrength>Fuerza de conexión</ConnectionStrength>
   <!-- EN: {0} strength -->
-  <ConnectionStrengthDisplay>TODO</ConnectionStrengthDisplay>
+  <ConnectionStrengthDisplay>Fuerza de {0}</ConnectionStrengthDisplay>
   <!-- EN: Determines how many dryads this tree can support. -->
-  <ConnectionStrengthDesc>TODO</ConnectionStrengthDesc>
+  <ConnectionStrengthDesc>Determina cuantas driadas puede soportar este árbol.</ConnectionStrengthDesc>
   <!-- EN: Max dryads -->
   <MaximumDryads>Dríades máximas</MaximumDryads>
   <!-- EN: The maximum number of dryads this tree can support. -->
-  <MaximumDryadsDesc>TODO</MaximumDryadsDesc>
+  <MaximumDryadsDesc>El número máximo de driadas que este árbol puede soportar.</MaximumDryadsDesc>
   <!-- EN: Max dryads based on connection strength -->
-  <MaxDryadsBasedOnConnectionStrength>TODO</MaxDryadsBasedOnConnectionStrength>
+  <MaxDryadsBasedOnConnectionStrength>Driadas máximas según la fuerza de conexión.</MaxDryadsBasedOnConnectionStrength>
   <!-- EN: Pruning connection strength gain -->
-  <PruningConnectionStrength>TODO</PruningConnectionStrength>
+  <PruningConnectionStrength>Ganancia de fuerza de conexión con la poda</PruningConnectionStrength>
   <!-- EN: Hours per day to maintain -->
-  <PruningHoursToMaintain>TODO</PruningHoursToMaintain>
+  <PruningHoursToMaintain>Horas diarias para mantener.</PruningHoursToMaintain>
   <!-- EN: Desired -->
   <DesiredConnectionStrength>Deseada</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>TODO</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} podará el árbol lo suficiente para mantener la fuerza de conexión por encima de este nivel.\n\nUna mayor fuerza de conexión permite tener más driadas, pero también caerá más rápido, por lo que deberá ser podado con más frecuencia.\n\nPuedes hacer click en la barra para ajustar la fuerza deseada.\n\nCaída de fuerza por día: {FALL}\n\nLa fuerza de conexión es afectada por las estructuras cercanas.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
-  <WaitingForConnectorToChangeCaste>TODO</WaitingForConnectorToChangeCaste>
+  <WaitingForConnectorToChangeCaste>Esperando a que {CONNECTEDPAWN_nameDef} cambie la casta de driadas.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
   <GauranlenTreeMode>Casta de dríade</GauranlenTreeMode>
   <!-- EN: no caste -->
   <NoCaste>sin casta</NoCaste>
   <!-- EN: Determines the currently created dryad caste. -->
-  <GauranlenTreeModeDesc>TODO</GauranlenTreeModeDesc>
+  <GauranlenTreeModeDesc>Determina la casta de las driadas creadas.</GauranlenTreeModeDesc>
   <!-- EN: Spawning {DRYAD_label} in {TIME} -->
-  <SpawningDryadIn>TODO</SpawningDryadIn>
+  <SpawningDryadIn>Generando {DRYAD_label} en {TIME}</SpawningDryadIn>
   <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
-  <ChangingDryadIntoType>TODO</ChangingDryadIntoType>
+  <ChangingDryadIntoType>Transformando {DRYAD_labelShort} en {TYPE_label}</ChangingDryadIntoType>
   <!-- EN: {0} hours every day -->
-  <HoursEveryDay>TODO</HoursEveryDay>
+  <HoursEveryDay>{0} horas cada día</HoursEveryDay>
   <!-- EN: {0} hours every other day -->
-  <HoursEveryOtherDay>TODO</HoursEveryOtherDay>
+  <HoursEveryOtherDay>{0} horas cada otro día</HoursEveryOtherDay>
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
-  <DryadProducesResourcesDesc>TODO</DryadProducesResourcesDesc>
+  <DryadProducesResourcesDesc>{DRYAD_labelPlural} produce {RESOURCES} cada {DURATION}</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
-  <DryadCannotChangeMaster>TODO</DryadCannotChangeMaster>
+  <DryadCannotChangeMaster>{ANIMAL_nameDef} está conectado a {MASTER_nameDef} por el arbol Gauranlen. Su maestro no se puede cambiar.</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
-  <ConnectionStrengthTooWeakForGaumakerPod>TODO</ConnectionStrengthTooWeakForGaumakerPod>
+  <ConnectionStrengthTooWeakForGaumakerPod>Fuerza de conexión muy baja para crear una driada.</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
   <Unconnected>desconectado</Unconnected>
   <!-- EN: Dryads -->
   <DryadPlural>dríades</DryadPlural>
   <!-- EN: Connection strength affected by -->
-  <ConnectionStrengthAffectedBy>TODO</ConnectionStrengthAffectedBy>
+  <ConnectionStrengthAffectedBy>Fuerza de conexión afectada por</ConnectionStrengthAffectedBy>
   <!-- EN: Currently affected by -->
-  <CurrentlyAffectedBy>TODO</CurrentlyAffectedBy>
+  <CurrentlyAffectedBy>Actualmente afectado por</CurrentlyAffectedBy>
   <!-- EN: {0} connection strength needed to support a dryad. -->
-  <NotEnoughConnectionStrengthForSingleDryad>TODO</NotEnoughConnectionStrengthForSingleDryad>
+  <NotEnoughConnectionStrengthForSingleDryad>Se necesita {0} fuerza de conexión para soportar una driada.</NotEnoughConnectionStrengthForSingleDryad>
   <!-- EN: Cannot assign allowed area -->
-  <CannotAssignAllowedAreaToDryad>TODO</CannotAssignAllowedAreaToDryad>
+  <CannotAssignAllowedAreaToDryad>No se puede asignar un area permitida</CannotAssignAllowedAreaToDryad>
 
   <!-- Shooting report -->
   <!-- EN: Target outdoors and night-time -->
-  <TargetNightOutdoors>TODO</TargetNightOutdoors>
+  <TargetNightOutdoors>Objetivo en exterior de noche</TargetNightOutdoors>
   <!-- EN: Target indoors and dark -->
-  <TargetDarkIndoors>TODO</TargetDarkIndoors>
+  <TargetDarkIndoors>Objetivo en interior a oscuras</TargetDarkIndoors>
   <!-- EN: Target outdoors and daytime -->
-  <TargetDayOutdoors>TODO</TargetDayOutdoors>
+  <TargetDayOutdoors>Objetivo en exterior de día</TargetDayOutdoors>
   <!-- EN: Target indoors and lit -->
-  <TargetLitIndoors>TODO</TargetLitIndoors>  
+  <TargetLitIndoors>Objetivo en interior iluminado</TargetLitIndoors>  
   <!-- EN: Charging -->
   <RechargeableCharging>Cargando</RechargeableCharging>
   <!-- EN: Ready -->
@@ -551,36 +541,36 @@
   <!-- EN: Skill -->
   <RoleRequirementSkill>Habilidad</RoleRequirementSkill>
   <!-- EN: Any of skills -->
-  <RoleRequirementSkillAny>TODO</RoleRequirementSkillAny>
+  <RoleRequirementSkillAny>Cualquier habilidad</RoleRequirementSkillAny>
   <!-- EN: Won't use ranged weapons -->
-  <RoleEffectWontUseRangedWeapons>TODO</RoleEffectWontUseRangedWeapons>
+  <RoleEffectWontUseRangedWeapons>No usará armas a distancia</RoleEffectWontUseRangedWeapons>
   <!-- EN: Won't use melee weapons -->
-  <RoleEffectWontUseMeleeWeapons>TODO</RoleEffectWontUseMeleeWeapons>
+  <RoleEffectWontUseMeleeWeapons>No usará armas cuerpo a cuerpo</RoleEffectWontUseMeleeWeapons>
   <!-- EN: {0} quality to crafting or construction -->
-  <RoleEffectProductionQualityOffset>TODO</RoleEffectProductionQualityOffset>
+  <RoleEffectProductionQualityOffset>{0} calidad a construir o fabricar</RoleEffectProductionQualityOffset>
   <!-- EN: Hunting revenge chance {0} -->
-  <RoleEffectHuntingRevengeChance>TODO</RoleEffectHuntingRevengeChance>
+  <RoleEffectHuntingRevengeChance>Probabilidad de venganza cazando {0}</RoleEffectHuntingRevengeChance>
   <!-- EN: Give thought -->
-  <RoleEffectGiveThoughtOnTended>TODO</RoleEffectGiveThoughtOnTended>
+  <RoleEffectGiveThoughtOnTended>Reflexionar</RoleEffectGiveThoughtOnTended>
 
   <!-- EN: Assign colonists to your ideoligion -->
-  <AssignColonists>TODO</AssignColonists>
+  <AssignColonists>Asigna colonos a tu ideoligión</AssignColonists>
   <!-- EN: Remove new ideoligion -->
-  <RemoveNewIdeoligion>TODO</RemoveNewIdeoligion>
+  <RemoveNewIdeoligion>Eliminar nueva ideoligión</RemoveNewIdeoligion>
   <!-- EN: Make this your primary ideoligion -->
-  <MakeIdeoligionPrimary>TODO</MakeIdeoligionPrimary>
+  <MakeIdeoligionPrimary>Hacer esta tu ideoligión principal</MakeIdeoligionPrimary>
 
   <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
-  <GameOverArchotechInvokedIntro>TODO</GameOverArchotechInvokedIntro>
+  <GameOverArchotechInvokedIntro>Has invocado el núcleo del arconexo. El mundo se llena de una luz cegadora y el tiempo parece ralentizarse...\n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
-  <GameOverArchotechInvokedEnding>TODO</GameOverArchotechInvokedEnding>
+  <GameOverArchotechInvokedEnding>El dios de las máquinas se ha fijado en ti. Nadie puede predecir lo que ocurrirá a continuación. Puede que te destruya, o que se comunique contigo directamente, o que transporte tu conciencia a otro plano de la realidad.\n\nSientes una vasta e inhumana estructura de infinita complejidad fractal que fluye en tu mente. El tiempo y la escala comienzan a disolverse. Es aterrador. Es hermoso...</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
-  <GameOverColonistsTranscended>TODO</GameOverColonistsTranscended>
+  <GameOverColonistsTranscended>Estos colonos han transcendido:\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
-  <Reward_ArchonexusMapPart>TODO</Reward_ArchonexusMapPart>
+  <Reward_ArchonexusMapPart>Una parte del mapa del arconexo</Reward_ArchonexusMapPart>
   <!-- EN: Archonexus map part {0}/{1} -->
-  <Reward_ArchonexusMapPartLabel>TODO</Reward_ArchonexusMapPartLabel>
+  <Reward_ArchonexusMapPartLabel>Parte del mapa del arconexo {0}/{1}</Reward_ArchonexusMapPartLabel>
 
   <!-- EN: relics -->
   <RelicsLower>reliquias</RelicsLower>
@@ -590,85 +580,98 @@
   <!-- EN: Linked to -->
   <LinkedTo>Conectado a</LinkedTo>
   <!-- EN: Supply satellite -->
-  <SupplySatellite>TODO</SupplySatellite>
+  <SupplySatellite>Satelite de suministros</SupplySatellite>
 
   <!-- EN: Colonist is not willing to extract skull from corpse (missing pro-skullspike precept) -->
-  <CannotExtractSkull>TODO</CannotExtractSkull>
+  <CannotExtractSkull>El colono no quiere extraer el craneo de los cuerpos (falta el precepto ensartacráneos)</CannotExtractSkull>
   <!-- EN: Preview the ritual ambience sound -->
-  <TipPreviewRitualAmbienceSound>TODO</TipPreviewRitualAmbienceSound>
+  <TipPreviewRitualAmbienceSound>Previsualiza el sónido ambiente del ritual</TipPreviewRitualAmbienceSound>
 
   <!-- EN: Choose -->
   <ChooseStuffForRelic>Elegir</ChooseStuffForRelic>
   <!-- EN: Made from stuff -->
-  <RelicStuff>TODO</RelicStuff>
+  <RelicStuff>Hecho de</RelicStuff>
 
   <!-- Bioscuplter pod -->
   <!-- EN: Cycle -->
   <BiosculpterPodCycleLabel>Ciclo</BiosculpterPodCycleLabel>
   <!-- EN: loading ingredients -->
-  <BiosculpterPodCycleLabelLoading>TODO</BiosculpterPodCycleLabelLoading>
+  <BiosculpterPodCycleLabelLoading>cargando ingredientes</BiosculpterPodCycleLabelLoading>
   <!-- EN: (and biotuning) -->
-  <BiosculpterPodCycleWillBiotune>TODO</BiosculpterPodCycleWillBiotune>
+  <BiosculpterPodCycleWillBiotune>(y biomodificando)</BiosculpterPodCycleWillBiotune>
   <!-- EN: Begin {0} cycle -->
-  <BiosculpterPodCycleCommand>TODO</BiosculpterPodCycleCommand>
+  <BiosculpterPodCycleCommand>Empezar ciclo de {0}</BiosculpterPodCycleCommand>
   <!-- EN: Duration -->
-  <BiosculpterPodCycleDuration>TODO</BiosculpterPodCycleDuration>
+  <BiosculpterPodCycleDuration>Duración</BiosculpterPodCycleDuration>
   <!-- EN: Duration (transhumanists) -->
-  <BiosculpterPodCycleDurationTranshumanists>TODO</BiosculpterPodCycleDurationTranshumanists>
+  <BiosculpterPodCycleDurationTranshumanists>Duración (transhumanistas)</BiosculpterPodCycleDurationTranshumanists>
   <!-- EN: Ready for cycle selection -->
-  <BiosculpterPodCycleSelection>TODO</BiosculpterPodCycleSelection>
+  <BiosculpterPodCycleSelection>Preparado para selección de ciclo</BiosculpterPodCycleSelection>
   <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
-  <BiosculpterPodCycleStandby>TODO</BiosculpterPodCycleStandby>
+  <BiosculpterPodCycleStandby>A la espera para ciclo de {CYCLE} con {PAWN_labelShort}</BiosculpterPodCycleStandby>
   <!-- EN: Nutrition loaded, no power -->
-  <BiosculpterPodCycleSelectionNoPower>TODO</BiosculpterPodCycleSelectionNoPower>
+  <BiosculpterPodCycleSelectionNoPower>Falta nutrición, sin energía</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
-  <BiosculpterCycleTimeRemaining>TODO</BiosculpterCycleTimeRemaining>
+  <BiosculpterCycleTimeRemaining>Termina en</BiosculpterCycleTimeRemaining>
   <!-- EN: accelerated for transhumanists -->
-  <BiosculpterCycleAccelerated>TODO</BiosculpterCycleAccelerated>
+  <BiosculpterCycleAccelerated>acelerado para transhumanistas</BiosculpterCycleAccelerated>
   <!-- EN: Paused: No power (interrupt in {TIME}) -->
-  <BiosculpterCycleNoPowerInterrupt>TODO</BiosculpterCycleNoPowerInterrupt>
+  <BiosculpterCycleNoPowerInterrupt>Pausado: Sin energía (se interrumpe en {TIME})</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
-  <BiosculpterBiotunedTo>TODO</BiosculpterBiotunedTo>
+  <BiosculpterBiotunedTo>Biomodificado a</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
-  <BiosculpterInteruptCycle>TODO</BiosculpterInteruptCycle>
+  <BiosculpterInteruptCycle>Interrumpir ciclo</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
-  <BiosculpterInteruptCycleDesc>TODO</BiosculpterInteruptCycleDesc>
+  <BiosculpterInteruptCycleDesc>Interrumpe el ciclo actual. El ocupante será expulsado sin beneficiarse del ciclo y sufrirá la enfermedad de la bioescultura por un corto tiempo.</BiosculpterInteruptCycleDesc>
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
-  <BiosculpterEnteringMessage>TODO</BiosculpterEnteringMessage>
+  <BiosculpterEnteringMessage>{PAWN_labelShort} va a entrar al bioescultor y comenzar un ciclo de {CYCLE}</BiosculpterEnteringMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
-  <BiosculpterLoadingStartedMessage>TODO</BiosculpterLoadingStartedMessage>
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} va a recoger {INGREDIENTS} y comenzar un ciclo de {CYCLE}</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
-  <BiosculpterCarryStartedMessage>TODO</BiosculpterCarryStartedMessage>
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} va a recoger {INGREDIENTS}, colocar a {DOWNED_labelShort} en el bioescultor y comenzar un ciclo de {CYCLE}</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
-  <NumNutrition>TODO</NumNutrition>
+  <NumNutrition>{0} nutrición</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
-  <BiosculpterNoPowerEjectedMessage>TODO</BiosculpterNoPowerEjectedMessage>
+  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} ha sido expulsado de una cápsula de bioescultura por la falta de energía.</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
-  <BiosculpterHealCompletedMessage>TODO</BiosculpterHealCompletedMessage>
+  <BiosculpterHealCompletedMessage>{PAWN_labelShort} ha completado el ciclo de curación.</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
-  <BiosculpterHealCompletedWithCureMessage>TODO</BiosculpterHealCompletedWithCureMessage>
-  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <BiosculpterAgeReversalCompletedMessage>TODO</BiosculpterAgeReversalCompletedMessage>
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} ha completado el ciclo de curación, y su {HEDIFF_label} se ha curado.</BiosculpterHealCompletedWithCureMessage>
+  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} ha completado el ciclo de revertimiento de edad. Espera su siguiente revertimiento en {DEADLINE} días.</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <AgeReversalExpectationDeadline>TODO</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
-  <BiosculpterPleasureCompletedMessage>TODO</BiosculpterPleasureCompletedMessage>
+  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} ha completado su ciclo de placer</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
-  <BiosculpterCleanlinessSpeedFactor>TODO</BiosculpterCleanlinessSpeedFactor>
+  <BiosculpterCleanlinessSpeedFactor>Factor de velocidad por limpieza</BiosculpterCleanlinessSpeedFactor>
   <!-- EN: Biotuned speed factor -->
-  <BiosculpterBiotunedSpeedFactor>TODO</BiosculpterBiotunedSpeedFactor>
+  <BiosculpterBiotunedSpeedFactor>Factor de velocidad de biomodificación</BiosculpterBiotunedSpeedFactor>
   <!-- EN: These conditions will be healed -->
-  <HealingCycleWillHeal>TODO</HealingCycleWillHeal>
+  <HealingCycleWillHeal>Estas condiciones se curarán</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->
-  <HealingCycleOneWillHeal>TODO</HealingCycleOneWillHeal>
+  <HealingCycleOneWillHeal>Una de estas condiciones se curará</HealingCycleOneWillHeal>
   <!-- EN: Missing required research -->
-  <MissingRequiredResearch>TODO</MissingRequiredResearch>
+  <MissingRequiredResearch>Falta investigación necesaria</MissingRequiredResearch>
   <!-- EN: Requires -->
-  <BiosculpterRequiresIngredients>TODO</BiosculpterRequiresIngredients>
+  <BiosculpterRequiresIngredients>Requiere</BiosculpterRequiresIngredients>
   <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->
-  <OnCompletionOfCycle>TODO</OnCompletionOfCycle>
+  <OnCompletionOfCycle>Cuando se complete el ciclo de {CYCLE}, ocurrirá lo siguiente</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
-  <BiosculpterNoCoditionsToHeal>TODO</BiosculpterNoCoditionsToHeal>
+  <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} no tiene condiciones que se puedan curar con un ciclo de {CYCLE}.\n\n¿Quieres continuar?</BiosculpterNoCoditionsToHeal>
+
+  <!-- EN: basic -->
+  <Basic>TODO</Basic>
+  <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
+  <ChangeStyleDesc>TODO</ChangeStyleDesc>
+  <!-- EN: No available styles. -->
+  <ChangeStyleDisabledNoCategories>TODO</ChangeStyleDisabledNoCategories>
 
   <!-- UNUSED -->
+  <RitualTargetLightBallInfo>Una bola de luces o sitio de rituales. La bola y los altavoces deben tener energía.</RitualTargetLightBallInfo>
+  <RitualTargetCampfireSkylanternsInfo>Una pequeña hoguera o sitio de rituales. El sitio debe tener al menos 25 celdas al aire libre en el area.</RitualTargetCampfireSkylanternsInfo>
+  <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} no cree en las cegueras ideológicas </RitualBlindingWarnNonBlindingIdeo>
+  <RoleDisabledWorkLabel>Trabajo inhabilitado</RoleDisabledWorkLabel>
   <Customize>Personalizar</Customize>
   <CreateFluid>Modo fluido...</CreateFluid>
   <DisablesPrecepts>Inhabilita preceptos</DisablesPrecepts>
