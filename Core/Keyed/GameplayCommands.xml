@@ -1,228 +1,641 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- UNUSED -->
+
+  <!-- Forbid -->
+  <!-- EN: Forbid -->
   <CommandForbid>Prohibir</CommandForbid>
+  <!-- EN: Allow -->
   <CommandAllow>Permitir</CommandAllow>
+  <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
   <CommandForbiddenDesc>Prohibido - Los colonos no interactuarán con ésto.</CommandForbiddenDesc>
+  <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
   <CommandNotForbiddenDesc>No está prohibido - Los colonos podrán interactuar con ésto.</CommandNotForbiddenDesc>
+
+  <!-- Power -->
+  <!-- EN: Toggle power -->
   <CommandTogglePowerLabel>Encender/apagar</CommandTogglePowerLabel>
+  <!-- EN: Toggle power. -->
   <CommandTogglePowerDesc>Activa o desactiva la energía eléctrica.</CommandTogglePowerDesc>
+  
+  <!-- EN: Designate toggle power -->
   <CommandDesignateTogglePowerLabel>Alternar energía</CommandDesignateTogglePowerLabel>
+  <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
   <CommandDesignateTogglePowerDesc>Enciende o apaga éste objeto. Un colono vendrá pronto a mover el interruptor.</CommandDesignateTogglePowerDesc>
+  
+  <!-- EN: Reconnect -->
   <CommandTryReconnectLabel>Reconectar</CommandTryReconnectLabel>
+  <!-- EN: Try to connect to a different power net within my connection radius. This is useful if I'm connected to an unpowered net but there is a powered net nearby. -->
   <CommandTryReconnectDesc>Intenta reconectar este objeto a otra red de energía dentro de su radio de conexión. Esto es útil si está conectado a una red sin energía pero hay otra cerca que sí la tiene.</CommandTryReconnectDesc>
+
+  <!-- EN: Gather spot -->
   <CommandGatherSpotToggleLabel>Punto de reunión</CommandGatherSpotToggleLabel>
+  <!-- EN: Active - colonists will gather around this object. -->
   <CommandGatherSpotToggleDescActive>Activo - Los colonos se reunirán alrededor de este punto.</CommandGatherSpotToggleDescActive>
+  <!-- EN: Inactive - colonists will not gather around this object. -->
   <CommandGatherSpotToggleDescInactive>Inactivo - Los colonos dejarán de reunirse alrededor de este punto.</CommandGatherSpotToggleDescInactive>
+  
+  <!-- Drafting -->
+  <!-- EN: Draft -->
   <CommandDraftLabel>Reclutar</CommandDraftLabel>
+  <!-- EN: Undraft -->
   <CommandUndraftLabel>Reclutar</CommandUndraftLabel>
+  <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
   <CommandToggleDraftDesc>Alterna el reclutamiento militar.\n\nLos colonos reclutados recibirán ordenes directas y lucharán. No trabajarán, comerán ni descansarán.</CommandToggleDraftDesc>
+  <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} no puede caminar.</IsIncapped>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
   <ParticipatingInRitual>{0_labelShort} está participando en {1}.</ParticipatingInRitual>
+
+  <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Fuego a discreción</CommandFireAtWillLabel>
+  <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
   <CommandFireAtWillDesc>Alterna el fuego a discreción.\n\Cuando está desactivado, este personaje no disparará automáticamente a los objetivos a tiro. No afecta al combate cuerpo a cuerpo.</CommandFireAtWillDesc>
+  
+  <!-- EN: Clear prioritized work -->
   <CommandClearPrioritizedWork>Eliminar trabajo prioritario</CommandClearPrioritizedWork>
+  <!-- EN: Clear any prioritized work you assigned. The character will go back to their usual self-directed activities. -->
   <CommandClearPrioritizedWorkDesc>Elimina cualquier trabajo prioritario que hayas asignado. El personaje regresará a sus actividades auto-asignadas.</CommandClearPrioritizedWorkDesc>
+  
+  <!-- EN: Cancel -->
   <CommandCancelConstructionLabel>Cancelar</CommandCancelConstructionLabel>
+  <!-- EN: Cancel this construction. -->
   <CommandCancelConstructionDesc>Cancela esta construcción.</CommandCancelConstructionDesc>
+
+  <!-- EN: Get out of bed -->
   <CommandGetOutOfBedLabel>Salir de la cama</CommandGetOutOfBedLabel>
+  <!-- EN: Get out of current bed. -->
   <CommandGetOutOfBedDesc>Obliga al colono a levantarse de la cama.</CommandGetOutOfBedDesc>
+
+  <!-- EN: Set owner -->
   <CommandThingSetOwnerLabel>Asignar dueño</CommandThingSetOwnerLabel>
+  <!-- EN: Assign this bed to be owned by a specific {0}. -->
   <CommandBedSetOwnerDesc>Asignar esta cama a un colono específico.</CommandBedSetOwnerDesc>
+  <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>Asinar este trono a un colono específico.</CommandThroneSetOwnerDesc>
+  <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
   <CommandMeditationSpotSetOwnerDesc>Asigna este punto de meditación a un colono específico.</CommandMeditationSpotSetOwnerDesc>
+  <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Asignar colono</CommandGraveAssignColonistLabel>
+  <!-- EN: Assign this grave to be owned by a specific colonist. -->
   <CommandGraveAssignColonistDesc>Asigna esta tumba a un colono específico.</CommandGraveAssignColonistDesc>
+  <!-- EN: Assign -->
   <BuildingAssign>Asignar</BuildingAssign>
+  <!-- EN: Reassign -->
   <BuildingReassign>Reasignar</BuildingReassign>
+  <!-- EN: Unassign -->
   <BuildingUnassign>Desasignar</BuildingUnassign>
+  <!-- EN: For prisoners -->
   <CommandBedSetForPrisonersLabel>Designar para prisioneros</CommandBedSetForPrisonersLabel>
+  <!-- EN: Whether beds in this room should be used by prisoners. -->
   <CommandBedSetForPrisonersDesc>Designa las camas de esta habitación para uso de los prisioneros.</CommandBedSetForPrisonersDesc>
+  <!-- EN: Only beds in enclosed spaces can be set for prisoners. -->
   <CommandBedSetForPrisonersFailOutdoors>Sólo las camas en espacios cerrados pueden designarse para uso de los prisioneros.</CommandBedSetForPrisonersFailOutdoors>
+  <!-- EN: Medical -->
   <CommandBedSetAsMedicalLabel>Designar para uso médico</CommandBedSetAsMedicalLabel>
+  <!-- EN: Whether this bed is for medical use. -->
   <CommandBedSetAsMedicalDesc>Designa esta cama para uso médico.</CommandBedSetAsMedicalDesc>
+  <!-- EN: Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <TurningOnPrisonerBedWarning>Activar el modo prisión afecta a la habitación completa (ya que colonos y prisioneros no pueden dormir en la misma habitación).\n\nEstas personas perderán sus camas asignadas:</TurningOnPrisonerBedWarning>
+  <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <TurningOffPrisonerBedWarning>Desactivar el modo prisión afecta a la habitación completa (ya que colonos y prisioneros no pueden dormir en la misma habitación).\n\nEstas personas perderán sus camas asignadas:</TurningOffPrisonerBedWarning>
+  <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>¿Estás seguro de que quieres hacer ésto?</AreYouSure>
+  <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <ChangingOwnerTypeBedWarning>Cambiar el uso de la cama afecta a toda la habitación (ya que los prisioneros, los esclavos y los colonos no pueden dormir en la misma habitación).\n\nEstas personas perderán la propiedad de sus camas:</ChangingOwnerTypeBedWarning>
+
+
+  <!-- EN: Detonate -->
   <CommandDetonateLabel>Detonar</CommandDetonateLabel>
+  <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Comienza una cuenta atrás para la detonación.</CommandDetonateDesc>
+
+  <!-- EN: Rename -->
   <CommandRenameZoneLabel>Renombrar</CommandRenameZoneLabel>
+  <!-- EN: Rename this zone. -->
   <CommandRenameZoneDesc>Renombra esta área.</CommandRenameZoneDesc>
+
+  <!-- EN: Hide -->
   <CommandHideZoneLabel>Esconder</CommandHideZoneLabel>
+  <!-- EN: Unhide -->
   <CommandUnhideZoneLabel>Mostrar</CommandUnhideZoneLabel>
+  <!-- EN: Hide/unhide this zone. -->
   <CommandHideZoneDesc>Esconde/muestra esta área.</CommandHideZoneDesc>
+
+  <!-- EN: Delete -->
   <CommandDeleteZoneLabel>Suprimir</CommandDeleteZoneLabel>
+  <!-- EN: Delete this zone. -->
   <CommandDeleteZoneDesc>Suprime esta área.</CommandDeleteZoneDesc>
+
+  <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>Copiar ajustes</CommandCopyZoneSettingsLabel>
+  <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
   <CommandCopyZoneSettingsDesc>Copia los ajustes de esta área en el portapapeles para que puedas pegarlos en otra.</CommandCopyZoneSettingsDesc>
+
+  <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>Pegar ajustes</CommandPasteZoneSettingsLabel>
+  <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
   <CommandPasteZoneSettingsDesc>Sobreescribe los ajustes de esta área con los que hayas copiado en el portapapeles.</CommandPasteZoneSettingsDesc>
+
+  <!-- EN: Allow sowing -->
   <CommandAllowSow>Permitir siembra</CommandAllowSow>
+  <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
   <CommandAllowSowDesc>Cuando se desactiva, los colonos no volverán a sembrar plantas en ésta área, pero seguirán cosechando.</CommandAllowSowDesc>
+
+  <!-- EN: Allow cutting -->
   <CommandAllowCut>Permitir corte</CommandAllowCut>
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
   <CommandAllowCutDesc>Cuando están deshabilitados, los colonos nunca cortarán plantas en esta zona. Todavía sembrarán nuevas plantas en espacios que ya están vacíos y cosecharán.</CommandAllowCutDesc>
+  
+  <!-- EN: Select {0_label} -->
+  <CommandSelectStoredThing>TODO</CommandSelectStoredThing>
+  <!-- EN: Select the item stored in here. -->
+  <CommandSelectStoredThingDesc>TODO</CommandSelectStoredThingDesc>
+
+  <!-- Artillery -->
+  <!-- EN: Set forced target -->
   <CommandSetForceAttackTarget>Asignar un blanco obligatorio</CommandSetForceAttackTarget>
+  <!-- EN: Sets a target that this turret must attack continuously as long as it can. -->
   <CommandSetForceAttackTargetDesc>Asigna un blanco que la torreta atacará continuamente mientras pueda.</CommandSetForceAttackTargetDesc>
+  <!-- EN: Stop forced attack -->
   <CommandStopForceAttack>Detener ataque designado</CommandStopForceAttack>
+  <!-- EN: Stops force-attacking and allows the turret to fire as it wishes. -->
   <CommandStopForceAttackDesc>Desasigna el blanco obligatorio y permite a la torreta disparar a voluntad.</CommandStopForceAttackDesc>
+  <!-- EN: Not currently force-attacking. -->
   <CommandStopAttackFailNotForceAttacking>No está atacando ningún blanco obligatorio.</CommandStopAttackFailNotForceAttacking>
+  <!-- EN: Extract shell -->
   <CommandExtractShell>Extraer proyectil</CommandExtractShell>
+  <!-- EN: Unloads the current shell so it can be replaced with different ammunition. -->
   <CommandExtractShellDesc>Descarga el proyectil actual para que pueda ser reemplazado por munición diferente.</CommandExtractShellDesc>
+  <!-- EN: Target beyond maximum range. -->
   <MessageTargetBeyondMaximumRange>Objetivo más allá del rango máximo.</MessageTargetBeyondMaximumRange>
+  <!-- EN: Target below minimum range. -->
   <MessageTargetBelowMinimumRange>Objetivo por debajo del rango mínimo.</MessageTargetBelowMinimumRange>
+  <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
   <MessageTurretWontFireBecauseHoldFire>Advertencia: el mortero no disparará porque está configurado en "Alto al fuego".</MessageTurretWontFireBecauseHoldFire>
+  
+  <!-- Ship computer core -->
+  <!-- EN: Launch ship -->
   <CommandShipLaunch>Lanzar la nave al espacio</CommandShipLaunch>
+  <!-- EN: Start the ship launch sequence with the current configuration. -->
   <CommandShipLaunchDesc>Comienza la secuencia de despegue de la nave con la configuración actual.</CommandShipLaunchDesc>
+  <!-- EN: Show launch report -->
   <CommandShipLaunchReport>Mostrar el reporte de despegue</CommandShipLaunchReport>
+  <!-- EN: Show a readiness report about the ship's launch capability. -->
   <CommandShipLaunchReportDesc>Muestra una lectura sobre la capacidad de despegue de la nave.</CommandShipLaunchReportDesc>
+  <!-- EN: Start ship -->
   <CommandShipStartup>Iniciar nave</CommandShipStartup>
+  <!-- EN: Wake up hibernating ship components. -->
   <CommandShipStartupDesc>Inicia los componentes de hibernacion de la nave.</CommandShipStartupDesc>
+
+  <!-- Pod -->
+  <!-- EN: Eject sleeper -->
   <CommandPodEject>Eyectar durmiente</CommandPodEject>
+  <!-- EN: Wake up the cryptosleeper and eject them. -->
   <CommandPodEjectDesc>Despierta a un criptodurmiente y lo eyecta.</CommandPodEjectDesc>
+  <!-- EN: Contains nobody. -->
   <CommandPodEjectFailEmpty>No contenía a nadie.</CommandPodEjectFailEmpty>
+
+  <!-- Door -->
+  <!-- EN: Passage forbidden -->
   <CommandToggleDoorForbid>Prohibido el paso</CommandToggleDoorForbid>
+  <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
   <CommandToggleDoorForbidDesc>Cuando una puerta está prohibida, los colonos y los aliados no la atravesarán. Esto no afectará las interacciones de los enemigos o los animales con la puerta.</CommandToggleDoorForbidDesc>
+  <!-- EN: Hold open -->
   <CommandToggleDoorHoldOpen>Mantener abierta</CommandToggleDoorHoldOpen>
+  <!-- EN: When active, your colonists will not close the door after passing through. -->
   <CommandToggleDoorHoldOpenDesc>Cuando se activa, los colonos no cerrarán la puerta despúes de atravesarla.</CommandToggleDoorHoldOpenDesc>
+
+  <!-- Temperature control -->
+  <!-- EN: Reset -->
   <CommandResetTemp>Reiniciar</CommandResetTemp>
+  <!-- EN: Reset the target temperature to room temperature. -->
   <CommandResetTempDesc>Reinicia la temperatura deseada a la temperatura de la habitación.</CommandResetTempDesc>
+  <!-- EN: Raise the target temperature. -->
   <CommandRaiseTempDesc>Aumenta la temperatura deseada.</CommandRaiseTempDesc>
+  <!-- EN: Lower the target temperature. -->
   <CommandLowerTempDesc>Disminuye la temperatura deseada.</CommandLowerTempDesc>
+
+  <!-- Install/reinstall -->
+  <!-- EN: Install -->
   <CommandInstall>Instalar</CommandInstall>
+  <!-- EN: This item is currently packaged up for storage and transport. Use this command to install this item in a final location. -->
   <CommandInstallDesc>Este objeto está empaquetado para su almacenamiento y transporte. Usa este comando para instalarlo en su localización final.</CommandInstallDesc>
+  <!-- EN: Reinstall at... -->
   <CommandReinstall>Reinstalar en...</CommandReinstall>
+  <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
   <CommandReinstallDesc>Designa este objeto para ser desinstalado y reinstalado en alguna otra parte.</CommandReinstallDesc>
+  <!-- EN: Replant -->
   <CommandReplant>Replantar</CommandReplant>
+  <!-- EN: This tree is currently packaged up for storage and transport. Use this command to replant it in a new location. -->
   <CommandReplantDesc>Este árbol está actualmente empaquetado para su almacenamiento y transporte. Use este comando para replantarlo en una nueva ubicación.</CommandReplantDesc>
+  
+  <!-- Trade beacon -->
+  <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
   <CommandMakeBeaconStockpileDesc>Crea un almacén alrededor de la baliza igual a la forma de su radio de lanzamiento.</CommandMakeBeaconStockpileDesc>
+  <!-- EN: Create stockpile -->
   <CommandMakeBeaconStockpileLabel>Crear almacén</CommandMakeBeaconStockpileLabel>
+
+  <!-- Sun lamp -->
+  <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
   <CommandSunLampMakeGrowingZoneDesc>Crea un área de cultivo alrededor de la lámpara igual a la forma de su radio de iluminación.</CommandSunLampMakeGrowingZoneDesc>
+  <!-- EN: Create growing zone -->
   <CommandSunLampMakeGrowingZoneLabel>Crear área de cultivo</CommandSunLampMakeGrowingZoneLabel>
+
+  <!-- Trap -->
+  <!-- EN: Auto Rearm -->
   <CommandAutoRearm>Auto Rearmar</CommandAutoRearm>
+  <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>Si está activado, la trampa automáticamente se reemplazará después de cada uso.</CommandAutoRearmDesc>
+  
+  <!-- Animal control -->
+  <!-- EN: Animals attack -->
   <CommandReleaseAnimalsLabel>Soltar animales</CommandReleaseAnimalsLabel>
+  <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
   <CommandReleaseAnimalsDesc>Cuando está activado, los animales con amo serán soltados para atacar blancos distantes. Cuando está desactivado, permanecerán cerca de su amo y lo protegerán.</CommandReleaseAnimalsDesc>
+  <!-- EN: No animals available. -->
   <CommandReleaseAnimalsFail_NoAnimals>No hay animales disponibles.</CommandReleaseAnimalsFail_NoAnimals>
+  
+  <!-- Squad attack -->
+  <!-- EN: Attack -->
   <CommandSquadAttack>Atacar</CommandSquadAttack>
+  <!-- EN: Order selected colonists to attack designated target. -->
   <CommandSquadAttackDesc>Ordena a los colonos seleccionados atacar un objetivo.</CommandSquadAttackDesc>
+  
+  <!-- Melee attack -->
+  <!-- EN: Melee attack -->
   <CommandMeleeAttack>Ataque cuerpo a cuerpo</CommandMeleeAttack>
+  <!-- EN: Order selected colonists to attack designated target using only fists and melee weapons. -->
   <CommandMeleeAttackDesc>Ordena a los colonos seleccionados atacar el objetivo designado utilizando sólo puños y armas cuerpo a cuerpo.</CommandMeleeAttackDesc>
+
+  <!-- Hold fire -->
+  <!-- EN: Hold fire -->
   <CommandHoldFire>Alto al fuego</CommandHoldFire>
+  <!-- EN: End any ongoing attacks. -->
   <CommandHoldFireDesc>Detiene los ataques.</CommandHoldFireDesc>
+  
+  <!-- reload -->
+  <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>No quedan {CHARGENOUN_plural}.</CommandReload_NoCharges>
+  <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
+  <CommandReload_Cooldown>TODO</CommandReload_Cooldown>
+  <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
   <CommandReload_NoAmmo>Necesita ser recargado con {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
+  
+  <!-- Select plant to grow -->
+  <!-- EN: Select plant to grow -->
   <CommandSelectPlantToGrowMulti>Seleccionar planta para cultivar</CommandSelectPlantToGrowMulti>
+  <!-- EN: Plant: {0} -->
   <CommandSelectPlantToGrow>Sembrar: {0}</CommandSelectPlantToGrow>
+  <!-- EN: Determine which plant should be sown here. -->
   <CommandSelectPlantToGrowDesc>Determina qué planta debe sembrarse aquí.</CommandSelectPlantToGrowDesc>
+  
+  <!-- Select mineral to scan for (long-range mineral scanner) -->
+  <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>Sintonizado para</CommandSelectMineralToScanFor>
+
+  <!-- Build copy -->
+  <!-- EN: Build copy -->
   <CommandBuildCopy>Construir copia</CommandBuildCopy>
+  <!-- EN: Build a copy of this building. -->
   <CommandBuildCopyDesc>Construye una copia de este edificio.</CommandBuildCopyDesc>
+
+  <!-- Form caravan -->
+  <!-- EN: Form caravan -->
   <CommandFormCaravan>Formar caravana</CommandFormCaravan>
+  <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>Forma un grupo de colonos capaz de viajar a nuevas áreas. Los colonos recogerán todos los suministros asignados y los animales y abandonarán la zona actual, aguardando nuevas órdenes.</CommandFormCaravanDesc>
+  <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
+  <CommandFormCaravanDescAtSpot>TODO</CommandFormCaravanDescAtSpot>
+  
+  <!-- Reform caravan -->
+  <!-- EN: Reform caravan -->
   <CommandReformCaravan>Reformar caravana</CommandReformCaravan>
+  <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
   <CommandReformCaravanDesc>Reforma un grupo de colonos. Los colonos dejarán la zona actual y esperarán nuevas órdenes.</CommandReformCaravanDesc>
+  <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>Aún hay algunos enemigos en esta zona.</CommandReformCaravanFailHostilePawns>
+  
+  <!-- Split caravan -->
+  <!-- EN: Split -->
   <CommandSplitCaravan>Dividir</CommandSplitCaravan>
+  <!-- EN: Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other. -->
   <CommandSplitCaravanDesc>Divide la caravana en dos. Las caravanas se pueden volver a unir después, siempre y cuando estén cerca.</CommandSplitCaravanDesc>
+  
+  <!-- Merge caravan -->
+  <!-- EN: Merge -->
   <CommandMergeCaravans>Unir</CommandMergeCaravans>
+  <!-- EN: Merge selected caravans. -->
   <CommandMergeCaravansDesc>Une las caravanas seleccionadas.</CommandMergeCaravansDesc>
+  <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
   <CommandMergeCaravansFailCaravansNotSelected>Selecciona todas las caravanas que deben unirse. Las caravanas deben estar cercanas entre sí.</CommandMergeCaravansFailCaravansNotSelected>
+  <!-- EN: Join -->
   <CommandJoinCaravan>Unirse</CommandJoinCaravan>
+  
+  <!-- Settle -->
+  <!-- EN: Settle -->
   <CommandSettle>Asentarse</CommandSettle>
+  <!-- EN: Settle in this area. Your colonists will enter this area and you will be able to start building a new home. -->
   <CommandSettleDesc>Coloniza esta zona. Los colonos entrarán a la zona y podrás comenzar a construir un nuevo hogar.</CommandSettleDesc>
+  <!-- EN: Your faction can only have one base. -->
   <CommandSettleFailAlreadyHaveBase>Tu facción sólo puede tener un asentamiento.</CommandSettleFailAlreadyHaveBase>
+  <!-- EN: Reached maximum number of colonies. -->
   <CommandSettleFailReachedMaximumNumberOfBases>Máximo número de colonias alcanzado.</CommandSettleFailReachedMaximumNumberOfBases>
+  <!-- EN: There isn't anybody there to claim the area. -->
   <CommandSettleFailNoColonists>No hay nadie allí para reclamar la zona.</CommandSettleFailNoColonists>
+  <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>Hay enemigos en esta zona.</CommandSettleFailEnemies>
+  
+  <!-- Abandon home -->
+  <!-- EN: Abandon -->
   <CommandAbandonHome>Abandonar</CommandAbandonHome>
+  <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
   <CommandAbandonHomeDesc>Abandona esta zona. La zona se volverá inaccesible y no podrás regresar nunca más. Después de abandonar tu hogar, podrás ordenarle a una de tus caravanas que se asiente en una nueva zona.</CommandAbandonHomeDesc>
+  <!-- EN: All of your colonists are there. -->
   <CommandAbandonHomeFailAllColonistsThere>Todos tus colonos están aquí.</CommandAbandonHomeFailAllColonistsThere>
+  
+  <!-- Cancel forming caravan -->
+  <!-- EN: Cancel forming caravan -->
   <CommandCancelFormingCaravan>Cancelar formación de caravana</CommandCancelFormingCaravan>
+  <!-- EN: Terminate the caravan formation process. -->
   <CommandCancelFormingCaravanDesc>Termina el proceso de formación de la caravana.</CommandCancelFormingCaravanDesc>
+
+  <!-- Remove from caravan -->
+  <!-- EN: Remove from caravan -->
   <CommandRemoveFromCaravan>Quitar de la caravana</CommandRemoveFromCaravan>
+  <!-- EN: Remove this person or animal from the caravan. -->
   <CommandRemoveFromCaravanDesc>Retira a esta persona o animal de la caravana.</CommandRemoveFromCaravanDesc>
+  
+  <!-- Add to caravan -->
+  <!-- EN: Add to caravan -->
   <CommandAddToCaravan>Añadir a la caravana</CommandAddToCaravan>
+  <!-- EN: Add this person or animal to the forming caravan. -->
   <CommandAddToCaravanDesc>Añade a esta persona o animal a la caravana en formación.</CommandAddToCaravanDesc>
+  
+  <!-- Show map -->
+  <!-- EN: Zoom in -->
   <CommandShowMap>Acercar la vista</CommandShowMap>
+  <!-- EN: Zoom in on this area. -->
   <CommandShowMapDesc>Acerca la vista a ésta área.</CommandShowMapDesc>
+  
+  <!-- Trade -->
+  <!-- EN: Trade -->
   <CommandTrade>Comerciar</CommandTrade>
+  <!-- EN: Trade with this faction. -->
   <CommandTradeDesc>Comercia con esta facción.</CommandTradeDesc>
+  <!-- EN: There isn't any conscious and capable negotiator. -->
   <CommandTradeFailNoNegotiator>No hay ningún negociador consciente.</CommandTradeFailNoNegotiator>
+  <!-- EN: None of your people have the required faction permission: {0} -->
   <CommandTradeFailNeedPermit>Nadie tiene el permiso de la facción necesario: {0}</CommandTradeFailNeedPermit>
+
+  <!-- Offer gifts -->
+  <!-- EN: Offer gifts -->
   <CommandOfferGifts>Ofrecer regalos</CommandOfferGifts>
+  <!-- EN: Offer gifts to this faction. -->
   <CommandOfferGiftsDesc>Ofrece regalos a esta facción.</CommandOfferGiftsDesc>
+
+  <!-- Fulfill request -->
+  <!-- EN: Fulfill trade offer -->
   <CommandFulfillTradeOffer>Cumplir el pacto de comercio</CommandFulfillTradeOffer>
+  <!-- EN: Fulfill the settlement's request for goods and claim your reward. -->
   <CommandFulfillTradeOfferDesc>Cumple con la solicitud de bienes y reclama tu recompensa.</CommandFulfillTradeOfferDesc>
+  <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
   <CommandFulfillTradeOfferFailInsufficient>Tu caravana debe tener {0} para cumplir este pacto de comercio.</CommandFulfillTradeOfferFailInsufficient>
+  <!-- EN: Give {0}? -->
   <CommandFulfillTradeOfferConfirm>Oferta {0} por {1}?</CommandFulfillTradeOfferConfirm>
+  
+  <!-- Take off -->
+  <!-- EN: Take off -->
   <CommandTakeOff>Despegar</CommandTakeOff>
+  <!-- EN: Get on board the ship and escape the planet. -->
   <CommandTakeOffDesc>Toma la nave y escapa del planeta.</CommandTakeOffDesc>
+  <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
   <CommandTakeOffConfirmation>¿Estás seguro que deseas lanzar la nave?\n\nTodos en esta zona escaparán del planeta. El resto serán abandonados.</CommandTakeOffConfirmation>
+
+  <!-- Set target fuel level -->
+  <!-- EN: Set target fuel level -->
   <CommandSetTargetFuelLevel>Designar nivel de combustible</CommandSetTargetFuelLevel>
+  <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
   <CommandSetTargetFuelLevelDesc>Designa el nivel de combustible. Los colonos intentarán llenar el tanque hasta el nivel designado.</CommandSetTargetFuelLevelDesc>
+
+  <!-- Refueling -->
+  <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>Alternar repostaje automático</CommandToggleAllowAutoRefuel>
+  <!-- EN: Sets whether or not automatic refueling is allowed. -->
   <CommandToggleAllowAutoRefuelDesc>Determina si se puede o no suministrar más combustible de forma automática.</CommandToggleAllowAutoRefuelDesc>
+  
+  <!-- Cancel load -->
+  <!-- EN: Cancel load -->
   <CommandCancelLoad>Cancelar carga</CommandCancelLoad>
+  <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>Cancela la carga de personas y objetos y eyecta todo lo que ya se haya cargado.</CommandCancelLoadDesc>
+  
+  <!-- Launch group -->
+  <!-- EN: Launch -->
   <CommandLaunchGroup>Lanzar grupo</CommandLaunchGroup>
+  <!-- EN: Take off and fly to a destination. -->
   <CommandLaunchGroupDesc>Inicia el proceso de elección de destino para lanzar un grupo de cápsulas de transporte. El próximo paso es escoger un objetivo. Las cápsulas despegarán y aterrizarán juntas.</CommandLaunchGroupDesc>
+  <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Algunas de las cápsulas de transporte de este grupo no están conectadas a un puerto de abastecimiento.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <!-- EN: Some pod launchers in this group have no fuel. -->
   <CommandLaunchGroupFailNoFuel>Algunas lanzaderas de cápsulas de este grupo no tienen combustible.</CommandLaunchGroupFailNoFuel>
+  <!-- EN: Some pod launchers are under a roof. -->
   <CommandLaunchGroupFailUnderRoof>Algunas lanzaderas de cápsulas están bajo techo.</CommandLaunchGroupFailUnderRoof>
+  
+  <!-- Load transporter -->
+  <!-- EN: Load launch group of {0} -->
   <CommandLoadTransporter>Cargar grupo de despegue {0}</CommandLoadTransporter>
+  <!-- EN: Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside. -->
   <CommandLoadTransporterDesc>Define las cápsulas seleccionadas como un grupo de despegue. Abre el diálogo de carga para que puedas decidir quién y qué será cargado.</CommandLoadTransporterDesc>
+  <!-- EN: The transport pod is not connected to a fueling port. -->
   <CommandLoadTransporterFailNotConnectedToFuelingPort>La cápsula de carga no está conectada a un puerto de repostaje.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <!-- EN: The pod launcher has no fuel. -->
   <CommandLoadTransporterFailNoFuel>La lanzadera de cápsulas no tiene combustible.</CommandLoadTransporterFailNoFuel>
+  
+  <!-- Load transporter (single) -->
+  <!-- EN: Load -->
   <CommandLoadTransporterSingle>Cargar</CommandLoadTransporterSingle>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
   <CommandLoadTransporterSingleDesc>Abre el diálogo de carga para que puedas decidir quién y qué será cargado.</CommandLoadTransporterSingleDesc>
+  
+  <!-- Transporters set to load -->
+  <!-- EN: Set to load -->
   <CommandSetToLoadTransporter>Modificar carga</CommandSetToLoadTransporter>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
   <CommandSetToLoadTransporterDesc>Abre el diálogo de carga para que puedas decidir quién y qué será cargado.</CommandSetToLoadTransporterDesc>
+  
+  <!-- Autoload transporters -->
+  <!-- EN: Autoload -->
   <CommandAutoloadTransporters>Carga automática</CommandAutoloadTransporters>
+  <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
   <CommandAutoloadTransportersDesc>Determina si se cargará automaticamente todos los artículos necesarios en cuanto esté disponible.</CommandAutoloadTransportersDesc>
+  
+  <!-- Select previous transporter -->
+  <!-- EN: Select previous in launch group -->
   <CommandSelectPreviousTransporter>Seleccionar cápsula anterior del grupo</CommandSelectPreviousTransporter>
+  <!-- EN: Select previous transport pod in this launch group. -->
   <CommandSelectPreviousTransporterDesc>Selecciona cápsula anterior en este mismo grupo de despegue.</CommandSelectPreviousTransporterDesc>
+  
+  <!-- Select all transporters -->
+  <!-- EN: Select launch group -->
   <CommandSelectAllTransporters>Seleccionar grupo de despegue</CommandSelectAllTransporters>
+  <!-- EN: Select all transport pods in this launch group. -->
   <CommandSelectAllTransportersDesc>Selecciona todas las cápsulas de transporte de este grupo de despegue.</CommandSelectAllTransportersDesc>
+  
+  <!-- Select next transporter -->
+  <!-- EN: Select next in launch group -->
   <CommandSelectNextTransporter>Seleccionar cápsula siguiente</CommandSelectNextTransporter>
+  <!-- EN: Select next transport pod in this launch group. -->
   <CommandSelectNextTransporterDesc>Selecciona la cápsula siguiente en este mismo grupo de despegue.</CommandSelectNextTransporterDesc>
+  
+  <!-- Vent -->
+  <!-- EN: Designate open/close -->
   <CommandDesignateOpenCloseVentLabel>Designar abrir/cerrar</CommandDesignateOpenCloseVentLabel>
+  <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
   <CommandDesignateOpenCloseVentDesc>Designa este respiradero para abrirlo o cerrarlo. Un colono vendrá pronto a realizar la tarea.</CommandDesignateOpenCloseVentDesc>
+  
+  <!-- Remove waypoint -->
+  <!-- EN: Remove -->
   <CommandRemoveWaypointLabel>Eliminar</CommandRemoveWaypointLabel>
+  <!-- EN: Remove this waypoint. -->
   <CommandRemoveWaypointDesc>Elimina este parada.</CommandRemoveWaypointDesc>
+
+  <!-- Pause caravan -->
+  <!-- EN: Rest -->
   <CommandPauseCaravan>Descansar</CommandPauseCaravan>
+  <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
   <CommandToggleCaravanPauseDesc>Comienza a descansar. Esto tiene los siguientes beneficios:\n\n  - Las personas pueden interactuar socialmente\n  - Forraje para alimentarse {0} veces más rápido\n  - Visibilidad multiplicada por {1}</CommandToggleCaravanPauseDesc>
+  
+  <!-- Show sellable items -->
+  <!-- EN: Show what will buy -->
   <CommandShowSellableItems>Mostrar lo que comprará</CommandShowSellableItems>
+  <!-- EN: Show everything this trader wants to buy. -->
   <CommandShowSellableItemsDesc>Muestra todo lo que este comerciante está dispuesto a comprar.</CommandShowSellableItemsDesc>
+
+  <!-- Attack settlement -->
+  <!-- EN: Attack -->
   <CommandAttackSettlement>Atacar</CommandAttackSettlement>
+  <!-- EN: Attack this settlement. -->
   <CommandAttackSettlementDesc>Ataca este asentamiento.</CommandAttackSettlementDesc>
+
+  <!-- Send shuttle -->
+  <!-- EN: Send -->
   <CommandSendShuttle>Enviar</CommandSendShuttle>
+  <!-- EN: Initiate takeoff and have the shuttle fly to its destination. -->
   <CommandSendShuttleDesc>Inicia el despegue y manda a la lanzadera hacia su destino.</CommandSendShuttleDesc>
+  <!-- EN: The shuttle is under a roof. -->
   <CommandSendShuttleFailUnderRoof>La lanzadera se encuentra bajo techo.</CommandSendShuttleFailUnderRoof>
+  <!-- EN: Some of the required items or people are missing. -->
   <CommandSendShuttleFailMissingRequiredThing>Falta alguno de los objetos o personas necesarios.</CommandSendShuttleFailMissingRequiredThing>
+  
+  <!-- Dismiss shuttle -->
+  <!-- EN: Dismiss -->
   <CommandShuttleDismiss>Rechazar</CommandShuttleDismiss>
+  <!-- EN: Unload all contents and send the shuttle away. -->
   <CommandShuttleDismissDesc>Descarga todos los contenidos de la lanzadera y la manda de vuelta.</CommandShuttleDismissDesc>
+
+  <!-- Place blueprints -->
+  <!-- EN: Place blueprints -->
   <CommandPlaceBlueprints>Colocar anteproyectos</CommandPlaceBlueprints>
+  <!-- EN: Place all required blueprints where possible. -->
   <CommandPlaceBlueprintsDesc>Coloca todos los anteproyectos necesarios donde sea posible.</CommandPlaceBlueprintsDesc>
+  <!-- EN: Place {0} blueprints -->
   <CommandPlaceBlueprintsSpecific>Colocar los anteproyectos {0}</CommandPlaceBlueprintsSpecific>
+  <!-- EN: Place all {0} blueprints where possible. -->
   <CommandPlaceBlueprintsSpecificDesc>Colocar todos los anteproyectos {0} donde sea posible</CommandPlaceBlueprintsSpecificDesc>
+
+  <!-- Cancel monument marker -->
+  <!-- EN: Cancel -->
   <CommandCancelMonumentMarker>Cancelar</CommandCancelMonumentMarker>
+  <!-- EN: Permanently remove this monument marker. -->
   <CommandCancelMonumentMarkerDesc>Eliminar permanentemente este marcador de monumento.</CommandCancelMonumentMarkerDesc>
+
+  <!-- View quest -->
+  <!-- EN: View quest: {0} -->
   <CommandViewQuest>Ver misión: {0}</CommandViewQuest>
+  <!-- EN: View this quest in quests tab. -->
   <CommandViewQuestDesc>Ver esta misión en la pestaña de misiones.</CommandViewQuestDesc>
+  <!-- EN: Open linked quest -->
   <CommandOpenLinkedQuest>Abrir misión enlazada.</CommandOpenLinkedQuest>
+  <!-- EN: Open linked quest in the quests tab. -->
   <CommandOpenLinkedQuestDesc>Abrir misión enlazada en la pestaña de misiones.</CommandOpenLinkedQuestDesc>
+
+  <!-- Carry -->
+  <!-- EN: Drop {0_nameDef} -->
   <CommandDropPawn>Soltar {0_nameDef}</CommandDropPawn>
+  <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>Soltar la persona que se esta llevando.</CommandDropPawnDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarriedPawn>TODO</CommandSelectCarriedPawn>
+  <!-- EN: Select the creature being carried. -->
+  <CommandSelectCarriedPawnDesc>TODO</CommandSelectCarriedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectCarriedThing>TODO</CommandSelectCarriedThing>
+  <!-- EN: Select the carried item. -->
+  <CommandSelectCarriedThingDesc>TODO</CommandSelectCarriedThingDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainerThing>TODO</CommandSelectContainerThing>
+  <!-- EN: Select the containing item. -->
+  <CommandSelectContainerThingDesc>TODO</CommandSelectContainerThingDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarryingPawn>TODO</CommandSelectCarryingPawn>
+  <!-- EN: Select the carrying creature. -->
+  <CommandSelectCarryingPawnDesc>TODO</CommandSelectCarryingPawnDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectContainedPawn>TODO</CommandSelectContainedPawn>
+  <!-- EN: Select the contained creature. -->
+  <CommandSelectContainedPawnDesc>TODO</CommandSelectContainedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainedThing>TODO</CommandSelectContainedThing>
+  <!-- EN: Select the contained item. -->
+  <CommandSelectContainedThingDesc>TODO</CommandSelectContainedThingDesc>
+
+  <!-- Take a drug -->
+  <!-- EN: Take drug... -->
   <TakeDrug>Consumir droga...</TakeDrug>
+  <!-- EN: Choose a drug from inventory to ingest immediately. -->
   <TakeDrugDesc>Escoger una droga del inventario para consumir inmediatamente.</TakeDrugDesc>
+
+  <!-- Build X -->
+  <!-- EN: Build {0} -->
   <BuildThing>Construir {0}</BuildThing>
+
+  <!-- Rituals -->
+  <!-- EN: Leave {RITUAL_label} -->
   <CommandLeaveRitual>Abandonar {RITUAL_label}</CommandLeaveRitual>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
   <CommandLeaveRitualDesc>Dejar de participar en el {RITUAL_labelDef}. El ritual continuará mientras haya por lo menos un participante.</CommandLeaveRitualDesc>
+  <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
   <CommandLeaveLastParticipant>Este es el último participante en el {RITUAL_labelDef}.</CommandLeaveLastParticipant>
+
+  <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>Cancelar {RITUAL_label}</CommandCancelRitual>
+  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
   <CommandCancelRitualDesc>Terminar el {RITUAL_labelDef} inmediatamente. La obligación de realizar el ritual continuará. Puedes reiniciar el ritual más tarde.</CommandCancelRitualDesc>
+  <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>Estas seguro de que quieres cancelar {RITUAL_labelDef}?</CommandCancelRitualConfirm>
+
+  <!-- Storage linking -->
+  <!-- EN: Link settings -->
+  <LinkStorageSettings>TODO</LinkStorageSettings>
+  <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
+  <LinkStorageSettingsDesc>TODO</LinkStorageSettingsDesc>
+  <!-- EN: You must select two or more buildings to link their storage settings. -->
+  <LinkStorageDisabledSelectTwo>TODO</LinkStorageDisabledSelectTwo>
+  <!-- EN: Already linked. -->
+  <AlreadyLinked>TODO</AlreadyLinked>
+  <!-- EN: Unlink settings -->
+  <UnlinkStorageSettings>TODO</UnlinkStorageSettings>
+  <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
+  <UnlinkStorageSettingsDesc>TODO</UnlinkStorageSettingsDesc>
+  <!-- EN: Linked storage settings -->
+  <LinkedStorageSettings>TODO</LinkedStorageSettings>
+  <!-- EN: {0} buildings -->
+  <NumBuildings>TODO</NumBuildings>
+  <!-- EN: Stores -->
+  <StoresThings>TODO</StoresThings>
+  <!-- EN: Select all linked -->
+  <SelectAllLinked>TODO</SelectAllLinked>
+  <!-- EN: Select all storage buildings linked to this. -->
+  <SelectAllLinkedDesc>TODO</SelectAllLinkedDesc>
   
 </LanguageData>

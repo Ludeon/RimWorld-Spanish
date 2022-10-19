@@ -19,16 +19,16 @@
 
   <!-- EN: {0} opportunity -->
   <RitualOpportunity>Oportunidad de {0}</RitualOpportunity>
-  <!-- EN: {0} opportunity for -->
+  <!-- EN: {0} opportunity for {1} -->
   <RitualOpportunityFor>Oportunidad de {0} para</RitualOpportunityFor>
-  <!-- EN: Expires in -->
+  <!-- EN: Expires in {0}, on {1}. -->
   <RitualExpiresIn>Caduca en</RitualExpiresIn>
-  <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
-  <RitualCompletionEffects>Completar {RITUAL_labelDef} tendrá estos efectos</RitualCompletionEffects>
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>TODO</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>TODO</RitualMultiTargetDesc>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
   <RitualTargetsExplanation>Para empezar un ritual, selecciona un objeto de foco y haz click en 'Empezar {RITUAL_label}. Los siguientes objetos son válidos:\n{1}</RitualTargetsExplanation>
-  <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>Los siguientes roles forman parte de{RITUAL_label}:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>Click para saltar a los objetivos</RitualJumpToTargets>
   <!-- EN: In order to perform {0} you need to fill these roles -->
@@ -75,7 +75,7 @@
   <AlertRitualComingDesc>TODO</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
   <AlertRitualComingExtra>TODO</AlertRitualComingExtra>
-  <!-- EN: {0} on {1}, {2} left -->
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
   <AlertRitualComingEntry>TODO</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
@@ -130,4 +130,8 @@
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
   <AlertSlaveRebellionLikelyMostRebellious>TODO</AlertSlaveRebellionLikelyMostRebellious>
   
+  <!-- UNUSED -->
+  <RitualCompletionEffects>Completar {RITUAL_labelDef} tendrá estos efectos</RitualCompletionEffects>
+  <RitualRolesExplanation>Los siguientes roles forman parte de{RITUAL_label}:\n{1}</RitualRolesExplanation>
+
 </LanguageData>

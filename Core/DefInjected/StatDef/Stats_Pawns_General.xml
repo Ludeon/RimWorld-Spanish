@@ -6,6 +6,9 @@
   <!-- EN: A multiplier on the learning rate for animals skill. -->
   <AnimalsLearningFactor.description>Un multiplicador para la tasa de apredinzaje de la habilidad animales.</AnimalsLearningFactor.description>
   
+  <!-- EN: bed hunger rate multiplier -->
+  <BedHungerRateFactor.label>TODO</BedHungerRateFactor.label>
+  
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>velocidad de conducción de la caravana</CaravanRidingSpeedFactor.label>
   <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
@@ -46,9 +49,8 @@
   <!-- EN: A multiplier on the learning rate for all skills. -->
   <GlobalLearningFactor.description>Un factor al índice de aprendizaje para todas las habilidades.</GlobalLearningFactor.description>
   
-  <!-- EN: hunger rate multiplier -->
+  <!-- UNUSED -->
   <HungerRateMultiplier.label>multiplicador de la tasa de hambre</HungerRateMultiplier.label>
-  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
   <HungerRateMultiplier.description>Un multiplicador a la rapidez con la que una criatura tiene hambre.</HungerRateMultiplier.description>
   
   <!-- EN: immunity gain speed -->
@@ -66,10 +68,29 @@
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <LeatherAmount.description>La cantidad de cuero que obtendrás al despiezar esta criatura.</LeatherAmount.description>
   
+  <!-- EN: lifespan factor -->
+  <LifespanFactor.label>TODO</LifespanFactor.label>
+  <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
+  <LifespanFactor.description>TODO</LifespanFactor.description>
+  
+  <!-- EN: max nutrition -->
+  <MaxNutrition.label>TODO</MaxNutrition.label>
+  <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
+  <MaxNutrition.description>TODO</MaxNutrition.description>
+  
   <!-- EN: meat amount -->
   <MeatAmount.label>cantidad de carne</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <MeatAmount.description>La cantidad de carne que obtendrás al despiezar esta criatura. Este valor se reduce si la criatura no se sacrifica limpiamente o si resulta herida al morir.</MeatAmount.description>
+  
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>ganancia de meditación de psi-foco</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>La cantidad de psi-foco que una persona gana por día de meditación, ignorando bonus de objetos de foco.</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>{0} / día</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>{0} / día</MeditationFocusGain.formatStringUnfinalized>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>umbral de colapso mental</MentalBreakThreshold.label>
@@ -93,6 +114,18 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>El nivel al que esta criatura se derrumbará por el dolor.</PainShockThreshold.description>
   
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>límite de calentamiento neural</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>La cantidad máxima de calentamiento neural que un individuo puede tolerar con seguridad.</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>tasa de rec. de calentamiento neural</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>La tasa a la que esta persona reduce su calentamiento neural.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/seg</PsychicEntropyRecoveryRate.formatString>
+  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>sensibilidad psíquica</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
@@ -103,9 +136,18 @@
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
   <RestRateMultiplier.description>Un multiplicador de la rapidez con la que una criatura descansa mientras duerme.</RestRateMultiplier.description>
   
-  <!-- EN: toxic sensitivity -->
+  <!-- EN: toxic environment resistance -->
+  <ToxicEnvironmentResistance.label>TODO</ToxicEnvironmentResistance.label>
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against toxic fallout and rot stink exposure, but not against direct attacks with venom or injected poison. -->
+  <ToxicEnvironmentResistance.description>TODO</ToxicEnvironmentResistance.description>
+  
+  <!-- EN: toxic resistance -->
+  <ToxicResistance.label>TODO</ToxicResistance.label>
+  <!-- EN: How well this creature resists toxic buildup. -->
+  <ToxicResistance.description>TODO</ToxicResistance.description>
+  
+  <!-- UNUSED -->
   <ToxicSensitivity.label>sensibilidad tóxica</ToxicSensitivity.label>
-  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
   <ToxicSensitivity.description>Multiplicador del efecto de sustancias tóxicas sobre esta criatura.</ToxicSensitivity.description>
   
 </LanguageData>

@@ -5,8 +5,6 @@
   <CustomizeIdeoligion>Personalizar ideoligión</CustomizeIdeoligion>
   <!-- EN: Choose your ideoligion -->
   <ChooseYourIdeoligion>Elige tu ideoligión</ChooseYourIdeoligion>
-  <!-- EN: Random -->
-  <Random>Aleatorio</Random>
   <!-- EN: A random structure will be used for your ideoligion. -->
   <RandomStructureTip>Tu ideoligión utilizará unos ajustes aleatorios</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
@@ -23,7 +21,7 @@
   <LoadSaved>Usar guardada</LoadSaved>
   <!-- EN: Structure -->
   <Structure>Estructura</Structure>
-  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
+  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs. -->
   <ChooseYourIdeoligionDesc>¿En qué creerán tus colonos iniciales? Sus creencias afectarán el juego y la estética. Podrás reclutar a otros a tus creencias, o creer en las suyas.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Crear personalizada</CreateCustom>
@@ -101,8 +99,10 @@
   <Styles>Estilos</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Posibilidad de tener precepto</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>El color favorito de {PAWN_labelShort}. Tener más del {PERCENTAGE} de {PAWN_possessive} de ese color, o el color de {PAWN_possessive} ideoligion le hará ligeramente más feliz.\n\nPuedes modificar el color de su apariencia en un tocador usando tinctoria.</FavoriteColorTooltip>
+  <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
+  <OrIdeoColor>TODO</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Color de la ideo</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -153,6 +153,8 @@
   <MealKindMeat>Contiene carne</MealKindMeat>
   <!-- EN: Acceptable food for everyone -->
   <MealKindAny>Comida aceptable por todos</MealKindAny>
+  <!-- EN: this outfit -->
+  <WearingDesiredApparelMulti>TODO</WearingDesiredApparelMulti>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>No se puede cargar la ideoligion</UnableToLoadIdeoTitle>
@@ -165,15 +167,15 @@
   <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
   <UnableToLoadIdeoPreceptNotAllowed>El precepto {PRECEPT} no está permitido para las facciones de la IA.</UnableToLoadIdeoPreceptNotAllowed>
 
-  <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
+  <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
   <RitualTargetGraveInfo>Una tumba que contiene el cuerpo de {PAWN_labelShort}.</RitualTargetGraveInfo>
-  <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
+  <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
   <RitualTargetEmptyGraveInfo>Una tumba vacía para llorar la muerte de {PAWN_labelShort}.</RitualTargetEmptyGraveInfo>
-  <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
+  <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>Una tumba que contiene el cuerpo de {IDEO_memberNameIndef}.</RitualTargetGraveInfoAbstract>
-  <!-- EN: A grave containing a corpse. -->
+  <!-- EN: Grave containing a corpse -->
   <RitualTargetGraveInfoAbstractNoIdeo>Una tumba que contiene un cuerpo.</RitualTargetGraveInfoAbstractNoIdeo>
-  <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
+  <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
   <RitualTargetEmptyGraveInfoAbstract>Una tumba vacía para llorar la muerte de {IDEO_memberNameIndef}.</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>El cuerpo de {PAWN_labelShort} debe ser enterrado primero.</RitualTargetGraveInfoMustBeBuried>
@@ -183,8 +185,6 @@
   <RitualTargetGatherAltarOrRitualSpotInfo>Altar o cualquier sitio de ritual.</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
   <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Altar, ideograma o cualquier sitio de ritual.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
-  <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>Una bola de luces o sitio de rituales. La bola y los altavoces deben tener energía.</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
   <RitualTargetLightBallIsNotPowered>La bola de luces no está conectada.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
@@ -197,11 +197,9 @@
   <RitualTargetNoDrum>No hay tambores cercanos.</RitualTargetNoDrum>
   <!-- EN: Need at least {0} unroofed cells nearby. -->
   <RitualTargetNeedUnroofedCells>Necesita al menos {0} celdas sin techo cerca.</RitualTargetNeedUnroofedCells>
-  <!-- EN: A lit campfire or ritual spot. -->
+  <!-- EN: a lit campfire -->
   <RitualTargetCampfirePartyInfo>Una pequeña hoguera o sitio de rituales.</RitualTargetCampfirePartyInfo>
-  <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
-  <RitualTargetCampfireSkylanternsInfo>Una pequeña hoguera o sitio de rituales. El sitio debe tener al menos 25 celdas al aire libre en el area.</RitualTargetCampfireSkylanternsInfo>
-  <!-- EN: An unconnected Gauranlen tree. -->
+  <!-- EN: an unconnected Gauranlen tree -->
   <RitualTargetUnconnectedGaruanlenTreeInfo>Un arbol Gauranlen sin conectar.</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Ya vinculado con {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
@@ -209,14 +207,14 @@
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite} ha sido vinculado recientemente. Puede volver a vincularse en {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Necesitas {0} de madera para cada participante ({2} en total). Tienes {1} de madera.</RitualTargeWoodInfo>
+  <!-- EN: {0} must be able to reach ritual target. -->
+  <RitualTargetUnreachable>TODO</RitualTargetUnreachable>
   <!-- EN: Accuse -->
   <Accuse>Acusar</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
   <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} no cree en las escarificaciones religiosas, por lo que le gustará ser escarificado.</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
   <RitualScarificationWarnWimp>{PAWN_labelShort} es un cobarde y no le gustará ser escarificado.</RitualScarificationWarnWimp>
-  <!-- EN: {PAWN_labelShort} does not believe in ideoligious blinding and will not like being blinded. -->
-  <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} no cree en las cegueras ideológicas </RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort} es un cobarde y no le gustará ser cegado.</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
@@ -239,6 +237,8 @@
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Debido a la calidad del ritual, tus puntos de desarrollo han aumentado en {2} (de {0} a {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Can't award development points beyond {0}. -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>TODO</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
   <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Debido a la poca calidad del ritual, no se han ganado puntos de desarrollo.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
@@ -281,24 +281,12 @@
   <IdeoBuildingVariationOf>Este edificio es una variación de</IdeoBuildingVariationOf>
   <!-- EN: Minimum expectations -->
   <IdeoBuildingMinimumExpectations>Expectativas mínimas</IdeoBuildingMinimumExpectations>
-  <!-- EN: size -->
-  <Size>tamaño</Size>
-  <!-- EN: cost -->
-  <Cost>coste</Cost>
   <!-- EN: optional -->
   <Optional>opciones</Optional>
   <!-- EN: expectations -->
   <Expectations>expectativas</Expectations>
-  <!-- EN: Can start any time -->
-  <RitualStartAnyTime>Se puede empezar en cualquier momento</RitualStartAnyTime>
-  <!-- EN: Can start after event -->
-  <RitualStartEvent>Se puede empezar después del evento</RitualStartEvent>
-  <!-- EN: Focus objects -->
-  <RitualFocusObjects>Objetos de foco</RitualFocusObjects>
   <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
   <RitualRepeatPenaltyTip>Repetir un ritual en menos de {0} días reduce su calidad. Han pasado {1} días desde el último ritual, por lo que la reducción de calidad es de {2}. Esta penalización caerá dentro de {3} días.</RitualRepeatPenaltyTip>
-  <!-- EN: Participating roles -->
-  <RitualParticipatingRoles>Roles participando</RitualParticipatingRoles>
   <!-- EN: For best quality, start the {0} at {1}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart1>Para una mejor calidad, empieza el {0} en {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
@@ -307,6 +295,8 @@
   <RitualDevelopmentPoints>Puntos de desarrollo</RitualDevelopmentPoints>
   <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
   <RitualDevelopmentPointsTip>Completar este ritual otorga {0}-{1} puntos de desarrollo, dependiendo de su calidad.</RitualDevelopmentPointsTip>
+  <!-- EN: {0} needs to be powered. -->
+  <RitualOutcomeBlockedNoPower>TODO</RitualOutcomeBlockedNoPower>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Para uso de esclavos</ForSlaveUse>
@@ -335,9 +325,9 @@
   <RoleRequirementLabelSameIdeo>Debe ser {0}</RoleRequirementLabelSameIdeo>
   <!-- EN: Must be {0} -->
   <RoleRequirementLabelSupremeGender>Debe ser {0}</RoleRequirementLabelSupremeGender>
+  <!-- EN: Cannot be child -->
+  <RoleRequirementCannotBe>TODO</RoleRequirementCannotBe>
 
-  <!-- EN: Disabled work -->
-  <RoleDisabledWorkLabel>Trabajo inhabilitado</RoleDisabledWorkLabel>
   <!-- EN: Abilities -->
   <RoleGrantedAbilitiesLabel>Habilidades</RoleGrantedAbilitiesLabel>
   <!-- EN: Required apparel -->
@@ -647,8 +637,10 @@
   <BiosculpterHealCompletedMessage>{PAWN_labelShort} ha completado el ciclo de curación.</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} ha completado el ciclo de curación, y su {HEDIFF_label} se ha curado.</BiosculpterHealCompletedWithCureMessage>
-  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} ha completado el ciclo de revertimiento de edad. Espera su siguiente revertimiento en {DEADLINE} días.</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <AgeReversalExpectationDeadline>TODO</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} ha completado su ciclo de placer</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
@@ -668,7 +660,18 @@
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
   <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} no tiene condiciones que se puedan curar con un ciclo de {CYCLE}.\n\n¿Quieres continuar?</BiosculpterNoCoditionsToHeal>
 
+  <!-- EN: basic -->
+  <Basic>TODO</Basic>
+  <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
+  <ChangeStyleDesc>TODO</ChangeStyleDesc>
+  <!-- EN: No available styles. -->
+  <ChangeStyleDisabledNoCategories>TODO</ChangeStyleDisabledNoCategories>
+
   <!-- UNUSED -->
+  <RitualTargetLightBallInfo>Una bola de luces o sitio de rituales. La bola y los altavoces deben tener energía.</RitualTargetLightBallInfo>
+  <RitualTargetCampfireSkylanternsInfo>Una pequeña hoguera o sitio de rituales. El sitio debe tener al menos 25 celdas al aire libre en el area.</RitualTargetCampfireSkylanternsInfo>
+  <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} no cree en las cegueras ideológicas </RitualBlindingWarnNonBlindingIdeo>
+  <RoleDisabledWorkLabel>Trabajo inhabilitado</RoleDisabledWorkLabel>
   <Customize>Personalizar</Customize>
   <CreateFluid>Modo fluido...</CreateFluid>
   <DisablesPrecepts>Inhabilita preceptos</DisablesPrecepts>
