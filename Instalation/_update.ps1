@@ -130,6 +130,7 @@ Get-ChildItem -Name -Directory ".\" -Filter "$local_repo*" | Select-Object -Firs
 UpdateContent -LocalRepo $local_repo -Name "Core"
 UpdateContent -LocalRepo $local_repo -Name "Royalty"
 UpdateContent -LocalRepo $local_repo -Name "Ideology"
+UpdateContent -LocalRepo $local_repo -Name "Biotech"
 
 # Delete the downloaded repo
 Remove-Item -Recurse -Force ".\$local_repo"
