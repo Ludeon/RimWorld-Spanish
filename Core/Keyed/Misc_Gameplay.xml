@@ -545,11 +545,11 @@
   <!-- EN: Ingredients -->
   <ThoughtFoodEatenIngredients>Ingredientes</ThoughtFoodEatenIngredients>
   <!-- EN: Shield pack -->
-  <ShieldInbuilt>TODO</ShieldInbuilt>
+  <ShieldInbuilt>Paquete de escudo</ShieldInbuilt>
   <!-- EN: Punctured - will explode soon. -->
-  <PuncturedWillExplode>TODO</PuncturedWillExplode>
+  <PuncturedWillExplode>Pinchado - puede explotar pronto.</PuncturedWillExplode>
   <!-- EN: Click to open research window -->
-  <ClickToOpenResearchTab>TODO</ClickToOpenResearchTab>
+  <ClickToOpenResearchTab>Haz clic para abrir la ventana de investigación</ClickToOpenResearchTab>
   <!-- EN: Target belongs to another faction. -->
   <TargetBelongsToNPCFaction>TODO</TargetBelongsToNPCFaction>
   <!-- EN: more -->
@@ -685,7 +685,7 @@
   <!-- EN: Example animals -->
   <PenExampleAnimals>Animales de ejemplo</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
-  <NoExteriorAccess>TODO</NoExteriorAccess>
+  <NoExteriorAccess>Sin acceso al exterior - Los animales no pueden ser movidos dentro ni fuera.</NoExteriorAccess>
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
@@ -715,7 +715,7 @@
   <!-- EN: River -->
   <River_Label>río</River_Label> 
   <!-- EN: Movement difficulty -->
-  <MovementDifficulty_Label>TODO</MovementDifficulty_Label>
+  <MovementDifficulty_Label>Dificultad de movimiento</MovementDifficulty_Label>
   <!-- EN: Pollution -->
   <Pollution_Label>Contaminación</Pollution_Label>
   <!-- EN: Filth -->
@@ -730,7 +730,7 @@
   <!-- EN: Status -->
   <CaravanStatus_Label>Estado</CaravanStatus_Label>
   <!-- EN: Time to destination -->
-  <CaravanTTD_Label>TODO</CaravanTTD_Label>
+  <CaravanTTD_Label>Tiempo hasta el destino</CaravanTTD_Label>
   
 
   <!-- Control -->
@@ -743,7 +743,7 @@
   <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{1_labelShort} no está reclutado.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
-  <ApparelPreventsShooting>TODO</ApparelPreventsShooting>
+  <ApparelPreventsShooting>{PAWN_nameDef} no puede utilizar armas armas de fuego debido a {PAWN_possessive} {APPAREL_label}.</ApparelPreventsShooting>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -955,7 +955,7 @@
   <!-- EN: stun -->
   <StunLower>aturdimiento</StunLower>
   <!-- EN: Slowed by damage -->
-  <SlowedByDamage>TODO</SlowedByDamage>
+  <SlowedByDamage>Lento por daño</SlowedByDamage>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
@@ -1039,11 +1039,11 @@
   <!-- EN: Ingredients -->
   <Ingredients>Ingredientes</Ingredients>
   <!-- EN: The ingredients used to make this meal. -->
-  <IngredientsDesc>TODO</IngredientsDesc>
+  <IngredientsDesc>Los ingredientes usados para hacer esta comida.</IngredientsDesc>
   <!-- EN: Dietary type -->
   <DietaryType>TODO</DietaryType>
   <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
-  <DietaryTypeDesc>TODO</DietaryTypeDesc>
+  <DietaryTypeDesc>El tipo de comida producido. Algunas personas tienen preferencias por tipos específicos de comida.</DietaryTypeDesc>
   <!-- EN: only stacks with similar meals -->
   <OnlyStacksWithCompatibleMeals>solo se almacena con comidas similares</OnlyStacksWithCompatibleMeals>
 
@@ -1747,13 +1747,13 @@
   <!-- EN: {0} of {1} -->
   <ThingOfSource>{0} de {1}</ThingOfSource>
   <!-- EN: {0} of {1} and {2} -->
-  <ThingOfTwoSources>TODO</ThingOfTwoSources>
+  <ThingOfTwoSources>{0} de {1} y {2}</ThingOfTwoSources>
 
   <!-- Gas types -->
   <!-- EN: blind smoke -->
-  <BlindSmoke>TODO</BlindSmoke>
+  <BlindSmoke>humo cegante</BlindSmoke>
   <!-- EN: tox gas -->
-  <ToxGas>TODO</ToxGas>
+  <ToxGas>gas tóxico</ToxGas>
   <!-- EN: rot stink -->
   <RotStink>TODO</RotStink>
 
@@ -1769,15 +1769,15 @@
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} está list{0_gender ? o : a} para usar {1}.</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
-  <AbilityDisabledInRitual>TODO</AbilityDisabledInRitual>
+  <AbilityDisabledInRitual>{0_labelShort} está participando en {1}.</AbilityDisabledInRitual>
   <!-- EN: Charges -->
-  <Charges>TODO</Charges>
+  <Charges>Cargos</Charges>
 
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInMentalState>TODO</PawnIsInMentalState>
+  <PawnIsInMentalState>{0_nameDef} está en un estado mental agresivo.</PawnIsInMentalState>
 
   <!-- EN: Disabled work -->
-  <DisabledWorkLabel>TODO</DisabledWorkLabel>
+  <DisabledWorkLabel>Trabajo para discapacitados</DisabledWorkLabel>
 
   <!-- Glowers -->
   <!-- EN: change color -->
@@ -1789,10 +1789,10 @@
 
   <!-- Shields -->
   <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
-  <ShieldPersonalTip>TODO</ShieldPersonalTip>
+  <ShieldPersonalTip>Un escudo personal que intentará detener los proyectiles entrantes. Previene que el portador dispare, se apagará instantáneamente si es alcanzado por un EMP.</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
-  <UnrecruitableDesc>TODO</UnrecruitableDesc>
+  <UnrecruitableDesc>{PAWN_nameDef} es muy leal a {PAWN_possessive} hogar, {PAWN_pronoun} se negará a ser reclutado si es tomado como prisionero.</UnrecruitableDesc>
 
   <!-- EN: Random -->
   <Random>Aleatorio</Random>
