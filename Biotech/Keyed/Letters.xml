@@ -26,7 +26,7 @@
 
   <!-- EN: Summon {LEADER_label} available -->
   <LetterLabelCommsConsoleSpawned>Invocación de {LEADER_label} disponible</LetterLabelCommsConsoleSpawned>
-  <!-- EN: A mechanitor can use the {PARENT_label} to summon a {LEADER_label} mechanoid. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
   <LetterCommsConsoleSpawned>Un mecanitor puede utilizar la {PARENT_label} para invocar a  un antiguo meca {LEADER_label}. Si derrotas al {LEADER_label}, este dejará caer los siguientes objetos:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
@@ -42,6 +42,12 @@
   <LetterLabelMechanitorCasketFound>Se ha encontrado el sarcófago de un mecanitor</LetterLabelMechanitorCasketFound>
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
   <LetterMechanitorCasketFound>¡Has descubierto un sarcófago de criptosueño de un mecanitor!\n\nÁbrelo para encontrarlo dentro.</LetterMechanitorCasketFound>
+  
+  <!-- Pawns lost because map closed (including mechs) -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>TODO</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <!-- EN: The following people, animals and mechanoids have been abandoned -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>TODO</LetterPawnsLostIncMechsBecauseMapClosed_Home>
   
 
   <!-- Children -->
@@ -108,10 +114,14 @@
   <Immediately>inmediatamente</Immediately>
   <!-- EN: within -->
   <Within>dentro</Within>
-  <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
-  <LetterPartNameBaby>Al bebé se le ha dado el nombre temporal {0_nameFull}. Puedes cambiarlo hasta {1} después del nacimiento.</LetterPartNameBaby>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <LetterPartTempBabyName>TODO</LetterPartTempBabyName>
+  <!-- EN: You can change it until {0} after birth. -->
+  <LetterPartLiveBirthNameDeadline>TODO</LetterPartLiveBirthNameDeadline>
+  <!-- EN: Would you like to give the baby another name? -->
+  <LetterPartStillbirthNameDeadline>TODO</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>Al bebé se le ha dado el nombre temporal {0_nameFull}. Puedes cambiarlo siempre que el bebé tenga menos de {1} años.</LetterPartNameBabyAdopt> 
+  <LetterPartNameBabyAdopt>Al bebé se le ha dado el nombre temporal {0_nameFull}. Puedes cambiarlo siempre que el bebé tenga menos de {1} años.</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>Momento de crecimiento para {PAWNNAME}</BirthdayGrowthMoment>
@@ -134,7 +144,11 @@
   <BirthdayPassionArchive>La pasión se incrementó para {0}.</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>El rasgo {0} fue ganado.</BirthdayTraitArchive>
-  
+  <!-- EN: No trait -->
+  <BirthdayNoTraitChoice>TODO</BirthdayNoTraitChoice>
+  <!-- EN: {0} does not gain a trait. -->
+  <BirthdayNoTraitChoiceTooltip>TODO</BirthdayNoTraitChoiceTooltip>
+
   <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>Toma de decisiones</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
@@ -164,8 +178,16 @@
   <XenogermOrderedImplantedMedicineNeeded>\n\nNo tienes suficiente medicamento para implantar el xenogerma. La implantación no puede comenzar hasta que se obtenga el medicamento {MEDICINENEED}.</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>TODO</LetterLabelInvoluntaryDeathrest>
-  <!-- EN: {PAWN_nameDef} has fallen into deathrest. -->
-  <LetterTextInvoluntaryDeathrest>TODO</LetterTextInvoluntaryDeathrest>
+  <!-- EN: Regeneration coma -->
+  <LetterLabelRegenerationComa>TODO</LetterLabelRegenerationComa>
+  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
+  <LetterTextInvoluntaryDeathrestOrComa>TODO</LetterTextInvoluntaryDeathrestOrComa>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
+  <LetterTextDeathrest>TODO</LetterTextDeathrest>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextRegenerationComa>TODO</LetterTextRegenerationComa>
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>TODO</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>Daño letal recibido.</DeathrestLethalDamage>
 
@@ -186,5 +208,13 @@
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
   <LetterPsychicBondCreated>Buscando instintivamente una pareja, {BONDPAWN_nameDef} ha formado una relación romántica psíquica con {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} se beneficiará psicológicamente de la conexión con {BONDPAWN_nameDef}, pero si se separan en diferentes celdas del mundo, ambos sufrirán estrés psíquico. Si uno muere, el otro se volverá loco.</LetterPsychicBondCreated>
+
+  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreatedLovinLabel>TODO</LetterPsychicBondCreatedLovinLabel>
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>TODO</LetterPsychicBondCreatedLovinText>
+
+  <!-- UNUSED -->
+  <LetterPartNameBaby>Al bebé se le ha dado el nombre temporal {0_nameFull}. Puedes cambiarlo hasta {1} después del nacimiento.</LetterPartNameBaby>
 
 </LanguageData>
