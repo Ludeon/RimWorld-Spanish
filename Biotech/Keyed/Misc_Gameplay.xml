@@ -25,6 +25,8 @@
   <CaravanMech>1 meca</CaravanMech>
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0} mecas</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>TODO</BossWithApparel>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -113,6 +115,8 @@
   <WaitingFor>Esperando</WaitingFor>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>Descontrolado</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>TODO</BossgroupIncoming>
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
@@ -165,6 +169,8 @@
   <NextDeathrestNeed>{PAWN_nameDef} deberá tomar un descanso mortal de {DURATION} para evitar el cansancio.</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef} deberá tomar un descanso mortal pronto para evitar el cansancio.</PawnShouldDeathrestNow>
+  <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
+  <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>Consumir hemogen a continuación</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -271,6 +277,10 @@
   <EjectAllDesc>Tirar todos los packs de genes en el suelo.</EjectAllDesc>
   <!-- EN: Genepacks stored -->
   <GenepacksStored>Packs de genes almacenados</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>TODO</GenepackAutoLoad>
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>TODO</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
   <ForcedTraits>Rasgos forzados</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -330,7 +340,7 @@
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
   <ConfirmRemoveGenepack>¿Realmente quieres eyectar a {0}? Este será inmediatamente eyectado al suelo.</ConfirmRemoveGenepack> 
   <!-- EN: Missing required research -->
-  <MissingRequiredResearch>Falta de investigación necesaria</MissingRequiredResearch>
+  <MissingRequiredResearch>Falta investigación necesaria</MissingRequiredResearch>
   <!-- EN: No genepacks available in nearby gene banks. -->
   <NoGenepacksAvailable>No hay paquetes de genes disponibles en ningún banco cercano.</NoGenepacksAvailable> 
   <!-- EN: Allow this genepack to be loaded into this container. -->
@@ -389,7 +399,7 @@
   <WaitingForPawn>Esperando por {PAWN_nameDef}.</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>Extrayendo genes de {PAWN_nameDef}.</ExtractingXenogermFrom>
-  <!-- EN: Extraction paused: No power -->
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
   <ExtractionPausedNoPower>Extracción pausada: No hay energía</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>{CHEMICAL_label} ingerido por ultima vez hace {DURATION}.</LastIngestedDurationAgo>
@@ -599,6 +609,8 @@
   <SubcoreScannerWaitingForOccupant>Esperando ocupante</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>Esperando ingredientes</SubcoreScannerWaitingForIngredients>
+  <!-- EN: The following ingredients must be loaded first -->
+  <SubcoreScannerWaitingForIngredientsDesc>TODO</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>Tiene {0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -693,6 +705,8 @@
   <SurgeryDisableReasonOvumExtracted>ovulo extraído recientemente</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize -->
   <Fertilize>Fertilizar</Fertilize>
+  <!-- EN: Fertilize {0_label} -->
+  <FertilizeThing>TODO</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>No se puede fertilizar</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->

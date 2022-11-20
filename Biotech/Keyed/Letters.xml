@@ -26,7 +26,7 @@
 
   <!-- EN: Summon {LEADER_label} available -->
   <LetterLabelCommsConsoleSpawned>Invocación de {LEADER_label} disponible</LetterLabelCommsConsoleSpawned>
-  <!-- EN: A mechanitor can use the {PARENT_label} to summon a {LEADER_label} mechanoid. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
   <LetterCommsConsoleSpawned>Un mecanitor puede utilizar la {PARENT_label} para invocar a  un antiguo meca {LEADER_label}. Si derrotas al {LEADER_label}, este dejará caer los siguientes objetos:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
@@ -35,13 +35,19 @@
   <LetterBossgroupCallerUnlocked>Ahora puedes construir una {PARENT_label} el cual un mecanitor puede utilizar para invocar a un {LEADER_label}. Si derrotas al {LEADER_label}, dejará caer los siguientes objetos:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
   <!-- EN: {0_nameDef}'s mechlink available -->
-  <LetterLabelMechanitorCasketOpened>El enlace del meca de {0_nombreDef} está disponible</LetterLabelMechanitorCasketOpened>
+  <LetterLabelMechanitorCasketOpened>El enlace del meca de {0_nameDef} está disponible</LetterLabelMechanitorCasketOpened>
   <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {0_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
   <LetterMechanitorCasketOpened>Has encontrado el cadáver de un antiguo meca!\n\nExtrae  {0_possessive} enlace meca seleccionando un colono y haciendo clic con el botón derecho en el cadáver.</LetterMechanitorCasketOpened>
   <!-- EN: Mechanitor casket found -->
   <LetterLabelMechanitorCasketFound>Se ha encontrado el sarcófago de un mecanitor</LetterLabelMechanitorCasketFound>
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
   <LetterMechanitorCasketFound>¡Has descubierto un sarcófago de criptosueño de un mecanitor!\n\nÁbrelo para encontrarlo dentro.</LetterMechanitorCasketFound>
+  
+  <!-- Pawns lost because map closed (including mechs) -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>TODO</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <!-- EN: The following people, animals and mechanoids have been abandoned -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>TODO</LetterPawnsLostIncMechsBecauseMapClosed_Home>
   
 
   <!-- Children -->
@@ -50,7 +56,7 @@
   <!-- EN: {0_nameDef} became an adult -->
   <LetterLabelBecameAdult>{0_nameDef} se convirtió en un adulto</LetterLabelBecameAdult>
   <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
-  <LetterBecameChild>¡El bebé {0_nombreDef} ha crecido y se ha convertido en un{PAWN_gender ? o : a} niñ{PAWN_gender ? o : a}! {0_pronoun} ya es lo suficientemente mayor como para hacer el siguiente trabajo:</LetterBecameChild>
+  <LetterBecameChild>¡El bebé {0_nameDef} ha crecido y se ha convertido en un{PAWN_gender ? o : a} niñ{PAWN_gender ? o : a}! {0_pronoun} ya es lo suficientemente mayor como para hacer el siguiente trabajo:</LetterBecameChild>
   <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
   <LetterBecameChildChanges>Los niños pueden hacer varios tipos de trabajo. A medida que crecen, son capaces de realizar más tipos de trabajo.\n\nTambién realizan diversas actividades recreativas específicas para niños.\n\nLos niños necesitan llevar ropa especial de tamaño infantil.</LetterBecameChildChanges>
   <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
@@ -78,15 +84,15 @@
   <!-- EN: {0} vat birth -->
   <LetterVatBirth>{0} nacimiento de tina</LetterVatBirth>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
-  <LetterVatHealthyBaby>¡El embrión de {0_nombreDef} y {1_nombreDef} ha terminado de gestarse en una tina de crecimiento y se ha convertido en un bebé sano!</LetterVatHealthyBaby>
+  <LetterVatHealthyBaby>¡El embrión de {0_nameDef} y {1_nameDef} ha terminado de gestarse en una tina de crecimiento y se ha convertido en un bebé sano!</LetterVatHealthyBaby>
   <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
   <LetterVatHealthyBabyNoParents>Un embrión ha terminado de gestarse en una tina de crecimiento y se ha convertido en un bebé sano.</LetterVatHealthyBabyNoParents>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
-  <LetterVatInfantIllness>El embrión de {0_nombreDef} y {1_nombreDef} ha terminado de gestarse en una tina de crecimiento y se ha convertido en un bebé. Por desgracia, el bebé está enfermo.</LetterVatInfantIllness>
+  <LetterVatInfantIllness>El embrión de {0_nameDef} y {1_nameDef} ha terminado de gestarse en una tina de crecimiento y se ha convertido en un bebé. Por desgracia, el bebé está enfermo.</LetterVatInfantIllness>
   <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
   <LetterVatInfantIllnessNoParents>Un embrión ha terminado de gestarse en una tina de crecimiento y se ha convertido en un bebé. Por desgracia, el bebé está enfermo.</LetterVatInfantIllnessNoParents>
   <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
-  <LetterVatStillborn>El bebé formado en una tina de crecimiento a partir del embrión de {0_nombreDef} y {1_nombreDef} nació muerto.</LetterVatStillborn>
+  <LetterVatStillborn>El bebé formado en una tina de crecimiento a partir del embrión de {0_nameDef} y {1_nameDef} nació muerto.</LetterVatStillborn>
   <!-- EN: The baby formed in a growth vat was stillborn. -->
   <LetterVatSillbornNoParents>El bebé formado en una tina de crecimiento nació muerto.</LetterVatSillbornNoParents>
   <!-- EN: {0_labelShort} in labor! -->
@@ -101,30 +107,34 @@
   <InbredBabyBorn>El bebé muestra signos de anomalías genéticas debido a la endogamia.</InbredBabyBorn>
 
   <!-- EN: {0_nameDef} has already been named. -->
-  <BabyAlreadyNamed>{0_nombreDef} ya ha sido nombrado.</BabyAlreadyNamed>
+  <BabyAlreadyNamed>{0_nameDef} ya ha sido nombrado.</BabyAlreadyNamed>
   <!-- EN: name baby -->
   <NameBaby>nombre del bebé</NameBaby>
   <!-- EN: immediately -->
   <Immediately>inmediatamente</Immediately>
   <!-- EN: within -->
   <Within>dentro</Within>
-  <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
-  <LetterPartNameBaby>Al bebé se le ha dado el nombre temporal {0_nameFull}. Puedes cambiarlo hasta {1} después del nacimiento.</LetterPartNameBaby>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <LetterPartTempBabyName>TODO</LetterPartTempBabyName>
+  <!-- EN: You can change it until {0} after birth. -->
+  <LetterPartLiveBirthNameDeadline>TODO</LetterPartLiveBirthNameDeadline>
+  <!-- EN: Would you like to give the baby another name? -->
+  <LetterPartStillbirthNameDeadline>TODO</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>Al bebé se le ha dado el nombre temporal {0_nameFull}. Puedes cambiarlo siempre que el bebé tenga menos de {1} años.</LetterPartNameBabyAdopt> 
+  <LetterPartNameBabyAdopt>Al bebé se le ha dado el nombre temporal {0_nameFull}. Puedes cambiarlo siempre que el bebé tenga menos de {1} años.</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>Momento de crecimiento para {PAWNNAME}</BirthdayGrowthMoment>
   <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
   <BirthdayBiologicalGrowthMoment>¡{0_nameFull} ha alcanzado la edad biológica de {1} y ha experimentado un momento de crecimiento!</BirthdayBiologicalGrowthMoment>
   <!-- EN: {0_nameDef} is now old enough to do the following work -->
-  <BirthdayBiologicalAgeWorkTypes>{0_nombreDef} es ahora lo suficientemente mayor como para hacer el siguiente trabajo</BirthdayBiologicalAgeWorkTypes>
+  <BirthdayBiologicalAgeWorkTypes>{0_nameDef} es ahora lo suficientemente mayor como para hacer el siguiente trabajo</BirthdayBiologicalAgeWorkTypes>
   <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassion>Elige 1 habilidad para que {0_nombreDef} aumente la pasión de {0_possessive} para</BirthdayPickPassion>
+  <BirthdayPickPassion>Elige 1 habilidad para que {0_nameDef} aumente la pasión de {0_possessive} para</BirthdayPickPassion>
   <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassions>Elige {1} habilidades para {0_nombreDef} para aumentar {0_possessive} la pasión por</BirthdayPickPassions>
+  <BirthdayPickPassions>Elige {1} habilidades para {0_nameDef} para aumentar {0_possessive} la pasión por</BirthdayPickPassions>
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
-  <BirthdayPickTrait>Elige un rasgo para que {0_nombreDef} gane</BirthdayPickTrait>
+  <BirthdayPickTrait>Elige un rasgo para que {0_nameDef} obtenga</BirthdayPickTrait>
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
   <BirthdayGrowthTier>Cuando se produjo este momento de crecimiento, {0_nameDef} estaba en el nivel de crecimiento {1}. Los niños con niveles de crecimiento más altos tienen más opciones de rasgos y pasiones para elegir, y más pasiones en general. Satisfacer la necesidad de aprendizaje ayuda a los niños a ganar niveles más rápidamente. Los niveles de crecimiento se reinician después de cada cierto tiempo.</BirthdayGrowthTier>
   <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
@@ -134,7 +144,11 @@
   <BirthdayPassionArchive>La pasión se incrementó para {0}.</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>El rasgo {0} fue ganado.</BirthdayTraitArchive>
-  
+  <!-- EN: No trait -->
+  <BirthdayNoTraitChoice>TODO</BirthdayNoTraitChoice>
+  <!-- EN: {0} does not gain a trait. -->
+  <BirthdayNoTraitChoiceTooltip>TODO</BirthdayNoTraitChoiceTooltip>
+
   <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>Toma de decisiones</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
@@ -164,8 +178,16 @@
   <XenogermOrderedImplantedMedicineNeeded>\n\nNo tienes suficiente medicamento para implantar el xenogerma. La implantación no puede comenzar hasta que se obtenga el medicamento {MEDICINENEED}.</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>TODO</LetterLabelInvoluntaryDeathrest>
-  <!-- EN: {PAWN_nameDef} has fallen into deathrest. -->
-  <LetterTextInvoluntaryDeathrest>TODO</LetterTextInvoluntaryDeathrest>
+  <!-- EN: Regeneration coma -->
+  <LetterLabelRegenerationComa>TODO</LetterLabelRegenerationComa>
+  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
+  <LetterTextInvoluntaryDeathrestOrComa>TODO</LetterTextInvoluntaryDeathrestOrComa>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
+  <LetterTextDeathrest>TODO</LetterTextDeathrest>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextRegenerationComa>TODO</LetterTextRegenerationComa>
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>TODO</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>Daño letal recibido.</DeathrestLethalDamage>
 
@@ -185,6 +207,14 @@
   <RefugeePodCrashBabyHasParent>El cuerpo del padre fallecido de {PAWN_nameDef} también está contenido en la cápsula de transporte.</RefugeePodCrashBabyHasParent>
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreated>Buscando instintivamente una pareja, {BONDPAWN_nameDef} ha formado una relación romántica psíquica con {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} se beneficiará psicológicamente de la conexión con {BONDPAWN_nameDef}, pero si se separan en diferentes celdas del mundo, ambos sufrirán estrés psíquico. Si uno muere, el otro se volverá loco.as formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness.</LetterPsychicBondCreated>
+  <LetterPsychicBondCreated>Buscando instintivamente una pareja, {BONDPAWN_nameDef} ha formado una relación romántica psíquica con {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} se beneficiará psicológicamente de la conexión con {BONDPAWN_nameDef}, pero si se separan en diferentes celdas del mundo, ambos sufrirán estrés psíquico. Si uno muere, el otro se volverá loco.</LetterPsychicBondCreated>
+
+  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreatedLovinLabel>TODO</LetterPsychicBondCreatedLovinLabel>
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>TODO</LetterPsychicBondCreatedLovinText>
+
+  <!-- UNUSED -->
+  <LetterPartNameBaby>Al bebé se le ha dado el nombre temporal {0_nameFull}. Puedes cambiarlo hasta {1} después del nacimiento.</LetterPartNameBaby>
 
 </LanguageData>
