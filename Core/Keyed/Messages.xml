@@ -116,9 +116,9 @@
   <!-- EN: Must designate abandoned claimable structures or items. -->
   <MessageMustDesignateClaimable>Debes designar estructuras abandonadas.</MessageMustDesignateClaimable>
   <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
-  <MessageMustDesignatePaintableBuildings>TODO</MessageMustDesignatePaintableBuildings>
+  <MessageMustDesignatePaintableBuildings>Se deben designar construcciones pintables que no estén pintadas {0_label}.</MessageMustDesignatePaintableBuildings>
   <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
-  <MessageMustDesignatePaintableFloors>TODO</MessageMustDesignatePaintableFloors>
+  <MessageMustDesignatePaintableFloors>Se deben designar suelos pintables que no estén ya pintados {0_label}.</MessageMustDesignatePaintableFloors>
   <!-- EN: Must designate painted buildings or floors. -->
   <MessageMustDesignatePainted>Debes designar construcciones o suelos ya pintados.</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
@@ -140,9 +140,9 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Debe designar objetos prohibidos.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>TODO</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotClaimWhenThreatsAreNear>No se puede reclamar {CLAIMABLE_labelShort} cuando hay {THREAT_factionPawnsPlural} capaces de pelear cerca.</MessageCannotClaimWhenThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotAdoptWhileThreatsAreNear>TODO</MessageCannotAdoptWhileThreatsAreNear>
+  <MessageCannotAdoptWhileThreatsAreNear>No se puede adoptar {CLAIMABLE_labelShort} cuando hay {THREAT_factionPawnsPlural} capaces de pelear cerca.</MessageCannotAdoptWhileThreatsAreNear>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>¡{1_labelShort} se niega a ser arrestado(a)!</MessageRefusedArrest>
@@ -152,7 +152,7 @@
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>No hay camas para animales disponibles.</MessageNoAnimalBeds>
   <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
-  <MessageWarningNoMedicineForRestriction>TODO</MessageWarningNoMedicineForRestriction>
+  <MessageWarningNoMedicineForRestriction>Alerta: Las restricciones de medicina de {PAWN_nameDef} ({RESTRICTIONLABEL}) impiden hacer esta operación. Considera cambiar sus restricciones de medicina.</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort} ha muerto. Causa: {1}.</PawnDiedBecauseOf>
@@ -653,7 +653,7 @@
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} es un prisionero</MessagePrisonerCannotEquipWeapon>
 
   <!-- EN: Warning: {0_nameDef}'s beliefs oppose {1} work. {0_pronoun} may become unhappy. -->
-  <MessageIdeoOpposedWorkTypeSelected>TODO</MessageIdeoOpposedWorkTypeSelected>
+  <MessageIdeoOpposedWorkTypeSelected>Las creencias de {0_nameDef} se oponen al trabajo de {1}. {0_pronoun} estará infeliz.</MessageIdeoOpposedWorkTypeSelected>
 
   <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
   <MessageBedLostAssignment>{0} ya no está asignado a {1_nameDef}.</MessageBedLostAssignment>
@@ -732,9 +732,9 @@
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>debe ser colono para ser el rol {0}.</MessageRitualRoleMustBeColonist>
   <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
-  <MessageRitualWontAttendExtremeTemperature>TODO</MessageRitualWontAttendExtremeTemperature>
+  <MessageRitualWontAttendExtremeTemperature>{0_labeShort} no asistirá dada la temperatura extrema en el área del ritual.</MessageRitualWontAttendExtremeTemperature>
   <!-- EN: must be colonist and not enslaved for the {0} role. -->
-  <MessageRitualRoleMustBeFreeColonist>TODO</MessageRitualRoleMustBeFreeColonist>
+  <MessageRitualRoleMustBeFreeColonist>debe ser un colono no esclavizado para el rol {0}.</MessageRitualRoleMustBeFreeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
   <MessageRitualRoleMustHaveLargerBodySize>{0} debe tener un animal con un tamaño de cuerpo mínimo de {1}</MessageRitualRoleMustHaveLargerBodySize>
   <!-- EN: {0_labelShort} is in a mental state. -->
