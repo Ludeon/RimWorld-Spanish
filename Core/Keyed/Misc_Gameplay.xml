@@ -25,9 +25,9 @@
   <!-- EN: Assigned colonist -->
   <AssignedColonist>Colono asignado</AssignedColonist>
   <!-- EN: Uncomfortable room temperature -->
-  <BedUncomfortableTemperature>TODO</BedUncomfortableTemperature>
+  <BedUncomfortableTemperature>Temperatura ambiente incómoda</BedUncomfortableTemperature>
   <!-- EN: Unsafe room temperature -->
-  <BedUnsafeTemperature>TODO</BedUnsafeTemperature>
+  <BedUnsafeTemperature>Temperatura ambiente insegura</BedUnsafeTemperature>
   <!-- EN: Died on the {0} -->
   <DiedOn>Murió en el {0}</DiedOn>
   <!-- EN: Nobody -->
@@ -343,7 +343,7 @@
   <!-- EN: Requires -->
   <Requires>Necesita</Requires>
   <!-- EN: {0}x any of -->
-  <NumAnyOf>TODO</NumAnyOf>
+  <NumAnyOf>x{0} de</NumAnyOf>
   <!-- EN: {0} of {1} -->
   <Relationship>{0} de {1}</Relationship>
   <!-- EN: Prisoner -->
@@ -699,7 +699,7 @@
   <!-- EN: Snow -->
   <Snow_Label>Nieve</Snow_Label>
   <!-- EN: Walk speed -->
-  <WalkSpeed_Label>TODO</WalkSpeed_Label>
+  <WalkSpeed_Label>Velocidad de marcha</WalkSpeed_Label>
   <!-- EN: Fertility -->
   <Fertility_Label>Fertilidad</Fertility_Label>
   <!-- EN: Temperature -->
@@ -779,13 +779,13 @@
   <!-- EN: Order activation -->
   <OrderActivation>Ordenar activación</OrderActivation>
   <!-- EN: Order a colonist to activate {THING_definite}. -->
-  <OrderActivationDesc>TODO</OrderActivationDesc>
+  <OrderActivationDesc>Ordena a un colono para activar {THING_definite}.</OrderActivationDesc>
   <!-- EN: Must be activated by a colonist. -->
   <MustBeActivatedByColonist>Debe ser activado por un colono</MustBeActivatedByColonist>
   <!-- EN: No nearby fire -->
-  <NoNearbyFire>TODO</NoNearbyFire>
+  <NoNearbyFire>No hay fuego cercano</NoNearbyFire>
   <!-- EN: No nearby fire. No fuel was used. -->
-  <NoNearbyFireNoFuelUsed>TODO</NoNearbyFireNoFuelUsed>
+  <NoNearbyFireNoFuelUsed>No hay fuego cercano. La gasolina no fue utilizada.</NoNearbyFireNoFuelUsed>
   <!-- EN: Choose who should activate this. -->
   <ChooseWhoShouldActivate>Elige quién debe activar esto.</ChooseWhoShouldActivate>
   <!-- EN: No fuel -->
@@ -835,9 +835,9 @@
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>desenterrando un cadáver.</ReportDiggingUpCorpse>
   <!-- EN: being carried by {0_labelShort}. -->
-  <CarriedBy>TODO</CarriedBy> 
+  <CarriedBy>siendo cargado por {0_labelShort}.</CarriedBy> 
   <!-- EN: inside {0_labelShort}. -->
-  <InContainer>TODO</InContainer> 
+  <InContainer>dentro de {0_labelShort}</InContainer> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -1069,7 +1069,7 @@
   <!-- EN: Mature. -->
   <Mature>Madura.</Mature>
   <!-- EN: Average plant age -->
-  <AveragePlantAge>TODO</AveragePlantAge>
+  <AveragePlantAge>Edad promedio de la planta</AveragePlantAge>
   <!-- EN: Oldest plant age -->
   <OldestPlantAge>TODO</OldestPlantAge>
   <!-- EN: Growing period -->
@@ -1447,11 +1447,11 @@
   <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>Botón derecho del ratón: Agregar/eliminar paradas.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <!-- EN: Left trigger button: Add/remove waypoints. -->
-  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>TODO</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>Gatillo izquierdo: Añadir/eliminar paradas.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC: Salir del modo de planificación.</RoutePlannerPressEscapeToExit>
   <!-- EN: {Key:Cancel}: Exit planning mode. -->
-  <RoutePlannerPressEscapeToExitController>TODO</RoutePlannerPressEscapeToExitController>
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: Salir del modo de planificación.</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Volver al cuadro de formación de la caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
   <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
@@ -1721,7 +1721,7 @@
   <!-- EN: Loved one present -->
   <RitualOutcomeLovedOnePresentLabel>TODO</RitualOutcomeLovedOnePresentLabel>
   <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
-  <RitualOutcomeLovedOnePresentTip>TODO</RitualOutcomeLovedOnePresentTip>
+  <RitualOutcomeLovedOnePresentTip>Cualquier persona que {PAWN_labelShort} considere su amigo o más.</RitualOutcomeLovedOnePresentTip>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>Cualquiera de estas</RitualOutcomeLabelAnyOfThese>
@@ -1787,7 +1787,7 @@
   <!-- EN: Change the color of the light. -->
   <GlowerChangeColorDescription>Cambiar el color de esta luz.</GlowerChangeColorDescription>
   <!-- EN: You must research {0} to change light color. -->
-  <GlowerChangeColorNeedsResearch>TODO</GlowerChangeColorNeedsResearch>
+  <GlowerChangeColorNeedsResearch>Deberás investigar {0} para cambiar el color de la luz.</GlowerChangeColorNeedsResearch>
 
   <!-- Shields -->
   <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
