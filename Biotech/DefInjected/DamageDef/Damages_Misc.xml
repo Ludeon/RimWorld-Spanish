@@ -7,9 +7,9 @@
   <AcidBurn.deathMessage>{0} se ha quemado hasta morir.</AcidBurn.deathMessage>
   
   <!-- EN: beam -->
-  <Beam.label>TODO/Beam.label>
+  <Beam.label>haz/Beam.label>
   <!-- EN: {0} has been beamed to death. -->
-  <Beam.deathMessage>{0} ha sido irradiado hasta morir.</Beam.deathMessage>
+  <Beam.deathMessage>{0} ha sido irradiad{0_gender ? o : a} hasta morir.</Beam.deathMessage>
   
   <!-- EN: tox gas -->
   <ToxGas.label>gas tóxico</ToxGas.label>
@@ -19,6 +19,6 @@
   <!-- EN: vaporize -->
   <Vaporize.label>vaporizar</Vaporize.label>
   <!-- EN: {0} has been vaporized by extreme heat. -->
-  <Vaporize.deathMessage>{0} fue vaporizado por el calor extremo.</Vaporize.deathMessage>
+  <Vaporize.deathMessage>{0} fue vaporizad{0_gender ? o : a} por el calor extremo.</Vaporize.deathMessage>
   
 </LanguageData>
