@@ -165,6 +165,234 @@
     <li>enemyNameSingular->woman with no eyes</li>
     <li>enemyNameSingular->man with a hook for a hand</li>
   -->
-  <GrowthMomentFlavor.rulePack.rulesStrings>TODO</GrowthMomentFlavor.rulePack.rulesStrings>
+  <GrowthMomentFlavor.rulePack.rulesStrings>
+    <li>r_root->[firstSentence] [secondSentence]</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] ha demostrado un excelente [nounGrowth] y tiene un [adjGood] [nounAttitudeGood] para [nounFuture].</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] ha desarrollado una serie de nuevas pasiones al [situationLearning].</li>
+    <li>firstSentence(tierSection==4)->Por [situationLearning], [PAWN_pronoun] ha adquirido una serie de nuevas pasiones.</li>
+    <li>firstSentence(tierSection==4)->Durante el último año, [PAWN_pronoun] ha mostrado un excelente [nounGrowth].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] quiere pasar más tiempo para [situationLearning] y [situationFun].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] disfruta [situationLearning] pero sobre todo ama [situationFun].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] disfruta [situationLearning] y sueña con [situationAspirational].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] espera que al [situationLearning], pueda terminar por [situationAspirational].</li>
+    <li>firstSentence(tierSection==3)->Recientemente, [PAWN_pronoun] ha demostrado un [adjGood] [nounAttitudeGood] para [nounFuture].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] se siente con [nounAttitudeGood] para [nounFuture].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] se muestra con interés por una serie de nuevas actividades, entre ellas [situationLearning].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] ha mostrado un excelente [nounGrowth].</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] agradece que rara vez se sienta [feelingBad] y se interesa en pasar más tiempo en [situationFun].</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] gusta de [situationLearning] pero es más feliz mientras se pone a [situationFun].</li>
+    <li>secondSentence(tierSection==3)->Cuando [PAWN_nameDef] sea mayor, quiere pasar su tiempo [taskWorkGerund].</li>
+    <li>secondSentence(tierSection==3)->Sobre todo, a [PAWN_nameDef] le encanta [situationFun].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] ha mostrado un [nounGrowth] y quiere mantenerlo [situationLearningGerund].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] tiene un [nounAttitudeGood] por saber más.</li>
+    <li>firstSentence(tierSection==2)->Emocionado(a) por [nounFuture], a [PAWN_pronoun] le gustaría pasar tiempo [situationLearningGerund].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] ha desarrollado una nueva pasión por [situationLearning].</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] disfruta [situationFun].</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] espera poder pasar más tiempo sin crecer para [situationFun].</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] piensa que [taskWork] es aburrido.</li>
+    <li>secondSentence(tierSection==2)->Concretamente, [PAWN_nameDef] quisiera centrarse en [situationLearning].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] ha mostrado poco de [nounGrowth] y tiene pocas expectativas para [nounFuture].</li>
+    <li>firstSentence(tierSection==1)->Aunque es optimista respecto a [nounFuture], [PAWN_pronoun] ha mostrado poco [nounGrowth].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] espera que las cosas mejoren en [nounFuture].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] ha mostrado un mínimo de [nounGrowth], quejándose de que [situationLearning] es aburrido.</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] desea tener más tiempo para [situationFun] pero está muy ocupado(a) preocupándose por [situationBad].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] a menudo se siente [feelingBad] mientras [situationFunVar].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] tiene un extraño temor de que por [situationFun] y que acabará [situationBadGerund].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] tiene pesadillas periódicas sobre [situationBad].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] a menudo quiere estar [situationLearningGerund] pero rara vez tiene la oportunidad de hacerlo.</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] no ha mostrado [nounGrowth].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] no ha conseguido desarrollar nuevas pasiones y tiene poco [nounAttitudeGood] por [nounFuture].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] ha mostrado poco interés en aprender y sobre todo no le gusta [situationLearning].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] solo le interesa [situationFun].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] se ve constantemente frenado(a) por el miedo a [situationBad].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] vive con el temor de resultar gravemente herido(a) como consecuencia de [situationBad].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] tiene una pesadilla recurrente en la que [PAWN_pronoun] está [situationFunGerund] lo que resulta en imaginarse [situationBadGerund].</li>
+    <li>adjGood->gran</li>
+    <li>adjGood->insaciable</li>
+    <li>adjGood->intenso</li>
+    <li>adjGood->animado</li>
+    <li>adjGood->genuino</li>
+    <li>adjGood->ilimitado</li>
+    <li>adjGood->inmenso</li>
+    <li>adjGood->loable</li>
+    <li>adjGood->interminable</li>
+    <li>adjGood->puro</li>
+    <li>adjGood->impresionante</li>
+    <li>feelingBad->solo(a)</li>
+    <li>feelingBad->temeroso(a)</li>
+    <li>feelingBad->herido(a)</li>
+    <li>feelingBad->muy enfermo(a)</li>
+    <li>feelingBad->enfermo(a)</li>
+    <li>nounAttitudeGood->entusiasmo</li>
+    <li>nounAttitudeGood->fervor</li>
+    <li>nounAttitudeGood->optimismo</li>
+    <li>nounFuture->las próximas semanas</li>
+    <li>nounFuture->los próximos meses</li>
+    <li>nounFuture->el próximo año</li>
+    <li>nounFuture->el futuro</li>
+    <li>nounGrowth->crecimiento personal</li>
+    <li>nounGrowth->desarrollo personal</li>
+    <li>situationFun->explorar la naturaleza con [friendNamePlural]</li>
+    <li>situationFun->jugar [Game]</li>
+    <li>situationFun->jugar [Game] con amigos</li>
+    <li>situationFun->jugar con un [friendNameSingular]</li>
+    <li>situationFun->charlar con un [friendNameSingular]</li>
+    <li>situationFun->charlar sobre [friendNamePlural]</li>
+    <li>situationFun->hacer amigos</li>
+    <li>situationFun->estar al aire libre bajo el sol</li>
+    <li>situationFun->observar el cielo nocturno en busca de meteoritos</li>
+    <li>situationFun->hablar en la radio sobre [topicLearning]</li>
+    <li>situationFun->charlar en la radio con forasteros</li>
+    <li>situationFun->dibujar imágenes de [friendNamePlural] en el suelo</li>
+    <li>situationFun->soñar despierto(a) sobre [topicLearning]</li>
+    <li>situationFun->correr en la naturaleza</li>
+    <li>situationFun->tener aventuras con [friendNamePlural]</li>
+    <li>situationFun->encontrar el tesoro escondido</li>
+    <li>situationFun->dibujar imágenes de [enemyNamePlural]</li>
+    <li>situationFun->dibujar imágenes de un [friendNameSingular]</li>
+    <li>situationFun->escribir una historia sobre un [friendNameSingular] que caza [enemyNamePlural]</li>
+    <li>situationFun->fingir una pelea contra [enemyNamePlural]</li>
+    <li>situationFun->contar historias sobre [enemyNamePlural]</li>
+    <li>situationFunVar->explorar la naturaleza con [friendNamePlural]</li>
+    <li>situationFunVar->juega [Game]</li>
+    <li>situationFunVar->juega [Game] con amigos</li>
+    <li>situationFunVar->juega con un [friendNameSingular]</li>
+    <li>situationFunVar->charla con un [friendNameSingular]</li>
+    <li>situationFunVar->charla sobre [friendNamePlural]</li>
+    <li>situationFunVar->hace amigos</li>
+    <li>situationFunVar->está al aire libre bajo el sol</li>
+    <li>situationFunVar->observa el cielo nocturno en busca de meteoritos</li>
+    <li>situationFunVar->habla en la radio sobre [topicLearning]</li>
+    <li>situationFunVar->charla en la radio con forasteros</li>
+    <li>situationFunVar->dibuja imágenes de [friendNamePlural] en el suelo</li>
+    <li>situationFunVar->sueña despierto(a) sobre [topicLearning]</li>
+    <li>situationFunVar->corre en la naturaleza</li>
+    <li>situationFunVar->tiene aventuras con [friendNamePlural]</li>
+    <li>situationFunVar->busca el tesoro escondido</li>
+    <li>situationFunVar->dibuja imágenes de [enemyNamePlural]</li>
+    <li>situationFunVar->dibuja imágenes de un [friendNameSingular]</li>
+    <li>situationFunVar->escribe una historia sobre un [friendNameSingular] que caza [enemyNamePlural]</li>
+    <li>situationFunVar->finge una pelea contra [enemyNamePlural]</li>
+    <li>situationFunVar->cuenta historias sobre [enemyNamePlural]</li>
+    <li>situationFunGerund->explorar la naturaleza con [friendNamePlural]</li>
+    <li>situationFunGerund->jugando [Game]</li>
+    <li>situationFunGerund->jugando [Game] con amigos</li>
+    <li>situationFunGerund->jugando con un [friendNameSingular]</li>
+    <li>situationFunGerund->charlando con un [friendNameSingular]</li>
+    <li>situationFunGerund->charlando sobre [friendNamePlural]</li>
+    <li>situationFunGerund->haciendo amigos</li>
+    <li>situationFunGerund->estando al aire libre bajo el sol</li>
+    <li>situationFunGerund->observando el cielo nocturno en busca de meteoritos</li>
+    <li>situationFunGerund->hablando en la radio sobre [topicLearning]</li>
+    <li>situationFunGerund->charlando en la radio con forasteros</li>
+    <li>situationFunGerund->dibujando imágenes de [friendNamePlural] en el suelo</li>
+    <li>situationFunGerund->soñando despierto(a) sobre [topicLearning]</li>
+    <li>situationFunGerund->corriendo en la naturaleza</li>
+    <li>situationFunGerund->teniendo aventuras con [friendNamePlural]</li>
+    <li>situationFunGerund->encontrando el tesoro escondido</li>
+    <li>situationFunGerund->dibujando imágenes de [enemyNamePlural]</li>
+    <li>situationFunGerund->dibujando imágenes de un [friendNameSingular]</li>
+    <li>situationFunGerund->escribiendo una historia sobre un [friendNameSingular] que caza [enemyNamePlural]</li>
+    <li>situationFunGerund->fingiendo una pelea contra [enemyNamePlural]</li>
+    <li>situationFunGerund->contando historias sobre [enemyNamePlural]</li>
+    <li>situationFunGerund->explorando la naturaleza con [friendNamePlural]</li>
+    <li>situationLearning->ver a los demás [taskWork]</li>
+    <li>situationLearning->aprender sobre [taskWork]</li>
+    <li>situationLearning->aprender sobre [topicLearning]</li>
+    <li>situationLearning->estudiar [topicLearning]</li>
+    <li>situationLearning->leer sobre [topicLearning]</li>
+    <li>situationLearningGerund->viendo a los demás [taskWork]</li>
+    <li>situationLearningGerund->aprendiendo sobre [taskWork]</li>
+    <li>situationLearningGerund->aprendiendo sobre [topicLearning]</li>
+    <li>situationLearningGerund->estudiando [topicLearning]</li>
+    <li>situationLearningGerund->leyendo sobre [topicLearning]</li>
+    <li>situationLearningGerund->haciendo un trabajo significativo</li>
+    <li>situationAspirational->marcar la diferencia en el mundo</li>
+    <li>situationAspirational->convertirse en una persona muy rica</li>
+    <li>situationAspirational->salvar el mundo</li>
+    <li>situationAspirational->ayudar a otros</li>
+    <li>situationAspirational->hacerse muy famoso</li>
+    <li>situationAspirational->dejar este planeta</li>
+    <li>situationBad->ser atacado(a) por [enemyNamePlural]</li>
+    <li>situationBad->ser secuestrado(a) por [enemyNamePlural]</li>
+    <li>situationBad->ser cazado(a) por un[enemyNameSingular]</li>
+    <li>situationBad->ser perseguido(a) por un[enemyNameSingular]</li>
+    <li>situationBad->inhalar gas tóxico</li>
+    <li>situationBad->coger la putrefacción pulmonar</li>
+    <li>situationBad->coger la peste</li>
+    <li>situationBad->coger la intoxicación alimentaria</li>
+    <li>situationBad->ver morir a sus seres queridos</li>
+    <li>situationBad->comer sin mesa</li>
+    <li>situationBadGerund->siendo atacado(a) por [enemyNamePlural]</li>
+    <li>situationBadGerund->siendo secuestrado(a) por [enemyNamePlural]</li>
+    <li>situationBadGerund->siendo cazado(a) por un[enemyNameSingular]</li>
+    <li>situationBadGerund->siendo perseguido(a) por un[enemyNameSingular]</li>
+    <li>situationBadGerund->inhalado gas tóxico</li>
+    <li>situationBadGerund->cogiendo la putrefacción pulmonar</li>
+    <li>situationBadGerund->cogiendo la peste</li>
+    <li>situationBadGerund->cogiendo la intoxicación alimentaria</li>
+    <li>situationBadGerund->viendo morir a sus seres queridos</li>
+    <li>situationBadGerund->comiendo sin mesa</li>
+    <li>topicLearning->el universo</li>
+    <li>topicLearning->la ciencia</li>
+    <li>topicLearning->diferentes culturas</li>
+    <li>topicLearning->arqueotécnicos</li>
+    <li>topicLearning->la economía planetaria</li>
+    <li>topicLearning->la psicología</li>
+    <li>topicLearning->la biología de los insectos</li>
+    <li>topicLearning->la gestación de mecanoides</li>
+    <li>topicLearning->la edición de genes</li>
+    <li>topicLearning->la ciencia de los cohetes</li>
+    <li>topicLearning->la minería de minerales</li>
+    <li>taskWork->cocinar comidas</li>
+    <li>taskWork->adiestrar animales</li>
+    <li>taskWork->cuidar a los enfermos</li>
+    <li>taskWork->ayudar a [friendNamePlural]</li>
+    <li>taskWork->cazar múfalos</li>
+    <li>taskWork->cultivar alimentos</li>
+    <li>taskWork->confeccionar ropa</li>
+    <li>taskWorkGerund->cocinando comidas</li>
+    <li>taskWorkGerund->adiestrando animales</li>
+    <li>taskWorkGerund->cuidando a los enfermos</li>
+    <li>taskWorkGerund->ayudando a [friendNamePlural]</li>
+    <li>taskWorkGerund->cazando múfalos</li>
+    <li>taskWorkGerund->cultivando alimentos</li>
+    <li>taskWorkGerund->confeccionando ropa</li>
+    <li>friendNamePlural->amigos</li>
+    <li>friendNamePlural->seres queridos</li>
+    <li>friendNamePlural->animales [friendAdj]s</li>
+    <li>friendNamePlural->mecanoides [friendAdj]s</li>
+    <li>friendNamePlural->niños [friendAdj]s</li>
+    <li>friendNamePlural->amigos imaginarios</li>
+    <li>friendNameSingular->amigo</li>
+    <li>friendNameSingular->perro</li>
+    <li>friendNameSingular->gato [friendAdj]</li>
+    <li>friendNameSingular->niño</li>
+    <li>friendNameSingular->niño [friendAdj]</li>
+    <li>friendNameSingular->familiar</li>
+    <li>friendAdj->amable</li>
+    <li>friendAdj->gracioso</li>
+    <li>friendAdj->amigable</li>
+    <li>friendAdj->travieso</li>
+    <li>friendAdj->divertido</li>
+    <li>enemyNamePlural->asaltantes</li>
+    <li>enemyNamePlural->asaltantes [AdjectiveBadass_Plural]</li>
+    <li>enemyNamePlural->misteriosos extraños</li>
+    <li>enemyNamePlural->insectos [AdjectiveBadass_Plural]</li>
+    <li>enemyNamePlural->bumalopes cazahombres</li>
+    <li>enemyNamePlural->bebedores de sangre secretos</li>
+    <li>enemyNamePlural->dioses máquinas</li>
+    <li>enemyNamePlural->mecanoides salvajes</li>
+    <li>enemyNamePlural->seres psíquicos con poderes terribles</li>
+    <li>enemyNameSingular-> [Enemy] [AdjectiveBadass]</li>
+    <li>enemyNameSingular-> [AnimalBadass] [AdjectiveBadass]</li>
+    <li>enemyNameSingular-> [AnimalBadass]</li>
+    <li>enemyNameSingular-> [Mechanoid]</li>
+    <li>enemyNameSingular-> escorial [AdjectiveBadass]</li>
+    <li>enemyNameSingular-> extraño</li>
+    <li>enemyNameSingular-> sanguífago</li>
+    <li>enemyNameSingular->a mujer sin ojos</li>
+    <li>enemyNameSingular-> hombre con un garfio por mano</li>
+  </GrowthMomentFlavor.rulePack.rulesStrings>
   
 </LanguageData>
