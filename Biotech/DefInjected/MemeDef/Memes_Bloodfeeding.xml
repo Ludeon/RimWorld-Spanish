@@ -30,7 +30,7 @@
   -->
   <Bloodfeeding.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] bebió la sangre de las estrellas, convirtiéndolas de rojas a blancas.</li>
-    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_Ella] [deity0_type] [deity0_name] dio a sus seguidores elegidos el don del hambre, para que conocieran la verdadera fuerza.</li>
+    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name] dio a sus seguidores elegidos el don del hambre, para que conocieran la verdadera fuerza.</li>
     <li>intro(tag=meme_Bloodfeeding)           ->En el [place_summary] [place_name], había un ser humano de nombre [deity0_name]. Como castigo por sus pecados, su padre castigó a [deity0_name] fusionando su alma con la de un [bloodDrinkingAnimal].</li>
     <li>intro(tag=meme_Bloodfeeding)           ->En el [place_summary] [place_name], había un ser humano de nombre [deity0_name]. Como castigo por sus pecados, su padre castigó a [deity0_name] fusionando su alma con la de una [bloodDrinkingAnimalFem].</li>
     <li>intro(tag=meme_Bloodfeeding)           ->En el [place_summary] [place_name], durante el ritual conocido como [ritualName], [deity0_name] bajó a su [altarRoomLabel] y tomó la forma de un gigante [bloodDrinkingAnimal]. [deity0_name] bebió la sangre de sus [memberNamePlural].</li>
@@ -75,16 +75,12 @@
   <Bloodfeeding.generalRules.rulesStrings>
     <li>memeAdjective->sangriento</li>
     <li>memeAdjective->sanguinolento</li>
-    <li>memeAdjectiveFem->sanguinolenta</li>
-    <li>memeAdjectiveFem->sangrienta</li>
-    <li>memeCreedFem->cripta</li>
+    <li>memeCreed->cripta</li>
     <li>memeCreed->cubil</li>
     <li>memeCreed->Aquelarre</li>
     <li>memeHyphenPrefix->hemo</li>
     <li>memeConcept->sangre</li>
-    <li>memeConcept->sed</li>
-    <li>memeConceptDef->l hambre</li>
-    <li>memeConceptDef-> la sangre</li>
+    <li>memeConcept->hambre</li>
     <li>memeLeaderNoun->anciano</li>
     <li>memeLeaderNoun->maestro</li>
     <li>memeLeaderNoun->bebedor de sangre</li>
