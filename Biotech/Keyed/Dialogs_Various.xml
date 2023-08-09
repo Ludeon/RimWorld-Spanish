@@ -1,47 +1,47 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Mechanitors -->
   <!-- EN: Any mechanitor -->
-  <AnyMechanitor>Cualquier mecanitor</AnyMechanitor>
+  <AnyMechanitor>Cualquier mecanizador</AnyMechanitor>
   <!-- EN: Summoning the {LEADERKIND_label} threat will summon the following hostile mechanoids:\n\n{PAWNS}\n\nThe mechanoids will arrive in the next few hours or days. Are you ready to fight? -->
-  <BossgroupWarningDialog>Invocar la amenaza {LEADERKIND_label} invocará a los siguientes mecas hostiles:\n\n{PAWNS}\n\nLos mecas llegarán en las próximas horas o días. ¿Estás preparado para luchar?</BossgroupWarningDialog>
+  <BossgroupWarningDialog>Invocar la amenaza {LEADERKIND_label}, invocará a los siguientes mecanoides hostiles:\n\n{PAWNS}\n\nLos mecanoides llegarán en las próximas horas o días. ¿Estás preparado para luchar?</BossgroupWarningDialog>
   <!-- EN: {PAWN_labelShort} is downed. -->
-  <MechControllerDowned>{PAWN_labelShort} está incapacitado.</MechControllerDowned>
+  <MechControllerDowned>{PAWN_labelShort} está incapacitad{PAWN_gender ? o : a}.</MechControllerDowned>
   <!-- EN: {PAWN_labelShort} is a prisoner. -->
-  <MechControllerImprisoned>{PAWN_labelShort} es un prisionero.</MechControllerImprisoned>
+  <MechControllerImprisoned>{PAWN_labelShort} es {PAWN_gender ? un prisionero : una prisionera}.</MechControllerImprisoned>
   <!-- EN: {PAWN_labelShort} is inside {CONTAINER} -->
   <MechControllerInsideContainer>{PAWN_labelShort} está en un {CONTAINER}</MechControllerInsideContainer>
   <!-- EN: {PAWN_labelShort} has insufficient bandwidth -->
-  <MechControllerInsufficientBandwidth>{PAWN_labelShort} no tiene suficiente ancho de banda</MechControllerInsufficientBandwidth>
+  <MechControllerInsufficientBandwidth>{PAWN_labelShort} no tiene suficiente banda ancha</MechControllerInsufficientBandwidth>
   <!-- EN: {PAWN_labelShort} is in a '{MENTALSTATE_label}' mental state. -->
-  <MechControllerMentalState>{PAWN_labelShort} está en un estado mental de '{MENTALSTATE_label}'.</MechControllerMentalState>
+  <MechControllerMentalState>{PAWN_labelShort} está en el estado mental "{MENTALSTATE_label}".</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
-  <ConfirmDisassemblingMech>¿Quieres desarmar permanentemente a {0}?\n\nDesarmar permanentemente a {0} recuperará</ConfirmDisassemblingMech>
+  <ConfirmDisassemblingMech>¿Quieres desmontar permanentemente a {0}?\n\nDesmontar permanentemente a {0} recuperará</ConfirmDisassemblingMech>
   <!-- EN: A mechanitor must be capable of smithing to create mechanoids\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink>Un mecanitor debe ser capaz de forjar para crear mecas\n\n¿Seguro que quieres continuar?</ConfirmInstallMechlink>
+  <ConfirmInstallMechlink>Un mecanizador debe ser capaz de forjar para crear mecanoides\n\n¿Seguro que quieres continuar?</ConfirmInstallMechlink>
   <!-- EN: insufficient bandwidth -->
-  <InsufficientBandwidth>ancho de banda insuficiente</InsufficientBandwidth>
+  <InsufficientBandwidth>banda ancha insuficiente</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
-  <MechanitorLeftMapWithoutMechs>TODO</MechanitorLeftMapWithoutMechs>
+  <MechanitorLeftMapWithoutMechs>Los siguientes mecas han sido dejados atrás por {PAWN_labelShort}:\n{MECHS}\nLos mecas se quedarán aquí hasta que sean recogidos.\n\n¿Quieres poner su modo de trabajo en escolta para que sigan a {PAWN_labelShort} fuera del mapa?</MechanitorLeftMapWithoutMechs>
 
   <!-- Apparel -->
   <!-- EN: Any mechlord apparel -->
-  <ApparelRequirementAnyMechlordApparel>TODO</ApparelRequirementAnyMechlordApparel>
+  <ApparelRequirementAnyMechlordApparel>Cualq. vestimenta de mecalord</ApparelRequirementAnyMechlordApparel>
   <!-- EN: or any psycaster, prestige, or mechlord apparel -->
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>TODO</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>o cualquier prenda de psicoemisor, prestigiosa o mecalord</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
 
   <!-- Mech gestator -->
   <!-- EN: Gestation cycles completed -->
   <GestationCyclesCompleted>Ciclo de gestación completado</GestationCyclesCompleted>
   <!-- EN: Gathered ingredients -->
-  <FormerIngredients>Ingredientes mezclados</FormerIngredients>
+  <FormerIngredients>Ingredientes recogidos</FormerIngredients>
 
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
-  <ConfirmRipscanPawn>Escanear el núcleo de {PAWN_nameDef} {PAWN_objective} matará. ¿Seguro que quieres continuar?</ConfirmRipscanPawn>
+  <ConfirmRipscanPawn>Rasgaescanear a {PAWN_nameDef} {PAWN_objective} matará. ¿Seguro que quieres continuar?</ConfirmRipscanPawn>
   <!-- EN: Cancelling a ripscan will still kill {PAWN_nameDef}. Are you sure you want to continue? -->
-  <ConfirmCancelRipscan>TODO</ConfirmCancelRipscan>
+  <ConfirmCancelRipscan>Cancelar el rasgaescanear de {PAWN_nameDef} {PAWN_objective} seguirá matando. ¿Estás seguro de que quieres continuar?</ConfirmCancelRipscan>
 
   <!-- Xenogerm -->
   <!-- EN: Assemble genes -->
@@ -49,9 +49,9 @@
   <!-- EN: Create xenotype -->
   <CreateXenotype>Crear xenotipo</CreateXenotype>
   <!-- EN: Select icon -->
-  <SelectIcon>Seleccionar icono</SelectIcon>
+  <SelectIcon>Seleccionar ícono</SelectIcon>
   <!-- EN: The icon of this xenotype. -->
-  <SelectIconDesc>El icono de este xenotipo.</SelectIconDesc>
+  <SelectIconDesc>El ícono de este xenotipo.</SelectIconDesc>
   <!-- EN: Inspect the genes inside the {0_labelShort}. -->
   <InspectGenesDesc>Inspeccionar los genes en {0_labelShort}.</InspectGenesDesc>
   <!-- EN: Inspect the unborn baby's genes. -->
@@ -65,7 +65,7 @@
   <!-- EN: Selected genepacks -->
   <SelectedGenepacks>Packs de genes seleccionados</SelectedGenepacks>
   <!-- EN: Genepack library -->
-  <GenepackLibrary>Librería de packs de genes</GenepackLibrary>
+  <GenepackLibrary>Biblioteca de pack de genes</GenepackLibrary>
   <!-- EN: Click to add or remove -->
   <ClickToAddOrRemove>Clic para añadir o eliminar</ClickToAddOrRemove>
   <!-- EN: Click to add -->
@@ -75,21 +75,21 @@
   <!-- EN: Select xenogerm -->
   <SelectXenogerm>Seleccionar xenogermen</SelectXenogerm>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are currently regrowing. If {PAWN_pronoun} implants {PAWN_possessive} xenogerm before {PAWN_possessive} genes are fully regrown, it will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <WarningPawnWillDieFromReimplanting>Advertencia: Los genes de {PAWN_nameDef} están rebrotando. Si {PAWN_pronoun} implanta {PAWN_possessive} xenogermen antes de que {PAWN_possessive} genes estén completamente desarrollados, {PAWN_objective} matará.\n\n¿Seguro que quieres continuar?</WarningPawnWillDieFromReimplanting>
+  <WarningPawnWillDieFromReimplanting>Advertencia: Los genes de {PAWN_nameDef} están rebrotando. Si {PAWN_pronoun} implanta {PAWN_possessive} xenogermen antes de que sus genes estén completamente desarrollados, {PAWN_objective} matará.\n\n¿Seguro que quieres continuar?</WarningPawnWillDieFromReimplanting>
   <!-- EN: Not enough archite capsules. -->
   <NotEnoughArchites>No hay suficientes cápsulas de arquita.</NotEnoughArchites>
   <!-- EN: Xenogenes are genes derived from an implanted xenogerm. If the xenogerm is removed or replaced, the xenogenes go with it. Since xenogenes are not part of the organism's own germline DNA, they are not passed to children. -->
-  <XenogenesDesc>Los xenogenes son generes derivados de otro xenogermen implantado. Si el xenogermen se elimina o sustituye, los xenogenes se irán con él. Dado que los xenogenes no son parte del ADN del organismo, no son hereditarios.</XenogenesDesc>
+  <XenogenesDesc>Los xenogenes son genes derivados de otro xenogermen implantado. Si el xenogermen se elimina o sustituye, los xenogenes se irán con él. Dado que los xenogenes no forman parte del ADN de la línea germinal del organismo, no son hereditarios.</XenogenesDesc>
   <!-- EN: Germline genes are naturally-inherited genes which are in every cell in an organism's body and don't require any external support. They are passed from parent to child. -->
   <EndogenesDesc>Los genes de la línea germinal son genes que se heredan de forma natural, están en todas las células del cuerpo de un organismo y no necesitan ningún apoyo externo. Se transmiten de padres a hijos.</EndogenesDesc>
   <!-- EN: Member xenotypes -->
-  <MemberXenotypeChances>Xenotipos de miembro</MemberXenotypeChances>
+  <MemberXenotypeChances>Xenotipos de colonos</MemberXenotypeChances>
   <!-- EN: xenotype name -->
-  <XenotypeName>nombre de xenotipo</XenotypeName>
+  <XenotypeName>nombre del xenotipo</XenotypeName>
   <!-- EN: Lock or unlock the xenotype's name. When locked, the xenotype name will not auto-regenerate when genepacks are added or removed. -->
   <LockNameButtonDesc>Bloquea o desbloquea el nombre del xenotipo. Cunado esté bloqueado, el nombre del xenotipo no se regenerará cuando se añadan o retiren packs de genes.</LockNameButtonDesc>
   <!-- EN: Xenotype name lock is on. Xenotype name will not regenerate when adding or removing genepacks. -->
-  <LockNameOn>El bloqueo de nombre está activado. El nombre de xenotipo no se regenerará cuando se añadan o retiren packs de genes.</LockNameOn>
+  <LockNameOn>El bloqueo de nombre está activado. El nombre del xenotipo no se regenerará cuando se añadan o retiren packs de genes.</LockNameOn>
   <!-- EN: Xenotype name lock is off. Xenotype name will regenerate when adding or removing genepacks. -->
   <LockNameOff>El bloqueo de nombre está desactivado. El nombre de xenotipo se regenerará cuando se añadan o retiren packs de genes.</LockNameOff>
   <!-- EN: Creating xenogerm -->
@@ -97,17 +97,17 @@
   <!-- EN: This genepack is contained in an unpowered genebank. If added, production on the xenogerm will be suspended until power is restored. -->
   <GenepackUnusableGenebankUnpowered>Este pack de genes está en un banco genético sin energía. Si se añade, la producción de xenogermen se suspenderá hasta que se reestablezca la energía.</GenepackUnusableGenebankUnpowered>
   <!-- EN: This xenogerm requires more genetic complexity than the gene assembler and nearby powered gene processors can support. -->
-  <GeneProcessorUnpowered>Este xenogermen requiere más complejidad genética que lo que el ensamblador genético y procesadores cercanos pueden soportar</GeneProcessorUnpowered>
+  <GeneProcessorUnpowered>Este xenogermen requiere más complejidad genética que lo que el ensamblador genético y procesadores genéticos cercanos pueden soportar.</GeneProcessorUnpowered>
   <!-- EN: Estimated recombination time -->
   <RecombineDuration>Tiempo estimado de recombinación</RecombineDuration>
   <!-- EN: How long it would take for an average worker to combine the selected genes into a xenogerm. Recombination time increases with the total complexity of the genes in the xenogerm. -->
-  <RecombineDurationDesc>Cuánto tardará un trabajador promedio en combinar los genes seleccionados en un xenogermen. El tiempo de recombinación incrementa con la complejidad de los genes en el xenogermen</RecombineDurationDesc>
+  <RecombineDurationDesc>Cuánto tardará un trabajador promedio en combinar los genes seleccionados en un xenogermen. El tiempo de recombinación incrementa con la complejidad de los genes en el xenogermen.</RecombineDurationDesc>
   <!-- EN: You must research {0_label} before you can assemble a xenogerm that requires archite capsules. -->
-  <MustResearchProject>Debes investigar {0_label} antes de ensamblar un xenogermen que requiera capsulas de arquita.</MustResearchProject>
+  <MustResearchProject>Debes investigar {0_label} antes de ensamblar un xenogermen que requiera cápsulas de arquita.</MustResearchProject>
   <!-- EN: Assembling xenogerms with archite genes requires {0_label} research. -->
-  <AssemblingRequiresResearch>Ensamblar xenogermenes con genes de arquita requiere la investigación de {0_label}.</AssemblingRequiresResearch>
+  <AssemblingRequiresResearch>Ensamblar xenogérmenes con genes arquita requiere la investigación de {0_label}.</AssemblingRequiresResearch>
   <!-- EN: You are currently combining a {XENOGERMNAME} xenogerm. If you start combining a new xenogerm, it will cancel your current xenogerm.\n\nAre you sure you want to continue? -->
-  <ConfirmStartNewXenogerm>Estás combinando un xenogermen {XENOGERMNAME}. Se empiezas a combinar uno nuevo, se cancelará el xenogermen actual.\n\n¿Seguro que quieres continuar?</ConfirmStartNewXenogerm>
+  <ConfirmStartNewXenogerm>Estás combinando un xenogermen {XENOGERMNAME}. Si empiezas a combinar uno nuevo, se cancelará el xenogermen actual.\n\n¿Seguro que quieres continuar?</ConfirmStartNewXenogerm>
   <!-- EN: Select at least one gene to randomize a name for this xenotype. -->
   <SelectAGeneToRandomizeName>Selecciona al menos un gen para aleatorizar el nombre de este xenotipo.</SelectAGeneToRandomizeName>
   <!-- EN: Select at least one gene to choose a name for this xenotype. -->
@@ -121,13 +121,13 @@
   <!-- EN: no xenogerm implanted -->
   <NoXenogermImplanted>sin xenogermen implantado</NoXenogermImplanted>
   <!-- EN: germline genes -->
-  <Endogenes>genes de la línea germinal</Endogenes>
+  <Endogenes>genes de línea germinal</Endogenes>
   <!-- EN: xenogenes -->
   <Xenogenes>xenogenes</Xenogenes>
   <!-- EN: overridden -->
   <Overridden>anulado</Overridden>
   <!-- EN: Overridden by gene -->
-  <OverriddenByGene>Anulado por xenogen</OverriddenByGene>
+  <OverriddenByGene>Anulado por gen</OverriddenByGene>
   <!-- EN: Overridden by identical gene -->
   <OverriddenByIdenticalGene>Anulado por gen idéntico</OverriddenByIdenticalGene>
   <!-- EN: More information is available on this xenotype's information screen. -->
@@ -139,7 +139,7 @@
   <!-- EN: Xenotype editor -->
   <XenotypeEditor>Editor de xenotipo</XenotypeEditor>
   <!-- EN: Any (non-archite) -->
-  <AnyNonArchite>Cualquiera (sin arquita)</AnyNonArchite>
+  <AnyNonArchite>Cualq. (sin arquita)</AnyNonArchite>
   <!-- EN: Selected genes -->
   <SelectedGenes>Genes seleccionados</SelectedGenes>
   <!-- EN: custom -->
@@ -167,11 +167,11 @@
   <!-- EN: Ignore restrictions -->
   <IgnoreRestrictions>Ignorar restricciones</IgnoreRestrictions>
   <!-- EN: Created xenotypes have no biostat limits. Genes requiring archite capsules can be added. -->
-  <IgnoreRestrictionsDesc>Los xenotipos creados no tienen límite de bioestadística. Los genes que requieren capsulas de arquita se pueden añadir.</IgnoreRestrictionsDesc>
+  <IgnoreRestrictionsDesc>Los xenotipos creados no tienen límite de bioestadística. Los genes que requieren cápsulas de arquita se pueden añadir.</IgnoreRestrictionsDesc>
   <!-- EN: This xenotype breaks normal gameplay limits -->
   <XenotypeBreaksLimits>Este xenotipo rompe los límites normales del juego</XenotypeBreaksLimits>
   <!-- EN: It contains archite genes and is inheritable, but archite genes are usually never inheritable. -->
-  <XenotypeBreaksLimits_Archites>Contiene genes de arquita y no es hereditario, pero los genes de arquita normalmente no son hereditarios</XenotypeBreaksLimits_Archites>
+  <XenotypeBreaksLimits_Archites>Contiene genes arquita y no es hereditario, pero los genes arquita normalmente no son hereditarios.</XenotypeBreaksLimits_Archites>
   <!-- EN: {STAT} is {VALUE}, which exceeds the normal limit of {MAX}. -->
   <XenotypeBreaksLimits_Exceeds>{STAT} es {VALUE}, que excede el límite normal de {MAX}.</XenotypeBreaksLimits_Exceeds>
   <!-- EN: {STAT} is {VALUE}, which is below the normal limit of {MIN}. -->
@@ -179,7 +179,7 @@
   <!-- EN: Save anyway? -->
   <SaveAnyway>¿Guardar de todos modos?</SaveAnyway>
   <!-- EN: Ignoring restrictions allows you to create impossible gene combinations by exceeding biostat limits. It also gives you access to powerful archite genes, which can make the game very easy.\n\nAre you sure you want to ignore restrictions? -->
-  <IgnoreRestrictionsConfirmation>Ignorar las restricciones te permite crear combinaciones genéticas imposibles sobrepasando los límites biológicos. También te da acceso a poderosos genes de arquita, que puede hacer el juego muy fácil.\n\n¿Seguro que quieres ignorar las restricciones?</IgnoreRestrictionsConfirmation>
+  <IgnoreRestrictionsConfirmation>Ignorar las restricciones te permite crear combinaciones genéticas imposibles sobrepasando los límites biológicos. También te da acceso a poderosos genes arquita, que pueden hacer el juego muy fácil.\n\n¿Seguro que quieres ignorar las restricciones?</IgnoreRestrictionsConfirmation>
   <!-- EN: Colonists will always be within this developmental stage's age range when generated. -->
   <DevelopmentalAgeSelectionDesc>Los colonos siempre estarán dentro del rango de edad de esta etapa de desarrollo cuando se generen.</DevelopmentalAgeSelectionDesc>
   <!-- EN: Colonists will always carry the genes defined by this xenotype. -->
@@ -191,7 +191,7 @@
   <!-- EN: Load premade -->
   <LoadPremade>Cargar base</LoadPremade>
   <!-- EN: Genes conflict -->
-  <GenesConflict>Conflicto en los genes</GenesConflict>
+  <GenesConflict>Conflicto de genes</GenesConflict>
   <!-- EN: {FIRST_label}, {SECOND_label} -->
   <GenesConflictDesc>{FIRST_label}, {SECOND_label}</GenesConflictDesc>
 
@@ -205,7 +205,7 @@
   <!-- EN: {NAME} template saved -->
   <XenogermTemplateSaved>Plantilla {NAME} guardada</XenogermTemplateSaved>
   <!-- EN: Missing {COUNT} genepacks for {NAME} template. -->
-  <MissingGenepacksForXenogerm>Faltan {COUNT} packs de genes para la plantilla {NAME}.</MissingGenepacksForXenogerm>
+  <MissingGenepacksForXenogerm>Faltan {COUNT} pack de genes para la plantilla {NAME}.</MissingGenepacksForXenogerm>
   <!-- EN: Missing genepack for {NAME} template -->
   <MissingGenepackForXenogerm>Falta un pack de genes para la plantilla {NAME}</MissingGenepackForXenogerm>
   <!-- EN: Delete this xenogerm. -->
@@ -217,7 +217,7 @@
 
   <!-- Deathrest -->
   <!-- EN: Waking {PAWN_nameDef} before {MINDURATION} has passed will interrupt {PAWN_possessive} deathrest, leaving {PAWN_objective} sick for days while {PAWN_pronoun} recovers. Waking early means {PAWN_nameDef} will not benefit from any deathrest buildings. {PAWN_pronoun} has been deathresting for {CURDURATION}.\n\nAre you sure you wish to wake {PAWN_nameDef}? -->
-  <WarningWakingInterruptsDeathrest>Despertar a {PAWN_nameDef} antes de que pasen {MINDURATION} interrumpirá su descanso mortal, enfermándo{PAWN_objetivo} por días mientras se recupera. Despertarlo antes supone que {PAWN_nameDef} no se beneficiará de las construcciones de descanso. {PAWN_pronoun} ha descansado durante {CURDURATION}.\n\n¿Seguro que quieres despertar a {PAWN_nameDef}?</WarningWakingInterruptsDeathrest>
+  <WarningWakingInterruptsDeathrest>Despertar a {PAWN_nameDef} antes de que pasen {MINDURATION} interrumpirá su mortisueño, enfermándo{PAWN_objetivo} por días mientras se recupera. Despertarlo antes supone que {PAWN_nameDef} no se beneficiará de los edificios de mortisueño. {PAWN_pronoun} ha estado mortisoñando durante {CURDURATION}.\n\n¿Seguro que quieres despertar a {PAWN_nameDef}?</WarningWakingInterruptsDeathrest>
 
   <!-- Text motes -->
   <!-- EN: {0} wounds tended -->
@@ -233,23 +233,23 @@
   <!-- EN: Work activities -->
   <MechWorkActivities>Actividades laborales</MechWorkActivities>
   <!-- EN: The work activities that can be performed by this mechanoid.\n\nThe following list details which work activities can be done within each work type -->
-  <MechWorkActivitiesExplanation>Los trabajos que puede realizar este meca.\n\nLa siguiente lista detalla qué actividades se pueden hacer con cada trabajo</MechWorkActivitiesExplanation>
+  <MechWorkActivitiesExplanation>Los trabajos que puede realizar este mecanoide.\n\nLa siguiente lista detalla qué actividades laborales se pueden hacer con cada tipo de trabajo</MechWorkActivitiesExplanation>
   <!-- EN: Recharge settings -->
   <MechRechargeSettingsTitle>Ajustes de recarga</MechRechargeSettingsTitle>
   <!-- EN: Change when mechanoids will start and stop charging.\n\nMechanoids with energy below this range will automatically seek out a recharger. They will stop charging once they reach the top of this range. These settings only apply in work mode. -->
-  <MechRechargeSettingsExplanation>Cambia cuándo los mecas empezarán y dejarán de cargarse.\n\nLos mecas con la energía por debajo de este rango buscarán automáticamente un cargador. Dejarán de cargar una vez hayan alcanzado el límite de este rango. Estas opciones solo se aplican en el modo trabajo.</MechRechargeSettingsExplanation>
+  <MechRechargeSettingsExplanation>Cambia cuando los mecanoides comenzarán y dejarán de cargarse.\n\nLos mecanoides con la energía por debajo de este rango buscarán automáticamente un recargador. Dejarán de cargar una vez hayan alcanzado el límite de este rango. Estas opciones solo se aplican en el modo trabajo.</MechRechargeSettingsExplanation>
   <!-- EN: Work skill -->
   <MechWorkSkill>Habilidad de trabajo</MechWorkSkill>
   <!-- EN: The skill level that this mechanoid acts with. -->
-  <MechWorkSkillDesc>El nivel de habilidad con el que este meca trabaja.</MechWorkSkillDesc>
+  <MechWorkSkillDesc>El nivel de habilidad con el que este mecanoide trabaja.</MechWorkSkillDesc>
   <!-- EN: Any mech -->
   <AnyMech>Cualquier meca</AnyMech>
   <!-- EN: Any human -->
-  <AnyNonMech>TODO</AnyNonMech>
+  <AnyNonMech>Cualquier humano</AnyNonMech>
   <!-- EN: Your caravan contains a mechanoid but not their overseer. You will have limited control over the mechanoid when you reach your destination. -->
-  <CaravanLacksMechMechanitorWarning>Tu caravana contiene un meca pero no su supervisor. Tendrás control limitado sobre el meca cuando alcances tu destino.</CaravanLacksMechMechanitorWarning>
+  <CaravanLacksMechMechanitorWarning>Tu caravana contiene un mecanoide pero no a su supervisor. Tendrás control limitado sobre el mecanoide cuando alcances tu destino.</CaravanLacksMechMechanitorWarning>
   <!-- EN: Mechanoids -->
-  <MechsSection>Mecas</MechsSection>
+  <MechsSection>Mecanoides</MechsSection>
 
   <!-- Pawn naming -->
   <!-- EN: Rename mech -->
@@ -258,14 +258,14 @@
   <MechGainsName>El nombre del meca ahora es {0}.</MechGainsName>
 
   <!-- EN: {FATHER_nameDef} is {MOTHER_nameDef}'s {RELATION}. There's a {CHANCE} chance that the resulting baby will have genetic abnormalities due to inbreeding.\n\nAre you sure you want to continue? -->
-  <FertilizeOvumInbredChance>{FATHER_nameDef} es el {RELATION} de {MOTHER_nameDef}. Hay una posibilidad de {CHANCE} de que el bebé resultante tenga anomalías genéticas debido a la endogamia.\n\n¿Estás seguro de que quieres continuar?</FertilizeOvumInbredChance>
+  <FertilizeOvumInbredChance>{FATHER_nameDef} es el {RELATION} de {MOTHER_nameDef}. Hay una probabilidad de {CHANCE} de que el bebé resultante tenga anomalías genéticas debido a la endogamia.\n\n¿Estás seguro de que quieres continuar?</FertilizeOvumInbredChance>
 
   <!-- EN: {PAWN_nameDef} is pregnant. Implanting an IUD while {PAWN_pronoun} is in {PAWN_possessive} first trimester of pregnancy will terminate the pregnancy.\n\nAre you sure you want to continue? -->
-  <ConfirmationPawnPregnancyTerminated>{PAWN_nameDef} está embarazada. Implantar un DIU mientras {PAWN_pronoun} está en {PAWN_possessive} primer trimestre de embarazo lo interrumpirá.\n\n¿Estás seguro de que quieres continuar?</ConfirmationPawnPregnancyTerminated>
+  <ConfirmationPawnPregnancyTerminated>{PAWN_nameDef} está embarazada. Implantar un DIU (dispositivo intrauterino) mientras {PAWN_pronoun} está en {PAWN_possessive} primer trimestre de embarazo lo interrumpirá.\n\n¿Estás seguro de que quieres continuar?</ConfirmationPawnPregnancyTerminated>
 
   <!-- Pollution -->
   <!-- EN: This tile is near polluted tiles, so there will be an acidic smog here roughly every {0} days. Acidic smog slows plant growth, deteriorates exposed items, and makes people unhappy. -->
-  <ConfirmSettleNearPollution>Esta casilla está cerca de otras contaminadas, por lo que habrá una neblina ácida aproximadamente cada {0} días. La neblina ácida ralentiza el crecimiento de las plantas, deteriora los objetos expuestos, y hace la gente infeliz.</ConfirmSettleNearPollution>
+  <ConfirmSettleNearPollution>Esta celda está cerca de otras contaminadas, por lo que habrá una niebla ácida aproximádamente cada {0} días. La niebla ácida ralentiza el crecimiento de las plantas, deteriora los objetos expuestos, y hace a la gente infeliz.</ConfirmSettleNearPollution>
 
   <!-- Pregnancy -->
   <!-- EN: {PAWN_nameDef} is away. -->
@@ -281,14 +281,14 @@
   <!-- EN: {PAWN_nameDef} is infertile. -->
   <PawnIsInfertile>{PAWN_nameDef} es infértil.</PawnIsInfertile>
   <!-- EN: {PAWN1_nameDef} and {PAWN2_nameDef} are too young to have children. -->
-  <PawnsAreTooYoung>{PAWN1_nameDef} y {PAWN2_nameDef} son muy jovenes para tener niños.</PawnsAreTooYoung>
+  <PawnsAreTooYoung>{PAWN1_nameDef} y {PAWN2_nameDef} son muy jóvenes para tener niños.</PawnsAreTooYoung>
   <!-- EN: {PAWN_nameDef} is too young to have children. -->
   <PawnIsTooYoung>{PAWN_nameDef} es muy joven para tener niños.</PawnIsTooYoung>
   <!-- EN: {PAWN_nameDef} is dead. -->
   <PawnIsDead>{PAWN_nameDef} está muerto.</PawnIsDead>
 
   <!-- EN: Placing {PAWN_nameDef} into cryptosleep will strain {PAWN_possessive} psychic bond with {BOND_nameDef}, causing stress to both partners.\n\nAre you sure you want to continue? -->
-  <PsychicBondDistanceWillBeActive_Cryptosleep>Inducir a {PAWN_nameDef} en un criptosueño tensará {PAWN_possesive} relación con {BOND_nameDef}, causando estrés a ambos.\n\n¿Estás seguro de que quieres continuar?</PsychicBondDistanceWillBeActive_Cryptosleep>
+  <PsychicBondDistanceWillBeActive_Cryptosleep>Inducir a {PAWN_nameDef} en un criptosueño tensará {PAWN_possesive} vínculo psíquico con {BOND_nameDef}, causando estrés a ambos.\n\n¿Estás seguro de que quieres continuar?</PsychicBondDistanceWillBeActive_Cryptosleep>
   <!-- EN: Someone in this caravan is psychically bonded by their partner is not coming with them. These people will be stressed if separated from their bond-partners -->
   <PsychicBondDistanceWillBeActive_Caravan>Alguien en esta caravana está psíquicamente vinculado con su compañero y no lo está acompañando. Esta persona se estresará si se separa de su compañero.</PsychicBondDistanceWillBeActive_Caravan>
   <!-- EN: partner {0_nameFull} -->
@@ -296,33 +296,33 @@
 
 
   <!-- EN: Choose mech accent color -->
-  <ChooseMechAccentColor>Escoger color acentuado de meca</ChooseMechAccentColor>
+  <ChooseMechAccentColor>Escoger el color de los detalles del meca</ChooseMechAccentColor>
 
   <!-- Faction specific comms overrides -->
   <!-- EN: {0} squeals a string of curses into the microphone and disconnects. -->
   <PigFactionGreetingHostile>{0} chilla un montón de maldiciones al micrófono y se desconecta.</PigFactionGreetingHostile>
   <!-- EN: Oinking angrily, {0} demands that you make a gesture of unity, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnorting an insult, {0_pronoun} disconnects. -->
-  <PigFactionGreetingHostileAppreciative>Chillando con rabia, {0} reclama un gesto de unidad, como llevarle regalos a uno de {0_possesive} asentamientos o soltando prisioneros de {0_possesive} facción. Hasta entonces, {0_pronoun} no quiere hablar.\n\nEsnifando un insulto, {0_pronoun} desconecta.</PigFactionGreetingHostileAppreciative>
+  <PigFactionGreetingHostileAppreciative>Expresa unos ¡oinc, oinc! con rabia, {0} reclama un gesto de unidad, como llevarle regalos a uno de {0_possesive}s asentamientos o liberando prisioneros de {0_possesive} facción. Hasta entonces, no quiere hablar.\n\nEsnifando un insulto se desconecta.</PigFactionGreetingHostileAppreciative>
   <!-- EN: {0} oinks a greeting and asks what business you need done. -->
-  <PigFactionGreetingWary>{0} chilla un saludo y pregunta qué negocios has hecho.</PigFactionGreetingWary>
+  <PigFactionGreetingWary>{0} emite unos ¡oinc, oinc! saludando y pregunta qué negocios has hecho.</PigFactionGreetingWary>
   <!-- EN: Oinking enthusiastically, {0} greets {NEGOTIATOR_labelShort} and asks what {LEADER_pronoun} can do to help you. -->
-  <PigFactionGreetingWarm>Chillando con entusiasmo, {0} saluda a {NEGOTIATOR_labelShort} y pregunta qué puede hacer {LEADER_pronoun} para ayudarte.</PigFactionGreetingWarm>
+  <PigFactionGreetingWarm>Expresa unos ¡oinc, oinc! con entusiasmo, {0} saluda a {NEGOTIATOR_labelShort} y pregunta qué puede hacer {LEADER_pronoun} para ayudarte.</PigFactionGreetingWarm>
   <!-- EN: {0} agrees to send pigskin fighters to help you. -->
-  <PigMilitaryAidSent>{0} acepta enviarte luchadores puercos para ayudarte.</PigMilitaryAidSent>
+  <PigMilitaryAidSent>{0} acepta enviarte pielcerdos luchadores para ayudarte.</PigMilitaryAidSent>
 
   <!-- EN: {0} roars into the microphone and disconnects. -->
   <YttakinFactionGreetingHostile>{0} ruge en el micrófono y se desconecta.</YttakinFactionGreetingHostile>
   <!-- EN: Growling under {0_possessive} breath, {0} demands that you make a gesture of friendship, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnarling an insult, {0_pronoun} disconnects. -->
-  <YttakinFactionGreetingHostileAppreciative>Gruñendo bajo {0_possessive} aliento, {0} exige un gesto de amistad, como llevar regalos a uno de {0_possessive} asentamientos o soltando prisioneros de {0_possessive} facción. Hasta entonces, {0_pronoun} se niega a hablar.\n\nGruñiendo un insulto, {0_pronoun} desconecta.</YttakinFactionGreetingHostileAppreciative>
+  <YttakinFactionGreetingHostileAppreciative>Gruñendo bajo {0_possessive} aliento, {0} exige un gesto de amistad, como llevar regalos a uno de {0_possessive}s asentamientos o liberando prisioneros de {0_possessive} facción. Hasta entonces, {0_pronoun} se niega a hablar.\n\nGruñiendo un insulto se desconecta.</YttakinFactionGreetingHostileAppreciative>
   <!-- EN: {0} grumbles a greeting to {NEGOTIATOR_labelShort} and asks why you are calling. -->
   <YttakinFactionGreetingWary>{0} gruñe un saludo hacia {NEGOTIATOR_labelShort} y pregunta por qué estás llamando.</YttakinFactionGreetingWary>
   <!-- EN: {0} bellows a friendly greeting and asks what {LEADER_pronoun} can do to help you. -->
-  <YttakinFactionGreetingWarm>{0} vocifera un saludo amistoso y pregunta qué puede hacer {LEADER_pronoun} para ayudarte.</YttakinFactionGreetingWarm>
+  <YttakinFactionGreetingWarm>{0} vocifera un saludo amistoso y pregunta qué puede hacer para ayudarte.</YttakinFactionGreetingWarm>
 
   <!-- EN: {0} grunts angrily and disconnects. -->
   <NeanderthalFactionGreetingHostile>{0} gruñe con rabia y se desconecta.</NeanderthalFactionGreetingHostile>
   <!-- EN: {0} grunts aggressively. Until you make a gesture of goodwill, {0_pronoun} will not do business with you. You can improve relations through a number of activities, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed.\n\n{0_pronoun} disconnects abruptly. -->
-  <NeanderthalFactionGreetingHostileAppreciative>{0} gruñe agresivamente. Hasta que no tengas un acto de amistad, {0_pronoun} no hará negocios contigo. Puedes mejorar las relaciones mediante varias actividades, como llevar regales a uno de {0_possessive} asentamientos o soltando prisioneros de {0_possessive} facción.\n\n{0_pronoun} desconecta bruscamente.</NeanderthalFactionGreetingHostileAppreciative>
+  <NeanderthalFactionGreetingHostileAppreciative>{0} gruñe agresivamente. Hasta que no tengas un acto de buena voluntad, no hará negocios contigo. Puedes mejorar las relaciones mediante varias actividades, como llevar regalos a uno de {0_possessive}s asentamientos o liberando prisioneros de {0_possessive} facción.\n\n{0_pronoun} desconecta bruscamente.</NeanderthalFactionGreetingHostileAppreciative>
   <!-- EN: {0} grunts a greeting. -->
   <NeanderthalFactionGreetingWary>{0} gruñe un saludo.</NeanderthalFactionGreetingWary>
   <!-- EN: {0} grunts a warm greeting to {NEGOTIATOR_labelShort}. -->
@@ -335,9 +335,9 @@
   <!-- EN: Progress to next growth tier -->
   <ProgressToNextGrowthTier>Progreso hasta el siguiente nivel</ProgressToNextGrowthTier>
   <!-- EN: This growth tier -->
-  <ThisGrowthTier>Este nivel de crecimiento</ThisGrowthTier>
+  <ThisGrowthTier>Desarrollo actual</ThisGrowthTier>
   <!-- EN: Next growth tier -->
-  <NextGrowthTier>Siguiente nivel de crecimiento</NextGrowthTier>
+  <NextGrowthTier>Siguiente desarrollo</NextGrowthTier>
   <!-- EN: Choose {0} passions from {1} options. -->
   <NumPassionsFromOptions>Escoge {0} pasiones entre las opciones {1}.</NumPassionsFromOptions>
   <!-- EN: Choose {0} trait from {1} options. -->
@@ -349,15 +349,15 @@
   <RoomRequirementNoBiotechBuildings>sin construcciones biotecnológicas permitidas</RoomRequirementNoBiotechBuildings>
 
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will result in serious blood loss, leaving {PAWN_objective} unconscious.\n\nAre you sure? -->
-  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>Alimentarse de la sangre de {PAWN_nameDef} le provocará una pérdida de sangre severa, dejando{PAWN_objective} inconsciente.\n\n¿Estás seguro?</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
+  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>Chupar sangre de {PAWN_nameDef} le provocará una hemorragia grave, dejando{PAWN_objective} inconsciente.\n\n¿Estás seguro?</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will kill {PAWN_objective}.\n\nAre you sure? -->
-  <WarningPawnWillDieFromBloodfeeding>Alimentarse de la sangre de {PAWN_nameDef} lo matará\n\n¿Estás seguro?</WarningPawnWillDieFromBloodfeeding>
+  <WarningPawnWillDieFromBloodfeeding>Chupar sangre de {PAWN_nameDef} {PAWN_objective} matará.\n\n¿Estás seguro?</WarningPawnWillDieFromBloodfeeding>
 
   <!-- EN: {0_labelShort} must have a tendable wound. -->
   <AbilityMustHaveTendableWound>{0_labelShort} debe tener una herida sin atender.</AbilityMustHaveTendableWound>
 
   <!-- Abandon home (including mechs) -->
   <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawnsIncMechs>TODO</ConfirmAbandonHomeWithColonyPawnsIncMechs>
+  <ConfirmAbandonHomeWithColonyPawnsIncMechs>Algunos de tus colonos, animales o mecanoides están en esta zona. ¿Estás seguro de que quieres abandonarla?\n\nLas siguientes personas, animales y mecas se quedarán atrás:\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs>
 
 </LanguageData>
