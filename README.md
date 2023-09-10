@@ -6,7 +6,7 @@ Consulta esta página para obtener información sobre la licencia e información
 
 
 ---
-### Para una mejor comunicación entra al Discord de traducción: [Team Facción Latina](https://discord.gg/EjK52KM) (Actualizado el 19/07/2022) 
+### Para una mejor comunicación entra al Discord de traducción: [Facción Hispana](https://discord.gg/EjK52KM) (Actualizado el 10/09/2023) 
 
 ---
 ### Instalación de las últimas traducciones
@@ -17,10 +17,11 @@ Cada vez que el juego se actualiza, Ludeon coge los archivos de los repositorios
 Si queréis actualizar las traducciones a las más recientes, de forma semi-automática; seguid [esta guía](Instalar/InstallGuide.md).
 
 ---
-### Generar **Backstories.xml**:
-Generar nuevos `Backstories.xml`: Desde el menú principal => Debug Actions => Write Backstory Translation File
+### Limpiar **archivos de traducción**:
+Con cada actualización del juego, es necesario limpiar los archivos del repositorio para que el juego implemente y actualice los cambios sobre nuestra traducción y poder trabajar sobre ello. 
+Esto es tan sencillo como acceder a la carpeta `\Languages\` de cada DLC y extraer los archivos de la traducción en una carpeta con el mismo nombre, para luego borrar el comprimido. Una vez extraídos todos los archivos de todos los DLC **y sin que tengamos mods cargados en el juego** hacemos clic en "Limpiar archivos de traducción", que se mostrará en la parte inferior del cuadro de traductores de la izquierda, y se actualizará.
 
-Nota: El archivo generado estará con un formato bastante desagradable con el que trabajar. Es recomendable "Limpiar archivos de traducción".
+Tras actualizarlo en el juego, hacemos los pasos a la inversa; movemos los archivos de traducción del juego a los del repositorio para subir los cambios actualizados.
 
 ---
 ## Lista  traductores:

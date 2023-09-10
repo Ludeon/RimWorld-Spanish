@@ -560,6 +560,10 @@
   <Size>tamaño</Size>
   <!-- EN: cost -->
   <Cost>coste</Cost>
+  <!-- EN: Title -->
+  <BackstoryTitle>TODO</BackstoryTitle><!-- text_todo -->
+  <!-- EN: person -->
+  <Person>persona</Person>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -1250,6 +1254,8 @@
   <ShipReportHibernating>Componente hibernando</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>El componente aún no está listo</ShipReportNotReady>
+  <!-- EN: No settlement to return to. Form a settlement first. -->
+  <ShipNoSettlementToReturnTo>TODO</ShipNoSettlementToReturnTo> <!-- text_todo -->
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>&lt;Name>Charlon Whitestone&lt;/Name> está listo para iniciar la secuencia de recuperación de la hibernación del reactor.\n\nTe advierte que el proceso llevará alrededor de 15 días, y la huella de energía será detectable desde una gran distancia. Este tipo de huella de energía indica capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y mortíferos mecanoides.\n\nSerás asaltado con una intensidad como nunca has visto. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1808,8 +1814,11 @@
   <!-- EN: Cancel planting the {0_label}. -->
   <CancelPlantThingDesc>Cancelar plantación de {0_label}</CancelPlantThingDesc>
 
-  <!-- UNUSED -->
-  <PawnMainDescTempFactionedWrap>{0} bajo {1}\nFacción original: {2}</PawnMainDescTempFactionedWrap>
-  <AverageCaravanMemberMoveSpeed>Velocidad media de movimiento por persona</AverageCaravanMemberMoveSpeed>
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>otro evento está en progreso.</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>El siguiente discurso está listo en</AbilitySpeechCooldown>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>Iniciado en</AbilitySpeechTargetsLabel>
 
 </LanguageData>
