@@ -122,7 +122,19 @@
     <li>released->then turned away and let [RECIPIENT_objective] leave the colony.</li>
     <li>released->before letting [RECIPIENT_objective] go to live in freedom.</li>
   -->
-  <ReleaseToWild.logRulesInitiator.rulesStrings>TODO</ReleaseToWild.logRulesInitiator.rulesStrings>
+  <ReleaseToWild.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[farewell] [released]</li>
+    <li>farewell->[INITIATOR_nameDef] acaricio con cuidado [RECIPIENT_nameDef] por última vez</li>
+    <li>farewell->[INITIATOR_nameDef] dijo unas palabras cariñosas a [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] elimino el collar de [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] rememoró los buenos momentos que [INITIATOR_pronoun] pasó con [RECIPIENT_nombreDef].</li>
+    <li>released->y liberó a [RECIPIENT_objective] en la naturaleza.</li>
+    <li>released->y dejó a [RECIPIENT_objective] en libertad.</li>
+    <li>released->y envió a [RECIPIENT_objective] fuera.</li>
+    <li>released->y dejó que [RECIPIENT_objective] se vaya.</li>
+    <li>released->luego se dio la vuelta y dejó que [RECIPIENT_objective] abandonara la colonia.</li>
+    <li>released->antes de dejar que [RECIPIENT_objective] se vaya a vivir en libertad.</li>
+    </ReleaseToWild.logRulesInitiator.rulesStrings>
   
   <!-- EN: tame attempt -->
   <TameAttempt.label>intento de domesticación</TameAttempt.label>
