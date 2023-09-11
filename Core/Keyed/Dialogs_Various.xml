@@ -42,7 +42,7 @@
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
   <GameUpdatedToNewVersionSteam>Si deseas continuar con la versión anterior, puedes optar por usar la opción de "Betas" de Steam.\n\n  1. En la librería de Steam, haz click derecho en Rimworld.\n  2. Da click en propiedades.\n  3. Selecciona la pestaña de betas.\n  4. Selecciona la versión que desees del menú.\n\nLas versiones antiguas se irán borrando de la lista con el tiempo. No queríamos destruir partidas en progreso.\n\nToma nota de que si los autores de un mod lo actualizan a una versión nueva, probablemente deje de funcionar para las anteriores. Podrías querer apagar las actualizaciones automáticas para prevenirlo.</GameUpdatedToNewVersionSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature. -->
-  <GameUpdatedToNewVersionSteamController>TODO</GameUpdatedToNewVersionSteamController>
+  <GameUpdatedToNewVersionSteamController>Si quieres seguir utilizando versiones antiguas, puedes utilizar la función "Betas" de Steam.</GameUpdatedToNewVersionSteamController>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
@@ -234,11 +234,11 @@
 
   <!-- Confirm reset learning helper -->
   <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
-  <ConfirmResetLearningHelper>TODO</ConfirmResetLearningHelper>
+  <ConfirmResetLearningHelper>¿Estás seguro de que quieres reestablecer el ayudante de aprendizaje?\n\nTodos los registros de los conceptos que hayas aprendido se borrarán y el sistema te explicará todo de nuevo.</ConfirmResetLearningHelper>
 
   <!-- Backstory translation restart dialog -->
   <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
-  <RestartAfterImportingLegacyBackstoryTanslations>TODO</RestartAfterImportingLegacyBackstoryTanslations>
+  <RestartAfterImportingLegacyBackstoryTanslations>Los trasfondos ahora se han implementado como definiciones y todas las traducciones originales de trasfondos se han importado. El archivo {0} se ha importado y movido a {1}. Ahora puedes eliminarlo.\n\nReinicia el juego para aplicar los cambios.</RestartAfterImportingLegacyBackstoryTanslations>
 
   <!-- Game start -->
   <!-- EN: Must include exactly {SUMMARY} -->
@@ -540,7 +540,7 @@
   <NuzzleIntervalExplanation>Con qué frecuencia aproximada un animal acaricia a los colonos amigos.\n\nAcariciar es un comportamiento que comparten muchas especies de animales, donde el animal presiona su hocico contra un amigo como signo de afecto. La mayoría de los humanos encuentran esto adorable y los dejará de buen humor durante un período de tiempo.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Probabilidad de venganza por daño</HarmedRevengeChance>
-  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
+  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
   <HarmedRevengeChanceExplanation>La probabilidad de que esta criatura busque venganza por haber sido dañada por un atacante a alcance de rifle.\n\nEsta probabilidad aumenta si el atacante está más cerca. Si es atacado a muy corta distancia, la probabilidad es tres veces mayor.\n\nEsta probabilidad se aplica cada vez que se produce un daño, por lo que es menos probable que las armas que disparan más lentamente y causan más daño lo activen.\n\nPara minimizar la posibilidad de que una criatura busque venganza, atácala a larga distancia con un arma de baja cadencia de tiro.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>La probabilidad de venganza en un fracaso al domesticar</TameFailedRevengeChance>
@@ -1011,7 +1011,7 @@
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
-  <DefaultMedicineSettings>TODO</DefaultMedicineSettings>
+  <DefaultMedicineSettings>Ajustes predeterminados de medicina</DefaultMedicineSettings>
   <!-- EN: Defaults -->
   <MedGroupDefaults>Predeter.</MedGroupDefaults>
   <!-- EN: Colonist -->
@@ -1065,7 +1065,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>¿Estás seguro de que deseas limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto hará lo siguiente:\n  - Añadir traducciones temporales (etiqueta contiene "TODO") para los textos "no implementados" en de las carpetas "Keyed", "DefInjected" y "Backstories".\n  - Agregar o actualizar comentarios que contengan los textos originales sin traducir.\n  - Mover todas las traducciones de las carpetas "keyed" y "de-injected" a los archivos XML apropiados.\n  - Aplicar formato automático a todos los archivos XML.\n  - Actualizar nombres de definiciones retro-compatibles.\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa).\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerda reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrese de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>¿Estás seguro de que quieres limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto hará lo siguiente:\n  - Añadir traducciones temporales (etiqueta contiene "TODO") para los textos "no implementados" en de las carpetas "Keyed" y "DefInjected".\n  - Agregar o actualizar comentarios que contengan los textos originales sin traducir.\n  - Mover todas las traducciones de las carpetas "keyed" y "Definjected" a los archivos XML apropiados.\n  - Aplicar formato automático a todos los archivos XML.\n  - Actualizar nombres de definiciones retro-compatibles.\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa).\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerda reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrate de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sí, tengo una copia de seguridad</ConfirmCleanupTranslationFiles_Confirm>
 
@@ -1079,7 +1079,7 @@
 
   <!-- Abilities -->
   <!-- EN: Cannot use {0} -->
-  <CannotUseAbility>TODO</CannotUseAbility>
+  <CannotUseAbility>No puede usar {0}</CannotUseAbility>
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Linea de visión requerida</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
@@ -1127,7 +1127,7 @@
   <!-- EN: {0_labelShort} is too young. -->
   <AbilityCantApplyTooYoung>{0_labelShort} es muy joven.</AbilityCantApplyTooYoung>
   <!-- EN: Cannot target a baby. -->
-  <AbilityCantApplyOnBaby>TODO</AbilityCantApplyOnBaby>
+  <AbilityCantApplyOnBaby>No puede atacar a un bebé.</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Coste de psi-foco por nivel de colapso mental</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
@@ -1259,7 +1259,7 @@
   <RoomRequirementNoAltars>no se permiten altares</RoomRequirementNoAltars>
 
   <!-- EN: Lifestage max food factor -->
-  <LifeStageMaxFood>TODO</LifeStageMaxFood>
+  <LifeStageMaxFood>Factor alimentario máximo</LifeStageMaxFood>
 
   <!-- EN: Expand all -->
   <ExpandAllCategories>Expandir todo</ExpandAllCategories>
@@ -1288,11 +1288,11 @@
   <!-- EN: sat -->
   <Saturation>saturación</Saturation>
   <!-- EN: value -->
-  <Value>Valor</Value>
+  <ColorValue>valor</ColorValue>
   <!-- EN: darklight -->
-  <Darklight>TODO</Darklight>
+  <Darklight>luz oscura</Darklight>
   <!-- EN: not darklight -->
-  <NotDarklight>TODO</NotDarklight>
+  <NotDarklight>luz normal</NotDarklight>
   <!-- EN: current color -->
   <CurrentColor>color actual</CurrentColor>
   <!-- EN: old color -->
@@ -1310,28 +1310,16 @@
   <!-- EN: Color copied to clipboard. -->
   <ColorCopiedSuccessfully>Color copiado al portapapeles.</ColorCopiedSuccessfully>
   <!-- EN: Updated color from the clipboard. -->
-  <ColorPastedSuccessfully>TODO</ColorPastedSuccessfully>
+  <ColorPastedSuccessfully>Color actualizado desde el portapapeles.</ColorPastedSuccessfully>
   <!-- EN: Change to normal light -->
-  <ToggleDarklightOff>TODO</ToggleDarklightOff>
+  <ToggleDarklightOff>Cambiar a luz normal</ToggleDarklightOff>
   <!-- EN: Change the light color to its normal color. -->
-  <ToggleDarklightOffDesc>TODO</ToggleDarklightOffDesc>
+  <ToggleDarklightOffDesc>Cambia el color de la luz al normal.</ToggleDarklightOffDesc>
   <!-- EN: Change to darklight -->
-  <ToggleDarklightOn>TODO</ToggleDarklightOn>
+  <ToggleDarklightOn>Cambiar a luz oscura</ToggleDarklightOn>
   <!-- EN: Change the light color to darklight. -->
-  <ToggleDarklightOnDesc>TODO</ToggleDarklightOnDesc>
+  <ToggleDarklightOnDesc>Cambia el color de la luz a oscuro</ToggleDarklightOnDesc>
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
-  <ColorTemperatureTooltip>TODO</ColorTemperatureTooltip>
-
-  <!-- UNUSED -->
-  <BillRequiresNutrition>Requiere {0} de nutrición</BillRequiresNutrition>
-  <AnimalFilthRate>Tasa de suciedad animal</AnimalFilthRate>
-  <AnimalFilthRateExplanation>Los animales producen suciedad al moverse por suelos construidos. Esta es la cantidad promedio de suciedad producida por cada {0} casillas pisadas por esta criatura.\n\nLos animales más grandes o menos domesticables producen más suciedad.</AnimalFilthRateExplanation>
-  <FoodAndMedicineTab>Comida y medicina</FoodAndMedicineTab>
-  <CaravanPawnIsUnreachable>{1_labelShort} es inalcanzable para cualquiera de los colonos asignados..</CaravanPawnIsUnreachable>
-  <AutomaticallySelectFoodAndMedicine>Seleccionar comida y medicina automáticamente</AutomaticallySelectFoodAndMedicine>
-  <SocialDrugs>Drogas sociales</SocialDrugs>
-  <NoDrugs>Sin drogas</NoDrugs>
-  <OneDrinkPerDay>Una bebida al día</OneDrinkPerDay>
-  <Unrestricted>Sin restricción</Unrestricted>
+  <ColorTemperatureTooltip>Escoge un color mediante la temperatura de color. Nota: Esto solo afecta al color visual, no al calor.</ColorTemperatureTooltip>
 
 </LanguageData>

@@ -546,15 +546,15 @@
   <LetterTextSiteCountdownStarted>Tu caravana ha sido detectada. En {0}, {1} de refuerzo de la facción {2} comenzarán a llegar al area.\n\nReforma tu caravana y empieza a desplazarte para evitar a los refuerzos. Una cuenta atrás hasta el momento de su llegada ahora es visible.</LetterTextSiteCountdownStarted>
 
   <!-- EN: Unwavering prisoner -->
-  <LetterLabelUnrecruitablePawnCaptured>TODO</LetterLabelUnrecruitablePawnCaptured>
+  <LetterLabelUnrecruitablePawnCaptured>Prisionero leal</LetterLabelUnrecruitablePawnCaptured>
   <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
-  <LetterTextUnrecruitablePawnCaptured>TODO</LetterTextUnrecruitablePawnCaptured>
+  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} es sumamente leal a su hogar y se negará a ser reclutado por completo.\n\nPuedes ver si alguien es leal seleccionándolo.</LetterTextUnrecruitablePawnCaptured>
   <!-- EN: enslave {PAWN_objective} -->
   <OptionalEnslaveDesc>esclavizar a {PAWN_objective}</OptionalEnslaveDesc>
 
   <!-- Lung rot -->
   <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
-  <LetterTextLungRot>TODO</LetterTextLungRot>
+  <LetterTextLungRot>{PAWN} ha enfermado de {1} debido a la exposición a los gases putrefactos (que emana de los cadáveres podridos).\n\nAsegúrate de tener una cama médica y un médico. Asegúrate de que {PAWN_definite} recibe un buen tratamiento.</LetterTextLungRot>
 
   <!-- Join Offer -->
   <!-- EN: Join offer: {PAWN_nameDef} -->
@@ -566,11 +566,26 @@
   <!-- EN: Accept -->
   <LetterJoinOfferAccept>Aceptar</LetterJoinOfferAccept>
 
-  <!-- UNUSED -->
-  <LetterLabelSurgeryFailed>La cirujía de {PATIENT_labelShort} ha fallado</LetterLabelSurgeryFailed>
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} ha cometido un error menor mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} ha cometido un error catastrófico mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se ha equivocado de forma ridícula mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} ha cometido un error fatal mientras estaba operando a {PATIENT_labelShort} debido a los desafíos especiales de: {2}</MessageMedicalOperationFailureFatal>
+  <!-- Speeches -->
+  <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
+  <LetterFinishedSpeech>{ORGANIZER_labelShort} ha finalizado su discurso.</LetterFinishedSpeech>
+  <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
+  <LetterTerribleSpeech>Fue francamente terrible – vacilante, lleno de chistes incómodos e historias deprimentes.</LetterTerribleSpeech>
+  <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
+  <LetterUninspiringSpeech>No fue exactamente inspirador – poco original, aburrido y sin ningún indicio de pasión.</LetterUninspiringSpeech>
+  <!-- EN: It was encouraging and well-delivered. -->
+  <LetterEncouragingSpeech>Fue alentador y con una buena presentación.</LetterEncouragingSpeech>
+  <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
+  <LetterInspirationalSpeech>Fue extraordinariamente inspirador, lleno de intensidad y determinación.</LetterInspirationalSpeech>
+  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
+  <LetterSpeechInspiredListeners>Las siguientes personas han sido especialmente conmovidas por el discurso y ahora están inspiradas:</LetterSpeechInspiredListeners>
+  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterSpeechInspiration>Gracias al discurso de {SPEAKER_nameIndef}, ¡{PAWN_nameIndef} se ha inspirado!</LetterSpeechInspiration>
+  <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
+  <LetterSpeechInterrupted>Dado que el discurso fue interrumpido después de {0}, no fue muy efectivo.</LetterSpeechInterrupted>
+  <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
+  <LetterSpeechCancelled>El discurso de {0} fue interrumpido sin siquiera llegar a la mitad. No tuvo ningún efecto.</LetterSpeechCancelled>
+  <!-- EN: Speech cancelled -->
+  <LetterLabelSpeechCancelled>Discurso cancelado</LetterLabelSpeechCancelled>
 
 </LanguageData>

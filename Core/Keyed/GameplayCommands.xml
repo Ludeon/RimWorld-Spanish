@@ -277,7 +277,7 @@
   <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>No quedan {CHARGENOUN_plural}.</CommandReload_NoCharges>
   <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
-  <CommandReload_Cooldown>TODO</CommandReload_Cooldown>
+  <CommandReload_Cooldown>{COOLDOWNGERUND} durante {TIME}.</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
   <CommandReload_NoAmmo>Necesita ser recargado con {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
   
@@ -292,6 +292,8 @@
   <!-- Select mineral to scan for (long-range mineral scanner) -->
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>Sintonizado para</CommandSelectMineralToScanFor>
+  <!-- EN: Select the mineral type to scan for. -->
+  <CommandSelectMineralToScanForDesc>Selecciona el tipo de mineral que escanear</CommandSelectMineralToScanForDesc>
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -305,7 +307,7 @@
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>Forma un grupo de colonos capaz de viajar a nuevas áreas. Los colonos recogerán todos los suministros asignados y los animales y abandonarán la zona actual, aguardando nuevas órdenes.</CommandFormCaravanDesc>
   <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
-  <CommandFormCaravanDescAtSpot>TODO</CommandFormCaravanDescAtSpot>
+  <CommandFormCaravanDescAtSpot>Este punto se utilizará como punto de reunión de caravanas. Todos los animales y los bienes se traerán aquí antes de marchar.</CommandFormCaravanDescAtSpot>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
@@ -567,27 +569,27 @@
   <!-- EN: Select {0_nameDef} -->
   <CommandSelectCarriedPawn>Selecciona {0_nameDef}</CommandSelectCarriedPawn>
   <!-- EN: Select the creature being carried. -->
-  <CommandSelectCarriedPawnDesc>TODO</CommandSelectCarriedPawnDesc>
+  <CommandSelectCarriedPawnDesc>Selecciona la criatura cargada.</CommandSelectCarriedPawnDesc>
   <!-- EN: Select {0_label} -->
   <CommandSelectCarriedThing>Selecciona {0_label}</CommandSelectCarriedThing>
   <!-- EN: Select the carried item. -->
-  <CommandSelectCarriedThingDesc>TODO</CommandSelectCarriedThingDesc>
+  <CommandSelectCarriedThingDesc>Selecciona el item cargado.</CommandSelectCarriedThingDesc>
   <!-- EN: Select {0_label} -->
   <CommandSelectContainerThing>Selecciona {0_label}</CommandSelectContainerThing>
   <!-- EN: Select the containing item. -->
-  <CommandSelectContainerThingDesc>TODO</CommandSelectContainerThingDesc>
+  <CommandSelectContainerThingDesc>Selecciona el item contenido.</CommandSelectContainerThingDesc>
   <!-- EN: Select {0_nameDef} -->
   <CommandSelectCarryingPawn>Selecciona {0_nameDef}</CommandSelectCarryingPawn>
   <!-- EN: Select the carrying creature. -->
-  <CommandSelectCarryingPawnDesc>TODO</CommandSelectCarryingPawnDesc>
+  <CommandSelectCarryingPawnDesc>Selecciona la criatura cargando.</CommandSelectCarryingPawnDesc>
   <!-- EN: Select {0_nameDef} -->
   <CommandSelectContainedPawn>Selecciona {0_nameDef}</CommandSelectContainedPawn>
   <!-- EN: Select the contained creature. -->
-  <CommandSelectContainedPawnDesc>TODO</CommandSelectContainedPawnDesc>
+  <CommandSelectContainedPawnDesc>Selecciona la criatura contenida.</CommandSelectContainedPawnDesc>
   <!-- EN: Select {0_label} -->
   <CommandSelectContainedThing>Selecciona {0_label}</CommandSelectContainedThing>
   <!-- EN: Select the contained item. -->
-  <CommandSelectContainedThingDesc>TODO</CommandSelectContainedThingDesc>
+  <CommandSelectContainedThingDesc>Selecciona el item contenido.</CommandSelectContainedThingDesc>
 
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
@@ -616,27 +618,27 @@
 
   <!-- Storage linking -->
   <!-- EN: Link settings -->
-  <LinkStorageSettings>TODO</LinkStorageSettings>
+  <LinkStorageSettings>Opciones de vinculación</LinkStorageSettings>
   <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
-  <LinkStorageSettingsDesc>TODO</LinkStorageSettingsDesc>
+  <LinkStorageSettingsDesc>Opciones de vinculación de almacenamiento para las construcciones seleccionadas para que puedan compartir sus ajustes de almacenamiento.\n\nEl grupo comenzará con los ajustes de lo que hayas seleccionado primero.</LinkStorageSettingsDesc>
   <!-- EN: You must select two or more buildings to link their storage settings. -->
-  <LinkStorageDisabledSelectTwo>TODO</LinkStorageDisabledSelectTwo>
+  <LinkStorageDisabledSelectTwo>Debes seleccionar dos o más edificios para asociar sus ajustes de almacenamiento.</LinkStorageDisabledSelectTwo>
   <!-- EN: Already linked. -->
-  <AlreadyLinked>TODO</AlreadyLinked>
+  <AlreadyLinked>Ya vinculado.</AlreadyLinked>
   <!-- EN: Unlink settings -->
-  <UnlinkStorageSettings>TODO</UnlinkStorageSettings>
+  <UnlinkStorageSettings>Ajustes de desvinculación</UnlinkStorageSettings>
   <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
-  <UnlinkStorageSettingsDesc>TODO</UnlinkStorageSettingsDesc>
+  <UnlinkStorageSettingsDesc>Desvincula esto de los ajustes de almacenamiento de otros edificios para que sea independiente.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
-  <LinkedStorageSettings>TODO</LinkedStorageSettings>
+  <LinkedStorageSettings>Ajustes de almacenamiento vinculado</LinkedStorageSettings>
   <!-- EN: {0} buildings -->
-  <NumBuildings>TODO</NumBuildings>
+  <NumBuildings>{0} edificios</NumBuildings>
   <!-- EN: Stores -->
-  <StoresThings>TODO</StoresThings>
+  <StoresThings>Contiene</StoresThings>
   <!-- EN: Select all linked -->
-  <SelectAllLinked>TODO</SelectAllLinked>
+  <SelectAllLinked>Seleccionar vinculados</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
-  <SelectAllLinkedDesc>TODO</SelectAllLinkedDesc>
+  <SelectAllLinkedDesc>Selecciona todas las construcciones vinculadas a esta</SelectAllLinkedDesc>
 
   <!-- EN: {0_labelShort} is unconscious. -->
   <CommandDisabledUnconscious>{0_labelShort} está inconsciente.</CommandDisabledUnconscious>
