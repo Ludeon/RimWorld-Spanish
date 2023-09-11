@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: play -->
-  <BabyPlay.label>TODO</BabyPlay.label>
+  <BabyPlay.label>jugar</BabyPlay.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] made [RECIPIENT_nameDef] [reaction].</li>
     <li>r_logentry->[INITIATOR_nameDef] [interaction] [RECIPIENT_nameDef].</li>
@@ -35,10 +35,41 @@
     <li>babyGame->show-and-tell</li>
     <li>babyGame->fingerpuppets</li>
   -->
-  <BabyPlay.logRulesInitiator.rulesStrings>TODO</BabyPlay.logRulesInitiator.rulesStrings>
+  <BabyPlay.logRulesInitiator.rulesStrings>
+   <li>r_logentry->[INITIATOR_nameDef] hizo [reaction] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha [interaction] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha jugado a [babyGame] con [RECIPIENT_nameDef].</li>
+    <li>reaction->carcajear</li>
+    <li>reaction->sonreír</li>
+    <li>reaction->retorcerse de alegría</li>
+    <li>reaction->reír</li>
+    <li>reaction->babear</li>
+    <li>reaction->balbucear</li>
+    <li>reaction->chillar</li>
+    <li>reaction->eructar</li>
+    <li>reaction-> mirar con fascinación</li>
+    <li>interaction->deleitado a</li>
+    <li>interaction->jugado con</li>
+    <li>interaction->entretenido a</li>
+    <li>interaction->divertirdo a</li>
+    <li>interaction->cosquilleado a</li>
+    <li>interaction->amordazado a</li>
+    <li>interaction->husmeado a</li>
+    <li>interaction->abrazado a</li>
+    <li>interaction->lanzado a</li>
+    <li>interaction->cantado< a/li>
+    <li>interaction->contado un cuento a</li>
+    <li>interaction->le hizo un truco de magia a</li>
+    <li>babyGame->escondite pilla pilla</li>
+    <li>babyGame->cucú</li>
+    <li>babyGame->encontrar el dedo</li>
+    <li>babyGame->mono mira mono hace</li>
+    <li>babyGame->muestra y cuenta</li>
+    <li>babyGame->títeres de dedo</li>
+    </BabyPlay.logRulesInitiator.rulesStrings>
   
   <!-- EN: animal lesson -->
-  <LessonAnimals.label>TODO</LessonAnimals.label>
+  <LessonAnimals.label>lección animales</LessonAnimals.label>
   <!-- EN:
     <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] how to [animal_verb] [article_animal] to [RECIPIENT_nameDef].</li>
     <li>article_animal->a megasloth</li>
@@ -67,10 +98,37 @@
     <li>subject->scaria</li>
     <li>subject->kibble</li>
   -->
-  <LessonAnimals.logRulesInitiator.rulesStrings>TODO</LessonAnimals.logRulesInitiator.rulesStrings>
+  <LessonAnimals.logRulesInitiator.rulesStrings>
+  <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] a [RECIPIENT_nameDef] cómo [animal_verb] [article_animal].</li>
+    <li>article_animal->un megaperezoso</li>
+    <li>article_animal->una megaraña</li>
+    <li>article_animal->un thrumbo</li>
+    <li>article_animal->una rata-bum</li>
+    <li>article_animal->una chinchilla</li>
+    <li>article_animal->una cobaya</li>
+    <li>article_animal->una cobra</li>
+    <li>article_animal->un emú</li>
+    <li>article_animal->una iguana</li>
+    <li>article_animal->un mapache</li>
+    <li>article_animal->un wargo</li>
+    <li>article_animal->un yak</li>
+    <li>article_animal->una ardilla</li>
+    <li>article_animal->un múfalo</li>
+    <li>animal_verb->domar</li>
+    <li>animal_verb->alimentar</li>
+    <li>animal_verb->calmar</li>
+    <li>animal_verb->espiar</li>
+    <li>animal_verb->ganarse la confianza de</li>
+    <li>subject->psicología animal</li>
+    <li>subject->técnicas de doma</li>
+    <li>subject->fauna peligrosa</li>
+    <li>subject->reptiles</li>
+    <li>subject->escaria</li>
+    <li>subject->pienso</li>
+    </LessonAnimals.logRulesInitiator.rulesStrings>
   
   <!-- EN: art lesson -->
-  <LessonArtistic.label>TODO</LessonArtistic.label>
+  <LessonArtistic.label>lección de arte</LessonArtistic.label>
   <!-- EN:
     <li>article_tool->a paint brush</li>
     <li>article_tool->a charcoal pencil</li>
@@ -91,10 +149,29 @@
     <li>subject->abstract art</li>
     <li>subject->mixing paints</li>
   -->
-  <LessonArtistic.logRulesInitiator.rulesStrings>TODO</LessonArtistic.logRulesInitiator.rulesStrings>
+  <LessonArtistic.logRulesInitiator.rulesStrings>
+  <li>article_tool->un pincel</li>
+    <li>article_tool->un lápiz</li>
+    <li>article_tool->un cincel</li>
+    <li>article_tool->un lienzo</li>
+    <li>article_tool->un trozo de arcilla</li>
+    <li>action->hacer arte con</li>
+    <li>action->usar</li>
+    <li>action->expresarse con</li>
+    <li>action_gerund->haciendo arte con</li>
+    <li>action_gerund->usando</li>
+    <li>action_gerund->expresandose con</li>
+    <li>subject->materiales de escultura</li>
+    <li>subject->artistas famosos</li>
+    <li>subject->pinturas famosas</li>
+    <li>subject->galerias de Mundobrillante</li>
+    <li>subject->retrato</li>
+    <li>subject->arte abstracto</li>
+    <li>subject->mezclando pinturas</li>
+    </LessonArtistic.logRulesInitiator.rulesStrings>
   
   <!-- EN: construction lesson -->
-  <LessonConstruction.label>TODO</LessonConstruction.label>
+  <LessonConstruction.label>lección de construcción</LessonConstruction.label>
   <!-- EN:
     <li>article_tool->a hammer</li>
     <li>article_tool->a table saw</li>
@@ -114,10 +191,28 @@
     <li>subject->modeling software</li>
     <li>subject->blueprints</li>
   -->
-  <LessonConstruction.logRulesInitiator.rulesStrings>TODO</LessonConstruction.logRulesInitiator.rulesStrings>
+  <LessonConstruction.logRulesInitiator.rulesStrings>
+  <li>article_tool->un martillo</li>
+    <li>article_tool->una sierra de mesa</li>
+    <li>article_tool->una regla</li>
+    <li>article_tool->una escalera</li>
+    <li>article_tool->un nivel</li>
+    <li>action->usar</li>
+    <li>action->trabajar con</li>
+    <li>action->inspeccionar</li>
+    <li>action_gerund->usando</li>
+    <li>action_gerund->trabajando con</li>
+    <li>action_gerund->inspeccionando</li>
+    <li>subject->arquitectura</li>
+    <li>subject->técnicas de construcción</li>
+    <li>subject->técnicas de deconstrucción</li>
+    <li>subject->materiales de construcción</li>
+    <li>subject->software de modelado</li>
+    <li>subject->planos</li>
+    </LessonConstruction.logRulesInitiator.rulesStrings>
   
   <!-- EN: cooking lesson -->
-  <LessonCooking.label>TODO</LessonCooking.label>
+  <LessonCooking.label>lección de cocina</LessonCooking.label>
   <!-- EN:
     <li>article_tool->a stove</li>
     <li>article_tool->a spatula</li>
@@ -140,10 +235,31 @@
     <li>situation->in a hurry</li>
     <li>situation->safely</li>
   -->
-  <LessonCooking.logRulesInitiator.rulesStrings>TODO</LessonCooking.logRulesInitiator.rulesStrings>
+  <LessonCooking.logRulesInitiator.rulesStrings>
+  <li>article_tool->una estufa</li>
+    <li>article_tool->una espátula</li>
+    <li>article_tool->un horno</li>
+    <li>article_tool->una cacerola</li>
+    <li>article_tool->un dispensador de pasta nutritiva</li>
+    <li>article_tool->una mesa de carnicero</li>
+    <li>action->limpiar</li>
+    <li>action->cocinar con</li>
+    <li>action_gerund->limpiando</li>
+    <li>action_gerund->cocinando con</li>
+    <li>subject->especias</li>
+    <li>subject->comidas de supervivencia envasadas</li>
+    <li>subject->variedades de huevos</li>
+    <li>subject->variedades de carnes</li>
+    <li>subject->sabores</li>
+    <li>subject->recetas</li>
+    <li>situation->en caravana</li>
+    <li>situation->con los ojos vendados</li>
+    <li>situation->ten prisa</li>
+    <li>situation->con seguridad</li>
+    </LessonCooking.logRulesInitiator.rulesStrings>
   
   <!-- EN: crafting lesson -->
-  <LessonCrafting.label>TODO</LessonCrafting.label>
+  <LessonCrafting.label>lección de elaboración</LessonCrafting.label>
   <!-- EN:
     <li>article_tool->a screwdriver</li>
     <li>article_tool->a pair of pliers</li>
@@ -170,17 +286,42 @@
     <li>situation->by candlelight</li>
     <li>situation(p=0.1)->while drunk</li>
   -->
-  <LessonCrafting.logRulesInitiator.rulesStrings>TODO</LessonCrafting.logRulesInitiator.rulesStrings>
+  <LessonCrafting.logRulesInitiator.rulesStrings>
+  <li>article_tool->un destornillador</li>
+    <li>article_tool->un par de alicates</li>
+    <li>article_tool->una placa de circuito</li>
+    <li>article_tool->un banco de sastre</li>
+    <li>article_tool->una mesa de mecanizado</li>
+    <li>article_tool->un fabricante</li>
+    <li>action->usar</li>
+    <li>action->trabajar con</li>
+    <li>action->inspeccionar</li>
+    <li>action_gerund->usando</li>
+    <li>action_gerund->trabajando con</li>
+    <li>action_gerund->inspeccionando</li>
+    <li>subject->herramientas de organización</li>
+    <li>subject->logros de construcción</li>
+    <li>subject->artilugios</li>
+    <li>subject->variedades de tela</li>
+    <li>subject->tecnicas de tejido de telas</li>
+    <li>subject->armadura de placas</li>
+    <li>subject->cinturones de seguridad</li>
+    <li>subject->biónica</li>
+    <li>situation->con seguridad</li>
+    <li>situation->sin instrucciones</li>
+    <li>situation->a la luz de las velas</li>
+    <li>situation(p=0.1)->en estado de ebriedad</li>
+    </LessonCrafting.logRulesInitiator.rulesStrings>
   
   <!-- EN: lesson -->
-  <LessonGeneric.label>TODO</LessonGeneric.label>
+  <LessonGeneric.label>Lección</LessonGeneric.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
   -->
-  <LessonGeneric.logRulesInitiator.rulesStrings>TODO</LessonGeneric.logRulesInitiator.rulesStrings>
+  <LessonGeneric.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef] le enseñó una lección a [RECIPIENT_nameDef]</li></LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
-  <LessonIntellectual.label>TODO</LessonIntellectual.label>
+  <LessonIntellectual.label>lección intelectual</LessonIntellectual.label>
   <!-- EN:
     <li>subject->genetics</li>
     <li>subject->techprints</li>
@@ -195,10 +336,23 @@
     <li>subject->seminal whitepapers</li>
     <li>subject->Johnson-Tanaka propulsion</li>
   -->
-  <LessonIntellectual.logRulesInitiator.rulesStrings>TODO</LessonIntellectual.logRulesInitiator.rulesStrings>
+  <LessonIntellectual.logRulesInitiator.rulesStrings>
+  <li>subject->genética</li>
+    <li>subject->tecno-planos</li>
+    <li>subject->funciones multi-analizador</li>
+    <li>subject->filosofía</li>
+    <li>subject->matemáticas</li>
+    <li>subject->biología</li>
+    <li>subject->química</li>
+    <li>subject->misterios arqueotécnico</li>
+    <li>subject->reactores de naves estelares</li>
+    <li>subject->el método científico</li>
+    <li>subject->libro en blanco trascendental</li>
+    <li>subject->propulsión Johnson-Tanaka</li>
+    </LessonIntellectual.logRulesInitiator.rulesStrings>
   
   <!-- EN: medical lesson -->
-  <LessonMedicine.label>TODO</LessonMedicine.label>
+  <LessonMedicine.label>lección médica</LessonMedicine.label>
   <!-- EN:
     <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] how to [medical_verb] [hediff] to [RECIPIENT_nameDef].</li>
     <li>article_tool->a medicine pack</li>
@@ -233,10 +387,43 @@
     <li>subject->bedside manner</li>
     <li>subject->sterilization methods</li>
   -->
-  <LessonMedicine.logRulesInitiator.rulesStrings>TODO</LessonMedicine.logRulesInitiator.rulesStrings>
+  <LessonMedicine.logRulesInitiator.rulesStrings>
+  <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] a [RECIPIENT_nameDef] a cómo [medical_verb] [hediff].</li>
+    <li>article_tool->un paquete de medicamentos</li>
+    <li>article_tool->un vendaje</li>
+    <li>article_tool->una jeringuilla</li>
+    <li>article_tool->una planta de raíz curativa</li>
+    <li>article_tool->un monitor de signos vitales</li>
+    <li>article_tool->un bisturí</li>
+    <li>article_tool->una dosis de suero mecánico sanador</li>
+    <li>article_tool->un remedio</li>
+    <li>action->usar</li>
+    <li>action->inspeccionar</li>
+    <li>action_gerund->usado</li>
+    <li>action_gerund->inspeccionado</li>
+    <li>hediff->pérdida de sangre</li>
+    <li>hediff->un ataque al corazón</li>
+    <li>hediff->insolació</li>
+    <li>hediff->intoxicación alimentaria</li>
+    <li>hediff->carcinoma</li>
+    <li>hediff->gusanos intestinales</li>
+    <li>hediff->parásitos musculares</li>
+    <li>hediff->abasia paralítica</li>
+    <li>hediff->malaria</li>
+    <li>hediff->la gripe</li>
+    <li>hediff->cirrosis</li>
+    <li>medical_verb->diagnosticar</li>
+    <li>medical_verb->triaje</li>
+    <li>medical_verb->tratar</li>
+    <li>subject->dosificacion de anestesia</li>
+    <li>subject->tipos de cáncer</li>
+    <li>subject->procedimientos quirúrgicos</li>
+    <li>subject->comprtamientojunto a los pacientes</li>
+    <li>subject->métodos de esterilización</li>
+    </LessonMedicine.logRulesInitiator.rulesStrings>
   
   <!-- EN: melee lesson -->
-  <LessonMelee.label>TODO</LessonMelee.label>
+  <LessonMelee.label>lección de pelea</LessonMelee.label>
   <!-- EN:
     <li>article_tool->an axe</li>
     <li>article_tool->a club</li>
@@ -263,10 +450,35 @@
     <li>action_gerund->using</li>
     <li>action_gerund->swinging</li>
   -->
-  <LessonMelee.logRulesInitiator.rulesStrings>TODO</LessonMelee.logRulesInitiator.rulesStrings>
+  <LessonMelee.logRulesInitiator.rulesStrings>
+  <li>article_tool->un hacha</li>
+    <li>article_tool->una porra</li>
+    <li>article_tool->una espada</li>
+    <li>article_tool->una cuchilla de codo</li>
+    <li>article_tool->un espolón</li>
+    <li>article_tool->una espada larga</li>
+    <li>article_tool->una mono-espada</li>
+    <li>article_tool->una espalda de plasma</li>
+    <li>article_tool->una lanza</li>
+    <li>article_tool->una maza</li>
+    <li>article_tool->un martillo de guerra</li>
+    <li>article_tool->un puño</li>
+    <li>action->bloquear</li>
+    <li>action->luchar contra</li>
+    <li>action->contraataque</li>
+    <li>action->preoucparse por</li>
+    <li>action->usar</li>
+    <li>action->equilibrarse</li>
+    <li>action_gerund->bloquear</li>
+    <li>action_gerund->luchando contra</li>
+    <li>action_gerund->contrarrestar</li>
+    <li>action_gerund->cuidar</li>
+    <li>action_gerund->usando</li>
+    <li>action_gerund->equilibrio</li>
+    </LessonMelee.logRulesInitiator.rulesStrings>
   
   <!-- EN: mining lesson -->
-  <LessonMining.label>TODO</LessonMining.label>
+  <LessonMining.label>lección de minería</LessonMining.label>
   <!-- EN:
     <li>article_tool->a pickaxe</li>
     <li>article_tool->a deep drill</li>
