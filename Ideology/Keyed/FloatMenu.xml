@@ -14,9 +14,9 @@
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
   <CantStartRitualRoleNotAssigned>TODO</CantStartRitualRoleNotAssigned>
   <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
-  <CantStartRitualNoConvertee>TODO</CantStartRitualNoConvertee>
+  <CantStartRitualNoConvertee>No hay nadie para convertir en {0}. Necesitas un colono, prisionero o esclavo de una ideología distinta.</CantStartRitualNoConvertee>
   <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
-  <CantStartRitualSelectedPawnCannotBeRole>TODO</CantStartRitualSelectedPawnCannotBeRole>
+  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} no puede ser {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
   <CantStartRitualSelectedPawnMustBeMember>TODO</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
@@ -26,26 +26,26 @@
   <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
   <CantStartNotEnoughSpaceDuelDuelists>TODO</CantStartNotEnoughSpaceDuelDuelists>
   <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuelSpeaker>TODO</CantStartNotEnoughSpaceDuelSpeaker>
+  <CantStartNotEnoughSpaceDuelSpeaker>No hay suficiente espacio para un altavoz. Debe haber un radio limpio de al menos {MINRADIUS}.</CantStartNotEnoughSpaceDuelSpeaker>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
-  <CantStartFuneralForSlave>TODO</CantStartFuneralForSlave>
+  <CantStartFuneralForSlave>{0_labelShort} es un esclavo. Los esclavos no tienen funerales.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
   <NoSlaveBed>TODO</NoSlaveBed>
   <!-- EN: Return to slave bed -->
-  <ReturnToSlaveBed>TODO</ReturnToSlaveBed>
+  <ReturnToSlaveBed>Regreso a la cama de esclavo</ReturnToSlaveBed>
   <!-- EN: not allowed for faction -->
-  <NotAllowedForFaction>TODO</NotAllowedForFaction>
+  <NotAllowedForFaction>no permitido por facción</NotAllowedForFaction>
 
   <!-- EN: Remove -->
   <Remove>Quitar</Remove>
   <!-- EN: Remove precept -->
-  <RemovePrecept>TODO</RemovePrecept>
+  <RemovePrecept>Quitar precepto</RemovePrecept>
   <!-- EN: Regenerate -->
   <Regenerate>Regenerar</Regenerate>
   <!-- EN: Cannot edit -->
-  <CannotEdit>TODO</CannotEdit>
+  <CannotEdit>Imposible editar</CannotEdit>
   <!-- EN: No choices available -->
-  <NoChoicesAvailable>TODO</NoChoicesAvailable>
+  <NoChoicesAvailable>No hay elecciones disponibles</NoChoicesAvailable>
   <!-- EN: Required by meme {0} -->
   <RequiredByMeme>TODO</RequiredByMeme>
   <!-- EN: Required -->
@@ -55,21 +55,21 @@
   <!-- EN: Add style category -->
   <AddStyleCategory>Añadir una categoría de estilo</AddStyleCategory>
   <!-- EN: Can't add more than {0} rituals. -->
-  <MaxRitualCount>TODO</MaxRitualCount>
+  <MaxRitualCount>No se pueden añadir más de {0} rituales.</MaxRitualCount>
   <!-- EN: Can't add more than {0} relics. -->
-  <MaxRelicCount>TODO</MaxRelicCount>
+  <MaxRelicCount>No se pueden añadir más de {0} reliquias.</MaxRelicCount>
   <!-- EN: can't have more than {0} specialists. -->
-  <MaxMultiRolesCount>TODO</MaxMultiRolesCount>
+  <MaxMultiRolesCount>no se pueden tener más de {0} especialistas.</MaxMultiRolesCount>
   <!-- EN: max {0} -->
-  <MaxPreceptCount>TODO</MaxPreceptCount>
+  <MaxPreceptCount>máximo {0}</MaxPreceptCount>
   <!-- EN: Set gender -->
   <SetTargetGender>Seleccionar género</SetTargetGender>
   <!-- EN: must be {0} faction -->
-  <RoleApparelRequirementIncompatibleFaction>TODO</RoleApparelRequirementIncompatibleFaction>
+  <RoleApparelRequirementIncompatibleFaction>debe ser de facción {0}</RoleApparelRequirementIncompatibleFaction>
   <!-- EN: tribal -->
   <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>tribal</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
   <!-- EN: non-tribal -->
-  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>TODO</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>no tribal</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
   <!-- EN: requires any of these memes -->
   <RoleApparelRequirementIncompatibleAnyMemeRequired>TODO</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
@@ -77,7 +77,7 @@
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
   <NoteRoleApparelRequirementEffects>TODO</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
-  <NeuralSuperchargeNotReady>TODO</NeuralSuperchargeNotReady>
+  <NeuralSuperchargeNotReady>supercarga no lista</NeuralSuperchargeNotReady>
   <!-- EN: already getting -->
   <NeuralSuperchargeAlreadyGetting>TODO</NeuralSuperchargeAlreadyGetting>
   <!-- EN: Set type -->
@@ -88,11 +88,11 @@
   <!-- EN: {0} {DEITYNOUN} required -->
   <DeitiesRequired>TODO</DeitiesRequired>
   <!-- EN: deity -->
-  <Deity>TODO</Deity>
+  <Deity>deidad</Deity>
   <!-- EN: requires meme -->
   <RequiresMeme>TODO</RequiresMeme>
   <!-- EN: requires one of -->
-  <RequiresOneOfMemes>TODO</RequiresOneOfMemes>
+  <RequiresOneOfMemes>requiere uno de</RequiresOneOfMemes>
   <!-- EN: conflicts with meme -->
   <ConflictsWithMeme>TODO</ConflictsWithMeme>
   <!-- EN: conflicts with memes -->
@@ -103,15 +103,15 @@
   <RecolorApparel>TODO</RecolorApparel>
 
   <!-- EN: Hack {0} -->
-  <Hack>TODO</Hack>
+  <Hack>Piratear</Hack>
   <!-- EN: Cannot hack {0} -->
-  <CannotHack>TODO</CannotHack>
+  <CannotHack>Imposible piratear</CannotHack>
   <!-- EN: Already hacked -->
-  <AlreadyHacked>TODO</AlreadyHacked>
+  <AlreadyHacked>Ya pirateado</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>TODO</IncapableOfHacking>
+  <IncapableOfHacking>Incapaz de piratear</IncapableOfHacking>
   <!-- EN: to drop supplies -->
-  <ToDropSupplies>TODO</ToDropSupplies>
+  <ToDropSupplies>para soltar suministros</ToDropSupplies>
 
   <!-- EN: Install {0} -->
   <InstallRelic>Instalar {0}</InstallRelic>
@@ -120,9 +120,9 @@
   <!-- EN: Extract {0} to inventory ({1}) -->
   <ExtractRelicToInventory>Extraer {0} al inventario ({1})</ExtractRelicToInventory>
   <!-- EN: No relic to install -->
-  <NoRelicToInstall>TODO</NoRelicToInstall>
+  <NoRelicToInstall>No hay reliquia para instalar</NoRelicToInstall>
   <!-- EN: Install in reliquary -->
-  <InstallInReliquary>TODO</InstallInReliquary>
+  <InstallInReliquary>Instalar en reliquia</InstallInReliquary>
   <!-- EN: no empty accessible reliquary -->
   <NoEmptyReliquary>TODO</NoEmptyReliquary>
 
@@ -147,15 +147,15 @@
   <!-- EN: Nutrition not loaded -->
   <BiosculpterNutritionNotLoaded>TODO</BiosculpterNutritionNotLoaded>
   <!-- EN: Occupied -->
-  <BiosculpterOccupied>TODO</BiosculpterOccupied>
+  <BiosculpterOccupied>Ocupado</BiosculpterOccupied>
   <!-- EN: Cannot enter -->
-  <CannotEnter>TODO</CannotEnter>
+  <CannotEnter>No se puede entrar</CannotEnter>
   <!-- EN: Cannot start {0} cycle -->
-  <BiosculpterCannotStartCycle>TODO</BiosculpterCannotStartCycle>
+  <BiosculpterCannotStartCycle>No se puede iniciar el ciclo {0}</BiosculpterCannotStartCycle>
   <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
   <BiosculpterMissingIngredients>TODO</BiosculpterMissingIngredients>
   <!-- EN: Nobody around can use this -->
-  <BiosculpterNoEligiblePawns>TODO</BiosculpterNoEligiblePawns>
+  <BiosculpterNoEligiblePawns>Nadie cercano puede usar esto</BiosculpterNoEligiblePawns>
   <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
   <BiosculpterNoEligiblePawnsBiotuned>TODO</BiosculpterNoEligiblePawnsBiotuned>
   <!-- EN: Auto load nutrition -->
