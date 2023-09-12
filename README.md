@@ -31,7 +31,7 @@ Tras actualizarlo en el juego, hacemos los pasos a la inversa; movemos los archi
 	* [Aser Granado Amores (Xeros08)](https://github.com/Xeros08)
 	* [Franco García (lay)](https://github.com/notfraaan)
 	* [Adolfo (Revan)](https://github.com/revanfischer)
-        * [SpartanEsp](https://github.com/SpartanEsp)
+	* [SpartanEsp](https://github.com/SpartanEsp)
 
 * Colaboradores:
 	* [Álvaro Maldonado Peña (picodepelicano)](https://github.com/picodepelicano)
