@@ -30,6 +30,7 @@ Tras actualizarlo en el juego, hacemos los pasos a la inversa; movemos los archi
 	* [Miguel Angel Farias (Zerstrick)](https://github.com/Zerstrick)
 	* [Aser Granado Amores (Xeros08)](https://github.com/Xeros08)
 	* [Franco García (lay)](https://github.com/notfraaan)
+	* [Adolfo (Revan)](https://github.com/revanfischer)
 
 * Colaboradores:
 	* [Álvaro Maldonado Peña (picodepelicano)](https://github.com/picodepelicano)
