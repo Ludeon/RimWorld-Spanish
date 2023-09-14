@@ -6,7 +6,11 @@
     <li>discoveryDesc(discovered==false)->learned</li>
     <li>discoveryDesc(discovered==true)->determined the location</li>
   -->
-  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+  <li>questDescription->Has [discoveryDesc] de un antiguo complejo cercano que contiene los restos de un mecanizador muerto hace mucho tiempo.\n\nLos mecanizadores pueden crear, controlar y manipular mecanoides para el trabajo y el combate. Si consigues entrar en el complejo y recoger el cadáver del mecanizador, podrás extraer su mecalink y convertir a uno de tus colonos en mecanizador.\NTen cuidado: este tipo de estructuras pueden contener diversas amenazas, y tu actividad en el complejo podría atraer atención no deseada.</li>
+    <li>discoveryDesc(discovered==false)->aprendido</li>
+    <li>discoveryDesc(discovered==true)->localización determinada</li>
+    </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
     <li>questName->mechanitor [complex]</li>
@@ -25,6 +29,23 @@
     <li>complex->mechplex</li>
     <li>complex->mechsite</li>
   -->
-  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+  <li>questName(p=3)->[complexAdj] mecanitor [complex]</li>
+    <li>questName->mecanitor [complex]</li>
+    <li>complexAdj->secreto</li>
+    <li>complexAdj->antiguo</li>
+    <li>complexAdj->viejo</li>
+    <li>complexAdj->escondido</li>
+    <li>complexAdj->polvoriento</li>
+    <li>complexAdj->peligroso</li>
+    <li>complexAdj->escondido</li>
+    <li>complex->complejo</li>
+    <li>complex->guarida</li>
+    <li>complex->base</li>
+    <li>complex->compuesto</li>
+    <li>complex->cripto</li>
+    <li>complex->mecaplex</li>
+    <li>complex->mecasite</li>
+    </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
   
 </LanguageData>
