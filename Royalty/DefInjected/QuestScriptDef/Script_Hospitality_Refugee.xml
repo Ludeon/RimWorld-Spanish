@@ -314,21 +314,23 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-  <li>questDescription->[factionOpponent_nameDef], un [factionOpponent_faction_pawnSingular] de [factionOpponent_faction_name], se ha enterado de que [asker_nameDef] [otherLodgers] [areIs] alojados en [map_definite]. [factionOpponent_pronoun] son enemigos de [asker_nameDef] y [asker_objective] quieren ver muerto.\n\n[factionOpponent_pronoun] te mandará la siguiente recompensa si acabas con todos los miembros de [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
-  <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
-  <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
-  <li>otherLodgers(lodgerCount==1)-></li>
-  <li>otherLodgers(lodgerCount==2)->y otro [lodgersLabel]</li>
-  <li>otherLodgers(lodgerCount>=3)->y varios [lodgersLabelPlural]</li>
-  <li>otherMembers(lodgerCount==1)-></li>
-  <li>otherMembers(lodgerCount>=2)-> and all other members of the [faction_name]</li>
-  <li>areIs(lodgerCount==1)->está</li>
-  <li>areIs(lodgerCount>=2)->están</li>
+    <li>questDescription->[factionOpponent_nameDef], un [factionOpponent_faction_pawnSingular] de [factionOpponent_faction_name], se ha enterado de que [asker_nameDef] [otherLodgers] [areIs] alojados en [map_definite]. [factionOpponent_pronoun] son enemigos de [asker_nameDef] y [asker_objective] quieren ver muerto.\n\n[factionOpponent_pronoun] te mandará la siguiente recompensa si acabas con todos los miembros de [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->y otro [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->y varios [lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)-></li>
+    <li>otherMembers(lodgerCount>=2)-> and all other members of the [faction_name]</li>
+    <li>areIs(lodgerCount==1)->está</li>
+    <li>areIs(lodgerCount>=2)->están</li>
   </RefugeeBetrayal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Betrayal offer: [factionOpponent_nameDef]</li>
   -->
-  <RefugeeBetrayal.questNameRules.rulesStrings><li>questName->Oferta de traición: [factionOpponent_nameDef]</li></RefugeeBetrayal.questNameRules.rulesStrings>
+  <RefugeeBetrayal.questNameRules.rulesStrings>
+    <li>questName->Oferta de traición: [factionOpponent_nameDef]</li>
+  </RefugeeBetrayal.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>rewardLetterLabel->Hospitality reward</li>

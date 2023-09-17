@@ -36,7 +36,7 @@
     <li>babyGame->fingerpuppets</li>
   -->
   <BabyPlay.logRulesInitiator.rulesStrings>
-   <li>r_logentry->[INITIATOR_nameDef] hizo [reaction] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] hizo [reaction] a [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] ha [interaction] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] ha jugado a [babyGame] con [RECIPIENT_nameDef].</li>
     <li>reaction->carcajear</li>
@@ -66,7 +66,7 @@
     <li>babyGame->mono mira mono hace</li>
     <li>babyGame->muestra y cuenta</li>
     <li>babyGame->títeres de dedo</li>
-    </BabyPlay.logRulesInitiator.rulesStrings>
+  </BabyPlay.logRulesInitiator.rulesStrings>
   
   <!-- EN: animal lesson -->
   <LessonAnimals.label>lección animales</LessonAnimals.label>
@@ -99,7 +99,7 @@
     <li>subject->kibble</li>
   -->
   <LessonAnimals.logRulesInitiator.rulesStrings>
-  <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] a [RECIPIENT_nameDef] cómo [animal_verb] [article_animal].</li>
+    <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] a [RECIPIENT_nameDef] cómo [animal_verb] [article_animal].</li>
     <li>article_animal->un megaperezoso</li>
     <li>article_animal->una megaraña</li>
     <li>article_animal->un thrumbo</li>
@@ -125,7 +125,7 @@
     <li>subject->reptiles</li>
     <li>subject->escaria</li>
     <li>subject->pienso</li>
-    </LessonAnimals.logRulesInitiator.rulesStrings>
+  </LessonAnimals.logRulesInitiator.rulesStrings>
   
   <!-- EN: art lesson -->
   <LessonArtistic.label>lección de arte</LessonArtistic.label>
@@ -150,7 +150,7 @@
     <li>subject->mixing paints</li>
   -->
   <LessonArtistic.logRulesInitiator.rulesStrings>
-  <li>article_tool->un pincel</li>
+    <li>article_tool->un pincel</li>
     <li>article_tool->un lápiz</li>
     <li>article_tool->un cincel</li>
     <li>article_tool->un lienzo</li>
@@ -168,7 +168,7 @@
     <li>subject->retrato</li>
     <li>subject->arte abstracto</li>
     <li>subject->mezclando pinturas</li>
-    </LessonArtistic.logRulesInitiator.rulesStrings>
+  </LessonArtistic.logRulesInitiator.rulesStrings>
   
   <!-- EN: construction lesson -->
   <LessonConstruction.label>lección de construcción</LessonConstruction.label>
@@ -192,7 +192,7 @@
     <li>subject->blueprints</li>
   -->
   <LessonConstruction.logRulesInitiator.rulesStrings>
-  <li>article_tool->un martillo</li>
+    <li>article_tool->un martillo</li>
     <li>article_tool->una sierra de mesa</li>
     <li>article_tool->una regla</li>
     <li>article_tool->una escalera</li>
@@ -209,7 +209,7 @@
     <li>subject->materiales de construcción</li>
     <li>subject->software de modelado</li>
     <li>subject->planos</li>
-    </LessonConstruction.logRulesInitiator.rulesStrings>
+  </LessonConstruction.logRulesInitiator.rulesStrings>
   
   <!-- EN: cooking lesson -->
   <LessonCooking.label>lección de cocina</LessonCooking.label>
@@ -236,7 +236,7 @@
     <li>situation->safely</li>
   -->
   <LessonCooking.logRulesInitiator.rulesStrings>
-  <li>article_tool->una estufa</li>
+    <li>article_tool->una estufa</li>
     <li>article_tool->una espátula</li>
     <li>article_tool->un horno</li>
     <li>article_tool->una cacerola</li>
@@ -256,7 +256,7 @@
     <li>situation->con los ojos vendados</li>
     <li>situation->ten prisa</li>
     <li>situation->con seguridad</li>
-    </LessonCooking.logRulesInitiator.rulesStrings>
+  </LessonCooking.logRulesInitiator.rulesStrings>
   
   <!-- EN: crafting lesson -->
   <LessonCrafting.label>lección de elaboración</LessonCrafting.label>
@@ -287,7 +287,7 @@
     <li>situation(p=0.1)->while drunk</li>
   -->
   <LessonCrafting.logRulesInitiator.rulesStrings>
-  <li>article_tool->un destornillador</li>
+    <li>article_tool->un destornillador</li>
     <li>article_tool->un par de alicates</li>
     <li>article_tool->una placa de circuito</li>
     <li>article_tool->un banco de sastre</li>
@@ -311,14 +311,16 @@
     <li>situation->sin instrucciones</li>
     <li>situation->a la luz de las velas</li>
     <li>situation(p=0.1)->en estado de ebriedad</li>
-    </LessonCrafting.logRulesInitiator.rulesStrings>
+  </LessonCrafting.logRulesInitiator.rulesStrings>
   
   <!-- EN: lesson -->
   <LessonGeneric.label>Lección</LessonGeneric.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
   -->
-  <LessonGeneric.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef] le enseñó una lección a [RECIPIENT_nameDef]</li></LessonGeneric.logRulesInitiator.rulesStrings>
+  <LessonGeneric.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] le enseñó una lección a [RECIPIENT_nameDef]</li>
+  </LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
   <LessonIntellectual.label>lección intelectual</LessonIntellectual.label>
@@ -337,7 +339,7 @@
     <li>subject->Johnson-Tanaka propulsion</li>
   -->
   <LessonIntellectual.logRulesInitiator.rulesStrings>
-  <li>subject->genética</li>
+    <li>subject->genética</li>
     <li>subject->tecno-planos</li>
     <li>subject->funciones multi-analizador</li>
     <li>subject->filosofía</li>
@@ -349,7 +351,7 @@
     <li>subject->el método científico</li>
     <li>subject->libro en blanco trascendental</li>
     <li>subject->propulsión Johnson-Tanaka</li>
-    </LessonIntellectual.logRulesInitiator.rulesStrings>
+  </LessonIntellectual.logRulesInitiator.rulesStrings>
   
   <!-- EN: medical lesson -->
   <LessonMedicine.label>lección médica</LessonMedicine.label>
@@ -388,7 +390,7 @@
     <li>subject->sterilization methods</li>
   -->
   <LessonMedicine.logRulesInitiator.rulesStrings>
-  <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] a [RECIPIENT_nameDef] a cómo [medical_verb] [hediff].</li>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] a [RECIPIENT_nameDef] a cómo [medical_verb] [hediff].</li>
     <li>article_tool->un paquete de medicamentos</li>
     <li>article_tool->un vendaje</li>
     <li>article_tool->una jeringuilla</li>
@@ -420,7 +422,7 @@
     <li>subject->procedimientos quirúrgicos</li>
     <li>subject->comprtamientojunto a los pacientes</li>
     <li>subject->métodos de esterilización</li>
-    </LessonMedicine.logRulesInitiator.rulesStrings>
+  </LessonMedicine.logRulesInitiator.rulesStrings>
   
   <!-- EN: melee lesson -->
   <LessonMelee.label>lección de pelea</LessonMelee.label>
@@ -451,7 +453,7 @@
     <li>action_gerund->swinging</li>
   -->
   <LessonMelee.logRulesInitiator.rulesStrings>
-  <li>article_tool->un hacha</li>
+    <li>article_tool->un hacha</li>
     <li>article_tool->una porra</li>
     <li>article_tool->una espada</li>
     <li>article_tool->una cuchilla de codo</li>
@@ -475,7 +477,7 @@
     <li>action_gerund->cuidar</li>
     <li>action_gerund->usando</li>
     <li>action_gerund->equilibrio</li>
-    </LessonMelee.logRulesInitiator.rulesStrings>
+  </LessonMelee.logRulesInitiator.rulesStrings>
   
   <!-- EN: mining lesson -->
   <LessonMining.label>lección de minería</LessonMining.label>
@@ -522,7 +524,7 @@
     <li>subject->análisis de sedimentos</li>
     <li>subject->insectos cavernícolas</li>
     <li>situation(p=2)->bajo tierra</li>
-    </LessonMining.logRulesInitiator.rulesStrings>
+  </LessonMining.logRulesInitiator.rulesStrings>
   
   <!-- EN: gardening lesson -->
   <LessonPlants.label>lección de jardinería</LessonPlants.label>
@@ -563,7 +565,7 @@
     <li>subject->variedades de cactus</li>
     <li>subject->árboles de ánima</li>
     <li>subject->árboles guaranlen</li>
-    </LessonPlants.logRulesInitiator.rulesStrings>
+  </LessonPlants.logRulesInitiator.rulesStrings>
   
   <!-- EN: shooting lesson -->
   <LessonShooting.label>lección de disparo</LessonShooting.label>
@@ -604,7 +606,7 @@
     <li>action_gerund->disparando</li>
     <li>action_gerund->teniendo cuidado</li>
     <li>action_gerund->recargando</li>
-    </LessonShooting.logRulesInitiator.rulesStrings>
+  </LessonShooting.logRulesInitiator.rulesStrings>
   
   <!-- EN: social lesson -->
   <LessonSocial.label>lección social</LessonSocial.label>
@@ -629,7 +631,7 @@
     <li>subject->aumentar la moral</li>
     <li>subject->palabras traviesas</li>
     <li>subject->lenguaje de señas</li>
-    </LessonSocial.logRulesInitiator.rulesStrings>
+  </LessonSocial.logRulesInitiator.rulesStrings>
   
   <!-- EN: sanguophage chat -->
   <SanguophageChat.label>charla sanguífaga</SanguophageChat.label>
