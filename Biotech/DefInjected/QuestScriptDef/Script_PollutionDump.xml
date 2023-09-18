@@ -8,7 +8,7 @@
   <PollutionDump.questContentRules.rulesStrings>
     <li>wastepacksLetterLabel->Llegaron los residuos tóxicos</li>
     <li>wastepacksLetterText->Se han entregado los residuos tóxicos.</li>
-    </PollutionDump.questContentRules.rulesStrings>
+  </PollutionDump.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==True)->A machine persona in an orbiting ship has a special request. She wishes to offload an excess of toxic wastepacks and hopes that you will store them responsibly.\n\nIf you accept, she will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has a special request. [asker_pronoun] has produced an abundance of toxic wastepacks that [asker_pronoun] does not wish to store.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
@@ -18,7 +18,7 @@
     <li>questDescription(askerIsNull==True)->Una persona máquina en una nave en órbita tiene una petición especial. Desea descargar un exceso de residuos tóxicos y espera que los almacenes de forma responsable. Si aceptas, te entregará [wastepackCount] residuos tóxicos en una cápsula de transporte. Si no se mantienen congelados, los residuos tóxicos se disolverán con el tiempo, contaminando el terreno cercano.</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], un [asker_royalTitleInCurrentFaction] de [asker_faction_name] tiene una petición especial. Si aceptas, [asker_nameDef] entregará [wastepackCount] paquetes de residuos tóxicos en una cápsula de transporte. Si no se mantienen congelados, los paquetes de residuos tóxicos se disolverán con el tiempo, contaminando el terreno cercano.</li>
     <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] tiene una petición especial. Alguien ha vertido una gran cantidad de residuos tóxicos cerca de uno de [asker_possessive] asentamientos y no puede almacenarlos de forma segura. Si aceptas, [asker_nameDef] entregará [wastepackCount] residuos tóxicos en una cápsula de transporte.</li>
-    </PollutionDump.questDescriptionRules.rulesStrings>
+  </PollutionDump.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[waste] [dump]</li>
     <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] [waste] [dump]</li>
@@ -33,7 +33,7 @@
     <li>dump->problem</li>
   -->
   <PollutionDump.questNameRules.rulesStrings>
-  <li>questName->[waste] [dump]</li>
+    <li>questName->[waste] [dump]</li>
     <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] [waste] [dump]</li>
     <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[asker_nameDef]'s [waste] [dump]</li>
     <li>waste->residuos</li>
@@ -44,6 +44,6 @@
     <li>dump->soltar</li>
     <li>dump->liquidación</li>
     <li>dump->problema</li>
-    </PollutionDump.questNameRules.rulesStrings>
+  </PollutionDump.questNameRules.rulesStrings>
   
 </LanguageData>

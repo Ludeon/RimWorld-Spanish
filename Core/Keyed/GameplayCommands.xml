@@ -20,7 +20,7 @@
   <!-- EN: Designate toggle power -->
   <CommandDesignateTogglePowerLabel>Alternar energía</CommandDesignateTogglePowerLabel>
   <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
-  <CommandDesignateTogglePowerDesc>Enciende o apaga éste objeto. Un colono vendrá pronto a mover el interruptor.</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerDesc>Enciende o apaga éste objeto. Un colono vendrá pronto a accionar el interruptor.</CommandDesignateTogglePowerDesc>
   
   <!-- EN: Reconnect -->
   <CommandTryReconnectLabel>Reconectar</CommandTryReconnectLabel>
@@ -69,15 +69,15 @@
   <!-- EN: Set owner -->
   <CommandThingSetOwnerLabel>Asignar dueño</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific {0}. -->
-  <CommandBedSetOwnerDesc>Asignar esta cama a un colono específico.</CommandBedSetOwnerDesc>
+  <CommandBedSetOwnerDesc>Asignar esta cama a un colono en específico.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
-  <CommandThroneSetOwnerDesc>Asinar este trono a un colono específico.</CommandThroneSetOwnerDesc>
+  <CommandThroneSetOwnerDesc>Asinar este trono a un colono en específico.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
-  <CommandMeditationSpotSetOwnerDesc>Asigna este punto de meditación a un colono específico.</CommandMeditationSpotSetOwnerDesc>
+  <CommandMeditationSpotSetOwnerDesc>Asigna este punto de meditación a un colono en específico.</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Asignar colono</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
-  <CommandGraveAssignColonistDesc>Asigna esta tumba a un colono específico.</CommandGraveAssignColonistDesc>
+  <CommandGraveAssignColonistDesc>Asigna esta tumba a un colono en específico.</CommandGraveAssignColonistDesc>
   <!-- EN: Assign -->
   <BuildingAssign>Asignar</BuildingAssign>
   <!-- EN: Reassign -->
@@ -95,9 +95,9 @@
   <!-- EN: Whether this bed is for medical use. -->
   <CommandBedSetAsMedicalDesc>Designa esta cama para uso médico.</CommandBedSetAsMedicalDesc>
   <!-- EN: Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <TurningOnPrisonerBedWarning>Activar el modo prisión afecta a la habitación completa (ya que colonos y prisioneros no pueden dormir en la misma habitación).\n\nEstas personas perderán sus camas asignadas:</TurningOnPrisonerBedWarning>
+  <TurningOnPrisonerBedWarning>Activar el modo prisión afecta a la habitación completa (ya que los colonos y prisioneros no pueden dormir en la misma habitación).\n\nEstas personas perderán sus camas asignadas:</TurningOnPrisonerBedWarning>
   <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <TurningOffPrisonerBedWarning>Desactivar el modo prisión afecta a la habitación completa (ya que colonos y prisioneros no pueden dormir en la misma habitación).\n\nEstas personas perderán sus camas asignadas:</TurningOffPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>Desactivar el modo prisión afecta a la habitación completa (ya que los colonos y prisioneros no pueden dormir en la misma habitación).\n\nEstas personas perderán sus camas asignadas:</TurningOffPrisonerBedWarning>
   <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>¿Estás seguro de que quieres hacer ésto?</AreYouSure>
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
@@ -112,29 +112,29 @@
   <!-- EN: Rename -->
   <CommandRenameZoneLabel>Renombrar</CommandRenameZoneLabel>
   <!-- EN: Rename this zone. -->
-  <CommandRenameZoneDesc>Renombra esta área.</CommandRenameZoneDesc>
+  <CommandRenameZoneDesc>Renombra este área.</CommandRenameZoneDesc>
 
   <!-- EN: Hide -->
   <CommandHideZoneLabel>Esconder</CommandHideZoneLabel>
   <!-- EN: Unhide -->
   <CommandUnhideZoneLabel>Mostrar</CommandUnhideZoneLabel>
   <!-- EN: Hide/unhide this zone. -->
-  <CommandHideZoneDesc>Esconde/muestra esta área.</CommandHideZoneDesc>
+  <CommandHideZoneDesc>Esconde/muestra este área.</CommandHideZoneDesc>
 
   <!-- EN: Delete -->
   <CommandDeleteZoneLabel>Suprimir</CommandDeleteZoneLabel>
   <!-- EN: Delete this zone. -->
-  <CommandDeleteZoneDesc>Suprime esta área.</CommandDeleteZoneDesc>
+  <CommandDeleteZoneDesc>Suprime este área.</CommandDeleteZoneDesc>
 
   <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>Copiar ajustes</CommandCopyZoneSettingsLabel>
   <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
-  <CommandCopyZoneSettingsDesc>Copia los ajustes de esta área en el portapapeles para que puedas pegarlos en otra.</CommandCopyZoneSettingsDesc>
+  <CommandCopyZoneSettingsDesc>Copia los ajustes de este área en el portapapeles para que puedas pegarlos en otra.</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>Pegar ajustes</CommandPasteZoneSettingsLabel>
   <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
-  <CommandPasteZoneSettingsDesc>Sobreescribe los ajustes de esta área con los que hayas copiado en el portapapeles.</CommandPasteZoneSettingsDesc>
+  <CommandPasteZoneSettingsDesc>Sobreescribe los ajustes de este área con los que hayas copiado en el portapapeles.</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
   <CommandAllowSow>Permitir siembra</CommandAllowSow>
@@ -147,7 +147,7 @@
   <CommandAllowCutDesc>Cuando están deshabilitados, los colonos nunca cortarán plantas en esta zona. Todavía sembrarán nuevas plantas en espacios que ya están vacíos y cosecharán.</CommandAllowCutDesc>
   
   <!-- EN: Select {0_label} -->
-  <CommandSelectStoredThing>Selecciona {0_label}</CommandSelectStoredThing>
+  <CommandSelectStoredThing>Seleccionar {0_label}</CommandSelectStoredThing>
   <!-- EN: Select the item stored in here. -->
   <CommandSelectStoredThingDesc>Selecciona el elemento almacenado aquí.</CommandSelectStoredThingDesc>
 
@@ -167,11 +167,11 @@
   <!-- EN: Unloads the current shell so it can be replaced with different ammunition. -->
   <CommandExtractShellDesc>Descarga el proyectil actual para que pueda ser reemplazado por munición diferente.</CommandExtractShellDesc>
   <!-- EN: Target beyond maximum range. -->
-  <MessageTargetBeyondMaximumRange>Objetivo más allá del rango máximo.</MessageTargetBeyondMaximumRange>
+  <MessageTargetBeyondMaximumRange>Objetivo por encima del rango máximo.</MessageTargetBeyondMaximumRange>
   <!-- EN: Target below minimum range. -->
   <MessageTargetBelowMinimumRange>Objetivo por debajo del rango mínimo.</MessageTargetBelowMinimumRange>
   <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
-  <MessageTurretWontFireBecauseHoldFire>Advertencia: el mortero no disparará porque está configurado en "Alto al fuego".</MessageTurretWontFireBecauseHoldFire>
+  <MessageTurretWontFireBecauseHoldFire>Advertencia: El mortero no disparará porque está configurado en "Alto al fuego".</MessageTurretWontFireBecauseHoldFire>
   
   <!-- Ship computer core -->
   <!-- EN: Launch ship -->
@@ -199,11 +199,11 @@
   <!-- EN: Passage forbidden -->
   <CommandToggleDoorForbid>Prohibido el paso</CommandToggleDoorForbid>
   <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
-  <CommandToggleDoorForbidDesc>Cuando una puerta está prohibida, los colonos y los aliados no la atravesarán. Esto no afectará las interacciones de los enemigos o los animales con la puerta.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>Cuando una puerta está prohibida, los colonos y los aliados no la atravesarán. Esto no afectará a las interacciones de los enemigos o los animales con la puerta.</CommandToggleDoorForbidDesc>
   <!-- EN: Hold open -->
   <CommandToggleDoorHoldOpen>Mantener abierta</CommandToggleDoorHoldOpen>
   <!-- EN: When active, your colonists will not close the door after passing through. -->
-  <CommandToggleDoorHoldOpenDesc>Cuando se activa, los colonos no cerrarán la puerta despúes de atravesarla.</CommandToggleDoorHoldOpenDesc>
+  <CommandToggleDoorHoldOpenDesc>Cuando se activa, los colonos no cerrarán la puerta después de atravesarla.</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
   <!-- EN: Reset -->
@@ -293,7 +293,7 @@
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>Sintonizado para</CommandSelectMineralToScanFor>
   <!-- EN: Select the mineral type to scan for. -->
-  <CommandSelectMineralToScanForDesc>Selecciona el tipo de mineral que escanear</CommandSelectMineralToScanForDesc>
+  <CommandSelectMineralToScanForDesc>Selecciona el tipo de mineral que escanear</CommandSelectMineralToScanForDesc><!-- text_todo -->
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -469,7 +469,7 @@
   <!-- EN: Autoload -->
   <CommandAutoloadTransporters>Carga automática</CommandAutoloadTransporters>
   <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
-  <CommandAutoloadTransportersDesc>Determina si se cargará automaticamente todos los artículos necesarios en cuanto esté disponible.</CommandAutoloadTransportersDesc>
+  <CommandAutoloadTransportersDesc>Determina si se cargará automaticamente todos los artículos necesarios en cuanto estén disponibles.</CommandAutoloadTransportersDesc>
   
   <!-- Select previous transporter -->
   <!-- EN: Select previous in launch group -->
@@ -493,7 +493,7 @@
   <!-- EN: Designate open/close -->
   <CommandDesignateOpenCloseVentLabel>Designar abrir/cerrar</CommandDesignateOpenCloseVentLabel>
   <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
-  <CommandDesignateOpenCloseVentDesc>Designa este respiradero para abrirlo o cerrarlo. Un colono vendrá pronto a realizar la tarea.</CommandDesignateOpenCloseVentDesc>
+  <CommandDesignateOpenCloseVentDesc>Designa este conducto para abrirlo o cerrarlo. Un colono vendrá pronto a realizar la tarea.</CommandDesignateOpenCloseVentDesc>
   
   <!-- Remove waypoint -->
   <!-- EN: Remove -->
@@ -505,7 +505,7 @@
   <!-- EN: Rest -->
   <CommandPauseCaravan>Descansar</CommandPauseCaravan>
   <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
-  <CommandToggleCaravanPauseDesc>Comienza a descansar. Esto tiene los siguientes beneficios:\n\n  - Las personas pueden interactuar socialmente\n  - Forraje para alimentarse {0} veces más rápido\n  - Visibilidad multiplicada por {1}</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>Comienza a descansar. Esto tiene los siguientes beneficios:\n\n  - Las personas pueden interactuar socialmente\n  - El forraje será {0} veces más rápido\n  - Visibilidad multiplicada por {1}</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->
@@ -525,9 +525,9 @@
   <!-- EN: Initiate takeoff and have the shuttle fly to its destination. -->
   <CommandSendShuttleDesc>Inicia el despegue y manda a la lanzadera hacia su destino.</CommandSendShuttleDesc>
   <!-- EN: The shuttle is under a roof. -->
-  <CommandSendShuttleFailUnderRoof>La lanzadera se encuentra bajo techo.</CommandSendShuttleFailUnderRoof>
+  <CommandSendShuttleFailUnderRoof>La lanzadera se encuentra bajo un techo.</CommandSendShuttleFailUnderRoof>
   <!-- EN: Some of the required items or people are missing. -->
-  <CommandSendShuttleFailMissingRequiredThing>Falta alguno de los objetos o personas necesarios.</CommandSendShuttleFailMissingRequiredThing>
+  <CommandSendShuttleFailMissingRequiredThing>Faltan alguno de los objetos o personas necesarios.</CommandSendShuttleFailMissingRequiredThing>
   
   <!-- Dismiss shuttle -->
   <!-- EN: Dismiss -->
@@ -541,9 +541,9 @@
   <!-- EN: Place all required blueprints where possible. -->
   <CommandPlaceBlueprintsDesc>Coloca todos los anteproyectos necesarios donde sea posible.</CommandPlaceBlueprintsDesc>
   <!-- EN: Place {0} blueprints -->
-  <CommandPlaceBlueprintsSpecific>Colocar los anteproyectos {0}</CommandPlaceBlueprintsSpecific>
+  <CommandPlaceBlueprintsSpecific>Colocar los anteproyectos de {0}</CommandPlaceBlueprintsSpecific>
   <!-- EN: Place all {0} blueprints where possible. -->
-  <CommandPlaceBlueprintsSpecificDesc>Colocar todos los anteproyectos {0} donde sea posible</CommandPlaceBlueprintsSpecificDesc>
+  <CommandPlaceBlueprintsSpecificDesc>Colocar todos los anteproyectos de {0} donde sea posible</CommandPlaceBlueprintsSpecificDesc>
 
   <!-- Cancel monument marker -->
   <!-- EN: Cancel -->
@@ -565,31 +565,31 @@
   <!-- EN: Drop {0_nameDef} -->
   <CommandDropPawn>Soltar {0_nameDef}</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
-  <CommandDropPawnDesc>Soltar la persona que se esta llevando.</CommandDropPawnDesc>
+  <CommandDropPawnDesc>Soltar a la persona que está llevando.</CommandDropPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarriedPawn>Selecciona {0_nameDef}</CommandSelectCarriedPawn>
+  <CommandSelectCarriedPawn>Seleccionar {0_nameDef}</CommandSelectCarriedPawn>
   <!-- EN: Select the creature being carried. -->
-  <CommandSelectCarriedPawnDesc>Selecciona la criatura cargada.</CommandSelectCarriedPawnDesc>
+  <CommandSelectCarriedPawnDesc>Seleccionar la criatura cargada.</CommandSelectCarriedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectCarriedThing>Selecciona {0_label}</CommandSelectCarriedThing>
+  <CommandSelectCarriedThing>Seleccionar {0_label}</CommandSelectCarriedThing>
   <!-- EN: Select the carried item. -->
-  <CommandSelectCarriedThingDesc>Selecciona el item cargado.</CommandSelectCarriedThingDesc>
+  <CommandSelectCarriedThingDesc>Seleccionar el item cargado.</CommandSelectCarriedThingDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainerThing>Selecciona {0_label}</CommandSelectContainerThing>
+  <CommandSelectContainerThing>Seleccionar {0_label}</CommandSelectContainerThing>
   <!-- EN: Select the containing item. -->
-  <CommandSelectContainerThingDesc>Selecciona el item contenido.</CommandSelectContainerThingDesc>
+  <CommandSelectContainerThingDesc>Seleccionar el item contenido.</CommandSelectContainerThingDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarryingPawn>Selecciona {0_nameDef}</CommandSelectCarryingPawn>
+  <CommandSelectCarryingPawn>Seleccionar {0_nameDef}</CommandSelectCarryingPawn>
   <!-- EN: Select the carrying creature. -->
-  <CommandSelectCarryingPawnDesc>Selecciona la criatura cargando.</CommandSelectCarryingPawnDesc>
+  <CommandSelectCarryingPawnDesc>Seleccionar la criatura cargando.</CommandSelectCarryingPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectContainedPawn>Selecciona {0_nameDef}</CommandSelectContainedPawn>
+  <CommandSelectContainedPawn>Seleccionar {0_nameDef}</CommandSelectContainedPawn>
   <!-- EN: Select the contained creature. -->
-  <CommandSelectContainedPawnDesc>Selecciona la criatura contenida.</CommandSelectContainedPawnDesc>
+  <CommandSelectContainedPawnDesc>Seleccionar la criatura contenida.</CommandSelectContainedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainedThing>Selecciona {0_label}</CommandSelectContainedThing>
+  <CommandSelectContainedThing>Seleccionar {0_label}</CommandSelectContainedThing>
   <!-- EN: Select the contained item. -->
-  <CommandSelectContainedThingDesc>Selecciona el item contenido.</CommandSelectContainedThingDesc>
+  <CommandSelectContainedThingDesc>Seleccionar el item contenido.</CommandSelectContainedThingDesc>
 
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
@@ -614,7 +614,7 @@
   <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
   <CommandCancelRitualDesc>Terminar el {RITUAL_labelDef} inmediatamente. La obligación de realizar el ritual continuará. Puedes reiniciar el ritual más tarde.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
-  <CommandCancelRitualConfirm>Estas seguro de que quieres cancelar {RITUAL_labelDef}?</CommandCancelRitualConfirm>
+  <CommandCancelRitualConfirm>¿Estás seguro de que quieres cancelar {RITUAL_labelDef}?</CommandCancelRitualConfirm>
 
   <!-- Storage linking -->
   <!-- EN: Link settings -->
@@ -622,11 +622,11 @@
   <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
   <LinkStorageSettingsDesc>Vincula los ajustes de almacenamiento para las construcciones seleccionadas para que puedan compartir sus ajustes de almacenamiento.\n\nEl grupo comenzará con los ajustes de lo que hayas seleccionado primero.</LinkStorageSettingsDesc>
   <!-- EN: You must select two or more buildings to link their storage settings. -->
-  <LinkStorageDisabledSelectTwo>Debes seleccionar dos o más edificios para asociar sus ajustes de almacenamiento.</LinkStorageDisabledSelectTwo>
+  <LinkStorageDisabledSelectTwo>Debes seleccionar dos o más edificios para vincular sus ajustes de almacenamiento.</LinkStorageDisabledSelectTwo>
   <!-- EN: Already linked. -->
   <AlreadyLinked>Ya vinculado.</AlreadyLinked>
   <!-- EN: Unlink settings -->
-  <UnlinkStorageSettings>Ajustes de desvinculación</UnlinkStorageSettings>
+  <UnlinkStorageSettings>Desvincular ajustes</UnlinkStorageSettings>
   <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
   <UnlinkStorageSettingsDesc>Desvincula esto de los ajustes de almacenamiento de otros edificios para que sea independiente.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
