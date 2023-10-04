@@ -26,10 +26,10 @@ Tras actualizarlo en el juego, hacemos los pasos a la inversa; movemos los archi
 ---
 ## Lista  traductores:
 * En Activo:
-	* [Raúl Naharro Fernández (Zakees)](https://github.com/Zakees)
+	* [Raúl Naharro (Zakees)](https://github.com/Zakees)
 	* [Miguel Angel Farias (Zerstrick)](https://github.com/Zerstrick)
 	* [Franco García (lay)](https://github.com/notfraaan)
-	* [Adolfo (Revan)](https://github.com/revanfischer)
+	* [Revan](https://github.com/revanfischer)
 
 * Colaboradores:
   	* [Aser Granado Amores (Xeros08)](https://github.com/Xeros08)
