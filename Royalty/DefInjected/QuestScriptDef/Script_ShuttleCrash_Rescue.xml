@@ -31,23 +31,23 @@
     <li>goodwillSomeCiviliansLost->No todo [pawnLabel] [asker_faction_pawnSingular] podrá ser rescatado. [goodwillNegativelyAffected]</li>
     <li>goodwillAllCiviliansLost->Ninguno de los [pawnLabelPlural] [asker_faction_pawnSingular] podrían ser rescatados. [goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->Tu buena voluntad con la facción [asker_faction_name] ha sido afectado negativamente por cada [pawnLabel] que queda.</li>
-    <li>commanderLandingDesc->[asker_nameDef], [asker_The] comandante que pidió aterrizar su lanzadera en [map_definite]</li>
+    <li>commanderLandingDesc->[asker_nameDef], [asker_The] comandante que pidió aterrizar su transbordador en [map_definite]</li>
     <li>raidArrivedLetterLabel->Asalto: facción [enemyFaction_name]</li>
-    <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] de la facción [enemyFaction_name] han llegado. Atacarán a los [asker_faction_pawnsPlural] que se estrellaron en [map_definite].\n\nDefiende a los [asker_faction_pawnsPlural] hasta que su lanzadera de rescate llegue en [rescueShuttleAfterRaidDelay_duration].</li>
-    <li>rescueShuttleArrivedLetterLabel->La lanzadera de rescate llegó</li>
-    <li>rescueShuttleArrivedLetterText->La lanzadera de rescate ha llegado para recoger a [pawnLabelSingleOrPluralDef] que se [crashedLanded]. Asegúrate de tener a [thesePeople] en la lanzadera antes de que despegue en [rescueDelay_duration]:\n\n[civilians]</li>
+    <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] de la facción [enemyFaction_name] han llegado. Atacarán a los [asker_faction_pawnsPlural] que se estrellaron en [map_definite].\n\nDefiende a los [asker_faction_pawnsPlural] hasta que su transbordador de rescate llegue en [rescueShuttleAfterRaidDelay_duration].</li>
+    <li>rescueShuttleArrivedLetterLabel->El transbordador de rescate llegó</li>
+    <li>rescueShuttleArrivedLetterText->El transbordador de rescate ha llegado para recoger a [pawnLabelSingleOrPluralDef] que se [crashedLanded]. Asegúrate de tener a [thesePeople] en el transbordador antes de que despegue en [rescueDelay_duration]:\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->Misión cumplida: [resolvedQuestName]</li>
     <li>questCompletedSuccessLetterText->[commanderLandingDesc], ha escapado. [asker_pronoun] está agradecid[asker_o_a] por la ayuda que recibió en [map_definite].\n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->Misión cumplida: [resolvedQuestName]</li>
     <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], pudo escapar.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
     <li>askerLostLetterLabel->Misión fallida: [resolvedQuestName]</li>
-    <li>askerLostLetterText->[commanderLandingDesc] no estaba a bordo cuando la lanzadera partió.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>askerLostLetterText->[commanderLandingDesc] no estaba a bordo cuando el transbordador partió.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>allLostLetterLabel->Misión fallida: [resolvedQuestName]</li>
-    <li>allLostLetterText->La lanzadera de rescate para los [asker_faction_pawnsPlural] estrellados ha partido sin nadie a bordo.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterText->El transbordador de rescate para los [asker_faction_pawnsPlural] estrellados ha partido sin nadie a bordo.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>askerDiedLetterLabel->Misión fallida: [resolvedQuestName]</li>
     <li>askerDiedLetterText->[commanderLandingDesc] ha muerto.\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->Misión fallida: [resolvedQuestName]</li>
-    <li>shuttleDestroyedLetterText->La lanzadera enviada a recoger a los [asker_faction_pawnsPlural] estrellados ha sido destruida. Los [asker_faction_pawnsPlural] saldrán ahora a pie.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterText->El transbordador enviado a recoger a los [asker_faction_pawnsPlural] estrellados ha sido destruido. Los [asker_faction_pawnsPlural] saldrán ahora a pie.\n\n[failLetterEndingCommon]</li>
   </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
@@ -81,7 +81,7 @@
     <li>thesePeople(civilians_count>=2)->estas personas</li>
     <li>other(civilians_count==1)->otro</li>
     <li>other(civilians_count>=2)->otros</li>
-    <li>questDescription->Una lanzadera de la facción [asker_faction_name] ha sufrido daños y está buscando un lugar para aterrizar. Su comandante [asker_nameDef] quiere aterrizar en [map_definite].\n\n[enemyFaction_pawnsPlural] de la facción [enemyFaction_name] atacará el lugar donde se estrelló la lanzadera en un intento de matar a sus ocupantes. Debes defenderlos.\n\nEl interior de la lanzadera está ocupado por [asker_nameDef][andOtherCivilians] y [soldiers_count] [soldiers0_kind]s. El comandante [andCivilians] [mustBe] ser [rescued], pero los [soldiers0_kind]s pueden ser sacrificados.\n\nDespués de [rescueDelay_duration], una lanzadera de rescate vendrá a recoger a los supervivientes. Tendrás que hacerlos abordar dentro de [leaveDelay_duration].</li>
+    <li>questDescription->Un transbordador de la facción [asker_faction_name] ha sufrido daños y está buscando un lugar para aterrizar. Su comandante [asker_nameDef] quiere aterrizar en [map_definite].\n\n[enemyFaction_pawnsPlural] de la facción [enemyFaction_name] atacará el lugar donde se estrelló el transbordador en un intento de matar a sus ocupantes. Debes defenderlos.\n\nEl interior del transbordador está ocupado por [asker_nameDef][andOtherCivilians] y [soldiers_count] [soldiers0_kind]s. El comandante [andCivilians] [mustBe] ser [rescued], pero los [soldiers0_kind]s pueden ser sacrificados.\n\nDespués de [rescueDelay_duration], un transbordador de rescate vendrá a recoger a los supervivientes. Tendrás que hacerlos abordar dentro de [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, otro [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [other] [civilianCountMinusOne] [pawnLabelSingleOrPlural],</li>
@@ -125,7 +125,7 @@
     <li>questName->La [shuttleFem] [damagedFem] de [asker_nameDef]</li>
     <li>questName->[landing] [emergency]</li>
     <li>questName->El [landing] [emergency] [asker_nameDef]</li>
-    <li>shuttle->lanzadera</li>
+    <li>shuttle->transbordador</li>
     <li>shuttle->transportador</li>
     <li>shuttleFem->nave</li>
     <li>crash->estrellado</li>

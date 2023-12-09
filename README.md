@@ -25,7 +25,7 @@ Tras actualizarlo en el juego, hacemos los pasos a la inversa; movemos los archi
 
 ---
 ## Lista  traductores:
-* En Activo:
+* En activo:
 	* [Raúl Naharro (Zakees)](https://github.com/Zakees)
 	* [Miguel Angel Farias (Zerstrick)](https://github.com/Zerstrick)
 	* [Franco García (lay)](https://github.com/notfraaan)
@@ -35,6 +35,7 @@ Tras actualizarlo en el juego, hacemos los pasos a la inversa; movemos los archi
   	* [Aser Granado Amores (Xeros08)](https://github.com/Xeros08)
 	* [Álvaro Maldonado Peña (picodepelicano)](https://github.com/picodepelicano)
 	* [Juan Melenchón Ramírez (Lord Mellington)](https://github.com/LordMellington)
+	* [Israel Gallego (Wolf Igmc4)](https://github.com/Wolf-Igmc4)
 	* [Capiqua](https://github.com/capiqua)
 	* [Gaesatae](https://github.com/Gaesatae) 
 	* [Ismael García Cruzado (Ghrull)](https://github.com/Ghrull)
