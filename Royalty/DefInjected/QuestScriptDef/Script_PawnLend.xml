@@ -19,7 +19,7 @@
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] necesita ayuda para [dutyDescription]. Te pide que le cedas [colonistCountToLend] a [asker_faction_name] por un período de [lendForDays] días.\n\nDespués de [lendForDays] días, tus colonos regresarán en cápsulas de desembarco.\n\nSi aceptas, una lanzadera llegará para recoger a los [colonistCountToLend]. Cuando despegue con ellos a bordo, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] necesita ayuda para [dutyDescription]. Te pide que le cedas [colonistCountToLend] a [asker_faction_name] por un período de [lendForDays] días.\n\nDespués de [lendForDays] días, tus colonos regresarán en cápsulas de desembarco.\n\nSi aceptas, un transbordador llegará para recoger a los [colonistCountToLend]. Cuando despegue con ellos a bordo, [allRewardsDescriptions]</li>
     <li>dutyDescription->cosechar los campos</li>
     <li>dutyDescription->para fortalecer un acuerdo</li>
     <li>dutyDescription->construir un asentamiento</li>
@@ -30,7 +30,7 @@
     <li>disease->plaga</li>
     <li>disease->malaria</li>
     <li>disease->infección</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] desea poner un poco de arte en su corte mostrando algunos [entertainerDescription]. Te pide que le cedas [colonistCountToLend] a [asker_faction_name] por un período de [lendForDays] días. Después de los [lendForDays] días, tus colonos regresarán en cápsulas de desembarco.\n\nSi aceptas, una lanzadera llegará para recoger a los [colonistCountToLend]. Cuando despegue con ellos a bordo, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] desea poner un poco de arte en su corte mostrando algunos [entertainerDescription]. Te pide que le cedas [colonistCountToLend] a [asker_faction_name] por un período de [lendForDays] días. Después de los [lendForDays] días, tus colonos regresarán en cápsulas de desembarco.\n\nSi aceptas, un transbordador llegará para recoger a los [colonistCountToLend]. Cuando despegue con ellos a bordo, [allRewardsDescriptions]</li>
     <li>entertainerDescription->habitantes de la superficie real y endurecida</li>
     <li>entertainerDescription->bufones tontos</li>
     <li>entertainerDescription->Criados con acentos extranjeros</li>
@@ -88,13 +88,13 @@
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
   <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} han regresado después de haber sido exhibidos como [entertainerDescription] en la corte del/de la [asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name].</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
-  <PawnLend.LetterLabelShuttleArrived.slateRef>La lanzadera ha llegado</PawnLend.LetterLabelShuttleArrived.slateRef>
+  <PawnLend.LetterLabelShuttleArrived.slateRef>El transbordador ha llegado</PawnLend.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
-  <PawnLend.LetterTextShuttleArrived.slateRef>La lanzadera ha llegado para recoger a los [colonistsToLendCount] colonos.</PawnLend.LetterTextShuttleArrived.slateRef>
+  <PawnLend.LetterTextShuttleArrived.slateRef>El transbordador ha llegado para recoger a [colonistsToLendCount] de tus colonos.</PawnLend.LetterTextShuttleArrived.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <PawnLend.LetterLabelShuttleDestroyed.slateRef>Lanzadera destruida</PawnLend.LetterLabelShuttleDestroyed.slateRef>
+  <PawnLend.LetterLabelShuttleDestroyed.slateRef>Transbordador destruido</PawnLend.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
-  <PawnLend.LetterTextShuttleDestroyed.slateRef>La lanzadera enviada para recoger a tus colonos ha sido destruida.</PawnLend.LetterTextShuttleDestroyed.slateRef>
+  <PawnLend.LetterTextShuttleDestroyed.slateRef>El transbordador enviado para recoger a tus colonos ha sido destruido.</PawnLend.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Colonists returned -->
   <PawnLend.LetterLabelColonistsReturned.slateRef>Los colonos han vuelto</PawnLend.LetterLabelColonistsReturned.slateRef>
   <!-- EN: $returnLetterText -->

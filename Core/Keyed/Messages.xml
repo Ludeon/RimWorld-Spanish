@@ -323,14 +323,14 @@
   <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
   <MessageTransportersLoadCanceled_TransporterDestroyed>El proceso de carga se ha cancelado porque una de las cápsulas de transporte ha sido destruida.</MessageTransportersLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because the shuttle has been destroyed. -->
-  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>El proceso de carga se ha cancelado porque la lanzadera ha sido destruida.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
+  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>El proceso de carga se ha cancelado porque el transbordador ha sido destruido.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
   <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>El proceso de carga se ha cancelado porque uno de los lanza-cápsulas ha sido destruido.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
-  <MessageTransportersLoadingProcessStarted>Ahora tus colonos cargarán los objetos seleccionados en las cápsulas de transporte.</MessageTransportersLoadingProcessStarted>
+  <MessageTransportersLoadingProcessStarted>Tus colonos cargarán los objetos seleccionados en las cápsulas de transporte.</MessageTransportersLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageTransporterSingleLoadingProcessStarted>Las personas y objetos seleccionados serán cargados en la lanzadera.</MessageTransporterSingleLoadingProcessStarted>
+  <MessageTransporterSingleLoadingProcessStarted>Las personas y objetos seleccionados serán cargados en el transbordador.</MessageTransporterSingleLoadingProcessStarted>
   
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Tus cápsulas de transporte han llegado.</MessageTransportPodsArrived>
@@ -381,7 +381,7 @@
   <!-- EN: {0} has run out of food. -->
   <MessageCaravanRanOutOfFood>{0} se ha quedado sin comida ({PAWN_label}).</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
-  <MessageCaravanDeathCorpseAddedToInventory>El cadáver de {PAWN_definite} ha sido recogido por la caravana. Es pesado y puede llegar a impedir el movimiento de ésta, pero puede ser abandonado desde la pestaña de objetos de la caravana.</MessageCaravanDeathCorpseAddedToInventory>
+  <MessageCaravanDeathCorpseAddedToInventory>El cadáver de {PAWN_definite} ha sido recogido por la caravana. Es pesado y puede llegar a impedir el movimiento de esta, pero puede ser abandonado desde la pestaña de objetos de la caravana.</MessageCaravanDeathCorpseAddedToInventory>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
   <MessageSelectOwnBaseToFormCaravan>Para formar una caravana, selecciona tu propia colonia o algún otro lugar donde tengas personas.</MessageSelectOwnBaseToFormCaravan>
@@ -407,7 +407,7 @@
   <MessageCannotSelfTendEver>{1_labelShort} es incapaz de trabajar como Médico, y por tanto no puede auto-atenderse.</MessageCannotSelfTendEver>
   
   <!-- EN: This tile is impassable. -->
-  <MessageCantAddWaypointBecauseImpassable>Esta casilla es intransitable..</MessageCantAddWaypointBecauseImpassable>
+  <MessageCantAddWaypointBecauseImpassable>Esta casilla es intransitable.</MessageCantAddWaypointBecauseImpassable>
   <!-- EN: It's not possible to reach this tile from the last waypoint. -->
   <MessageCantAddWaypointBecauseUnreachable>No es posible alcanzar esta casilla desde la última parada.</MessageCantAddWaypointBecauseUnreachable>
   <!-- EN: You can't add more than {0} waypoints. -->
@@ -536,7 +536,7 @@
   <!-- EN: attacked {0_name} -->
   <GoodwillChangeReason_AttackedFaction>se ha atacado a {0_name}</GoodwillChangeReason_AttackedFaction>
   <!-- EN: shuttle destroyed -->
-  <GoodwillChangeReason_ShuttleDestroyed>se ha destruido la lanzadera</GoodwillChangeReason_ShuttleDestroyed>
+  <GoodwillChangeReason_ShuttleDestroyed>se ha destruido el transbordador</GoodwillChangeReason_ShuttleDestroyed>
   <!-- EN: civilians lost -->
   <GoodwillChangeReason_CiviliansLost>pérdida civil</GoodwillChangeReason_CiviliansLost>
   <!-- EN: commander lost -->
@@ -658,7 +658,7 @@
   <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
   <MessageBedLostAssignment>{0} ya no está asignado a {1_nameDef}.</MessageBedLostAssignment>
   <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
-  <MessageBedDestroyed>{0} asignado a {1_nameDef} fue destruído.</MessageBedDestroyed>
+  <MessageBedDestroyed>{0} asignado a {1_nameDef} fue destruido.</MessageBedDestroyed>
 
   <!-- Rituals -->
   <!-- EN: spectate -->
