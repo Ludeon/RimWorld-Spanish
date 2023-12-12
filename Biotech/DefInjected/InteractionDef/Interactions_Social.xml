@@ -37,39 +37,39 @@
   -->
   <BabyPlay.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] hizo [reaction] a [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha [interaction] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha jugado a [babyGame] con [RECIPIENT_nameDef].</li>
-    <li>reaction->carcajear</li>
+    <li>r_logentry->[INITIATOR_nameDef] [interaction] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] jugó [babyGame] con [RECIPIENT_nameDef].</li>
+    <li>reaction->balbucear</li>
     <li>reaction->sonreír</li>
     <li>reaction->retorcerse de alegría</li>
     <li>reaction->reír</li>
-    <li>reaction->babear</li>
-    <li>reaction->balbucear</li>
+    <li>reaction->babearse juguetonamente</li>
+    <li>reaction->llorar de risa</li>
     <li>reaction->chillar</li>
     <li>reaction->eructar</li>
-    <li>reaction-> mirar con fascinación</li>
-    <li>interaction->deleitado a</li>
-    <li>interaction->jugado con</li>
-    <li>interaction->entretenido a</li>
-    <li>interaction->divertirdo a</li>
-    <li>interaction->cosquilleado a</li>
-    <li>interaction->amordazado a</li>
-    <li>interaction->husmeado a</li>
-    <li>interaction->abrazado a</li>
-    <li>interaction->lanzado a</li>
-    <li>interaction->cantado a</li>
-    <li>interaction->contado un cuento a</li>
-    <li>interaction->le hizo un truco de magia a</li>
-    <li>babyGame->escondite pilla pilla</li>
-    <li>babyGame->cucú</li>
-    <li>babyGame->encontrar el dedo</li>
-    <li>babyGame->mono mira mono hace</li>
-    <li>babyGame->muestra y cuenta</li>
-    <li>babyGame->títeres de dedo</li>
+    <li>reaction->mirar con fascinación</li>
+    <li>interaction->deleitó a</li>
+    <li>interaction->jugó con</li>
+    <li>interaction->entretuvo a</li>
+    <li>interaction->dirvitió a</li>
+    <li>interaction->hizo cosquillas a</li>
+    <li>interaction->acurrucó a</li>
+    <li>interaction->olfateó a</li>
+    <li>interaction->abrazó a</li>
+    <li>interaction->lanzó al aire a</li>
+    <li>interaction->le cantó a</li>
+    <li>interaction->contó una historia a</li>
+    <li>interaction->hizo un truco de magia a</li>
+    <li>babyGame->al escondite</li>
+    <li>babyGame->al cucú</li>
+    <li>babyGame->a encontrar el dedo</li>
+    <li>babyGame->a mono mira, mono hace</li>
+    <li>babyGame->a mostrar y contar</li>
+    <li>babyGame->a marionetas de dedo</li>
   </BabyPlay.logRulesInitiator.rulesStrings>
   
   <!-- EN: animal lesson -->
-  <LessonAnimals.label>lección animales</LessonAnimals.label>
+  <LessonAnimals.label>lección sobre animales</LessonAnimals.label>
   <!-- EN:
     <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] how to [animal_verb] [article_animal] to [RECIPIENT_nameDef].</li>
     <li>article_animal->a megasloth</li>
@@ -99,7 +99,7 @@
     <li>subject->kibble</li>
   -->
   <LessonAnimals.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] a [RECIPIENT_nameDef] cómo [animal_verb] [article_animal].</li>
+    <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] cómo [animal_verb] [article_animal] a [RECIPIENT_nameDef].</li>
     <li>article_animal->un megaperezoso</li>
     <li>article_animal->una megaraña</li>
     <li>article_animal->un thrumbo</li>
@@ -117,7 +117,7 @@
     <li>animal_verb->domar</li>
     <li>animal_verb->alimentar</li>
     <li>animal_verb->calmar</li>
-    <li>animal_verb->espiar</li>
+    <li>animal_verb->espantar</li>
     <li>animal_verb->ganarse la confianza de</li>
     <li>subject->psicología animal</li>
     <li>subject->técnicas de doma</li>
@@ -151,23 +151,23 @@
   -->
   <LessonArtistic.logRulesInitiator.rulesStrings>
     <li>article_tool->un pincel</li>
-    <li>article_tool->un lápiz</li>
+    <li>article_tool->un lápiz de carbón</li>
     <li>article_tool->un cincel</li>
     <li>article_tool->un lienzo</li>
     <li>article_tool->un trozo de arcilla</li>
     <li>action->hacer arte con</li>
     <li>action->usar</li>
     <li>action->expresarse con</li>
-    <li>action_gerund->haciendo arte con</li>
-    <li>action_gerund->usando</li>
-    <li>action_gerund->expresandose con</li>
-    <li>subject->materiales de escultura</li>
+    <li>action_gerund->hacer arte con</li>
+    <li>action_gerund->usar</li>
+    <li>action_gerund->expresarse con</li>
+    <li>subject->materiales para esculturas</li>
     <li>subject->artistas famosos</li>
     <li>subject->pinturas famosas</li>
-    <li>subject->galerias de Mundobrillante</li>
-    <li>subject->retrato</li>
+    <li>subject->galerías de glitterworld</li>
+    <li>subject->retratos</li>
     <li>subject->arte abstracto</li>
-    <li>subject->mezclando pinturas</li>
+    <li>subject->mezcla de pinturas</li>
   </LessonArtistic.logRulesInitiator.rulesStrings>
   
   <!-- EN: construction lesson -->
@@ -200,15 +200,15 @@
     <li>action->usar</li>
     <li>action->trabajar con</li>
     <li>action->inspeccionar</li>
-    <li>action_gerund->usando</li>
-    <li>action_gerund->trabajando con</li>
-    <li>action_gerund->inspeccionando</li>
+    <li>action_gerund->usar</li>
+    <li>action_gerund->trabajar con</li>
+    <li>action_gerund->inspeccionar</li>
     <li>subject->arquitectura</li>
     <li>subject->técnicas de construcción</li>
-    <li>subject->técnicas de deconstrucción</li>
+    <li>subject->técnica de deconstrucción</li>
     <li>subject->materiales de construcción</li>
     <li>subject->software de modelado</li>
-    <li>subject->planos</li>
+    <li>subject->anteproyectos</li>
   </LessonConstruction.logRulesInitiator.rulesStrings>
   
   <!-- EN: cooking lesson -->
@@ -239,27 +239,27 @@
     <li>article_tool->una estufa</li>
     <li>article_tool->una espátula</li>
     <li>article_tool->un horno</li>
-    <li>article_tool->una cacerola</li>
+    <li>article_tool->un cazo</li>
     <li>article_tool->un dispensador de pasta nutritiva</li>
     <li>article_tool->una mesa de carnicero</li>
     <li>action->limpiar</li>
     <li>action->cocinar con</li>
-    <li>action_gerund->limpiando</li>
-    <li>action_gerund->cocinando con</li>
+    <li>action_gerund->limpiar</li>
+    <li>action_gerund->cocinar con</li>
     <li>subject->especias</li>
-    <li>subject->comidas de supervivencia envasadas</li>
+    <li>subject->comida de supervivencia</li>
     <li>subject->variedades de huevos</li>
-    <li>subject->variedades de carnes</li>
+    <li>subject->variedades de carne</li>
     <li>subject->sabores</li>
     <li>subject->recetas</li>
-    <li>situation->en caravana</li>
+    <li>situation->en caravanas</li>
     <li>situation->con los ojos vendados</li>
-    <li>situation->ten prisa</li>
+    <li>situation->deprisa</li>
     <li>situation->con seguridad</li>
   </LessonCooking.logRulesInitiator.rulesStrings>
   
   <!-- EN: crafting lesson -->
-  <LessonCrafting.label>lección de elaboración</LessonCrafting.label>
+  <LessonCrafting.label>lección de fabricación</LessonCrafting.label>
   <!-- EN:
     <li>article_tool->a screwdriver</li>
     <li>article_tool->a pair of pliers</li>
@@ -289,41 +289,41 @@
   <LessonCrafting.logRulesInitiator.rulesStrings>
     <li>article_tool->un destornillador</li>
     <li>article_tool->un par de alicates</li>
-    <li>article_tool->una placa de circuito</li>
-    <li>article_tool->un banco de sastre</li>
-    <li>article_tool->una mesa de mecanizado</li>
-    <li>article_tool->un fabricante</li>
+    <li>article_tool->una placa de circuitos</li>
+    <li>article_tool->un banco de sastrería</li>
+    <li>article_tool->una mesa de maquinado</li>
+    <li>article_tool->un banco de fabricación</li>
     <li>action->usar</li>
     <li>action->trabajar con</li>
     <li>action->inspeccionar</li>
     <li>action_gerund->usando</li>
-    <li>action_gerund->trabajando con</li>
     <li>action_gerund->inspeccionando</li>
+    <li>action_gerund->trabajando con</li>
     <li>subject->herramientas de organización</li>
-    <li>subject->logros de construcción</li>
+    <li>subject->fabricación de armas</li>
     <li>subject->artilugios</li>
-    <li>subject->variedades de tela</li>
-    <li>subject->tecnicas de tejido de telas</li>
-    <li>subject->armadura de placas</li>
-    <li>subject->cinturones de seguridad</li>
-    <li>subject->biónica</li>
+    <li>subject->variedades de tejidos</li>
+    <li>subject->técnicas de tejido de telas</li>
+    <li>subject->armaduras de placas</li>
+    <li>subject->cinturones utilitarios</li>
+    <li>subject->partes biónicas</li>
     <li>situation->con seguridad</li>
     <li>situation->sin instrucciones</li>
     <li>situation->a la luz de las velas</li>
-    <li>situation(p=0.1)->en estado de ebriedad</li>
+    <li>situation(p=0.1)->mientras se está ebrio</li>
   </LessonCrafting.logRulesInitiator.rulesStrings>
   
   <!-- EN: lesson -->
-  <LessonGeneric.label>Lección</LessonGeneric.label>
+  <LessonGeneric.label>lección</LessonGeneric.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
   -->
   <LessonGeneric.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] le enseñó una lección a [RECIPIENT_nameDef]</li>
+    <li>r_logentry->[INITIATOR_nameDef] dio una lección a [RECIPIENT_nameDef]</li>
   </LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
-  <LessonIntellectual.label>lección intelectual</LessonIntellectual.label>
+  <LessonIntellectual.label>lección de inteligencia</LessonIntellectual.label>
   <!-- EN:
     <li>subject->genetics</li>
     <li>subject->techprints</li>
@@ -340,21 +340,21 @@
   -->
   <LessonIntellectual.logRulesInitiator.rulesStrings>
     <li>subject->genética</li>
-    <li>subject->tecno-planos</li>
-    <li>subject->funciones multi-analizador</li>
+    <li>subject->tecnoplanos</li>
+    <li>subject->funciones del multianalizador</li>
     <li>subject->filosofía</li>
     <li>subject->matemáticas</li>
     <li>subject->biología</li>
     <li>subject->química</li>
-    <li>subject->misterios arqueotécnico</li>
-    <li>subject->reactores de naves estelares</li>
+    <li>subject->misterios de la arqueotecnología</li>
+    <li>subject->reactores de nave espacial</li>
     <li>subject->el método científico</li>
-    <li>subject->libro en blanco trascendental</li>
-    <li>subject->propulsión Johnson-Tanaka</li>
+    <li>subject->libros blancos seminales</li>
+    <li>subject->la propulsión Johnson-Tanaka</li>
   </LessonIntellectual.logRulesInitiator.rulesStrings>
   
   <!-- EN: medical lesson -->
-  <LessonMedicine.label>lección médica</LessonMedicine.label>
+  <LessonMedicine.label>lección de medicina</LessonMedicine.label>
   <!-- EN:
     <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] how to [medical_verb] [hediff] to [RECIPIENT_nameDef].</li>
     <li>article_tool->a medicine pack</li>
@@ -390,42 +390,42 @@
     <li>subject->sterilization methods</li>
   -->
   <LessonMedicine.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] a [RECIPIENT_nameDef] a cómo [medical_verb] [hediff].</li>
-    <li>article_tool->un paquete de medicamentos</li>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] cómo [medical_verb] [hediff] a [RECIPIENT_nameDef].</li>
+    <li>article_tool->un botiquín</li>
     <li>article_tool->un vendaje</li>
-    <li>article_tool->una jeringuilla</li>
-    <li>article_tool->una planta de raíz curativa</li>
+    <li>article_tool->una jeringa</li>
+    <li>article_tool->una planta de raizanadora</li>
     <li>article_tool->un monitor de signos vitales</li>
-    <li>article_tool->un bisturí</li>
-    <li>article_tool->una dosis de suero mecánico sanador</li>
-    <li>article_tool->un remedio</li>
+    <li>article_tool->un escalpelo</li>
+    <li>article_tool->una dosis de suero sanador mecanoide</li>
+    <li>article_tool->un chip analgésico</li>
     <li>action->usar</li>
     <li>action->inspeccionar</li>
-    <li>action_gerund->usado</li>
-    <li>action_gerund->inspeccionado</li>
-    <li>hediff->pérdida de sangre</li>
-    <li>hediff->un ataque al corazón</li>
-    <li>hediff->insolació</li>
-    <li>hediff->intoxicación alimentaria</li>
-    <li>hediff->carcinoma</li>
-    <li>hediff->gusanos intestinales</li>
-    <li>hediff->parásitos musculares</li>
-    <li>hediff->abasia paralítica</li>
-    <li>hediff->malaria</li>
+    <li>action_gerund->>usar</li>
+    <li>action_gerund->inspeccionar</li>
+    <li>hediff->una hemorragia</li>
+    <li>hediff->un ataque cardíaco</li>
+    <li>hediff->un golpe de calor</li>
+    <li>hediff->una intoxicación alimentaria</li>
+    <li>hediff->un carcinoma</li>
+    <li>hediff->los gusanos intestinales</li>
+    <li>hediff->los parásitos musculares</li>
+    <li>hediff->la putrefacción sanguínea</li>
+    <li>hediff->la malaria</li>
     <li>hediff->la gripe</li>
-    <li>hediff->cirrosis</li>
+    <li>hediff->la cirrosis</li>
     <li>medical_verb->diagnosticar</li>
-    <li>medical_verb->triaje</li>
+    <li>medical_verb->hacer el triaje para</li>
     <li>medical_verb->tratar</li>
-    <li>subject->dosificacion de anestesia</li>
+    <li>subject->dosificación de la anestesia</li>
     <li>subject->tipos de cáncer</li>
     <li>subject->procedimientos quirúrgicos</li>
-    <li>subject->comprtamientojunto a los pacientes</li>
+    <li>subject->trato con los pacientes</li>
     <li>subject->métodos de esterilización</li>
   </LessonMedicine.logRulesInitiator.rulesStrings>
   
   <!-- EN: melee lesson -->
-  <LessonMelee.label>lección de pelea</LessonMelee.label>
+  <LessonMelee.label>lección de combate cuerpo a cuerpo</LessonMelee.label>
   <!-- EN:
     <li>article_tool->an axe</li>
     <li>article_tool->a club</li>
@@ -457,26 +457,26 @@
     <li>article_tool->una porra</li>
     <li>article_tool->una espada</li>
     <li>article_tool->una cuchilla de codo</li>
-    <li>article_tool->un espolón</li>
+    <li>article_tool->una garra</li>
     <li>article_tool->una espada larga</li>
-    <li>article_tool->una mono-espada</li>
-    <li>article_tool->una espalda de plasma</li>
+    <li>article_tool->una monoespada</li>
+    <li>article_tool->una espada de plasma</li>
     <li>article_tool->una lanza</li>
     <li>article_tool->una maza</li>
     <li>article_tool->un martillo de guerra</li>
-    <li>article_tool->un puño</li>
+    <li>article_tool->los puños</li>
     <li>action->bloquear</li>
-    <li>action->luchar contra</li>
-    <li>action->contraataque</li>
-    <li>action->preoucparse por</li>
+    <li>action->luchar con</li>
+    <li>action->contrarrestar</li>
+    <li>action->cuidar de</li>
     <li>action->usar</li>
-    <li>action->equilibrarse</li>
-    <li>action_gerund->bloquear</li>
-    <li>action_gerund->luchando contra</li>
-    <li>action_gerund->contrarrestar</li>
-    <li>action_gerund->cuidar</li>
+    <li>action->balancearse</li>
+    <li>action_gerund->bloqueando</li>
+    <li>action_gerund->luchando con</li>
+    <li>action_gerund->contrarrestando</li>
+    <li>action_gerund->cuidando de</li>
     <li>action_gerund->usando</li>
-    <li>action_gerund->equilibrio</li>
+    <li>action_gerund->balanceándose</li>
   </LessonMelee.logRulesInitiator.rulesStrings>
   
   <!-- EN: mining lesson -->
@@ -505,10 +505,10 @@
   -->
   <LessonMining.logRulesInitiator.rulesStrings>
     <li>article_tool->un pico</li>
-    <li>article_tool->un taladro profundo</li>
+    <li>article_tool->un taladro de profundidad</li>
     <li>article_tool->una pala</li>
-    <li>article_tool->un escáner de minerales de largo alcance</li>
-    <li>article_tool->un escáner de penetración terrestre</li>
+    <li>article_tool->un escáner de minerales de largo alcancer</li>
+    <li>article_tool->un escáner de profundidad</li>
     <li>action->usar</li>
     <li>action->minar con</li>
     <li>action->trabajar con</li>
@@ -517,13 +517,13 @@
     <li>action_gerund->minando con</li>
     <li>action_gerund->trabajando con</li>
     <li>action_gerund->inspeccionando</li>
-    <li>subject->venas minerales</li>
+    <li>subject->vetas minerales</li>
     <li>subject->piedras preciosas</li>
     <li>subject->geología</li>
-    <li>subject->túnel</li>
+    <li>subject->tunelización</li>
     <li>subject->análisis de sedimentos</li>
-    <li>subject->insectos cavernícolas</li>
-    <li>situation(p=2)->bajo tierra</li>
+    <li>subject->insectos que habitan en cuevas</li>
+    <li>situation(p=2)->la vida subterránea</li>
   </LessonMining.logRulesInitiator.rulesStrings>
   
   <!-- EN: gardening lesson -->
@@ -548,27 +548,27 @@
     <li>subject->gauranlen trees</li>
   -->
   <LessonPlants.logRulesInitiator.rulesStrings>
-    <li>article_tool->unalámpara solar</li>
-    <li>article_tool->una contenedor hidropónico</li>
+    <li>article_tool->una lámpara solar</li>
+    <li>article_tool->un contenedor hidropónico</li>
     <li>article_tool->un aspersor</li>
     <li>article_tool->una pala</li>
     <li>article_tool->tijeras de podar</li>
-    <li>action->hacer jardineria con</li>
+    <li>action->jardinería con</li>
     <li>action->usar</li>
     <li>action->inspeccionar</li>
     <li>action_gerund->usando</li>
     <li>action_gerund->haciendo jardineria con</li>
-    <li>action_gerund->inspeccionado</li>
+    <li>action_gerund->inspeccionando</li>
     <li>subject->tipos de suelo</li>
     <li>subject->pesticidas</li>
     <li>subject->técnicas de riego</li>
     <li>subject->variedades de cactus</li>
-    <li>subject->árboles de ánima</li>
-    <li>subject->árboles guaranlen</li>
+    <li>subject->árboles del ánima</li>
+    <li>subject->árboles gauranlen</li>
   </LessonPlants.logRulesInitiator.rulesStrings>
   
   <!-- EN: shooting lesson -->
-  <LessonShooting.label>lección de disparo</LessonShooting.label>
+  <LessonShooting.label>lección de tiro</LessonShooting.label>
   <!-- EN:
     <li>article_tool->a rifle</li>
     <li>article_tool->a pistol</li>
@@ -589,22 +589,22 @@
     <li>action_gerund->reloading</li>
   -->
   <LessonShooting.logRulesInitiator.rulesStrings>
-    <li>article_tool->un rifle</li>
+    <li>article_tool->un fusil</li>
     <li>article_tool->una pistola</li>
     <li>article_tool->una escopeta</li>
     <li>article_tool->un lanzacohetes</li>
-    <li>article_tool->un subfusil</li>
-    <li>article_tool->una ametralladora</li>
+    <li>article_tool->un SMG</li>
+    <li>article_tool->una minigun</li>
     <li>article_tool->un arco corto</li>
     <li>article_tool->un arco recurvo</li>
     <li>article_tool->un arco grande</li>
     <li>action->apuntar</li>
     <li>action->disparar</li>
-    <li>action->tener cuidado</li>
+    <li>action->cuidar de</li>
     <li>action->recargar</li>
-    <li>action_gerund->apuntado</li>
+    <li>action_gerund->apuntando</li>
     <li>action_gerund->disparando</li>
-    <li>action_gerund->teniendo cuidado</li>
+    <li>action_gerund->cuidando de</li>
     <li>action_gerund->recargando</li>
   </LessonShooting.logRulesInitiator.rulesStrings>
   
@@ -626,11 +626,11 @@
     <li>subject->relaciones entre facciones</li>
     <li>subject->reclutar prisioneros</li>
     <li>subject->técnicas de regateo</li>
-    <li>subject->mantener relaciones</li>
-    <li>subject->etiqueta de la consola de comunicaciones</li>
+    <li>subject->mantener las relaciones</li>
+    <li>subject->normas de etiqueta en la consola de comunicaciones</li>
     <li>subject->aumentar la moral</li>
-    <li>subject->palabras traviesas</li>
-    <li>subject->lenguaje de señas</li>
+    <li>subject->malas palabras</li>
+    <li>subject->lenguaje de signos</li>
   </LessonSocial.logRulesInitiator.rulesStrings>
   
   <!-- EN: sanguophage chat -->
@@ -707,6 +707,90 @@
     <li>planType->destroying sanguophage hunters</li>
     <li>planType->enjoying endless life</li>
   -->
-  <SanguophageChat.logRulesInitiator.rulesStrings>TODO</SanguophageChat.logRulesInitiator.rulesStrings>
+  <SanguophageChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedaboutPl] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] con [RECIPIENT_nameDef].</li>
+    <li>talkedabout->habló sobre</li>
+    <li>talkedabout->conversó sobre</li>
+    <li>talkedabout->susurró sobre</li>
+    <li>talkedabout(p=0.5)->habló [adverb] sobre</li>
+    <li>talkedabout(p=0.5)->conversó [adverb] sobre</li>
+    <li>talkedabout(p=0.5)->susurró [adverb] sobre</li>
+    <li>talkedabout->compartió unas palabras sobre</li>
+    <li>talkedabout->intercambió ideas sobre</li>
+    <li>talkedabout->intercambió pensamientos sobre</li>
+    <li>talkedabout->expresó su interés compartido en</li>
+    <li>talkedabout->debatió sobre</li>
+    <li>talkedabout->discutió sobre</li>
+    <li>talkedabout->compartió historias de</li>
+    <li>talkedaboutPl->hablaron sobre</li>
+    <li>talkedaboutPl->conversaron sobre</li>
+    <li>talkedaboutPl->susurraron sobre</li>
+    <li>talkedaboutPl(p=0.5)->hablaron [adverb] sobre</li>
+    <li>talkedaboutPl(p=0.5)->conversaron [adverb] sobre</li>
+    <li>talkedaboutPl(p=0.5)->susurraron [adverb] sobre</li>
+    <li>talkedaboutPl->compartieron unas palabras sobre</li>
+    <li>talkedaboutPl->intercambiaron ideas sobre</li>
+    <li>talkedaboutPl->intercambiaron pensamientos sobre</li>
+    <li>talkedaboutPl->expresaron su interés compartido en</li>
+    <li>talkedaboutPl->debatieron sobre</li>
+    <li>talkedaboutPl->discutieron sobre</li>
+    <li>talkedaboutPl->compartieron historias de</li>
+    <li>adverb->amistosamente</li>
+    <li>adverb->silenciosamente</li>
+    <li>adverb->suavemente</li>
+    <li>adverb->asquerosamente</li>
+    <li>adverb->amargamente</li>
+    <li>adverb->cansadamente</li>
+    <li>adverb->cuidadosamente</li>
+    <li>adverb->sobriamente</li>
+    <li>adverb->con tristeza</li>
+    <li>adverb->solemnemente</li>
+    <li>subject(p=20)->planes para [planType]</li>
+    <li>subject(p=0.1)->[TalkTopicHeavy]</li>
+    <li>subject->hemógeno</li>
+    <li>subject->la calidad de la sangre</li>
+    <li>subject->el canibalismo</li>
+    <li>subject->la inmortalidad</li>
+    <li>subject->la entropía</li>
+    <li>subject->la eternidad</li>
+    <li>subject->el paso del tiempo</li>
+    <li>subject->la vida y la muerte</li>
+    <li>subject->el mortisueño</li>
+    <li>subject->el engaño a la muerte</li>
+    <li>subject->los sanguiesclavos</li>
+    <li>subject->la humanidad</li>
+    <li>subject->el fuego</li>
+    <li>subject->la incineración</li>
+    <li>subject->el dolor</li>
+    <li>subject->la agonía</li>
+    <li>subject->la decapitación</li>
+    <li>subject->desollar enemigos</li>
+    <li>subject->la tortura</li>
+    <li>subject->las arquitas</li>
+    <li>subject->la genética</li>
+    <li>subject->genes</li>
+    <li>subject->xenotipos</li>
+    <li>subject->sanguífagos</li>
+    <li>subject->hussares</li>
+    <li>subject->diablillos</li>
+    <li>subject->terra-topos</li>
+    <li>subject->eruditus</li>
+    <li>subject->neandertales</li>
+    <li>subject->pielescerdo</li>
+    <li>subject->escorias</li>
+    <li>subject->La profundidad de la historia</li>
+    <li>subject->la historia del futuro</li>
+    <li>planType->dominación</li>
+    <li>planType->escapar</li>
+    <li>planType->la integración</li>
+    <li>planType->ejercer influencia</li>
+    <li>planType->la recogida de hemógeno</li>
+    <li>planType->el dominio de la tecnología</li>
+    <li>planType->que se conquisten otros mundos</li>
+    <li>planType->influir en los seres humanos</li>
+    <li>planType->destruir a los cazadores de sanguífagos</li>
+    <li>planType->disfrutar de la vida sin fin</li>
+  </SanguophageChat.logRulesInitiator.rulesStrings>
   
 </LanguageData>
