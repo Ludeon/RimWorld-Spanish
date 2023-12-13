@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: breakup -->
-  <Breakup.label>Ruptura</Breakup.label>
+  <Breakup.label>ruptura</Breakup.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break.</li>
     <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for some space.</li>
@@ -10,27 +10,27 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
   <Breakup.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] romper.</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] algo de espacio.</li>
-    <li>r_logentry->[INITIATOR_nameDef] le ha dicho a [RECIPIENT_nameDef] que lo de ellos no está funcionando.</li>
-    <li>r_logentry->[INITIATOR_nameDef] le ha dicho a [RECIPIENT_nameDef] que lo mejor sería que vieran a otra gente.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha roto su relación con [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] un tiempo a solas.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] que lo mejor sería volver a ser amigos.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha terminado su relación romántica con [RECIPIENT_nameDef].</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
-  <MarriageProposal.label>propuesta de Matrimonio</MarriageProposal.label>
+  <MarriageProposal.label>Propuesta de matrimonio</MarriageProposal.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] propuso matrimionio a [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] propuso un compromiso de por vida a [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] le ha dicho a [RECIPIENT_nameDef] que quiere pasar su vida junto a [RECIPIENT_objective].</li>
+    <li>r_logentry->[INITIATOR_nameDef] le propuso matrimionio a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] le ha propuesto un compromiso de por vida a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha declarado que quiere pasar el resto de su vida con [RECIPIENT_nameDef].</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
-  <RomanceAttempt.label>intento de romance</RomanceAttempt.label>
+  <RomanceAttempt.label>coquetear</RomanceAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] by [wootactic].</li>
     <li>wooed->tried to flirt with</li>
@@ -105,13 +105,13 @@
     <li>wooed->coqueteó con</li>
     <li>wooed->trató de seducir a</li>
     <li>wootactic(p=4)->[complimenting] su [PersonalCharacteristic]</li>
-    <li>wootactic->telling a story about [TalkTopicAny]</li>
     <li>wootactic->contar una historia sobre [TalkTopicAny]</li>
-    <li>wootactic->joking about [TalkTopicAny]</li>
-    <li>wootactic->contar una historia sobre [TalkTopicAny]</li>
-    <li>wootactic->[boasting] [INITIATOR_possessive] own [PersonalCharacteristic]</li>
-    <li>wootactic->comparar a [RECIPIENT_objective] con una [romantic_adj] [romantic_noun]</li>
-    <li>wootactic->describir a [RECIPIENT_objective] como una [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->contar un cuento sobre [TalkTopicAny]</li>
+    <li>wootactic->bromear sobre [TalkTopicAny]</li>
+    <li>wootactic->[boasting] [INITIATOR_possessive] propio [PersonalCharacteristic]</li>
+    <li>wootactic->[boasting] [INITIATOR_possessive] propia [PersonalCharacteristic_Fem]</li>
+    <li>wootactic->comparar[RECIPIENT_objective] con una [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->describir[RECIPIENT_objective] como una [romantic_adj] [romantic_noun]</li>
     <li>boasting->alardear sobre</li>
     <li>boasting->mencionar</li>
     <li>boasting->dar a entender cosas buenas sobre</li>
@@ -128,32 +128,32 @@
     <li>complimenting->bromear sobre</li>
     <li>complimenting->elogiar sutilmente</li>
     <li>complimenting->mofarse sobre</li>
-    <li>romantic_adj->hermoso(a)</li>
-    <li>romantic_adj->precioso(a)</li>
-    <li>romantic_adj->bello(a)</li>
+    <li>romantic_adj->hermosa</li>
+    <li>romantic_adj->preciosa</li>
+    <li>romantic_adj->bella</li>
     <li>romantic_adj->elegante</li>
     <li>romantic_adj->brillante</li>
-    <li>romantic_adj->hermoso(a)</li>
-    <li>romantic_adj->delicioso(a)</li>
-    <li>romantic_adj->delicado(a)</li>
-    <li>romantic_adj->magnífico(a)</li>
-    <li>romantic_adj->fino(a)</li>
-    <li>romantic_adj->maravilloso(a)</li>
+    <li>romantic_adj->hermosa</li>
+    <li>romantic_adj->deliciosa</li>
+    <li>romantic_adj->delicada</li>
+    <li>romantic_adj->magnífica</li>
+    <li>romantic_adj->fina</li>
+    <li>romantic_adj->maravillosa</li>
     <li>romantic_adj->exquisita</li>
-    <li>romantic_adj->precioso(a)</li>
+    <li>romantic_adj->preciosa</li>
     <li>romantic_adj->espléndida</li>
-    <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
+    <li>romantic_adj(p=3)->[AdjectiveBadass_Fem]</li>
     <li>romantic_noun->flor</li>
     <li>romantic_noun->estatua</li>
     <li>romantic_noun->nube</li>
     <li>romantic_noun->estrella</li>
+    <li>romantic_noun->escultura</li>
     <li>romantic_noun->luna</li>
-    <li>romantic_noun->sol</li>
     <li>romantic_noun->casa</li>
     <li>romantic_noun->aurora</li>
-    <li>romantic_noun->[TreeType] árbol</li>
-    <li>romantic_noun(p=2)->[TerrainFeature]</li>
-    <li>romantic_noun(p=2)->[NaturalObject]</li>
+    <li>romantic_noun->árbol de [TreeType_Fem]</li>
+    <li>romantic_noun(p=2)->[TerrainFeature_Fem]</li>
+    <li>romantic_noun(p=2)->[NaturalObject_Fem]</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>
