@@ -23,23 +23,26 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->¡[joiner_A] [joiner_title] de [joiner_age] años llamad[joiner_o_a] [joiner_nameFull] está buscando ayuda! [joiner_pronoun] se esconde de [hidingFrom]. Quiere huir y unirse a tu colonia en [map_definite]. [joiner_relationInfo]\n\n[condDesc]\n\nTemiendo ser descubiert[joiner_o_a], [joiner_nameDef] rehúsa decirte nada más sobre sí mism[joiner_o_a].</li>
+    <li>questDescription->[introduction], de nombre [joiner_nameFull] está llamando por ayuda! [joiner_pronoun] se esconde de [hidingFrom]. [joiner_pronoun] quiere huir y unirse a tu colonia en [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nEn pánico porque [joiner_objective] descubran, [joiner_nameDef] afirma ser incapaz de contarte más sobre [joiner_pronoun].</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->una manada de lobos hambrientos</li>
-    <li>condDesc(gameCondition==ToxicFallout)->Sin embargo, [joiner_nameDef] sólo puede matar a los lobos prendiendo fuego a un enorme vertedero de residuos químicos cercano. A consecuencia de esto, habrá [gameConditionDuration_duration] de lluvia tóxica.</li>
-    <li>hidingFrom(gameCondition==VolcanicWinter)->una banda de caníbales</li>
-    <li>condDesc(gameCondition==VolcanicWinter)->Sin embargo, [joiner_nameDef] sólo puede matar a los caníbales prendiendo fuego a una enorme pila de basura abandonada cercana. Si [joiner_pronoun] se une ti, como consecuencia el sol quedará bloqueado por nubes de humo durante [gameConditionDuration_duration].</li>
+    <li>condDesc(gameCondition==ToxicFallout)->Sin embargo, [joiner_nameDef] solo puede matar a los lobos prendiendo fuego a un enorme vertedero de desechos tóxicos cercano. Como consecuencia de esto caerá una lluvia tóxica durante [gameConditionDuration_duration].</li>
+    <li>hidingFrom(gameCondition==VolcanicWinter)->una pandilla de caníbales</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->Sin embargo, [joiner_nameDef] solo puede matar a la pandilla prendiendo fuego a una enorme pila de basura abandonada en las cercanías. Si [joiner_pronoun] se une a tu asentamiento, el sol quedará bloqueado por nubes de humo durante [gameConditionDuration_duration].</li>
     <li>hidingFrom(gameCondition==EMIField)->un grupo de mecanoides</li>
-    <li>condDesc(gameCondition==EMIField)->Sin embargo, [joiner_nameDef] sólo puede destruir a los mecanoides activando una antigua dínamo IEM. Si se une a tu colonia, se generará un campo EMI que mantendrá apagados todos los dispositivos eléctricos durante [gameConditionDuration_duration].</li>
+    <li>condDesc(gameCondition==EMIField)->Sin embargo, [joiner_nameDef] solo puede destruir a los mecanoides activando un antiguo dinamo de interferencia electromagnética (IEM). Si [joiner_pronoun] se une a tu asentamiento, se generará un campo IEM que mantendrá apagados todos los dispositivos eléctricos durante [gameConditionDuration_duration].</li>
     <li>hidingFrom(gameCondition==HeatWave)->un satélite de control climático defectuoso</li>
-    <li>condDesc(gameCondition==HeatWave)->Si [joiner_pronoun] se te une, habrá una intensa ola de calor durante [gameConditionDuration_duration] hasta que se reinicie el satélite.</li>
+    <li>condDesc(gameCondition==HeatWave)->Si [joiner_pronoun] se une a tu asentamiento, se producirá una intensa ola de calor durante [gameConditionDuration_duration] hasta que se reinicie el satélite.</li>
     <li>hidingFrom(gameCondition==ColdSnap)->un satélite de control climático defectuoso</li>
-    <li>condDesc(gameCondition==ColdSnap)->Si [joiner_pronoun] se te une, habrá una intensa ola de frío durante [gameConditionDuration_duration] hasta que se reinicie el satélite.</li>
+    <li>condDesc(gameCondition==ColdSnap)->Si [joiner_pronoun] se une a tu asentamiento, se producirá un intenso frente frío durante [gameConditionDuration_duration] hasta que se reinicie el satélite.</li>
     <li>hidingFrom(gameCondition==WeatherController)->un satélite de control climático defectuoso</li>
-    <li>condDesc(gameCondition==WeatherController)->Si [joiner_pronoun] se te une, el clima se volverá [forceWeather_label] durante [gameConditionDuration_duration], hasta que se reinicie el satélite.</li>
-    <li>hidingFrom(gameCondition==PsychicDrone)->una vengativa inteligencia artificial que [joiner_pronoun] enfureció recientemente</li>
-    <li>condDesc(gameCondition==PsychicDrone)->Si [joiner_pronoun] se te une, la inteligencia artificial liberará en [map_definite] un zumbido psíquico de nivel-[psychicDroneLevel] que alterará el humor de todos los individuos de sexo [psychicDroneGender] durante [gameConditionDuration_duration].</li>
+    <li>condDesc(gameCondition==WeatherController)->Si [joiner_pronoun] se une a tu asentamiento, el clima será forzado para crear [forcedWeather_indefinite] durante [gameConditionDuration_duration] hasta que se reinicie el satélite.</li>
+    <li>hidingFrom(gameCondition==PsychicDrone)->una vengativa inteligencia artificial que [joiner_pronoun] ofendió recientemente</li>
+    <li>condDesc(gameCondition==PsychicDrone)->Si [joiner_pronoun] se une a tu asentamiento, la inteligencia artificial atacará [map_definite] con un zumbador psíquido de nivel [psychicDroneLevel] durante [gameConditionDuration_duration], reduciendo el humor de todos los colonos de sexo [psychicDroneGender].</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->una inquietante inteligencia artificial a quien [joiner_pronoun] despertó de su letargo</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->Si [joiner_pronoun] se te une, la inteligencia artificial liberará en [map_definite] ondas de supresión psíquica que reducirán la consciencia de todos los individuos de sexo [psychicDroneGender] durante [gameConditionDuration_duration].</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->Si [joiner_pronoun] se une a tu asentamiento, la inteligencia artificial golpeará [map_definite] con ondas de represión psíquica durante [gameConditionDuration_duration], reduciendo la conciencia de todos los colonos de sexo [psychicSuppressorGender].</li>
+    <li>introduction(childCount==1,priority=1,joiner_gender==Female)->¡Una niña de [joiner_age] años</li>
+    <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->¡Un niño de [joiner_age] años</li>
+    <li>introduction->¡[joiner_A] [joiner_title] de [joiner_age] años</li>
   </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
@@ -47,9 +50,9 @@
     <li>questName->the [gameCondition_label] and [joiner_nameDef]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
-    <li>questName->[gameCondition_label] de [joiner_nameDef]</li>
-    <li>questName->[joiner_nameDef] y [gameCondition_label]</li>
-    <li>questName->[gameCondition_label] y [joiner_nameDef]</li>
+    <li>questName->[gameCondition_definite] de [joiner_nameDef]</li>
+    <li>questName->[joiner_nameDef] y [gameCondition_definite]</li>
+    <li>questName->[gameCondition_indefinite] y [joiner_nameDef]</li>
   </ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -58,7 +61,10 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_A] [joiner_title] de [joiner_age] años llamad[joiner_o_a] [joiner_nameDef] te llama por radio. Dice que esá siendo perseguid[joiner_o_a] por insectos gigantes porque envenenó una colonia subterránea y [joiner_objective] llenaron de feromonas peligrosas.\n\n[joiner_pronoun] ruega que [joiner_objective] ayudes y ofrece unirse a tu colonia en [map_definite]. [joiner_relationInfo]\n\nSi aceptas a [joiner_nameDef], una infestación de [hivesCount] colmenas insectoides comenzará en [infestationDelayTicks_duration].\n\n[joiner_nameDef] está demasiado nervios[joiner_o_a] para darte más información.</li>
+    <li>questDescription->[introduction], de nombre [joiner_nameDef], está llamando desde las cercanías. Dice que envenenó una colonia de insectos subterránea, pero ahora ¡[joiner_pronoun] está empapad[joiner_o_a] de feromonas de insectos y los bichos [joiner_objective] están cazando!\n\n[joiner_pronoun] te ruega por su seguridad y ofrece unirse a tu asentamiento en [map_definite].[joiner_relationInfo]\n\nSi aceptas, (*Threat)una infestación de [hivesCount] colmenas(/Threat) comenzará en [infestationDelayTicks_duration].\n\n[joiner_nameDef] está demasiado alterad[joiner_o_a] para ofrecerte más información.</li>
+    <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
+    <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->Un niño de [joiner_age] años</li>
+    <li>introduction->[joiner_A] [joiner_title] de [joiner_age] años</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>
@@ -68,16 +74,16 @@
   -->
   <ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
     <li>questName->La infestación de [joiner_nameDef]</li>
-    <li>questName->Las colmenas de [joiner_nameDef]</li>
+    <li>questName->La colmena de [joiner_nameDef]</li>
     <li>questName->Los bichos de [joiner_nameDef]</li>
     <li>questName->Los insectos de [joiner_nameDef]</li>
   </ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n            \n[joiner_nameDef] is soaked in insect pheromones and is fleeing from an infestation. The pursuing insects will arrive shortly. -->
-  <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>{BASETEXT}\n            \n[joiner_nameDef] está cubierto de feromonas de insectos y huye de la infestación. Los insectos perseguidores llegarán en breve.</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
+  <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>{BASETEXT}\n            \n[joiner_nameDef] está empapad[joiner_o_a] de feromonas de insectos y está huyendo de una infestación. Los insectos perseguidores llegarán en breve.</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL}: Persiguiendo a [joiner_nameDef]</ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe insects are here for [joiner_nameDef]. -->
-  <ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n                  \nLos insectos han venido a causa de [joiner_nameDef]</ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>
+  <ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n                  \nLos insectos están aquí por [joiner_nameDef].</ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>
   
   <!-- EN:
     <li>questDescription(animalCount==1)->[introduction] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says (*Threat)a manhunting [animalKind_label](/Threat) is hunting [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], the manhunting [animalKind_label] will follow in [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
@@ -88,10 +94,13 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription(animalCount==1)->[joiner_A] [joiner_title] de [joiner_age] años llamad[joiner_o_a] [joiner_nameDef] te llama por radio. ¡[joiner_pronoun] dice que un(a) [animalKind_label] cazahombres quiere matar[joiner_objective]!.\n\nTe ruega ayuda y ofrece unirse a tu colonia en [map_definite].[joiner_relationInfo]\n\nSi aceptas a [joiner_nameDef], el/la [animalKind_label] cazahombres aparecerá en [manhuntersDelayTicks_duration]).\n\n[joiner_nameDef] está demasiado nervios[joiner_o_a] para poder darte más información.</li>
-    <li>manhunterArrivalLetterEnd(animalCount==1)->El/la [animalKind_label] está persiguiendo a [joiner_nameDef].</li>
-    <li>questDescription(animalCount>=2)->[joiner_A] [joiner_title] de [joiner_age] llamad[joiner_o_a] [joiner_nameDef] te llama por radio. ¡[joiner_pronoun] dice que una manada de [animalCount] [animalKind_labelPlural] cazahombres quiere matar[joiner_objective]!.\n\nTe ruega ayuda y ofrece unirse a tu colonia en [map_definite].\n\nSi aceptas a [joiner_nameDef], la manada de [animalKind_labelPlural] cazahombres aparecerán en [manhuntersDelayTicks_duration].\n\n[[joiner_nameDef] está demasiado nervios[joiner_o_a] para poder darte más información.</li>
-    <li>manhunterArrivalLetterEnd(animalCount>=2)->La búsqueda [animalKind_labelPlural] de [joiner_nameDef].</li>
+    <li>questDescription(animalCount==1)->[introduction], de nombre [joiner_nameDef], está llamando desde las cercanías. Dice que [animal_a] (*Threat)[animalKind_label] cazahombres(/Threat) ¡[joiner_objective] está cazando!\n\n[joiner_pronoun] ruega por su vida y te pide le des seguridad y a cambio ofrece unirse a tu asentamiento en [map_definite].[joiner_relationInfo]\n\nSi aceptas a [joiner_nameDef], [animal_the] [animalKind_label] cazahombres, llegará en [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] está sufriendo una crisis de pánico y no puede ofrecerte más información.</li>
+    <li>manhunterArrivalLetterEnd(animalCount==1)->[animal_the] [animalKind_label] está persiguiendo a [joiner_nameDef].</li>
+    <li>questDescription(animalCount>=2)->[introduction], de nombre [joiner_nameDef], está llamando desde las cercanías. Dice que (*Threat)una manada de [animalCount] [animalKind_labelPlural] cazahombres(/Threat) ¡están cazando[joiner_objective]!\n\n[joiner_pronoun] ruega por seguridad y ofrece unirse a tu asentamiento en [map_definite].[joiner_relationInfo]\n\nSi aceptas a [joiner_nameDef], la manada de [animalKind_labelPlural] cazahombres, llegarán en [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] está sufriendo una crisis de pánico y no puede ofrecerte más información.</li>
+    <li>manhunterArrivalLetterEnd(animalCount>=2)->La manada de [animalKind_labelPlural] están persiguiendo a [joiner_nameDef].</li>
+    <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
+    <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->Un niño de [joiner_age] años</li>
+    <li>introduction->[joiner_A] [joiner_title] de [joiner_age] años</li>
   </ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(animalCount==1)->[joiner_nameDef]'s [animalKind_label]</li>
@@ -102,12 +111,13 @@
     <li>questName(animalCount>=2)->the [animalKind_labelPlural] and [joiner_nameDef]</li>
   -->
   <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
-    <li>questName(animalCount==1)->[animalKind_label] de [joiner_nameDef]</li>
-    <li>questName(animalCount==1)->[joiner_nameDef] y el/la [animalKind_label]</li>
-    <li>questName(animalCount==1)->El/la [animalKind_label] y [joiner_nameDef]</li>
-    <li>questName(animalCount>=2)->[animalKind_labelPlural] de [joiner_nameDef]</li>
+    <li>questName(animalCount==1)->[animal_the] [animalKind_label] de [joiner_nameDef]</li>
+    <li>questName(animalCount==1)->[joiner_nameDef] y [animal_a] [animalKind_label]</li>
+    <li>questName(animalCount==1)->[animal_the] [animalKind_label] y [joiner_nameDef]</li>
+    <li>questName(animalCount==1)->[animal_a] [animalKind_label] y [joiner_nameDef]</li>
     <li>questName(animalCount>=2)->[joiner_nameDef] y la manada de [animalKind_labelPlural]</li>
-    <li>questName(animalCount>=2)->la manada de [animalKind_labelPlural] y [joiner_nameDef]</li>
+    <li>questName(animalCount>=2)->[joiner_nameDef] y el grupo de [animalKind_labelPlural]</li>
+    <li>questName(animalCount>=2)->Una manada de [animalKind_labelPlural] y [joiner_nameDef]</li>
   </ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>{BASELABEL}: Persiguiendo a [joiner_nameDef]</ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>
@@ -120,7 +130,10 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_A] [joiner_title] de [joiner_age] años llamad[joiner_o_a] [joiner_nameDef] te llama por radio. [joiner_pronoun] te ruega unirse a ti en [map_definite]. [joiner_relationInfo]\n\nAlgún tipo de amenaza [joiner_objective] está siguiendo, pero [joiner_pronoun] se niega a decir qué es o cuándo llegará. Tampoco está dispuest[joiner_o_a] a revelar más sobre sí mism[joiner_o_a].</li>
+    <li>questDescription->[introduction], de nombre [joiner_nameDef], está llamando desde las cercanías. [joiner_pronoun] está rogando unirse a ti en [map_definite].[joiner_relationInfo]\n\n[joiner_nameDef] dice que hay algún tipo de amenaza que [joiner_objective] está persiguiendo sin embargo [joiner_pronoun] no está dispuest[joiner_o_a] a decir qué es ni qué tan cerca está de alcanzarle. [joiner_pronoun] también se niega a contarte más sobre si mism[joiner_o_a] y apela por tu comprensión para que le ayudes.</li>
+    <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
+    <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->Un niño de [joiner_age] años</li>
+    <li>introduction->[joiner_A] [joiner_title] de [joiner_age] años</li>
   </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [problem]</li>
@@ -130,31 +143,30 @@
     <li>problem->Secret</li>
   -->
   <ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings>
-    <li>questName->[problem] de [joiner_nameDef]</li>
-    <li>questName->[joiner_nameDef] su [problem1]</li>
-    <li>problem->el problema</li>
-    <li>problem->la vergüenza</li>
-    <li>problem->el secreto</li>
-    <li>problem1->problema</li>
-    <li>problem1->vergüenza</li>
-    <li>problem1->secreto</li>
+    <li>questName->[joiner_nameDef] y su [problem_Mas]</li>
+    <li>questName->[joiner_nameDef] y su [problem_Fem]</li>
+    <li>questName->El [problem_Mas] de [joiner_nameDef]</li>
+    <li>questName->La [problem_Fem] de [joiner_nameDef]</li>
+    <li>problem_Mas->problema</li>
+    <li>problem_Fem->molestia</li>
+    <li>problem_Mas->secreto</li>
   </ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [joiner_nameDef] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>{BASELABEL}: Persiguiendo a [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>{BASELABEL} persiguiendo a [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_pronoun] was supposed to marry the child of [enemyFaction_leader_nameFull], leader of [enemyFaction_name]. [joiner_pronoun] became drunk before the ceremony and vomited on the altar - a flagrant insult towards [enemyFaction_leader_nameDef]'s whole family.\n    \n[enemyFaction_leader_nameDef] swore to seek revenge on [joiner_nameDef] and all those associated with [joiner_objective], and sent [enemyFaction_pawnsPlural] to carry out the task.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] ha revelado de qué huía.\n    \n[joiner_pronoun] debía casarse con el/la hijo(a) de [enemyFaction_leader_nameFull], líder de [enemyFaction_name]. [joiner_nameDef] se emborrachó antes de la ceremonia y vomitó en el altar - una terrible ofensa hacia toda la familia de la facción [enemyFaction_leader_nameDef].\n    \n[enemyFaction_leader_nameDef] juró vengarse de [joiner_nameDef] y cualquiera de sus asociados, y ha enviado sus [enemyFaction_pawnsPlural] para llevar a cabo la tarea.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] admitió que estaba huyendo.\n    \n[joiner_pronoun] debería casarse con [joiner_especial] de [enemyFaction_leader_nameFull], líder de la facción [enemyFaction_name]. [joiner_pronoun] se emborrachó justo antes de la ceremonia y vomitó en el altar, un insulto flagrante hacia toda la familia de [enemyFaction_leader_nameDef].\n    \n[enemyFaction_leader_nameDef] juró buscar venganza contra [joiner_nameDef] y todos aquellos asociados con [joiner_pronoun], y envió a los [enemyFaction_pawnsPlural] a encargarse de está tarea.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>{BASELABEL}: Persiguiendo a [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef] ha revelado de qué huía.\n    \nCodiciando los placeres y el dinero que la jalea de insecto pueden brindar, trató de destruir una enorme colmena insectoide usando un veneno. [joiner_pronoun] fracasó, pero quedó empapad[joiner_o_a] por feromonas de insectos. Desde entonces los bichos [joiner_objective] han estado persiguiendo. Ahora han lanzado su ataque final.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef] admitió que estaba huyendo.\n    \n[joiner_nameDef], codicios[joiner_o_a] de los placeres y el dinero que la jalea de insecto puede traer, intentó destruir una colmena de insectos gigante usando veneno. Pero falló y se cubrió con feromonas. Desde entonces, los insectos han estado cazando[joiner_objective]. Ahora ellos han lanzado su golpe final.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
   <!-- EN: Site appeared to harass [joiner_nameDef]: [site_label] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>Lugar aparecido para atormentar a [joiner_nameDef]: [site_label]</ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>Un campamento ha aparecido para acosar a [joiner_nameDef]: [site_label]</ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>[joiner_nameDef] ha revelado de qué huía.\n    \n[joiner_nameDef] estaba viajando cuando [joiner_pronoun] se topó con [enemyFaction_leader_nameFull], líder de la facción [enemyFaction_name], enfermo(a) junto a la carretera. [joiner_nameDef] insultó a [enemyFaction_leader_nameDef] al comparar[enemyFaction_leader_objective] con un(a) [Animal]\n    \nAhora los [enemyFaction_pawnsPlural] de [enemyFaction_leader_nameDef] han levantado un campamento desde el que atacarte.\n    \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>[joiner_nameDef] admitió que estaba huyendo.\n    \n[joiner_nameDef] estaba viajando cuando se topó con [enemyFaction_leader_nameFull], líder de la facción [enemyFaction_name], asquead[joiner_o_a] de ir a un costado del camino. [joiner_nameDef] insultó a [enemyFaction_leader_nameDef] al comparar[enemyFaction_leader_objective] con un [Animal]\n    \nAhora los [enemyFaction_pawnsPlural] de [enemyFaction_leader_nameDef] han construido un campamento cercano para acosarte.\n    \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>{BASELABEL}: Persiguiendo a [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] came upon a lost group of [animalKind_labelPlural]. [joiner_pronoun], in a bad mood, goaded the [animalKind_labelPlural]. Unexpectedly, they attacked [joiner_objective]. And they have followed [joiner_objective] a long distance.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>[joiner_nameDef] ha revelado de qué huía. [joiner_nameDef] estaba viajando cuando se encontró con un grupo perdido de [animalKind_labelPlural]. [joiner_pronoun], de mal humor, los/las provocó. Inesperadamente, [joiner_objective] atacaron, y desde entonces [joiner_objective] persiguen.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>[joiner_nameDef] admitió que estaba huyendo.\n    \n[joiner_nameDef] estaba viajando cuando se encontró con una manada perdida de [animalKind_labelPlural]. Como [joiner_pronoun], estaba de mal humor, empezó a molestar a la manada de [animalKind_labelPlural]. Inesperadamente, la manada furiosa [joiner_objective] atacó. Y [joiner_objective] ha venido siguiendo desde muy lejos.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>
   
   <!-- EN:
     <li>questDescription->[introduction] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] admits [joiner_pronoun] profaned a peace ritual between [raid1/enemyFaction_name] and [raid2/enemyFaction_name]. Now they are both chasing [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], both [raid1/enemyFaction_name] and [raid2/enemyFaction_name] will raid you in [raidDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
@@ -162,7 +174,10 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_A] [joiner_title] de [joiner_age] años llamad[joiner_o_a] [joiner_nameDef] te llama por radio. Admite haber profanado un ritual de paz entre [raid1/enemyFaction_name] y [raid2/enemyFaction_name]. ¡Ahora ambas facciones quieren su cabeza!\n\n[joiner_pronoun] ruega que [joiner_objective] ayudes y ofrece unirse a tu colonia en [map_definite]. [joiner_relationInfo]\n\nSi aceptas a [joiner_nameDef], tanto [raid1/enemyFaction_name] como [raid2/enemyFaction_name] te atacarán en [raidDelayTicks_duration].\n\n[joiner_nameDef] está demasiado inquiet[joiner_o_a] para darte más información.</li>
+    <li>questDescription->[introduction], de nombre [joiner_nameDef], está llamando desde las cercanías. [joiner_pronoun] admitió que profanó un ritual de paz entre las facción [raid1/enemyFaction_name] y la facción [raid2/enemyFaction_name]. !Ahora ambas facciones [joiner_objective] están buscando!\n\n[joiner_pronoun] ruega por su seguridad y ofrece unirse a tu asentamiento en [map_definite].[joiner_relationInfo]\n\nSi aceptas a [joiner_nameDef], ambas facciones: [raid1/enemyFaction_name] y [raid2/enemyFaction_name] comenzarán a atacarte en [raidDelayTicks_duration].\n\n[joiner_nameDef] está demasiado frenétic[joiner_o_a] para ofrecerte más información.</li>
+    <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
+    <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->Un niño de [joiner_age] años</li>
+    <li>introduction->[joiner_A] [joiner_title] de [joiner_age] años</li>
   </ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s Many Friends</li>
@@ -173,13 +188,13 @@
     <li>questName->Los numerosos enemigos de [joiner_nameDef]</li>
   </ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>{BASELABEL}: persiguiendo a [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>{BASELABEL}: persiguiendo [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>{BASETEXT}\n                  \Los [enemyFaction_pawnsPlural] vienen a por [../joiner_nameFull].</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>{BASETEXT}\n                  \nLos [enemyFaction_pawnsPlural] están llegando por [../joiner_nameFull].</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>{BASELABEL} persiguiendo a [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>{BASELABEL} persiguiendo [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>
   <!-- EN: {BASETEXT}\n                        \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>{BASETEXT}\n                        \Los [enemyFaction_pawnsPlural] vienen a por [../joiner_nameFull].</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>{BASETEXT}\n                        \nLos [enemyFaction_pawnsPlural] vienen por [../joiner_nameFull].</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>
   
   <!-- EN:
     <li>questDescription->[introduction] named [joiner_nameFull] is calling from nearby. [joiner_pronoun] is hiding from [threat]. [joiner_pronoun] wants to flee [joiner_possessive] hiding spot and join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_objective], [joinersEnemies] will set up a site nearby to harass you. [site/allSitePartsDescriptions]\n\nThe threat will remain until you go to destroy it.</li>
@@ -195,7 +210,7 @@
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_A] [joiner_title] de [joiner_age] años llamad[joiner_o_a] [joiner_nameFull] te llama por radio. [joiner_pronoun] se esconde de [threat]. [joiner_pronoun] desea dejar su escondite y unirse a tu colonia en [map_definite]. [joiner_relationInfo]\n\nSi [joiner_objective] aceptas, [joinersEnemies] levantarán un campamento cercano desde el que acosarte. [site/allSitePartsDescriptions]\n\nLa amenaza permanecerá hasta que la elimines.</li>
+    <li>questDescription->[introduction], de nombre [joiner_nameFull] está llamando desde las cercanías. [joiner_pronoun] se está ocultando de [threat]. [joiner_pronoun] quiere dejar su escondite y unirse a ti en [map_definite].[joiner_relationInfo]\n\nSi [joiner_objective] aceptas, [joinersEnemies] establecerán un campamento cercano para acosarte. [site/allSitePartsDescriptions]\n\nLa amenaza permanecerá hasta que vayas a destruirla.</li>
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] de [site/enemyFaction_name]</li>
     <li>threat(priority=1,site/MechCluster_exists==True)->mecanoides</li>
     <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mecanoides</li>
@@ -204,6 +219,9 @@
     <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->unos mecanoides</li>
     <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->unos mecanoides</li>
     <li>joinersEnemies->sus enemigos</li>
+    <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
+    <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->Un niño de [joiner_age] años</li>
+    <li>introduction->[joiner_A] [joiner_title] de [joiner_age] años</li>
   </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [site/site_label]</li>
@@ -211,11 +229,11 @@
     <li>questName->the [site/site_label] and [joiner_nameDef]</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
-    <li>questName->el [site/site_label] de [joiner_nameDef]</li>
-    <li>questName->[joiner_nameDef] y el [site/site_label]</li>
-    <li>questName->el [site/site_label] y [joiner_nameDef]</li>
+    <li>questName->[site/site_definite] de [joiner_nameDef]</li>
+    <li>questName->[joiner_nameDef] y [site/site_definite]</li>
+    <li>questName->[site/site_indefinite] y [joiner_nameDef]</li>
   </ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
   <!-- EN: Since you accepted [../joiner_nameDef], [../threat] have set up a nearby site to harass you.\n                    \n[allSitePartsDescriptions] -->
-  <ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>Como aceptaste a [../joiner_nameDef], [../threat] estableció un campamento cercano desde el que atacarte.\n                    \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>
+  <ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>Como aceptaste [../joiner_nameDef], [../threat] estableció un campamento cercano para acosarte.\n                    \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>
   
 </LanguageData>

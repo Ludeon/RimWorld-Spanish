@@ -35,8 +35,8 @@
     <li>asker2(asker_factionLeader==True)->[asker_nameDef]</li>
     <li>asker2(asker_royalInCurrentFaction==True)->the [asker_royalTitleInCurrentFaction]</li>-->
     <li>questDescription(askerIsNull==true)->Un mensaje misterioso ha llegado. Parece que fue enviado por una IA que se niega a revelar su nombre. El mensaje te pide que construyas un monumento específico.\n\n[commonEnding]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull] [asker_a] [asker_faction_leaderTitle] de la facción [asker_faction_name] te pide que construyas un monumento [buildReason].\n\n[commonEnding]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_The] [asker_royalTitleInCurrentFaction] [asker_nameFull] de la facción [asker_faction_name] te pide que construyas un monumento [buildReason].\n\n[commonEnding]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull] [asker_a] [asker_faction_leaderTitle], de la facción [asker_faction_name] te pide que construyas un monumento [buildReason].\n\n[commonEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_The] [asker_royalTitleInCurrentFaction] [asker_nameFull], de la facción [asker_faction_name] te pide que construyas un monumento [buildReason].\n\n[commonEnding]</li>
     <li>asker2(askerIsNull==true)->la IA arqueoténica</li>
     <li>asker2(asker_factionLeader==True)->[asker_nameDef]</li>
     <li>asker2(asker_royalInCurrentFaction==True)->[asker_The] [asker_royalTitleInCurrentFaction]</li>

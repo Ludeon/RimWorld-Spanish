@@ -9,13 +9,13 @@ $temp = New-Item "$env:temp\$([GUID]::NewGuid())" -ItemType "Directory"
 $main = New-Item "Core/WordInfo/Gender" -ItemType "Directory" -Force
 
 # Paths of the XML files in which the words should be searched
+# "*\Backstories" por ahora no se usará
 $paths = @(
 "*\DefInjected\PawnKindDef"
 "*\DefInjected\FactionDef"
 "*\DefInjected\ThingDef"
 "*\DefInjected\WorldObjectDef"
 "*\DefInjected\GameConditionDef"
-"*\Backstories"
 )
 
 # Search words in the XML files and save them in different lists of words depending on their gender
