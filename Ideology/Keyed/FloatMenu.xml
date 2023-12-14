@@ -8,7 +8,7 @@
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0} ya está en marcha.</CantStartRitualAlreadyInProgress>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
-  <CantJoinRitualInExtremeWeather>Uno o más participantes no pueden unirse debido a la temperatura extrema.</CantJoinRitualInExtremeWeather>
+  <CantJoinRitualInExtremeWeather>Uno o más participantes no pueden unirse debido a las temperaturas extremas.</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0} ya está participando en un ritual.</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
@@ -18,7 +18,7 @@
   <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
   <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} no puede ser {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
-  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} debe ser un(a) {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
+  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} debe ser {PAWN_gender ? un : una} {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
   <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} es psíquicamente sord{PAWN_gender ? o : a}.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
@@ -171,5 +171,5 @@
   <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
   <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} ya quiere {PAWN_possessive} siguiente tratamiento y empezará uno automáticamente si está activado.</BiosculpterAutoAgeReversalDescriptionNow>
   <!-- EN: Collecting ingredients for biosculpter cycle -->
-  <BiosculpterJobReportCollectIngredients>Recogida de ingredientes para el ciclo de bioescultura</BiosculpterJobReportCollectIngredients>
+  <BiosculpterJobReportCollectIngredients>Recogiendo recursos para el ciclo de bioescultura</BiosculpterJobReportCollectIngredients>
 </LanguageData>
