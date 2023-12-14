@@ -3,29 +3,29 @@
 
   <!-- Character tab -->
   <!-- EN: {PAWN_labelShort} currently has the title {TITLE}, awarded by {FACTION_name}. -->
-  <RoyalTitleTooltipHasTitle>{PAWN_labelShort} actualmente tiene el título de {TITLE}, otorgado por {FACTION_name}.</RoyalTitleTooltipHasTitle>
+  <RoyalTitleTooltipHasTitle>{PAWN_labelShort} ha obtenido recientemente el título de {TITLE}, otorgado por la facción {FACTION_name}.</RoyalTitleTooltipHasTitle>
   <!-- EN: {PAWN_labelShort} will demand that this title's privileges be fully respected. -->
-  <RoyalTitleTooltipConceited>{PAWN_labelShort} exigirá que los privilegios de este título sean respetados.</RoyalTitleTooltipConceited>
+  <RoyalTitleTooltipConceited>{PAWN_labelShort} exigirá que los privilegios del título sean respetados.</RoyalTitleTooltipConceited>
   <!-- EN: {PAWN_labelShort} is flexible about this title's privileges. -->
-  <RoyalTitleTooltipNonConceited>{PAWN_labelShort} es flexible respecto a los privilegios del título.</RoyalTitleTooltipNonConceited>
+  <RoyalTitleTooltipNonConceited>{PAWN_labelShort} es flexible en cuanto a los privilegios de su título.</RoyalTitleTooltipNonConceited>
   <!-- EN: Next title -->
   <RoyalTitleTooltipNextTitle>Siguiente título</RoyalTitleTooltipNextTitle>
   <!-- EN: costs {0} {FACTION_royalFavorLabel} -->
-  <RoyalTitleTooltipNextTitleFavorCost>cuesta {0} {FACTION_royalFavorLabel}</RoyalTitleTooltipNextTitleFavorCost>
+  <RoyalTitleTooltipNextTitleFavorCost>cuesta {0} {FACTION_royalFavorLabel}</RoyalTitleTooltipNextTitleFavorCost> <!-- text_todo -->
   <!-- EN: No more earnable titles on this planet. -->
   <RoyalTitleTooltipFinalTitle>No se pueden obtener más títulos en este planeta.</RoyalTitleTooltipFinalTitle>
   <!-- EN: If {PAWN_nameDef} dies, {HEIR_nameFull} is designated to inherit {PAWN_possessive} title. -->
-  <RoyalTitleTooltipInheritance>Si {PAWN_nameFull} mueriere, {HEIR_nameFull} heredaría su título.</RoyalTitleTooltipInheritance>
+  <RoyalTitleTooltipInheritance>Si {PAWN_nameFull} muere, {HEIR_nameFull} podrá heredar su título.</RoyalTitleTooltipInheritance>
   <!-- EN: {HEIR_nameFull} is not a member of any faction. -->
-  <RoyalTitleTooltipHeirNoFaction>{HEIR_nameFull} no es miembro de ninguna facción.</RoyalTitleTooltipHeirNoFaction>
+  <RoyalTitleTooltipHeirNoFaction>{HEIR_nameFull} no pertenece a ninguna facción.</RoyalTitleTooltipHeirNoFaction>
   <!-- EN: {HEIR_nameFull} is a member of {FACTION_name}. -->
-  <RoyalTitleTooltipHeirDifferentFaction>{HEIR_nameFull} es un miembro de {FACTION_name}.</RoyalTitleTooltipHeirDifferentFaction>
+  <RoyalTitleTooltipHeirDifferentFaction>{HEIR_nameFull} pertenece a la facción {FACTION_name}.</RoyalTitleTooltipHeirDifferentFaction>
   <!-- EN: No one is designated to inherit {PAWN_nameDef}'s title. If {PAWN_pronoun} dies, the title will be lost. -->
-  <RoyalTitleTooltipNoHeir>Si {PAWN_nameFull} mueriere, nadie heredaría su título. El título se perderá.</RoyalTitleTooltipNoHeir>
+  <RoyalTitleTooltipNoHeir>Si {PAWN_nameFull} muere, nadie heredaría su título. El título se perdería.</RoyalTitleTooltipNoHeir>
   <!-- EN: Earnable titles of {FACTION_name} -->
-  <RoyalTitleTooltipTitlesEarnable>Títulos obtenibles de {FACTION_name}</RoyalTitleTooltipTitlesEarnable>
+  <RoyalTitleTooltipTitlesEarnable>Títulos obtenibles de la facción  {FACTION_name}</RoyalTitleTooltipTitlesEarnable>
   <!-- EN: Other titles of {FACTION_name} -->
-  <RoyalTitleTooltipTitlesNonEarnable>Otros títulos de {FACTION_name}</RoyalTitleTooltipTitlesNonEarnable>
+  <RoyalTitleTooltipTitlesNonEarnable>Otros títulos de la facción {FACTION_name}</RoyalTitleTooltipTitlesNonEarnable>
   <!-- EN: {0} {1} -->
   <RoyalTitleTooltipRoyalFavorAmount>{0} {1}</RoyalTitleTooltipRoyalFavorAmount>
   <!-- EN: {0} total -->
@@ -42,17 +42,17 @@
   <!-- EN: Current title -->
   <CurrentTitle>Título actual</CurrentTitle>
   <!-- EN: Unused permit points -->
-  <UnusedPermits>Puntos de permiso sin usar</UnusedPermits>
+  <UnusedPermits>Pts. de permiso sin usar</UnusedPermits>
   <!-- EN: Return all permits -->
-  <ReturnAllPermits>Devolver todos los permisos</ReturnAllPermits>
+  <ReturnAllPermits>Devolver los permisos</ReturnAllPermits>
   <!-- EN: {PAWN_nameDef} has no permits to return. -->
   <NoPermitsToReturn>{PAWN_nameDef} no tiene permiso para devolver.</NoPermitsToReturn>
   <!-- EN: Returning permits requires {FAVORCOST} {FAVOR} but {PAWN_nameDef} only has {CURFAVOR}. -->
-  <NotEnoughFavor>Devolver permisos requiere {FAVORCOST} {FAVOR} pero {PAWN_nameDef} solo tiene {CURFAVOR}.</NotEnoughFavor>
+  <NotEnoughFavor>Devolver los permisos requiere {FAVORCOST} {FAVOR} pero {PAWN_nameDef} solo tiene {CURFAVOR}.</NotEnoughFavor>
   <!-- EN: Return all previously-chosen permits for this faction. You will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
-  <ReturnAllPermits_Desc>Devuelve todos los permisos escogidos anteriormente para esta facción. Recuperarás los puntos y podrás usarlos de nuevo.\n\nEsta acción cuesta {BASEFAVORCOST} {FAVOR}, además del costo de reinicio de algún permiso en enfriamiento. Coste total: {FAVORCOST}.</ReturnAllPermits_Desc>
+  <ReturnAllPermits_Desc>Devuelve todos los permisos previamente elegidos para esta facción. Recuperarás todos los puntos de permiso gastados y podrás gastarlos de nuevo.\n\nEsta acción cuesta {BASEFAVORCOST} {FAVOR} más el costo de restablecer cualquier permiso actualmente en fase de enfriamiento. Coste total: {FAVORCOST}.</ReturnAllPermits_Desc>
   <!-- EN: Return all previously-chosen permits for {FACTION_name}?\n\nYou will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
-  <ReturnAllPermits_Confirm>¿Devolver todos los permisos escogidos anteriormente para la facción {FACTION_name}?.\n\nRecuperarás todos los puntos de permiso gastados y podrás volver a gastarlos.\n\nEsta acción cuesta {BASEFAVORCOST} {FAVOR}, más el costo de reinicio de cualquier permiso actualmente en fase de enfriamiento. El costo total ahora es {FAVORCOST}.</ReturnAllPermits_Confirm>
+  <ReturnAllPermits_Confirm>¿Devolver todos los permisos previamente elegidos para la facción {FACTION_name}?\n\nRecuperarás todos los puntos de permiso gastados y podrás volver a gastarlos.\n\nEsta acción cuesta {BASEFAVORCOST} {FAVOR}, más el costo de reinicio de cualquier permiso actualmente en fase de enfriamiento. El costo total ahora es {FAVORCOST}.</ReturnAllPermits_Confirm>
   <!-- EN: Switch faction -->
   <SwitchFaction_Desc>Cambiar de facción</SwitchFaction_Desc>
   <!-- EN: Accept permit -->
@@ -60,10 +60,10 @@
   <!-- EN: Requires title: {0} -->
   <RequiresTitle>Requiere el título: {0}</RequiresTitle>
   <!-- EN: Upgrade from: {0} -->
-  <UpgradeFrom>Mejorar desde: {0}</UpgradeFrom>
+  <UpgradeFrom>Actualizar desde: {0}</UpgradeFrom>
   <!-- EN: Cooldown -->
   <Cooldown>Enfriamiento</Cooldown>
   <!-- EN: {HONOR} cost if used during cooldown -->
-  <CooldownUseFavorCost>{HONOR} coste si se usa durante el enfriamiento</CooldownUseFavorCost>
+  <CooldownUseFavorCost>Costo de {HONOR} si se utiliza durante el enfriamiento</CooldownUseFavorCost>
   
 </LanguageData>

@@ -220,44 +220,62 @@
     <li>artextra_clause->hay [subimagesingle] [side_position]</li>
     <li>artextra_clause->los protagonistas están en frente de [subimageany]</li>
     <li>artextra_clause->la parte baja de la imagen está dominada por [subimageany]</li>
-    <li>artextra_clause->la escena toma lugar en medio de un(a) [Community]</li>
-    <li>artextra_clause->la escena toma lugar en las afueras de un(a) [Community]</li>
-    <li>artextra_clause->la escena toma lugar dentro de un(a) [Community] cerca de un [TerrainFeature]</li>
-    <li>artextra_clause->un(a) [Character] [idles] [side_position]</li>
-    <li>artextra_clause->un(a) [Character] [PAWN_adj] [idles] [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [Character]s se ven [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [Character]s [PAWN_adj]s se ven [side_position]</li>
-    <li>artextra_clause->un(a) [Animal] [idles] [side_position]</li>
+    <li>artextra_clause->la escena toma lugar en medio de [CommunityIndef]</li>
+    <li>artextra_clause->la escena toma lugar en las afueras de [CommunityIndef]</li>
+    <li>artextra_clause->la escena toma lugar dentro de [CommunityIndef] cerca de [TerrainFeatureIndef]</li>
+    <li>artextra_clause->[CharacterIndef] [idles] [side_position]</li>
+    <li>artextra_clause->[CharacterIndefMas] [PAWN_adj] [idles] [side_position]</li>
+    <li>artextra_clause->[CharacterIndefFem] [PAWN_adj_Fem] [idles] [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [CharacterEnemyPlural] se ven [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [CharacterEnemyPlural] [PAWN_adj]s se ven [side_position]</li>
+    <li>artextra_clause->[AnimalIndef] [idles] [side_position]</li>
     <li>artextra_clause->si entrecierras los ojos, puedes ver que la composición de la imagen revela la silueta de [subimageany]</li>
-    <li>artextra_clause->la cabeza de un(a) [PersonJob] [emotional_expression] [PAWN_adj] lo observa todo</li>
-    <li>artextra_clause->un(a) [PersonJob] [PAWN_adj]  lo observa todo [emotional_expression]</li>
-    <li>artextra_clause->un(a) [PersonJob] [PAWN_adj] lo mira todo desde las alturas</li>
+    <li>artextra_clause->la cabeza de un [PersonJob] [emotional_expression] [PAWN_adj] lo observa todo</li>
+    <li>artextra_clause->la cabeza de una [PersonJob_Fem] [emotional_expression] [PAWN_adj_Fem] lo observa todo</li>
+    <li>artextra_clause->un [PersonJob] [PAWN_adj] lo observa todo [emotional_expression]</li>
+    <li>artextra_clause->un [PersonJob] [PAWN_adj] lo mira todo desde las alturas</li>
+    <li>artextra_clause->una [PersonJob_Fem] [PAWN_adj_Fem] lo observa todo [emotional_expression]</li>
+    <li>artextra_clause->una [PersonJob_Fem] [PAWN_adj_Fem] lo mira todo desde las alturas</li>
     <li>artextra_clause->la imagen completa está formada por el arreglo cuidadoso de [subimageplural]</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
-    <li>subimagesingle(p=4)->un(a) [Character]</li>
-    <li>subimagesingle->un [TerrainFeature]</li>
-    <li>subimagesingle->un(a) [Community]</li>
-    <li>subimagesingle->un(a) [TreeType]</li>
-    <li>subimagesingle->un(a) [Vegetable]</li>
-    <li>subimagesingle->un(a) [Animal]</li>
-    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
-    <li>subimageplural->[Quantity_adjphrase] [Vegetable]s</li>
-    <li>subimageplural->[Quantity_adjphrase] [Shape]s</li>
+    <li>subimagesingle(p=4)->[CharacterIndef]</li>
+    <li>subimagesingle->[TerrainFeatureIndef]</li>
+    <li>subimagesingle->[CommunityIndef]</li>
+    <li>subimagesingle->[TreeTypeIndef]</li>
+    <li>subimagesingle->[VegetableIndef]</li>
+    <li>subimagesingle->[AnimalIndef]</li>
+    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character_Plural]</li>
+    <li>subimageplural->[Quantity_adjphrase] [VegetableAny]s</li>
+    <li>subimageplural->[Quantity_adjphrase] [Shape_Plural]</li>
     <li>pawn_adj->sonriente</li>
     <li>pawn_adj->durmiente</li>
-    <li>pawn_adj->muerto(a)</li>
-    <li>pawn_adj->loco(a)</li>
+    <li>pawn_adj->muerto</li>
+    <li>pawn_adj->loco</li>
     <li>pawn_adj->joven</li>
-    <li>pawn_adj->viejo(a)</li>
-    <li>pawn_adj->lunático(a)</li>
-    <li>pawn_adj->enojado(a)</li>
+    <li>pawn_adj->viejo</li>
+    <li>pawn_adj->lunático</li>
+    <li>pawn_adj->enojado</li>
     <li>pawn_adj->expectante</li>
-    <li>pawn_adj->cubierto(a) de [Gore]</li>
-    <li>pawn_adj->nervioso(a)</li>
-    <li>pawn_adj->vistiendo [Apparel]</li>
-    <li>pawn_adj->blandiendo un(a) [Weapon]</li>
-    <li>pawn_adj->comiendo [Vegetable]</li>
+    <li>pawn_adj->cubierto de [Gore_Plural]</li>
+    <li>pawn_adj->nervioso</li>
+    <li>pawn_adj->vistiendo [ApparelIndef]</li>
+    <li>pawn_adj->blandiendo [WeaponIndef]</li>
+    <li>pawn_adj->comiéndose [VegetableIndef]</li>
+    <li>pawn_adj_Fem->sonriente</li>
+    <li>pawn_adj_Fem->durmiente</li>
+    <li>pawn_adj_Fem->muerta</li>
+    <li>pawn_adj_Fem->loca</li>
+    <li>pawn_adj_Fem->joven</li>
+    <li>pawn_adj_Fem->vieja</li>
+    <li>pawn_adj_Fem->lunática</li>
+    <li>pawn_adj_Fem->enojada</li>
+    <li>pawn_adj_Fem->expectante</li>
+    <li>pawn_adj_Fem->cubierta de [Gore_Plural]</li>
+    <li>pawn_adj_Fem->nerviosa</li>
+    <li>pawn_adj_Fem->vistiendo [ApparelIndef]</li>
+    <li>pawn_adj_Fem->blandiendo [WeaponIndef]</li>
+    <li>pawn_adj_Fem->comiéndose [VegetableIndef]</li>
     <li>emotional_expression->sonriendo</li>
     <li>emotional_expression->llorando</li>
     <li>emotional_expression->gruñendo</li>
@@ -265,7 +283,7 @@
     <li>emotional_expression->bostezando</li>
     <li>emotional_expression->gritando</li>
     <li>emotional_expression->aullando</li>
-    <li>emotional_expression->haciendo bizcos</li>
+    <li>emotional_expression->haciendo saltos</li>
     <li>idles->se sienta</li>
     <li>idles->se pone de pie</li>
     <li>idles->espera</li>
@@ -276,7 +294,6 @@
     <li>idles->se muestra</li>
     <li>idles->se yergue</li>
     <li>idles->flota</li>
-    <li>side_position->movido a un lado</li>
     <li>side_position->en el fondo</li>
     <li>side_position->a la distancia</li>
     <li>side_position->en la parte baja de la imagen</li>
@@ -288,16 +305,16 @@
     <li>side_position->lejos del tema principal</li>
     <li>side_position->debajo del tema principal</li>
     <li>side_position->debajo del punto focal</li>
-    <li>style_clause(p=4)->el trabajo [symbolizes] el/la [ConceptAny]</li>
-    <li>artextra_clause->[subimagesingle] [side_position] que [symbolizes] el/la [ConceptAny]</li>
-    <li>style_clause->el trabajo está empapado con la idea de [ConceptAny] y está hecho en un estilo [artstyle_adj]</li>
+    <li>style_clause(p=4)->el trabajo [symbolizes] [ConceptAnyDef]</li>
+    <li>artextra_clause->[subimagesingle] [side_position] que [symbolizes] [ConceptAnyDef]</li>
+    <li>style_clause->el trabajo está empapado con la idea de [ConceptAnyDef] y está hecho en un estilo [artstyle_adj]</li>
     <li>style_clause->el trabajo fue ejecutado en un estilo [artstyle_adj]</li>
     <li>style_clause->el estilo [artstyle_adj] de la escena central contrasta con el estilo [artstyle_adj] del fondo</li>
     <li>style_clause->el trabajo se siente [artstyle_adj] y tiene una estructura [composition]</li>
     <li>style_clause->la composición general es [composition]</li>
     <li>style_clause->el estilo es [artstyle_adj] con elementos [artstyle_adj]s</li>
-    <li>style_clause->la imagen de alguna forma expresa tanto [ConceptAny] como [ConceptAny]</li>
-    <li>style_clause->la imagen contrasta [ConceptAny] con [ConceptAny]</li>
+    <li>style_clause->la imagen de alguna forma expresa tanto [ConceptAnyFull] como [ConceptAnyFull]</li>
+    <li>style_clause->la imagen contrasta [ConceptAnyFull] con [ConceptAnyFull]</li>
     <li>style_clause->la estructura [composition] de la imagen casi entra en conflicto con el estilo [artstyle_adj]</li>
     <li>style_clause->el trabajo tiene tonalidades de [Color] y [Color]</li>
     <li>style_clause->casi cada silueta parece ser [composition]</li>
@@ -315,14 +332,14 @@
     <li>depicts->ilustra</li>
     <li>depicts->representa</li>
     <li>depicts->aparenta</li>
-    <li>depicts->muestra</li>
-    <li>depicts->ilustra</li>
-    <li>depicts->representa</li>
+    <li>depicts->estampa</li>
+    <li>depicts->expone</li>
+    <li>depicts->revela</li>
     <li>depiction->imagen</li>
     <li>depiction->obra</li>
     <li>depiction->representación</li>
     <li>depiction->ilustración</li>
-    <li>depiction->imagen</li>
+    <li>depiction->estampa</li>
     <li>depiction->figura</li>
     <li>composition->triangular</li>
     <li>composition->rectangular</li>
@@ -363,7 +380,7 @@
     <li>artstyle_adj->minimalista</li>
     <li>artstyle_adj->neoclásico</li>
     <li>artstyle_adj->caricaturesco</li>
-    <li>artstyle_adj->post-impresionista</li>
+    <li>artstyle_adj->posimpresionista</li>
     <li>artstyle_adj->purista</li>
     <li>artstyle_adj->rococó</li>
     <li>artstyle_adj->romanesco</li>
