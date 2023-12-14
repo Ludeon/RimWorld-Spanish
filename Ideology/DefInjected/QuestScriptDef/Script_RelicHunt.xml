@@ -6,7 +6,11 @@
     <li>questDescription(classicMode==False)->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
     <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
   -->
-  <RelicHunt.questDescriptionRules.rulesStrings>TODO</RelicHunt.questDescriptionRules.rulesStrings>
+  <RelicHunt.questDescriptionRules.rulesStrings>
+    <li>questDescription(classicMode==True)->Te has enterado de que una valiosa reliquia está cerca.\n\nLa reliquia [relic_name] es uno de los [relicGlobalCount] objetos antiguos venerados por mucha gente. Si pudieras recogerla, podrías construir un relicario para hacer felices a tus colonos y atraer a peregrinos ricos.</li>
+    <li>questDescription(classicMode==False)->Te has enterado de que una reliquia de la ideoligión [ideo_name] está cerca.\n\nLa reliquia [relic_name] es un objeto antiguo venerado por todos los [ideo_memberNamePlural]. Si pudieras recogerla, podrías construir un gran relicario para hacer feliz a los [ideo_memberNamePlural], atraer a peregrinos ricos y traer más gente a la ideoligión [ideo_name].</li>
+    <li>questDescriptionPartBeforeDiscovery->Lo primero, tienes que encontrar la reliquia [relic_name]. Busca oportunidades para reunir información sobre ella.</li>
+  </RelicHunt.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [hunt] for the [item]</li>
     <li>questName->The [itemAdj] [item]</li>
@@ -21,6 +25,23 @@
     <li>itemAdj->revered</li>
     <li>itemAdj->venerated</li>
   -->
-  <RelicHunt.questNameRules.rulesStrings>TODO</RelicHunt.questNameRules.rulesStrings>
+  <RelicHunt.questNameRules.rulesStrings>
+    <li>questName->La [hunt] para hallar [item]</li>
+    <li>questName->En [hunt1] de[item1]</li>
+    <li>questName(classicMode==False)->[item] de [ideo_name]</li>
+    <li>questName->[item] [itemAdj]</li>
+    <li>hunt->cacería</li>
+    <li>hunt1->búsqueda</li>
+    <li>hunt->misión</li>
+    <li>item->la reliquia [relic_name]</li>
+    <li>item(p=4)->la reliquia</li>
+    <li>item(p=4)->el artefacto</li>
+    <li>item1-> la reliquia [relic_name]</li>
+    <li>item1(p=4)-> la reliquia</li>
+    <li>item1(p=4)->l artefacto</li>
+    <li>itemAdj->ancestral</li>
+    <li>itemAdj->reverenciado(a)</li>
+    <li>itemAdj->venerado(a)</li>
+  </RelicHunt.questNameRules.rulesStrings>
   
 </LanguageData>

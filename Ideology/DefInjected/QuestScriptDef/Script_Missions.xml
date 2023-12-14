@@ -8,7 +8,15 @@
     <li>passengersSingularOrPlural(colonistCount==1)->passenger</li>
     <li>passengersSingularOrPlural(colonistCount>=2)->passengers</li>
   -->
-  <AncientComplex_Mission.questContentRules.rulesStrings>TODO</AncientComplex_Mission.questContentRules.rulesStrings>
+  <AncientComplex_Mission.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->Terminal hackeada. {COUNT} / [terminalCount] completas.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] [incapable] de hackear.</li>
+    <li>passengersIncapableOfHackingDialogText->El transbordador para la misión "[resolvedQuestName]" no tiene ningún pasajero capaz de hackear. Debes enviar al menos a una persona capaz de hackear para investigar el antiguo complejo.</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->pasajero</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->pasajeros</li>
+    <li>incapable(colonistCount==1)->incapaz</li>
+    <li>incapable(colonistCount>=2)->incapaces</li>
+  </AncientComplex_Mission.questContentRules.rulesStrings>
   <!-- EN:
     <li>complex->complex</li>
     <li>complex->compound</li>
@@ -21,19 +29,43 @@
     <li>investigation->excavation</li>
     <li>investigation->hacking</li>
   -->
-  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>TODO</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+    <li>complex->complejo</li>
+    <li>complex->recinto</li>
+    <li>complex1->instalación</li>
+    <li>complex1->estructura</li>
+    <li>complex1->construcción</li>
+    <li>investigation->investigación</li>
+    <li>investigation->desarrollo</li>
+    <li>investigation->misiones</li>
+    <li>investigation->excavaciones</li>
+    <li>investigation->hackeos</li>
+  </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has discovered an ancient complex a long distance away. [asker_pronoun] believes it contains information about the relic known as [relic_name].\n\n[asker_nameDef] can't spare people to look into it, but hopes you can help by supplying exactly [colonistCount] [colonistsSingularOrPlural] to carry out the investigation.\n\nThe complex contains unknown threats and is also being sought by [asker_nameDef]'s enemies, [enemyFaction_name].\n\n[asker_pronoun] will send a shuttle to pick up your colonists, bring them to the complex, and take them home afterward. They will be fed and tended to en-route.\n\nOnce you have landed, you must hack all terminals in the complex within [timeoutTicks_duration].</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->colonist</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
-  <AncientComplex_Mission.questDescriptionRules.rulesStrings>TODO</AncientComplex_Mission.questDescriptionRules.rulesStrings>
+  <AncientComplex_Mission.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de la facción [asker_faction_name], descubrió un antiguo complejo a gran distancia. Cree que contiene información sobre la reliquia conocida como [relic_name].\n\n[asker_nameDef] no dispone de gente para investigarlo, pero espera que puedas ayudar proporcionando exactamente [colonistCount] [colonistsSingularOrPlural] para llevar a cabo la investigación.\n\nEl complejo contiene amenazas desconocidas y también es buscado por los enemigos de [asker_nameDef], la facción [enemyFaction_name].\n\n[asker_pronoun] enviará un transbordador para recoger a tus colonos, llevarlos al complejo y a casa después. Serán alimentados y atendidos en el camino.\n\nUna vez que hayas aterrizado, debes hackear todas las terminales del complejo dentro de [timeoutTicks_duration].</li>
+    <li>colonistsSingularOrPlural(colonistCount==1)->colono</li>
+    <li>colonistsSingularOrPlural(colonistCount>=2)->colonos</li>
+  </AncientComplex_Mission.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[missionAdj] [complex] [investigation]</li>
     <li>missionAdj->hidden</li>
     <li>missionAdj->covert</li>
     <li>missionAdj->secret</li>
   -->
-  <AncientComplex_Mission.questNameRules.rulesStrings>TODO</AncientComplex_Mission.questNameRules.rulesStrings>
+  <AncientComplex_Mission.questNameRules.rulesStrings>
+    <li>questName->[complex] de [investigation] [missionAdj]</li>
+    <li>questName->[complex1] de [investigation] [missionAdj1]</li>
+    <li>missionAdj->oculto</li>
+    <li>missionAdj->encubierto</li>
+    <li>missionAdj->secreto</li>
+    <li>missionAdj1->oculta</li>
+    <li>missionAdj1->encubierta</li>
+    <li>missionAdj1->secreta</li>
+  </AncientComplex_Mission.questNameRules.rulesStrings>
   
 </LanguageData>

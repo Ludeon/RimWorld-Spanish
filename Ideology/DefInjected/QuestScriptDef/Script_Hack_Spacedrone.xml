@@ -8,7 +8,13 @@
     <li>droneDetectionMethod(enemyFactionNeolithic==true)->spot the drone during its decent</li>
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
   -->
-  <Hack_Spacedrone.questDescriptionRules.rulesStrings>TODO</Hack_Spacedrone.questDescriptionRules.rulesStrings>
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings>
+    <li>questDescription->Has detectado un dron espacial en órbita que puede contener información sobre la reliquia [relic_name]. Tienes el código que lo obligará a aterrizar en [map_definite].\n\nPara obtener la información, hackea el ordenador del dron. El hackeo lleva tiempo, pero los que tienen una gran habilidad intelectual pueden acelerar el proceso.[raidsDescription]\n\nDespués de aterrizar, el dron espacial se autodestruirá en [destroyDelayTicks_duration].</li>
+    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] de la facción [enemyFaction_name] [droneDetectionMethod]. Mientras esté presente, enviarán atacantes aproximadamente cada [raidIntervalAvg_duration] para destruirlo y robar la riqueza que creen que contiene. Tendrás algo de tiempo para preparar las defensas a su alrededor antes de que lleguen.</li>
+    <li>raidsDescription(allowViolence==false)-></li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->detectará el dron durante su descenso</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==false)->detectará la firma energética del dron</li>
+  </Hack_Spacedrone.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[droneAdj] [drone] hack</li>
     <li>questName->[drone] [data] hack</li>
@@ -23,6 +29,24 @@
     <li>data->intel</li>
     <li>data->info</li>
   -->
-  <Hack_Spacedrone.questNameRules.rulesStrings>TODO</Hack_Spacedrone.questNameRules.rulesStrings>
+  <Hack_Spacedrone.questNameRules.rulesStrings>
+    <li>questName->hackeo del [drone] [droneAdj]</li>
+    <li>questName->hackeo de la [drone1] [droneAdj1]</li>
+    <li>questName->hackeo de [data] del [drone]</li>
+    <li>questName->hackeo de [data] de la [drone1]</li>
+    <li>droneAdj->orbital</li>
+    <li>droneAdj->perdido</li>
+    <li>droneAdj->antiguo</li>
+    <li>droneAdj1->orbital</li>
+    <li>droneAdj1->perdida</li>
+    <li>droneAdj1->antigua</li>
+    <li>drone->dron</li>
+    <li>drone->dron espacial</li>
+    <li>drone->criptodron</li>
+    <li>drone1->nave espacial</li>
+    <li>data->datos</li>
+    <li>data->data</li>
+    <li>data->información</li>
+  </Hack_Spacedrone.questNameRules.rulesStrings>
   
 </LanguageData>
