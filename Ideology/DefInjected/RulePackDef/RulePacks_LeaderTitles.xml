@@ -10,7 +10,16 @@
     <li>cultureLeaderAdjective->grand</li>
     <li>cultureLeaderNoun->chief</li>
   -->
-  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>TODO</LeaderTitleMaker_Corunan.rulePack.rulesStrings>
+  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>
+    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+    <li>cultureLeaderTitle->[cultureLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>cultureLeaderTitle->[cultureLeaderAdjective1] [cultureLeaderNoun]</li>
+    <li>cultureLeaderAdjective->supremo</li>
+    <li>cultureLeaderAdjective1->gran</li>
+    <li>cultureLeaderAdjective1->primer</li>
+    <li>cultureLeaderAdjective->magnífico</li>
+    <li>cultureLeaderNoun->jefe</li>
+  </LeaderTitleMaker_Corunan.rulePack.rulesStrings>
   
   <!-- EN:
     <li>cultureLeaderAdjective->high</li>
@@ -22,7 +31,16 @@
     <li>cultureLeaderNoun->governor</li>
     <li>cultureLeaderNoun->leader</li>
   -->
-  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>TODO</LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
+  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
+    <li>cultureLeaderAdjective1->gran</li>
+    <li>cultureLeaderAdjective->supremo</li>
+    <li>cultureLeaderAdjective1->primer</li>
+    <li>cultureLeaderAdjective->principal</li>
+    <li>cultureLeaderNoun->presidente</li>
+    <li>cultureLeaderNoun->director</li>
+    <li>cultureLeaderNoun->gobernador</li>
+    <li>cultureLeaderNoun->líder</li>
+  </LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_leaderTitle(p=6)->[memeLeaderAdjective] [memeLeaderNoun]</li>
@@ -30,7 +48,13 @@
     <li>r_leaderTitle(p=1)->[memeLeaderAdjective] [cultureLeaderNoun]</li>
     <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
   -->
-  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>TODO</LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
+  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
+    <li>r_leaderTitle(p=6)->[memeLeaderNoun] [memeLeaderAdjective]</li>
+    <li>r_leaderTitle(p=3)->[memeLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>r_leaderTitle(p=3)->[cultureLeaderAdjective1] [memeLeaderNoun]</li>
+    <li>r_leaderTitle(p=1)->[cultureLeaderNoun] [memeLeaderAdjective]</li>
+    <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
+  </LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
   
   <!-- EN:
     <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
@@ -44,7 +68,18 @@
     <li>cultureLeaderNoun->gun</li>
     <li>cultureLeaderNoun->dog</li>
   -->
-  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>TODO</LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+    <li>cultureLeaderTitle->[cultureLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>cultureLeaderAdjective->mortal</li>
+    <li>cultureLeaderAdjective->supremo</li>
+    <li>cultureLeaderAdjective->intelectual</li>
+    <li>cultureLeaderNoun->jefe</li>
+    <li>cultureLeaderNoun->mafioso</li>
+    <li>cultureLeaderNoun->prominente</li>
+    <li>cultureLeaderNoun->pistolero</li>
+    <li>cultureLeaderNoun->gángster</li>
+  </LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
   
   <!-- EN:
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
@@ -56,7 +91,16 @@
     <li>cultureLeaderNoun->guide</li>
     <li>cultureLeaderNoun->steersman</li>
   -->
-  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>TODO</LeaderTitleMaker_Rustican.rulePack.rulesStrings>
+  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>
+    <li>cultureLeaderTitle->[cultureLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>cultureLeaderAdjective->principal</li>
+    <li>cultureLeaderAdjective->supremo</li>
+    <li>cultureLeaderNoun->consejero</li>
+    <li>cultureLeaderNoun->líder</li>
+    <li>cultureLeaderNoun->ministro</li>
+    <li>cultureLeaderNoun->guía</li>
+    <li>cultureLeaderNoun->timonero</li>
+  </LeaderTitleMaker_Rustican.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_leaderTitle->high stellarch</li>

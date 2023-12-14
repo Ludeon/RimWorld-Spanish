@@ -9,12 +9,21 @@
     <li>globalHyphenPrefix->astro</li>
     <li>globalHyphenPrefix->stello</li>
   -->
-  <CultureSpacer.rulePack.rulesStrings>TODO</CultureSpacer.rulePack.rulesStrings>
+  <CultureSpacer.rulePack.rulesStrings>
+    <li>globalAdjective->Espacial</li>
+    <li>globalAdjective->Estrella</li>
+    <li>globalAdjective->Estelar</li>
+    <li>globalAdjective->Interestelar</li>
+    <li>globalHyphenPrefix->astro</li>
+    <li>globalHyphenPrefix->astral</li>
+  </CultureSpacer.rulePack.rulesStrings>
   
   <!-- EN:
     <li>globalAdjective(p=15)->Tribal</li>
   -->
-  <NamerIdeoCorunan.rulePack.rulesStrings>TODO</NamerIdeoCorunan.rulePack.rulesStrings>
+  <NamerIdeoCorunan.rulePack.rulesStrings>
+    <li>globalAdjective(p=15)->Tribal</li>
+  </NamerIdeoCorunan.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_ideoName->[keyDeity]ism</li>
@@ -47,6 +56,39 @@
     <li>globalHyphenPrefix->archaeo</li>
     <li>globalHyphenPrefix->hyper</li>
   -->
-  <NamerIdeoGlobal.rulePack.rulesStrings>TODO</NamerIdeoGlobal.rulePack.rulesStrings>
+  <NamerIdeoGlobal.rulePack.rulesStrings>
+    <li>r_ideoName->[keyDeity]ismo</li>
+    <li>r_ideoName->[hyphenPrefix][keyDeity]ismo</li>
+    <li>r_ideoName->[creed] de [keyDeity]</li>
+    <li>r_ideoAdjective->[keyDeity]ico</li>
+    <li>r_memberName->[keyDeity]ista</li>
+    <li>r_memberName->[keyDeity]ita</li>
+    <li>r_ideoName(p=6)->[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix][packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix][packIdeoNameStructure]</li>
+    <li>r_ideoName(p=1)->[creed] de [packTheme]</li>
+    <li>r_ideoName(p=1)->[creed] [place_adjective]</li>
+    <li>r_ideoName(p=0.25)->El [memeCreed]</li>
+    <li>r_ideoName(p=0.25)->La [memeCreedFem]</li>
+    <li>r_ideoName(p=0.5)->[creed] [memeAdjective]</li>
+    <li>r_ideoName(p=0.5)->[creedFem] [memeAdjectiveFem]</li>
+    <li>r_ideoName(p=0.2)->[creed] de [packTheme]</li>
+    <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
+    <li>r_memberName->[packMember]</li>
+    <li>creed(priority=1)->[memeCreed]</li>
+    <li>creedFem(priority=1)->[memeCreedFem]</li>
+    <li>creed->[genericCreed]</li>
+    <li>genericCreed->credo</li>
+    <li>genericCreed->orden</li>
+    <li>genericCreed->camino</li>
+    <li>genericCreed->sendero</li>
+    <li>hyphenPrefix->[globalHyphenPrefix]</li>
+    <li>hyphenPrefix->[memeHyphenPrefix]</li>
+    <li>globalHyphenPrefix(p=4)->neo</li>
+    <li>globalHyphenPrefix(p=2)->post</li>
+    <li>globalHyphenPrefix->nova</li>
+    <li>globalHyphenPrefix->arqueo</li>
+    <li>globalHyphenPrefix->hiper</li>
+  </NamerIdeoGlobal.rulePack.rulesStrings>
   
 </LanguageData>

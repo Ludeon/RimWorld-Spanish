@@ -7,14 +7,23 @@
     <li>buildingName->chancel</li>
     <li>buildingName->platform</li>
   -->
-  <NamerAltar.rulePack.rulesStrings>TODO</NamerAltar.rulePack.rulesStrings>
+  <NamerAltar.rulePack.rulesStrings>
+    <li>buildingName->altar</li>
+    <li>buildingName->santuario</li>
+    <li>buildingName->presbiterio</li>
+    <li>buildingName->sagrario</li>
+  </NamerAltar.rulePack.rulesStrings>
   
   <!-- EN:
     <li>buildingName->totem</li>
     <li>buildingName->effigy</li>
     <li>buildingName->pyre</li>
   -->
-  <NamerBurnTarget.rulePack.rulesStrings>TODO</NamerBurnTarget.rulePack.rulesStrings>
+  <NamerBurnTarget.rulePack.rulesStrings>
+    <li>buildingName->tótem</li>
+    <li>buildingName->ídolo</li>
+    <li>buildingName->amuleto</li>
+  </NamerBurnTarget.rulePack.rulesStrings>
   
   <!-- EN:
     <li>buildingName->platter</li>
@@ -22,13 +31,21 @@
     <li>buildingName->feast</li>
     <li>buildingName->manpork</li>
   -->
-  <NamerCannibalPlatter.rulePack.rulesStrings>TODO</NamerCannibalPlatter.rulePack.rulesStrings>
+  <NamerCannibalPlatter.rulePack.rulesStrings>
+    <li>buildingName->fuente</li>
+    <li>buildingName->plato</li>
+    <li>buildingName->festín</li>
+    <li>buildingName->cuenco</li>
+  </NamerCannibalPlatter.rulePack.rulesStrings>
   
   <!-- EN:
     <li>buildingName->tree</li>
     <li>buildingName->pine</li>
   -->
-  <NamerChristmasTree.rulePack.rulesStrings>TODO</NamerChristmasTree.rulePack.rulesStrings>
+  <NamerChristmasTree.rulePack.rulesStrings>
+    <li>buildingName->árbol</li>
+    <li>buildingName->pino</li>
+  </NamerChristmasTree.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_ideoBuildingName(p=2)->[memeAdjective] [buildingName]</li>
@@ -39,7 +56,14 @@
     <li>r_ideoBuildingName->[buildingName] of [memeConcept]</li>
     <li>r_ideoBuildingName->[buildingName] of [chosenIdeoName]</li>
   -->
-  <NamerIdeoBuilding.rulePack.rulesStrings>TODO</NamerIdeoBuilding.rulePack.rulesStrings>
+  <NamerIdeoBuilding.rulePack.rulesStrings>
+    <li>r_ideoBuildingName(p=2)->[buildingName] [memeAdjective]</li>
+    <li>r_ideoBuildingName->[buildingName] de [chosenTheme]</li>
+    <li>r_ideoBuildingName->[buildingName] [chosenAdjective]</li>
+    <li>r_ideoBuildingName->[buildingName] de [keyDeity]</li>
+    <li>r_ideoBuildingName->[buildingName] de[memeConceptDef]</li>
+    <li>r_ideoBuildingName->[buildingName] de [chosenIdeoName]</li>
+  </NamerIdeoBuilding.rulePack.rulesStrings>
   
   <!-- EN:
     <li>buildingName->ideogram</li>
@@ -51,7 +75,14 @@
     <li>buildingName->image</li>
     <li>buildingName->logo</li>
   -->
-  <NamerIdeogram.rulePack.rulesStrings>TODO</NamerIdeogram.rulePack.rulesStrings>
+  <NamerIdeogram.rulePack.rulesStrings>
+    <li>buildingName->ideograma</li>
+    <li>buildingName->símbolo</li>
+    <li>buildingName->grafismo</li>
+    <li>buildingName->pictograma</li>
+    <li>buildingName->signo</li>
+    <li>buildingName->logo</li>
+  </NamerIdeogram.rulePack.rulesStrings>
   
   <!-- EN:
     <li>buildingName->statue</li>
@@ -61,7 +92,13 @@
     <li>buildingName->form</li>
     <li>buildingName->shape</li>
   -->
-  <NamerIdeoSculpture.rulePack.rulesStrings>TODO</NamerIdeoSculpture.rulePack.rulesStrings>
+  <NamerIdeoSculpture.rulePack.rulesStrings>
+    <li>buildingName->monumento</li>
+    <li>buildingName->busto</li>
+    <li>buildingName->esculpido</li>
+    <li>buildingName->retrato</li>
+    <li>buildingName->tallado</li>
+  </NamerIdeoSculpture.rulePack.rulesStrings>
   
   <!-- EN:
     <li>buildingName->smoker</li>
@@ -69,6 +106,11 @@
     <li>buildingName->fumer</li>
     <li>buildingName->smolderer</li>
   -->
-  <NamerSmoker.rulePack.rulesStrings>TODO</NamerSmoker.rulePack.rulesStrings>
+  <NamerSmoker.rulePack.rulesStrings>
+    <li>buildingName->fumador</li>
+    <li>buildingName->gaseador</li>
+    <li>buildingName->humeante</li>
+    <li>buildingName->humeador</li>
+  </NamerSmoker.rulePack.rulesStrings>
   
 </LanguageData>
