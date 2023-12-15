@@ -9,11 +9,11 @@
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.[helpersParagraph]</li>
   -->
   <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
-    <li>dangersDescription(priority=1)->\n\nLas cápsulas contienen los siguientes peligros:\n\n[allThreats]</li>
+    <li>dangersDescription(priority=1)->\n\nLas cápsulas contienen estos peligros:\n\n[allThreats]</li>
     <li>dangersDescription-></li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], tiene una petición para ti. [commonMainPart]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_royalTitleInCurrentFaction] de [asker_faction_name], tiene una petición para ti. [commonMainPart]</li>
-    <li>commonMainPart->Un enjambre de mecanoides ha estado atacando sus asentamientos. [asker_pronoun] quiere que envíes una señal a los mecanoides para distraerlos mientras [asker_pronoun] limpia su colonia. Si lo haces, un meca-conglomerado aterrizará en [map_definite] .[dangersDescription]\n\nEl meca-conglomerado estará inicialmente en estado durmiente. Podría disponer de una cuenta atrás que lo active, o podría permanecer en reposo hasta que sea molestado.\n\n[helpersParagraph]Como recompensa, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de la facción [asker_faction_name], está haciendo una petición. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_a] [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], está haciendo una petición. [commonMainPart]</li>
+    <li>commonMainPart->Un enjambre mecanoide ha estado atacando sus asentamientos. [asker_pronoun] quiere que le hagas una señal a los mecas para que los distraigan mientras [asker_pronoun] despeja la colmena. Si lo haces, (*Threat)un clúster de mecanoides(/Threat) aterrizará en [map_definite].[dangersDescription]\n\nEl clúster de mecanoides estará inicialmente inactivo. Puede tener un activador de cuenta regresiva, o puede permanecer inactivo para siempre hasta que sea perturbado.\n\n[helpersParagraph]</li>
   </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
@@ -31,19 +31,19 @@
     <li>menace->fear</li>
   -->
   <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
-    <li>questName->Conglomerado de [menace]</li>
-    <li>questName->Cápsulas de [menace]</li>
+    <li>questName->[menace] en enjambre</li>
+    <li>questName->[menace] en cápsulas</li>
     <li>questName->[nameBased]</li>
+    <li>nameBased->Los mecas de [asker_nameDef]</li>
     <li>nameBased->Los mecanoides de [asker_nameDef]</li>
-    <li>nameBased->Los mecanoides de [asker_nameDef]</li>
-    <li>nameBased->Mega-conglomerado de [asker_nameDef]</li>
+    <li>nameBased->El meca-conglomerado de [asker_nameDef]</li>
     <li>nameBased->[menace] mecanoide de [asker_nameDef]</li>
-    <li>menace->amenaza</li>
-    <li>menace->problema</li>
-    <li>menace->azote</li>
-    <li>menace->peligro</li>
-    <li>menace->terror</li>
-    <li>menace->miedo</li>
+    <li>menace->La amenaza</li>
+    <li>menace->El peligro</li>
+    <li>menace->El pavor</li>
+    <li>menace->El terror</li>
+    <li>menace->El miedo</li>
+    <li>menace->El pánico</li>
   </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>

@@ -122,7 +122,7 @@
   <!-- EN: Must designate painted buildings or floors. -->
   <MessageMustDesignatePainted>Debes designar edificios o suelos pintados.</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
-  <MessageMustDesignateDeconstructibleMechCluster>Primero debes derrotar al clúster de mecas antes de poder desconstruirlos.</MessageMustDesignateDeconstructibleMechCluster>
+  <MessageMustDesignateDeconstructibleMechCluster>Primero debes derrotar al meca-conglomerados antes de poder desconstruirlos.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>Debes designar superficies de piedra ásperas.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Nothing can remove thick roofs. -->
@@ -187,15 +187,15 @@
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} ha excedido el límite seguro de calentamiento neural.</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
-  <MessageNoHandlerSkilledEnough>Ningún adiestrador puede domesticar este(a) {ANIMAL_kindBase} (requiere nivel {1} en {2} y el mejor adiestrador es {HANDLER_labelShort} con {4}).</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>Ningún adiestrador puede domesticar este(a) {ANIMAL_kindBase} (requiere nivel {1} en {2} y el mejor adiestrador es {HANDLER_labelShort}, con {4}).</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort} ha sido cazado por {PREDATOR}.</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>¡{PREY_labelShort} está bajo el ataque de {PREDATOR}!</MessageAttackedByPredator>
+  <MessageAttackedByPredator>{PREY_labelShort} está siendo atacad{PREY_gender ? o : a} por {PREDATOR}.</MessageAttackedByPredator> <!-- texto_todo -->
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>¡{PAWN_labelShort} ha comenzado a alejarse! Abandonará el mapa a menos que un adiestrador de animales le atrape y le lleve a un corral.</MessageRoamerLeaving>
+  <MessageRoamerLeaving>{PAWN_labelShort} ha comenzado a deambular. Abandonará el mapa a menos que un adiestrador de animales le atrape y lleve a un corral.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Una colmena de insectos se ha reproducido.</MessageHiveReproduced>
