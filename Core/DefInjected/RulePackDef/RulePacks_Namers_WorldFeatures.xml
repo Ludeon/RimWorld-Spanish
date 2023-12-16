@@ -14,7 +14,7 @@
     <li>terrain_word->chain</li>
   -->
   <NamerArchipelago.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->isla [narrative_name]</li>
+    <li>r_name(p=0.2)->isla [narrative_name]</li>
     <li>terrain_word(p=4)->islas</li>
     <li>terrain_word(p=3)->islas</li>
     <li>terrain_word(p=3)->archipielago</li>
@@ -38,7 +38,7 @@
   -->
   <NamerAridShrubland.rulePack.rulesStrings>
     <li>terrain_word(p=4)->matorral</li>
-    <li>terrain_word(p=4)->matorral</li>
+    <li>terrain_word(p=4)->sabana</li>
     <li>terrain_word(p=2)->planicie</li>
     <li>terrain_word(p=2)->páramo</li>
     <li>terrain_word->desierto</li>
@@ -56,7 +56,7 @@
     <li>terrain_word->cove</li>
   -->
   <NamerBay.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->golfo de [narrative_name]</li>
+    <li>r_name(p=0.2)->golfo de [narrative_name]</li>
     <li>terrain_word(p=6)->bahía</li>
     <li>terrain_word->ensenada</li>
     <li>terrain_word->golfo</li>
@@ -75,10 +75,10 @@
   -->
   <NamerBorealForest.rulePack.rulesStrings>
     <li>terrain_word(p=6)->bosque</li>
-    <li>terrain_word(p=3)->taiga</li>
-    <li>terrain_word->parque</li>
-    <li>terrain_word->matorral</li>
-    <li>terrain_word->matorral</li>
+    <li>terrain_word(p=3)->bosque boreal</li>
+    <li>terrain_word->taiga</li>
+    <li>terrain_word->arboleda</li>
+    <li>terrain_word->arbolada</li>
     <li>terrain_word->parque</li>
     <li>terrain_word->bosquecillo</li>
   </NamerBorealForest.rulePack.rulesStrings>
@@ -108,7 +108,7 @@
     <li>terrain_word->barrens</li>
   -->
   <NamerDesert.rulePack.rulesStrings>
-    <li>standardname(p=0.4)->[narrative_name] [desert_adjective]</li>
+    <li>r_name(p=0.4)->[narrative_name] [desert_adjective]</li>
     <li>desert_adjective->llano</li>
     <li>desert_adjective->blanco</li>
     <li>desert_adjective->sin fin</li>
@@ -117,7 +117,7 @@
     <li>desert_adjective->espinoso</li>
     <li>desert_adjective->del muerto</li>
     <li>desert_adjective->requemado</li>
-    <li>desert_adjective->iluminado</li>
+    <li>desert_adjective->soleado</li>
     <li>desert_adjective->deslumbrante</li>
     <li>desert_adjective->caliente</li>
     <li>desert_adjective->ahumado</li>
@@ -140,7 +140,7 @@
   -->
   <NamerForest.rulePack.rulesStrings>
     <li>terrain_word(p=6)->bosque</li>
-    <li>terrain_word->parque</li>
+    <li>terrain_word->arboleda</li>
     <li>terrain_word->matorral</li>
     <li>terrain_word->bosquecillo</li>
   </NamerForest.rulePack.rulesStrings>
@@ -177,7 +177,7 @@
     <li>terrain_word->point</li>
   -->
   <NamerIsland.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->isla [narrative_name]</li>
+    <li>r_name(p=0.2)->isla [narrative_name]</li>
     <li>terrain_word(p=4)->isla</li>
     <li>terrain_word(p=2)->isla</li>
     <li>terrain_word->arrecife</li>
@@ -199,7 +199,7 @@
     <li>terrain_word(p=0.3)->loch</li>
   -->
   <NamerLake.rulePack.rulesStrings>
-    <li>standardname->lago [narrative_name]</li>
+    <li>r_name->lago [narrative_name]</li>
     <li>terrain_word(p=6)->lago</li>
     <li>terrain_word->laguna</li>
     <li>terrain_word->lago</li>
@@ -219,7 +219,7 @@
     <li>terrain_word->cliffs</li>
   -->
   <NamerMountainRange.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->cordillera [narrative_name]</li>
+    <li>r_name(p=0.2)->cordillera [narrative_name]</li>
     <li>terrain_word(p=5)->montañas</li>
     <li>terrain_word(p=2)->sierra</li>
     <li>terrain_word->alpes</li>
@@ -247,7 +247,7 @@
     <li>terrain_word->expanse</li>
   -->
   <NamerOcean.rulePack.rulesStrings>
-    <li>standardname(p=0.4)->[narrative_name] [ocean_adjective]</li>
+    <li>r_name(p=0.4)->[narrative_name] [ocean_adjective]</li>
     <li>ocean_adjective->azul</li>
     <li>ocean_adjective->blanco</li>
     <li>ocean_adjective->gris</li>
@@ -463,38 +463,31 @@
     <li>story_result->fraud</li>
   -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
-    <li>r_name->[standardname] [metaprefix]</li>
+    <li>r_name->[terrain_word] [narrative_name]</li>
     <li>r_name(p=0.05)->[terrain_word] [storyname]</li>
-    <li>standardname->[terrain_word] [narrative_name]</li>
-    <li>metaprefix(p=10)-></li>
-    <li>metaprefix-></li>
-    <li>metaprefix->[basic_adjective]</li>
-    <li>basic_adjective->grande</li>
-    <li>basic_adjective->cruel</li>
-    <li>basic_adjective->mayor</li>
-    <li>basic_adjective->menor</li>
-    <li>basic_adjective->del Sol</li>
-    <li>basic_adjective->de la Paz</li>
-    <li>narrative_name(p=12)->[WordTribal]</li>
+    <li>narrative_name(p=12)->[WordTribal_Cap]</li>
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
-    <li>narrative_name->de la [ConceptBadass]</li>
-    <li>narrative_name->[BodyPart] [AdjectiveNatural]</li>
-    <li>narrative_name->[Animal]</li>
-    <li>narrative_name->[Color]</li>
-    <li>narrative_name->del [Animal] [Color]</li>
-    <li>narrative_name->del [AnimalBadass] [AdjectiveNatural]</li>
-    <li>narrative_name->[BodyPart] del [AnimalBadass]</li>
-    <li>narrative_name->del [AdjectiveNatural]</li>
-    <li>narrative_name->del [Animal] [AdjectiveNatural]</li>
-    <li>narrative_name->[BodyPart] de [Animal]</li>
-    <li>storyname(p=50)->[maybe_basic_adjective] [story_result] de [subject]</li>
-    <li>storyname(p=2)->[BodyPart] de [subject]</li>
+    <li>narrative_name->[NaturalObject] [Color]</li>
+    <li>narrative_name->[NaturalObject_Fem] [Color_Fem]</li>
+    <li>narrative_name->el [BodyPart] [AdjectiveNatural]</li>
+    <li>narrative_name->la [BodyPartFem] [AdjectiveNaturalFem]</li>
+    <li>narrative_name->[AnimalAny]</li>
+    <li>narrative_name->[ColorAny]</li>
+    <li>narrative_name->el [Animal] [Color]</li>
+    <li>narrative_name->la [Animal_Fem] [Color_Fem]</li>
+    <li>narrative_name->[Animal] [AdjectiveNatural]</li>
+    <li>narrative_name->[Animal_Fem] [AdjectiveNaturalFem]</li>
+    <!-- Para animal y partes del cuerpo, pendiente crear dos archivos de partes del cuerpo de animales y dividirlos en aves y mamiferos 
+    <li>narrative_name->[Animal][BodyPart]</li> dejar en forma de comentario hasta hacer esos archivos -->
+    <li>narrative_name->el [Animal] [Color]</li>
+    <li>narrative_name->la [Animal_Fem] [Color_Fem]</li>
+    <li>narrative_name->[Animal] [AdjectiveNatural]</li>
+    <li>storyname(p=50)->[story_result] de [subject]</li>
+    <li>storyname(p=2)->[BodyPartAny] de [subject]</li>
     <li>storyname->[Gore] de [subject]</li>
-    <li>maybe_basic_adjective-></li>
-    <li>maybe_basic_adjective(p=0.1)->[basic_adjective]</li>
     <li>subject(p=5)->[NamePerson]</li>
-    <li>subject->[Animal]</li>
-    <li>subject->[WordTribal]</li>
+    <li>subject->[AnimalAny]</li>
+    <li>subject->[WordTribal_Cap]</li>
     <li>subject->[PlaceOutlander]</li>
     <li>story_result->locura</li>
     <li>story_result->vicio</li>
@@ -509,7 +502,7 @@
     <li>story_result->orgullo</li>
     <li>story_result->joya</li>
     <li>story_result->premio</li>
-    <li>story_result->premio</li>
+    <li>story_result->triunfo</li>
     <li>story_result->honor</li>
     <li>story_result->tesoro</li>
     <li>story_result->trofeo</li>
@@ -522,7 +515,7 @@
     <li>story_result->destrucción</li>
     <li>story_result->cataclismo</li>
     <li>story_result->ruina</li>
-    <li>story_result->ruina</li>
+    <li>story_result->destrozo</li>
     <li>story_result->perdición</li>
     <li>story_result->caída</li>
     <li>story_result->final</li>

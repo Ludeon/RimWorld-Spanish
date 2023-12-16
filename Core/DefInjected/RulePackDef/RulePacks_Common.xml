@@ -10,12 +10,12 @@
     <li>PlaceOutlander->[SylE][SylE][SylE][place_end]</li>
   -->
   <OutlanderPlaceNameUtility.rulePack.rulesStrings>
-    <li>PlaceOutlander->[SylE][place_end]</li>
-    <li>PlaceOutlander->[SylE][place_end]</li>
-    <li>PlaceOutlander->[SylE][place_end]</li>
-    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
-    <li>PlaceOutlander->[SylE][SylE]</li>
-    <li>PlaceOutlander->[SylE][SylE][SylE]</li>
+    <li>PlaceOutlander->[SylE_Cap][place_end]</li>
+    <li>PlaceOutlander->[SylE_Cap][place_end]</li>
+    <li>PlaceOutlander->[SylE_Cap][place_end]</li>
+    <li>PlaceOutlander->[SylE_Cap][SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE_Cap][SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE_Cap][SylE][SylE][place_end]</li>
   </OutlanderPlaceNameUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -25,10 +25,14 @@
     <li>WordTribal->[SylG][SylG][SylG][SylG]</li>
   -->
   <TribalWordUtility.rulePack.rulesStrings>
-    <li>WordTribal->[tribal_word_file]</li>
-    <li>WordTribal->[SylG][SylG]</li>
-    <li>WordTribal->[SylG]-[SylG][SylG]</li>
-    <li>WordTribal->[SylG][SylG][SylG]</li>
+    <li>WordTribal(p=3)->[tribal_word_file]</li>
+    <li>WordTribal(p=3)->[SylG][SylG]</li>
+    <li>WordTribal(p=2)->[SylG][SylG][SylG]</li>
+    <li>WordTribal->[SylG][SylG][SylG][SylG]</li>
+    <li>WordTribal_Cap(p=3)->[tribal_word_file_Cap]</li>
+    <li>WordTribal_Cap(p=3)->[SylG_Cap][SylG]</li>
+    <li>WordTribal_Cap(p=2)->[SylG_Cap][SylG][SylG]</li>
+    <li>WordTribal_Cap->[SylG_Cap][SylG][SylG][SylG]</li>
   </TribalWordUtility.rulePack.rulesStrings>
   
 </LanguageData>
