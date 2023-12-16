@@ -2,6 +2,194 @@
 <LanguageData>
   
   <!-- EN:
+    <li>RomanNumeral->Words/Misc/Numbers_SmallRoman</li>
+    <li>Direction->Words/Adjectives/CompassDirections</li>
+    <li>Letter->WordParts/CapitalLetters</li>
+    <li>SylE->WordParts/Syllables_English</li>
+    <li>SylG->WordParts/Syllables_Galician</li>
+    <li>SylB->WordParts/Syllables_Byzantinian</li>
+    <li>SylP->WordParts/Syllables_Pig</li>
+    <li>Color->Words/Nouns/Colors</li>
+    <li>ColorBadass->Words/Nouns/Colors_Badass</li>
+    <li>Vegetable->Words/Nouns/Vegetables</li>
+    <li>Game->Words/Nouns/Games</li>
+    <li>Animal->Words/Nouns/Animals</li>
+    <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
+    <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
+    <li>Weapon->Words/Nouns/Weapons</li>
+    <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
+    <li>NaturalObject->Words/Nouns/NaturalObject</li>
+    <li>TreeType->Words/Nouns/TreeTypes</li>
+    <li>PersonJob->Words/Nouns/People_Jobs</li>
+    <li>PersonFamily->Words/Nouns/People_Family</li>
+    <li>PersonAlly->Words/Nouns/People_Allies</li>
+    <li>PersonBadass->Words/Nouns/People_Badass</li>
+    <li>Enemy->Words/Nouns/Enemies</li>
+    <li>Apparel->Words/Nouns/Apparel</li>
+    <li>Gore->Words/Nouns/Gore</li>
+    <li>Mechanoid->Words/Nouns/Mechanoid</li>
+    <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
+    <li>ConceptBadass->Words/Nouns/Concepts_Badass</li>
+    <li>ConceptAngsty->Words/Nouns/Concepts_Angsty</li>
+    <li>Community->Words/Nouns/Communities</li>
+    <li>BodyPart->Words/Nouns/Bodyparts</li>
+    <li>AdjectiveLarge->Words/Adjectives/Large</li>
+    <li>AdjectiveBadass->Words/Adjectives/Badass</li>
+    <li>AdjectiveAngsty->Words/Adjectives/Angsty</li>
+    <li>AdjectiveFriendly->Words/Adjectives/Friendly</li>
+    <li>AdjectiveNatural->Words/Adjectives/Natural</li>
+    <li>VerbFriendly->Words/Verbs/Friendly</li>
+    <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
+  -->
+  <GlobalUtility.rulePack.rulesFiles>
+    <!-- Donde se usan generalmente estos archivos-->
+    <!-- Adjetivos:-->
+    <li>AdjectiveAngsty->Words/Adjectives/Angsty</li>
+    <li>AdjectiveBadass->Words/Adjectives/Badass</li>
+    <li>AdjectiveBadass_Fem->Words/Adjectives/Badass_Fem</li>
+    <li>AdjectiveBadass_Plural->Words/Adjectives/Badass_Plural</li>
+    <li>AdjectiveFriendly->Words/Adjectives/Friendly</li>
+    <li>AdjectiveFriendly_Fem->Words/Adjectives/Friendly_Fem</li>
+    <li>AdjectiveLarge->Words/Adjectives/Large</li>
+    <li>AdjectiveLarge_Fem->Words/Adjectives/Large_Fem</li>
+    <li>AdjectiveNatural->Words/Adjectives/Natural</li>
+    <li>AdjectiveNaturalFem->Words/Adjectives/Natural_Fem</li>
+    <!-- Animales:-->
+    <li>Animal->Words/Nouns/Animals</li>
+    <li>Animal_Cap->Words/Nouns/Animals_Cap</li>
+    <li>Animal_Fem->Words/Nouns/Animals_Fem</li>
+    <li>Animal_FemCap->Words/Nouns/Animals_FemCap</li>
+    <li>Animal_FemPlural->Words/Nouns/Animals_FemPlural</li>
+    <li>Animal_Plural->Words/Nouns/Animals_Plural</li>
+    <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
+    <li>AnimalBadass_Cap->Words/Nouns/Animals_BadassCap</li>
+    <li>AnimalBadass_Fem->Words/Nouns/Animal_Badass_Fem</li>
+    <li>AnimalBadass_FemCap->Words/Nouns/Animal_Badass_FemCap</li>
+    <li>AnimalBadass_FemPlural->Words/Nouns/Animal_Badass_FemPlural</li>
+    <li>AnimalBadass_Plural->Words/Nouns/Animal_Badass_Plural</li>
+    <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
+    <li>AnimalGroup_Fem->Words/Nouns/AnimalGroups_Fem</li>
+    <!--Vestimenta:-->
+    <li>Apparel->Words/Nouns/Apparel</li>
+    <li>Apparel_Fem->Words/Nouns/Apparel_Fem</li>
+    <!--Arte:-->
+    <li>Artwork->Words/Nouns/Artworks</li>
+    <!--Partes del Cuerpo:-->
+    <li>BodyPart->Words/Nouns/Bodyparts</li>
+    <li>BodyPart_Fem->Words/Nouns/Bodyparts_Fem</li>
+    <!--Negocios:-->
+    <li>BusinessType->Words/Nouns/BusinessTypes</li>
+    <li>BusinessType_Cap->Words/Nouns/BusinessTypes_Cap</li>
+    <li>BusinessType_Fem->Words/Nouns/BusinessTypes_Fem</li>
+    <li>BusinessType_FemCap->Words/Nouns/BusinessTypes_FemCap</li>
+    <li>BusinessType_Plural->Words/Nouns/BusinessTypes_Plural</li>
+    <li>BusinessType_FemPlural->Words/Nouns/BusinessTypes_FemPlural</li>
+    <li>BusinessType_PluralCap->Words/Nouns/BusinessTypes_PluralCap</li>
+    <!--Colores:-->
+    <li>Color->Words/Nouns/Colors</li>
+    <li>Color_Cap->Words/Nouns/Colors_Cap</li>
+    <li>Color_Plural->Words/Nouns/Colors_Plural</li>
+    <li>ColorBadass->Words/Nouns/Colors_Badass</li>
+    <li>ColorBadass_Fem->Words/Nouns/Colors_BadassFem</li>
+    <li>Color_Fem->Words/Nouns/Colors_Fem</li>
+    <li>Color_FemCap->Words/Nouns/Colors_FemCap</li>
+    <!--Comunidades:-->
+    <li>Community->Words/Nouns/Communities</li>
+    <li>Community_Fem->Words/Nouns/Communities_Fem</li>
+    <!--Conceptos:-->
+    <li>ConceptAngsty->Words/Nouns/Concepts_Angsty</li>
+    <li>ConceptAngsty_Fem->Words/Nouns/Concepts_AngstyFem</li>
+    <li>ConceptBadass->Words/Nouns/Concepts_Badass</li>
+    <li>ConceptBadass_Fem->Words/Nouns/Concepts_BadassFem</li>
+    <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
+    <li>ConceptPositive_Fem->Words/Nouns/Concepts_PositiveFem</li>
+    <!--Direcciones:-->
+    <li>Direction->Words/Adjectives/CompassDirections</li>
+    <!--Enemigos:-->
+    <li>Enemy->Words/Nouns/Enemies</li>
+    <li>Enemy_Fem->Words/Nouns/Enemies_Fem</li>
+    <!--Juegos:-->
+    <li>Game->Words/Nouns/Games</li>
+    <li>Game_Fem->Words/Nouns/Games_Fem</li>
+    <li>Game_FemPlural->Words/Nouns/Games_FemPlural</li>
+    <li>Game_Prural->Words/Nouns/Games_Plural</li>
+    <!--Dantesco: Se usa en RulePack_Art_ImagesTales-->
+    <li>Gore->Words/Nouns/Gore</li>
+    <li>GoreMech->Words/Nouns/Gore_Mech</li>
+    <li>GoreMechPl->Words/Nouns/Gore_MechPlural</li>
+    <li>Gore_Plural->Words/Nouns/Gore_Plural</li>
+    <!--Nombre de Grupos:-->
+    <li>GroupName->Words/Nouns/GroupNames</li>
+    <!--Números Romanos:-->
+    <li>RomanNumeral->Words/Misc/Numbers_SmallRoman</li>
+    <!--Letras:-->
+    <li>Letter->WordParts/CapitalLetters</li>
+    <!--Mecanoides:-->
+    <li>Mechanoid->Words/Nouns/Mechanoid</li>
+    <li>Mechanoid_Fem->Words/Nouns/Mechanoid_Fem</li>
+    <li>Mechanoid_FemPl->Words/Nouns/Mechanoid_FemPlural</li>
+    <li>Mechanoid_Plural->Words/Nouns/Mechanoid_Plural</li>
+    <!--Objetos naturales:-->
+    <li>NaturalObject->Words/Nouns/NaturalObject</li>
+    <li>NaturalObject_Fem->Words/Nouns/NaturalObject_Fem</li>
+    <!--Caracteristicas Personales:-->
+    <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
+    <li>PersonalCharacteristic_Fem->Words/Nouns/PersonalCharacteristics_fem</li>
+    <!--Tipos de Personajes:-->
+    <li>PersonAlly->Words/Nouns/People_Allies</li>
+    <li>PersonBadass->Words/Nouns/People_Badass</li>
+    <li>PersonBadass_Fem->Words/Nouns/People_Badass_Fem</li>
+    <li>PersonFamily->Words/Nouns/People_Family</li>
+    <li>PersonFamily_Fem->Words/Nouns/People_Family_Fem</li>
+    <!--Tipos de Trabajos:-->
+    <li>PersonJob->Words/Nouns/People_Jobs</li>
+    <li>PersonJob_Plural->Words/Nouns/People_Jobs_Plural</li>
+    <li>PersonJob_Fem->Words/Nouns/People_JobsFem</li>
+    <!--Tipos de uniones modernas:-->
+    <li>PoliticalUnionOutlander->Words/Nouns/PoliticalUnions_Outlander</li>
+    <li>PoliticalUnionOutlander_Fem->Words/Nouns/PoliticalUnions_OutlanderFem</li>
+    <!--Tipos de uniones de tribus:-->
+    <li>PoliticalUnionTribal->Words/Nouns/PoliticalUnions_Tribal</li>
+    <li>PoliticalUnionTribal_Fem->Words/Nouns/PoliticalUnions_TribalFem</li>
+    <!--Sílabas:-->
+    <li>SylB->WordParts/Syllables_Byzantinian</li>
+    <li>SylB_Cap->WordParts/Syllables_Byzantinian_Cap</li>
+    <li>SylE->WordParts/Syllables_English</li>
+    <li>SylE_Cap->WordParts/Syllables_English_Cap</li>
+    <li>SylG->WordParts/Syllables_Galician</li>
+    <li>SylG_Cap->WordParts/Syllables_Galician_Cap</li>
+    <li>SylP->WordParts/Syllables_Pig</li>
+    <!--Nombre de los biomas:-->
+    <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
+    <li>TerrainFeature_Fem->Words/Nouns/TerrainFeatures_Fem</li>
+    <li>TerrainFeature_Pl->Words/Nouns/TerrainFeatures_Plural</li>
+    <li>TerrainFeature_PlFem->Words/Nouns/TerrainFeatures_PluralFem</li>
+    <!--Nombre de los arboles:-->
+    <li>TreeType->Words/Nouns/TreeTypes</li>
+    <li>TreeType_Fem->Words/Nouns/TreeTypes_Fem</li>
+    <!--Nombre para las tribus en mayúscula:-->
+    <li>WordTribal_Cap->Words/Foreign/Tribal_Cap</li>
+    <li>WordTribal_Name->Words/Foreign/Tribal_Names</li>
+    <li>WordTribal_NameCap->Words/Foreign/Tribal_NamesCap</li>
+    <!--Nombre de vegetales:-->
+    <li>Vegetable->Words/Nouns/Vegetables</li>
+    <li>Vegetable_Fem->Words/Nouns/Vegetables_Fem</li>
+    <!--Nombre de verbos amistosos:-->
+    <li>VerbFriendly->Words/Verbs/Friendly</li>
+    <li>VerbFriendly_Fem->Words/Verbs/Friendly_Fem</li>
+    <!--Armas:-->
+    <li>Weapon->Words/Nouns/Weapons</li>
+    <li>WeaponVarPl->Words/Nouns/WeaponsVar</li>
+    <li>WeaponCac->Words/Nouns/Weapons_Cac</li>
+    <li>WeaponCac_Fem->Words/Nouns/Weapons_CacFem</li>
+    <li>WeaponCac_Plural->Words/Nouns/Weapons_CacPlural</li>
+    <li>WeaponCac_FemPlural->Words/Nouns/Weapons_CacFemPlural</li>
+    <li>Weapon_Fem->Words/Nouns/Weapons_Fem</li>
+    <li>Weapon_FemPlural->Words/Nouns/Weapons_FemPlural</li>
+    <li>Weapon_Plural->Words/Nouns/Weapons_Plural</li>
+    <li>Weapon_Ranged->Words/Nouns/Weapons_Ranged</li>
+  </GlobalUtility.rulePack.rulesFiles>
+  <!-- EN:
     <li>Trans->of</li>
     <li>Trans->for</li>
     <li>Trans->by</li>
@@ -51,14 +239,733 @@
     <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
   -->
   <GlobalUtility.rulePack.rulesStrings>
+    <!--Reglas Especiales-->
+    <!--asker-->
+    <li>asker_o_a(asker_gender!=Female)->o</li>
+    <li>asker_o_a(asker_gender==Female)->a</li>
+    <li>asker_e_a(asker_gender!=Female)->e</li>
+    <li>asker_e_a(asker_gender==Female)->a</li>
+    <li>asker_x_a(asker_gender!=Female)-></li>
+    <li>asker_x_a(asker_gender==Female)->a</li>
+    <li>asker_a(asker_gender!=Female)->un</li>
+    <li>asker_a(asker_gender==Female)->una</li>
+    <li>asker_aCap(asker_gender!=Female)->Un</li>
+    <li>asker_aCap(asker_gender==Female)->Una</li>
+    <li>asker_TheCap(asker_gender!=Female)->El</li>
+    <li>asker_TheCap(asker_gender==Female)->La</li>
+    <li>asker_The(asker_gender!=Female)->el</li>
+    <li>asker_The(asker_gender==Female)->la</li>
+    <li>asker_a_al(asker_gender!=Female)->al</li>
+    <li>asker_a_al(asker_gender==Female)->a la</li>
+    <li>titleHeir_o_a(titleHeir_gender==Male)->o</li>
+    <li>titleHeir_o_a(titleHeir_gender==Female)->a</li>
+    <li>titleHeir_o_a(titleHeir_gender==None)->o</li>
+    <li>titleHeirDef(titleHeir_gender==Male)->el</li>
+    <li>titleHeirDef(titleHeir_gender==Female)->la</li>
+    <li>titleHeirDef(titleHeir_gender==None)->el</li>
+    <!--INITIATOR-->
+    <li>INITIATOR_o_a(INITIATOR_gender!=Female)->o</li>
+    <li>INITIATOR_o_a(INITIATOR_gender==Female)->a</li>
+    <!--PRISONER-->
+    <li>PRISONER_o_a(PRISONER_gender!=Female)->o</li>
+    <li>PRISONER_o_a(PRISONER_gender==Female)->a</li>
+    <!--PATIENT-->
+    <li>PATIENT_o_a(PATIENT_gender!=Female)->o</li>
+    <li>PATIENT_o_a(PATIENT_gender==Female)->a</li>
+    <!--RECIPIENT-->
+    <li>RECIPIENT_o_a(RECIPIENT_gender!=Female)->o</li>
+    <li>RECIPIENT_o_a(RECIPIENT_gender==Female)->a</li>
+    <!--INITIATOR-->
+    <li>INITIATOR_o_a(INITIATOR_gender!=Female)->o</li>
+    <li>INITIATOR_o_a(INITIATOR_gender==Female)->a</li>
+    <!--refugee-->
+    <li>refugee_o_a(refugee_gender!=Female)->o</li>
+    <li>refugee_o_a(refugee_gender==Female)->a</li>
+    <li>refugee_ununa(refugee_gender!=Female)->un</li>
+    <li>refugee_ununa(refugee_gender==Female)->una</li>
+    <!--joiner-->
+    <li>joiner_a(joiner_gender!=Female)->un</li>
+    <li>joiner_a(joiner_gender==Female)->una</li>
+    <li>joiner_A(joiner_gender!=Female)->Un</li>
+    <li>joiner_A(joiner_gender==Female)->Una</li>
+    <li>joiner_o_a(joiner_gender!=Female)->o</li>
+    <li>joiner_o_a(joiner_gender==Female)->a</li>
+    <!-- regla especial para la misión JoinerTheat-->
+    <li>joiner_especial(joiner_gender!=Female)->la hija</li>
+    <li>joiner_especial(joiner_gender==Female)->el hijo</li>
+    <!--lodgers-->
+    <li>o_a(lodgers0_gender==Male)->o</li>
+    <li>o_a(lodgers0_gender!=Male)->a</li>
+    <li>e_a(lodgers0_gender==Male)->e</li>
+    <li>e_a(lodgers0_gender!=Male)->a</li>
+    <li>arrived(lodgerCount==1)->llegó</li>
+    <li>arrived(lodgerCount>=2)->llegaron</li>
+    <li>Un_Cap(lodgers0==Male)->Un</li>
+    <li>Un_Cap(lodgers0!=Male)->Una</li>
+    <li>un_una(lodgers0==Male)->un</li>
+    <li>un_una(lodgers0!=Male)->una</li>
+    <li>insults(lodgers0==Male)->al calumniador</li>
+    <li>insults(lodgers0!=Male)->a la calumniadora</li>
+    <li>arrived(lodgerCount==1)->llegó</li>
+    <li>arrived(lodgerCount>=2)->llegaron</li>
+    <li>willStay(lodgerCount==1)->quedará</li>
+    <li>willStay(lodgerCount>=2)->quedarán</li>
+    <li>last(lodgers0==Male)->El último</li>
+    <li>last(lodgers0!=Male)->La última</li>
+    <li>lodgersella(lodgers0==Male)->el</li>
+    <li>lodgersella(lodgers0!=Male)->la</li>
+    <li>lodgersellaCap(lodgers0==Male)->El</li>
+    <li>lodgersellaCap(lodgers0!=Male)->La</li>
+    <li>HadSingOrPlural(lodgerCount==1)->tenía</li>
+    <li>HadSingOrPlural(lodgerCount>=2)->tenían</li>
+    <li>hostedSingOrPlural(lodgers0==Male,lodgerCount==1)->hospedado</li>
+    <li>hostedSingOrPlural(lodgers0!=Male,lodgerCount==1)->hospedada</li>
+    <li>hostedSingOrPlural(lodgerCount>=2)->hospedados</li>
+    <!-- EnemyFaction -->
+    <li>el_la(enemyFaction_leader==Male)->el</li>
+    <li>el_la(enemyFaction_leader!=Male)->la</li>
+    <li>factionOpponentun_una(factionOpponent==Male)->un</li>
+    <li>factionOpponentun_una(factionOpponent!=Male)->una</li>
+    <!--Quest Hospitality -->
+    <li>arrived(lodgerCount==1)->llegó</li>
+    <li>arrived(lodgerCount>=2)->llegaron</li>
+    <!--Scrip_LongRangeMineralScanner-->
+    <li>targetMineable_labelVar(targetMineable==MineableGold)->mina de oro</li>
+    <li>targetMineable_labelVar(targetMineable==MineableSilver)->mina de plata</li>
+    <li>targetMineable_labelVar(targetMineable==MineableSteel)->veta de acero</li>
+    <li>targetMineable_labelVar(targetMineable==MineablePlasteel)->veta de plastiacero</li>
+    <li>targetMineable_labelVar(targetMineable==MineableComponentsIndustrial)->veta de maquinaria compactada</li>
+    <li>targetMineable_labelVar(targetMineable==MineableUranium)->mina de uranio</li>
+    <li>targetMineable_labelVar(targetMineable==MineableJade)->veta de jade</li>
+    <li>targetMineable_labelVar(p=0.00000000001)->[targetMineable_label]</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineableGold)->oro</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineableSilver)->plata</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineableSteel)->acero</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineablePlasteel)->plastiacero</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineableComponentsIndustrial)->maquinaria compactada</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineableUranium)->uranio</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineableJade)->jade</li>
+    <li>targetMineableThing_labelVar(p=0.00000000001)->[targetMineableThing_label]</li>
+    <!-- Scrip Uitlity helpers -->
+    <li>helpersSent(helpersCount==1,helpers0_gender!=Female)->enviado</li>
+    <li>helpersSent(helpersCount==1,helpers0_gender==Female)->enviada</li>
+    <li>helpersSent(helpersCount>=2)->enviados</li>
+    <li>helpersArrived(helpersCount==1)->ha llegado</li>
+    <li>helpersArrived(helpersCount>=2)->llegaron</li>
+    <li>helpersLeaving(helpersCount==1)->se marcha</li>
+    <li>helpersLeaving(helpersCount>=2)->se marchan</li>
+    <li>helpersTheCap(helpersCount==1,helpers0_gender!=Female)->El</li>
+    <li>helpersTheCap(helpersCount==1,helpers0_gender==Female)->La</li>
+    <li>helpersTheCap(helpersCount>=2)->Los</li>
+    <li>helpersSpent(helpersCount==1)->pasó</li>
+    <li>helpersSpent(helpersCount>=2)->pasaron</li>
+    <!-- ShuttleCrash-->
+    <li>crashedLanded(civilians_count==1)->estrelló</li>
+    <li>crashedLanded(civilians_count>=2)->estrellaron</li>
+    <li>thesePeople(civilians_count==1)->esta persona</li>
+    <li>thesePeople(civilians_count>=2)->estas personas</li>
+    <!-- beggar -->
+    <li>beggars_o_a(beggars0_gender==Male)->o</li>
+    <li>beggars_o_a(beggars0_gender!=Male)->a</li>
+    <li>beggars_e_a(beggars0_gender==Male)->e</li>
+    <li>beggars_e_a(beggars0_gender!=Male)->a</li>
+    <!-- founder -->
+    <li>founder_o_a(founder_gender==Male)->o</li>
+    <li>founder_o_a(founder_gender!=Male)->a</li>
+    <li>founder_Heroe(founder_gender==Male)->Un héroe</li>
+    <li>founder_Heroe(founder_gender!=Male)->Una heroína</li>
+    <!-- pilgrim -->
+    <li>siendo(pilgrimCount==1)->y está siedo respetado</li>
+    <li>siendo(pilgrimCount>=2)->y están siendo repetados</li>
+    <li>mayOffers(pilgrimCount==1)->puede</li>
+    <li>mayOffers(pilgrimCount>=2)->pueden</li>
+    <!--Tales Jobs-->
+    <!-- PAWN-->
+    <li>PAWN_o_a(PAWN_gender!=Female)->o</li>
+    <li>PAWN_o_a(PAWN_gender==Female)->a</li>
+    <!-- SURGEON-->
+    <li>SURGEON_o_a(SURGEON_gender!=Female)->o</li>
+    <li>SURGEON_o_a(SURGEON_gender==Female)->a</li>
+    <!-- VICTIM-->
+    <li>VICTIM_o_a(VICTIM_gender!=Female)->o</li>
+    <li>VICTIM_o_a(VICTIM_gender==Female)->a</li>
+    <!-- KILLER-->
+    <li>KILLER_o_a(KILLER_gender!=Female)->o</li>
+    <li>KILLER_o_a(KILLER_gender==Female)->a</li>
+    <!-- JOINER-->
+    <li>JOINERTales_o_a(JOINER_gender!=Female)->o</li>
+    <li>JOINERTales_o_a(JOINER_gender==Female)->a</li>
+    <!--TRAINER-->
+    <li>TRAINER_o_a(TRAINER_gender!=Female)->o</li>
+    <li>TRAINER_o_a(TRAINER_gender==Female)->a</li>
+    <!--SLEEPER-->
+    <li>SLEEPER_o_a(SLEEPER_gender!=Female)->o</li>
+    <li>SLEEPER_o_a(SLEEPER_gender==Female)->a</li>
+    <!--ATTENDER-->
+    <li>ATTENDER_o_a(ATTENDER_gender!=Female)->o</li>
+    <li>ATTENDER_o_a(ATTENDER_gender==Female)->a</li>
+    <!--SENDER-->
+    <li>un_una_sender(ATTENDER_gender!=Female)->un</li>
+    <li>un_una_sender(ATTENDER_gender==Female)->una</li>
+    <!-- prueba 
+    <li>RECIPIENT_indefinite(RECIPIENT==Hare)->una liebre</li>
+    <li>RECIPIENT_definite(RECIPIENT==Hare)->la liebre</li> -->
+    <!-- all Animals, Arid -->
+    <!-- Def -->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Dromedary)->el dromedario</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Gazelle)->la gacela</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Iguana)->la iguana</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Muffalo)->el múfalo</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoM(lodgersPawnKind==Dromedary)->dromedario</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Gazelle)->gacela</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Iguana)->iguana</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Muffalo)->múfalo</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Dromedary)->un dromedario</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Gazelle)->una gacela</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Iguana)->una iguana</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Muffalo)->un múfalo</li>
+    <!-- Bears -->
+    <!-- Def -->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Male)->el oso pardo</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Female)->la osa parda</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Bear_Polar,lodgers0_gender==Male)->el oso polar</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Bear_Polar,lodgers0_gender==Female)->la osa polar</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoM(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Male)->oso pardo</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Female)->osa parda</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Bear_Polar,lodgers0_gender==Male)->oso polar</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Bear_Polar,lodgers0_gender==Female)->osa polar</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Male)->un oso pardo</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Female)->una osa parda</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Bear_Polar,lodgers0_gender==Male)->un oso polar</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Bear_Polar,lodgers0_gender==Female)->una osa polar</li>
+    <!-- Big Cats -->
+    <!-- Def -->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Cougar)->el puma</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Lynx)->el lince</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Panther)->la pantera</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoM(lodgersPawnKind==Cougar)->puma</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Lynx)->lince</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Panther)->pantera</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Cougar)->un puma</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Lynx)->un lince</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Panther)->una pantera</li>
+    <!-- Birds -->
+    <!-- Def -->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Cassowary)->el casuario</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Emu)->el emú</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Ostrich)->el avestruz</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Turkey,lodgers0_gender==Male)->el pavo</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Turkey,lodgers0_gender==Female)->la pava</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoM(lodgersPawnKind==Cassowary)->casuario</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Emu)->emú</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Ostrich)->avestruz</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Turkey,lodgers0_gender==Male)->pavo</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Turkey,lodgers0_gender==Female)->pava</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Cassowary)->un casuario</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Emu)->un emú</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Ostrich)->un avestruz</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Turkey,lodgers0_gender==Male)->un pavo</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Turkey,lodgers0_gender==Female)->una pava</li>
+    <!-- Farm -->
+    <!-- Def -->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Alpaca)->la alpaca</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Bison)->el bisonte</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Chicken,lodgers0_gender==Male)->el gallo</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Chicken,lodgers0_gender==Female)->la gallina</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Cow,lodgers0_gender==Male)->el toro</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Cow,lodgers0_gender==Female)->la vaca</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Donkey,lodgers0_gender==Male)->el burro</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Donkey,lodgers0_gender==Female)->la burra</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Duck,lodgers0_gender==Male)->el pato</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Duck,lodgers0_gender==Female)->la pata</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Goat)->la cabra</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Goose,lodgers0_gender==Male)->el ganso</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Goose,lodgers0_gender==Female)->la gansa</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==GuineaPig)->el cuy</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Horse)->el caballo</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Pig,lodgers0_gender==Male)->el cerdo</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Pig,lodgers0_gender==Female)->la cerda</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Sheep,lodgers0_gender==Male)->el carnero</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Sheep,lodgers0_gender==Female)->la oveja</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Yak)->el yak</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoF(lodgersPawnKind==Alpaca)->alpaca</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Bison)->bisonte</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Chicken,lodgers0_gender==Male)->gallo</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Chicken,lodgers0_gender==Female)->gallina</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Cow,lodgers0_gender==Male)->toro</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Cow,lodgers0_gender==Female)->vaca</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Donkey,lodgers0_gender==Male)->asno</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Donkey,lodgers0_gender==Female)->asna</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Duck,lodgers0_gender==Male)->pato</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Duck,lodgers0_gender==Female)->pata</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Goat)->cabra</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Goose,lodgers0_gender==Male)->ganso</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Goose,lodgers0_gender==Female)->gansa</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==GuineaPig)->cuy</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Horse)->caballo</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Pig,lodgers0_gender==Male)->cerdo</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Pig,lodgers0_gender==Female)->cerda</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Sheep,lodgers0_gender==Male)->carnero</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Sheep,lodgers0_gender==Female)->oveja</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Yak)->yak</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Alpaca)->una alpaca</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Bison)->un bisonte</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Chicken,lodgers0_gender==Male)->un gallo</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Chicken,lodgers0_gender==Female)->una gallina</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Cow,lodgers0_gender==Male)->un toro</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Cow,lodgers0_gender==Female)->una vaca</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Donkey,lodgers0_gender==Male)->un asno</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Donkey,lodgers0_gender==Female)->una asna</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Duck,lodgers0_gender==Male)->un pato</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Duck,lodgers0_gender==Female)->una pata</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Goat)->una cabra</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Goose,lodgers0_gender==Male)->un ganso</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Goose,lodgers0_gender==Female)->una gansa</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==GuineaPig)->un cuy</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Horse)->un caballo</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Pig,lodgers0_gender==Male)->un cerdo</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Pig,lodgers0_gender==Female)->una cerda</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Sheep,lodgers0_gender==Male)->un carnero</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Sheep,lodgers0_gender==Female)->una oveja</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Yak)->un yak</li>
+    <!-- Animals Giant -->
+    <!-- Def -->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Elephant)->el elefante</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Megasloth)->el megaperezoso</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Rhinoceros)->el rinoceronte</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Thrumbo)->el trumbo</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoM(lodgersPawnKind==Elephant)->elefante</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Megasloth)->megaperezoso</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Rhinoceros)->rinoceronte</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Thrumbo)->trumbos</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Elephant)->un elefante</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Megasloth)->un megaperezoso</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Rhinoceros)->un rinoceronte</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Thrumbo)->un trumbo</li>
+    <!-- Hares -->
+    <!-- Def -->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Hare)->la liebre</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Snowhare)->la liebre blanca</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoF(lodgersPawnKind==Hare)->liebre</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Snowhare)->liebre blanca</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Hare)->una liebre</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Snowhare)->una liebre blanca</li>
+    <!-- Insect -->
+    <!-- Def -->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Megascarab)->el megascarabajo</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Megaspider)->la megaraña</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Spelopede)->el espelópedo</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoM(lodgersPawnKind==Megascarab)->megascarabajo</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Megaspider)->megaraña</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Spelopede)->espelópedo</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Megascarab)->un megascarabajo</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Megaspider)->una megaraña</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Spelopede)->un espelópedo</li>
+    <!-- Pet -->
+    <!-- Def -->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Cat,lodgers0_gender==Male)->el gato</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Cat,lodgers0_gender==Female)->la gata</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Husky)->el husky</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==LabradorRetriever)->el labrador retriever</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==YorkshireTerrier)->el yorkshire terrier</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoM(lodgersPawnKind==Cat,lodgers0_gender==Male)->gato</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Cat,lodgers0_gender==Female)->gata</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Husky)->husky</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==LabradorRetriever)->labrador retriever</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==YorkshireTerrier)->yorkshire terrier</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Cat,lodgers0_gender==Male)->un gato</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Cat,lodgers0_gender==Female)->una gata</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Husky)->un husky</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==LabradorRetriever)->un labrador retriever</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==YorkshireTerrier)->un yorkshire terrier</li>
+    <!-- Rodentlike -->
+    <!-- Def -->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Alphabeaver)->el alfacastor</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Boomrat)->la rata-bum</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Capybara)->el capibara</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Chinchilla)->la chinchilla</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Raccoon)->el mapache</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Rat)->la rata</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Squirrel)->la ardilla</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoM(lodgersPawnKind==Alphabeaver)->alfacastor</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Boomrat)->rata-bum</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Capybara)->capibara</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Chinchilla)->chinchilla</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Raccoon)->mapache</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Rat)->rata</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Squirrel)->ardilla</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Alphabeaver)->un alfacastor</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Boomrat)->una rata-bum</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Capybara)->un capibara</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Chinchilla)->una chinchilla</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Raccoon)->un mapache</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Rat)->una rata</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Squirrel)->una ardilla</li>
+    <!-- Animals Temperate -->
+    <!-- Def -->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Caribou)->el caribú</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Deer,lodgers0_gender==Male)->el ciervo</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Deer,lodgers0_gender==Female)->la cierva</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Elk,lodgers0_gender==Male)->el ciervo canadiense</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Elk,lodgers0_gender==Female)->la cierva canadiense</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Ibex)->un cabrito montés</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Tortoise)->la tortuga</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==WildBoar)->el jabalí</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoM(lodgersPawnKind==Caribou)->caribú</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Deer,lodgers0_gender==Male)->ciervo</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Deer,lodgers0_gender==Female)->cierva</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Elk,lodgers0_gender==Male)->ciervo canadiense</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Elk,lodgers0_gender==Female)->cierva canadiense</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Ibex)->cabra montés</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Tortoise)->tortuga</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==WildBoar)->jabalí</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Caribou)->un caribú</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Deer,lodgers0_gender==Male)->un ciervo</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Deer,lodgers0_gender==Female)->una cierva</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Elk,lodgers0_gender==Male)->un ciervo canadiense</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Elk,lodgers0_gender==Female)->una cierva canadiense</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Ibex)->un cabrito montés</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Tortoise)->una tortuga</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==WildBoar)->un jabalí</li>
+    <!-- Animales Tropicales -->
+    <!-- Def-->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Boomalope)->el bumalope</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Cobra)->la cobra</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Monkey,lodgers0_gender==Male)->el mono</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Monkey,lodgers0_gender==Female)->la mona</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoM(lodgersPawnKind==Boomalope)->bumalope</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Cobra)->cobra</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Monkey,lodgers0_gender==Male)->mono</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Monkey,lodgers0_gender==Female)->mona</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Boomalope)->un bumalope</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Cobra)->una cobra</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Monkey,lodgers0_gender==Male)->un mono</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Monkey,lodgers0_gender==Female)->una mona</li>
+    <!-- WildCanines -->
+    <!-- Def -->
+    <li>AnimalEpicenoDef(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Male)->el zorro ártico</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Female)->la zorra ártica</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Male)->el zorro del desierto</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Female)->la zorra del desierto</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Fox_Red)->el zorro rojo</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Warg)->el wargo</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)->el lobo ártico</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->la loba ártica</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)->el lobo pardo</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Female)->la loba parda</li>
+    <!-- Epiceno Male Female -->
+    <li>AnimalEpicenoM(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Male)->zorro ártico</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Female)->zorra ártica</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Male)->zorro del desierto</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Female)->zorra del desierto</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Fox_Red)->zorro rojo</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Warg)->wargo</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)->lobo ártico</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->loba ártica</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)->lobo pardo</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Female)->loba parda</li>
+    <!-- Indef -->
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Male)->un zorro ártico</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Female)->una zorra ártica</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Male)->un zorro del desierto</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Female)->una zorra del desierto</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Fox_Red)->un zorro rojo</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Warg)->un wargo</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)->un lobo ártico</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->una loba ártica</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)->un lobo pardo</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Female)->una loba parda</li>
+    <!-- Others -->
+    <li>AnimalEpicenoDef(p=0.00000000001)->el/la [animalKind_label]</li>
+    <li>AnimalEpicenoIndef(p=0.00000000001)->un(a) [animalKind_label]</li>
+    <li>AnimalEpicenoM(p=0.00000000001)->[animalKind_label]</li>
+    <li>AnimalEpicenoF(p=0.00000000001)->[animalKind_label]</li>
+    <!--AnimalKindDef, all Animals, Arid -->
+    <!-- Indef -->
+    <li>animal_a(animalKindDef==Dromedary)->un</li>
+    <li>animal_a(animalKindDef==Gazelle)->una</li>
+    <li>animal_a(animalKindDef==Iguana)->una</li>
+    <li>animal_a(animalKindDef==Muffalo)->un</li>
+    <!-- Def -->
+    <li>animal_the(animalKindDef==Dromedary)->el</li>
+    <li>animal_the(animalKindDef==Gazelle)->la</li>
+    <li>animal_the(animalKindDef==Iguana)->la</li>
+    <li>animal_the(animalKindDef==Muffalo)->el</li>
+    <!-- Bears -->
+    <!-- Indef -->
+    <li>animal_a(animalKindDef==Bear_Grizzly)->un</li>
+    <li>animal_a(animalKindDef==Bear_Polar)->un</li>
+    <!-- Def -->
+    <li>animal_the(animalKindDef==Bear_Grizzly)->el</li>
+    <li>animal_the(animalKindDef==Bear_Polar)->el</li>
+    <!-- Big Cats -->
+    <!-- Indef -->
+    <li>animal_a(animalKindDef==Cougar)->un</li>
+    <li>animal_a(animalKindDef==Lynx)->un</li>
+    <li>animal_a(animalKindDef==Panther)->una</li>
+    <!-- Def -->
+    <li>animal_the(animalKindDef==Cougar)->el</li>
+    <li>animal_the(animalKindDef==Lynx)->el</li>
+    <li>animal_the(animalKindDef==Panther)->la</li>
+    <!-- Birds -->
+    <!-- Indef -->
+    <li>animal_a(animalKindDef==Cassowary)->un</li>
+    <li>animal_a(animalKindDef==Emu)->un</li>
+    <li>animal_a(animalKindDef==Ostrich)->un</li>
+    <li>animal_a(animalKindDef==Turkey)->un</li>
+    <!-- Def -->
+    <li>animal_the(animalKindDef==Cassowary)->el</li>
+    <li>animal_the(animalKindDef==Emu)->el</li>
+    <li>animal_the(animalKindDef==Ostrich)->el</li>
+    <li>animal_the(animalKindDef==Turkey)->el</li>
+    <!-- Farm -->
+    <!-- Def -->
+    <li>animal_the(animalKindDef==Alpaca)->la</li>
+    <li>animal_the(animalKindDef==Bison)->el</li>
+    <li>animal_the(animalKindDef==Chicken)->el</li>
+    <li>animal_the(animalKindDef==Cow)->la</li>
+    <li>animal_the(animalKindDef==Donkey)->el</li>
+    <li>animal_the(animalKindDef==Duck)->el</li>
+    <li>animal_the(animalKindDef==Goat)->la</li>
+    <li>animal_the(animalKindDef==Goose)->el</li>
+    <li>animal_the(animalKindDef==GuineaPig)->el</li>
+    <li>animal_the(animalKindDef==Horse)->el</li>
+    <li>animal_the(animalKindDef==Pig)->el</li>
+    <li>animal_the(animalKindDef==Sheep)->el</li>
+    <li>animal_the(animalKindDef==Yak)->el</li>
+    <!-- Indef -->
+    <li>animal_a(animalKindDef==Alpaca)->una</li>
+    <li>animal_a(animalKindDef==Bison)->un</li>
+    <li>animal_a(animalKindDef==Chicken)->un</li>
+    <li>animal_a(animalKindDef==Cow)->una</li>
+    <li>animal_a(animalKindDef==Donkey)->un</li>
+    <li>animal_a(animalKindDef==Duck)->un</li>
+    <li>animal_a(animalKindDef==Goat)->una</li>
+    <li>animal_a(animalKindDef==Goose)->un</li>
+    <li>animal_a(animalKindDef==GuineaPig)->un</li>
+    <li>animal_a(animalKindDef==Horse)->un</li>
+    <li>animal_a(animalKindDef==Pig)->un</li>
+    <li>animal_a(animalKindDef==Sheep)->un</li>
+    <li>animal_a(animalKindDef==Yak)->un</li>
+    <!-- Animals Giant -->
+    <!-- Indef -->
+    <li>animal_a(animalKindDef==Elephant)->un</li>
+    <li>animal_a(animalKindDef==Megasloth)->un</li>
+    <li>animal_a(animalKindDef==Rhinoceros)->un</li>
+    <li>animal_a(animalKindDef==Thrumbo)->un</li>
+    <!-- Def -->
+    <li>animal_the(animalKindDef==Elephant)->el</li>
+    <li>animal_the(animalKindDef==Megasloth)->el</li>
+    <li>animal_the(animalKindDef==Rhinoceros)->el</li>
+    <li>animal_the(animalKindDef==Thrumbo)->el</li>
+    <!-- Hares -->
+    <!-- Indef -->
+    <li>animal_a(animalKindDef==Hare)->una</li>
+    <li>animal_a(animalKindDef==Snowhare)->una</li>
+    <!-- Def -->
+    <li>animal_the(animalKindDef==Hare)->la</li>
+    <li>animal_the(animalKindDef==Snowhare)->la</li>
+    <!-- Insect -->
+    <!-- Indef -->
+    <li>animal_a(animalKindDef==Megascarab)->un</li>
+    <li>animal_a(animalKindDef==Megaspider)->una</li>
+    <li>animal_a(animalKindDef==Spelopede)->un</li>
+    <!-- Def -->
+    <li>animal_the(animalKindDef==Megascarab)->el</li>
+    <li>animal_the(animalKindDef==Megaspider)->la</li>
+    <li>animal_the(animalKindDef==Spelopede)->el</li>
+    <!-- Pet -->
+    <!-- Indef -->
+    <!-- <li>animal_a(animalKindDef==Cat)->un</li>-->
+    <li>animal_a(animalKindDef==Husky)->un</li>
+    <li>animal_a(animalKindDef==LabradorRetriever)->un</li>
+    <li>animal_a(animalKindDef==YorkshireTerrier)->un</li>
+    <!-- Def -->
+    <!--<li>animal_the(animalKindDef==Cat)->el</li>-->
+    <li>animal_the(animalKindDef==Husky)->el</li>
+    <li>animal_the(animalKindDef==LabradorRetriever)->el</li>
+    <li>animal_the(animalKindDef==YorkshireTerrier)->el</li>
+    <!-- Rodentlike -->
+    <!-- Indef -->
+    <li>animal_a(animalKindDef==Alphabeaver)->un</li>
+    <li>animal_a(animalKindDef==Boomrat)->una</li>
+    <li>animal_a(animalKindDef==Capybara)->un</li>
+    <li>animal_a(animalKindDef==Chinchilla)->una</li>
+    <li>animal_a(animalKindDef==Raccoon)->un</li>
+    <li>animal_a(animalKindDef==Rat)->una</li>
+    <li>animal_a(animalKindDef==Squirrel)->una</li>
+    <!-- Def -->
+    <li>animal_the(animalKindDef==Alphabeaver)->el</li>
+    <li>animal_the(animalKindDef==Boomrat)->la</li>
+    <li>animal_the(animalKindDef==Capybara)->el</li>
+    <li>animal_the(animalKindDef==Chinchilla)->la</li>
+    <li>animal_the(animalKindDef==Raccoon)->el</li>
+    <li>animal_the(animalKindDef==Rat)->la</li>
+    <li>animal_the(animalKindDef==Squirrel)->la</li>
+    <!-- Animals Temperate -->
+    <!-- Indef -->
+    <li>animal_a(animalKindDef==Caribou)->un</li>
+    <li>animal_a(animalKindDef==Deer)->un</li>
+    <li>animal_a(animalKindDef==Elk)->un</li>
+    <li>animal_a(animalKindDef==Ibex)->un</li>
+    <li>animal_a(animalKindDef==Tortoise)->una</li>
+    <li>animal_a(animalKindDef==WildBoar)->un</li>
+    <!-- Def -->
+    <li>animal_the(animalKindDef==Caribou)->el</li>
+    <li>animal_the(animalKindDef==Deer)->el</li>
+    <li>animal_the(animalKindDef==Elk)->el</li>
+    <li>animal_the(animalKindDef==Ibex)->el</li>
+    <li>animal_the(animalKindDef==Tortoise)->la</li>
+    <li>animal_the(animalKindDef==WildBoar)->el</li>
+    <!-- Animales Tropicales -->
+    <!-- Indef -->
+    <li>animal_a(animalKindDef==Boomalope)->un</li>
+    <li>animal_a(animalKindDef==Cobra)->una</li>
+    <li>animal_a(animalKindDef==Monkey)->un</li>
+    <!-- Def -->
+    <li>animal_the(animalKindDef==Boomalope)->el</li>
+    <li>animal_the(animalKindDef==Cobra)->la</li>
+    <li>animal_the(animalKindDef==Monkey)->el</li>
+    <!-- WildCanines -->
+    <!-- Indef -->
+    <li>animal_a(animalKindDef==Fox_Arctic)->un</li>
+    <li>animal_a(animalKindDef==Fox_Fennec)->un</li>
+    <li>animal_a(animalKindDef==Fox_Red)->un</li>
+    <li>animal_a(animalKindDef==Warg)->un</li>
+    <li>animal_a(animalKindDef==Wolf_Arctic)->un</li>
+    <li>animal_a(animalKindDef==Wolf_Timber)->un</li>
+    <!-- Def -->
+    <li>animal_the(animalKindDef==Fox_Arctic)->el</li>
+    <li>animal_the(animalKindDef==Fox_Fennec)->el</li>
+    <li>animal_the(animalKindDef==Fox_Red)->el</li>
+    <li>animal_the(animalKindDef==Warg)->el</li>
+    <li>animal_the(animalKindDef==Wolf_Arctic)->el</li>
+    <li>animal_the(animalKindDef==Wolf_Timber)->el</li>
+    <!-- Others -->
+    <li>animal_a(p=0.00000000001)->un(a)</li>
+    <li>animal_the(p=0.00000000001)->el/la</li>
+    <!--
+    <li>animal_oa(p=0.00000000001)->o(a)</li>
+    <li>animal_oa(animalKindDef==Dromedary,animalKindDef==Muffalo,animalKindDef==Cougar,animalKindDef==Lynx,animalKindDef==Cassowary,animalKindDef==Emu,animalKindDef==Ostrich,animalKindDef==Bison,animalKindDef==Yak,animalKindDef==Elephant,animalKindDef==Megasloth,animalKindDef==Rhinoceros,animalKindDef==Thrumbo,animalKindDef==Megascarab,animalKindDef==Spelopede,animalKindDef==Husky,animalKindDef==LabradorRetriever,animalKindDef==YorkshireTerrier,animalKindDef==Alphabeaver,animalKindDef==Capybara,animalKindDef==Raccoon,animalKindDef==Caribou,animalKindDef==Ibex,animalKindDef==WildBoar,animalKindDef==Boomalope,animalKindDef==Fox_Red,animalKindDef==Warg,animalKindDef==HorseanimalKindDef==Bear_Grizzly,animalKindDef==Bear_Polar,animalKindDef==Turkey,animalKindDef==Chicken,animalKindDef==Cow,animalKindDef==Donkey,animalKindDef==Duck,animalKindDef==Goose,animalKindDef==GuineaPig,animalKindDef==Pig,animalKindDef==Sheep,animalKindDef==Deer,animalKindDef==Elk,animalKindDef==Monkey,animalKindDef==Fox_Arctic,animalKindDef==Wolf_Arctic,animalKindDef==Wolf_Timber)->o</li>
+    <li>animal_oa(animalKindDef==Gazelle,animalKindDef==Iguana,animalKindDef==Panther,animalKindDef==Alpaca,animalKindDef==Goat,animalKindDef==Hare,animalKindDef==Snowhare,animalKindDef==Megaspider,animalKindDef==Boomrat,animalKindDef==Chinchilla,animalKindDef==Rat,animalKindDef==Squirrel,animalKindDef==Tortoise,animalKindDef==Cobra)->a</li>-->
+    <!--Reglas Normales-->
     <li>Trans->de</li>
     <li>Trans->para</li>
     <li>Trans->por</li>
     <li>Trans->con</li>
+    <li>AdjectiveAny->[AdjectiveBadass]</li>
+    <li>AdjectiveAny->[AdjectiveAngsty]</li>
+    <li>AdjectiveAny->[AdjectiveFriendly]</li>
+    <li>AdjectiveAny->[AdjectiveNatural]</li>
+    <li>AnimalBadassAny->[AnimalBadass]</li>
+    <li>AnimalBadassAny->[AnimalBadass_Fem]</li>
+    <li>AnimalBadassAny_Cap->[AnimalBadass_Cap]</li>
+    <li>AnimalBadassAny_Cap->[AnimalBadass_FemCap]</li>
+    <li>AnimalBadassDefCap->El [AnimalBadass]</li>
+    <li>AnimalBadassDefCap->La [AnimalBadass_Fem]</li>
+    <li>AnimalBadassAnyPl->[AnimalBadass_Plural]</li>
+    <li>AnimalBadassAnyPl->[AnimalBadass_FemPlural]</li>
+    <li>AnimalAny->[Animal]</li>
+    <li>AnimalAny->[Animal_Fem]</li>
+    <li>AnimalAnyPl->[Animal_Plural]</li>
+    <li>AnimalAnyPl->[Animal_FemPlural]</li>
+    <li>AnimalIndef->un [Animal]</li>
+    <li>AnimalIndef->una [Animal_Fem]</li>
+    <li>AnimalGroupIndef->un [AnimalGroup]</li>
+    <li>AnimalGroupIndef->una [AnimalGroup_Fem]</li>
+    <li>ApparelAny->[Apparel]</li>
+    <li>ApparelAny->[Apparel_Fem]</li>
+    <li>ApparelIndef->un [Apparel]</li>
+    <li>ApparelIndef->una [Apparel_Fem]</li>
+    <li>BusinessTypeAny->[BusinessType]</li>
+    <li>BusinessTypeAny->[BusinessType_Fem]</li>
+    <li>BusinessTypeAny_def->el [BusinessType]</li>
+    <li>BusinessTypeAny_def->la [BusinessType_Fem]</li>
+    <li>BusinessTypeAny_def->los [BusinessType_Plural]</li>
+    <li>BusinessTypeAny_def->las [BusinessType_FemPlural]</li>
+    <li>BusinessTypeAny_def_Cap->el [BusinessType_Cap]</li>
+    <li>BusinessTypeAny_def_Cap->la [BusinessType_FemCap]</li>
+    <li>BodyPartAny->[BodyPart]</li>
+    <li>BodyPartAny->[BodyPart_Fem]</li>
+    <li>ColorAny->[Color]</li>
+    <li>ColorAny->[Color_Fem]</li>
+    <li>ConceptAny->[ConceptPositive]</li>
+    <li>ConceptAny->[ConceptBadass]</li>
+    <li>ConceptAny->[ConceptAngsty]</li>
+    <li>ConceptAny_Fem->[ConceptPositive_Fem]</li>
+    <li>ConceptAny_Fem->[ConceptBadass_Fem]</li>
+    <li>ConceptAny_Fem->[ConceptAngsty_Fem]</li>
+    <li>ConceptAnyDef->el [ConceptAny]</li>
+    <li>ConceptAnyDef->la [ConceptAny_Fem]</li>
+    <li>ConceptAnyFull->[ConceptAny]</li>
+    <li>ConceptAnyFull->[ConceptAny_Fem]</li>
+    <li>CommunityIndefCap->Una [Community_Fem]</li>
+    <li>CommunityIndefCap->Un [Community]</li>
     <li>Character(p=6)->[PersonJob]</li>
+    <li>Character_Plural(p=6)->[PersonJob_Plural]</li>
+    <li>Character_Fem(p=6)->[PersonJob_Fem]</li>
     <li>Character(p=4)->[Animal]</li>
+    <li>Character_Plural(p=4)->[Animal_Plural]</li>
+    <li>Character_Fem(p=4)->[Animal_Fem]</li>
     <li>Character(p=3)->[Enemy]</li>
+    <li>Character_Plural(p=3)->[Enemy]s</li>
     <li>Character->[Mechanoid]</li>
+    <li>Character_Human->[PersonJob]</li>
+    <li>Character_Human->[Enemy]</li>
+    <li>CharacterEnemyPlural(p=2)->[Animal_Plural]</li>
+    <li>CharacterEnemyPlural->[Animal_FemPlural]</li>
+    <li>CharacterEnemyPlural(p=3)->[Enemy]s</li>
+    <li>CharacterEnemyPlural(p=2)->[Mechanoid]s</li>
+    <li>CharacterIndef(p=6)->un [PersonJob]</li>
+    <li>CharacterIndef(p=6)->una [PersonJob_Fem]</li>
+    <li>CharacterIndef(p=4)->un [Animal]</li>
+    <li>CharacterIndef(p=4)->una [Animal_Fem]</li>
+    <li>CharacterIndef(p=3)->un [Enemy]</li>
+    <li>CharacterIndef->un [Mechanoid]</li>
+    <li>CharacterIndefMas(p=6)->un [PersonJob]</li>
+    <li>CharacterIndefMas(p=4)->un [Animal]</li>
+    <li>CharacterIndefMas(p=3)->un [Enemy]</li>
+    <li>CharacterIndefMas->un [Mechanoid]</li>
+    <li>CharacterIndefFem(p=6)->una [PersonJob_Fem]</li>
+    <li>CharacterIndefFem(p=4)->una [Animal_Fem]</li>
+    <li>CommunityIndef->un [Community]</li>
+    <li>CommunityIndef->una [Community_Fem]</li>
+    <li>CommunityDef->el [Community]</li>
+    <li>CommunityDef->la [Community_Fem]</li>
+    <li>CommunityAny->[Community]</li>
+    <li>CommunityAny->[Community_Fem]</li>
+    <li>GameAny->[Game]</li>
+    <li>GameAny->[Game_Fem]</li>
+    <li>GameDef->el [Game]</li>
+    <li>GameDef->la [Game_Fem]</li>
+    <li>NaturalObjectDef->un [NaturalObject]</li>
+    <li>NaturalObjectDef->una [NaturalObject_Fem]</li>
+    <li>MechanoidAnyPl->[Mechanoid_FemPl]</li>
+    <li>MechanoidAnyPl->[Mechanoid_Plural]</li>
     <li>Quantity_adjphrase->dos</li>
     <li>Quantity_adjphrase->tres</li>
     <li>Quantity_adjphrase->cuatro</li>
@@ -79,38 +986,62 @@
     <li>Shape->cuadrado</li>
     <li>Shape->rectángulo</li>
     <li>Shape->cono</li>
-    <li>Shape->línea</li>
-    <li>Shape->corazón</li>
-    <li>Shape->estrella</li>
+    <li>Shape_Fem->línea</li>
+    <li>Shape_Var->corazón</li>
+    <li>Shape_VarPl->corazones</li>
+    <li>Shape_Fem->estrella</li>
     <li>Shape->círculo</li>
     <li>Shape->elipse</li>
-    <li>AdjectiveAny->[AdjectiveBadass]</li>
-    <li>AdjectiveAny->[AdjectiveAngsty]</li>
-    <li>AdjectiveAny->[AdjectiveFriendly]</li>
-    <li>AdjectiveAny->[AdjectiveNatural]</li>
-    <li>ConceptAny->[ConceptPositive]</li>
-    <li>ConceptAny->[ConceptBadass]</li>
-    <li>ConceptAny->[ConceptAngsty]</li>
+    <li>ShapeDef->un [Shape]</li>
+    <li>ShapeDef->un [Shape_Var]</li>
+    <li>ShapeDef->una [Shape_Fem]</li>
+    <li>ShapeAny->[Shape]</li>
+    <li>ShapeAny->[Shape_Fem]]</li>
+    <li>Shape_Plural->[ShapeAny]s</li>
+    <li>Shape_Plural->[Shape_VarPl]</li>
+    <li>PersonJobAny->[PersonJob]</li>
+    <li>PersonJobAny->[PersonJob_Fem]</li>
+    <li>PersonIndef->un [PersonJob]</li>
+    <li>PersonIndef->una [PersonJob_Fem]</li>
+    <li>PersonFamilyAny->[PersonFamily]</li>
+    <li>PersonFamilyAny->[PersonFamily_Fem]</li>
     <li>PersonalCharacteristic(p=0.15)->genitales</li>
-    <li>PersonalCharacteristic(p=0.15)->pelo púbico</li>
-    <li>PersonalCharacteristic(p=0.15)->vello corporal</li>
-    <li>PersonalCharacteristic(p=0.15)->hábitos higiénicos</li>
-    <li>PersonalCharacteristic(p=0.15)->destreza sexual</li>
+    <li>PersonalCharacteristic(p=0.15)->vello púbico</li>
+    <li>PersonalCharacteristic(p=0.15)->vello coporal</li>
+    <li>PersonalCharacteristic(p=0.15)->hábito de aseo</li>
+    <li>PersonalCharacteristic(p=0.15)->propósito sexual</li>
     <li>PersonalCharacteristic(p=0.15)->preferencias sexuales</li>
-    <li>PersonalCharacteristic(p=0.15)->experiencia sexual</li>
-    <!--Reglas Especiales-->
-    <li>refugee_o_a(refugee_gender!=Female)->o</li>
-    <li>refugee_o_a(refugee_gender==Female)->a</li>
-    <li>refugee_ununa(refugee_gender!=Female)->un</li>
-    <li>refugee_ununa(refugee_gender==Female)->una</li>
-    <li>joiner_ununa(joiner_gender!=Female)->un</li>
-    <li>joiner_ununa(joiner_gender==Female)->una</li>
-    <li>joiner_a(joiner_gender!=Female)->un</li>
-    <li>joiner_a(joiner_gender==Female)->una</li>
-    <li>joiner_A(joiner_gender!=Female)->Un</li>
-    <li>joiner_A(joiner_gender==Female)->Una</li>
-    <li>joiner_o_a(joiner_gender!=Female)->o</li>
-    <li>joiner_o_a(joiner_gender==Female)->a</li>
+    <li>PersonalCharacteristic_Fem(p=0.15)->experiencia sexual</li>
+    <li>PersonalCharacteristicDef->el [PersonalCharacteristic]</li>
+    <li>PersonalCharacteristicDef->la [PersonalCharacteristic_Fem]</li>
+    <li>TerrainFeatureAny->[TerrainFeature]</li>
+    <li>TerrainFeatureAny->[TerrainFeature_Fem]</li>
+    <li>TerrainFeatureIndef->un [TerrainFeature]</li>
+    <li>TerrainFeatureIndef->una [TerrainFeature_Fem]</li>
+    <li>TerrainFeatureIndefCap->Un [TerrainFeature]</li>
+    <li>TerrainFeatureIndefCap->Una [TerrainFeature_Fem]</li>
+    <li>TerrainFeaturePlAny->[TerrainFeature_Pl]</li>
+    <li>TerrainFeaturePlAny->[TerrainFeature_PlFem]</li>
+    <li>TreeTypeAny->[TreeType]</li>
+    <li>TreeTypeAny->[TreeType_Fem]</li>
+    <li>TreeTypeIndef->un [TreeType]</li>
+    <li>TreeTypeIndef->una [TreeType_Fem]</li>
+    <li>VegetableAny->[Vegetable]</li>
+    <li>VegetableAny->[Vegetable_Fem]</li>
+    <li>VegetableIndef->un [Vegetable]</li>
+    <li>VegetableIndef->una [Vegetable_Fem]</li>
+    <li>WeaponAny->[Weapon]</li>
+    <li>WeaponAny->[Weapon_Fem]</li>
+    <li>WeaponAnyPl->[Weapon_Plural]</li>
+    <li>WeaponAnyPl->[Weapon_FemPlural]</li>
+    <li>WeaponIndef->un [Weapon]</li>
+    <li>WeaponIndef->una [Weapon_Fem]</li>
+    <li>WeaponCacIndef->un [WeaponCac]</li>
+    <li>WeaponCacIndef->una [WeaponCac_Fem]</li>
+    <li>WeaponCacAnyPl->[WeaponCac_Plural]</li>
+    <li>WeaponCacAnyPl->[WeaponCac_FemPlural]</li>
+    <li>WeaponCacAnyIndefPl->unos [WeaponCac_Plural]</li>
+    <li>WeaponCacAnyIndefPl->unas [WeaponCac_FemPlural]</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -160,36 +1091,33 @@
     <li>TalkTopicHeavy(p=0.08)->la conexión entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->la relación entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
     <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
-    <li>TalkTopicLight->[Vegetable]s</li>
-    <li>TalkTopicLight->comer [Vegetable]s</li>
-    <li>TalkTopicLight->cocinar [Vegetable]s</li>
-    <li>TalkTopicLight->[Game]</li>
-    <li>TalkTopicLight->jugar [Game]</li>
-    <li>TalkTopicLight->practicar [Game]</li>
-    <li>TalkTopicLight->aprender [Game]</li>
-    <li>TalkTopicLight->[Animal]s</li>
-    <li>TalkTopicLight->entrenar [Animal]s</li>
-    <li>TalkTopicLight->doma de [Animal]s</li>
-    <li>TalkTopicLight->luchar contra [Animal]s</li>
-    <li>TalkTopicLight->[Animal]s locos</li>
-    <li>TalkTopicLight->[Weapon]s</li>
-    <li>TalkTopicLight->usar [Weapon]s</li>
-    <li>TalkTopicLight->practicar con [Weapon]s</li>
-    <li>TalkTopicLight->[TerrainFeature]s</li>
+    <li>TalkTopicLight->[VegetableAny]s</li>
+    <li>TalkTopicLight->comer [VegetableAny]s</li>
+    <li>TalkTopicLight->cocinar [VegetableAny]s</li>
+    <li>TalkTopicLight->[GameAny]</li>
+    <li>TalkTopicLight->jugar [GameAny]</li>
+    <li>TalkTopicLight->practicar [GameAny]</li>
+    <li>TalkTopicLight->aprender [GameAny]</li>
+    <li>TalkTopicLight->[AnimalAnyPl]</li>
+    <li>TalkTopicLight->entrenar [AnimalAnyPl]</li>
+    <li>TalkTopicLight->doma de [AnimalAnyPl]</li>
+    <li>TalkTopicLight->luchar contra [AnimalAnyPl]</li>
+    <li>TalkTopicLight->[Animal_Plural] locos</li>
+    <li>TalkTopicLight->[Animal_FemPlural] locas</li>
+    <li>TalkTopicLight->[WeaponAnyPl]</li>
+    <li>TalkTopicLight->usar [WeaponAnyPl]</li>
+    <li>TalkTopicLight->practicar con [WeaponAnyPl]</li>
+    <li>TalkTopicLight->[TerrainFeatureAny]s</li>
     <li>TalkTopicLight->[NaturalObject]s</li>
-    <li>TalkTopicLight->[TreeType]s</li>
-    <li>TalkTopicLight->[PersonJob]s</li>
-    <li>TalkTopicLight->[PersonJob]s amigables</li>
-    <li>TalkTopicLight->[PersonJob]s hostiles</li>
+    <li>TalkTopicLight->[TreeTypeAny]s</li>
+    <li>TalkTopicLight->[PersonJobAny]s</li>
+    <li>TalkTopicLight->[PersonJobAny]s amigables</li>
+    <li>TalkTopicLight->[PersonJobAny]s hostiles</li>
     <li>TalkTopicLight->[Enemy]s</li>
-    <li>TalkTopicLight->peleando con [Enemy]s</li>
+    <li>TalkTopicLight->pelear con [Enemy]s</li>
     <li>TalkTopicLight->[Apparel]s</li>
-    <li>TalkTopicLight->vistiendo [Apparel]s</li>
-    <li>TalkTopicLight->haciendo [Apparel]s</li>
-    <li>talktopicheavyfile(p=0.15)->sexo</li>
-    <li>talktopicheavyfile(p=0.15)->seducción</li>
-    <li>talktopicheavyfile(p=0.15)->sexualidad animal</li>
-    <li>talktopicheavyfile(p=0.15)->fetiches sexuales</li>
+    <li>TalkTopicLight->vestir [Apparel]s</li>
+    <li>TalkTopicLight->hacer [Apparel]s</li>
   </TalkTopicsUtility.rulePack.rulesStrings>
   
 </LanguageData>

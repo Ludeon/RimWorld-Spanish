@@ -20,17 +20,20 @@
     <li>maybe_adjective->[AdjectiveBadass]</li>
   -->
   <NamerTraderGeneral.rulePack.rulesStrings>
-    <li>r_name(p=4)->[businessname] [businesstype]</li>
-    <li>r_name->[NamePerson] [businesstype]</li>
-    <li>r_name->[maybe_adjective] [Animal] [businesstype]</li>
+    <li>r_name(p=4)->[BusinessTypeAny_def] [businessname]</li>
+    <li>r_name->[BusinessTypeAny_def] de [NamePerson]</li>
+    <li>r_name->[BusinessTypeAny_def] de [NamePerson] y hermanos</li>
+    <li>r_name->[BusinessType_Cap] [Animal] [maybe_adjective]</li>
     <li>r_name->[Letter][Letter] [businesstype]</li>
     <li>r_name(p=0.5)->[PersonAlly] [businesstype]</li>
     <li>r_name(p=0.5)->[AdjectiveFriendly] [businesstype]</li>
-    <li>r_name(p=0.5)->[AdjectiveBadass] [businesstype]</li>
+    <li>r_name(p=0.5)->Una [AdjectiveBadass_Fem] [BusinessType_Fem]</li>
+    <li>r_name(p=0.5)->[BusinessType_FemCap] de [AdjectiveBadass_Plural]</li>
     <li>r_name(p=0.3)->[PersonFamily] [businesstype]</li>
     <li>r_name(p=0.3)->[maybe_adjective] [NaturalObject] [businesstype]</li>
     <li>r_name(p=0.2)->[maybe_adjective] [TreeType] [businesstype]</li>
-    <li>r_name(p=0.2)->[maybe_adjective] [Vegetable] [businesstype]</li>
+    <li>r_name(p=0.2)->La [BusinessType_Fem] de las [TreeType_Fem]s</li>
+    <li>r_name(p=0.2)->La [BusinessType_Fem] de [Vegetable_Fem]s [maybe_adjective]</li>
     <li>r_name(p=0.2)->[Direction] [businesstype]</li>
     <li>maybe_adjective-></li>
     <li>maybe_adjective->[Color]</li>

@@ -7,9 +7,9 @@
     <li>WordImperial(p=0.2)->[SylB][SylB][SylB][SylB]</li>
   -->
   <EmpireNameUtility.rulePack.rulesStrings>
-    <li>WordImperial(p=4)->[SylB][SylB]</li>
-    <li>WordImperial(p=2)->[SylB][SylB][SylB]</li>
-    <li>WordImperial(p=0.2)->[SylB][SylB][SylB][SylB]</li>
+    <li>WordImperial(p=4)->[SylB_Cap][SylB]</li>
+    <li>WordImperial(p=2)->[SylB_Cap][SylB][SylB]</li>
+    <li>WordImperial(p=0.2)->[SylB_Cap][SylB][SylB][SylB]</li>
   </EmpireNameUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -21,12 +21,18 @@
     <li>r_name->[Color] [Animal]</li>
   -->
   <NamerPersonCorunan.rulePack.rulesStrings>
-    <li>r_name(p=2)->[WordTribal] [WordTribal]</li>
-    <li>r_name->[WordTribal] '[AnimalBadass]' [WordTribal]</li>
-    <li>r_name->[Color] [WordTribal]</li>
-    <li>r_name->[WordTribal] [Animal]</li>
-    <li>r_name->[Animal] [WordTribal]</li>
-    <li>r_name->[Color] [Animal]</li>
+    <li>r_name(p=2)->[WordTribal] [WordTribal_Cap]</li>
+    <li>r_name(p=4)->[WordTribal_Name] [WordTribal_Cap]</li>
+    <li>r_name(p=4)->[WordTribal] [WordTribal_NameCap]</li>
+    <li>r_name->[WordTribal] "[AnimalBadassAny_Cap]" [WordTribal_Cap]</li>
+    <li>r_name->[WordTribal] [Animal_Cap] [Color_Cap]</li>
+    <li>r_name->[WordTribal] [Animal_FemCap] [Color_FemCap]</li>
+    <li>r_name->[Animal] [WordTribal_Cap]</li>
+    <li>r_name->[Animal_Fem] [WordTribal_Cap]</li>
+    <li>r_name->[Animal] [Color_Cap] [WordTribal_NameCap]</li>
+    <li>r_name->[Animal] [WordTribal_NameCap]</li>
+    <li>r_name->[Animal_Fem] [Color_FemCap] [WordTribal_NameCap]</li>
+    <li>r_name->[Animal_Fem] [WordTribal_NameCap]</li>
   </NamerPersonCorunan.rulePack.rulesStrings>
   
 </LanguageData>

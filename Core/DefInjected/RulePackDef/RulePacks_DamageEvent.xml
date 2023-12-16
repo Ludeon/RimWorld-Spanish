@@ -58,10 +58,9 @@
   -->
   <DamageEvent_Fire.rulePack.rulesStrings>
     <li>damage_source->[fire] quemó a</li>
-    <li>fire(p=3)->fuego</li>
-    <li>fire(p=3)->un fuego</li>
     <li>fire(p=3)->el fuego</li>
-    <li>fire->calor</li>
+    <li>fire(p=2)->un fuego</li>
+    <li>fire->el calor</li>
     <li>fire->una conflagración</li>
     <li>fire->un infierno</li>
     <li>damaged_present->abrasando</li>
@@ -103,19 +102,19 @@
     <li>light(p=0.2)->incandescence</li>
   -->
   <DamageEvent_PowerBeam.rulePack.rulesStrings>
-    <li>damage_source->El/la/los [sky] se abrió/abrieron sobre</li>
+    <li>damage_source->[sky] sobre</li>
     <li>damage_source->Un rayo de increíble [power] [damaged_past]</li>
     <li>damage_source->Una columna de [light] [damaged_past]</li>
-    <li>sky->cielo</li>
-    <li>sky->nubes</li>
-    <li>sky->cielos</li>
+    <li>sky->El cielo se abrió</li>
+    <li>sky->Las nubes se abrieron</li>
+    <li>sky->Los cielos se abrieron</li>
     <li>power->poder</li>
     <li>power->energía</li>
     <li>power->calor</li>
     <li>light->luz</li>
     <li>light->calor</li>
     <li>light->flamas</li>
-    <li>light(p=0.2)->incandescencia</li>
+    <li>light(p=0.2)->incandescente</li>
   </DamageEvent_PowerBeam.rulePack.rulesStrings>
   
   <!-- EN:
@@ -130,7 +129,7 @@
     <li>enveloped->surrounded</li>
   -->
   <DamageEvent_Tornado.rulePack.rulesStrings>
-    <li>damage_source->Un [spiraling] tornado [enveloped]</li>
+    <li>damage_source->Un tornado [spiraling] [enveloped]</li>
     <li>destroyed_present(p=3)->arrancando</li>
     <li>spiraling->envolvente</li>
     <li>spiraling->zumbante</li>
@@ -163,19 +162,22 @@
     <li>damage_source->[spiketrap] apuñaló</li>
     <li>damage_source->[spiketrap] impactó</li>
     <li>damage_source->[spiketrap] lanzadose en</li>
-    <li>spiketrap(p=3)->una trampa de púas</li>
-    <li>spiketrap(p=3)->la trampa de púas</li>
-    <li>spiketrap->púas</li>
+    <li>damage_source->[spiketrap_pl] han apuñalado</li>
+    <li>damage_source->[spiketrap_pl] han impactado</li>
+    <li>damage_source->[spiketrap_pl] se lanzaron sobre</li>
+    <li>spiketrap(p=3)->una trampa de pinchos</li>
+    <li>spiketrap(p=3)->la trampa de pinchos</li>
+    <li>spiketrap_pl->unos pinchos</li>
     <li>spiketrap->una trampa afilada</li>
-    <li>spiketrap->una trampa con púas</li>
+    <li>spiketrap->una trampa con pinchos</li>
     <li>damaged_present->perforando</li>
     <li>damaged_present->arponeando</li>
     <li>damaged_present->penetrando</li>
-    <li>damaged_present->clavandose</li>
+    <li>damaged_present->clavándose</li>
     <li>destroyed_present->destruyendo</li>
     <li>destroyed_present->triturando</li>
     <li>destroyed_present->destripando</li>
-    <li>destroyed_present->haciendo explotar</li>
+    <li>destroyed_present->explotando</li>
   </DamageEvent_TrapSpike.rulePack.rulesStrings>
   
 </LanguageData>

@@ -26,28 +26,28 @@
     <li>msyl->lite</li>
   -->
   <NamerFactionMechanoid.rulePack.rulesStrings>
-    <li>r_name->[msyl][msyl] [mechhive]</li>
-    <li>mechhive->meca-enjambre</li>
-    <li>msyl->nyar</li>
-    <li>msyl->alg</li>
-    <li>msyl->xan</li>
-    <li>msyl->zel</li>
-    <li>msyl->kil</li>
-    <li>msyl->len</li>
-    <li>msyl->lax</li>
-    <li>msyl->alph</li>
-    <li>msyl->ome</li>
-    <li>msyl->iri</li>
-    <li>msyl->slin</li>
-    <li>msyl->toth</li>
-    <li>msyl->arth</li>
-    <li>msyl->unth</li>
-    <li>msyl->ox</li>
-    <li>msyl->arm</li>
-    <li>msyl->murd</li>
-    <li>msyl->zen</li>
-    <li>msyl->yoth</li>
-    <li>msyl->lite</li>
+    <li>r_name->[mechhive] [msyl] [msyl_extra]</li>
+    <li>mechhive->colmenóide</li>
+    <li>msyl->Alfa</li>
+    <li>msyl->Beta</li>
+    <li>msyl->Gamma</li>
+    <li>msyl->Delta</li>
+    <li>msyl->Epsilon</li>
+    <li>msyl->Eta</li>
+    <li>msyl->Omega</li>
+    <li>msyl->Ómicron</li>
+    <li>msyl->Nova</li>
+    <li>msyl_extra->Prima</li>
+    <li>msyl_extra->626-M</li>
+    <li>msyl_extra->319-B</li>
+    <li>msyl_extra->515-H</li>
+    <li>msyl_extra->010-A</li>
+    <li>msyl_extra->Centaury</li>
+    <li>msyl_extra->Lupus</li>
+    <li>msyl_extra->Magnus</li>
+    <li>msyl_extra->Omega</li>
+    <li>msyl_extra->Prime</li>
+    <li>msyl_extra->Zers</li>
   </NamerFactionMechanoid.rulePack.rulesStrings>
   
   <!-- EN:
@@ -62,9 +62,8 @@
   <NamerFactionOutlander.rulePack.rulesStrings>
     <li>r_name(p=3)->[nearnameinitial]</li>
     <li>r_name->[political_union_outlander] de [nearnameinitial]</li>
-    <li>r_name->[political_adjective] [political_union_outlander] de [nearnameinitial]</li>
+    <li>r_name->[political_union_outlander] [political_adjective] de [nearnameinitial]</li>
     <li>r_name->[political_union_outlander] [nearnameinitial]</li>
-    <li>r_name->[political_adjective] [political_union_outlander] de [nearnameinitial]</li>
     <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
     <li>nearnameinitial->[PlaceOutlander] del [Direction]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
@@ -99,18 +98,24 @@
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
   <NamerFactionPirate.rulePack.rulesStrings>
-    <li>r_name->Los [AnimalBadass]s</li>
-    <li>r_name->Los hombres [AnimalBadass]</li>
-    <li>r_name->Los [AnimalBadass]s de la [ConceptBadass]</li>
-    <li>r_name->Los [PersonBadass]s de la [ConceptBadass]</li>
+    <li>r_name->Los [AnimalBadassMasPl]</li>
+    <li>r_name->Las [AnimalBadassFemPl]</li>
+    <li>r_name->Los hombres [AnimalBadassMasPl]</li>
+    <li>r_name->Los hombres [AnimalBadassFemPl]</li>
+    <li>r_name->Los [AnimalBadassMasPl] de la [ConceptBadassFem]</li>
+    <li>r_name->Las [AnimalBadassFemPl] de la [ConceptBadassFem]</li>
+    <li>r_name->Los [AnimalBadassMasPl] del [ConceptBadass]</li>
+    <li>r_name->Las [AnimalBadassFemPl] del [ConceptBadass]</li>
+    <li>r_name->Los [PersonBadass]s del [ConceptBadass]</li>
+    <li>r_name->Los [PersonBadass]s de la [ConceptBadassFem]</li>
     <li>r_name->Los [PersonBadass]s</li>
     <li>r_name->Los [Enemy]s</li>
-    <li>r_name->Los Hombres [Weapon]</li>
-    <li>r_name->[Weapon]s de la [ConceptBadass]</li>
-    <li>r_name->[AnimalBadass]s y [Weapon]s</li>
-    <li>r_name->Los [Enemy]s [Weapon]</li>
+    <li>r_name->Los Hombres [WeaponVarPl]</li>
+    <li>r_name->[WeaponCac_Plural] de la [ConceptBadassFem]</li>
+    <li>r_name->[AnimalBadassMasPl] y [WeaponVarPl]</li>
+    <li>r_name->Los [Enemy]s [WeaponVarPl]</li>
     <li>r_name->Los [PersonBadass]s [ColorBadass]s</li>
-    <li>r_name->Los [AnimalBadass]s [ColorBadass]s</li>
+    <li>r_name->Los [AnimalBadassMasPl] [ColorBadass]s</li>
     <li>r_name->Los [PersonBadass]s [ColorBadass]s</li>
     <li>r_name->Los [Enemy]s [ColorBadass]s</li>
     <li>r_name->[groupname] de [PersonBadass]s</li>
@@ -119,12 +124,12 @@
     <li>r_name->Los [AnimalBadass]s [AdjectiveBadass]s</li>
     <li>r_name->Los [Enemy]s [AdjectiveBadass]s</li>
     <li>r_name->Los [PersonBadass]s [AdjectiveBadass]s</li>
-    <li>r_name->Los [PersonAlly]s de la [ConceptBadass]</li>
-    <li>r_name(p=0.4)->Los come[Gore]</li>
+    <li>r_name->Los [PersonAlly]s de la [ConceptBadassFem]</li>
+    <li>r_name(p=0.4)->Los come [Gore_Plural]</li>
     <li>r_name->[NamePerson] y sus [Enemy]s</li>
-    <li>r_name->[NamePerson] y sus [AnimalBadass]s</li>
-    <li>r_name->[Weapon]s de [NamePerson]</li>
-    <li>r_name->[groupname] de [Weapon]s</li>
+    <li>r_name->[NamePerson] y sus [AnimalBadassMasPl]</li>
+    <li>r_name->[WeaponVarPl] de [NamePerson]</li>
+    <li>r_name->[groupname] de [WeaponVarPl]</li>
     <li>r_name->[groupname] de [ConceptBadass]</li>
     <li>r_name->[Letter][Letter]-[Digit][Digit]</li>
   </NamerFactionPirate.rulePack.rulesStrings>
@@ -142,7 +147,7 @@
     <li>r_name->[political_union_tribal] de [WordTribal]</li>
     <li>r_name->[political_union_tribal] del [TerrainFeature] [Color]</li>
     <li>r_name->[political_union_tribal] de [WordTribal]</li>
-    <li>r_name->[WordTribal]</li>
+    <li>r_name->[WordTribal_Cap]</li>
     <li>r_name->[TerrainFeature] [WordTribal]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
@@ -318,15 +323,15 @@
     <li>townname_combo->[geography] del [PersonBadass]</li>
     <li>townname_combo->[geography] del [Enemy]</li>
     <li>townname_combo->[geography] del [Enemy]</li>
-    <li>townname_combo->[geography] de [Weapon]'s</li>
+    <li>townname_combo->[geography] del [Weapon]</li>
     <li>townname_combo->[geography] [Weapon]</li>
     <li>townname_combo->[geography] [ColorBadass]</li>
-    <li>geography(p=2)->[TerrainFeature]</li>
-    <li>geography->[Community]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][townendevil]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][townendevil]</li>
+    <li>geography(p=2)->[TerrainFeatureAny]</li>
+    <li>geography->[CommunityAny]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][SylE][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][townendevil]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][SylE][townendevil]</li>
     <li>townendevil->vast</li>
     <li>townendevil->varg</li>
     <li>townendevil->vix</li>
@@ -357,10 +362,11 @@
     <li>r_name->[WordTribal] [TerrainFeature]</li>
   -->
   <NamerSettlementTribal.rulePack.rulesStrings>
-    <li>r_name(p=2)->[WordTribal]</li>
-    <li>r_name->[WordTribal] [WordTribal]</li>
+    <li>r_name(p=2)->[WordTribal_Cap]</li>
+    <li>r_name->[WordTribal_Cap] [WordTribal]</li>
     <li>r_name->[TerrainFeature] [Color]</li>
-    <li>r_name->[TerrainFeature] [WordTribal]</li>
+    <li>r_name->[TerrainFeature_Fem] [Color_Fem]</li>
+    <li>r_name->[TerrainFeatureAny] [WordTribal]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
   
 </LanguageData>
