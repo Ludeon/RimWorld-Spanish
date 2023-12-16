@@ -37,7 +37,7 @@
   <!-- EN: Dead for {0} -->
   <DeadTime>Muerto hace {0}</DeadTime>
   <!-- EN: walk speed {0} -->
-  <WalkSpeed>Vel. al andar: {0}</WalkSpeed>
+  <WalkSpeed>Velocidad al andar: {0}</WalkSpeed>
   <!-- EN: fert. -->
   <FertShort>fert.</FertShort>
   <!-- EN: dying -->
@@ -625,7 +625,7 @@
   <!-- EN: Immune -->
   <TextMote_Immune>Inmune</TextMote_Immune>
   <!-- EN: {0} tended -->
-  <TextMote_Tended>{0} tratado(a)</TextMote_Tended>
+  <TextMote_Tended>{0} tratado{0_gender ? o : a}</TextMote_Tended> <!-- text_todo -->
   <!-- EN: level {0} -->
   <TextMote_SkillUp>nivel {0}</TextMote_SkillUp>
   <!-- EN: low mood -->
@@ -957,9 +957,9 @@
   <!-- EN: State -->
   <State>Estado</State>
   <!-- EN: stun -->
-  <StunLower>aturdid{PAWN_gender ? o : a}</StunLower> <!-- texto_todo -->
+  <StunLower>aturdido(a)</StunLower>
   <!-- EN: Slowed by damage -->
-  <SlowedByDamage>Ralentizad{PAWN_gender ? o : a} por daño</SlowedByDamage> <!-- texto_todo -->
+  <SlowedByDamage>Lentitud por daño</SlowedByDamage>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
@@ -1654,7 +1654,7 @@
   <!-- EN: Not participating -->
   <NotParticipating>No participan</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>Arrastra y suelta o haz clic izquierdo/derecho para moverlos.</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>Arrastra y suelta o haz clic izq./der. para moverlos.</DragPawnsToRolesInfo>
   <!-- EN: Drag and drop or click to move people. -->
   <DragPawnsToRolesInfoController>Arrastra y suelta o haz clic para moverlos.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
