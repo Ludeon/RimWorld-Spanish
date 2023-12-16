@@ -22,15 +22,22 @@
   -->
   <Chitchat.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-    <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] de [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout1] [TalkTopicLight] con [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] a [RECIPIENT_nameDef].</li>
     <li>talkedabout(p=4)->hablaron sobre</li>
-    <li>talkedabout->intercambiaron palabras sobre</li>
+    <li>talkedabout->platicaron sobre</li>
     <li>talkedabout->charlaron sobre</li>
     <li>talkedabout->cuchichearon sobre</li>
     <li>talkedabout->hablaron sobre</li>
     <li>talkedabout->bromearon sobre</li>
     <li>talkedabout->hicieron un chiste sobre</li>
+    <li>talkedabout1(p=4)->habló algo sobre</li>
+    <li>talkedabout1->platicó algo sobre</li>
+    <li>talkedabout1->dijo algo sobre</li>
+    <li>talkedabout1->cuchicheó algo sobre</li>
+    <li>talkedabout1->comentó algo sobre</li>
+    <li>talkedabout1->bromeó sobre</li>
+    <li>talkedabout1->hizó un chiste sobre</li>
     <li>commentedabout->dijo algo sobre</li>
     <li>commentedabout->dijo una palabra sobre</li>
     <li>commentedabout->hizo un comentario sobre</li>
@@ -57,7 +64,8 @@
   -->
   <DeepTalk.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout_var] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout_var] [subject] con [RECIPIENT_nameDef].</li>
     <li>talkedabout->compartieron ideas sobre</li>
     <li>talkedabout->intercambiaron opiniones sobre</li>
     <li>talkedabout->charlaron sobre</li>
@@ -67,7 +75,17 @@
     <li>talkedabout->debatieron sobre</li>
     <li>talkedabout->compartieron sus puntos de vista sobre</li>
     <li>talkedabout->compartieron sus ideas sobre</li>
-    <li>talkedabout->hablaron acerca de</li>
+    <li>talkedabout_var->hablaron sobre</li>
+    <li>talkedabout_var->compartió ideas sobre</li>
+    <li>talkedabout_var->intercambió opiniones sobre</li>
+    <li>talkedabout_var->charló algo sobre</li>
+    <li>talkedabout_var->habló algo sobre</li>
+    <li>talkedabout_var->discutió algo sobre</li>
+    <li>talkedabout_var->habló a profundidad sobre</li>
+    <li>talkedabout_var->opinó algo sobre</li>
+    <li>talkedabout_var->compartió sus puntos de vista sobre</li>
+    <li>talkedabout_var->compartió sus ideas sobre</li>
+    <li>talkedabout_var->habló algo sobre</li>
     <li>subject->[TalkTopicHeavy]</li>
   </DeepTalk.logRulesInitiator.rulesStrings>
   
@@ -93,27 +111,34 @@
     <li>insultcomparison->[Enemy]</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] el/la [PersonalCharacteristic] de [target].</li>
-    <li>r_logentry->[INITIATOR_nameDef] comparó a [target] con un(a) [insultcomparison].</li>
-    <li>r_logentry->[INITIATOR_nameDef] llamó a [target] un(a) [insultcomparison].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] la [PersonalCharacteristic_fem] de [target].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] el [PersonalCharacteristic] de [target].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted_fem] de la [PersonalCharacteristic_fem] de [target].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted_mas] del [PersonalCharacteristic_mas] de [target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] comparó a [target] con una [insultcomparison_fem].</li>
+    <li>r_logentry->[INITIATOR_nameDef] comparó a [target] con un [insultcomparison_mas].</li>
+    <li>r_logentry->[INITIATOR_nameDef] llamó a [target] [insultcomparison].</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->la [PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>target->[PersonFamily] de [RECIPIENT_nameDef]</li>
     <li>insulted(p=3)->insultó</li>
     <li>insulted->insultó abiertamente</li>
     <li>insulted->ofendió abiertamente</li>
-    <li>insulted->se burló directamente</li>
-    <li>insulted->se burló viciosamente</li>
-    <li>insulted->insultó directamente</li>
+    <li>insulted_mas->se burló directamente</li>
+    <li>insulted_fem->se burló directamente</li>
+    <li>insulted_fem->insultó directamente</li>
+    <li>insulted_mas->insultó directamente</li>
     <li>insulted->despreció</li>
     <li>insulted->insultó</li>
-    <li>insulted->insultó</li>
-    <li>insulted->se burló</li>
+    <li>insulted_mas->se burló</li>
+    <li>insulted_fem->se burló</li>
     <li>insultcomparison(p=2)->[Animal]</li>
+    <li>insultcomparison_fem(p=2)->[Animal_fem]</li>
+    <li>insultcomparison_mas(p=2)->[Animal_mas]</li>
     <li>insultcomparison->[Enemy]</li>
   </Insult.logRulesInitiator.rulesStrings>
   
   <!-- EN: kind words -->
-  <KindWords.label>palabras de halago</KindWords.label>
+  <KindWords.label>amabilidad</KindWords.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
     <li>complimented(p=3)->complimented</li>
@@ -131,7 +156,8 @@
     <li>complimented->said good things about</li>
   -->
   <KindWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [complimented] el/la [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] el [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] la [PersonalCharacteristic_fem] de [RECIPIENT_nameDef].</li>
     <li>complimented(p=3)->alabó</li>
     <li>complimented->alabó</li>
     <li>complimented->elogió</li>
@@ -167,9 +193,10 @@
     <li>madefunof->offered a backhanded compliment about</li>
   -->
   <Slight.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [madefunof] de la [PersonalCharacteristic] de [target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] de la [PersonalCharacteristic_fem] de [target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] del [PersonalCharacteristic] de [target].</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->la [PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>target->[PersonFamily] de [RECIPIENT_nameDef]</li>
     <li>madefunof->se burló</li>
     <li>madefunof->se burló</li>
     <li>madefunof->hizo un chiste</li>
