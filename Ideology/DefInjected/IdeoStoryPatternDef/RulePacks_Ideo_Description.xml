@@ -16,12 +16,12 @@
   -->
   <AnimistDescription.rules.rulesStrings>
     <li>animistBasis   ->El universo es un ciclo infinito de creación y destrucción gestionado por los espíritus en aspectos del mundo que nos rodea.</li>
-    <li>animistBasis   ->Junto al nuestro, existe un universo paralelo de espíritus. Un objeto aparentemente inanimado en este universo corresponde a un espíritu animado en el otro.</li>
+    <li>animistBasis   ->Junto al nuestro existe un universo paralelo de espíritus. Un objeto aparentemente inanimado en este universo corresponde a un espíritu animado en el otro.</li>
     <li>animistFact    ->Cada espíritu tiene una naturaleza esencial y busca influir en el mundo. A veces esta influencia es útil, y otras veces es perjudicial.</li>
-    <li>animistProphecy->[itIsSaid] que el espíritu de la gran reliquia [relic0_name], concederá a su portador el poder sobre todos los espíritus.</li>
+    <li>animistProphecy->[itIsSaid] que el espíritu de la gran reliquia [relic0_name], un día concederá a su portador el poder sobre todos los espíritus.</li>
     <li>animistProphecy->[itIsSaid] que un viajero durmiente de las estrellas se estrellará contra la tierra, y el espíritu del cráter despertará al viajero que alzará la última tribu.</li>
     <li>itIsSaid->Se dice</li>
-    <li>itIsSaid->La profecía dice</li>
+    <li>itIsSaid->Está profetizado</li>
     <li>itIsSaid->Un antiguo texto dice</li>
     <li>itIsSaid->Nuestro libro dice</li>
     <li>itIsSaid->Nuestros sabios dicen</li>
@@ -82,11 +82,11 @@
     <li>story(priority=-999)-></li>
     <li>setup->En un mundo roto, [founderName] vio todo lo que estaba mal y creó nuestro grupo.</li>
     <li>setup->Golpeado por la maldad del mundo, [founderName] estudió la historia y la filosofía y descubrió la nueva verdad que nos guía.</li>
-    <li>setup->Un día mientras trabajaba, [founderName] fue golpeado por una gran epifanía. [founder_pronoun] dejó caer sus herramientas y comenzó a difundir su palabra entre los demás trabajadores.</li>
+    <li>setup->Un día mientras trabajaba, [founderName] fue golpeado por una gran epifanía. [founder_pronoun] dejó caer sus herramientas y comenzó a esparcir su palabra entre los demás trabajadores.</li>
     <li>setup->[founderName] se sentó en un banco del parque durante veinte años mientras contemplaba nuestro mundo. Con su perspicacia, [founder_pronoun] escribió nuestro libro fundacional.</li>
-    <li>story(uses=1,priority=-10)->El grupo de [memberNamePlural] no habría comprendido la verdadera naturaleza de [memeConceptDef] sin las enseñanzas de [founderName].</li>
-    <li>story(uses=1,priority=-10)->El discurso de [founderName] en un(a) [ritualName] inspiró a muchos a llevar una vida [memeAdjectiveFem].</li>
-    <li>story(uses=1,priority=-10)->Ninguno pudo superar la comprensión de [founderName] de[memeConceptDef], y [founderName] fue nombrado primer [leaderTitle] de los [memberNamePlural].</li>
+    <li>story(uses=1,priority=-10)->El grupo de los [memberNamePlural] no habrían comprendido la verdadera naturaleza de[memeConceptDef] sin las enseñanzas de [founderName].</li>
+    <li>story(uses=1,priority=-10)->El discurso de [founderName] durante el ritual conocido como [ritualName] inspiró a muchos a llevar una vida [memeAdjectiveFem].</li>
+    <li>story(uses=1,priority=-10)->Ninguno pudo superar la comprensión de [founderName] de[memeConceptDef], y [founderName] fue nombrado el primer [leaderTitle] de los [memberNamePlural].</li>
     <li>story(uses=1,priority=-10)->[founderName] llevaba un(a) [relic0_thingDef_label] de nombre [relic0_name] con [founder_pronoun] a todas partes para recordar a la gente que debía vivir una vida [memeAdjectiveFem].</li>
   </IdeologicalFounder.rules.rulesStrings>
   
@@ -211,7 +211,7 @@
     <li>lessonIntro->No lo digo para que vivas la vida que yo viví, sino para que aprendas las cosas que yo aprendí. Que</li>
     <li>lessonIntro->Una vez que el doctor terminó su espeluznante trabajo, supe por fin que</li>
     <li>lessonIntro->A medida que pasaban los años en el [place_summary] [place_name], una cosa quedaba cada vez más clara: que</li>
-    <li>lessonIntro->Mirando hacia atrás, me gustaría haberme dado cuenta antes de que</li>
+    <li>lessonIntro->Echando la vista atrás, me gustaría haberme dado cuenta antes de que</li>
     <li>lessonIntro->Todos parecían muy perdidos. Les dije que</li>
     <li>lessonIntro->Clamaban por ser guiados. Les mostré que</li>
     <li>thrownObject->libro</li>
@@ -260,16 +260,16 @@
   <TheistFounder.rules.rulesStrings>
     <li>intro->El pueblo del [place_summary] [place_name] vivía bajo la supervisión [memeAdjectiveFem] de [deity0_name].</li>
     <li>intro->Los habitantes del [place_summary] [place_name], tanto los [memberNamePlural] como otros, vivieron en paz durante muchos años bajo la atenta mirada de [deity0_name].</li>
-    <li>intro->[deity0_type], [deity0_name], se reveló así mismo al pueblo de [place_name] para que entendieran el concepto de[memeConceptDef], y los guió.</li>
+    <li>intro->[deity0_type], [deity0_name], se reveló a sí mismo al pueblo de [place_name] para que entendieran el concepto de[memeConceptDef], y los guió.</li>
     <li>intro->[deity0_name] guió a la humanidad hasta [place_name] y la ayudó a establecerse allí.</li>
-    <li>intro->En el [place_summary] [place_name], durante el(la) [ritualName], la gente venía a [altarName] en el(la) [altarRoomLabel] de [deity0_name] y rezaba con [memeConcept] en sus corazones.</li>
+    <li>intro->En el [place_summary] [place_name], durante el ritual conocido como [ritualName], la gente venía al [altarName] en el [altarRoomLabel] de [deity0_name] y rezaba con [memeConcept] en sus corazones.</li>
     <li>conflict->Un [foeLeader] se levantó y amenazó con destruir al propio [deity0_name] usando [place_massWeapon].</li>
     <li>conflict->Un malvado [foeLeader] y sus [foeSoldiers] esclavizaron a los adoradores de [deity0_name].</li>
-    <li>conflict->Entonces llegó el [foeLeader]. Sus [foeSoldiers] mataron a muchos adoradores de [deity0_name] usando cada uno el arma favorita de su líder: un(a) [place_personalWeapon].</li>
+    <li>conflict->Entonces llegó el [foeLeader]. Sus [foeSoldiers] mataron a muchos adoradores de [deity0_name] usando cada uno el arma favorita de su líder un [place_personalWeapon].</li>
     <li>conflict->Un grupo de [foeSoldiers] se levantó bajo un terrible [foeLeader]. Atraparon a los [memberNamePlural] en un solo [place_community].</li>
     <li>conflict->Había paz, hasta que un [foeLeader] y sus [foeSoldiers] se rebelaron contra el dominio de [deity0_name]. Los [memberNamePlural] se vieron obligados a huir a un oculto [place_community].</li>
     <li>founderJoin->[founder_Heroe] llamad[founder_o_a] [founderName] intentó asesinar al [foeLeader]. [founder_pronoun] fracasó, pero [deity0_name] fue testigo del esfuerzo de [founderName] y le proclamó profeta de los [memberNamePlural].</li>
-    <li>founderJoin->[deity0_name] vino al [place_job] [founderName] [revelationAdverb], y habló con [founder_pronoun] sobre [memeConcept].</li>
+    <li>founderJoin->[deity0_name] vino a el [place_job] [founderName] [revelationAdverb], y habló con [founder_pronoun] sobre [memeConcept].</li>
     <li>founderJoin->[founderName] se encontró [revelationObject], que hablaba con la voz de [deity0_name] sobre [memeConcept].</li>
     <li>founderJoin->Un renombrado [place_job] llamado [founderName] reunió a los [memberNamePlural], e incluso reclutó a algunos de los [foeSoldiers].</li>
     <li>founderJoin->Un [place_job] llamado [founderName] se levantó y habló contra el [foeLeader], y [deity0_name] bendijo a [founderName].</li>
@@ -312,7 +312,7 @@
     <li>creation->Durante una eternidad, hubo un mundo de [materialOrigin_Fem] [Color_Fem], hasta que [deity0_name] creó los planetas y las estrellas.</li>
     <li>creation->En un antiguo universo de luchas, [deity0_name] desató un gran fuego que destruyó la última era y dio lugar a una nueva.</li>
     <li>creation->[deity0_name] engendró a los humanos en un gran accidente, y los miró con curiosidad.</li>
-    <li>creation->El universo era un vacío. Entonces, [deity0_name], aburrido(a) de la eternidad, formó al hombre y la mujer a partir [bodilyOrigin].</li>
+    <li>creation->El universo era un vacío. Entonces, [deity0_name], aburrid[deity0_oa] de la eternidad, formó al hombre y a la mujer a partir [bodilyOrigin].</li>
     <li>episode(uses=1)->Mirando a la humanidad, [deity0_name] los consideró como niños, y declaró su dominio sobre ellos.</li>
     <li>episode(uses=1)->A través de las vastas distancias estelares, la voluntad de [deity0_name] sostuvo la vida de la humanidad contra el vacío.</li>
     <li>episode(uses=1)->Aunque muchos aventureros se movilizaron contra [deity0_pronoun], [deity0_name] se lo impidió fácilmente, pues [deity0_pronoun] era [deity0_type].</li>
@@ -325,6 +325,8 @@
     <li>bodilyOrigin->de la arcilla</li>
     <li>bodilyOrigin->de la piedra</li>
     <li>bodilyOrigin->del sudor</li>
+    <li>deity0_oa(deity0_gender==Male)->o</li>
+    <li>deity0_oa(deity0_gender==Female)->a</li>
   </TheistMyth.rules.rulesStrings>
   
 </LanguageData>
