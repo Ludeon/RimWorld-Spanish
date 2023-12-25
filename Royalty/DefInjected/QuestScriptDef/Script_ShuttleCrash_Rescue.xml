@@ -30,12 +30,12 @@
     <li>successLetterEndingCommon->Has completado con éxito la misión "[resolvedQuestName]".</li>
     <li>goodwillSomeCiviliansLost->No todo [pawnLabel] [asker_faction_pawnSingular] podrá ser rescatado. [goodwillNegativelyAffected]</li>
     <li>goodwillAllCiviliansLost->Ninguno de los [pawnLabelPlural] [asker_faction_pawnSingular] podrían ser rescatados. [goodwillNegativelyAffected]</li>
-    <li>goodwillNegativelyAffected->Tu  con la facción [asker_faction_name] ha sido afectada negativamente por cada [pawnLabel] que queda.</li>
+    <li>goodwillNegativelyAffected->Tu reputación con la facción [asker_faction_name] ha sido afectada negativamente por cada [pawnLabel] dejado atrás.</li>
     <li>commanderLandingDesc->[asker_nameDef], [asker_The] comandante que pidió aterrizar su transbordador en [map_definite]</li>
     <li>raidArrivedLetterLabel->Asalto: facción [enemyFaction_name]</li>
     <li>raidArrivedLetterText->[enemyFaction_pawnsPlural], de la facción [enemyFaction_name] han llegado. Atacarán a los [asker_faction_pawnsPlural] que se estrellaron en [map_definite].\n\nDefiende a los [asker_faction_pawnsPlural] hasta que su transbordador de rescate llegue en [rescueShuttleAfterRaidDelay_duration].</li>
     <li>rescueShuttleArrivedLetterLabel->El transbordador de rescate llegó</li>
-    <li>rescueShuttleArrivedLetterText->El transbordador de rescate ha llegado para recoger a [pawnLabelSingleOrPluralDef] que se [crashedLanded]. Asegúrate de tener a [thesePeople] en el transbordador antes de que despegue en [rescueDelay_duration]:\n\n[civilians]</li>
+    <li>rescueShuttleArrivedLetterText->El transbordador de rescate ha llegado para recoger a [pawnLabelSingleOrPluralDef] que se [crashedLanded]. Asegúrate de tener a [thesePeople] en el transbordador antes de que despegue en [leaveDelay_duration]:\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->Misión cumplida: [resolvedQuestName]</li>
     <li>questCompletedSuccessLetterText->[commanderLandingDesc], ha escapado. [asker_pronoun] está agradecid[asker_o_a] por la ayuda que recibió en [map_definite].\n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->Misión cumplida: [resolvedQuestName]</li>
@@ -73,25 +73,29 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>pawnLabelSingleOrPluralDef(civilians_count==1)->el [pawnLabel]</li>
+    <li>pawnLabelSingleOrPluralDef(civilians_count==1,pawn_gender==Male)->el [pawnLabel]</li>
+    <li>pawnLabelSingleOrPluralDef(civilians_count==1,pawn_gender!=Male)->la [pawnLabel]</li>
     <li>pawnLabelSingleOrPluralDef(civilians_count>=2)->los [pawnLabelPlural]</li>
-    <li>crashedLanded(civilians_count==1)->estrelló</li>
-    <li>crashedLanded(civilians_count>=2)->estrellaron</li>
-    <li>thesePeople(civilians_count==1)->esta persona</li>
-    <li>thesePeople(civilians_count>=2)->estas personas</li>
     <li>other(civilians_count==1)->otro</li>
     <li>other(civilians_count>=2)->otros</li>
-    <li>questDescription->Un transbordador de la facción [asker_faction_name] ha sufrido daños y está buscando un lugar para aterrizar. Su comandante [asker_nameDef] quiere aterrizar en [map_definite].\n\n[enemyFaction_pawnsPlural], de la facción [enemyFaction_name] atacará el lugar donde se estrelló el transbordador en un intento de matar a sus ocupantes. Debes defenderlos.\n\nEl interior del transbordador está ocupado por [asker_nameDef][andOtherCivilians] y [soldiers_count] [soldiers0_kind]s. El comandante [andCivilians] [mustBe] ser [rescued], pero los [soldiers0_kind]s pueden ser sacrificados.\n\nDespués de [rescueDelay_duration], un transbordador de rescate vendrá a recoger a los supervivientes. Tendrás que hacerlos abordar dentro de [leaveDelay_duration].</li>
+    <li>questDescription->Un transbordador de la facción [asker_faction_name] ha sufrido daños y está buscando un lugar para aterrizar. Su comandante [asker_nameDef] quiere aterrizar en [map_definite].\n\n[enemyFaction_pawnsPlural] de la facción [enemyFaction_name] atacarán el lugar donde se estrelle el transbordador en un intento desesperado por matar a sus ocupantes. Debes defenderlos.\n\nEl interior del transbordador está ocupado por [asker_nameDef][andOtherCivilians] y [soldiersC]. [asker_TheCap] comandante [andCivilians] [mustBe] ser [rescued], pero [soldiersVar]\n\nDespués de [rescueDelay_duration], un transbordador de rescate vendrá a recoger a los sobrevivientes. Tendrás que hacerlos abordar dentro de [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
-    <li>andOtherCivilians(civilians_count==2)->, otro [pawnLabel],</li>
+    <li>andOtherCivilians(civilians_count==2,pawn_gender==Male)->, otro [pawnLabel],</li>
+    <li>andOtherCivilians(civilians_count==2,pawn_gender!=Male)->, otra [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [other] [civilianCountMinusOne] [pawnLabelSingleOrPlural],</li>
     <li>andCivilians(civilians_count==1)-></li>
-    <li>andCivilians(civilians_count==2)->y el [pawnLabel]</li>
+    <li>andCivilians(civilians_count==2,pawn_gender==Male)->y el [pawnLabel]</li>
+    <li>andCivilians(civilians_count==2,pawn_gender!=Male)->y la [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->y los [pawnLabelPlural]</li>
     <li>mustBe(civilians_count==1)->debe</li>
-    <li>mustBe(civilians_count>=2)->deben</li>
-    <li>rescued(civilians_count==1)->rescatado</li>
-    <li>rescued(civilians_count>=2)->rescatados</li>
+    <li>mustBe(civilians_count>1)->deben</li>
+    <li>rescued(civilians_count==1,asker_gender==Male)->rescatado</li>
+    <li>rescued(civilians_count==1,asker_gender!=Male)->rescatada</li>
+    <li>rescued(civilians_count>1)->rescatados</li>
+    <li>soldiersC(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
+    <li>soldiersC(soldiers_count>1)->[soldiers_count] [soldiers0_Plural]</li>
+    <li>soldiersVar(soldiers_count==1)->el [soldiers0_kind] puede ser sacrificado.</li>
+    <li>soldiersVar(soldiers_count>1)->los [soldiers0_Plural] pueden ser sacrificados.</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
@@ -133,10 +137,10 @@
     <li>crash->caído</li>
     <li>crashFem->caída</li>
     <li>damaged->dañado</li>
-    <li>damaged->desteriorado</li>
+    <li>damaged->deteriorado</li>
     <li>damaged->defectuoso</li>
     <li>damagedFem->dañada</li>
-    <li>damagedFem->desteriorada</li>
+    <li>damagedFem->deteriorada</li>
     <li>damagedFem->defectuosa</li>
     <li>emergency->emergencia</li>
     <li>emergency->forzoso</li>
