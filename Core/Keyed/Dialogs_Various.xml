@@ -150,25 +150,25 @@
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
-  <NamePlayerFactionMessage>{0} piensa que tu facción debería tener un nombre. ¿Cómo se llamará?</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>{0} piensa que tu facción debería tener un nombre. ¿Cómo debería llamarse?</NamePlayerFactionMessage>
   <!-- EN: Your faction is now known as {0}. -->
-  <PlayerFactionGainsName>Tu facción ahora se llama {0}.</PlayerFactionGainsName>
+  <PlayerFactionGainsName>Ahora tu facción se llama {0}.</PlayerFactionGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerFactionNameIsInvalid>Ese nombre no es válido.</PlayerFactionNameIsInvalid>
 
   <!-- Player faction base naming -->
   <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
-  <NamePlayerFactionBaseMessage>{0} piensa que el asentamiento debería tener un nombre. ¿Cómo debe llamarse este asentamiento local?</NamePlayerFactionBaseMessage>
+  <NamePlayerFactionBaseMessage>{0} piensa que la colonia debería tener un nombre. ¿Cuál debería ser su nombre?</NamePlayerFactionBaseMessage>
   <!-- EN: This community is now known as {0}. -->
-  <PlayerFactionBaseGainsName>El asentamiento ahora es conocido como {0}.</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseGainsName>La colonia ahora se conoce como {0}.</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerFactionBaseNameIsInvalid>Ese nombre no es válido.</PlayerFactionBaseNameIsInvalid>
   
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} piensa que también el asentamiento debería tener un nombre. ¿Cómo debe llamarse este asentamiento local?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} piensa que la colonia también debería tener un nombre. ¿Cómo debería llamarse?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
-  <PlayerFactionAndBaseGainsName>Tu facción ahora es conocida como {0}, y el asentamiento es, {1}.</PlayerFactionAndBaseGainsName>
+  <PlayerFactionAndBaseGainsName>Tu facción se conoce ahora como {0}, y tu colonia como {1}.</PlayerFactionAndBaseGainsName>
   
   <!-- Renaming -->
   <!-- EN: Please enter a valid name. -->
@@ -176,13 +176,13 @@
   <!-- EN: Name is already in use. -->
   <NameIsInUse>Ese nombre ya está en uso.</NameIsInUse>
   <!-- EN: The zone is now called {0}. -->
-  <ZoneGainsName>esta área ahora se llama {0}.</ZoneGainsName>
+  <ZoneGainsName>El área ahora se llama {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
   <!-- EN: Chosen name is invalid. -->
   <NameInvalid>El nombre escogido es inválido.</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
-  <PawnGainsName>El nuevo apodo de este colono es {0}. {PAWN_possessive} título es {PAWN_title}.</PawnGainsName>
+  <PawnGainsName>El nuevo apodo para el colono es {0}. {PAWN_possessive} título es {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>El nombre del animal ahora es {0}.</AnimalGainsName>
   <!-- EN: rename person -->
@@ -246,7 +246,7 @@
 
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>Advertencia: Vas a aterrizar en un ambiente congelado. Podría ser difícil o casi imposible sobrevivir. Si no pretendes enfrentarte a un reto extremo, mejor escoge otro lugar, o el mismo pero en otra estación del año.</MapTemperatureDangerWarning>
+  <MapTemperatureDangerWarning>Advertencia: Vas a aterrizar en un ambiente congelado. Podría ser difícil o casi imposible sobrevivir. Si tu intención no es enfrentarte a un reto extremo, mejor escoge otro lugar, o el mismo pero en otra estación del año.</MapTemperatureDangerWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
   <MapSizePerformanceWarning>El juego está diseñado para jugar en mapas de tamaño mediano. ¡Estos tamaños proporcionan mucho espacio!\n\nLos mapas de gran tamaño no solo disminuyen el rendimiento, sino que también rompen el diseño del juego. La IA tomará decisiones estúpidas, y el equilibrio del juego se verá gravemente afectado de varias maneras. Estos tamaños se incluyen solo por razones de tradición y pruebas, por favor no los uses sin una razón específica.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
@@ -262,7 +262,7 @@
   <!-- EN: Extreme (test) -->
   <MapSizeExtreme>Extremo (pruebas)</MapSizeExtreme>
   <!-- EN: Starting season -->
-  <MapStartSeason>Estación inicial:</MapStartSeason>
+  <MapStartSeason>Estación inicial</MapStartSeason>
   <!-- EN: Auto -->
   <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
   <!-- EN: Notice -->
@@ -276,7 +276,7 @@
   <!-- EN: SUSPENDED -->
   <SuspendedAllCaps>SUSPENDIDO</SuspendedAllCaps>
   <!-- EN: Repeat: -->
-  <RepeatCount>Repetir: </RepeatCount>
+  <RepeatCount>Repetir:</RepeatCount>
   <!-- EN: Forever -->
   <Forever>Para siempre</Forever>
   <!-- EN: Details -->
@@ -290,7 +290,7 @@
   <!-- EN: Infinite -->
   <Infinite>Infinito</Infinite>
   <!-- EN: Allowed {0} skill: -->
-  <AllowedSkillRange>Habilidad de {0} mínima</AllowedSkillRange>
+  <AllowedSkillRange>Habilidad mínima de {0}</AllowedSkillRange>
   <!-- EN: incompatible -->
   <IncompatibleLower>incompatible</IncompatibleLower>
   <!-- EN: Any worker -->
@@ -309,22 +309,22 @@
   <!-- EN: nutrition -->
   <BillNutrition>nutrición</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>Nota: Los ingredientes de bajo volúmen requerirán {0}x la cantidad usual.</BillRequiresMayVary>
+  <BillRequiresMayVary>Nota: Los ingredientes de bajo volúmen requerirán x{0} la cantidad usual.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>Este es un ingrediente de bajo volúmen. Significa que cada 'unidad' será tan solo 1/{0} parte de lo que sería un ingrediente normal. Por lo tanto, requerirás {0}x la cantidad usual.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Este es un ingrediente de bajo volúmen. Esto significa que cada 'unidad' será tan solo 1/{0} parte de lo que sería su volúmen en un ingrediente normal. Por lo tanto, para cumplir con los mismos requisitos en ingredientes vas a necesitar x{0} de la misma cantidad.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
   <UsableIngredients>ingredientes</UsableIngredients>
   <!-- EN: To {0} -->
-  <BillRepeatTargetCountShort>A {0}</BillRepeatTargetCountShort>
+  <BillRepeatTargetCountShort>Para {0}</BillRepeatTargetCountShort>
 
   <!-- EN: Pause when satisfied -->
   <PauseWhenSatisfied>Pausar cuando esté satisfecho</PauseWhenSatisfied>
   <!-- EN: Unpause at -->
-  <UnpauseWhenYouHave>Sin pausa en</UnpauseWhenYouHave>
+  <UnpauseWhenYouHave>Restablecer en</UnpauseWhenYouHave>
   <!-- EN: Paused -->
   <Paused>Pausado</Paused>
   <!-- EN: Unpause -->
-  <Unpause>Sin pausa</Unpause>
+  <Unpause>Restablecer</Unpause>
 
   <!-- EN: Count equipped -->
   <IncludeEquipped>Incluir equipado</IncludeEquipped>
@@ -343,19 +343,19 @@
   <!-- EN: Armor penetration -->
   <ArmorPenetration>Penetración de blindaje</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
-  <ArmorPenetrationExplanation>La penetración de blindaje es la cantidad de blindaje que esta arma traspasará cada vez que golpee al objetivo.\n\nSi la penetración de blindaje es mayor que la armadura del objetivo, es como si el objetivo no estuviera blindado. De lo contrario, la penetración de armadura se resta de la armadura del objetivo.</ArmorPenetrationExplanation>
+  <ArmorPenetrationExplanation>La penetración de armadura es la cantidad de armadura que el arma ignorará cada vez que golpee el objetivo.\n\nSi la penetración de armadura es mayor que la armadura del objetivo, será como si el objetivo no llevara armadura. En caso contrario, la penetración de armadura se resta de la armadura del objetivo.</ArmorPenetrationExplanation>
   <!-- EN: Building damage factor -->
   <BuildingDamageFactor>Factor de daño del edificio</BuildingDamageFactor>
   <!-- EN: Damage to all buildings is multiplied by this value. -->
-  <BuildingDamageFactorExplanation>El daño a todas las construcciones se multiplica por este valor.</BuildingDamageFactorExplanation>
+  <BuildingDamageFactorExplanation>El daño producido a todos los edificios se multiplica por este valor.</BuildingDamageFactorExplanation>
   <!-- EN: Building damage factor (impassable) -->
-  <BuildingDamageFactorImpassable>Factor de daño del edificio (intransitable)</BuildingDamageFactorImpassable>
+  <BuildingDamageFactorImpassable>Factor de daño del edificio (infranqueable)</BuildingDamageFactorImpassable>
   <!-- EN: Damage to all impassable buildings is multiplied by this value. -->
-  <BuildingDamageFactorImpassableExplanation>El daño a todas las construcciones intransitables se multiplica por este valor.</BuildingDamageFactorImpassableExplanation>
+  <BuildingDamageFactorImpassableExplanation>El daño producido a todos los edificios infranqueables se multiplica por este valor.</BuildingDamageFactorImpassableExplanation>
   <!-- EN: Building damage factor (passable) -->
-  <BuildingDamageFactorPassable>Factor de daño del edificio (transitable)</BuildingDamageFactorPassable>
+  <BuildingDamageFactorPassable>Factor de daño del edificio (franqueable)</BuildingDamageFactorPassable>
   <!-- EN: Damage to all passable buildings is multiplied by this value. -->
-  <BuildingDamageFactorPassableExplanation>El daño a todas las construcciones transitables se multiplica por este valor.</BuildingDamageFactorPassableExplanation>
+  <BuildingDamageFactorPassableExplanation>El daño producido a todos los edificios franqueables se multiplica por este valor.</BuildingDamageFactorPassableExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>Precisión</Accuracy>
   <!-- EN: Burst shot count -->
@@ -371,7 +371,7 @@
   <!-- EN: Disarmed -->
   <DisarmedTime>Desarmado</DisarmedTime>
   <!-- EN: Charging -->
-  <ChargingTime>Recargando</ChargingTime>
+  <ChargingTime>Cargando</ChargingTime>
   <!-- EN: Next recharge (for {1}) in: {0}\nCharge cycle: {2} -->
   <ChargingNext>Siguiente recarga (por {1}) en: {0}\nCiclo de recarga: {2}</ChargingNext>
   <!-- EN: Shut down -->
@@ -383,7 +383,7 @@
   <!-- EN: Stopping power -->
   <StoppingPower>Potencia de parada</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>Los golpes de esta arma tambalearán a los objetivos, ralentizando su movimiento durante varios segundos. Los blancos con un tamaño de cuerpo mayor que la potencia de frenado no se verán afectados.</StoppingPowerExplanation>
+  <StoppingPowerExplanation>Los golpes de esta arma harán tambalear a los objetivos, ralentizando su movimiento durante varios segundos. Los objetivos con un tamaño de cuerpo mayor que la potencia de frenado no se verán afectados.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
   <DirectHitChance>Probabilidad de impacto directo</DirectHitChance>
   <!-- EN: Miss radius -->
@@ -395,7 +395,7 @@
   <!-- EN: Limited lifespan -->
   <LimitedLifespan>Estacional</LimitedLifespan>
   <!-- EN: Growing time -->
-  <GrowingTime>Tiempo</GrowingTime>
+  <GrowingTime>Tiempo de crecimiento</GrowingTime>
   <!-- EN: Harvest yield -->
   <HarvestYield>Rendimiento de la cosecha</HarvestYield>
   <!-- EN: Min growth temperature -->
@@ -641,13 +641,13 @@
   <!-- EN: Negotiator: {0} (+{1}) -->
   <NegotiatorTradeDialogInfo>Negociador: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>Tu negociador {1_labelShort} no puede hablar bien debido a un problema de salud.\n\nEsto afectará los negativamente los precios.\n\nConsidera usar un negociador más saludable.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>Tu negociador {1_labelShort} no puede hablar bien debido a un problema de salud.\n\nEsto afectará negativamente a los precios.\n\nConsidera usar un negociador más saludable.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
   <NegotiatorHearingImpaired>Tu negociador {1_labelShort} no puede escuchar correctamente debido a su mala salud.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
-  <NegotiatorCapacityImpaired>Esto afectará los precios del comercio.\n\nConsidere usar un negociador más saludable.</NegotiatorCapacityImpaired>
+  <NegotiatorCapacityImpaired>Esto afectará a los precios del comercio.\n\nConsidera usar un negociador con mejor salud.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
-  <ConfirmTraderShortFunds>El comerciante no tiene suficiente plata para completar esta transacción. ¿Aún asi deseas continuar?</ConfirmTraderShortFunds>
+  <ConfirmTraderShortFunds>El comerciante no tiene suficiente plata para completar esta transacción. ¿Quieres seguir igualmente?</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
   <SortBy>Ordenar</SortBy>
   <!-- EN: trader type -->
