@@ -6,7 +6,7 @@ Consulta esta página para obtener información sobre la licencia e información
 
 
 ---
-### Para una mejor comunicación entra al Discord de traducción: [Facción Hispana](https://discord.gg/EjK52KM) (Actualizado el 10/09/2023) 
+### Para una mejor comunicación entra al Discord de traducción: [Facción Hispana](https://discord.gg/EjK52KM) (Actualizado el 22/01/2024) 
 
 ---
 ### Instalación de las últimas traducciones
@@ -26,10 +26,11 @@ Tras actualizarlo en el juego, hacemos los pasos a la inversa; movemos los archi
 ---
 ## Lista  traductores:
 * En activo:
-	* [Raúl Naharro (Zakees)](https://github.com/Zakees)
+	* [Zakees](https://github.com/Zakees)
 	* [Miguel Angel Farias (Zerstrick)](https://github.com/Zerstrick)
-	* [Franco García (lay)](https://github.com/notfraaan)
-	* [Revan](https://github.com/revanfischer)
+  	* [Wolf Igmc4](https://github.com/Wolf-Igmc4)
+   	* [Iter](https://github.com/1ter)
+	
 
 * Colaboradores:
   	* [Aser Granado Amores (Xeros08)](https://github.com/Xeros08)
@@ -48,3 +49,5 @@ Tras actualizarlo en el juego, hacemos los pasos a la inversa; movemos los archi
 	* [Amatiasq](https://github.com/amatiasq)
 	* [Azarashi](https://github.com/AzarashiEsp)
   	* [SpartanEsp](https://github.com/SpartanEsp)
+  	* [Franco García (lay)](https://github.com/notfraaan)
+	* [Revan](https://github.com/revanfischer)
