@@ -41,7 +41,7 @@
   <!-- EN: Disabled by {0} trait -->
   <WorkDisabledByTrait>Desactivado por rasgo: {0}</WorkDisabledByTrait>
   <!-- EN: Disabled by quest '{0}' -->
-  <WorkDisabledByQuest>Desactivado por quest: {0}</WorkDisabledByQuest>
+  <WorkDisabledByQuest>Desactivado por misión '{0}'</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -55,13 +55,13 @@
   <!-- EN: locked -->
   <ApparelLockedLower>bloqueado</ApparelLockedLower>
   <!-- EN: Forced apparel -->
-  <ForcedApparel>Forzado</ForcedApparel>
+  <ForcedApparel>Prendas de vestir forzadas</ForcedApparel>
   <!-- EN: Edit... -->
   <AssignTabEdit>Editar...</AssignTabEdit>
   <!-- EN: Manage drug policies -->
-  <ManageDrugPolicies>Administrar políticas de drogas</ManageDrugPolicies>
+  <ManageDrugPolicies>Gestionar políticas de drogas</ManageDrugPolicies>
   <!-- EN: Manage food restrictions -->
-  <ManageFoodRestrictions>Administrar restricciones de comida</ManageFoodRestrictions>
+  <ManageFoodRestrictions>Gestionar restricciones de comida</ManageFoodRestrictions>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -77,15 +77,15 @@
   <!-- EN: Pregnant ({0} / {1}) -->
   <PregnantIconDesc>Embarazo ({0} / {1})</PregnantIconDesc>
   <!-- EN: Bonded to -->
-  <BondedTo>Vinculado a</BondedTo>
+  <BondedTo>Ligado a</BondedTo>
   <!-- EN: Sterilize animal. -->
-  <SterilizeAnimal>Esterilizar animal</SterilizeAnimal>
+  <SterilizeAnimal>Esterilizar animal.</SterilizeAnimal>
   <!-- EN: Animal sterile. -->
   <AnimalAlreadySterile>Animal estéril.</AnimalAlreadySterile>
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
-  <IsPredator>Esta criatura es un depredador. Cuando tiene hambre, cazará criaturas más pequeñas, posiblemente incluso personas.</IsPredator>
+  <IsPredator>Esta criatura es un depredador. Cuando tenga hambre, cazará criaturas más pequeñas, posiblemente incluso personas.</IsPredator>
   <!-- EN: This creature is currently in mental state: {0} -->
   <IsInMentalState>Esta criatura se halla en estado mental: {0}</IsInMentalState>
   
@@ -109,21 +109,21 @@
   <!-- EN: Ongoing events -->
   <OngoingEvents>Eventos en curso</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
-  <CurrentGoodwillTip_PermanentEnemy>Esta facción es permanentemente hostil. Asaltarán tus asentamientos y caravanas. Las relaciones con ellos nunca mejorarán en ningún caso.</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_PermanentEnemy>Esta facción es permanentemente hostil. Asaltarán tus colonias y caravanas. Las relaciones con ellos nunca mejorarán en ningún caso.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
   <CurrentGoodwillTip_Ally>Esta facción es tu aliada. Enviarán combatientes para ayudarte cuando puedan. Si las relaciones caen por debajo de {0}, se volverán neutrales.</CurrentGoodwillTip_Ally>
   <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
   <CurrentGoodwillTip_Neutral>Esta facción es neutral. Comerciarán y hablarán contigo con libertad. Si las relaciones caen por debajo de {0}, se volverán hostiles. Si las relaciones se elevan por encima de {1}, serán tus alidos y tratarán de ayudarte activamente.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
-  <CurrentGoodwillTip_Hostile>Esta facción es hostil. Asaltarán tus asentamientos y caravanas. Si las relaciones se elevan por encima de {0}, se volverán neutrales.</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_Hostile>Esta facción es hostil. Asaltarán tus colonias y caravanas. Si las relaciones se elevan por encima de {0}, se volverán neutrales.</CurrentGoodwillTip_Hostile>
 
   <!-- Social tab -->
   <!-- EN: Friend -->
-  <Friend>Amigo</Friend>
+  <Friend>Amig{PAWN_gender ? o : a}</Friend>
   <!-- EN: Rival -->
   <Rival>Rival</Rival>
   <!-- EN: Acquaintance -->
-  <Acquaintance>Conocido</Acquaintance>
+  <Acquaintance>Conocid{PAWN_gender ? o : a}</Acquaintance>
   
   <!-- History tab - subtabs -->
   <!-- EN: Graph -->

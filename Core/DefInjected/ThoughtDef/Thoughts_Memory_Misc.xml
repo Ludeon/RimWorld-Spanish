@@ -120,10 +120,10 @@
   <!-- EN: initial optimism -->
   <NewColonyOptimism.stages.initial_optimism.label>optimismo de nueva colonia</NewColonyOptimism.stages.initial_optimism.label>
   <!-- EN: It's a tough situation, but I'm excited to be founding a new settlement. -->
-  <NewColonyOptimism.stages.initial_optimism.description>Es una situación difícil, pero me emociona fundar un nuevo asentamiento.</NewColonyOptimism.stages.initial_optimism.description>
+  <NewColonyOptimism.stages.initial_optimism.description>Es una situación difícil, pero me emociona fundar una nueva colonia.</NewColonyOptimism.stages.initial_optimism.description>
   
   <!-- EN: nuzzled -->
-  <Nuzzled.stages.nuzzled.label>acariciado</Nuzzled.stages.nuzzled.label>
+  <Nuzzled.stages.nuzzled.label>acariciado (animal)</Nuzzled.stages.nuzzled.label>
   <!-- EN: A cute animal nuzzled me. -->
   <Nuzzled.stages.nuzzled.description>Un animal muy tierno me ha acariciado.</Nuzzled.stages.nuzzled.description>
   
@@ -153,34 +153,34 @@
   <ReleasedHealthyPrisoner.stages.prisoner_released.description>Soltamos a un prisionero en buen estado. Saber que tratamos bien incluso a los prisioneros me hace sentir bien.</ReleasedHealthyPrisoner.stages.prisoner_released.description>
   
   <!-- EN: rescued -->
-  <Rescued.stages.rescued.label>rescatado(a)</Rescued.stages.rescued.label>
+  <Rescued.stages.rescued.label>rescatad{PAWN_gender ? o : a}</Rescued.stages.rescued.label>
   <!-- EN: I was rescued! I almost thought I was done for back there. I'm so thankful. -->
-  <Rescued.stages.rescued.description>¡Me rescataron! Casi había perdido la esperanza. Estoy muy agradecido(a).</Rescued.stages.rescued.description>
+  <Rescued.stages.rescued.description>¡Me rescataron! Casi había perdido la esperanza. Estoy muy agradecid{PAWN_gender ? o : a}.</Rescued.stages.rescued.description>
   
   <!-- EN: rescued {0} -->
-  <RescuedRelative.stages.rescued.label>{0} rescatado(a)</RescuedRelative.stages.rescued.label>
+  <RescuedRelative.stages.rescued.label>{0} rescatad{PAWN_gender ? o : a}</RescuedRelative.stages.rescued.label>
   <!-- EN: We rescued one of my relatives. Finally, I can breathe a sigh of relief. -->
-  <RescuedRelative.stages.rescued.description>Rescatamos a uno de mis seres queridos. Ahora que sé que está a salvo, finalmente puedo respirar aliviado(a).</RescuedRelative.stages.rescued.description>
+  <RescuedRelative.stages.rescued.description>Rescatamos a uno de mis seres queridos. Ahora que sé que está a salvo, finalmente puedo respirar aliviad{PAWN_gender ? o : a}.</RescuedRelative.stages.rescued.description>
   
   <!-- EN: disturbed sleep -->
   <SleepDisturbed.stages.disturbed_sleep.label>sueño perturbado</SleepDisturbed.stages.disturbed_sleep.label>
   <!-- EN: I was disturbed during sleep by people moving around nearby. A private room would solve this. -->
-  <SleepDisturbed.stages.disturbed_sleep.description>Mientras dormía me molestaba la gente que se movía a mi alrededor. Una habitación privada resolvería esto.</SleepDisturbed.stages.disturbed_sleep.description>
+  <SleepDisturbed.stages.disturbed_sleep.description>Me ha molestado la gente que se movía a mi alrededor mientras dormía. Una habitación privada resolvería esto.</SleepDisturbed.stages.disturbed_sleep.description>
   
   <!-- EN: slept in the cold -->
   <SleptInCold.stages.slept_in_the_cold.label>ha pasado frío durmiendo</SleptInCold.stages.slept_in_the_cold.label>
   <!-- EN: I had to sleep in the cold. We really need some heaters. -->
-  <SleptInCold.stages.slept_in_the_cold.description>He pasado frío mientras dormía. De verdad, necesitamos calefacción.</SleptInCold.stages.slept_in_the_cold.description>
+  <SleptInCold.stages.slept_in_the_cold.description>He tenido que dormir pasando frío. Necesitamos calefacción.</SleptInCold.stages.slept_in_the_cold.description>
   
   <!-- EN: slept in the heat -->
   <SleptInHeat.stages.slept_in_the_heat.label>ha pasado calor durmiendo</SleptInHeat.stages.slept_in_the_heat.label>
   <!-- EN: I had to sleep in unbearable heat. Can't we have air conditioning? -->
-  <SleptInHeat.stages.slept_in_the_heat.description>He tenido que dormir con un calor insoportable. ¿No podríamos poner aire acondicionado?</SleptInHeat.stages.slept_in_the_heat.description>
+  <SleptInHeat.stages.slept_in_the_heat.description>He tenido que dormir con un calor insoportable. ¿No podríamos poner el aire acondicionado?</SleptInHeat.stages.slept_in_the_heat.description>
   
   <!-- EN: slept on ground -->
   <SleptOnGround.stages.slept_on_ground.label>ha dormido en el suelo</SleptOnGround.stages.slept_on_ground.label>
   <!-- EN: I had to sleep on the ground like an animal. -->
-  <SleptOnGround.stages.slept_on_ground.description>He dormido en el suelo, como un animal...</SleptOnGround.stages.slept_on_ground.description>
+  <SleptOnGround.stages.slept_on_ground.description>He tenido que dormir en el suelo como un animal.</SleptOnGround.stages.slept_on_ground.description>
   
   <!-- EN: slept outside -->
   <SleptOutside.stages.slept_outside.label>ha dormido al raso</SleptOutside.stages.slept_outside.label>

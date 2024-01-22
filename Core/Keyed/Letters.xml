@@ -147,15 +147,15 @@
   <LetterNewLeader>{NEWLEADER_gender ? El nuevo : La nueva} {0} es {NEWLEADER_nameFull}.</LetterNewLeader>
 
   <!-- EN: The final straw was: {0} -->
-  <FinalStraw>El colmo fue: {0}</FinalStraw>
+  <FinalStraw>La razón que colmó el vaso fue: {0}</FinalStraw>
   <!-- EN: This happened because of poor mood. -->
-  <MentalStateReason_Mood>Esto sucedió debido al mal humor.</MentalStateReason_Mood>
+  <MentalStateReason_Mood>Esto ha sucedido debido al mal humor.</MentalStateReason_Mood>
   <!-- EN: This happened because of the trait: {0}. -->
-  <MentalStateReason_Trait>Esto sucedió por el rasgo: {0}.</MentalStateReason_Trait>
+  <MentalStateReason_Trait>Esto ha sucedido por el rasgo: {0}.</MentalStateReason_Trait>
   <!-- EN: This happened because of: {0}. -->
-  <MentalStateReason_Hediff>Esto sucedió debido a: {0}.</MentalStateReason_Hediff>
+  <MentalStateReason_Hediff>Esto ha sucedido debido a: {0}.</MentalStateReason_Hediff>
   <!-- EN: This happened because of {0_definite}'s death. -->
-  <MentalStateReason_BondedHumanDeath>Esto sucedió debido a la muerte de {0_definite}.</MentalStateReason_BondedHumanDeath>
+  <MentalStateReason_BondedHumanDeath>Esto ha sucedido debido a la muerte de {0_definite}.</MentalStateReason_BondedHumanDeath>
   <!-- EN: The last event was -->
   <LastFactionRelationsEvent>El último evento fue</LastFactionRelationsEvent>
 
@@ -181,15 +181,15 @@
   <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
   <LetterRelatedPawnsTradeShip>La nave de comercio está vendiendo a personas que tienen alguna relación con tus {0} o prisioneros:</LetterRelatedPawnsTradeShip>
   <!-- EN: The settlement is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithSettlement>El asentamiento está vendiendo personas que tienen relaciones con tus {0} o prisioneros:</LetterRelatedPawnsTradingWithSettlement>
+  <LetterRelatedPawnsTradingWithSettlement>La colonia está vendiendo a personas que tienen relaciones con tus {0} o prisioneros:</LetterRelatedPawnsTradingWithSettlement>
   <!-- EN: The caravan is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithOtherCaravan>La caravana está vendiendo personas que tienen una relación con tus {0} o prisioneros:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsTradingWithOtherCaravan>La caravana está vendiendo a personas que tienen una relación con tus {0} o prisioneros:</LetterRelatedPawnsTradingWithOtherCaravan>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the group: -->
   <LetterRelatedPawnsGroupGeneric>Hay personas que tienen relaciones con tus {0} o prisioneros en el grupo:</LetterRelatedPawnsGroupGeneric>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the area where your {0} have landed. -->
   <LetterRelatedPawnsInMapWherePlayerLanded>Hay personas que tienen relaciones con tus {0} o prisioneros en el área donde tus {0} han aterrizado.</LetterRelatedPawnsInMapWherePlayerLanded>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this settlement: -->
-  <LetterRelatedPawnsSettlement>Hay personas que tienen relaciones con tus {0} o prisioneros en este asentamiento:</LetterRelatedPawnsSettlement>
+  <LetterRelatedPawnsSettlement>Hay personas que tienen relaciones con tus {0} o prisioneros en esta colonia:</LetterRelatedPawnsSettlement>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this area: -->
   <LetterRelatedPawnsSite>Hay personas que tienen relaciones con tus {0} o prisioneros en esta área:</LetterRelatedPawnsSite>
 
@@ -242,7 +242,7 @@
   <!-- EN: bonded -->
   <LetterLabelSuffixBondedAnimalDied>Animal vinculado</LetterLabelSuffixBondedAnimalDied>
   <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
-  <LetterPartBondedAnimalDied>{ANIMAL_definite} estaba vinculado a {HUMAN_labelShort}. Afectará al estado de ánimo de {HUMAN_labelShort}.</LetterPartBondedAnimalDied>
+  <LetterPartBondedAnimalDied>{ANIMAL_definite} estaba vinculado a {HUMAN_labelShort}. Esto afectará al estado de ánimo de {HUMAN_labelShort}.</LetterPartBondedAnimalDied>
   <!-- EN: It will affect mood of the following people:\n\n{0} -->
   <LetterPartBondedAnimalDiedMulti>Afectará al estado de ánimo de las siguientes personas:\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
@@ -352,7 +352,7 @@
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
-  <LetterCatatonicMentalBreak>{0} ha sufrido un colapso mental total y ha entrado en un estado catatónico. {PAWN_pronoun} se recuperará en varios días.</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0} ha sufrido un colapso mental total y ha entrado en un estado catatónico. Tardará varios días en recuperarse.</LetterCatatonicMentalBreak>
 
   <!-- EN: Persona Core Offer -->
   <LetterLabelAICoreOffer>Oferta de núcleo de IA</LetterLabelAICoreOffer>
@@ -370,9 +370,9 @@
   <!-- EN: Masterwork -->
   <LetterCraftedMasterworkLabel>Obra maestra</LetterCraftedMasterworkLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <LetterCraftedMasterworkMessage>{WORKER_labelShort} ha creado un(a) {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
+  <LetterCraftedMasterworkMessage>{WORKER_labelShort} ha creado un{PAWN_gender ? : a} {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
-  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} ha creado un(a) {CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
+  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} ha creado un{PAWN_gender ? : a} {CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -380,7 +380,7 @@
   <!-- EN: Your caravan has been lost. The following people and animals have been lost with it -->
   <LetterPawnsLostBecauseMapClosed_Caravan>Tu caravana se ha perdido. Las siguientes personas y animales se han perdido con ella</LetterPawnsLostBecauseMapClosed_Caravan>
   <!-- EN: Inhabitants abandoned -->
-  <LetterLabelPawnsLostBecauseMapClosed_Home>Asentamiento abandonado</LetterLabelPawnsLostBecauseMapClosed_Home>
+  <LetterLabelPawnsLostBecauseMapClosed_Home>Colonia abandonada</LetterLabelPawnsLostBecauseMapClosed_Home>
   <!-- EN: The following people and animals have been abandoned -->
   <LetterPawnsLostBecauseMapClosed_Home>Las siguientes personas y animales han sido abandonados</LetterPawnsLostBecauseMapClosed_Home>
 
