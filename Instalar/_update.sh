@@ -47,7 +47,7 @@ function getSteamPath() {
         ubuntu*|debian*)
             steam_path="$HOME/.steam/debian-installation/steamapps/common/RimWorld";;
         arch*)
-            steam_path="$HOME/.local/share/Steam/steamapps/common/Rimworld";;
+            steam_path="$HOME/.local/share/Steam/steamapps/common/RimWorld";;
         *)
             steam_path=$(find $HOME -wholename "*common/RimWorld" -print -quit);;
     esac
@@ -59,7 +59,7 @@ function updateTranslation() {
     local translation_path="${steam_path}/Data/$game_content/Languages"
     local translation_label="Spanish (Español(Castellano))"
     if ! [ -d "${translation_path}" ]; then
-        echo "Error: el directorio donde se alojan las traducciones no existe.\n Quizás hay un problema con la instalación del juego."
+        echo -e "[ ${rojo}Error${rc} ]: el directorio donde se alojan las traducciones no existe.\nQuizás hay un problema con la instalación del juego o no está (correctamente) instalado."
         exit 1
     fi
     # Borramos el directorio "Spanish (Español(Castellano))" si ya existía
@@ -89,7 +89,7 @@ echo -ne "Descomprimiendo..."
 unzip -o ${zip_filename} -d /tmp &> /dev/null
 exit_code $?
 # Como Github nos añade un hash al final del `.zip`, y al extraer el `.zip` nos crea un directorio con el mismo nombre junto con el hash que no queremos para nada (p.ej. `ludeon-rimworld-spanish-1ebc836`), lo renombramos a un nombre de directorio que podamos manejar fácilmente (p.ej. `ludeon-rimworld-spanish`).
-mv -f /tmp/${github_user}-${repo_name}-* /tmp/${github_user}-${repo_name}
+mv /tmp/${github_user}-${repo_name}-* /tmp/${github_user}-${repo_name}
 # Borramos el archivo `.zip` original de github
 rm "${zip_filename}"
 # Actualizamos tanto el juego base como los DLC's si el usuario se los hubiera comprado
@@ -98,4 +98,5 @@ for content in $game_content; do
     updateTranslation "${content}" "/tmp/${github_user}-${repo_name}"
 done
 rm -rf /tmp/${github_user}-${repo_name}
+
 exit 0
