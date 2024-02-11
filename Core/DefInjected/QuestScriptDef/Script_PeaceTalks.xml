@@ -12,9 +12,14 @@
     <li>leaderPawnInfo-></li>
   -->
   <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
-    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] de [faction_name], nos ha enviado un mensaje. [faction_leader_pronoun] desea parlamentar con nosotros en una localización cercana.\n\nPodría ser una gran oportunidad para mejorar nuestras relaciones con su facción y recibir regalos, pero ten cuidado - un mal negociador puede causar más mal que bien y podría llegar a enfurecerlos.[favorRewardDetails]</li>
-    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nUna negociación de paz con éxito puede hacer ganar a tu negociador una pequeña cantidad de [faction_royalFavorLabel] personal con [faction_name].</li>
+    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] de la facción [faction_name], nos ha enviado un mensaje. [faction_leader_pronoun] quiere hablar con nosotros en un lugar cercano.\n\nPodría ser una gran oportunidad para mejorar las relaciones con su facción y recibir obsequios, pero ten cuidado, un negociador deficiente puede causar más daño que bien e incluso hacerlos enojar.[extraLeaderPart][favorRewardDetails]</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nLas conversaciones de paz exitosas pueden ganarle a tu negociador una cantidad pequeña de [faction_royalFavorLabel] con la facción [faction_name].</li>
     <li>favorRewardDetails-></li>
+    <li>extraLeaderPart-></li>
+    <li>extraLeaderPart(priority=1)->\n\n[leaderRoleEffect].[leaderPawnInfo]</li>
+    <li>leaderRoleEffect->Las demás facciones te respetarán más si envías a tu líder a encargarse de las negociaciones</li>
+    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull] obtendrá una bonificación a la posibilidad de un resultado exitoso.</li>
+    <li>leaderPawnInfo-></li>
   </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[faction_leader_nameDef]'s [peaceTalks]</li>
@@ -26,17 +31,22 @@
     <li>peaceTalks->Meeting</li>
   -->
   <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
-    <li>questName->[peaceTalks] con [faction_leader_nameDef]</li>
-    <li>questName->[peaceTalks] con [faction_leader_nameDef]</li>
-    <li>questName->[peaceTalks]</li>
-    <li>questName->[peaceTalks]</li>
-    <li>peaceTalks->Negociaciones de Paz</li>
-    <li>peaceTalks->Diplomacia</li>
-    <li>peaceTalks->Reunión</li>
+    <li>questName->[peaceTalks_mas] de [faction_leader_nameDef]</li>
+    <li>questName->[peaceTalks_neu] con [faction_leader_nameDef]</li>
+    <li>questName->La [peaceTalks_fem]</li>
+    <li>questName->Las [peaceTalks_pl]</li>
+    <li>questName->[peaceTalks_neu]</li>
+    <li>peaceTalks_mas->Las conversaciones de paz</li>
+    <li>peaceTalks_neu->Conversaciones de paz</li>
+    <li>peaceTalks_pl->Conversaciones de paz</li>
+    <li>peaceTalks_neu->Diplomacia</li>
+    <li>peaceTalks_neu->Reunión</li>
+    <li>peaceTalks_fem->Diplomacia</li>
+    <li>peaceTalks_fem->Reunión</li>
   </OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>Misión caducada: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>La misión expiró: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
   <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
-  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>La oferta de la negociación de paz con [faction_name] ha caducado. Has fallado en la misión [resolvedQuestName].</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>La oferta de conversaciones de paz con la facción [faction_name] ha expirado. Has fallado la misión [resolvedQuestName].</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
   
 </LanguageData>
