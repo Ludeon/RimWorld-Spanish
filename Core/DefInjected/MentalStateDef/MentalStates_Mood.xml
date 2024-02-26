@@ -16,7 +16,7 @@
   <!-- EN: Mental state: Berserk -->
   <Berserk.baseInspectLine>Estado mental: Frenesí</Berserk.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <Berserk.beginLetter>¡{0} ha entrado en frenesí!\n\nAtacará a cualquiera que vea, amigo o enemigo.</Berserk.beginLetter>
+  <Berserk.beginLetter>¡{0} está frenétic{PAWN_gender ? o : a}!\n\nAtacará a cualquiera que vea, amigo o enemigo.</Berserk.beginLetter>
   <Berserk.beginLetterLabel>frenético</Berserk.beginLetterLabel>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <Berserk.recoveryMessage>La ira frenética de {0} ha llegado a su fin.</Berserk.recoveryMessage>
@@ -67,7 +67,7 @@
   <!-- EN: Mental state: Given up and leaving -->
   <GiveUpExit.baseInspectLine>Estado mental: Deserción</GiveUpExit.baseInspectLine>
   <!-- EN: {0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day. -->
-  <GiveUpExit.beginLetter>{0} ha perdido la fé en esta comunidad y está abandonando la colonia.\n\n[PAWN_pronoun]ha decidido irse y buscar una vida mejor en otro lugar. Puedes intentar arrestar[PAWN_objective] mientras trata de irse. De lo contrario, también es posible que algún día [PAWN_objective] vuelvas a ver.</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetter>{0} ha perdido la fe en esta comunidad y está abandonando la colonia.\n\nHa decidido irse y buscar una vida mejor en otro lugar. Puedes intentar arrestar[PAWN_objective] mientras trata de irse. De lo contrario, también es posible que algún día [PAWN_objective] vuelvas a ver.</GiveUpExit.beginLetter>
   <!-- EN: gave up -->
   <GiveUpExit.beginLetterLabel>deserción</GiveUpExit.beginLetterLabel>
   <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
@@ -187,14 +187,14 @@
   <Wander_Psychotic_Short.recoveryMessage>{0} ya no está deambulando.</Wander_Psychotic_Short.recoveryMessage>
   
   <!-- EN: sad wandering -->
-  <Wander_Sad.label>deambulando tristemente</Wander_Sad.label>
+  <Wander_Sad.label>deambulando triste</Wander_Sad.label>
   <!-- EN: Mental state: Sad wandering -->
   <Wander_Sad.baseInspectLine>Estado mental: Tristeza</Wander_Sad.baseInspectLine>
   <!-- EN: {0} has broken down and is wandering around in sadness. -->
-  <Wander_Sad.beginLetter>{0} está deambulando por ahí, sufriendo una devastadora tristeza.</Wander_Sad.beginLetter>
+  <Wander_Sad.beginLetter>{0} ha colapsado emocionalmente y está deambulando con tristeza.</Wander_Sad.beginLetter>
   <!-- EN: sad wander -->
   <Wander_Sad.beginLetterLabel>tristeza</Wander_Sad.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in sadness. -->
-  <Wander_Sad.recoveryMessage>{0} se ha recuperado.</Wander_Sad.recoveryMessage>
+  <Wander_Sad.recoveryMessage>{0} ya no deambula con tristeza.</Wander_Sad.recoveryMessage>
   
 </LanguageData>
