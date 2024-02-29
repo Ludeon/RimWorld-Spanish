@@ -11,36 +11,36 @@
   <ApparelDamaged.stages.tattered_apparel.description>Esto parece estar a punto de desintegrarse. ¿No puedo llevar algo que no parezca haber salido de un cubo de basura?</ApparelDamaged.stages.tattered_apparel.description>
   
   <!-- EN: tainted {0} -->
-  <DeadMansApparel.stages.tainted.label>ropa mancillada {0}</DeadMansApparel.stages.tainted.label>
+  <DeadMansApparel.stages.tainted.label>{0} mancillad{0_gender ? o : a}</DeadMansApparel.stages.tainted.label>
   <!-- EN: I am wearing a piece of apparel that someone died in. It creeps me out and feels dirty. -->
-  <DeadMansApparel.stages.tainted.description>Estoy llevando ropa con la que alguien murió. Me da escalofríos y me siento sucio.</DeadMansApparel.stages.tainted.description>
+  <DeadMansApparel.stages.tainted.description>Estoy usando ropa con la que alguien murió. Me da escalofríos y me siento sucio.</DeadMansApparel.stages.tainted.description>
   <!-- EN: tainted {0} (+1) -->
-  <DeadMansApparel.stages.tainted_1.label>ropa mancillada {0} (+1)</DeadMansApparel.stages.tainted_1.label>
+  <DeadMansApparel.stages.tainted_1.label>{0} mancillad{0_gender ? o : a} +1</DeadMansApparel.stages.tainted_1.label>
   <!-- EN: I am wearing two pieces of apparel that someone died in. It creeps me out and feels dirty. -->
-  <DeadMansApparel.stages.tainted_1.description>Estoy llevando dos piezas de ropa con las que alguien murió. Me da escalofríos y me siento sucio.</DeadMansApparel.stages.tainted_1.description>
+  <DeadMansApparel.stages.tainted_1.description>Estoy usando dos piezas de ropa con las que alguien murió. Me da escalofríos y me siento sucio.</DeadMansApparel.stages.tainted_1.description>
   <!-- EN: tainted {0} (+2) -->
-  <DeadMansApparel.stages.tainted_2.label>ropa mancillada {0} (+2)</DeadMansApparel.stages.tainted_2.label>
+  <DeadMansApparel.stages.tainted_2.label>{0} mancillad{0_gender ? o : a} +2</DeadMansApparel.stages.tainted_2.label>
   <!-- EN: I am wearing three pieces of apparel that someone died in. It creeps me out and feels dirty. -->
-  <DeadMansApparel.stages.tainted_2.description>Estoy llevando tres piezas de ropa con las que alguien murió. Me da escalofríos y me siento sucio.</DeadMansApparel.stages.tainted_2.description>
+  <DeadMansApparel.stages.tainted_2.description>Estoy usando tres piezas de ropa con las que alguien murió. Me da escalofríos y me siento sucio.</DeadMansApparel.stages.tainted_2.description>
   <!-- EN: tainted {0} etc -->
-  <DeadMansApparel.stages.tainted_etc.label>ropa mancillada {0} etc</DeadMansApparel.stages.tainted_etc.label>
+  <DeadMansApparel.stages.tainted_etc.label>{0} mancillad{0_gender ? o : a} etc.</DeadMansApparel.stages.tainted_etc.label>
   <!-- EN: I am wearing four or more pieces of apparel that someone died in. It creeps me out and feels dirty. -->
-  <DeadMansApparel.stages.tainted_etc.description>Estoy llevando más de tres piezas de ropa con las que alguien murió. Me da escalofríos y me siento sucio.</DeadMansApparel.stages.tainted_etc.description>
+  <DeadMansApparel.stages.tainted_etc.description>Estoy usando más de tres piezas de ropa con las que alguien murió. Me da escalofríos y me siento sucio.</DeadMansApparel.stages.tainted_etc.description>
   
   <!-- EN: chilly -->
   <EnvironmentCold.stages.chilly.label>fresco</EnvironmentCold.stages.chilly.label>
   <!-- EN: I'm uncomfortably cold. -->
-  <EnvironmentCold.stages.chilly.description>El frío es incómodo.</EnvironmentCold.stages.chilly.description>
+  <EnvironmentCold.stages.chilly.description>Tengo un frío algo incómodo.</EnvironmentCold.stages.chilly.description>
   <!-- EN: cold -->
   <EnvironmentCold.stages.cold.label>frío</EnvironmentCold.stages.cold.label>
   <!-- EN: I'm so cold, I'm shivering. -->
   <EnvironmentCold.stages.cold.description>Tengo tanto frío que estoy temblando.</EnvironmentCold.stages.cold.description>
   <!-- EN: numbing cold -->
-  <EnvironmentCold.stages.numbing_cold.label>helado(a)</EnvironmentCold.stages.numbing_cold.label>
+  <EnvironmentCold.stages.numbing_cold.label>helad{PAWN_gender ? o : a}</EnvironmentCold.stages.numbing_cold.label>
   <!-- EN: I can't stop shivering. My teeth are chattering. All I can think of is getting warm. -->
   <EnvironmentCold.stages.numbing_cold.description>No puedo dejar de temblar. Mis dientes castañetean. Solo puedo pensar en calentarme.</EnvironmentCold.stages.numbing_cold.description>
   <!-- EN: absolutely freezing -->
-  <EnvironmentCold.stages.absolutely_freezing.label>totalmente congelado(a)</EnvironmentCold.stages.absolutely_freezing.label>
+  <EnvironmentCold.stages.absolutely_freezing.label>totalmente congelad{PAWN_gender ? o : a}</EnvironmentCold.stages.absolutely_freezing.label>
   <!-- EN: My teeth are chattering so hard I can barely speak. My toes are numb. I need to get warm. -->
   <EnvironmentCold.stages.absolutely_freezing.description>Mis dientes castañetean tan fuerte que apenas puedo hablar. No siento los dedos de los pies. Necesito calentarme.</EnvironmentCold.stages.absolutely_freezing.description>
   
@@ -50,9 +50,9 @@
   <EnvironmentDark.stages.darkness.description>Ya llevo un buen rato a oscuras. No me gusta.</EnvironmentDark.stages.darkness.description>
   
   <!-- EN: sweaty -->
-  <EnvironmentHot.stages.sweaty.label>sudoroso(a)</EnvironmentHot.stages.sweaty.label>
+  <EnvironmentHot.stages.sweaty.label>sudoros{PAWN_gender ? o : a}</EnvironmentHot.stages.sweaty.label>
   <!-- EN: It's too hot here. I'm sweating. -->
-  <EnvironmentHot.stages.sweaty.description>Hace calor aquí. Estoy sudando.</EnvironmentHot.stages.sweaty.description>
+  <EnvironmentHot.stages.sweaty.description>Hace demasiado calor aquí. Estoy sudando.</EnvironmentHot.stages.sweaty.description>
   <!-- EN: hot -->
   <EnvironmentHot.stages.hot.label>calor</EnvironmentHot.stages.hot.label>
   <!-- EN: It's way too hot here. If I could just have a breath of cool air... -->
@@ -67,47 +67,47 @@
   <EnvironmentHot.stages.blistering_hot.description>Este lugar está ardiendo. ¡Creo que podría morir con este calor!</EnvironmentHot.stages.blistering_hot.description>
   
   <!-- EN: human leather {0} -->
-  <HumanLeatherApparelHappy.stages.human_leather.label>cuero humano {0}</HumanLeatherApparelHappy.stages.human_leather.label>
+  <HumanLeatherApparelHappy.stages.human_leather.label>{0} de cuero humano</HumanLeatherApparelHappy.stages.human_leather.label>
   <!-- EN: I enjoy wearing the suffering of others. -->
   <HumanLeatherApparelHappy.stages.human_leather.description>Me gusta vestirme con el sufrimiento de los demás.</HumanLeatherApparelHappy.stages.human_leather.description>
   <!-- EN: human leather {0} (+1) -->
-  <HumanLeatherApparelHappy.stages.human_leather_1.label>cuero humano {0} (+1)</HumanLeatherApparelHappy.stages.human_leather_1.label>
+  <HumanLeatherApparelHappy.stages.human_leather_1.label>{0} de cuero humano (+1)</HumanLeatherApparelHappy.stages.human_leather_1.label>
   <!-- EN: This will scare them. All will know my power. -->
   <HumanLeatherApparelHappy.stages.human_leather_1.description>Esto los asustará. Todos conocerán mi poder.</HumanLeatherApparelHappy.stages.human_leather_1.description>
   <!-- EN: human leather {0} (+2) -->
-  <HumanLeatherApparelHappy.stages.human_leather_2.label>cuero humano {0} (+2)</HumanLeatherApparelHappy.stages.human_leather_2.label>
+  <HumanLeatherApparelHappy.stages.human_leather_2.label>{0} de cuero humano (+2)</HumanLeatherApparelHappy.stages.human_leather_2.label>
   <!-- EN: The faces on my clothes aren't smiling, but they make *me* happy. -->
-  <HumanLeatherApparelHappy.stages.human_leather_2.description>Las caras en mi ropa no sonríen, pero me hacen feliz.</HumanLeatherApparelHappy.stages.human_leather_2.description>
+  <HumanLeatherApparelHappy.stages.human_leather_2.description>Los rostros de mi ropa no sonríen, pero me hacen feliz.</HumanLeatherApparelHappy.stages.human_leather_2.description>
   <!-- EN: human leather {0} etc -->
-  <HumanLeatherApparelHappy.stages.human_leather_etc.label>cuero humano {0} etc</HumanLeatherApparelHappy.stages.human_leather_etc.label>
+  <HumanLeatherApparelHappy.stages.human_leather_etc.label>{0} de cuero humano, etc.</HumanLeatherApparelHappy.stages.human_leather_etc.label>
   <!-- EN: The flesh! The flesh signals my triumph! -->
   <HumanLeatherApparelHappy.stages.human_leather_etc.description>¡La carne! ¡La carne señala mi triunfo!</HumanLeatherApparelHappy.stages.human_leather_etc.description>
   
   <!-- EN: human leather {0} -->
-  <HumanLeatherApparelSad.stages.human_leather.label>cuero humano {0}</HumanLeatherApparelSad.stages.human_leather.label>
+  <HumanLeatherApparelSad.stages.human_leather.label>{0} de cuero humano</HumanLeatherApparelSad.stages.human_leather.label>
   <!-- EN: Wearing parts of someone's body is... disturbing. -->
-  <HumanLeatherApparelSad.stages.human_leather.description>Vestirse con cuero humano es perturbador. ¿Quién podría hacer esto?</HumanLeatherApparelSad.stages.human_leather.description>
+  <HumanLeatherApparelSad.stages.human_leather.description>Vestirse con cuero humano es perturbador.</HumanLeatherApparelSad.stages.human_leather.description>
   <!-- EN: human leather {0} (+1) -->
-  <HumanLeatherApparelSad.stages.human_leather_1.label>cuero humano {0} (+1)</HumanLeatherApparelSad.stages.human_leather_1.label>
+  <HumanLeatherApparelSad.stages.human_leather_1.label>{0} de cuero humano (+1)</HumanLeatherApparelSad.stages.human_leather_1.label>
   <!-- EN: I'm dressed like an insane person. -->
-  <HumanLeatherApparelSad.stages.human_leather_1.description>Estoy vestido como un demente.</HumanLeatherApparelSad.stages.human_leather_1.description>
+  <HumanLeatherApparelSad.stages.human_leather_1.description>Estoy vestid{PAWN_gender ? o : a} como un{PAWN_gender ?  : a}  demente.</HumanLeatherApparelSad.stages.human_leather_1.description>
   <!-- EN: human leather {0} (+2) -->
-  <HumanLeatherApparelSad.stages.human_leather_2.label>cuero humano {0} (+2)</HumanLeatherApparelSad.stages.human_leather_2.label>
+  <HumanLeatherApparelSad.stages.human_leather_2.label>{0} de cuero humano (+2)</HumanLeatherApparelSad.stages.human_leather_2.label>
   <!-- EN: I think there may be a face on my clothes. Oh no... my clothes *are* a face. -->
   <HumanLeatherApparelSad.stages.human_leather_2.description>Creo que puede haber una cara en mi ropa. Oh, no... mi ropa ES una cara.</HumanLeatherApparelSad.stages.human_leather_2.description>
   <!-- EN: human leather {0} etc -->
-  <HumanLeatherApparelSad.stages.human_leather_etc.label>cuero humano {0} etc</HumanLeatherApparelSad.stages.human_leather_etc.label>
+  <HumanLeatherApparelSad.stages.human_leather_etc.label>{0} de cuero humano, etc.</HumanLeatherApparelSad.stages.human_leather_etc.label>
   <!-- EN: I look like a freak from a horror show, and I feel like I'm living in a horror show. -->
-  <HumanLeatherApparelSad.stages.human_leather_etc.description>Parezco un monstruo de un programa de terror, y me siento como si estuviera en un programa de terror.</HumanLeatherApparelSad.stages.human_leather_etc.description>
+  <HumanLeatherApparelSad.stages.human_leather_etc.description>Parezco un fenómeno de un programa de terror, y me siento como si viviera en un espectáculo de terror.</HumanLeatherApparelSad.stages.human_leather_etc.description>
   
   <!-- EN: sick -->
-  <Sick.stages.sick.label>enfermo(a)</Sick.stages.sick.label>
+  <Sick.stages.sick.label>enferm{PAWN_gender ? o : a}</Sick.stages.sick.label>
   <!-- EN: I don't feel very well. -->
   <Sick.stages.sick.description>No me encuentro bien.</Sick.stages.sick.description>
   
   <!-- EN: wearing {0} apparel -->
   <WrongApparelGender.stages.wearing_apparel.label>llevando vestimenta {0}</WrongApparelGender.stages.wearing_apparel.label>
   <!-- EN: I'm wearing apparel that was clearly made for {0}s! This is embarrassing. -->
-  <WrongApparelGender.stages.wearing_apparel.description>¡Estoy llevando una vestimenta que fue claramente hecha para {0}s! Esto es de vergüenza.</WrongApparelGender.stages.wearing_apparel.description>
+  <WrongApparelGender.stages.wearing_apparel.description>¡Estoy usando ropa que fue claramente hecha para colonos {0}s! Esto es vergonzoso.</WrongApparelGender.stages.wearing_apparel.description>
   
 </LanguageData>
