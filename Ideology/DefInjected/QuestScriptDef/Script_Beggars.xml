@@ -13,12 +13,14 @@
   -->
   <Beggars.questContentRules.rulesStrings>
     <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] [betrayed]</li>
-    <li>letterTextBeggarsBetrayed->[losel] [groupLabelSingleOrPlural] que [wasWere] buscando tu caridad [hasHave] sido [betrayed]. Los colonos con creencias caritativas serán infelices.</li>
+    <li>letterTextBeggarsBetrayed->[losel] [groupLabelSingleOrPlural] [who] [wasWere] buscando tu caridad [hasHave] sido [betrayed]. Los colonos con creencias caritativas serán infelices.</li>
     <li>losel(beggarCount==1,beggars0_gender!=Female)->el</li>
     <li>losel(beggarCount==1,beggars0_gender==Female)->la</li>
     <li>losel(beggarCount>=2)->los</li>
     <li>hasHave(beggarCount==1)->ha</li>
     <li>hasHave(beggarCount>=2)->han</li>
+    <li>who(beggarCount==1)->quien</li>
+    <li>who(beggarCount>=2)->quienes</li>
     <li>betrayed(beggarCount==1)->traicionad[beggars_o_a]</li>
     <li>betrayed(beggarCount>=2)->traicionados</li>
     <li>wasWere(beggarCount==1)->estaba</li>

@@ -40,7 +40,7 @@
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Hostile>{PAWN_nameDef} es enemigo y proviene de la facción {PAWN_factionName}. Puedes capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
-  <RefugeePodCrash_NonHostile>{PAWN_nameDef} es de la facción {PAWN_factionName}. Si {PAWN_objective} rescatas, podría unirse libremente a tu colonia, de lo contrario, regresaría a su hogar y difundiría la buena voluntad entre ambas facciones.\n\nTambién podrías capturar{PAWN_objective} para reclutarl{PAWN_gender ? o : a} o esclavizarl{PAWN_gender ? o : a}, pero esto enfadará a su facción.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef} es de la facción {PAWN_factionName}. Si {PAWN_objective} rescatas, podría unirse libremente a tu colonia, de lo contrario, regresaría a su hogar y difundiría la buena voluntad entre ambas facciones.\n\nTambién podrías capturar{PAWN_objective} para reclutarl{PAWN_gender ? o : a} o esclavizarl{PAWN_gender ? o : a}, pero eso enfadará a su facción.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <LetterLabelWandererJoins>Vagabundo se une: {PAWN_nameDef}</LetterLabelWandererJoins>
@@ -159,7 +159,7 @@
   <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
   <LetterTraderCaravanArrival>Una caravana de {0} se acerca. Es una caravana de {1}.</LetterTraderCaravanArrival>
   <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
-  <LetterCaravanArrivalCommonWarning>Pasarán un rato por la colonia antes de partir. Puedes atacarlos, ¡pero esto enfadará a su facción!</LetterCaravanArrivalCommonWarning>
+  <LetterCaravanArrivalCommonWarning>Pasarán un rato por la colonia antes de partir. Puedes atacarlos, ¡pero eso enfadará a su facción!</LetterCaravanArrivalCommonWarning>
     
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
@@ -199,7 +199,7 @@
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>Solicitud de caravana</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
-  <LetterCaravanRequest>Una colonia cercana, {0}, se pone en contacto contigo con una solicitud comercial. Ellos quieren comprar:\n\n  {1} (valor {2})\n\nA cambio, ofrecen:\n\n  {3} (valor {4})\n\nEsta solicitud expira después de: {5}\n\nSi desea realizar el comercio, envía una caravana con los suministros solicitados. El tiempo estimado de viaje es de {6}. Puede revisar esta oferta seleccionando {0} en el mapa del planeta.</LetterCaravanRequest>
+  <LetterCaravanRequest>Una colonia cercana, {0}, se pone en contacto contigo con una solicitud comercial. Ellos quieren comprar:\n\n  {1} (valor {2})\n\nA cambio, ofrecen:\n\n  {3} (valor {4})\n\nEsta solicitud expira después de: {5}\n\nSi deseas realizar el comercio, envía una caravana con los suministros solicitados. El tiempo estimado de viaje es de {6}. Puedes revisar esta oferta seleccionando {0} en el mapa del planeta.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({2}) ({1} left) -->
   <CaravanRequestInfo>Solicitando: {0} ({2}) (quedan {1})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
@@ -211,7 +211,7 @@
   <!-- EN: Caravan demand by {0} -->
   <CaravanDemandTitle>Demanda de caravanas de {0}</CaravanDemandTitle>
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
-  <CaravanDemand>Tu caravana {0} ha sido emboscada por un grupo de {2} {4} de {1}. Ellos atacarán a menos que les des:\n\n{3}</CaravanDemand>
+  <CaravanDemand>Tu caravana {0} ha sido emboscada por un grupo de {2} {4} de {1}. La atacarán a menos que les des:\n\n{3}</CaravanDemand>
   <!-- EN: Give and pass -->
   <CaravanDemand_Give>Dar y pasar</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->

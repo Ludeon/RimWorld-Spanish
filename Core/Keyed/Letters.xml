@@ -81,7 +81,7 @@
   <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
   <LetterBirthdayBiological>{0_nameFull} ha alcanzado la edad biológica de {1}.</LetterBirthdayBiological>
   <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
-  <BirthdayBiologicalAgeInjuries>{0_nameFull} ha llegado a la edad biológica de {1}. Desafortunadamente, ha desarrollado las siguientes enfermedades debido al envejecimiento</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>Desafortunadamente, ha desarrollado las siguientes enfermedades debido al envejecimiento</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Enfermedad</LetterLabelNewDisease>
@@ -102,7 +102,7 @@
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort} tiene estas relaciones con tus colonos:</PawnHasTheseRelationshipsWithColonists>
 
   <!-- EN: Ancient danger -->
-  <LetterLabelAncientShrineWarning>Peligro antiguo</LetterLabelAncientShrineWarning>
+  <LetterLabelAncientShrineWarning>Peligro ancestral</LetterLabelAncientShrineWarning>
   <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
   <AncientShrineWarning>{0} al acercarse al antiguo muro, un presentimiento aterrador y aprensión se le ha pasado por la mente. No sabe por qué, pero siente que esta estructura polvorienta puede esconder un gran peligro.</AncientShrineWarning>
 
@@ -112,7 +112,7 @@
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0} busca venganza</LetterLabelAnimalManhunterRevenge>
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>{1_indefinite} se ha enfurecido tras ser herido(a).\n\nAtacará a cualquier humanoide dentro de su alcance. No se calmará hasta que se vaya a dormir.</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>{1_indefinite} se ha enfurecido tras sufrir daños.\n\nAtacará a cualquier humanoide dentro de su alcance. No se calmará hasta que se vaya a dormir.</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
   <AnimalManhunterFromTaming>{1_indefinite} está atacando debido a un intento fallido de domesticación.</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
@@ -306,9 +306,9 @@
 
   <!-- Long-range mineral scanner -->
   <!-- EN: Distant resource scanned -->
-  <LetterLabelFoundPreciousLump>Minerales preciosos encontrados</LetterLabelFoundPreciousLump>
+  <LetterLabelFoundPreciousLump>Minerales encontrados</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>Usando tu escáner de minerales de largo alcance, {WORKER_labelShort} ha encontrado cerca una veta de {0}.\n\nDesafortunadamente, no durará, otros lo explotarán primero en {1} días si no lo hacemos nosotros.\n\n{2}</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>Usando el escáner de minerales de largo alcance, {WORKER_labelShort} ha encontrado cerca una veta de {0}.\n\nDesafortunadamente, otros lo explotarán primero en {1} días si no lo hacemos nosotros.\n\n{2}</LetterFoundPreciousLump>
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->
@@ -363,16 +363,16 @@
   <!-- EN: Legendary Work -->
   <LetterCraftedLegendaryLabel>Trabajo legendario</LetterCraftedLegendaryLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessage>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}.\n\nLas noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessage>
+  <LetterCraftedLegendaryMessage>{WORKER_labelShort} ha creado un(a) {CRAFTED_labelShort}.\n\nLas noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}.\n\n{0}\nLas noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessageArt>
+  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort} ha creado un(a) {CRAFTED_labelShort}.\n\n{0}\nLas noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessageArt>
 
   <!-- EN: Masterwork -->
   <LetterCraftedMasterworkLabel>Obra maestra</LetterCraftedMasterworkLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <LetterCraftedMasterworkMessage>{WORKER_labelShort} ha creado un{PAWN_gender ? : a} {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
+  <LetterCraftedMasterworkMessage>{WORKER_labelShort} ha creado un(a) {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
-  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} ha creado un{PAWN_gender ? : a} {CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
+  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} ha creado un(a) {CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -390,7 +390,7 @@
   <!-- EN: (*Name)Charlon Whitestone(/Name) has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
   <LetterHibernateComplete>(*Name)Charlon Whitestone(/Name) ha terminado la secuencia de recuperación de hibernación del reactor. El reactor está listo para despegar.</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
-  <LetterHibernateCompleteStandalone>La secuencia de encendido del reactor está completa. Ahora está listo para impulsar un despegue.</LetterHibernateCompleteStandalone>
+  <LetterHibernateCompleteStandalone>La secuencia de encendido del reactor está completa. Ya está listo para impulsar un despegue.</LetterHibernateCompleteStandalone>
 
   <!-- Visitors gave gift -->
   <!-- EN: Gift from {0} -->
@@ -414,7 +414,7 @@
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Rescatado se une</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>Has rescatado a {PAWN_nameDef} y {PAWN_pronoun} se ha unido a tu grupo.\n\nPuedes tomar{PAWN_objective} reformando la caravana en la pantalla Mundo, seleccionando esta zona y eligiendo la opción "Reformar caravana".</LetterRescueQuestFinished>
+  <LetterRescueQuestFinished>Has rescatado a {PAWN_nameDef} y se ha unido a tu grupo.\n\nPuedes tomar{PAWN_objective} reformando la caravana en la pantalla Mundo, seleccionando esta zona y eligiendo la opción "Reformar caravana".</LetterRescueQuestFinished>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -428,11 +428,11 @@
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Enfermedad: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
-  <LetterTraitDisease>{PAWN_label} ha enfermado de {1}.\n\nAsegúrate de tener una cama médica y un médico, también de que {PAWN_pronoun} reciba el tratamiento adecuado y permanezca en la cama el mayor tiempo posible.</LetterTraitDisease>
+  <LetterTraitDisease>{PAWN_label} ha enfermado de {1}.\n\nAsegúrate de tener una cama médica y un médico, de que reciba el tratamiento adecuado y que permanezca en cama el mayor tiempo posible.</LetterTraitDisease>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>Una nueva misión esta disponible. Se llama "{0}".</LetterQuestBecameAvailable>
+  <LetterQuestBecameAvailable>Hay una nueva misión disponible. Se llama "{0}".</LetterQuestBecameAvailable>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>Si no aceptas la misión dentro de {0}, caducará.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
@@ -458,7 +458,7 @@
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRefugeeJoins>{PAWN_nameDef} se une</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} ha llegado y se está uniendo a la colonia.</LetterRefugeeJoins>
+  <LetterRefugeeJoins>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} ha llegado y se unirá a la colonia.</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
@@ -509,7 +509,7 @@
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
   <LetterTechprintAppliedPartAlreadyUnlocked>Los requisitos del tecnoplano de este proyecto ya se cumplieron. El tecnoplano adicional ayudó en tus esfuerzos de investigación en {PROJECT_label}. La mitad del trabajo de investigación restante, {0} puntos, se ha completado.</LetterTechprintAppliedPartAlreadyUnlocked>
   <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
-  <LetterTechprintAppliedPartAlreadyResearched>Este proyecto ya está completamente investigado, por lo que el tecnoplano no aumentó en absoluto tus conocimientos.</LetterTechprintAppliedPartAlreadyResearched>
+  <LetterTechprintAppliedPartAlreadyResearched>Este proyecto ya está completamente investigado, por lo que el tecnoplano no aumentó tus conocimientos.</LetterTechprintAppliedPartAlreadyResearched>
   <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
   <LetterTechprintAppliedPartExpAwarded>Al aplicar el tecnoplano, {PAWN_labelShort} ganó {0} de experiencia en la habilidad {1}.</LetterTechprintAppliedPartExpAwarded>
   
@@ -532,7 +532,7 @@
   <LetterBladelinkWeaponBondedLabel>Vinculación de IA: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>{PAWN_labelShort} ha establecido un vínculo con la Inteligencia Artificial (IA) de está arma: {WEAPON_labelShort}.\nDe ahora en adelante, esta arma: {WEAPON_labelShort} se negará a ser manejada por nadie, a excepción de {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} ha establecido un vínculo con la Inteligencia Artificial de este arma: {WEAPON_labelShort}.\nDe ahora en adelante, {WEAPON_labelShort} se negará a ser usada por nadie que no sea {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
@@ -550,7 +550,7 @@
   <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
   <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} posee una lealtad inquebrantable a su hogar y se negará a ser reclutad{PAWN_gender ? o : a} por completo.\n\nPuedes ver si alguien es inquebrantablemente leal seleccionándolo.</LetterTextUnrecruitablePawnCaptured>
   <!-- EN: enslave {PAWN_objective} -->
-  <OptionalEnslaveDesc>esclavizar{PAWN_objective}</OptionalEnslaveDesc>
+  <OptionalEnslaveDesc>esclavizar {PAWN_objective}</OptionalEnslaveDesc>
 
   <!-- Lung rot -->
   <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
@@ -574,7 +574,7 @@
   <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
   <LetterUninspiringSpeech>No fue exactamente inspirador, poco original, aburrido y sin ningún indicio de pasión.</LetterUninspiringSpeech>
   <!-- EN: It was encouraging and well-delivered. -->
-  <LetterEncouragingSpeech>Fue alentador y con una buena presentación.</LetterEncouragingSpeech>
+  <LetterEncouragingSpeech>Fue alentador y tuvo buena presentación.</LetterEncouragingSpeech>
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
   <LetterInspirationalSpeech>Fue extraordinariamente alentador, lleno de intensidad y determinación.</LetterInspirationalSpeech>
   <!-- EN: The following people were particularly moved by the speech and are now inspired: -->

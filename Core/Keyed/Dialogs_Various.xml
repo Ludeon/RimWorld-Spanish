@@ -234,7 +234,7 @@
 
   <!-- Confirm reset learning helper -->
   <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
-  <ConfirmResetLearningHelper>¿Estás seguro de que quieres reestablecer el ayudante de aprendizaje?\n\nTodos los registros de los conceptos que hayas aprendido se borrarán y el sistema te explicará todo de nuevo.</ConfirmResetLearningHelper>
+  <ConfirmResetLearningHelper>¿Estás seguro de que quieres reestablecer el asistente de aprendizaje?\n\nTodos los registros de los conceptos que hayas aprendido se borrarán y el sistema te explicará todo de nuevo.</ConfirmResetLearningHelper>
 
   <!-- Backstory translation restart dialog -->
   <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
@@ -251,8 +251,8 @@
   <MapSizePerformanceWarning>El juego está diseñado para jugar en mapas de tamaño mediano. ¡Estos tamaños proporcionan mucho espacio!\n\nLos mapas de gran tamaño no solo disminuyen el rendimiento, sino que también rompen el diseño del juego. La IA tomará decisiones estúpidas, y el equilibrio del juego se verá gravemente afectado de varias maneras. Estos tamaños se incluyen solo por razones de tradición y pruebas, por favor no los uses sin una razón específica.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
   <MapSize>Tamaño del mapa</MapSize>
-  <!-- EN: {0}x{0} ({1} cells) -->
-  <MapSizeDesc>{0}x{0} ({1} casillas)</MapSizeDesc>
+  <!-- EN: {0}{0}x ({1} cells) -->
+  <MapSizeDesc>{0}{0}x ({1} casillas)</MapSizeDesc>
   <!-- EN: Small -->
   <MapSizeSmall>Pequeño</MapSizeSmall>
   <!-- EN: Medium -->
@@ -309,9 +309,9 @@
   <!-- EN: nutrition -->
   <BillNutrition>nutrición</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>Nota: Los ingredientes de bajo volúmen requerirán x{0} la cantidad usual.</BillRequiresMayVary>
+  <BillRequiresMayVary>Nota: Los ingredientes de bajo volumen requerirán {0}x la cantidad usual.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>Este es un ingrediente de bajo volúmen. Esto significa que cada 'unidad' será tan solo 1/{0} parte de lo que sería su volúmen en un ingrediente normal. Por lo tanto, para cumplir con los mismos requisitos en ingredientes vas a necesitar x{0} de la misma cantidad.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Este es un ingrediente de bajo volumen. Esto significa que cada 'unidad' será tan solo 1/{0} parte de lo que sería su volumen en un ingrediente normal. Por lo tanto, para cumplir con los mismos requisitos en ingredientes vas a necesitar {0}x de la misma cantidad.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
   <UsableIngredients>ingredientes</UsableIngredients>
   <!-- EN: To {0} -->
@@ -641,7 +641,7 @@
   <!-- EN: Negotiator: {0} (+{1}) -->
   <NegotiatorTradeDialogInfo>Negociador: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>Tu negociador {1_labelShort} no puede hablar bien debido a un problema de salud.\n\nEsto afectará negativamente a los precios.\n\nConsidera usar un negociador más saludable.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>Tu negociador {1_labelShort} no puede hablar bien debido a un problema de salud.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
   <NegotiatorHearingImpaired>Tu negociador {1_labelShort} no puede escuchar correctamente debido a su mala salud.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
@@ -1057,7 +1057,7 @@
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>El grupo de cápsulas no está completamente cargado. Falta/n {1_labelShort}. ¿Lanzar de todos modos?</ConfirmSendNotCompletelyLoadedPods>
+  <ConfirmSendNotCompletelyLoadedPods>El grupo de cápsulas no está completamente cargado. Falta(n) {1_labelShort}. ¿Lanzar de todos modos?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->

@@ -14,9 +14,9 @@
   <!-- EN: berserk -->
   <Berserk.label>frenesí</Berserk.label>
   <!-- EN: Mental state: Berserk -->
-  <Berserk.baseInspectLine>Estado Mental: Frenesí</Berserk.baseInspectLine>
+  <Berserk.baseInspectLine>Estado mental: Frenesí</Berserk.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <Berserk.beginLetter>¡{0} ha entrado en frenesí!\n\nAtacará a cualquiera que vea, amigo o enemigo.</Berserk.beginLetter>
+  <Berserk.beginLetter>¡{0} está frenétic{PAWN_gender ? o : a}!\n\nAtacará a cualquiera que vea, amigo o enemigo.</Berserk.beginLetter>
   <Berserk.beginLetterLabel>frenético</Berserk.beginLetterLabel>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <Berserk.recoveryMessage>La ira frenética de {0} ha llegado a su fin.</Berserk.recoveryMessage>
@@ -55,7 +55,7 @@
   <!-- EN: fire starting spree -->
   <FireStartingSpree.label>piromanía</FireStartingSpree.label>
   <!-- EN: Mental state: Fire starting spree -->
-  <FireStartingSpree.baseInspectLine>Estado Mental: Piromanía</FireStartingSpree.baseInspectLine>
+  <FireStartingSpree.baseInspectLine>Estado mental: Piromanía</FireStartingSpree.baseInspectLine>
   <!-- EN: {0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires. -->
   <FireStartingSpree.beginLetter>{0} tiene un ataque pirómano.\n\nDeambulará por ahí durante un tiempo, prendiendo fuegos al azar.</FireStartingSpree.beginLetter>
   <FireStartingSpree.beginLetterLabel>piromanía</FireStartingSpree.beginLetterLabel>
@@ -65,9 +65,9 @@
   <!-- EN: giving up and leaving -->
   <GiveUpExit.label>deserción</GiveUpExit.label>
   <!-- EN: Mental state: Given up and leaving -->
-  <GiveUpExit.baseInspectLine>Estado Mental: Deserción</GiveUpExit.baseInspectLine>
+  <GiveUpExit.baseInspectLine>Estado mental: Deserción</GiveUpExit.baseInspectLine>
   <!-- EN: {0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day. -->
-  <GiveUpExit.beginLetter>{0} ha perdido la fé en esta comunidad y está abandonando la colonia.\n\n[PAWN_pronoun]ha decidido irse y buscar una vida mejor en otro lugar. Puedes intentar arrestar[PAWN_objective] mientras trata de irse. De lo contrario, también es posible que algún día [PAWN_objective] vuelvas a ver.</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetter>{0} ha perdido la fe en esta comunidad y está abandonando la colonia.\n\nHa decidido irse y buscar una vida mejor en otro lugar. Puedes intentar arrestar[PAWN_objective] mientras trata de irse. De lo contrario, también es posible que algún día [PAWN_objective] vuelvas a ver.</GiveUpExit.beginLetter>
   <!-- EN: gave up -->
   <GiveUpExit.beginLetterLabel>deserción</GiveUpExit.beginLetterLabel>
   <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
@@ -81,12 +81,12 @@
   <InsultingSpree.beginLetter>{0} se ha convertido en una imparable fuerza de la naturaleza que libera malas palabras.\n\n[PAWN_pronoun] irá por ahí, insultando sin ton ni son al que pille.</InsultingSpree.beginLetter>
   <InsultingSpree.beginLetterLabel>tormenta de insultos</InsultingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on an insulting spree. -->
-  <InsultingSpree.recoveryMessage>{0} ha dejado de insultar y recuperado el civismo.</InsultingSpree.recoveryMessage>
+  <InsultingSpree.recoveryMessage>{0} ha dejado de insultar y ha recuperado el civismo.</InsultingSpree.recoveryMessage>
   
   <!-- EN: inducing prisoner to escape -->
   <Jailbreaker.label>incitación a fugarse</Jailbreaker.label>
   <!-- EN: Mental state: Jailbreaker -->
-  <Jailbreaker.baseInspectLine>Estado Mental: Incitando a fugarse</Jailbreaker.baseInspectLine>
+  <Jailbreaker.baseInspectLine>Estado mental: Incitando a fugarse</Jailbreaker.baseInspectLine>
   <!-- EN: {0} has had a mental breakdown and is going to induce prisoners to escape. -->
   <Jailbreaker.beginLetter>{0} tiene un colapso mental y va a incitar a los prisioneros a escapar.</Jailbreaker.beginLetter>
   <!-- EN: jailbreaker -->
@@ -97,7 +97,7 @@
   <!-- EN: murderous rage -->
   <MurderousRage.label>furia asesina</MurderousRage.label>
   <!-- EN: Mental state: Murderous rage -->
-  <MurderousRage.baseInspectLine>Estado Mental: Furia Asesina</MurderousRage.baseInspectLine>
+  <MurderousRage.baseInspectLine>Estado mental: Furia asesina</MurderousRage.baseInspectLine>
   <!-- EN: {0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}. -->
   <MurderousRage.beginLetter>¡{0} está sucumbiendo a una furia asesina!\n\n¡[PAWN_pronoun] se ha decidido a matar a {1}!</MurderousRage.beginLetter>
   <MurderousRage.beginLetterLabel>furia asesina</MurderousRage.beginLetterLabel>
@@ -117,7 +117,7 @@
   <!-- EN: slaughterer -->
   <Slaughterer.label>sacrificio animal</Slaughterer.label>
   <!-- EN: Mental state: Slaughterer -->
-  <Slaughterer.baseInspectLine>Estado Mental: Sacrificio animal</Slaughterer.baseInspectLine>
+  <Slaughterer.baseInspectLine>Estado mental: Sacrificio animal</Slaughterer.baseInspectLine>
   <!-- EN: {0} has had a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
   <Slaughterer.beginLetter>{0} está sufriendo un colapso mental y se va a desquitar con tus animales.</Slaughterer.beginLetter>
   <Slaughterer.beginLetterLabel>sacrificio animal</Slaughterer.beginLetterLabel>
@@ -156,7 +156,7 @@
   <!-- EN: sitting alone -->
   <Wander_OwnRoom.label>buscando soledad</Wander_OwnRoom.label>
   <!-- EN: Mental state: Hiding in room -->
-  <Wander_OwnRoom.baseInspectLine>Estado Mental: Escondiéndose</Wander_OwnRoom.baseInspectLine>
+  <Wander_OwnRoom.baseInspectLine>Estado mental: Escondiéndose</Wander_OwnRoom.baseInspectLine>
   <!-- EN: {0} is hiding in [PAWN_possessive] room. -->
   <Wander_OwnRoom.beginLetter>{0} se está escondiendo en su habitación.</Wander_OwnRoom.beginLetter>
   <!-- EN: hide in room -->
@@ -167,7 +167,7 @@
   <!-- EN: wandering in psychosis -->
   <Wander_Psychotic.label>deambulando en psicosis</Wander_Psychotic.label>
   <!-- EN: Mental state: Psychotic wandering -->
-  <Wander_Psychotic.baseInspectLine>Estado Mental: Psicosis</Wander_Psychotic.baseInspectLine>
+  <Wander_Psychotic.baseInspectLine>Estado mental: Psicosis</Wander_Psychotic.baseInspectLine>
   <!-- EN: {0} is wandering around in a psychotic state. -->
   <Wander_Psychotic.beginLetter>{0} está deambulando por ahí debido a la psicosis.</Wander_Psychotic.beginLetter>
   <!-- EN: daze -->
@@ -178,7 +178,7 @@
   <!-- EN: wandering in psychosis -->
   <Wander_Psychotic_Short.label>deambulando en psicosis</Wander_Psychotic_Short.label>
   <!-- EN: Mental state: Psychotic wandering -->
-  <Wander_Psychotic_Short.baseInspectLine>Estado Mental: Psicosis</Wander_Psychotic_Short.baseInspectLine>
+  <Wander_Psychotic_Short.baseInspectLine>Estado mental: Psicosis</Wander_Psychotic_Short.baseInspectLine>
   <!-- EN: {0} is wandering around in a psychotic state. -->
   <Wander_Psychotic_Short.beginLetter>{0} está deambulando por ahí debido a la psicosis.</Wander_Psychotic_Short.beginLetter>
   <!-- EN: daze -->
@@ -187,14 +187,14 @@
   <Wander_Psychotic_Short.recoveryMessage>{0} ya no está deambulando.</Wander_Psychotic_Short.recoveryMessage>
   
   <!-- EN: sad wandering -->
-  <Wander_Sad.label>deambulando tristemente</Wander_Sad.label>
+  <Wander_Sad.label>deambulando triste</Wander_Sad.label>
   <!-- EN: Mental state: Sad wandering -->
-  <Wander_Sad.baseInspectLine>Estado Mental: Tristeza</Wander_Sad.baseInspectLine>
+  <Wander_Sad.baseInspectLine>Estado mental: Tristeza</Wander_Sad.baseInspectLine>
   <!-- EN: {0} has broken down and is wandering around in sadness. -->
-  <Wander_Sad.beginLetter>{0} está deambulando por ahí, sufriendo una devastadora tristeza.</Wander_Sad.beginLetter>
+  <Wander_Sad.beginLetter>{0} ha colapsado emocionalmente y está deambulando con tristeza.</Wander_Sad.beginLetter>
   <!-- EN: sad wander -->
   <Wander_Sad.beginLetterLabel>tristeza</Wander_Sad.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in sadness. -->
-  <Wander_Sad.recoveryMessage>{0} se ha recuperado.</Wander_Sad.recoveryMessage>
+  <Wander_Sad.recoveryMessage>{0} ya no deambula con tristeza.</Wander_Sad.recoveryMessage>
   
 </LanguageData>
