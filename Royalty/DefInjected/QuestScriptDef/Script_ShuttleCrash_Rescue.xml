@@ -93,9 +93,9 @@
     <li>rescued(civilians_count==1,asker_gender!=Male)->rescatada</li>
     <li>rescued(civilians_count>1)->rescatados</li>
     <li>soldiersC(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
-    <li>soldiersC(soldiers_count>1)->[soldiers_count] [soldiers0_Plural]</li>
+    <li>soldiersC(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
     <li>soldiersVar(soldiers_count==1)->el [soldiers0_kind] puede ser sacrificado.</li>
-    <li>soldiersVar(soldiers_count>1)->los [soldiers0_Plural] pueden ser sacrificados.</li>
+    <li>soldiersVar(soldiers_count>1)->los [soldiers0_kindPlural] pueden ser sacrificados.</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
