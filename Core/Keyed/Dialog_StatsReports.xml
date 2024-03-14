@@ -18,6 +18,8 @@
   <StatsReport_RelevantHediffs>Condiciones médicas relevantes</StatsReport_RelevantHediffs>
   <!-- EN: Life stage -->
   <StatsReport_LifeStage>Etapa biológica</StatsReport_LifeStage>
+  <!-- EN: Shambler crawling -->
+  <StatsReport_ShamblerCrawling>TODO</StatsReport_ShamblerCrawling>
   <!-- EN: Material -->
   <StatsReport_Material>Material</StatsReport_Material>
   <!-- EN: Character quality -->
@@ -42,6 +44,8 @@
   <StatsReport_ShootingExampleDistances>La oportunidad de acertar a distintas distancias es</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>Valor final</StatsReport_FinalValue>
+  <!-- EN: Max value -->
+  <StatsReport_MaxValue>TODO</StatsReport_MaxValue>
   <!-- EN: Multiplier for {0} -->
   <StatsReport_MultiplierFor>Multiplicador por {0}</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
@@ -158,6 +162,8 @@
   <!-- EN: Satisfies user's title requirements -->
   <StatsReport_SatisfiesTitle>Satisface los requisitos del título del usuario</StatsReport_SatisfiesTitle>
 
+  <!-- EN: Age -->
+  <Stat_Age_Label>TODO</Stat_Age_Label>
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
   <Stat_RecreationType_Desc>Diferentes fuentes de diversión satisfacen diferentes tipos de diversión. Los colonos se aburrirán de hacer lo mismo repetidamente, así que es importante proporcionarles variadas fuentes de diversión de diferente tipo.</Stat_RecreationType_Desc>
   <!-- EN: All recreation types -->
@@ -200,6 +206,10 @@
   <Stat_Thing_Apparel_CountsAsClothingNudity_Name>Vestimenta (para nudismo)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
   <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Si los nudistas van a considerar este objeto como pieza de vestimenta. Si no es así, los nudistas nunca se molestarán en llevarlo.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
+  <!-- EN: Gender -->
+  <Stat_Thing_Apparel_Gender>TODO</Stat_Thing_Apparel_Gender>
+  <!-- EN: Certain apparel is generally preferred by one gender. Anyone else may be unhappy wearing it. -->
+  <Stat_Thing_Apparel_Gender_Desc>TODO</Stat_Thing_Apparel_Gender_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>Qué partes corporales cubre.\n\nLa armadura no protege las partes corporales que no cubre.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -294,6 +304,8 @@
   <Stat_Hediff_Pain_Desc>La cantidad de dolor causado por esta condición.</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
   <Stat_Hediff_PartEfficiency_Desc>La variación en la eficacia de las partes corporales afectadas.</Stat_Hediff_PartEfficiency_Desc>
+  <!-- EN: How efficiently this functions compared to a natural body part. -->
+  <Stat_Hediff_PartEfficiencyAbsolute_Desc>TODO</Stat_Hediff_PartEfficiencyAbsolute_Desc>
   <!-- EN: The mental abilities this affects. -->
   <Stat_Hediff_Affects_Desc>Las facultades mentales que esto afecta.</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
@@ -302,7 +314,7 @@
   <Stat_Hediff_HungerRateFactor_Desc>Un multiplicador que se aplica a la velocidad con la que decae la necesidad de comida.</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
   <Stat_Hediff_HungerRateOffset_Desc>Una variación de la velocidad con la que decae la necesidad de comida.</Stat_Hediff_HungerRateOffset_Desc>
-  <!-- EN: Rest fall rate -->
+  <!-- EN: Sleep fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Tasa de caer dormido</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
   <Stat_Hediff_TirednessOffset_Desc>Un modificador que se aplica a lo rápido que decae la necesidad de descanso de una criatura.</Stat_Hediff_TirednessOffset_Desc>
@@ -376,6 +388,14 @@
   <Stat_Building_PaintColor>Color de pintura</Stat_Building_PaintColor>
   <!-- EN: The color this building was painted. -->
   <Stat_Building_PaintColorDesc>El color del que fue pintado este edificio.</Stat_Building_PaintColorDesc>
+  <!-- EN: Resources to make -->
+  <Stat_Building_ResourcesToMake>TODO</Stat_Building_ResourcesToMake>
+  <!-- EN: The resources required to construct this. -->
+  <Stat_Building_ResourcesToMakeDesc>TODO</Stat_Building_ResourcesToMakeDesc>
+  <!-- EN: The weapon mounted on this creature. -->
+  <Stat_Thing_TurretDesc>TODO</Stat_Thing_TurretDesc>
+  <!-- EN: The ingredients needed to make this. -->
+  <Stat_Thing_Ingredients>TODO</Stat_Thing_Ingredients>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -526,5 +546,9 @@
   <Stat_Source_OfficialExpansionReport>Este contenido es parte de la expansión oficial</Stat_Source_OfficialExpansionReport>
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>Este contenido proviene de un mod</Stat_Source_ModReport>
-  
+
+  <!-- EN: Held books -->
+  <HeldBookCount>TODO</HeldBookCount>
+  <!-- EN: {0} hits -->
+  <Stat_TrapDamageHitCount>TODO</Stat_TrapDamageHitCount>
 </LanguageData>
