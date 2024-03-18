@@ -77,6 +77,8 @@
   <Groups>Grupos</Groups>
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>Cargando los recursos de gestación del meca</LoadingMechGestator>
+  <!-- EN: Time left this cycle -->
+  <GestatingInspect>TODO</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>Iniciando el ciclo de gestación del meca</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -153,8 +155,6 @@
   <ConfirmExitDeathrestUnderMinDays>Completar el mortisueño de manera segura tomará {MINDURATION}, pero {PAWN_nameDef} deberá mortisoñar solo por {CURDURATION}.\n\nDespertar a {PAWN_nameDef} puede interrumpir su mortisueño, tirando su metabolismo fuera de balance y haciendo{PAWN_objective} que enferme por días.\n\n¿Estás seguro de que deseas despertar{PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>mortisoñando</Deathresting>
-  <!-- EN: complete -->
-  <Complete>completar</Complete>
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>puede levantarse de manera segura ahora.</CanWakeSafely>
   <!-- EN: Disabled by gene -->
@@ -429,8 +429,6 @@
   <LethalInjuries>Heridas letales</LethalInjuries>
   <!-- EN: deathrest -->
   <Deathrest>mortisueño</Deathrest>
-  <!-- EN: Buildings -->
-  <Buildings>Edificios</Buildings>
   <!-- EN: capacity -->
   <Capacity>capacidad</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
@@ -446,8 +444,6 @@
 
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>Los niños quieren aprender de diferentes actividades en diferentes momentos.</LearningDesireTooltip>
-  <!-- EN: {0_nameDef}'s current learning desire: -->
-  <LearningDesireTooltip_CurrentDesire>El deseo de aprendizaje actual de {0_nameDef}:</LearningDesireTooltip_CurrentDesire>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>La salud del desarrollo es la media de las necesidades de aprendizaje de un niño desde su último cumpleaños.\n\nLos niños con mayor salud de desarrollo tendrán más opciones en los momentos de crecimiento y se apasionarán más por las habilidades.</DevelopmentHealthGizmoTooltip>
 
@@ -485,6 +481,8 @@
   <GestatingMech>Gestando a {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
   <GestatedMech>{0} fue gestado</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
+  <GestatingMechRequiresMechanitor>TODO</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>Requiere a {PAWN_nameDef} para completarse</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
@@ -770,5 +768,8 @@
   <MyChildIsHappy>mi hijo(a) está feliz</MyChildIsHappy>
   <!-- EN: my child is sad -->
   <MyChildIsSad>mi hijo(a) está triste</MyChildIsSad> 
+
+  <!-- UNUSED -->
+  <LearningDesireTooltip_CurrentDesire>El deseo de aprendizaje actual de {0_nameDef}:</LearningDesireTooltip_CurrentDesire>
 
 </LanguageData>
