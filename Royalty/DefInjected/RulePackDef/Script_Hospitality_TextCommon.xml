@@ -53,17 +53,23 @@
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
   <QuestHospitalityCommon.rulePack.rulesStrings>
-    <!-- <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
+    <!-- <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo][includesChildren]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
-    <li>healthInfo-></li>-->
-    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
+    <li>healthInfo->
+    <li>includesChildren(priority=-999)-></li>
+    <li>includesChildren(childCount==1)->\n\nOne of [lodgersLabelSingOrPluralDef] is a child.</li>
+    <li>includesChildren(childCount>=2)->\n\nSome of [lodgersLabelSingOrPluralDef] are children.</li></li>-->
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo][includesChildren]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->los [lodgersLabelPlural]</li>
+    <li>includesChildren(priority=-999)-></li>
+    <li>includesChildren(childCount==1)->\n\nUno de [lodgersLabelSingOrPluralDef] es un niño.</li>
+    <li>includesChildren(childCount>=2)->\n\nAlgunos de [lodgersLabelSingOrPluralDef] son niños.</li>
     <li>healthInfo-></li>
     <!--<li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
@@ -78,12 +84,12 @@
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] sufriendo de abasia paralítica y debe(n)  ser mantenido(s) en cama.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] con putrefacción sanguínea y requiere(n) de un tratamiento diario. La enfermedad puede ser frenada con cuidados y medicinas de alta calidad, pero en general no puede ser curada de inmediato. Si la enfermedad se vuelve grave [lodgersLabelSingOrPluralDef] morirá(n), así que asegúrate de tener los suministros médicos necesarios.</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] sufriendo de abasia paralítica y [must_be] mantenerse en cama.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] con putrefacción sanguínea y [will_require] de un tratamiento diario. La enfermedad puede ser frenada con cuidados y medicinas de alta calidad, pero en general no puede ser curada de inmediato. Si la enfermedad se vuelve grave [lodgersLabelSingOrPluralDef] [will_die], así que asegúrate de tener los suministros médicos necesarios.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\ndebes mantener el humor de [lodgersLabelSingOrPluralDef] por encima de [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] no hará(n) ningún trabajo.</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] no [will_not_do] ningún trabajo.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <!--<li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be (*Threat)a raid(/Threat) of roughly this size:\n\n[threatExample]</li>
@@ -121,37 +127,51 @@
     <li>lodgersHasHave(lodgersCount>=2)->have</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->them</li>-->
-    <li>mechViolation->enfureció a una IA de alguna manera</li>
-    <li>mechViolation->osó utilizar un antiguo terminal de un super-ordenador</li>
+    <li>mechViolation->logró de alguna manera enfurer a una inteligencia artificial</li>
+    <li>mechViolation->hackeo una terminal de una supercomputadora ancestral</li>
     <li>mechViolation->mató a un niño humano que significaba mucho para un arqueotécnico</li>
-    <li>mechViolation->intentó piratear un nodo de control mecanoide</li>
-    <li>mechViolation->intentó robar algo de un antiguo depósito</li>
-    <li>mechViolationMultiHuman->enfurecieron a una IA de alguna manera</li>
-    <li>mechViolationMultiHuman->osaron utilizar un antiguo terminal de un super-ordenador</li>
+    <li>mechViolation->intento hackear un nodo de control mecanoide</li>
+    <li>mechViolation->intento robar algo de un depósito ancestral</li>
+    <li>mechViolationMultiHuman->lograron de alguna manera enfurer a una inteligencia artificial</li>
+    <li>mechViolationMultiHuman->hackearon una terminal de una supercomputadora ancestral</li>
     <li>mechViolationMultiHuman->mataron a un niño humano que significaba mucho para un arqueotécnico</li>
-    <li>mechViolationMultiHuman->intentaron piratear un nodo de control mecanoide</li>
-    <li>mechViolationMultiHuman->intentaron robar algo de un antiguo depósito</li>
+    <li>mechViolationMultiHuman->intentaron hackear un nodo de control mecanoide</li>
+    <li>mechViolationMultiHuman->intentaron robar algo de un depósito ancestral</li>
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->ha</li>
     <li>lodgersHasHave(lodgersCount>=2)->han</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->ellos</li>
+    <li>lodgersArrived(lodgersCount==1)->llegó</li>
+    <li>lodgersArrived(lodgersCount>=2)->llegaron</li>
+    <li>lodgersProtect(lodgersCount==1)->Protégele</li>
+    <li>lodgersProtect(lodgersCount>=2)->Protégeles</li>
     <!--<li>areIs(lodgersCount==1)->is</li>
     <li>areIs(lodgersCount>=2)->are</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
-    <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave.</li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave. </li>
     <li>failLetterEndingQuest->You have failed the quest '[resolvedQuestName]'.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>-->
     <li>areIs(lodgersCount==1)->está</li>
     <li>areIs(lodgersCount>=2)->están</li>
+    <li>must_be(lodgersCount==1)->debe</li>
+    <li>must_be(lodgersCount>=2)->deben</li>
+    <li>kept(lodgersCount==1)->mantenido</li>
+    <li>kept(lodgersCount>=2)->mantenidos</li>
+    <li>sick(lodgersCount==1)->enfermo</li>
+    <li>sick(lodgersCount>=2)->enfermos</li>
+    <li>will_require(lodgersCount==1)->requerirá</li>
+    <li>will_require(lodgersCount>=2)->requerirán</li>
+    <li>will_die(lodgersCount==1)->morirá</li>
+    <li>will_die(lodgersCount>=2)->morirán</li>
+    <li>will_not_do(lodgersCount==1)->hará</li>
+    <li>will_not_do(lodgersCount>=2)->harán</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
-    <li>remainingWillNowLeave(lodgersCount>=2)->Cualquier [lodgersLabelPlural] restante se marchará inmediamente.</li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Cualquier remanente de los [lodgersLabelPlural] se marcharán ahora. </li>
     <li>failLetterEndingQuest->Has fallado en la misión "[resolvedQuestName]".</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nTus relaciones con la facción [asker_faction_name] han disminuido por [goodwillPenalty].</li>
-    <li>lodgers_Plural_S(lodgersCount==1)-></li>
-    <li>lodgers_Plural_S(lodgersCount>=2)->s</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>

@@ -18,8 +18,10 @@
   <MechControllerMentalState>{PAWN_labelShort} está en el estado mental "{MENTALSTATE_label}".</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
   <ConfirmDisassemblingMech>¿Quieres desarmar permanentemente a {0}?\n\nDesarmar permanentemente a {0} recuperará</ConfirmDisassemblingMech>
-  <!-- EN: A mechanitor must be capable of smithing to create mechanoids\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink>Un mecanitor debe ser capaz de forjar para crear mecanoides\n\n¿Seguro que quieres continuar?</ConfirmInstallMechlink>
+  <!-- EN: A mechanitor must be capable of smithing to create mechanoids.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Smithing>Un mecanitor debe ser capaz de forjar para crear mecanoides.\n\n¿Seguro que quieres continuar?</ConfirmInstallMechlink_Smithing>
+  <!-- EN: A mechanitor must be capable of intellectual tasks to unlock mechanitor research.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Intellectual>Un mecanitor debe ser capaz de realizar tareas intelectuales para desbloquear las investigaciones de mecanitor.\n\n¿Seguro que quieres continuar?</ConfirmInstallMechlink_Intellectual>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>banda ancha insuficiente</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
@@ -75,7 +77,7 @@
   <!-- EN: Select xenogerm -->
   <SelectXenogerm>Seleccionar xenogermen</SelectXenogerm>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are currently regrowing. If {PAWN_pronoun} implants {PAWN_possessive} xenogerm before {PAWN_possessive} genes are fully regrown, it will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <WarningPawnWillDieFromReimplanting>Advertencia: Los genes de {PAWN_nameDef} están rebrotando. Si {PAWN_pronoun} implanta {PAWN_possessive} xenogermen antes de que sus genes estén completamente desarrollados, {PAWN_objective} matará.\n\n¿Seguro que quieres continuar?</WarningPawnWillDieFromReimplanting>
+  <WarningPawnWillDieFromReimplanting>Advertencia: Los genes de {PAWN_nameDef} están rebrotando. Si {PAWN_pronoun} implanta su xenogermen antes de que sus genes estén completamente desarrollados, {PAWN_objective} matará.\n\n¿Seguro que quieres continuar?</WarningPawnWillDieFromReimplanting>
   <!-- EN: Not enough archite capsules. -->
   <NotEnoughArchites>No hay suficientes cápsulas de arquita.</NotEnoughArchites>
   <!-- EN: Xenogenes are genes derived from an implanted xenogerm. If the xenogerm is removed or replaced, the xenogenes go with it. Since xenogenes are not part of the organism's own germline DNA, they are not passed to children. -->
@@ -359,5 +361,8 @@
   <!-- Abandon home (including mechs) -->
   <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
   <ConfirmAbandonHomeWithColonyPawnsIncMechs>Algunos de tus colonos, animales o mecanoides están en esta zona. ¿Estás seguro de que quieres abandonarla?\n\nLas siguientes personas, animales y mecas se quedarán atrás:\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs>
+
+  <!-- UNUSED -->
+  <ConfirmInstallMechlink>Un mecanitor debe ser capaz de forjar para crear mecanoides\n\n¿Seguro que quieres continuar?</ConfirmInstallMechlink>
 
 </LanguageData>
