@@ -4,17 +4,17 @@
   <!-- EN: Call {0} -->
   <CallOnRadio>Llamar a {0}</CallOnRadio>
   <!-- EN: Cannot use: {0} -->
-  <CannotUseReason>No se puede usar ({0})</CannotUseReason>
+  <CannotUseReason>No se puede usar: {0}</CannotUseReason>
   <!-- EN: Cannot use: EMP -->
-  <CannotUseSolarFlare>No se puede usar (erupción solar)</CannotUseSolarFlare>
+  <CannotUseSolarFlare>No se puede usar: Erupción solar</CannotUseSolarFlare>
   <!-- EN: Cannot use: No power -->
-  <CannotUseNoPower>No se puede usar (sin energía)</CannotUseNoPower>
+  <CannotUseNoPower>No se puede usar: Sin energía</CannotUseNoPower>
   <!-- EN: Cannot use: No path -->
-  <CannotUseNoPath>No se puede usar (no hay camino)</CannotUseNoPath>
+  <CannotUseNoPath>No se puede usar: No hay camino</CannotUseNoPath>
   <!-- EN: Cannot use: Reserved -->
-  <CannotUseReserved>No se puede usar (reservado)</CannotUseReserved>
+  <CannotUseReserved>No se puede usar: Reservado</CannotUseReserved>
   <!-- EN: Cannot use: Full -->
-  <CannotUseFull>No se puede usar (lleno)</CannotUseFull>
+  <CannotUseFull>No se puede usar: Lleno</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>el líder {1_labelShort} no está disponible</LeaderUnavailable>
   <!-- EN: leader is unavailable -->
@@ -32,13 +32,13 @@
   <!-- EN: Cannot hit target -->
   <CannotHitTarget>no puede acertar al objetivo</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
-  <IsIncapableOfViolenceLower>{1_labelShort} es incapaz de ser violento(a)</IsIncapableOfViolenceLower>
+  <IsIncapableOfViolenceLower>{1_labelShort} es incapaz de ser violento{1_gender ? o : a}</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>incapaz de ser violento(a)</IncapableOfViolenceLower>
   <!-- EN: {0_labelShort} is incapable of shooting -->
   <IsIncapableOfShootingLower>{0_labelShort} es incapaz de disparar</IsIncapableOfShootingLower>
   <!-- EN: {1_labelShort} is not drafted -->
-  <IsNotDraftedLower>{1_labelShort} no está reclutado(a)</IsNotDraftedLower>
+  <IsNotDraftedLower>{1_labelShort} no está reclutado{1_gender ? o : a}</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>no puedes ordenar a unidades no reclutadas</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
