@@ -222,7 +222,7 @@
   <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
   <ModsMismatchOrderChanged>Ningún mod fue añadido o eliminado, pero el orden de tu lista ha sido cambiado.</ModsMismatchOrderChanged>
   <!-- EN: Are you sure you want to load the mod list from this save file? -->
-  <ConfirmLoadSaveList>¿Estás seguro de que quieres cargar la lista de mods de este archivo guardado?</ConfirmLoadSaveList>
+  <ConfirmLoadSaveList>¿Seguro que quieres cargar la lista de mods de este archivo guardado?</ConfirmLoadSaveList>
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
@@ -238,7 +238,7 @@
 
   <!-- Confirm reset learning helper -->
   <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
-  <ConfirmResetLearningHelper>¿Estás seguro de que quieres reestablecer el asistente de aprendizaje?\n\nTodos los registros de los conceptos que hayas aprendido se borrarán y el sistema te explicará todo de nuevo.</ConfirmResetLearningHelper>
+  <ConfirmResetLearningHelper>¿Seguro que quieres reestablecer el asistente de aprendizaje?\n\nTodos los registros de los conceptos que hayas aprendido se borrarán y el sistema te explicará todo de nuevo.</ConfirmResetLearningHelper>
 
   <!-- Backstory translation restart dialog -->
   <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
@@ -779,7 +779,7 @@
   <!-- EN: You have no caravan members capable of diplomacy or trading. -->
   <CaravanIncapableOfSocial>No tiene miembros de caravanas capaces de emprender acciones de diplomacia o comercio.</CaravanIncapableOfSocial>
   <!-- EN: Are you sure you want to form this caravan? -->
-  <CaravanAreYouSure>¿Estás seguro de que quieres formar esta caravana?</CaravanAreYouSure>
+  <CaravanAreYouSure>¿Seguro que quieres formar esta caravana?</CaravanAreYouSure>
   <!-- EN: You must choose a route for the caravan first. -->
   <MessageMustChooseRouteFirst>Primero debe elegir una ruta para la caravana.</MessageMustChooseRouteFirst>
   <!-- EN: Your caravan is unable to leave the area. Make sure that at least one side is reachable. -->
@@ -879,7 +879,7 @@
   
   <!-- Caravan misc -->
   <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
-  <ConfirmAttackFriendlyFaction>¿Estás seguro de querer atacar {0}?\n\nEsto hará que {1} sea hostíl contigo, ¡y eventualmente empezarán a asaltar tu colonia!</ConfirmAttackFriendlyFaction>
+  <ConfirmAttackFriendlyFaction>¿Seguro querer atacar {0}?\n\nEsto hará que {1} sea hostíl contigo, ¡y eventualmente empezarán a asaltar tu colonia!</ConfirmAttackFriendlyFaction>
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
@@ -1113,7 +1113,7 @@
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawns>Algunos de tus colonos o animales siguen en esta área. ¿Estás seguro que deseas abanonarlo(s)?\n\nLas siguientes personas y animales se perderán:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>Algunos de tus colonos o animales siguen en esta área. ¿Seguro que deseas abanonarlo(s)?\n\nLas siguientes personas y animales se perderán:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
   <ConfirmAbandonHomeNegativeThoughts>Abandonar {0} hará que las siguientes personas tengan los siguientes pensamientos:</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
@@ -1121,7 +1121,7 @@
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>Algunos animales o prisioneros están tratando de unirse a esta caravana. Si la mueves, ya no podrán hacerlo.\n\nAnimales, prisioneros y colonos derribados dejados en un mapa sin colonos conscientes se consideran abandonados y pueden ser capturados por los enemigos.\n\n¿Estás seguro de que quieres mover tu caravana?</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>Algunos animales o prisioneros están tratando de unirse a esta caravana. Si la mueves, ya no podrán hacerlo.\n\nAnimales, prisioneros y colonos derribados dejados en un mapa sin colonos conscientes se consideran abandonados y pueden ser capturados por los enemigos.\n\n¿Seguro que quieres mover tu caravana?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
@@ -1145,7 +1145,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>¿Estás seguro de que quieres limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto hará lo siguiente:\n  - Añadir traducciones temporales (con etiqueta "TODO") para los textos no implementados de las carpetas "Keyed" y "DefInjected".\n  - Añadir o actualizar comentarios que contengan los textos originales sin traducir.\n  - Mover todas las traducciones de las carpetas "keyed" y "Definjected" a los archivos XML apropiados.\n  - Aplicar formato automático a todos los archivos XML.\n  - Actualizar nombres de definiciones retro-compatibles.\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa).\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerda reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrate de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>¿Seguro que quieres limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto hará lo siguiente:\n  - Añadir traducciones temporales (con etiqueta "TODO") para los textos no implementados de las carpetas "Keyed" y "DefInjected".\n  - Añadir o actualizar comentarios que contengan los textos originales sin traducir.\n  - Mover todas las traducciones de las carpetas "keyed" y "Definjected" a los archivos XML apropiados.\n  - Aplicar formato automático a todos los archivos XML.\n  - Actualizar nombres de definiciones retro-compatibles.\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa).\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerda reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrate de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sí, tengo una copia de seguridad</ConfirmCleanupTranslationFiles_Confirm>
 
