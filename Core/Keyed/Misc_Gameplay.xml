@@ -600,6 +600,8 @@
   <CannotUseGizmoMouse>TODO</CannotUseGizmoMouse>
   <!-- EN: Buildings -->
   <Buildings>Edificios</Buildings>
+  <!-- EN: not yet discovered -->
+  <NotYetDiscovered>TODO</NotYetDiscovered> <!-- text_todo -->
   
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -1074,9 +1076,9 @@
   <!-- EN: Frozen -->
   <CurrentlyFrozen>Congelado (no se pudrirá)</CurrentlyFrozen> 
   <!-- EN: Refrigerated, spoils in {0} -->
-  <CurrentlyRefrigerated>Refrigerado (se pudre en {0})</CurrentlyRefrigerated> 
+  <CurrentlyRefrigerated>Refrigerado, se pudre en {0}</CurrentlyRefrigerated> 
   <!-- EN: Unrefrigerated, spoils in {0} -->
-  <NotRefrigerated>Sin refrigerar (se pudre en {0})</NotRefrigerated> 
+  <NotRefrigerated>Sin refrigerar, se pudre en {0}</NotRefrigerated> 
   <!-- EN: over a decade -->
   <OverADecade>más de una década</OverADecade>
   <!-- EN: less than a day -->
@@ -1390,7 +1392,7 @@
   <!-- EN: on edge -->
   <Mood_OnEdge>al límite</Mood_OnEdge>
   <!-- EN: stressed -->
-  <Mood_Stressed>estresado</Mood_Stressed>
+  <Mood_Stressed>estresado(a)</Mood_Stressed>
   <!-- EN: neutral -->
   <Mood_Neutral>neutral</Mood_Neutral>
   <!-- EN: content -->
@@ -1400,7 +1402,7 @@
 
   <!-- Game over -->
   <!-- EN: Game Over -->
-  <GameOver>TODO</GameOver>
+  <GameOver>Fin de la partida</GameOver>
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>Todos los habitantes de la colonia han muerto o se han ido. Esta historia ha terminado.\n\nQuizás alguien le dé uso a estas ruinas en el futuro.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
@@ -1416,19 +1418,19 @@
   <!-- EN: In memory of:\n -->
   <GameOverInMemoryOf>En memoria de:\n</GameOverInMemoryOf>
   <!-- EN: Keep watching -->
-  <GameOverKeepWatching>TODO</GameOverKeepWatching>
+  <GameOverKeepWatching>Seguir observando</GameOverKeepWatching>
   <!-- EN: Keep watching for now -->
-  <GameOverKeepWatchingForNow>TODO</GameOverKeepWatchingForNow>
+  <GameOverKeepWatchingForNow>Seguir observando por ahora</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
-  <GameOverCreateNewWanderers>TODO</GameOverCreateNewWanderers>
+  <GameOverCreateNewWanderers>Crear nuevos colonos</GameOverCreateNewWanderers>
   <!-- EN: Create new wanderers (must wait {0}h) -->
-  <GameOverCreateNewWanderersWait>TODO</GameOverCreateNewWanderersWait>
+  <GameOverCreateNewWanderersWait>Crear nuevos colonos (debes esperar {0}h)</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
-  <GameOverCreateNewWanderersText>TODO</GameOverCreateNewWanderersText>
+  <GameOverCreateNewWanderersText>Todos han muerto o se han ido. Quizás alguien encuentre algún uso para estas ruinas en un futuro.\n\nElige a los nuevos vagabundos que llegarán a tu colonia y continúa la historia.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Menú principal</GameOverMainMenu>
   <!-- EN: No colony -->
-  <NoColony>TODO</NoColony>
+  <NoColony>Sin colonia</NoColony>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1935,21 +1937,21 @@
   <!-- Books -->
 
   <!-- EN: Benefits -->
-  <Benefits>TODO</Benefits>
+  <Benefits>Beneficios</Benefits>
   <!-- EN: Dangers -->
-  <Dangers>TODO</Dangers>
+  <Dangers>Peligros</Dangers>
   <!-- EN: already unlocked -->
   <AlreadyUnlocked>ya desbloqueado</AlreadyUnlocked>
   <!-- EN: when discovered -->
-  <WhenDiscovered>TODO</WhenDiscovered>
+  <WhenDiscovered>al descubrirse</WhenDiscovered>
   
   <!-- EN: Was driven into a mental break after reading {0}. -->
-  <BookMentalBreakMessage>TODO</BookMentalBreakMessage>
+  <BookMentalBreakMessage>Ha sufrido un colapso mental tras leer {0}</BookMentalBreakMessage>
   <!-- EN: {0} done (complete in {1} hours) -->
   <BookReadProgress>TODO</BookReadProgress>
   
   <!-- EN: learning speed -->
-  <BookLearningModifier>TODO</BookLearningModifier>
+  <BookLearningModifier>velocidad de aprendizaje</BookLearningModifier>
   <!-- EN: Mental break chance -->
   <BookMentalBreak>TODO</BookMentalBreak>
   
@@ -1963,28 +1965,28 @@
   <BookBlind>TODO</BookBlind>
   
   <!-- EN: max level {0} -->
-  <BookMaxLevel>TODO</BookMaxLevel>
+  <BookMaxLevel>nivel máx {0}</BookMaxLevel>
   
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
   <ReadingReportHeader>TODO</ReadingReportHeader>
   
   <!-- EN: Assign reading -->
-  <ReadingDialogTitle>TODO</ReadingDialogTitle>
+  <ReadingDialogTitle>Asignar lectura</ReadingDialogTitle>
   <!-- EN: Assign to {0} -->
-  <ReadingAssignTo>TODO</ReadingAssignTo>
+  <ReadingAssignTo>Asignar a {0}</ReadingAssignTo>
   <!-- EN: Assign -->
-  <ReadingAssign>TODO</ReadingAssign>
+  <ReadingAssign>Asignar</ReadingAssign>
 
   <!-- EN: The books currently on this bookshelf. -->
-  <ContainedBooksDesc>TODO</ContainedBooksDesc>
+  <ContainedBooksDesc>Los libros presentes en la librería.</ContainedBooksDesc>
   
   <!-- EN: Books stored -->
-  <BookshelfStoredInspect>TODO</BookshelfStoredInspect>
+  <BookshelfStoredInspect>Libros almacenados</BookshelfStoredInspect>
   <!-- EN: Reading bonus in room -->
-  <BookshelfReadingBonusInspect>TODO</BookshelfReadingBonusInspect>
+  <BookshelfReadingBonusInspect>Bono de lectura en la habitación</BookshelfReadingBonusInspect>
 
   <!-- EN: Remove this book from the bookshelf. -->
-  <EjectBookTooltip>TODO</EjectBookTooltip>
+  <EjectBookTooltip>Quitar este libro de la librería.</EjectBookTooltip>
   
   <!-- Pushing -->
   <!-- EN: Push to... -->
@@ -1999,15 +2001,15 @@
   <ResearchNotDiscovered>TODO</ResearchNotDiscovered>
 
   <!-- EN: Emergence -->
-  <Emergence>TODO</Emergence>
+  <Emergence>Emergencia</Emergence>
   
   <!-- EN: remove {0} -->
-  <RemovePart>TODO</RemovePart>
+  <RemovePart>quitar {0}</RemovePart>
 
   <!-- EN: {GERUND} {TARGETLABEL} at -->
-  <DoWorkAtThing>TODO</DoWorkAtThing>
+  <DoWorkAtThing>{GERUND} {TARGETLABEL} en</DoWorkAtThing>
   <!-- EN: can be studied in {0} -->
-  <CanBeStudiedInDuration>TODO</CanBeStudiedInDuration>
+  <CanBeStudiedInDuration>puede estudiarse en {0}</CanBeStudiedInDuration>
   
   <!-- UNUSED -->
   <RadiusExpandRate>Tasa de expansión del radio</RadiusExpandRate>
