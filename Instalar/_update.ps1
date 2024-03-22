@@ -17,7 +17,7 @@ $PSDefaultParameterValues.Add("*:Encoding", "utf8")
 # Variables to use
 $repo_owner = "Ludeon"
 $official_repo = "RimWorld-Spanish"
-$branch = "master"
+$branch = "1.4"
 
 $ingame_name = "Spanish (Español(Castellano))"
 
