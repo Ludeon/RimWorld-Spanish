@@ -96,7 +96,8 @@
     <li>soldiersC(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
     <li>soldiersVar(soldiers_count==1,pawn_gender==Male)->el [soldiers0_kind] puede ser sacrificado.</li>
     <li>soldiersVar(soldiers_count==1,pawn_gender!=Male)->la [soldiers0_kind] puede ser sacrificada.</li>
-    <li>soldiersVar(soldiers_count>1)->los [soldiers0_kindPlural] pueden ser sacrificados.</li>
+    <li>soldiersVar(soldiers_count>1,pawn_gender==Male)->los [soldiers0_kindPlural] pueden ser sacrificados.</li>
+    <li>soldiersVar(soldiers_count>1,pawn_gender!=Male)->las [soldiers0_kindPlural] pueden ser sacrificadas.</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
@@ -129,7 +130,7 @@
     <li>questName->El [shuttle] [damaged] de [asker_nameDef]</li>
     <li>questName->La [shuttleFem] [damagedFem] de [asker_nameDef]</li>
     <li>questName->[landing] [emergency]</li>
-    <li>questName->El [landing] [emergency] [asker_nameDef]</li>
+    <li>questName->El [landing] [emergency] de [asker_nameDef]</li>
     <li>shuttle->transbordador</li>
     <li>shuttle->transportador</li>
     <li>shuttleFem->nave</li>
@@ -143,7 +144,7 @@
     <li>damagedFem->dañada</li>
     <li>damagedFem->deteriorada</li>
     <li>damagedFem->defectuosa</li>
-    <li>emergency->emergencia</li>
+    <li>emergency->de emergencia</li>
     <li>emergency->forzoso</li>
     <li>landing->aterrizaje</li>
     <li>landing->descenso</li>
