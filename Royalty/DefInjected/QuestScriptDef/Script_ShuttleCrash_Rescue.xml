@@ -96,8 +96,7 @@
     <li>soldiersC(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
     <li>soldiersVar(soldiers_count==1,pawn_gender==Male)->el [soldiers0_kind] puede ser sacrificado.</li>
     <li>soldiersVar(soldiers_count==1,pawn_gender!=Male)->la [soldiers0_kind] puede ser sacrificada.</li>
-    <li>soldiersVar(soldiers_count>1,pawn_gender==Male)->los [soldiers0_kindPlural] pueden ser sacrificados.</li>
-    <li>soldiersVar(soldiers_count>1,pawn_gender!=Male)->las [soldiers0_kindPlural] pueden ser sacrificadas.</li>
+    <li>soldiersVar(soldiers_count>1)->los [soldiers0_kindPlural] pueden ser sacrificados.</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
