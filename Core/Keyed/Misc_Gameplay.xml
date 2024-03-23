@@ -1711,7 +1711,7 @@
   
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was healed. -->
-  <HealingHealHediff>TODO</HealingHealHediff>
+  <HealingHealHediff>{1_definite} de {0_nameDef} se ha curado.</HealingHealHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
   <HealingRestoreBodyPart>{1_definite} de {0_nameDef} se ha restaurado.</HealingRestoreBodyPart>
 
@@ -1953,16 +1953,16 @@
   <!-- EN: learning speed -->
   <BookLearningModifier>velocidad de aprendizaje</BookLearningModifier>
   <!-- EN: Mental break chance -->
-  <BookMentalBreak>TODO</BookMentalBreak>
+  <BookMentalBreak>Probabilidad de colapso mental</BookMentalBreak>
   
   <!-- EN: {BOOK_labelShort} is not readable -->
-  <BookNotReadable>TODO</BookNotReadable>
+  <BookNotReadable>{BOOK_labelShort} no se puede leer</BookNotReadable>
   <!-- EN: {PAWN_nameDef} can't read -->
-  <BookCantRead>TODO</BookCantRead>
+  <BookCantRead>{PAWN_nameDef} no sabe leer</BookCantRead>
   <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
-  <BookCantBeStage>TODO</BookCantBeStage>
+  <BookCantBeStage>{PAWN_nameDef} debe ser {PAWN_gender ? un : una} {STAGES}</BookCantBeStage>
   <!-- EN: {PAWN_nameDef} is blind -->
-  <BookBlind>TODO</BookBlind>
+  <BookBlind>{PAWN_nameDef} es ciego</BookBlind>
   
   <!-- EN: max level {0} -->
   <BookMaxLevel>nivel máx {0}</BookMaxLevel>
@@ -1998,7 +1998,7 @@
   <UnableToEnterPortal>TODO</UnableToEnterPortal>
 
   <!-- EN: This category of research has not been discovered. -->
-  <ResearchNotDiscovered>TODO</ResearchNotDiscovered>
+  <ResearchNotDiscovered>Esta categoría de investigación no se ha descubierto aún.</ResearchNotDiscovered>
 
   <!-- EN: Emergence -->
   <Emergence>Emergencia</Emergence>

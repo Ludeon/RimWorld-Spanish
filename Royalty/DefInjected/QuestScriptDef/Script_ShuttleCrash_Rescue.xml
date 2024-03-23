@@ -94,7 +94,8 @@
     <li>rescued(civilians_count>1)->rescatados</li>
     <li>soldiersC(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
     <li>soldiersC(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
-    <li>soldiersVar(soldiers_count==1)->el [soldiers0_kind] puede ser sacrificado.</li>
+    <li>soldiersVar(soldiers_count==1,pawn_gender==Male)->el [soldiers0_kind] puede ser sacrificado.</li>
+    <li>soldiersVar(soldiers_count==1,pawn_gender!=Male)->la [soldiers0_kind] puede ser sacrificada.</li>
     <li>soldiersVar(soldiers_count>1)->los [soldiers0_kindPlural] pueden ser sacrificados.</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -144,9 +145,9 @@
     <li>damagedFem->defectuosa</li>
     <li>emergency->emergencia</li>
     <li>emergency->forzoso</li>
-    <li>landing->aterrizaje de</li>
+    <li>landing->aterrizaje</li>
     <li>landing->descenso</li>
-    <li>landing->aterrizaje de</li>
+    <li>landing->aterrizaje</li>
   </ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
 </LanguageData>
