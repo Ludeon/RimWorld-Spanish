@@ -565,7 +565,7 @@
   <!-- EN: cost -->
   <Cost>coste</Cost>
   <!-- EN: Stunned by EMP -->
-  <StunnedByEMP>TODO</StunnedByEMP>
+  <StunnedByEMP>Aturdido por PEM</StunnedByEMP>
   <!-- EN: Title -->
   <BackstoryTitle>Título</BackstoryTitle>
   <!-- EN: person -->
@@ -587,13 +587,13 @@
   <!-- EN: Must be imprisoned. -->
   <RequiresImprisonment>Debe ser prisionero.</RequiresImprisonment> 
   <!-- EN: Prioritize hauling contents -->
-  <HaulFromSource>TODO</HaulFromSource>
+  <HaulFromSource>Priorizar transportar contenidos</HaulFromSource>
   <!-- EN: Use -->
-  <UseGizmo>TODO</UseGizmo>
+  <UseGizmo>Usar</UseGizmo>
   <!-- EN: Order someone to use the {0}. -->
   <UseGizmoTooltip>Ordena a alguien usar {0}.</UseGizmoTooltip>
   <!-- EN: Choose who should use this -->
-  <UseGizmoMouse>TODO</UseGizmoMouse>
+  <UseGizmoMouse>Elige quién debería usar esto</UseGizmoMouse>
   <!-- EN: Select target -->
   <TargetGizmoMouse>Elegir objetivo</TargetGizmoMouse>
   <!-- EN: Cannot use this -->
@@ -601,11 +601,11 @@
   <!-- EN: Buildings -->
   <Buildings>Edificios</Buildings>
   <!-- EN: not yet discovered -->
-  <NotYetDiscovered>TODO</NotYetDiscovered> <!-- text_todo -->
+  <NotYetDiscovered>aún no descubierto</NotYetDiscovered>
   <!-- EN: Crawling to safety. -->
-  <ReportStringCrawlingToSafety>TODO</ReportStringCrawlingToSafety> <!-- text_todo -->
+  <ReportStringCrawlingToSafety>Arrastrándose a un lugar seguro.</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
-  <ReportStringCrawlingToBed>TODO</ReportStringCrawlingToBed> <!-- text_todo -->
+  <ReportStringCrawlingToBed>Arrastrándose hacia la cama.</ReportStringCrawlingToBed>
   
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -798,7 +798,7 @@
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
   <ApparelPreventsShooting>{PAWN_nameDef} no puede usar armas a distancia debido a {PAWN_possessive} {APPAREL_label}.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
-  <CannotUseReason_PocketMap>TODO</CannotUseReason_PocketMap>
+  <CannotUseReason_PocketMap>No puede usarse en {0}</CannotUseReason_PocketMap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -894,9 +894,9 @@
   <!-- EN: inside {0_labelShort}. -->
   <InContainer>dentro de {0_labelShort}.</InContainer> 
   <!-- EN: downed, cannot crawl. -->
-  <DownedCannotCrawl>TODO</DownedCannotCrawl> 
+  <DownedCannotCrawl>incapacitado, no puede arrastrarse.</DownedCannotCrawl>
   <!-- EN: downed, unconscious. -->
-  <DownedUnconscious>TODO</DownedUnconscious> 
+  <DownedUnconscious>incapacitado, inconsciente.</DownedUnconscious>
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -1166,7 +1166,7 @@
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Vertedero</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
-  <CorpseStockpile>TODO</CorpseStockpile>
+  <CorpseStockpile>Vertedero de cuerpos</CorpseStockpile>
   <!-- EN: Priority -->
   <Priority>Prioridad</Priority>
   <!-- EN: Clear all -->
@@ -1196,9 +1196,9 @@
   
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSterilizeConfirm>TODO</AnimalSterilizeConfirm>
+  <AnimalSterilizeConfirm>¿Seguro que quieres esterilizar a {PAWN_nameDef}? Si lo haces, enfadarás a {FACTION_name}..</AnimalSterilizeConfirm>
   <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSlaughterConfirm>TODO</AnimalSlaughterConfirm>
+  <AnimalSlaughterConfirm>¿Seguro que quieres sacrificar a {PAWN_nameDef}? Si lo haces, enfadarás a {FACTION_name}.</AnimalSlaughterConfirm>
   <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
   <AnimalReleaseConfirm>¿Seguro que quieres liberar a {PAWN_nameDef}? Si lo haces, enfadarás a {FACTION_name}.</AnimalReleaseConfirm>
 
@@ -1450,7 +1450,7 @@
   <!-- EN: Max connected per building -->
   <FacilityMaxSimultaneousConnections>Máximas conexiones por construcción</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
-  <FacilityFrontBlocked>TODO</FacilityFrontBlocked>
+  <FacilityFrontBlocked>El frente de la construcción está bloqueado.</FacilityFrontBlocked>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1707,11 +1707,11 @@
   <CausedByHediff>Causado por: {0}</CausedByHediff>
   
   <!-- EN: {DAMAGE_label} weakness -->
-  <DamageFactorWeakness>TODO</DamageFactorWeakness>
+  <DamageFactorWeakness>Debilidad ante {DAMAGE_label}</DamageFactorWeakness>
   <!-- EN: {DAMAGE_label} resistance -->
-  <DamageFactorResistance>TODO</DamageFactorResistance>
+  <DamageFactorResistance>Resistencia ante {DAMAGE_label}</DamageFactorResistance>
   <!-- EN: {DAMAGE_label} damage that this creature recieves is multiplied by this amount. -->
-  <DamageFactor>TODO</DamageFactor>
+  <DamageFactor>El daño de tipo {DAMAGE_label} que recibe esta criatura se multiplica por este valor.</DamageFactor>
   
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was healed. -->
@@ -1727,7 +1727,7 @@
 
   <!-- LordJobs -->
   <!-- EN: Outcome chances at {0} quality -->
-  <LordJobOutcomeChances>TODO</LordJobOutcomeChances>
+  <LordJobOutcomeChances>Prob. de resultados con la calidad {0}</LordJobOutcomeChances>
   <!-- EN: Expected duration -->
   <ExpectedLordJobDuration>Duración esperada</ExpectedLordJobDuration>
 
@@ -1874,7 +1874,7 @@
   <!-- EN: rot stink -->
   <RotStink>hedor a putrefacción</RotStink>
   <!-- EN: deadlife dust -->
-  <DeadlifeDust>TODO</DeadlifeDust> 
+  <DeadlifeDust>polvo de la muerte</DeadlifeDust> 
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1882,13 +1882,13 @@
   <!-- EN: ability on cooldown. It will be available in {0}. -->
   <AbilityOnCooldown>habilidad en periodo de enfriamiento. Estará disponible en {0}.</AbilityOnCooldown>
   <!-- EN: ability out of charges. -->
-  <AbilityNoCharges>TODO</AbilityNoCharges>
+  <AbilityNoCharges>habilidad sin cargas.</AbilityNoCharges>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>habilidad ya en cola.</AbilityAlreadyQueued>
   <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
-  <AbilityReadyLabel>Habilidad lista: {0}</AbilityReadyLabel>
+  <AbilityReadyLabel>Habilidad lista para {PAWN_nameDef}: {0}</AbilityReadyLabel>
   <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
-  <AbilitiesReadyLabel>TODO</AbilitiesReadyLabel>
+  <AbilitiesReadyLabel>Habilidades listas para {PAWN_nameDef}: {0}</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} está list{0_gender ? o : a} para usar {1}.</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
@@ -1897,9 +1897,9 @@
   <Charges>Cargas</Charges>
 
   <!-- EN: {0_nameDef} is in a mental state. -->
-  <PawnIsInMentalState>{0_nameDef} está en un estado mental agresivo.</PawnIsInMentalState>
+  <PawnIsInMentalState>{0_nameDef} sufre un colapso mental.</PawnIsInMentalState>
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInAggroMentalState>TODO</PawnIsInAggroMentalState>
+  <PawnIsInAggroMentalState>{0_nameDef} sufre un colapso mental agresivo.</PawnIsInAggroMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>Trabajo desactivado</DisabledWorkLabel>
@@ -1952,7 +1952,7 @@
   <!-- EN: Was driven into a mental break after reading {0}. -->
   <BookMentalBreakMessage>Ha sufrido un colapso mental tras leer {0}</BookMentalBreakMessage>
   <!-- EN: {0} done (complete in {1} hours) -->
-  <BookReadProgress>TODO</BookReadProgress>
+  <BookReadProgress>"{0}" completado (terminado en {1} horas)</BookReadProgress>
   
   <!-- EN: learning speed -->
   <BookLearningModifier>velocidad de aprendizaje</BookLearningModifier>
@@ -1972,7 +1972,7 @@
   <BookMaxLevel>nivel máx {0}</BookMaxLevel>
   
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
-  <ReadingReportHeader>TODO</ReadingReportHeader>
+  <ReadingReportHeader>Leyendo "{0}": {1} completado (terminado en {2} horas)</ReadingReportHeader>
   
   <!-- EN: Assign reading -->
   <ReadingDialogTitle>Asignar lectura</ReadingDialogTitle>
@@ -1994,12 +1994,12 @@
   
   <!-- Pushing -->
   <!-- EN: Push to... -->
-  <CommandPushTo>TODO</CommandPushTo>
+  <CommandPushTo>Empujar a...</CommandPushTo>
   <!-- EN: requires {0} -->
-  <RequiredCapacity>TODO</RequiredCapacity>
-  
+  <RequiredCapacity>necesita {0}</RequiredCapacity>
+
   <!-- EN: Unable to enter {0}, destination is blocked -->
-  <UnableToEnterPortal>TODO</UnableToEnterPortal>
+  <UnableToEnterPortal>No se puede entrar en {0}, el destino está bloqueado</UnableToEnterPortal>
 
   <!-- EN: This category of research has not been discovered. -->
   <ResearchNotDiscovered>Esta categoría de investigación no se ha descubierto aún.</ResearchNotDiscovered>
