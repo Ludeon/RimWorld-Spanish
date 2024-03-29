@@ -209,17 +209,17 @@
     <li>bookType->epic poem</li>
   -->
   <Description_Novel.rulePack.rulesStrings>
-    <li>desc->Este [writingQualityAdjective] [bookType] [follows] a un [PersonJob] mientras [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
-    <li>desc->En este [writingQualityAdjective] [bookType], el [author] [tellsAStoryOf] [ANYPAWN_possessive] [storySource]. [writingQualitySentence]. [maybe_date]</li>
-    <li>follows->sigue</li>
-    <li>follows->cubre</li>
+    <li>desc->Esta [writingQualityAdjective] [bookType] [follows] un [PersonJob] mientras [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->En esta [writingQualityAdjective] [bookType], el [author] [tellsAStoryOf] [ANYPAWN_possessive] [storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <li>follows->sigue a</li>
+    <li>follows->cubre los hechos ocurridos a</li>
     <li>follows->narra la historia de</li>
     <li>follows->está escrito desde el punto de vista de</li>
     <li>protagHe->él</li>
     <li>protagHis->su</li>
     <li>protagHim->él</li>
-    <li>storyStruggles->[lucha] contra [opponent]</li>
-    <li>storyStruggles->[busca] [seekObjective]</li>
+    <li>storyStruggles->[struggles] contra [opponent]</li>
+    <li>storyStruggles->[seeks] [seekObjective]</li>
     <li>struggles->lucha</li>
     <li>struggles->pelea</li>
     <li>struggles->se esfuerza</li>
@@ -341,12 +341,12 @@
     <li>storySource->tiempo pasado como nómada</li>
     <li>storySource->fascinación con los viajes en el tiempo</li>
     <li>storySource->conexión con un artefacto legendario</li>
-    <li>writingQualityAdjective(quality==6)->notablemente bien escrito</li>
+    <li>writingQualityAdjective(quality==6)->perfectamente escrita</li>
     <li>writingQualityAdjective(quality==5)->inteligente e perspicaz</li>
-    <li>writingQualityAdjective(quality==4)->pensativo y elocuente</li>
-    <li>writingQualityAdjective(quality==3)->bien escrito</li>
+    <li>writingQualityAdjective(quality==4)->pensativa y elocuente</li>
+    <li>writingQualityAdjective(quality==3)->bien escrita</li>
     <li>writingQualityAdjective(quality==2)->mediocre</li>
-    <li>writingQualityAdjective(quality==1)->pobremente escrito</li>
+    <li>writingQualityAdjective(quality==1)->pobremente escrita</li>
     <li>writingQualityAdjective(quality==0)->casi incoherente</li>
     <li>writingQualitySentence(quality[greater_than]4)->Es [excellentDesc] [excellentExtra]</li>
     <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->Es [decentDesc] [decentExtra]</li>
@@ -372,12 +372,12 @@
     <li>decentDesc->atractiva para un cierto tipo de lector</li>
     <li>decentExtra-> pero tiene algunos agujeros de trama evidentes</li>
     <li>decentExtra-> pero a menudo es difícil de seguir</li>
-    <li>decentExtra-> pero está plagada de errores de continuidad</li>
+    <li>decentExtra-> pero está plagada de errores de coherencia</li>
     <li>decentExtra-> pero carece de emociones profundas</li>
     <li>decentExtra-> pero los personajes son trillados y caricaturescos</li>
     <li>decentExtra-> pero el autor constantemente utiliza palabras de manera inapropiada para parecer inteligente</li>
     <li>decentExtra-> pero el mundo es poco original y aburrido</li>
-    <li>decentExtra-> pero la escritura es excesivamente florido</li>
+    <li>decentExtra-> pero la escritura es excesivamente florida</li>
     <li>decentExtra-> pero muchos de los momentos de la historia son innecesarios y no logran avanzar la trama</li>
     <li>awfulDesc->muy mal escrito</li>
     <li>awfulDesc->terriblemente escrito</li>
@@ -408,7 +408,7 @@
     <li>bookType->historia</li>
     <li>bookType->narrativa</li>
     <li>bookType->biografía</li>
-    <li>bookType->poema épico</li>
+    <li>bookType->poesía épica</li>
   </Description_Novel.rulePack.rulesStrings>
   
   <!-- EN:
@@ -1507,8 +1507,8 @@
     <li>rimworld->La Grand</li>
     <li>rimworld->Dalles</li>
     <li>rimworld->Twig Falls</li>
-    <li>rimworld->Old Boise</li>
-    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Antigua Boise</li>
+    <li>rimworld->Puertas del Infierno</li>
     <li>rimworld->Laramiere</li>
     <li>ruinworld->Earth</li>
     <li>ruinworld->Ilwaba</li>
@@ -1619,7 +1619,7 @@
     <li>contain_verb->llevar</li>
     <li>contain_verb->almacenar</li>
     <li>contain_verb->encerrar</li>
-    <li>schematic_synonym->esquemático</li>
+    <li>schematic_synonym->esquema</li>
     <li>schematic_synonym->diagrama</li>
     <li>schematic_synonym->plan</li>
     <li>schematic_synonym->diseño</li>
@@ -1665,9 +1665,9 @@
     <li>other_subject->alcance</li>
     <li>other_subject->presupuesto</li>
     <li>other_subject->recursos</li>
-    <li>dates->El esquemático fue publicado [date_form]</li>
-    <li>dates->El esquemático fue impreso por primera vez [date_form]</li>
-    <li>dates->No está claro exactamente cuándo se creó el esquemático</li>
+    <li>dates->El esquema fue publicado [date_form]</li>
+    <li>dates->El esquema fue impreso por primera vez [date_form]</li>
+    <li>dates->No está claro exactamente cuándo se creó el esquema</li>
     <li>date_form->recientemente</li>
     <li>date_form->hace muchos siglos</li>
     <li>date_form->en la [date]</li>
@@ -2056,7 +2056,7 @@
     <li>production->Las partes útiles de este [textbook] están ocultas entre los detalles biográficos</li>
     <li>production->Una [note] escrita a mano en el [note_location] dice que la imprenta de [worldname] cerró después de los Disturbios de [worldname], por lo que estas ediciones posteriores son raras</li>
     <li>production->Una [note] inscrita dice que la mayoría de las copias de este [textbook] se perdieron durante el Incidente de [worldname]</li>
-    <li>production->El [precis_synonym] deja claro que los lectores con conocimientos sobre técnicas de diseminación de información archotécnica tienden a evitar esta serie de [textbook] - pero no explica por qué</li>
+    <li>production->El [precis_synonym] deja claro que los lectores con conocimientos sobre técnicas de diseminación de información arqueotécnica tienden a evitar esta serie de [textbook] - pero no explica por qué</li>
     <li>production->Por el [note_location], es evidente que los prosélitos del [subject] de [worldname] gastaron una fortuna imprimiendo copias de este libro y luego distribuyéndolo ampliamente</li>
     <li>production->El [note_location] explica que las primeras copias de este libro fueron escritas a mano por [ANYPAWN_label] [ANYPAWN_objective]mismo</li>
     <li>production->La Duquesa de [worldname] patrocinó este [textbook], con la condición de que estuviera disponible libremente</li>
@@ -2323,8 +2323,8 @@
     <li>rimworld->La Grand</li>
     <li>rimworld->Dalles</li>
     <li>rimworld->Twig Falls</li>
-    <li>rimworld->Old Boise</li>
-    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Antigua Boise</li>
+    <li>rimworld->Puertas del Infierno</li>
     <li>rimworld->Laramiere</li>
     <li>ruinworld->Earth</li>
     <li>ruinworld->Ilwaba</li>
