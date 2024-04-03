@@ -128,15 +128,15 @@
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>capacidad de mortisueño</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>Esto determina cuantos edificios de mortisueño se pueden conectar a una persona cuando esté en su mortisueño. Cada edificio de mortisueño confiere un beneficio específico, entonces será mejor conectarse a varios de ellos.\n\nLa capacidad de mortisueño puede ser aumentada utilizando sueros de capacidad de mortisueño. Estos sueros se les pueden comprar a los mercaderes.</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>Esto determina cuántos módulos de mortisueño se pueden conectar a una persona cuando esté en su mortisueño. Cada módulos de mortisueño confiere un beneficio específico, por lo que es mejor conectarse a varios de ellos.\n\nLa capacidad de mortisueño puede aumentarse utilizando sueros de capacidad de mortisueño. Estos sueros se pueden comprar a los mercaderes.</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
-  <PawnIsConnectedToBuildings>{PAWN_nameDef} está conectado a {CURRENT} / {MAX} (máx) construcciones de mortisueño.</PawnIsConnectedToBuildings>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} está conectado a {CURRENT} / {MAX} (máx) módulos de mortisueño.</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
   <Wake>despertar ahora</Wake>
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
   <WakeDesc>Despierta del mortisueño.\n\nEl mortisueño de {PAWN_nameDef} duró {DURATION}.</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
-  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} necesita mortisueño durante al menos {TOTAL}. Si se le despierta antes, enfermará y no se beneficiará de ningún edificio de mortisueño.</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} necesita mortisueño durante al menos {TOTAL}. Si se le despierta antes, enfermará y no se beneficiará de ningún módulo de mortisueño.</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
   <WakeExtraDesc_Safe>{PAWN_nameDef} puede despertarse de forma segura.</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
@@ -152,7 +152,7 @@
   <!-- EN: Start deathrest -->
   <StartDeathrest>Comenzar mortisueño</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
-  <ConfirmExitDeathrestUnderMinDays>Completar el mortisueño de manera segura tomará {MINDURATION}, pero {PAWN_nameDef} deberá mortisoñar solo por {CURDURATION}.\n\nDespertar a {PAWN_nameDef} puede interrumpir su mortisueño, tirando su metabolismo fuera de balance y haciendo{PAWN_objective} que enferme por días.\n\n¿Estás seguro de que deseas despertar{PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
+  <ConfirmExitDeathrestUnderMinDays>Completar el mortisueño de forma segura lleva {MINDURATION}, pero {PAWN_nameDef} solo ha estado en mortisueño durante {CURDURATION}.\n\nDespertar a {PAWN_nameDef} ahora interrumpiría su mortisueño, desequilibrando su metabolismo y haciéndo{PAWN_objective} enfermar durante varios días.\n\n¿Seguro que deseas despertar a {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>mortisoñando</Deathresting>
   <!-- EN: can wake safely now. -->
@@ -388,7 +388,7 @@
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
   <InsertPersonGeneExtractorDesc>Inserta una persona dentro del extractor de genes. Su materíal genético será extraído y utilizado para crear un pack de genes que contiene una selección aleatoria de sus genes.\n\nLa extracción de genes es dolorosa y puede dejar debil y somnoliento al sujeto por unos días. Este proceso es letal para aquellos que sus genes recién se estén desarrollando.</InsertPersonGeneExtractorDesc>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <ConfirmExtractXenogermWillKill>Advertencia: Los genes de {PAWN_nameDef} están desarrollándose. Extraer sus genes antes de que se desarrollen {PAWN_objective} matará.\n\n¿Estás seguro que deseas continuar?</ConfirmExtractXenogermWillKill>
+  <ConfirmExtractXenogermWillKill>Advertencia: Los genes de {PAWN_nameDef} están desarrollándose. Extraer sus genes antes de que se desarrollen {PAWN_objective} matará.\n\n¿Seguro que deseas continuar?</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
   <GeneExtractionComplete>Extracción de genes completa para {PAWN_nameDef}. Extraídos.</GeneExtractionComplete>
   <!-- EN: Insert xenogerm -->
@@ -751,7 +751,7 @@
   <EmbryoEjectedFromGrowthVatBiostarvation>{0} fue destruido en una incubadora debido a la bioinanición.</EmbryoEjectedFromGrowthVatBiostarvation>
 
   <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
-  <IvfPregnancyLetterText>¡{0} quedó embarazada con éxito gracias a la implantación del embrión!</IvfPregnancyLetterText>
+  <IvfPregnancyLetterText>¡{0} ha quedado embarazada con éxito gracias a la implantación del embrión!</IvfPregnancyLetterText>
   <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
   <IvfPregnancyLetterParents>El bebé tendrá la composición genética de {0} y {1}.</IvfPregnancyLetterParents>
 
@@ -768,8 +768,5 @@
   <MyChildIsHappy>mi hijo(a) está feliz</MyChildIsHappy>
   <!-- EN: my child is sad -->
   <MyChildIsSad>mi hijo(a) está triste</MyChildIsSad> 
-
-  <!-- UNUSED -->
-  <LearningDesireTooltip_CurrentDesire>El deseo de aprendizaje actual de {0_nameDef}:</LearningDesireTooltip_CurrentDesire>
 
 </LanguageData>

@@ -20,7 +20,7 @@
   <!-- EN: Designate toggle power -->
   <CommandDesignateTogglePowerLabel>Alternar energía</CommandDesignateTogglePowerLabel>
   <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
-  <CommandDesignateTogglePowerDesc>Enciende o apaga éste objeto. Un colono vendrá pronto a accionar el interruptor.</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerDesc>Enciende o apaga este objeto. Un colono vendrá pronto a accionar el interruptor.</CommandDesignateTogglePowerDesc>
   
   <!-- EN: Reconnect -->
   <CommandTryReconnectLabel>Reconectar</CommandTryReconnectLabel>
@@ -99,7 +99,7 @@
   <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <TurningOffPrisonerBedWarning>Desactivar el modo prisión afecta a la habitación completa (ya que los colonos y prisioneros no pueden dormir en la misma habitación).\n\nEstas personas perderán sus camas asignadas:</TurningOffPrisonerBedWarning>
   <!-- EN: Are you sure you want to do this? -->
-  <AreYouSure>¿Estás seguro de que quieres hacer esto?</AreYouSure>
+  <AreYouSure>¿Seguro que quieres hacer esto?</AreYouSure>
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <ChangingOwnerTypeBedWarning>Cambiar el uso de la cama afecta a toda la habitación (ya que los prisioneros, los esclavos y los colonos no pueden dormir en la misma habitación).\n\nEstas personas perderán la propiedad de sus camas:</ChangingOwnerTypeBedWarning>
 
@@ -238,15 +238,15 @@
 
   <!-- Trap -->
   <!-- EN: Auto rearm -->
-  <CommandAutoRearm>Auto Rearmar</CommandAutoRearm>
+  <CommandAutoRearm>Auto rearmar</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>Si está activado, la trampa automáticamente se reemplazará después de cada uso.</CommandAutoRearmDesc>
   
   <!-- Firefoam popper -->
   <!-- EN: Auto rebuild -->
-  <CommandAutoRebuild_Building>TODO</CommandAutoRebuild_Building>
+  <CommandAutoRebuild_Building>Auto rearmar</CommandAutoRebuild_Building>
   <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
-  <CommandAutoRebuild_BuildingDesc>TODO</CommandAutoRebuild_BuildingDesc>
+  <CommandAutoRebuild_BuildingDesc>Si está activado, {BUILDING_definite} se reemplazará automáticamente después de que se active.</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
@@ -320,13 +320,13 @@
 
   <!-- Send caravan -->
   <!-- EN: Send caravan -->
-  <CommandSendCaravan>TODO</CommandSendCaravan>
+  <CommandSendCaravan>Enviar caravana</CommandSendCaravan>
   <!-- EN: Send caravan... -->
-  <CommandSendCaravanMultiple>TODO</CommandSendCaravanMultiple>
+  <CommandSendCaravanMultiple>Enviar caravana...</CommandSendCaravanMultiple>
   <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
-  <CommandSendCaravanDesc>TODO</CommandSendCaravanDesc>
+  <CommandSendCaravanDesc>Enviar una caravana a este destino desde una colonia seleccionada que pueda alcanzar esta ubicación.</CommandSendCaravanDesc>
   <!-- EN: Your settlements have no path to this location. -->
-  <CommandSendCaravanCantReach>TODO</CommandSendCaravanCantReach>
+  <CommandSendCaravanCantReach>Tus colonias no tienen una ruta hacia esta ubicación.</CommandSendCaravanCantReach>
 
   <!-- Split caravan -->
   <!-- EN: Split -->
@@ -422,7 +422,7 @@
   <!-- EN: Get on board the ship and escape the planet. -->
   <CommandTakeOffDesc>Toma la nave y escapa del planeta.</CommandTakeOffDesc>
   <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
-  <CommandTakeOffConfirmation>¿Estás seguro de lanzar la nave?\n\nTodos en esta zona escaparán del planeta. El resto serán abandonados.</CommandTakeOffConfirmation>
+  <CommandTakeOffConfirmation>¿Seguro que quieres lanzar la nave?\n\nTodos en esta zona escaparán del planeta. El resto serán abandonados.</CommandTakeOffConfirmation>
 
   <!-- Set target fuel level -->
   <!-- EN: Set target fuel level -->
@@ -568,9 +568,9 @@
   <!-- EN: View this quest in quests tab. -->
   <CommandViewQuestDesc>Ver esta misión en la pestaña de misiones.</CommandViewQuestDesc>
   <!-- EN: Open linked quest -->
-  <CommandOpenLinkedQuest>Abrir misión enlazada.</CommandOpenLinkedQuest>
+  <CommandOpenLinkedQuest>Abrir misión vinculada</CommandOpenLinkedQuest>
   <!-- EN: Open linked quest in the quests tab. -->
-  <CommandOpenLinkedQuestDesc>Abrir misión enlazada en la pestaña de misiones.</CommandOpenLinkedQuestDesc>
+  <CommandOpenLinkedQuestDesc>Abrir misión vinculada en la pestaña de misiones.</CommandOpenLinkedQuestDesc>
 
   <!-- Carry -->
   <!-- EN: Drop {0_nameDef} -->
@@ -625,7 +625,7 @@
   <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
   <CommandCancelRitualDesc>Terminar el {RITUAL_labelDef} inmediatamente. La obligación de realizar el ritual continuará. Puedes reiniciar el ritual más tarde.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
-  <CommandCancelRitualConfirm>¿Estás seguro de que quieres cancelar {RITUAL_labelDef}?</CommandCancelRitualConfirm>
+  <CommandCancelRitualConfirm>¿Seguro que quieres cancelar {RITUAL_labelDef}?</CommandCancelRitualConfirm>
 
   <!-- Storage linking -->
   <!-- EN: Link settings -->
@@ -643,7 +643,7 @@
   <!-- EN: Linked storage settings -->
   <LinkedStorageSettings>Ajustes de almacenamiento vinculado</LinkedStorageSettings>
   <!-- EN: 1 building -->
-  <OneBuilding>TODO</OneBuilding>
+  <OneBuilding>1 edificio</OneBuilding>
   <!-- EN: {0} buildings -->
   <NumBuildings>{0} edificios</NumBuildings>
   <!-- EN: Stores -->
@@ -658,16 +658,12 @@
 
   <!-- Study -->
   <!-- EN: Toggle study -->
-  <CommandToggleStudy>TODO</CommandToggleStudy>
+  <CommandToggleStudy>Alternar estudio</CommandToggleStudy>
   <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
-  <CommandToggleStudyDesc>TODO</CommandToggleStudyDesc>
+  <CommandToggleStudyDesc>Decide si los guardianes estudiarán automáticamente esto o no. Las cosas prohibidas nunca se estudiarán.</CommandToggleStudyDesc>
 
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
-  <CommandNoUsesLeft>TODO</CommandNoUsesLeft>
-  
-  <!-- UNUSED -->
-  <CommandRenameZoneLabel>Renombrar</CommandRenameZoneLabel>
-  <CommandRenameZoneDesc>Renombra esta zona.</CommandRenameZoneDesc>
+  <CommandNoUsesLeft>No quedan usos.</CommandNoUsesLeft>
 
 </LanguageData>

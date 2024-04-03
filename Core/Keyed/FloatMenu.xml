@@ -4,17 +4,17 @@
   <!-- EN: Call {0} -->
   <CallOnRadio>Llamar a {0}</CallOnRadio>
   <!-- EN: Cannot use: {0} -->
-  <CannotUseReason>No se puede usar ({0})</CannotUseReason>
+  <CannotUseReason>No se puede usar: {0}</CannotUseReason>
   <!-- EN: Cannot use: EMP -->
-  <CannotUseSolarFlare>No se puede usar (erupción solar)</CannotUseSolarFlare>
+  <CannotUseSolarFlare>No se puede usar: Erupción solar</CannotUseSolarFlare>
   <!-- EN: Cannot use: No power -->
-  <CannotUseNoPower>No se puede usar (sin energía)</CannotUseNoPower>
+  <CannotUseNoPower>No se puede usar: Sin energía</CannotUseNoPower>
   <!-- EN: Cannot use: No path -->
-  <CannotUseNoPath>No se puede usar (no hay camino)</CannotUseNoPath>
+  <CannotUseNoPath>No se puede usar: No hay camino</CannotUseNoPath>
   <!-- EN: Cannot use: Reserved -->
-  <CannotUseReserved>No se puede usar (reservado)</CannotUseReserved>
+  <CannotUseReserved>No se puede usar: Reservado</CannotUseReserved>
   <!-- EN: Cannot use: Full -->
-  <CannotUseFull>No se puede usar (lleno)</CannotUseFull>
+  <CannotUseFull>No se puede usar: Lleno</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>el líder {1_labelShort} no está disponible</LeaderUnavailable>
   <!-- EN: leader is unavailable -->
@@ -32,13 +32,13 @@
   <!-- EN: Cannot hit target -->
   <CannotHitTarget>no puede acertar al objetivo</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
-  <IsIncapableOfViolenceLower>{1_labelShort} es incapaz de ser violento(a)</IsIncapableOfViolenceLower>
+  <IsIncapableOfViolenceLower>{1_labelShort} es incapaz de ser violento{1_gender ? o : a}</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>incapaz de ser violento(a)</IncapableOfViolenceLower>
   <!-- EN: {0_labelShort} is incapable of shooting -->
   <IsIncapableOfShootingLower>{0_labelShort} es incapaz de disparar</IsIncapableOfShootingLower>
   <!-- EN: {1_labelShort} is not drafted -->
-  <IsNotDraftedLower>{1_labelShort} no está reclutado(a)</IsNotDraftedLower>
+  <IsNotDraftedLower>{1_labelShort} no está reclutado{1_gender ? o : a}</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>no puedes ordenar a unidades no reclutadas</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
@@ -159,7 +159,7 @@
   <!-- EN: incapable of mining -->
   <IncapableOfMining>incapaz de minar</IncapableOfMining>
   <!-- EN: tree marked for extraction -->
-  <TreeMarkedForExtraction>TODO</TreeMarkedForExtraction>
+  <TreeMarkedForExtraction>árbol marcado para ser extraído</TreeMarkedForExtraction>
   <!-- EN: angers faction -->
   <AngersFaction>facción hostil</AngersFaction>
   <!-- EN: no body part -->
@@ -196,7 +196,7 @@
   <GoHere>Ir aquí</GoHere>
 
   <!-- EN: Clean {0} -->
-  <CleanRoom>TODO</CleanRoom>
+  <CleanRoom>Limpiar {0}</CleanRoom>
   
   <!-- EN: Arrest {0} -->
   <Arrest>Arrestar a {0}</Arrest>
@@ -210,15 +210,15 @@
   <!-- EN: Capture {1_labelShort} -->
   <Capture>Capturar a {1_label}</Capture>
   <!-- EN: capture {0_labelShort} -->
-  <CaptureLower>TODO</CaptureLower>
+  <CaptureLower>capturar a {1_label}</CaptureLower>
   <!-- EN: Cannot capture -->
   <CannotCapture>No se puede capturar</CannotCapture>
   <!-- EN: unwaveringly loyal -->
   <Unrecruitable>sumamente leal</Unrecruitable>
   <!-- EN: not recruitable -->
-  <UnrecruitableNoFaction>TODO</UnrecruitableNoFaction> 
+  <UnrecruitableNoFaction>no reclutable</UnrecruitableNoFaction> 
   <!-- EN: Transfer {0_label} -->
-  <TransferEntity>TODO</TransferEntity> 
+  <TransferEntity>Transferir a {0_label}</TransferEntity> 
 
   <!-- EN: Rescue {1_labelShort} -->
   <Rescue>Rescatar a {1_label}</Rescue>
@@ -248,15 +248,15 @@
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>No hay una cama para prisioneros al alcance, sin reservar y en interiores</NoPrisonerBed>
   <!-- EN: No prisoner bed available. -->
-  <NoPrisonerBedShort>TODO</NoPrisonerBedShort>
+  <NoPrisonerBedShort>No hay una cama para prisioneros disponible.</NoPrisonerBedShort>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
   <NoNonPrisonerBed>No hay una cama para prisioneros al alcance y sin reservar</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
   <NoAnimalBed>No hay una cama para animales al alcance y sin reservar.</NoAnimalBed>
   <!-- EN: No reachable, unforbidden, un-reserved {0} -->
-  <NoItemReservedOrReachable>TODO</NoItemReservedOrReachable>
+  <NoItemReservedOrReachable>{0} no disponible al alcance, sin prohibir ni reservar</NoItemReservedOrReachable>
   <!-- EN: No unforbidden, un-reserved {0} -->
-  <NoItemReserved>TODO</NoItemReserved>
+  <NoItemReserved>{0} no disponible sin prohibir ni reservar</NoItemReserved>
   <!-- EN: Reserved by someone else. -->
   <Reserved>Reservado para otro</Reserved>
   <!-- EN: Reserved by {1_labelShort} -->
@@ -370,7 +370,7 @@
   <!-- EN: Cannot carry {0_labelShort} -->
   <CannotCarry>No puede llevar {0_label}</CannotCarry>
   <!-- EN: hostile -->
-  <CarriedPawnHostile>TODO</CarriedPawnHostile>
+  <CarriedPawnHostile>hostil</CarriedPawnHostile>
   <!-- EN: temporary faction member -->
   <QuestRelated>miembro de facción temporal</QuestRelated>
   <!-- EN: Cannot change outfits on temporary faction members -->
@@ -403,11 +403,11 @@
   <!-- EN: Trade with {0} -->
   <TradeWith>Comerciar con {0}</TradeWith>
   <!-- EN: Dismiss trader -->
-  <DismissTrader>TODO</DismissTrader>
+  <DismissTrader>Expulsar comerciante</DismissTrader>
   <!-- EN: Cannot trade -->
   <CannotTrade>No puede comerciar</CannotTrade>
   <!-- EN: Trader dismissed -->
-  <TraderDismissed>TODO</TraderDismissed>
+  <TraderDismissed>Comerciante expulsado</TraderDismissed>
 
   <!-- EN: Open {0_label} -->
   <Open>Abrir {0_label}</Open>
@@ -434,17 +434,17 @@
   <TradeWithSettlement>Comerciar con {0}</TradeWithSettlement>
   
   <!-- EN: Enter {0} -->
-  <EnterPortal>TODO</EnterPortal>
+  <EnterPortal>Entrar a {0}</EnterPortal>
   <!-- EN: Entering {0} -->
-  <EnteringPortal>TODO</EnteringPortal>
+  <EnteringPortal>Entrando a {0}</EnteringPortal>
   <!-- EN: Enter {0} -->
-  <CommandEnterPortal>TODO</CommandEnterPortal>
+  <CommandEnterPortal>Entrar a {0}</CommandEnterPortal>
   <!-- EN: Select people and items to enter the {0}. -->
-  <CommandEnterPortalDesc>TODO</CommandEnterPortalDesc>
+  <CommandEnterPortalDesc>Seleccione personas y objetos para entrar en el {0}.</CommandEnterPortalDesc>
   <!-- EN: Cancel entering -->
-  <CommandCancelEnterPortal>TODO</CommandCancelEnterPortal>
+  <CommandCancelEnterPortal>Cancelar entrada</CommandCancelEnterPortal>
   <!-- EN: Cancel loading people or items into this. -->
-  <CommandCancelEnterPortalDesc>TODO</CommandCancelEnterPortalDesc>
+  <CommandCancelEnterPortalDesc>Cancelar la carga de personas u objetos en esto.</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -591,7 +591,7 @@
   <CannotEnter>No puede entrar</CannotEnter>
   
   <!-- EN: Cannot enter {0} -->
-  <CannotEnterPortal>TODO</CannotEnterPortal>
+  <CannotEnterPortal>No se puede entrar a {0}</CannotEnterPortal>
   <!-- EN: closed -->
   <PortalClosed>cerrado</PortalClosed>
 
@@ -605,14 +605,14 @@
   <!-- EN: disliked food -->
   <WarningFoodDisliked>comida desagradable</WarningFoodDisliked>
   <!-- EN: Unsuitable food -->
-  <FoodNotSuitable>TODO</FoodNotSuitable>
+  <FoodNotSuitable>Alimento no adecuado</FoodNotSuitable>
 
   <!-- EN: Unsuitable drug -->
-  <DrugNotSuitable>TODO</DrugNotSuitable>
+  <DrugNotSuitable>Medicina no adecuada</DrugNotSuitable>
   
   <!-- Books -->
   <!-- EN: Assign reading... -->
-  <AssignReading>TODO</AssignReading>
+  <AssignReading>Asignar lectura...</AssignReading>
   <!-- EN: Read {0} -->
   <AssignReadNow>Leer {0}</AssignReadNow>
   <!-- EN: Cannot read {0} -->

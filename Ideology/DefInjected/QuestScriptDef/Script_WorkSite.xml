@@ -3,12 +3,12 @@
   
   <!-- EN:
     <li>questDescription->You've detected a [siteLabel] nearby controlled by [faction_name].\n\nIf you wish, you can raid the camp to collect loot ([loot]). [raidConsequences]\n\nThe camp will pack up and move on in [timeout_duration].</li>
-    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile.</li>
+    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile if they are not already.</li>
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
   <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
     <li>questDescription->Has detectado una [siteLabel] cerca bajo el control de la facción [faction_name].\n\nSi lo deseas, puedes asaltar el campamento para recoger el botín ([loot]). [raidConsequences]\n\nEl campamento recogerá todo y se trasladará en [timeout_duration].</li>
-    <li>raidConsequences(faction_temporary==false)->Si lo haces, la facción [faction_name] se volverá hostil.</li>
+    <li>raidConsequences(faction_temporary==false)->Si lo haces, la facción [faction_name] se volverá hostil si no lo era antes.</li>
     <li>raidConsequences(faction_temporary==true)->Dado que la facción [faction_name] la conforma un pequeño grupo independiente, puedes atacarla sin grandes consecuencias diplomáticas.</li>
   </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
   <!-- EN:

@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: bioregeneration -->
-  <Bioregeneration.label>bioregeneración</Bioregeneration.label>
+  <Bioregeneration.label>biorregeneración</Bioregeneration.label>
   <!-- EN: Unlock the biosculpter pod's bioregeneration cycle. This cycle heals old scars, regenerates small lost body parts like fingers and toes, and cures many of the physical maladies that come with old age. -->
   <Bioregeneration.description>Desbloquea el ciclo de bioregeneración de la cápsula de bioescultura. Este ciclo cura cicatrices viejas, regenera partes pequeñas del cuerpo pérdidas como los dedos de las manos y los pies y cura muchas de las enfermedades físicas que vienen con la vejez.</Bioregeneration.description>
   <!-- EN:
@@ -14,12 +14,20 @@
     <li>subject_gerund->regenerating the human form</li>
     <li>subject_gerund->activating regeneration with biosculpters</li>
   -->
-  <Bioregeneration.generalRules.rulesStrings>TODO</Bioregeneration.generalRules.rulesStrings>
+  <Bioregeneration.generalRules.rulesStrings>
+    <li>subject->biorregeneración</li>
+    <li>subject_story->estudió el crecimiento de las astas de bumalopes en busca componentes que permitieran la regeneración humana</li>
+    <li>subject_story->fusionó datos genéticos de salamandra con su propio cuerpo</li>
+    <li>subject_story->se capacitó en un hospital de mundobrillante</li>
+    <li>subject_story->completó un curso por correspondencia en estética de un mundobrillante</li>
+    <li>subject_gerund->regenerando la forma humana</li>
+    <li>subject_gerund->activando la regeneración con cápsulas de bioescultura</li>
+  </Bioregeneration.generalRules.rulesStrings>
   
   <!-- EN: biosculpting -->
   <Biosculpting.label>bioesculpido</Biosculpting.label>
   <!-- EN: Construct biosculpter pods which can perform various biological alterations to colonists. These are especially important to believers in transhumanism. -->
-  <Biosculpting.description>Construye cápsulas bioescultoras que puedan realizar diversas alteraciones biológicas a los colonos. Son especialmente importantes para los creyentes en el transhumanismo.</Biosculpting.description>
+  <Biosculpting.description>Construye cápsulas bioescultoras que puedan realizar diversas alteraciones biológicas a los colonos. Son especialmente importantes para los creyentes del transhumanismo.</Biosculpting.description>
   <!-- EN:
     <li>subject->biosculpting</li>
     <li>subject_story->constructed biosculpter pods on contract for various colonies</li>
@@ -30,7 +38,16 @@
     <li>subject_gerund->constructing biosculpter pods</li>
     <li>subject_gerund->sculpting the human form</li>
   -->
-  <Biosculpting.generalRules.rulesStrings>TODO</Biosculpting.generalRules.rulesStrings>
+  <Biosculpting.generalRules.rulesStrings>
+    <li>subject->bioesculpido</li>
+    <li>subject_story->construyó cápsulas de bioesculpido bajo contrato para varias colonias</li>
+    <li>subject_story->estudió preceptos transhumanistas, incluida la necesidad de emplear cápsulas de bioesculpido</li>
+    <li>subject_story->investigó las alteraciones biológicas que pueden realizarse de manera segura</li>
+    <li>subject_story->escapó de una granja de apoyo de un mundobrillante con estos planes</li>
+    <li>subject_story->fue bienvenido en una colonia transhumanista</li>
+    <li>subject_gerund->construyendo cápsulas de bioesculpido</li>
+    <li>subject_gerund->bioesculpiendo la forma humana</li>
+  </Biosculpting.generalRules.rulesStrings>
   
   <!-- EN: neural supercharger -->
   <NeuralSupercharger.label>supercargador neural</NeuralSupercharger.label>
@@ -45,6 +62,14 @@
     <li>subject_gerund->supercharging a human's intellect</li>
     <li>subject_gerund->constructing neural superchargers</li>
   -->
-  <NeuralSupercharger.generalRules.rulesStrings>TODO</NeuralSupercharger.generalRules.rulesStrings>
+  <NeuralSupercharger.generalRules.rulesStrings>
+    <li>subject->supercargadores neurales</li>
+    <li>subject_story->implementó supercargadores neurales en la escuela interna de [ANYPAWN_possessive]</li>
+    <li>subject_story->sobrecargó las neuronas de clones cultivados para acelerar masivamente su desarrollo</li>
+    <li>subject_story->intentó prohibir la supercarga neural en el curso universitario que enseñaba</li>
+    <li>subject_story->se unió a una secta transhumanista donde la supercarga neural era obligatoria</li>
+    <li>subject_gerund->sobrecargando el intelecto humano</li>
+    <li>subject_gerund->construyendo supercargadores neurales</li>
+  </NeuralSupercharger.generalRules.rulesStrings>
   
 </LanguageData>

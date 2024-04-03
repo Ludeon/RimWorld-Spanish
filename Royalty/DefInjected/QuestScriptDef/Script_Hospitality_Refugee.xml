@@ -101,13 +101,13 @@
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
     <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] deshonra: Partida</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
-    <li>letterIntroPsychicRitualTarget->TODO</li>
-    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->TODO</li>
-    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->TODO</li>
-    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->TODO</li>
-    <li>lodgerPsychicRitualTargetAttackPlayerLetterText->TODO</li>
-    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->TODO</li>
-    <li>lodgerPsychicRitualTargetLeaveMapLetterText->TODO</li>
+    <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], fue el objetivo de un ritual psíquico.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] deshonra: Ira</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] deshonra: Venganza</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] deshonra: Partida</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->Traición</li>
     <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] se [areIs] volviendo contra ti!\n\nParece que [lodgersPronoun] [HadSingOrPlural] esta traición planeada todo el tiempo.</li>
     <li>areIs(lodgerCount==1)->está</li>
