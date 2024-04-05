@@ -209,7 +209,7 @@
     <li>bookType->epic poem</li>
   -->
   <Description_Novel.rulePack.rulesStrings>
-    <li>desc->Esta [writingQualityAdjective] [bookType] [follows] un [PersonJob] mientras [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->Esta [writingQualityAdjective] [bookType] [follows] un [PersonJob] mientras [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
     <li>desc->En esta [writingQualityAdjective] [bookType], el [author] [tellsAStoryOf] [ANYPAWN_possessive] [storySource]. [writingQualitySentence]. [maybe_date]</li>
     <li>follows->sigue a</li>
     <li>follows->cubre los hechos ocurridos a</li>
@@ -388,7 +388,7 @@
     <li>awfulDesc->dominada por un personaje de autor autoinserción</li>
     <li>awfulDesc->extraña pero poco original</li>
     <li>awfulDesc->demasiado larga</li>
-    <li>awfulExtra-> y la escritura es casi incoherente</li>
+    <li>awfulExtra-> y la escritura es casi incomprensible</li>
     <li>awfulExtra-> y es extremadamente difícil de seguir</li>
     <li>awfulExtra-> y falla en ensamblar una trama coherente</li>
     <li>awfulExtra-> y carece de cualquier sentido de tema o significado</li>
@@ -2039,7 +2039,7 @@
     <li>discussion->Una edición temprana del [textbook] en el tema de [subject][detail]</li>
     <li>detail->. El [precis_synonym] se centra en los aspectos más complicados del tema</li>
     <li>detail->. Es un [precis_synonym] sucinto de un tema complejo</li>
-    <li>detail->. El [precis_synonym] dice que, cuando [ANYPAWN_label] escribió esto, era lo último en el campo</li>
+    <li>detail->. El [precis_synonym] dice que, cuando [ANYPAWN_label] escribió esto, era lo último en su área</li>
     <li>detail->. Una cita en el [ubicación_de_nota] dice: "Los verdaderos [students] de [subject] no pueden ignorar el libro de [ANYPAWN_label]".</li>
     <li>students->estudiantes</li>
     <li>students->amantes</li>
@@ -2050,7 +2050,7 @@
     <li>detail->. El autor afirma en su [precis_synonym] que existen copias fraudulentas de este libro pero que esta no lo es</li>
     <li>detail(quality[less_than]4)->, aunque tal vez el intento de comunicar sus ideas a través de un diálogo imaginado fue un error</li>
     <li>detail->. La retórica del autor en el [precis_synonym] no distrae de los conceptos principales</li>
-    <li>production->El [precis_synonym] dice que esto fue impreso a mano en [worldname]</li>
+    <li>production->El [precis_synonym] dice que fue impreso a mano en [worldname]</li>
     <li>production->El [precis_synonym] dice que la Universidad de [worldname] convirtió esto en un texto obligatorio</li>
     <li>production->El [precis_synonym] dice que, aunque estas notas fueron hechas para el uso personal de [ANYPAWN_label], han sido ampliamente compartidas [maybe_detail]</li>
     <li>production->Las partes útiles de este [textbook] están ocultas entre los detalles biográficos</li>
@@ -2069,9 +2069,9 @@
     <li>anecdote->El [precis_synonym] indica que este libro pasó por el sistema de bibliotecas públicas de [urbworld]</li>
     <li>anecdote->Según la [note_location], [ANYPAWN_nameFull] era conocido por ser un maestro de muchos temas</li>
     <li>anecdote->Según la [note_location], la gente de [worldname] todavía habla de [ANYPAWN_nameFull] y recuerda el amor de [ANYPAWN_possessive] por [subject]</li>
-    <li>anecdote->Según la [note_location], un accidente de enredo inusual mató al autor, [ANYPAWN_nameFull], poco después de la publicación</li>
+    <li>anecdote->Según la [note_location], un inusual accidente se cobró la vida del autor, [ANYPAWN_nameFull], poco después de la publicación de su obra</li>
     <li>anecdote->Según el [precis_synonym], [ANYPAWN_nameFull] pasó [ANYPAWN_possessive] días enseñando en la academia en [coreworld]. Este libro se basa en [ANYPAWN_possessive] conferencias</li>
-    <li>anecdote->Según el [precis_synonym], el conocimiento de [ANYPAWN_nameFull] sobre [subject] era tan famoso que la gente lo detendría en la calle para preguntarle sobre ello</li>
+    <li>anecdote->Según el [precis_synonym], el conocimiento de [ANYPAWN_nameFull] sobre [subject] era tan amplio que la gente lo detendría en la calle para preguntarle sobre ello</li>
     <li>anecdote->Según la [note_location], [ANYPAWN_nameFull] estaba empobrecido y vendió los derechos de esta serie por muy poco</li>
     <li>anecdote->Según la [note_location], [ANYPAWN_nameFull] fue ciego desde el nacimiento, por lo que nunca vio [ANYPAWN_possessive] libro</li>
     <li>anecdote->Según la [note_location], el primer borrador del libro de texto de [ANYPAWN_nameFull] contó simplemente con cincuenta páginas sobre divagaciones estúpidas. Fue eliminado para la segunda edición</li>
@@ -2084,21 +2084,21 @@
     <li>textbook(p=6)->libro</li>
     <li>textbook->libro de ejercicios</li>
     <li>textbook->libro de referencia</li>
-    <li>textbook->compilación</li>
-    <li>textbook->guía</li>
+    <li>textbook->libro compilatorio</li>
+    <li>textbook->libro guía</li>
     <li>textbook->folleto</li>
     <li>textbook->plan de estudios</li>
     <li>textbook->libro de curso</li>
     <li>textbook->libro de referencia</li>
     <li>textbook->libro escolar</li>
-    <li>textbook->enciclopedia</li>
+    <li>textbook->libro enciclopédico</li>
     <li>textbook->manual de instrucciones</li>
     <li>textbook->libro comercial</li>
-    <li>textbook->obra</li>
+    <li>textbook->escrito</li>
     <li>precis_synonym->resumen</li>
     <li>precis_synonym->frontispicio</li>
     <li>precis_synonym->abstracto</li>
-    <li>precis_synonym->sinopsis</li>
+    <li>precis_synonym->sumario</li>
     <li>precis_synonym->esquema</li>
     <li>precis_synonym->digesto</li>
     <li>note_location->portada</li>
@@ -2142,13 +2142,13 @@
     <li>notable_adjective->común</li>
     <li>notable_adjective->familiar</li>
     <li>notable_adjective->intemporal</li>
-    <li>notable_adjective->desproporcionado</li>
+    <li>notable_adjective->tan útil</li>
     <li>notable_adjective->armónico</li>
     <li>notable_adjective->elegante</li>
     <li>notable_adjective->simple</li>
     <li>notable_adjective->funcional</li>
     <li>notable_adjective->mundo urbano</li>
-    <li>notable_adjective->mundobrillante</li>
+    <li>notable_adjective->de mundobrillante</li>
     <li>notable_adjective->primitivo</li>
     <li>notable_adjective->decorativo</li>
     <li>exterior_quality(quality[greater_than]4)->El exterior de este libro está finamente encuadernado y</li>
@@ -2174,7 +2174,7 @@
     <li>page_decent->están en un estado decente</li>
     <li>page_decent->son legibles, aunque algo arrugadas</li>
     <li>page_decent->son perfectamente legibles</li>
-    <li>page_decent->están bien conservadas, aunque están ligeramente rayadas</li>
+    <li>page_decent->están bien conservadas, aunque están ligeramente desgastadas</li>
     <li>page_awful->parecen estar escritas en pergamino muy antiguo</li>
     <li>page_awful->están muy dañadas</li>
     <li>page_awful->están manchadas con una sustancia oscura</li>
