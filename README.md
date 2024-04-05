@@ -14,7 +14,7 @@ Las traducciones que vienen con el juego no se actualizan automáticamente.
 
 Cada vez que el juego se actualiza, Ludeon coge los archivos de los repositorios oficiales y los "empaqueta" para incluirlos en el juego.
 
-Si queréis actualizar las traducciones a las más recientes, de forma semi-automática; seguid [esta guía](Instalar/InstallGuide.md).
+Si queréis actualizar las traducciones a las más recientes, de forma semiautomática, seguid [esta guía](Instalar/InstallGuide.md).
 
 ---
 ### Limpiar **archivos de traducción**:
