@@ -209,7 +209,7 @@
     <li>bookType->epic poem</li>
   -->
   <Description_Novel.rulePack.rulesStrings>
-    <li>desc->Esta [writingQualityAdjective] [bookType] [follows] un [PersonJob] mientras [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->Esta [bookType] [writingQualityAdjective] [follows] un [PersonJob] mientras [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
     <li>desc->En esta [writingQualityAdjective] [bookType], el [author] [tellsAStoryOf] [ANYPAWN_possessive] [storySource]. [writingQualitySentence]. [maybe_date]</li>
     <li>follows->sigue a</li>
     <li>follows->cubre los hechos ocurridos a</li>
@@ -222,14 +222,14 @@
     <li>storyStruggles->[seeks] [seekObjective]</li>
     <li>struggles->lucha</li>
     <li>struggles->pelea</li>
-    <li>struggles->se esfuerza</li>
+    <li>struggles->resiste</li>
     <li>opponent->la injusticia</li>
     <li>opponent->el miedo</li>
     <li>opponent->un [Enemy] peligroso</li>
     <li>opponent->un [PersonJob] rival</li>
     <li>opponent->la falta de sentido de [ConceptPositive]</li>
     <li>opponent->[protagHis] malvado [PersonFamily]</li>
-    <li>opponent->las normas sociales de la comunidad de [protagHis]</li>
+    <li>opponent->las normas sociales de su comunidad</li>
     <li>seeks->busca</li>
     <li>seeks->busca en el universo</li>
     <li>seeks->intenta encontrar</li>
@@ -243,13 +243,13 @@
     <li>seeks->persigue con empeño</li>
     <li>seeks->no deja piedra sin remover en busca de</li>
     <li>seeks->se embarca en una búsqueda de</li>
-    <li>seeks->rasga la carne de [protagHis] mientras busca</li>
+    <li>seeks->rasga la carne de [protagHim] mientras busca</li>
     <li>seeks->se esfuerza por localizar</li>
     <li>seeks->busca diligentemente</li>
     <li>seeks->vaga en busca de</li>
     <li>seeks->emprende una misión para encontrar</li>
     <li>seekObjective->un misterioso cubo dorado</li>
-    <li>seekObjective->un demonio dentro de la cabeza de [protagHis]</li>
+    <li>seekObjective->un demonio dentro de la cabeza de [protagHim]</li>
     <li>seekObjective->el [Vegetable] más sabroso del universo</li>
     <li>seekObjective->un nuevo [Weapon] brillante</li>
     <li>seekObjective->[protagHis] mascota perdida [Animal]</li>
@@ -342,7 +342,7 @@
     <li>storySource->fascinación con los viajes en el tiempo</li>
     <li>storySource->conexión con un artefacto legendario</li>
     <li>writingQualityAdjective(quality==6)->perfectamente escrita</li>
-    <li>writingQualityAdjective(quality==5)->inteligente e perspicaz</li>
+    <li>writingQualityAdjective(quality==5)->inteligente y perspicaz</li>
     <li>writingQualityAdjective(quality==4)->pensativa y elocuente</li>
     <li>writingQualityAdjective(quality==3)->bien escrita</li>
     <li>writingQualityAdjective(quality==2)->mediocre</li>
@@ -353,15 +353,15 @@
     <li>writingQualitySentence(quality[less_than]2)->Es [awfulDesc] [awfulExtra]</li>
     <li>excellentDesc->una emocionante historia llena de acción</li>
     <li>excellentDesc->una exploración reflexiva del espíritu humano</li>
-    <li>excellentDesc->profundamente perspicaz sobre la complejidad del mundo</li>
+    <li>excellentDesc->una reflexión astuta sobre la complejidad del mundo</li>
     <li>excellentDesc->escrita de manera compacta y rica en emociones</li>
     <li>excellentDesc->creativa y original</li>
-    <li>excellentDesc->increíblemente original y notablemente bien elaborada</li>
+    <li>excellentDesc->increíblemente original y está notablemente bien elaborada</li>
     <li>excellentDesc->llena de humor con el que es fácil identificarse</li>
-    <li>excellentExtra->. Cada momento de la historia fluye naturalmente hacia el siguiente</li>
+    <li>excellentExtra->. Cada capítulo del libro fluye hacia el siguiente con gran naturalidad</li>
     <li>excellentExtra->. Es difícil dejar de leer, cada página es un giro emocionante</li>
-    <li>excellentExtra->. Sorprende al lector al menos tres veces con giros inesperados</li>
-    <li>excellentExtra->. Los giros de la trama son impredecibles pero al mismo tiempo inevitables</li>
+    <li>excellentExtra->. Sorprende al lector al menos tres veces con sus giros argumentales inesperados</li>
+    <li>excellentExtra->. Los giros de la trama son impredecibles, pero al mismo tiempo inevitables</li>
     <li>excellentExtra->. Los personajes se sienten como personas reales</li>
     <li>decentDesc->una historia decente</li>
     <li>decentDesc->interesante y atractiva</li>
@@ -370,15 +370,15 @@
     <li>decentDesc->atrapante en algunas partes</li>
     <li>decentDesc->original y peculiar</li>
     <li>decentDesc->atractiva para un cierto tipo de lector</li>
-    <li>decentExtra-> pero tiene algunos agujeros de trama evidentes</li>
-    <li>decentExtra-> pero a menudo es difícil de seguir</li>
-    <li>decentExtra-> pero está plagada de errores de coherencia</li>
-    <li>decentExtra-> pero carece de emociones profundas</li>
-    <li>decentExtra-> pero los personajes son trillados y caricaturescos</li>
-    <li>decentExtra-> pero el autor constantemente utiliza palabras de manera inapropiada para parecer inteligente</li>
-    <li>decentExtra-> pero el mundo es poco original y aburrido</li>
-    <li>decentExtra-> pero la escritura es excesivamente florida</li>
-    <li>decentExtra-> pero muchos de los momentos de la historia son innecesarios y no logran avanzar la trama</li>
+    <li>decentExtra->, pero tiene algunos agujeros de trama evidentes</li>
+    <li>decentExtra->, pero a menudo es difícil de seguir</li>
+    <li>decentExtra->, pero está plagada de errores de coherencia</li>
+    <li>decentExtra->, pero carece de emociones profundas</li>
+    <li>decentExtra->, pero los personajes son trillados y caricaturescos</li>
+    <li>decentExtra->, pero el autor constantemente utiliza palabras de manera inapropiada para parecer inteligente</li>
+    <li>decentExtra->, pero el mundo es poco original y aburrido</li>
+    <li>decentExtra->, pero la escritura es excesivamente florida</li>
+    <li>decentExtra->, pero muchos de los momentos de la historia son innecesarios y no logran avanzar la trama</li>
     <li>awfulDesc->muy mal escrito</li>
     <li>awfulDesc->terriblemente escrito</li>
     <li>awfulDesc->difícil de leer</li>
@@ -386,7 +386,7 @@
     <li>awfulDesc->carente de visión artística</li>
     <li>awfulDesc->llena de agujeros de trama y personajes genéricos</li>
     <li>awfulDesc->dominada por un personaje de autor autoinserción</li>
-    <li>awfulDesc->extraña pero poco original</li>
+    <li>awfulDesc->extravagante, pero poco original</li>
     <li>awfulDesc->demasiado larga</li>
     <li>awfulExtra-> y la escritura es casi incomprensible</li>
     <li>awfulExtra-> y es extremadamente difícil de seguir</li>
@@ -1270,8 +1270,8 @@
     <li>nonphys_desc->[otherwordly_nonphys_desc]</li>
     <li>nonphys_desc->[technical_nonphys_desc]</li>
     <li>nonphys_desc->[academic_nonphys_desc]</li>
-    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1] pero [positive_physical_statement2]</li>
-    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1] pero [negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1], pero [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1], pero [negative_physical_statement2]</li>
     <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1] y [positive_physical_statement2]</li>
     <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. Además, [negative_physical_statement2]</li>
     <li>negative_physical_statement->[negative_physical_statement1]</li>
