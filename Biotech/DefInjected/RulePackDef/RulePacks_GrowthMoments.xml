@@ -185,7 +185,7 @@
     <li>secondSentence(tierSection==3)->Sobre todo, a [PAWN_nameDef] le encanta [situationFun].</li>
     <li>firstSentence(tierSection==2)->[PAWN_pronoun] ha mostrado un [nounGrowth] y quiere mantenerlo [situationLearningGerund].</li>
     <li>firstSentence(tierSection==2)->[PAWN_pronoun] tiene un [nounAttitudeGood] por saber más.</li>
-    <li>firstSentence(tierSection==2)->Emocionado(a) por [nounFuture], a [PAWN_pronoun] le gustaría pasar tiempo [situationLearningGerund].</li>
+    <li>firstSentence(tierSection==2)->Emocionad{PAWN_gender ? o : a} por [nounFuture], a [PAWN_pronoun] le gustaría pasar tiempo [situationLearningGerund].</li>
     <li>firstSentence(tierSection==2)->[PAWN_pronoun] ha desarrollado una nueva pasión por [situationLearning].</li>
     <li>secondSentence(tierSection==2)->[PAWN_nameDef] disfruta [situationFun].</li>
     <li>secondSentence(tierSection==2)->[PAWN_nameDef] espera poder pasar más tiempo sin crecer para [situationFun].</li>
@@ -195,7 +195,7 @@
     <li>firstSentence(tierSection==1)->Aunque es optimista sobre [nounFuture], [PAWN_pronoun] ha mostrado poco [nounGrowth].</li>
     <li>firstSentence(tierSection==1)->[PAWN_pronoun] espera que las cosas mejoren en [nounFuture].</li>
     <li>firstSentence(tierSection==1)->[PAWN_pronoun] ha mostrado un mínimo de [nounGrowth], quejándose de que [situationLearning] es aburrido.</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] desea tener más tiempo para [situationFun], pero está muy ocupado(a) preocupándose por [situationBad].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] desea tener más tiempo para [situationFun], pero está muy ocupad{PAWN_gender ? o : a} preocupándose por [situationBad].</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] a menudo se siente [feelingBad] mientras [situationFunVar].</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] tiene un extraño temor de que por [situationFun] y que acabará [situationBadGerund].</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] tiene pesadillas periódicas sobre [situationBad].</li>
@@ -204,8 +204,8 @@
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] no ha conseguido desarrollar nuevas pasiones y tiene poco [nounAttitudeGood] por [nounFuture].</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] ha mostrado poco interés en aprender y sobre todo no le gusta [situationLearning].</li>
     <li>secondSentence(tierSection==0)->[PAWN_nameDef] solo le interesa [situationFun].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] se ve constantemente frenado(a) por el miedo a [situationBad].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] vive con el temor de resultar gravemente herido(a) como consecuencia de [situationBad].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] se ve constantemente frenado{PAWN_gender ? o : a} por el miedo a [situationBad].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] vive con el temor de resultar gravemente herid{PAWN_gender ? o : a} como consecuencia de [situationBad].</li>
     <li>secondSentence(tierSection==0)->[PAWN_nameDef] tiene una pesadilla recurrente en la que [PAWN_pronoun] está [situationFunGerund], lo que le hizo imaginarse [situationBadGerund].</li>
     <li>adjGood->gran</li>
     <li>adjGood->insaciable</li>
