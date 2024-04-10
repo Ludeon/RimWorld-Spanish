@@ -135,8 +135,6 @@
     <!--Caracteristicas Personales:-->
     <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
     <li>PersonalCharacteristic_Fem->Words/Nouns/PersonalCharacteristics_fem</li>
-    <li>characteristic->Words/Nouns/PersonalCharacteristics</li>
-    <li>characteristic_Fem->Words/Nouns/PersonalCharacteristics_fem</li>
     
     <!--Tipos de Personajes:-->
     <li>PersonAlly->Words/Nouns/People_Allies</li>
@@ -378,7 +376,7 @@
     <li>founder_Heroe(founder_gender==Male)->Un héroe</li>
     <li>founder_Heroe(founder_gender!=Male)->Una heroína</li>
     <!-- pilgrim -->
-    <li>siendo(pilgrimCount==1)->está siedo respetado</li>
+    <li>siendo(pilgrimCount==1)->está siendo respetado</li>
     <li>siendo(pilgrimCount>=2)->están siendo respetados</li>
     <li>mayOffers(pilgrimCount==1)->podría</li>
     <li>mayOffers(pilgrimCount>=2)->podrían</li>
@@ -506,8 +504,8 @@
     <li>AnimalEpicenoF(lodgersPawnKind==Chicken,lodgers0_gender==Female)->gallina</li>
     <li>AnimalEpicenoM(lodgersPawnKind==Cow,lodgers0_gender==Male)->toro</li>
     <li>AnimalEpicenoF(lodgersPawnKind==Cow,lodgers0_gender==Female)->vaca</li>
-    <li>AnimalEpicenoM(lodgersPawnKind==Donkey,lodgers0_gender==Male)->asno</li>
-    <li>AnimalEpicenoF(lodgersPawnKind==Donkey,lodgers0_gender==Female)->asna</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Donkey,lodgers0_gender==Male)->burro</li>
+    <li>AnimalEpicenoF(lodgersPawnKind==Donkey,lodgers0_gender==Female)->burra</li>
     <li>AnimalEpicenoM(lodgersPawnKind==Duck,lodgers0_gender==Male)->pato</li>
     <li>AnimalEpicenoF(lodgersPawnKind==Duck,lodgers0_gender==Female)->pata</li>
     <li>AnimalEpicenoF(lodgersPawnKind==Goat)->cabra</li>
@@ -631,7 +629,7 @@
     <li>AnimalEpicenoDef(lodgersPawnKind==Deer,lodgers0_gender==Female)->la cierva</li>
     <li>AnimalEpicenoDef(lodgersPawnKind==Elk,lodgers0_gender==Male)->el ciervo canadiense</li>
     <li>AnimalEpicenoDef(lodgersPawnKind==Elk,lodgers0_gender==Female)->la cierva canadiense</li>
-    <li>AnimalEpicenoDef(lodgersPawnKind==Ibex)->un cabrito montés</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Ibex)->el cabrito montés</li>
     <li>AnimalEpicenoDef(lodgersPawnKind==Tortoise)->la tortuga</li>
     <li>AnimalEpicenoDef(lodgersPawnKind==WildBoar)->el jabalí</li>
     <!-- Epiceno Male Female -->
