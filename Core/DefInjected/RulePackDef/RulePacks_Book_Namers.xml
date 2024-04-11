@@ -395,16 +395,15 @@
     <li>title->[maybe_authored_title]</li>
     <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] in the [subject_secondary] sector</li>
     <li>title->[studiesStart] [subject_primary] following [lifeEvent]</li>
-    <li>title->[studiesStart] [subject_primary]: anecdotes</li>
-    <li>title->[studiesStart] [subject_primary]: a [anomAdj][discussionNoun]</li>
-    <li>title->The [anomAdj][subject_primary] [referenceType]</li>
-    <li>title->The [referenceType] of [anomAdj][subject_primary], Vol. [volNumeral]</li>
-    <li>title->[studiesStart] [anomAdj][subject_primary], Vol. [volNumeral]</li>
-    <li>title->The [referenceType] of [studiesStart] [anomAdj][subject_primary]</li>
+    <li>title->[studiesStart] [subject_primary]: [anecdotes]</li>
+    <li>title->[studiesStart] [subject_primary]: a [randAdjective] [discussionNoun]</li>
+    <li>title->The [randAdjective] [subject_primary] [referenceType]</li>
+    <li>title->The [referenceType] of [randAdjective] [subject_primary], Vol. [volNumeral]</li>
+    <li>title->[studiesStart] [randAdjective] [subject_primary], Vol. [volNumeral]</li>
+    <li>title->The [referenceType] of [studiesStart] [randAdjective] [subject_primary]</li>
     <li>title->The [lifeEvent] [discussionNoun] and [subject_primary]</li>
-    <li>title->A [bookCompound] [referenceType]</li>
     <li>studiesStart->Studies in</li>
-    <li>studiesStart->Fundamentals of </li>
+    <li>studiesStart->Fundamentals of</li>
     <li>studiesStart->Managing</li>
     <li>studiesStart->Histories of</li>
     <li>studiesStart->Working in</li>
@@ -478,7 +477,7 @@
     <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] and [randTheme]</li>
     <li>subjectsTuple->[subject_primary] and [randTheme]</li>
     <li>randAdjective->Basic</li>
-    <li>randAdjective->The Best</li>
+    <li>randAdjective->Best</li>
     <li>randAdjective->Glitterworld</li>
     <li>randAdjective->Medieval</li>
     <li>randAdjective->Archaic</li>
@@ -488,7 +487,7 @@
     <li>randAdjective->Grotesque</li>
     <li>randAdjective->Sepulchral</li>
     <li>randAdjective->Holy</li>
-    <li>randAdjective->The Darkest</li>
+    <li>randAdjective->Darkest</li>
     <li>randAdjective->Subworld</li>
     <li>randAdjective->Primitive</li>
     <li>randAdjective->Survival</li>
@@ -523,12 +522,12 @@
     <li>title->[maybe_authored_title]</li>
     <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] en el sector [subject_secondary]</li>
     <li>title->[studiesStart] [subject_primary] tras [lifeEvent]</li>
-    <li>title->[studiesStart] [subject_primary]: anécdotas</li>
-    <li>title->[studiesStart] [subject_primary]: un [anomAdj][discussionNoun]</li>
-    <li>title->El [anomAdj][subject_primary] [referenceType]</li>
-    <li>title->El [referenceType] de [anomAdj][subject_primary], Vol. [volNumeral]</li>
-    <li>title->[studiesStart] [anomAdj][subject_primary], Vol. [volNumeral]</li>
-    <li>title->El [referenceType] de [studiesStart] [anomAdj][subject_primary]</li>
+    <li>title->[studiesStart] [subject_primary]: [anecdotes]</li>
+    <li>title->[studiesStart] [subject_primary]: un [randAdjective] [discussionNoun]</li>
+    <li>title->El [randAdjective] [subject_primary] [referenceType]</li>
+    <li>title->El [referenceType] de [randAdjective] [subject_primary], Vol. [volNumeral]</li>
+    <li>title->[studiesStart] [randAdjective] [subject_primary], Vol. [volNumeral]</li>
+    <li>title->El [referenceType] de [studiesStart] [randAdjective] [subject_primary]</li>
     <li>title->El [lifeEvent] [discussionNoun] y [subject_primary]</li>
     <li>title->Un [bookCompound] [referenceType]</li>
     <li>studiesStart->Estudios en</li>
@@ -606,7 +605,7 @@
     <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] y [randTheme]</li>
     <li>subjectsTuple->[subject_primary] y [randTheme]</li>
     <li>randAdjective->Básico</li>
-    <li>randAdjective->El mejor</li>
+    <li>randAdjective->Mejor</li>
     <li>randAdjective->Mundofucsia</li>
     <li>randAdjective->Medieval</li>
     <li>randAdjective->Arcaico</li>
@@ -616,7 +615,7 @@
     <li>randAdjective->Grotesco</li>
     <li>randAdjective->Sepulcral</li>
     <li>randAdjective->Santo</li>
-    <li>randAdjective->El más oscuro</li>
+    <li>randAdjective->Más oscuro</li>
     <li>randAdjective->Submundo</li>
     <li>randAdjective->Primitivo</li>
     <li>randAdjective->Supervivencia</li>
@@ -709,9 +708,6 @@
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Study of [subject_primary]</li>
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Investigation into [subject_primary]</li>
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Research on [subject_primary]</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] on [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] on [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
@@ -859,9 +855,6 @@
     <li>titleAuthoredOneSubject->Estudio de [subject_primary] por [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredOneSubject->Investigación de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
     <li>titleAuthoredOneSubject->Investigación de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->Guía de [subjectsTuple] por [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredTwoSubjects->Introducción a [subjectsTuple] por [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->Guía de [subjectsTuple] por [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredTwoSubjects->Introducción a [subjectsTuple] por [ANYPAWN_nameIndef]</li>
