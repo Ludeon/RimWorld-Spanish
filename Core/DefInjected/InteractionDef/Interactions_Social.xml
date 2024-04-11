@@ -99,9 +99,11 @@
   <Insult.label>insulto</Insult.label>
   <!-- EN:
     <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [characteristic].</li>
-    <li>r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison].</li>
-    <li>r_logentry->[INITIATOR_nameDef] called [target] a [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] compared [target] to [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] called [target] [insultcomparison].</li>
     <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] called [target] a false idol worshipper.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] implied that [target] had been driven insane by the golden cube.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] [insulted] the golden cube.</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
     <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
@@ -116,10 +118,11 @@
     <li>insulted->slandered</li>
     <li>insulted->hurled invective about</li>
     <li>insulted->derided</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->[Animal]</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==false)->[Enemy]</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==true)->sphere</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==true)->non-cubic geometric shape</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->a [Animal]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false)->a [Enemy]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->a sphere</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->something totally pointless</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->a non-cubic platonic object</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] la [characteristic_Fem] de [target].</li>
@@ -130,6 +133,8 @@
     <li>r_logentry->[INITIATOR_nameDef] comparó a [target] con un [insultcomparison_mas].</li>
     <li>r_logentry->[INITIATOR_nameDef] llamó a [target] [insultcomparison].</li>
     <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] llamó a [target] falso adorador de ídolos.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] insinuó que [target] se ha vuelto majara por el cubo dorado.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] [insulted] al cubo dorado.</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
     <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
@@ -145,12 +150,13 @@
     <li>insulted->insultó</li>
     <li>insulted_mas->se burló</li>
     <li>insulted_fem->se burló</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->[Animal]</li>
-    <li>insultcomparison_fem(INITIATOR_cubeInterest==false,p=2)->[Animal_fem]</li>
-    <li>insultcomparison_mas(p=2)->[INITIATOR_cubeInterest==false,Animal_mas]</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==false)->[Enemy]</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==true)->esfera</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==true)->forma geométrica no cúbica</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->un(a) [Animal]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false)->un(a) [Enemy]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->una esfera</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->algo completamente estúpido</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->un objeto platónico no cúbico</li>
+    <li>insultcomparison_fem(p=2)->[Animal_fem]</li>
+    <li>insultcomparison_mas(p=2)->[Animal_mas]</li>
   </Insult.logRulesInitiator.rulesStrings>
   
   <!-- EN: kind words -->

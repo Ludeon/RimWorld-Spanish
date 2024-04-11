@@ -209,7 +209,7 @@
     <li>bookType->epic poem</li>
   -->
   <Description_Novel.rulePack.rulesStrings>
-    <li>desc->Esta [writingQualityAdjective] [bookType] [follows] un [PersonJob] mientras [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->Esta [bookType] [writingQualityAdjective] [follows] un [PersonJob] mientras [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
     <li>desc->En esta [writingQualityAdjective] [bookType], el [author] [tellsAStoryOf] [ANYPAWN_possessive] [storySource]. [writingQualitySentence]. [maybe_date]</li>
     <li>follows->sigue a</li>
     <li>follows->cubre los hechos ocurridos a</li>
@@ -222,14 +222,14 @@
     <li>storyStruggles->[seeks] [seekObjective]</li>
     <li>struggles->lucha</li>
     <li>struggles->pelea</li>
-    <li>struggles->se esfuerza</li>
+    <li>struggles->resiste</li>
     <li>opponent->la injusticia</li>
     <li>opponent->el miedo</li>
     <li>opponent->un [Enemy] peligroso</li>
     <li>opponent->un [PersonJob] rival</li>
     <li>opponent->la falta de sentido de [ConceptPositive]</li>
     <li>opponent->[protagHis] malvado [PersonFamily]</li>
-    <li>opponent->las normas sociales de la comunidad de [protagHis]</li>
+    <li>opponent->las normas sociales de su comunidad</li>
     <li>seeks->busca</li>
     <li>seeks->busca en el universo</li>
     <li>seeks->intenta encontrar</li>
@@ -243,13 +243,13 @@
     <li>seeks->persigue con empeño</li>
     <li>seeks->no deja piedra sin remover en busca de</li>
     <li>seeks->se embarca en una búsqueda de</li>
-    <li>seeks->rasga la carne de [protagHis] mientras busca</li>
+    <li>seeks->rasga la carne de [protagHim] mientras busca</li>
     <li>seeks->se esfuerza por localizar</li>
     <li>seeks->busca diligentemente</li>
     <li>seeks->vaga en busca de</li>
     <li>seeks->emprende una misión para encontrar</li>
     <li>seekObjective->un misterioso cubo dorado</li>
-    <li>seekObjective->un demonio dentro de la cabeza de [protagHis]</li>
+    <li>seekObjective->un demonio dentro de la cabeza de [protagHim]</li>
     <li>seekObjective->el [Vegetable] más sabroso del universo</li>
     <li>seekObjective->un nuevo [Weapon] brillante</li>
     <li>seekObjective->[protagHis] mascota perdida [Animal]</li>
@@ -342,7 +342,7 @@
     <li>storySource->fascinación con los viajes en el tiempo</li>
     <li>storySource->conexión con un artefacto legendario</li>
     <li>writingQualityAdjective(quality==6)->perfectamente escrita</li>
-    <li>writingQualityAdjective(quality==5)->inteligente e perspicaz</li>
+    <li>writingQualityAdjective(quality==5)->inteligente y perspicaz</li>
     <li>writingQualityAdjective(quality==4)->pensativa y elocuente</li>
     <li>writingQualityAdjective(quality==3)->bien escrita</li>
     <li>writingQualityAdjective(quality==2)->mediocre</li>
@@ -353,15 +353,15 @@
     <li>writingQualitySentence(quality[less_than]2)->Es [awfulDesc] [awfulExtra]</li>
     <li>excellentDesc->una emocionante historia llena de acción</li>
     <li>excellentDesc->una exploración reflexiva del espíritu humano</li>
-    <li>excellentDesc->profundamente perspicaz sobre la complejidad del mundo</li>
+    <li>excellentDesc->una reflexión astuta sobre la complejidad del mundo</li>
     <li>excellentDesc->escrita de manera compacta y rica en emociones</li>
     <li>excellentDesc->creativa y original</li>
-    <li>excellentDesc->increíblemente original y notablemente bien elaborada</li>
+    <li>excellentDesc->increíblemente original y está notablemente bien elaborada</li>
     <li>excellentDesc->llena de humor con el que es fácil identificarse</li>
-    <li>excellentExtra->. Cada momento de la historia fluye naturalmente hacia el siguiente</li>
+    <li>excellentExtra->. Cada capítulo del libro fluye hacia el siguiente con gran naturalidad</li>
     <li>excellentExtra->. Es difícil dejar de leer, cada página es un giro emocionante</li>
-    <li>excellentExtra->. Sorprende al lector al menos tres veces con giros inesperados</li>
-    <li>excellentExtra->. Los giros de la trama son impredecibles pero al mismo tiempo inevitables</li>
+    <li>excellentExtra->. Sorprende al lector al menos tres veces con sus giros argumentales inesperados</li>
+    <li>excellentExtra->. Los giros de la trama son impredecibles, pero al mismo tiempo inevitables</li>
     <li>excellentExtra->. Los personajes se sienten como personas reales</li>
     <li>decentDesc->una historia decente</li>
     <li>decentDesc->interesante y atractiva</li>
@@ -370,15 +370,15 @@
     <li>decentDesc->atrapante en algunas partes</li>
     <li>decentDesc->original y peculiar</li>
     <li>decentDesc->atractiva para un cierto tipo de lector</li>
-    <li>decentExtra-> pero tiene algunos agujeros de trama evidentes</li>
-    <li>decentExtra-> pero a menudo es difícil de seguir</li>
-    <li>decentExtra-> pero está plagada de errores de coherencia</li>
-    <li>decentExtra-> pero carece de emociones profundas</li>
-    <li>decentExtra-> pero los personajes son trillados y caricaturescos</li>
-    <li>decentExtra-> pero el autor constantemente utiliza palabras de manera inapropiada para parecer inteligente</li>
-    <li>decentExtra-> pero el mundo es poco original y aburrido</li>
-    <li>decentExtra-> pero la escritura es excesivamente florida</li>
-    <li>decentExtra-> pero muchos de los momentos de la historia son innecesarios y no logran avanzar la trama</li>
+    <li>decentExtra->, pero tiene algunos agujeros de trama evidentes</li>
+    <li>decentExtra->, pero a menudo es difícil de seguir</li>
+    <li>decentExtra->, pero está plagada de errores de coherencia</li>
+    <li>decentExtra->, pero carece de emociones profundas</li>
+    <li>decentExtra->, pero los personajes son trillados y caricaturescos</li>
+    <li>decentExtra->, pero el autor constantemente utiliza palabras de manera inapropiada para parecer inteligente</li>
+    <li>decentExtra->, pero el mundo es poco original y aburrido</li>
+    <li>decentExtra->, pero la escritura es excesivamente florida</li>
+    <li>decentExtra->, pero muchos de los momentos de la historia son innecesarios y no logran avanzar la trama</li>
     <li>awfulDesc->muy mal escrito</li>
     <li>awfulDesc->terriblemente escrito</li>
     <li>awfulDesc->difícil de leer</li>
@@ -386,7 +386,7 @@
     <li>awfulDesc->carente de visión artística</li>
     <li>awfulDesc->llena de agujeros de trama y personajes genéricos</li>
     <li>awfulDesc->dominada por un personaje de autor autoinserción</li>
-    <li>awfulDesc->extraña pero poco original</li>
+    <li>awfulDesc->extravagante, pero poco original</li>
     <li>awfulDesc->demasiado larga</li>
     <li>awfulExtra-> y la escritura es casi incomprensible</li>
     <li>awfulExtra-> y es extremadamente difícil de seguir</li>
@@ -443,7 +443,7 @@
     <li>schematic_desc_first->this is only a fragment of a full [schematic_synonym] for [subject_primary_gerund] </li>
     <li>schematic_desc_first->this [schematic_synonym] is [negative_adjective] in several places</li>
     <li>schematic_desc_first->the [schematic_synonym] for [subject_primary_gerund] is incomplete</li>
-    <li>schematic_desc_first->[subject_primary_gerund] with these [schematic_synonyms]s is complicated by contradictory annotations</li>
+    <li>schematic_desc_first->[subject_primary_gerund] with these [schematic_synonym]s is complicated by contradictory annotations</li>
     <li>schematic_desc_first->the author's [negative_adjective] understanding of [subject_primary_gerund] is apparent throughout</li>
     <li>schematic_desc_first->part of the [schematic_synonym] has been torn away</li>
     <li>schematic_desc_first->fire and soot have marred the paper</li>
@@ -479,7 +479,7 @@
     <li>schematic_desc_second(quality[greater_than]4)->. Yet, the content is exceptional for the era</li>
     <li>schematic_desc_second(quality[greater_than]4)->, yet it conveys advanced concepts with ease</li>
     <li>schematic_desc_second(quality[greater_than]4)->, but it is still full of wisdom for all learners</li>
-    <li>schematic_desc_second(quality[greater_than]4)->. Despite this, every student will benefit from reading it, no matter how experienced.</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Despite this, every student will benefit from reading it, no matter how experienced</li>
     <li>schematic_desc_second(quality[greater_than]4)->, but the issues are minor compared to the wealth of knowledge it contains</li>
     <li>schematic_desc_second(quality[greater_than]4)->. However, the lessons it teaches are timeless</li>
     <li>medium->An in-built sensory system [tells_verb]s to listeners [schematic_origin]</li>
@@ -515,7 +515,7 @@
     <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
     <li>author_storyname->the unnamed [authorTitle]</li>
     <li>author_intent-> was hungry for knowledge about [subject] from a young age and questioned everyone in [ANYPAWN_possessive] hometown</li>
-    <li>author_intent-> dreamed of rejuvenating [subject] and leading a scientific revolution on Kuhn[worldname]</li>
+    <li>author_intent-> dreamed of rejuvenating [subject], leading a scientific revolution on Kuhn[worldname]</li>
     <li>author_intent-> made [subject] [ANYPAWN_possessive] life's work</li>
     <li>author_intent-> shared [ANYPAWN_possessive] views on [subject] in a [physical_adjective] book, written [written_when]</li>
     <li>author_intent-> knew of no calling finer than the study of [subject] and created this schematic [written_when]</li>
@@ -529,7 +529,7 @@
     <li>learning_story-> traveled far and wide, seeking wisdom about [subject]</li>
     <li>learning_story-> lived an identical day every day, working on [subject] in the cyclical cities of [midworld]</li>
     <li>learning_story-> came up through a [subject]-focused slumschool on [urbworld]</li>
-    <li>learning_story-> graduated with honors in [subject] from the [world-name] Academy </li>
+    <li>learning_story-> graduated with honors in [subject] from the [worldname] Academy</li>
     <li>learning_story-> taught [ANYPAWN_objective]self about [subject] on the feral world of [animalworld]</li>
     <li>learning_story-> discovered a trove of lost schematics about [subject] in the ruins of [ruinworld]</li>
     <li>learning_story-> traversed the blackened streets of [steamworld], chasing [subject] amidst the sootfall</li>
@@ -537,7 +537,7 @@
     <li>learning_story-> scoured the melted suburbs of the glassed world of [glassworld], searching for knowledge of [subject]</li>
     <li>learning_story-> orbited the transcendent sphere of [transcendentworld], learning of [subject] by intercepting comms traffic</li>
     <li>learning_story-> went with the mules into the depths of [mineworld], listening to old miners tell stories of [subject] and learning its secrets</li>
-    <li>learning_story-> was an indentured [subject] expert on the coreworld of [coreworld] </li>
+    <li>learning_story-> was an indentured [subject] expert on the coreworld of [coreworld]</li>
     <li>learning_story-> owned the factories on the indworld of [indworld], indulging [ANYPAWN_possessive] love of [subject] whilst [ANYPAWN_possessive] workers slaved away</li>
     <li>learning_story-> learned about [subject] incarcerated in Cellcity V on [prisonworld], forever protesting [ANYPAWN_possessive] innocence</li>
     <li>learning_story-> pieced together this [subject] schematic in the hive-heaps of the trashworld [trashworld], collecting fragments discarded by idle glitterworld citizens</li>
@@ -548,8 +548,8 @@
     <li>calltoadventure-> was entrusted with starting a new colony, on [ANYPAWN_possessive] own, focused on [subject]</li>
     <li>calltoadventure->'s older sibling passed away, leaving [ANYPAWN_objective] as the family [subject] specialist</li>
     <li>calltoadventure-> learned of an abandoned Glitterworld colony that focused on [subject]</li>
-    <li>calltoadventure-> was on a solar cruiser when it was captured by [feudalworld] pirates. As a [subject] expert, they ransomed him for a high price </li>
-    <li>calltoadventure-> was blown off course to the deadworld of [deadworld], where she learned about [subject]</li>
+    <li>calltoadventure-> was on a solar cruiser when it was captured by [feudalworld] pirates. As a [subject] expert, they ransomed him for a high price</li>
+    <li>calltoadventure-> was blown off course to the deadworld of [deadworld], where [ANYPAWN_pronoun] learned about [subject]</li>
     <li>calltoadventure-> discovered a data file about [subject] in a broken mechanoid and learned from it</li>
     <li>calltoadventure-> followed a dirtmole down its burrow, where it taught [ANYPAWN_objective] about [subject]</li>
     <li>calltoadventure-> was brought up by a [subject]-loving Yttakin clan on [iceworld]</li>
@@ -599,8 +599,8 @@
     <li>digression_subject->neutroamine barter in the rich skyrippers of [coreworld]</li>
     <li>aftermath->The pages communicate nothing more of the [author]'s story</li>
     <li>aftermath->A [note] in a different hand says that the [author] was last seen heading for [deathworld]</li>
-    <li>aftermath->Pages are torn out here.</li>
-    <li>aftermath->The leaves are dotted with brown stains.</li>
+    <li>aftermath->Pages are torn out here</li>
+    <li>aftermath->The leaves are dotted with brown stains</li>
     <li>aftermath->Despite [ANYPAWN_possessive] adventures, [ANYPAWN_pronoun] managed to create this schematic</li>
     <li>aftermath->[ANYPAWN_pronoun] devoted [ANYPAWN_possessive] last years to this schematic</li>
     <li>aftermath->Later, [ANYPAWN_pronoun] found peace in this work. [subject_chat]</li>
@@ -609,6 +609,9 @@
     <li>subject_chat->Few dispute the findings in this [subject] document</li>
     <li>subject_chat->This document will be inspirational to anyone interested in [subject]</li>
     <li>subject_chat->Though the diagrams are faded, the [author]'s lessons on [subject] are valuable</li>
+    <li>authorTitle->author</li>
+    <li>authorTitle->scribe</li>
+    <li>authorTitle->writer</li>
     <li>linkage->this inspired [ANYPAWN_objective] and [ANYPAWN_pronoun] </li>
     <li>linkage->this proved useful later when [ANYPAWN_pronoun] </li>
     <li>linkage->using this knowledge, [ANYPAWN_pronoun] </li>
@@ -1111,7 +1114,7 @@
     <li>schematic_desc_second(quality[greater_than]4)->. Sin embargo, el contenido es excepcional para la época</li>
     <li>schematic_desc_second(quality[greater_than]4)->, sin embargo, transmite conceptos avanzados con facilidad</li>
     <li>schematic_desc_second(quality[greater_than]4)->, pero aún está lleno de sabiduría para todos los estudiantes</li>
-    <li>schematic_desc_second(quality[greater_than]4)->. A pesar de esto, todos los estudiantes se beneficiarán leyéndolo, sin importar cuán experimentados sean.</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. A pesar de esto, todos los estudiantes se beneficiarán leyéndolo, sin importar cuán experimentados sean</li>
     <li>schematic_desc_second(quality[greater_than]4)->, pero los problemas son menores en comparación con la gran cantidad de conocimiento que contiene</li>
     <li>schematic_desc_second(quality[greater_than]4)->. Sin embargo, las lecciones que enseña son atemporales</li>
     <li>medium->Un sistema sensorial incorporado [tells_verb] a los oyentes [schematic_origin]</li>
@@ -1161,7 +1164,7 @@
     <li>learning_story-> viajó lejos y ancho, buscando sabiduría sobre [subject]</li>
     <li>learning_story-> vivió un día idéntico todos los días, trabajando en [subject] en las ciudades cíclicas de [midworld]</li>
     <li>learning_story-> se formó en una escuela de barrios bajos centrada en [subject] en [urbworld]</li>
-    <li>learning_story-> se graduó con honores en [subject] de la Academia [world-name]</li>
+    <li>learning_story-> se graduó con honores en [subject] de la Academia [worldname]</li>
     <li>learning_story-> se enseñó a [ANYPAWN_objective] mismo sobre [subject] en el mundo salvaje de [animalworld]</li>
     <li>learning_story-> descubrió un tesoro de esquemas perdidos sobre [subject] en las ruinas de [ruinworld]</li>
     <li>learning_story-> recorrió las calles ennegrecidas de [steamworld], persiguiendo [subject] en medio de la lluvia de hollín</li>
@@ -1177,21 +1180,21 @@
     <li>learning_story-> vivió en las torres flotantes de [urbworld], donde el conocimiento de [subject] era común</li>
     <li>learning_story-> fue criado en los páramos exteriores de [ruinworld], aprendiendo [subject] para sobrevivir</li>
     <li>calltoadventure-> sintió que [ANYPAWN_possessive] vida estaba estancada. Entonces un día, [ANYPAWN_pronoun] encontró [subject]</li>
-    <li>calltoadventure-> fue confiado para comenzar una nueva colonia, por su cuenta, centrada en [subject]</li>
-    <li>calltoadventure-> vio a su hermano mayor fallecer, dejando a [ANYPAWN_objective] como el especialista de la familia en [subject]</li>
-    <li>calltoadventure-> se enteró de una colonia abandonada de Mundo de Brillo que se centraba en [subject]</li>
-    <li>calltoadventure-> estaba en un crucero solar cuando fue capturado por piratas de [feudalworld]. Como experto en [subject], lo rescataron por un alto precio </li>
-    <li>calltoadventure-> fue desviado al mundo muerto de [deadworld], donde aprendió sobre [subject]</li>
-    <li>calltoadventure-> descubrió un archivo de datos sobre [subject] en un mecanoide roto del que aprendió</li>
+    <li>calltoadventure-> fue confiad[ANYPAWN_gender ? o : a] para comenzar una nueva colonia, por su cuenta, centrada en [subject]</li>
+    <li>calltoadventure-> vio a su hermano mayor fallecer, dejando a [ANYPAWN_objective] como [ANYPAWN_gender ? el : la] especialista de la familia en [subject]</li>
+    <li>calltoadventure-> se enteró de una colonia abandonada de mundobrillante que se centraba en [subject]</li>
+    <li>calltoadventure-> estaba en un crucero solar cuando fue capturad[ANYPAWN_gender ? o : a] por piratas de [feudalworld]. Como expert[ANYPAWN_gender ? o : a] en [subject], l[ANYPAWN_gender ? o : a] rescataron a un alto precio</li>
+    <li>calltoadventure-> fue desviad[ANYPAWN_gender ? o : a] al mundo muerto [deadworld], donde aprendió sobre [subject]</li>
+    <li>calltoadventure-> descubrió un archivo de datos sobre [subject] en un mecanoide roto</li>
     <li>calltoadventure-> siguió a un topo de tierra hasta su madriguera, donde [ANYPAWN_objective] enseñó sobre [subject]</li>
-    <li>calltoadventure-> fue criado por un clan Yttakin amante de [subject] en [iceworld]</li>
-    <li>calltoadventure-> fue creado por clonadores de sanguífagos y encontró placer en estudiar [subject]</li>
-    <li>calltoadventure-> fue criado en [warworld], escapando en una cápsula de carga robada. La única lectura durante meses fue un manual de [subject]</li>
-    <li>calltoadventure-> pasó [ANYPAWN_possessive] vida viajando a través de las capas del mundo con concha [shellworld], persiguiendo un mecanoides [subject] con fallas</li>
+    <li>calltoadventure-> fue criad[ANYPAWN_gender ? o : a] por un clan Yttakin amante de [subject] en [iceworld]</li>
+    <li>calltoadventure-> fue cread[ANYPAWN_gender ? o : a] por clonadores de sanguífagos y encontró placer en estudiar [subject]</li>
+    <li>calltoadventure-> fue criad[ANYPAWN_gender ? o : a] en [warworld], escapando en una cápsula de carga robada. La única lectura durante meses fue un manual de [subject]</li>
+    <li>calltoadventure-> pasó su vida viajando a través de las capas del mundoconcha [shellworld], persiguiendo mecanoides [subject] con fallas</li>
     <li>calltoadventure-> escapó del feudalismo en los caseríos de [medievalworld] escondiéndose en la nave espacial de un comerciante que era un experto en [subject]</li>
     <li>calltoadventure-> viajó hasta el borde y regresó, aprendiendo sobre [subject] en [rimworld]</li>
     <li>calltoadventure-> navegó por los mares de [oceanicworld], afirmando haber aprendido secretos de [subject] de los océanos vivos mismos</li>
-    <li>calltoadventure-> fue un saqueador de gravedad cero a través del cinturón de asteroides del mundo de [worldname], descubriendo los secretos de [subject] en el asteroide A3 o el asteroide 7DD</li>
+    <li>calltoadventure-> fue un saqueador[ANYPAWN_gender ?  : a] de gravedad cero a través del cinturón de asteroides del mundo de [worldname], descubriendo los secretos de [subject] en el asteroide A3 o el asteroide 7DD</li>
     <li>written_when->la noche antes de [ANYPAWN_possessive] ejecución</li>
     <li>written_when->en los primeros años de [ANYPAWN_possessive]</li>
     <li>written_when->durante el Período Azul de [worldname]</li>
@@ -1231,8 +1234,8 @@
     <li>digression_subject->trueque de neutroamina en los ricos skyrippers de [coreworld]</li>
     <li>aftermath->Las páginas no comunican más de la historia de [author]</li>
     <li>aftermath->Una [note] en una mano diferente dice que el [author] fue visto por última vez dirigiéndose a [deathworld]</li>
-    <li>aftermath->Páginas arrancadas aquí.</li>
-    <li>aftermath->Las hojas están salpicadas de manchas marrones.</li>
+    <li>aftermath->Tiene páginas arrancadas</li>
+    <li>aftermath->Las hojas están salpicadas de manchas marrones</li>
     <li>aftermath->A pesar de las aventuras de [ANYPAWN_possessive], [ANYPAWN_pronoun] logró crear este esquema</li>
     <li>aftermath->Más tarde, [ANYPAWN_pronoun] logró encontrar paz en este trabajo. [subject_chat]</li>
     <li>aftermath->La historia de [ANYPAWN_possessive] termina aquí, con una descripción técnica de [ANYPAWN_possessive] trabajo en [worldname]. [subject_chat]</li>
@@ -1247,6 +1250,9 @@
     <li>linkage->por eso [ANYPAWN_pronoun] </li>
     <li>linkage->en [worldname], [ANYPAWN_pronoun] usó la perspicacia de [ANYPAWN_possessive] y </li>
     <li>linkage->para dominarlo, [ANYPAWN_pronoun] viajó a [worldname] donde [ANYPAWN_pronoun] </li>
+    <li>authorTitle->autor</li>
+    <li>authorTitle->escriba</li>
+    <li>authorTitle->escritor</li>
     <li>notable_adjective->famosa</li>
     <li>notable_adjective->oscura</li>
     <li>notable_adjective->icónica</li>
@@ -1270,8 +1276,8 @@
     <li>nonphys_desc->[otherwordly_nonphys_desc]</li>
     <li>nonphys_desc->[technical_nonphys_desc]</li>
     <li>nonphys_desc->[academic_nonphys_desc]</li>
-    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1] pero [positive_physical_statement2]</li>
-    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1] pero [negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1], pero [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1], pero [negative_physical_statement2]</li>
     <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1] y [positive_physical_statement2]</li>
     <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. Además, [negative_physical_statement2]</li>
     <li>negative_physical_statement->[negative_physical_statement1]</li>
@@ -1697,10 +1703,10 @@
     <li>detail->. The author's rhetoric in the [precis_synonym] does not distract from the core concepts</li>
     <li>production->The [precis_synonym] says that this was printed by hand on [worldname]</li>
     <li>production->The [precis_synonym] says that the University of [worldname] made this a set text</li>
-    <li>production->The [precis_synonym] says that, though these notes were made for [ANYPAWN_label]'s personal use, they have been widely shared[maybe_detail]</li>
+    <li>production->The [precis_synonym] says that, though these notes were made for [ANYPAWN_label]'s personal use, they have been widely shared</li>
     <li>production->The useful parts of this [textbook] are hidden among the biographical details</li>
     <li>production->A handwritten [note] on the [note_location] says that the [worldname] print-house shut down after the [worldname] Riots, so these later editions are rare</li>
-    <li>production->A inscribed [note] says that most copies of this [textbook] were lost during the [worldname] Incident</li>
+    <li>production->An inscribed [note] says that most copies of this [textbook] were lost during the [worldname] Incident</li>
     <li>production->The [precis_synonym] makes clear that readers with knowledge of archotech information dissemination techniques tend to avoid this [textbook] series - but not why</li>
     <li>production->From the [note_location], it is clear that the [subject] proselytes of [worldname] spent a fortune printing copies of this book, and then having it widely distributed</li>
     <li>production->The [note_location] explains that the early copies of this book were handwritten by [ANYPAWN_label] [ANYPAWN_objective]self</li>
@@ -1820,7 +1826,7 @@
     <li>page_decent->are in a decent condition</li>
     <li>page_decent->are legible, if crumpled</li>
     <li>page_decent->are perfectly readable</li>
-    <li>page_decent->are decent, if slightly scored </li>
+    <li>page_decent->are decent, if slightly scored</li>
     <li>page_awful->appear to be written on crumbling parchment</li>
     <li>page_awful->are badly damaged</li>
     <li>page_awful->are stained with a dark substance</li>
@@ -1910,7 +1916,7 @@
     <li>glassworld->Shechem</li>
     <li>glassworld->Yelhazor</li>
     <li>glitterworld->Kalthas IV</li>
-    <li>glitterworld->Amen-Ti	</li>
+    <li>glitterworld->Amen-Ti</li>
     <li>glitterworld->Sophiamunda </li>
     <li>glitterworld->Rogia</li>
     <li>glitterworld->Utmaior</li>
@@ -2052,7 +2058,7 @@
     <li>detail->. La retórica del autor en el [precis_synonym] no distrae de los conceptos principales</li>
     <li>production->El [precis_synonym] dice que fue impreso a mano en [worldname]</li>
     <li>production->El [precis_synonym] dice que la Universidad de [worldname] convirtió esto en un texto obligatorio</li>
-    <li>production->El [precis_synonym] dice que, aunque estas notas fueron hechas para el uso personal de [ANYPAWN_label], han sido ampliamente compartidas [maybe_detail]</li>
+    <li>production->El [precis_synonym] dice que, aunque estas notas fueron hechas para el uso personal de [ANYPAWN_label], han sido ampliamente compartidas</li>
     <li>production->Las partes útiles de este [textbook] están ocultas entre los detalles biográficos</li>
     <li>production->Una [note] escrita a mano en [note_location] dice que la imprenta de [worldname] cerró después de los disturbios de [worldname], por lo que estas ediciones posteriores son raras</li>
     <li>production->Una [note] inscrita dice que la mayoría de las copias de este [textbook] se perdieron durante el Incidente de [worldname]</li>
@@ -2264,8 +2270,8 @@
     <li>glassworld->Shechem</li>
     <li>glassworld->Yelhazor</li>
     <li>glitterworld->Kalthas IV</li>
-    <li>glitterworld->Amen-Ti	</li>
-    <li>glitterworld->Sophiamunda </li>
+    <li>glitterworld->Amen-Ti</li>
+    <li>glitterworld->Sophiamunda</li>
     <li>glitterworld->Rogia</li>
     <li>glitterworld->Utmaior</li>
     <li>glitterworld->Caspian</li>
