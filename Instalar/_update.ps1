@@ -131,6 +131,7 @@ UpdateContent -LocalRepo $local_repo -Name "Core"
 UpdateContent -LocalRepo $local_repo -Name "Royalty"
 UpdateContent -LocalRepo $local_repo -Name "Ideology"
 UpdateContent -LocalRepo $local_repo -Name "Biotech"
+UpdateContent -LocalRepo $local_repo -Name "Anomaly"
 
 # Delete the downloaded repo
 Remove-Item -Recurse -Force ".\$local_repo"
