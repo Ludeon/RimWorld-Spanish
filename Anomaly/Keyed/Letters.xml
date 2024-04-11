@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Inhumanization -->
+  <!-- EN: Rehumanized -->
+  <ReHumanizedLabel>Rehumanizado</ReHumanizedLabel>
+  <!-- EN: {0_nameDef} has regained {0_possessive} connection to humanity. {0_nameDef}'s 'inhumanized' health condition has been removed. -->
+  <ReHumanizedText>{0_nameDef} ha recuperado su conexión con la humanidad. La condición de salud "inhumanizado" de {0_nameDef} ha sido eliminada.</ReHumanizedText>
+  <!-- EN: Warning from {0_nameDef} -->
+  <WarningFromLabel>Advertencia de {0_nameDef}</WarningFromLabel>
+
+  <!-- Hate chanters -->
+  <!-- EN: Cultist hate chanters -->
+  <HateChantersLabel>Cánticos de odio cultistas</HateChantersLabel>
+  <!-- EN: Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped. -->
+  <HateChantersText>Han llegado los cantores del odio. Pretenden realizar un ritual de cánticos de odio para forzar la rabia psíquica en tus colonos y volverlos locos. El canto se hará cada vez más fuerte hasta que los cultistas sean detenidos.</HateChantersText>
+  <!-- EN: Cultists attacking -->
+  <HateChantersAttackingLabel>Cultistas atacando</HateChantersAttackingLabel>
+  <!-- EN: The cultists have ended their hate chant and begun to come out of their ritual trance.\n\nPrepare to defend. -->
+  <HateChantersAttackingText>Los cultistas han terminado su canto de odio y han comenzado a salir de su trance ritual.\n\nPrepárate para defenderte.</HateChantersAttackingText>
+
+  <!-- Psychic rituals -->
+  <!-- EN: {0} complete -->
+  <PsychicRitualCompleteLabel>{0} completado</PsychicRitualCompleteLabel>
+
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities. -->
+  <VoidProvocationCompletedText>{INVOKER_nameDef} ha terminado de realizar el ritual {RITUAL_definite}, enviando un pulso psíquico que atraerá entidades.</VoidProvocationCompletedText>
+  <!-- EN: Prepare for what comes next. -->
+  <VoidProvocationSucceeded>Prepárate para lo que viene después.</VoidProvocationSucceeded>
+  <!-- EN: Unfortunately, your call has been left unanswered. -->
+  <VoidProvocationFailed>Lamentablemente, tu llamado ha quedado sin respuesta.</VoidProvocationFailed>
+  <!-- EN: In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma. -->
+  <VoidProvocationDarkPsychicShock>En el proceso, {INVOKER_nameDef} vislumbró algo horripilante más allá de la comprensión humana. La oscuridad psíquica {INVOKER_objective} sumió en un coma de corta duración.</VoidProvocationDarkPsychicShock>
+  <!-- EN: {INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}. -->
+  <PhilophagyCompleteText>{INVOKER_nameDef} ha completado el ritual {RITUAL_definite}, absorbiendo habilidades y recuerdos de {TARGET_nameDef}.</PhilophagyCompleteText>
+  <!-- EN: {0_nameDef} gained {1} XP in {2_label} -->
+  <PawnGainedXPInSkill>{0_nameDef} ganó {1} de EXP en {2_label}</PawnGainedXPInSkill>
+  <!-- EN: {0_nameDef} lost {1} XP in {2_label} -->
+  <PawnLostXPInSkill>{0_nameDef} perdió {1} de EXP en {2_label}</PawnLostXPInSkill>
+  <!-- EN: rising from skill level {0} to {1}. -->
+  <PhilophagySkillLevelGained>pasando del nivel {0} al {1}.</PhilophagySkillLevelGained>
+  <!-- EN: falling from skill level {0} to {1}. -->
+  <PhilophagySkillLevelLost>bajando del nivel {0} a {1}.</PhilophagySkillLevelLost>
+  <!-- EN: remaining at skill level {0}. -->
+  <PhilophagySkillLevelRemains>permaneciendo en el nivel {0}.</PhilophagySkillLevelRemains>
+  <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
+  <PhilophagyDamagedTarget>El proceso dañó el cerebro de {TARGET_nameDef}, dejando{TARGET_objective} en coma.</PhilophagyDamagedTarget>
+
+  <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
+  <ImbueDeathRefuralCompleteText>{0_nameDef} ha sido imbuid{0_gender ? o : a} con mortis repelio. Ahora puede autoresucitar después de morir.\n\nEl proceso ha atrofiado el cerebro de {0_nameDef}, causando que pierda un total de {1} de experiencia en sus habilidades.</ImbueDeathRefuralCompleteText>
+
+  <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly. -->
+  <SummonAnimalsSuccessText>{0_nameDef} ha completado el ritual {RITUAL_definite}. Espera una manada de animales en breve.</SummonAnimalsSuccessText>
+  <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival! -->
+  <SummonAnimalsFailureText>{0_nameDef} ha completado el ritual {RITUAL_definite}, ¡pero algo ha salido terriblemente mal! El ritual ha atraído animales cazahombres infectados con escariosis. ¡Prepárate para su llegada!</SummonAnimalsFailureText>
+  
+  <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival. -->
+  <SummonShamblersCompleteText>{0_nameDef} ha completado con éxito el ritual {RITUAL_definite}. Prepárate para su llegada.</SummonShamblersCompleteText>
+
+  <!-- EN: They are attacking from multiple directions. -->
+  <AttackingFromMultipleDirections>Están atacando desde múltiples direcciones.</AttackingFromMultipleDirections> 
+
+  <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
+  <ChronophagyCompleteText>{0_nameDef} ha completado con éxito el ritual {RITUAL_definite}. Ha tenido los siguientes efectos:</ChronophagyCompleteText>
+  <!-- EN: {0_nameDef} aged {1} years -->
+  <ChronophagyTargetAged>{0_nameDef} envejeció {1} años</ChronophagyTargetAged>
+  <!-- EN: {0_nameDef} became {1} years younger -->
+  <ChronophagyInvokerRejuvenated>{0_nameDef} se volvió {1} años más joven</ChronophagyInvokerRejuvenated>
+  <!-- EN: {0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age. -->
+  <ChronophagyTargetDiedOfOldAge>{0_nameDef} no pudo soportar la presión de envejecer debido al ritual de cronofagia y murió de vejez.</ChronophagyTargetDiedOfOldAge>
+  <!-- EN: While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions -->
+  <ChronophagyTargetOldAgeDiseases>Mientras {0_nameDef} sobrevivió al ritual de cronofagia, desarrolló las siguientes afecciones</ChronophagyTargetOldAgeDiseases>
+  <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
+  <ChronophagyInvokerCuredDiseases>Además, el proceso ha curado a {0_nameDef} de las siguientes dolencias:</ChronophagyInvokerCuredDiseases>
+  <!-- EN: and is now {0} years old -->
+  <ChronophagyCurrentAge>y ahora tiene {0} años</ChronophagyCurrentAge>
+
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
+  <PleasurePulseCompleteText>{0_nameDef} ha terminado de realizar el ritual {RITUAL_definite}. Por los siguientes {1}, todos los afectados por {RITUAL_definite} serán más felices pero trabajarán más despacio.</PleasurePulseCompleteText>
+
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable. -->
+  <NeurosisPulseCompleteText>{0_nameDef} ha terminado de realizar el ritual {RITUAL_definite}. Por los siguientes {1}, todos los que hayan oído el pulso trabajarán más rápido pero estarán más irritables.</NeurosisPulseCompleteText>
+
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk. -->
+  <BloodRainCompleteText>{0_nameDef} ha terminado de realizar el ritual {RITUAL_definite}. Espesas gotas rojas han comenzado a caer del cielo. Mantén a todos dentro para evitar que se vuelvan locos.</BloodRainCompleteText>
+
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
+  <BrainwipeCompleteText>{INVOKER_nameDef} ha terminado de realizar el ritual {RITUAL_definite}, borrando caóticamente los recuerdos de {TARGET_nameDef}.</BrainwipeCompleteText>
+  <!-- EN: {TARGET_pronoun} will remain in a coma for {1}. -->
+  <BrainwipeTargetComa>{TARGET_pronoun} permanecerá en coma durante {1}.</BrainwipeTargetComa>
+  <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
+  <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef} ya no tiene una lealtad inquebrantable</BrainwipeUnwaveringlyLoyal>
+  <!-- EN: {TARGET_nameDef} has been re-humanized. -->
+  <BrainwipeRehumanized>{TARGET_nameDef} ha sido rehumanizado.</BrainwipeRehumanized>
+
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
+  <PsychophagyCompleteText>{INVOKER_nameDef} ha terminado de realizar el ritual {RITUAL_definite} y ha consumido la esencia psíquica de {TARGET_nameDef}.</PsychophagyCompleteText>
+  <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
+  <PsychophagyTargetSurvived>{TARGET_nameDef} es ahora psíquicamente sordo. El proceso ha dañado el cerebro de {TARGET_nameDef}, dejando{TARGET_objective} en coma.</PsychophagyTargetSurvived>
+  
+  <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
+  <PsychicRitualTargetBrainLiquified>El proceso ha liquificado el cerebro de {TARGET_nameDef}, matando{TARGET_objective}.</PsychicRitualTargetBrainLiquified>
+
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
+  <SummonFleshbeastsPlayerCompleteText>{0_nameDef} ha terminado de realizar el ritual {RITUAL_definite}. ¡Carnibestias están emergiendo del suelo!</SummonFleshbeastsPlayerCompleteText>
+
+  <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
+  <GhoulInfusionCompleteText>{INVOKER_nameDef} ha terminado de infusionar a {TARGET_nameDef} con bioferrita. El ritual ha retorcido la mente de {TARGET_nameDef} y mutado su cuerpo, creando una criatura terrorífica conocida como necrófago. {INVOKER_nameDef} comparte un vínculo psíquico con {TARGET_nameDef}, lo que le permite controlar a {TARGET_nameDef}.\n\nLos necrófagos comen carne cruda para sobrevivir. Si pasan hambre, pueden volverse hostiles.</GhoulInfusionCompleteText>
+  
+  <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
+  <AttackersMayCastRitualMultipleTimes>Pueden realizar el ritual varias veces. Tienes que ir a detenerlos.</AttackersMayCastRitualMultipleTimes>
+
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma. -->
+  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef} ha terminado de realizar el ritual {RITUAL_definite}. Mediante la manipulación del espacio y el tiempo, {INVOKER_nameDef} ha abducido a {TARGET_nameDef} de la facción {FACTION_name}. La aterradora naturaleza del ritual ha dejado a {TARGET_nameDef} en un coma de corta duración.</SkipAbductionPlayerCompleteText>
+
+  <!-- EN: Fleshmass response -->
+  <FleshmassResponseLabel>Carnimasa destruida</FleshmassResponseLabel> 
+  <!-- EN: The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself. -->
+  <FleshmassResponseText>¡La destrucción de la carnimasa ha desencadenado una respuesta violenta! esta se estremece y engendra nuevas carnibestias para defenderse.</FleshmassResponseText> 
+
+  <!-- Void awakening -->
+  <!-- EN: Dimming sky -->
+  <VoidAwakeningStageOneStructuresActivatedLabel>El cielo se oscurece</VoidAwakeningStageOneStructuresActivatedLabel>
+  <!-- EN: Structures activated -->
+  <VoidAwakeningStageTwoStructuresActivatedLabel>Estructuras activadas</VoidAwakeningStageTwoStructuresActivatedLabel>
+  <!-- EN: As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon. -->
+  <VoidAwakeningStageOneStructuresActivatedText>Al activarse la segunda estructura, la oscuridad comienza a intensificarse. Pronto descenderá una oscuridad antinatural. Asegúrate de que tu colonia está preparada. Acumula recursos, construye luces, bengalas disruptoras y refuerza las defensas. Solo aquellos en la luz estarán a salvo.\n\nPronto aparecerán más estructuras retorcidas.</VoidAwakeningStageOneStructuresActivatedText>
+  <!-- EN: All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready. -->
+  <VoidAwakeningStageTwoStructuresActivatedText>Se han activado todas las estructuras del vacío. El espacio alrededor del monolito del vacío ha empezado a brillar. Prepárate.</VoidAwakeningStageTwoStructuresActivatedText> 
+  <!-- EN: {STUDIER_nameDef} teleported -->
+  <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} teletransportado</VoidAwakeningFinalStructuresActivatedLabel> 
+  <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power. This metal hell is a connecting channel to an inhuman hyperintelligence. -->
+  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} ha activado el monolito y ha sido sustraído de nuestro espacio-tiempo a otro lugar. Se encuentra en una habitación de dentados pinchos metálicos. Todas las superficies están impregnadas de fluidos oscuros y el aire vibra con fuerza. Este infierno metálico es un canal de conexión a una hiperinteligencia inhumana.</VoidAwakeningFinalStructuresActivatedText> 
+  <!-- EN: Shambler assault -->
+  <VoidAwakeningShamblerArrivalLabel>Asalto de caminantes</VoidAwakeningShamblerArrivalLabel>
+  <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
+  <VoidAwakeningShamblerArrivalText>Una horda de caminantes ha sido atraída por las estructuras del vacío. ¡Prepárate!</VoidAwakeningShamblerArrivalText>
+  <!-- EN: Fleshbeast tunneling -->
+  <VoidAwakeningFleshbeastBurrowLabel>Túneles de canibestias</VoidAwakeningFleshbeastBurrowLabel>
+  <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
+  <VoidAwakeningFleshbeastBurrowText>El monolito ha generado un poderoso pulso psíquico, atrayendo a las entidades cercanas.\n\nBajo el suelo, puedes oír gritos carnosos y garras arañando. La canibestias están haciendo un túnel hacia ti. ¡Prepárate!</VoidAwakeningFleshbeastBurrowText>
+  <!-- EN: Metalhorror attack -->
+  <VoidAwakeningMetalhorrorArrivalLabel>Ataque de Metalhorror</VoidAwakeningMetalhorrorArrivalLabel>
+  <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
+  <VoidAwakeningMetalhorrorArrivalText>Están apareciendo metalhorro cerca del monolito del vacío. ¡Preparense!</VoidAwakeningMetalhorrorArrivalText>
+  <!-- EN: Entity attack -->
+  <VoidAwakeningEntityArrivalLabel>Ataque de entidades</VoidAwakeningEntityArrivalLabel> 
+  <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
+  <VoidAwakeningEntityArrivalText>La activación de la estructuradel vacío ha generado un pulso psíquico retorcido, atrayendo a las entidades cercanas. ¡Prepárate!</VoidAwakeningEntityArrivalText>
+  <!-- EN: Embrace the void -->
+  <VoidAwakeningBreadcrumbLetterLabel>Aceptación del vacío</VoidAwakeningBreadcrumbLetterLabel>
+  <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
+  <VoidAwakeningBreadcrumbLetterText>Mientras interactuaba con la estructura del vacío, {PAWN_nameDef} tuvo una visión del vacío. Por un momento {PAWN_pronoun} nadó en el océano negro de profundidad infinita y sintió su infinito poder inhumano.\n\n{PAWN_nameDef} cree que puede haber una forma de controlar ese poder indagando el vacío. Si se abriera permanentemente el conducto al vacío, en lugar de cerrarlo, podría ofrecer posibilidades incalculables.</VoidAwakeningBreadcrumbLetterText>
+
+  <!-- Void node -->
+  <!-- EN: {PAWN_nameDef} returns -->
+  <VoidNodeReturnedLabel>{PAWN_nameDef} regresa</VoidNodeReturnedLabel>
+  <!-- EN: {PAWN_nameDef} has reappeared. -->
+  <VoidNodeReturnedMessage>{PAWN_nameDef} ha reaparecido.</VoidNodeReturnedMessage>
+  <!-- EN: {PAWN_nameDef} has reappeared.\n\n{PAWN_pronoun} looks withered by the inhuman thought-patterns of the void. All traces of humanity have left {PAWN_possessive} eyes.\n\n{PAWN_nameDef}'s mind and body are now permanently linked to the dark void of inhuman rage. Powered by this new connection, {PAWN_nameDef} no longer feels tethered to mortal needs like comfort or sleep. {PAWN_pronoun} has gained the ability to induce terror in others using the power of the void.\n\nThe monolith is awakened. It hums louder with {PAWN_nameDef}'s reappearance, a reminder that its connection to the void has been opened and made permanent. -->
+  <EmbracedVoidText>{PAWN_nameDef} ha reaparecido.\n\nParece marchitad{PAWN_gender ? o :a} por los patrones de pensamiento inhumanos del vacío. Todo rastro de humanidad ha abandonado sus ojos.\n\nLa mente y el cuerpo de {PAWN_nameDef} están ahora permanentemente unidos al oscuro vacío de la ira inhumana. Potenciado por esta nueva conexión, {PAWN_nameDef} ya no se siente atad{PAWN_gender ? o :a} a necesidades mortales como la comida o el sueño. Ha ganado la habilidad de inducir terror en otros usando el poder del vacío.\n\nEl monolito se ha despertado. Zumba más fuerte con la reaparición de {PAWN_nameDef}, un recordatorio de que su conexión con el vacío se ha iniciado y se ha hecho permanente.</EmbracedVoidText>
+  <!-- EN: {PAWN_nameDef} has reappeared. {PAWN_pronoun} is weary from {PAWN_possessive} efforts, but otherwise healthy.\n\nBy closing the channel to the void, {PAWN_nameDef} has stopped any more unnatural phenomena from entering our world. Hostile entities in the area have all fallen to the ground, lifeless.\n\nTales of {PAWN_possessive} heroism are sure to spread far and wide. -->
+  <DisruptedLinkText>{PAWN_nameDef} ha vuelto a aparecer. Está fatigad{PAWN_gender ? o :a} por sus esfuerzos, pero por lo demás está san{PAWN_gender ? o :a}.\n\nAl cerrar el canal al vacío, {PAWN_nameDef} ha impedido que más fenómenos antinaturales entren en nuestro mundo. Las entidades hostiles de la zona han caído todas al suelo, sin vida.\n\nLas historias de su heroísmo se extenderán por todas partes.</DisruptedLinkText>
+  <!-- EN: fleshcrafting -->
+  <RewardFleshcraftingAbility>carnesculpir</RewardFleshcraftingAbility>
+  <!-- EN: slaughter -->
+  <RewardSlaughterAbility>matanza</RewardSlaughterAbility>
+  <!-- EN: shambler control -->
+  <RewardShamblerControlAbility>control de caminantes</RewardShamblerControlAbility>
+
+  <!-- Duplicate sickness -->
+  <!-- EN: Duplicate sickness -->
+  <DuplicateSicknessLabel>Duplicar enfermedad</DuplicateSicknessLabel>
+  <!-- EN: Both {0_nameDef} and {0_possessive} duplicate are feeling unwell. Their condition seems to be related to the duplication process and is worsening. The psychic connection that binds them is causing them to slowly lose consciousness. The condition won't get better until one of them dies. -->
+  <DuplicateSicknessText>Tanto {0_nameDef} como su duplicado se encuentran mal. Su estado parece estar relacionado con el proceso de duplicación y está empeorando. La conexión psíquica que los une les está haciendo perder lentamente la consciencia. La condición no mejorará hasta que uno de ellos muera.</DuplicateSicknessText>
+
+  <!-- Frenzied animals -->
+  <!-- EN: Frenzied animals -->
+  <FrenziedAnimalsLabel>Animales frenéticos</FrenziedAnimalsLabel>
+  <!-- EN: A pack of man-hunting {0} have entered the area! They've been attracted by your ritual. They will roam the region hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out or fight them. -->
+  <FrenziedAnimalsText>¡Una manada de {0} cazahombres ha entrado en la zona! Han sido atraídos por tu ritual. Recorrerán la región cazando carne humanoide.\n\nNo atacarán las puertas a menos que vean a alguien atravesarlas. Escóndete dentro y estarás a salvo. Tampoco atacarán a las torretas apagadas, así que apaga tus torretas para salvarlas.\n\nLa manada de {0} abandonará la zona en uno o dos días. Puedes esconderte y esperar a que se vayan o luchar contra ellos.</FrenziedAnimalsText>
+
+  <!-- Ghouls -->
+  <!-- EN: Ghoul betrayal -->
+  <GhoulBetrayalLabel>Traición necrófaga</GhoulBetrayalLabel>
+  <!-- EN: {PAWN_nameDef} has been driven mad by {PAWN_possessive} ravenous hunger for raw meat! -->
+  <GhoulBetrayalText>{PAWN_nameDef} ¡ha enloquecido por {PAWN_possessive} hambre voraz de carne cruda!</GhoulBetrayalText>
+  
+  <!-- Distress signal -->
+  <!-- EN: Distress signal -->
+  <DistressSignalLabel>Señal de socorro</DistressSignalLabel>
+  <!-- EN: You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead. -->
+  <DistressSignalText>Has interceptado una señal de socorro de un campamento cercano de la facción {FACTION_name}.\n\nLa frenética voz pide ayuda inmediata para defenderse de una amenaza. Ofrecen todo lo que hay en su campamento a cambio de ayuda, incluyendo esquirlas poderosa de arqueotecnología.\n\nCuando la voz intenta explicar la naturaleza de la amenaza, la señal se corta.</DistressSignalText>
+  <!-- EN: Ambush -->
+  <DistressSignalAmbushLabel>Emboscada</DistressSignalAmbushLabel>
+  <!-- EN: Fleshbeasts are emerging from a nearby pit burrow! -->
+  <DistressSignalAmbushText>Carnibestias están saliendo de una fosa madriguera cercana!</DistressSignalAmbushText>
+
+  <!-- Chimeras -->
+  <!-- EN: Chimeras approach -->
+  <ChimeraAssaultLabel>Aproximación de quimeras</ChimeraAssaultLabel>
+  <!-- EN: A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked. -->
+  <ChimeraAssaultText>Un grupo de monstruos quimera retorcidos, parecidos a animales, han aparecido cerca.\n\nLas deformes bestias contemplarán tu colonia, esperando una oportunidad para atacar. Son asustadizas y pueden tomar represalias si se les provoca.</ChimeraAssaultText>
+
+  <!-- Unnatural darkness -->
+  <!-- EN: Darkness lifting -->
+  <DarknessLiftingEarlyLetterLabel>El cielo se aclara</DarknessLiftingEarlyLetterLabel>
+  <!-- EN: The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air. -->
+  <DarknessLiftingEarlyLetterText>El último de los pilares de pesadilla se ha derrumbado. La oscuridad antinatural ha empezado a disiparse. Los colonos respiran aliviados en el aire despejado.</DarknessLiftingEarlyLetterText>
+  <!-- EN: {0_nameDef} attacked -->
+  <PawnAttackedInDarknessLabel>{0_nameDef} atacad{PAWN_gender ? o :a}</PawnAttackedInDarknessLabel>
+  <!-- EN: Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light. -->
+  <PawnAttackedInDarknessText>¡Algo en la oscuridad ha atacado a {0_nameDef}!\n\nEstos ataques continuarán hasta que {0_pronoun} esté a salvo en la luz.</PawnAttackedInDarknessText>
+  <!-- EN: Noctol attack -->
+  <NoctolAttackLetterLabel>Ataque noctol</NoctolAttackLetterLabel>
+  <!-- EN: The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon. -->
+  <NoctolAttackLetterText>La oscuridad ha comenzado a inquietarse. Sonidos inhumanos surgen de algún lugar dentro de la oscuridad.\n\nPronto atacarán desde la oscuridad los noctoles negros, similares a insectos.</NoctolAttackLetterText>
+  <!-- EN: Darkness soon -->
+  <DarknessWarningLetterLabel>Oscuridad en camino</DarknessWarningLetterLabel>
+  <!-- EN: The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas. -->
+  <DarknessWarningLetterText>La oscuridad está casi aquí. Solo los que estén a la luz directa de lámparas, antorchas o bengalas estarán a salvo.\n\nPara mantener a los colonos a la luz, puedes restringir sus desplazamientos en la pestaña HORARIO asignando zonas permitidas.</DarknessWarningLetterText>
+  <!-- EN: Darkness wavering -->
+  <DarknessWaveringLetterLabel>Oscuridad titubeante</DarknessWaveringLetterLabel>
+  <!-- EN: With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness. -->
+  <DarknessWaveringLetterText>Al destruir el noctolito, aparece una débil grieta en la oscuridad, antes de llenarse con más negrura tiznada.\n\nDestruye los noctolitos restantes para acabar con la oscuridad antinatural.</DarknessWaveringLetterText>
+
+  <!-- Shambler Swarms -->
+  <!-- EN: Shamblers approach -->
+  <LetterLabelShamblerSwarmArrived>Aproximación de caminantes</LetterLabelShamblerSwarmArrived>
+  <!-- EN: Shambler approaches -->
+  <LetterLabelShamblerArrived>Caminantes acercándose</LetterLabelShamblerArrived>
+  <!-- EN: A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
+  <LetterShamblerSwarmArrived>Un grupo de {0} caminantes putrefactos se acerca. Alguna fuerza inhumana ha reanimado estos cuerpos sin vida y los ha puesto a asesinar.\n\nAhora vagarán por la zona. Si ven a un humano, atacarán. Si no, se irán en unos días.\n\nSi puedes capturar uno, puedes estudiarlo para obtener conocimiento sobre anomalías.</LetterShamblerSwarmArrived>
+  <!-- EN: A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge. -->
+  <LetterShamblerArrived>Se aproxima un cadáver tambaleante y podrido. Una fuerza inhumana ha reanimado este cuerpo sin vida y lo ha puesto en marcha para cometer asesinatos.\n\nAhora vagará por la zona. Si ven a un humano, atacarán. Si no, se irán en unos días.\n\nSi puedes capturar uno, puedes estudiarlo para obtener conocimiento sobre anomalías.</LetterShamblerArrived>
+  <!-- EN: {ANIMALKIND_label} shamblers -->
+  <LetterLabelShamblerAnimalsArrived>{ANIMALKIND_label} caminantes</LetterLabelShamblerAnimalsArrived>
+  <!-- EN: A group of shambling, rotting {ANIMALKIND_label} corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
+  <LetterShamblerAnimalsArrived>Un grupo de {ANIMALKIND_label} caminantes putrefactos se acercan. Alguna fuerza inhumana ha reanimado estos cuerpos sin vida y los ha puesto a asesinar.\n\nAhora vagarán por la zona. Si ven a un humano, atacarán. Si no, se irán en unos días.\n\nSi puedes capturar uno, puedes estudiarlo para obtener conocimiento sobre anomalías.</LetterShamblerAnimalsArrived>
+
+  <!-- Ghoul pod crash -->
+  <!-- EN: Transport pod crash -->
+  <GhoulPodCrashLabel>cápsula de transporte estrellada</GhoulPodCrashLabel>
+  <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
+  <GhoulPodCrashText>Una cápsula de transporte que llevaba a un voraz y hostil necrófago ha aterrizado cerca.\n\nEl necrófago está en estado de shock, pero pronto se recuperará y atacará a cualquiera que vea. Puede ser capturado en una plataforma de contención para su posterior estudio.\n\nCaptúralo o mátalo antes de que despierte.</GhoulPodCrashText>
+  <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby. On closer inspection, it appears to be {PAWN_nameDef}, a previous member of your crew.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
+  <GhoulPodCrashStartingPawnText>Una cápsula de transporte que llevaba a un{PAWN_gender ?  : a} voraz y hostil necrófag{PAWN_gender ? o : a} ha aterrizado cerca. En una inspección más cercana, parece ser {PAWN_nameDef}, {PAWN_gender ? un antiguo : una antigua} miembro de tu tripulación.\n\n{PAWN_gender ? El necrófago : La necrófaga} está en estado de shock, pero pronto se recuperará y atacará a cualquiera que vea. Puede ser capturad{PAWN_gender ? o : a} en una plataforma de contención para su posterior estudio.\n\nCaptúra{PAWN_objective} o máta{PAWN_objective} antes de que despierte.</GhoulPodCrashStartingPawnText>
+
+  <!-- Entity codex -->
+  <!-- EN: New research available -->
+  <LetterLabelEntityDiscovery>Nuevas investigaciones disponibles</LetterLabelEntityDiscovery>
+  <!-- EN: Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects -->
+  <LetterTextEntityDiscoveryResearch>Tu descubrimiento sobre {ENTITY_definite} ha aportado nuevos conocimientos. Ahora puedes investigar los siguientes proyectos de anomalías</LetterTextEntityDiscoveryResearch>
+
+  <!-- Nociosphere -->
+  <!-- EN: Nociosphere defeated -->
+  <NociosphereDefeatedLabel>Nociosfera derrotada</NociosphereDefeatedLabel>
+  <!-- EN: The nociosphere has been destroyed, leaving behind a number of valuable resources. -->
+  <NociosphereDefeatedText>La nociosfera ha sido destruida, dejando tras de sí una serie de valiosos recursos.</NociosphereDefeatedText>
+  <!-- EN: Nociosphere destabilising -->
+  <NociosphereBecomingUnstableLabel>Nociosfera desestabilizada</NociosphereBecomingUnstableLabel> 
+  <!-- EN: The nociosphere’s energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
+  <NociosphereBecomingUnstableText>El patrón de energía de la nociosfera ha comenzado a cambiar y adaptarse. En 10 días, ya no responderá a la represión.\n\nLa nociosfera se activará si no se reprime.</NociosphereBecomingUnstableText> 
+  <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
+  <NociosphereBecomingUnstableTextExtraSendable>Daña la nociosfera enviándola a atacar amenazas hostiles. Una vez enviada, la nociosfera dará caza a cualquier criatura viva durante un breve periodo de tiempo.</NociosphereBecomingUnstableTextExtraSendable>
+  <!-- EN: Study the nociosphere to find a way to dispose of it. -->
+  <NociosphereBecomingUnstableTextExtraNotSendable>Estudia la nociosfera para encontrar la forma de deshacerte de ella.</NociosphereBecomingUnstableTextExtraNotSendable>
+  <!-- EN: Nociosphere unstable -->
+  <NociosphereUnstableLabel>Nociosfera inestable</NociosphereUnstableLabel>
+  <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
+  <NociosphereUnstableText>La nociosfera se ha vuelto inestable y ya no responde a la represión. Cuando su actividad alcance el 100%, despertará.</NociosphereUnstableText>
+  <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
+  <NociosphereUnstableTextExtraSendable>Deshazte de la nociosfera enviándola a atacar a una gran fuerza hostil. Una vez completado su ataque, se marchará permanentemente.</NociosphereUnstableTextExtraSendable> 
+  <!-- EN: Prepare for the nociosphere’s onslaught. -->
+  <NociosphereUnstableTextExtraNotSendable>Prepárate para la embestida de la nociosfera.</NociosphereUnstableTextExtraNotSendable>
+
+  <!-- EN: Strange corpse -->
+  <UnnaturalCorpseArrivalLabel>Cadáver extraño</UnnaturalCorpseArrivalLabel>
+  <!-- EN: An unnatural human corpse has appeared, as if out of thin air.\n\nOn further inspection, the corpse looks identical to {PAWN_nameDef}. Its skin feels waxy and warm to the touch.\n\nStudy the corpse to learn more about it. -->
+  <UnnaturalCorpseArrivalText>Un cadáver humano antinatural ha aparecido, como de la nada.\n\nEn una inspección más detallada, el cadáver parece ser idéntico a {PAWN_nameDef}. Su piel es cerosa y cálida al tacto.\n\nEstudia el cadáver para saber más sobre él.</UnnaturalCorpseArrivalText>
+
+  <!-- EN: Golden cube -->
+  <GoldenCubeArrivalLabel>Cubo dorado</GoldenCubeArrivalLabel>
+  <!-- EN: A strange cube has landed nearby. It shines like gold but is impossible to scratch. It's light and warm to the touch. The way light plays across its surface is captivating.\n\n{PAWN_nameDef} feels inexplicably drawn to the cube.\n\nStudy the cube to learn more about it. -->
+  <GoldenCubeArrivalText>Un extraño cubo ha aterrizado cerca. Brilla como el oro, pero es imposible arañarlo. Es ligero y cálido al tacto. La forma en que la luz juega a través de su superficie es cautivadora.\n\n{PAWN_nameDef} se siente inexplicablemente atraíd{PAWN_gender ? o : a} por el cubo.\n\nEstudia el cubo para aprender más sobre él.</GoldenCubeArrivalText>
+
+  <!-- EN: Void curiosity -->
+  <VoidCuriosityLabel>Curiosidad del vacío</VoidCuriosityLabel>
+  <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
+  <VoidCuriosityText_Researched>{PAWN_nameDef} ha empezado a fijarse en el vacío y desea investigarlo utilizando el ritual provocación del vacío.\n\nUtiliza el ritual de provocación del vacío para descubrir y capturar entidades. Las entidades capturadas pueden estudiarse para completar proyectos de investigación de anomalías, o conectarse a una cosechadora de bioferrita para generar bioferrita.\n\nColoca un lugar de ritual psíquico para realizar el ritual provocación del vacío.</VoidCuriosityText_Researched>
+  <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef} ha empezado a fijarse en el vacío y desea investigarlo utilizando el ritual de provocación del vacío.\n\nUtiliza el ritual de provocación del vacío para descubrir y capturar entidades. Las entidades capturadas pueden estudiarse para completar proyectos de investigación de anomalías, o conectarse a una cosechadora de bioferrita para generar bioferrita.\n\nInvestiga provocación del vacío y, a continuación, coloca un lugar de ritual psíquico para realizar el ritual.</VoidCuriosityText_NotResearched>
+
+</LanguageData>
