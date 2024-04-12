@@ -55,7 +55,7 @@ function getSteamPath() {
 
 function updateTranslation() {
     getSteamPath
-    local game_content="$1"   # contenido a actualizar: juego base (Core) o DLC's (biotech, royalty, ideology). Lo pasamos por parámetro al llamar a la función.
+    local game_content="$1"   # contenido a actualizar: juego base (Core) o DLC's (biotech, royalty, ideology, anomaly). Lo pasamos por parámetro al llamar a la función.
     local translation_path="${steam_path}/Data/$game_content/Languages"
     local translation_label="Spanish (Español(Castellano))"
     if ! [ -d "${translation_path}" ]; then
@@ -93,7 +93,7 @@ mv /tmp/${github_user}-${repo_name}-* /tmp/${github_user}-${repo_name}
 # Borramos el archivo `.zip` original de github
 rm "${zip_filename}"
 # Actualizamos tanto el juego base como los DLC's si el usuario se los hubiera comprado
-game_content=('Core' 'Royalty' 'Ideology' 'Biotech')
+game_content=('Core' 'Royalty' 'Ideology' 'Biotech' 'Anomaly')
 for content in $game_content; do
     updateTranslation "${content}" "/tmp/${github_user}-${repo_name}"
 done
