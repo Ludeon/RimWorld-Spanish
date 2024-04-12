@@ -38,7 +38,7 @@
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_nameDef} no está afiliad{PAWN_gender ? o : a} a ninguna facción. Puedes rescatar{PAWN_objective} y esperar que {PAWN_pronoun} se una libremente, o capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>{PAWN_nameDef} es enemigo y proviene de la facción {PAWN_factionName}. Puedes capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>{PAWN_nameDef} es enemig{PAWN_gender ? o : a} y proviene de la facción {PAWN_factionName}. Puedes capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
   <RefugeePodCrash_NonHostile>{PAWN_nameDef} es de la facción {PAWN_factionName}. Si {PAWN_objective} rescatas, podría unirse libremente a tu colonia, de lo contrario, regresaría a su hogar y difundiría la buena voluntad entre ambas facciones.\n\nTambién podrías capturar{PAWN_objective} para reclutarl{PAWN_gender ? o : a} o esclavizarl{PAWN_gender ? o : a}, pero eso enfadará a su facción.</RefugeePodCrash_NonHostile>
 
@@ -145,7 +145,7 @@
   <!-- EN: {0} join -->
   <LetterLabelFarmAnimalsWanderIn>Un grupo de {0} se han unido</LetterLabelFarmAnimalsWanderIn>
   <!-- EN: A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony. -->
-  <LetterFarmAnimalsWanderIn>Un grupo de {0} abandonados(as) o perdidos(as) se ha adentrado en esta zona.\n\nParecen estar acostumbrados(as) al contacto humano, así que se unirán a la colonia.</LetterFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>Un grupo de {0} sin dueño se ha adentrado en esta zona y deambulan sin rumbo.\n\nParecen no temer al contacto humano, así que se unirán a la colonia.</LetterFarmAnimalsWanderIn>
   
   <!-- Thrumbo passes -->
   <!-- EN: Rare thrumbos -->
