@@ -538,8 +538,8 @@
     <li>title->Los fundamentos de [subject_primary]</li>
     <li>title->[subject_primary]: Parte [volNumeral]</li>
     <li>title->[subject_primary] Vol. [volNumeral]</li>
-    <li>title->[randAdjective] [subject_primary]</li>
-    <li>title->[randAdjective] [subject_primary] Vol. [volNumeral]</li>
+    <li>title->[subject_primary] [randAdjective]</li>
+    <li>title->[subject_primary] [randAdjective] Vol. [volNumeral]</li>
     <li>title->[maybe_authored_title]</li>
     <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] en el [subject_secondary] sector</li>
     <li>title->[studiesStart] [subject_primary] siguiendo [lifeEvent]</li>
@@ -549,7 +549,7 @@
     <li>title->El [referenceType] de [subject_primary] [randAdjective], Vol. [volNumeral]</li>
     <li>title->[studiesStart] [subject_primary] [randAdjective], Vol. [volNumeral]</li>
     <li>title->El [referenceType] de [studiesStart] [subject_primary] [randAdjective]</li>
-    <li>title->El [lifeEvent] [discussionNoun] y [subject_primary]</li>
+    <li>title->[lifeEvent] [discussionNoun] y [subject_primary]</li>
     <li>title->Un [bookCompound] [referenceType]</li>
     <li>studiesStart->Estudios en</li>
     <li>studiesStart->Fundamentos de </li>
@@ -561,7 +561,7 @@
     <li>studiesStart->Avances en</li>
     <li>studiesStart->Aplicaciones de</li>
     <li>studiesStart->Dando forma al futuro de</li>
-    <li>studiesStart->Documentando de</li>
+    <li>studiesStart->Documentación de</li>
     <li>referenceType->Enciclopedia</li>
     <li>referenceType->Diccionario</li>
     <li>referenceType->Almanaque</li>
@@ -586,24 +586,24 @@
     <li>discussionNoun->examen</li>
     <li>discussionNoun->consulta</li>
     <li>discussionNoun->controversia</li>
-    <li>lifeEvent->lesión</li>
-    <li>lifeEvent->clonación</li>
-    <li>lifeEvent->trauma</li>
-    <li>lifeEvent->separación</li>
-    <li>lifeEvent->aterrizaje</li>
-    <li>lifeEvent->revolución</li>
-    <li>lifeEvent->invocación arqueotécnica</li>
-    <li>lifeEvent->Horax</li>
-    <li>lifeEvent->parto</li>
-    <li>lifeEvent->accidente</li>
-    <li>lifeEvent->fusión de carne</li>
-    <li>lifeEvent->mortisueño</li>
-    <li>lifeEvent->revuelta</li>
-    <li>lifeEvent->quimera</li>
-    <li>lifeEvent->ensueño</li>
-    <li>lifeEvent->catarata </li>
-    <li>lifeEvent->lobotomía</li>
-    <li>lifeEvent->infección arquita</li>
+    <li>lifeEvent->la lesión</li>
+    <li>lifeEvent->la clonación</li>
+    <li>lifeEvent->el trauma</li>
+    <li>lifeEvent->la separación</li>
+    <li>lifeEvent->el aterrizaje</li>
+    <li>lifeEvent->la revolución</li>
+    <li>lifeEvent->la invocación arqueotécnica</li>
+    <li>lifeEvent->el Horax</li>
+    <li>lifeEvent->el parto</li>
+    <li>lifeEvent->el accidente</li>
+    <li>lifeEvent->la fusión de carne</li>
+    <li>lifeEvent->el mortisueño</li>
+    <li>lifeEvent->la revuelta</li>
+    <li>lifeEvent->la quimera</li>
+    <li>lifeEvent->el ensueño</li>
+    <li>lifeEvent->la catarata </li>
+    <li>lifeEvent->la lobotomía</li>
+    <li>lifeEvent->la infección arquita</li>
     <li>volNumeral->I</li>
     <li>volNumeral->II</li>
     <li>volNumeral->III</li>
@@ -625,26 +625,26 @@
     <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] y [subject_secondary]</li>
     <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] y [randTheme]</li>
     <li>subjectsTuple->[subject_primary] y [randTheme]</li>
-    <li>randAdjective->Básico</li>
-    <li>randAdjective->Mejor</li>
-    <li>randAdjective->Mundofucsia</li>
-    <li>randAdjective->Medieval</li>
-    <li>randAdjective->Arcaico</li>
-    <li>randAdjective->Lúgubre</li>
-    <li>randAdjective->Crepúsculo</li>
-    <li>randAdjective->Mundomuerte</li>
-    <li>randAdjective->Grotesco</li>
-    <li>randAdjective->Sepulcral</li>
-    <li>randAdjective->Santo</li>
-    <li>randAdjective->Más oscuro</li>
-    <li>randAdjective->Submundo</li>
-    <li>randAdjective->Primitivo</li>
-    <li>randAdjective->Supervivencia</li>
-    <li>randAdjective->Estigio</li>
-    <li>randAdjective->Lúgubre</li>
-    <li>randAdjective->Embrujado</li>
-    <li>randAdjective->Críptico</li>
-    <li>randAdjective->Maldito</li>
+    <li>randAdjective->básico</li>
+    <li>randAdjective->óptimo</li>
+    <li>randAdjective->de mundofucsia</li>
+    <li>randAdjective->medieval</li>
+    <li>randAdjective->arcaico</li>
+    <li>randAdjective->lúgubre</li>
+    <li>randAdjective->crepúsculo</li>
+    <li>randAdjective->mundomuerte</li>
+    <li>randAdjective->grotesco</li>
+    <li>randAdjective->sepulcral</li>
+    <li>randAdjective->santo</li>
+    <li>randAdjective->más oscuro</li>
+    <li>randAdjective->submundano</li>
+    <li>randAdjective->primitivo</li>
+    <li>randAdjective->superviviente</li>
+    <li>randAdjective->antediluviano</li>
+    <li>randAdjective->lúgubre</li>
+    <li>randAdjective->embrujado</li>
+    <li>randAdjective->críptico</li>
+    <li>randAdjective->maldito</li>
     <li>randTheme->ingeniería</li>
     <li>randTheme->folclore</li>
     <li>randTheme->ciencia ficción</li>
@@ -812,7 +812,7 @@
     <li>title(length_subject_primary[less_than]20,p=4)->[titleAuthoredOneSubject]</li>
     <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleBasicTwoSubjects]</li>
     <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleAuthoredTwoSubjects]</li>
-    <li>titleBasic(p=6)->[randAdjective] [subject_primary]</li>
+    <li>titleBasic(p=6)->[subject_primary] [randAdjective]</li>
     <li>titleBasic(p=6)->[randNoun] y [subject_primary]</li>
     <li>titleBasic->Lecciones de [subject_primary]</li>
     <li>titleBasic->Pensamientos en [subject_primary]</li>
@@ -841,7 +841,7 @@
     <li>titleBasic->Máster de [subject_primary]</li>
     <li>titleBasic->Estudio en profundidad de [subject_primary]</li>
     <li>titleAuthoredNoSubject->Estudios de [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredNoSubject->Estudios [randAdjective] de [ANYPAWN_nameIndef]s</li>
+    <li>titleAuthoredNoSubject->Estudio [randAdjective] de [ANYPAWN_nameIndef]s</li>
     <li>titleAuthoredNoSubject->Diario de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Crónicas de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Memorias de [ANYPAWN_nameIndef]</li>
@@ -938,21 +938,21 @@
     <li>randNoun->Salud</li>
     <li>randNoun->Bumalopes</li>
     <li>randNoun->Piratas</li>
-    <li>randAdjective->Básico</li>
-    <li>randAdjective->Eficiente</li>
-    <li>randAdjective->Reflexivo</li>
-    <li>randAdjective->Espectacular</li>
-    <li>randAdjective->Descuidado</li>
-    <li>randAdjective->Malo</li>
-    <li>randAdjective->Bueno</li>
-    <li>randAdjective->Mundobrillante</li>
-    <li>randAdjective->Rural</li>
-    <li>randAdjective->Medieval</li>
-    <li>randAdjective->Inspirado</li>
-    <li>randAdjective->Saludable</li>
-    <li>randAdjective->Nefasto</li>
-    <li>randAdjective->Caótico</li>
-    <li>randAdjective->Divertido</li>
+    <li>randAdjective->básico</li>
+    <li>randAdjective->eficiente</li>
+    <li>randAdjective->reflexivo</li>
+    <li>randAdjective->espectacular</li>
+    <li>randAdjective->descuidado</li>
+    <li>randAdjective->malo</li>
+    <li>randAdjective->bueno</li>
+    <li>randAdjective->de mundobrillante</li>
+    <li>randAdjective->rural</li>
+    <li>randAdjective->medieval</li>
+    <li>randAdjective->inspirado</li>
+    <li>randAdjective->saludable</li>
+    <li>randAdjective->nefasto</li>
+    <li>randAdjective->caótico</li>
+    <li>randAdjective->divertido</li>
     <li>randTheme->conocimiento</li>
     <li>randTheme->autoayuda</li>
     <li>randTheme->comprensión</li>

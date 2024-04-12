@@ -45,6 +45,7 @@
     <!-- Donde se usan generalmente estos archivos-->
     <!-- Adjetivos:-->
     <li>AdjectiveAngsty->Words/Adjectives/Angsty</li>
+    <li>AdjectiveAngsty_Fem->Words/Adjectives/Angsty_Fem</li>
     <li>AdjectiveBadass->Words/Adjectives/Badass</li>
     <li>AdjectiveBadass_Fem->Words/Adjectives/Badass_Fem</li>
     <li>AdjectiveBadass_Plural->Words/Adjectives/Badass_Plural</li>
@@ -77,6 +78,7 @@
     <!--Partes del Cuerpo:-->
     <li>BodyPart->Words/Nouns/Bodyparts</li>
     <li>BodyPart_Fem->Words/Nouns/Bodyparts_Fem</li>
+    <li>BodyPart_Human->Words/Nouns/Bodyparts_Human</li>
     <!--Negocios:-->
     <li>BusinessType->Words/Nouns/BusinessTypes</li>
     <li>BusinessType_Cap->Words/Nouns/BusinessTypes_Cap</li>
@@ -294,32 +296,32 @@
     <li>joiner_especial(joiner_gender!=Female)->la hija</li>
     <li>joiner_especial(joiner_gender==Female)->el hijo</li>
     <!--lodgers-->
-    <li>o_a(lodgers0_gender==Male)->o</li>
-    <li>o_a(lodgers0_gender!=Male)->a</li>
-    <li>e_a(lodgers0_gender==Male)->e</li>
-    <li>e_a(lodgers0_gender!=Male)->a</li>
+    <li>o_a(lodgers0_gender==Female)->a</li>
+    <li>o_a(lodgers0_gender!=Female)->o</li>
+    <li>e_a(lodgers0_gender==Female)->a</li>
+    <li>e_a(lodgers0_gender!=Female)->e</li>
     <li>arrived(lodgerCount==1)->llegó</li>
     <li>arrived(lodgerCount>=2)->llegaron</li>
-    <li>Un_Cap(lodgers0==Male)->Un</li>
-    <li>Un_Cap(lodgers0!=Male)->Una</li>
-    <li>un_una(lodgers0==Male)->un</li>
-    <li>un_una(lodgers0!=Male)->una</li>
-    <li>insults(lodgers0==Male)->al calumniador</li>
-    <li>insults(lodgers0!=Male)->a la calumniadora</li>
+    <li>Un_Cap(lodgers0_gender==Female)->Una</li>
+    <li>Un_Cap(lodgers0_gender!=Female)->Un</li>
+    <li>un_una(lodgers0_gender==Female)->una</li>
+    <li>un_una(lodgers0_gender!=Female)->un</li>
+    <li>insults(lodgers0_gender==Female)->a la calumniadora</li>
+    <li>insults(lodgers0_gender!=Female)->al calumniador</li>
     <li>arrived(lodgerCount==1)->llegó</li>
     <li>arrived(lodgerCount>=2)->llegaron</li>
     <li>willStay(lodgerCount==1)->quedará</li>
     <li>willStay(lodgerCount>=2)->quedarán</li>
-    <li>last(lodgers0==Male)->El último</li>
-    <li>last(lodgers0!=Male)->La última</li>
-    <li>lodgersella(lodgers0==Male)->el</li>
-    <li>lodgersella(lodgers0!=Male)->la</li>
-    <li>lodgersellaCap(lodgers0==Male)->El</li>
-    <li>lodgersellaCap(lodgers0!=Male)->La</li>
+    <li>last(lodgers0_gender==Male)->El último</li>
+    <li>last(lodgers0_gender!=Male)->La última</li>
+    <li>lodgersella(lodgers0_gender==Male)->el</li>
+    <li>lodgersella(lodgers0_gender!=Male)->la</li>
+    <li>lodgersellaCap(lodgers0_gender==Male)->El</li>
+    <li>lodgersellaCap(lodgers0_gender!=Male)->La</li>
     <li>HadSingOrPlural(lodgerCount==1)->tenía</li>
     <li>HadSingOrPlural(lodgerCount>=2)->tenían</li>
-    <li>hostedSingOrPlural(lodgers0==Male,lodgerCount==1)->hospedado</li>
-    <li>hostedSingOrPlural(lodgers0!=Male,lodgerCount==1)->hospedada</li>
+    <li>hostedSingOrPlural(lodgers0_gender==Male,lodgerCount==1)->hospedado</li>
+    <li>hostedSingOrPlural(lodgers0_gender!=Male,lodgerCount==1)->hospedada</li>
     <li>hostedSingOrPlural(lodgerCount>=2)->hospedados</li>
     <!-- EnemyFaction -->
     <li>el_la(enemyFaction_leader==Male)->el</li>
@@ -407,6 +409,10 @@
     <!--SENDER-->
     <li>un_una_sender(ATTENDER_gender!=Female)->un</li>
     <li>un_una_sender(ATTENDER_gender==Female)->una</li>
+    <!-- Book_Descriptions -->
+    <!--ANYPAWN -->
+    <li>ANYPAWN_o_a(ANYPAWN_gender!=Female)->o</li>
+    <li>ANYPAWN_o_a(ANYPAWN_gender==Female)->a</li>
     <!-- prueba 
     <li>RECIPIENT_indefinite(RECIPIENT==Hare)->una liebre</li>
     <li>RECIPIENT_definite(RECIPIENT==Hare)->la liebre</li> -->
@@ -960,6 +966,10 @@
     <li>CommunityAny->[Community_Fem]</li>
     <li>GameAny->[Game]</li>
     <li>GameAny->[Game_Fem]</li>
+    <li>EnemyIndef->un [Enemy]</li>
+    <li>EnemyIndef->una [Enemy_Fem]</li>
+    <li>PersonJobIndef->un [PersonJob]</li>
+    <li>PersonJobIndef->una [PersonJob_Fem]</li>
     <li>GameDef->el [Game]</li>
     <li>GameDef->la [Game_Fem]</li>
     <li>NaturalObjectDef->un [NaturalObject]</li>
@@ -1028,6 +1038,8 @@
     <li>TreeTypeIndef->una [TreeType_Fem]</li>
     <li>VegetableAny->[Vegetable]</li>
     <li>VegetableAny->[Vegetable_Fem]</li>
+    <li>VegetableDef->el [Vegetable]</li>
+    <li>VegetableDef->la [Vegetable_Fem]</li>
     <li>VegetableIndef->un [Vegetable]</li>
     <li>VegetableIndef->una [Vegetable_Fem]</li>
     <li>WeaponAny->[Weapon]</li>

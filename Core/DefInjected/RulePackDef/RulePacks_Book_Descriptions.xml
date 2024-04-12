@@ -226,7 +226,7 @@
     <li>opponent->la injusticia</li>
     <li>opponent->el miedo</li>
     <li>opponent->un [Enemy] peligroso</li>
-    <li>opponent->un [PersonJob] rival</li>
+    <li>opponent->[PersonJobIndef] rival</li>
     <li>opponent->la falta de sentido de [ConceptPositive]</li>
     <li>opponent->[protagHis] malvado [PersonFamily]</li>
     <li>opponent->las normas sociales de su comunidad</li>
@@ -1212,12 +1212,12 @@
     <li>written_when->a una edad temprana, trabajando solo mientras los compañeros jugaban</li>
     <li>subject_consequence(p=18)->[subject_primary_story]</li>
     <li>subject_consequence->[digression]</li>
-    <li>digression->En un momento dado, la historia se desvía en una confusa discusión sobre [digression_subject]</li>
-    <li>digression->La narrativa del esquema pierde su rumbo aquí, desviándose hacia [digression_subject]</li>
+    <li>digression->en un momento dado, la historia se desvía en una confusa discusión sobre [digression_subject]</li>
+    <li>digression->la narrativa del esquema pierde su rumbo aquí, desviándose hacia [digression_subject]</li>
     <li>digression->el [author] ha insertado una nota al pie aquí, sobre [digression_subject]</li>
-    <li>digression->No está claro por qué la historia se dirige a [digression_subject]</li>
-    <li>digression->Es una sorpresa que el esquema [contain_verb]s información sobre [digression_subject]</li>
-    <li>digression->La sección sobre [digression_subject] es irrelevante</li>
+    <li>digression->no está claro por qué la historia se dirige a [digression_subject]</li>
+    <li>digression->es una sorpresa que el esquema [contain_verb]s información sobre [digression_subject]</li>
+    <li>digression->la sección sobre [digression_subject] es irrelevante</li>
     <li>digression_subject->amor y guerra</li>
     <li>digression_subject->distinciones políticas interminables, cada vez más menores</li>
     <li>digression_subject->tendencias culinarias de Mundo de Brillo</li>
@@ -1246,10 +1246,10 @@
     <li>linkage->esto inspiró a [ANYPAWN_objective] y a [ANYPAWN_pronoun] </li>
     <li>linkage->esto resultó útil más tarde cuando [ANYPAWN_pronoun] </li>
     <li>linkage->usando este conocimiento, [ANYPAWN_pronoun] </li>
-    <li>linkage->[ANYPAWN_pronoun] encontró esto útil cuando [ANYPAWN_pronoun] </li>
+    <li>linkage->encontró esto útil cuando </li>
     <li>linkage->por eso [ANYPAWN_pronoun] </li>
     <li>linkage->en [worldname], [ANYPAWN_pronoun] usó la perspicacia de [ANYPAWN_possessive] y </li>
-    <li>linkage->para dominarlo, [ANYPAWN_pronoun] viajó a [worldname] donde [ANYPAWN_pronoun] </li>
+    <li>linkage->para dominar este conocimiento, viajó a [worldname] donde </li>
     <li>authorTitle->autor</li>
     <li>authorTitle->escriba</li>
     <li>authorTitle->escritor</li>
@@ -2060,8 +2060,8 @@
     <li>production->El [precis_synonym] dice que la Universidad de [worldname] convirtió esto en un texto obligatorio</li>
     <li>production->El [precis_synonym] dice que, aunque estas notas fueron hechas para el uso personal de [ANYPAWN_label], han sido ampliamente compartidas</li>
     <li>production->Las partes útiles de este [textbook] están ocultas entre los detalles biográficos</li>
-    <li>production->Una [note] escrita a mano en [note_location] dice que la imprenta de [worldname] cerró después de los disturbios de [worldname], por lo que estas ediciones posteriores son raras</li>
-    <li>production->Una [note] inscrita dice que la mayoría de las copias de este [textbook] se perdieron durante el Incidente de [worldname]</li>
+    <li>production->Un[note] en la [note_location] dice que la imprenta de [worldname] cerró después de los disturbios de [worldname], por lo que estas ediciones posteriores son raras</li>
+    <li>production->Un[note] dice que la mayoría de las copias de este [textbook] se perdieron durante el Incidente de [worldname]</li>
     <li>production->El [precis_synonym] deja claro que los lectores con conocimientos sobre técnicas de diseminación de información arqueotécnica tienden a evitar esta serie de [textbook], pero no explica por qué</li>
     <li>production->Por la [note_location], es evidente que los prosélitos del [subject] de [worldname] gastaron una fortuna imprimiendo copias de este libro y luego distribuyéndolo ampliamente</li>
     <li>production->la [note_location] explica que las primeras copias de este libro fueron escritas a mano por [ANYPAWN_label] [ANYPAWN_objective]mismo</li>
@@ -2119,14 +2119,14 @@
     <li>note_location->nota al final</li>
     <li>note_location->biografía del autor</li>
     <li>note_location->etiqueta de envío</li>
-    <li>note->nota</li>
-    <li>note->añadido</li>
-    <li>note->posdata</li>
-    <li>note->epílogo</li>
-    <li>note->apéndice</li>
-    <li>note->coda</li>
-    <li>note->nota al pie</li>
-    <li>note->nota al final</li>
+    <li>note->a nota</li>
+    <li>note-> añadido</li>
+    <li>note->a aclaración</li>
+    <li>note-> epílogo</li>
+    <li>note-> apéndice</li>
+    <li>note->a cosa</li>
+    <li>note->a nota al pie</li>
+    <li>note->a nota al final</li>
     <li>useful_information->información útil</li>
     <li>useful_information->datos interesantes</li>
     <li>useful_information->información valiosa</li>
