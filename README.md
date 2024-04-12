@@ -6,15 +6,16 @@ Consulta esta página para obtener información sobre la licencia e información
 
 
 ---
-### Para una mejor comunicación entra al Discord de traducción: [Facción Hispana](https://discord.gg/EjK52KM) (Actualizado el 22/01/2024) 
+### Para una mejor comunicación entra al Discord de traducción: [RimWorld:ES](https://discord.gg/VA9u47FruM) (Actualizado el 12/04/2024). 
+### También colaboramos con [Facción Hispana](https://discord.gg/EjK52KM) (Actualizado el 20/03/2024) 
 
 ---
 ### Instalación de las últimas traducciones
 Las traducciones que vienen con el juego no se actualizan automáticamente.
 
-Cada vez que el juego se actualiza, Ludeon coge los archivos de los repositorios oficiales y los "empaqueta" para incluirlos en el juego.
+Cada vez que el juego se actualiza, Ludeon recoge los archivos de los repositorios oficiales y los "empaqueta" para incluirlos en el juego. Esto supone que, hasta que RimWorld no se actualice, tampoco lo harán las traducciones.
 
-Si queréis actualizar las traducciones a las más recientes, de forma semi-automática; seguid [esta guía](Instalar/InstallGuide.md).
+Si queréis actualizar las traducciones a las más recientes, de forma semiautomática, seguid [esta guía](Instalar/InstallGuide.md).
 
 ---
 ### Limpiar **archivos de traducción**:
@@ -29,12 +30,10 @@ Tras actualizarlo en el juego, hacemos los pasos a la inversa; movemos los archi
 	* [Zakees](https://github.com/Zakees)
 	* [Miguel Angel Farias (Zerstrick)](https://github.com/Zerstrick)
   	* [Wolf Igmc4](https://github.com/Wolf-Igmc4)
-   	* [Iter](https://github.com/1ter)
-	
+	* [Álvaro Maldonado Peña (picodepelicano)](https://github.com/picodepelicano)
 
 * Colaboradores:
   	* [Aser Granado Amores (Xeros08)](https://github.com/Xeros08)
-	* [Álvaro Maldonado Peña (picodepelicano)](https://github.com/picodepelicano)
 	* [Juan Melenchón Ramírez (Lord Mellington)](https://github.com/LordMellington)
 	* [Israel Gallego (Wolf Igmc4)](https://github.com/Wolf-Igmc4)
 	* [Capiqua](https://github.com/capiqua)
@@ -49,5 +48,5 @@ Tras actualizarlo en el juego, hacemos los pasos a la inversa; movemos los archi
 	* [Amatiasq](https://github.com/amatiasq)
 	* [Azarashi](https://github.com/AzarashiEsp)
   	* [SpartanEsp](https://github.com/SpartanEsp)
-  	* [Franco García (lay)](https://github.com/notfraaan)
 	* [Revan](https://github.com/revanfischer)
+	* [Iter](https://github.com/1ter)
