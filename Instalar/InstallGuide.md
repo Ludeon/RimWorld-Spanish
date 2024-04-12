@@ -7,8 +7,10 @@ NOTA: el proceso variará ligeramente dependiendo del sistema operativo que usem
 ### Pasos para actualizar las traducciones:
 1. Descargar el [script de actualización para Windows](https://raw.githubusercontent.com/Ludeon/RimWorld-Spanish/master/Instalar/_update.ps1) (Seguir pasos abajo).
 2. Mover el script al directorio raíz del juego. Este normalmente es: `C:\Program Files (x86)\Steam\steamapps\common\RimWorld`
-3. Ejecutar el script (CLic derecho => Ejecutar con Powershell).
+3. Ejecutar el script (Clic derecho => Ejecutar con Powershell).
 4. ¡Listo!
+
+NOTA: Si Windows no te permite ejecutar scripts de Powershell, ejecuta con permisos de administrador en Powershell el comando `set-executionpolicy remotesigned`.
 
 ### Pasos para descargar el Script en Windows:
 Opción 1:
