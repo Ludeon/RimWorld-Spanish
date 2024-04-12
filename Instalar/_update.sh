@@ -3,7 +3,7 @@
 
 # Author: Iter
 # Date Created: 22/12/2023
-# Last Modified: 21/01/2024
+# Last Modified: 12/04/2024
 
 # Description
 # Baja la traducción al castellano del repositorio oficial de Rimworld y la instala en el directorio del juego ya existente.
