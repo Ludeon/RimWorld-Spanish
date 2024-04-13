@@ -60,8 +60,8 @@
   -->
   <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->El cargamento misterioso</li>
-    <li>deliveredLetterText(pawnOnMap==true)->El cargamento misterioso ha sido entregado. Parece ser un cadáver humano.\n\nEn una inspección más detallada, el cadáver parece idéntico a [pawn_nameDef]. Su piel es cerosa y cálida al tacto. [pawn_nameDef] está profundamente inquieto(a) por su presencia.\n\nEstudia el cadáver para saber más sobre él.</li>
-    <li>deliveredLetterText(pawnOnMap==false)->El cargamento misterioso ha sido entregado. Parece ser un cadáver humano.\n\nEn una inspección más detallada, el cadáver parece idéntico a [pawn_nameDef]. Su piel es cerosa y cálida al tacto. [pawn_nameDef] está profundamente inquieto(a) por su presencia\n\nEstudia el cadáver para saber más sobre él.</li>
+    <li>deliveredLetterText(pawnOnMap==true)->El cargamento misterioso ha sido entregado. Parece ser un cadáver humano.\n\nEn una inspección más detallada, el cadáver parece ser idéntico a [pawn_nameDef]. Su piel es cerosa y cálida al tacto. [pawn_nameDef] está profundamente inquiet[pawn_o_a] por su presencia.\n\nEstudia el cadáver para saber más sobre él.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->El cargamento misterioso ha sido entregado. Parece ser un cadáver humano.\n\nEn una inspección más detallada, el cadáver parece ser idéntico a [pawn_nameDef]. Su piel es cerosa y cálida al tacto. [pawn_nameDef] está profundamente inquiet[pawn_o_a] por su presencia\n\nEstudia el cadáver para saber más sobre él.</li>
   </MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
@@ -71,7 +71,7 @@
   <MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->Una IA anónima ha llegado con una extraña petición. Quiere que aceptes un cargamento no especificado. La IA evita todas tus preguntas sobre la carga.\n\nSi aceptas, entregará la carga misteriosa en una cápsula de transporte.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_nameFull] [asker_a] [asker_faction_leaderTitle] de la facción [asker_faction_name] tiene una extraña petición. Quiere que aceptes un cargamento no especificado. Cuando se le pide más detalles, evita cualquier pregunta. Hay desesperación en su voz.\n\nSi aceptas, [asker_nameFull] te entregará la carga misteriosa en una cápsula de transporte.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull] [asker_a] [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name] tiene una extraña petición. [asker_pronoun] demands that you accept some unspecified cargo. Te exige que aceptes un cargamento no especificado. Cuando se le pide más detalles, evita cualquier pregunta. Hay desesperación en su voz.\n\nSi aceptas, [asker_nameFull] te entregará la carga misteriosa en una cápsula de transporte.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull] [asker_a] [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name] tiene una extraña petición. Te exige que aceptes un cargamento no especificado. Cuando se le pide más detalles, evita cualquier pregunta. Hay desesperación en su voz.\n\nSi aceptas, [asker_nameFull] te entregará la carga misteriosa en una cápsula de transporte.</li>
   </MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
