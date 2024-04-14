@@ -76,10 +76,10 @@
   <ChronophagyCurrentAge>y ahora tiene {0} años</ChronophagyCurrentAge>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
-  <PleasurePulseCompleteText>{0_nameDef} ha terminado de realizar el ritual {RITUAL_definite}. Por los siguientes {1}, todos los afectados por {RITUAL_definite} serán más felices pero trabajarán más despacio.</PleasurePulseCompleteText>
+  <PleasurePulseCompleteText>{0_nameDef} ha terminado de realizar el ritual {RITUAL_definite}. Por los siguientes {1}, todos los afectados por {RITUAL_definite} serán más felices, pero trabajarán más despacio.</PleasurePulseCompleteText>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable. -->
-  <NeurosisPulseCompleteText>{0_nameDef} ha terminado de realizar el ritual {RITUAL_definite}. Por los siguientes {1}, todos los que hayan oído el pulso trabajarán más rápido pero estarán más irritables.</NeurosisPulseCompleteText>
+  <NeurosisPulseCompleteText>{0_nameDef} ha terminado de realizar el ritual {RITUAL_definite}. Por los siguientes {1}, todos los que hayan oído el pulso trabajarán más rápido, pero estarán más irritables.</NeurosisPulseCompleteText>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk. -->
   <BloodRainCompleteText>{0_nameDef} ha terminado de realizar el ritual {RITUAL_definite}. Espesas gotas rojas han comenzado a caer del cielo. Mantén a todos dentro para evitar que se vuelvan locos.</BloodRainCompleteText>
@@ -200,7 +200,7 @@
   <!-- EN: Chimeras approach -->
   <ChimeraAssaultLabel>Aproximación de quimeras</ChimeraAssaultLabel>
   <!-- EN: A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked. -->
-  <ChimeraAssaultText>Un grupo de monstruos quimera retorcidos, parecidos a animales, han aparecido cerca.\n\nLas deformes bestias contemplarán tu colonia, esperando una oportunidad para atacar. Son asustadizas y pueden tomar represalias si se les provoca.</ChimeraAssaultText>
+  <ChimeraAssaultText>Un grupo de quimeras retorcidas, parecidas a animales, han aparecido cerca.\n\nLas deformes bestias contemplarán tu colonia, esperando una oportunidad para atacar. Son asustadizas y pueden tomar represalias si se les provoca.</ChimeraAssaultText>
 
   <!-- Unnatural darkness -->
   <!-- EN: Darkness lifting -->
@@ -208,7 +208,7 @@
   <!-- EN: The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air. -->
   <DarknessLiftingEarlyLetterText>El último de los pilares de pesadilla se ha derrumbado. La oscuridad antinatural ha empezado a disiparse. Los colonos respiran aliviados en el aire despejado.</DarknessLiftingEarlyLetterText>
   <!-- EN: {0_nameDef} attacked -->
-  <PawnAttackedInDarknessLabel>{0_nameDef} atacad{PAWN_gender ? o :a}</PawnAttackedInDarknessLabel>
+  <PawnAttackedInDarknessLabel>{0_nameDef} atacad{0_gender ? o :a}</PawnAttackedInDarknessLabel>
   <!-- EN: Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light. -->
   <PawnAttackedInDarknessText>¡Algo en la oscuridad ha atacado a {0_nameDef}!\n\nEstos ataques continuarán hasta que {0_pronoun} esté a salvo en la luz.</PawnAttackedInDarknessText>
   <!-- EN: Noctol attack -->
