@@ -243,7 +243,7 @@
     <li>seeks->persigue con empeño</li>
     <li>seeks->no deja piedra sin remover en busca de</li>
     <li>seeks->se embarca en una búsqueda de</li>
-    <li>seeks->rasga la carne de [protagHim] mientras busca</li>
+    <li>seeks->rasga su carne mientras busca</li>
     <li>seeks->se esfuerza por localizar</li>
     <li>seeks->busca diligentemente</li>
     <li>seeks->vaga en busca de</li>
@@ -251,8 +251,10 @@
     <li>seekObjective->un misterioso cubo dorado</li>
     <li>seekObjective->un demonio dentro de la cabeza de [protagHim]</li>
     <li>seekObjective->el [Vegetable] más sabroso del universo</li>
-    <li>seekObjective->un nuevo [Weapon] brillante</li>
-    <li>seekObjective->[protagHis] mascota perdida [Animal]</li>
+    <li>seekObjective->un reluciente [Weapon]</li>
+    <li>seekObjective->una reluciente [Weapon_Fem]</li>
+    <li>seekObjective->su mascota, un [Animal], perdido</li>
+    <li>seekObjective->su mascota, una [Animal_Fem], perdida</li>
     <li>seekObjective->piezas para reconstruir un [Mechanoid] destruido</li>
     <li>seekObjective->un [TerrainFeature] que [protagHe] vio en un sueño</li>
     <li>seekObjective->un viejo amor</li>
@@ -299,14 +301,22 @@
     <li>tellsAStoryOf->captura la saga de</li>
     <li>tellsAStoryOf->teje la historia de</li>
     <li>tellsAStoryOf->explora la crónica de</li>
-    <li>author->autor</li>
+    <li>author(ANYPAWN_gender!=Female)->el autor</li>
+    <li>author(ANYPAWN_gender==Female)->la autora</li>
     <li>author->[authorTitle] [ANYPAWN_nameIndef]</li>
-    <li>author(p=2)->[authorTitle] anónimo</li>
-    <li>authorTitle->autor</li>
-    <li>authorTitle->escriba</li>
-    <li>authorTitle->escritor</li>
-    <li>authorTitle->poeta</li>
-    <li>authorTitle->contador de historias</li>
+    <li>author(p=2)->[theUnnamedAuthor]</li>
+    <li>authorTitle(ANYPAWN_gender!=Female)->el autor</li>
+    <li>authorTitle(ANYPAWN_gender!=Female)->el copista</li>
+    <li>authorTitle(ANYPAWN_gender!=Female)->el escritor</li>
+    <li>authorTitle(ANYPAWN_gender!=Female)->el poeta</li>
+    <li>authorTitle(ANYPAWN_gender!=Female)->el cuentacuentos</li>
+    <li>authorTitle(ANYPAWN_gender==Female)->la autora</li>
+    <li>authorTitle(ANYPAWN_gender==Female)->la copista</li>
+    <li>authorTitle(ANYPAWN_gender==Female)->la escritora</li>
+    <li>authorTitle(ANYPAWN_gender==Female)->la poeta</li>
+    <li>authorTitle(ANYPAWN_gender==Female)->la cuentacuentos</li>
+    <li>theUnnamedAuthor(ANYPAWN_gender!=Female)->[authorTitle] anónimo</li>
+    <li>theUnnamedAuthor(ANYPAWN_gender==Female)->[authorTitle] anónima</li>
     <li>storySource->s experiencias personales</li>
     <li>storySource-> juventud</li>
     <li>storySource-> infancia</li>
@@ -1137,21 +1147,21 @@
     <li>tells_verb->transmite</li>
     <li>tells_verb->reproduce</li>
     <li>tells_verb->informa</li>
-    <li>schematic_origin->la [notable_adjective] historia de la creación del esquema</li>
-    <li>schematic_origin->cómo el autor llegó a crear el esquema</li>
-    <li>schematic_origin->la [notable_adjective] vida del autor del esquema</li>
+    <li>schematic_origin->el [notable_adjective] relato sobre la creación del esquema</li>
+    <li>schematic_origin->cómo llegó {ANYPAWN_gender ? el autor : la autora} a crear este esquema</li>
+    <li>schematic_origin->la peculiar vida del autor del esquema</li>
     <li>schematic_origin->una historia sobre la creación de este esquema</li>
-    <li>schematic_origin->el origen de este diagrama [notable_adjective]</li>
+    <li>schematic_origin->el origen de este [notable_adjective] esquema</li>
     <li>schematic_origin->un [notable_adjective] relato sobre la vida del autor</li>
-    <li>schematic_origin->un rumor sobre por qué este documento [notable_adjective] terminó en el Borde y quién lo escribió</li>
+    <li>schematic_origin->un rumor sobre por qué este [notable_adjective] documento terminó en las fronteras y quién lo escribió</li>
     <li>author_story->[author_storyname][author_intent]</li>
     <li>author_story->[author_storyname][learning_story]</li>
     <li>author_story->[author_storyname][calltoadventure]</li>
     <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
-    <li>author_storyname->el [authorTitle] no nombrado</li>
+    <li>author_storyname->[theUnnamedAuthor]</li>
     <li>author_intent-> estaba hambriento de conocimiento sobre [subject] desde una edad temprana e interrogaba a todos en su ciudad natal</li>
     <li>author_intent-> soñaba con rejuvenecer [subject] y liderar una revolución científica en Kuhn[worldname]</li>
-    <li>author_intent-> hizo de [subject] el trabajo de toda [ANYPAWN_possessive] vida</li>
+    <li>author_intent-> hizo de [subject] el trabajo de toda su vida</li>
     <li>author_intent-> compartió sus opiniones sobre [subject] en un libro [physical_adjective], escrito [written_when]</li>
     <li>author_intent-> no conocía una vocación mejor que estudiar [subject] y creó este esquema [written_when]</li>
     <li>author_intent-> se topó con los secretos de [subject] en el estudio [physical_adjective] de su madre</li>
@@ -1160,7 +1170,7 @@
     <li>author_intent-> necesitaba que la galaxia supiera sobre [subject]</li>
     <li>author_intent-> fue atraído hacia un amor por [subject] por una serie de libros infantiles</li>
     <li>author_intent-> nunca amó el estudio de [subject], pero estaba obligado a hacerlo</li>
-    <li>author_intent-> sintió que [subject] era el llamado de [ANYPAWN_possessive] vida</li>
+    <li>author_intent-> sintió que [subject] era la llamada de su vida</li>
     <li>learning_story-> viajó lejos y ancho, buscando sabiduría sobre [subject]</li>
     <li>learning_story-> vivió un día idéntico todos los días, trabajando en [subject] en las ciudades cíclicas de [midworld]</li>
     <li>learning_story-> se formó en una escuela de barrios bajos centrada en [subject] en [urbworld]</li>
@@ -1179,7 +1189,7 @@
     <li>learning_story-> crió apatovores clonados en [dinoworld] y cambió su carne por conocimiento de [subject]</li>
     <li>learning_story-> vivió en las torres flotantes de [urbworld], donde el conocimiento de [subject] era común</li>
     <li>learning_story-> fue criad[ANYPAWN_gender ? o : a] en los páramos exteriores de [ruinworld], aprendiendo [subject] para sobrevivir</li>
-    <li>calltoadventure-> sintió que su vida estaba estancada. Entonces un día, [ANYPAWN_pronoun] encontró [subject]</li>
+    <li>calltoadventure-> sintió que su vida estaba estancada. Entonces un día, encontró [subject]</li>
     <li>calltoadventure-> fue confiad[ANYPAWN_gender ? o : a] para comenzar una nueva colonia, por su cuenta, centrada en [subject]</li>
     <li>calltoadventure-> vio a su hermano mayor fallecer, dejando a [ANYPAWN_objective] como [ANYPAWN_gender ? el : la] especialista de la familia en [subject]</li>
     <li>calltoadventure-> se enteró de que había una colonia abandonada en un mundobrillante que se centraba en [subject]</li>
@@ -1236,14 +1246,14 @@
     <li>aftermath->Una [note] en una mano diferente dice que el [author] fue visto por última vez dirigiéndose a [deathworld]</li>
     <li>aftermath->Tiene páginas arrancadas</li>
     <li>aftermath->Las hojas están salpicadas de manchas marrones</li>
-    <li>aftermath->A pesar de las aventuras de [ANYPAWN_possessive], [ANYPAWN_pronoun] logró crear este esquema</li>
-    <li>aftermath->Más tarde, [ANYPAWN_pronoun] logró encontrar paz en este trabajo. [subject_chat]</li>
-    <li>aftermath->La historia de [ANYPAWN_possessive] termina aquí, con una descripción técnica de [ANYPAWN_possessive] trabajo en [worldname]. [subject_chat]</li>
+    <li>aftermath->A pesar de las aventuras de [ANYPAWN_possessive], logró crear este esquema</li>
+    <li>aftermath->Más tarde, logró encontrar paz en este trabajo. [subject_chat]</li>
+    <li>aftermath->Su historia termina aquí, con una descripción técnica de su trabajo en [worldname]. [subject_chat]</li>
     <li>subject_chat->el trabajo de [author] demuestra ser autoritario en [subject]</li>
     <li>subject_chat->Pocos discuten los hallazgos en este documento sobre [subject]</li>
     <li>subject_chat->Este documento será inspirador para cualquier persona interesada en [subject]</li>
     <li>subject_chat->Aunque los diagramas estén desvanecidos, las lecciones de [author] sobre [subject] son valiosas</li>
-    <li>linkage->esto inspiró a [ANYPAWN_objective] y a [ANYPAWN_pronoun] </li>
+    <li>linkage->esto [ANYPAWN_objective] inspiró y </li>
     <li>linkage->esto resultó útil más tarde cuando [ANYPAWN_pronoun] </li>
     <li>linkage->usando este conocimiento, [ANYPAWN_pronoun] </li>
     <li>linkage->encontró esto útil cuando </li>
@@ -1253,10 +1263,10 @@
     <li>authorTitle->autor</li>
     <li>authorTitle->escriba</li>
     <li>authorTitle->escritor</li>
-    <li>notable_adjective->famosa</li>
-    <li>notable_adjective->oscura</li>
-    <li>notable_adjective->icónica</li>
-    <li>notable_adjective->clásica</li>
+    <li>notable_adjective->famoso</li>
+    <li>notable_adjective->oscuro</li>
+    <li>notable_adjective->singular</li>
+    <li>notable_adjective->clásico</li>
     <li>notable_adjective->común</li>
     <li>notable_adjective->familiar</li>
     <li>negative_adjective->rudimentaria</li>
@@ -2051,10 +2061,10 @@
     <li>students->amantes</li>
     <li>students->practicantes</li>
     <li>detail->. Te lleva a través del tema paso a paso</li>
-    <li>detail(quality[less_than]4)->, aunque el autor se apresura a través del tema</li>
+    <li>detail(quality[less_than]4)->, aunque el autor se precipita en el tema</li>
     <li>detail(quality[greater_than]3)->. Es un tratamiento exhaustivo del tema</li>
     <li>detail->. El autor afirma en su [precis_synonym] que existen copias fraudulentas de este libro pero que esta no lo es</li>
-    <li>detail(quality[less_than]4)->, aunque tal vez el intento de comunicar sus ideas a través de un diálogo imaginado fue un error</li>
+    <li>detail(quality[less_than]4)->, aunque quizás el intento de comunicar sus ideas a través de un diálogo imaginario fue un error</li>
     <li>detail->. La retórica del autor en el [precis_synonym] no distrae de los conceptos principales</li>
     <li>production->El [precis_synonym] dice que fue impreso a mano en [worldname]</li>
     <li>production->El [precis_synonym] dice que la Universidad de [worldname] convirtió esto en un texto obligatorio</li>
@@ -2063,9 +2073,9 @@
     <li>production->Un[note] en la [note_location] dice que la imprenta de [worldname] cerró después de los disturbios de [worldname], por lo que estas ediciones posteriores son raras</li>
     <li>production->Un[note] dice que la mayoría de las copias de este [textbook] se perdieron durante el Incidente de [worldname]</li>
     <li>production->El [precis_synonym] deja claro que los lectores con conocimientos sobre técnicas de diseminación de información arqueotécnica tienden a evitar esta serie de [textbook], pero no explica por qué</li>
-    <li>production->Por la [note_location], es evidente que los prosélitos del [subject] de [worldname] gastaron una fortuna imprimiendo copias de este libro y luego distribuyéndolo ampliamente</li>
-    <li>production->la [note_location] explica que las primeras copias de este libro fueron escritas a mano por [ANYPAWN_label] [ANYPAWN_objective]mismo</li>
-    <li>production->La Duquesa de [worldname] patrocinó este [textbook], con la condición de que estuviera disponible libremente</li>
+    <li>production->Por la [note_location], es evidente que los prosélitos del [subject] de [worldname] gastaron una fortuna imprimiendo copias de este libro y en distribuirlo ampliamente</li>
+    <li>production->La [note_location] explica que las primeras copias de este libro fueron escritas a mano por [ANYPAWN_label] [ANYPAWN_objective]mismo</li>
+    <li>production->La duquesa de [worldname] patrocinó este [textbook] con la condición de que estuviera disponible de forma gratuita</li>
     <li>production->Una nota dice que una suscripción de los libreros de [coreworld] produjo la primera edición de este [textbook]</li>
     <li>production->En la parte trasera del libro, el editor anuncia una serie más amplia que aborda todos los temas necesarios para la supervivencia en la periferia</li>
     <li>production->Los editores quizás podrían haber sido más sinceros en sus funciones editoriales, dada la gramática descuidada</li>
@@ -2113,18 +2123,18 @@
     <li>note_location->solapa trasera</li>
     <li>note_location->primera página</li>
     <li>note_location->última página</li>
-    <li>note_location->parte de los márgenes</li>
+    <li>note_location->zona del margen</li>
     <li>note_location->página de título</li>
     <li>note_location->nota al pie</li>
     <li>note_location->nota al final</li>
     <li>note_location->biografía del autor</li>
     <li>note_location->etiqueta de envío</li>
     <li>note->a nota</li>
-    <li>note-> añadido</li>
+    <li>note-> anexo</li>
     <li>note->a aclaración</li>
     <li>note-> epílogo</li>
     <li>note-> apéndice</li>
-    <li>note->a cosa</li>
+    <li>note->a coda</li>
     <li>note->a nota al pie</li>
     <li>note->a nota al final</li>
     <li>useful_information->información útil</li>
