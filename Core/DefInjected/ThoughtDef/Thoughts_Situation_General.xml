@@ -11,28 +11,28 @@
   <ApparelDamaged.stages.tattered_apparel.description>Esto parece estar a punto de desintegrarse. ¿No puedo llevar algo que no parezca haber salido de un cubo de basura?</ApparelDamaged.stages.tattered_apparel.description>
   
   <!-- EN: tainted {0} -->
-  <DeadMansApparel.stages.tainted.label>{0} mancillado(a)</DeadMansApparel.stages.tainted.label>
+  <DeadMansApparel.stages.tainted.label>{0} mancillad{0_gender ? o : a}</DeadMansApparel.stages.tainted.label>
   <!-- EN: I am wearing a piece of apparel that someone died in. It creeps me out and feels dirty. -->
   <DeadMansApparel.stages.tainted.description>Estoy usando ropa con la que alguien murió. Me da escalofríos y me siento sucio.</DeadMansApparel.stages.tainted.description>
   <!-- EN: tainted {0} (+1) -->
-  <DeadMansApparel.stages.tainted_1.label>{0} mancillado(a) +1</DeadMansApparel.stages.tainted_1.label>
+  <DeadMansApparel.stages.tainted_1.label>{0} mancillad{0_gender ? o : a} +1</DeadMansApparel.stages.tainted_1.label>
   <!-- EN: I am wearing two pieces of apparel that someone died in. It creeps me out and feels dirty. -->
   <DeadMansApparel.stages.tainted_1.description>Estoy usando dos piezas de ropa con las que alguien murió. Me da escalofríos y me siento sucio.</DeadMansApparel.stages.tainted_1.description>
   <!-- EN: tainted {0} (+2) -->
-  <DeadMansApparel.stages.tainted_2.label>{0} mancillado(a) +2</DeadMansApparel.stages.tainted_2.label>
+  <DeadMansApparel.stages.tainted_2.label>{0} mancillad{0_gender ? o : a} +2</DeadMansApparel.stages.tainted_2.label>
   <!-- EN: I am wearing three pieces of apparel that someone died in. It creeps me out and feels dirty. -->
   <DeadMansApparel.stages.tainted_2.description>Estoy usando tres piezas de ropa con las que alguien murió. Me da escalofríos y me siento sucio.</DeadMansApparel.stages.tainted_2.description>
   <!-- EN: tainted {0} etc -->
-  <DeadMansApparel.stages.tainted_etc.label>{0} mancillado(a) etc.</DeadMansApparel.stages.tainted_etc.label>
+  <DeadMansApparel.stages.tainted_etc.label>{0} mancillad{0_gender ? o : a} etc.</DeadMansApparel.stages.tainted_etc.label>
   <!-- EN: I am wearing four or more pieces of apparel that someone died in. It creeps me out and feels dirty. -->
   <DeadMansApparel.stages.tainted_etc.description>Estoy usando más de tres piezas de ropa con las que alguien murió. Me da escalofríos y me siento sucio.</DeadMansApparel.stages.tainted_etc.description>
   
   <!-- EN: chilly -->
-  <EnvironmentCold.stages.chilly.label>fresco</EnvironmentCold.stages.chilly.label>
+  <EnvironmentCold.stages.chilly.label>con frío</EnvironmentCold.stages.chilly.label>
   <!-- EN: I'm uncomfortably cold. -->
-  <EnvironmentCold.stages.chilly.description>Tengo un frío algo incómodo.</EnvironmentCold.stages.chilly.description>
+  <EnvironmentCold.stages.chilly.description>Tengo un frío incómodo.</EnvironmentCold.stages.chilly.description>
   <!-- EN: cold -->
-  <EnvironmentCold.stages.cold.label>frío</EnvironmentCold.stages.cold.label>
+  <EnvironmentCold.stages.cold.label>con mucho frío</EnvironmentCold.stages.cold.label>
   <!-- EN: I'm so cold, I'm shivering. -->
   <EnvironmentCold.stages.cold.description>Tengo tanto frío que estoy temblando.</EnvironmentCold.stages.cold.description>
   <!-- EN: numbing cold -->
@@ -69,7 +69,7 @@
   <!-- EN: human leather {0} -->
   <HumanLeatherApparelHappy.stages.human_leather.label>{0} de cuero humano</HumanLeatherApparelHappy.stages.human_leather.label>
   <!-- EN: I enjoy wearing the suffering of others. -->
-  <HumanLeatherApparelHappy.stages.human_leather.description>Me gusta vestirme con el sufrimiento de los demás.</HumanLeatherApparelHappy.stages.human_leather.description>
+  <HumanLeatherApparelHappy.stages.human_leather.description>Disfruto vistiendo el sufrimiento de los demás.</HumanLeatherApparelHappy.stages.human_leather.description>
   <!-- EN: human leather {0} (+1) -->
   <HumanLeatherApparelHappy.stages.human_leather_1.label>{0} de cuero humano (+1)</HumanLeatherApparelHappy.stages.human_leather_1.label>
   <!-- EN: This will scare them. All will know my power. -->
@@ -86,7 +86,7 @@
   <!-- EN: human leather {0} -->
   <HumanLeatherApparelSad.stages.human_leather.label>{0} de cuero humano</HumanLeatherApparelSad.stages.human_leather.label>
   <!-- EN: Wearing parts of someone's body is... disturbing. -->
-  <HumanLeatherApparelSad.stages.human_leather.description>Vestirse con cuero humano es perturbador.</HumanLeatherApparelSad.stages.human_leather.description>
+  <HumanLeatherApparelSad.stages.human_leather.description>Vestirse partes del cuerpo de alguien es... perturbador.</HumanLeatherApparelSad.stages.human_leather.description>
   <!-- EN: human leather {0} (+1) -->
   <HumanLeatherApparelSad.stages.human_leather_1.label>{0} de cuero humano (+1)</HumanLeatherApparelSad.stages.human_leather_1.label>
   <!-- EN: I'm dressed like an insane person. -->
@@ -94,7 +94,7 @@
   <!-- EN: human leather {0} (+2) -->
   <HumanLeatherApparelSad.stages.human_leather_2.label>{0} de cuero humano (+2)</HumanLeatherApparelSad.stages.human_leather_2.label>
   <!-- EN: I think there may be a face on my clothes. Oh no... my clothes *are* a face. -->
-  <HumanLeatherApparelSad.stages.human_leather_2.description>Creo que puede haber una cara en mi ropa. Oh, no... mi ropa ES una cara.</HumanLeatherApparelSad.stages.human_leather_2.description>
+  <HumanLeatherApparelSad.stages.human_leather_2.description>Creo que puede haber un rostro humano en mi ropa. Oh, no... mi ropa *es* un rostro.</HumanLeatherApparelSad.stages.human_leather_2.description>
   <!-- EN: human leather {0} etc -->
   <HumanLeatherApparelSad.stages.human_leather_etc.label>{0} de cuero humano, etc.</HumanLeatherApparelSad.stages.human_leather_etc.label>
   <!-- EN: I look like a freak from a horror show, and I feel like I'm living in a horror show. -->
@@ -103,11 +103,11 @@
   <!-- EN: I love reading -->
   <LoveReading.stages.I_love_reading.label>Me gusta leer</LoveReading.stages.I_love_reading.label>
   <!-- EN: Reading really engages my intellectual passions. -->
-  <LoveReading.stages.I_love_reading.description>La lectura realmente involucra mis pasiones intelectuales.</LoveReading.stages.I_love_reading.description>
+  <LoveReading.stages.I_love_reading.description>La lectura despierta mis pasiones intelectuales.</LoveReading.stages.I_love_reading.description>
   <!-- EN: I really love reading -->
   <LoveReading.stages.I_really_love_reading.label>Adoro leer</LoveReading.stages.I_really_love_reading.label>
   <!-- EN: Reading excites my burning intellectual passions! I just love learning this way. -->
-  <LoveReading.stages.I_really_love_reading.description>¡La lectura emociona mis ardientes pasiones intelectuales! Simplemente adoro aprender de esta manera.</LoveReading.stages.I_really_love_reading.description>
+  <LoveReading.stages.I_really_love_reading.description>¡La lectura emociona mis ardientes pasiones intelectuales! Me encanta aprender de esta manera.</LoveReading.stages.I_really_love_reading.description>
   
   <!-- EN: sick -->
   <Sick.stages.sick.label>enferm{PAWN_gender ? o : a}</Sick.stages.sick.label>
@@ -119,7 +119,7 @@
   <!-- EN: This book covers a topic I'm passionate about. It's interesting. -->
   <SkillBookPassion.stages.interesting_textbook.description>Este libro trata un tema que me apasiona. Es interesante.</SkillBookPassion.stages.interesting_textbook.description>
   <!-- EN: amazing textbook -->
-  <SkillBookPassion.stages.amazing_textbook.label>libro de texto asombroso</SkillBookPassion.stages.amazing_textbook.label>
+  <SkillBookPassion.stages.amazing_textbook.label>libro de texto increíble</SkillBookPassion.stages.amazing_textbook.label>
   <!-- EN: This book covers a topic I'm very passionate about. It's captivating. -->
   <SkillBookPassion.stages.amazing_textbook.description>Este libro trata un tema que me apasiona. Es cautivador.</SkillBookPassion.stages.amazing_textbook.description>
   
