@@ -10,18 +10,18 @@
     <li>mechlinkAvailableLetterText->The crashed ship contained the corpse of an ancient mechanitor.\n\nExtract [mechanitor_possessive] mechlink by selecting a colonist and right-clicking the corpse.</li>
   -->
   <MechanitorShip.questContentRules.rulesStrings>
-    <li>mechanitorShuttleCrashedLetterLabel->Nave mecanitor</li>
-    <li>mechanitorShuttleCrashedLetterText->Una nave mecanitor con mecanoides salvajes se ha estrellado cerca. Los mecanoides saldrán de la nave estrellada y se prepararán para luchar.</li>
+    <li>mechanitorShuttleCrashedLetterLabel->La nave del mecanitor</li>
+    <li>mechanitorShuttleCrashedLetterText->Una nave de mecanitores que contiene mecanoides salvajes se ha estrellado cerca. Los mecanoides saldrán de la nave estrellada y se prepararán para luchar.</li>
     <li>assaultBeginLetterLabel->Ataque mecanoide</li>
-    <li>assaultBeginLetterText->¡Los mecanoides feroces vienen a asaltar la colonia!</li>
-    <li>mechlinkAvailableLetterLabel->El mecalink de [mechanitor_nameDef] está disponible</li>
-    <li>mechlinkAvailableLetterText->La nave estrellada contenía el cadáver de un antiguo mecanitor. Extrae [mechanitor_possessive] mecalink seleccionando un colono y haciendo clic con el botón derecho en el cadáver.</li>
+    <li>assaultBeginLetterText->¡Los mecanoides salvajes vienen a asaltar la colonia!</li>
+    <li>mechlinkAvailableLetterLabel->Mecaenlace de [mechanitor_nameDef] disponible</li>
+    <li>mechlinkAvailableLetterText->La nave estrellada contenía el cadáver de un antiguo mecanizador.\n\nExtrae su mecaenlace seleccionando un colono y haciendo clic con el botón derecho sobre el cadáver.</li>
   </MechanitorShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
   -->
   <MechanitorShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->Has descifrado un antiguo transpondedor, revelando la localización de una nave mecanóide en órbita. La nave está muy dañada, pero puedes hacerle señales para que aterrice cerca.\NLa nave contiene los restos de un mecanitor muerto hace mucho tiempo. Los mecanitores pueden crear y controlar mecanoides para el trabajo y el combate. Extrayendo el mecalink del mecanitor fallecido, puedes convertir a uno de tus colonos en mecanitor.\NCuidado, la nave también contiene mecanóides hostiles. El grupo de mecanoides se compone de:\n\n[mechList]</li>
+    <li>questDescription->Has descifrado un antiguo transpondedor que revela la ubicación de una nave mecanoide en órbita. La nave está muy dañada, pero puedes hacerle una señal para que aterrice cerca.\n\nLa nave contiene los restos de un mecanizador muerto hace tiempo. Los mecanizadores pueden crear y controlar mecanoides para trabajar y combatir. Si extraes el mecaenlace del mecanizador fallecido, puedes convertir a uno de tus colonos en un mecanizador.\n\nCuidado: la nave también contiene mecanoides hostiles. El grupo de mecanoides está compuesto por:\n\n[mechList]</li>
   </MechanitorShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
@@ -37,17 +37,17 @@
     <li>shipNoun->transport</li>
   -->
   <MechanitorShip.questNameRules.rulesStrings>
-    <li>questName->[shipAdjective] [shipNoun]</li>
-    <li>shipAdjective->mecanitor</li>
-    <li>shipAdjective->el supervisor</li>
-    <li>shipAdjective->antiguo</li>
+    <li>questName->[shipNoun] [shipAdjective]</li>
+    <li>shipAdjective->del mecanitor</li>
+    <li>shipAdjective->del supervisor</li>
+    <li>shipAdjective->ancestral</li>
     <li>shipAdjective->mecanoide</li>
-    <li>shipNoun->nave</li>
-    <li>shipNoun->transbordador</li>
-    <li>shipNoun->artesanía</li>
-    <li>shipNoun->naufragio</li>
-    <li>shipNoun->restos</li>
-    <li>shipNoun->transporte</li>
+    <li>shipNoun->La nave</li>
+    <li>shipNoun->El transbordador</li>
+    <li>shipNoun->La lanzadera</li>
+    <li>shipNoun->El naufragio</li>
+    <li>shipNoun->La astronave</li>
+    <li>shipNoun->El transporte</li>
   </MechanitorShip.questNameRules.rulesStrings>
   
 </LanguageData>
