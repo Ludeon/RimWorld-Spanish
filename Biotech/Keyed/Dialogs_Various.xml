@@ -223,7 +223,7 @@
 
   <!-- Text motes -->
   <!-- EN: {0} wounds tended -->
-  <NumWoundsTended>{0} heridas atendidas</NumWoundsTended>
+  <NumWoundsTended>{replace: ^{0} heridas atendidas; "^1 heridas atendidas"-"1 herida atendida"; "^"-""}</NumWoundsTended>
 
   <!-- Mechs -->
   <!-- EN: Weight class -->
