@@ -144,7 +144,7 @@
   <!-- EN: Entity escape -->
   <LetterLabelEscapingFromHoldingPlatform>Entidad escapando</LetterLabelEscapingFromHoldingPlatform> 
   <!-- EN: The following entities have escaped their restraints:\n\n{0}\n\nBuild stronger containment rooms to stop entities escaping. Entities are less likely to escape from holding platforms with high containment strength, which comes from strong walls and doors, good lighting, and special containment devices. -->
-  <LetterEscapingFromHoldingPlatform>Las siguientes entidades han escapado de sus sujeciones:\n\n{0}\n\nConstruye celdas de contención más fuertes para impedir que las entidades escapen. Las entidades tienen menos probabilidades de escapar de las plataformas de contención con alta resistencia de contención, que proviene de paredes y puertas fuertes, buena iluminación y dispositivos especiales de contención.</LetterEscapingFromHoldingPlatform> 
+  <LetterEscapingFromHoldingPlatform>Las siguientes entidades han escapado de sus ataduras:\n\n{0}\n\nConstruye celdas de contención más fuertes para impedir que las entidades escapen. Las entidades tienen menos probabilidades de escapar de las plataformas de contención con alta resistencia de contención, que proviene de paredes y puertas fuertes, buena iluminación y dispositivos especiales de contención.</LetterEscapingFromHoldingPlatform> 
   <!-- EN: requires {0} -->
   <HoldingPlatformRequiresStrength>requiere {0}</HoldingPlatformRequiresStrength>
   <!-- EN: No holding platforms available. -->
@@ -170,7 +170,7 @@
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedArmLetterLabel>Interacción con el obelisco</MutatorObeliskFailedArmLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
-  <MutatorObeliskFailedArmLetter> Mientras interactuaba con el obelisco, {PAWN_nameDef} sintió un hormigueo en el brazo durante unos instantes. La sensación pasó.\n\nEl obelisco intentó mutar a {PAWN_nameDef} pero falló.</MutatorObeliskFailedArmLetter>
+  <MutatorObeliskFailedArmLetter>Mientras interactuaba con el obelisco, {PAWN_nameDef} sintió un hormigueo en el brazo durante unos instantes. La sensación pasó.\n\nEl obelisco intentó mutar a {PAWN_nameDef} pero falló.</MutatorObeliskFailedArmLetter>
 
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshmassStomachLetterLabel>Mutación del obelisco</ObeliskFleshmassStomachLetterLabel>
@@ -278,11 +278,11 @@
   <Deactivated>Desactivado.</Deactivated> <!-- -->
 
   <!-- EN: {PAWN_labelShort} was sent. -->
-  <CommandSent>{PAWN_labelShort} ha sido enviado.</CommandSent>
+  <CommandSent>{PAWN_labelShort} ha sido enviad{PAWN_gender ? o : a}.</CommandSent>
   <!-- EN: Cannot activate entity -->
   <CannotActivateEntity>No se puede activar la entidad</CannotActivateEntity>
   <!-- EN: Entity must be on platform -->
-  <CannotActivateEntityPlatform> La entidad debe estar en una plataforma</CannotActivateEntityPlatform>
+  <CannotActivateEntityPlatform>La entidad debe estar en una plataforma</CannotActivateEntityPlatform>
   
   <!-- EN: Activity -->
   <ActivityGizmo>Actividad</ActivityGizmo>
@@ -443,7 +443,7 @@
   <!-- EN: Create corpse stockpile -->
   <CreateCorpseStockpile>Crear vertedero</CreateCorpseStockpile>
   <!-- EN: Create a dumping stockpile zone around the harbinger tree for corpses.\n\nHarbinger trees will consume nearby corpses and raw meat. If well fed, the trees will grow faster and create new harbinger trees. -->
-  <CreateCorpseStockpileDesc>Crea una zona de almacenamiento de cadáveres alrededor del árbol presagio. Los árboles presagio consumirán los cadáveres cercanos y la carne cruda. Si están bien alimentados, crecerán más rápido y crearán nuevos árboles presagio.</CreateCorpseStockpileDesc>
+  <CreateCorpseStockpileDesc>Crea una zona de almacenamiento de cadáveres alrededor del árbol presagio.\n\nLos árboles presagio consumirán los cadáveres cercanos y la carne cruda. Si están bien alimentados, crecerán más rápido y crearán nuevos árboles presagio.</CreateCorpseStockpileDesc>
 
   <!-- EN: Void node has been disabled. -->
   <VoidNodeDisabled>El nodo del vacío ha sido desactivado.</VoidNodeDisabled>
@@ -505,7 +505,7 @@
   <!-- EN: Must collect and analyze fleshmass neural lumps. Lumps analyzed -->
   <DestroyHeartDisabled>Debes recoger y analizar los nódulos neurales de la carnimasa. Nódulos analizados</DestroyHeartDisabled>
   <!-- EN: A fleshmass spitter is attacking! -->
-  <SpitterAttacking>¡Un escupidor de carnimasa ataca!</SpitterAttacking>
+  <SpitterAttacking>¡Un escupidor de la carnimasa ataca!</SpitterAttacking>
   <!-- EN: Gathering acid. Ready in -->
   <SpitterGatheringSpit>Reuniendo ácido. Listo en</SpitterGatheringSpit>
   <!-- EN: Ready to spit acid. -->
@@ -616,12 +616,12 @@
   <!-- EN: Corpse awakened -->
   <UnnaturalCorpseAwokenLetter>Cadáver despierto</UnnaturalCorpseAwokenLetter>
   <!-- EN: The unnatural corpse is rising! It intends to attack {PAWN_nameDef}!\n\nThe corpse will follow {PAWN_nameDef} forever no matter how far {PAWN_pronoun} goes.\n\nYou must destroy it now. -->
-  <UnnaturalCorpseAwokenLetterDesc>¡El cadáver antinatural se está levantando! Tiene la intención de atacar a {PAWN_nameDef}.\n\nEl cadáver seguirá a {PAWN_nameDef} para siempre sin importar lo lejos que {PAWN_pronoun} llegue.\n\nDebes destruirlo ahora.</UnnaturalCorpseAwokenLetterDesc>
+  <UnnaturalCorpseAwokenLetterDesc>¡El cadáver antinatural se está levantando! Tiene la intención de atacar a {PAWN_nameDef}.\n\nEl cadáver {PAWN_objective} seguirá para siempre sin importar lo lejos que {PAWN_pronoun} llegue.\n\nDebes destruirlo ahora.</UnnaturalCorpseAwokenLetterDesc>
 
   <!-- EN: Unnatural corpse destroyed! -->
   <UnnaturalCorpseAwokenDefeatedLetter>¡Cadáver antinatural destruido!</UnnaturalCorpseAwokenDefeatedLetter>
   <!-- EN: The unnatural corpse charging towards {PAWN_nameDef} has been defeated!\n\nThe corpse will no longer torment {PAWN_nameDef}. -->
-  <UnnaturalCorpseAwokenDefeatedLetterDesc>El cadáver antinatural que atentaba contra {PAWN_nameDef} ha sido derrotado!\n\nEl cadáver ya no atormentará a {PAWN_nameDef}.</UnnaturalCorpseAwokenDefeatedLetterDesc>
+  <UnnaturalCorpseAwokenDefeatedLetterDesc>El cadáver antinatural que atentaba contra {PAWN_nameDef} ha sido derrotado!\n\nEl cadáver ya no {PAWN_objective} atormentará más.</UnnaturalCorpseAwokenDefeatedLetterDesc>
 
   <!-- Golden Cube -->
   <!-- EN: {PAWN_labelShort}'s obsession with the golden cube has intensified. -->
@@ -700,7 +700,7 @@
   <!-- EN: Floor etchings -->
   <LetterLabelFloorEtchings>Grabados en el suelo</LetterLabelFloorEtchings>
   <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings.\n\n{RAMBLINGS}\n\nThey seem to indicate that an exit is somewhere {DIRECTION} of here. -->
-  <LetterFloorEtchings>{PAWN_nameDef} ha conseguido descifrar los grabados del suelo.\n\n{RAMBLINGS}\n\nParecen indicar que hay una salida en alguna {DIRECTION} de aquí.</LetterFloorEtchings>
+  <LetterFloorEtchings>{PAWN_nameDef} ha conseguido descifrar los grabados del suelo.\n\n{RAMBLINGS}\n\nParecen indicar que hay una salida al {DIRECTION} de aquí.</LetterFloorEtchings>
 
   <!-- EN: Floor etchings -->
   <LetterLabelFloorEtchingRamblings>Divagaciones sobre el suelo</LetterLabelFloorEtchingRamblings>
@@ -755,7 +755,7 @@
   <!-- EN: Target is downed -->
   <VoidMonolithActivatorDowned>El objetivo está abatido</VoidMonolithActivatorDowned>
   <!-- EN: Target in mental state -->
-  <VoidMonolithActivatorMentalState>El objetivo está en estado mental</VoidMonolithActivatorMentalState>
+  <VoidMonolithActivatorMentalState>El objetivo sufre un estado mental</VoidMonolithActivatorMentalState>
   <!-- EN: Target is busy -->
   <VoidMonolithActivatorBusy>El objetivo está ocupado</VoidMonolithActivatorBusy>
   <!-- EN: Target is incapable -->
