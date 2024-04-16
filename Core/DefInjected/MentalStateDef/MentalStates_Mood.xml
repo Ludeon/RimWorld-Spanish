@@ -148,7 +148,7 @@
   <!-- EN: Mental state: Tantrum -->
   <TargetedTantrum.baseInspectLine>Estado mental: rabieta</TargetedTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to destroy {1}. -->
-  <TargetedTantrum.beginLetter>{0} está teniendo una rabieta.\n\n[PAWN_pronoun] va a destruir el/la {1}.</TargetedTantrum.beginLetter>
+  <TargetedTantrum.beginLetter>{0} está teniendo una rabieta.\n\nVa a destruir: {1}.</TargetedTantrum.beginLetter>
   <TargetedTantrum.beginLetterLabel>rabieta</TargetedTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <TargetedTantrum.recoveryMessage>{0} se ha calmado.</TargetedTantrum.recoveryMessage>
@@ -160,7 +160,7 @@
   <!-- EN: {0} is hiding in [PAWN_possessive] room. -->
   <Wander_OwnRoom.beginLetter>{0} se está escondiendo en su habitación.</Wander_OwnRoom.beginLetter>
   <!-- EN: hide in room -->
-  <Wander_OwnRoom.beginLetterLabel>escondido(a) en habitación</Wander_OwnRoom.beginLetterLabel>
+  <Wander_OwnRoom.beginLetterLabel>escondid{PAWN_gender ? o : a} en su habitación</Wander_OwnRoom.beginLetterLabel>
   <!-- EN: {0} is no longer hiding in [PAWN_possessive] room. -->
   <Wander_OwnRoom.recoveryMessage>{0} ya no se está escondiendo en su habitación.</Wander_OwnRoom.recoveryMessage>
   

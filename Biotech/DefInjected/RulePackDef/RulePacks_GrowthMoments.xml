@@ -204,7 +204,7 @@
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] no ha conseguido desarrollar nuevas pasiones y tiene poco [nounAttitudeGood] por [nounFuture].</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] ha mostrado poco interés en aprender y sobre todo no le gusta [situationLearning].</li>
     <li>secondSentence(tierSection==0)->[PAWN_nameDef] solo le interesa [situationFun].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] se ve constantemente frenado{PAWN_gender ? o : a} por el miedo a [situationBad].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] se ve constantemente frenad{PAWN_gender ? o : a} por el miedo a [situationBad].</li>
     <li>secondSentence(tierSection==0)->[PAWN_nameDef] vive con el temor de resultar gravemente herid{PAWN_gender ? o : a} como consecuencia de [situationBad].</li>
     <li>secondSentence(tierSection==0)->[PAWN_nameDef] tiene una pesadilla recurrente en la que [PAWN_pronoun] está [situationFunGerund], lo que le hizo imaginarse [situationBadGerund].</li>
     <li>adjGood->gran</li>
@@ -218,11 +218,11 @@
     <li>adjGood->interminable</li>
     <li>adjGood->puro</li>
     <li>adjGood->impresionante</li>
-    <li>feelingBad->solo(a)</li>
-    <li>feelingBad->temeroso(a)</li>
-    <li>feelingBad->herido(a)</li>
-    <li>feelingBad->muy enfermo(a)</li>
-    <li>feelingBad->enfermo(a)</li>
+    <li>feelingBad->sol{PAWN_gender ? o : a}</li>
+    <li>feelingBad->temeros{PAWN_gender ? o : a}</li>
+    <li>feelingBad->herid{PAWN_gender ? o : a}</li>
+    <li>feelingBad->muy enferm{PAWN_gender ? o : a}</li>
+    <li>feelingBad->enferm{PAWN_gender ? o : a}</li>
     <li>nounAttitudeGood->entusiasmo</li>
     <li>nounAttitudeGood->fervor</li>
     <li>nounAttitudeGood->optimismo</li>
