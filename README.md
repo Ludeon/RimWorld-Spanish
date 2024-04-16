@@ -35,7 +35,7 @@ Tras actualizarlo en el juego, hacemos los pasos a la inversa; movemos los archi
 * Colaboradores:
   	* [Aser Granado Amores (Xeros08)](https://github.com/Xeros08)
 	* [Juan Melenchón Ramírez (Lord Mellington)](https://github.com/LordMellington)
-	* [Israel Gallego (Wolf Igmc4)](https://github.com/Wolf-Igmc4)
+	* [Israel Gallego (Anth)](https://github.com/Wolf-Igmc4)
 	* [Berny Gonzalez](https://github.com/BernyGonzalez)
 	* [Capiqua](https://github.com/capiqua)
 	* [Gaesatae](https://github.com/Gaesatae) 
