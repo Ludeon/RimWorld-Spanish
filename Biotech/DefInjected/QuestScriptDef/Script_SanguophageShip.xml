@@ -11,19 +11,19 @@
   -->
   <SanguophageShip.questContentRules.rulesStrings>
     <li>sanguophageShuttleCrashedLetterLabel->Transbordador estrellado</li>
-    <li>sanguophageShuttleCrashedLetterText->Un transbordador con un maestro sanguífago y [thrallCount] esclavos se ha estrellado cerca. Saldrán de la nave estrellada y se prepararán para luchar.</li>
-    <li>reinforcementsArrivedLetterLabel->Refuerzos esclavos</li>
-    <li>reinforcementsArrivedLetterText->Los esclavos están llegando en cápsulas de carga para reforzar al sanguífago estrellado.</li>
-    <li>assaultBeginLetterLabel->Asalto iniciado</li>
-    <li>assaultBeginLetterText->El maestro sanguífago hostil y [sanguophage_possessive] esclavos han iniciado un asalto a la colonia.</li>
+    <li>sanguophageShuttleCrashedLetterText->Un transbordador con un maestro sanguífago y [thrallCount] sanguiesclavo se han estrellado cerca. Saldrán de la nave estrellada y se prepararán para luchar.</li>
+    <li>reinforcementsArrivedLetterLabel->Sanguiesclavos de refuerzo</li>
+    <li>reinforcementsArrivedLetterText->Los sanguiesclavos están llegando en cápsulas de lanzamiento para reforzar al sanguífago estrellado.</li>
+    <li>assaultBeginLetterLabel->El asalto ha iniciado</li>
+    <li>assaultBeginLetterText->¡El maestro sanguífago hostil y sus sanguiesclavos han iniciado un asalto a la colonia!</li>
   </SanguophageShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have intercepted a distress signal! A hostile shuttle carrying a sanguophage master and [thrallCount] thralls is having trouble with its engines. You can use signals to draw it down to a crash near [map_definite].\n\nOnce the ship has crashed, you can fight the sanguophage and [sanguophage_possessive] minions. If you can capture the master, you can force [sanguophage_objective] to turn one of your colonists into a sanguophage.\n\n[sanguophageInfo]</li>
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
   <SanguophageShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->¡Has interceptado una señal de socorro! Un transbordador hostil que transporta a un maestro sanguífago y a [thrallCount] esclavos tiene problemas con sus motores. Una vez que la nave se haya estrellado, puedes luchar contra el sanguifago y sus secuaces. Si puedes capturar al amo, puedes forzar a [sanguophage_objective] a convertir a uno de tus colonos en un sanguífago.\n\n[sanguophageInfo]</li>
-    <li>sanguophageInfo->(*Gray)Acerca de los Sanguífagos: Los Sanguífagos son superhumanos sin edad y sin muerte, alimentados por arquitas creadas por la arqueotecnología en el torrente sanguíneo. Son hermosos y extremadamente inteligentes. Pueden curar cualquier herida y nunca sufren enfermedades ni venenos. En combate, pueden lanzar espinas mortales y curar a aliados heridos. El precio es que los hematófagos deben consumir hemógeno derivado de la sangre humana para sobrevivir, y deben agonizar periódicamente durante largos periodos. Son fácilmente destruidos por el fuego y ralentizados por la luz ultravioleta.(/Gray)</li>
+    <li>questDescription->¡Has interceptado una señal de socorro! Un transbordador hostil que lleva un maestro sanguífago y [thrallCount] sanguiesclavos tienen problemas con sus motores. Puedes usar señales para atraerlo y se estrelle cerca de [map_definite].\n\nUna vez que la nave se haya estrellado, puedes luchar contra el sanguífago y sus secuaces. Si puedes capturar al maestro, puedes obligarle a convertir a uno de tus colonos en un sanguífago.\n\n[sanguophageInfo]</li>
+    <li>sanguophageInfo->(*Gray)Sobre los sanguífagos: Los sanguífagos son superhumanos eternos e inmortales, alimentados por arquitas creadas por la arqueotecnología que se encuentran en el torrente sanguíneo. Son hermosos y extremadamente inteligentes. Pueden curar cualquier herida, y nunca sufren enfermedades ni venenos. En combate, pueden lanzar espinas mortales y curar a sus amigos heridos. El precio es que los sanguífagos deben consumir el hemógeno derivado de la sangre humana para sobrevivir, y deben mortisoñar regularmente durante largos periodos. Son fácilmente destruidos por el fuego y ralentizados por la luz ultravioleta.(/Gray)</li>
   </SanguophageShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
@@ -45,22 +45,31 @@
     <li>shipNoun->wreck</li>
   -->
   <SanguophageShip.questNameRules.rulesStrings>
-    <li>questName->[shipAdjective] [shipNoun]</li>
+    <li>questName->[shipNoun] [shipAdjective]</li>
+    <li>questName->[shipNounFem] [shipAdjectiveFem]</li>
     <li>shipAdjective->sanguífago</li>
     <li>shipAdjective->sanguinario</li>
-    <li>shipAdjective->sangre</li>
-    <li>shipAdjective->sombra</li>
-    <li>shipAdjective->oscuridad</li>
+    <li>shipAdjective->de sangre</li>
+    <li>shipAdjective->sombrío</li>
+    <li>shipAdjective->oscuro</li>
     <li>shipAdjective->carmesí</li>
     <li>shipAdjective->rojo</li>
-    <li>shipAdjective->roña</li>
-    <li>shipAdjective->hemico</li>
+    <li>shipAdjective->sangriento</li>
     <li>shipAdjective->sanguíneo</li>
-    <li>shipNoun->nave</li>
+    <li>shipAdjectiveFem->sanguífaga</li>
+    <li>shipAdjectiveFem->sanguinaria</li>
+    <li>shipAdjectiveFem->de sangre</li>
+    <li>shipAdjectiveFem->sombría</li>
+    <li>shipAdjectiveFem->oscura</li>
+    <li>shipAdjectiveFem->carmín</li>
+    <li>shipAdjectiveFem->roja</li>
+    <li>shipAdjectiveFem->sangrienta</li>
+    <li>shipAdjectiveFem->sanguínea</li>
+    <li>shipNounFem->nave</li>
     <li>shipNoun->transbordador</li>
-    <li>shipNoun->craartesanalft</li>
-    <li>shipNoun->casco</li>
-    <li>shipNoun->choque</li>
+    <li>shipNounFem->lanzadera</li>
+    <li>shipNounFem->astronave</li>
+    <li>shipNoun->transporte</li>
     <li>shipNoun->naufragio</li>
   </SanguophageShip.questNameRules.rulesStrings>
   

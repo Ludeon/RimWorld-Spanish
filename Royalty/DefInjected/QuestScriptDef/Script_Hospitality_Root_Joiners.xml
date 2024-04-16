@@ -184,6 +184,11 @@
     <li>allyAllies(lodgersCountMinusOne>=2)->aliados</li>
     <li>su_sus(lodgersCountMinusOne==1)->su</li>
     <li>su_sus(lodgersCountMinusOne>=2)->sus</li>
+    <li>said(lodgersCount==1)->dice</li>
+    <li>said(lodgersCount>=2)->dicen</li>
+    <li>beWill(lodgersCount==1,lodgers0_gender==Male)->dispuesto</li>
+    <li>beWill(lodgersCount==1,lodgers0_gender!=Male)->dispuesta</li>
+    <li>beWill(lodgersCount>=2)->dispuestos</li>
   </Hospitality_Joiners.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->shelter for [lodgerIndef]</li>

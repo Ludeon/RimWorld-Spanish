@@ -1320,7 +1320,7 @@
   <!-- EN: Contains -->
   <CasketContains>Contiene</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>¡Advertencia!\n\n¡{PAWN_nameDef} es tu último colono en pie! Si {PAWN_objective} dejas entrar en ese sarcófago no podrás seguir jugando. ¿Seguro que quieres continuar?</CasketWarning>
+  <CasketWarning>¡Advertencia!\n\n{PAWN_nameDef} es tu último colon{PAWN_gender ? o : a} en pie. Si {PAWN_objective} dejas entrar en ese sarcófago, no podrás seguir jugando. ¿Seguro que quieres continuar?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -1396,7 +1396,7 @@
   <!-- EN: on edge -->
   <Mood_OnEdge>al límite</Mood_OnEdge>
   <!-- EN: stressed -->
-  <Mood_Stressed>estresado(a)</Mood_Stressed>
+  <Mood_Stressed>con estrés</Mood_Stressed>
   <!-- EN: neutral -->
   <Mood_Neutral>neutral</Mood_Neutral>
   <!-- EN: content -->
@@ -1802,7 +1802,7 @@
   <!-- EN: {0_labelShort} is incapable of {1}. -->
   <AbilityDisabledNoCapacity>{0_labelShort} es incapaz de {1}.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>Todos los que participan en el ritual ganan {0} de humor durante {1} días.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>Todos los que participaron en el ritual han ganado {0} de humor durante {1} días.</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
   <RitualOutcomeNoQuality>Este ritual no tiene compensaciones de calidad, por lo que siempre se espera el mejor resultado</RitualOutcomeNoQuality>
 

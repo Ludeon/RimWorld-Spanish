@@ -149,7 +149,7 @@ function AskLocalRepoPath {
     $folder = $null
     $temp_path = $null
 
-    # Keep asking for a path untill it's valid
+    # Keep asking for a path until it's valid
     while ($done -eq $false){
         $temp_path = Get-Folder -DefaultLocation $temp_path
         

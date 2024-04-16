@@ -153,7 +153,7 @@
   <NeedResearchProjectDesc>Tienes el equipo necesario para investigar, pero no has seleccionado un proyecto.\n\nAbre el menú de INVESTIGACIÓN y selecciona uno.</NeedResearchProjectDesc>
 
   <!-- EN: {0} colonists idle -->
-  <ColonistsIdle>{0} colono(s) ocioso(s)</ColonistsIdle>
+  <ColonistsIdle>{replace: ^{0} colonos ociosos; "^1 colonos ociosos"-"1 colono ocioso"; "^"-""}</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>Estos colonos están deambulando sin nada que hacer:\n{0}\n\nDeberías encontrarles algo productivo que hacer.</ColonistsIdleDesc>
   
@@ -167,7 +167,7 @@
   <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
   <ColonistNeedsTreatmentDesc>Estos colonos necesitan tratamiento médico. Sin él, podrían morir por sus heridas o estas podrían volverse permanentes.\n{0}\n\nTrátalos enviándolos a una cama hospitalaria.\n\n(Primero, asigna una cama hospitalaria, seleccionándola y designándola como tal. Luego, selecciona al colono herido y haz clic derecho en la cama hospitalaria para convertirlo en paciente)</ColonistNeedsTreatmentDesc>
   <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDescController>Estos colonos necesitan tratamiento médico. Sin él, podrían morir por sus heridas o estas podrían volverse permanentes.\n{0}\n\nTrátalos enviándolos a una cama medica.\n\n(Primero, asigna una cama hospitalaria, seleccionándola y designándola como tal. Luego, selecciona al colono herido y pulsa con el gatillo izquierdo en la cama hospitalaria para convertirlo en paciente.)</ColonistNeedsTreatmentDescController>
+  <ColonistNeedsTreatmentDescController>Estos colonos necesitan tratamiento médico. Sin él, podrían morir por sus heridas o estas podrían volverse permanentes.\n{0}\n\nTrátalos enviándolos a una cama medica.\n\n(Para ello, primero, asigna una cama hospitalaria, seleccionándola y designándola como tal. Luego, selecciona al colono herido y pulsa con el gatillo izquierdo en la cama hospitalaria para convertirlo en paciente.)</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotermia</AlertHypothermia>
@@ -238,7 +238,7 @@
   <!-- EN: Guest unhappy -->
   <QuestPartMoodBelowThreshold>Invitado infeliz</QuestPartMoodBelowThreshold>
   <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n{1} -->
-  <QuestPartMoodBelowThresholdDesc>La misión {0} requiere que mantengas a esta persona de buen humor. Sin embargo, su humor es bajo. ¡Haz algo para que se sienta mejor!:\n\n{1}</QuestPartMoodBelowThresholdDesc>
+  <QuestPartMoodBelowThresholdDesc>La misión {0} requiere que mantengas a esta persona de buen humor. Sin embargo, su humor es bajo. ¡Haz algo para que se sienta mejor!:\n{1}</QuestPartMoodBelowThresholdDesc>
   
   <!-- EN: Shuttle leaving in {0} -->
   <QuestPartShuttleLeaveDelay>Transbordador se va en {0}</QuestPartShuttleLeaveDelay>
@@ -295,7 +295,7 @@
   <!-- EN: {ANIMAL_labelShort} in animal pen -->
   <AlertPredatorInAnimalPen>{ANIMAL_nameIndef} en corral</AlertPredatorInAnimalPen>
   <!-- EN: A predatory {ANIMAL_labelShort} has wandered into an animal pen.\n\nIt may decide to hunt your animals.\n\nYou can kill it, or wait and hope it leaves. -->
-  <AlertPredatorInAnimalPenDesc>Un(a) {ANIMAL_nameIndef} depredador(a) ha entrado en un corral.\n\nPodría decidir cazar tus animales.\n\nPuedes matarle o esperar a que se vaya.</AlertPredatorInAnimalPenDesc>
+  <AlertPredatorInAnimalPenDesc>{ANIMAL_nameIndef} ha entrado en un corral.\n\nAl ser un depredador, podría decidir cazar a tus animales.\n\nPuedes matarle o esperar a que se vaya.</AlertPredatorInAnimalPenDesc>
 
   <!-- EN: Animal wandering away -->
   <AlertAnimalIsRoaming>Animal deambulando</AlertAnimalIsRoaming>
@@ -315,7 +315,7 @@
   <!-- EN: Raids arriving in {0} -->
   <AlertTimedRaidsArrivingIn>Asalto llega en {0}</AlertTimedRaidsArrivingIn>
   <!-- EN: Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0} -->
-  <AlertTimedRaidsArrivingInDesc>Los enemigos han sido atraídos a los siguientes lugares y empezarán a llegar con fuerza pronto.\n\n{0}</AlertTimedRaidsArrivingInDesc>
+  <AlertTimedRaidsArrivingInDesc>Los enemigos han sido atraídos a los siguientes lugares y empezarán a llegar en masa pronto.\n\n{0}</AlertTimedRaidsArrivingInDesc>
   <!-- EN: Arriving at {0} in {1} -->
   <AlertTimedRaidsArrivingAt>Llegando a {0} en {1}</AlertTimedRaidsArrivingAt>
 
@@ -325,13 +325,13 @@
   <FactionWillBecomeHostileIfNotLeavingWithinDesc>Estas facciones se volverán hostiles si te quedas más tiempo en su asentamiento o puesto de avanzada:\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
 
   <!-- EN: {0} trees dying -->
-  <AlertMinifiedTreeAboutToDie>{0} árboles muriendo</AlertMinifiedTreeAboutToDie>
+  <AlertMinifiedTreeAboutToDie>{replace: ^{0} árboles; "^1 árboles"-"1 árbol"; "^"-""} muriendo</AlertMinifiedTreeAboutToDie>
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
-  <AlertMinifiedTreeAboutToDieDesc>{0} árboles extraídos van a morir es menos de un día. Esto hará que algunos colonos estén descontentos por sus creencias.\n\nPuedes evitarlo replantando estos árboles.</AlertMinifiedTreeAboutToDieDesc>
+  <AlertMinifiedTreeAboutToDieDesc>{replace: ^{0} árboles extraídos van; "^1 árboles extraídos van"-"1 árbol extraído va"; "^"-""} a morir en menos de un día. Esto hará que algunos colonos estén descontentos por sus creencias.\n\nPuedes evitarlo replantando estos árboles.</AlertMinifiedTreeAboutToDieDesc>
 
   <!-- EN: Need research bench -->
   <NeedResearchBench>Necesitas una mesa de investigación</NeedResearchBench>
   <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
-  <NeedResearchBenchDesc>Tienes un proyecto de investigación activo: "{0}". Este proyecto requiere que construyas una {1}.</NeedResearchBenchDesc>
+  <NeedResearchBenchDesc>Tienes un proyecto de investigación activo: "{0}". Este requiere que construyas una {1}.</NeedResearchBenchDesc>
   
 </LanguageData>
