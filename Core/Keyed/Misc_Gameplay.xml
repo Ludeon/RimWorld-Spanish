@@ -115,13 +115,13 @@
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} de {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>Esta acción hará que {PAWN_nameDef} pierda {PAWN_possessive} título de {TITLE}. No recibirás ninguna compensación al renunciar a tu título.\n\nEsto tendrá los siguientes efectos:\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>Esta acción hará que {PAWN_nameDef} pierda su título de {TITLE}. No recibirás ninguna compensación al renunciar a tu título.\n\nEsto tendrá los siguientes efectos:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_pronoun} perderá estos permisos</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
   <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} perderá {POINTS} puntos de permiso no gastados con la facción {FACTION_name}.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} mantendrá todos {PAWN_possessive}s niveles de psienlace y habilidades psíquicas.</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>Mantendrá todos sus niveles de psienlace y habilidades psíquicas.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>desconocido</UnknownLower>
   <!-- EN: On -->
@@ -796,7 +796,7 @@
   <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{1_labelShort} no está reclutado.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
-  <ApparelPreventsShooting>{PAWN_nameDef} no puede usar armas a distancia debido a {PAWN_possessive} {APPAREL_label}.</ApparelPreventsShooting>
+  <ApparelPreventsShooting>{PAWN_nameDef} no puede usar armas a distancia debido a su {APPAREL_label}.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>No puede usarse en {0}</CannotUseReason_PocketMap>
 
@@ -1320,7 +1320,7 @@
   <!-- EN: Contains -->
   <CasketContains>Contiene</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>¡Advertencia!\n\n{PAWN_nameDef} es tu último colon{PAWN_gender ? o : a} en pie. Si {PAWN_objective} dejas entrar en ese sarcófago, no podrás seguir jugando. ¿Seguro que quieres continuar?</CasketWarning>
+  <CasketWarning>¡Advertencia!\n\n¡{PAWN_nameDef} es tu último colon{PAWN_gender ? o : a} en pie! Si {PAWN_objective} dejas entrar en ese sarcófago, no podrás seguir jugando. ¿Seguro que quieres continuar?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -1778,7 +1778,7 @@
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
   <RitualBeginSleepingDesc>{0_labelShort} está durmiendo. Si se incluye en el ritual, se despertará para participar.</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
-  <RitualBeginSleepingWarning>Algunos de los participantes seleccionados están durmiendo. Se despertarán una vez el ritual.</RitualBeginSleepingWarning>
+  <RitualBeginSleepingWarning>Algunos de los participantes seleccionados están durmiendo. Se despertarán cuando empieces el ritual.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>Este puesto es mejor que lo ocupe un colono que tenga el rol social de {0}.\n\nSi alguien sin este rol ocupa este puesto, no obtendrá las siguientes bonificaciones</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->

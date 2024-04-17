@@ -125,7 +125,7 @@
     <li>insultcomparison(INITIATOR_cubeInterest==true)->a non-cubic platonic object</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [characteristic] de [target].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] {replace: de [characteristic]; "de el "-"del "} de [target].</li>
     <li>r_logentry->[INITIATOR_nameDef] comparó a [target] con [insultcomparisonIndef].</li>
     <li>r_logentry->[INITIATOR_nameDef] llamó a [target] [insultcomparison].</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[characteristicDef]</li>

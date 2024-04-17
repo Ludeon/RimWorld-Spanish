@@ -210,7 +210,7 @@
   -->
   <Description_Novel.rulePack.rulesStrings>
     <li>desc->Esta [bookType] [writingQualityAdjective] [follows] un [PersonJob] mientras [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
-    <li>desc->En esta [writingQualityAdjective] [bookType], el [author] [tellsAStoryOf] su[storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->En esta [writingQualityAdjective] [bookType], [author] [tellsAStoryOf] su[storySource]. [writingQualitySentence]. [maybe_date]</li>
     <li>follows->sigue a</li>
     <li>follows->cubre los hechos ocurridos a</li>
     <li>follows->narra la historia de</li>
@@ -225,7 +225,7 @@
     <li>struggles->resiste</li>
     <li>opponent->la injusticia</li>
     <li>opponent->el miedo</li>
-    <li>opponent->un [Enemy] peligroso</li>
+    <li>opponent->un peligroso [Enemy]</li>
     <li>opponent->[PersonJobIndef] rival</li>
     <li>opponent->la falta de sentido de [ConceptPositive]</li>
     <li>opponent->[protagHis] malvado [PersonFamily]</li>
@@ -265,7 +265,7 @@
     <li>seekObjective->amor en un mundo lleno de odio</li>
     <li>seekObjective->una receta familiar perdida</li>
     <li>seekObjective->un juguete de la infancia dejado atrás</li>
-    <li>seekObjective->una joya de la familia robada</li>
+    <li>seekObjective->una joya de una familia fue robada</li>
     <li>seekObjective->un diario perdido de un mentor</li>
     <li>seekObjective->un objeto de colección raro de la serie favorita de [protagHis]</li>
     <li>seekObjective->el lugar perfecto para un picnic</li>
@@ -369,10 +369,10 @@
     <li>excellentDesc->increíblemente original y está notablemente bien elaborada</li>
     <li>excellentDesc->llena de humor con el que es fácil identificarse</li>
     <li>excellentExtra->. Cada capítulo del libro fluye hacia el siguiente con gran naturalidad</li>
-    <li>excellentExtra->. Es difícil dejar de leer, cada página es un giro emocionante</li>
+    <li>excellentExtra->. Es difícil dejar de leer, ya que cada página sorprende</li>
     <li>excellentExtra->. Sorprende al lector al menos tres veces con sus giros argumentales inesperados</li>
     <li>excellentExtra->. Los giros de la trama son impredecibles, pero al mismo tiempo inevitables</li>
-    <li>excellentExtra->. Los personajes se sienten como personas reales</li>
+    <li>excellentExtra->. Los personajes se sienten vivos, como personas reales</li>
     <li>decentDesc->una historia decente</li>
     <li>decentDesc->interesante y atractiva</li>
     <li>decentDesc->centrada en una idea interesante</li>
@@ -395,16 +395,17 @@
     <li>awfulDesc->difícil de seguir</li>
     <li>awfulDesc->carente de visión artística</li>
     <li>awfulDesc->llena de agujeros de trama y personajes genéricos</li>
-    <li>awfulDesc->dominada por un personaje absurdo</li>
+    <li>awfulDesc->protagonizada por un personaje absurdo</li>
     <li>awfulDesc->extravagante, pero poco original</li>
     <li>awfulDesc->demasiado larga</li>
     <li>awfulExtra-> y la escritura es casi incomprensible</li>
     <li>awfulExtra-> y es extremadamente difícil de seguir</li>
+    <li>awfulExtra-> y a menudo la absurdez de su trama pone de los nervios al lector</li>
     <li>awfulExtra-> y falla en ensamblar una trama coherente</li>
     <li>awfulExtra-> y carece de cualquier sentido de tema o significado</li>
     <li>awfulExtra-> y no presenta ideas interesantes en absoluto</li>
-    <li>awfulExtra-> y cada personaje es aburrido</li>
-    <li>awfulExtra-> y no hay un protagonista identificable en ningún momento</li>
+    <li>awfulExtra-> y todos los personajes son planos y aburridos</li>
+    <li>awfulExtra-> y no hay un protagonista claro en ningún momento</li>
     <li>maybe_date-></li>
     <li>maybe_date->El libro fue publicado [date_form].</li>
     <li>maybe_date->El libro fue impreso [date_form].</li>
@@ -1371,7 +1372,7 @@
     <li>anAuthorDesc->un necio</li>
     <li>anAuthorDesc->un inocente</li>
     <li>anAuthorDesc->un perturbado</li>
-    <li>anAuthorDesc->un eldritch</li>
+    <li>anAuthorDesc->un éldrico</li>
     <li>anAuthorDesc->un extravagante</li>
     <li>anAuthorDesc->un arquetípico</li>
     <li>anAuthorDesc->un aburrido</li>
