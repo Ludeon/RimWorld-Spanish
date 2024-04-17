@@ -244,7 +244,7 @@
     <li>situationFun->hablar en la radio sobre [topicLearning]</li>
     <li>situationFun->charlar en la radio con forasteros</li>
     <li>situationFun->dibujar imágenes de [friendNamePlural] en el suelo</li>
-    <li>situationFun->soñar despierto(a) sobre [topicLearning]</li>
+    <li>situationFun->soñar despiert{PAWN_gender ? o : a} sobre [topicLearning]</li>
     <li>situationFun->correr en la naturaleza</li>
     <li>situationFun->tener aventuras con [friendNamePlural]</li>
     <li>situationFun->encontrar el tesoro escondido</li>
@@ -265,7 +265,7 @@
     <li>situationFunVar->habla en la radio sobre [topicLearning]</li>
     <li>situationFunVar->charla en la radio con forasteros</li>
     <li>situationFunVar->dibuja imágenes de [friendNamePlural] en el suelo</li>
-    <li>situationFunVar->sueña despierto(a) sobre [topicLearning]</li>
+    <li>situationFunVar->sueña despiert{PAWN_gender ? o : a} sobre [topicLearning]</li>
     <li>situationFunVar->corre en la naturaleza</li>
     <li>situationFunVar->tiene aventuras con [friendNamePlural]</li>
     <li>situationFunVar->busca el tesoro escondido</li>
@@ -286,7 +286,7 @@
     <li>situationFunGerund->hablando en la radio sobre [topicLearning]</li>
     <li>situationFunGerund->charlando en la radio con forasteros</li>
     <li>situationFunGerund->dibujando imágenes de [friendNamePlural] en el suelo</li>
-    <li>situationFunGerund->soñando despierto(a) sobre [topicLearning]</li>
+    <li>situationFunGerund->soñando despiert{PAWN_gender ? o : a} sobre [topicLearning]</li>
     <li>situationFunGerund->corriendo en la naturaleza</li>
     <li>situationFunGerund->teniendo aventuras con [friendNamePlural]</li>
     <li>situationFunGerund->encontrando el tesoro escondido</li>
@@ -313,20 +313,20 @@
     <li>situationAspirational->ayudar a otros</li>
     <li>situationAspirational->hacerse muy famoso</li>
     <li>situationAspirational->dejar este planeta</li>
-    <li>situationBad->ser atacado(a) por [enemyNamePlural]</li>
-    <li>situationBad->ser secuestrado(a) por [enemyNamePlural]</li>
-    <li>situationBad->ser cazado(a) por un[enemyNameSingular]</li>
-    <li>situationBad->ser perseguido(a) por un[enemyNameSingular]</li>
+    <li>situationBad->ser atacad{PAWN_gender ? o : a} por [enemyNamePlural]</li>
+    <li>situationBad->ser secuestrad{PAWN_gender ? o : a} por [enemyNamePlural]</li>
+    <li>situationBad->ser cazad{PAWN_gender ? o : a} por un[enemyNameSingular]</li>
+    <li>situationBad->ser perseguid{PAWN_gender ? o : a} por un[enemyNameSingular]</li>
     <li>situationBad->inhalar gas tóxico</li>
     <li>situationBad->coger la putrefacción pulmonar</li>
     <li>situationBad->coger la peste</li>
     <li>situationBad->coger la intoxicación alimentaria</li>
     <li>situationBad->ver morir a sus seres queridos</li>
     <li>situationBad->comer sin mesa</li>
-    <li>situationBadGerund->siendo atacado(a) por [enemyNamePlural]</li>
-    <li>situationBadGerund->siendo secuestrado(a) por [enemyNamePlural]</li>
-    <li>situationBadGerund->siendo cazado(a) por un[enemyNameSingular]</li>
-    <li>situationBadGerund->siendo perseguido(a) por un[enemyNameSingular]</li>
+    <li>situationBadGerund->siendo atacad{PAWN_gender ? o : a} por [enemyNamePlural]</li>
+    <li>situationBadGerund->siendo secuestrad{PAWN_gender ? o : a} por [enemyNamePlural]</li>
+    <li>situationBadGerund->siendo cazad{PAWN_gender ? o : a} por un[enemyNameSingular]</li>
+    <li>situationBadGerund->siendo perseguid{PAWN_gender ? o : a} por un[enemyNameSingular]</li>
     <li>situationBadGerund->inhalado gas tóxico</li>
     <li>situationBadGerund->cogiendo la putrefacción pulmonar</li>
     <li>situationBadGerund->cogiendo la peste</li>
@@ -336,7 +336,7 @@
     <li>topicLearning->el universo</li>
     <li>topicLearning->la ciencia</li>
     <li>topicLearning->diferentes culturas</li>
-    <li>topicLearning->arqueotécnicos</li>
+    <li>topicLearning->arqueotecas</li>
     <li>topicLearning->la economía planetaria</li>
     <li>topicLearning->la psicología</li>
     <li>topicLearning->la biología de los insectos</li>

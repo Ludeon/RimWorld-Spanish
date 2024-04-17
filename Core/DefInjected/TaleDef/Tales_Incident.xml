@@ -36,7 +36,7 @@
     <li>circumstance_phrase->iluminando [TerrainFeatureIndef]</li>
     <li>circumstance_phrase->sobre [CommunityIndef]</li>
     <li>circumstance_phrase->entre [TerrainFeatureIndef] y [TerrainFeatureIndef]</li>
-    <li>desc_sentence->Debajo, [PAWN_nameDef] juega [GameAny] con semblante [AdjectiveFriendly].</li>
+    <li>desc_sentence->Debajo, [PAWN_nameDef] juega {replace: a [GameDef]; "a el "-"al "} con semblante [AdjectiveFriendly].</li>
     <li>desc_sentence->[PAWN_nameDef] observa con asombro en su rostro.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan desde abajo.</li>
     <li>desc_sentence->[PAWN_nameDef] está sentado cerca de [TerrainFeatureIndef], observando el cielo.</li>
@@ -68,7 +68,7 @@
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
   <CaravanAmbushedByHumanlike.rulePack.rulesStrings>
-    <li>tale_noun->La caravana de [PAWN_nameDef] fue emboscada</li>
+    <li>tale_noun->la caravana de [PAWN_nameDef] fue emboscada</li>
     <li>image->[PAWN_nameFull] poniéndose a cubierto [circumstance_group]</li>
     <li>image->[PAWN_nameFull] moviéndose para proteger a un aliado [circumstance_group]</li>
     <li>image->[PAWN_nameFull] moviéndose para atacar [circumstance_group]</li>
@@ -111,7 +111,7 @@
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
   <CaravanAmbushedByManhunter.rulePack.rulesStrings>
-    <li>tale_noun->La caravana de [PAWN_nameDef] fue emboscada</li>
+    <li>tale_noun->la caravana de [PAWN_nameDef] fue emboscada</li>
     <li>image->[PAWN_nameFull] escondiéndose [circumstance_group]</li>
     <li>image->[PAWN_nameFull] moviéndose para proteger a un aliado [circumstance_group]</li>
     <li>image->[PAWN_nameFull] moviéndose para atacar [circumstance_group]</li>
@@ -157,8 +157,8 @@
     <li>action->taunting [PAWN_nameDef]</li>
   -->
   <CaravanDemand.rulePack.rulesStrings>
-    <li>tale_noun->La caravana de [PAWN_nameDef] recibió una amenaza</li>
-    <li>tale_noun->La caravana de [PAWN_nameDef] fue amenazada</li>
+    <li>tale_noun->la caravana de [PAWN_nameDef] recibió una amenaza</li>
+    <li>tale_noun->la caravana de [PAWN_nameDef] fue amenazada</li>
     <li>image->[PAWN_nameFull] acobardándose [circumstance_group]</li>
     <li>image->[PAWN_nameFull] gritando [circumstance_group]</li>
     <li>image->[PAWN_nameFull] pensando [circumstance_group]</li>
@@ -209,14 +209,14 @@
     <li>event->talking hesitantly</li>
   -->
   <CaravanMeeting.rulePack.rulesStrings>
-    <li>tale_noun->La caravana de [PAWN_nameDef] recibió visitas</li>
+    <li>tale_noun->la caravana de [PAWN_nameDef] recibió visitas</li>
     <li>image->[PAWN_nameFull] saludando a un [PersonJob] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] inspeccionando a un [PersonJob] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] llamando a un [PersonJob] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] caminando hacia un [PersonJob] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] hablando calmadamente [circumstance_group]</li>
     <li>image->[PAWN_nameFull] saludando a gritos [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] jugando [GameAny] con un [PersonJob] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] jugando {replace: a [GameDef]; "a el "-"al "} con un [PersonJob] [circumstance_group]</li>
     <li>circumstance_phrase->con semblante [AdjectiveFriendly]</li>
     <li>circumstance_phrase->con semblante [AdjectiveFriendly]</li>
     <li>circumstance_phrase(PAWN_gender==Male)->y comenzando a [VerbFriendly]</li>
@@ -264,7 +264,7 @@
     <li>circumstance_phrase->un atardecer cubriendo [TerrainFeatureIndef]</li>
     <li>circumstance_phrase->un crepúsculo cobriendo [Quantity_adjphrase] [TerrainFeaturePlAny]</li>
     <li>circumstance_phrase->con estrellas visibles</li>
-    <li>desc_sentence->Debajo, [PAWN_nameDef] juega [GameAny] con semblante [AdjectiveFriendly].</li>
+    <li>desc_sentence->Debajo, [PAWN_nameDef] juega {replace: a [GameDef]; "a el "-"al "} con semblante [AdjectiveFriendly].</li>
     <li>desc_sentence->[PAWN_nameDef] observa con asombro en su rostro.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan desde abajo.</li>
     <li>desc_sentence->[PAWN_nameDef] está sentad[PAWN_o_a] junto a [TerrainFeatureIndef], observando el cielo.</li>
@@ -324,7 +324,7 @@
     <li>circumstance_phrase->explora [TerrainFeatureIndef]</li>
     <li>circumstance_phrase->atiende los cultivos</li>
     <li>circumstance_phrase->un [Animal] se pasea cerca</li>
-    <li>circumstance_phrase->jugando [GameAny]</li>
+    <li>circumstance_phrase->jugando {replace: a [GameDef]; "a el "-"al "}</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] se pasean cerca, sin preocuparse.</li>
     <li>desc_sentence->Mientras [PAWN_pronoun] lee, comienza a [VerbFriendly].</li>
     <li>desc_sentence->Un [PersonJob] espectral observa desde las nubes.</li>

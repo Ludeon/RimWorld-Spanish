@@ -43,12 +43,12 @@
     <li>image->un [Character_Human] solitario [desc_pawn] cerca de [TerrainFeatureIndef]</li>
     <li>image->un [Character] [desc_pawn] cerca de [CommunityIndef]</li>
     <li>image->un [Character] [desc_pawn] rodeado de [CharacterEnemyPlural]</li>
-    <li>image->un [Character_Human] jugando [GameAny]</li>
-    <li>image->un [Character_Human] [desc_pawn] y jugando [GameAny] con [Quantity_adjphrase] [Character_Human]s</li>
+    <li>image->un [Character_Human] jugando {replace: a [GameDef]; "a el "-"al "}</li>
+    <li>image->un [Character_Human] [desc_pawn] jugando {replace: a [GameDef]; "a el "-"al "} con [Quantity_adjphrase] [Character_Human]s</li>
     <li>image->un [Character] [desc_pawn] blandiendo [WeaponCacIndef]</li>
     <li>image->un [Character] [desc_pawn] comiendo [VegetableAny]</li>
     <li>image->[Quantity_adjphrase] [PersonJob_Plural] comiendo [VegetableAny]s juntos</li>
-    <li>image->una pequeña celebridad [NamePerson] [desc_pawn].</li>
+    <li>image->una celebridad local que se llama [NamePerson] [desc_pawn]</li>
     <li>image->un [Character_Human] vistiendo [ApparelIndef] y [desc_pawn]</li>
     <li>image->[CommunityIndef]</li>
     <li>image->[TerrainFeatureIndef]</li>
