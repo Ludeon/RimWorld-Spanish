@@ -1,4 +1,9 @@
-# Spanish Translation of Rimworld
+# European Spanish Translation of Rimworld
+<div align="center">
+	<img src="https://github.com/Ludeon/RimWorld-Spanish/blob/master/Core/LangIcon.png" />
+</div>
+
+- - - 
 Esta es la **traducción al español** Castellano (de España) de Rimworld.
 Consulta esta página para obtener información sobre la licencia e información adicional sobre cómo ayudar:
 
@@ -6,7 +11,7 @@ Consulta esta página para obtener información sobre la licencia e información
 
 
 ---
-### Para una mejor comunicación entra al Discord de traducción: [RimWorld:ES](https://discord.gg/VA9u47FruM) (Actualizado el 12/04/2024). 
+### Para una mejor comunicación entra al Discord de traducción: [RimWorld:ES](https://discord.gg/VA9u47FruM) (Actualizado el 17/04/2024). 
 ### También colaboramos con [Facción Hispana](https://discord.gg/EjK52KM) (Actualizado el 20/03/2024) 
 
 ---
@@ -15,39 +20,40 @@ Las traducciones que vienen con el juego no se actualizan automáticamente.
 
 Cada vez que el juego se actualiza, Ludeon recoge los archivos de los repositorios oficiales y los "empaqueta" para incluirlos en el juego. Esto supone que, hasta que RimWorld no se actualice, tampoco lo harán las traducciones.
 
-Si queréis actualizar las traducciones a las más recientes, de forma semiautomática, seguid [esta guía](Instalar/InstallGuide.md).
+Si queréis actualizar las traducciones a las más recientes, de forma semiautomática, seguid nuestra
+
+### [GUÍA DE INSTALACIÓN](Instalar/InstallGuide.md).
 
 ---
-### Limpiar **archivos de traducción**:
-Con cada actualización del juego, es necesario limpiar los archivos del repositorio para que el juego implemente y actualice los cambios sobre nuestra traducción y poder trabajar sobre ello. 
-Esto es tan sencillo como acceder a la carpeta `\Languages\` de cada DLC y extraer los archivos de la traducción en una carpeta con el mismo nombre, para luego borrar el comprimido. Una vez extraídos todos los archivos de todos los DLC **y sin que tengamos mods cargados en el juego** hacemos clic en "Limpiar archivos de traducción", que se mostrará en la parte inferior del cuadro de traductores de la izquierda, y se actualizará.
+## Lista traductores:
+Equipo de traducción:
+* __[Zakees](https://github.com/Zakees) (main translator)__
+* __[Israel Gallego Mateos-Carnal (Anth)](https://github.com/Wolf-Igmc4) (translator)__
+* __[Álvaro Maldonado Peña (picodepelicano)](https://github.com/picodepelicano) (translator)__
 
-Tras actualizarlo en el juego, hacemos los pasos a la inversa; movemos los archivos de traducción del juego a los del repositorio para subir los cambios actualizados.
+Colaboradores: 
+* __[Miguel Angel Farias (Zerstrick)](https://github.com/Zerstrick) (Latin American head translator)__
+* __[Berny Gonzalez](https://github.com/BernyGonzalez) (Latin American translator)__
 
----
-## Lista  traductores:
-* En activo:
-	* [Zakees](https://github.com/Zakees)
-	* [Miguel Angel Farias (Zerstrick)](https://github.com/Zerstrick)
-  	* [Israel Gallego Mateos-Carnal (Anth)](https://github.com/Wolf-Igmc4)
-	* [Álvaro Maldonado Peña (picodepelicano)](https://github.com/picodepelicano)
+Primera versión de la traducción:
+* __[Gaesatae](https://github.com/Gaesatae)  (inactive)__
+* __[Vhiden](https://github.com/Vhiden) (inactive)__
+* __[Emsaic](https://github.com/Emsaic) (inactive)__
+* __[Alvirolo](https://github.com/Alvirolo) (inactive)__
+* __[Mototron](https://github.com/Mototron) (inactive)__
 
-* Colaboradores:
-  	* [Aser Granado Amores (Xeros08)](https://github.com/Xeros08)
-	* [Juan Melenchón Ramírez (Lord Mellington)](https://github.com/LordMellington)
-	* [Israel Gallego (Anth)](https://github.com/Wolf-Igmc4)
-	* [Berny Gonzalez](https://github.com/BernyGonzalez)
-	* [Capiqua](https://github.com/capiqua)
-	* [Gaesatae](https://github.com/Gaesatae) 
-	* [Ismael García Cruzado (Ghrull)](https://github.com/Ghrull)
-	* [Vhiden](https://github.com/Vhiden)
-	* [Guntrek](https://github.com/Guntrek)
-	* [Yllelder](https://github.com/Yllelder)
-	* [Emsaic](https://github.com/Emsaic)
-	* [Alvirolo](https://github.com/Alvirolo)
-	* [Mototron](https://github.com/Mototron)
-	* [Amatiasq](https://github.com/amatiasq)
-	* [Azarashi](https://github.com/AzarashiEsp)
-  	* [SpartanEsp](https://github.com/SpartanEsp)
-	* [Revan](https://github.com/revanfischer)
-	* [Iter](https://github.com/1ter)
+Traductores anteriores: 
+* __[Aser Granado Amores (Xeros08)](https://github.com/Xeros08) (inactive)__
+* __[Juan Melenchón Ramírez (Lord Mellington)](https://github.com/LordMellington) (inactive)__
+* __[Capiqua](https://github.com/capiqua) (inactive)__
+* __[Ismael García Cruzado (Ghrull)](https://github.com/Ghrull) (inactive)__
+* __[Guntrek](https://github.com/Guntrek) (inactive)__
+* __[Yllelder](https://github.com/Yllelder) (inactive)__
+* __[Amatiasq](https://github.com/amatiasq) (inactive)__
+* __[Azarashi](https://github.com/AzarashiEsp) (inactive)__
+* __[SpartanEsp](https://github.com/SpartanEsp) (inactive)__
+* __[Revan](https://github.com/revanfischer) (inactive)__
+* __[Iter](https://github.com/1ter) (inactive)__
+
+
+Scripts de automatización por [Aser Granado Amores (Xeros08)](https://github.com/Xeros08)
