@@ -5,8 +5,8 @@
 
 - - - 
 Esta es la **traducción al español** Castellano (de España) de Rimworld.
-Consulta esta página para obtener información sobre la licencia e información adicional sobre cómo ayudar:
 
+Consulta esta página para obtener información sobre la licencia e información adicional sobre cómo ayudar:<br>
 [Licencia y aportar a las traducciones](http://ludeon.com/forums/index.php?topic=2933.0)
 
 
@@ -17,17 +17,18 @@ Consulta esta página para obtener información sobre la licencia e información
 ---
 ### Instalación de las últimas traducciones
 Las traducciones que vienen con el juego no se actualizan automáticamente.
-
 Cada vez que el juego se actualiza, Ludeon recoge los archivos de los repositorios oficiales y los "empaqueta" para incluirlos en el juego. Esto supone que, hasta que RimWorld no se actualice, tampoco lo harán las traducciones.
 
 Si queréis actualizar las traducciones a las más recientes, de forma semiautomática, seguid nuestra
 
-### [GUÍA DE INSTALACIÓN](Instalar/InstallGuide.md).
+<div align="center">
+	<h3> <a href="Instalar/InstallGuide.md"> GUÍA DE INSTALACIÓN</a> </h3>
+</div>
 
 ---
 ## Lista traductores:
 Equipo de traducción:
-* __[Zakees](https://github.com/Zakees) (main translator)__
+* __[Zakees](https://github.com/Zakees) (head translator)__
 * __[Israel Gallego Mateos-Carnal (Anth)](https://github.com/Wolf-Igmc4) (translator)__
 * __[Álvaro Maldonado Peña (picodepelicano)](https://github.com/picodepelicano) (translator)__
 
