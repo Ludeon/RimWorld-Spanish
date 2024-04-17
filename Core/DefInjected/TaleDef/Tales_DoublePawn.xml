@@ -29,9 +29,9 @@
     <li>desc_sentence->[CAPTURER_nameDef] is kicking [PRISONER_nameDef] for no obvious reason.</li>
   -->
   <Captured.rulePack.rulesStrings>
-    <li>tale_noun->[CAPTURER_nameDef] capturó a [PRISONER_nameDef]</li>
+    <li>tale_noun->[CAPTURER_nameDef] capturó {replace: a [PRISONER_nameDef]; "a el "-"al "}</li>
     <li>tale_noun->[PRISONER_nameDef] fue capturad[PRISONER_o_a] por [CAPTURER_nameDef]</li>
-    <li>tale_noun->capturaron de [PRISONER_nameDef]</li>
+    <li>tale_noun->la captura {replace: de [PRISONER_nameDef]; "de el "-"del "}</li>
     <li>image->[CAPTURER_nameFull] capturando a [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[CAPTURER_nameFull] poniendo grilletes en las manos de [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[CAPTURER_nameFull] golpeando a [PRISONER_nameFull] mientras [PRISONER_objective] capturaba [circumstance_group]</li>
@@ -42,16 +42,16 @@
     <li>circumstance_phrase->con una fuerza obviamente excesiva</li>
     <li>circumstance_phrase->con obvio placer</li>
     <li>circumstance_phrase->sonriendo dominantemente</li>
-    <li>desc_sentence->[CAPTURER_nameDef] mira a los ojos de [PRISONER_nameDef] dominantemente.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] mira a los ojos {replace: de [PRISONER_nameDef]; "de el "-"del "} dominantemente.</li>
     <li>desc_sentence->[PRISONER_nameDef] está herid[PRISONER_o_a] y con mucho dolor.</li>
     <li>desc_sentence->[PRISONER_nameDef] parece resignad[PRISONER_o_a] a su suerte.</li>
     <li>desc_sentence->[PRISONER_nameDef] gruñe con la furia de la derrota.</li>
-    <li>desc_sentence->[CAPTURER_nameDef] abofetea a [PRISONER_nameDef] para someter[PRISONER_objective].</li>
-    <li>desc_sentence->[CAPTURER_nameDef] está girando la oreja de [PRISONER_nameDef].</li>
-    <li>desc_sentence->[CAPTURER_nameDef] le hace una llave a [PRISONER_nameDef].</li>
-    <li>desc_sentence->[CAPTURER_nameDef] escupe en la cara de [PRISONER_nameDef].</li>
+    <li>desc_sentence->[CAPTURER_nameDef] abofetea {replace: a [PRISONER_nameDef]; "a el "-"al "} para someter[PRISONER_objective].</li>
+    <li>desc_sentence->[CAPTURER_nameDef] está girando la oreja {replace: de [PRISONER_nameDef]; "de el "-"del "}.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] le hace una llave {replace: a [PRISONER_nameDef]; "a el "-"al "}.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] escupe en la cara {replace: de [PRISONER_nameDef]; "de el "-"del "}.</li>
     <li>desc_sentence->[CAPTURER_nameDef] se carcajea mientras [PRISONER_nameDef] llora.</li>
-    <li>desc_sentence->[CAPTURER_nameDef] patea a [PRISONER_nameDef] sin una razón.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] patea {replace: a [PRISONER_nameDef]; "a el "-"al "} sin una razón.</li>
   </Captured.rulePack.rulesStrings>
   
   <!-- EN: defeated hostile leader -->
@@ -124,9 +124,9 @@
     <li>desc_sentence->[PRISONER_nameDef] looks defiant.</li>
   -->
   <ExecutedPrisoner.rulePack.rulesStrings>
-    <li>tale_noun->[EXECUTIONER_nameDef] ejecutó a [PRISONER_nameDef]</li>
+    <li>tale_noun->[EXECUTIONER_nameDef] ejecutó {replace: a [PRISONER_nameDef]; "a el "-"al "}</li>
     <li>tale_noun->[PRISONER_nameDef] fue ejecutad[PRISONER_o_a] por [EXECUTIONER_nameDef]</li>
-    <li>tale_noun->ejecutaron a [PRISONER_nameDef]</li>
+    <li>tale_noun->ejecutaron {replace: a [PRISONER_nameDef]; "a el "-"al "}</li>
     <li>image->[EXECUTIONER_nameFull] ejecutando a [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[EXECUTIONER_nameFull] matando a [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[EXECUTIONER_nameFull] preparándose para ejecutar a [PRISONER_nameFull] [circumstance_group]</li>
@@ -205,9 +205,9 @@
     <li>desc_sentence->[VICTIM_nameDef] appears to be badly wounded.</li>
   -->
   <KidnappedColonist.rulePack.rulesStrings>
-    <li>tale_noun->[VICTIM_nameDef] secuestró a [VICTIM_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] secuestró {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
     <li>tale_noun->[VICTIM_nameDef] fue secuestrad[VICTIM_o_a] por [KIDNAPPER_nameDef]</li>
-    <li>tale_noun->secuestraron a [VICTIM_nameDef]</li>
+    <li>tale_noun->secuestraron {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
     <li>image->[KIDNAPPER_nameFull] arrastrando a [VICTIM_nameFull] con dirección a [KIDNAPPER_factionName] [circumstance_group]</li>
     <li>image->[KIDNAPPER_nameFull] de la facción [KIDNAPPER_factionName] secuestrando a [VICTIM_nameFull] [circumstance_group]</li>
     <li>image->[KIDNAPPER_nameFull] secuestrando a [VICTIM_nameFull] [circumstance_group]</li>
@@ -257,10 +257,10 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledBy.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] asesinó a [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] asesinó {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
     <li>tale_noun->[VICTIM_nameDef] fue asesinad[VICTIM_o_a] por [KILLER_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] murió a manos de [KILLER_nameDef]</li>
-    <li>tale_noun->asesinaron a [VICTIM_nameDef]</li>
+    <li>tale_noun->asesinaron {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
     <li>image->[VICTIM_nameFull] siendo asesinad[VICTIM_o_a] por [KILLER_nameFull] [circumstance_group]</li>
     <li>image->[KILLER_nameFull] matando a [VICTIM_nameFull] [circumstance_group]</li>
     <li>image->[KILLER_nameFull] acabando con la vida de [VICTIM_nameFull] [circumstance_group]</li>
@@ -275,8 +275,8 @@
     <li>desc_sentence->El sol se posa detrás de ellos, en aparente simbolismo.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] observan con atención.</li>
     <li>desc_sentence->Un [PersonJob] observa silenciosamente [side_position].</li>
-    <li>desc_sentence->La sangre se encharca alrededor del cuerpo sin vida de [VICTIM_nameDef].</li>
-    <li>desc_sentence->los ojos de [VICTIM_nameDef] están representados de forma realista y sin vida.</li>
+    <li>desc_sentence->La sangre se encharca alrededor del cuerpo sin vida {replace: de [VICTIM_nameDef]; "de el "-"del "}.</li>
+    <li>desc_sentence->los ojos {replace: de [VICTIM_nameDef]; "de el "-"del "} están representados de forma realista y sin vida.</li>
     <li>desc_sentence->[KILLER_nameDef] está mostrando sus dientes.</li>
     <li>desc_sentence->[KILLER_nameDef] parece satisfech[KILLER_o_a].</li>
     <li>desc_sentence->[KILLER_nameDef] parece perturbad[KILLER_o_a] por lo que está haciendo.</li>
@@ -353,24 +353,24 @@
   -->
   <SoldPrisoner.rulePack.rulesStrings>
     <li>tale_noun->[PRISONER_nameDef] fue vendid[PRISONER_o_a] a un esclavista</li>
-    <li>tale_noun->[SELLER_nameDef] vendió a [PRISONER_nameDef] como esclav[PRISONER_o_a]</li>
+    <li>tale_noun->[SELLER_nameDef] vendió {replace: a [PRISONER_nameDef]; "a el "-"al "} como esclav[PRISONER_o_a]</li>
     <li>tale_noun->[PRISONER_nameDef] fue vendid[PRISONER_o_a] como esclav[PRISONER_o_a] por [SELLER_nameDef]</li>
     <li>image->[TRADER_nameFull] comprando a [PRISONER_nameFull] a [SELLER_nameFull] [circumstance_group]</li>
     <li>image->[SELLER_nameFull] vendiendo a [PRISONER_nameFull] a [SELLER_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->mientras los demás colonos observan con desapruebo</li>
     <li>circumstance_phrase->mientras [SELLER_nameDef] cuenta su dinero</li>
     <li>circumstance_phrase->mientras [PRISONER_nameDef] se queja</li>
-    <li>circumstance_phrase->a pesar de las quejas de [PRISONER_nameDef]</li>
+    <li>circumstance_phrase->a pesar de las quejas {replace: de [PRISONER_nameDef]; "de el "-"del "}</li>
     <li>desc_sentence->[TRADER_nameDef] sonríe diabólicamente.</li>
     <li>desc_sentence->[SELLER_nameDef] se ríe maniáticamente.</li>
-    <li>desc_sentence->[SELLER_nameDef] entrega a [PRISONER_nameDef] al comerciante.</li>
+    <li>desc_sentence->[SELLER_nameDef] entrega {replace: a [PRISONER_nameDef]; "a el "-"al "} al comerciante.</li>
     <li>desc_sentence->[PRISONER_nameDef] mira desafiante a su nuevo amo.</li>
-    <li>desc_sentence->[TRADER_nameDef] arrastra a [PRISONER_nameDef] con sus cadenas.</li>
+    <li>desc_sentence->[TRADER_nameDef] arrastra {replace: a [PRISONER_nameDef]; "a el "-"al "} con sus cadenas.</li>
     <li>desc_sentence->[PRISONER_nameDef] mira a [SELLER_nameDef] mientras planea su venganza.</li>
     <li>desc_sentence->[PRISONER_nameDef] está llorando.</li>
     <li>desc_sentence->[PRISONER_nameDef] escupe en la cara de [SELLER_nameDef].</li>
     <li>desc_sentence->[PRISONER_nameDef] se retuerce en el suelo.</li>
-    <li>desc_sentence->[SELLER_nameDef] lleva a [PRISONER_nameDef] arrastrándo[PRISONER_objective] de las cadenas hacia [TRADER_nameDef].</li>
+    <li>desc_sentence->[SELLER_nameDef] lleva {replace: a [PRISONER_nameDef]; "a el "-"al "} arrastrándo[PRISONER_objective] de las cadenas hacia [TRADER_nameDef].</li>
     <li>desc_sentence->Un aire de desesperación permea la situación.</li>
   </SoldPrisoner.rulePack.rulesStrings>
   

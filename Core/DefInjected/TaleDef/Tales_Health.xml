@@ -41,11 +41,11 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <Downed.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef] con [WeaponCacIndef]</li>
-    <li>tale_noun->ocurrió [wound_name_present1] de [VICTIM_nameDef] por [KILLER_nameDef]</li>
-    <li>tale_noun->ocurrió [wound_name_present1] de [VICTIM_nameDef] con [WeaponCacIndef]</li>
-    <li>tale_noun->ocurrió [wound_name_present1] de [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} con [WeaponCacIndef]</li>
+    <li>tale_noun->ocurrió [wound_name_present1] {replace: de [VICTIM_nameDef]; "de el "-"del "} por [KILLER_nameDef]</li>
+    <li>tale_noun->ocurrió [wound_name_present1] {replace: de [VICTIM_nameDef]; "de el "-"del "} con [WeaponCacIndef]</li>
+    <li>tale_noun->ocurrió [wound_name_present1] {replace: de [VICTIM_nameDef]; "de el "-"del "}</li>
     <li>image->[VICTIM_nameFull] siendo incapacitad[VICTIM_o_a] por [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] brutalmente a [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -72,7 +72,7 @@
     <li>circumstance_phrase->por una sombría necesidad</li>
     <li>circumstance_phrase->de una manera cobarde y sin entusiasmo</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] observan.</li>
-    <li>desc_sentence->La sangre se encharca alrededor del cuerpo de [VICTIM_nameDef].</li>
+    <li>desc_sentence->La sangre se encharca alrededor del cuerpo {replace: de [VICTIM_nameDef]; "de el "-"del "}.</li>
     <li>desc_sentence->[VICTIM_nameDef] se encuentra inerte en el suelo.</li>
     <li>desc_sentence->[VICTIM_nameDef] tiene los ojos cerrados.</li>
     <li>desc_sentence->[KILLER_nameDef] está mostrando sus dientes.</li>
@@ -323,8 +323,8 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledCapacity.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef] con [WeaponIndef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} con [WeaponIndef]</li>
     <li>image->[KILLER_nameFull] [cap_removal] la [CAPACITY] de [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] y [cap_removal] su [CAPACITY] [with_weapon_optional]</li>
     <li>cap_removal->destruyendo</li>
@@ -395,10 +395,10 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledLongRange.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef] a larga distancia</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef] a larga distancia con un [Weapon_Ranged]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a larga distancia a [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a larga distancia a [VICTIM_nameDef] con un [Weapon_Ranged]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} a larga distancia</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} a larga distancia con un [Weapon_Ranged]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a larga distancia {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a larga distancia {replace: a [VICTIM_nameDef]; "a el "-"al "} con un [Weapon_Ranged]</li>
     <li>image->[KILLER_nameFull] apuntando a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] fríamente a [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -471,10 +471,10 @@
     <li>desc_sentence->[KILLER_nameDef] is glowing with a heroic aura.</li>
   -->
   <KilledMajorThreat.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef] con [WeaponIndef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] valientemente a [VICTIM_nameDef]</li>
-    <li>tale_noun->ocurrió [wound_name_past1] de [VICTIM_nameDef] por [KILLER_nameDef] con [WeaponIndef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} con [WeaponIndef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] valientemente {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
+    <li>tale_noun->ocurrió [wound_name_past1] {replace: de [VICTIM_nameDef]; "de el "-"del "} por [KILLER_nameDef] con [WeaponIndef]</li>
     <li>image->[VICTIM_nameFull] siendo [wound_name_present] por [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] brutalmente a [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -501,9 +501,9 @@
     <li>desc_sentence->[VICTIM_nameDef] tiene los ojos cerrados.</li>
     <li>desc_sentence->[VICTIM_nameDef] está cubiert[VICTIM_o_a] de [Gore_Plural].</li>
     <li>desc_sentence->Tanto [VICTIM_nameDef] como [KILLER_nameDef] están cubiertos de [Gore_Plural].</li>
-    <li>desc_sentence->El cadáver de [VICTIM_nameDef] se eleva sobre [KILLER_nameDef].</li>
-    <li>desc_sentence->El enorme cadáver de [VICTIM_nameDef] cubre [TerrainFeatureIndef].</li>
-    <li>desc_sentence->Los ojos de [VICTIM_nameDef] brillan con un intenso color [Color].</li>
+    <li>desc_sentence->El cadáver {replace: de [VICTIM_nameDef]; "de el "-"del "} se eleva sobre [KILLER_nameDef].</li>
+    <li>desc_sentence->El enorme cadáver {replace: de [VICTIM_nameDef]; "de el "-"del "} cubre [TerrainFeatureIndef].</li>
+    <li>desc_sentence->Los ojos {replace: de [VICTIM_nameDef]; "de el "-"del "} brillan con un intenso color [Color].</li>
     <li>desc_sentence->[KILLER_nameDef] está cubiert[KILLER_o_a] de [Gore_Plural].</li>
     <li>desc_sentence->[KILLER_nameDef] muestra sus dientes.</li>
     <li>desc_sentence->[KILLER_nameDef] parece satisfech[KILLER_o_a].</li>
@@ -553,10 +553,10 @@
     <li>desc_sentence->[KILLER_nameDef] wears a feral expression.</li>
   -->
   <KilledMelee.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef] en combate cuerpo a cuerpo</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef] en combate cuerpo a cuerpo con [WeaponCacIndef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] en combate cuerpo a cuerpo a [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] en combate cuerpo a cuerpo a [VICTIM_nameDef] con [WeaponCacIndef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} en combate cuerpo a cuerpo</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} en combate cuerpo a cuerpo con [WeaponCacIndef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] en combate cuerpo a cuerpo {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] en combate cuerpo a cuerpo {replace: a [VICTIM_nameDef]; "a el "-"al "} con [WeaponCacIndef]</li>
     <li>image->[KILLER_nameFull] golpeando a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] fríamente a [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -616,7 +616,7 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledMortar.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef] con un mortero</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} con un mortero</li>
     <li>tale_noun->[VICTIM_nameDef] fue asesinad[VICTIM_o_a] por la artillería de [KILLER_nameDef]</li>
     <li>image->[KILLER_nameFull] ajustando cuidadosamente el cañón del arma [circumstance_group]</li>
     <li>image->[KILLER_nameFull] mirando a la distancia [circumstance_group]</li>
@@ -730,11 +730,11 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <Wounded.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a [VICTIM_nameDef] con [WeaponIndef]</li>
-    <li>tale_noun->ocurrió [wound_name_present1] de [VICTIM_nameDef] por [KILLER_nameDef]</li>
-    <li>tale_noun->ocurrió [wound_name_present1] de [VICTIM_nameDef] con [WeaponIndef]</li>
-    <li>tale_noun->ocurrió [wound_name_present1] de [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} con [WeaponIndef]</li>
+    <li>tale_noun->ocurrió [wound_name_present1] {replace: de [VICTIM_nameDef]; "de el "-"del "} por [KILLER_nameDef]</li>
+    <li>tale_noun->ocurrió [wound_name_present1] {replace: de [VICTIM_nameDef]; "de el "-"del "} con [WeaponIndef]</li>
+    <li>tale_noun->ocurrió [wound_name_present1] {replace: de [VICTIM_nameDef]; "de el "-"del "}</li>
     <li>image->[VICTIM_nameFull] siendo [wound_name_present] por [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present2] a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present2] brutalmente a [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -770,7 +770,7 @@
     <li>circumstance_phrase->de una manera cobarde y sin entusiasmo</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] observan.</li>
     <li>desc_sentence->Un [PersonJob] observa silenciosamente [side_position].</li>
-    <li>desc_sentence->La sangre se encharca alrededor del cuerpo de [VICTIM_nameDef].</li>
+    <li>desc_sentence->La sangre se encharca alrededor del cuerpo {replace: de [VICTIM_nameDef]; "de el "-"del "}.</li>
     <li>desc_sentence->[VICTIM_nameDef] está cubiert[VICTIM_o_a] de [Gore_Plural].</li>
     <li>desc_sentence->[VICTIM_nameDef] tiene un semblante [AdjectiveAngsty].</li>
     <li>desc_sentence->[VICTIM_nameDef] se retuerce de dolor.</li>
