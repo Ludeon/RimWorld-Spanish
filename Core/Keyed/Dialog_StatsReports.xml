@@ -65,7 +65,7 @@
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
   <StatsReport_ReloadMarketValue>Coste de recarga ({COUNT} {AMMO_label})</StatsReport_ReloadMarketValue>
   <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
-  <StatsReport_ReloadRemainingChargesMultipler>Multiplicador para las {CHARGENOUN_plural} restantes ({0})</StatsReport_ReloadRemainingChargesMultipler>
+  <StatsReport_ReloadRemainingChargesMultipler>Multiplicador para las {lookup: {CHARGENOUN_plural}; plural; 1} restantes ({0})</StatsReport_ReloadRemainingChargesMultipler>
   <!-- EN: Multiplier for mood {0} -->
   <StatsReport_MoodMultiplier>Multiplicador por humor {0}</StatsReport_MoodMultiplier>
   <!-- EN: Multiplier for light {0} -->
@@ -335,13 +335,13 @@
   <!-- EN: The amount of power this building will draw from the power grid. -->
   <Stat_Thing_PowerConsumption_Desc>La cantidad de energía que esta construcción tomará de la red eléctrica.</Stat_Thing_PowerConsumption_Desc>
   <!-- EN: {CHARGENOUN_plural} remaining -->
-  <Stat_Thing_ReloadChargesRemaining_Name>{CHARGENOUN_plural} restantes</Stat_Thing_ReloadChargesRemaining_Name>
+  <Stat_Thing_ReloadChargesRemaining_Name>{lookup: {CHARGENOUN_plural}; plural; 1} restantes</Stat_Thing_ReloadChargesRemaining_Name>
   <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
-  <Stat_Thing_ReloadChargesRemaining_Desc>El número de {CHARGENOUN} restantes en este objeto. Si se acaban, la acción especial no se podrá volver a usar.</Stat_Thing_ReloadChargesRemaining_Desc>
+  <Stat_Thing_ReloadChargesRemaining_Desc>El número de {lookup: {CHARGENOUN_plural}; plural; 1} restantes en este objeto. Si se acaban, su acción especial no se podrá usar.</Stat_Thing_ReloadChargesRemaining_Desc>
   <!-- EN: {CHARGENOUN_plural} -->
-  <Stat_Thing_ReloadMaxCharges_Name>{CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
+  <Stat_Thing_ReloadMaxCharges_Name>{lookup: {CHARGENOUN_plural}; plural; 1}</Stat_Thing_ReloadMaxCharges_Name>
   <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
-  <Stat_Thing_ReloadMaxCharges_Desc>El número maximo de {CHARGENOUN_plural} que este objeto tiene.</Stat_Thing_ReloadMaxCharges_Desc>
+  <Stat_Thing_ReloadMaxCharges_Desc>El número máximo de {lookup: {CHARGENOUN_plural}; plural; 1} que tiene este objeto.</Stat_Thing_ReloadMaxCharges_Desc>
   <!-- EN: {CHARGENOUN} reload cost -->
   <Stat_Thing_ReloadRefill_Name>Coste de {CHARGENOUN}</Stat_Thing_ReloadRefill_Name>
   <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
@@ -349,11 +349,11 @@
   <!-- EN: Reload cost per {CHARGENOUN} -->
   <Stat_Thing_ReloadPerCharge_Name>Coste por {CHARGENOUN}</Stat_Thing_ReloadPerCharge_Name>
   <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
-  <Stat_Thing_ReloadPerCharge_Desc>La cantidad de materiales necesaria para recargar 1 {CHARGENOUN}. Se puede hacer varias recargas de una vez.</Stat_Thing_ReloadPerCharge_Desc>
+  <Stat_Thing_ReloadPerCharge_Desc>La cantidad de materiales necesaria para recargar 1 {CHARGENOUN}. Se pueden hacer varias {lookup: {CHARGENOUN_plural}; plural; 1} de una vez.</Stat_Thing_ReloadPerCharge_Desc>
   <!-- EN: Vanish on exhaust -->
   <Stat_Thing_ReloadDestroyOnEmpty_Name>Desaparece al vaciarse</Stat_Thing_ReloadDestroyOnEmpty_Name>
   <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
-  <Stat_Thing_ReloadDestroyOnEmpty_Desc>Este objeto desaparecerá cuando su último(a) {CHARGENOUN} sea último(a).</Stat_Thing_ReloadDestroyOnEmpty_Desc>
+  <Stat_Thing_ReloadDestroyOnEmpty_Desc>Este objeto desaparecerá cuando su último(a) {CHARGENOUN} se agote.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>La eficiencia general de esta parte corporal.</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Install sites -->
