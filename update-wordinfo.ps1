@@ -18,16 +18,16 @@ $paths = @(
 "*\DefInjected\GameConditionDef"
 "*\DefInjected\BodyPartDef"
 "*\DefInjected\BodyDef"
-"*\DefInjected\ResearchProjectDef"
+# "*\DefInjected\ResearchProjectDef"
 )
 
 # Search words in the XML files and save them in different lists of words depending on their gender
 foreach ($path in $paths)
 {
   # unknown gender
-  Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<(.*(\.label|\.pawnSingular|title|titleShort|\.chargeNoun|\.customLabel))>(.*?)</\1>" -All | ForEach-Object { $_.matches.groups[3].value.toLower() } >> "$temp/all_unknown.txt"
+  Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<(.*(\.label|\.pawnSingular|title|titleShort|\.chargeNoun|\.customLabel))>(.*?)</\1>" -All | ForEach-Object { $_.matches.groups[3].value.toLower() } >> "$temp/all_unknown1.txt"
 
-  Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<.*generalRules\.rulesStrings.*(?:\n.*<li>subject->(.*?)<\/li>)+" -All | ForEach-Object { $_.matches.groups[3].value.toLower() } >> "$temp/all_unknown.txt"
+  Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<.*generalRules\.rulesStrings.*(?:\n.*<li>subject->(.*?)<\/li>)+" -All | ForEach-Object { $_.matches.groups[1].value.toLower() } >> "$temp/all_unknown2.txt"
 
   # male gender
   Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<(.*(labelMale))>(.*?)</\1>" -All | ForEach-Object { $_.matches.groups[3].value.toLower() } >> "$temp/all_males.txt"
