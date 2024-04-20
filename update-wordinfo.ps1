@@ -18,22 +18,28 @@ $paths = @(
 "*\DefInjected\GameConditionDef"
 "*\DefInjected\BodyPartDef"
 "*\DefInjected\BodyDef"
-# "*\DefInjected\ResearchProjectDef"
 )
 
 # Search words in the XML files and save them in different lists of words depending on their gender
 foreach ($path in $paths)
 {
-  # unknown gender
+  # unknown gender in $paths
   Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<(.*(\.label|\.pawnSingular|title|titleShort|\.chargeNoun|\.customLabel))>(.*?)</\1>" -All | ForEach-Object { $_.matches.groups[3].value.toLower() } >> "$temp/all_unknown1.txt"
-
-  Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<.*generalRules\.rulesStrings.*(?:\n.*<li>subject->(.*?)<\/li>)+" -All | ForEach-Object { $_.matches.groups[1].value.toLower() } >> "$temp/all_unknown2.txt"
 
   # male gender
   Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<(.*(labelMale))>(.*?)</\1>" -All | ForEach-Object { $_.matches.groups[3].value.toLower() } >> "$temp/all_males.txt"
 
   # female gender
   Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<(.*(\.labelFemale|titleFemale|titleShortFemale))>(.*?)</\1>" -All | ForEach-Object { $_.matches.groups[3].value.toLower() } >> "$temp/all_females.txt"
+}
+
+# unknown gender in "*\DefInjected\ResearchProjectDef" folder. Does not work without -Raw argument
+# Cannot be added to the previous bucle because its first pattern matches unnecessary strings in the folder
+Get-ChildItem -Path "*\DefInjected\ResearchProjectDef\*" -Filter "*.xml" | ForEach-Object {
+  $fileContent = Get-Content -Raw -Path $_.FullName
+  [regex]::Matches($fileContent, 'generalRules\.rulesStrings.*?(?:\s*<li>subject->(.*?)<\/li>)+') | ForEach-Object {
+      $_.Groups[1].Captures.Value.ToLower() | Out-File -FilePath "$temp/all_unknown2.txt" -Append
+  }
 }
 
 # Save a list of all found words
