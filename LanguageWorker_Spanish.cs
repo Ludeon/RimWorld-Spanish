@@ -67,9 +67,17 @@ public class LanguageWorker_Spanish : LanguageWorker
 		{
 			return str + "es";
 		}
-		if ("lrndzjsxLRNDZJSX".IndexOf(c) >= 0 || (c == 'h' && c2 == 'c'))
+		if (("lrndjsxLRNDJSX".IndexOf(c) >= 0 || (c == 'h' && c2 == 'c')) && c != 'z')
 		{
 			return str + "es";
+		}
+		else if (c == 'z')
+		{
+			return str.Replace("z", "c") + "es";
+		}
+		else
+		{
+			return str + "s";
 		}
 		return str + "s";
 	}
