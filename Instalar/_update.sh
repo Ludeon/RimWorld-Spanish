@@ -92,7 +92,7 @@ exit_code $?
 mv /tmp/${github_user}-${repo_name}-* /tmp/${github_user}-${repo_name}
 # Borramos el archivo `.zip` original de github
 rm "${zip_filename}"
-# Actualizamos tanto el juego base como los DLC's si el usuario se los hubiera comprado
+# Actualizamos tanto el juego base como los DLCs si el usuario se los hubiera comprado
 game_content=('Core' 'Royalty' 'Ideology' 'Biotech' 'Anomaly')
 for content in $game_content; do
     updateTranslation "${content}" "/tmp/${github_user}-${repo_name}"
