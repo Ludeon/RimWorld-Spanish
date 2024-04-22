@@ -15,19 +15,19 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen attentively.</li>
   -->
   <AttendedConcert.rulePack.rulesStrings>
-    <li>tale_noun->[ATTENDER_nameDef] [ORGANIZER_nameDef] asistieron al concierto</li>
-    <li>tale_noun->[ATTENDER_nameDef] [ORGANIZER_nameDef] apariencia escuchada</li>
-    <li>image->[ATTENDER_nameFull], como [ATTENDER_pronoun] escucha con calma [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull], como [ATTENDER_pronoun] [ORGANIZER_nameFull]'apariencia disfruta [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull], como [ATTENDER_pronoun] rebota a la música [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull], como [ATTENDER_pronoun] piérdete en la música [circumstance_group]</li>
-    <li>circumstance_phrase->, mientras que [ATTENDER_pronoun] aplausos</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPlural] bailar con eso.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [AnimalPlural] escucha atentamente.</li>
+    <li>tale_noun->[ATTENDER_nameDef] asistió al conciento de [ORGANIZER_nameDef]</li>
+    <li>tale_noun->[ATTENDER_nameDef] escuchó la actuación de [ORGANIZER_nameDef]</li>
+    <li>image->[ATTENDER_nameFull] escuchando en silencio, [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] disfrutando el concierto de [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] balanceándose al ritmo de la música [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] ensimismad[ATTENDER_o_a] por el sonido [circumstance_group]</li>
+    <li>circumstance_phrase->mientras aplaude</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] bailan juntos.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] escuchan atentamente.</li>
   </AttendedConcert.rulePack.rulesStrings>
   
   <!-- EN: held concert -->
-  <HeldConcert.label>Concierto dado</HeldConcert.label>
+  <HeldConcert.label>celebró un concierto</HeldConcert.label>
   <!-- EN:
     <li>tale_noun->[ORGANIZER_nameDef] performing a concert</li>
     <li>image->[ORGANIZER_nameFull] playing their signature song [circumstance_group]</li>
@@ -39,15 +39,14 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen nearby.</li>
   -->
   <HeldConcert.rulePack.rulesStrings>
-    <li>tale_noun->[ORGANIZER_nameDef] da un concierto</li>
-    <li>image->[ORGANIZER_nameFull] toca una canción muy especial [circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull] le pide a la multitud que cante</li>
-    <li>image->[ORGANIZER_nameFull] toca una canción inspiradora</li>
-    <li>image->[ORGANIZER_nameFull] realiza una pieza complicada [circumstance_group] </li>
-    <li>circumstance_phrase->con una expresión concentrada</li>
+    <li>tale_noun->[ORGANIZER_nameDef] dio un concierto</li>
+    <li>image->[ORGANIZER_nameFull] tocando su canción especial [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] invitando al público a cantar</li>
+    <li>image->[ORGANIZER_nameFull] tocando una canción inspiradora</li>
+    <li>image->[ORGANIZER_nameFull] interpretando una pieza complicada [circumstance_group]</li>
     <li>circumstance_phrase->con una expresión eufórica</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPlural] sigue aparentemente con la cara hechizada.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [AnimalPlural] escucha atentamente.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] escuchan desde cerca.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] escuchan desde cerca.</li>
   </HeldConcert.rulePack.rulesStrings>
   
 </LanguageData>
