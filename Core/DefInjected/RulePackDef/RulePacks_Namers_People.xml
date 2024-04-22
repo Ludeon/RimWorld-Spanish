@@ -22,8 +22,6 @@
   -->
   <NamerPersonCorunan.rulePack.rulesStrings>
     <li>r_name(p=2)->[WordTribal] [WordTribal_Cap]</li>
-    <li>r_name(p=4)->[WordTribal_Name] [WordTribal_Cap]</li>
-    <li>r_name(p=4)->[WordTribal] [WordTribal_NameCap]</li>
     <li>r_name->[WordTribal] "[AnimalBadassAny_Cap]" [WordTribal_Cap]</li>
     <li>r_name->[WordTribal] [Animal_Cap] [Color_Cap]</li>
     <li>r_name->[WordTribal] [Animal_FemCap] [Color_FemCap]</li>
@@ -33,6 +31,7 @@
     <li>r_name->[Animal] [WordTribal_NameCap]</li>
     <li>r_name->[Animal_Fem] [Color_FemCap] [WordTribal_NameCap]</li>
     <li>r_name->[Animal_Fem] [WordTribal_NameCap]</li>
+    <li>r_name(p=1.5)->[TribalFirstName] [TribalLastName]</li>
   </NamerPersonCorunan.rulePack.rulesStrings>
   
 </LanguageData>

@@ -90,13 +90,13 @@
   <!-- EN: wanderer join -->
   <WandererJoin.label>vagabundo se une</WandererJoin.label>
   <WandererJoin.letterLabel>{PAWN_gender ? Un : Una} vagabund{PAWN_gender ? o : a} se une: {PAWN_nameDef}</WandererJoin.letterLabel>
-  <WandererJoin.letterText>{PAWN_gender ? Un : Una} {PAWN_kind} {PAWN_gender ? llamado : llamada} {PAWN_nameDef} ha llegado y se ha unido a la colonia. {PAWN_pronoun} es {PAWN_gender ? un : una} {PAWN_title}.\n\n[PAWN_pronoun] está {PAWN_gender ? dispuesto : dispuesta} a contribuir, pero no se irá voluntariamente. Si no quieres a {PAWN_nameDef}, puedes desterrar{PAWN_objective}, vender{PAWN_objective} como {PAWN_gender ? esclavo : esclava}, o simplemente matar{PAWN_objective}. Sin embargo, tus otros colonos podrían encontrar esto perturbador.</WandererJoin.letterText>
+  <WandererJoin.letterText>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} ha llegado y se ha unido a la colonia. Está dispuest{PAWN_gender ? o : a} a ayudar y contribuir, pero no se irá voluntariamente. Si no {PAWN_objective} quieres, puedes desterrar{PAWN_objective}, vender{PAWN_objective} a la esclavitud, o simplemente matar{PAWN_objective}. Sin embargo, tus otros colonos pueden encontrar esto perturbador.
   
   <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>salvaje errante</WildManWandersIn.label>
   <!-- EN: {0} wanders in -->
-  <WildManWandersIn.letterLabel>{0_gender ? Un : Una} {0} está deambulando</WildManWandersIn.letterLabel>
+  <WildManWandersIn.letterLabel>{0_indefinite} está deambulando</WildManWandersIn.letterLabel>
   <!-- EN: A {1} living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame {PAWN_objective}. -->
-  <WildManWandersIn.letterText>{PAWN_gender ? Un : Una} {1} que vive entre animales salvajes ha entrado en la zona. Se llama {0}.\n\nPuedes intentar domar{PAWN_objective}.</WildManWandersIn.letterText>
+  <WildManWandersIn.letterText>{1_indefinite} que vive entre animales salvajes ha entrado en la zona. Se llama {0}.\n\nPuedes intentar domar{PAWN_objective}.</WildManWandersIn.letterText>
   
 </LanguageData>

@@ -321,33 +321,58 @@
     <li>bookTypePlural->composiciones</li>
     <li>bookTypePlural->revelaciones</li>
     <li>bookTypePlural->conclusiones</li>
-    <li>author(p=3)->el autor</li>
-    <li>author(p=3)->[anAuthorDesc] [PersonJob]</li>
-    <li>author->[anAuthorDesc] investigador</li>
-    <li>author->[anAuthorDesc] espiritista</li>
-    <li>author->[anAuthorDesc] ocultista</li>
-    <li>author->[anAuthorDesc] cultista</li>
-    <li>author->[anAuthorDesc] miembro de un culto</li>
-    <li>author->[anAuthorDesc] fugitivo de una secta</li>
-    <li>author->[anAuthorDesc] anticuario</li>
-    <li>author->[anAuthorDesc] sepulturero</li>
-    <li>author->[anAuthorDesc] investigador del vacío</li>
-    <li>author->[anAuthorDesc] vagabundo</li>
-    <li>author->[anAuthorDesc] escéptico</li>
-    <li>author->[anAuthorDesc] erudito</li>
-    <li>author->[anAuthorDesc] cazador</li>
-    <li>author->[anAuthorDesc] investigador</li>
-    <li>author->[anAuthorDesc] letrado</li>
-    <li>author->[anAuthorDesc] creyente</li>
-    <li>author->[anAuthorDesc] precursor</li>
-    <li>author->[anAuthorDesc] heredero</li>
-    <li>author->[anAuthorDesc] noble</li>
-    <li>author->[anAuthorDesc] traductor</li>
-    <li>author->[anAuthorDesc] monje</li>
-    <li>author->[anAuthorDesc] autor</li>
-    <li>author->[anAuthorDesc] agente</li>
-    <li>author->[anAuthorDesc] héroe</li>
-    <li>author->[anAuthorDesc] autor</li>
+    <li>author(p=3,ANYPAWN_gender!=Female)->el autor</li>
+    <li>author(p=3,ANYPAWN_gender!=Female)->[anAuthorDesc] [PersonJob]</li>
+    <li>author(p=3,ANYPAWN_gender==Female)->la autora</li>
+    <li>author(p=3,ANYPAWN_gender==Female)->[anAuthorDesc_Fem] [PersonJob_Fem]</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] investigador</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] espiritista</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] ocultista</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] cultista</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] miembro de un culto</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] fugitivo de una secta</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] anticuario</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] sepulturero</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] investigador del vacío</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] vagabundo</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] escéptico</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] erudito</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] cazador</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] investigador</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] letrado</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] creyente</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] precursor</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] heredero</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] noble</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] traductor</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] monje</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] autor</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] agente</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] héroe</li>
+    <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] autor</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] investigadora</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] espiritista</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] ocultista</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] cultista</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] miembro de un culto</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] fugitiva de una secta</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] anticuaria</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] sepulturera</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] investigadora del vacío</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] errante</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] escéptica</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] erudita</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] cazadora</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] investigadora</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] letrada</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] creyente</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] precursora</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] heredera</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] noble</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] traductora</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] autora</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] agente</li>
+    <li>author(ANYPAWN_gender==Female)->[anAuthorDesc_Fem] heroína</li>
     <li>anAuthorDesc(p=2)->un</li>
     <li>anAuthorDesc->un joven</li>
     <li>anAuthorDesc->un viejo</li>
@@ -368,6 +393,26 @@
     <li>anAuthorDesc->un moralista</li>
     <li>anAuthorDesc->un amoral</li>
     <li>anAuthorDesc->un tenebroso</li>
+    <li>anAuthorDesc_Fem(p=2)->una</li>
+    <li>anAuthorDesc_Fem->una joven</li>
+    <li>anAuthorDesc_Fem->una vieja</li>
+    <li>anAuthorDesc_Fem->una aterrorizada</li>
+    <li>anAuthorDesc_Fem->una triste</li>
+    <li>anAuthorDesc_Fem->una anciana</li>
+    <li>anAuthorDesc_Fem->una sabia</li>
+    <li>anAuthorDesc_Fem->una testaruda</li>
+    <li>anAuthorDesc_Fem->una necia</li>
+    <li>anAuthorDesc_Fem->una inocente</li>
+    <li>anAuthorDesc_Fem->una perturbadora</li>
+    <li>anAuthorDesc_Fem->una eldritch</li>
+    <li>anAuthorDesc_Fem->una escandalosa</li>
+    <li>anAuthorDesc_Fem->una arquetipa</li>
+    <li>anAuthorDesc_Fem->una aburrida</li>
+    <li>anAuthorDesc_Fem->una loca</li>
+    <li>anAuthorDesc_Fem->una inmoral</li>
+    <li>anAuthorDesc_Fem->una moralista</li>
+    <li>anAuthorDesc_Fem->una amoral</li>
+    <li>anAuthorDesc_Fem->una tenebrosa</li>
     <li>anAuthorDesc_Male(p=2)->un hombre</li>
     <li>anAuthorDesc_Male->un hombre joven</li>
     <li>anAuthorDesc_Male->un hombre viejo</li>
@@ -424,6 +469,7 @@
     <li>experiencesWithMonsters->[tellsAStoryOf] experiencias que compartió con unos [entities]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] experiencias que compartió con unas [entities_Fem]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en un remoto [TerrainFeature]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en una remota [TerrainFeature_Fem]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo fue la cacería de un misterioso cubo dorado</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] meditaciones profundas guiadas por un supralacayo de un culto arqueoista</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo colapsó su vida bajo la influencia psíquica de algo llamado Horax</li>
@@ -440,9 +486,9 @@
     <li>experiencesWithMonsters->[tellsAStoryOf] sus brutales experimentos con una [entity_Fem]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo sus visiones recurrentes en las que [vision]</li>
     <li>vision->figuras oscuras entraron en su mente y tomaron sus recuerdos</li>
-    <li>vision->se persigue a sí mismo(a) y no puede escapar por mucho que huya</li>
-    <li>vision->es destrozado(a) por un [entity]</li>
-    <li>vision->es destrozado(a) por una [entity_Fem]</li>
+    <li>vision->se persigue a sí mism{ANYPAWN_gender ? o : a} y no puede escapar por mucho que huya</li>
+    <li>vision->es destrozad{ANYPAWN_gender ? o : a} por un [entity]</li>
+    <li>vision->es destrozad{ANYPAWN_gender ? o : a} por una [entity_Fem]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] su [findings] [objective]</li>
     <li>findings->experiencia con</li>
     <li>findings->investigación sobre</li>

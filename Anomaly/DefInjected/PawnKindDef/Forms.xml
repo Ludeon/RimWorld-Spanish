@@ -3,8 +3,9 @@
   
   <!-- EN: blind healer -->
   <Blindhealer.label>sanador ciego</Blindhealer.label>
+  <Blindhealer.labelFemale>sanadora ciega</Blindhealer.labelFemale>
   <!-- EN: A blind healer is approaching the colony. -->
-  <Blindhealer.letterLabel>Un sanador ciego se acerca a la colonia.</Blindhealer.letterLabel>
+  <Blindhealer.letterLabel>{PAWN_gender ? Un sanador ciego : Una sanadora ciega} se acerca a la colonia.</Blindhealer.letterLabel>
   <!-- EN: A small, withered {PAWN_genderNoun} stands in front of you. Where {PAWN_possessive} eyes should be, there are only scar-crusted holes in {PAWN_possessive} flesh. Yet, even without eyes, {PAWN_pronoun} somehow looks at you with kindness. {PAWN_pronoun} says that {PAWN_pronoun} knows that {PAWN_possessive} skills are needed here and wants to stay for a while. -->
   <Blindhealer.letterPrompt>{PAWN_gender ? Un : Una} {PAWN_genderNoun} pequeñ{PAWN_gender ? o : a} y marchit{PAWN_gender ? o : a} está frente a ti. Donde deberían estar sus ojos, solo hay agujeros con cicatrices en su carne. Sin embargo, incluso sin ojos, te mira con amabilidad. Dice que sabe que sus habilidades son necesarias aquí y que quiere quedarse un tiempo.</Blindhealer.letterPrompt>
   
@@ -27,7 +28,7 @@
   <DarkScholar.label>becario oscuro</DarkScholar.label>
   <DarkScholar.labelFemale>becaria oscura</DarkScholar.labelFemale>
   <!-- EN: A dark scholar covered with twisted scars is approaching the colony. -->
-  <DarkScholar.letterLabel>Un becario oscuro cubierto de cicatrices retorcidas se acerca a la colonia.</DarkScholar.letterLabel>
+  <DarkScholar.letterLabel>{PAWN_gender ? Un becario oscuro cubierto : Una becaria oscura cubierta} de cicatrices retorcidas se acerca a la colonia.</DarkScholar.letterLabel>
   <!-- EN: The dark scholar slouches in place, lifeless and silent. Only {PAWN_possessive} eyes seem alive, as if {PAWN_pronoun} could look inside you.\n\n{PAWN_pronoun} says that this is where {PAWN_pronoun} belongs and asks to stay for a while. {PAWN_possessive} tone indicates that {PAWN_pronoun} will not take 'no' for an answer. -->
   <DarkScholar.letterPrompt>El becario oscuro se encorva en su sitio, sin vida y en silencio. Solo sus ojos parecen vivos, como si pudiera mirar dentro de ti.\n\nDice que aquí es donde pertenece y pide quedarse por un tiempo. Su tono indica que no aceptará un "no" por respuesta.</DarkScholar.letterPrompt>
   
@@ -35,15 +36,15 @@
   <DealMaker.label>negociador</DealMaker.label>
   <DealMaker.labelFemale>negociadora</DealMaker.labelFemale>
   <!-- EN: A stunningly good-looking stranger is approaching the colony. -->
-  <DealMaker.letterLabel>Un desconocido de aspecto pulcro se acerca a la colonia.</DealMaker.letterLabel>
+  <DealMaker.letterLabel>{PAWN_gender ? Un desconocido : Una desconocida} de aspecto pulcro se acerca a la colonia.</DealMaker.letterLabel>
   <!-- EN: A stunningly good-looking stranger stands in front of you. {PAWN_possessive} face beams with confidence as {PAWN_pronoun} opens {PAWN_possessive} hands in a gesture of fellowship.\n\n{PAWN_pronoun} says {PAWN_pronoun} is here to make a deal and will help you in exchange for simple hospitality. This is {PAWN_possessive} purpose and {PAWN_pronoun} always fulfills {PAWN_possessive} purpose. -->
-  <DealMaker.letterPrompt>Delante de ti hay un desconocido de aspecto espectacular. Su rostro resplandece de confianza mientras abre sus manos en un gesto de compañerismo.\n\nDice que está aquí para hacer un trato y ayudará a cambio de simple hospitalidad. Este es su propósito y {PAWN_pronoun} siempre lo cumple.</DealMaker.letterPrompt>
+  <DealMaker.letterPrompt>Delante de ti hay un desconocido de aspecto espectacular. Su rostro resplandece de confianza mientras abre sus manos en un gesto de compañerismo.\n\nDice que está aquí para hacer un trato y ayudará a cambio de simple hospitalidad. Este es su propósito y siempre lo cumple.</DealMaker.letterPrompt>
   
   <!-- EN: leathery stranger -->
   <LeatheryStranger.label>extranjero curtido</LeatheryStranger.label>
   <LeatheryStranger.labelFemale>extranjera curtida</LeatheryStranger.labelFemale>
   <!-- EN: A ragged stranger with leathery skin is approaching your colony. -->
-  <LeatheryStranger.letterLabel>Un desconocido andrajoso de piel curtida se acerca a tu colonia.</LeatheryStranger.letterLabel>
+  <LeatheryStranger.letterLabel>{PAWN_gender ? Un desconocido andrajoso : Una desconocida andrajosa} de piel curtida se acerca a tu colonia.</LeatheryStranger.letterLabel>
   <!-- EN: The leathery stranger stares into space and speaks in a monotone, as though {PAWN_pronoun} hardly sees anyone or anything. {PAWN_pronoun} refuses to leave, insisting {PAWN_pronoun} is only interested in your colony. {PAWN_pronoun} says that {PAWN_pronoun} can help. -->
   <LeatheryStranger.letterPrompt>El extranjero de piel curtida mira al espacio y habla en un tono monótono, como si apenas viera a nadie ni nada. Se niega a marcharse, insiste en que solo le interesa tu colonia. Dice que puede ayudar.</LeatheryStranger.letterPrompt>
   
@@ -56,10 +57,10 @@
   <LoneGenius.letterPrompt>La extraña figura sigue murmurando sobre algún avance científico. Todo lo que necesita es un laboratorio. Si dejas que se quede, compartirá sus vastos conocimientos contigo. Es difícil saber si está loc{PAWN_gender ? o : a} o es {PAWN_gender ? un genio : una genio}, o ambas cosas.</LoneGenius.letterPrompt>
   
   <!-- EN: timeless one -->
-  <TimelessOne.label>eterno</TimelessOne.label>
-  <TimelessOne.labelFemale>eterna</TimelessOne.labelFemale>
+  <TimelessOne.label>el eterno</TimelessOne.label>
+  <TimelessOne.labelFemale>la eterna</TimelessOne.labelFemale>
   <!-- EN: A teenager is approaching the colony. {PAWN_pronoun} has a strange air of confidence around {PAWN_objective}. -->
-  <TimelessOne.letterLabel>Un adolescente se acerca a la colonia. Tiene un extraño aire de confianza que le rodea.</TimelessOne.letterLabel>
+  <TimelessOne.letterLabel>Un{PAWN_gender ?  : a} adolescente se acerca a la colonia. Tiene un extraño aire de confianza que le rodea.</TimelessOne.letterLabel>
   <!-- EN: {PAWN_nameDef} is barely more than a child but in {PAWN_possessive} thoughtful eyes you sense an ancient wisdom. When {PAWN_pronoun} speaks, the words seem to come from an unnatural knowledge of endless time. {PAWN_pronoun} says that the stars brought {PAWN_objective} here to fulfill {PAWN_possessive} destiny. {PAWN_pronoun} wants to stay with you and help. -->
   <TimelessOne.letterPrompt>{PAWN_nameDef} apenas es más que {PAWN_gender ? un niño : una niña}, pero en sus ojos atentos percibes una sabiduría ancestral. Cuando habla, las palabras parecen proceder de un conocimiento antinatural del tiempo sin fin. Dice que las estrellas {PAWN_objective} trajeron a aquí para cumplir su destino. Quiere quedarse contigo y ayudarte.</TimelessOne.letterPrompt>
   

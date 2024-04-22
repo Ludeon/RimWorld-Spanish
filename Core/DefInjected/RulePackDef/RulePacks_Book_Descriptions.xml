@@ -530,10 +530,10 @@
     <li>writingQualityAdjective(quality==3)->bien redactada</li>
     <li>writingQualityAdjective(quality==2)->mediocre</li>
     <li>writingQualityAdjective(quality==1)->mal redactada</li>
-    <li>writingQualityAdjective(quality==0)->casi incoherente</li>
-    <li>writingQualitySentence(quality[greater_than]4)->Es [excellentDesc] [excellentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->Es [decentDesc] [decentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]2)->Es [awfulDesc] [awfulExtra]</li>
+    <li>writingQualityAdjective(quality==0)->incoherente</li>
+    <li>writingQualitySentence(quality[greater_than]4)->[excellentDesc] [excellentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->[decentDesc] [decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]2)->[awfulDesc] [awfulExtra]</li>
     <!-- EN: 
     <li>excellentDesc->a thoughtful exploration of the human spirit</li>
     <li>excellentDesc->deeply insightful about the complexity of the world</li>
@@ -546,13 +546,13 @@
     <li>excellentExtra->. It blows the reader's mind at least three times</li>
     <li>excellentExtra->. The plot twists are unpredictable but also feel inevitable</li>
     <li>excellentExtra->. The characters feel like real people</li>-->
-    <li>excellentDesc->una emocionante historia llena de acción</li>
-    <li>excellentDesc->una reflexiva exploración del espíritu humano</li>
-    <li>excellentDesc->una reflexión personal sobre la complejidad del mundo</li>
-    <li>excellentDesc->escrita con rigor y rica en emociones</li>
-    <li>excellentDesc->creativa y original</li>
-    <li>excellentDesc->tremendamente original y extraordinariamente bien elaborado</li>
-    <li>excellentDesc->rebosante en sentido del humor</li>
+    <li>excellentDesc->Es una emocionante historia llena de acción</li>
+    <li>excellentDesc->es una reflexiva exploración del espíritu humano</li>
+    <li>excellentDesc->Es una reflexión personal sobre la complejidad del mundo</li>
+    <li>excellentDesc->Está escrita con rigor y llena en emociones</li>
+    <li>excellentDesc->Es creativa y original</li>
+    <li>excellentDesc->Es tremendamente original y extraordinariamente bien elaborada</li>
+    <li>excellentDesc->Es rebosante en sentido del humor</li>
     <li>excellentExtra->. El paso entre un capítulo y otro ocurre de forma natural</li>
     <li>excellentExtra->. Es un libro apasionante y muy difícil de dejar</li>
     <li>excellentExtra->. Deja boquiabierto al lector al menos tres veces</li>
@@ -566,13 +566,13 @@
     <li>decentDesc->gripping during some parts</li>
     <li>decentDesc->original and quirky</li>
     <li>decentDesc->appealing to a certain type of reader</li>-->
-    <li>decentDesc->una historia decente</li>
-    <li>decentDesc->interesante y atractiva</li>
-    <li>decentDesc->centrada en una idea interesante</li>
-    <li>decentDesc->algo humorístico de vez en cuando</li>
-    <li>decentDesc->cautivadora durante algunas partes</li>
-    <li>decentDesc->original y extravagante</li>
-    <li>decentDesc->atractiva para un determinado tipo de lector</li>
+    <li>decentDesc->Es una historia decente</li>
+    <li>decentDesc->Es interesante y atractiva</li>
+    <li>decentDesc->Está centrada en una idea interesante</li>
+    <li>decentDesc->Es algo humorística de vez en cuando</li>
+    <li>decentDesc->Es cautivadora durante algunas partes</li>
+    <li>decentDesc->Es original y extravagante</li>
+    <li>decentDesc->Es atractiva para un determinado tipo de lector</li>
     <!-- EN: 
     <li>decentExtra-> but has some glaring plot holes</li>
     <li>decentExtra-> but is often hard to follow</li>
@@ -602,15 +602,15 @@
     <li>awfulDesc->dominated by an author self-insert character</li>
     <li>awfulDesc->bizarre yet unoriginal</li>
     <li>awfulDesc->far, far too long</li>-->
-    <li>awfulDesc->horriblemente redactada</li>
-    <li>awfulDesc->terriblemente redactada</li>
-    <li>awfulDesc->difícil de leer</li>
-    <li>awfulDesc->difícil de entender</li>
-    <li>awfulDesc->carente de visión artística</li>
-    <li>awfulDesc->llena de agujeros argumentales y personajes genéricos</li>
-    <li>awfulDesc->protagonizada por un personaje absurdo</li>
-    <li>awfulDesc->extraña y poco original</li>
-    <li>awfulDesc->demasiado, demasiado larga</li>
+    <li>awfulDesc->Está horriblemente redactada</li>
+    <li>awfulDesc->Está terriblemente redactada</li>
+    <li>awfulDesc->Es difícil de leer</li>
+    <li>awfulDesc->Es difícil de entender</li>
+    <li>awfulDesc->Está carente de visión artística</li>
+    <li>awfulDesc->Está llena de agujeros argumentales y personajes genéricos</li>
+    <li>awfulDesc->Está protagonizada por un personaje absurdo</li>
+    <li>awfulDesc->Es extraña y poco original</li>
+    <li>awfulDesc->Es demasiado, demasiado larga</li>
     <!-- EN: 
     <li>awfulExtra-> and the writing is borderline incoherent</li>
     <li>awfulExtra-> and is extremely hard to follow</li>
@@ -1383,7 +1383,7 @@
     <li>schematic_desc_first->este [schematic_synonym] es [negative_adjective] en varios lugares</li>
     <li>schematic_desc_first->el [schematic_synonym] sobre [subject_primary_gerund] está incompleto</li>
     <li>schematic_desc_first->la [subject_primary_gerund] con estos [schematic_synonym]s se complica por las anotaciones contradictorias</li>
-    <li>schematic_desc_first->la comprensión [negative_adjective] sobre [subject_primary_gerund] por parte del autor es evidente en todo momento</li>
+    <li>schematic_desc_first->la comprensión [negative_adjective] sobre [subject_primary_gerund] por parte [of_author] es evidente en todo momento</li>
     <li>schematic_desc_first->parte del [schematic_synonym] ha sido arrancado</li>
     <li>schematic_desc_first->el fuego y el hollín han estropeado el papel</li>
     <li>schematic_desc_first->el [schematic_synonym] sobre [subject_primary_gerund] es demasiado [negative_adjective]</li>
@@ -1467,7 +1467,7 @@
     <li>medium->Un [schematic_container] de plastiacero lleva inscrito [schematic_origin]</li>
     <li>medium->Cae una nota garabateada, que [tells_verb] [schematic_origin]</li>
     <li>medium->La parte trasera del documento [tells_verb] más sobre [schematic_origin]</li>
-    <li>medium->Suena una grabación, [tells_verb_ing] [schematic_origin]</li>
+    <li>medium->Suena una grabación [tells_verb_ing] [schematic_origin]</li>
     <li>medium->[schematic_origin] sería una conjetura, si no fuera por las notas sobre el documento</li>
     <li>medium(p=4)->[schematic_origin] se conoce pero se incluye en las notas del documento</li>
     <li>medium->Un diario adjunto cuenta [schematic_origin]</li>
@@ -1556,7 +1556,7 @@
     <li>learning_story-> raised cloned apatovores on [dinoworld] and traded their meat for knowledge of [subject]</li>
     <li>learning_story-> lived in the skyrippers of [urbworld], where knowledge of [subject] was common</li>
     <li>learning_story-> was raised in the outer deadlands of [ruinworld], learning [subject] to survive</li>-->
-    <li>learning_story-> viajó por todas partes, buscando ampliar su sabiduría sobre [subject]</li>
+    <li>learning_story-> viajó por todas partes, buscando sabiduría sobre [subject]</li>
     <li>learning_story-> vivía un día idéntico todos los días, trabajando en [subject] en las ciudades cíclicas de [midworld]</li>
     <li>learning_story-> surgió a través de una escuela de barrios marginales centrada en [subject] en [urbworld]</li>
     <li>learning_story-> se graduó con matrícula de honor en [subject] en la Academia de [worldname]</li>
@@ -1736,6 +1736,35 @@
     <li>linkage->en [worldname], utilizó su perspicacia y </li>
     <li>linkage->para dominarlo, viajó a [worldname] donde [ANYPAWN_pronoun] </li>
     <!-- EN: 
+    <li>notable_adjective->famous</li>
+    <li>notable_adjective->obscure</li>
+    <li>notable_adjective->iconic</li>
+    <li>notable_adjective->classic</li>
+    <li>notable_adjective->common</li>
+    <li>notable_adjective->familiar</li>
+    <li>negative_adjective->rudimentary</li>
+    <li>negative_adjective->simplistic</li>
+    <li>negative_adjective->primitive</li>
+    <li>negative_adjective->mediocre</li>
+    <li>negative_adjective->inaccurate</li>
+    <li>negative_adjective->deficient</li>
+    <li>appearance(p=3)->[phys_desc]</li>
+    <li>appearance->[nonphys_desc]</li>-->
+    <li>notable_adjective->famoso</li>
+    <li>notable_adjective->oscuro</li>
+    <li>notable_adjective->icónico</li>
+    <li>notable_adjective->clásico</li>
+    <li>notable_adjective->habitual</li>
+    <li>notable_adjective->familiar</li>
+    <li>negative_adjective->rudimentario</li>
+    <li>negative_adjective->simplista</li>
+    <li>negative_adjective->incompetente</li>
+    <li>negative_adjective->mediocre</li>
+    <li>negative_adjective->inexacto</li>
+    <li>negative_adjective->deficiente</li>
+    <li>appearance(p=3)->[phys_desc]</li>
+    <li>appearance->[nonphys_desc]</li>
+    <!-- EN: 
     <li>phys_desc(quality[less_than]5,quality[greater_than]1)->[physical_yet_statement]</li>
     <li>phys_desc(quality[less_than]4)->[negative_physical_statement1]</li>
     <li>phys_desc(quality[greater_than]3)->[positive_physical_statement1]</li>
@@ -1795,7 +1824,7 @@
     <li>badsmells->tiene el hedor</li>
     <li>badsmells->huele ligeramente</li>
     <li>badsmells->apesta</li>
-    <li>badsmells->huele</li>
+    <li>badsmells->huele mal</li>
     <li>stink->mucosidad cadavérica</li>
     <li>stink->azufre y huevos podridos</li>
     <li>stink->muerte lenta y antigua</li>
@@ -2029,7 +2058,7 @@
     <li>midworld->Haihan</li>
     <li>midworld->Seolure</li>
     <li>midworld->Panga</li>
-    <li>midworld->New London CXI </li>
+    <li>midworld->New London CXI</li>
     <li>midworld->San Delenda</li>
     <li>mineworld->Xanides</li>
     <li>mineworld->Bingham</li>
@@ -2634,7 +2663,7 @@
     <li>anecdote->Según [note_location], el primer borrador del libro de [ANYPAWN_nameFull] contenía cincuenta páginas sobre divagaciones estúpidas. Se quitaron en la segunda edición</li>
     <li>anecdote->Según [note_location], la reputación de [ANYPAWN_nameFull] era tan terrible que [ANYPAWN_pronoun] publicó este libro de manera anónima</li>
     <li>anecdote->Según [note_location], de niño, [ANYPAWN_nameFull] era tan irresponsable que sus padres se desilusionaron. Este libro es una reivindicación de su habilidad</li>
-    <li>anecdote->Según el [precis_synonym], fue durante el cuarto matrimonio de [ANYPAWN_nameFull] cuando empezó a idear un libro sobre [subject]. (Esto le llevó a su cuarto divorcio)</li>
+    <li>anecdote->Según el [precis_synonym], fue durante el cuarto matrimonio de [ANYPAWN_nameFull] cuando empezó a idear un libro sobre [subject]. (Esto [ANYPAWN_objective] llevó a su cuarto divorcio)</li>
     <li>textbook->libro</li>
     <li>textbook->manual</li>
     <li>textbook->libro de texto</li>
