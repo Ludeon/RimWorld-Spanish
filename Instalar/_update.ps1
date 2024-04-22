@@ -1,13 +1,13 @@
 ﻿<#
 	.SYNOPSIS
-	Este script se encarga de instalar/actualizar las ultimas traducciones.
+	Este script se encarga de instalar/actualizar las últimas traducciones.
 	.DESCRIPTION
-	Este script se encarga de instalar/actualizar las traducciones del juego a las traducciones mas recientes disponibles para la traduccion al Español (Castellano) directamente desde los repositorios oficiales.
+	Este script se encarga de instalar/actualizar las traducciones del juego a las traducciones más recientes disponibles para la traduccion al Español (Castellano) directamente desde los repositorios oficiales.
 	
 	Originalmente desarrollado por Xeros08 (Aser Granado Amores).
 
 	.FUNCTIONALITY
-	Para usar este script, asegurate de ponerlo dentro del directorio del juego, al lado del ejecutable del juego, la carpeta "Mods", y la carpeta "Data".
+	Para usar este script, asegúrate de ponerlo dentro del directorio del juego, al lado del ejecutable del juego, la carpeta "Mods", y la carpeta "Data".
 #>
 
 
@@ -99,7 +99,7 @@ function UpdateContent {
 
 	# Create the path to that Content's languages folder
 	$translations_folder = ".\Data\$Name\Languages"
-	if (!(Test-Path $translations_folder)) { return } # IF you don't have the content or doesn't exist, skip.
+	if (!(Test-Path $translations_folder)) { return } # If you don't have the content or doesn't exist, skip.
 
 	# If the old .tar is present, remove them
 	if (Test-Path "$translations_folder\$ingame_name.tar") {
@@ -116,13 +116,11 @@ function UpdateContent {
 }
 
 
-
-
 # Script's Entrypoint 
 
 DownloadGithubRepo -Owner $repo_owner -Repo $official_repo -Branch $branch
 
-# Rename de directory of the repo to match the format (owner-repo)
+# Rename the directory of the repo to match the format (owner-repo)
 $local_repo = "$repo_owner-$official_repo"
 Get-ChildItem -Name -Directory ".\" -Filter "$local_repo*" | Select-Object -First 1 | Rename-Item -NewName $local_repo -Force
 

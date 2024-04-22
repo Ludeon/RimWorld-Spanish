@@ -5,6 +5,12 @@
   <BeamWound.label>quemadura de haz</BeamWound.label>
   <!-- EN: A beam burn. -->
   <BeamWound.description>Una quemadura de un haz.</BeamWound.description>
+  <!-- EN: set -->
+  <BeamWound.comps.HediffComp_TendDuration.labelSolidTendedWell>entablillado</BeamWound.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <BeamWound.comps.HediffComp_TendDuration.labelTendedWell>vendado</BeamWound.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <BeamWound.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</BeamWound.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent beam injury -->
   <BeamWound.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>lesión permanente por un haz</BeamWound.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
   <!-- EN: old beam wound -->
@@ -16,6 +22,6 @@
   <!-- EN: a beam burn -->
   <BeamWound.labelNoun>una quemadura de un haz.</BeamWound.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <BeamWound.labelNounPretty>la {0} en esta parte del cuerpo "{1}"</BeamWound.labelNounPretty>
+  <BeamWound.labelNounPretty>la {0} en {1_gender ? el : la} {1}</BeamWound.labelNounPretty>
   
 </LanguageData>
