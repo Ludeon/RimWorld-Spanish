@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: air conditioning -->
@@ -17,13 +17,13 @@
     <li>subject_story->visitó el pueblo más caliente del planeta</li>
     <li>subject_story->trabajó en los casquetes polares, en un almacén interestelar mantenido cerca del cero absoluto</li>
     <li>subject_story->aprendió todo sobre el aire acondicionado y los congeladores, luego regresó a casa</li>
-    <li>subject_gerund->fabricar aparatos de aire acondicionado</li>
+    <li>subject_gerund->fabricar unidades de aire acondicionado</li>
   </AirConditioning.generalRules.rulesStrings>
   
   <!-- EN: autodoor -->
   <Autodoors.label>puertas automáticas</Autodoors.label>
   <!-- EN: Build autodoors which automatically open when someone approaches, without slowing anyone down. -->
-  <Autodoors.description>Construye puertas automáticas que se abren solas cuando alguien se acerca, sin enlentecer a los usuarios.</Autodoors.description>
+  <Autodoors.description>Construye puertas automáticas que se abren solas cuando alguien se acerca, sin ralentizar a nadie.</Autodoors.description>
   <!-- EN:
     <li>subject->autodoors</li>
     <li>subject->automatic doors</li>
@@ -34,7 +34,7 @@
   -->
   <Autodoors.generalRules.rulesStrings>
     <li>subject->puertas automáticas</li>
-    <li>subject_story->fue reclutado por una empresa de seguridad robótica, abriendo su puerta a una carrera como probador de automatización</li>
+    <li>subject_story->fue reclutado por una empresa de seguridad robótica, abriendo su puerta a una carrera como evaluador de automatización</li>
     <li>subject_story->prototipó modelos únicos de puertas automáticas</li>
     <li>subject_story->trabajó muy duro para asegurarse de que las puertas emitieran un satisfactorio "sssh" al abrirse o cerrarse</li>
     <li>subject_gerund->construir puertas automáticas</li>
@@ -72,7 +72,7 @@
   -->
   <BiofuelRefining.generalRules.rulesStrings>
     <li>subject->biocombustible</li>
-    <li>subject_story->quedó atrapada cuando una nave generativa perdió la energía. Usó su conocimiento de refinación para convertir restos humanos en biocombustible y reiniciar los motores</li>
+    <li>subject_story->quedó atrapad{PAWN_gender ? o : a} cuando una nave generativa perdió la energía. Usó su conocimiento de refinación para convertir restos humanos en biocombustible y reiniciar los motores</li>
     <li>subject_story->utilizó biorrefinerías automatizadas para comenzar el largo proceso de terraformación de un mundo helado</li>
     <li>subject_story->inició una destilería para hacer licor casero, pero, al darse cuenta de que no era consumible, lo vendió como combustible químico en su lugar</li>
     <li>subject_gerund->refinar biocombustible</li>
@@ -95,7 +95,7 @@
     <li>subject->armas de retroceso</li>
     <li>subject_story->utilizó ametralladoras en combate dentro de las trincheras repartidas por el planeta</li>
     <li>subject_story->vendió auténticas pistolas automáticas de baja potencia a las fuerzas del orden en los orbitales</li>
-    <li>subject_story->fabricó armas de retroceso para reclutas de vista corta</li>
+    <li>subject_story->fabricó armas de retroceso para reclutas con miopía</li>
     <li>subject_gerund->fabricar armas de retroceso</li>
   </BlowbackOperation.generalRules.rulesStrings>
   
@@ -230,7 +230,7 @@
   <!-- EN: geothermal power -->
   <GeothermalPower.label>energía geotérmica</GeothermalPower.label>
   <!-- EN: Build geothermal power plants on top of steam geysers, for uninterrupted power. -->
-  <GeothermalPower.description>Te permite construir plantas geotérmicas sobre géisers de vapor, para un suministro eléctrico ininterrumpido.</GeothermalPower.description>
+  <GeothermalPower.description>Te permite construir plantas geotérmicas sobre géiseres de vapor, para un suministro eléctrico ininterrumpido.</GeothermalPower.description>
   <!-- EN:
     <li>subject->geothermal power</li>
     <li>subject_story->studied steam power and established geothermal plants throughout the region</li>
@@ -322,8 +322,8 @@
   -->
   <IEDs.generalRules.rulesStrings>
     <li>subject->trampas explosivas improvisadas</li>
-    <li>subject_story->desarmó los restos de proyectiles de la guerra, convirtiéndolos en minas en la nueva línea del frente</li>
-    <li>subject_story->fue atacado por morteros, solo sobreviviendo al fabricar trampas con los numerosos proyectiles fallidos del enemigo</li>
+    <li>subject_story->desarmó los proyectiles restantes de la guerra, convirtiéndolos en minas para mandarlos al nuevo frente</li>
+    <li>subject_story->fue atacado por morteros, solo sobreviviendo gracias a fabricar trampas con los numerosos proyectiles fallidos del enemigo</li>
     <li>subject_story->abogó por los derechos de los pequeños asentamientos, donde las municiones sin explotar eran un peligro constante</li>
     <li>subject_gerund->fabricar trampas explosivas improvisadas</li>
   </IEDs.generalRules.rulesStrings>
@@ -526,7 +526,7 @@
   -->
   <WatermillGenerator.generalRules.rulesStrings>
     <li>subject->generadores hidráulicos</li>
-    <li>subject_story->observó cómo ramitas y hojas eran arrastradas río abajo y visualizó la energía allí</li>
+    <li>subject_story->observó cómo ramitas y hojas eran arrastradas río abajo y visualizó la energía contenida allí</li>
     <li>subject_story->conectó cables a un antiguo molino de harina en un mundo feudal</li>
     <li>subject_story->encalló un barco a vapor en las costas de un mundo en ruinas y lo convirtió en un molino de agua</li>
     <li>subject_gerund->construir generadores hidráulicos</li>
