@@ -26,7 +26,7 @@ function LinkTranslationFiles {
 		Vincula las traducciones del contenido oficial indicado.
 
 		.DESCRIPTION
-		Borra las traducciones actuales de los ficheros del juego y las reemplaza por un enlace simbolico al repositorio local.
+		Borra las traducciones actuales de los ficheros del juego y las reemplaza por un enlace simbólico al repositorio local.
 
         .PARAMETER LocalRepoPath
 		Especifica la ruta al repositorio local.
@@ -125,7 +125,7 @@ function Get-Folder {
     # Create a folder selection dialog
     $parent = New-Object System.Windows.Forms.Form -Property @{TopMost = $true; TopLevel = $true }
     $folderDialog = New-Object System.Windows.Forms.FolderBrowserDialog
-    $folderDialog.Description = "Elige la carpeta donde se encuentra tu repositorio local"
+    $folderDialog.Description = "Elige la carpeta donde se encuentra tu repositorio local. Después, si se te solicita, elige la opción 'Sí a todo' (varias veces)"
     $folderDialog.SelectedPath = [Environment]::GetFolderPath('Desktop')
 
     # Load default location
@@ -184,8 +184,12 @@ if (-not ($local_repo -eq $null)) {
     LinkTranslationFiles -LocalRepoPath $local_repo -Name "Biotech"
     LinkTranslationFiles -LocalRepoPath $local_repo -Name "Anomaly"
 
-    Write-Host "Finalizado"
+    Write-Host "Finalizado. En caso de que vuelvas a ejecutar _update.ps1, deberás volver a ejecutar este archivo si quieres mantener el enlace simbólico."
+    Write-Host "Presiona Enter para salir..."
+    Read-Host
 }
 else {
     Write-Host "Cancelado"
+    Write-Host "Presiona Enter para salir..."
+    Read-Host
 }
