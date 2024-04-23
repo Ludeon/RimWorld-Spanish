@@ -44,30 +44,35 @@ function DownloadGithubRepo {
 		Especifica la rama a descargar. Por defecto es "master".
 	#>
 
-	param(
-		[Parameter(Mandatory=$True)] 
-		[string]$Owner,
+    param(
+        [Parameter(Mandatory=$True)] 
+        [string]$Owner,
 
-		[Parameter(Mandatory=$True)] 
-		[string]$Repo,
+        [Parameter(Mandatory=$True)] 
+        [string]$Repo,
 
-		[Parameter(Mandatory=$False)] 
-		[string]$Branch = "master"
-	)
+        [Parameter(Mandatory=$False)] 
+        [string]$Branch = "master"
+    )
 
-	# Create the download link for the repo using GitHub's REST API
-	$repo_url = "https://api.github.com/repos/$Owner/$Repo/zipball/$Branch"
+    try {
+        # Create the download link for the repo using GitHub's REST API
+        $repo_url = "https://api.github.com/repos/$Owner/$Repo/zipball/$Branch"
 
-	# Create the zip file 
-	$zip_file = ".\$Owner-$Repo-$Branch.zip"
-	New-Item $zip_file -ItemType File -Force
+        # Create the zip file 
+        $zip_file = ".\$Owner-$Repo-$Branch.zip"
+        New-Item $zip_file -ItemType File -Force
 
-	# Download the repo
-	Invoke-RestMethod -Uri $repo_url -OutFile $zip_file
+        # Download the repo
+        Invoke-RestMethod -Uri $repo_url -OutFile $zip_file
 
-	# Extract the zip file
-	Expand-Archive -Path $zip_file -DestinationPath ".\" -Force
-	Remove-Item -Path $zip_file -Force
+        # Extract the zip file
+        Expand-Archive -Path $zip_file -DestinationPath ".\" -Force
+        Remove-Item -Path $zip_file -Force
+    } catch {
+        Write-Host "Error al descargar el repositorio desde GitHub: $_" -ForegroundColor Red
+        exit 1
+    }
 }
 
 
@@ -88,48 +93,62 @@ function UpdateContent {
 		.EXAMPLE
 		UpdateContent -LocalRepo "Ludeon-RimWorld-Spanish" -Name "Core"
 
-	#>
-	param (
-		[Parameter(Mandatory=$True)] 
-		[string]$LocalRepo,
+    #>
+    param (
+        [Parameter(Mandatory=$True)] 
+        [string]$LocalRepo,
 
-		[Parameter(Mandatory=$True)] 
-		[string]$Name
-	)
+        [Parameter(Mandatory=$True)] 
+        [string]$Name
+    )
 
-	# Create the path to that Content's languages folder
-	$translations_folder = ".\Data\$Name\Languages"
-	if (!(Test-Path $translations_folder)) { return } # If you don't have the content or doesn't exist, skip.
+    try {
+        # Create the path to that Content's languages folder
+        $translations_folder = ".\Data\$Name\Languages"
+        if (!(Test-Path $translations_folder)) { return } # If you don't have the content or doesn't exist, skip.
 
-	# If the old .tar is present, remove them
-	if (Test-Path "$translations_folder\$ingame_name.tar") {
-		Remove-Item "$translations_folder\$ingame_name.tar" -Force
-	}
+        # If the old .tar is present, remove them
+        if (Test-Path "$translations_folder\$ingame_name.tar") {
+            Remove-Item "$translations_folder\$ingame_name.tar" -Force
+        }
 
-	# If there are old translation files, remove them
-	if (Test-Path "$translations_folder\$ingame_name") {
-		Remove-Item "$translations_folder\$ingame_name" -Force -Recurse
-	}
+        # If there are old translation files, remove them
+        if (Test-Path "$translations_folder\$ingame_name") {
+            Remove-Item "$translations_folder\$ingame_name" -Force -Recurse
+        }
 
-	# Copy the new translations
-	Copy-Item -Path ".\$LocalRepo\$Name" -Destination "$translations_folder\$ingame_name" -Recurse
+        # Copy the new translations
+        Copy-Item -Path ".\$LocalRepo\$Name" -Destination "$translations_folder\$ingame_name" -Recurse
+    } catch {
+        Write-Host "Error al actualizar las traducciones: $_" -ForegroundColor Red
+        exit 1
+    }
 }
 
 
 # Script's Entrypoint 
 
-DownloadGithubRepo -Owner $repo_owner -Repo $official_repo -Branch $branch
+try {
+    # Download the repository from GitHub
+    DownloadGithubRepo -Owner $repo_owner -Repo $official_repo -Branch $branch
 
-# Rename the directory of the repo to match the format (owner-repo)
-$local_repo = "$repo_owner-$official_repo"
-Get-ChildItem -Name -Directory ".\" -Filter "$local_repo*" | Select-Object -First 1 | Rename-Item -NewName $local_repo -Force
+    # Rename the repository directory to match the format (owner-repo)
+    $local_repo = "$repo_owner-$official_repo"
+    Get-ChildItem -Name -Directory ".\" -Filter "$local_repo*" | Select-Object -First 1 | Rename-Item -NewName $local_repo -Force
 
-# Update the game's translation files with those from the downloaded repo
-UpdateContent -LocalRepo $local_repo -Name "Core"
-UpdateContent -LocalRepo $local_repo -Name "Royalty"
-UpdateContent -LocalRepo $local_repo -Name "Ideology"
-UpdateContent -LocalRepo $local_repo -Name "Biotech"
-UpdateContent -LocalRepo $local_repo -Name "Anomaly"
+    # Update the game's translation files with those from the downloaded repo
+    UpdateContent -LocalRepo $local_repo -Name "Core"
+    UpdateContent -LocalRepo $local_repo -Name "Royalty"
+    UpdateContent -LocalRepo $local_repo -Name "Ideology"
+    UpdateContent -LocalRepo $local_repo -Name "Biotech"
+    UpdateContent -LocalRepo $local_repo -Name "Anomaly"
 
-# Delete the downloaded repo
-Remove-Item -Recurse -Force ".\$local_repo"
+    # Delete the downloaded repo
+    Remove-Item -Recurse -Force ".\$local_repo"
+} catch {
+    Write-Host "Error general en el script: $_" -ForegroundColor Red
+    exit 1
+}
+# Wait for user input before closing the window
+Write-Host "Presiona Enter para salir..."
+Read-Host
