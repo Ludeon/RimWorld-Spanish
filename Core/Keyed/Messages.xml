@@ -43,10 +43,10 @@
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>El artículo "{0}" que vestía {1_nameFull} se ha deshecho por completo.</MessageWornApparelDeterioratedAway>
   <!-- EN: {0} has deteriorated away in storage. -->
-  <MessageDeterioratedAway>{0} se ha deteriorado en el almacén.</MessageDeterioratedAway>
+  <MessageDeterioratedAway>{0_indefinite} se ha deteriorado en el almacén.</MessageDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
-  <MessageSeasonBegun>Ahora es {0}.</MessageSeasonBegun>
+  <MessageSeasonBegun>{0_definite} ha comenzado.</MessageSeasonBegun>
 
   <!-- EN: {0} has left comms range. -->
   <MessageShipHasLeftCommsRange>La nave de {0} ha salido del rango.</MessageShipHasLeftCommsRange>
@@ -74,9 +74,9 @@
   <MessageOutOfNearbyFuelFor>{PAWN_labelShort} no ha encontrado ningún {FUEL} sin reservar para {GUN_definite}.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>Advertencia: {ANIMAL_kindBasePlural} tienen un {1} de probabilidad de atacar cuando les hacen daño. La probabilidad depende del alcance y de la estadística de sigilo del cazador.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>Advertencia: {ANIMAL_kindBasePluralDef} tienen un {1} de probabilidad de atacar cuando les hacen daño. La probabilidad depende del alcance y de la estadística de sigilo del cazador.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
-  <MessageAnimalManhuntsOnTameFailed>Advertencia: {ANIMAL_kindBasePlural} podrían atacar si el intento de domesticación falla (probabilidad del {1}).</MessageAnimalManhuntsOnTameFailed>
+  <MessageAnimalManhuntsOnTameFailed>Advertencia: {ANIMAL_kindBasePluralDef} podrían atacar si el intento de domesticación falla (probabilidad del {1}).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>Solo los que tienen el rasgo de simpatía insectil pueden domar {INSECT_indefinite}.</MessageInsectTameDesignated>
 
@@ -196,7 +196,7 @@
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} ha excedido el límite seguro de calentamiento neural.</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: No handler capable of taming {ANIMAL_kindBase} (requires level {1} in {2}, best capable handler {HANDLER_labelShort} has {4}). -->
-  <MessageNoHandlerSkilledEnough>Ningún adiestrador puede domesticar este(a) {ANIMAL_kindBase} (requiere nivel {1} en {2} y el mejor adiestrador es {HANDLER_labelShort}, con {4}).</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>Ningún adiestrador puede domesticar {replace: a {ANIMAL_kindBaseDef}; "a el "-"al "} (requiere nivel {1} en {2} y el mejor adiestrador es {HANDLER_labelShort}, con {4}).</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort} ha sido cazado por {PREDATOR}.</MessageEatenByPredator>
@@ -255,7 +255,7 @@
   <MessageCannotSellItemsReason>Algunos objetos no pueden comercializarse porque: </MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>{WORKER_labelShort} ha fallado construyendo un(a) {0}. Se han desperdiciado algunos recursos.</MessageConstructionFailed>
+  <MessageConstructionFailed>{WORKER_labelShort} ha fallado construyendo {0_indefinite}. Se han desperdiciado algunos recursos.</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>Captura de pantalla guardada como: {0}</MessageScreenshotSavedAs>
@@ -291,15 +291,15 @@
   <MessageMaxPlanetCoveragePerformanceWarning>Advertencia: Puede llevar mucho tiempo generar un planeta completo.</MessageMaxPlanetCoveragePerformanceWarning>
 
   <!-- EN: {0} has died because of cold. -->
-  <MessagePlantDiedOfCold>{0} ha muerto por las bajas temperaturas.</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfCold>{0_indefinite} ha muerto por las bajas temperaturas.</MessagePlantDiedOfCold>
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
-  <MessagePlantDiedOfRot_LeftUnharvested>{0} se ha podrido por no cosecharse a tiempo.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0_indefinite} se ha podrido por no cosecharse a tiempo.</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
-  <MessagePlantDiedOfRot_ExposedToLight>{0} ha muerto por no estar expuesta a la luz.</MessagePlantDiedOfRot_ExposedToLight>
+  <MessagePlantDiedOfRot_ExposedToLight>{0_indefinite} ha muerto por no estar expuesta a la luz.</MessagePlantDiedOfRot_ExposedToLight>
   <!-- EN: {0} has died from rotting. -->
-  <MessagePlantDiedOfRot>{0} se ha podrido debido a que quedó sin cosechar.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfRot>{0_indefinite} se ha podrido debido a que quedó sin cosechar.</MessagePlantDiedOfRot>
   <!-- EN: {0} has died because of poison. -->
-  <MessagePlantDiedOfPoison>{0} ha muerto a causa del veneno.</MessagePlantDiedOfPoison>
+  <MessagePlantDiedOfPoison>{0_indefinite} ha muerto a causa del veneno.</MessagePlantDiedOfPoison>
   <!-- EN: {1_label} has died because of blight. -->
   <MessagePlantDiedOfBlight>{1_label} ha muerto debido a una plaga.</MessagePlantDiedOfBlight>
 

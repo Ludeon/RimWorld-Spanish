@@ -219,7 +219,7 @@
 
   <!-- Deathrest -->
   <!-- EN: Waking {PAWN_nameDef} before {MINDURATION} has passed will interrupt {PAWN_possessive} deathrest, leaving {PAWN_objective} sick for days while {PAWN_pronoun} recovers. Waking early means {PAWN_nameDef} will not benefit from any deathrest buildings. {PAWN_pronoun} has been deathresting for {CURDURATION}.\n\nAre you sure you wish to wake {PAWN_nameDef}? -->
-  <WarningWakingInterruptsDeathrest>Despertar a {PAWN_nameDef} antes de que pasen {MINDURATION} interrumpirá su mortisueño, lo que {PAWN_objective} enfermará varios días. También implicará que no se beneficiará de las construcciones de mortisueño. {PAWN_pronoun} ha estado mortisoñando durante {CURDURATION}.\n\n¿Seguro que quieres despertar a {PAWN_nameDef}?</WarningWakingInterruptsDeathrest>
+  <WarningWakingInterruptsDeathrest>Despertar a {PAWN_nameDef} antes de que pasen {MINDURATION} interrumpirá su mortisueño, enfermándo{PAWN_objective} por días mientras se recupera. También supondrá que no se beneficiará de los edificios de mortisueño. Ha estado mortisoñando durante {CURDURATION}.\n\n¿Seguro que quieres despertar a {PAWN_nameDef}?</WarningWakingInterruptsDeathrest>
 
   <!-- Text motes -->
   <!-- EN: {0} wounds tended -->
@@ -304,7 +304,7 @@
   <!-- EN: {0} squeals a string of curses into the microphone and disconnects. -->
   <PigFactionGreetingHostile>{0} chilla un montón de maldiciones al micrófono y se desconecta.</PigFactionGreetingHostile>
   <!-- EN: Oinking angrily, {0} demands that you make a gesture of unity, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnorting an insult, {0_pronoun} disconnects. -->
-  <PigFactionGreetingHostileAppreciative>Expresa unos ¡oinc, oinc! con rabia, {0} reclama un gesto de unidad, como llevarle regalos a uno de {0_possesive}s asentamientos o liberando prisioneros de {0_possesive} facción. Hasta entonces, no quiere hablar.\n\nEsnifando un insulto se desconecta.</PigFactionGreetingHostileAppreciative>
+  <PigFactionGreetingHostileAppreciative>Expresa unos ¡oinc, oinc! con rabia, {0} reclama un gesto de unidad, como llevarle regalos a uno de sus asentamientos o liberando prisioneros ilesos de su facción. Hasta entonces, se niega a hablar.\n\nEsnifando un insulto se desconecta.</PigFactionGreetingHostileAppreciative>
   <!-- EN: {0} oinks a greeting and asks what business you need done. -->
   <PigFactionGreetingWary>{0} emite unos ¡oinc, oinc! saludando y pregunta qué negocios has hecho.</PigFactionGreetingWary>
   <!-- EN: Oinking enthusiastically, {0} greets {NEGOTIATOR_labelShort} and asks what {LEADER_pronoun} can do to help you. -->
@@ -315,7 +315,7 @@
   <!-- EN: {0} roars into the microphone and disconnects. -->
   <YttakinFactionGreetingHostile>{0} ruge en el micrófono y se desconecta.</YttakinFactionGreetingHostile>
   <!-- EN: Growling under {0_possessive} breath, {0} demands that you make a gesture of friendship, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnarling an insult, {0_pronoun} disconnects. -->
-  <YttakinFactionGreetingHostileAppreciative>Gruñendo bajo su aliento, {0} te exige un gesto de amistad, como llevar regalos a uno de sus asentamientos o liberando prisioneros de su facción. Hasta entonces, se negará a hablar.\n\nSoltando un insulto se desconecta.</YttakinFactionGreetingHostileAppreciative>
+  <YttakinFactionGreetingHostileAppreciative>Gruñendo bajo su aliento, {0} te exige un gesto de amistad, como llevar regalos a uno de sus asentamientos o liberando prisioneros ilesos de su facción. Hasta entonces, se negará a hablar.\n\nSoltando un insulto se desconecta.</YttakinFactionGreetingHostileAppreciative>
   <!-- EN: {0} grumbles a greeting to {NEGOTIATOR_labelShort} and asks why you are calling. -->
   <YttakinFactionGreetingWary>{0} gruñe un saludo hacia {NEGOTIATOR_labelShort} y pregunta por qué estás llamando.</YttakinFactionGreetingWary>
   <!-- EN: {0} bellows a friendly greeting and asks what {LEADER_pronoun} can do to help you. -->
@@ -324,7 +324,7 @@
   <!-- EN: {0} grunts angrily and disconnects. -->
   <NeanderthalFactionGreetingHostile>{0} gruñe con rabia y se desconecta.</NeanderthalFactionGreetingHostile>
   <!-- EN: {0} grunts aggressively. Until you make a gesture of goodwill, {0_pronoun} will not do business with you. You can improve relations through a number of activities, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed.\n\n{0_pronoun} disconnects abruptly. -->
-  <NeanderthalFactionGreetingHostileAppreciative>{0} gruñe agresivamente. Hasta que no tengas un acto de buena voluntad, no hará negocios contigo. Puedes mejorar las relaciones mediante varias actividades, como llevar regalos a uno de sus asentamientos o liberando prisioneros de su facción.\n\nSe desconecta bruscamente.</NeanderthalFactionGreetingHostileAppreciative>
+  <NeanderthalFactionGreetingHostileAppreciative>{0} gruñe agresivamente. Hasta que no tengas un acto de buena voluntad, no hará negocios contigo. Puedes mejorar las relaciones mediante varias actividades, como llevar regalos a uno de sus asentamientos o liberando prisioneros ilesos de su facción.\n\nSe desconecta bruscamente.</NeanderthalFactionGreetingHostileAppreciative>
   <!-- EN: {0} grunts a greeting. -->
   <NeanderthalFactionGreetingWary>{0} gruñe un saludo.</NeanderthalFactionGreetingWary>
   <!-- EN: {0} grunts a warm greeting to {NEGOTIATOR_labelShort}. -->
@@ -348,7 +348,7 @@
   <NextGrowthMomentAt>Siguiente momento de crecimiento a la edad</NextGrowthMomentAt>
 
   <!-- EN: no biotech buildings allowed -->
-  <RoomRequirementNoBiotechBuildings>sin construcciones biotecnológicas permitidas</RoomRequirementNoBiotechBuildings>
+  <RoomRequirementNoBiotechBuildings>no se permiten edificios de Biotech</RoomRequirementNoBiotechBuildings>
 
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will result in serious blood loss, leaving {PAWN_objective} unconscious.\n\nAre you sure? -->
   <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>Chupar sangre de {PAWN_nameDef} le provocará una hemorragia grave, dejando{PAWN_objective} inconsciente.\n\n¿Estás seguro?</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>

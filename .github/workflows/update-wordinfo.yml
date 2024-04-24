@@ -21,7 +21,7 @@ jobs:
       
     - name: Update WordInfo
       shell: powershell
-      run: .\update-wordinfo.ps1
+      run: Scripts\update-wordinfo.ps1
     - name: Commit
       run: |
         git config user.name "github-actions[bot]"
