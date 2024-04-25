@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: beer brewing -->
@@ -15,6 +15,7 @@
   -->
   <Brewing.generalRules.rulesStrings>
     <li>subject->procesos fermentativos</li>
+    <li>subject_def->de los procesos fermentativos</li>
     <li>subject_story->elaboró una cerveza negra única que se hizo famosa en todo el sistema</li>
     <li>subject_story->se retiró para dirigir una taberna en un mundo animal</li>
     <li>subject_story->se especializó en técnicas de fermentación controladas por el clima</li>
@@ -34,17 +35,18 @@
     <li>subject_gerund->weaving carpets</li>
   -->
   <CarpetMaking.generalRules.rulesStrings>
-    <li>subject->fabricación de alfombras</li>
-    <li>subject_story->aprendió a tejer alfombras con cabello para un Emperador lejano</li>
-    <li>subject_story->dejó tras de sí una colección sin igual de alfombras y tapices</li>
-    <li>subject_story->se estableció en una luna medieval, donde el oficio de tejido de alfombras era realmente apreciado</li>
+    <li>subject->elaboración de alfombras</li>
+    <li>subject_def->de la elaboración de alfombras</li>
+    <li>subject_story->aprendió a tejer alfombras a partir de cabello, para un Emperador lejano</li>
+    <li>subject_story->dejó tras de sí una colección sin parangón de alfombras y tapices</li>
+    <li>subject_story->se estableció en una luna medieval, donde el arte del alfombrismo era realmente apreciado</li>
     <li>subject_gerund->tejer alfombras</li>
   </CarpetMaking.generalRules.rulesStrings>
   
   <!-- EN: cocoa -->
   <Cocoa.label>cacao</Cocoa.label>
   <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation and it's a valuable trade good too. -->
-  <Cocoa.description>Siembra árboles de cacao para producir tu propio delicioso chocolate. Comer chocolate satisface la necesidad de ocio, y también es valioso en el mercado.</Cocoa.description>
+  <Cocoa.description>Siembra árboles de cacao para producir tu propio delicioso chocolate. Comer chocolate satisface la necesidad de ocio, y además es valioso en el mercado.</Cocoa.description>
   <!-- EN:
     <li>subject->cocoa</li>
     <li>subject->chocolate</li>
@@ -57,7 +59,9 @@
   <Cocoa.generalRules.rulesStrings>
     <li>subject->cacao</li>
     <li>subject->chocolate</li>
-    <li>subject_story->se obsesionó con el chocolate y tuvo que ser reprimido</li>
+    <li>subject_def->del cacao</li>
+    <li>subject_def->del chocolate</li>
+    <li>subject_story->se obsesionó con el chocolate y tuvo que ser contenido</li>
     <li>subject_story->estudió el proceso de fermentación del cacao para una tesis</li>
     <li>subject_story->estableció la mejor tienda de chocolate del sector</li>
     <li>subject_gerund->producir chocolate</li>
@@ -67,7 +71,7 @@
   <!-- EN: complex clothing -->
   <ComplexClothing.label>ropa compleja</ComplexClothing.label>
   <!-- EN: Tailor complicated garments like pants, dusters, and cowboy hats. -->
-  <ComplexClothing.description>Permite coser prendas complicadas como pantalones, gabardinas y sombreros de vaqueros.</ComplexClothing.description>
+  <ComplexClothing.description>Permite coser prendas complicadas como pantalones, gabardinas y sombreros vaqueros.</ComplexClothing.description>
   <!-- EN:
     <li>subject->complex tailoring</li>
     <li>subject_story->tailored hard-wearing clothes for urbworld cityfolk</li>
@@ -77,16 +81,17 @@
   -->
   <ComplexClothing.generalRules.rulesStrings>
     <li>subject->sastrería compleja</li>
-    <li>subject_story->hizo ropa resistente para los habitantes de la ciudad en un mundo urbano</li>
+    <li>subject_def->de la sastrería compleja</li>
+    <li>subject_story->hizo ropa resistente para los ciudadanos de un mundo urbano</li>
     <li>subject_story->se relajaba cosiendo y contando historias a los niños del pueblo</li>
-    <li>subject_story->aprendió a confeccionar ropa para ser usada en las grandes actuaciones de su compañía</li>
+    <li>subject_story->aprendió a confeccionar ropa para ser usada en las grandes actuaciones de su compañía teatral</li>
     <li>subject_gerund->confeccionar ropa compleja</li>
   </ComplexClothing.generalRules.rulesStrings>
   
   <!-- EN: complex furniture -->
   <ComplexFurniture.label>mobiliario complejo</ComplexFurniture.label>
   <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiards tables, and poker tables, vents, sarcophagi, and more. -->
-  <ComplexFurniture.description>Construya muebles complejos como camas, mesitas de noche, sillas de comedor, sillones, cómodas, gabinetes de herramientas, mesas de billar y mesas de póker, respiraderos, sarcófagos y más.</ComplexFurniture.description>
+  <ComplexFurniture.description>Construye muebles complejos como camas, mesitas de noche, sillas de comedor, sillones, cómodas, gabinetes de herramientas, mesas de billar y mesas de póker, respiraderos, sarcófagos y más.</ComplexFurniture.description>
   <!-- EN:
     <li>subject->carpentry</li>
     <li>subject_story->studied woodcarving under a master carpenter</li>
@@ -96,6 +101,7 @@
   -->
   <ComplexFurniture.generalRules.rulesStrings>
     <li>subject->carpintería</li>
+    <li>subject_def->de la carpintería</li>
     <li>subject_story->estudió el tallado en madera bajo la tutela de un maestro carpintero</li>
     <li>subject_story->construyó una aldea de cabañas de troncos cortados por él mismo</li>
     <li>subject_story->estableció una fábrica, vendiendo muebles de alta calidad a comerciantes ambulantes</li>
@@ -105,7 +111,7 @@
   <!-- EN: devilstrand -->
   <Devilstrand.label>hilodiablo</Devilstrand.label>
   <!-- EN: Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber. -->
-  <Devilstrand.description>Permite a los colonos sembrar las setas hilodiablo, un hongo de lento crecimiento del que se puede cosechar una valiosa fibra textil resistente al calor.</Devilstrand.description>
+  <Devilstrand.description>Permite a los colonos sembrar las setas de hilodiablo, un hongo de lento crecimiento del que se puede cosechar una valiosa fibra textil resistente al calor.</Devilstrand.description>
   <!-- EN:
     <li>subject->devilstrand cultivation</li>
     <li>subject_story->used devilstrand as a natural firebreak</li>
@@ -115,9 +121,10 @@
   -->
   <Devilstrand.generalRules.rulesStrings>
     <li>subject->cultivo de hilodiablo</li>
+    <li>subject_def->del cultivo de hilodiablo</li>
     <li>subject_story->utilizó el hilodiablo como cortafuegos natural</li>
-    <li>subject_story->creó las técnicas para cultivar hilodiablo fácilmente</li>
-    <li>subject_story->se obsesionó con los hongos y se autoproclamó la princesa de su reino</li>
+    <li>subject_story->estableció las técnicas para cultivar hilodiablo fácilmente</li>
+    <li>subject_story->se obsesionó con los hongos y se autoproclamó Princesa de su reino</li>
     <li>subject_gerund->cultivar hilodiablo</li>
   </Devilstrand.generalRules.rulesStrings>
   
@@ -137,9 +144,11 @@
   <DrugProduction.generalRules.rulesStrings>
     <li>subject->producción de drogas</li>
     <li>subject->síntesis de drogas</li>
-    <li>subject_story->trabajó en un laboratorio de asteroides en los límites del espacio poblado</li>
+    <li>subject_def->de la producción de drogas</li>
+    <li>subject_def->de la síntesis de drogas</li>
+    <li>subject_story->trabajó en un asteroide-laboratorio en los límites del espacio poblado</li>
     <li>subject_story->aprendió a elaborar drogas a partir de productos químicos reciclados, lo que le condujo a años en prisión</li>
-    <li>subject_story->fue químico, pero se involucró en la síntesis y venta ilegal de drogas de manera clandestina</li>
+    <li>subject_story->trabajó como químico, pero se involucró en la síntesis y venta ilegal de drogas de manera clandestina</li>
     <li>subject_gerund->construir laboratorios de drogas</li>
     <li>subject_gerund->producir drogas</li>
   </DrugProduction.generalRules.rulesStrings>
@@ -157,9 +166,10 @@
   -->
   <GoJuiceProduction.generalRules.rulesStrings>
     <li>subject->producción de zumo-go</li>
+    <li>subject_def->de la producción de jugo-go</li>
     <li>subject_story->fue expulsado por tomar zumo-go mientras participaba en actividades deportivas en un equipo</li>
     <li>subject_story->descubrió que el zumo-go aumentaba enormemente la productividad en minas y aserraderos</li>
-    <li>subject_story->nunca salía en una misión sin zumo-go o Juggernaut en el bolsillo</li>
+    <li>subject_story->nunca salía en una misión sin zumo-go o juggernaut en el bolsillo</li>
     <li>subject_gerund->sintetizar zumo-go</li>
   </GoJuiceProduction.generalRules.rulesStrings>
   
@@ -176,6 +186,7 @@
   -->
   <Greatbow.generalRules.rulesStrings>
     <li>subject->arcos largos</li>
+    <li>subject_def->de los arcos largos</li>
     <li>subject_story->disparó una flecha que atravesó el casco metálico de un rey feudal</li>
     <li>subject_story->cazó múfalos por su piel en un mundo salvaje</li>
     <li>subject_story->vivió solo en el bosque, y una lluvia de flechas caía a cualquiera que se acercara a menos de una milla de su hogar</li>
@@ -195,8 +206,9 @@
   -->
   <LongBlades.generalRules.rulesStrings>
     <li>subject->armamento medieval</li>
+    <li>subject_def->del armamento medieval</li>
     <li>subject_story->cabalgó con la Quinta Caballería Ligera del Betaduque mientras conquistaban el sector</li>
-    <li>subject_story->fue esclavizado como armero bajo la arena en un planeta de la era del hierro</li>
+    <li>subject_story->fue esclavizado como armero bajo la arena en un planeta de la edad del hierro</li>
     <li>subject_story->entrenó a los hoplitas en un mundo de guerra para que utilizaran el alcance de sus armas</li>
     <li>subject_gerund->forjar armas medievales</li>
   </LongBlades.generalRules.rulesStrings>
@@ -216,9 +228,11 @@
   <PassiveCooler.generalRules.rulesStrings>
     <li>subject->evaporación</li>
     <li>subject->refrigeradores pasivos</li>
-    <li>subject_story->se mudó a un mundo tropical abrasador y desarrolló técnicas únicas para quitarse el calor</li>
+    <li>subject_def->de la evaporación</li>
+    <li>subject_def->de los refrigeradores pasivos</li>
+    <li>subject_story->se mudó a un mundo tropical abrasador y desarrolló técnicas únicas para mantenerse fresco</li>
     <li>subject_story->investigó técnicas primitivas para enfriar habitaciones desde la comodidad de las bibliotecas de un mundo central</li>
-    <li>subject_story->observó en la orilla de un planeta oceánico que se estaba más fresco donde se depositaba la brisa marina</li>
+    <li>subject_story->se percató, en la orilla de un planeta oceánico, de que se estaba más fresco donde se asienta la brisa marina</li>
     <li>subject_gerund->construir refrigeradores pasivos</li>
   </PassiveCooler.generalRules.rulesStrings>
   
@@ -235,8 +249,9 @@
   -->
   <Pemmican.generalRules.rulesStrings>
     <li>subject->producción de pemmican</li>
+    <li>subject_def->de la producción de pemmican</li>
     <li>subject_story->dominó la producción de pemmican durante una larga peregrinación a la Espira del planeta</li>
-    <li>subject_story->sobrevivió únicamente con pemmican cuando un transatlántico se estrelló en un mundo cristal</li>
+    <li>subject_story->sobrevivió únicamente con pemmican cuando un crucero con pasajeros se estrelló en un mundo cristal</li>
     <li>subject_story->enseñó la producción de pemmican a tribus salvajes</li>
     <li>subject_gerund->hacer pemmican</li>
   </Pemmican.generalRules.rulesStrings>
@@ -253,11 +268,12 @@
     <li>subject_gerund->synthesizing penoxycyline</li>
   -->
   <PenoxycylineProduction.generalRules.rulesStrings>
-    <li>subject->producción de penicilina</li>
+    <li>subject->producción de penoxicilina</li>
+    <li>subject_def->de la producción de penoxicilina</li>
     <li>subject_story->dio una conferencia en los Planetas Unidos sobre medicina preventiva</li>
-    <li>subject_story->fue expulsado de Dawn Falls como farsante por vender una medicina que "no hace nada"</li>
-    <li>subject_story->previno que un brote de malaria se propagara proporcionado una cuidadosa dosificación de penicilina a la población</li>
-    <li>subject_gerund->sintetizar penicilina</li>
+    <li>subject_story->fue expulsado de Dawn Falls por farsante, debido a vender una medicina que "no hace nada"</li>
+    <li>subject_story->previno que un brote de malaria se propagara proporcionando una cuidadosa dosificación de penoxicilina a la población</li>
+    <li>subject_gerund->sintetizar penoxicilina</li>
   </PenoxycylineProduction.generalRules.rulesStrings>
   
   <!-- EN: plate armor -->
@@ -273,6 +289,7 @@
   -->
   <PlateArmor.generalRules.rulesStrings>
     <li>subject->armadura de placas</li>
+    <li>subject_def->de la armadura de placas</li>
     <li>subject_story->forjó armaduras con desechos cuando las autoridades rodearon la choza de su familia</li>
     <li>subject_story->se hizo conocido como el Herrero Verde cuando creció musgo en la armadura de madera que hizo</li>
     <li>subject_story->fundó el primer colectivo de trabajadores de armaduras en un mundo urbano</li>
@@ -282,7 +299,7 @@
   <!-- EN: psychite refining -->
   <PsychiteRefining.label>refinamiento de psiquita</PsychiteRefining.label>
   <!-- EN: Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug. -->
-  <PsychiteRefining.description>Refina las hojas psicoides para convertirlas en escamas y yayo, diferentes formas de la droga psicótica de la euforia.</PsychiteRefining.description>
+  <PsychiteRefining.description>Refina las hojas psicoides para convertirlas en escamas y yayo, diferentes formas de la eufórica droga psiquita.</PsychiteRefining.description>
   <!-- EN:
     <li>subject->psychite production</li>
     <li>subject_story->used his university job as cover for his drug-dealing</li>
@@ -292,8 +309,9 @@
   -->
   <PsychiteRefining.generalRules.rulesStrings>
     <li>subject->producción de psiquita</li>
-    <li>subject_story->utilizó su trabajo universitario como tapadera para hacer tráfico de drogas</li>
-    <li>subject_story->comenzó una comuna donde las escamas se mezclaban con la comida en dosis bajas</li>
+    <li>subject_def->de la producción de psiquita</li>
+    <li>subject_story->utilizó su trabajo universitario como tapadera para cometer tráfico de drogas</li>
+    <li>subject_story->comenzó una comuna donde la escama, en pequeñas dosis, se mezclaba con la comida</li>
     <li>subject_story->hizo campaña para la legalización del yayo en un mundo urbano cercano</li>
     <li>subject_gerund->refinar psiquita</li>
   </PsychiteRefining.generalRules.rulesStrings>
@@ -311,9 +329,10 @@
   -->
   <PsychoidBrewing.generalRules.rulesStrings>
     <li>subject->té psicoide</li>
+    <li>subject_def->del té psicoide</li>
     <li>subject_story->se unió a una comuna psicoide de corta duración en un mundo sectario</li>
     <li>subject_story->experimentó con psicoide para ayudar a soldados traumatizados</li>
-    <li>subject_story->legalizó el psicoide para su producción masiva en varios mundos centrales, en cuanto tuvo el poder para hacerlo</li>
+    <li>subject_story->en cuanto tuvo el poder para hacerlo, legalizó el psicoide para su producción masiva en varios mundos centrales</li>
     <li>subject_gerund->elaborar té psicoide</li>
   </PsychoidBrewing.generalRules.rulesStrings>
   
@@ -330,8 +349,10 @@
     <li>subject_gerund->crafting bows</li>
   -->
   <RecurveBow.generalRules.rulesStrings>
-    <li>subject->arquería</li>
     <li>subject->fabricación de arcos</li>
+    <li>subject->creación de arcos</li>
+    <li>subject_def->de la fabricación de arcos</li>
+    <li>subject_def->de la creación de arcos</li>
     <li>subject_story->siguió el rastro de un bumalope rabioso durante cuatro días antes de matarlo con una sola flecha</li>
     <li>subject_story->se estableció cerca de un bosque de tejos para conseguir los materiales perfectos para crear arcos</li>
     <li>subject_story->crió a los niños de la colonia como cazadores-recolectores, logrando convertirlos en maestros arqueros</li>
@@ -350,6 +371,7 @@
   -->
   <Smithing.generalRules.rulesStrings>
     <li>subject->herrería</li>
+    <li>subject_def->de la herrería</li>
     <li>subject_story->se estableció en una aldea medieval y dominó la elaboración de metales simples</li>
     <li>subject_story->construyó herrerías en mundobrillante para los gremios de recreación del Renacimiento</li>
     <li>subject_gerund->forjar</li>
@@ -369,6 +391,7 @@
   -->
   <Stonecutting.generalRules.rulesStrings>
     <li>subject->albañilería</li>
+    <li>subject_def->de la albañilería</li>
     <li>subject_story->fue el primero de una línea de diseñadores de templos donde todos compartían el mismo nombre</li>
     <li>subject_story->desarrolló técnicas únicas para cortar la roca más dura con herramientas básicas</li>
     <li>subject_story->enlosó todo el palacio del virrey de un mundo medieval</li>
@@ -389,6 +412,7 @@
   -->
   <TreeSowing.generalRules.rulesStrings>
     <li>subject->siembra de árboles</li>
+    <li>subject_def->de la siembra de árboles</li>
     <li>subject_story->propagó árboles en un planetoide muerto desde tiempos remotos al tratar de devolverle la vida</li>
     <li>subject_story->publicó un artículo sobre el mantenimiento de ecosistemas naturales</li>
     <li>subject_story->trabajó en un vivero de árboles en un mundo animal</li>
@@ -408,6 +432,7 @@
   -->
   <WakeUpProduction.generalRules.rulesStrings>
     <li>subject->producción de despertar</li>
+    <li>subject_def->de la producción de despertar</li>
     <li>subject_story->intentó superar la adicción a la cafeína tomando despertar</li>
     <li>subject_story->trató a narcolépticos y sonámbulos con dosis de despertar cuidadosamente programadas</li>
     <li>subject_story->trasladó a todos al lado oscuro de un asteroide y utilizó despertar para mantener sus biorritmos</li>

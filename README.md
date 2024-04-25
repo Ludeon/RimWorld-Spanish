@@ -22,7 +22,7 @@ Cada vez que el juego se actualiza, Ludeon recoge los archivos de los repositori
 Si queréis actualizar las traducciones a las más recientes, de forma semiautomática, seguid nuestra
 
 <div align="center">
-	<h3> <a href="Instalar/InstallGuide.md"> GUÍA DE INSTALACIÓN</a> </h3>
+	<h3> <a href="Scripts/InstallGuide.md">GUÍA DE INSTALACIÓN</a> </h3>
 </div>
 
 ---
