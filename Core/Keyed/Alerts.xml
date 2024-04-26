@@ -175,7 +175,7 @@
   <AlertHypothermiaDesc>Estos colonos están sufriendo de hipotermia:\n{0}\n\nAsegúrate de que su ropa es adecuada para la temporada y de que los espacios interiores están debidamente climatizados.</AlertHypothermiaDesc>
   
   <!-- EN: {0} patients await medical operation -->
-  <PatientsAwaitingMedicalOperation>{0} paciente(s) esperan operación médica</PatientsAwaitingMedicalOperation>
+  <PatientsAwaitingMedicalOperation>{replace: ^{0} pacientes; "^1 pacientes esperan"-"1 paciente espera"; "^"-""} operación médica</PatientsAwaitingMedicalOperation>
   <!-- EN: These patients await medical operation:\n{0}\n\nMake sure you have all necessary medical tools and a free doctor available. -->
   <PatientsAwaitingMedicalOperationDesc>Uno o más pacientes esperan una operación médica:\n{0}\n\nAsegúrate de tener todas las herramientas médicas y un doctor disponible.</PatientsAwaitingMedicalOperationDesc>
 
