@@ -34,7 +34,7 @@
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
   <RefugeePodCrash>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} se ha estrellado en una cápsula de escape por las cercanías. Si sobrevive al impacto, resultará gravemente herid{PAWN_gender ? o : a}.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is a child of {AGE}. -->
-  <RefugeePodCrash_Child>{PAWN_nameDef} es {PAWN_gender ? un niño : una niña} de {AGE} años.</RefugeePodCrash_Child>
+  <RefugeePodCrash_Child>{PAWN_nameDef} es {PAWN_gender ? un niño : una niña} de {AGE}.</RefugeePodCrash_Child>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_nameDef} no está afiliad{PAWN_gender ? o : a} a ninguna facción. Puedes rescatar{PAWN_objective} y esperar que {PAWN_pronoun} se una libremente, o capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
@@ -43,7 +43,7 @@
   <RefugeePodCrash_NonHostile>{PAWN_nameDef} es de la facción {PAWN_factionName}. Si {PAWN_objective} rescatas, podría unirse libremente a tu colonia, de lo contrario, regresaría a su hogar y difundiría la buena voluntad entre ambas facciones.\n\nTambién podrías capturar{PAWN_objective} para reclutarl{PAWN_gender ? o : a} o esclavizarl{PAWN_gender ? o : a}, pero eso enfadará a su facción.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
-  <LetterLabelWandererJoins>Vagabundo se une: {PAWN_nameDef}</LetterLabelWandererJoins>
+  <LetterLabelWandererJoins>Vagabund{PAWN_gender ? o : a} se une: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
   <LetterWandererJoins>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} ha llegado y quiere unirse a la colonia.\n\nEstá dispuest{PAWN_gender ? o : a} a ayudar y contribuir, pero no se irá voluntariamente, alegando no tener otro sitio al que ir. Puedes optar por rechazar{PAWN_objective} y enviar{PAWN_objective} lejos. Sin embargo, tus colonos se sentirán molestos al rechazar a alguien necesitado</LetterWandererJoins>
 
@@ -57,7 +57,7 @@
   <!-- EN: A fault in {0} has caused a short circuit. -->
   <ShortCircuit>Un fallo en {0} ha causado un cortocircuito.</ShortCircuit>
   <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
-  <ShortCircuitStartedFire>Un fallo en {0} ha causado un cortocircuito y ha iniciado un incendio.</ShortCircuitStartedFire>
+  <ShortCircuitStartedFire>Una falla en la red en {0} ha causado un cortocircuito y ha iniciado un incendio.</ShortCircuitStartedFire>
   <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
   <ShortCircuitDischargedEnergy>Un total de {0} Wd de energía en las baterías conectadas a la red eléctrica han sido descargadas debido a una explosión.</ShortCircuitDischargedEnergy>
   <!-- EN: This large amount of power has created an explosion of considerable size. -->
@@ -73,14 +73,14 @@
   <TraderArrivalNoFaction>No están afiliados a ninguna facción.</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
-  <SingleTravelerPassing>{PAWN_gender ? Un : Una} {PAWN_title} de {1} está de paso por la zona. {PAWN_pronoun} se llama {PAWN_nameFull}.</SingleTravelerPassing>
+  <SingleTravelerPassing>{PAWN_gender ? Un : Una} {PAWN_title} de {1} está de paso por la zona. Se llama {PAWN_nameFull}.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>Un grupo de viajeros de {0} están de paso por la zona.</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>Visitante</LetterLabelSingleVisitorArrives>
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
-  <SingleVisitorArrives>{PAWN_gender ? Un : Una} {PAWN_title} de {1} está visitando la colonia.\n\n{PAWN_pronoun} se llama {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>{PAWN_gender ? Un : Una} {PAWN_title} de {1} está visitando la colonia.\n\nSe llama {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
   <SingleVisitorArrivesTraderInfo>Parece tener algunos objetos con los que comerciar.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
@@ -99,7 +99,7 @@
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>Manada de animales cazahombres</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>¡Una manada de {0} cazahombres ha entrado en la zona! Conducidos a la locura por la enfermedad conocida como escariosis, ellos recorrerán la región en busca de carne humanoide.\n\nNo atacarán las puertas a menos que vean a alguien atravesarlas. Mantén tus colonos a cubierto. Tampoco atacarán torretas apagadas, así que apagalas si quieres salvarlas.\n\nEsta manada de {0} dejará la zona en uno o dos días. Puedes esconderte y esperar, o luchar contra ellos.</ManhunterPackArrived>
+  <ManhunterPackArrived>¡Una manada de {0} cazahombres ha entrado en la zona! Conducidos a la locura por la enfermedad conocida como escaria, estos animales recorrerán la región en busca de carne humanoide.\n\nNo atacarán las puertas a menos que vean a alguien atravesarlas. Mantén tus colonos a cubierto. Tampoco atacarán torretas apagadas, así que apagalas si quieres salvarlas.\n\nLa manada de {0} dejará la zona en uno o dos días. Puedes esconderte y esperar, o luchar contra ellos.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
@@ -145,7 +145,7 @@
   <!-- EN: {0} join -->
   <LetterLabelFarmAnimalsWanderIn>Un grupo de {0} se han unido</LetterLabelFarmAnimalsWanderIn>
   <!-- EN: A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony. -->
-  <LetterFarmAnimalsWanderIn>Un grupo de {0} sin dueño se ha adentrado en esta zona y deambulan sin rumbo.\n\nParecen no temer al contacto humano, así que se unirán a la colonia.</LetterFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>Un grupo de {0} se ha adentrado en esta zona. Carecen de dueño y deambulan sin rumbo.\n\nParecen no temer al contacto humano, así que se unirán a la colonia.</LetterFarmAnimalsWanderIn>
   
   <!-- Thrumbo passes -->
   <!-- EN: Rare thrumbos -->
