@@ -5,7 +5,7 @@
     <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_possessive] guards were killed in an ambush. [asker_pronoun] escaped, but is now being followed by (*Threat)a manhunting [animalKindDef_label](/Threat).\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough [asker_faction_royalFavorLabel] to receive the royal title of Yeoman, and all benefits that come with it - including the first level of psychic powers.</li>
   -->
   <Intro_Wimp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction], de la facción [asker_faction_name], contacta contigo desde una posición cercana. ¡Está siendo perseguid{asker_gender ? o : a} por un(a) [animalKindDef_label] enfurecido(a)! [asker_pronoun] dice que sólo quería contemplar el paisaje en un paseo tranquilo, y no esperaba toparse con algo tan peligroso.\n\n[asker_nameDef] quiere que [asker_objective] mantengas a salvo en [map_definite] durante unas horas hasta que su transbordador pueda recoger[asker_objective]. Promete no molestarse por tu olor corporal o falta de modales.\n\n[asker_pronoun] otorgará [royalFavorReward] [asker_faction_royalFavorLabel] a quien acepte esta misión. Esto es suficiente para obtener el título real de terrateniente, y todos los beneficios que conlleva, incluyendo el primer nivel de poder psíquico</li>
+    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], te llama desde las cercanías. Sus guardias han sido asesinados en una emboscada. [asker_pronoun] logró escapar, pero ahora le sigue muy de cerca [animal_a] (*Threat)[animalKindDef_label] cazahombres(/Threat).\n\n[asker_nameDef] quiere que [asker_objective] protejas en [map_definite] por unas pocas horas hasta que su transbordador venga a recoger[asker_objective]\n\n[asker_nameFull] otorgará [royalFavorReward] de [asker_faction_royalFavorLabel] a quien acepte esta misión. Este es suficiente [asker_faction_royalFavorLabel] para obtener el título real de Terrateniente y todos los beneficios que conlleva, incluyendo el primer nivel de poder psíquico.</li>
   </Intro_Wimp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the [adjAny] [asker_royalTitleInCurrentFaction]</li>
@@ -24,7 +24,7 @@
   <!-- EN: [animalKindDef_label] arrived -->
   <Intro_Wimp.LetterLabelAnimalArrived.slateRef>[animal_the] [animalKindDef_label] ha llegado</Intro_Wimp.LetterLabelAnimalArrived.slateRef>
   <!-- EN: The [animalKindDef_label] that [asker_nameDef] was fleeing has arrived.\n\nIt turned out to be quite gentle and not aggressive at all. -->
-  <Intro_Wimp.LetterTextAnimalArrived.slateRef>[animal_the] [animalKindDef_label], del que [asker_nameDef] estaba huyendo, ha llegado.\n\nEste animal resultó ser muy manso y nada agresivo.</Intro_Wimp.LetterTextAnimalArrived.slateRef>
+  <Intro_Wimp.LetterTextAnimalArrived.slateRef>[animal_the] [animalKindDef_label], del cual [asker_nameDef] estaba huyendo, ha llegado.\n\nEste animal resultó ser muy manso y nada agresivo.</Intro_Wimp.LetterTextAnimalArrived.slateRef>
   <!-- EN: Manhunting [animalKindDef_label] -->
   <Intro_Wimp.LetterLabelAngryAnimal.slateRef>[animalKindDef_label] cazahombre</Intro_Wimp.LetterLabelAngryAnimal.slateRef>
   <!-- EN: The [animalKindDef_label] which was following [asker_nameFull] has arrived in the area. -->
@@ -42,15 +42,15 @@
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>Cirugía no autorizada: {SUBJECT_definite}</Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. Because of this violation, [asker_pronoun] will now attempt to leave. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>Has practicado una cirugía no autorizada y reprensible a {SUBJECT_definite}, a quien debías proteger. Debido a tal felonía, [asker_pronoun] tratará de irse. [failLetterEndingCommon]</Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>
+  <Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>Has practicado una cirugía no autorizada y reprensible a {SUBJECT_definite}, a quien debías proteger. Debido a tal felonía, intentará irse. [failLetterEndingCommon]</Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>
   <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
   <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.label.slateRef>Xenogermen absorbido: {SUBJECT_definite}</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. Because of this violation, {SUBJECT_pronoun} will now attempt to leave. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>El xenogermen de {SUBJECT_definite}, a quien debías proteger, ha sido absorbido forzosamente. Por esto, {SUBJECT_pronoun} intentará marcharse.</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, a quien debías proteger, le fue absorbido su xenogermen a la fuerza. Debido a tal felonía, intentará irse. [failLetterEndingCommon]</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Captured: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelCaptured.slateRef>Capturad{SUBJECT_gender ? o : a}: {SUBJECT_definite}</Intro_Wimp.LetterLabelCaptured.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to host, has been arrested. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextCaptured.slateRef>{SUBJECT_definite}, a quien debías alojar, ha sido capturado(a). [failLetterEndingCommon]</Intro_Wimp.LetterTextCaptured.slateRef>
+  <Intro_Wimp.LetterTextCaptured.slateRef>{SUBJECT_definite}, a quien debías alojar, ha sido arrestad{SUBJECT_gender ? o : a}. [failLetterEndingCommon]</Intro_Wimp.LetterTextCaptured.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelGuestLost.slateRef>Invitad{SUBJECT_gender ? o : a} perdid{SUBJECT_gender ? o : a}: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the designated settlement. [failLetterEndingCommon] -->
@@ -58,11 +58,11 @@
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelLodgerRanWild.slateRef>Invitad{SUBJECT_gender ? o : a} perdid{SUBJECT_gender ? o : a}: {SUBJECT_definite}</Intro_Wimp.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextLodgerRanWild.slateRef>{SUBJECT_definite}, a quien debías proteger, ha enloquecido.</Intro_Wimp.LetterTextLodgerRanWild.slateRef>
+  <Intro_Wimp.LetterTextLodgerRanWild.slateRef>{SUBJECT_definite}, a quien debías proteger, ha enloquecido. [failLetterEndingCommon]</Intro_Wimp.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Shuttle destroyed -->
   <Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>transbordador destruido</Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has been destroyed. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextShuttleDestroyed.slateRef>El transbordador enviado para recoger a [asker_nameDef] fue destruido. Ahora se irá a pie. [failLetterEndingCommon]</Intro_Wimp.LetterTextShuttleDestroyed.slateRef>
+  <Intro_Wimp.LetterTextShuttleDestroyed.slateRef>El transbordador enviado a recoger a [asker_nameDef] fue destruido. Ahora se irá a pie. [failLetterEndingCommon]</Intro_Wimp.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <Intro_Wimp.LetterLabelQuestFailed.slateRef>Misión fallida: [resolvedQuestName]</Intro_Wimp.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->

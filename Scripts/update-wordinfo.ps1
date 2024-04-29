@@ -33,6 +33,9 @@ foreach ($path in $paths)
   Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<(.*(\.labelFemale|titleFemale|titleShortFemale))>(.*?)</\1>" -All | ForEach-Object { $_.matches.groups[3].value.toLower() } >> "$temp/all_females.txt"
 }
 
+# add season names (if not, they are auto-deleted)
+Get-Content -Path "Core\Keyed\Time.xml" | Select-String -Pattern "<(Season.*)>(.*?)</\1>" -All | ForEach-Object { $_.matches.groups[2].value.toLower() } >> "$temp/all_unknown1.txt"
+
 # unknown gender in "*\DefInjected\ResearchProjectDef" folder. Does not work without -Raw argument
 # Cannot be added to the previous bucle because its first pattern matches unnecessary strings in the folder
 Get-ChildItem -Path "*\DefInjected\ResearchProjectDef\*" -Filter "*.xml" | ForEach-Object {
