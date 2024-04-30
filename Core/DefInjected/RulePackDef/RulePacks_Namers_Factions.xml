@@ -144,11 +144,16 @@
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
     <li>r_name->[political_union_tribal] de [WordTribal]</li>
-    <li>r_name->[political_union_tribal] de [WordTribal]</li>
     <li>r_name->[political_union_tribal] del [TerrainFeature] [Color]</li>
+    <li>r_name->[political_union_tribal] de la [TerrainFeature_Fem] [Color_Fem]</li>
     <li>r_name->[political_union_tribal] de [WordTribal]</li>
     <li>r_name->[WordTribal_Cap]</li>
+    <li>r_name->El [TerrainFeature] [Color] [political_union_tribal]</li>
+    <li>r_name->La [TerrainFeature_Fem] [Color_Fem] [political_union_tribal]</li>
+    <li>r_name->El [Animal] [Color] [WordTribal]</li>
+    <li>r_name->La [Animal_Fem] [Color_Fem] [WordTribal]</li>
     <li>r_name->[TerrainFeature] [WordTribal]</li>
+    <li>r_name->[TerrainFeature_Fem] [WordTribal]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
   <!-- EN:
@@ -236,17 +241,19 @@
     <li>townname_combo(p=3)->[Community] [Character]</li>
     <li>townname_near->San [SylE][SylE]</li>
     <li>townname_near->[nearnameinitial] del [TerrainFeature]</li>
-    <li>townname_near->[nearnameinitial] del [TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] de la [TerrainFeature_Fem]</li>
     <li>nearnameinitial->[townname_wordgen]</li>
-    <li>nearnameinitial->[Community]</li>
+    <li>nearnameinitial->[CommunityAny]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
     <li>townname_wordgen(p=2)->[SylE][townend]</li>
+    <li>townname_wordgen(p=2)->[townbegin] [SylE]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE][townend]</li>
+    <li>townname_wordgen(p=2)->[townbegin] [SylE][SylE]</li>
     <li>townname_wordgen->[SylE][SylE]</li>
     <li>townname_wordgen->Santa [SylE][SylE]</li>
-    <li>townend->villa</li>
-    <li>townend->villa</li>
+    <li>townbegin->villa</li>
+    <li>townbegin->villa</li>
     <li>townend->burgo</li>
     <li>townend->burgo</li>
     <li>townend->burgo</li>
@@ -316,18 +323,22 @@
     <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_wordgen]</li>
     <li>townname_combo->[geography] del [AnimalBadass]</li>
-    <li>townname_combo->[geography] del [AnimalBadass]</li>
-    <li>townname_combo->[geography] [ConceptBadass]</li>
-    <li>townname_combo->[geography] de la [ConceptBadass]</li>
+    <li>townname_combo->[geography] de la [AnimalBadass_Fem]</li>
+    <li>townname_combo->[geography] del [ConceptBadass]</li>
+    <li>townname_combo->[geography] de la [ConceptBadass_Fem]</li>
     <li>townname_combo->[geography] del [PersonBadass]</li>
-    <li>townname_combo->[geography] del [PersonBadass]</li>
+    <li>townname_combo->[geography] de la [PersonBadass_Fem]</li>
     <li>townname_combo->[geography] del [Enemy]</li>
-    <li>townname_combo->[geography] del [Enemy]</li>
+    <li>townname_combo->[geography] de la [Enemy_Fem]</li>
     <li>townname_combo->[geography] del [Weapon]</li>
+    <li>townname_combo->[geography] de la [Weapon_Fem]</li>
     <li>townname_combo->[geography] [Weapon]</li>
+    <li>townname_combo->[geography] [Weapon_Fem]</li>
     <li>townname_combo->[geography] [ColorBadass]</li>
+    <li>townname_combo->[geography_Fem] [ColorBadass_Fem]</li>
     <li>geography(p=2)->[TerrainFeatureAny]</li>
-    <li>geography->[CommunityAny]</li>
+    <li>geography->[Community]</li>
+    <li>geography_Fem->[Community_Fem]</li>
     <li>townname_wordgen(p=2)->[SylE_Cap][SylE]</li>
     <li>townname_wordgen(p=2)->[SylE_Cap][SylE][SylE]</li>
     <li>townname_wordgen(p=2)->[SylE_Cap][townendevil]</li>
