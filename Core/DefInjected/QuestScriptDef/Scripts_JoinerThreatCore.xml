@@ -7,12 +7,12 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription(joiner_gender!=Female)->[introduction], de nombre [joiner_nameDef], está llamando desde las cercanías. ¡Está siendo perseguido por [enemyFaction_pawnsPlural] de [enemyFaction_name]!\n\nTe pide protección y a cambio ofrece unirse a tu asentamiento en [map_definite]. [joiner_relationInfo]\n\nSi aceptas, tendrás que enfrentarte a los [enemyFaction_pawnsPlural] que le están pisando los talones. El grupo de [enemyFaction_pawnsPlural] está conformado por:\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] está demasiado alterado como para darte más información.</li>
-    <li>questDescription(joiner_gender==Female)->[introduction], de nombre [joiner_nameDef], está llamando desde las cercanías. ¡Está siendo perseguida por [enemyFaction_pawnsPlural] de [enemyFaction_name]!\n\nTe pide protección y a cambio ofrece unirse a tu asentamiento en [map_definite]. [joiner_relationInfo]\n\nSi aceptas, tendrás que enfrentarte a los [enemyFaction_pawnsPlural] que le están pisando los talones. El grupo de [enemyFaction_pawnsPlural] está conformado por:\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] está demasiado alterada como para darte más información.</li>
+    <li>questDescription(joiner_gender!=Female)->[introduction], llamado [joiner_nameDef], te llama desde las cercanías. ¡Está siendo perseguido por [enemyFaction_pawnsPlural] desde [enemyFaction_name]!\n\nTe pide protección y a cambio ofrece unirse a tu asentamiento en [map_definite]. [joiner_relationInfo]\n\nSi aceptas, tendrás que enfrentarte a los [enemyFaction_pawnsPlural] que le están pisando los talones. El grupo de [enemyFaction_pawnsPlural] está comformado por:\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] está demasiado alterado para darte más información.</li>
+    <li>questDescription(joiner_gender==Female)->[introduction], llamada [joiner_nameDef], te llama desde las cercanías. ¡Está siendo perseguida por [enemyFaction_pawnsPlural] desde [enemyFaction_name]!\n\nTe pide protección y a cambio ofrece unirse a tu asentamiento en [map_definite]. [joiner_relationInfo]\n\nSi aceptas, tendrás que enfrentarte a los [enemyFaction_pawnsPlural] que le están pisando los talones. El grupo de [enemyFaction_pawnsPlural] está comformado por:\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] está demasiado alterada para date más información.</li>
     <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->Un niño de [joiner_age] años</li>
     <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
-    <li>introduction(joiner_gender==Female)->Una [joiner_title] de [joiner_age] años de edad</li>
-    <li>introduction(joiner_gender!=Female)->Un [joiner_title] de [joiner_age] años de edad</li>
+    <li>introduction(joiner_gender==Female)->[joiner_titleIndef] de [joiner_age] años de edad</li>
+    <li>introduction(joiner_gender!=Female)->[joiner_titleIndef] de [joiner_age] años de edad</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
@@ -35,14 +35,14 @@
     <li>questName->Ayudando a [runnerIndef]</li>
     <li>questName->Recibiendo a [runnerIndef]</li>
     <li>questName->[enemyFaction_pawnsPlural] cazando a [runnerIndef]</li>
-    <li>questName->[runnerIndefCap] en apuros</li>
-    <li>questName->[runnerIndefCap] busca un hogar</li>
-    <li>questName->[runnerIndefCap] perseguido por [enemyFaction_pawnsPlural]</li>
-    <li>questName->[runnerIndefCap] y los [enemyFaction_pawnsPlural]</li>
-    <li>runnerIndef->[joiner_a] [joiner_title]</li>
+    <li>questName->[runnerIndef] en apuros</li>
+    <li>questName->[runnerIndef] busca un hogar</li>
+    <li>questName->[runnerIndef] huyendo de [enemyFaction_pawnsPlural]</li>
+    <li>questName->[runnerIndef] y los [enemyFaction_pawnsPlural]</li>
+    <li>runnerIndef->[joiner_titleIndef]</li>
     <li>runnerIndef->[joiner_nameIndef]</li>
-    <li>runnerIndef->un refugiado</li>
-    <li>runnerIndefCap->Un refugiado</li>
+    <li>runnerIndef(joiner_gender!=Female)->un refugiado</li>
+    <li>runnerIndef(joiner_gender==Female)->una refugiada</li>
     <li>runnerIndef(childCount==1,priority=1,joiner_gender!=Female)->un niño</li>
     <li>runnerIndef(childCount==1,priority=1,joiner_gender==Female)->una niña</li>
   </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
