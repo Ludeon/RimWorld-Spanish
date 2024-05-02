@@ -210,7 +210,7 @@
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction], de nombre [joiner_nameFull] te llama desde las cercanías. [joiner_pronoun] se está ocultando de [threat]. [joiner_pronoun] quiere dejar su escondite y unirse a ti en [map_definite].[joiner_relationInfo]\n\nSi [joiner_objective] aceptas, [joinersEnemies] establecerán un campamento cercano para acosarte. [site/allSitePartsDescriptions]\n\nLa amenaza permanecerá hasta que vayas a destruirla.</li>
+    <li>questDescription->[introduction], de nombre [joiner_nameFull] te llama desde las cercanías. Se está ocultando de [threat]. [joiner_pronoun] quiere dejar su escondite y unirse a ti en [map_definite].[joiner_relationInfo]\n\nSi [joiner_objective] aceptas, [joinersEnemies] establecerán un campamento cercano para acosarte. [site/allSitePartsDescriptions]\n\nLa amenaza permanecerá hasta que vayas a destruirla.</li>
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] de [site/enemyFaction_name]</li>
     <li>threat(priority=1,site/MechCluster_exists==True)->mecanoides</li>
     <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mecanoides</li>
