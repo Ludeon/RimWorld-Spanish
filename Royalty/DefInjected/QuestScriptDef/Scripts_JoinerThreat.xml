@@ -42,7 +42,7 @@
     <li>condDesc(gameCondition==PsychicSuppression)->Si [joiner_pronoun] se une a tu asentamiento, la inteligencia artificial golpeará [map_definite] con ondas de represión psíquica durante [gameConditionDuration_duration], reduciendo la conciencia de todos los colonos de sexo [psychicSuppressorGender].</li>
     <li>introduction(childCount==1,priority=1,joiner_gender==Female)->¡Una niña de [joiner_age] años</li>
     <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->¡Un niño de [joiner_age] años</li>
-    <li>introduction->¡[joiner_A] [joiner_title] de [joiner_age] años</li>
+    <li>introduction->¡[joiner_titleIndef] de [joiner_age] años</li>
   </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
@@ -64,7 +64,7 @@
     <li>questDescription->[introduction], de nombre [joiner_nameDef], te llama desde las cercanías. Dice que envenenó una colonia de insectos subterránea, ¡pero ahora está empapad[joiner_o_a] de feromonas de insectos y los bichos [joiner_objective] están cazando!\n\n[joiner_pronoun] te ruega por su seguridad y ofrece unirse a tu asentamiento en [map_definite].[joiner_relationInfo]\n\nSi aceptas, (*Threat)una infestación de [hivesCount] colmenas(/Threat) comenzará en [infestationDelayTicks_duration].\n\n[joiner_nameDef] está demasiado alterad[joiner_o_a] como para darte más información.</li>
     <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
     <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->Un niño de [joiner_age] años</li>
-    <li>introduction->[joiner_A] [joiner_title] de [joiner_age] años</li>
+    <li>introduction->[joiner_titleIndef] de [joiner_age] años</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>
@@ -100,7 +100,7 @@
     <li>manhunterArrivalLetterEnd(animalCount>=2)->La manada de [animalKind_labelPlural] está persiguiendo a [joiner_nameDef].</li>
     <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
     <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->Un niño de [joiner_age] años</li>
-    <li>introduction->[joiner_A] [joiner_title] de [joiner_age] años</li>
+    <li>introduction->[joiner_titleIndef] de [joiner_age] años</li>
   </ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(animalCount==1)->[joiner_nameDef]'s [animalKind_label]</li>
@@ -133,7 +133,7 @@
     <li>questDescription->[introduction], de nombre [joiner_nameDef], te llama desde las cercanías. Te ruega unirse a ti en [map_definite].[joiner_relationInfo]\n\n[joiner_nameDef] dice que hay algún tipo de amenaza que [joiner_objective] está persiguiendo. Sin embargo, no está dispuest[joiner_o_a] a decir qué es ni qué tan cerca está de que [joiner_objective] alcance. También se niega a contarte más sobre si mism[joiner_o_a] y apela por tu comprensión para que le ayudes.</li>
     <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
     <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->Un niño de [joiner_age] años</li>
-    <li>introduction->[joiner_A] [joiner_title] de [joiner_age] años</li>
+    <li>introduction->[joiner_titleIndef] de [joiner_age] años</li>
   </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [problem]</li>
@@ -174,10 +174,10 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction], de nombre [joiner_nameDef], te llama desde las cercanías. [joiner_pronoun] admitió que profanó un ritual de paz entre las facción [raid1/enemyFaction_name] y la facción [raid2/enemyFaction_name]. !Ahora ambas facciones [joiner_objective] están buscando!\n\n[joiner_pronoun] ruega por su seguridad y ofrece unirse a tu asentamiento en [map_definite].[joiner_relationInfo]\n\nSi aceptas a [joiner_nameDef], ambas facciones: [raid1/enemyFaction_name] y [raid2/enemyFaction_name] comenzarán a atacarte en [raidDelayTicks_duration].\n\n[joiner_nameDef] está demasiado frenétic[joiner_o_a] para darte más información.</li>
+    <li>questDescription->[introduction], de nombre [joiner_nameDef], te llama desde las cercanías. [joiner_pronoun] admitió que profanó un ritual de paz entre las facción [raid1/enemyFaction_name] y la facción [raid2/enemyFaction_name]. !Ahora ambas facciones [joiner_objective] están buscando!\n\n[joiner_pronoun] ruega por su seguridad y ofrece unirse a tu asentamiento en [map_definite].[joiner_relationInfo]\n\nSi aceptas a [joiner_nameDef], ambas facciones: [raid1/enemyFaction_name] y [raid2/enemyFaction_name] comenzarán a atacarte en [raidDelayTicks_duration].\n\n[joiner_nameDef] está demasiado alterad[joiner_o_a] para darte más información.</li>
     <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
     <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->Un niño de [joiner_age] años</li>
-    <li>introduction->[joiner_A] [joiner_title] de [joiner_age] años</li>
+    <li>introduction->[joiner_titleIndef] de [joiner_age] años</li>
   </ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s Many Friends</li>
@@ -221,7 +221,7 @@
     <li>joinersEnemies->sus enemigos</li>
     <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
     <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->Un niño de [joiner_age] años</li>
-    <li>introduction->[joiner_A] [joiner_title] de [joiner_age] años</li>
+    <li>introduction->[joiner_titleIndef] de [joiner_age] años</li>
   </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [site/site_label]</li>
@@ -234,6 +234,6 @@
     <li>questName->[site/site_indefinite] y [joiner_nameDef]</li>
   </ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
   <!-- EN: Since you accepted [../joiner_nameDef], [../threat] have set up a nearby site to harass you.\n                    \n[allSitePartsDescriptions] -->
-  <ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>Como aceptaste [../joiner_nameDef], [../threat] estableció un campamento cercano para acosarte.\n                    \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>
+  <ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>Como aceptaste [../joiner_nameDef], [../threat] establecieron un campamento cercano para acosarte.\n                    \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>
   
 </LanguageData>
