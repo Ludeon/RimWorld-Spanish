@@ -45,29 +45,47 @@
     <li>maybe_adjective->[Color]</li>
   -->
   <NamerArtCommon.rulePack.rulesStrings>
-    <li>r_art_name(p=4)->[Artwork] [Trans] [ConceptAny]</li>
+    <li>r_art_name(p=4)->[Artwork] [Trans] [ConceptAnyDef]</li>
+    <li>r_art_name(p=4)->[Artwork_Fem] [Trans] [ConceptAnyDef]</li>
     <li>r_art_name(p=4)->[maybe_a] [Artwork] [maybe_adjective]</li>
+    <li>r_art_name(p=4)->[maybe_aFem] [Artwork_Fem] [maybe_adjective_Fem]</li>
     <li>r_art_name->[maybe_a] [ConceptAny] [maybe_adjective]</li>
-    <li>r_art_name->[maybe_aMale] [TerrainFeature] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_aFem] [ConceptAny_Fem] [maybe_adjective_Fem]</li>
+    <li>r_art_name->[maybe_a] [TerrainFeature] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_aFem] [TerrainFeature_Fem] [maybe_adjective_Fem]</li>
     <li>r_art_name->[maybe_a] [Vegetable] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_aFem] [Vegetable_Fem] [maybe_adjective_Fem]</li>
     <li>r_art_name->[maybe_a] [Game] [maybe_adjective]</li>
-    <li>r_art_name->[maybe_aMale] [Animal] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_aFem] [Game_Fem] [maybe_adjective_Fem]</li>
+    <li>r_art_name->[maybe_a] [Animal] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_aFem] [Animal_Fem] [maybe_adjective_Fem]</li>
     <li>r_art_name->[maybe_a] [Gore] [maybe_adjective]</li>
     <li>r_art_name->[maybe_a] [NaturalObject] [maybe_adjective]</li>
-    <li>r_art_name->[maybe_aMale] [PersonFamily] [maybe_adjective]</li>
-    <li>r_art_name->[maybe_aMale] [Enemy] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_aFem] [NaturalObject_Fem] [maybe_adjective_Fem]</li>
+    <li>r_art_name->[maybe_a] [PersonFamily] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_aFem] [PersonFamily_Fem] [maybe_adjective_Fem]</li>
+    <li>r_art_name->[maybe_a] [Enemy] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_aFem] [Enemy_Fem] [maybe_adjective_Fem]</li>
     <li>r_art_name(p=2)->[Artwork] No.[art_name_numeric]</li>
+    <li>r_art_name(p=2)->[Artwork_Fem] No.[art_name_numeric]</li>
     <li>r_art_name->Arte No.[art_name_numeric]</li>
     <li>r_art_name->[art_name_numeric]</li>
     <li>r_art_name->[Artwork] y [art_name_numeric]</li>
-    <li>r_art_name->[ConceptAny] [art_name_numeric]</li>
+    <li>r_art_name->[Artwork_Fem] y [art_name_numeric]</li>
+    <li>r_art_name->[ConceptAnyFull] [art_name_numeric]</li>
     <li>r_art_name->[art_name_numeric] [Trans] [ANYPAWN_nameIndef]</li>
+    <li>r_art_name->[art_name_numeric] [TransOf] [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=6)->[Artwork] de [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=6)->[Artwork_Fem] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[maybe_a] [Color]</li>
+    <li>r_art_name(p=3)->[maybe_aFem] [Color_Fem]</li>
     <li>r_art_name(p=3)->[PersonalCharacteristic] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[PersonalCharacteristic_Fem] de [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[ConceptAnyFull] [Trans] [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[maybe_a] [Artwork] [Trans] [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[maybe_a] [Artwork] [TransOf] [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[maybe_aFem] [Artwork_Fem] [Trans] [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[maybe_aFem] [Artwork_Fem] [TransOf] [ANYPAWN_nameIndef]</li>
     <li>art_name_numeric->[maybe_letter][Digit][maybe_letter]</li>
     <li>art_name_numeric->[maybe_letter][Digit][Digit][maybe_letter]</li>
     <li>art_name_numeric->[maybe_letter][Digit][Digit][Digit][maybe_letter]</li>
@@ -81,13 +99,17 @@
     <li>maybe_letter->[Letter]</li>
     <li>maybe_letter->[Letter][Letter]</li>
     <li>maybe_a(p=3)-></li>
-    <li>maybe_a->un(a)</li>
-    <li>maybe_aMale(p=3)-></li>
-    <li>maybe_aMale->un</li>
+    <li>maybe_a->un</li>
+    <li>maybe_aFem(p=3)-></li>
+    <li>maybe_aFem->una</li>
     <li>maybe_adjective(p=5)-></li>
     <li>maybe_adjective(p=2)->[AdjectiveAngsty]</li>
     <li>maybe_adjective->[AdjectiveBadass]</li>
     <li>maybe_adjective->[Color]</li>
+    <li>maybe_adjective_Fem(p=5)-></li>
+    <li>maybe_adjective_Fem(p=2)->[AdjectiveAngsty_Fem]</li>
+    <li>maybe_adjective_Fem->[AdjectiveBadass_Fem]</li>
+    <li>maybe_adjective_Fem->[Color_Fem]</li>
   </NamerArtCommon.rulePack.rulesStrings>
   
   <!-- EN:

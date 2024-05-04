@@ -303,9 +303,9 @@
   <!-- EN: {0} of {1} -->
   <SettlementTrader>{0} de {1}</SettlementTrader>
   <!-- EN: Surgery success chance multiplier from room -->
-  <RoomSurgerySuccessChanceFactor>Porcentaje de éxito de la cirugía en la habitación</RoomSurgerySuccessChanceFactor>
+  <RoomSurgerySuccessChanceFactor>Probabilidad de éxito de la cirugía en la habitación</RoomSurgerySuccessChanceFactor>
   <!-- EN: Infection chance multiplier from room -->
-  <RoomInfectionChanceFactor>Porcentaje de infección en la habitación</RoomInfectionChanceFactor>
+  <RoomInfectionChanceFactor>Probabilidad de infección en la habitación</RoomInfectionChanceFactor>
   <!-- EN: Closed -->
   <VentClosed>Cerrada</VentClosed>
   <!-- EN: worn by {1_labelShort} -->
@@ -397,9 +397,9 @@
   <!-- EN: {0} wildness -->
   <CreatureWildness>salvajismo de {0}</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>adiestrabilidad de {0}</CreatureTrainability>
+  <CreatureTrainability>adiestrabilidad de la criatura</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
-  <CreatureFollowDrafted>Sigue al amo mientras recluta</CreatureFollowDrafted>
+  <CreatureFollowDrafted>Sigue al amo cuando está reclutado</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
   <CreatureFollowFieldwork>Sigue al amo al trabajo de campo</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
@@ -802,7 +802,7 @@
 
   <!-- Snow -->
   <!-- EN: Snow -->
-  <Snow>Nieve</Snow>
+  <Snow>Nieve </Snow>
   <!-- EN: No snow -->
   <SnowNone>Sin nieve</SnowNone>
   <!-- EN: dusting -->
@@ -1878,7 +1878,7 @@
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>Debe estar reclutad{0_gender ? o : a}.</AbilityDisabledUndrafted>
+  <AbilityDisabledUndrafted>Debe estar reclutado.</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
   <AbilityOnCooldown>habilidad en periodo de enfriamiento. Estará disponible en {0}.</AbilityOnCooldown>
   <!-- EN: ability out of charges. -->
@@ -2007,7 +2007,7 @@
   <ResearchNotDiscovered>Esta categoría de investigación no se ha descubierto aún.</ResearchNotDiscovered>
 
   <!-- EN: Emergence -->
-  <Emergence>Emergencia</Emergence>
+  <Emergence>Emergiendo</Emergence>
   
   <!-- EN: remove {0} -->
   <RemovePart>quitar {0}</RemovePart>
@@ -2022,5 +2022,8 @@
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>¡El nuevo DLC Anomaly ya está disponible!</MainScreen_AnomalyAvailableNow>
+
+  <!-- EN: Disabled by scenario -->
+  <DisabledByScenario>Desactivado por escenario</DisabledByScenario>
   
 </LanguageData>

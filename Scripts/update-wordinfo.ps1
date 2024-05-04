@@ -18,6 +18,8 @@ $paths = @(
 "*\DefInjected\GameConditionDef"
 "*\DefInjected\BodyPartDef"
 "*\DefInjected\BodyDef"
+"*\DefInjected\TerrainDef"
+
 )
 
 # Search words in the XML files and save them in different lists of words depending on their gender
