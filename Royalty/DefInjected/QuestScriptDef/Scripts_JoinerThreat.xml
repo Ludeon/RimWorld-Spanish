@@ -23,7 +23,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction], de nombre [joiner_nameFull] está llamando por ayuda! [joiner_pronoun] se esconde de [hidingFrom]. [joiner_pronoun] quiere huir y unirse a tu colonia en [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nEn pánico porque [joiner_objective] descubran, [joiner_nameDef] afirma ser incapaz de contarte más sobre [joiner_pronoun].</li>
+    <li>questDescription->[introduction], de nombre [joiner_nameFull] está pidiendo ayuda! [joiner_pronoun] se esconde de [hidingFrom]. Quiere huir y unirse a tu colonia en [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nPor miedo a ser descubiert{joiner_gender ? o : a}, [joiner_nameDef] afirma ser incapaz de contarte más sobre [joiner_pronoun].</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->una manada de lobos hambrientos</li>
     <li>condDesc(gameCondition==ToxicFallout)->Sin embargo, [joiner_nameDef] solo puede matar a los lobos prendiendo fuego a un enorme vertedero de desechos tóxicos cercano. Como consecuencia de esto caerá una lluvia tóxica durante [gameConditionDuration_duration].</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->una pandilla de caníbales</li>
@@ -36,7 +36,7 @@
     <li>condDesc(gameCondition==ColdSnap)->Si [joiner_pronoun] se une a tu asentamiento, se producirá un intenso frente frío durante [gameConditionDuration_duration] hasta que se reinicie el satélite.</li>
     <li>hidingFrom(gameCondition==WeatherController)->un satélite de control climático defectuoso</li>
     <li>condDesc(gameCondition==WeatherController)->Si [joiner_pronoun] se une a tu asentamiento, el clima será forzado para crear [forcedWeather_indefinite] durante [gameConditionDuration_duration] hasta que se reinicie el satélite.</li>
-    <li>hidingFrom(gameCondition==PsychicDrone)->una vengativa inteligencia artificial que [joiner_pronoun] ofendió recientemente</li>
+    <li>hidingFrom(gameCondition==PsychicDrone)->una vengativa inteligencia artificial que ofendió recientemente</li>
     <li>condDesc(gameCondition==PsychicDrone)->Si [joiner_pronoun] se une a tu asentamiento, la inteligencia artificial atacará [map_definite] con un zumbador psíquido de nivel [psychicDroneLevel] durante [gameConditionDuration_duration], reduciendo el humor de todos los colonos de sexo [psychicDroneGender].</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->una inquietante inteligencia artificial a quien [joiner_pronoun] despertó de su letargo</li>
     <li>condDesc(gameCondition==PsychicSuppression)->Si [joiner_pronoun] se une a tu asentamiento, la inteligencia artificial golpeará [map_definite] con ondas de represión psíquica durante [gameConditionDuration_duration], reduciendo la conciencia de todos los colonos de sexo [psychicSuppressorGender].</li>
