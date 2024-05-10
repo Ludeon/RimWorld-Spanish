@@ -67,17 +67,15 @@ public class LanguageWorker_Spanish : LanguageWorker
 		{
 			return str + "es";
 		}
-		if (("lrndjsxLRNDJSX".IndexOf(c) >= 0 || (c == 'h' && c2 == 'c')) && c != 'z')
+		if ("lrndjsxLRNDJSX".IndexOf(c) >= 0 || (c == 'h' && c2 == 'c'))
 		{
 			return str + "es";
 		}
-		else if (c == 'z')
+		if (c == 'z' || c == 'Z')
 		{
-			return str.Replace("z", "c") + "es";
-		}
-		else
-		{
-			return str + "s";
+			var strWithoutLastChar = str.Substring(0, str.Length - 1);
+			var replacedChar = c == 'z' ? 'c' : 'C';
+			return strWithoutLastChar + replacedChar + "es";
 		}
 		return str + "s";
 	}
