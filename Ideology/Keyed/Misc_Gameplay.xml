@@ -203,8 +203,14 @@
   <RitualTargetConnectedGauranlenTree>Ya vinculado con {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite} ha sido vinculado recientemente. Puede volver a vincularse en {1}.</RitualTargetConnectionTornGauranlenTree>
-  <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>Necesitas {0} de madera para cada participante ({2} en total). Tienes {1} de madera.</RitualTargeWoodInfo>
+  <!-- EN: You need {0} wood for each participant ({1} total). -->
+  <RitualTargetWoodInfo>Necesitas {0} de madera por cada participante (total de {1}).</RitualTargetWoodInfo> <!-- text_todo -->
+  <!-- EN: {0} participant cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppend>{0} participante no puede reunir suficiente madera.</RitualTargetWoodInfoAppend> <!-- text_todo -->
+  <!-- EN: {0} participants cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppendMultiple>{0} participantes no pueden reunir suficiente madera</RitualTargetWoodInfoAppendMultiple> <!-- text_todo -->
+  <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
+  <RitualTargetWoodInfoWarning>{PAWN_labelShort} no puede reunir suficiente madera.</RitualTargetWoodInfoWarning> <!-- text_todo -->
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>{0} debe poder alcanzar el punto de ritual.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
