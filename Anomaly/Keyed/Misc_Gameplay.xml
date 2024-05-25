@@ -288,12 +288,12 @@
   <ActivityGizmo>Actividad</ActivityGizmo>
   <!-- EN: Automatic suppression -->
   <ActivitySuppressionTooltipTitle>Represión automática</ActivitySuppressionTooltipTitle>
-  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress {THING_labelNoParenthesisDef}. -->
+  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {0}. -->
   <ActivitySuppressionTooltipDisabled>La represión automática está actualmente desactivada. Actívala para que los guardias repriman al {0}.</ActivitySuppressionTooltipDisabled>
-  <!-- EN: {THING_labelNoParenthesisDef}'s activity level rises over time. Activity rises faster if {THING_labelNoParenthesisDef} is damaged or provoked.\n\nIf the activity level reaches 100%, {THING_labelNoParenthesisDef} will activate.\n\nWardens can suppress {THING_labelNoParenthesisDef} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
-  <ActivitySuppressionTooltipDesc>El nivel de actividad {replace: de {0_definite}; "de el "-"del "} aumenta con el tiempo. La actividad aumenta más rápido si {THING_labelNoParenthesisDef} sufre daño o se le provoca.\n\nSi el nivel de actividad alcanza el 100%, se activará {THING_labelNoParenthesisDef}.\n\nLos vigilantes pueden reprimir {0_definite} para mantener su actividad en un nivel seguro. La reprimirán siempre que su actividad esté por encima del nivel asignado: {LEVEL}\n\nLas entidades que tengan niveles de actividad más altos darán más conocimientos cuando se estudien.</ActivitySuppressionTooltipDesc>
-  <!-- EN: This determines whether {THING_labelNoParenthesisDef} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
-  <ActivitySuppressionToggleTooltipDesc>Determina si {THING_labelNoParenthesisDef} se reprimirá automáticamente cuando su actividad esté por encima del {LEVEL}. Actualmente, la represión automática está {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
+  <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
+  <ActivitySuppressionTooltipDesc>El nivel de actividad {replace: de {0_definite}; "de el "-"del "} aumenta con el tiempo. La actividad aumenta más rápido si {0} sufre daño o se le provoca.\n\nSi el nivel de actividad alcanza el 100%, se activará {0}.\n\nLos vigilantes pueden reprimir {0_definite} para mantener su actividad en un nivel seguro. La reprimirán siempre que su actividad esté por encima del nivel asignado: {LEVEL}\n\nLas entidades que tengan niveles de actividad más altos darán más conocimientos cuando se estudien.</ActivitySuppressionTooltipDesc>
+  <!-- EN: This determines whether the {0} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
+  <ActivitySuppressionToggleTooltipDesc>Determina si {0} se reprimirá automáticamente cuando su actividad esté por encima del {LEVEL}. Actualmente, la represión automática está {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
 
   <!-- Activity Descs -->
   <!-- EN: activity level -->
@@ -886,5 +886,8 @@
   <AnomalyFrequency_Intense>Intensas</AnomalyFrequency_Intense>
   <!-- EN: Overwhelming -->
   <AnomalyFrequency_Overwhelming>Abrumadoras</AnomalyFrequency_Overwhelming>
+  
+  <!-- EN: Security doors only -->
+  <SecurityDoorsOnly>TODO</SecurityDoorsOnly>
   
 </LanguageData>
