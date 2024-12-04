@@ -51,6 +51,8 @@
   <Appearance>Apariencia</Appearance>
   <!-- EN: Done -->
   <DoneButton>Listo</DoneButton>
+  <!-- EN: Caused by -->
+  <CausedBy>Causa</CausedBy>
   <!-- EN: Belief in -->
   <BeliefInIdeo>Cree en</BeliefInIdeo>
   <!-- EN: Information about {0} -->
@@ -201,14 +203,8 @@
   <RitualTargetConnectedGauranlenTree>Ya vinculado con {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite} ha sido vinculado recientemente. Puede volver a vincularse en {1}.</RitualTargetConnectionTornGauranlenTree>
-  <!-- EN: You need {0} wood for each participant ({1} total). -->
-  <RitualTargetWoodInfo>Necesitas {0} de madera por cada participante (total de {1}).</RitualTargetWoodInfo>
-  <!-- EN: A participant cannot reach enough wood. -->
-  <RitualTargetWoodInfoAppend>Un participante no puede reunir suficiente madera.</RitualTargetWoodInfoAppend>
-  <!-- EN: {0} participants cannot reach enough wood. -->
-  <RitualTargetWoodInfoAppendMultiple>{0} participantes no pueden reunir suficiente madera</RitualTargetWoodInfoAppendMultiple>
-  <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
-  <RitualTargetWoodInfoWarning>{PAWN_labelShort} no puede reunir suficiente madera.</RitualTargetWoodInfoWarning>
+  <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
+  <RitualTargeWoodInfo>Necesitas {0} de madera por cada participante ({2} en total). Tienes {1} de madera.</RitualTargeWoodInfo>
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>{0} debe poder alcanzar el punto de ritual.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
@@ -668,6 +664,9 @@
   <ChangeStyleDisabledNoCategories>No hay estilos disponibles.</ChangeStyleDisabledNoCategories>
 
   <!-- UNUSED -->
-  <RitualTargeWoodInfo>Necesitas {0} de madera por cada participante ({2} en total). Tienes {1} de madera.</RitualTargeWoodInfo>
+  <RitualTargetWoodInfo>Necesitas {0} de madera por cada participante (total de {1}).</RitualTargetWoodInfo>
+  <RitualTargetWoodInfoAppend>Un participante no puede reunir suficiente madera.</RitualTargetWoodInfoAppend>
+  <RitualTargetWoodInfoAppendMultiple>{0} participantes no pueden reunir suficiente madera</RitualTargetWoodInfoAppendMultiple>
+  <RitualTargetWoodInfoWarning>{PAWN_labelShort} no puede reunir suficiente madera.</RitualTargetWoodInfoWarning>
 
 </LanguageData>
