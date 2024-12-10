@@ -7,7 +7,7 @@
     <li>discoveryDesc(discovered==true)->determined the location</li>
   -->
   <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
-    <li>questDescription->Has [discoveryDesc] de un antiguo complejo cercano que contiene los restos de un mecanitor muerto hace mucho tiempo.\n\nLos mecanitor pueden crear, controlar y manipular mecanoides para el trabajo y el combate. Si consigues entrar en el complejo y recoger el cadáver del mecanitor, podrás extraer su mecalink y convertir a uno de tus colonos en mecanitor.\n\nTen cuidado: este tipo de estructuras pueden contener diversas amenazas, y tu actividad en el complejo podría atraer atención no deseada.</li>
+    <li>questDescription->Has [discoveryDesc] de un antiguo complejo cercano que contiene los restos de un mecanitor muerto hace tiempo.\n\nLos mecanitores pueden crear, controlar y manipular mecanoides para trabajar y combatir. Si consigues entrar en el complejo y recoger el cadáver del mecanitor, podrás extraer su mecaenlace y convertir a uno de tus propios colonos en un mecanitor.\n\nTen en cuenta que este tipo de estructuras pueden contener diversas amenazas, y tu actividad en el complejo podría atraer atención no deseada.</li>
     <li>discoveryDesc(discovered==false)->aprendido</li>
     <li>discoveryDesc(discovered==true)->determinado la ubicación</li>
   </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
@@ -30,22 +30,28 @@
     <li>complex->mechsite</li>
   -->
   <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
-    <li>questName(p=3)->[complexAdj] mecanitor [complex]</li>
-    <li>questName->mecanitor [complex]</li>
+    <li>questName(p=3)->El [complexAdj] [complex] del mecanitor</li>
+    <li>questName(p=3)->La [complexAdjFem] [complexFem] del mecanitor</li>
+    <li>questName->[complex] del mecanitor</li>
     <li>complexAdj->secreto</li>
     <li>complexAdj->antiguo</li>
     <li>complexAdj->viejo</li>
-    <li>complexAdj->escondido</li>
+    <li>complexAdj->oculto</li>
     <li>complexAdj->polvoriento</li>
     <li>complexAdj->peligroso</li>
-    <li>complexAdj->escondido</li>
+    <li>complexAdjFem->secreta</li>
+    <li>complexAdjFem->antigua</li>
+    <li>complexAdjFem->vieja</li>
+    <li>complexAdjFem->oculta</li>
+    <li>complexAdjFem->polvorienta</li>
+    <li>complexAdjFem->peligrosa</li>
     <li>complex->complejo</li>
-    <li>complex->guarida</li>
-    <li>complex->base</li>
-    <li>complex->compuesto</li>
-    <li>complex->cripto</li>
-    <li>complex->mecaplex</li>
-    <li>complex->mecasite</li>
+    <li>complexFem->guarida</li>
+    <li>complexFem->base</li>
+    <li>complex->campamento</li>
+    <li>complexFem->cripta</li>
+    <li>complexFem->mecabase</li>
+    <li>complexFem->mecaplanta</li>
   </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
   
 </LanguageData>
