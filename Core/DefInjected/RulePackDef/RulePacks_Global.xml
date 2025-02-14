@@ -1107,9 +1107,9 @@
     <li>TalkTopicAny->[TalkTopicLight]</li>
     <li>TalkTopicAny->[TalkTopicHeavy]</li>
     <li>TalkTopicHeavy->[talktopicheavyfile]</li>
-    <li>TalkTopicHeavy(p=0.08)->el vínculo entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
-    <li>TalkTopicHeavy(p=0.08)->la conexión entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
-    <li>TalkTopicHeavy(p=0.08)->la relación entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->el vínculo entre [talktopicheavyfile] y [talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->la conexión entre [talktopicheavyfile] y [talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->la relación entre [talktopicheavyfile] y [talktopicheavyfile]</li>
     <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
     <li>TalkTopicLight->[VegetableAny]s</li>
     <li>TalkTopicLight->comer [VegetableAny]s</li>
@@ -1138,6 +1138,10 @@
     <li>TalkTopicLight->[Apparel]s</li>
     <li>TalkTopicLight->vestir [Apparel]s</li>
     <li>TalkTopicLight->hacer [Apparel]s</li>
+    <li>talktopicheavyfile(p=0.15)->el sexo</li>
+    <li>talktopicheavyfile(p=0.15)->la seducción</li>
+    <li>talktopicheavyfile(p=0.15)->la sexualidad animal</li>
+    <li>talktopicheavyfile(p=0.15)->los fetiches sexuales</li>
   </TalkTopicsUtility.rulePack.rulesStrings>
   
 </LanguageData>
