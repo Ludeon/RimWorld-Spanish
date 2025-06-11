@@ -107,7 +107,7 @@
   <!-- EN: Normal -->
   <PlanetPopulation_Normal>Normal</PlanetPopulation_Normal>
   <!-- EN: Crowded -->
-  <PlanetPopulation_High>Abarrotada</PlanetPopulation_High>
+  <PlanetPopulation_High>Abundante</PlanetPopulation_High>
   <!-- EN: Seed -->
   <WorldSeed>Semilla</WorldSeed>
   <!-- EN: Randomize seed -->
@@ -116,6 +116,8 @@
   <PlanetCoverageTip>El planeta tiene siempre el mismo diámetro, pero ya que es mucho más grande de lo que se necesita realmente para jugar, no generamos la superficie completa pues esto lleva mucho tiempo. Este es el porcentaje de la superficie que quieres que se genere.</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>Facciones</WorldFactionsTab>
+  <!-- EN: Advanced settings -->
+  <AdvancedSettings>Opciones avanzadas</AdvancedSettings>
 
   <!-- Select world -->
   <!-- EN: Select world -->
@@ -462,9 +464,9 @@
   <!-- EN: Adjust the frequency of random disease events. -->
   <Difficulty_DiseaseIntervalFactor_Inverted_Info>Ajusta la frecuencia de los eventos de enfermedades aleatorias.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
   <!-- EN: Insect spawning rate -->
-  <Difficulty_EnemyReproductionRateFactor_Label>Tasa de generación de insectos</Difficulty_EnemyReproductionRateFactor_Label>
+  <Difficulty_EnemyReproductionRateFactor_Label>Tasa de generación de insectoides</Difficulty_EnemyReproductionRateFactor_Label>
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
-  <Difficulty_EnemyReproductionRateFactor_Info>Ajusta la velocidad a la que las colmenas de insectos existentes generan nuevos insectos. Valores más bajos significan más tiempo entre los eventos de generación.\n\nEsto no afecta si las infestaciones pueden ocurrir, solo la velocidad a la que las colmenas activas producen insectos.</Difficulty_EnemyReproductionRateFactor_Info>
+  <Difficulty_EnemyReproductionRateFactor_Info>Ajusta la velocidad a la que las colmenas de insectoides existentes generan nuevos individuos. Valores más bajos significan más tiempo entre los eventos de generación.\n\nEsto no afecta si las infestaciones pueden ocurrir, solo la velocidad a la que las colmenas activas producen insectoides.</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
   <Difficulty_DeepDrillInfestationChanceFactor_Label>Infestaciones por taladros de profundidad</Difficulty_DeepDrillInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
@@ -476,11 +478,15 @@
   <!-- EN: Map generation natural hives -->
   <Difficulty_AllowCaveHives_Label>Mapa de generación de colmenas naturales</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
-  <Difficulty_AllowCaveHives_Info>Las colmenas de insectos durmientes pueden generarse en cuevas naturales.\n\nEste escenario solo se aplica a la generación de mapas y no afecta a los insectos activos que pueden hacer túneles durante el juego.</Difficulty_AllowCaveHives_Info>
+  <Difficulty_AllowCaveHives_Info>Las colmenas de insectoides durmientes pueden generarse en cuevas naturales.\n\nEste escenario solo se aplica a la generación de mapas y no afecta a los insectoides activos que pueden hacer túneles durante el juego.</Difficulty_AllowCaveHives_Info>
   <!-- EN: Add unwavering prisoners -->
   <Difficulty_UnwaveringPrisoners_Label>Añade prisioneros inquebrantables</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
   <Difficulty_UnwaveringPrisoners_Info>Esta opción añade al juego prisioneros capturables adicionales que no pueden ser reclutados debido a su lealtad inquebrantable.\n\nLos prisioneros inquebrantables se añaden a los prisioneros normales, por lo que desactivar esto no dará más prisioneros reclutables, simplemente elimina los inquebrantable.\n\nLos prisioneros inquebrantables pueden ser liberados para obtener reputación, ser vendidos, esclavizados, extraer sus órganos o aprovechados de cualquier otra forma. En general, ofrecen más opciones y recursos, así como alternativas que enriquecen la experiencia de juego.</Difficulty_UnwaveringPrisoners_Info>
+  <!-- EN: Nomadic mineable resources -->
+  <Difficulty_NomadicMineableResourcesFactor_Label>Recursos minables nómadas</Difficulty_NomadicMineableResourcesFactor_Label>
+  <!-- EN: Adjust how many mineable resources are generated on maps after your first.\n\nNote: Your first colony map will always generate with the standard amount of resources. -->
+  <Difficulty_NomadicMineableResourcesFactor_Info>Ajusta cuántos recursos minables se generan en los mapas después del primero. \n\nNota: Tu primer mapa de colonia siempre se generará con la cantidad estándar de recursos.</Difficulty_NomadicMineableResourcesFactor_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>Herramientas de jugador</DifficultyPlayerToolsSection>
@@ -512,7 +518,7 @@
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
   <Difficulty_AdaptationEffectFactor_Info>Adaptación significa que el narrador hace que el juego sea más desafiante a lo largo del tiempo siempre y cuando no estés teniendo pérdidas. Esto está separado de los conceptos de riqueza y población.\n\nEsto ajusta el efecto que tiene la adaptación en amenazas reales.</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Wealth-independent progress mode -->
-  <Difficulty_FixedWealthMode_Label>Modo de progreso de riqueza independiente</Difficulty_FixedWealthMode_Label>
+  <Difficulty_FixedWealthMode_Label>Modo de progreso independiente de riqueza</Difficulty_FixedWealthMode_Label>
   <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
   <Difficulty_FixedWealthMode_Info>Juega en el modo de progresión fija de riqueza.\n\nEn el modo normal, el narrador escala las amenazas dependiendo del número de colonos, riqueza del jugador, y un montón de otros factores. El modo de progresión fija de riqueza elimina el factor de la riqueza como lo conocemos, y lo reemplaza con una curva de progreso que incrementa con el tiempo. El tiempo empieza a contar desde que se funda cada colonia.\n\nEsto solo está recomendado para aquellos que busquen un reto de pura babilidad. En el modo de progresión fija de riqueza, puede que sea casi imposible recuperarse de las perdidas severas a menos que fundes un nuevo asentameinto. También es posible adelantarse mucho a la curva y encontrar el juego muy facil.</Difficulty_FixedWealthMode_Info>
   <!-- EN: Years until maximum threat -->
@@ -560,6 +566,8 @@
   <River>Río</River>
   <!-- EN: Elevation -->
   <Elevation>Elevación</Elevation>
+  <!-- EN: Features -->
+  <TileMutators>Características</TileMutators>
   <!-- EN: Fertility -->
   <Fertility>Fertilidad</Fertility>
   <!-- EN: fertility -->
@@ -589,9 +597,9 @@
   <!-- EN: Movement difficulty -->
   <MovementDifficulty>Dificultad de movimiento</MovementDifficulty>
   <!-- EN: Animals can graze now -->
-  <AnimalsCanGrazeNow>Actualmente los animales pueden pastar</AnimalsCanGrazeNow>
+  <AnimalsCanGrazeNow>En esta estación los animales pueden pastar</AnimalsCanGrazeNow>
   <!-- EN: Average disease frequency -->
-  <AverageDiseaseFrequency>Frecuencia media de las enfermedades</AverageDiseaseFrequency>
+  <AverageDiseaseFrequency>Frecuencia media de enfermedades</AverageDiseaseFrequency>
   <!-- EN: per year -->
   <PerYear>al año</PerYear>
   <!-- EN: Forageability -->
@@ -643,7 +651,7 @@
   <!-- EN: Caused by gene -->
   <IncapableOfTooltipGene>Debido al gen</IncapableOfTooltipGene>
   <!-- EN: Caused by -->
-  <IncapableOfTooltipMutant>Provocado por</IncapableOfTooltipMutant>
+  <IncapableOfTooltipMutant>Causado por</IncapableOfTooltipMutant>
   <!-- EN: Traits -->
   <Traits>Rasgos</Traits>
   <!-- EN: Permanent mood effect -->
@@ -721,6 +729,10 @@
   <ClickForMoreInfo>Haz clic para más información</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>No hay más información disponible.</NoMoreInfoAvailable>
+  <!-- EN: Best skill -->
+  <BestSkillLabel>Mejor habilidad</BestSkillLabel>
+  <!-- EN: skill level {0} -->
+  <BestSkillInfoLevel>nivel de hab. {0}</BestSkillInfoLevel>
 
   <!-- Factions -->
   <!-- EN: Factions -->
@@ -739,5 +751,7 @@
   <MechanoidsDisabledContentWarning>Desactivar {0} implica que habrá menos variedad en misiones y amenazas espontáneas.</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
   <FactionsDisabledWarning>Sin otras facciones, las incursiones, el comercio y las misiones no se producirán con normalidad.</FactionsDisabledWarning>
+  <!-- EN: Cannot be removed for this scenario. -->
+  <FactionRemovalDisabled>No se puede eliminar para este escenario.</FactionRemovalDisabled>
 
 </LanguageData>

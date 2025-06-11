@@ -39,6 +39,8 @@
   <MessageVisitorsDangerousTemperature>Los {0} de {1} están abandonando el mapa por las temperaturas peligrosas.</MessageVisitorsDangerousTemperature>
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
   <MessageVisitorsAnomalousWeather>Los {0} de {1} están abandonando el mapa por el tiempo peligroso.</MessageVisitorsAnomalousWeather>
+  <!-- EN: {0} from {1} are leaving the map because of dangerous conditions. -->
+  <MessageVisitorsDangerousConditions>Los {0} de {1} están abandonando el mapa debido a condiciones peligrosas.</MessageVisitorsDangerousConditions>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0_definite} que vestía {1_nameFull} se ha deteriorado por completo.</MessageWornApparelDeterioratedAway>
@@ -79,6 +81,10 @@
   <MessageAnimalManhuntsOnTameFailed>Advertencia: {ANIMAL_kindBasePluralDef} podrían atacar si el intento de domesticación falla (probabilidad del {1}).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>Solo los que tienen el rasgo de simpatía insectil pueden domar {INSECT_indefinite}.</MessageInsectTameDesignated>
+  <!-- EN: No colonists are assigned to hunt. -->
+  <MessageNoHuntersAvailable>No hay colonos asignados a cazar.</MessageNoHuntersAvailable>
+  <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
+  <MessageNoHuntersWithProperWeapon>Ningún cazador tiene un arma de caza válida. Equipa a un cazador con un arma a distancia adecuada.</MessageNoHuntersWithProperWeapon>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>Advertencia: este espécimen de {PAWN_labelShort} es hostil y atacará a tu colono mientras le intenta domesticar.</MessageInsectsHostileOnTaming>
@@ -108,6 +114,8 @@
   <MessageMustDesignateHarvestable>Debes designar plantas cosechables lo suficientemente maduras.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
   <MessageMustDesignateHarvestableWood>Debes designar plantas talables lo suficientemente maduras.</MessageMustDesignateHarvestableWood>
+  <!-- EN: Prevent cutting is enabled for this plant. -->
+  <MessageMustPlantCuttingForbidden>Prevenir el corte está activado para esta planta.</MessageMustPlantCuttingForbidden>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Debes designar plantas.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -149,12 +157,18 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Debes designar artículos permitidos.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>No puedes reclamar {CLAIMABLE_labelShort} mientras haya {THREAT_factionPawnsPlural} con capacidad de combate cerca.</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotClaimWhenPawnThreatsAreNear>No puedes reclamar {CLAIMABLE_labelShort} mientras haya {THREAT_factionPawnsPlural} con capacidad de combate cerca.</MessageCannotClaimWhenPawnThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotAdoptWhileThreatsAreNear>No puedes adoptar {CLAIMABLE_labelShort} mientras haya {THREAT_factionPawnsPlural} con capacidad de combate cerca.</MessageCannotAdoptWhileThreatsAreNear>
+  <MessageCannotAdoptWhilePawnThreatsAreNear>No puedes adoptar {CLAIMABLE_labelShort} mientras haya {THREAT_factionPawnsPlural} con capacidad de combate cerca.</MessageCannotAdoptWhilePawnThreatsAreNear>
+  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
+  <MessageCannotClaimWhenThreatsAreNear>No puedes reclamar {CLAIMABLE_labelShort} mientras haya {THREAT} cerca.</MessageCannotClaimWhenThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
+  <MessageCannotAdoptWhileThreatsAreNear>No puedes adoptar {CLAIMABLE_labelShort} mientras haya {THREAT} cerca.</MessageCannotAdoptWhileThreatsAreNear>
+  <!-- EN: Cannot remove foundation that supports a building. -->
+  <MessageCannotRemoveSupportingFoundation>No se pueden retirar los cimientos que sostienen un edificio.</MessageCannotRemoveSupportingFoundation>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
-  <MessageRefusedArrest>¡{1_labelShort} se rehusó a ser arrestad{1_gender ? o : a}!</MessageRefusedArrest>
+  <MessageRefusedArrest>¡{1_labelShort} se ha resistido a ser arrestad{1_gender ? o : a}!</MessageRefusedArrest>
   
   <!-- EN: There are no medical beds available. -->
   <MessageNoMedicalBeds>No hay camas hospitalarias disponibles.</MessageNoMedicalBeds>
@@ -207,7 +221,7 @@
   <MessageRoamerLeaving>{PAWN_labelShort} ha comenzado a deambular. Abandonará el mapa a menos que un adiestrador de animales le atrape y lleve a un corral.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
-  <MessageHiveReproduced>Una colmena de insectos se ha reproducido.</MessageHiveReproduced>
+  <MessageHiveReproduced>Una colmena de insectoides se ha reproducido.</MessageHiveReproduced>
   
   <!-- EN: The trade caravan from {0} is leaving. -->
   <MessageTraderCaravanLeaving>La caravana de comerciantes de {0} se está yendo.</MessageTraderCaravanLeaving>
@@ -279,6 +293,8 @@
   <MessagePawnLostWhileFormingCaravan>{0} ha sido sacado de la caravana.</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>El proceso de formación de caravanas ha terminado.</MessagePawnLostWhileFormingCaravan_AllLost>
+  <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
+  <MessageForceSendingCaravan_AllLost>Ningún colono es capaz de formar una caravana. El proceso de formación se ha cancelado.</MessageForceSendingCaravan_AllLost> <!-- text_todo -->
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>El proceso de formación de la caravana continuará cuando todos se recuperen de su colapso mental.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -339,10 +355,12 @@
   <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>El proceso de carga se ha cancelado porque una de las lanzadores ha sido destruida.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
-  <MessageTransportersLoadingProcessStarted>Ahora tus colonos cargarán los objetos seleccionados en las cápsulas de transporte.</MessageTransportersLoadingProcessStarted>
+  <MessageTransportersLoadingProcessStarted>Los objetos y personas seleccionados se cargarán en las cápsulas de transporte.</MessageTransportersLoadingProcessStarted>
+  <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
+  <MessageTransporterSingleLoadingProcessStarted>Los objetos y personas seleccionados se cargarán en la cápsula de transporte.</MessageTransporterSingleLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageTransporterSingleLoadingProcessStarted>Ahora los artículos asignados y las personas se cargarán en el transbordador.</MessageTransporterSingleLoadingProcessStarted>
-  
+  <MessageShuttleLoadingProcessStarted>Los objetos y personas seleccionados se cargarán en el transbordador.</MessageShuttleLoadingProcessStarted> <!-- text_todo -->
+
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Tus cápsulas de transporte han llegado.</MessageTransportPodsArrived>
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
@@ -351,17 +369,25 @@
   <MessageTransportPodsArrivedAndAddedToCaravan>Tus cápsulas de transporte han llegado. El contenido ha sido guardado en {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
   
   <!-- EN: Transport pod loading complete. Launch when ready. -->
-  <MessageFinishedLoadingTransporters>Tus colonos han terminado de cargar las cápsulas de transporte.</MessageFinishedLoadingTransporters>
+  <MessageFinishedLoadingTransporters>Tus colonos han terminado de cargar las cápsulas de transporte. Lánzalas cuando estés listo.</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingTransporterSingle>El transbordador se cargó con la carga requerida y puede lanzarse cuando esté listo.</MessageFinishedLoadingTransporterSingle>
+  <MessageFinishedLoadingShuttle>El transbordador lleva la carga necesaria y puede despegar cuando esté listo.</MessageFinishedLoadingShuttle> <!-- text_todo -->
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoTransporters>Tu {1} no puede terminar de cargar las cápsulas de transporte porque algunos artículos o personas no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
+  <MessageCantLoadMoreIntoTransporters>Tu {1} no puede terminar de cargar las cápsulas de transporte porque algunos objetos o personas ya no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
+  <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
+  <MessageCantLoadMoreIntoShuttle>Tu {1} no puede terminar de cargar el transbordador porque algunos objetos o personas ya no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoShuttle> <!-- text_todo -->
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoPortal>Tu {1} no puede entrar a {0} porque algunos artículos o personas no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
+  <MessageCantLoadMoreIntoPortal>Tu {1} no puede entrar a {0} porque algunos objetos o personas ya no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>El destino seleccionado no es válido.</MessageTransportPodsDestinationIsInvalid>
+  <!-- EN: Destination is reserved by {0}. -->
+  <MessageTransportPodsDestinationReservedBy>El destino está reservado por {0}.</MessageTransportPodsDestinationReservedBy> <!-- text_todo -->
+  <!-- EN: Destination is reserved. -->
+  <MessageTransportPodsDestinationReserved>El destino está reservado.</MessageTransportPodsDestinationReserved> <!-- text_todo -->
+  <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
+  <MessageWorldObjectIsInvalid>{OBJECT_labelCap} no es un destino válido.</MessageWorldObjectIsInvalid> <!-- text_todo -->
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>Cada lanzadera de cápsulas necesita por lo menos {0}x unidades de biocombustible para enviar las cápsulas a esa distancia.</MessageTransportPodsDestinationIsTooFar>
   
@@ -689,7 +715,7 @@
   <!-- EN: Assign to {0} -->
   <AssignToRole>Asignar a {0}</AssignToRole>
   <!-- EN: {0} has begun. -->
-  <RitualBegun>{0} ha empezado.</RitualBegun>
+  <RitualBegun>{0_definite} ha comenzado.</RitualBegun>
   <!-- EN: The maximum number of {0}s is {1}. -->
   <MaxPawnsPerRole>El número máximo de {0}es es {1}.</MaxPawnsPerRole>
   <!-- EN: Role of {0} is locked. -->
@@ -784,6 +810,10 @@
   <CannotPlantThing>No se puede plantar {0_labelShort}</CannotPlantThing>
   <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>Necesita más terreno fértil.</MessageWarningNotEnoughFertility>
+  <!-- EN: Temperature too extreme. -->
+  <CannotPlantExtremeTemp>Temperatura demasiado extrema.</CannotPlantExtremeTemp>
+  <!-- EN: Plants cannot grow on this terrain. -->
+  <CannotPlantMissingTerrainTag>En este terreno no pueden crecer plantas.</CannotPlantMissingTerrainTag>
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>bloqueado por {0_label}.</BlockedBy>
   <!-- EN: Cannot be planted next to {0_label}. -->
@@ -792,6 +822,8 @@
   <TooCloseToOtherPlant>Demasiado cerca de {0_label}.</TooCloseToOtherPlant>
   <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>Demasiado cerca del lugar de plantación de {0}.</TooCloseToOtherSeedPlantCell>
+  <!-- EN: Cannot be placed on {0}. -->
+  <MessageCannotBePlacedOn>No se puede colocar en {0}.</MessageCannotBePlacedOn>
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>Advertencia: {0} ha sido marcado para talarse.</MessageWarningCutImportantPlant>
@@ -823,5 +855,23 @@
 
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>No se puede saltar: Refugiado</MessageLodgersCantFarskip>
+  
+  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
+  <MessageHackerLockedOut>Se ha detectado el hackeo de {HACKER_nombreDef}. {HACKER_pronoun} ha sido bloqueado durante {DURACIÓN}.</MessageHackerLockedOut>
+  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
+  <MessageHackerLockedOutPermanently>Se ha detectado el hackeo de {HACKER_nombreDef}. {HACKER_pronoun} ha sido bloqueado permanentemente.</MessageHackerLockedOutPermanently>
+  <!-- EN: {0_labelShort} can be hacked again. -->
+  <MessageHackableUnlocked>{0_labelShort} se puede hackear nuevamente.</MessageHackableUnlocked>
+
+  <!-- EN: Cannot call shuttle -->
+  <CannotCallShuttle>No se puede llamar al transbordador.</CannotCallShuttle>
+  <!-- EN: The shuttle has arrived. -->
+  <MessageShuttleArrived>El transbordador ha llegado.</MessageShuttleArrived>
+
+  <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
+  <MessageGroundPenetratingScannerNoBedrock>Advertencia: {THING_labelCap} no funcionará en este bioma.</MessageGroundPenetratingScannerNoBedrock> <!-- text_todo -->
+
+  <!-- UNUSED -->
+  <MessageFinishedLoadingTransporterSingle>El transbordador se cargó con la carga requerida y puede lanzarse cuando esté listo.</MessageFinishedLoadingTransporterSingle>
 
 </LanguageData>

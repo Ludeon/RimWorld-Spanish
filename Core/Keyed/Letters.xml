@@ -191,7 +191,7 @@
   <!-- EN: There are people who have relationships with your {0} or prisoners in this settlement: -->
   <LetterRelatedPawnsSettlement>Hay personas que tienen relaciones con tus {0} o prisioneros en esta colonia:</LetterRelatedPawnsSettlement>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this area: -->
-  <LetterRelatedPawnsSite>Hay personas que tienen relaciones con tus {0} o prisioneros en este área:</LetterRelatedPawnsSite>
+  <LetterRelatedPawnsSite>Hay personas que tienen relaciones con tus {0} o prisioneros en esta área:</LetterRelatedPawnsSite>
 
   <!-- EN: relationship -->
   <RelationshipAppendedLetterSuffix>relación</RelationshipAppendedLetterSuffix>
@@ -295,6 +295,8 @@
   <LetterLabelFactionBaseDefeated>Base destruida</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>El asentamiento enemigo {0} ha sido destruido.\n\nEn {1}, tu caravana será atacada por enemigos. Empezarán a enviar fuerzas para atacarla, a menos que se reforme y se vaya.</LetterFactionBaseDefeated>
+  <!-- EN: The enemy settlement {0} has been destroyed. -->
+  <LetterFactionBaseDefeatedNoRaids>El asentamiento enemigo {0} ha sido destruido.</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>Esta era la última base de {0}, lo que significa que la facción {0} ya no existe.</LetterFactionBaseDefeated_FactionDestroyed>
 
@@ -326,7 +328,7 @@
   <!-- EN: Peace talks disaster -->
   <LetterLabelPeaceTalks_Disaster>Charlas de paz desastrozas</LetterLabelPeaceTalks_Disaster>
   <!-- EN: The talks were a disaster. The delegates barely got past their initial greetings before the discussion broke down into insults and recriminations.\n\nAfter your caravan departed early, {0} from {1} caught up with it and attacked!\n\nRelations with {1}: {2}. -->
-  <LetterPeaceTalks_Disaster>Las charlas fueron un desastre. Los delegados apenas dieron sus saludos iniciales antes de que la discusión se convirtiera en insultos y recriminaciones.\n\nDespués de que tu caravana partiera temprano, {0} de {1} la alcanzó y atacó!\n\nRelaciones con {1}: {2}.</LetterPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>Las charlas fueron un desastre. Los delegados apenas dieron sus saludos iniciales antes de que la discusión se convirtiera en insultos y recriminaciones.\n\nDespués de que tu caravana partiera temprano, ¡{0} de {1} la alcanzó y atacó!\n\nRelaciones con {1}: {2}.</LetterPeaceTalks_Disaster>
   <!-- EN: Peace talks backfire -->
   <LetterLabelPeaceTalks_Backfire>Las charlas de paz fracasaron</LetterLabelPeaceTalks_Backfire>
   <!-- EN: The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}. -->
@@ -413,8 +415,10 @@
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Rescatado se une</LetterLabelRescueQuestFinished>
-  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>Has rescatado a {PAWN_nameDef} y se ha unido a tu grupo.\n\nPuedes tomar{PAWN_objective} reformando la caravana en la pantalla Mundo, seleccionando esta zona y eligiendo la opción "Reformar caravana".</LetterRescueQuestFinished>
+  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
+  <LetterRescueQuestFinished>Has rescatado a {PAWN_nameDef} y se ha unido a tu grupo.</LetterRescueQuestFinished>
+  <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
+  <LetterRescueQuestFinishedCaravanExtra>Puedes tomar{PAWN_objective} reformando la caravana en la pantalla Mundo, seleccionando este lugar y eligiendo la opción "Reformar caravana".</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -431,22 +435,34 @@
   <LetterTraitDisease>{PAWN_label} ha enfermado de {1}.\n\nAsegúrate de tener una cama médica y un médico, de que reciba el tratamiento adecuado y que permanezca en cama el mayor tiempo posible.</LetterTraitDisease>
 
   <!-- Quests -->
-  <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>Hay una nueva misión disponible. Se llama "{0}".</LetterQuestBecameAvailable>
-  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>Si no aceptas la misión dentro de {0}, caducará.</LetterQuestRequiresAcceptance>
-  <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>Se ha activado una nueva misión. Se llama "{0}".</LetterQuestBecameActive>
+  <!-- EN: Quest available: {0} -->
+  <LetterLabelQuestAvailableTitle>Misión disponible: {0}</LetterLabelQuestAvailableTitle>
   <!-- EN: Quest active: {0} -->
-  <LetterQuestAutomaticallyAcceptedTitle>Misión activa: {0}</LetterQuestAutomaticallyAcceptedTitle>
+  <LetterLabelQuestAutomaticallyAcceptedTitle>Misión activa: {0}</LetterLabelQuestAutomaticallyAcceptedTitle>
+  <!-- EN: {DISCOVEREDFROM} a new quest. -->
+  <LetterNewQuest>{DISCOVEREDFROM} una nueva misión</LetterNewQuest> <!-- text_todo -->
+  <!-- EN: A new quest is available. -->
+  <LetterNewQuestFromUnknown>Una nueva misión está disponible.</LetterNewQuestFromUnknown>
+  <!-- EN: The quest is called '{0}'. -->
+  <LetterQuestIsNamed>La misión se llama "{0}".</LetterQuestIsNamed>
   <!-- EN: It will expire in {0}. -->
   <LetterQuestActiveNowTime>Caducará en {0}.</LetterQuestActiveNowTime>
+  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
+  <LetterQuestRequiresAcceptance>Si no aceptas la misión dentro de {0}, caducará.</LetterQuestRequiresAcceptance>
+  <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered -->
+  <QuestDiscoveredFromBook>Mientras {READER_nameDef} leía {BOOK_labelNoParenthesis} descubrió</QuestDiscoveredFromBook>
+  <!-- EN: While talking with the trader {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of -->
+  <QuestDiscoveredFromTrader>Mientras {NEGOTIATOR_nameDef} hablaba con el comerciante {TRADER_nameDef}, se enteró de</QuestDiscoveredFromTrader>
+  <!-- EN: To show {RECEIVER_possessive} gratitude for your charity, the beggar {RECEIVER_nameDef} shared a secret with {GIVER_nameDef}.\n\nYou have learned of -->
+  <QuestDiscoveredFromBeggar>Para mostrar su gratitud por tu generosidad, el mendigo {RECEIVER_nameDef} compartió un secreto con {GIVER_nameDef}. Has descubierto</QuestDiscoveredFromBeggar> <!-- text_todo -->
+  <!-- EN: You have discovered -->
+  <QuestDiscoveredFromDebug>Has descubierto</QuestDiscoveredFromDebug>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
-  <LetterLabelQuestDropPodsArrived>Llegaron las cápsulas</LetterLabelQuestDropPodsArrived>
+  <LetterLabelQuestDropPodsArrived>Han llegado cápsulas</LetterLabelQuestDropPodsArrived>
   <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
-  <LetterQuestDropPodsArrived>Llegaron cápsulas de transporte con el siguiente contenido:\n\n{0}</LetterQuestDropPodsArrived>
+  <LetterQuestDropPodsArrived>Han aterrizado cápsulas de transporte con el siguiente contenido:\n\n{0}</LetterQuestDropPodsArrived>
 
   <!-- Quest items added to caravan inventory -->
   <!-- EN: {CARAVAN_label} received items -->
@@ -458,7 +474,7 @@
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRefugeeJoins>{PAWN_nameDef} se une</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} ha llegado y se unirá a la colonia.</LetterRefugeeJoins>
+  <LetterRefugeeJoins>{PAWN_gender ? Un : Una} {PAWN_title} llamad{PAWN_gender ? o : a} {PAWN_nameDef} ha llegado y se unirá a la colonia.</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
@@ -532,7 +548,7 @@
   <LetterBladelinkWeaponBondedLabel>Vinculación de IA: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>{PAWN_labelShort} ha establecido un vínculo con la Inteligencia Artificial de este arma: {WEAPON_labelShort}.\nDe ahora en adelante, {WEAPON_labelShort} se negará a ser usada por nadie que no sea {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} ha establecido un vínculo con la Inteligencia Artificial de esta arma: {WEAPON_labelShort}.\nDe ahora en adelante, {WEAPON_labelShort} se negará a ser usada por nadie que no sea {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
@@ -587,5 +603,10 @@
   <LetterSpeechCancelled>El discurso de {0} fue interrumpido antes de llegar a la mitad. No tuvo ningún efecto.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>Discurso cancelado</LetterLabelSpeechCancelled>
+
+  <!-- UNUSED -->
+  <LetterQuestBecameAvailable>Hay una nueva misión disponible. Se llama "{0}".</LetterQuestBecameAvailable>
+  <LetterQuestBecameActive>Se ha activado una nueva misión. Se llama "{0}".</LetterQuestBecameActive>
+  <LetterQuestAutomaticallyAcceptedTitle>Misión activa: {0}</LetterQuestAutomaticallyAcceptedTitle>
 
 </LanguageData>

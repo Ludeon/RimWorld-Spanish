@@ -78,6 +78,7 @@
     <li>terrain_word(p=3)->bosque boreal</li>
     <li>terrain_word->taiga</li>
     <li>terrain_word->arboleda</li>
+    <li>terrain_word->arbolada</li>
     <li>terrain_word->parque</li>
     <li>terrain_word->bosquecillo</li>
   </NamerBorealForest.rulePack.rulesStrings>
@@ -160,6 +161,7 @@
     <li>terrain_word(p=0.5)->macizo</li>
     <li>terrain_word(p=0.3)->glaciar</li>
     <li>terrain_word(p=0.3)->fiordo</li>
+    <li>terrain_word(p=0.3)->fiordo</li>
     <li>terrain_word(p=0.3)->macizo</li>
     <li>terrain_word(p=0.3)->hielo perpetuo</li>
   </NamerIceSheet.rulePack.rulesStrings>
@@ -181,18 +183,17 @@
     <li>terrain_word->arrecife</li>
     <li>terrain_word->atolón</li>
     <li>terrain_word->islote</li>
+    <li>terrain_word->islote</li>
     <li>terrain_word->farallón</li>
   </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->lake [narrative_name]</li>
     <li>terrain_word(p=6)->lake</li>
-    <li>terrain_word->sea</li>
     <li>terrain_word->pond</li>
     <li>terrain_word->basin</li>
     <li>terrain_word->reservoir</li>
     <li>terrain_word(p=0.3)->puddle</li>
-    <li>terrain_word(p=0.3)->lagoon</li>
     <li>terrain_word(p=0.3)->loch</li>
   -->
   <NamerLake.rulePack.rulesStrings>
@@ -283,16 +284,14 @@
   </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>r_name(p=0.1)->lake [narrative_name]</li>
     <li>terrain_word(p=6)->sea</li>
+    <li>terrain_word->lagoon</li>
     <li>terrain_word->ocean</li>
-    <li>terrain_word->lake</li>
   -->
   <NamerSea.rulePack.rulesStrings>
-    <li>standardname(p=0.1)->lago [narrative_name]</li>
+    <li>standardname(p=0.1)->mar [narrative_name]</li>
     <li>terrain_word(p=6)->mar</li>
     <li>terrain_word->océano</li>
-    <li>terrain_word->lago</li>
   </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
