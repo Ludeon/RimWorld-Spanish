@@ -285,7 +285,7 @@
   <!-- EN: no power -->
   <NoPower>sin energía</NoPower>
   <!-- EN: not in {0} -->
-  <NotInRoomRole>no en {0}</NotInRoomRole>
+  <NotInRoomRole>no está en {0_indefinite}</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>Velocidad de trabajo</WorkSpeedPenalty>
   <!-- EN: Disabled -->
@@ -335,13 +335,13 @@
   <!-- EN: Click to sort by this column. -->
   <ClickToSortByThisColumn>Clic para ordenar por esta columna.</ClickToSortByThisColumn>
   <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
-  <WorkPriorityShiftClickTip>Shift + clic: Incrementar la prioridad\nShift + clic derecho: Disminuir la prioridad</WorkPriorityShiftClickTip>
+  <WorkPriorityShiftClickTip>Shift + Clic izquierdo: Incrementar la prioridad\nShift + clic derecho: Disminuir la prioridad</WorkPriorityShiftClickTip>
   <!-- EN: Shift + click: Enable all\nShift + right click: Disable all -->
   <WorkPriorityShiftClickEnableDisableTip>Shift + clic: Activar todo\nShift + clic derecho: Desactivar todo</WorkPriorityShiftClickEnableDisableTip>
   <!-- EN: Shift + click: Set all to home\nShift + right click: Set all to unrestricted -->
-  <AllowedAreaShiftClickTip>Shift + clic: Establecer todo en hogar\nShift + clic derecho: Sin restricciones</AllowedAreaShiftClickTip>
+  <AllowedAreaShiftClickTip>Shift + Clic izquierdo: Establecer todo en hogar\nShift + clic derecho: Sin restricciones</AllowedAreaShiftClickTip>
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
-  <CheckboxShiftClickTip>Shift + clic: Marcar todo\nShift + clic derecho: No revisar</CheckboxShiftClickTip>
+  <CheckboxShiftClickTip>Shift + Clic izquierdo: Marcar todo\nShift + clic derecho: No revisar</CheckboxShiftClickTip>
   <!-- EN: {0} {1} -->
   <KnownSiteThreatEnemyCountAppend>{0} {1}</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
@@ -352,6 +352,8 @@
   <Requires>Necesita</Requires>
   <!-- EN: Replaces -->
   <Replaces>Sustituye</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>falta {0}</MissingPartWithLabel> <!-- text_todo -->
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}x de</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -488,10 +490,10 @@
   <MechCluster>Mecaconglomerado</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>Apareciendo en {0}</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1}. -->
-  <MechAssemblyCompleteIn>Ensamblado de {0} termina en {1}</MechAssemblyCompleteIn>
-  <!-- EN: Will assemble -->
-  <MechAssemblyNextType>Se ensamblará</MechAssemblyNextType>
+  <!-- EN: {0} gestation completes in {1}. -->
+  <MechAssemblyCompleteIn>{0} completa la gestación en {1}.</MechAssemblyCompleteIn>
+  <!-- EN: Will gestate -->
+  <MechAssemblyNextType>Se gestará</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>producido</ThingsProduced>
   <!-- EN: harvested -->
@@ -1680,9 +1682,9 @@
   <Reward_Pawn_WalkIn>{0_gender ? un : una} {0_title} de {0_age} años llamad{0_gender ? o : a} {0_nameDef} llegará y se unirá a tu colonia {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>{0_gender ? un : una} {0_title} de {0_age} años {0_title} llamad{0_gender ? o : a} {0_nameDef} se unirá a tu colonia {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
   <Reward_Items>llegarán cápsulas de transporte con los siguientes recursos (valor total {1}):\n\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):\n{0} -->
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
   <Reward_Items_Caravan>recibirás (valor total {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>las relaciones de tu facción con {0_name} mejorarán en {1}</Reward_Goodwill>
@@ -2117,7 +2119,7 @@
   <!-- EN: Jump to location -->
   <WorldJumpTo>Ir a la ubicación</WorldJumpTo>
   <!-- EN: Find a colony, caravan, or quest location on the world map. -->
-  <WorldJumpToDesc>Encuentra una colonia o un lugar de misión en el mapa del mundo.</WorldJumpToDesc>
+  <WorldJumpToDesc>Encuentra una colonia, caravana o un lugar de misión en el mapa del mundo.</WorldJumpToDesc>
   <!-- EN: Nothing to jump to. -->
   <NothingToJumpTo>Ningún lugar a donde ir.</NothingToJumpTo>
   <!-- EN: cannot function in {0} -->
@@ -2128,10 +2130,10 @@
   <Settled>Ocupado</Settled>
   <!-- EN: Abandoned -->
   <Abandoned>Abandonado</Abandoned>
-  <!-- EN: Cannot perform in {0} -->
-  <CannotPerformPlanetLayer>No se puede realizar en {0}</CannotPerformPlanetLayer>
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
+  <CannotPerformPlanetLayer>No se puede realizar en {GERUND} {LAYER}</CannotPerformPlanetLayer>
   <!-- EN: This will not affect you {GERUND} {LAYER}. -->
-  <ThisWillNotAffectLayer>Esto no le afectará {GERUND} {LAYER}.</ThisWillNotAffectLayer>
+  <ThisWillNotAffectLayer>Esto no te afectará {GERUND} {LAYER}.</ThisWillNotAffectLayer>
 
   <!-- Pocket maps -->
   <!-- EN: Enter {0} -->
