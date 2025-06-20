@@ -6,7 +6,10 @@ $PSDefaultParameterValues["*:Encoding"] = "UTF8"
 $temp = New-Item "$env:temp\$([GUID]::NewGuid())" -ItemType "Directory"
 
 # Define all roots: Core + DLCs
-$roots = Get-ChildItem -Directory | ForEach-Object { $_.Name }
+$roots = Get-ChildItem -Directory |
+         Where-Object { Test-Path "$($_.FullName)\DefInjected" } |
+         ForEach-Object { $_.Name }
+
 
 foreach ($root in $roots) {
     Write-Host "Procesando '$root'..." -ForegroundColor Green
