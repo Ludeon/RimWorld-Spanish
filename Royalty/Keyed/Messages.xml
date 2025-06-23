@@ -4,17 +4,15 @@
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
   <ShuttleBlocked>Transbordador no puede aterrizar en: {0}</ShuttleBlocked>
-  <!-- EN: The shuttle has arrived. -->
-  <MessageShuttleArrived>El transbordador ha llegado.</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
   <MessageShuttleArrivedContentsLost>El transbordador ha llegado, pero como no había colonos dentro, el contenido se ha perdido.</MessageShuttleArrivedContentsLost>
-  <!-- EN: Cannot call shuttle -->
-  <CannotCallShuttle>No se puede llamar al transbordador.</CannotCallShuttle>
 
   <!-- EN: Cannot land in undiscovered area. -->
-  <ShuttleCannotLand_Fogged>No puede aterrizar en un área desconocida</ShuttleCannotLand_Fogged>
+  <ShuttleCannotLand_Fogged>No puede aterrizar en un área sin revelar.</ShuttleCannotLand_Fogged>
   <!-- EN: Area must be walkable. -->
   <ShuttleCannotLand_Unwalkable>Debe ser un área que permita caminar sobre ella.</ShuttleCannotLand_Unwalkable>
+  <!-- EN: Terrain does not support {0}. -->
+  <ShuttleCannotLand_Unaffordable>El terreno no soporta {0}.</ShuttleCannotLand_Unaffordable> <!-- text_todo -->
 
   <!-- EN: Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony. -->
   <MessageBestowerWaiting>Selecciona a {BESTOWER_definite} y haz clic en "Comenzar ceremonia de ascensión" para comenzar la ceremonia.</MessageBestowerWaiting>
@@ -34,7 +32,7 @@
   <MessageBestowingInterrupted>La ceremonia de ascensión ha sido interrumpida.</MessageBestowingInterrupted>
 
   <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
-  <MessageBestowingCeremonyStarted>La ceremonia de {PAWN_definite} ha comenzado.</MessageBestowingCeremonyStarted>
+  <MessageBestowingCeremonyStarted>La ceremonia de ascensión de {PAWN_definite} ha comenzado.</MessageBestowingCeremonyStarted>
   <!-- EN: You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it. -->
   <MessageMissionGetBackToShuttle>¡Has derrotado a los {FACTION_pawnsPlural}! Vuelve al transbordador para enviarlo.</MessageMissionGetBackToShuttle>
 

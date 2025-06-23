@@ -9,7 +9,7 @@
   <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->Una IA en una nave orbital quiere realizar algunos experimentos planetarios. Sin embargo, si realiza su experimento, [gameConditionDescriptionFuture].\n\nle preocupa que pueda meterse en problemas con el comité ético de investigación porque sus experimentos tendrán efectos secundarios desafortunados, por lo que pide tu consentimiento.</li>
     <li>questDescription(asker_factionLeader==True)->Una IA está amenazando a los [asker_faction_pawnsPlural] de la facción [asker_faction_name]. [asker_TheCap] [asker_faction_leaderTitle] [asker_nameFull] te pide que le envíes un mensaje a esta IA, en el que asumes la responsabilidad de todos los delitos cometidos por la facción [asker_faction_name].\n\nSi haces esto, la IA volcará toda su ira hacia ti. [gameConditionDescriptionFuture].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_a] [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], quiere realizar una prueba de baja potencia de una de las armas de ataque de su nave. Si lo hace, [gameConditionDescriptionFuture].\n\nYa que eres la persona con derechos legales sobre este área bajo la ley imperial, [asker_nameDef] necesita de tu honorable permiso para proceder.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_a] [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], quiere realizar una prueba de baja potencia de una de las armas de ataque de su nave. Si lo hace, [gameConditionDescriptionFuture].\n\nYa que eres la persona con derechos legales sobre esta área bajo la ley imperial, [asker_nameDef] necesita de tu honorable permiso para proceder.</li>
   </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [gameCondition_label]</li>
@@ -88,36 +88,36 @@
   <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
     <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
     <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
-    <li>animalKindCorrect(animalCount==1)->[animal_the] [animalKind_label]</li>
-    <li>animalKindCorrect(animalCount==2)->el dúo de [animalKind_labelPlural]</li>
+    <li>animalKindCorrect(animalCount==1)->[animalKindDef_definite]</li>
+    <li>animalKindCorrect(animalCount==2)->el par de [animalKind_labelPlural]</li>
     <li>animalKindCorrect(animalCount==3)->el trío de [animalKind_labelPlural]</li>
     <li>animalKindCorrect(animalCount>=4)->la manada de [animalKind_labelPlural]</li>
     <li>animal_arrive(animalCount==1)->llegará</li>
     <li>animal_arrive(animalCount>=2)->llegarán</li>
-    <li>manhuntingBeastIndef(animalCount==1)->[animal_the] (*Threat)[animalKind_label] cazahombres(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==2)->un dúo de (*Threat)[animalKind_labelPlural] cazahombres(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount==1)->(*Threat)[animalKindDef_definite] cazahombres(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount==2)->dos (*Threat)[animalKind_labelPlural] cazahombres(/Threat)</li>
     <li>manhuntingBeastIndef(animalCount==3)->un trío de (*Threat)[animalKind_labelPlural] cazahombres(/Threat)</li>
     <li>manhuntingBeastIndef(animalCount>=4)->una manada de (*Threat)[animalCount] [animalKind_labelPlural] cazahombres(/Threat)</li>
     <li>endSection->[helpersParagraph] [animalKindCorrect] [animal_arrive] a [map_definite] [manhuntersDelayTicks_duration] después de que aceptes.</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->Un comerciante te está llamando porque [animal_a] ¡(*Threat)[animalKind_label] salvaje(/Threat)!, lo está cazando! Requiere tu ayuda para alejar a esta amenaza lejos de él. [endSection]</li>
-    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animal_the] [animalKind_label] estaba cazando a un comerciante en las cercanías.</li>
-    <li>questDescription(askerIsNull==true,animalCount==2)->Un comerciante está llamando. Un dúo de (*Threat)[animalKind_labelPlural] salvajes(/Threat) lo están cazando! Quiere tu ayuda para alejar a estos animales lejos de él. [endSection]</li>
-    <li>questDescription(askerIsNull==true,animalCount==3)->Un comerciante está llamando. Una trío de (*Threat)[animalKind_labelPlural] salvajes(/Threat) lo están cazando! Quiere tu ayuda para alejar a estos animales lejos de él. [endSection]</li>
-    <li>questDescription(askerIsNull==true,animalCount>=4)->Un comerciante está llamando. Una manada de (*Threat)[animalCount] [animalKind_labelPlural] salvajes(/Threat) lo están cazando! Quiere tu ayuda para alejar a estos animales lejos de él. [endSection]</li>
-    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==2)->el dúo de [animalKind_labelPlural] estaban cazando a un comerciante en las cercanías.</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->¡Un comerciante te está llamando porque (*Threat)[animalKindDef_indefinite] salvaje(/Threat) lo está cazando! Requiere tu ayuda para alejar a esta amenaza lejos de él. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKindDef_definite] estaba cazando a un comerciante en las cercanías.</li>
+    <li>questDescription(askerIsNull==true,animalCount==2)->Un comerciante está llamando. ¡Dos (*Threat)[animalKind_labelPlural] salvajes(/Threat) lo están cazando! Quiere tu ayuda para alejar a estos animales lejos de él. [endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount==3)->Un comerciante está llamando. ¡Un trío de (*Threat)[animalKind_labelPlural] salvajes(/Threat) lo están cazando! Quiere tu ayuda para alejar a estos animales lejos de él. [endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount>=4)->Un comerciante está llamando. ¡Una manada de (*Threat)[animalCount] [animalKind_labelPlural] salvajes(/Threat) lo están cazando! Quiere tu ayuda para alejar a estos animales lejos de él. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==2)->el par de [animalKind_labelPlural] estaban cazando a un comerciante en las cercanías.</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==3)->el trío de [animalKind_labelPlural] estaban cazando a un comerciante en las cercanías.</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=4)->la manada de [animalKind_labelPlural] estaban cazando a un comerciante en las cercanías.</li>
     <li>questDescription(asker_factionLeader==True)->Las Caravanas de la facción [asker_faction_name] están siendo hostigadas por [manhuntingBeastIndef]. [asker_nameFull], que es [asker_a] [asker_faction_leaderTitle] de esa facción quiere tu ayuda para alejar a las bestias de las caravanas. [endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animal_the] [animalKind_label] que estaba acosando a las caravanas de la facción [asker_faction_name].</li>
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==2)->el dúo de [animalKind_labelPlural] que estaban acosando a las caravanas de la facción [asker_faction_name].</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKindDef_definite] que estaba acosando a las caravanas de la facción [asker_faction_name].</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==2)->el par de [animalKind_labelPlural] que estaban acosando a las caravanas de la facción [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==3)->el trío de [animalKind_labelPlural] que estaban acosando a las caravanas de la facción [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=4)->la manada de [animalKind_labelPlural] que estaban acosando a las caravanas de la facción [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], recientemente perdió a un explorador por culpa de [animal_a] (*Threat)[animalKind_label] cazahombres(/Threat). Quiere atraer a esta bestia hacia ti para que mates a esta amenaza y así mantener su honor. [endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->[animal_the] [animalKind_label], que mató al explorador de [asker_The] [asker_royalTitleInCurrentFaction] [asker_nameFull] de la facción [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==2)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], recientemente perdió a un grupo de exploradores por culpa de un dúo de (*Threat)[animalKind_labelPlural] cazahombres(/Threat). Quiere atraer a estas bestias hacia ti para que las mates y así mantener su honor. [endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], recientemente perdió a un explorador por culpa de (*Threat)[animalKindDef_indefinite] cazahombres(/Threat). Quiere atraer a esta bestia hacia ti para que mates a esta amenaza y así mantener su honor. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->[animalKindDef_definite], que mató al explorador de [asker_The] [asker_royalTitleInCurrentFaction] [asker_nameFull] de la facción [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==2)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], recientemente perdió a un grupo de exploradores por culpa de dos (*Threat)[animalKind_labelPlural] cazahombres(/Threat). Quiere atraer a estas bestias hacia ti para que las mates y así mantener su honor. [endSection]</li>
     <li>questDescription(asker_royalInCurrentFaction==True,animalCount==3)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], recientemente perdió a un grupo de exploradores por culpa de un trío de (*Threat)[animalKind_labelPlural] cazahombres(/Threat). Quiere atraer a estas bestias hacia ti para que las mates y así mantener su honor. [endSection]</li>
     <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=4)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], recientemente perdió a un grupo de exploradores por culpa de una manada de (*Threat)[animalCount] [animalKind_labelPlural] cazahombres(/Threat). Quiere atraer a estas bestias hacia ti para que las mates y así mantener su honor. [endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==2)->Estos son el dúo de [animalKind_labelPlural] que mataron al grupo de exploradores de [asker_The] [asker_royalTitleInCurrentFaction] [asker_nameFull] de la facción [asker_faction_name].</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==2)->Estos son los dos [animalKind_labelPlural] que mataron al grupo de exploradores de [asker_The] [asker_royalTitleInCurrentFaction] [asker_nameFull] de la facción [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==3)->Estos son el trío de [animalKind_labelPlural] que mataron al grupo de exploradores de [asker_The] [asker_royalTitleInCurrentFaction] [asker_nameFull] de la facción [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=4)->Esta es la manada de [animalKind_labelPlural] que mataron al grupo de exploradores de [asker_The] [asker_royalTitleInCurrentFaction] [asker_nameFull] de la facción [asker_faction_name].</li>
   </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>

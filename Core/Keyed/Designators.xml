@@ -16,6 +16,11 @@
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
   <DesignatorDeconstructDesc>Desarma este objeto y recupera parte de los recursos usados en su construcción.</DesignatorDeconstructDesc>
 
+  <!-- EN: Deconstruct conduit -->
+  <DesignatorDeconstructConduit>Desarmar conducto</DesignatorDeconstructConduit>
+  <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
+  <DesignatorDeconstructConduitDesc>Desarma los conductos de electricidad y recuperar parte de sus recursos.</DesignatorDeconstructConduitDesc>
+
   <!-- EN: Uninstall -->
   <DesignatorUninstall>Desinstalar</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
@@ -45,8 +50,8 @@
 
   <!-- EN: Hunt -->
   <DesignatorHunt>Cazar</DesignatorHunt>
-  <!-- EN: Mark animals to be hunted by your hunters. -->
-  <DesignatorHuntDesc>Designa animales para ser cazados.</DesignatorHuntDesc>
+  <!-- EN: Mark animals to be hunted by your hunters.\n\nOnly hunters with suitable ranged weapons will hunt. -->
+  <DesignatorHuntDesc>Designa los animales que serán cazados por tus cazadores.\n\nSolo los cazadores con armas a distancia adecuadas podrán cazar.</DesignatorHuntDesc>
 
   <!-- EN: Mine -->
   <DesignatorMine>Minar</DesignatorMine>
@@ -73,8 +78,8 @@
 
   <!-- EN: Plan -->
   <DesignatorPlan>Planificar</DesignatorPlan>
-  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
-  <DesignatorPlanDesc>Dibuja marcas para formar planos. Estos no hacen nada, excepto ayudarte visualmente a planificar construcciones futuras.</DesignatorPlanDesc>
+  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions.\n\nRight-click to hide or unhide all planning zones. -->
+  <DesignatorPlanDesc>Coloca marcas para planificar diseños. Estas no tienen efecto alguno, solo te ayudan visualmente a planificar futuras ampliaciones.\n\nHaz clic derecho para ocultar o mostrar todas las zonas de planificación.</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
   <DesignatorPlanRemove>Borrar planificación</DesignatorPlanRemove>
@@ -103,17 +108,17 @@
   <!-- EN: Build roof area -->
   <DesignatorAreaBuildRoofExpand>Expandir área techada</DesignatorAreaBuildRoofExpand>
   <!-- EN: Colonists will build roofs in this area. -->
-  <DesignatorAreaBuildRoofExpandDesc>Los colonos construirán techos en este área.</DesignatorAreaBuildRoofExpandDesc>
+  <DesignatorAreaBuildRoofExpandDesc>Los colonos construirán techos en esta área.</DesignatorAreaBuildRoofExpandDesc>
 
   <!-- EN: Remove roof area -->
   <DesignatorAreaNoRoofExpand>Expandir área sin techo</DesignatorAreaNoRoofExpand>
   <!-- EN: Colonists will remove roofs in this area (except overhead mountain, which cannot be removed). -->
-  <DesignatorAreaNoRoofExpandDesc>Los colonos eliminarán los tejados en este área (excepto cuando se esté bajo tierra, que no se puede quitar).</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofExpandDesc>Los colonos eliminarán los tejados en esta área (excepto cuando se esté bajo tierra, que no se puede quitar).</DesignatorAreaNoRoofExpandDesc>
 
   <!-- EN: Ignore roof area -->
   <DesignatorAreaIgnoreRoofExpand>Ignorar área techada</DesignatorAreaIgnoreRoofExpand>
   <!-- EN: Colonists will ignore roofs in this area. -->
-  <DesignatorAreaIgnoreRoofExpandDesc>Los colonos ignorarán los techos en este área.</DesignatorAreaIgnoreRoofExpandDesc>
+  <DesignatorAreaIgnoreRoofExpandDesc>Los colonos ignorarán los techos en esta área.</DesignatorAreaIgnoreRoofExpandDesc>
 
   <!-- EN: Snow removal area -->
   <DesignatorAreaSnowClearExpand>Expandir área sin nieve</DesignatorAreaSnowClearExpand>
@@ -122,7 +127,7 @@
   <!-- EN: Clear snow removal area -->
   <DesignatorAreaSnowClearClear>Borrar área sin nieve</DesignatorAreaSnowClearClear>
   <!-- EN: Removes a snow removal area. Colonists will no longer try to keep this area clear of snow. -->
-  <DesignatorAreaSnowClearClearDesc>Borra un área sin nieve. Los colonos no seguirán tratando de mantener este área sin nieve.</DesignatorAreaSnowClearClearDesc>
+  <DesignatorAreaSnowClearClearDesc>Borra un área sin nieve. Los colonos no seguirán tratando de mantener esta área sin nieve.</DesignatorAreaSnowClearClearDesc>
 
   <!-- EN: Expand allowed area -->
   <DesignatorExpandAreaAllowed>Expandir área</DesignatorExpandAreaAllowed>
@@ -168,8 +173,8 @@
 
   <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>Quitar puente</DesignatorRemoveBridge>
-  <!-- EN: Remove bridges to reveal the terrain underneath. -->
-  <DesignatorRemoveBridgeDesc>Desarma los puentes para revelar el terreno que hay debajo.</DesignatorRemoveBridgeDesc>
+  <!-- EN: Deconstruct bridges to reclaim partial resources. -->
+  <DesignatorRemoveBridgeDesc>Desmantela los puentes para recuperar parcialmente los recursos.</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
   <DesignatorStrip>Desnudar</DesignatorStrip>
@@ -181,6 +186,11 @@
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>Abre tumbas y otros contenedores.</DesignatorOpenDesc>
   
+  <!-- EN: Eject fuel -->
+  <DesignatorEjectFuel>Expulsar combustible</DesignatorEjectFuel>
+  <!-- EN: Eject all contained fuel onto the ground. -->
+  <DesignatorEjectFuelDesc>Expulsa todo el combustible contenido al suelo.</DesignatorEjectFuelDesc>
+
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>Sacrificar</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
@@ -190,6 +200,8 @@
   <DesignatorTame>Domesticar</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>Domestica un animal salvaje.</DesignatorTameDesc>
+  <!-- EN: Scaria infected animals can't be tamed. -->
+  <CantTameScaria>Los animales infectados con escaria no pueden ser domesticados.</CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>Liberar a la naturaleza</DesignatorReleaseAnimalToWild>
@@ -240,6 +252,16 @@
   <!-- EN: Grabbed color -->
   <GrabbedColor>Color escogido</GrabbedColor>
 
+  <!-- EN: Expand plan -->
+  <DesignatorExpandPlan>Expandir plano</DesignatorExpandPlan>
+  <!-- EN: New plan -->
+  <NewPlan>Nuevo plano</NewPlan>
+  
+  <!-- EN: Shrink plan -->
+  <DesignatorPlanShrinkSingular>Reducir plano</DesignatorPlanShrinkSingular>
+  <!-- EN: Remove plans. -->
+  <DesignatorPlanShrinkDesc>Quitar planos.</DesignatorPlanShrinkDesc>
+
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
   <UnchosenStuff>Material no escogido</UnchosenStuff>
@@ -259,6 +281,10 @@
   <WouldBlockInteractionSpot>{0} bloquearía el punto de interacción de {1}.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>El suelo aquí ya es {0}.</TerrainIsAlready>
+  <!-- EN: There is already foundation here. -->
+  <FoundationAlreadyExists>Ya hay cimientos aquí.</FoundationAlreadyExists>
+  <!-- EN: The existing terrain here cannot be removed. -->
+  <TerrainUnremovable>El terreno existente aquí no se puede eliminar.</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>La superficie ya está marcada para ser alisada.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -268,7 +294,7 @@
   <!-- EN: {0_label} cannot be built on this terrain. -->
   <TerrainCannotSupport>{0_label} no se puede construir en este terreno.</TerrainCannotSupport>
   <!-- EN: {0_label} requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordance>{0_label} requiere un terreno de la siguiente dureza o más: {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <TerrainCannotSupport_TerrainAffordance>{0_label} requiere un terreno de la siguiente o mayor dureza: {1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
   <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} (cuando es de {2_label}) necesita un terreno que pueda aguantar: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
@@ -299,6 +325,11 @@
   <ExpandOrCreateZone>Expandir {0} o\nCrear {1}</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
   <CreateNewZone>Crear {0}</CreateNewZone>
+  
+  <!-- EN: Expand {0} or\nCreate new plan -->
+  <ExpandOrCreatePlan>Expandir {0} o\nCrear nuevo plan</ExpandOrCreatePlan>
+  <!-- EN: Create new plan -->
+  <CreateNewPlan>Crear nuevo plan</CreateNewPlan>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->

@@ -28,7 +28,7 @@
   <Animal_Plague.stages.extreme-1.label>severa</Animal_Plague.stages.extreme-1.label>
   
   <!-- EN: fibrous mechanites -->
-  <FibrousMechanites.label>mecanitas fibrosas</FibrousMechanites.label>
+  <FibrousMechanites.label>mecanitas fibrosos</FibrousMechanites.label>
   <!-- EN: Semi-coherent mechanites which develop fibrous links in muscle tissue. They enhance the victim's strength, but also cause intense pain. These are probably a mutated strain of strength-enhancing mechanites. -->
   <FibrousMechanites.description>Mecanitas semi-coherentes que desarrollan enlaces fibrosos en el tejido muscular. Mejoran la fuerza del paciente, pero también causan un dolor intenso. Puede tratarse de una variedad mutante de mecanitas aumentadoras de fuerza.</FibrousMechanites.description>
   <!-- EN: mild pain -->
@@ -110,6 +110,23 @@
   <Plague.stages.extreme-0.label>grave</Plague.stages.extreme-0.label>
   <!-- EN: extreme -->
   <Plague.stages.extreme-1.label>severa</Plague.stages.extreme-1.label>
+  
+  <!-- EN: scaria infection -->
+  <ScariaInfection.label>infección de escaria</ScariaInfection.label>
+  <!-- EN: An infection caused by scaria bacterium. If not treated, the infection will eventually drive the host into a berserk rage. -->
+  <ScariaInfection.description>Una infección causada por la bacteria escaria. Si no se trata, la infección puede llevar al huésped a una ira frenética.</ScariaInfection.description>
+  <!-- EN: Scaria: {PAWN_nameDef} -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>Escaria: {PAWN_nameDef}</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
+  <!-- EN: {PAWN_nameDef} has developed scaria from {PAWN_possessive} infection, driving {PAWN_objective} into a berserk rage. Scaria can be cured with a special medical operation, but {PAWN_nameDef} must first be downed. -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} ha desarrollado escaria a causa de su infección, lo que le ha llevado a una ira frenética. La escaria puede curarse con una operación médica especial, pero primero hay que derribar a {PAWN_nameDef}.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
+  <!-- EN: a scaria infection -->
+  <ScariaInfection.labelNoun>una infección de escaria</ScariaInfection.labelNoun>
+  <!-- EN: minor -->
+  <ScariaInfection.stages.minor.label>leve</ScariaInfection.stages.minor.label>
+  <!-- EN: major -->
+  <ScariaInfection.stages.major.label>grave</ScariaInfection.stages.major.label>
+  <!-- EN: extreme -->
+  <ScariaInfection.stages.extreme.label>extrema</ScariaInfection.stages.extreme.label>
   
   <!-- EN: sensory mechanites -->
   <SensoryMechanites.label>mecanitas sensoriales</SensoryMechanites.label>

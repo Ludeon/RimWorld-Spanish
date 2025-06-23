@@ -102,19 +102,56 @@
   <AreYouSure>¿Seguro que quieres hacer esto?</AreYouSure>
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <ChangingOwnerTypeBedWarning>Cambiar el uso de la cama afecta a toda la habitación (ya que los prisioneros, los esclavos y los colonos no pueden dormir en la misma habitación).\n\nEstas personas perderán la propiedad de sus camas:</ChangingOwnerTypeBedWarning>
-
-
+  
   <!-- EN: Detonate -->
   <CommandDetonateLabel>Detonar</CommandDetonateLabel>
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Comienza una cuenta atrás para la detonación.</CommandDetonateDesc>
-
+  
   <!-- EN: Hide -->
-  <CommandHideZoneLabel>Esconder</CommandHideZoneLabel>
+  <CommandHideLabel>Ocultar</CommandHideLabel>
   <!-- EN: Unhide -->
-  <CommandUnhideZoneLabel>Mostrar</CommandUnhideZoneLabel>
-  <!-- EN: Hide/unhide this zone. -->
+  <CommandUnhideLabel>Mostrar</CommandUnhideLabel>
+  
+  <!-- EN: Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones. -->
+  <CommandHidePlanDesc>Alterna la visibilidad de este plan.\n\nHaz clic con el botón derecho del ratón para ocultar o mostrar todas las áreas.</CommandHidePlanDesc>
+  <!-- EN: Hide/unhide this zone.\n\nRight-click to hide or unhide all zones. -->
   <CommandHideZoneDesc>Esconde/muestra esta zona.</CommandHideZoneDesc>
+  
+  <!-- EN: Show all zones -->
+  <ShowAllZones>Mostrar todas las áreas</ShowAllZones>
+  <!-- EN: Hide all zones -->
+  <HideAllZones>Ocultar todas las áreas</HideAllZones>
+  <!-- EN: Show all {0} zones -->
+  <ShowAllZoneTypes>Mostrar todas las áreas {0}</ShowAllZoneTypes>
+  <!-- EN: Hide all {0} zones -->
+  <HideAllZoneTypes>Ocultar todas las áreas {0}</HideAllZoneTypes>
+  <!-- EN: planning -->
+  <Planning>planificación</Planning>
+  
+  <!-- EN: Change color -->
+  <CommandChangeColorPlanLabel>Cambiar color</CommandChangeColorPlanLabel>
+  <!-- EN: Change the color of this plan. -->
+  <CommandChangeColorPlanDesc>Cambia el color del plano.</CommandChangeColorPlanDesc>
+  
+  <!-- EN: Delete -->
+  <CommandDeletePlanLabel>Borrar</CommandDeletePlanLabel>
+  <!-- EN: Delete this plan. -->
+  <CommandDeletePlanDesc>Borra el color del plano.</CommandDeletePlanDesc>
+  
+  <!-- EN: Copy -->
+  <CommandCopyPlanLabel>Copiar</CommandCopyPlanLabel>
+  <!-- EN: Copy this plan. -->
+  <CommandCopyPlanDesc>Copia el color del plano.</CommandCopyPlanDesc>
+  
+  <!-- EN: Copy selection... -->
+  <CommandCopyPlanSelectionLabel>Copiar selección...</CommandCopyPlanSelectionLabel>
+  <!-- EN: Copy all plans within a selected area. -->
+  <CommandCopyPlanSelectionDesc>Copia todos los planos de un área seleccionada.</CommandCopyPlanSelectionDesc>
+  <!-- EN: Select area to copy -->
+  <CommandCopyPlanSelectionMouse>Elige un área a copiar</CommandCopyPlanSelectionMouse> <!-- text_todo -->
+  <!-- EN: Paste selected area -->
+  <CommandCopyPlanSelectionPasteMouse>Pega el área seleccionada</CommandCopyPlanSelectionPasteMouse> <!-- text_todo -->
 
   <!-- EN: Delete -->
   <CommandDeleteZoneLabel>Eliminar</CommandDeleteZoneLabel>
@@ -357,6 +394,16 @@
   <CommandSettleFailNoColonists>No hay nadie allí para reclamar la zona.</CommandSettleFailNoColonists>
   <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>Hay enemigos en esta zona.</CommandSettleFailEnemies>
+  <!-- EN: Cannot settle here. -->
+  <CommandSettleFailGeneric>No puede establecerse aquí.</CommandSettleFailGeneric>
+
+  <!-- Camp -->
+  <!-- EN: Camp -->
+  <CommandCamp>Acampar</CommandCamp>
+  <!-- EN: Set up a temporary camp that can quickly be abandoned. -->
+  <CommandCampDesc>Establecer un campamento temporal que pueda abandonarse rápidamente.</CommandCampDesc>
+  <!-- EN: Cannot camp here. -->
+  <CommandCampFailExistingWorldObject>No se puede acampar aquí.</CommandCampFailExistingWorldObject>
   
   <!-- Abandon home -->
   <!-- EN: Abandon -->
@@ -383,6 +430,20 @@
   <CommandAddToCaravan>Añadir a la caravana</CommandAddToCaravan>
   <!-- EN: Add this person or animal to the forming caravan. -->
   <CommandAddToCaravanDesc>Añade a esta persona o animal a la caravana en formación.</CommandAddToCaravanDesc>
+  
+  <!-- Force caravan depart -->
+  <!-- EN: Force caravan departure -->
+  <CommandForceCaravanDepart>Forzar la salida de la caravana</CommandForceCaravanDepart>
+  <!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
+  <CommandForceCaravanDepartDesc>Obliga a la caravana a partir inmediatamente solo con los objetos cargados en ese momento. Los que no puedan viajar se quedarán atrás.</CommandForceCaravanDepartDesc>
+  <!-- EN: Are you sure you want to depart? -->
+  <ConfirmForceDepartIntro>¿Seguro que quieres partir?</ConfirmForceDepartIntro>
+  <!-- EN: The following items are still being loaded and will be left behind: -->
+  <ConfirmForceDepartItemsStillLoading>Los siguientes artículos todavía se están cargando y se dejarán atrás:</ConfirmForceDepartItemsStillLoading>
+  <!-- EN: The following people won't be a part of the caravan: -->
+  <ConfirmForceDepartPawnsNotLeaving>Las siguientes personas no formarán parte de la caravana:</ConfirmForceDepartPawnsNotLeaving>
+  <!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
+  <ConfirmForceDepartItemsOnPawnsNotLeaving>Los siguientes objetos se cargan en criaturas que no formarán parte de la caravana y se quedarán atrás:</ConfirmForceDepartItemsOnPawnsNotLeaving>
   
   <!-- Show map -->
   <!-- EN: Zoom in -->
@@ -433,27 +494,41 @@
   <!-- Refueling -->
   <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>Alternar repostaje automático</CommandToggleAllowAutoRefuel>
-  <!-- EN: Sets whether or not automatic refueling is allowed. -->
+  <!-- EN: This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
   <CommandToggleAllowAutoRefuelDesc>Determina si se puede o no suministrar más combustible de forma automática.</CommandToggleAllowAutoRefuelDesc>
-  
+  <!-- EN: This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}. -->
+  <CommandToggleAllowAutoRefuelDescMult>Determina si los colonos repostarán automáticamente estos edificios.\n\nEl repostaje automático está actualmente {ONOFF}.</CommandToggleAllowAutoRefuelDescMult>
+
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
   <CommandCancelLoad>Cancelar carga</CommandCancelLoad>
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>Cancela la carga de personas y objetos y eyecta todo lo que ya se haya cargado.</CommandCancelLoadDesc>
-  
+  <!-- EN: Unload all -->
+  <CommandUnload>Descargar todo</CommandUnload>
+  <!-- EN: Eject all contents from the {0}. -->
+  <CommandUnloadDesc>Expulsa todo el contenido cargado en {0}.</CommandUnloadDesc>
+
   <!-- Launch group -->
   <!-- EN: Launch -->
   <CommandLaunchGroup>Lanzar grupo</CommandLaunchGroup>
   <!-- EN: Take off and fly to a destination. -->
   <CommandLaunchGroupDesc>Inicia el proceso de elección de destino para lanzar un grupo de cápsulas de transporte. El próximo paso es escoger un objetivo. Las cápsulas despegarán y aterrizarán juntas.</CommandLaunchGroupDesc>
+  <!-- EN: Must be loaded first. -->
+  <CommandLaunchGroupFailNotLoaded>Debe cargarse primero.</CommandLaunchGroupFailNotLoaded>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Algunas de las cápsulas de transporte de este grupo no están conectadas a un puerto de abastecimiento.</CommandLaunchGroupFailNotConnectedToFuelingPort>
-  <!-- EN: Some pod launchers in this group have no fuel. -->
-  <CommandLaunchGroupFailNoFuel>Algunas lanzaderas de cápsulas de este grupo no tienen combustible.</CommandLaunchGroupFailNoFuel>
-  <!-- EN: Some pod launchers are under a roof. -->
+  <!-- EN: Roof blocking launch. -->
   <CommandLaunchGroupFailUnderRoof>Algunas lanzaderas de cápsulas están bajo techo.</CommandLaunchGroupFailUnderRoof>
-  
+  <!-- EN: Not enough fuel to launch. -->
+  <CommandLaunchGroupFailNoFuel>Algunas lanzaderas de cápsulas de este grupo no tienen combustible.</CommandLaunchGroupFailNoFuel>
+  <!-- EN: Over mass capacity. -->
+  <CommandLaunchGroupFailOverMassCapacity>Capacidad de masa excesiva.</CommandLaunchGroupFailOverMassCapacity>
+  <!-- EN: On cooldown. -->
+  <CommandLaunchGroupCooldown>En enfriamiento.</CommandLaunchGroupCooldown>
+  <!-- EN: {0} / {1} kg -->
+  <MassUsageString>{0} / {1} kg</MassUsageString>
+
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
   <CommandLoadTransporter>Cargar grupo de despegue {0}</CommandLoadTransporter>
@@ -516,7 +591,7 @@
   <!-- EN: Rest -->
   <CommandPauseCaravan>Descansar</CommandPauseCaravan>
   <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
-  <CommandToggleCaravanPauseDesc>Comienza a descansar. Esto tiene los siguientes beneficios:\n\n  - Las personas pueden interactuar socialmente\n  - El forraje será {0} veces más rápido\n  - Visibilidad multiplicada por {1}</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>Comienza a descansar. Esto tiene los siguientes beneficios:\n\n  - Las personas pueden interactuar socialmente\n  - El forrajeo será {0} veces más rápido\n  - Visibilidad multiplicada por {1}</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->
@@ -665,5 +740,29 @@
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
   <CommandNoUsesLeft>No quedan usos.</CommandNoUsesLeft>
+
+  <!-- Map Portal -->
+  <!-- EN: View {0} -->
+  <CommandViewPocketMapLabel>Vista {0}</CommandViewPocketMapLabel>
+  <!-- EN: View the connected {0} map. -->
+  <CommandViewPocketMapDesc>Ver el mapa {0} conectado</CommandViewPocketMapDesc>
+  <!-- EN: View surface -->
+  <CommandViewSurface>Ver superficie</CommandViewSurface>
+  <!-- EN: View the connected surface map. -->
+  <CommandViewSurfaceDesc>Ver el mapa de superficies conectadas.</CommandViewSurfaceDesc>
+
+  <!-- Auto-build pod -->
+  <!-- EN: Auto build transport pod -->
+  <AutoBuildTransportPod>Autoconstruir cápsula de transporte</AutoBuildTransportPod>
+  <!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
+  <AutoBuildTransportPodDesc>Si está activada, tus colonos construirán automáticamente una nueva cápsula de transporte cuando sea posible...</AutoBuildTransportPodDesc>
+  
+  <!-- Hacking gizmo -->
+  <!-- EN: Hack... -->
+  <HackGizmo>Hackear...</HackGizmo>
+  <!-- EN: Cannot hack -->
+  <CannotChooseHacker>No se puede hackear</CannotChooseHacker>
+  <!-- EN: Choose hacker -->
+  <CommandChooseHacker>Elegir hacker</CommandChooseHacker>
   
 </LanguageData>

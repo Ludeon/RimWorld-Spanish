@@ -423,9 +423,9 @@
     <li>ducked->hid</li>
   -->
   <Combat_RangedMiss.rulePack.rulesStrings>
-    <li>r_logentry->[projectile] de [INITIATOR_definite] [missed].</li>
-    <li>r_logentry->[INITIATOR_definite] falló {replace: a [ORIGINALTARGET_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
-    <li>r_logentry->[ORIGINALTARGET_definite] [avoidance], haciendo que [projectileD] de [INITIATOR_definite] [missing].</li>
+    <li>r_logentry->[projectileD] {replace: de [INITIATOR_definite]; ">el "-">del "} [missed].</li>
+    <li>r_logentry->[INITIATOR_definite] falló [RECIPIENT_nameAl] .</li>
+    <li>r_logentry->[ORIGINALTARGET_definite] [avoidance], haciendo que [projectileD] {replace: de [INITIATOR_definite]; ">el "-">del "} [missing].</li>
     <li>missed(p=4)->falló</li>
     <li>missed(p=2)->falló por un pequeño margen</li>
     <li>missed(p=2)->falló por un amplio margen</li>
@@ -435,9 +435,9 @@
     <li>missed->se enterró en el suelo</li>
     <li>missed->se precipitó al suelo y se perdió</li>
     <li>missed->cavó un hoyo en el suelo</li>
-    <li>missed(p=0.2)->pasó a menos de unos milímetros de [ORIGINALTARGET_definite]</li>
-    <li>missed->pasó a menos de unos centímetros de [ORIGINALTARGET_definite]</li>
-    <li>missed->pasó a menos de un metro de [ORIGINALTARGET_definite]</li>
+    <li>missed(p=0.2)->pasó a menos de unos milímetros {replace: de [ORIGINALTARGET_definite]; ">el "-">del "}</li>
+    <li>missed->pasó a menos de unos centímetros {replace: de [ORIGINALTARGET_definite]; ">el "-">del "}</li>
+    <li>missed->pasó a menos de un metro {replace: de [ORIGINALTARGET_definite]; ">el "-">del "}</li>
     <li>missed->se salió de su curso</li>
     <li>missing->fallara</li>
     <li>missing->fallara por un pequeño margen</li>

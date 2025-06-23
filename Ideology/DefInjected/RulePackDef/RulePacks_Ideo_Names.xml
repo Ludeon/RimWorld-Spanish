@@ -66,22 +66,25 @@
     <li>r_ideoName(p=6)->[packIdeoName]</li>
     <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix][packIdeoName]</li>
     <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix][packIdeoNameStructure]</li>
-    <li>r_ideoName(p=1)->[creed] de [packTheme]</li>
+    <li>r_ideoName(p=1)->[creed] del [packTheme]</li>
     <li>r_ideoName(p=1)->[creed] [place_adjective]</li>
     <li>r_ideoName(p=0.25)->El [memeCreed]</li>
     <li>r_ideoName(p=0.25)->La [memeCreedFem]</li>
     <li>r_ideoName(p=0.5)->[creed] [memeAdjective]</li>
     <li>r_ideoName(p=0.5)->[creedFem] [memeAdjectiveFem]</li>
-    <li>r_ideoName(p=0.2)->[creed] de [packTheme]</li>
+    <li>r_ideoName(p=0.2)->[creed] del [packTheme]</li>
     <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
     <li>r_memberName->[packMember]</li>
     <li>creed(priority=1)->[memeCreed]</li>
     <li>creedFem(priority=1)->[memeCreedFem]</li>
     <li>creed->[genericCreed]</li>
+    <li>creedFem->[genericCreedFem]</li>
     <li>genericCreed->credo</li>
-    <li>genericCreed->orden</li>
+    <li>genericCreed->círculo</li>
     <li>genericCreed->camino</li>
     <li>genericCreed->sendero</li>
+    <li>genericCreedFem->orden</li>
+    <li>genericCreedFem->hermandad</li>
     <li>hyphenPrefix->[globalHyphenPrefix]</li>
     <li>hyphenPrefix->[memeHyphenPrefix]</li>
     <li>globalHyphenPrefix(p=4)->neo</li>

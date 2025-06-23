@@ -2,7 +2,9 @@
 <LanguageData>
 
   <!-- ======================== Non-grouped ========================-->
-  
+
+  <!-- EN: Title -->
+  <ScenarioTitle>Título</ScenarioTitle>
   <!-- EN: Your faction will be a {0}. -->
   <ScenPart_PlayerFaction>Tu facción será: {0}.</ScenPart_PlayerFaction>
 
@@ -23,24 +25,27 @@
 
   <!-- EN: The stat "{0}" will be universally multiplied by {1}. -->
   <ScenPart_StatFactor>La estadística "{0}" se multiplicará universalmente por {1}.</ScenPart_StatFactor>
+  
+  <!-- EN: Select -->
+  <ScenPart_SelectQuestDef>Seleccionar</ScenPart_SelectQuestDef>
 
   <!-- Pawn modifiers -->
   <!-- EN: {0} have a {1} chance to start with {2}. -->
-  <ScenPart_PawnsHaveHediff>{0} tienen una probabilidad de {1} de empezar con {2}.</ScenPart_PawnsHaveHediff>
+  <ScenPart_PawnsHaveHediff>{0} tiene una probabilidad de {1} de empezar con {2}.</ScenPart_PawnsHaveHediff>
   <!-- EN: severity: {0} -->
   <ConfigurableSeverity>severidad: {0}</ConfigurableSeverity>
 
   <!-- EN: {0} have a {1} chance to have their {2} set between {3} and {4}. -->
-  <ScenPart_SetNeed>{0} tienen una probabilidad de {1} de tener su {2} entre {3} y {4}.</ScenPart_SetNeed>
+  <ScenPart_SetNeed>{0} tiene un {1} de probabilidad de tener su {2} entre {3} y {4}.</ScenPart_SetNeed>
   <!-- EN: level: {0} -->
   <ConfigurableLevel>nivel: {0}</ConfigurableLevel>
 
   <!-- EN: {0} have a {1} chance to start with trait: {2} -->
-  <ScenPart_PawnsHaveTrait>{0} tienen una probabilidad de {1} de empezar con el rasgo: {2}</ScenPart_PawnsHaveTrait>
+  <ScenPart_PawnsHaveTrait>{0} tiene una probabilidad de {1} de empezar con el rasgo: {2}</ScenPart_PawnsHaveTrait>
   <!-- EN: Characters and creatures explode on death ({0}, radius {1}). -->
   <ScenPart_OnPawnDeathExplode>Personajes y criaturas explotan al morir ({0}, radio {1}).</ScenPart_OnPawnDeathExplode>
   <!-- EN: {0} have a {1} chance to start naked. -->
-  <ScenPart_PawnsAreNaked>{0} tienen una probabilidad de {1} de empezar desnudo.</ScenPart_PawnsAreNaked>
+  <ScenPart_PawnsAreNaked>{0} tiene un {1} de probabilidad de empezar desnudo.</ScenPart_PawnsAreNaked>
   
   <!-- Pawn filters -->
   <!-- EN: Your people will be at least {0} years old. -->
@@ -54,6 +59,9 @@
   <ScenPart_StartWithSpecificColonists>Comienzas con {0}.</ScenPart_StartWithSpecificColonists>
   <!-- EN: {COUNT} {KINDLABEL} -->
   <PawnCount>{COUNT} {KINDLABEL}</PawnCount>
+  
+  <!-- EN: One or more parts in this scenario could not be loaded due to missing modded content.\n\nYou can load the scenario with all its required mods, or load it anyway without the missing scenario parts. -->
+  <ScenPart_Error>Una o más partes de este escenario no han podido ser cargadas debido a la falta de contenido modificado.\n\nPuedes cargar el escenario con todos sus mods requeridos, o cargarlo de todos modos sin las partes del escenario que faltan.</ScenPart_Error>
 
   <!-- ======================== Grouped ========================-->
 
@@ -69,5 +77,51 @@
   <ScenPart_CreateIncident>Incidentes creados</ScenPart_CreateIncident>
   <!-- EN: Can never build -->
   <ScenPart_DisallowBuilding>Construcción desactivada</ScenPart_DisallowBuilding>
+
+  <!-- ======================== Layers ========================-->
+  
+  <!-- EN: Tag -->
+  <ScenPart_PlanetLayerTag>Etiqueta</ScenPart_PlanetLayerTag>
+  <!-- EN: Must have a unique tag -->
+  <ScenPart_PlanetLayerTag_Error>Debe tener una etiqueta única</ScenPart_PlanetLayerTag_Error>
+  
+  <!-- EN: Settings -->
+  <ScenPart_PlanetLayerSettings>Configuración</ScenPart_PlanetLayerSettings>
+  <!-- EN: Use settings def -->
+  <ScenPart_PlanetLayerSettings_UseDef>Usar ajustes por def.</ScenPart_PlanetLayerSettings_UseDef>
+  <!-- EN: Select -->
+  <ScenPart_PlanetLayerSettings_SelectDef>Seleccionar</ScenPart_PlanetLayerSettings_SelectDef>
+  <!-- EN: Position -->
+  <ScenPart_PlanetLayerSettings_Position>Posición</ScenPart_PlanetLayerSettings_Position>
+  <!-- EN: Radius -->
+  <ScenPart_PlanetLayerSettings_Radius>Radio</ScenPart_PlanetLayerSettings_Radius>
+  <!-- EN: Use surface view angle -->
+  <ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>Usar el ángulo de visión de la superficie</ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>
+  <!-- EN: View angle -->
+  <ScenPart_PlanetLayerSettings_ViewAngle>Ver ángulo</ScenPart_PlanetLayerSettings_ViewAngle>
+  <!-- EN: Extra camera height -->
+  <ScenPart_PlanetLayerSettings_ExtraCameraAltitude>Altura extra de cámara</ScenPart_PlanetLayerSettings_ExtraCameraAltitude>
+  <!-- EN: Subdivisions -->
+  <ScenPart_PlanetLayerSettings_Subdivisions>Subdivisiones</ScenPart_PlanetLayerSettings_Subdivisions>
+  <!-- EN: Background camera offset -->
+  <ScenPart_PlanetLayerSettings_BackgroundOffset>Desfase de la cámara de fondo</ScenPart_PlanetLayerSettings_BackgroundOffset>
+  <!-- EN: Background parallax per 100 cells -->
+  <ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>Paralaje de fondo por 100 celdas</ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>
+  
+  <!-- EN: Connections -->
+  <ScenPart_PlanetLayerConnections>Conexiones</ScenPart_PlanetLayerConnections>
+  <!-- EN: Add connection -->
+  <ScenPart_PlanetLayerConnections_Add>Añadir conexión</ScenPart_PlanetLayerConnections_Add>
+  <!-- EN: No zoom -->
+  <ScenPart_PlanetLayerConnections_Zoom>Sin zoom</ScenPart_PlanetLayerConnections_Zoom>
+  <!-- EN: Zoom in -->
+  <ScenPart_PlanetLayerConnections_ZoomIn>Acercar</ScenPart_PlanetLayerConnections_ZoomIn>
+  <!-- EN: Zoom out -->
+  <ScenPart_PlanetLayerConnections_ZoomOut>Alejar</ScenPart_PlanetLayerConnections_ZoomOut>
+  <!-- EN: Fuel cost -->
+  <ScenPart_PlanetLayerConnections_Fuel>Coste de combustible</ScenPart_PlanetLayerConnections_Fuel>
+  
+  <!-- EN: Planet layer -->
+  <ScenPart_ForcedMapPlanetLayer>Capa planetaria</ScenPart_ForcedMapPlanetLayer>
 
 </LanguageData>

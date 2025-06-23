@@ -51,6 +51,13 @@
   <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
   <FilthRate.description>Cuanta suciedad produce esta criatura.\n\nLo mejor es mantener a los animales que producen suciedad al aire libre o sobre esteras de paja donde su suciedad no sea un problema.</FilthRate.description>
   
+  <!-- EN: flight cooldown -->
+  <FlightCooldown.label>Enfriamiento de vuelo</FlightCooldown.label>
+  <!-- EN: The rest time needed before this creature can fly again. -->
+  <FlightCooldown.description>El tiempo de descanso necesario antes de que esta criatura pueda volar de nuevo.</FlightCooldown.description>
+  <!-- EN: {0}s -->
+  <FlightCooldown.formatString>{0}s</FlightCooldown.formatString>
+  
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>cantidad de comida forrajeada</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
@@ -85,6 +92,13 @@
   <LifespanFactor.label>factor de esperanza de vida</LifespanFactor.label>
   <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
   <LifespanFactor.description>El factor de esperanza de vida altera la esperanza de vida efectiva de una criatura acortando o alargando el tiempo hasta que desarrolla enfermedades relacionadas con la edad. Un factor de esperanza de vida superior al 100% retrasa la aparición de enfermedades y aumenta la esperanza de vida total, mientras que un factor de esperanza de vida inferior al 100% acelera la aparición de enfermedades y reduce la esperanza de vida.</LifespanFactor.description>
+  
+  <!-- EN: max flight time -->
+  <MaxFlightTime.label>tiempo de vuelo máx.</MaxFlightTime.label>
+  <!-- EN: The maximum amount of time this creature can stay in flight before landing. -->
+  <MaxFlightTime.description>La cantidad máxima de tiempo que esta criatura puede permanecer en vuelo antes de aterrizar.</MaxFlightTime.description>
+  <!-- EN: {0}s -->
+  <MaxFlightTime.formatString>{0}s</MaxFlightTime.formatString>
   
   <!-- EN: max nutrition -->
   <MaxNutrition.label>nutrición máxima</MaxNutrition.label>
@@ -163,5 +177,10 @@
   <ToxicResistance.label>resistencia tóxica</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
   <ToxicResistance.description>Lo bien que esta criatura resiste la acumulación de tóxicos.</ToxicResistance.description>
+  
+  <!-- EN: wildness -->
+  <Wildness.label>salvajismo</Wildness.label>
+  <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
+  <Wildness.description>Las criaturas más salvajes son, por naturaleza, más difíciles de domesticar, adiestrar y manejar.</Wildness.description>
   
 </LanguageData>

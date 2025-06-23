@@ -5,22 +5,22 @@
   <!-- EN: Need throneroom -->
   <NeedThroneAssigned>Necesita sala del trono</NeedThroneAssigned>
   <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nEnsure the title holder is assigned a throne inside a throneroom.\n\nThe throneroom should be appropriately sized and decorated to satisfy the title's specific requirements.\n\nMultiple thrones may be placed in one throneroom. -->
-  <NeedThroneAssignedDesc>Uno de los tuyos posee un título noble que requiere una sala del trono, pero no hay ninguna asignada.\n\nConstruye un trono en una habitación, después asigna el trono al poseedor del título. La sala del trono debe apropiada en tamaño y decoración para cumplir los requisitos del título.</NeedThroneAssignedDesc>
+  <NeedThroneAssignedDesc>Uno de los tuyos posee un título que requiere una sala del trono, pero no hay ninguna asignada.\n\nConstruye un trono en una habitación, después asigna el trono al poseedor del título. La sala del trono debe apropiada en tamaño y decoración para cumplir los requisitos del título.</NeedThroneAssignedDesc>
 
   <!-- EN: Undignified bedroom -->
   <UndignifiedBedroom>Dormitorio indigno</UndignifiedBedroom>
   <!-- EN: One of your people has a royal title that requires a bedroom with specific features. Either no bedroom is assigned, or the assigned bedroom doesn't satisfy the requirements. -->
-  <UndignifiedBedroomDesc>Uno de los tuyos tiene un título noble que requiere una habitación con requisitos especiales. O no tiene un dormitorio asignado, o la habitación asignada es indigna para satisfacer sus requisitos.</UndignifiedBedroomDesc>
+  <UndignifiedBedroomDesc>Uno de los tuyos tiene un título de la nobleza que requiere una habitación con requisitos especiales. O no tiene un dormitorio asignado, o la habitación asignada es indigna para satisfacer sus requisitos.</UndignifiedBedroomDesc>
 
   <!-- EN: Title requires bedroom -->
   <NeedBedroomAssigned>El título necesita un dormitorio</NeedBedroomAssigned>
   <!-- EN: One of your people has a royal title that requires a personal bedroom, but no bedroom is assigned.\n\nAssign them a personal bedroom. The bedroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
-  <NeedBedroomAssignedDesc>Uno de tus colonos tiene un título noble que requiere un dormitorio privado, pero no tiene uno asignado.\n\nDebes asignarle una habitación personal. El dormitorio debe ser apropiado en tamaño y decoración para cumplir los requisitos del título.</NeedBedroomAssignedDesc>
+  <NeedBedroomAssignedDesc>Uno de tus colonos tiene un título de la nobleza que requiere un dormitorio privado, pero no tiene uno asignado.\n\nDebes asignarle una habitación personal. El dormitorio debe ser apropiado en tamaño y decoración para cumplir los requisitos del título.</NeedBedroomAssignedDesc>
 
   <!-- EN: Undignified throneroom -->
   <UndignifiedThroneroom>Sala del trono indigna</UndignifiedThroneroom>
   <!-- EN: One of your people has a royal title and a throne, but the throne room does not satisfy the title's requirements. -->
-  <UndignifiedThroneroomDesc>Uno de los tuyos tiene un título noble y un trono, pero la sala del trono no cumple con los requisitos del título.</UndignifiedThroneroomDesc>
+  <UndignifiedThroneroomDesc>Uno de los tuyos tiene un título de nobleza y un trono, pero la sala del trono no cumple con los requisitos del título.</UndignifiedThroneroomDesc>
   
   <!-- EN: No acceptable food -->
   <RoyalNoAcceptableFood>Comida indigna</RoyalNoAcceptableFood>
@@ -47,8 +47,8 @@
 
   <!-- EN: Need meditation spot -->
   <NeedMeditationSpotAlert>Se necesita un punto de meditación</NeedMeditationSpotAlert>
-  <!-- EN: These colonists have a psyfocus need or are scheduled to meditate, but don't have any meditation spots available for them.\n{0}\n\nPlace a meditation spot and ensure it is reachable and usable. Colonists will prefer the meditation spot near the best focus object they can use. -->
-  <NeedMeditationSpotAlertDesc>Estos colonos tienen necesidad de psifoco, pero no hay ningún punto de meditación disponible para ellos.\n{0}\n\nColoca un punto de meditación y asegúrate de que sea accesible y pueda usarse. Los colonos prefieren los puntos de meditación cercanos a los mejores objetos de foco que puedan usar.</NeedMeditationSpotAlertDesc>
+  <!-- EN: These colonists have a psyfocus need or are scheduled to meditate, but don't have any meditation spots available for them.\n{0}\n\nPlace a meditation spot and ensure it is reachable and usable. Colonists will prefer the meditation spot near the best focus object they can use. Colonists won't meditate in another colonist's bedroom. -->
+  <NeedMeditationSpotAlertDesc>Estos colonos tienen necesidad de psifoco, pero no hay ningún punto de meditación disponible para ellos.\n{0}\n\nColoca un punto de meditación y asegúrate de que sea accesible y pueda usarse. Los colonos prefieren los puntos de meditación cercanos a los mejores objetos de foco que puedan usar. Los colonos no meditarán en el dormitorio de otro colono.</NeedMeditationSpotAlertDesc>
 
   <!-- EN: Unusable meditation focus -->
   <UnusableMeditationFocusAlert>Foco de meditación inutilizable</UnusableMeditationFocusAlert>
@@ -56,7 +56,7 @@
   <UnusableMeditationFocusAlertDesc>Estos colonos están meditando cerca de un objeto de foco que no pueden usar.\n{0}\n\nCada persona puede meditar sobre diferentes objetos, dependiendo de sus tipos de focos de meditación. Estos dependen de sus trasfondos, rasgos, y títulos. Para ver los tipos de focos de meditación de una persona, comprueba su ventana de información seleccionando a esa persona y pulsando la tecla "i".</UnusableMeditationFocusAlertDesc>
 
   <!-- EN: Permit choice ready -->
-  <PermitChoiceReadyAlert>Elección de permiso listo</PermitChoiceReadyAlert>
+  <PermitChoiceReadyAlert>Elección de permiso</PermitChoiceReadyAlert>
   <!-- EN: {PAWN_nameDef} can choose a new permit. -->
   <PermitChoiceReadyAlertDesc>{PAWN_nameDef} puede escoger un nuevo permiso.</PermitChoiceReadyAlertDesc>
   

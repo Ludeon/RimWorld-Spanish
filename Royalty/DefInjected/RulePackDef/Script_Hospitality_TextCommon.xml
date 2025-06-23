@@ -15,7 +15,7 @@
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] suffering from paralytic abasia and must be kept in bed.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] sick with blood rot and will require daily treatment. The disease can be slowed with high-quality care and medicine, but generally cannot be cured outright. If the disease becomes severe [lodgersLabelSingOrPluralDef] will die, so ensure you have the necessary medical supplies.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] sick with blood rot and will require daily treatment. The disease can be slowed with high-quality care and medicine, but generally cannot be cured outright. If the disease becomes severe, [lodgersLabelSingOrPluralDef] will die, so ensure you have the necessary medical supplies.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nyou must keep the mood of [lodgersLabelSingOrPluralDef] above [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
@@ -85,7 +85,7 @@
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] sufriendo de abasia paralítica y [must_be] mantenerse en cama.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] con putrefacción sanguínea y [will_require] de un tratamiento diario. La enfermedad puede ser frenada con cuidados y medicinas de alta calidad, pero en general no puede ser curada de inmediato. Si la enfermedad se vuelve grave [lodgersLabelSingOrPluralDef] [will_die], así que asegúrate de tener los suministros médicos necesarios.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] con putrefacción sanguínea y [will_require] de un tratamiento diario. La enfermedad puede ser frenada con cuidados y medicinas de alta calidad, pero en general no puede ser curada de inmediato. Si la enfermedad se vuelve grave, [lodgersLabelSingOrPluralDef] [will_die], así que asegúrate de tener los suministros médicos necesarios.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\ndebes mantener el humor de [lodgersLabelSingOrPluralDef] por encima de [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
@@ -128,12 +128,12 @@
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->them</li>-->
     <li>mechViolation->logró de alguna manera enfurer a una inteligencia artificial</li>
-    <li>mechViolation->hackeo una terminal de una supercomputadora ancestral</li>
+    <li>mechViolation->hackeó una terminal de un superordenador ancestral</li>
     <li>mechViolation->mató a un niño humano que significaba mucho para un arqueoteca</li>
     <li>mechViolation->intento hackear un nodo de control mecanoide</li>
     <li>mechViolation->intento robar algo de un depósito ancestral</li>
     <li>mechViolationMultiHuman->lograron de alguna manera enfurer a una inteligencia artificial</li>
-    <li>mechViolationMultiHuman->hackearon una terminal de una supercomputadora ancestral</li>
+    <li>mechViolationMultiHuman->hackearon una terminal de un superordenador ancestral</li>
     <li>mechViolationMultiHuman->mataron a un niño humano que significaba mucho para un arqueoteca</li>
     <li>mechViolationMultiHuman->intentaron hackear un nodo de control mecanoide</li>
     <li>mechViolationMultiHuman->intentaron robar algo de un depósito ancestral</li>

@@ -23,7 +23,7 @@
   <Disable>Desactivar</Disable>
   <!-- EN: Modify -->
   <Modify>Modificar</Modify>
-  <!-- EN: Settle here anyways? -->
+  <!-- EN: Settle here anyway? -->
   <ConfirmSettle>¿Deseas asentarte aquí de todos modos?</ConfirmSettle>
   <!-- EN: add -->
   <Add>añadir</Add>
@@ -249,8 +249,8 @@
   <SelectedCharactersMustInclude>Debe incluir exactamente {SUMMARY}</SelectedCharactersMustInclude>
 
   <!-- Advanced game start options -->
-  <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>Advertencia: Vas a aterrizar en un ambiente congelado. Podría ser difícil o casi imposible sobrevivir. Si tu intención no es enfrentarte a un reto extremo, mejor escoge otro lugar, o el mismo pero en otra estación del año.</MapTemperatureDangerWarning>
+  <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
+  <MapWinterWarning>Vas a aterrizar en invierno. Podría ser difícil o casi imposible sobrevivir. Si no pretendes enfrentarte a un desafío extremo, elige otra estación.</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
   <MapSizePerformanceWarning>El juego está diseñado para jugar en mapas de tamaño mediano. ¡Estos tamaños proporcionan mucho espacio!\n\nLos mapas de gran tamaño no solo disminuyen el rendimiento, sino que también rompen el diseño del juego. La IA tomará decisiones estúpidas, y el equilibrio del juego se verá gravemente afectado de varias maneras. Estos tamaños se incluyen solo por razones de tradición y pruebas, por favor no los uses sin una razón específica.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
@@ -677,9 +677,9 @@
   <!-- EN: global post-process curve -->
   <PostCurve>Curva post-proceso global</PostCurve>
   <!-- EN: Your negotiator bonus -->
-  <YourNegotiatorBonus>Tu bono de negociador</YourNegotiatorBonus>
+  <YourNegotiatorBonus>Tu bonificación de negociador</YourNegotiatorBonus>
   <!-- EN: Trading with faction base bonus -->
-  <TradeWithFactionBaseBonus>Bono base de comercio con esta facción</TradeWithFactionBaseBonus>
+  <TradeWithFactionBaseBonus>Bonificación base de comercio con esta facción</TradeWithFactionBaseBonus>
   <!-- EN: Joins as slave -->
   <JoinsAsSlave>Se une como esclavo</JoinsAsSlave>
   <!-- EN: Joins as colonist -->
@@ -700,6 +700,8 @@
   <TradeModeTip>Volver al modo de comercio.</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>{FACTION_name} no está dispuesto a enviar una caravana porque {NEGOTIATOR_nameDef} no tiene el título de {TITLE}.</TradeCaravanRequestDeniedDueTitle>
+  <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <OrbitalTradeRequestDeniedDueTitle>La facción {FACTION_name} no está dispuesta a enviar un comerciante orbital porque {NEGOTIATOR_nameDef} carece del título {TITLE} requerido.</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -728,6 +730,10 @@
   <Send>Enviar</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>Cuantos objetos de este tipo tiene listos la colonia para cargar en la caravana.</FormCaravanColonyThingCountTip>
+  <!-- EN: Number available to transport. -->
+  <TransporterColonyThingCountTip>Número disponible para transportar</TransporterColonyThingCountTip> <!-- text_todo -->
+  <!-- EN: Number available to transfer. -->
+  <TransferMapPortalColonyThingCountTip>Número disponible para transferir</TransferMapPortalColonyThingCountTip> <!-- text_todo -->
   <!-- EN: People and animals -->
   <PawnsTab>Personas y animales</PawnsTab>
   <!-- EN: Items -->
@@ -761,7 +767,7 @@
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>Nunca se quedará sin comida</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>Un número de días aproximado antes de que la caravana se quede sin comida.\n\nEsto toma en cuenta tanto la comida para humanos como para animales y te muestra el peor escenario posible. Esto significa que después de esta cantidad de días, al menos una persona o animal se habrá quedado sin comida.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>El número aproximado de días antes de que al menos una persona o animal se quede sin comida. Las distintas especies tienen dietas diferentes, por lo que una puede quedarse sin comida antes que otras. Este valor se calcula con mayor precisión una vez elegida la ruta.\n\nAfectada por:\n - Inventario actual del peón\n - Tipo y cantidad de comida transportada\n - Miembros de la caravana y sus dietas\n - Tasa de forrajeo\n - Si los animales pueden pastar\n - Tiempo hasta que la comida se pudra\n - El clima caluroso pudre la comida más rápido.</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(solo se tiene en cuenta el primer punto intermedio)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
@@ -771,7 +777,7 @@
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>Tu caravana no tiene comida y se pondrá hambrienta muy rápidamente.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
-  <ForagedFoodPerDayTip>La cantidad promedio de comida por día que su gente buscará. Este valor cambiará a medida que viaje a través de biomas con diferentes tasas de rendimiento de forraje.</ForagedFoodPerDayTip>
+  <ForagedFoodPerDayTip>La cantidad promedio de comida por día que tus colonos forrajearán. Este valor cambiará a medida que viaje a través de biomas con diferentes capacidades de forrajeo.</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
   <ForagedFoodPerDay>Forraje por día</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
@@ -789,13 +795,13 @@
   <!-- EN: Market value -->
   <MarketValueTip>Valor de mercado</MarketValueTip>
   <!-- EN: The number of days until this item starts to rot based on the average temperature in this area. -->
-  <DaysUntilRotTip>La cantidad de días hasta que este elemento comience a pudrirse en función de la temperatura promedio en este área.</DaysUntilRotTip>
+  <DaysUntilRotTip>La cantidad de días hasta que este elemento comience a pudrirse en función de la temperatura promedio en esta área.</DaysUntilRotTip>
   <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
   <ItemNutritionTip>Cuánta nutrición proporciona este alimento.\n\nPara referencia: Una persona adulta necesita {0} de nutrición por día.</ItemNutritionTip>
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
   <AnimalCanGrazeTip>Este animal puede pastar alimentos del medio ambiente en lugar de comer alimentos transportados. El pastoreo solo es posible en algunos biomas y rangos de temperatura.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
-  <NutritionForagedPerDayTip>Nutrición forrajera por día. La cantidad real de forraje también se ve afectada por la forrajeabilidad del bioma.\n\n{0}</NutritionForagedPerDayTip>
+  <NutritionForagedPerDayTip>Nutrición por forraje al día. La cantidad real de forraje también se ve afectada por la capacidad de forrajeo del bioma.\n\n{0}</NutritionForagedPerDayTip>
   <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
   <NutritionEatenPerDayTip>Nutrición ingerida al día. Como referencia, las comidas simples tienen {0} de nutrición.</NutritionEatenPerDayTip>
   <!-- EN: Can eat -->
@@ -915,7 +921,7 @@
   <!-- EN: Research finished: {0} -->
   <ResearchFinished>Investigaciones completadas: {0}</ResearchFinished>
   <!-- EN: Research Screen -->
-  <ResearchScreen>Ver árbol de Investigaciones</ResearchScreen>
+  <ResearchScreen>Ver árbol de investigaciones</ResearchScreen>
   <!-- EN: By researching {0} you have discovered the {1} research project. -->
   <ResearchUnknownProjectRevealed>Al investigar {0}, has descubierto el proyecto {1}.</ResearchUnknownProjectRevealed>
   
@@ -948,6 +954,8 @@
   <DuplicatePolicyTip>Duplicar la política seleccionada</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>Renombrar esta política</RenamePolicyTip>
+  <!-- EN: Make this policy the default policy given to new colonists. -->
+  <DefaultPolicyTip>Haz que esta política sea la que se aplique por defecto a los nuevos colonos.</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>¿Seguro que quieres borrar la política {0}?</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -1059,6 +1067,8 @@
   <SchematicPolicy>Esquemas</SchematicPolicy>
   <!-- EN: Novels -->
   <NovelPolicy>Novelas</NovelPolicy>
+  <!-- EN: Maps -->
+  <MapPolicy>Mapas</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
@@ -1115,7 +1125,7 @@
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawns>Algunos de tus colonos o animales siguen en este área. ¿Seguro que deseas abandonarlos?\n\nLas siguientes personas y animales se perderán:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>Algunos de tus colonos o animales siguen en esta área. ¿Seguro que deseas abandonarlos?\n\nLas siguientes personas y animales se perderán:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
   <ConfirmAbandonHomeNegativeThoughts>Abandonar {0} hará que las siguientes personas tengan los siguientes pensamientos:</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
@@ -1138,8 +1148,10 @@
   <ConfirmBanishPawnDialog_IndividualThoughts>Desterrar a {1_labelShort} hará que las siguientes personas tengan los siguientes pensamientos:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>El grupo de cápsulas no está completamente cargado. Falta(n) {1_labelShort}. ¿Lanzar de todos modos?</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: The following still need to be loaded -->
+  <ConfirmSendNotCompletelyLoadedLaunchable>Todavía hay que cargar lo siguiente</ConfirmSendNotCompletelyLoadedLaunchable>
+  <!-- EN: Launch anyway? -->
+  <ConfirmSendLaunchAnyway>¿Lanzar de todos modos?</ConfirmSendLaunchAnyway>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1147,7 +1159,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>¿Seguro que quieres limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto hará lo siguiente:\n  - Añadir traducciones temporales (con etiqueta "TODO") para los textos no implementados de las carpetas "Keyed" y "DefInjected".\n  - Añadir o actualizar comentarios que contengan los textos originales sin traducir.\n  - Mover todas las traducciones de las carpetas "Keyed" y "DefInjected" a los archivos XML apropiados.\n  - Aplicar formato automático a todos los archivos XML.\n  - Actualizar nombres de definiciones retro-compatibles.\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa).\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerda reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrate de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>¿Seguro que quieres limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto hará lo siguiente:\n  - Añadir traducciones temporales (con etiqueta "TODO") para los textos no implementados de las carpetas "Keyed" y "DefInjected".\n  - Añadir o actualizar comentarios que contengan los textos originales sin traducir.\n  - Mover todas las traducciones de las carpetas "Keyed" y "DefInjected" a los archivos XML apropiados.\n  - Aplicar formato automático a todos los archivos XML.\n  - Actualizar nombres de definiciones retrocompatibles.\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa).\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerda reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrate de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sí, tengo una copia de seguridad</ConfirmCleanupTranslationFiles_Confirm>
 
@@ -1201,7 +1213,7 @@
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort} tiene resistencia zero.</AbilityCantApplyNoResistance>
   <!-- EN: {0_labelShort} is downed. -->
-  <AbilityCantApplyDowned>{0_labelShort} ha sido derribado.</AbilityCantApplyDowned>
+  <AbilityCantApplyDowned>{0_labelShort} ha sido derribad{0_gender ? o : a}.</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>No se puede usar: {0} es asexual.</AbilityCantApplyOnAsexual>
   <!-- EN: {PAWN_labelShort} has no healable injuries. -->
@@ -1413,11 +1425,19 @@
   <SearchTheMap>Buscar en el mapa actual.</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>Buscar objetos, edificios, personas, animales, plantas y más en el mapa actual.</SearchTheMapDesc>
+  <!-- EN: Search the world -->
+  <SearchTheWorld>Buscar en el mundo</SearchTheWorld>
+  <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
+  <SearchTheWorldDesc>Busca en el mundo características específicas, puntos de interés, misiones o asentamientos.</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>{0} resultados encontrados</MapSearchResults>
   <!-- EN: 1 result found -->
   <MapSearchResultSingular>1 resultado encontrado</MapSearchResultSingular>
   <!-- EN: Searching -->
   <Searching>Buscando</Searching>
+
+  <!-- UNUSED -->
+  <MapTemperatureDangerWarning>Advertencia: Vas a aterrizar en un ambiente congelado. Podría ser difícil o casi imposible sobrevivir. Si tu intención no es enfrentarte a un reto extremo, mejor escoge otro lugar, o el mismo pero en otra estación del año.</MapTemperatureDangerWarning>
+  <ConfirmSendNotCompletelyLoadedPods>El grupo de cápsulas no está completamente cargado. Falta(n) {1_labelShort}. ¿Lanzar de todos modos?</ConfirmSendNotCompletelyLoadedPods>
 
 </LanguageData>
