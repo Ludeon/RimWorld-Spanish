@@ -1021,11 +1021,11 @@
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
-  <PawnTitleDescWrap>{0} en {1}</PawnTitleDescWrap>
+  <PawnTitleDescWrap>{replace: {0}; "macho {NAME}"-"{NAME} macho"; "hembra {NAME}"-"{NAME} hembra"} de {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
   <PawnMainDescUnderFactionedWrap>{0} bajo {1}</PawnMainDescUnderFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
-  <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
+  <PawnMainDescLifestageWrap>{0} {2_lifeStageAdjective}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Facción</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
@@ -2149,7 +2149,7 @@
   <!-- EN: Cancel loading people or items into this. -->
   <CommandCancelEnterPortalDesc>Cancelar la carga de personas u objetos en esto.</CommandCancelEnterPortalDesc>
   <!-- EN: Exit {0} -->
-  <ExitPortal>Salir {0}</ExitPortal>
+  <ExitPortal>Salir de {0}</ExitPortal>
 
   <!-- CompProjectileInterceptor -->
   <!-- EN: Shield energy -->
