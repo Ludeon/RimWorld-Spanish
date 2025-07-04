@@ -18,9 +18,10 @@ _NOTA: El proceso variará ligeramente dependiendo del sistema operativo que use
 
 ### 2) Actualizar e instalar las traducciones:
 1. Abre el explorador de archivos, y dirígete a tu directorio de descargas por defecto (`~/Descargas`) donde has guardado el **script para Windows** (ver pasos arriba).
-2. Mover el script al directorio raíz del juego. Este normalmente es: `C:\Program Files (x86)\Steam\steamapps\common\RimWorld`
-3. Ejecutar el script (Clic derecho => Ejecutar con Powershell).
-4. ¡Listo! Reinicia el juego o recarga el idioma del español castellano desde el menú principal para asegurarte de que tienes la última versión disponible.
+2. Mueve el script al directorio raíz del juego. Este normalmente es: `C:\Program Files (x86)\Steam\steamapps\common\RimWorld`
+3. Comprueba, en la línea 20, que tienes la rama adecuada seleccionada. Por defecto se encuentra `master`, pero deberás modificarla a la versión que te interese entre las actualmente disponibles (`v1.4`, `v1.5`, `master`, `test-translations`).
+4. Ejecuta el script (Clic derecho => Ejecutar con Powershell).
+5. ¡Listo! Reinicia el juego o recarga el idioma del español castellano desde el menú principal para asegurarte de que tienes la última versión disponible.
 
 NOTA: Si Windows no te permite ejecutar scripts de Powershell, ejecuta con permisos de administrador en Powershell el comando `set-executionpolicy remotesigned`.
 

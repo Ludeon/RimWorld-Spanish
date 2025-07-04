@@ -9,7 +9,7 @@
 Esta es la **traducción al español** Castellano (de España) de Rimworld.
 
 Consulta esta página para obtener información sobre la licencia e información adicional sobre cómo ayudar:<br>
-[Licencia y aportar a las traducciones](http://ludeon.com/forums/index.php?topic=2933.0)
+🔗 [**Licencia y aportar a las traducciones**](http://ludeon.com/forums/index.php?topic=2933.0)
 
 ---
 
