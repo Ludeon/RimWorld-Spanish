@@ -13,7 +13,7 @@ Consulta esta página para obtener información sobre la licencia e información
 
 ---
 
-### Para una mejor comunicación entra al Discord de traducción: [RimWorld:ES](https://discord.gg/VA9u47FruM) (Actualizado el 17/04/2024).
+### Para una mejor comunicación entra al Discord de traducción: [RimWorld:ES](https://discord.gg/VA9u47FruM) (Actualizado el 04/07/2025).
 
 ### También colaboramos con [Facción Hispana](https://discord.gg/EjK52KM) (Actualizado el 20/03/2024)
 
