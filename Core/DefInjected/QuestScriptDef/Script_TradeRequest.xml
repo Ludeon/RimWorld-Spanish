@@ -2,13 +2,17 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items.[travelTime]</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Un asentamiento cercano, [settlement_label], tiene una solicitud comercial especial. Les gustaría comprar:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](valor [requestedThingMarketValue_money])\n\nSi quieres hacer el intercambio, envía una caravana con los artículos solicitados. El tiempo de viaje estimado es [estimatedTravelTime_duration].</li>
+    <li>questDescription->Un asentamiento cercano, [settlement_label], tiene una solicitud comercial especial. Les gustaría comprar:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](valor [requestedThingMarketValue_money])\n\nSi quieres hacer el intercambio, envía una caravana con los artículos solicitados.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de calidad normal o superior </li>
+    <li>travelTime(canCaravan==True,priority=1)-> El tiempo de viaje estimado es de [estimatedTravelTime_duration].</li>
     <li>qualityInfo-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
