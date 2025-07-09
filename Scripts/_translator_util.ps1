@@ -2,7 +2,7 @@
 	.SYNOPSIS
 	Este script se encarga de vincular las traducciones de tu repositorio local con el juego.
 	.DESCRIPTION
-	Este script se encarga de crear los enlaces simbÛlicos necesarios para vincular los ficheros del juego a las traducciones de tu repositorio local, para hacer el proceso de traducciÛn m·s sencillo y liviano.
+	Este script se encarga de crear los enlaces simb licos necesarios para vincular los ficheros del juego a las traducciones de tu repositorio local, para hacer el proceso de traduccion mas sencillo y liviano.
 	
 	Originalmente desarrollado por Xeros08 (Aser Granado Amores).
 
@@ -12,7 +12,7 @@
 
 
 #WARNING: Save file with "Windows-1252" encoding
-# Adding a default to avoid problems non-english characters (like 'Ò' or 'Á')
+# Adding a default to avoid problems non-english characters (like 'ù' or 'ù')
 $PSDefaultParameterValues.Add("*:Encoding", "utf8")
 
 # Variables to use
@@ -26,7 +26,7 @@ function LinkTranslationFiles {
 		Vincula las traducciones del contenido oficial indicado.
 
 		.DESCRIPTION
-		Borra las traducciones actuales de los ficheros del juego y las reemplaza por un enlace simbÛlico al repositorio local.
+		Borra las traducciones actuales de los ficheros del juego y las reemplaza por un enlace simbolico al repositorio local.
 
         .PARAMETER LocalRepoPath
 		Especifica la ruta al repositorio local.
@@ -44,7 +44,6 @@ function LinkTranslationFiles {
 		[Parameter(Mandatory=$True)] 
 		[string]$Name
 	)
-    
     # Create the path to that Content's languages folder
     $translations_folder = ".\Data\$Name\Languages\$ingame_name"
 
@@ -60,6 +59,7 @@ function LinkTranslationFiles {
 
     # Create new link
     New-Item -ItemType Junction -Path $translations_folder -Target "$LocalRepoPath\$Name"
+    Write-Host "VINCULO CREADO A $LocalRepoPath\$Name"
 }
 
 
@@ -69,7 +69,7 @@ function ValidateLocalRepoPath {
 		Valida que la ruta sea valida.
 
 		.DESCRIPTION
-		Comprueba que la ruta de a la carpeta del repositorio local sea v·lida, revisando que exista una carpeta .git, lo cual indica que la carpeta es un repositorio.
+		Comprueba que la ruta de a la carpeta del repositorio local sea valida, revisando que exista una carpeta .git, lo cual indica que la carpeta es un repositorio.
 
 		.PARAMETER Path
 		Especifica la ruta a la carpeta de tu repositorio local.
@@ -125,7 +125,7 @@ function Get-Folder {
     # Create a folder selection dialog
     $parent = New-Object System.Windows.Forms.Form -Property @{TopMost = $true; TopLevel = $true }
     $folderDialog = New-Object System.Windows.Forms.FolderBrowserDialog
-    $folderDialog.Description = "Elige la carpeta donde se encuentra tu repositorio local. DespuÈs, si se te solicita, elige la opciÛn 'SÌ a todo' (varias veces)"
+    $folderDialog.Description = "Elige la carpeta donde se encuentra tu repositorio local. DespuÈs, si se te solicita, elige la opciÛn 'S a todo' (varias veces)"
     $folderDialog.SelectedPath = [Environment]::GetFolderPath('Desktop')
 
     # Load default location
@@ -177,14 +177,15 @@ function AskLocalRepoPath {
 $local_repo = AskLocalRepoPath
 
 
-if (-not ($local_repo -eq $null)) {
+if (-not ($null -eq $local_repo)) {
     LinkTranslationFiles -LocalRepoPath $local_repo -Name "Core"
     LinkTranslationFiles -LocalRepoPath $local_repo -Name "Royalty"
     LinkTranslationFiles -LocalRepoPath $local_repo -Name "Ideology"
     LinkTranslationFiles -LocalRepoPath $local_repo -Name "Biotech"
     LinkTranslationFiles -LocalRepoPath $local_repo -Name "Anomaly"
+    LinkTranslationFiles -LocalRepoPath $local_repo -Name "Odyssey"
 
-    Write-Host "Finalizado. En caso de que vuelvas a ejecutar _update.ps1, deber·s volver a ejecutar este archivo si quieres mantener el enlace simbÛlico."
+    Write-Host "Finalizado. En caso de que vuelvas a ejecutar _update.ps1, deberùs volver a ejecutar este archivo si quieres mantener el enlace simbùlico."
     Write-Host "Presiona Enter para salir..."
     Read-Host
 }
