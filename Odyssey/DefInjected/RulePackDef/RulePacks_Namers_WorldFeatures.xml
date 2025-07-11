@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[glacialPlain_adjective] [narrative_name]</li>
+    <li>glacialPlain_adjective(p=2)->glacial</li>
+    <li>glacialPlain_adjective->frigid</li>
+    <li>glacialPlain_adjective->icy</li>
+    <li>glacialPlain_adjective->majestic</li>
+    <li>glacialPlain_adjective->frozen</li>
+    <li>terrain_word->glacier</li>
+    <li>terrain_word(p=0.5)->icefield</li>
+    <li>terrain_word(p=0.5)->icecap</li>
+    <li>terrain_word(p=0.3)->field</li>
+    <li>terrain_word(p=0.3)->glacial plain</li>
+    <li>terrain_word(p=0.3)->stretch</li>
+    <li>terrain_word(p=0.3)->tract</li>
+  -->
+  <NamerGlacialPlain.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[narrative_name] [glacialPlain_adjective]</li>
+    <li>glacialPlain_adjective(p=2)->glacial</li>
+    <li>glacialPlain_adjective->frígido</li>
+    <li>glacialPlain_adjective->helado</li>
+    <li>glacialPlain_adjective->majestuoso</li>
+    <li>glacialPlain_adjective->congelado</li>
+    <li>terrain_word->glaciar</li>
+    <li>terrain_word(p=0.5)->campo de hielo</li>
+    <li>terrain_word(p=0.5)->casquete</li>
+    <li>terrain_word(p=0.3)->campo</li>
+    <li>terrain_word(p=0.3)->planicie glacial</li>
+    <li>terrain_word(p=0.3)->extensión</li>
+    <li>terrain_word(p=0.3)->vía</li>
+  </NamerGlacialPlain.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.3)->[glowForest_adjective] [narrative_name]</li>
+    <li>glowForest_adjective(p=2)->fungal</li>
+    <li>glowForest_adjective->blooming</li>
+    <li>glowForest_adjective->dark</li>
+    <li>glowForest_adjective->overgrown</li>
+    <li>glowForest_adjective->gnarled</li>
+    <li>terrain_word(p=3)->glowforest</li>
+    <li>terrain_word->mycelium bed</li>
+    <li>terrain_word->fungal forest</li>
+    <li>terrain_word->darklands</li>
+    <li>terrain_word->dark forest</li>
+  -->
+  <NamerGlowforest.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->[narrative_name] [glowForest_adjective]</li>
+    <li>glowForest_adjective(p=2)->fúngico</li>
+    <li>glowForest_adjective->floreciente</li>
+    <li>glowForest_adjective->oscuro</li>
+    <li>glowForest_adjective->enmalezado</li>
+    <li>glowForest_adjective->nudoso</li>
+    <li>terrain_word(p=3)->lumibosque</li>
+    <li>terrain_word->lecho de micelio</li>
+    <li>terrain_word->bosque fúngico</li>
+    <li>terrain_word->tierras oscuras</li>
+    <li>terrain_word->bosque oscuro</li>
+  </NamerGlowforest.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.3)->[grasslands_adjective] [narrative_name]</li>
+    <li>grasslands_adjective(p=2)->flat</li>
+    <li>grasslands_adjective->dry</li>
+    <li>grasslands_adjective->windswept</li>
+    <li>grasslands_adjective->rolling</li>
+    <li>grasslands_adjective->endless</li>
+    <li>terrain_word(p=2)->grasslands</li>
+    <li>terrain_word(p=2)->prairie</li>
+    <li>terrain_word(p=2)->plains</li>
+    <li>terrain_word->savanna</li>
+    <li>terrain_word->steppe</li>
+    <li>terrain_word->flats</li>
+  -->
+  <NamerGrasslands.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->[narrative_name] [grasslands_adjective]</li>
+    <li>grasslands_adjective(p=2)->plano</li>
+    <li>grasslands_adjective->seco</li>
+    <li>grasslands_adjective->ventozo</li>
+    <li>grasslands_adjective->rodante</li>
+    <!-- ondulado ?-->
+    <li>grasslands_adjective->interminable</li>
+    <li>terrain_word(p=2)->pastizal</li>
+    <li>terrain_word(p=2)->pradera</li>
+    <li>terrain_word(p=2)->planicie</li>
+    <li>terrain_word->savanna</li>
+    <li>terrain_word->estepa</li>
+    <li>terrain_word->plano</li>
+  </NamerGrasslands.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.3)->[lavaField_adjective] [narrative_name]</li>
+    <li>lavaField_adjective(p=2)->volcanic</li>
+    <li>lavaField_adjective->fiery</li>
+    <li>lavaField_adjective->infernal</li>
+    <li>lavaField_adjective->burning</li>
+    <li>lavaField_adjective->blazing</li>
+    <li>terrain_word(p=3)->lava fields</li>
+    <li>terrain_word->rift</li>
+    <li>terrain_word->highland</li>
+    <li>terrain_word->magma plain</li>
+    <li>terrain_word->vent</li>
+    <li>terrain_word->furnace</li>
+    <li>terrain_word->inferno</li>
+    <li>terrain_word->range</li>
+  -->
+  <NamerLavaField.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->[narrative_name] [lavaField_adjective]</li>
+    <li>lavaField_adjective(p=2)->volcánico</li>
+    <li>lavaField_adjective->de fuego</li>
+    <li>lavaField_adjective->infernal</li>
+    <li>lavaField_adjective->llameante</li>
+    <li>lavaField_adjective->ardiente</li>
+    <li>terrain_word(p=3)->campos de lava</li>
+    <li>terrain_word->grieta</li>
+    <li>terrain_word->tierra altas</li>
+    <li>terrain_word->planicie de magma</li>
+    <li>terrain_word->respiradero</li>
+    <li>terrain_word->horno</li>
+    <li>terrain_word->infierno</li>
+    <li>terrain_word->averno</li>
+  </NamerLavaField.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[ruin_adjective] [narrative_name]</li>
+    <li>r_name(p=0.2)->the [narrative_name] [terrain_word]</li>
+    <li>ruin_adjective(p=2)->ruined</li>
+    <li>ruin_adjective->ancient</li>
+    <li>ruin_adjective->old</li>
+    <li>ruin_adjective->shattered</li>
+    <li>ruin_adjective->blighted</li>
+    <li>ruin_adjective->ashen</li>
+    <li>terrain_word(p=6)->ruins</li>
+    <li>terrain_word(p=3)->scarland</li>
+    <li>terrain_word->megastructure</li>
+    <li>terrain_word->wastelands</li>
+    <li>terrain_word->waste</li>
+    <li>terrain_word->barrens</li>
+    <li>terrain_word->vestige</li>
+    <li>terrain_word->toxlands</li>
+    <li>terrain_word->lands</li>
+    <li>terrain_word->bastion</li>
+  -->
+  <NamerScarlands.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[narrative_name] [ruin_adjective]</li>
+    <li>r_name(p=0.2)->[terrain_wordFem] [narrative_name]</li>
+    <li>r_name(p=0.2)->[terrain_word] [narrative_name]</li>
+    <li>ruin_adjective(p=2)->arruinado</li>
+    <li>ruin_adjective->ancestral</li>
+    <li>ruin_adjective->antiguo</li>
+    <li>ruin_adjective->destrozado</li>
+    <li>ruin_adjective->asolado</li>
+    <li>ruin_adjective->ceniziento</li>
+    <li>terrain_wordFem(p=6)->ruinas</li>
+    <li>terrain_wordFem(p=3)->tierras escarificadas</li>
+    <li>terrain_wordFem->megaestructura</li>
+    <li>terrain_wordFem->tierras baldías</li>
+    <li>terrain_word->desechos</li>
+    <li>terrain_word->barrancos</li>
+    <li>terrain_word->vestigio</li>
+    <li>terrain_wordFem->tierras tóxicas</li>
+    <li>terrain_wordFem->tierras</li>
+    <li>terrain_word->bastión</li>
+  </NamerScarlands.rulePack.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_name(p=2)->The [narrative_name]</li>
+    <li>r_name(p=1)->[narrative_name] [ship_word]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [Color] [ship_word]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveBadass] [ship_word]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveBadass] [bird]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveFriendly] [ship_word]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [flying_adjective] [AnimalBadass]</li>
+    <li>r_name(p=0.5)->[storyname]</li>
+    <li>r_name(p=0.2)->[Color] [greekmyth_noun]</li>
+    <li>r_name(p=0.2)->[ship_prefix] [greekmyth_noun]</li>
+    <li>ship_prefix(p=2)->the</li>
+    <li>ship_prefix(p=2)-></li>
+    <li>narrative_name->[AdjectiveNatural] [thing_badass]</li>
+    <li>narrative_name->[AdjectiveLarge] [thing_badass]</li>
+    <li>narrative_name->[Direction] [thing_badass]</li>
+    <li>narrative_name->[thing_badass]</li>
+    <li>thing_badass->[AnimalBadass]</li>
+    <li>thing_badass->[AnimalBadass]-hunter</li>
+    <li>thing_badass->triumph</li>
+    <li>thing_badass->victory</li>
+    <li>thing_badass->revenge</li>
+    <li>thing_badass->agony</li>
+    <li>thing_badass->torment</li>
+    <li>thing_badass->vengeance</li>
+    <li>thing_badass->anguish</li>
+    <li>thing_badass->misery</li>
+    <li>thing_badass->tyranny</li>
+    <li>thing_badass->terror</li>
+    <li>thing_badass->chaos</li>
+    <li>thing_badass->anarchy</li>
+    <li>storyname(p=50)->[subject]'s [story_result]</li>
+    <li>storyname(p=2)->[subject]'s [BodyPart]</li>
+    <li>storyname->[subject]'s [Gore]</li>
+    <li>subject(p=5)->[NamePerson]</li>
+    <li>subject->[Animal]</li>
+    <li>subject->[WordTribal]</li>
+    <li>subject->[PlaceOutlander]</li>
+    <li>story_result->joy</li>
+    <li>story_result->delight</li>
+    <li>story_result->wonder</li>
+    <li>story_result->pride</li>
+    <li>story_result->jewel</li>
+    <li>story_result->prize</li>
+    <li>story_result->bounty</li>
+    <li>story_result->honor</li>
+    <li>story_result->jackpot</li>
+    <li>story_result->trophy</li>
+    <li>story_result->destruction</li>
+    <li>story_result->cataclysm</li>
+    <li>story_result->ruin</li>
+    <li>story_result->deception</li>
+    <li>story_result->facade</li>
+    <li>story_result->fraud</li>
+    <li>greekmyth_noun->odyssey</li>
+    <li>greekmyth_noun->odysseus</li>
+    <li>greekmyth_noun->penelope</li>
+    <li>greekmyth_noun->telemachus</li>
+    <li>greekmyth_noun->athena</li>
+    <li>greekmyth_noun->poseidon</li>
+    <li>greekmyth_noun->scylla</li>
+    <li>greekmyth_noun->hermes</li>
+    <li>greekmyth_noun->argonaut</li>
+    <li>greekmyth_noun->hermes</li>
+    <li>greekmyth_noun->helios</li>
+    <li>greekmyth_noun->achilles</li>
+    <li>greekmyth_noun->siren</li>
+    <li>greekmyth_noun->cyclops</li>
+    <li>greekmyth_noun->medusa</li>
+    <li>greekmyth_noun->gorgon</li>
+    <li>bird->falcon</li>
+    <li>bird->eagle</li>
+    <li>bird->hawk</li>
+    <li>bird->kestrel</li>
+    <li>bird->vulture</li>
+    <li>flying_adjective(p=2)->flying</li>
+    <li>flying_adjective->airborne</li>
+    <li>flying_adjective->hovering</li>
+    <li>flying_adjective->winged</li>
+    <li>ship_word(p=5)->ship</li>
+    <li>ship_word(p=5)->gravship</li>
+    <li>ship_word(p=2)->[AdjectiveNatural]ship</li>
+    <li>ship_word->warship</li>
+    <li>ship_word->frigate</li>
+    <li>ship_word->vessel</li>
+    <li>ship_word->shuttle</li>
+    <li>ship_word->cruiser</li>
+    <li>ship_word->transport</li>
+    <li>ship_word->galley</li>
+    <li>ship_word->galleon</li>
+    <li>ship_word->longship</li>
+    <li>ship_word->freighter</li>
+    <li>ship_word->junker</li>
+    <li>ship_word->trireme</li>
+    <li>ship_word->zephyr</li>
+  -->
+  <NamerGravship.rulePack.rulesStrings>
+    <li>r_name(p=2)->El [narrative_name]</li>
+    <li>r_name(p=2)->La [narrative_nameFem]</li>
+    <li>r_name(p=1)->[ship_word] [narrative_name]</li>
+    <li>r_name(p=1.5)->[ship_wordFem] [narrative_nameFem]</li>
+    <li>r_name(p=0.5)->[ship_prefex] [ship_word] [Color]</li>
+    <li>r_name(p=0.5)->[ship_prefexFem] [ship_wordFem] [Color_Fem]</li>
+    <li>r_name(p=0.5)->[ship_prefex] [ship_word] [AdjectiveBadass]</li>
+    <li>r_name(p=0.5)->[ship_prefexFem] [ship_wordFem] [AdjectiveBadass_Fem]</li>
+    <li>r_name(p=0.5)->[ship_prefex] [bird] [AdjectiveBadass]</li>
+    <li>r_name(p=0.5)->[ship_prefex] [ship_word] [AdjectiveFriendly]</li>
+    <li>r_name(p=0.5)->[ship_prefexFem] [ship_wordFem] [AdjectiveFriendly_Fem]</li>
+    <li>r_name(p=0.5)->[ship_prefex] [AnimalBadass] [flying_adjective]</li>
+    <li>r_name(p=0.5)->[storyname]</li>
+    <li>r_name(p=0.2)->[greekmyth_noun] [Color]</li>
+    <li>r_name(p=0.2)->[greekmyth_nounFem] [Color_Fem]</li>
+    <li>r_name(p=0.2)->[ship_prefex] [greekmyth_noun]</li>
+    <li>r_name(p=0.2)->[ship_prefexFem] [greekmyth_nounFem]</li>
+    <li>ship_prefex(p=2)->el</li>
+    <li>ship_prefex(p=2)-></li>
+    <li>ship_prefexFem(p=2)->la</li>
+    <li>ship_prefexFem(p=2)-></li>
+    <li>narrative_name->[thing_badass] [AdjectiveNatural]</li>
+    <li>narrative_nameFem->[thing_badassFem] [AdjectiveNaturalFem]</li>
+    <li>narrative_name->[thing_badass] [AdjectiveLarge]</li>
+    <li>narrative_nameFem->[thing_badassFem] [AdjectiveLarge_Fem]</li>
+    <li>narrative_name->[thing_badass] [Direction]</li>
+    <li>narrative_nameFem->[thing_badassFem] [Direction]</li>
+    <li>narrative_name->[thing_badass]</li>
+    <li>narrative_nameFem->[thing_badassFem]</li>
+    <li>thing_badass->[AnimalBadass]</li>
+    <li>thing_badass->[AnimalBadass] cazador</li>
+    <li>thing_badass->triunfo</li>
+    <li>thing_badassFem->victoria</li>
+    <li>thing_badassFem->venganza</li>
+    <li>thing_badassFem->agonía</li>
+    <li>thing_badass->tormento</li>
+    <li>thing_badassFem->venganza</li>
+    <li>thing_badassFem->angustia</li>
+    <li>thing_badassFem->miseria</li>
+    <li>thing_badassFem->tiranía</li>
+    <li>thing_badass->terror</li>
+    <li>thing_badass->caos</li>
+    <li>thing_badassFem->anarquía</li>
+    <li>storyname(p=50)->[story_result] de [subject]</li>
+    <li>storyname(p=2)->[BodyPart] de [subject]</li>
+    <li>storyname->[Gore] de [subject]</li>
+    <li>subject(p=5)->[NamePerson]</li>
+    <li>subject->[Animal]</li>
+    <li>subject->[WordTribal]</li>
+    <li>subject->[PlaceOutlander]</li>
+    <li>story_result->alegría</li>
+    <li>story_result->deleite</li>
+    <li>story_result->maravilla</li>
+    <li>story_result->orgullo</li>
+    <li>story_result->joya</li>
+    <li>story_result->premio</li>
+    <li>story_result->recompensa</li>
+    <li>story_result->honor</li>
+    <li>story_result->bote</li>
+    <li>story_result->trofeo</li>
+    <li>story_result->destrucción</li>
+    <li>story_result->cataclismo</li>
+    <li>story_result->ruina</li>
+    <li>story_result->engaño</li>
+    <li>story_result->fachada</li>
+    <li>story_result->fraude</li>
+    <li>greekmyth_nounFem->odisea</li>
+    <li>greekmyth_noun->odiseo</li>
+    <li>greekmyth_nounFem->penélope</li>
+    <li>greekmyth_noun->telémaco</li>
+    <li>greekmyth_nounFem->atenea</li>
+    <li>greekmyth_noun->poseidón</li>
+    <li>greekmyth_nounFem->escila</li>
+    <li>greekmyth_noun->hermes</li>
+    <li>greekmyth_noun->argonauta</li>
+    <li>greekmyth_noun->hermes</li>
+    <li>greekmyth_noun->helio</li>
+    <li>greekmyth_noun->aquiles</li>
+    <li>greekmyth_nounFem->sirena</li>
+    <li>greekmyth_noun->cíclope</li>
+    <li>greekmyth_nounFem->medusa</li>
+    <li>greekmyth_nounFem->gorgona</li>
+    <li>bird->halcón</li>
+    <li>bird->águila</li>
+    <li>bird->búho</li>
+    <li>bird->grifo</li>
+    <li>bird->buitre</li>
+    <li>flying_adjective(p=2)->volador</li>
+    <li>flying_adjective->aéreo</li>
+    <li>flying_adjective->flotante</li>
+    <li>flying_adjective->alado</li>
+    <li>ship_wordFem(p=5)->nave</li>
+    <li>ship_wordFem(p=5)->gravinave</li>
+    <li>ship_wordFem(p=2)->nave [AdjectiveNaturalFem]</li>
+    <li>ship_word->buque de guerra</li>
+    <li>ship_wordFem->fragata</li>
+    <li>ship_wordFem->embarcación</li>
+    <li>ship_word->transbordador</li>
+    <li>ship_word->crucero</li>
+    <li>ship_word->transporte</li>
+    <li>ship_wordFem->galera</li>
+    <li>ship_word->galeón</li>
+    <li>ship_word->drakkar</li>
+    <li>ship_word->carguero</li>
+    <li>ship_wordFem->barcaza</li>
+    <li>ship_word->trirreme</li>
+    <li>ship_word->céfiro</li>
+  </NamerGravship.rulePack.rulesStrings>
+  
+</LanguageData>
