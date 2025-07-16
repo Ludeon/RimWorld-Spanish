@@ -10,12 +10,12 @@
     <li>attackReason->claim that the surveying scanner is secretly a weapon and its activation has caused psychic disturbances</li>
   -->
   <SurveySite.questContentRules.rulesStrings>
-    <li>attackReason->afirmar que el escáner de supervisión fue enviado para espiar sus rituales secretos</li>
-    <li>attackReason->decir que el sitio de supervisión infringe su territorio</li>
-    <li>attackReason->decir que fueron enviados para destruir el escáner como represalia</li>
-    <li>attackReason->afirmar que el escáner de supervisión está demasiado cerca de uno de sus escondites ocultos</li>
-    <li>attackReason->querer desguazar el equipo de supervisión para obtener piezas</li>
-    <li>attackReason->afirmar que el escáner de supervisión es secretamente un arma y su activación ha causado disturbios psíquicos</li>
+    <li>attackReason->afirman que el escáner de sondeo fue enviado para espiar sus rituales secretos</li>
+    <li>attackReason->sostienen que la zona de estudio interfiere con su territorio</li>
+    <li>attackReason->dicen que fueron enviados para destruir el escáner como represalia</li>
+    <li>attackReason->afirman que el escáner de sondeo está demasiado cerca de uno de sus escondites ocultos</li>
+    <li>attackReason->quieren desguazar el equipo de exploración para obtener piezas</li>
+    <li>attackReason->dicen que el escáner de sondeo oculta un arma secreta y que al activarse causó perturbaciones psíquicas</li>
   </SurveySite.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help defending surveying equipment at a remote site.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, the AI is offering a valuable gravtech device.</li>
@@ -23,9 +23,9 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you protect [asker_possessive] surveying operation. If you do so, [asker_pronoun] will reward you handsomely.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
   -->
   <SurveySite.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Una IA anónima ha solicitado tu ayuda para defender el equipo de supervisión en un sitio remoto.\n\nLa operación de supervisión tomará de diez a quince días y requerirá viajar a un destino remoto.\n\nA cambio de tus servicios, la IA ofrece un valioso dispositivo de gravitecnología.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_a] [asker_faction_leaderTitle] llamad[asker_o_a] [asker_nameFull] ha oído rumores de tu gravinave. Quiere supervisar una región distante y pide que protejas su equipo de supervisión.\n\nLa operación de supervisión tomará de diez a quince días y requerirá viajar a un destino remoto.\n\nA cambio de tus servicios, [asker_nameDef] ofrece un valioso dispositivo de gravitecnología.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_a] [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], solicita que protejas su operación de supervisión. Si lo haces, [asker_pronoun] te recompensará generosamente.\n\nLa operación de supervisión tomará de diez a quince días y requerirá viajar a un destino remoto.\n\nA cambio de tus servicios, [asker_nameDef] ofrece un valioso dispositivo de gravitecnología.</li>
+    <li>questDescription(askerIsNull==true)->Una IA anónima ha solicitado tu ayuda para defender el equipo de exploiración en un lugar distante.\n\nLa operación de exploiración tomará de diez a quince días y requerirá viajar a un destino remoto.\n\nA cambio de tus servicios, la IA ofrece un valioso dispositivo de gravitecnología.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_a] [asker_faction_leaderTitle] llamad[asker_o_a] [asker_nameFull] de la facción [asker_faction_name] ha oído rumores de tu gravinave. Quiere explorar una región distante y te pide que protejas a su equipo de exploración.\n\nLa operación de exploración tomará de diez a quince días y requerirá viajar a un destino remoto.\n\nA cambio de tus servicios, [asker_nameDef] ofrece un valioso dispositivo de gravitecnología.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_a] [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], solicita que protejas su operación de exploración. Si lo haces, [asker_pronoun] te recompensará generosamente.\n\nLa operación de exploración tomará de diez a quince días y requerirá viajar a un destino remoto.\n\nA cambio de tus servicios, [asker_nameDef] ofrece un valioso dispositivo de gravitecnología.</li>
   </SurveySite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Surveying [site]</li>
@@ -41,17 +41,17 @@
     <li>remote->Distant</li>
   -->
   <SurveySite.questNameRules.rulesStrings>
-    <li>questName->Supervisando [site]</li>
-    <li>questName->Supervisión [remote]</li>
+    <li>questName->Explorando [site]</li>
+    <li>questName->Exploración [remote]</li>
     <li>questName(p=0.5)->Defendiendo el escáner</li>
     <li>questName(p=0.5)->Protección remota</li>
     <li>site->el sitio</li>
     <li>site->la estación</li>
     <li>site->la defensa</li>
     <li>site->la operación</li>
-    <li>remote->Remota</li>
-    <li>remote->Regional</li>
-    <li>remote->Distante</li>
+    <li>remote->remota</li>
+    <li>remote->regional</li>
+    <li>remote->distante</li>
   </SurveySite.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <SurveySite.LetterLabelQuestExpired.slateRef>La misión expiró: [resolvedQuestName]</SurveySite.LetterLabelQuestExpired.slateRef>
