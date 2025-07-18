@@ -15,19 +15,19 @@ Consulta esta página para obtener información sobre la licencia e información
 
 ### Para una mejor comunicación entra al Discord de traducción: [RimWorld:ES](https://discord.gg/VA9u47FruM) (Actualizado el 04/07/2025).
 
-### También colaboramos con [Facción Hispana](https://discord.gg/EjK52KM) (Actualizado el 20/03/2024)
+### También colaboramos con [Facción Hispana](https://discord.gg/EjK52KM) (Actualizado el 18/07/2025)
 
 ---
 
 ### Instalación de las últimas traducciones
 
-Las traducciones que vienen con el juego no se actualizan automáticamente.
+Las traducciones que vienen con el juego no se actualizan automáticamente con lo disponible en el repositorio.
 Cada vez que el juego se actualiza, Ludeon recoge los archivos de los repositorios oficiales y los "empaqueta" para incluirlos en el juego. Esto supone que, hasta que RimWorld no se actualice, tampoco lo harán las traducciones.
 
 Si queréis actualizar las traducciones a las más recientes, de forma semiautomática, seguid nuestra
 
 <div align="center">
-	<h3> <a href="Scripts/InstallGuide.md">GUÍA DE INSTALACIÓN</a> </h3>
+	<h3> ---> <a href="Scripts/InstallGuide.md">GUÍA DE INSTALACIÓN</a> <--- </h3>
 </div>
 
 ---
