@@ -61,6 +61,7 @@
     <li>badass_concept->laughter</li>
   -->
   <NamerUniqueWeapon.rulePack.rulesStrings>
+    <li>r_weapon_name(p=2)->[weapon_type] [trait_adjective]</li>
     <li>r_weapon_name(p=2)->[weapon_noun] [weapon_adjective]</li>
     <li>r_weapon_name(p=0.5)->[weapon_type] del [badass_concept]</li>
     <li>r_weapon_name(p=0.5)->[weapon_type] de la [badass_conceptF]</li>
@@ -73,8 +74,6 @@
     <li>weapon_noun->[badass_noun]</li>
     <li>weapon_noun->[badass_concept]</li>
     <li>weapon_noun->[badass_conceptF]</li>
-    <!-- <li>weapon_adjective(p=0.001)->[trait_adjective]</li> -->
-    <li>weapon_adjective(p=2)->[badass_adjective]</li>
     <li>weapon_adjective->del [concept]</li>
     <li>weapon_adjective->de la [conceptF]</li>
     <li>badass_adjective->letal</li>
