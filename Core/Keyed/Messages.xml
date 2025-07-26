@@ -713,7 +713,7 @@
   <!-- EN: {0} has begun. -->
   <RitualBegun>{0_definite} ha comenzado.</RitualBegun>
   <!-- EN: The maximum number of {0}s is {1}. -->
-  <MaxPawnsPerRole>El número máximo de {0}es es {1}.</MaxPawnsPerRole>
+  <MaxPawnsPerRole>Solo puede haber {replace: ^{1} colonos; "^1 colonos"-"1 colono"; "^"-""} con el rol de {0}.</MaxPawnsPerRole>
   <!-- EN: Role of {0} is locked. -->
   <RoleIsLocked>El rol de {0} está bloqueado.</RoleIsLocked>
   <!-- EN: You need at least one participant. -->
