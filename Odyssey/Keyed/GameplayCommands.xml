@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine -->
+  <!-- EN: Show substructure overlay -->
+  <CommandShowSubstructureOverlay>Mostrar subestructura</CommandShowSubstructureOverlay>
+  <!-- EN: Display valid substructure in blue and invalid substructure in red. -->
+  <CommandShowSubstructureOverlayDesc>Muestra la subestructura válida en azul y la subestructura inválida en rojo.</CommandShowSubstructureOverlayDesc>
+  <!-- EN: Inspect {0_labelShort} -->
+  <CommandInspectGravEngine>Inspeccionar {0_labelShort}</CommandInspectGravEngine>
+  <!-- EN: Choose a colonist to inspect the mysterious grav engine. -->
+  <CommandInspectGravEngineDesc>Elige a un colono para inspeccionar el misterioso motor gravitacional.</CommandInspectGravEngineDesc>
+  <!-- EN: Choose navigator -->
+  <CommandChooseNavigator>Elegir navegador</CommandChooseNavigator>
+  <!-- EN: Cannot navigate -->
+  <CannotChooseNavigator>No se puede navegar</CannotChooseNavigator>
+
+  <!-- EN: Launch -->
+  <CommandLaunchGravship>Lanzar</CommandLaunchGravship>
+  <!-- EN: Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned if you don't have a grav anchor. -->
+  <CommandLaunchGravshipDesc>Elige a un colono para pilotar la gravinave. Todo lo que esté en la subestructura de la gravinave será transportado a un nuevo mapa. Tu mapa actual será abandonado si no tienes un ancla gravitacional.</CommandLaunchGravshipDesc>
+
+  <!-- EN: Allow fishing -->
+  <CommandAllowFish>Permitir pesca</CommandAllowFish>
+  <!-- EN: When disabled, colonists will never fish in this zone. -->
+  <CommandAllowFishDesc>Cuando esté desactivado, los colonos nunca pescarán en esta zona.</CommandAllowFishDesc>
+  
+  <!-- EN: Allow removing items -->
+  <CommandAllowRemovingApparel>Permitir retirar objetos</CommandAllowRemovingApparel>
+  <!-- EN: When disabled, haulers won't remove items from the outfit stand and colonists won't equip apparel unless ordered to do so. -->
+  <CommandAllowRemovingApparelDesc>Si se desactiva, los transportistas no retirarán objetos del soporte de atuendo y los colonos no se equiparán ropa a menos que se les ordene.</CommandAllowRemovingApparelDesc>
+
+  <!-- EN: No colonist capable of piloting shuttle. Requires minimum piloting ability of 10%. -->
+  <CommandShuttleNoPilot>No hay colonos capaces de pilotar la lanzadera. Se requiere una habilidad de pilotaje mínima del 10%.</CommandShuttleNoPilot>
+
+  <!-- EN: Confirm landing zone -->
+  <ConfirmLandGravship>Confirmar zona de aterrizaje</ConfirmLandGravship>
+  <!-- EN: Land your gravship in the landing zone. -->
+  <ConfirmLandGravshipDesc>Haz aterrizar tu gravinave en la zona de aterrizaje.</ConfirmLandGravshipDesc>
+  <!-- EN: Abort landing -->
+  <AbortLandGravship>Abortar aterrizaje</AbortLandGravship>
+  <!-- EN: Cancel landing on this map, and force the gravship to land nearby on the world map. Useful if you can't find a landing spot.\n\nWarning: This increases the chance of a mishap when landing. -->
+  <AbortLandGravshipDesc>Cancelar el aterrizaje en este mapa y forzar que la gravinave aterrice en una zona cercana del mapa mundial. Útil si no puedes encontrar un punto de aterrizaje.\n\nAdvertencia: Esto aumenta la probabilidad de un percance durante el aterrizaje.</AbortLandGravshipDesc>
+  <!-- EN: Aborting the landing will force your gravship to land in a random nearby location on the world map. This increases the chance of a mishap when landing.\n\nAre you sure you want to continue? -->
+  <AbortLandConfirmation>Abortar el aterrizaje forzará a tu gravinave a aterrizar en una ubicación cercana aleatoria del mapa mundial. Esto aumenta la probabilidad de un percance durante el aterrizaje.\n\n¿Estás seguro de que quieres continuar?</AbortLandConfirmation>
+  <!-- EN: Failed to find crash site. -->
+  <FailedToFindCrashSite>No se pudo encontrar el lugar del accidente.</FailedToFindCrashSite>
+  <!-- EN: You must designate a landing area for your gravship. -->
+  <GravshipLandingMarkerNotPlaced>Debes designar una zona de aterrizaje para tu gravinave.</GravshipLandingMarkerNotPlaced>
+
+  <!-- EN: Refuel from cargo -->
+  <CommandRefuelShuttleFromCargo>Reabastecer desde la carga</CommandRefuelShuttleFromCargo>
+  <!-- EN: Refuel the passenger shuttle using chemfuel stored within. -->
+  <CommandRefuelShuttleFromCargoDesc>Reabastece la lanzadera de pasajeros usando el biocombustible almacenado dentro.</CommandRefuelShuttleFromCargoDesc>
+  <!-- EN: No fuel in caravan. -->
+  <NoFuelInCaravan>No hay combustible en la caravana.</NoFuelInCaravan>
+  <!-- EN: No fuel in shuttle. -->
+  <NoFuelInShuttle>No hay combustible en la lanzadera.</NoFuelInShuttle>
+  <!-- EN: Shuttle is already fully fueled -->
+  <ShuttleFullyFueled>La lanzadera ya está completamente abastecida de combustible</ShuttleFullyFueled>
+
+  <!-- EN: Seal entrance... -->
+  <SealHatch>Sellar entrada</SealHatch>
+  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
+  <SealHatchDesc>Sellar permanentemente la entrada. Todo o cualquiera que quede abajo se perderá para siempre.</SealHatchDesc>
+
+  <!-- EN: Activate -->
+  <GravshipShieldOrderActivation>Activar</GravshipShieldOrderActivation>
+  <!-- EN: Deactivate -->
+  <GravshipShieldOrderDeactivation>Desactivar</GravshipShieldOrderDeactivation>
+  <!-- EN: Order a pawn to activate the gravship shield generator. -->
+  <GravshipShieldOrderActivationDesc>Ordena a un peón activar el generador de escudo de la gravinave.</GravshipShieldOrderActivationDesc>
+  <!-- EN: Order a pawn to deactivate the gravship shield generator. -->
+  <GravshipShieldOrderDeactivationDesc>Ordena a un peón desactivar el generador de escudo de la gravinave.</GravshipShieldOrderDeactivationDesc>
+
+  <!-- EN: Merging these caravans will cause the following to be lost:\n{0}\n\nAre you sure you want to continue? -->
+  <ConfirmMergeShuttles>Al unir estas caravanas se perderá lo siguiente:\n{0}\n\n¿Seguro que quieres continuar?</ConfirmMergeShuttles>
+</LanguageData>

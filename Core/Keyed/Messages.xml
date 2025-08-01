@@ -98,7 +98,7 @@
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{RECRUITER_labelShort} ha domesticado con éxito a {1}, y {1_objective} ha llamado {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
-  <MessageTameNoSuitablePens>No hay un corral adecuado para {ANIMAL_labelShort}. Terminará alejándose con el tiempo.</MessageTameNoSuitablePens>
+  <MessageTameNoSuitablePens>No hay un corral adecuado para {ANIMAL_labelShort}. Terminará alejándose del mapa con el tiempo.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
   <MessageRecruitJoinOfferAccepted>{RECRUITEE} se ha unido a tu colonia.</MessageRecruitJoinOfferAccepted>
 
@@ -186,7 +186,7 @@
   <MessageNoLongerDowned>{1_label} ya puede caminar.</MessageNoLongerDowned>
 
   <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
-  <MessageInvoluntarySleep>{1_labelShort} ha colapsado debido al agotamiento extremo.</MessageInvoluntarySleep>
+  <MessageInvoluntarySleep>{1_indefinite} ha colapsado debido al agotamiento extremo.</MessageInvoluntarySleep>
 
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Esta operación va a enfadar a {0}.</MessageMedicalOperationWillAngerFaction>
@@ -203,7 +203,7 @@
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
   <MessagePsylinkNoSensitivity>{PAWN_labelShort} no podrá usar el psienlace mientras tenga cero de sensibilidad psíquica.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
-  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} ha perdido un {1} nivel de implante debido a {2}.</MessageLostImplantLevelFromHediff>
+  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} ha perdido un nivel de implante de {1} debido a {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
   <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} ha sufrido {1} puntos de daño cerebral debido a {2}.</MessageReceivedBrainDamageFromHediff>
   <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
@@ -260,7 +260,7 @@
   <MessageBondedAnimalsMentalBreak>{0} animales tienen un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
   
   <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
-  <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} ha quitado con éxito el {HEDIFF} de {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
+  <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} ha quitado con éxito {HEDIFF_definite} de {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
   <MessageShipChunkDrop>Unos pedazos de nave espacial han caído cerca de aquí. Puedes deconstruirlos para obtener recursos.</MessageShipChunkDrop>
@@ -294,7 +294,7 @@
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>El proceso de formación de caravanas ha terminado.</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
-  <MessageForceSendingCaravan_AllLost>Ningún colono es capaz de formar una caravana. El proceso de formación se ha cancelado.</MessageForceSendingCaravan_AllLost> <!-- text_todo -->
+  <MessageForceSendingCaravan_AllLost>Ningún colono es capaz de formar una caravana. El proceso de formación se ha cancelado.</MessageForceSendingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>El proceso de formación de la caravana continuará cuando todos se recuperen de su colapso mental.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -359,7 +359,7 @@
   <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
   <MessageTransporterSingleLoadingProcessStarted>Los objetos y personas seleccionados se cargarán en la cápsula de transporte.</MessageTransporterSingleLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageShuttleLoadingProcessStarted>Los objetos y personas seleccionados se cargarán en el transbordador.</MessageShuttleLoadingProcessStarted> <!-- text_todo -->
+  <MessageShuttleLoadingProcessStarted>Los objetos y personas seleccionados se cargarán en el transbordador.</MessageShuttleLoadingProcessStarted>
 
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Tus cápsulas de transporte han llegado.</MessageTransportPodsArrived>
@@ -371,19 +371,19 @@
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>Tus colonos han terminado de cargar las cápsulas de transporte. Lánzalas cuando estés listo.</MessageFinishedLoadingTransporters>
   <!-- EN: {SHUTTLE_label} is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingShuttle>{SHUTTLE_label} lleva la carga necesaria y puede despegar cuando esté listo.</MessageFinishedLoadingShuttle> <!-- text_todo -->
+  <MessageFinishedLoadingShuttle>{SHUTTLE_label} lleva la carga necesaria y puede despegar cuando esté listo.</MessageFinishedLoadingShuttle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoTransporters>Tu {1} no puede terminar de cargar las cápsulas de transporte porque algunos objetos o personas ya no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
+  <MessageCantLoadMoreIntoTransporters>Tus {1} no pueden terminar de cargar las cápsulas de transporte porque algunos objetos o personas ya no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
   <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoShuttle>Tu {1} no puede terminar de cargar el transbordador porque algunos objetos o personas ya no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoShuttle> <!-- text_todo -->
+  <MessageCantLoadMoreIntoShuttle>Tus {1} no pueden terminar de cargar el transbordador porque algunos objetos o personas ya no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoShuttle>
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoPortal>Tu {1} no puede entrar a {0} porque algunos objetos o personas ya no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
+  <MessageCantLoadMoreIntoPortal>Tus {1} no pueden entrar a {0} porque algunos objetos o personas ya no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>El destino seleccionado no es válido.</MessageTransportPodsDestinationIsInvalid>
   <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
-  <MessageWorldObjectIsInvalid>{OBJECT_labelCap} no es un destino válido.</MessageWorldObjectIsInvalid> <!-- text_todo -->
+  <MessageWorldObjectIsInvalid>{OBJECT_labelCap} no es un destino válido.</MessageWorldObjectIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>Cada lanzadera de cápsulas necesita por lo menos {0}x unidades de biocombustible para enviar las cápsulas a esa distancia.</MessageTransportPodsDestinationIsTooFar>
   
@@ -713,7 +713,7 @@
   <!-- EN: {0} has begun. -->
   <RitualBegun>{0_definite} ha comenzado.</RitualBegun>
   <!-- EN: The maximum number of {0}s is {1}. -->
-  <MaxPawnsPerRole>El número máximo de {0}es es {1}.</MaxPawnsPerRole>
+  <MaxPawnsPerRole>Solo puede haber {replace: ^{1} colonos; "^1 colonos"-"1 colono"; "^"-""} con el rol de {0}.</MaxPawnsPerRole>
   <!-- EN: Role of {0} is locked. -->
   <RoleIsLocked>El rol de {0} está bloqueado.</RoleIsLocked>
   <!-- EN: You need at least one participant. -->
@@ -721,7 +721,7 @@
   <!-- EN: You need at least one spectator. -->
   <MessageRitualNeedsAtLeastOneSpectator>Necesitas al menos un espectador.</MessageRitualNeedsAtLeastOneSpectator>
   <!-- EN: {0_labelShort} is downed. -->
-  <MessageRitualPawnDowned>{0_labelShort} ha sido derribad{0_gender ? o : a}.</MessageRitualPawnDowned>
+  <MessageRitualPawnDowned>{0_labelShort} está incapacitad{0_gender ? o : a}.</MessageRitualPawnDowned>
   <!-- EN: {0_labelShort} is currently escaping. -->
   <MessageRitualPawnPrisonerNotSecured>{0_labelShort} está escapando.</MessageRitualPawnPrisonerNotSecured>
   <!-- EN: {0_labelShort} is currently rebelling. -->
@@ -831,7 +831,7 @@
   <MessageActivationCanceled>{0_labelShort} activación cancelada</MessageActivationCanceled>
 
   <!-- EN: Nothing is currently buildable in category -->
-  <NothingAvailableInCategory>Actualmente no se puede construir nada de la categoría</NothingAvailableInCategory>
+  <NothingAvailableInCategory>Actualmente no puedes construir nada de la categoría</NothingAvailableInCategory>
 
   <!-- EN: Storage settings linked for {0} buildings. -->
   <SettingsLinkedFor>Ajustes de almacenamiento vinculados para {0} construcciones.</SettingsLinkedFor>
@@ -853,9 +853,9 @@
   <MessageLodgersCantFarskip>No se puede saltar: Refugiado</MessageLodgersCantFarskip>
   
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
-  <MessageHackerLockedOut>Se ha detectado el hackeo de {HACKER_nombreDef}. {HACKER_pronoun} ha sido bloqueado durante {DURACIÓN}.</MessageHackerLockedOut>
+  <MessageHackerLockedOut>Se ha detectado el hackeo de {HACKER_nameDef}. Ha sido bloquead{HACKER_gender ? o : a} durante {DURATION}.</MessageHackerLockedOut>
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
-  <MessageHackerLockedOutPermanently>Se ha detectado el hackeo de {HACKER_nombreDef}. {HACKER_pronoun} ha sido bloqueado permanentemente.</MessageHackerLockedOutPermanently>
+  <MessageHackerLockedOutPermanently>Se ha detectado el hackeo de {HACKER_nameDef}. Ha sido bloquead{HACKER_gender ? o : a} permanentemente.</MessageHackerLockedOutPermanently>
   <!-- EN: {0_labelShort} can be hacked again. -->
   <MessageHackableUnlocked>{0_labelShort} se puede hackear nuevamente.</MessageHackableUnlocked>
 
@@ -865,6 +865,6 @@
   <MessageShuttleArrived>El transbordador ha llegado.</MessageShuttleArrived>
 
   <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
-  <MessageGroundPenetratingScannerNoBedrock>Advertencia: {THING_labelCap} no funcionará en este bioma.</MessageGroundPenetratingScannerNoBedrock> <!-- text_todo -->
+  <MessageGroundPenetratingScannerNoBedrock>Advertencia: {THING_labelCap} no funcionará en este bioma.</MessageGroundPenetratingScannerNoBedrock>
 
 </LanguageData>

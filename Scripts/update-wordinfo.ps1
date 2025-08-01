@@ -19,16 +19,22 @@ foreach ($root in $roots) {
 
     # Paths of the XML files in which the words should be searched
     $paths = @(
-        "$root\DefInjected\PawnKindDef"
+        "$root\DefInjected\BodyDef"
+        "$root\DefInjected\BodyPartDef"
+        "$root\DefInjected\BodyPartGroupDef"
+        "$root\DefInjected\ChemicalDef"
         "$root\DefInjected\FactionDef"
+        "$root\DefInjected\GameConditionDef"
+        "$root\DefInjected\HediffDef"
+        "$root\DefInjected\LandmarkDef"
+        "$root\DefInjected\MapGeneratorDef"
+        "$root\DefInjected\PawnKindDef"
+        "$root\DefInjected\PreceptDef"
+        "$root\DefInjected\RoyalTitleDef"
+        "$root\DefInjected\SitePartDef"
+        "$root\DefInjected\TerrainDef"
         "$root\DefInjected\ThingDef"
         "$root\DefInjected\WorldObjectDef"
-        "$root\DefInjected\GameConditionDef"
-        "$root\DefInjected\BodyPartDef"
-        "$root\DefInjected\BodyDef"
-        "$root\DefInjected\TerrainDef"
-        "$root\DefInjected\PreceptDef"
-        "$root\DefInjected\HediffDef"
     )
 
     # Search words in the XML files and save them in different lists of words depending on their gender

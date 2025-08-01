@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help dealing with an outlaw named [fugitive_nameDef]. The AI claims [fugitive_nameDef] is wanted for [reason_AI].\n\n[fugitive_nameDef] has stolen a transport pod and has fled to an abandoned orbital platform.\n\nHaving heard rumors of your gravship, the AI requests that you travel to the abandoned platform and kill [fugitive_nameDef]. In return, it will reward you with a gravtech device.\n\nThe AI warns you that [fugitive_nameDef] may be in the company of hostile orbital pirates.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has sent us a message. A fugitive named [fugitive_nameDef] escaped from [asker_possessive] custody and used a transport pod to flee to an abandoned orbital platform. [fugitive_nameDef] was in custody for [reason].\n\nHaving heard rumors of your gravship, the [asker_faction_leaderTitle] asks that you travel to the abandoned platform and kill [fugitive_nameDef]. If you do so, [asker_nameDef] will reward you with a gravtech device.\n\n[asker_nameDef] warns you that [fugitive_nameDef] may be in the company of hostile orbital pirates.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you track down and kill a dangerous fugitive known as [fugitive_nameDef]. The fugitive is wanted for [reason_royal].\n\n[fugitive_nameDef] is hiding out on an abandoned orbital platform and may be guarded by orbital pirates. If you kill the fugitive, [asker_nameDef] will reward you with a gravtech device.</li>
+    <li>reason_AI->the destruction of multiple high-level subpersona cores</li>
+    <li>reason_AI->deorbiting an AI satellite</li>
+    <li>reason_AI->crimes on numerous distant planets</li>
+    <li>reason_AI->unlicensed orbital trafficking of psychic artifacts</li>
+    <li>reason_AI->[reason]</li>
+    <li>reason_royal->drunkenly insulting the [asker_royalTitleInCurrentFaction] in a wedding speech</li>
+    <li>reason_royal->attempting to assassinate the [asker_royalTitleInCurrentFaction]</li>
+    <li>reason_royal->accidentally detonating a firefoam pack in an imperial shuttle</li>
+    <li>reason_royal->the improper use of a tornado generator near an imperial settlement</li>
+    <li>reason_royal->trying to orchestrate a rebellion</li>
+    <li>reason_royal->treason</li>
+    <li>reason_royal->[reason]</li>
+    <li>reason->collaborating with a sanguophage cabal</li>
+    <li>reason->trafficking dangerous psychic artifacts</li>
+    <li>reason->grand larceny and multiple counts of corporate sabotage</li>
+    <li>reason->unauthorized genetic experimentation</li>
+    <li>reason->inciting inter-factional conflict</li>
+    <li>reason->drunkenly profaning a peace ritual</li>
+    <li>reason->the destruction of an orbital trade vessel</li>
+  -->
+  <OrbitalFugitive.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Una IA anónima ha solicitado tu ayuda para tratar con un[fugitive_a] forajid[fugitive_o_a] llamad[fugitive_o_a] [fugitive_nameDef]. La IA afirma que [fugitive_nameDef] es buscad[fugitive_o_a] por [reason_AI].\n\n[fugitive_nameDef] ha robado una cápsula de transporte y ha huido a una plataforma orbital abandonada.\n\nHabiendo escuchado rumores de tu gravinave, la IA solicita que viajes a la plataforma abandonada y [fugitive_objective] mates. A cambio, te recompensará con un dispositivo de gravitecnología.\n\nLa IA te advierte que [fugitive_nameDef] puede estar acompañad[fugitive_o_a] de piratas orbitales hostiles.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_nameFull] [asker_a] [asker_faction_leaderTitle] de la facción [asker_faction_name] nos ha enviado un mensaje. Un[fugitive_a] fugitiv[fugitive_o_a] llamad[fugitive_o_a] [fugitive_nameDef] escapó de su custodia y utilizó una cápsula de transporte para huir a una plataforma orbital abandonada. [fugitive_nameDef] estaba bajo custodia por [reason].\n\nHabiendo escuchado rumores de tu gravinave, solicita que viajes a la plataforma abandonada y [fugitive_objective] mates. Si lo haces, [asker_nameDef] te recompensará con un dispositivo de gravitecnología.\n\n[asker_nameDef] te advierte que [fugitive_nameDef] puede estar acompañad[fugitive_o_a] de piratas orbitales hostiles.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_a] [asker_royalTitleInCurrentFaction] de la facción  [asker_faction_name], solicita que rastrees y elimines a un[fugitive_a] peligros[fugitive_o_a] fugitiv[fugitive_o_a] conocid[fugitive_o_a] como [fugitive_nameDef]. Se le busca por [reason_royal].\n\n[fugitive_nameDef] se está escondiendo en una plataforma orbital abandonada y puede estar protegid[fugitive_o_a] por piratas orbitales. Si [fugitive_objective] matas, [asker_nameDef] te recompensará con un dispositivo de gravitecnología.</li>
+    <li>reason_AI->la destrucción de múltiples núcleos de subpersona de alto nivel</li>
+    <li>reason_AI->sacar de órbita un satélite de IA</li>
+    <li>reason_AI->crímenes en numerosos planetas distantes</li>
+    <li>reason_AI->tráfico orbital no autorizado de artefactos psíquicos</li>
+    <li>reason_AI->[reason]</li>
+    <li>reason_royal->insultar en estado de ebriedad [asker_a_al] [asker_royalTitleInCurrentFaction] en un discurso de boda</li>
+    <li>reason_royal->intentar asesinar [asker_a_al] [asker_royalTitleInCurrentFaction]</li>
+    <li>reason_royal->detonar accidentalmente un paquete de espuma cortafuego en un transbordador imperial</li>
+    <li>reason_royal->el uso inapropiado de un generador de tornados cerca de un asentamiento imperial</li>
+    <li>reason_royal->intentar orquestar una rebelión</li>
+    <li>reason_royal->traición</li>
+    <li>reason_royal->[reason]</li>
+    <li>reason->colaborar con una cabala de sanguífagos</li>
+    <li>reason->tráfico de artefactos psíquicos peligrosos</li>
+    <li>reason->múltiples cargos de sabotaje corporativo y un gran robo</li>
+    <li>reason->experimentación genética no autorizada</li>
+    <li>reason->incitar conflictos interfaccionales</li>
+    <li>reason->profanar en estado de ebriedad un ritual de paz</li>
+    <li>reason->la destrucción de una nave comercial orbital</li>
+    <li>fugitive_o_a(fugitive_gender!=Female)->o</li>
+    <li>fugitive_o_a(fugitive_gender==Female)->a</li>
+    <li>fugitive_a(fugitive_gender!=Female)-></li>
+    <li>fugitive_a(fugitive_gender==Female)->a</li>
+  </OrbitalFugitive.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The Hunt for [fugitive_nameDef]</li>
+    <li>questName->A Bounty for [fugitive_nameDef]</li>
+    <li>questName->[fugitive_nameDef] the [criminal]</li>
+    <li>questName->The Orbital [criminal]</li>
+    <li>criminal->Criminal</li>
+    <li>criminal->Fugitive</li>
+    <li>criminal->Outlaw</li>
+    <li>criminal->Felon</li>
+    <li>criminal->Renegade</li>
+  -->
+  <OrbitalFugitive.questNameRules.rulesStrings>
+    <li>questName->La caza de [fugitive_nameDef]</li>
+    <li>questName->Una recompensa por [fugitive_nameDef]</li>
+    <li>questName->El [criminalM] [fugitive_nameDef]</li>
+    <li>questName->La [criminalF] [fugitive_nameDef]</li>
+    <li>questName->El [criminal] orbital</li>
+    <li>criminal->criminal</li>
+    <li>criminal->fugitivo</li>
+    <li>criminal->forajido</li>
+    <li>criminal->delincuente</li>
+    <li>criminal->renegado</li>
+    <li>criminalMale->criminal</li>
+    <li>criminalMale->fugitivo</li>
+    <li>criminalMale->forajido</li>
+    <li>criminalMale->delincuente</li>
+    <li>criminalMale->renegado</li>
+    <li>criminalFem->criminal</li>
+    <li>criminalFem->fugitiva</li>
+    <li>criminalFem->forajida</li>
+    <li>criminalFem->delincuente</li>
+    <li>criminalFem->renegada</li>
+    <li>criminalF(fugitive_gender==Female)->[criminalFem]</li>
+    <li>criminalM(fugitive_gender!=Female)->[criminalMale]</li>
+  </OrbitalFugitive.questNameRules.rulesStrings>
+  
+</LanguageData>

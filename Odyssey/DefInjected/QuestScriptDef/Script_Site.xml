@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>attackReason->claim the surveying scanner was sent to spy on their secret rituals</li>
+    <li>attackReason->say the surveying site infringes on their territory</li>
+    <li>attackReason->say they were sent to destroy the scanner as payback</li>
+    <li>attackReason->claim the surveying scanner is too close to one of their hidden stashes</li>
+    <li>attackReason->want to scrap the surveying equipment for parts</li>
+    <li>attackReason->claim that the surveying scanner is secretly a weapon and its activation has caused psychic disturbances</li>
+  -->
+  <SurveySite.questContentRules.rulesStrings>
+    <li>attackReason->afirman que el escáner de sondeo fue enviado para espiar sus rituales secretos</li>
+    <li>attackReason->sostienen que la zona de estudio interfiere con su territorio</li>
+    <li>attackReason->dicen que fueron enviados para destruir el escáner como represalia</li>
+    <li>attackReason->afirman que el escáner de sondeo está demasiado cerca de uno de sus escondites ocultos</li>
+    <li>attackReason->quieren desguazar el equipo de exploración para obtener piezas</li>
+    <li>attackReason->dicen que el escáner de sondeo oculta un arma secreta y que al activarse causó perturbaciones psíquicas</li>
+  </SurveySite.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help defending surveying equipment at a remote site.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, the AI is offering a valuable gravtech device.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has heard rumors of your gravship. [asker_pronoun] wants to survey a distant region and asks that you protect [asker_possessive] surveying equipment.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you protect [asker_possessive] surveying operation. If you do so, [asker_pronoun] will reward you handsomely.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
+  -->
+  <SurveySite.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Una IA anónima ha solicitado tu ayuda para defender el equipo de exploración en un lugar distante.\n\nLa operación de exploración tomará de diez a quince días y requerirá viajar a un destino remoto.\n\nA cambio de tus servicios, la IA ofrece un valioso dispositivo de gravitecnología.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_a] [asker_faction_leaderTitle] llamad[asker_o_a] [asker_nameFull] de la facción [asker_faction_name] ha oído rumores de tu gravinave. Quiere explorar una región distante y te pide que protejas a su equipo de exploración.\n\nLa operación de exploración tomará de diez a quince días y requerirá viajar a un destino remoto.\n\nA cambio de tus servicios, [asker_nameDef] ofrece un valioso dispositivo de gravitecnología.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_a] [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], solicita que protejas su operación de exploración. Si lo haces, [asker_pronoun] te recompensará generosamente.\n\nLa operación de exploración tomará de diez a quince días y requerirá viajar a un destino remoto.\n\nA cambio de tus servicios, [asker_nameDef] ofrece un valioso dispositivo de gravitecnología.</li>
+  </SurveySite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Surveying [site]</li>
+    <li>questName->[remote] Survey</li>
+    <li>questName(p=0.5)->Defending the Scanner</li>
+    <li>questName(p=0.5)->Remote Protection</li>
+    <li>site->Site</li>
+    <li>site->Station</li>
+    <li>site->Defense</li>
+    <li>site->Operation</li>
+    <li>remote->Remote</li>
+    <li>remote->Regional</li>
+    <li>remote->Distant</li>
+  -->
+  <SurveySite.questNameRules.rulesStrings>
+    <li>questName->Explorando [site]</li>
+    <li>questName->Exploración [remote]</li>
+    <li>questName(p=0.5)->Defendiendo el escáner</li>
+    <li>questName(p=0.5)->Protección remota</li>
+    <li>site->el sitio</li>
+    <li>site->la estación</li>
+    <li>site->la defensa</li>
+    <li>site->la operación</li>
+    <li>remote->remota</li>
+    <li>remote->regional</li>
+    <li>remote->distante</li>
+  </SurveySite.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <SurveySite.LetterLabelQuestExpired.slateRef>La misión expiró: [resolvedQuestName]</SurveySite.LetterLabelQuestExpired.slateRef>
+  <!-- EN: The scanner has gone offline. The quest [resolvedQuestName] has expired. -->
+  <SurveySite.LetterTextQuestExpired.slateRef>El escáner se ha desconectado. La misión [resolvedQuestName] ha expirado.</SurveySite.LetterTextQuestExpired.slateRef>
+  <!-- EN: {BASETEXT}\n\nThe [enemyFaction_pawnsPlural] [attackReason]. -->
+  <SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>{BASETEXT}\n\nLos [enemyFaction_pawnsPlural] [attackReason].</SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>
+  <!-- EN: Quest completed -->
+  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>Misión completada</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>
+  <!-- EN: You have successfully completed the quest '[resolvedQuestName]'! -->
+  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>¡Has completado con éxito la misión "[resolvedQuestName]"!</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

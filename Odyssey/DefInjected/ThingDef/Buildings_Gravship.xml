@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: small chemfuel tank -->
+  <ChemfuelTank.label>tanque pequeño de biocombustible</ChemfuelTank.label>
+  <!-- EN: A chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
+  <ChemfuelTank.description>Un tanque de almacenamiento de biocombustible que suministra combustible para los propulsores de una gravinave.</ChemfuelTank.description>
+  <!-- EN: Chemfuel -->
+  <ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>Biocombustible</ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <ChemfuelTank.comps.CompRefuelable.fuelLabel>Biocombustible</ChemfuelTank.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: fuel optimizer -->
+  <FuelOptimizer.label>optimizador de combustible</FuelOptimizer.label>
+  <!-- EN: A gravtech unit that allows grav engine lift to coordinate more efficiently with traditional thrusters. It reduces the fuel needed for gravship flight.\n\nA gravship can support two fuel optimizers. -->
+  <FuelOptimizer.description>Una unidad de gravitecnología que permite a la elevación del motor gravitacional coordinarse más eficientemente con los propulsores tradicionales. Reduce el combustible necesario para el vuelo de la gravinave.\n\nUna gravinave puede soportar dos optimizadores de combustible.</FuelOptimizer.description>
+  
+  <!-- EN: grav anchor -->
+  <GravAnchor.label>ancla gravitacional</GravAnchor.label>
+  <!-- EN: Prevents the local map from being destroyed during a gravship launch.\n\nGrav anchors passively reduce unstable gravitation shear in a large area, which prevents the damaging effects of a gravship launch. It can't be constructed on the gravship itself because it would prevent flight entirely. -->
+  <GravAnchor.description>Evita que el mapa local se abandone durante el lanzamiento de una gravinave.\n\nLas anclas gravitacionales reducen pasivamente el campo gravitacional fluctuante inestable en un área amplia, permitiendo que las gravinaves se lancen siguiendo los límites de resonancia, evitando los efectos dañinos de un lanzamiento de una gravinave. No puede construirse sobre la gravinave porque impediría su vuelo.</GravAnchor.description>
+  
+  <!-- EN: gravcore power cell -->
+  <GravcorePowerCell.label>célula de energía de gravinúcleo</GravcorePowerCell.label>
+  <!-- EN: A power generator that passively draws a small amount of energy from gravitational waves passing through the gravship. -->
+  <GravcorePowerCell.description>Un generador de energía que extrae pasivamente una pequeña cantidad de energía de las ondas gravitacionales que atraviesan la gravinave.</GravcorePowerCell.description>
+  
+  <!-- EN: grav engine -->
+  <GravEngine.label>motor gravitacional</GravEngine.label>
+  <!-- EN: The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Without a grav anchor, launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds. -->
+  <GravEngine.description>El corazón de ultratecnología de una gravinave. El motor gravitacional genera elevación al invertir e intensificar el efecto de la gravedad en un campo a su alrededor. Este motor puede elevarse, pero no produce empuje hacia adelante. No puede funcionar lejos de un pozo gravitatorio grande como un planeta, por lo que es inútil para viajes interplanetarios.\n\nCuando se lanza, cualquier cosa en la subestructura que esté conectada al motor gravitacional será transportada a un nuevo mapa. A menos que construyas un ancla gravitacional, lanzar una gravinave hará que abandones tu mapa actual.\n\nLos ingenieros de mundobrillante usan gravinaves para lanzar plataformas orbitales y construir desgarradores celestiales. Requieren enormes instalaciones e hiperespecializadas para producirlas, lo que las hace una vista rara fuera de los mundobrillantes.</GravEngine.description>
+  
+  <!-- EN: grav field extender -->
+  <GravFieldExtender.label>extensor de campo gravitacional</GravFieldExtender.label>
+  <!-- EN: An ultratech device used to increase the size of a gravship. It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support. Must be built near a grav engine.\n\nA gravship can support up to six grav field extenders. -->
+  <GravFieldExtender.description>Un dispositivo de ultratecnología utilizado para incrementar el tamaño de una gravinave. Amplía el área en la que se puede construir la subestructura y aumenta la cantidad de subestructura que una gravinave puede soportar. Debe ser construido cerca de un motor gravitacional.\n\nUna gravinave puede soportar hasta seis extensores de campo gravitacional.</GravFieldExtender.description>
+  
+  <!-- EN: gravship hull -->
+  <GravshipHull.label>casco de gravinave</GravshipHull.label>
+  <!-- EN: A strong airtight wall that prevents oxygen leaks in the vacuum of space. The wall connects directly into the underlying substructure, meaning it can only be built on a gravship. -->
+  <GravshipHull.description>Una pared fuerte y hermética que previene fugas de oxígeno en el vacío del espacio. La pared se conecta directamente a la subestructura subyacente, lo que significa que solo puede construirse en una gravinave.</GravshipHull.description>
+  
+  <!-- EN: gravship shield generator -->
+  <GravshipShieldGenerator.label>generador de escudo de gravinave</GravshipShieldGenerator.label>
+  <!-- EN: A shielding device that can protect a gravship. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out.\n\nIt must be charged before use. One gravship can support two gravship shield generators. -->
+  <GravshipShieldGenerator.description>Un dispositivo de protección que puede proteger una gravinave. Modula el campo de gravedad para crear una superficie repulsora de momentum de corta duración que bloquea proyectiles. Funciona contra disparos normales y morteros. Los que están dentro todavía pueden disparar hacia afuera.\n\nDebe ser cargado antes de su uso. Una gravinave puede soportar dos generadores de escudo de gravinave.</GravshipShieldGenerator.description>
+  <!-- EN: activate -->
+  <GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>activar</GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>
+  
+  <!-- EN: large chemfuel tank -->
+  <LargeChemfuelTank.label>tanque grande de biocombustible</LargeChemfuelTank.label>
+  <!-- EN: A massive chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
+  <LargeChemfuelTank.description>Un tanque enorme de almacenamiento de biocombustible que suministra combustible para los propulsores de una gravinave.</LargeChemfuelTank.description>
+  <!-- EN: Chemfuel -->
+  <LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>Biocombustible</LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <LargeChemfuelTank.comps.CompRefuelable.fuelLabel>Biocombustible</LargeChemfuelTank.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: large thruster -->
+  <LargeThruster.label>propulsor grande</LargeThruster.label>
+  <!-- EN: An advanced chemfuel thruster with a heat-resistant vacstone liner. It greatly increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nRequires vacstone blocks, which can be obtained from orbital asteroids.\n\nA gravship can support up to six large thrusters. -->
+  <LargeThruster.description>Un propulsor avanzado de biocombustible con un revestimiento de vaciorita resistente al calor. Incrementa enormemente el alcance de una gravinave. Los propulsores requieren un área despejada libre de grandes edificaciones y subestructura de gravinave.\n\nRequiere bloques de vaciorita, que pueden ser obtenidos de asteroides orbitales.\n\nUna gravinave puede soportar hasta seis propulsores grandes.</LargeThruster.description>
+  
+  <!-- EN: minified thing -->
+  <MinifiedGravEngine.label>cosa miniaturizada</MinifiedGravEngine.label>
+  
+  <!-- EN: pilot console -->
+  <PilotConsole.label>consola de piloto</PilotConsole.label>
+  <!-- EN: An interface that allows launching and piloting a gravship. It draws power directly from the grav engine. -->
+  <PilotConsole.description>Una interfaz que permite lanzar y pilotar una gravinave. Se alimenta directamente del motor gravitacional.</PilotConsole.description>
+  
+  <!-- EN: pilot subpersona core -->
+  <PilotSubpersonaCore.label>núcleo subpersona de piloto</PilotSubpersonaCore.label>
+  <!-- EN: A low-grade subpersona specialized in gravship flight. It reduces the chance of an accident when flying a gravship, though it can't fully account for human error.\n\nA gravship can support up to two pilot subpersona cores. -->
+  <PilotSubpersonaCore.description>Una IA de bajo grado especializada en el vuelo de gravinaves. Reduce la probabilidad de un accidente al volar una gravinave, aunque no puede compensar completamente el error humano.\n\nDebe ser instalado cerca de una consola de piloto. Una consola de piloto puede soportar hasta dos núcleos de subpersona de piloto.</PilotSubpersonaCore.description>
+  
+  <!-- EN: mechanoid ship chunk -->
+  <ShipChunk_Mech.label>trozo de nave mecanoide</ShipChunk_Mech.label>
+  <!-- EN: A chunk of mechanoid spacecraft made of steel and gravlite panels. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nDeconstruct it to obtain valuable resources. -->
+  <ShipChunk_Mech.description>Un fragmento de nave espacial mecanoide hecho de acero y paneles de gravilita. Parece haber sido arrancado ya sea por fuerzas de reentrada descontrolada o algún tipo de arma.\n\nDeconstrúyelo para obtener recursos valiosos.</ShipChunk_Mech.description>
+  <!-- EN: Deconstruct for valuable resources. -->
+  <ShipChunk_Mech.comps.CompInspectString.inspectString>Deconstrúyelo para obtener recursos valiosos.</ShipChunk_Mech.comps.CompInspectString.inspectString>
+  
+  <!-- EN: signal jammer -->
+  <SignalJammer.label>inhibidor de señales</SignalJammer.label>
+  <!-- EN: A signal emitter that disguises the electromagnetic signature of your gravship, allowing it to approach heavily-defended landing sites. -->
+  <SignalJammer.description>Un emisor de señales que disfraza la firma electromagnética de tu gravinave, permitiéndole acercarse a sitios de aterrizaje fuertemente defendidos.</SignalJammer.description>
+  
+  <!-- EN: small thruster -->
+  <SmallThruster.label>propulsor pequeño</SmallThruster.label>
+  <!-- EN: A chemfuel thruster that increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nA gravship can support up to four small thrusters. -->
+  <SmallThruster.description>Un propulsor de biocombustible que aumenta el alcance de una gravinave. Los propulsores requieren un área despejada libre de grandes edificios y subestructura de gravinave.\n\nUna gravinave puede soportar hasta cuatro propulsores pequeños.</SmallThruster.description>
+  
+</LanguageData>

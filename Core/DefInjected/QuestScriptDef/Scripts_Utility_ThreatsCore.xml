@@ -5,8 +5,8 @@
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
       <li>root(priority=1,sitePart==ClimateAdjuster)->hay (*Threat)una máquina reguladora del clima(/Threat) que está cambiando la temperatura regional en [temperatureOffset]</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->hay (*Threat)una máquina de zumbido psíquico(/Threat) sintonizada con el género [affectedGender]</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->hay (*Threat)una máquina represión psíquica(/Threat) sintonizada con el género [affectedGender]</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->hay (*Threat)una máquina de zumbido psíquico(/Threat) sintonizada para afectar a {replace: [affectedGender]; "hombre"-"hombres"; "mujer"-"mujeres"}</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->hay (*Threat)una máquina represión psíquica(/Threat) sintonizada para afectar a {replace: [affectedGender]; "hombre"-"hombres"; "mujer"-"mujeres"}</li>
       <li>root(priority=1,sitePart==WeatherController)->hay (*Threat)una máquina controladora del clima(/Threat) que está forzando al clima de toda la región a generar [weather_label]</li>
       <li>root(priority=1,sitePart==SmokeSpewer)->hay (*Threat)una máquina generadora humo(/Threat) que expulsa humo por toda la región</li>
       <li>root(priority=1,sitePart==SunBlocker)->hay (*Threat)una máquina bloqueadora del sol(/Threat) que sombrea toda la región</li>
@@ -16,10 +16,10 @@
       <li>root(priority=1,sitePart==Outpost)->hay un puesto de avanzada enemigo en el sitio custodiado por (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li>
       <li>root(priority=1,sitePart==BanditCamp)->hay un campamento de bandidos en el sitio custodiado por (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li>
       <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)[count] [kindLabel] cazahombres(/Threat) deambula cerca</li>
-      <li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] [kindLabel] cazahombres(/Threat) están deambulando cerca</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)un mecanoide(/Threat) está durmiendo cerca</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mecaniódes(/Threat) están durmiendo cerca</li>
-      <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) defienden el sitio</li>
+      <li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] [kindLabel] cazahombres(/Threat) deambulan cerca</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)un mecanoide(/Threat) hiberna en la zona</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mecanoides(/Threat) hibernan en la zona</li>
+      <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) defienden el lugar</li>
       <li>root(priority=1,sitePart==AmbushEdge)->(*Threat)una fuerza enemiga(/Threat) intenta emboscar a cualquiera que se acerque</li>
       <li>root(priority=1,sitePart==AmbushHidden)->(*Threat)una fuerza enemiga(/Threat) está esperando emboscar a cualquiera que se acerque</li>
       <li>root(priority=1,sitePart==MechCluster)->hay (*Threat)un clúster de estructuras mecanoides hostiles(/Threat)</li>

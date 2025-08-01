@@ -245,7 +245,7 @@
   <!-- EN: Ideal fermenting temperature -->
   <IdealFermentingTemperature>Temperatura de fermentación ideal</IdealFermentingTemperature>
   <!-- EN: {0} effect multiplier: {1} -->
-  <DrugEffectMultiplier>{0} efecto de multiplicador: {1}</DrugEffectMultiplier>
+  <DrugEffectMultiplier>efecto de multiplicador de {0}: {1}</DrugEffectMultiplier>
   <!-- EN: Visiting {0}. -->
   <CaravanVisiting>Visitando {0}.</CaravanVisiting>
   <!-- EN: Entering {0}. -->
@@ -353,7 +353,7 @@
   <!-- EN: Replaces -->
   <Replaces>Sustituye</Replaces>
   <!-- EN: missing {0} -->
-  <MissingPartWithLabel>falta {0}</MissingPartWithLabel> <!-- text_todo -->
+  <MissingPartWithLabel>falta {0}</MissingPartWithLabel>
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}x de</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -481,7 +481,7 @@
   <!-- EN: Foliage kill radius -->
   <FoliageKillRadius>Radio de defoliación</FoliageKillRadius>
   <!-- EN: View: {0} -->
-  <ViewHyperlink>Vista: {0}</ViewHyperlink>
+  <ViewHyperlink>Ver: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>Detona en {0} días</DetonationCountdown>
   <!-- EN: Large explosion if damaged. -->
@@ -501,7 +501,7 @@
   <!-- EN: {0} killed -->
   <PawnsKilled>{0} asesinatos</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
-  <PawnsLent>{0} ha sido enviado, volverá en {1}</PawnsLent>
+  <PawnsLent>Se ha enviado a {0}, volverá en {1}</PawnsLent>
   <!-- EN: Dormant -->
   <DormantCompInactive>Durmiente</DormantCompInactive>
   <!-- EN: Sealed -->
@@ -601,7 +601,7 @@
   <!-- EN: Activate -->
   <Activate>Activar</Activate> 
   <!-- EN: Deactivate -->
-  <Deactivate>Desactivar</Deactivate> <!-- text_todo -->
+  <Deactivate>Desactivar</Deactivate>
   <!-- EN: Activation -->
   <Activation>Activación</Activation>
   <!-- EN: complete -->
@@ -654,7 +654,7 @@
   <!-- EN: Random find interval -->
   <ScanAverageInterval>Intervalo de búsqueda aleatorio</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
-  <ScanningProgressToGuaranteedFind>Progreso para garantizar búsqueda</ScanningProgressToGuaranteedFind>
+  <ScanningProgressToGuaranteedFind>Progreso hasta descubrimiento garantizado</ScanningProgressToGuaranteedFind>
   
   <!-- Meditation -->
   <!-- EN: meditating at -->
@@ -686,7 +686,7 @@
   <!-- EN: Product\nwasted -->
   <TextMote_ProductWasted>Producción\nfallida</TextMote_ProductWasted>
   <!-- EN: Recruit failed!\n{0} chance -->
-  <TextMote_RecruitFail>Reclutamiento fallido\n{0} de probabilidad</TextMote_RecruitFail>
+  <TextMote_RecruitFail>¡Reclutamiento fallido!\n{0} de probabilidad</TextMote_RecruitFail>
   <!-- EN: Resistance\n{0} to {1} -->
   <TextMote_ResistanceReduced>Resistencia\n{0} de {1}</TextMote_ResistanceReduced>
   <!-- EN: Tame failed\n{0} chance -->
@@ -847,7 +847,7 @@
 
   <!-- Snow -->
   <!-- EN: Snow -->
-  <Snow>Nieve </Snow>
+  <Snow>Nieve</Snow>
   <!-- EN: No snow -->
   <SnowNone>Sin nieve</SnowNone>
   <!-- EN: dusting -->
@@ -1163,7 +1163,7 @@
   <!-- EN: Fully grown in {0} of growth. -->
   <FullyGrownIn>Crecerá por completo al {0} de crecimiento.</FullyGrownIn>
   <!-- EN: needs light level -->
-  <PlantNeedsLightLevel>necesita más luz</PlantNeedsLightLevel>
+  <PlantNeedsLightLevel>necesita un nivel de luz del</PlantNeedsLightLevel>
   <!-- EN: resting -->
   <PlantResting>descansando</PlantResting>
   <!-- EN: temperature growth multiplier {0}% -->
@@ -1329,7 +1329,7 @@
 
   <!-- Building placement restricters -->
   <!-- EN: {0} will have work speed penalty -->
-  <WillGetWorkSpeedPenalty>{0} tendrá una penalización en su velocidad de trabajo</WillGetWorkSpeedPenalty>
+  <WillGetWorkSpeedPenalty>{0_definite} tendrá una penalización en su velocidad de trabajo</WillGetWorkSpeedPenalty>
   <!-- EN: Cannot be placed under a roof. -->
   <MustPlaceUnroofed>No se puede colocar bajo techo.</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
@@ -1375,7 +1375,7 @@
   <!-- EN: Contains -->
   <CasketContains>Contiene</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>¡Advertencia!\n\n¡{PAWN_nameDef} es tu último colon{PAWN_gender ? o : a} en pie! Si {PAWN_objective} dejas entrar en ese sarcófago, no podrás seguir jugando. ¿Seguro que quieres continuar?</CasketWarning>
+  <CasketWarning>¡Advertencia!\n\n¡{PAWN_nameDef} es tu últim{PAWN_gender ? o : a} colon{PAWN_gender ? o : a} en pie! Si {PAWN_objective} dejas entrar en ese sarcófago, no podrás seguir jugando. ¿Seguro que quieres continuar?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -1663,7 +1663,7 @@
   <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
   <PawnTooltipPsychicEntropyStats>Tasa de caída: {0} / s ({1}s hasta cero)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>El calentamiento neural aumenta después de usar una habilidad psíquica. Superar el límite normal puede causar un colapso psíquico que dura días.\n\nEl calentamiento neural se disipa naturalmente con el tiempo. Este proceso puede acelerarse usando ropa éltex o sufriendo dolor.</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>El calentamiento neural aumenta después de usar una habilidad psíquica. Superar el límite normal puede causar un colapso psíquico que dura días.\n\nEl calentamiento neural se disipa de forma natural con el tiempo. Este proceso puede acelerarse usando ropa éltex o sufriendo dolor.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Mejora por dolor\n\nEl dolor enfoca la mente y acelera la disipación del calentamiento neural.\n\nNivel de dolor: {0}\nBonificación a la recuperación del calentamiento neural: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
@@ -1779,14 +1779,14 @@
   <HealingRestoreBodyPart>{1_definite} de {0_nameDef} se ha restaurado.</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>Precaución: ¡colocar un edificio aquí enfurecerá a la facción {FACTION_name}!</WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>Precaución: ¡Colocar un edificio aquí enfurecerá a la facción {FACTION_name}!</WarningBuildingCausesHostility>
 
   <!-- EN: Choose landing site -->
   <ChooseLandingSite>Elige un sitio de aterrizaje</ChooseLandingSite>
 
   <!-- LordJobs -->
   <!-- EN: Outcome chances at {0} quality -->
-  <LordJobOutcomeChances>Prob. de resultados con la calidad {0}</LordJobOutcomeChances>
+  <LordJobOutcomeChances>Resultados posibles con una calidad del {0}</LordJobOutcomeChances>
   <!-- EN: Expected duration -->
   <ExpectedLordJobDuration>Duración esperada</ExpectedLordJobDuration>
 
@@ -1834,10 +1834,10 @@
   <DragPawnsToRolesInfoController>Arrastra y suelta o haz clic para moverlos.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Un esclavo. Un humano propiedad de otros.</RitualBeginSlaveDesc>
-  <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} está durmiendo. Si se incluye en el ritual, se despertará para participar.</RitualBeginSleepingDesc>
-  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
-  <RitualBeginSleepingWarning>Algunos de los participantes seleccionados están durmiendo. Se despertarán cuando empieces el ritual.</RitualBeginSleepingWarning>
+  <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
+  <RitualBeginSleepingDesc>{0_labelShort} está durmiendo. Si se incluye en el evento, se despertará para participar.</RitualBeginSleepingDesc>
+  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
+  <RitualBeginSleepingWarning>Algunos de los participantes seleccionados están durmiendo. Se despertarán cuando empieces el evento.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>Este puesto es mejor que lo ocupe un colono que tenga el rol social de {0}.\n\nSi alguien sin este rol ocupa este puesto, no obtendrá las siguientes bonificaciones</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
@@ -2028,7 +2028,7 @@
   <BookBlind>{PAWN_nameDef} es ciego</BookBlind>
   
   <!-- EN: max level {0} -->
-  <BookMaxLevel>nivel máx {0}</BookMaxLevel>
+  <BookMaxLevel>nivel máx.: {0}</BookMaxLevel>
   
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
   <ReadingReportHeader>Leyendo "{0}": {1} completado (terminado en {2} horas)</ReadingReportHeader>
@@ -2078,7 +2078,7 @@
   <!-- EN: About to explode -->
   <AboutToExplode>A punto de explotar</AboutToExplode>
   <!-- EN: No fuel to eject -->
-  <RefuelableNoFuelToEject>No hay combustible a expulsar.</RefuelableNoFuelToEject> <!-- text_todo -->
+  <RefuelableNoFuelToEject>No hay combustible a expulsar.</RefuelableNoFuelToEject>
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>¡El nuevo DLC Anomaly ya está disponible!</MainScreen_AnomalyAvailableNow>
@@ -2087,9 +2087,9 @@
   <DisabledByScenario>Desactivado por escenario</DisabledByScenario>
 
   <!-- EN: blocked by roof -->
-  <BlockedByRoof>obstruido por tejado</BlockedByRoof>
+  <BlockedByRoof>bloqueado por techo</BlockedByRoof>
   <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
-  <BlockedByTerrain>bloqueado por terreno (requiere usar {0_label} como cimientos)</BlockedByTerrain> <!-- text_todo -->
+  <BlockedByTerrain>bloqueado por terreno (requiere usar {0_label} como cimientos)</BlockedByTerrain>
 
   <!-- Craters -->
   <!-- EN: Fill in -->
@@ -2103,17 +2103,17 @@
   <!-- EN: hacking speed -->
   <HackingSpeed>velocidad de hackeo</HackingSpeed>
   <!-- EN: {0}'s -->
-  <HackingLastUser>De {0}</HackingLastUser>
+  <HackingLastUser>{0} -</HackingLastUser>
   <!-- EN: hacked -->
   <Hacked>hackeado</Hacked>
   <!-- EN: Terminals hacked -->
   <TerminalsHacked>Terminales hackeados</TerminalsHacked>
   <!-- EN: Intellectual needed -->
-  <IntellectualSkillPrerequisite>Hab. intelectual requerida</IntellectualSkillPrerequisite>
+  <IntellectualSkillPrerequisite>Habilidad intelectual requerida</IntellectualSkillPrerequisite>
   <!-- EN: Auto hack -->
   <AutoHack>Autohackeo</AutoHack>
   <!-- EN: When enabled, researchers will automatically hack this. -->
-  <AutoHackDesc>Si está activada, los investigadores la hackearán automáticamente.</AutoHackDesc>
+  <AutoHackDesc>Si está activada, los investigadores hackearán esto automáticamente.</AutoHackDesc>
 
   <!-- World -->
   <!-- EN: View {LAYER_label} -->
@@ -2175,20 +2175,17 @@
 
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
-  <CannotUseScannerRoofed>Bloqueado por techo</CannotUseScannerRoofed> <!-- text_todo -->
+  <CannotUseScannerRoofed>Bloqueado por techo</CannotUseScannerRoofed>
   <!-- EN: Biome does not contain drillable resources -->
-  <CannotUseScannerNoBedrock>El bioma no contiene recursos perforables.</CannotUseScannerNoBedrock> <!-- text_todo -->
+  <CannotUseScannerNoBedrock>El bioma no contiene recursos perforables.</CannotUseScannerNoBedrock>
   
   <!-- Quests -->
   <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
   <CannotAcceptQuestFromLayer>No se puede aceptar esta misión {GERUND} {LAYER}.</CannotAcceptQuestFromLayer>
   <!-- EN: Cannot accept this quest without a permanent colony. -->
   <CannotAcceptQuestNoMap>No se puede aceptar esta misión sin una colonia permanente.</CannotAcceptQuestNoMap>
-  
-  <!-- UNUSED -->
-  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>sin combustible</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
-  <TransportPodInGroupHasSomethingLeftToLoad>carga en progreso</TransportPodInGroupHasSomethingLeftToLoad>
-  <ShowExpandingIconsToggleButton>Activar la visualización de íconos desplegables en lugar de los íconos regulares para objetos distantes.</ShowExpandingIconsToggleButton>
-  <RitualPredictedOutcomeDescParticipantCount>Participantes</RitualPredictedOutcomeDescParticipantCount>
 
+  <!-- EN: {0} of {1} -->
+  <GuildTradeShipName>{0} de {1}</GuildTradeShipName> <!-- text_todo -->
+  
 </LanguageData>
