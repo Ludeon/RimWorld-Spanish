@@ -1,12 +1,12 @@
-# This script generates material variations by appending material types
-# (like wood, steel, leather, etc.) to a base text input by the user.
-# The user can select from different material groups to see the full list.
-# Version: 2.0
-# Credits: Zerstrick
+# Este script genera variaciones de materiales añadiendo tipos de material
+# (como madera, acero, cuero, etc.) a un texto base introducido por el usuario.
+# El usuario puede seleccionar entre diferentes grupos de materiales para ver la lista completa.
+# Versión: 2.0
+# Créditos: Zerstrick
 
 
 def add_materials(text):
-    # Building materials
+    # Materiales de construcción
     wood = [f"{text} de madera"]
     steel = [f"{text} de acero"]
     silver = [f"{text} de plata"]
@@ -32,7 +32,7 @@ def add_materials(text):
     devilstrand = [f"{text} de hilodiablo"]
     hyperweave = [f"{text} de hipertejido"]
 
-    # Wool and furs
+    # Lanas y pieles
     sheep_wool = [f"{text} de lana de oveja"]
     muffalo_wool = [f"{text} de lana de múfalo"]
     megasloth_wool = [f"{text} de lana de megaperezoso"]
@@ -42,7 +42,7 @@ def add_materials(text):
     alpaca_wool = [f"{text} de lana de alpaca"]
     trumbo_mane = [f"{text} de crin de trumbo"]
 
-    # Leathers and skins
+    # Cueros y pieles
     bird_skin = [f"{text} de piel de pájaro"]
     dog_leather = [f"{text} de cuero de perro"]
     lizard_leather = [f"{text} de cuero de lagarto"]
@@ -67,13 +67,13 @@ def add_materials(text):
     mastodon_leather = [f"{text} de cuero de mastodonte"]
     mink_skin = [f"{text} de piel de visón"]
 
-    # Menu for selecting material group
-    print("Select a material list:")
-    print("1. Core construction materials")
-    print("2. All stone and metals")
-    print("3. All textiles")
-    print("4. Non-leather textiles only")
-    choice = input("Enter the number of your choice: ")
+    # Menú para seleccionar grupo de materiales
+    print("Selecciona una lista de materiales:")
+    print("1. Materiales de construcción principales")
+    print("2. Todas las piedras y metales")
+    print("3. Todos los textiles")
+    print("4. Solo textiles sin cuero")
+    choice = input("Introduce el número de tu elección: ")
 
     if choice == "1":
         materials = (
@@ -153,15 +153,15 @@ def add_materials(text):
             + hyperweave
         )
     else:
-        print("Invalid option.")
+        print("Opción no válida.")
         return
 
-    # Print result
-    print("\nGenerated materials:")
+    # Imprimir resultado
+    print("\nMateriales generados:")
     for m in materials:
         print(m)
 
 
-# Ask for base name
-input_text = input("Enter base name: ")
+# Pedir nombre base
+input_text = input("Introduce el nombre base: ")
 add_materials(input_text)
