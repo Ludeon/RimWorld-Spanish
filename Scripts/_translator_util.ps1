@@ -10,15 +10,12 @@
 	Para usar este script, asegurate de ponerlo dentro del directorio del juego, al lado del ejecutable del juego, la carpeta "Mods", y la carpeta "Data".
 #>
 
-
 #WARNING: Save file with "Windows-1252" encoding
-# Adding a default to avoid problems non-english characters (like 'ù' or 'ù')
+# Adding a default to avoid problems non-english characters (like 'ÔøΩ' or 'ÔøΩ')
 $PSDefaultParameterValues.Add("*:Encoding", "utf8")
 
 # Variables to use
-$ingame_name = "Spanish (EspaÒol(Castellano))"
-$example_path = "C:/Translations/RimWorld-Spanish"
-
+$ingame_name = "Spanish (EspaÔøΩol(Castellano))"
 
 function LinkTranslationFiles {
     <#
@@ -61,7 +58,6 @@ function LinkTranslationFiles {
     New-Item -ItemType Junction -Path $translations_folder -Target "$LocalRepoPath\$Name"
     Write-Host "VINCULO CREADO A $LocalRepoPath\$Name"
 }
-
 
 function ValidateLocalRepoPath {
     <#
@@ -125,7 +121,7 @@ function Get-Folder {
     # Create a folder selection dialog
     $parent = New-Object System.Windows.Forms.Form -Property @{TopMost = $true; TopLevel = $true }
     $folderDialog = New-Object System.Windows.Forms.FolderBrowserDialog
-    $folderDialog.Description = "Elige la carpeta donde se encuentra tu repositorio local. DespuÈs, si se te solicita, elige la opciÛn 'S a todo' (varias veces)"
+    $folderDialog.Description = "Elige la carpeta donde se encuentra tu repositorio local. DespuÔøΩs, si se te solicita, elige la opciÔøΩn 'S a todo' (varias veces)"
     $folderDialog.SelectedPath = [Environment]::GetFolderPath('Desktop')
 
     # Load default location
@@ -185,7 +181,7 @@ if (-not ($null -eq $local_repo)) {
     LinkTranslationFiles -LocalRepoPath $local_repo -Name "Anomaly"
     LinkTranslationFiles -LocalRepoPath $local_repo -Name "Odyssey"
 
-    Write-Host "Finalizado. En caso de que vuelvas a ejecutar _update.ps1, deberùs volver a ejecutar este archivo si quieres mantener el enlace simbùlico."
+    Write-Host "Finalizado. En caso de que vuelvas a ejecutar _update.ps1, deberÔøΩs volver a ejecutar este archivo si quieres mantener el enlace simbÔøΩlico."
     Write-Host "Presiona Enter para salir..."
     Read-Host
 }
