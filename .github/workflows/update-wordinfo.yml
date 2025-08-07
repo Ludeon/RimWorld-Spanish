@@ -1,11 +1,11 @@
 name: Update WordInfo
 
 # Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+# events but only for the test-translations branch
 on:
   workflow_dispatch:
   push:
-    branches: [ test-translations ]
+    branches: [test-translations]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -16,16 +16,16 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v4
-      
-    - name: Update WordInfo
-      shell: powershell
-      run: Scripts\update-wordinfo.ps1
-    - name: Commit
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "42103905+github-actions[bot]@users.noreply.github.com"
-        git add -A
-        git commit -a -m "Update WordInfo"
-        git push
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      - name: Update WordInfo
+        shell: powershell
+        run: Scripts\update-wordinfo.ps1
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "42103905+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -a -m "Update WordInfo"
+          git push

@@ -35,6 +35,8 @@ foreach ($root in $roots) {
         "$root\DefInjected\TerrainDef"
         "$root\DefInjected\ThingDef"
         "$root\DefInjected\WorldObjectDef"
+        "$root\DefInjected\RoomRoleDef"
+        "$root\DefInjected\SkillDef"
     )
 
     # Search words in the XML files and save them in different lists of words depending on their gender
