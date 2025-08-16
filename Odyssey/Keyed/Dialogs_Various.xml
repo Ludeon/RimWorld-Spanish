@@ -2,8 +2,8 @@
 <LanguageData>
 
   <!-- Grav engine/substructrues -->
-  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. -->
-  <ConfirmGravEngineLaunch>¿Estás seguro de que quieres lanzar la gravinave?\n\nTu mapa actual, así como cualquier cosa que no esté en la subestructura de la gravinave, se perderá permanentemente. El proceso de lanzamiento es destructivo, lo que significa que no podrás regresar.</ConfirmGravEngineLaunch>
+  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. Build a grav anchor to prevent this map from being destroyed. -->
+  <ConfirmGravEngineLaunch>¿Estás seguro de que quieres lanzar la gravinave?\n\nTu mapa actual, así como cualquier cosa que no esté en la subestructura de la gravinave, se perderá permanentemente. El proceso de lanzamiento es destructivo, lo que significa que no podrás regresar. Construye un ancla gravitacional para evitar perder este mapa.</ConfirmGravEngineLaunch>
   <!-- EN: Warning -->
   <GravEngineWarning>Advertencia</GravEngineWarning>
   <!-- EN: The following people will be left behind -->
@@ -29,6 +29,19 @@
   <PlayerGravshipGainsName>La gravinave ahora se conoce como {0}.</PlayerGravshipGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerGravshipNameIsInvalid>Ese nombre no es válido.</PlayerGravshipNameIsInvalid>
+
+  <!-- EN: Force vistors to leave -->
+  <GravshipForceVisitorsToLeaveLabel>Obligar a los visitantes a abandonar</GravshipForceVisitorsToLeaveLabel>
+  <!-- EN: Wait for all visitors to leave the gravship before launching. This won’t affect enemies, prisoners, or downed visitors. -->
+  <GravshipForceVisitorsToLeaveTooltip>Espera a que todos los visitantes abandonen la gravinave antes de lanzar. Esto no afectará a los enemigos, prisioneros o visitantes derribados.</GravshipForceVisitorsToLeaveTooltip>
+  <!-- EN: Board colony animals -->
+  <GravshipBoardColonyAnimalsLabel>Cargar a los animales de la colonia</GravshipBoardColonyAnimalsLabel>
+  <!-- EN: Order all colony animals to board the gravship. The gravship won’t launch until they are aboard. -->
+  <GravshipBoardColonyAnimalsTooltip>Ordena a todos los animales de la colonia que suban a la gravinave. La gravinave no despegará hasta que estén a bordo.</GravshipBoardColonyAnimalsTooltip>
+  <!-- EN: Board colony mechanoids -->
+  <GravshipBoardColonyMechsLabel>Cargar a los mecanoides de la colonia</GravshipBoardColonyMechsLabel>
+  <!-- EN: Order all colony mechanoids to board the gravship. The gravship won’t launch until they are aboard. -->
+  <GravshipBoardColonyMechsTooltip>Ordena a todos los mecanoides de la colonia que suban a la gravinave. La gravinave no despegará hasta que estén a bordo.</GravshipBoardColonyMechsTooltip>
 
   <!-- EN: {0} are hostile. If you land here they will attack you. -->
   <ConfirmLandOnHostileFactionBase>{0} son hostiles. Si aterrizas aquí, te atacarán.</ConfirmLandOnHostileFactionBase>
