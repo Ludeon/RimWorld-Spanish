@@ -68,22 +68,22 @@
   <NamerIdeoRelic.rulePack.rulesStrings>
     <li>r_ideoRelicName(p=2)->[first] [second]</li>
     <li>r_ideoRelicName(p=2)->[first0][second]</li>
-    <li>r_ideoRelicName(p=2)->[first1]-[second]</li>
-    <li>r_ideoRelicName(p=2)->[second1] de [first1]</li>
+    <li>r_ideoRelicName(p=2)->[first1][second]</li>
     <li>r_ideoRelicName->[thingLabel] de[memeConceptDef]</li>
     <li>r_ideoRelicName->[thingLabel] [memeAdjective]</li>
-    <li>r_ideoRelicName->[memeHyphenPrefix][thingLabel]</li>
+    <li>r_ideoRelicName->[memeHyphenPrefix]{replace: ^[thingLabel]; "^A"-"a"; "^B"-"b"; "^C"-"c"; "^D"-"d"; "^E"-"e"; "^F"-"f"; "^G"-"g"; "^H"-"h"; "^I"-"i"; "^J"-"j"; "^K"-"k"; "^L"-"l"; "^M"-"m"; "^N"-"n"; "^Ñ"-"ñ"; "^O"-"o"; "^P"-"p"; "^Q"-"q"; "^R"-"r"; "^S"-"s"; "^T"-"t"; "^U"-"u"; "^V"-"v"; "^W"-"w"; "^X"-"x"; "^Y"-"y"; "^Z"-"z"; "^"-""}</li>
     <li>r_ideoRelicName->[relic] [memeAdjective]</li>
-    <li>r_ideoRelicName(p=0.0001)->[relic1] [memeAdjectiveFem]</li>
+    <li>r_ideoRelicName->[relic1] [memeAdjectiveFem]</li>
     <li>r_ideoRelicName->[relic] de [memeConcept]</li>
-    <li>r_ideoRelicName(p=0.0001)->[relic1] de [memeConcept]</li>
-    <li>r_ideoRelicName->[memeHyphenPrefix]-[relic]</li>
+    <li>r_ideoRelicName->[relic1] de [memeConcept]</li>
+    <li>r_ideoRelicName->[memeHyphenPrefix]{replace: ^[relic]; "^A"-"a"; "^B"-"b"; "^C"-"c"; "^D"-"d"; "^E"-"e"; "^F"-"f"; "^G"-"g"; "^H"-"h"; "^I"-"i"; "^J"-"j"; "^K"-"k"; "^L"-"l"; "^M"-"m"; "^N"-"n"; "^Ñ"-"ñ"; "^O"-"o"; "^P"-"p"; "^Q"-"q"; "^R"-"r"; "^S"-"s"; "^T"-"t"; "^U"-"u"; "^V"-"v"; "^W"-"w"; "^X"-"x"; "^Y"-"y"; "^Z"-"z"; "^"-""}</li>
     <li>relic->artefacto</li>
     <li>relic->recuerdo</li>
     <li>relic->remanente</li>
     <li>relic1->herencia</li>
     <li>relic1->memoria</li>
     <li>first1(p=5)->[memeHyphenPrefix]</li>
+    <li>first(p=5)->[memeHyphenPrefix]</li>
     <li>first->convoca</li>
     <li>first->porta</li>
     <li>first->ecos de</li>
@@ -124,13 +124,6 @@
     <li>second->sabiduría</li>
     <li>second->justicia</li>
     <li>second->compasión</li>
-    <li>second1->azote</li>
-    <li>second1->foco</li>
-    <li>second1->nexo</li>
-    <li>second1->vínculo</li>
-    <li>second1->enfoque</li>
-    <li>second1->bucle</li>
-    <li>second1->sombra</li>
   </NamerIdeoRelic.rulePack.rulesStrings>
   
 </LanguageData>
