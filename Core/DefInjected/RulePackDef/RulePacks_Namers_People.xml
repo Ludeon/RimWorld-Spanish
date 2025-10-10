@@ -25,13 +25,13 @@
     <li>r_name->[WordTribal] "[AnimalBadassAny_Cap]" [WordTribal_Cap]</li>
     <li>r_name->[WordTribal] [Animal_Cap] [Color_Cap]</li>
     <li>r_name->[WordTribal] [Animal_FemCap] [Color_FemCap]</li>
-    <li>r_name->[Animal] [WordTribal_Cap]</li>
-    <li>r_name->[Animal_Fem] [WordTribal_Cap]</li>
-    <li>r_name->[Animal] [Color_Cap] [WordTribal_NameCap]</li>
-    <li>r_name->[Animal] [WordTribal_NameCap]</li>
-    <li>r_name->[Animal_Fem] [Color_FemCap] [WordTribal_NameCap]</li>
-    <li>r_name->[Animal_Fem] [WordTribal_NameCap]</li>
-    <li>r_name(p=1.5)->[TribalFirstName] [TribalLastName]</li>
+    <li>r_name(p=0.33)->[Animal] [WordTribal_Cap]</li>
+    <li>r_name(p=0.33)->[Animal_Fem] [WordTribal_Cap]</li>
+    <li>r_name(p=0.33)->[Animal] [Color_Cap] [WordTribal_NameCap]</li>
+    <li>r_name(p=0.33)->[Animal] [WordTribal_NameCap]</li>
+    <li>r_name(p=0.33)->[Animal_Fem] [Color_FemCap] [WordTribal_NameCap]</li>
+    <li>r_name(p=0.33)->[Animal_Fem] [WordTribal_NameCap]</li>
+    <li>r_name(p=0.5)->[TribalFirstName] [TribalLastName]</li>
   </NamerPersonCorunan.rulePack.rulesStrings>
   
 </LanguageData>
