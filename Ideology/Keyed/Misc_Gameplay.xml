@@ -450,11 +450,11 @@
   <!-- EN: {PAWN_nameDef} is too far away -->
   <ConnectedPawnAway>{PAWN_nameDef} está muy lejos.</ConnectedPawnAway>
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
-  <TreeBlockedByNearbyBuildingsDesc>Plantar el {PLANT_definite} cerca de construcciones artificiales provocará que su fuerza de conexión decaiga con el tiempo. La fuerza de conexión determina el máximo numero de dríadas que el {PLANT_definite} puede tener a la vez.\n\n¿Seguro que quieres plantarlo aquí?</TreeBlockedByNearbyBuildingsDesc>
+  <TreeBlockedByNearbyBuildingsDesc>Plantar {PLANT_definite} cerca de construcciones artificiales provocará que su fuerza de conexión decaiga con el tiempo. La fuerza de conexión determina el máximo numero de dríadas que {PLANT_definite} puede tener a la vez.\n\n¿Seguro que quieres plantarlo aquí?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>Cambiar el tipo de casta del {TREE_definite} toma tiempo y energía.\n\nDespués de que la persona conectada interactúe con el árbol, todas las dríadas estarán {DURATION} en una crisálida mientras cambian a la casta seleccionada.\n\nLas crisálidas existentes cancelarán sus transformaciones para convertirse en la casta seleccionada.</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>Cambiar el tipo de casta {replace: de {TREE_definite}; "de el "-"del "} tomará tiempo y energía.\n\nDespués de que la persona conectada interactúe con el árbol, todas las dríadas estarán {DURATION} días en una crisálida mientras cambian a la casta seleccionada.\n\nLas crisálidas existentes cancelarán sus transformaciones para convertirse en la casta seleccionada.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
-  <ChangeModeDesc>Cambia el tipo de dríadas creadas por el {TREE_definite}.</ChangeModeDesc>
+  <ChangeModeDesc>Cambia el tipo de dríadas creadas por {TREE_definite}.</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
   <ConnectionStrengthFall>Pérdida de fuerza de conexión</ConnectionStrengthFall>
   <!-- EN: Connection strength -->
@@ -476,7 +476,7 @@
   <!-- EN: Desired -->
   <DesiredConnectionStrength>Deseada</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} podará el árbol lo suficiente para mantener la fuerza de conexión por encima de este nivel.\n\nUna mayor fuerza de conexión permite tener más dríadas, pero también caerá más rápido, por lo que deberá ser podado con más frecuencia.\n\nPuedes hacer clic en la barra para ajustar la fuerza deseada.\n\nCaída de fuerza por día: {FALL}\n\nLa fuerza de conexión es afectada por las estructuras cercanas.</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} podará {TREE_definite} lo suficiente como para mantener la fuerza de conexión por encima de este nivel.\n\nUna mayor fuerza de conexión permite tener más dríadas, pero también caerá más rápido, por lo que deberá ser podado con más frecuencia.\n\nPuedes hacer clic en la barra para ajustar la fuerza deseada.\n\nCaída de fuerza por día: {FALL}\n\nLa fuerza de conexión es afectada por las estructuras cercanas.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>Esperando a que {CONNECTEDPAWN_nameDef} cambie la casta de dríadas.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->

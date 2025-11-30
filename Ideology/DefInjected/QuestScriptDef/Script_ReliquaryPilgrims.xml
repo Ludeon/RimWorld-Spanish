@@ -68,8 +68,8 @@
     <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->Un grupo de [pilgrimsLabelSingularOrPlural] incluyendo un niño, han llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [siendo] mientras [visitSingularOrPlural] la antigua reliquia, [mayOffers] ofrecerte una recompensa.</li>
     <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->Un grupo de [pilgrimsLabelSingularOrPlural] incluyendo algunos niños han llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [siendo] mientras [visitSingularOrPlural] la antigua reliquia, [mayOffers] ofrecerte una recompensa.</li>
     <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->Un grupo de niños [pilgrimsLabelSingularOrPlural] han llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [siendo] mientras [visitSingularOrPlural] la antigua reliquia, [mayOffers] ofrecerte una recompensa.</li>
-    <li>isAre(pilgrimCount==1)->está</li>
-    <li>isAre(pilgrimCount>=2)->están</li>
+    <li>isAre(pilgrimCount==1)->esté</li>
+    <li>isAre(pilgrimCount>=2)->estén</li>
     <li>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</li>
     <li>pronounSingularOrPlural(pilgrimCount>=2)->ellos</li>
     <li>visitSingularOrPlural(pilgrimCount==1)->visita</li>
