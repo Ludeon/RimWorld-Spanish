@@ -261,7 +261,7 @@
     <li>can_rest(lodgerCount==1)->podrá</li>
     <li>can_rest(lodgerCount>=2)->podrán</li>
     <!--<li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] begs you for permission to stay at [map_definite] for [questDurationTicks_duration] so [lodgersPronoun] can rest and regroup.\n\nIn return, [lodgersPronoun] [offer] to work and fight for free during that time.\n\n[joinInfo] [lodgersPronoun] may also reward you later for helping [lodgersObjective] - but there is no way to know [lodgersPossessive] true intentions.\n\n[travelerInfo] not part of any faction. If you wish, you can choose to kill, arrest, sell, or harvest [lodgersObjective], without diplomatic consequences.</li>-->
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] te pide permiso para quedarse en [map_definite] durante [questDurationTicks_duration] y así [lodgersPronoun] [can_rest] descansar y recuperarse.\n\nA cambio, te [offer] trabajar y luchar gratis durante ese tiempo.\n\n[joinInfo] también [mayAlso] recompensarte más tarde por ayudar[lodgersObjective], pero no hay forma de saber sus verdaderas intenciones.\n\n[travelerInfo] parte de ninguna facción. Si lo deseas, puedes elegir entre matar[lodgersObjective], arrestar[lodgersObjective], vender[lodgersObjective] o extraer sus órganos sin que ocasione alguna consecuencia diplomática.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] te pide permiso para quedarse en [map_definite] durante [questDurationTicks_duration] y así [lodgersPronoun] [can_rest] descansar y recuperarse.\n\nA cambio, te [offer] trabajar y luchar gratis durante ese tiempo.\n\n[joinInfo] también [mayAlso] recompensarte más tarde por ayudar[lodgersObjective], pero no hay forma de saber cuáles son sus verdaderas intenciones.\n\n[travelerInfo] parte de ninguna facción. Si lo deseas, puedes elegir entre matar[lodgersObjective], arrestar[lodgersObjective], vender[lodgersObjective] o extraer [lodgersObjective] sin consecuencias diplomáticas.</li>
     <!--<li>approachInfo(lodgerCount==1)->A desperate [faction_pawnSingular] named [asker_nameDef] is approaching.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] and another desperate [faction_pawnSingular] are approaching.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] is approaching with a child in tow.</li>
@@ -289,7 +289,7 @@
     <li>claimInfo(lodgerCount>=2)->They say they were banished from their town due to moral disagreements.</li>-->
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma haber perdido su casa en un ataque reciente.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma que despertó del criptosueño sol[asker_o_a] y sin amigos.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma que su examante [asker_objective] está persiguiendo desde su casa para vengarse.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma que su examante [asker_objective] persigue para vengarse.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma haber sido desterrad[asker_o_a] después de una discusión con uno de los líderes de la aldea.</li>
     <li>claimInfo(lodgerCount>=2)->Afirman haber perdido su casa en un ataque reciente.</li>
     <li>claimInfo(lodgerCount>=2)->Afirman haber escapado de una operación de cosecha de órganos.</li>
@@ -300,12 +300,12 @@
     <li>claimInfo(lodgerCount>=2)->Dicen que fueron desterrados de su ciudad debido a desacuerdos morales.</li>
     <!--<li>joinInfo(lodgerCount==1)->If you make [asker_objective] happy, [asker_pronoun] may offer to join you.</li>
     <li>joinInfo(lodgerCount>=2)->If you make them happy, some of them may offer to join you.</li>-->
-    <li>joinInfo(lodgerCount==1)->Si [asker_objective] haces feliz, puede ofrecerse y unirse a tu colonia.</li>
-    <li>joinInfo(lodgerCount>=2)->Si los haces felices, algunos de ellos pueden ofrecerse y unirse a tu colonia.</li>
+    <li>joinInfo(lodgerCount==1)->Si consigues hacer[asker_objective] feliz, puede ofrecerse a unirse a tu colonia.</li>
+    <li>joinInfo(lodgerCount>=2)->Si los haces felices, algunos de ellos pueden ofrecerse a unirse a tu colonia.</li>
     <!--<li>travelerInfo(lodgerCount==1)->This [faction_pawnSingular] is</li>
     <li>travelerInfo(lodgerCount>=2)->These [faction_pawnsPlural] are</li>-->
-    <li>travelerInfo(lodgerCount==1)->Est[asker_e_a] [asker_kind] no es</li>
-    <li>travelerInfo(lodgerCount>=2)->Estos [faction_pawnsPlural] no son</li>
+    <li>travelerInfo(lodgerCount==1)->Est[asker_e_a] [asker_kind] no forma</li>
+    <li>travelerInfo(lodgerCount>=2)->Estos [faction_pawnsPlural] no forman</li>
   </Hospitality_Refugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgerCount==1)->[asker_nameDef] the [lodgerAdj]</li>
