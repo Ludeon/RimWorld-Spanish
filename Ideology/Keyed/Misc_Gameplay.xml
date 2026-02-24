@@ -60,7 +60,7 @@
   <!-- EN: Relic of {IDEO_name} -->
   <RelicOf>Reliquia de {IDEO_name}</RelicOf>
   <!-- EN: altar -->
-  <Altar>altas</Altar>
+  <Altar>altar</Altar>
   <!-- EN: base -->
   <Base>base</Base>
   <!-- EN: min expectation -->
@@ -102,7 +102,7 @@
   <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
   <FavoriteColorPickerTip>El color favorito de {PAWN_labelShort}. Tener más del 60% de su vestimenta de ese color, o del color de su ideoligión, le hará ligeramente más feliz.</FavoriteColorPickerTip>
   <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
-  <IdeoColorPickerTip>El color de la ideoligion de {PAWN_labelShort}. Tener más del 60% de su vestimenta de ese color, o de su color favorito, le hará ligeramente más feliz.</IdeoColorPickerTip>
+  <IdeoColorPickerTip>El color de la ideoligión de {PAWN_labelShort}. Tener más del 60% de su vestimenta de ese color, o de su color favorito, le hará ligeramente más feliz.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Configurar ideoligión de tu facción</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
@@ -153,9 +153,9 @@
   <WearingDesiredApparelMulti>esta vestimenta</WearingDesiredApparelMulti>
 
   <!-- EN: Could not load ideoligion -->
-  <UnableToLoadIdeoTitle>No se puede cargar la ideoligion</UnableToLoadIdeoTitle>
+  <UnableToLoadIdeoTitle>No se puede cargar la ideoligión</UnableToLoadIdeoTitle>
   <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
-  <UnableToLoadIdeoDescription>No se puede cargar la ideoligion seleccionada por los requisitos de las facciones que seguirán esta ideoligión. Los requisitos incumplidos son:</UnableToLoadIdeoDescription>
+  <UnableToLoadIdeoDescription>No se puede cargar la ideoligión seleccionada por los requisitos de las facciones que seguirán esta ideoligión. Los requisitos incumplidos son:</UnableToLoadIdeoDescription>
   <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
   <UnableToLoadIdeoMemeNotAllowed>El meme {MEME} no está permitido para las facciones {FACTIONTYPE}</UnableToLoadIdeoMemeNotAllowed>
   <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
@@ -200,7 +200,7 @@
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Ya vinculado con {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
-  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} ha sido vinculado recientemente. Puede volver a vincularse en {1}.</RitualTargetConnectionTornGauranlenTree>
+  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} ha tenido su conexión desgarrada recientemente. Puede volver a vincularse en {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({1} total). -->
   <RitualTargetWoodInfo>Necesitas {0} de madera por cada participante (total de {1}).</RitualTargetWoodInfo>
   <!-- EN: A participant cannot reach enough wood. -->
@@ -214,13 +214,13 @@
   <!-- EN: Accuse -->
   <Accuse>Acusar</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
-  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} no cree en las escarificaciones religiosas, por lo que le gustará ser escarificado.</RitualScarificationWarnNonScarificationIdeo>
+  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} no cree en las escarificaciones religiosas, por lo que no le gustará ser escarificado.</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
   <RitualScarificationWarnWimp>{PAWN_labelShort} es un cobarde y no le gustará ser escarificado.</RitualScarificationWarnWimp>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort} es un cobarde y no le gustará ser cegado.</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
-  <RitualScarificationTriggerExtraDesc>Se espera la escarificacion de {IDEOMEMBERPLURAL} al haber menos de {0} {IDEOMEMBERPLURAL} escarificados.</RitualScarificationTriggerExtraDesc>
+  <RitualScarificationTriggerExtraDesc>Se espera la escarificación de {IDEOMEMBERPLURAL} al haber menos de {0} {IDEOMEMBERPLURAL} escarificados.</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
   <RitualBlindingTriggerExtraDesc>Se espera la ceguera para cada {IDEOMEMBER} de la colonia.</RitualBlindingTriggerExtraDesc>
   
@@ -229,7 +229,7 @@
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
   <RitualOutcomeExtraDesc_BlindingPsylink>Gracias a un satisfactorio ritual de ceguera, ¡{PAWN_labelShort} ha ganado un nivel de psienlace!</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
-  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Con su nuevo nivel de psienlace, {PAWN_pronoun} ha obtenido un psicoentrenador de {0}.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Con su nuevo nivel de psienlace, {PAWN_pronoun} ha obtenido el poder psíquico de {0}.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
   <RitualOutcomeExtraDesc_ConsumableInspiration>Gracias a un satisfactorio {RITUAL}, ¡{PAWN_labelShort} ha ganado {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
@@ -405,7 +405,7 @@
 
   <!-- Relic hunt -->
   <!-- EN: The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you. -->
-  <RelicHuntFoundRelicSite>La reliquia se encuentra en una estructuria antigua protegida por un sistema de seguridad multiunidad.\n\nPuedes vencer las fuerzas de seguridad de uno en uno, o intentar robar la reliquia y huir antes de que te pillen.</RelicHuntFoundRelicSite>
+  <RelicHuntFoundRelicSite>La reliquia se encuentra en una estructura antigua protegida por un sistema de seguridad multiunidad.\n\nPuedes vencer las fuerzas de seguridad de uno en uno, o intentar robar la reliquia y huir antes de que te pillen.</RelicHuntFoundRelicSite>
   <!-- EN: The relic rests in an ancient structure nearby. -->
   <RelicHuntFoundRelicSitePeaceful>La reliquia está en una estructura antigua cercana.</RelicHuntFoundRelicSitePeaceful>
 
@@ -450,7 +450,7 @@
   <!-- EN: {PAWN_nameDef} is too far away -->
   <ConnectedPawnAway>{PAWN_nameDef} está muy lejos.</ConnectedPawnAway>
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
-  <TreeBlockedByNearbyBuildingsDesc>Plantar {PLANT_definite} cerca de construcciones artificiales provocará que su fuerza de conexión decaiga con el tiempo. La fuerza de conexión determina el máximo numero de dríadas que {PLANT_definite} puede tener a la vez.\n\n¿Seguro que quieres plantarlo aquí?</TreeBlockedByNearbyBuildingsDesc>
+  <TreeBlockedByNearbyBuildingsDesc>Plantar {PLANT_definite} cerca de construcciones artificiales provocará que su fuerza de conexión decaiga con el tiempo. La fuerza de conexión determina el máximo número de dríadas que {PLANT_definite} puede tener a la vez.\n\n¿Seguro que quieres plantarlo aquí?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
   <GauranlenModeChangeDescFull>Cambiar el tipo de casta {replace: de {TREE_definite}; "de el "-"del "} tomará tiempo y energía.\n\nDespués de que la persona conectada interactúe con el árbol, todas las dríadas estarán {DURATION} días en una crisálida mientras cambian a la casta seleccionada.\n\nLas crisálidas existentes cancelarán sus transformaciones para convertirse en la casta seleccionada.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
@@ -510,7 +510,7 @@
   <!-- EN: {0} connection strength needed to support a dryad. -->
   <NotEnoughConnectionStrengthForSingleDryad>Se necesita {0} fuerza de conexión para soportar una dríada.</NotEnoughConnectionStrengthForSingleDryad>
   <!-- EN: Cannot assign allowed area -->
-  <CannotAssignAllowedAreaToDryad>No se puede asignar un area permitida</CannotAssignAllowedAreaToDryad>
+  <CannotAssignAllowedAreaToDryad>No se puede asignar un área permitida</CannotAssignAllowedAreaToDryad>
 
   <!-- Shooting report -->
   <!-- EN: Target outdoors and night-time -->
@@ -554,7 +554,7 @@
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
   <GameOverArchotechInvokedEnding>El dios de las máquinas se ha fijado en ti. Nadie puede predecir lo que ocurrirá a continuación. Puede que te destruya, o que se comunique contigo directamente, o que transporte tu conciencia a otro plano de la realidad.\n\nSientes una vasta e inhumana estructura de infinita complejidad fractal que fluye en tu mente. El tiempo y la escala comienzan a disolverse. Es aterrador. Es... hermoso.</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
-  <GameOverColonistsTranscended>Estos colonos han transcendido:\n\n{0}</GameOverColonistsTranscended>
+  <GameOverColonistsTranscended>Estos colonos han trascendido:\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
   <Reward_ArchonexusMapPart>Una parte del mapa del arqueonexo</Reward_ArchonexusMapPart>
   <!-- EN: Archonexus map part {0}/{1} -->
@@ -568,12 +568,12 @@
   <!-- EN: Linked to -->
   <LinkedTo>Conectado a</LinkedTo>
   <!-- EN: Supply satellite -->
-  <SupplySatellite>Satelite de suministros</SupplySatellite>
+  <SupplySatellite>Satélite de suministros</SupplySatellite>
 
   <!-- EN: Colonist is not willing to extract skull from corpse (missing pro-skullspike precept) -->
-  <CannotExtractSkull>El colono no quiere extraer el craneo de los cuerpos (falta el precepto "Cráneos ensartados")</CannotExtractSkull>
+  <CannotExtractSkull>El colono no quiere extraer el cráneo de los cuerpos (falta el precepto "Cráneos ensartados")</CannotExtractSkull>
   <!-- EN: Preview the ritual ambience sound -->
-  <TipPreviewRitualAmbienceSound>Previsualiza el sónido ambiente del ritual</TipPreviewRitualAmbienceSound>
+  <TipPreviewRitualAmbienceSound>Previsualiza el sonido ambiente del ritual</TipPreviewRitualAmbienceSound>
 
   <!-- EN: Choose -->
   <ChooseStuffForRelic>Elegir</ChooseStuffForRelic>

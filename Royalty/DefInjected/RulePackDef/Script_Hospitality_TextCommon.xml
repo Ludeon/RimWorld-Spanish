@@ -107,12 +107,12 @@
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->habrá (*Threat)una incursión(/Threat) de aproximadamente este tamaño:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->habrá (*Threat)una incursión(/Threat) de fuerza [threatSize]x y aproximadamente de este tamaño:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->habrán (*Threat)[threatCount] incursiones(/Threat) de aproximadamente este tamaño:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->habrán (*Threat)[threatCount] incursiones(/Threat) de fuerza [threatSize]x y aproximadamente de este tamaño:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->habrá (*Threat)[threatCount] incursiones(/Threat) de aproximadamente este tamaño:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->habrá (*Threat)[threatCount] incursiones(/Threat) de fuerza [threatSize]x y aproximadamente de este tamaño:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)un grupo de mecas(/Threat) se desplegará en las cercanías.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)dos grupos de mecas(/Threat) se desplegarán en las cercanías.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)un grupo de mecas(/Threat) de [threatSize]x tamaño se desplegará en las cercanías.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)dos grupos de mecas(/Threat) de [threatSize]x tamaño se desplegará en las cercanías.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)dos grupos de mecas(/Threat) de [threatSize]x tamaño se desplegarán en las cercanías.</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recientemente [mechViolation], y es objetivo de un enjambre mecanoide en órbita.</li>
     <li>threatsInfoMechClustersMultiPrisoners->Los prisioneros recientemente [mechViolationMultiHuman], y son objetivo de un enjambre mecanoide en órbita.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recientemente [mechViolation], y es objetivo de una colmena mecanoide.</li>
@@ -127,12 +127,12 @@
     <li>lodgersHasHave(lodgersCount>=2)->have</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->them</li>-->
-    <li>mechViolation->logró de alguna manera enfurer a una inteligencia artificial</li>
+    <li>mechViolation->logró de alguna manera enfurecer a una inteligencia artificial</li>
     <li>mechViolation->hackeó una terminal de un superordenador ancestral</li>
     <li>mechViolation->mató a un niño humano que significaba mucho para un arqueoteca</li>
-    <li>mechViolation->intento hackear un nodo de control mecanoide</li>
-    <li>mechViolation->intento robar algo de un depósito ancestral</li>
-    <li>mechViolationMultiHuman->lograron de alguna manera enfurer a una inteligencia artificial</li>
+    <li>mechViolation->intentó hackear un nodo de control mecanoide</li>
+    <li>mechViolation->intentó robar algo de un depósito ancestral</li>
+    <li>mechViolationMultiHuman->lograron de alguna manera enfurecer a una inteligencia artificial</li>
     <li>mechViolationMultiHuman->hackearon una terminal de un superordenador ancestral</li>
     <li>mechViolationMultiHuman->mataron a un niño humano que significaba mucho para un arqueoteca</li>
     <li>mechViolationMultiHuman->intentaron hackear un nodo de control mecanoide</li>
@@ -168,7 +168,7 @@
     <li>will_not_do(lodgersCount==1)->hará</li>
     <li>will_not_do(lodgersCount>=2)->harán</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
-    <li>remainingWillNowLeave(lodgersCount>=2)->Cualquier remanente de los [lodgersLabelPlural] se marcharán ahora.</li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Cualquiera de los [lodgersLabelPlural] restantes se marchará ahora.</li>
     <li>failLetterEndingQuest->Has fallado en la misión "[resolvedQuestName]".</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nTus relaciones con la facción [asker_faction_name] han disminuido por [goodwillPenalty].</li>

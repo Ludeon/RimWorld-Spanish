@@ -83,7 +83,7 @@
     <li>can_rest(lodgerCount>=2)->podrán</li>
     <!--<li>appalledButNoAction->The {PAWNSALIVECOUNT_multiple ? others seem : last [lodgersLabel] is} appalled at this, but {PAWNSALIVECOUNT_multiple ? are: is} not taking action against you.</li>
     <li>othersWillNotAccept->The {PAWNSALIVECOUNT_multiple ? others are : last [lodgersLabel] is} not willing to accept this</li>-->
-    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? Los otros parecen horrorizados : [last] [lodgersLabel] está horrorizad[o_a]} por esto, pero {PAWNSALIVECOUNT_multiple ? no están : no está} tomando medidas en contra tuya.</li>
+    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? Los otros parecen horrorizados : [last] [lodgersLabel] está horrorizad[o_a]} por esto, pero {PAWNSALIVECOUNT_multiple ? no están : no está} tomando medidas en tu contra.</li>
     <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? Los otros no están dispuestos : [last] [lodgersLabel] no está dispuest[o_a]} a aceptarlo</li>
     <!--<li>turnedViolent->[othersWillNotAccept], and {PAWNSALIVECOUNT_multiple ? have : has } turned violently against you.</li>
     <li>decidedToLeave->[othersWillNotAccept], and {PAWNSALIVECOUNT_multiple ? have : has } decided to leave.</li>-->
@@ -261,7 +261,7 @@
     <li>can_rest(lodgerCount==1)->podrá</li>
     <li>can_rest(lodgerCount>=2)->podrán</li>
     <!--<li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] begs you for permission to stay at [map_definite] for [questDurationTicks_duration] so [lodgersPronoun] can rest and regroup.\n\nIn return, [lodgersPronoun] [offer] to work and fight for free during that time.\n\n[joinInfo] [lodgersPronoun] may also reward you later for helping [lodgersObjective] - but there is no way to know [lodgersPossessive] true intentions.\n\n[travelerInfo] not part of any faction. If you wish, you can choose to kill, arrest, sell, or harvest [lodgersObjective], without diplomatic consequences.</li>-->
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] te pide permiso para quedarse en [map_definite] durante [questDurationTicks_duration] y así [lodgersPronoun] [can_rest] descansar y recuperarse.\n\nA cambio, te [offer] trabajar y luchar gratis durante ese tiempo.\n\n[joinInfo] también [mayAlso] recompensarte más tarde por ayudar[lodgersObjective], pero no hay forma de saber sus verdaderas intenciones.\n\n[travelerInfo] parte de ninguna facción. Si lo deseas, puede elegir entre matar[lodgersObjective], arrestar[lodgersObjective], vender[lodgersObjective] o extraer sus órganos sin que ocasione alguna consecuencia diplomática.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] te pide permiso para quedarse en [map_definite] durante [questDurationTicks_duration] y así [lodgersPronoun] [can_rest] descansar y recuperarse.\n\nA cambio, te [offer] trabajar y luchar gratis durante ese tiempo.\n\n[joinInfo] también [mayAlso] recompensarte más tarde por ayudar[lodgersObjective], pero no hay forma de saber sus verdaderas intenciones.\n\n[travelerInfo] parte de ninguna facción. Si lo deseas, puedes elegir entre matar[lodgersObjective], arrestar[lodgersObjective], vender[lodgersObjective] o extraer sus órganos sin que ocasione alguna consecuencia diplomática.</li>
     <!--<li>approachInfo(lodgerCount==1)->A desperate [faction_pawnSingular] named [asker_nameDef] is approaching.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] and another desperate [faction_pawnSingular] are approaching.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] is approaching with a child in tow.</li>
@@ -270,7 +270,7 @@
     <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] desperate [faction_pawnsPlural] including some children are approaching. Their leader is called [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->A group of [lodgerCount] desperate [faction_pawnsPlural] are approaching consisting of [asker_nameDef] and [lodgersCountMinusOne] children [asker_pronoun] has taken under [asker_possessive] wing.</li>-->
     <li>approachInfo(lodgerCount==1)->[asker_aCap] [asker_kind] desesperad[asker_o_a] de nombre [asker_nameDef] se está acercando.</li>
-    <li>approachInfo(lodgerCount==2)->[asker_nameDef] y otr[asker_o_a] [asker_kind] se están acercando de forma deseperada.</li>
+    <li>approachInfo(lodgerCount==2)->[asker_nameDef] y otr[asker_o_a] [asker_kind] se están acercando de forma desesperada.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] se está acercando con un niño a cuestas.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] desesperados se están acercando. Su líder se llama [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] [faction_pawnsPlural] desesperados incluyendo un niño se acercan. Su líder se llama [asker_nameDef].</li>
@@ -355,10 +355,10 @@
     <li>lodgerAdj->perdido</li>
     <li>lodgerAdj->indigente</li>
     <li>lodgerAdj->pobre</li>
-    <li>lodgerAdj->desperado</li>
+    <li>lodgerAdj->desesperado</li>
     <li>lodgerAdj->triste</li>
     <li>lodgerAdj->polvoriento</li>
-    <li>lodgerAdj->desesperado</li>
+    <li>lodgerAdj->sin esperanza</li>
     <li>lodgerAdj->desconocido</li>
     <li>lodgerAdj->desamparado</li>
     <li>lodgerAdj->abandonado</li>
@@ -366,10 +366,10 @@
     <li>lodgerAdjFem->perdida</li>
     <li>lodgerAdjFem->indigente</li>
     <li>lodgerAdjFem->pobre</li>
-    <li>lodgerAdjFem->desperada</li>
+    <li>lodgerAdjFem->desesperada</li>
     <li>lodgerAdjFem->triste</li>
     <li>lodgerAdjFem->polvorienta</li>
-    <li>lodgerAdjFem->desesperada</li>
+    <li>lodgerAdjFem->sin esperanza</li>
     <li>lodgerAdjFem->desconocida</li>
     <li>lodgerAdjFem->desamparada</li>
     <li>lodgerAdjFem->abandonada</li>

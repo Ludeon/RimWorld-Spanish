@@ -39,7 +39,7 @@ foreach ($archivo in $archivosTXT) {
         if ($linea -match '^\s*/') {
             # Si hay un bloque pendiente de ordenar, lo ordenamos antes de añadir esta línea
             if ($bloqueOrdenable.Count -gt 0) {
-                $resultado += ($bloqueOrdenable | Sort-Object)
+                $resultado += ($bloqueOrdenable | Sort-Object -Unique)
                 $bloqueOrdenable = @()
             }
             $resultado += $linea
@@ -50,11 +50,11 @@ foreach ($archivo in $archivosTXT) {
 
     # Si al final queda algo sin ordenar, lo ordenamos y lo añadimos
     if ($bloqueOrdenable.Count -gt 0) {
-        $resultado += ($bloqueOrdenable | Sort-Object)
+        $resultado += ($bloqueOrdenable | Sort-Object -Unique)
     }
 
     # Guardar archivo
-    [System.IO.File]::WriteAllLines($ruta, $resultado, [System.Text.Encoding]::UTF8)
+    $resultado | Set-Content -Path $ruta -Encoding utf8
     Write-Host "✔ Ordenado: $([System.IO.Path]::GetRelativePath($base, $ruta))" -ForegroundColor Green
 }
 

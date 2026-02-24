@@ -110,7 +110,7 @@
     <li>image->[PAWN_nameFull] durmiendo plácidamente [circumstance_group]</li>
     <li>circumstance_phrase->con los ojos cerrados</li>
     <li>circumstance_phrase->con expresión de agotamiento</li>
-    <li>circumstance_phrase->cubiert[PAWN_o_a] en sudor</li>
+    <li>circumstance_phrase->cubiert[PAWN_o_a] de sudor</li>
     <li>circumstance_phrase->incapaz de mover un músculo</li>
     <li>desc_sentence->El último proyecto de [PAWN_nameDef] está cerca, completado.</li>
     <li>desc_sentence->Una construcción maravillosa rodea a [PAWN_nameDef].</li>
@@ -225,7 +225,7 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <HypothermiaRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] sufrió de hipotermia</li>
+    <li>tale_noun->[PAWN_nameDef] sufrió hipotermia</li>
     <li>image->[PAWN_nameFull] arrastrándose por la nieve [circumstance_group]</li>
     <li>image->[PAWN_nameFull] junto a [TerrainFeatureIndef] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] buscando calor [circumstance_group]</li>
@@ -475,16 +475,19 @@
     <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} con [WeaponIndef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_past] valientemente {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
     <li>tale_noun->ocurrió [wound_name_past1] {replace: de [VICTIM_nameDef]; "de el "-"del "} por [KILLER_nameDef] con [WeaponIndef]</li>
-    <li>image->[VICTIM_nameFull] siendo [wound_name_present] por [KILLER_nameFull] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] siendo [wound_name_present_past] por [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] brutalmente a [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull] siendo [wound_name_present] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] siendo [wound_name_present_past] [with_weapon_optional]</li>
     <li>wound_name_past->derrotó</li>
     <li>wound_name_past->asesinó</li>
     <li>wound_name_past->dominó</li>
-    <li>wound_name_present->derrotad[VICTIM_o_a]</li>
-    <li>wound_name_present->asesinad[VICTIM_o_a]</li>
-    <li>wound_name_present->dominad[VICTIM_o_a]</li>
+    <li>wound_name_present->derrotando</li>
+    <li>wound_name_present->asesinando</li>
+    <li>wound_name_present->dominando</li>
+    <li>wound_name_present_past->derrotad[VICTIM_o_a]</li>
+    <li>wound_name_present_past->asesinad[VICTIM_o_a]</li>
+    <li>wound_name_present_past->dominad[VICTIM_o_a]</li>
     <li>wound_name_past1->la muerte</li>
     <li>wound_name_past1->la derrota</li>
     <li>wound_name_past1->el asesinato</li>
@@ -747,6 +750,7 @@
     <li>wound_name_present->atacad[VICTIM_o_a]</li>
     <li>wound_name_present->lastimad[VICTIM_o_a]</li>
     <li>wound_name_present->herid[VICTIM_o_a]</li>
+    <li>wound_name_present_past->herid[VICTIM_o_a]</li>
     <li>wound_name_present->lesionad[VICTIM_o_a]</li>
     <li>wound_name_present->golpead[VICTIM_o_a]</li>
     <li>wound_name_present2->atacando</li>

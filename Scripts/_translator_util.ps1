@@ -2,20 +2,20 @@
 	.SYNOPSIS
 	Este script se encarga de vincular las traducciones de tu repositorio local con el juego.
 	.DESCRIPTION
-	Este script se encarga de crear los enlaces simb licos necesarios para vincular los ficheros del juego a las traducciones de tu repositorio local, para hacer el proceso de traduccion mas sencillo y liviano.
+	Este script se encarga de crear los enlaces simbólicos necesarios para vincular los ficheros del juego a las traducciones de tu repositorio local, para hacer el proceso de traducción más sencillo y liviano.
 	
 	Originalmente desarrollado por Xeros08 (Aser Granado Amores).
 
 	.FUNCTIONALITY
-	Para usar este script, asegurate de ponerlo dentro del directorio del juego, al lado del ejecutable del juego, la carpeta "Mods", y la carpeta "Data".
+	Para usar este script, asegúrate de ponerlo dentro del directorio del juego, al lado del ejecutable del juego, la carpeta "Mods", y la carpeta "Data".
 #>
 
-#WARNING: Save file with "Windows-1252" encoding
-# Adding a default to avoid problems non-english characters (like '�' or '�')
-$PSDefaultParameterValues.Add("*:Encoding", "utf8")
+# Set console to UTF8 to correctly display characters like 'í' or 'ñ'
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$PSDefaultParameterValues["*:Encoding"] = "utf8"
 
 # Variables to use
-$ingame_name = "Spanish (Espa�ol(Castellano))"
+$ingame_name = "Spanish (Español(Castellano))"
 
 function LinkTranslationFiles {
     <#
@@ -23,7 +23,7 @@ function LinkTranslationFiles {
 		Vincula las traducciones del contenido oficial indicado.
 
 		.DESCRIPTION
-		Borra las traducciones actuales de los ficheros del juego y las reemplaza por un enlace simbolico al repositorio local.
+		Borra las traducciones actuales de los ficheros del juego y las reemplaza por un enlace simbólico al repositorio local.
 
         .PARAMETER LocalRepoPath
 		Especifica la ruta al repositorio local.
@@ -121,7 +121,7 @@ function Get-Folder {
     # Create a folder selection dialog
     $parent = New-Object System.Windows.Forms.Form -Property @{TopMost = $true; TopLevel = $true }
     $folderDialog = New-Object System.Windows.Forms.FolderBrowserDialog
-    $folderDialog.Description = "Elige la carpeta donde se encuentra tu repositorio local. Despu�s, si se te solicita, elige la opci�n 'S a todo' (varias veces)"
+    $folderDialog.Description = "Elige la carpeta donde se encuentra tu repositorio local. Después, si se te solicita, elige la opción 'Sí a todo' (varias veces)"
     $folderDialog.SelectedPath = [Environment]::GetFolderPath('Desktop')
 
     # Load default location
@@ -181,7 +181,7 @@ if (-not ($null -eq $local_repo)) {
     LinkTranslationFiles -LocalRepoPath $local_repo -Name "Anomaly"
     LinkTranslationFiles -LocalRepoPath $local_repo -Name "Odyssey"
 
-    Write-Host "Finalizado. En caso de que vuelvas a ejecutar _update.ps1, deber�s volver a ejecutar este archivo si quieres mantener el enlace simb�lico."
+    Write-Host "Finalizado. En caso de que vuelvas a ejecutar _update.ps1, deberás volver a ejecutar este archivo si quieres mantener el enlace simbólico."
     Write-Host "Presiona Enter para salir..."
     Read-Host
 }
