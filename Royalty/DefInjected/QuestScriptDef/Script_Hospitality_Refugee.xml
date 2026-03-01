@@ -289,7 +289,7 @@
     <li>claimInfo(lodgerCount>=2)->They say they were banished from their town due to moral disagreements.</li>-->
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma haber perdido su casa en un ataque reciente.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma que despertó del criptosueño sol[asker_o_a] y sin amigos.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma que su examante [asker_objective] persigue para vengarse.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma que su ex amante [asker_objective] persigue para vengarse.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma haber sido desterrad[asker_o_a] después de una discusión con uno de los líderes de la aldea.</li>
     <li>claimInfo(lodgerCount>=2)->Afirman haber perdido su casa en un ataque reciente.</li>
     <li>claimInfo(lodgerCount>=2)->Afirman haber escapado de una operación de cosecha de órganos.</li>
@@ -414,9 +414,9 @@
     <li>betrayalOfferRewardLetterLabel->Recompensa por traición: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] te prometió una recompensa si matabas a [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] ha escuchado noticias de que esto se ha hecho y te está enviando lo siguiente a través de una cápsula de escape (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Recompensa por traición retirada</li>
-    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] se ha enterado que todos los miembros supervivientes de la facción [faction_name] ¡se han unido a tu facción! [factionOpponent_nameDef] quería que todos los miembros de la facción [faction_name] murieran y, por tanto, se ha retractado de su oferta.</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] se ha enterado de que todos los miembros supervivientes de la facción [faction_name] ¡se han unido a tu facción! [factionOpponent_nameDef] quería que todos los miembros de la facción [faction_name] murieran y, por tanto, se ha retractado de su oferta.</li>
     <li>betrayalOfferFailedLetterLabel->Recompensa por traición retractada</li>
-    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] se ha enterado que uno de los miembros de la facción [faction_name] ya no se encuentra en [map_definite]. [factionOpponent_nameDef] quería que todos los miembros de la facción [faction_name] murieran y por lo tanto se ha retractado de su oferta.</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] se ha enterado de que uno de los miembros de la facción [faction_name] ya no se encuentra en [map_definite]. [factionOpponent_nameDef] quería que todos los miembros de la facción [faction_name] murieran y, por tanto, se ha retractado de su oferta.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2,lodgers0_gender==Male)->y otro [lodgersLabel]</li>
     <li>otherLodgers(lodgerCount==2,lodgers0_gender!=Male)->y otra [lodgersLabel]</li>
@@ -447,7 +447,7 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[factionOpponent_nameDef], un [factionOpponent_faction_pawnSingular] de la facción [factionOpponent_faction_name], se ha enterado que [asker_nameDef] [otherLodgers] [areIs] siendo [hostedSingOrPlural] en [map_definite]. [factionOpponent_pronoun] está enemistado con [asker_nameDef] y quiere ver[asker_objective] muert[asker_o_a].\n\n[factionOpponent_pronoun] te enviará la siguiente recompensa si matas a todos los miembros de la facción [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>questDescription->[factionOpponent_nameDef], un [factionOpponent_faction_pawnSingular] de la facción [factionOpponent_faction_name], se ha enterado de que [asker_nameDef] [otherLodgers] [areIs] siendo [hostedSingOrPlural] en [map_definite]. [factionOpponent_pronoun] está enemistado con [asker_nameDef] y quiere ver[asker_objective] muert[asker_o_a].\n\n[factionOpponent_pronoun] te enviará la siguiente recompensa si matas a todos los miembros de la facción [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>
