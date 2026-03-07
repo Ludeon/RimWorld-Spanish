@@ -20,7 +20,7 @@
   <br />
   <strong>Traducción al español (Castellano de España) de RimWorld</strong>
   <br />
-  <sub>Repositorio oficial de traducción comunitaria</sub>
+  <sub>Repositorio oficial de traducción</sub>
 </div>
 
 ---
