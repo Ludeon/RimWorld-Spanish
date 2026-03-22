@@ -173,7 +173,7 @@
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
   <ModReorderConflict_MustLoadBefore>No se puede mover {0}: Debe ser cargado antes de {1}.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
-  <Unsubscribe>Cancelar subscripción</Unsubscribe>
+  <Unsubscribe>Cancelar suscripción</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe? -->
   <ConfirmUnsubscribe>¿Seguro que quieres cancelar tu suscripción?</ConfirmUnsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -281,7 +281,7 @@
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>El mod necesita la información de la versión soportada con el formato adecuado en el archivo "About.xml". Este es un ejemplo: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> está en desuso. Revisa los registros para más información.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>El mod necesita un identificador único y con el fromato correcto en "About.xml". Debe cumplir los siguientes requisitos:\n\n  - Caracteres alfanuméricos y solo puntos.\n  - Sin espacios.\n  - Al menos un punto.\n  - Sin puntos repetidos en fila, o que empiecen o terminen con un punto.\n  - 60 caracteres o menos.\n  - No puede contener la palabra "Ludeon".\n\nPor ejemplo:\n&lt;packageId>AuthorName.ModName&lt;/packageId>\n&lt;packageId>AuthorName.ModName.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>El mod necesita un identificador único y con el formato correcto en "About.xml". Debe cumplir los siguientes requisitos:\n\n  - Caracteres alfanuméricos y solo puntos.\n  - Sin espacios.\n  - Al menos un punto.\n  - Sin puntos repetidos en fila, o que empiecen o terminen con un punto.\n  - 60 caracteres o menos.\n  - No puede contener la palabra "Ludeon".\n\nPor ejemplo:\n&lt;packageId>AuthorName.ModName&lt;/packageId>\n&lt;packageId>AuthorName.ModName.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>Antes de poder subir este mod, hay errores en el archivo "LoadFolders.xml" que debes solucionar.</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
@@ -347,7 +347,7 @@
   <!-- EN: Choose AI Storyteller -->
   <ChooseAIStoryteller>Escoge la IA del narrador</ChooseAIStoryteller>
   <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
-  <HowStorytellersWork>La IA del narrador es la encargado de generar los eventos del juego como los ataques pirata, la aparición de recursos o los ataques de animales. Sus decisiones afectarán la historia de tu colonia. Podrás cambiar esto en cualquir momento.</HowStorytellersWork>
+  <HowStorytellersWork>La IA del narrador es la encargada de generar los eventos del juego como los ataques de piratas, la aparición de recursos o los ataques de animales. Sus decisiones afectarán la historia de tu colonia. Podrás cambiar esto en cualquier momento.</HowStorytellersWork>
   <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>Por favor, escoge una dificultad.</MustChooseDifficulty>
   <!-- EN: Difficulty -->
@@ -403,7 +403,7 @@
   <!-- EN: Trade price disadvantage -->
   <Difficulty_TradePriceFactorLoss_Label>Desventaja de precios al comerciar</Difficulty_TradePriceFactorLoss_Label>
   <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
-  <Difficulty_TradePriceFactorLoss_Info>Al comerciar, los precios de compra son incrementados por este factor, mientra que los precios de venta son reducidos.</Difficulty_TradePriceFactorLoss_Info>
+  <Difficulty_TradePriceFactorLoss_Info>Al comerciar, los precios de compra son incrementados por este factor, mientras que los precios de venta son reducidos.</Difficulty_TradePriceFactorLoss_Info>
   <!-- EN: Harvest yield -->
   <Difficulty_CropYieldFactor_Label>Rendimiento de las cosechas</Difficulty_CropYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
@@ -490,7 +490,7 @@
   <!-- EN: Add unwavering prisoners -->
   <Difficulty_UnwaveringPrisoners_Label>Añade prisioneros inquebrantables</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
-  <Difficulty_UnwaveringPrisoners_Info>Esta opción añade al juego prisioneros capturables adicionales que no pueden ser reclutados debido a su lealtad inquebrantable.\n\nLos prisioneros inquebrantables se añaden a los prisioneros normales, por lo que desactivar esto no dará más prisioneros reclutables, simplemente elimina los inquebrantable.\n\nLos prisioneros inquebrantables pueden ser liberados para obtener reputación, ser vendidos, esclavizados, extraer sus órganos o aprovechados de cualquier otra forma. En general, ofrecen más opciones y recursos, así como alternativas que enriquecen la experiencia de juego.</Difficulty_UnwaveringPrisoners_Info>
+  <Difficulty_UnwaveringPrisoners_Info>Esta opción añade al juego prisioneros capturables adicionales que no pueden ser reclutados debido a su lealtad inquebrantable.\n\nLos prisioneros inquebrantables se añaden a los prisioneros normales, por lo que desactivar esto no dará más prisioneros reclutables, simplemente elimina los inquebrantables.\n\nLos prisioneros inquebrantables pueden ser liberados para obtener reputación, ser vendidos, esclavizados, extraer sus órganos o aprovechados de cualquier otra forma. En general, ofrecen más opciones y recursos, así como alternativas que enriquecen la experiencia de juego.</Difficulty_UnwaveringPrisoners_Info>
   <!-- EN: Nomadic mineable resources -->
   <Difficulty_NomadicMineableResourcesFactor_Label>Recursos minables nómadas</Difficulty_NomadicMineableResourcesFactor_Label>
   <!-- EN: Adjust how many mineable resources are generated on maps after your first.\n\nNote: Your first colony map will always generate with the standard amount of resources. -->
@@ -528,7 +528,7 @@
   <!-- EN: Wealth-independent progress mode -->
   <Difficulty_FixedWealthMode_Label>Modo de progreso independiente de riqueza</Difficulty_FixedWealthMode_Label>
   <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
-  <Difficulty_FixedWealthMode_Info>Juega en el modo de progresión fija de riqueza.\n\nEn el modo normal, el narrador escala las amenazas dependiendo del número de colonos, riqueza del jugador, y un montón de otros factores. El modo de progresión fija de riqueza elimina el factor de la riqueza como lo conocemos, y lo reemplaza con una curva de progreso que incrementa con el tiempo. El tiempo empieza a contar desde que se funda cada colonia.\n\nEsto solo está recomendado para aquellos que busquen un reto de pura babilidad. En el modo de progresión fija de riqueza, puede que sea casi imposible recuperarse de las perdidas severas a menos que fundes un nuevo asentameinto. También es posible adelantarse mucho a la curva y encontrar el juego muy facil.</Difficulty_FixedWealthMode_Info>
+  <Difficulty_FixedWealthMode_Info>Juega en el modo de progresión fija de riqueza.\n\nEn el modo normal, el narrador escala las amenazas dependiendo del número de colonos, riqueza del jugador, y un montón de otros factores. El modo de progresión fija de riqueza elimina el factor de la riqueza como lo conocemos, y lo reemplaza con una curva de progreso que incrementa con el tiempo. El tiempo empieza a contar desde que se funda cada colonia.\n\nEsto solo está recomendado para aquellos que busquen un reto de pura habilidad. En el modo de progresión fija de riqueza, puede que sea casi imposible recuperarse de las pérdidas severas a menos que fundes un nuevo asentamiento. También es posible adelantarse mucho a la curva y encontrar el juego muy fácil.</Difficulty_FixedWealthMode_Info>
   <!-- EN: Years until maximum threat -->
   <Difficulty_FixedWealthTimeFactor_Label>Años hasta la máxima amenaza</Difficulty_FixedWealthTimeFactor_Label>
   <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->

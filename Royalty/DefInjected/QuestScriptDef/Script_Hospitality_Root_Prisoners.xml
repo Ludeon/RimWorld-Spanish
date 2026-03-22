@@ -47,7 +47,7 @@
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>-->
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->El capitán de una nave en órbita quiere que cuistodies a un prisionero de nombre [lodgers0_nameFull] en [map_definite] durante [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->El capitán de una nave en órbita quiere que custodies a un prisionero de nombre [lodgers0_nameFull] en [map_definite] durante [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] recientemente escupió al hijo más querido de [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] de la facción [enemyFaction_name]. [enemyFaction_leader_nameDef] enviará unos [enemyFaction_pawnsPlural] para vengar a cualquiera que se atreva a proteger[lodgers0_objective]. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
@@ -57,7 +57,7 @@
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nThe prisoners recently [mechViolation], and have been targeted by a mechanoid hive. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>-->
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->El capitán de una nave en órbita quiere que cuistodies a [lodgersCount] prisioneros en [map_definite] durante [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->El capitán de una nave en órbita quiere que custodies a [lodgersCount] prisioneros en [map_definite] durante [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nLos prisioneros cometieron una serie de asesinatos contra los [enemyFaction_pawnsPlural] de la facción [enemyFaction_name] y las familias de las víctimas lanzarán una serie de asaltos en busca de venganza. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nLos prisioneros recientemente [mechViolation], y ahora están en la mira de un enjambre de mecanoides. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
@@ -77,7 +77,7 @@
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]'s enemies have some provoked a mechanoid hive into hunting the prisoners, so it will send mechanoid attack groups. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>-->
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull], [asker_faction_leaderTitle] de la facción [asker_faction_name], ha capturado a [lodgersCount] prisioneros de una facción enemiga. Sin un lugar para custodiarlos, [asker_nameDef] quiere que los vigiles durante [shuttleDelayTicks_duration], hasta que la prisión que está construyendo este lista.[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull], [asker_faction_leaderTitle] de la facción [asker_faction_name], ha capturado a [lodgersCount] prisioneros de una facción enemiga. Sin un lugar para custodiarlos, [asker_nameDef] quiere que los vigiles durante [shuttleDelayTicks_duration], hasta que la prisión que está construyendo esté lista.[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nLos prisioneros tienen un acuerdo de rescate con la facción [enemyFaction_name] así que ellos enviarán a unos [enemyFaction_pawnsPlural] a por ti. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nLos enemigos de [asker_nameDef] de alguna manera lograron manipular a un enjambre de mecanoides para cazar a los prisioneros. Ahora los mecanoides enviarán grupos de asalto. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>

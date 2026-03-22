@@ -6,9 +6,9 @@
     <rulesStrings>
       <li>root(priority=1,sitePart==ClimateAdjuster)->hay (*Threat)una máquina reguladora del clima(/Threat) que está cambiando la temperatura regional en [temperatureOffset]</li>
       <li>root(priority=1,sitePart==PsychicDroner)->hay (*Threat)una máquina de zumbido psíquico(/Threat) sintonizada para afectar a {replace: [affectedGender]; "hombre"-"hombres"; "mujer"-"mujeres"}</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->hay (*Threat)una máquina represión psíquica(/Threat) sintonizada para afectar a {replace: [affectedGender]; "hombre"-"hombres"; "mujer"-"mujeres"}</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->hay (*Threat)una máquina de represión psíquica(/Threat) sintonizada para afectar a {replace: [affectedGender]; "hombre"-"hombres"; "mujer"-"mujeres"}</li>
       <li>root(priority=1,sitePart==WeatherController)->hay (*Threat)una máquina controladora del clima(/Threat) que está forzando al clima de toda la región a generar [weather_label]</li>
-      <li>root(priority=1,sitePart==SmokeSpewer)->hay (*Threat)una máquina generadora humo(/Threat) que expulsa humo por toda la región</li>
+      <li>root(priority=1,sitePart==SmokeSpewer)->hay (*Threat)una máquina generadora de humo(/Threat) que expulsa humo por toda la región</li>
       <li>root(priority=1,sitePart==SunBlocker)->hay (*Threat)una máquina bloqueadora del sol(/Threat) que sombrea toda la región</li>
       <li>root(priority=1,sitePart==EMIDynamo)->hay (*Threat)un dinamo de interferencia electromagnética (IEM)(/Threat) que desactiva a todos dispositivos eléctricos en toda la región</li>
       <li>root(priority=1,sitePart==ToxicSpewer)->hay (*Threat)una máquina de generación tóxica(/Threat) que cubre la región entera con veneno</li>
@@ -39,7 +39,7 @@
     <li>threatDescription->[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack you. Their group is composed of:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   -->
   <Util_Raid.questDescriptionRules.rulesStrings>
-    <li>threatDescription->[enemyFaction_pawnsPlural] de la facción [enemyFaction_name] te atacarán. Su grupo está comformado por:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
+    <li>threatDescription->[enemyFaction_pawnsPlural] de la facción [enemyFaction_name] te atacarán. Su grupo está conformado por:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   </Util_Raid.questDescriptionRules.rulesStrings>
   
   <!-- EN:

@@ -4,11 +4,11 @@
   <!-- EN: [PAWN_nameDef] spent almost all of [PAWN_possessive] time indoors, away from other humans. To survive, [PAWN_pronoun] trained and sold messenger rats. -->
   <CynapseCustomAdulthood.description>[PAWN_nameDef] pasó casi todo su tiempo en su casa, lejos de otros humanos. Para sobrevivir, entrenó y vendió ratas mensajeras.</CynapseCustomAdulthood.description>
   <!-- EN: hermit -->
-  <CynapseCustomAdulthood.title>hermitaño</CynapseCustomAdulthood.title>
-  <CynapseCustomAdulthood.titleFemale>hermitaña</CynapseCustomAdulthood.titleFemale>
+  <CynapseCustomAdulthood.title>ermitaño</CynapseCustomAdulthood.title>
+  <CynapseCustomAdulthood.titleFemale>ermitaña</CynapseCustomAdulthood.titleFemale>
   <!-- EN: hermit -->
-  <CynapseCustomAdulthood.titleShort>hermitaño</CynapseCustomAdulthood.titleShort>
-  <CynapseCustomAdulthood.titleShortFemale>hermitaña</CynapseCustomAdulthood.titleShortFemale>
+  <CynapseCustomAdulthood.titleShort>ermitaño</CynapseCustomAdulthood.titleShort>
+  <CynapseCustomAdulthood.titleShortFemale>ermitaña</CynapseCustomAdulthood.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] spent most of [PAWN_possessive] time disassembling and reassembling electronic devices in order to figure out how they function. [PAWN_nameDef] became so preoccupied with [PAWN_possessive] tinkering that [PAWN_pronoun] forgot to develop social relationships with other humans. -->
   <CynapseCustomChildhood.description>[PAWN_nameDef] pasó la mayor parte de su tiempo desmontando y volviendo a montar dispositivos electrónicos para entender cómo funcionan. Se obsesionó tanto con sus cacharros que se olvidó de desarrollar relaciones sociales con otros humanos.</CynapseCustomChildhood.description>
@@ -18,14 +18,14 @@
   <CynapseCustomChildhood.titleShort>manitas</CynapseCustomChildhood.titleShort>
   
   <!-- EN: [PAWN_nameDef] spent all [PAWN_possessive] time running tabletop role-playing games as a way to connect socially with others. The game changed every year, and other players always loved [PAWN_possessive] worldbuilding and stories. -->
-  <FeyCustomAdulthood.description>[PAWN_nameDef] pasó todo su tiempo dirigiendo juegos de rol de mesa como una forma de conectarse socialmente con otros. El juego cambiaba cada año, y a los otros jugadores siempre les encantaba los mundos e historias que creaba.</FeyCustomAdulthood.description>
+  <FeyCustomAdulthood.description>[PAWN_nameDef] pasó todo su tiempo dirigiendo juegos de rol de mesa como una forma de conectarse socialmente con otros. El juego cambiaba cada año, y a los otros jugadores siempre les encantaban los mundos e historias que creaba.</FeyCustomAdulthood.description>
   <!-- EN: game master -->
   <FeyCustomAdulthood.title>game master</FeyCustomAdulthood.title>
   <!-- EN: game master -->
   <FeyCustomAdulthood.titleShort>game master</FeyCustomAdulthood.titleShort>
   
   <!-- EN: Growing up sheltered in an urbworld archology, [PAWN_nameDef] distracted [PAWN_objective]self by playing wargames and painting miniatures. While [PAWN_pronoun] was never very good at the game itself, it helped to connect [PAWN_objective] with others. -->
-  <FeyCustomChildhood.description>Al crecer en un refugio de un mundo urbano, [PAWN_nameDef] se distrajo jugando juegos de guerra y pintando miniaturas. Aunque nunca fue muy bueno en el juego en sí, le ayudó a conectarlo con otros.</FeyCustomChildhood.description>
+  <FeyCustomChildhood.description>Al crecer resguardad{PAWN_gender ? o : a} en una arcología de un mundo urbano, [PAWN_nameDef] se distrajo jugando juegos de guerra y pintando miniaturas. Aunque nunca fue muy buen{PAWN_gender ? o : a} en el juego en sí, le ayudó a conectarse con otros.</FeyCustomChildhood.description>
   <!-- EN: wargame fanatic -->
   <FeyCustomChildhood.title>Fanático de los juegos de guerra</FeyCustomChildhood.title>
   <FeyCustomChildhood.titleFemale>Fanática de los juegos de guerra</FeyCustomChildhood.titleFemale>
@@ -59,7 +59,7 @@
   <LiamCustomAdulthood.titleShortFemale>desarrolladora</LiamCustomAdulthood.titleShortFemale>
   
   <!-- EN: Born and raised on a glitterworld, [PAWN_nameDef] was obsessed with simulation software. [PAWN_pronoun] spent far too much time plugged in. -->
-  <LiamCustomChildhood.description>Nacido y criado en un mundobrillante, [PAWN_nameDef] estaba obsesionado con el software de simulación. Se pasaba demasiado tiempo conectado.</LiamCustomChildhood.description>
+  <LiamCustomChildhood.description>{PAWN_gender ? Nacido y criado : Nacida y criada} en un mundobrillante, [PAWN_nameDef] estaba obsesionad{PAWN_gender ? o : a} con el software de simulación. Se pasaba demasiado tiempo conectad{PAWN_gender ? o : a}.</LiamCustomChildhood.description>
   <!-- EN: sim addict -->
   <LiamCustomChildhood.title>adicto a simuladores</LiamCustomChildhood.title>
   <LiamCustomChildhood.titleFemale>adicta a simuladores</LiamCustomChildhood.titleFemale>
@@ -112,7 +112,7 @@
   <OskarCustomAdulthood.titleShort>modder</OskarCustomAdulthood.titleShort>
   
   <!-- EN: [PAWN_nameDef] was born on the dark edge of a tidally-locked urbworld. After an argument, [PAWN_possessive] father sold [PAWN_objective] to a local district lord as a slave artist.\n\nForced to create art or be punished, [PAWN_pronoun] withdrew and became unable to form relations with others. -->
-  <OskarCustomChildhood.description>[PAWN_nameDef] nació en el oscuro borde de un mundourbano con rotación sincrónica. Después de una discusión, el padre de [PAWN_nameDef] lo vendió a un señor del distrito local como un artista esclavo.\n\nForzado a crear arte o ser castigado, huyó, pero se volvió incapaz de formar relaciones con otros.</OskarCustomChildhood.description>
+  <OskarCustomChildhood.description>[PAWN_nameDef] nació en el oscuro borde de un mundo urbano con rotación sincrónica. Después de una discusión, su padre {PAWN_gender ? lo : la} vendió a un señor del distrito local como {PAWN_gender ? un artista esclavo : una artista esclava}.\n\nForzad{PAWN_gender ? o : a} a crear arte o ser castigad{PAWN_gender ? o : a}, se encerró en {PAWN_gender ? sí mismo : sí misma} y se volvió incapaz de formar relaciones con otros.</OskarCustomChildhood.description>
   <!-- EN: art slave -->
   <OskarCustomChildhood.title>artista esclavo</OskarCustomChildhood.title>
   <OskarCustomChildhood.titleFemale>artista esclava</OskarCustomChildhood.titleFemale>
@@ -136,7 +136,7 @@
   <TynanCustomChildhood.titleShort>punk</TynanCustomChildhood.titleShort>
   
   <!-- EN: [PAWN_nameDef] designed elaborate entertainment mazes for the glitterworld elite. Even now, [PAWN_pronoun] thinks of little else. -->
-  <WillCustomAdulthood.description>[PAWN_nameDef] diseñó intrincados laberintos de entretenimiento para la élite de mundobrillante. Incluso ahora, no piensa en otra cosa.</WillCustomAdulthood.description>
+  <WillCustomAdulthood.description>[PAWN_nameDef] diseñó intrincados laberintos de entretenimiento para la élite de un mundobrillante. Incluso ahora, no piensa en otra cosa.</WillCustomAdulthood.description>
   <!-- EN: labyrinth maker -->
   <WillCustomAdulthood.title>diseñador de laberintos</WillCustomAdulthood.title>
   <WillCustomAdulthood.titleFemale>diseñadora de laberintos</WillCustomAdulthood.titleFemale>

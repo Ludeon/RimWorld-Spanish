@@ -38,7 +38,7 @@
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>Los {0} de {1} están abandonando el mapa por las temperaturas peligrosas.</MessageVisitorsDangerousTemperature>
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
-  <MessageVisitorsAnomalousWeather>Los {0} de {1} están abandonando el mapa por el tiempo peligroso.</MessageVisitorsAnomalousWeather>
+  <MessageVisitorsAnomalousWeather>Los {0} de {1} están abandonando el mapa por el clima peligroso.</MessageVisitorsAnomalousWeather>
   <!-- EN: {0} from {1} are leaving the map because of dangerous conditions. -->
   <MessageVisitorsDangerousConditions>Los {0} de {1} están abandonando el mapa debido a condiciones peligrosas.</MessageVisitorsDangerousConditions>
 
@@ -51,7 +51,7 @@
   <MessageSeasonBegun>{0_definite} ha comenzado.</MessageSeasonBegun>
 
   <!-- EN: {0} has left comms range. -->
-  <MessageShipHasLeftCommsRange>La nave de {0} ha salido del rango.</MessageShipHasLeftCommsRange>
+  <MessageShipHasLeftCommsRange>La nave de {0} ha salido del rango de comunicaciones.</MessageShipHasLeftCommsRange>
 
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Necesitas una baliza de comercio orbital para comerciar con una nave.</MessageNeedBeaconToTradeWithShip>
@@ -96,7 +96,7 @@
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
   <MessageTameSuccess>{RECRUITER_labelShort} ha domesticado con éxito a {1}.</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} ha domesticado con éxito a {1}, y {1_objective} ha llamado {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} ha domesticado con éxito a {1}, y ahora se llama {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
   <MessageTameNoSuitablePens>No hay un corral adecuado para {ANIMAL_labelShort}. Terminará alejándose del mapa con el tiempo.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
@@ -115,7 +115,7 @@
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
   <MessageMustDesignateHarvestableWood>Debes designar plantas talables lo suficientemente maduras.</MessageMustDesignateHarvestableWood>
   <!-- EN: Prevent cutting is enabled for this plant. -->
-  <MessageMustPlantCuttingForbidden>Prevenir el corte está activado para esta planta.</MessageMustPlantCuttingForbidden>
+  <MessageMustPlantCuttingForbidden>La opción "No cortar" está activada para esta planta.</MessageMustPlantCuttingForbidden>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Debes designar plantas.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -127,7 +127,7 @@
   <!-- EN: Must designate tameable animals. -->
   <MessageMustDesignateTameable>Debes designar animales domesticables.</MessageMustDesignateTameable>
   <!-- EN: Must designate abandoned claimable structures or items. -->
-  <MessageMustDesignateClaimable>Debes designar las estructuras o artículos reclamables abandonados.</MessageMustDesignateClaimable>
+  <MessageMustDesignateClaimable>Debes designar estructuras u objetos abandonados que puedan reclamarse.</MessageMustDesignateClaimable>
   <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
   <MessageMustDesignatePaintableBuildings>Debes designar construcciones pintables y sin pintar {0_label}.</MessageMustDesignatePaintableBuildings>
   <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
@@ -135,7 +135,7 @@
   <!-- EN: Must designate painted buildings or floors. -->
   <MessageMustDesignatePainted>Debes designar edificios o suelos pintados.</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
-  <MessageMustDesignateDeconstructibleMechCluster>Primero debes derrotar al mecaconglomerado antes de poder desconstruirlos.</MessageMustDesignateDeconstructibleMechCluster>
+  <MessageMustDesignateDeconstructibleMechCluster>Primero debes derrotar al mecaconglomerado antes de poder deconstruirlo.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>Debes designar superficies de piedra ásperas.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Must designate rough stone terrain. -->
@@ -352,7 +352,7 @@
   <!-- EN: The loading process has been canceled because the shuttle has been destroyed. -->
   <MessageTransporterSingleLoadCanceled_TransporterDestroyed>El proceso de carga se ha cancelado porque el transbordador ha sido destruido.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
-  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>El proceso de carga se ha cancelado porque una de las lanzadores ha sido destruida.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>El proceso de carga se ha cancelado porque una de las lanzaderas ha sido destruida.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>Los objetos y personas seleccionados se cargarán en las cápsulas de transporte.</MessageTransportersLoadingProcessStarted>
@@ -644,7 +644,7 @@
   <MessageTranslationFilesCleanupDone>Listo. Carpetas afectadas:\n{0}</MessageTranslationFilesCleanupDone>
 
   <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
-  <MessageCantCleanupTranslationFilesBeucaseOfXmlError>Uno de los archivos de traducción ({0}) no pudo ser cargado. Todos los errores de análisis de XML deben ser resueltos primero.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
+  <MessageCantCleanupTranslationFilesBeucaseOfXmlError>Uno de los archivos de traducción ({0}) no pudo cargarse. Todos los errores de análisis de XML deben resolverse primero.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
   <MessageCapturingWillAngerFaction>Advertencia: Capturar a {PAWN_nameDef} enfadará a la facción {PAWN_factionName}.</MessageCapturingWillAngerFaction>
@@ -653,7 +653,7 @@
   <MessageStrippingWillAngerFaction>Advertencia: Desnudar a {PAWN_nameDef} enfadará a la facción {PAWN_factionName}.</MessageStrippingWillAngerFaction>
 
   <!-- EN: Cannot shoot in melee. -->
-  <MessageCantShootInMelee>No puede disparar en combate cuerpo a cuerpo.</MessageCantShootInMelee>
+  <MessageCantShootInMelee>No se puede disparar en combate cuerpo a cuerpo.</MessageCantShootInMelee>
 
   <!-- EN: None of your {0} can accept this quest now. -->
   <MessageNoColonistCanAcceptQuest>Ninguno de tus {0} puede aceptar esta misión ahora mismo.</MessageNoColonistCanAcceptQuest>
@@ -707,7 +707,7 @@
 
   <!-- Rituals -->
   <!-- EN: spectate -->
-  <Spectate>espectar</Spectate>
+  <Spectate>presenciar</Spectate>
   <!-- EN: Assign to {0} -->
   <AssignToRole>Asignar a {0}</AssignToRole>
   <!-- EN: {0} has begun. -->
@@ -765,9 +765,9 @@
   <!-- EN: {0} must be capable of {1}. -->
   <MessageRitualRoleMustBeCapableOfGeneric>{0} debe ser capaz de {1}.</MessageRitualRoleMustBeCapableOfGeneric>
   <!-- EN: {0} must be capable of violence. -->
-  <MessageRitualRoleMustBeCapableOfViolence>{0} debe ser capaz de ser violento</MessageRitualRoleMustBeCapableOfViolence>
+  <MessageRitualRoleMustBeCapableOfViolence>{0} debe ser capaz de ejercer violencia.</MessageRitualRoleMustBeCapableOfViolence>
   <!-- EN: prisoners cannot {0}. -->
-  <MessageRitualRoleMustNotBePrisonerToSpectate>los prisioneros no pueden ser {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
+  <MessageRitualRoleMustNotBePrisonerToSpectate>los prisioneros no pueden {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
   <!-- EN: only {0} can {1}. -->
   <MessageRitualRoleMustHaveIdeoToSpectate>solo {0} puede {1}.</MessageRitualRoleMustHaveIdeoToSpectate>
   <!-- EN: only {0} can fill the role of {1}. -->
@@ -797,7 +797,7 @@
   <!-- EN: {0} cannot be a baby. -->
   <MessageRitualRoleCannotBeBaby>{0} no puede ser un bebé.</MessageRitualRoleCannotBeBaby>
   <!-- EN: {0} is busy. -->
-  <MessageRitualRoleBusy>{0} está ocupad{0_gender ? o : a}</MessageRitualRoleBusy>
+  <MessageRitualRoleBusy>{0} está ocupad{0_gender ? o : a}.</MessageRitualRoleBusy>
 
   <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>Debes seleccionar un lugar para continuar.</MessagePlayerMustSelectTile>
@@ -828,7 +828,7 @@
   <MessageIncapableOfManipulation>{0_labelShort} es incapaz de ser manipulad{0_gender ? o : a}.</MessageIncapableOfManipulation>
 
   <!-- EN: {0_labelShort} activation canceled -->
-  <MessageActivationCanceled>{0_labelShort} activación cancelada</MessageActivationCanceled>
+  <MessageActivationCanceled>Activación de {0_labelShort} cancelada</MessageActivationCanceled>
 
   <!-- EN: Nothing is currently buildable in category -->
   <NothingAvailableInCategory>Actualmente no puedes construir nada de la categoría</NothingAvailableInCategory>

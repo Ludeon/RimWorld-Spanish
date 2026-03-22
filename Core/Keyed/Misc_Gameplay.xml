@@ -3,7 +3,7 @@
 
   <!-- Various -->
   <!-- EN: hit points -->
-  <HitPointsBasic>puntos de daño</HitPointsBasic>
+  <HitPointsBasic>puntos de salud</HitPointsBasic>
   <!-- EN: Work left -->
   <WorkLeft>Trabajo restante</WorkLeft>
   <!-- EN: Contents -->
@@ -183,7 +183,7 @@
   <!-- EN: people -->
   <People>personas</People>
   <!-- EN: time passed -->
-  <TimePassed>tiempo transcurrrido</TimePassed>
+  <TimePassed>tiempo transcurrido</TimePassed>
   <!-- EN: current radius -->
   <CurrentRadius>radio actual</CurrentRadius>
   <!-- EN: radius expands in -->
@@ -225,7 +225,7 @@
   <!-- EN: {0} in mental state -->
   <CaravanPawnsInMentalState>{0} en estado mental</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
-  <CaravanPawnsDowned>{0} insconsciente(s)</CaravanPawnsDowned>
+  <CaravanPawnsDowned>{replace: ^{0} inconscientes; "^1 inconscientes"-"1 inconsciente"; "^"-""}</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
   <CaravanTraveling>Viajando.</CaravanTraveling>
   <!-- EN: Waiting. -->
@@ -379,7 +379,7 @@
   <!-- EN: Multiplier from bonuses -->
   <MultiplierFromMoveSpeedBonus>Multi. de bonificaciones</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
-  <MultiplierForCarriedMass>Multiplicador del peso transportada: {0}</MultiplierForCarriedMass>
+  <MultiplierForCarriedMass>Multiplicador del peso transportado: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>Este animal se puede montar. La gente de una caravana montará los animales más rápidos disponibles, mejorando la velocidad de la caravana en su conjunto.</RideableAnimalTip>
   <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
@@ -537,7 +537,7 @@
   <!-- EN: Natural goodwill range -->
   <NaturalGoodwillRange>Rango de la reputación natural</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>La reputación natural se basa en la identidad y creencias de las facciones. Si la reputación actual está lejos de la natural, cambiará lentamente hacia reputación natural con el tiempo.\n\nTodos los efectos de reputacion son multiplicados por {0} cuando cambian hacia la reputación natural.</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>La reputación natural se basa en la identidad y creencias de las facciones. Si la reputación actual está lejos de la natural, cambiará lentamente hacia reputación natural con el tiempo.\n\nTodos los efectos de reputación son multiplicados por {0} cuando cambian hacia la reputación natural.</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>reduciendo resistencia de {0_nameIndef}</JobReport_ReduceResistance>
   <!-- EN: Too large -->
@@ -631,9 +631,9 @@
   <!-- EN: flying -->
   <Flying>volando</Flying>
   <!-- EN: Prevent cutting -->
-  <PreventCutting>Evitar cortar</PreventCutting>
+  <PreventCutting>No cortar</PreventCutting>
   <!-- EN: When on, colonists won't cut this plant. -->
-  <PreventCuttingDesc>Cuando está activo, los colonos no cortaran esta planta.</PreventCuttingDesc>
+  <PreventCuttingDesc>Cuando está activo, los colonos no cortarán esta planta.</PreventCuttingDesc>
 
   <!-- EN: Resulting from trait -->
   <ComesFromTrait>Resultado del rasgo</ComesFromTrait>
@@ -1249,7 +1249,7 @@
   
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSterilizeConfirm>¿Seguro que quieres esterilizar a {PAWN_nameDef}? Si lo haces, enfadarás a {FACTION_name}..</AnimalSterilizeConfirm>
+  <AnimalSterilizeConfirm>¿Seguro que quieres esterilizar a {PAWN_nameDef}? Si lo haces, enfadarás a {FACTION_name}.</AnimalSterilizeConfirm>
   <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
   <AnimalSlaughterConfirm>¿Seguro que quieres sacrificar a {PAWN_nameDef}? Si lo haces, enfadarás a {FACTION_name}.</AnimalSlaughterConfirm>
   <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
@@ -1375,7 +1375,7 @@
   <!-- EN: Contains -->
   <CasketContains>Contiene</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>¡Advertencia!\n\n¡{PAWN_nameDef} es tu últim{PAWN_gender ? o : a} colon{PAWN_gender ? o : a} en pie! Si {PAWN_objective} dejas entrar en ese sarcófago, no podrás seguir jugando. ¿Seguro que quieres continuar?</CasketWarning>
+  <CasketWarning>¡Advertencia!\n\n¡{PAWN_nameDef} es tu últim{PAWN_gender ? o : a} colon{PAWN_gender ? o : a} en pie! Si dejas que entre en ese sarcófago, no podrás seguir jugando. ¿Seguro que quieres continuar?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -1397,7 +1397,7 @@
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)Charlon Whitestone(/Name) está listo para comenzar la secuencia de recuperación de la hibernación del reactor.\n\nAdvierte que el proceso tomará alrededor de 15 días, y la señal de energía será detectable desde una gran distancia. Este tipo de firma de energía indica capacidad de vuelo interestelar y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>El reactor está listo para encenderse.\n\nEl proceso tomará alrededor de 15 días, y la señal de energía será detectable a largas distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarningStandalone>
+  <HibernateWarningStandalone>El reactor está listo para encenderse.\n\nEl proceso tomará alrededor de 15 días, y la señal de energía será detectable a largas distancias. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>(*Name)Charlon Whitestone(/Name) está listo para iniciar la secuencia de recuperación de hibernación del reactor. Te advierte que el proceso durará unos 15 días.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
@@ -1407,11 +1407,11 @@
   <!-- EN: skilltrainer ({0}) -->
   <SkillNeurotrainerLabel>neuroentrenador ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skilltrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>Usa el neuroentrenador de habilidades ara aprender {0}</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>Usa el neuroentrenador de habilidades para aprender {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>Una super dosis de mecanitas de un uso capaz de entrenar una habilidad específica.\n\nLa dosis es administrada a traves de la orbita del ojo. Una vez liberados en el cerebro, los mecanitas rápidamente mejoran las habilidades del sujeto en un área en concreto, convirtiendose en tejido nervioso segun sea necesario.</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>Una superdosis de mecanitas de un uso capaz de entrenar una habilidad específica.\n\nLa dosis es administrada a través de la órbita del ojo. Una vez liberados en el cerebro, los mecanitas rápidamente mejoran las habilidades del sujeto en un área en concreto, convirtiéndose en tejido nervioso según sea necesario.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>{USER_labelShort} usó el neuroentrenador {1} para ir subir su nivel de {2} a {3}.</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort} usó el neuroentrenador {1} para subir su nivel de {2} a {3}.</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -1569,7 +1569,7 @@
   <!-- EN: No resources below. -->
   <DeepDrillNoResources>No hay recursos debajo.</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>Recursos del taladro de profundidad agotados, taladro bloqueado automáticamente. Desbloquéalo para inicar la extracción de {0}.</DeepDrillExhausted>
+  <DeepDrillExhausted>Recursos del taladro de profundidad agotados, taladro bloqueado automáticamente. Desbloquéalo para iniciar la extracción de {0}.</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>Recursos del taladro de profundidad agotados.</DeepDrillExhaustedNoFallback>
 
@@ -2095,7 +2095,7 @@
   <!-- EN: Fill in -->
   <DesignatorFillIn>Rellenar</DesignatorFillIn>
   <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
-  <DesignatorFillInDesc>Rellena esta fosa madriguera.</DesignatorFillInDesc>
+  <DesignatorFillInDesc>Designa este cráter para rellenarlo. Un colono asignado a construcción lo rellenará.</DesignatorFillInDesc>
 
   <!-- Hacking -->
   <!-- EN: Hack progress -->

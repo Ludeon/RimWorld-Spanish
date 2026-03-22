@@ -12,7 +12,7 @@
     <li>questDescription->[intro][asker_TheCap] [asker_faction_leaderTitle], de la facción [asker_faction_name], realizará una visita protocolaria a cualquier Conde o Condesa de tu dominio que lo solicite. Invíta[asker_objective] y satisface sus necesidades reales durante [shuttleDelayTicks_duration], y así todos tus colonos obtendrán permiso para abordar el transbordador de la Flota Imperial. Se te permitirá unirte a la Corte Imperial o comenzar una nueva vida en la galaxia.\n\nGanar el título de Conde significa completar una serie de misiones para ganar [asker_faction_royalFavorLabel] de la facción [asker_faction_name]. No será rápido, puede llevarte años conseguir finalmente el título de Conde.\n\nDurante su visita, debes mantener su humor por encima de [lodgersMoodThreshold_percent]. Esto significa cumplir con ciertos requisitos reales, como hospedar[asker_objective] en un dormitorio lujoso.[threatsInfo]\n\nComo [asker_faction_leaderTitle], [asker_pronoun] traerá consigo a cuatro de sus guardias personales y los pondrá bajo tu mando a los cuales deberás alojar, aunque [asker_a_al] [asker_faction_leaderTitle] no le importará si estos son asesinados o se sienten infelices.\n\nDebes mantener a los visitantes en [map_definite] y no enviarlos a ningún otro sitio. Si fallas en esta misión o te trasladas, tendrás otra oportunidad más adelante.</li>
     <li>intro(sameQuestsCount==0)->¡Descubriste una manera de dejar este planeta!\n\n</li>
     <li>intro(sameQuestsCount>=1)->Te han dado otra oportunidad para un ascenso real.\n\n</li>
-    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nOtros aprovecharán está oportunidad para matar [asker_a_al] [asker_faction_leaderTitle], y atacarán con todas sus fuerzas. Prepárate para defenderte.</li>
+    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nOtros aprovecharán esta oportunidad para matar [asker_a_al] [asker_faction_leaderTitle], y atacarán con todas sus fuerzas. Prepárate para defenderte.</li>
     <li>threatsInfo-></li>
   </EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -38,7 +38,7 @@
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>Misión fallida: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>
   <!-- EN: [faction_name] became hostile to you.  -->
-  <EndGame_RoyalAscent.LetterTextFactionBecameHostile.slateRef>La facción [faction_name] se ha vuleto hostil.</EndGame_RoyalAscent.LetterTextFactionBecameHostile.slateRef>
+  <EndGame_RoyalAscent.LetterTextFactionBecameHostile.slateRef>La facción [faction_name] se ha vuelto hostil.</EndGame_RoyalAscent.LetterTextFactionBecameHostile.slateRef>
   <!-- EN: asker.NoLongerFactionLeader -->
   <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>asker.NoLongerFactionLeader</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
   <!-- EN: [asker_faction_leaderTitle] arrived -->
@@ -74,7 +74,7 @@
   <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>Xenogermen absorbido: {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>A {SUBJECT_definite}, a quien debías proteger, le fue absorbido su xenogermen a la fuerza. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>El xenogermen de {SUBJECT_definite}, a quien debías proteger, fue absorbido a la fuerza. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>Invitado perdido: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon] -->

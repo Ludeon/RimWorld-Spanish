@@ -70,12 +70,12 @@
     <li>groupLabelPlural(allChildren==true,priority=1)->niños</li>
     <li>groupLabelSingle->viajer[beggars_o_a]</li>
     <li>groupLabelSingle(childCount>=1,priority=1)->niñ[beggars_o_a]</li>
-    <li>travelerInfo(beggarCount==1)->Est[beggars_e_a] [groupLabelSingle] no es</li>
-    <li>travelerInfo(beggarCount>=2)->Estos [groupLabelPlural] no son</li>
+    <li>travelerInfo(beggarCount==1)->Est[beggars_e_a] [groupLabelSingle] no forma</li>
+    <li>travelerInfo(beggarCount>=2)->Estos [groupLabelPlural] no forman</li>
     <li>beggingForInfo->por x[requestedThingCount] [requestedThing_label]</li>
     <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
     <li>traverObjective(beggarCount>=2)->los</li>
-    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] parte de ninguna facción. Si lo deseas, puedes optar por matar, arrestar, vender o extraer sus órganos, sin consecuencias diplomáticas.</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] parte de ninguna facción. Si lo deseas, puedes optar por matar, arrestar, vender o extraer [traverObjective], sin consecuencias diplomáticas.</li>
     <li>approachInfo(beggarCount==1,beggars0_gender!=Female)->Un pobre [groupLabelSingle] llamado [beggars0_nameDef] se acerca en busca de ayuda</li>
     <li>approachInfo(beggarCount==1,beggars0_gender==Female)->Una pobre [groupLabelSingle] llamada [beggars0_nameDef] se acerca en busca de ayuda</li>
     <li>approachInfo(beggarCount>=2)->Unos pobres [groupLabelPlural] se acercan en busca de ayuda</li>

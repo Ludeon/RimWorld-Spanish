@@ -58,7 +58,7 @@
     <li>wound_name_present->lisiando</li>
     <li>wound_name_present->dejando inconsciente</li>
     <li>wound_name_present->lastimando</li>
-    <li>wound_name_present1->la incapacitanción</li>
+    <li>wound_name_present1->la incapacitación</li>
     <li>wound_name_present1->el lisiamiento</li>
     <li>wound_name_present1->el noqueo</li>
     <li>wound_name_present1->el desmayo</li>
@@ -110,14 +110,14 @@
     <li>image->[PAWN_nameFull] durmiendo plácidamente [circumstance_group]</li>
     <li>circumstance_phrase->con los ojos cerrados</li>
     <li>circumstance_phrase->con expresión de agotamiento</li>
-    <li>circumstance_phrase->cubiert[PAWN_o_a] en sudor</li>
+    <li>circumstance_phrase->cubiert[PAWN_o_a] de sudor</li>
     <li>circumstance_phrase->incapaz de mover un músculo</li>
     <li>desc_sentence->El último proyecto de [PAWN_nameDef] está cerca, completado.</li>
     <li>desc_sentence->Una construcción maravillosa rodea a [PAWN_nameDef].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan agradecidos por el esfuerzo heroico de [PAWN_nameDef].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] yacen cerca en un estado similar.</li>
-    <li>desc_sentence->La escena toma lugar dentro de un [Community] recientemente construido.</li>
-    <li>desc_sentence->La escena toma lugar dentro de una [Community_Fem] recientemente construida.</li>
+    <li>desc_sentence->La escena tiene lugar dentro de un [Community] recientemente construido.</li>
+    <li>desc_sentence->La escena tiene lugar dentro de una [Community_Fem] recientemente construida.</li>
   </Exhausted.rulePack.rulesStrings>
   
   <!-- EN: gave birth -->
@@ -156,8 +156,8 @@
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] duermen apaciblemente cerca.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan la escena.</li>
     <li>desc_sentence->Un [PersonJob] observa desde la distancia.</li>
-    <li>desc_sentence->La escena toma lugar dentro de un [Community] recién construido.</li>
-    <li>desc_sentence->La escena toma lugar dentro de una [Community_Fem] recién construida.</li>
+    <li>desc_sentence->La escena tiene lugar dentro de un [Community] recién construido.</li>
+    <li>desc_sentence->La escena tiene lugar dentro de una [Community_Fem] recién construida.</li>
   </GaveBirth.rulePack.rulesStrings>
   
   <!-- EN: heatstroke revealed -->
@@ -197,8 +197,8 @@
     <li>desc_sentence->[Quantity_adjphrase] cadáveres resecos de [AnimalAnyPl] rodean el área.</li>
     <li>desc_sentence->La ropa de [PAWN_nameDef] está hecha jirones.</li>
     <li>desc_sentence->Un sol resplandece a la distancia.</li>
-    <li>desc_sentence->La escena toma lugar dentro de un desierto abrasador.</li>
-    <li>desc_sentence->La escena toma lugar en interiores, cerca de un calefactor.</li>
+    <li>desc_sentence->La escena tiene lugar dentro de un desierto abrasador.</li>
+    <li>desc_sentence->La escena tiene lugar en interiores, cerca de un calefactor.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] inmóviles rodean la escena.</li>
     <li>desc_sentence->Hay [Quantity_adjphrase] [AnimalAnyPl] agonizantes en el suelo.</li>
   </HeatstrokeRevealed.rulePack.rulesStrings>
@@ -225,7 +225,7 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <HypothermiaRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] sufrió de hipotermia</li>
+    <li>tale_noun->[PAWN_nameDef] sufrió hipotermia</li>
     <li>image->[PAWN_nameFull] arrastrándose por la nieve [circumstance_group]</li>
     <li>image->[PAWN_nameFull] junto a [TerrainFeatureIndef] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] buscando calor [circumstance_group]</li>
@@ -238,8 +238,8 @@
     <li>desc_sentence->[Quantity_adjphrase] cuerpos congelados de [AnimalAnyPl] rodean el área.</li>
     <li>desc_sentence->La ropa de [PAWN_nameDef] está hecha jirones.</li>
     <li>desc_sentence->Una luna fría y azul ilumina la escena.</li>
-    <li>desc_sentence->La escena toma lugar dentro de un bosque de [TreeTypeAny]s cubierto de nieve.</li>
-    <li>desc_sentence->La escena parece tomar lugar dentro de un congelador.</li>
+    <li>desc_sentence->La escena tiene lugar dentro de un bosque de [TreeTypeAny]s cubierto de nieve.</li>
+    <li>desc_sentence->La escena parece tener lugar dentro de un congelador.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] temblando rodean la escena.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] muriendo cubren el suelo.</li>
   </HypothermiaRevealed.rulePack.rulesStrings>
@@ -285,7 +285,7 @@
     <li>desc_sentence->[Quantity_adjphrase] cadáveres de [AnimalAnyPl] rodean el área.</li>
     <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature_Pl] [Color_Plural] retorcidos rodean la escena.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] tienen la misma aflicción.</li>
-    <li>desc_sentence->La escena toma lugar dentro de un bosque de [TreeTypeAny]s.</li>
+    <li>desc_sentence->La escena tiene lugar dentro de un bosque de [TreeTypeAny]s.</li>
     <li>desc_sentence->Hay [Quantity_adjphrase] [AnimalAnyPl] muriendo en el suelo.</li>
   </IllnessRevealed.rulePack.rulesStrings>
   
@@ -475,16 +475,19 @@
     <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} con [WeaponIndef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_past] valientemente {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
     <li>tale_noun->ocurrió [wound_name_past1] {replace: de [VICTIM_nameDef]; "de el "-"del "} por [KILLER_nameDef] con [WeaponIndef]</li>
-    <li>image->[VICTIM_nameFull] siendo [wound_name_present] por [KILLER_nameFull] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] siendo [wound_name_present_past] por [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] brutalmente a [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull] siendo [wound_name_present] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] siendo [wound_name_present_past] [with_weapon_optional]</li>
     <li>wound_name_past->derrotó</li>
     <li>wound_name_past->asesinó</li>
     <li>wound_name_past->dominó</li>
-    <li>wound_name_present->derrotad[VICTIM_o_a]</li>
-    <li>wound_name_present->asesinad[VICTIM_o_a]</li>
-    <li>wound_name_present->dominad[VICTIM_o_a]</li>
+    <li>wound_name_present->derrotando</li>
+    <li>wound_name_present->asesinando</li>
+    <li>wound_name_present->dominando</li>
+    <li>wound_name_present_past->derrotad[VICTIM_o_a]</li>
+    <li>wound_name_present_past->asesinad[VICTIM_o_a]</li>
+    <li>wound_name_present_past->dominad[VICTIM_o_a]</li>
     <li>wound_name_past1->la muerte</li>
     <li>wound_name_past1->la derrota</li>
     <li>wound_name_past1->el asesinato</li>
@@ -681,7 +684,7 @@
     <li>desc_sentence->Las ropas de [PAWN_nameDef] se caen a pedazos.</li>
     <li>desc_sentence->El cielo tiene una neblina [Color_Fem].</li>
     <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature_Pl] [Color_Plural] rodean la escena.</li>
-    <li>desc_sentence->La escena toma lugar dentro de un bosque retorcido de [TreeType]s.</li>
+    <li>desc_sentence->La escena tiene lugar dentro de un bosque retorcido de [TreeType]s.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] agonizantes cubren el suelo.</li>
   </ToxicityRevealed.rulePack.rulesStrings>
   
@@ -747,6 +750,7 @@
     <li>wound_name_present->atacad[VICTIM_o_a]</li>
     <li>wound_name_present->lastimad[VICTIM_o_a]</li>
     <li>wound_name_present->herid[VICTIM_o_a]</li>
+    <li>wound_name_present_past->herid[VICTIM_o_a]</li>
     <li>wound_name_present->lesionad[VICTIM_o_a]</li>
     <li>wound_name_present->golpead[VICTIM_o_a]</li>
     <li>wound_name_present2->atacando</li>

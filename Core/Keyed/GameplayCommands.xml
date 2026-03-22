@@ -40,7 +40,7 @@
   <!-- EN: Undraft -->
   <CommandUndraftLabel>Reclutar</CommandUndraftLabel>
   <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
-  <CommandToggleDraftDesc>Alterna el reclutamiento militar.\n\nLos colonos reclutados recibirán ordenes directas y lucharán. No trabajarán, comerán ni descansarán.</CommandToggleDraftDesc>
+  <CommandToggleDraftDesc>Alterna el reclutamiento militar.\n\nLos colonos reclutados recibirán órdenes directas y lucharán. No trabajarán, comerán ni descansarán.</CommandToggleDraftDesc>
   <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} no puede caminar.</IsIncapped>
   <!-- EN: {0_labelShort} is participating in {1}. -->
@@ -49,7 +49,7 @@
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Fuego a discreción</CommandFireAtWillLabel>
   <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
-  <CommandFireAtWillDesc>Alterna el fuego a discreción.\n\Cuando está desactivado, este personaje no disparará automáticamente a los objetivos a tiro. No afecta al combate cuerpo a cuerpo.</CommandFireAtWillDesc>
+  <CommandFireAtWillDesc>Alterna el fuego a discreción.\n\nCuando está desactivado, este personaje no disparará automáticamente a los objetivos a tiro. No afecta al combate cuerpo a cuerpo.</CommandFireAtWillDesc>
   
   <!-- EN: Clear prioritized work -->
   <CommandClearPrioritizedWork>Cancelar trabajo prioritario</CommandClearPrioritizedWork>
@@ -69,9 +69,9 @@
   <!-- EN: Set owner -->
   <CommandThingSetOwnerLabel>Asignar dueño</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific {0}. -->
-  <CommandBedSetOwnerDesc>Asignar esta cama a un colono en específico.</CommandBedSetOwnerDesc>
+  <CommandBedSetOwnerDesc>Asigna esta cama para que sea propiedad de {0_indefinite} en concreto.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
-  <CommandThroneSetOwnerDesc>Asinar este trono a un colono en específico.</CommandThroneSetOwnerDesc>
+  <CommandThroneSetOwnerDesc>Asignar este trono a un colono en específico.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
   <CommandMeditationSpotSetOwnerDesc>Asigna este punto de meditación a un colono en específico.</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
@@ -137,12 +137,12 @@
   <!-- EN: Delete -->
   <CommandDeletePlanLabel>Borrar</CommandDeletePlanLabel>
   <!-- EN: Delete this plan. -->
-  <CommandDeletePlanDesc>Borra el color del plano.</CommandDeletePlanDesc>
+  <CommandDeletePlanDesc>Borra este plano.</CommandDeletePlanDesc>
   
   <!-- EN: Copy -->
   <CommandCopyPlanLabel>Copiar</CommandCopyPlanLabel>
   <!-- EN: Copy this plan. -->
-  <CommandCopyPlanDesc>Copia el color del plano.</CommandCopyPlanDesc>
+  <CommandCopyPlanDesc>Copia este plano.</CommandCopyPlanDesc>
   
   <!-- EN: Copy selection... -->
   <CommandCopyPlanSelectionLabel>Copiar selección...</CommandCopyPlanSelectionLabel>
@@ -176,7 +176,7 @@
   <!-- EN: Allow cutting -->
   <CommandAllowCut>Permitir corte</CommandAllowCut>
   <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
-  <CommandAllowCutDesc>Cuando están deshabilitados, los colonos nunca cortarán plantas en esta zona. Todavía sembrarán nuevas plantas en espacios que ya están vacíos y cosecharán.</CommandAllowCutDesc>
+  <CommandAllowCutDesc>Cuando está deshabilitado, los colonos nunca cortarán plantas en esta zona. Todavía sembrarán nuevas plantas en espacios que ya están vacíos y cosecharán.</CommandAllowCutDesc>
   
   <!-- EN: Select {0_label} -->
   <CommandSelectStoredThing>Seleccionar {0_label}</CommandSelectStoredThing>
@@ -217,7 +217,7 @@
   <!-- EN: Start ship -->
   <CommandShipStartup>Iniciar nave</CommandShipStartup>
   <!-- EN: Wake up hibernating ship components. -->
-  <CommandShipStartupDesc>Inicia los componentes de hibernacion de la nave.</CommandShipStartupDesc>
+  <CommandShipStartupDesc>Inicia los componentes de hibernación de la nave.</CommandShipStartupDesc>
 
   <!-- Pod -->
   <!-- EN: Eject sleeper -->
@@ -495,7 +495,7 @@
   <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>Alternar repostaje automático</CommandToggleAllowAutoRefuel>
   <!-- EN: This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
-  <CommandToggleAllowAutoRefuelDesc>Determina si se puede o no suministrar más combustible de forma automática.</CommandToggleAllowAutoRefuelDesc>
+  <CommandToggleAllowAutoRefuelDesc>Determina si los colonos repostarán esto automáticamente. Si está activado, los colonos lo rellenarán hasta {0}.\n\nEl repostaje automático está actualmente {ONOFF}.</CommandToggleAllowAutoRefuelDesc>
   <!-- EN: This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}. -->
   <CommandToggleAllowAutoRefuelDescMult>Determina si los colonos repostarán automáticamente estos edificios.\n\nEl repostaje automático está actualmente {ONOFF}.</CommandToggleAllowAutoRefuelDescMult>
 
@@ -555,7 +555,7 @@
   <!-- EN: Autoload -->
   <CommandAutoloadTransporters>Carga automática</CommandAutoloadTransporters>
   <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
-  <CommandAutoloadTransportersDesc>Determina si se cargará automaticamente todos los artículos necesarios en cuanto estén disponibles.</CommandAutoloadTransportersDesc>
+  <CommandAutoloadTransportersDesc>Determina si se cargará automáticamente todos los artículos necesarios en cuanto estén disponibles.</CommandAutoloadTransportersDesc>
   
   <!-- Select previous transporter -->
   <!-- EN: Select previous in launch group -->

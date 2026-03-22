@@ -44,7 +44,7 @@
   <!-- EN: remaining at skill level {0}. -->
   <PhilophagySkillLevelRemains>permaneciendo en el nivel {0}.</PhilophagySkillLevelRemains>
   <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
-  <PhilophagyDamagedTarget>El proceso dañó el cerebro de {TARGET_nameDef}, dejando{TARGET_objective} en coma.</PhilophagyDamagedTarget>
+  <PhilophagyDamagedTarget>El proceso dañó el cerebro de {TARGET_nameDef}, dejándo{TARGET_objective} en coma.</PhilophagyDamagedTarget>
 
   <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
   <ImbueDeathRefuralCompleteText>{0_nameDef} ha sido imbuid{0_gender ? o : a} con mortis repelio. Ahora puede autoresucitar después de morir.\n\nEl proceso ha atrofiado el cerebro de {0_nameDef}, causando que pierda un total de {1} de experiencia en sus habilidades.</ImbueDeathRefuralCompleteText>
@@ -96,10 +96,10 @@
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
   <PsychophagyCompleteText>{INVOKER_nameDef} ha terminado de realizar el ritual {RITUAL_definite} y ha consumido la esencia psíquica de {TARGET_nameDef}.</PsychophagyCompleteText>
   <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
-  <PsychophagyTargetSurvived>{TARGET_nameDef} es ahora psíquicamente sordo. El proceso ha dañado el cerebro de {TARGET_nameDef}, dejando{TARGET_objective} en coma.</PsychophagyTargetSurvived>
+  <PsychophagyTargetSurvived>{TARGET_nameDef} es ahora psíquicamente sordo. El proceso ha dañado el cerebro de {TARGET_nameDef}, dejándo{TARGET_objective} en coma.</PsychophagyTargetSurvived>
   
   <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
-  <PsychicRitualTargetBrainLiquified>El proceso ha liquificado el cerebro de {TARGET_nameDef}, matando{TARGET_objective}.</PsychicRitualTargetBrainLiquified>
+  <PsychicRitualTargetBrainLiquified>El proceso ha licuado el cerebro de {TARGET_nameDef}, matándo{TARGET_objective}.</PsychicRitualTargetBrainLiquified>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
   <SummonFleshbeastsPlayerCompleteText>{0_nameDef} ha terminado de realizar el ritual {RITUAL_definite}. ¡Carnibestias están emergiendo del suelo!</SummonFleshbeastsPlayerCompleteText>
@@ -116,7 +116,7 @@
   <!-- EN: Fleshmass response -->
   <FleshmassResponseLabel>Carnimasa destruida</FleshmassResponseLabel> 
   <!-- EN: The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself. -->
-  <FleshmassResponseText>¡La destrucción de la carnimasa ha desencadenado una respuesta violenta! esta se estremece y engendra nuevas carnibestias para defenderse.</FleshmassResponseText> 
+  <FleshmassResponseText>¡La destrucción de la carnimasa ha desencadenado una respuesta violenta! Esta se estremece y engendra nuevas carnibestias para defenderse.</FleshmassResponseText> 
 
   <!-- Void awakening -->
   <!-- EN: Dimming sky -->
@@ -138,11 +138,11 @@
   <!-- EN: Fleshbeast tunneling -->
   <VoidAwakeningFleshbeastBurrowLabel>Túneles de carnibestias</VoidAwakeningFleshbeastBurrowLabel>
   <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
-  <VoidAwakeningFleshbeastBurrowText>El monolito ha generado un poderoso pulso psíquico, atrayendo a las entidades cercanas.\n\nBajo el suelo, puedes oír gritos carnosos y garras arañando. La carnibestias están haciendo un túnel hacia ti. ¡Prepárate!</VoidAwakeningFleshbeastBurrowText>
+  <VoidAwakeningFleshbeastBurrowText>El monolito ha generado un poderoso pulso psíquico, atrayendo a las entidades cercanas.\n\nBajo el suelo, puedes oír gritos carnosos y garras arañando. Las carnibestias están haciendo un túnel hacia ti. ¡Prepárate!</VoidAwakeningFleshbeastBurrowText>
   <!-- EN: Metalhorror attack -->
-  <VoidAwakeningMetalhorrorArrivalLabel>Ataque de Metalhorror</VoidAwakeningMetalhorrorArrivalLabel>
+  <VoidAwakeningMetalhorrorArrivalLabel>Ataque de ferroespanto</VoidAwakeningMetalhorrorArrivalLabel>
   <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
-  <VoidAwakeningMetalhorrorArrivalText>Están apareciendo metalhorrores cerca del monolito del vacío. ¡Prepárate!</VoidAwakeningMetalhorrorArrivalText>
+  <VoidAwakeningMetalhorrorArrivalText>Están apareciendo ferroespantos cerca del monolito del vacío. ¡Prepárate!</VoidAwakeningMetalhorrorArrivalText>
   <!-- EN: Entity attack -->
   <VoidAwakeningEntityArrivalLabel>Ataque de entidades</VoidAwakeningEntityArrivalLabel> 
   <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
@@ -190,7 +190,7 @@
   <!-- EN: Distress signal -->
   <DistressSignalLabel>Señal de socorro</DistressSignalLabel>
   <!-- EN: You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead. -->
-  <DistressSignalText>Has interceptado una señal de socorro de un campamento cercano de la facción {FACTION_name}.\n\nLa frenética voz pide ayuda inmediata para defenderse de una amenaza. Ofrecen todo lo que hay en su campamento a cambio de ayuda, incluyendo esquirlas poderosa de arqueotecnología.\n\nCuando la voz intenta explicar la naturaleza de la amenaza, la señal se corta.</DistressSignalText>
+  <DistressSignalText>Has interceptado una señal de socorro de un campamento cercano de la facción {FACTION_name}.\n\nLa frenética voz pide ayuda inmediata para defenderse de una amenaza. Ofrecen todo lo que hay en su campamento a cambio de ayuda, incluyendo esquirlas poderosas de arqueotecnología.\n\nCuando la voz intenta explicar la naturaleza de la amenaza, la señal se corta.</DistressSignalText>
   <!-- EN: Ambush -->
   <DistressSignalAmbushLabel>Emboscada</DistressSignalAmbushLabel>
   <!-- EN: Fleshbeasts are emerging from a nearby pit burrow! -->
@@ -200,7 +200,7 @@
   <!-- EN: Chimeras approach -->
   <ChimeraAssaultLabel>Aproximación de quimeras</ChimeraAssaultLabel>
   <!-- EN: A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked. -->
-  <ChimeraAssaultText>Un grupo de quimeras retorcidas, parecidas a animales, han aparecido cerca.\n\nLas deformes bestias contemplarán tu colonia, esperando una oportunidad para atacar. Son asustadizas y pueden tomar represalias si se les provoca.</ChimeraAssaultText>
+  <ChimeraAssaultText>Un grupo de quimeras retorcidas, parecidas a animales, ha aparecido cerca.\n\nLas deformes bestias contemplarán tu colonia, esperando una oportunidad para atacar. Son asustadizas y pueden tomar represalias si se les provoca.</ChimeraAssaultText>
 
   <!-- Unnatural darkness -->
   <!-- EN: Darkness lifting -->
@@ -287,7 +287,7 @@
   <!-- EN: Void curiosity -->
   <VoidCuriosityLabel>Curiosidad del vacío</VoidCuriosityLabel>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
-  <VoidCuriosityText_Researched>{PAWN_nameDef} ha empezado a fijarse en el vacío y desea investigarlo utilizando el ritual provocación del vacío.\n\nUtiliza el ritual de provocación del vacío para descubrir y capturar entidades. Las entidades capturadas pueden estudiarse para completar proyectos de investigación de anomalías, o conectarse a una cosechadora de bioferrita para generar bioferrita.\n\nColoca un lugar de ritual psíquico para realizar el ritual provocación del vacío.</VoidCuriosityText_Researched>
+  <VoidCuriosityText_Researched>{PAWN_nameDef} ha empezado a fijarse en el vacío y desea investigarlo utilizando el ritual de provocación del vacío.\n\nUtiliza el ritual de provocación del vacío para descubrir y capturar entidades. Las entidades capturadas pueden estudiarse para completar proyectos de investigación de anomalías, o conectarse a una cosechadora de bioferrita para generar bioferrita.\n\nColoca un lugar de ritual psíquico para realizar el ritual de provocación del vacío.</VoidCuriosityText_Researched>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
   <VoidCuriosityText_NotResearched>{PAWN_nameDef} ha empezado a fijarse en el vacío y desea investigarlo utilizando el ritual de provocación del vacío.\n\nUtiliza el ritual de provocación del vacío para descubrir y capturar entidades. Las entidades capturadas pueden estudiarse para completar proyectos de investigación de anomalías, o conectarse a una cosechadora de bioferrita para generar bioferrita.\n\nInvestiga provocación del vacío y, a continuación, coloca un lugar de ritual psíquico para realizar el ritual.</VoidCuriosityText_NotResearched>
 
