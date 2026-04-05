@@ -21,7 +21,7 @@
   <!-- EN: no substructure -->
   <CannotLaunchNoSubstructure>no hay subestructura</CannotLaunchNoSubstructure>
   <!-- EN: no unblocked functioning thrusters -->
-  <CannotLaunchNoThrusters>no hay propulsores funcionando desbloqueados</CannotLaunchNoThrusters>
+  <CannotLaunchNoThrusters>no hay propulsores operativos y desbloqueados</CannotLaunchNoThrusters>
   <!-- EN: engine cooldown: {0} -->
   <CannotLaunchOnCooldown>motor en enfriamiento: {0}</CannotLaunchOnCooldown>
   <!-- EN: Choose where to land -->
@@ -77,7 +77,7 @@
   <!-- EN: Based on the gravship's launch, there was a {0_percentage} chance of a negative outcome. -->
   <GravshipOutcomeChanceLetterExtra>Según el lanzamiento de la gravinave, había un {0_percentage} de probabilidad de un resultado negativo.</GravshipOutcomeChanceLetterExtra>
   <!-- EN: The following thrusters were affected -->
-  <ThrustersBrokeDown>Los siguientes propulsores fueron afectados</ThrustersBrokeDown>
+  <ThrustersBrokeDown>Los siguientes propulsores se vieron afectados</ThrustersBrokeDown>
   <!-- EN: No path to gravship -->
   <NoPathToGravship>No hay camino a la gravinave</NoPathToGravship>
   <!-- EN: No path to pilot console -->
@@ -109,7 +109,7 @@
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>bloqueado por subestructura</BlockedBySubstructure>
   <!-- EN: {PAWN_nameDef} cannot board {1} -->
-  <FailedToBoardGravship>{PAWN_nameDef} no puede montar en {1}</FailedToBoardGravship>
+  <FailedToBoardGravship>{PAWN_nameDef} no puede subir a {1}</FailedToBoardGravship>
   <!-- EN: {PAWN_nameDef} cannot exit {1} -->
   <FailedToLeaveGravship>{PAWN_nameDef} no puede salir de {1}</FailedToLeaveGravship>
   <!-- EN: View range -->
@@ -237,7 +237,7 @@
   <!-- EN: equip outfit... -->
   <SwapOutfitGizmo>equipar atuendo...</SwapOutfitGizmo>
   <!-- EN: Order a colonist to wear all apparel on the stand. The colonist will place any unequipped clothing back on the stand. -->
-  <SwapOutfitDesc>Ordénale a un colono que use toda la ropa en el soporte. El colono colocará cualquier ropa no equipada de vuelta en el soporte.</SwapOutfitDesc>
+  <SwapOutfitDesc>Ordénale a un colono que se ponga toda la ropa del soporte. La ropa que no lleve equipada volverá al soporte.</SwapOutfitDesc>
   <!-- EN: cannot equip outfit -->
   <CannotSwapOutfit>no se puede cambiar el atuendo</CannotSwapOutfit>
   <!-- EN: outfit stand is empty -->
@@ -301,28 +301,28 @@
   <ConfirmLoseShuttle>Reformar una caravana abandonará tu transbordador. ¿Estás seguro de que deseas continuar?\n\nPara salir con tu transbordador, selecciona el transbordador y después elige 'lanzar'.</ConfirmLoseShuttle>
 
   <!-- EN: Discover a quest -->
-  <BookHasQuest>Descubrirá una misión</BookHasQuest>
+  <BookHasQuest>Revelará una misión</BookHasQuest>
   <!-- EN: discovered -->
-  <DiscoveredQuest>descubierta</DiscoveredQuest>
+  <DiscoveredQuest>revelada</DiscoveredQuest>
 
   <!-- EN: Your orbital scanner has detected -->
   <QuestDiscoveredFromOrbitalScanner>Tu escáner orbital ha detectado</QuestDiscoveredFromOrbitalScanner>
   <!-- EN: {HACKER_nameDef} hacked an uplink and discovered -->
-  <QuestDiscoveredFromUplink>{HACKER_nameDef} pirateó una conexión y descubrió</QuestDiscoveredFromUplink>
+  <QuestDiscoveredFromUplink>{HACKER_nameDef} pirateó un enlace y descubrió</QuestDiscoveredFromUplink>
 
   <!-- Special Trainables -->
   <!-- EN: Attack -->
   <AnimalAttackTarget>Atacar</AnimalAttackTarget>
   <!-- EN: Command this animal to attack a specific target. -->
-  <AnimalAttackTargetDesc>Ordena a este animal atacar un objetivo específico que su maestro pueda ver.</AnimalAttackTargetDesc>
+  <AnimalAttackTargetDesc>Ordena a este animal atacar a un objetivo específico que su maestro pueda ver.</AnimalAttackTargetDesc>
   <!-- EN: Animals attack target -->
   <AnimalsAttackTarget>Animales atacan objetivo</AnimalsAttackTarget>
   <!-- EN: Direct all mastered animals to attack a specific target. -->
-  <AnimalsAttackTargetDesc>Dirige a todos los animales entrenados a atacar un objetivo específico.</AnimalsAttackTargetDesc>
+  <AnimalsAttackTargetDesc>Dirige a todos los animales entrenados a atacar a un objetivo específico.</AnimalsAttackTargetDesc>
   <!-- EN: Cancel attack -->
   <CancelAttack>Cancelar ataque</CancelAttack>
   <!-- EN: Clear this animal's current target. -->
-  <CancelAttackDesc>Quitar objetivo actual del animal.</CancelAttackDesc>
+  <CancelAttackDesc>Quita el objetivo actual de este animal.</CancelAttackDesc>
   <!-- EN: This animal does not have a master -->
   <NoMaster>Este animal no tiene maestro</NoMaster>
   <!-- EN: This animal's master is not on this map -->
