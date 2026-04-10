@@ -16,13 +16,14 @@
   <NamerArchipelago.rulePack.rulesStrings>
     <li>r_name(p=0.2)->isla [narrative_name]</li>
     <li>terrain_word(p=4)->islas</li>
-    <li>terrain_word(p=3)->islas</li>
+    <li>terrain_word(p=3)->islotes</li>
     <li>terrain_word(p=3)->archipiélago</li>
     <li>terrain_word->arrecife</li>
     <li>terrain_word->atolón</li>
-    <li>terrain_word->atolón</li>
+    <li>terrain_word->cayos</li>
     <li>terrain_word->islotes</li>
-    <li>terrain_word->islotes</li>
+    <li>terrain_word->escollos</li>
+    <li>terrain_word->peñascos</li>
     <li>terrain_word->arrecife</li>
   </NamerArchipelago.rulePack.rulesStrings>
   
@@ -61,7 +62,7 @@
     <li>terrain_word->ensenada</li>
     <li>terrain_word->golfo</li>
     <li>terrain_word->fondeadero</li>
-    <li>terrain_word->golfo</li>
+    <li>terrain_word->cala</li>
   </NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
@@ -79,7 +80,7 @@
     <li>terrain_word->taiga</li>
     <li>terrain_word->arboleda</li>
     <li>terrain_word->arbolada</li>
-    <li>terrain_word->parque</li>
+    <li>terrain_word->fronda</li>
     <li>terrain_word->bosquecillo</li>
   </NamerBorealForest.rulePack.rulesStrings>
   
@@ -114,12 +115,14 @@
     <li>desert_adjective->sin fin</li>
     <li>desert_adjective->cruel</li>
     <li>desert_adjective->maldito</li>
+    <li>desert_adjective->árido</li>
+    <li>desert_adjective->reseco</li>
     <li>desert_adjective->espinoso</li>
-    <li>desert_adjective->del muerto</li>
     <li>desert_adjective->requemado</li>
     <li>desert_adjective->soleado</li>
     <li>desert_adjective->deslumbrante</li>
     <li>desert_adjective->caliente</li>
+    <li>desert_adjective->polvoriento</li>
     <li>desert_adjective->ahumado</li>
     <li>desert_adjective->arenoso</li>
     <li>desert_adjective->rocoso</li>
@@ -141,6 +144,7 @@
   <NamerForest.rulePack.rulesStrings>
     <li>terrain_word(p=6)->bosque</li>
     <li>terrain_word->arboleda</li>
+    <li>terrain_word->arbolado</li>
     <li>terrain_word->matorral</li>
     <li>terrain_word->bosquecillo</li>
   </NamerForest.rulePack.rulesStrings>
@@ -157,12 +161,13 @@
   -->
   <NamerIceSheet.rulePack.rulesStrings>
     <li>terrain_word->glaciar</li>
-    <li>terrain_word->macizo</li>
-    <li>terrain_word(p=0.5)->macizo</li>
+    <li>terrain_word->banquisa</li>
+    <li>terrain_word(p=0.5)->manto helado</li>
     <li>terrain_word(p=0.3)->glaciar</li>
+    <li>terrain_word->macizo</li>
+    <li>terrain_word(p=0.3)->campo de hielo</li>
+    <li>terrain_word(p=0.3)->planicie helada</li>
     <li>terrain_word(p=0.3)->fiordo</li>
-    <li>terrain_word(p=0.3)->fiordo</li>
-    <li>terrain_word(p=0.3)->macizo</li>
     <li>terrain_word(p=0.3)->hielo perpetuo</li>
   </NamerIceSheet.rulePack.rulesStrings>
   
@@ -179,11 +184,11 @@
   <NamerIsland.rulePack.rulesStrings>
     <li>r_name(p=0.2)->isla [narrative_name]</li>
     <li>terrain_word(p=4)->isla</li>
-    <li>terrain_word(p=2)->isla</li>
+    <li>terrain_word(p=2)->cayo</li>
     <li>terrain_word->arrecife</li>
     <li>terrain_word->atolón</li>
     <li>terrain_word->islote</li>
-    <li>terrain_word->islote</li>
+    <li>terrain_word->peñón</li>
     <li>terrain_word->farallón</li>
   </NamerIsland.rulePack.rulesStrings>
   
@@ -202,6 +207,7 @@
     <li>terrain_word->laguna</li>
     <li>terrain_word->lago</li>
     <li>terrain_word->cuenca</li>
+    <li>terrain_word->embalse</li>
     <li>terrain_word->reservorio</li>
     <li>terrain_word(p=0.3)->charca</li>
     <li>terrain_word(p=0.3)->laguna</li>
@@ -221,8 +227,9 @@
     <li>terrain_word(p=5)->montañas</li>
     <li>terrain_word(p=2)->sierra</li>
     <li>terrain_word->alpes</li>
+    <li>terrain_word->picos</li>
     <li>terrain_word->colinas</li>
-    <li>terrain_word->acantilado</li>
+    <li>terrain_word->acantilados</li>
   </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
@@ -252,12 +259,14 @@
     <li>ocean_adjective->negro</li>
     <li>ocean_adjective->de brisas</li>
     <li>ocean_adjective->de tormentas</li>
+    <li>ocean_adjective->calmo</li>
     <li>ocean_adjective->calmado</li>
     <li>ocean_adjective->ancho</li>
     <li>ocean_adjective->sin fin</li>
     <li>ocean_adjective->tranquilo</li>
     <li>ocean_adjective->sereno</li>
     <li>ocean_adjective->inquieto</li>
+    <li>ocean_adjective->apacible</li>
     <li>ocean_adjective->gentil</li>
     <li>terrain_word(p=6)->océano</li>
     <li>terrain_word(p=3)->mar</li>
@@ -318,6 +327,7 @@
     <li>standardname(p=0.1)->pantano [narrative_name]</li>
     <li>standardname(p=0.3)->[narrative_name] [swamp_adjective]</li>
     <li>swamp_adjective->húmedo</li>
+    <li>swamp_adjective->brumoso</li>
     <li>swamp_adjective->nebuloso</li>
     <li>swamp_adjective->asfixiante</li>
     <li>swamp_adjective->podrido</li>
@@ -325,6 +335,7 @@
     <li>swamp_adjective->verde</li>
     <li>swamp_adjective->enredado</li>
     <li>swamp_adjective->turbio</li>
+    <li>swamp_adjective->enmarañado</li>
     <li>swamp_adjective->espinoso</li>
     <li>terrain_word(p=6)->pantano</li>
     <li>terrain_word->cenagal</li>
@@ -354,8 +365,10 @@
   <NamerTropicalRainforest.rulePack.rulesStrings>
     <li>standardname(p=0.3)->[narrative_name] [rainforest_adjective]</li>
     <li>rainforest_adjective->húmeda</li>
+    <li>rainforest_adjective->frondosa</li>
     <li>rainforest_adjective->grande</li>
     <li>rainforest_adjective->virgen</li>
+    <li>rainforest_adjective->cerrada</li>
     <li>rainforest_adjective->negra</li>
     <li>rainforest_adjective->perdida</li>
     <li>rainforest_adjective->ominosa</li>
@@ -390,9 +403,8 @@
     <li>terrain_word->planicie</li>
     <li>terrain_word->llanura</li>
     <li>terrain_word->pradera</li>
-    <li>terrain_word->expansión</li>
+    <li>terrain_word->extensión</li>
     <li>terrain_word->tundra</li>
-    <li>terrain_word->expansión</li>
     <li>terrain_word->pradera</li>
     <li>terrain_word->llanura</li>
   </NamerTundra.rulePack.rulesStrings>
@@ -491,7 +503,7 @@
     <li>story_result->error</li>
     <li>story_result->falla</li>
     <li>story_result->mal paso</li>
-    <li>story_result->decepción</li>
+    <li>story_result->delirio</li>
     <li>story_result->alegría</li>
     <li>story_result->delicia</li>
     <li>story_result->disfrute</li>

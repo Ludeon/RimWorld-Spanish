@@ -212,8 +212,11 @@
     <!-- EN: 
    <li>desc->This [writingQualityAdjective] [bookType] [follows] a [PersonJob] as [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
     <li>desc->In this [writingQualityAdjective] [bookType], the [author] [tellsAStoryOf] [ANYPAWN_possessive] [storySource]. [writingQualitySentence]. [maybe_date]</li> -->
-    <li>desc->Esta [bookType] [writingQualityAdjective] [follows] de un [PersonJob] y cómo [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
-    <li>desc->En esta [writingQualityAdjective] [bookType], [author] [tellsAStoryOf] su[storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->Esta [bookType] [writingQualityAdjective] sigue a [PersonJobIndef] mientras [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->En esta [bookType] [writingQualityAdjective], [author] [tellsAStoryOf] [storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->[author] firma una [bookTypeSourceBased] [writingQualityAdjective] construida a partir de [storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->La trama de esta [bookType] [writingQualityAdjective] gira en torno a [storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->Esta [bookType] [writingQualityAdjective] nace de [storySource]. [writingQualitySentence]. [maybe_date]</li>
     <!-- EN: 
     <li>follows->follows</li>
     <li>follows->covers</li>
@@ -354,13 +357,13 @@
     <li>seekObjective->un lugar perfecto para un picnic</li>
     <li>seekObjective->una pieza perdida de una preciada colección</li>
     <li>seekObjective->una disculpa por un error pasado</li>
-    <li>seekObjective->el cierre de una relación pasada</li>
-    <li>seekObjective->un mapa del tesoro perdido desde su infancia</li>
+    <li>seekObjective->cerrar las heridas de una relación pasada</li>
+    <li>seekObjective->un viejo mapa del tesoro perdido desde la infancia</li>
     <li>seekObjective->un recuerdo significativo de un ser querido fallecido</li>
     <li>seekObjective->una receta para curar una enfermedad</li>
     <li>seekObjective->una planta rara para un jardín personal</li>
     <li>seekObjective->una carta escrita pero nunca enviada</li>
-    <li>seekObjective->una respuesta elusiva a una pregunta filosófica</li>
+    <li>seekObjective->una respuesta esquiva a una pregunta filosófica</li>
     <li>seekObjective->un momento de tranquilidad lejos del caos</li>
     <li>seekObjective->un viejo amigo en una nueva ciudad</li>
     <li>seekObjective->la emoción de una afición olvidada</li>
@@ -390,30 +393,29 @@
     <li>tellsAStoryOf->paints a vivid picture of</li>
     <li>tellsAStoryOf->weaves the tapestry of</li>
     <li>tellsAStoryOf->explores the chronicle of</li>-->
-    <li>tellsAStoryOf->narra un cuento sobre</li>
+    <li>tellsAStoryOf->se inspira en</li>
+    <li>tellsAStoryOf->parte de</li>
+    <li>tellsAStoryOf->explora</li>
+    <li>tellsAStoryOf->evoca</li>
+    <li>tellsAStoryOf->recrea</li>
+    <li>tellsAStoryOf->retoma</li>
+    <li>tellsAStoryOf->aborda</li>
+    <li>tellsAStoryOf->vuelve sobre</li>
+    <li>tellsAStoryOf->se apoya en</li>
+    <li>tellsAStoryOf->profundiza en</li>
+    <li>tellsAStoryOf->se adentra en</li>
+    <li>tellsAStoryOf->reimagina</li>
+    <li>tellsAStoryOf->retrata</li>
+    <li>tellsAStoryOf->narra</li>
+    <li>tellsAStoryOf->describe</li>
     <li>tellsAStoryOf->entra en detalles sobre</li>
-    <li>tellsAStoryOf->explora una historia sobre</li>
     <li>tellsAStoryOf->cuenta una historia sobre</li>
-    <li>tellsAStoryOf->hila una narrativa sobre</li>
-    <li>tellsAStoryOf->traza una imagen sobre</li>
     <li>tellsAStoryOf->se sumerge en</li>
-    <li>tellsAStoryOf->desentraña la historia de</li>
-    <li>tellsAStoryOf->revela el viaje de</li>
     <li>tellsAStoryOf->captura la esencia de</li>
-    <li>tellsAStoryOf->ilumina</li>
-    <li>tellsAStoryOf->entrelaza</li>
-    <li>tellsAStoryOf->retrata la experiencia de</li>
-    <li>tellsAStoryOf->embarca en la narración de</li>
-    <li>tellsAStoryOf->describe la historia de</li>
-    <li>tellsAStoryOf->muestra la historia de</li>
-    <li>tellsAStoryOf->presenta la historia de</li>
-    <li>tellsAStoryOf->transmite el viaje de</li>
-    <li>tellsAStoryOf->se adentra en la historia de</li>
-    <li>tellsAStoryOf->se embarca en la narrativa de</li>
-    <li>tellsAStoryOf->retrata la saga de</li>
-    <li>tellsAStoryOf->describe la vívida imagen de</li>
-    <li>tellsAStoryOf->teje la historia de</li>
-    <li>tellsAStoryOf->explora la crónica de</li>
+    <li>tellsAStoryOf->toma como punto de partida</li>
+    <li>tellsAStoryOf->da forma literaria a</li>
+    <li>tellsAStoryOf->se nutre de</li>
+    <li>tellsAStoryOf->convierte en relato</li>
     <!-- EN: 
     <li>author->author</li>
     <li>author->[authorTitle] [ANYPAWN_nameIndef]</li>
@@ -474,45 +476,49 @@
     <li>storySource->time spent as a nomad</li>
     <li>storySource->fascination with time travel</li>
     <li>storySource->connection to a legendary artifact</li>-->
-    <li>storySource-> experiencia personal</li>
-    <li>storySource-> juventud</li>
-    <li>storySource-> infancia</li>
-    <li>storySource-> nación</li>
-    <li>storySource-> planeta natal</li>
-    <li>storySource-> abuelo</li>
-    <li>storySource-> abuela</li>
-    <li>storySource-> experiencia bélica</li>
-    <li>storySource-> miedo más profundo</li>
-    <li>storySource-> sueño con viajar a las estrellas</li>
-    <li>storySource-> amor por las [Vegetable_Fem]s frescas</li>
-    <li>storySource-> amor por los [Vegetable_Fem]s frescos</li>
-    <li>storySource(ANYPAWN_gender!=Female)-> tiempo como [PersonJob]</li>
-    <li>storySource(ANYPAWN_gender==Female)-> tiempo como [PersonJob_Fem]</li>
-    <li>storySource-> [Weapon] favorito</li>
-    <li>storySource-> [Weapon_Fem] favorita</li>
-    <li>storySource-> experiencia luchando contra [Mechanoid_Plural]</li>
-    <li>storySource-> visión de la juventud que crece en [CommunityIndef]</li>
-    <li>storySource-> [BodyPart] gigantesco</li>
-    <li>storySource-> [BodyPart_Fem] gigantesca</li>
-    <li>storySource->s recuerdos de un amigo desaparecido</li>
-    <li>storySource-> pasión por la música</li>
-    <li>storySource-> curiosidad por las ruinas antiguas</li>
-    <li>storySource-> apego a una reliquia familiar</li>
-    <li>storySource-> fascinación por una figura misteriosa</li>
-    <li>storySource-> esfuerzo por preservar una lengua moribunda</li>
-    <li>storySource->s sueños de inventar algo innovador</li>
-    <li>storySource-> conexión con una criatura mítica</li>
-    <li>storySource-> afecto por un paisaje concreto</li>
-    <li>storySource(ANYPAWN_gender!=Female)-> aspiración de convertirse en un [PersonJob] de renombre</li>
-    <li>storySource(ANYPAWN_gender==Female)-> aspiración de convertirse en una [PersonJob_Fem] de renombre</li>
-    <li>storySource-> lucha contra la ansiedad social</li>
-    <li>storySource-> anhelo aventurero más allá del horizonte</li>
-    <li>storySource-> vínculo con un compañero robótico</li>
-    <li>storySource->s aventuras como pirata en el pasado</li>
-    <li>storySource-> estrecho vínculo con una sociedad secreta</li>
-    <li>storySource-> tiempo como nómada</li>
-    <li>storySource-> fascinación por los viajes en el tiempo</li>
-    <li>storySource-> conexión con un artefacto legendario</li>
+    <li>storySource->sus experiencias personales</li>
+    <li>storySource->su juventud</li>
+    <li>storySource->su infancia</li>
+    <li>storySource->su pueblo de origen</li>
+    <li>storySource->su planeta natal</li>
+    <li>storySource->la figura de su abuelo</li>
+    <li>storySource->la figura de su abuela</li>
+    <li>storySource->sus vivencias en la guerra</li>
+    <li>storySource->sus miedos más profundos</li>
+    <li>storySource->su sueño de viajar a las estrellas</li>
+    <li>storySource->su pasión por la comida fresca</li>
+    <li>storySource->su amor por la cocina sencilla</li>
+    <li>storySource->su amor por los [Vegetable]s frescos</li>
+    <li>storySource->su amor por las [Vegetable_Fem]s frescas</li>
+    <li>storySource(ANYPAWN_gender!=Female)->su etapa como [PersonJob]</li>
+    <li>storySource(ANYPAWN_gender==Female)->su etapa como [PersonJob_Fem]</li>
+    <li>storySource->su predilección por [WeaponIndef]</li>
+    <li>storySource->sus enfrentamientos con [Mechanoid_Plural]</li>
+    <li>storySource->su juventud en [CommunityIndef]</li>
+    <li>storySource->la extrañeza de su descomunal [BodyPart]</li>
+    <li>storySource->la extrañeza de su descomunal [BodyPart_Fem]</li>
+    <li>storySource->sus recuerdos de un amigo desaparecido</li>
+    <li>storySource->su pasión por la música</li>
+    <li>storySource->su curiosidad por las ruinas antiguas</li>
+    <li>storySource->su apego a una reliquia familiar</li>
+    <li>storySource->su fascinación por una figura misteriosa</li>
+    <li>storySource->su empeño por preservar una lengua moribunda</li>
+    <li>storySource->su sueño de inventar algo revolucionario</li>
+    <li>storySource->su vínculo con una criatura mítica</li>
+    <li>storySource->su apego a un paisaje concreto</li>
+    <li>storySource(ANYPAWN_gender!=Female)->su ambición de convertirse en [PersonJob] de renombre</li>
+    <li>storySource(ANYPAWN_gender==Female)->su ambición de convertirse en [PersonJob_Fem] de renombre</li>
+    <li>storySource->sus problemas con la ansiedad social</li>
+    <li>storySource->su anhelo de aventuras más allá del horizonte</li>
+    <li>storySource->su vínculo con un compañero robótico</li>
+    <li>storySource->sus viejas aventuras como pirata</li>
+    <li>storySource->sus lazos con una sociedad secreta</li>
+    <li>storySource->su vida nómada</li>
+    <li>storySource->su fascinación por los viajes en el tiempo</li>
+    <li>storySource->su vínculo con un artefacto legendario</li>
+    <li>storySource->sus recuerdos de una colonia perdida</li>
+    <li>storySource->su obsesión por un hallazgo imposible</li>
+    <li>storySource->las historias que oyó en su niñez</li>
     <!-- EN: 
     <li>writingQualityAdjective(quality==6)->remarkably well-written</li>
     <li>writingQualityAdjective(quality==5)->smart and insightful</li>
@@ -546,18 +552,17 @@
     <li>excellentExtra->. It blows the reader's mind at least three times</li>
     <li>excellentExtra->. The plot twists are unpredictable but also feel inevitable</li>
     <li>excellentExtra->. The characters feel like real people</li>-->
-    <li>excellentDesc->Es una emocionante historia llena de acción</li>
-    <li>excellentDesc->es una reflexiva exploración del espíritu humano</li>
-    <li>excellentDesc->Es una reflexión personal sobre la complejidad del mundo</li>
-    <li>excellentDesc->Está escrita con rigor y llena en emociones</li>
-    <li>excellentDesc->Es creativa y original</li>
-    <li>excellentDesc->Es tremendamente original y extraordinariamente bien elaborada</li>
-    <li>excellentDesc->Es rebosante en sentido del humor</li>
-    <li>excellentExtra->. El paso entre un capítulo y otro ocurre de forma natural</li>
-    <li>excellentExtra->. Es un libro apasionante y muy difícil de dejar</li>
-    <li>excellentExtra->. Deja boquiabierto al lector al menos tres veces</li>
-    <li>excellentExtra->. Los giros de la trama son impredecibles, pero también inevitables</li>
-    <li>excellentExtra->. Los personajes parecen vivos, como personas reales</li>
+    <li>excellentDesc->Está escrita con gran pulso y sensibilidad</li>
+    <li>excellentDesc->Es aguda y sorprendentemente certera</li>
+    <li>excellentDesc->Ofrece una mirada lúcida y matizada</li>
+    <li>excellentDesc->Resulta original y muy bien construida</li>
+    <li>excellentDesc->Tiene una voz propia y segura</li>
+    <li>excellentDesc->Está llena de imágenes memorables</li>
+    <li>excellentExtra->. Cada escena conduce con naturalidad a la siguiente</li>
+    <li>excellentExtra->. Cuesta soltarla una vez empezada</li>
+    <li>excellentExtra->. Los giros sorprenden sin parecer forzados</li>
+    <li>excellentExtra->. Sus personajes resultan convincentes</li>
+    <li>excellentExtra->. Mantiene el interés de principio a fin</li>
     <!-- EN: 
     <li>decentDesc->a decent story</li>
     <li>decentDesc->interesting and engaging</li>
@@ -566,13 +571,13 @@
     <li>decentDesc->gripping during some parts</li>
     <li>decentDesc->original and quirky</li>
     <li>decentDesc->appealing to a certain type of reader</li>-->
-    <li>decentDesc->Es una historia decente</li>
-    <li>decentDesc->Es interesante y atractiva</li>
-    <li>decentDesc->Está centrada en una idea interesante</li>
-    <li>decentDesc->Es algo humorística de vez en cuando</li>
-    <li>decentDesc->Es cautivadora durante algunas partes</li>
-    <li>decentDesc->Es original y extravagante</li>
-    <li>decentDesc->Es atractiva para un determinado tipo de lector</li>
+    <li>decentDesc->Es una lectura competente</li>
+    <li>decentDesc->Tiene ideas interesantes</li>
+    <li>decentDesc->Mantiene bastante bien el interés</li>
+    <li>decentDesc->A ratos resulta ingeniosa</li>
+    <li>decentDesc->Se apoya en una premisa atractiva</li>
+    <li>decentDesc->Tiene cierta personalidad</li>
+    <li>decentDesc->Puede conectar con un público muy concreto</li>
     <!-- EN: 
     <li>decentExtra-> but has some glaring plot holes</li>
     <li>decentExtra-> but is often hard to follow</li>
@@ -602,15 +607,15 @@
     <li>awfulDesc->dominated by an author self-insert character</li>
     <li>awfulDesc->bizarre yet unoriginal</li>
     <li>awfulDesc->far, far too long</li>-->
-    <li>awfulDesc->Está horriblemente redactada</li>
-    <li>awfulDesc->Está terriblemente redactada</li>
-    <li>awfulDesc->Es difícil de leer</li>
-    <li>awfulDesc->Es difícil de entender</li>
-    <li>awfulDesc->Está carente de visión artística</li>
-    <li>awfulDesc->Está llena de agujeros argumentales y personajes genéricos</li>
-    <li>awfulDesc->Está protagonizada por un personaje absurdo</li>
-    <li>awfulDesc->Es extraña y poco original</li>
-    <li>awfulDesc->Es demasiado, demasiado larga</li>
+    <li>awfulDesc->Está muy mal escrita</li>
+    <li>awfulDesc->Está torpemente construida</li>
+    <li>awfulDesc->Se hace cuesta arriba desde el principio</li>
+    <li>awfulDesc->Resulta confusa casi a cada paso</li>
+    <li>awfulDesc->Carece de una voz clara</li>
+    <li>awfulDesc->Acumula lugares comunes y personajes planos</li>
+    <li>awfulDesc->Parece escrita para lucimiento de un solo personaje</li>
+    <li>awfulDesc->Es rara sin llegar a ser original</li>
+    <li>awfulDesc->Se alarga muchísimo más de lo necesario</li>
     <!-- EN: 
     <li>awfulExtra-> and the writing is borderline incoherent</li>
     <li>awfulExtra-> and is extremely hard to follow</li>
@@ -619,13 +624,13 @@
     <li>awfulExtra-> and doesn't present any interesting ideas at all</li>
     <li>awfulExtra-> and every character is boring</li>
     <li>awfulExtra-> and there is no identifiable protagonist at any point</li>-->
-    <li>awfulExtra-> y la escritura es casi incoherente</li>
-    <li>awfulExtra-> y es extremadamente difícil de entender</li>
-    <li>awfulExtra-> y no logra crear una trama coherente</li>
-    <li>awfulExtra-> y carece de cualquier sentido de tema o significado</li>
-    <li>awfulExtra-> y no presenta ideas interesantes en absoluto</li>
-    <li>awfulExtra-> y todos los personajes son planos y aburridos</li>
-    <li>awfulExtra-> y no hay un protagonista claro en ningún momento</li>
+    <li>awfulExtra-> y por momentos roza lo ininteligible</li>
+    <li>awfulExtra-> y seguirle el hilo cuesta demasiado</li>
+    <li>awfulExtra-> y nunca llega a articular una trama coherente</li>
+    <li>awfulExtra-> y no transmite ningún tema claro</li>
+    <li>awfulExtra-> y apenas ofrece una idea interesante</li>
+    <li>awfulExtra-> y casi todos los personajes resultan anodinos</li>
+    <li>awfulExtra-> y ni siquiera queda claro quién protagoniza la historia</li>
     <!-- EN: 
     <li>maybe_date-></li>
     <li>maybe_date->The book was published [date_form].</li>
@@ -651,12 +656,17 @@
     <li>bookType->narrative</li>
     <li>bookType->biography</li>
     <li>bookType->epic poem</li>-->
+    <li>bookTypeSourceBased(p=4)->novela</li>
+    <li>bookTypeSourceBased(p=2)->novela corta</li>
+    <li>bookTypeSourceBased->historia</li>
+    <li>bookTypeSourceBased->narración</li>
+    <li>bookTypeSourceBased->crónica</li>
     <li>bookType(p=4)->novela</li>
     <li>bookType(p=2)->novela corta</li>
     <li>bookType->historia</li>
-    <li>bookType->narrativa</li>
+    <li>bookType->narración</li>
     <li>bookType->biografía</li>
-    <li>bookType->poesía épica</li>
+    <li>bookType->crónica</li>
   </Description_Novel.rulePack.rulesStrings>
   
   <!-- EN:
@@ -1343,13 +1353,13 @@
     <li>subject_intro->[device_synonym]s associated with [subject_primary] are [shows_synonym_verb1]ed in this [maybe_physical_adjective][schematic_synonym]</li>
     <li>subject_intro->the [schematic_synonym] [shows_synonym_verb]s a [state_adjective] [diagram_type] about [subject_primary] and [subject_secondary]</li>
     <li>subject_intro->[device_synonym]s associated with [subject_primary] and [subject_secondary] are [shows_synonym_verb1]ed in this [maybe_physical_adjective][schematic_synonym]</li>-->
-    <li>subject_intro->el [schematic_synonym] [shows_synonym_verb] un [state_adjective] [diagram_type] sobre [subject]</li>
-    <li>subject_intro->en este [schematic_synonym], [the_author] [shows_synonym_verb] su [theory_synonym_adj] sobre [subject]</li>
-    <li>subject_intro->este [physical_adjective] [schematic_synonym] [contain_verb1] [schematic_synonym]s centrados en [subject]</li>
-    <li>subject_intro->[the_author] ha empleado [notable_adjective] [image_types] para comunicar su [theory_synonym_adj] sobre [subject]</li>
-    <li>subject_intro->los [device_synonym]s asociados con [subject_primary] son [shows_synonym_verb1]dos en este [maybe_physical_adjective][schematic_synonym]</li>
-    <li>subject_intro->el [schematic_synonym] [shows_synonym_verb] un [state_adjective] [diagram_type] sobre [subject_primary] y [subject_secondary]</li>
-    <li>subject_intro->los [device_synonym]s asociados con [subject_primary] y [subject_secondary] son [shows_synonym_verb1]dos en este [maybe_physical_adjective][schematic_synonym]</li>
+    <li>subject_intro->el [schematic_synonym] presenta [diagram_phrase] sobre [subject]</li>
+    <li>subject_intro->en este [schematic_synonym], [the_author] expone su [theory_synonym_adj] sobre [subject]</li>
+    <li>subject_intro->este [physical_adjective] [schematic_synonym] contiene varios [schematic_synonym_plural] centrados en [subject]</li>
+    <li>subject_intro->[the_author] ha recurrido a [image_types] para comunicar su [theory_synonym_adj] sobre [subject]</li>
+    <li>subject_intro->los [device_synonym_plural] asociados con [subject_primary] aparecen representados en este [maybe_physical_adjective][schematic_synonym]</li>
+    <li>subject_intro->el [schematic_synonym] presenta [diagram_phrase] sobre [subject_primary] y [subject_secondary]</li>
+    <li>subject_intro->los [device_synonym_plural] asociados con [subject_primary] y [subject_secondary] aparecen representados en este [maybe_physical_adjective][schematic_synonym]</li>
     <!-- EN: 
     <li>schematic_desc->[schematic_desc_first][schematic_desc_second]</li>
     <li>schematic_desc_first->the ancient technology described here for [subject_primary_gerund] is [negative_adjective] compared to present systems</li>
@@ -1382,27 +1392,27 @@
     <li>schematic_desc_first->esto es solo un fragmento de un [schematic_synonym] completo sobre [subject_primary_gerund]</li>
     <li>schematic_desc_first->este [schematic_synonym] es [negative_adjective] en varios lugares</li>
     <li>schematic_desc_first->el [schematic_synonym] sobre [subject_primary_gerund] está incompleto</li>
-    <li>schematic_desc_first->[subject_primary_gerund] con estos [schematic_synonym]s se complica por las anotaciones contradictorias</li>
-    <li>schematic_desc_first->la comprensión [negative_adjective] sobre [subject_primary_gerund] por parte [of_author] es evidente en todo momento</li>
+    <li>schematic_desc_first->[subject_primary_gerund] con estos [schematic_synonym_plural] se complica por las anotaciones contradictorias</li>
+    <li>schematic_desc_first->la comprensión [negative_adjective] [OftheAuthor] de [subject_primary_gerund] es evidente en todo momento</li>
     <li>schematic_desc_first->parte del [schematic_synonym] ha sido arrancado</li>
     <li>schematic_desc_first->el fuego y el hollín han estropeado el papel</li>
     <li>schematic_desc_first->el [schematic_synonym] sobre [subject_primary_gerund] es demasiado [negative_adjective]</li>
     <li>schematic_desc_first->la [other_subject] limitada sobre [subject_primary_gerund] comprometió este [schematic_synonym]</li>
     <li>schematic_desc_first->los detalles imprecisos sobre [subject_primary_gerund] dificultan la aplicación de este [schematic_synonym]</li>
-    <li>schematic_desc_first->este [schematic_synonym] [negative_adjective] a veces tiene errores en el tema sobre [subject_primary_gerund]</li>
-    <li>schematic_desc_first->este [schematic_synonym] sobre [subject_primary_gerund] falla comúnmente</li>
+    <li>schematic_desc_first->este [schematic_synonym] [negative_adjective] introduce a veces errores al abordar [subject_primary_gerund]</li>
+    <li>schematic_desc_first->este [schematic_synonym] sobre [subject_primary_gerund] resulta pobre desde el punto de vista estético</li>
     <li>schematic_desc_first->la falta de imaginación sobre [subject_primary_gerund] ha limitado este [schematic_synonym]</li>
     <li>schematic_desc_first->este [schematic_container] proporciona muchas especificaciones contradictorias sobre [subject_primary_gerund]</li>
     <li>schematic_desc_first->los desacuerdos sobre la [other_subject] han dejado ambigüedades en este [schematic_synonym] sobre [subject_primary_gerund]</li>
-    <li>schematic_desc_first->una redacción chapucera echa por tierra los meticulosos planes [of_author] sobre [subject_primary_gerund]</li>
-    <li>schematic_desc_first->los problemas por la [other_subject] sobre [subject_primary_gerund] limitaron la viabilidad de este [schematic_synonym]</li>
+    <li>schematic_desc_first->una redacción chapucera echa por tierra los meticulosos planes [OftheAuthor] sobre [subject_primary_gerund]</li>
+    <li>schematic_desc_first->las preocupaciones por la [other_subject] al abordar [subject_primary_gerund] limitaron este [schematic_synonym]</li>
     <li>schematic_desc_first->este [schematic_synonym] sobre [subject_primary_gerund] ha sido copiado repetidamente, empañando su contenido</li>
     <li>schematic_desc_first->este [schematic_synonym] no establece ninguna conexión real entre [subject_primary_gerund] y [subject_secondary_gerund]</li>
     <li>schematic_desc_first->[subject_primary_gerund] y [subject_secondary_gerund] no son fáciles de emparejar</li>
-    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym]s sobre [subject_primary_gerund] y [subject_secondary_gerund]</li>
-    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym]s tanto sobre [subject_tertiary_gerund] como sobre [subject_secondary_gerund]</li>
-    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym]s tanto sobre [subject_primary_gerund] como sobre [subject_tertiary_gerund]</li>
-    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym]s sobre [subject_primary_gerund], [subject_secondary_gerund] y [subject_tertiary_gerund]</li>
+    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym_plural] sobre [subject_primary_gerund] y [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym_plural] tanto sobre [subject_tertiary_gerund] como sobre [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym_plural] tanto sobre [subject_primary_gerund] como sobre [subject_tertiary_gerund]</li>
+    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym_plural] sobre [subject_primary_gerund], [subject_secondary_gerund] y [subject_tertiary_gerund]</li>
     <!-- EN: 
     <li>schematic_desc_second(quality[less_than]2)->. This is frustrating for those learning the subject</li>
     <li>schematic_desc_second(quality[less_than]2)->, making it valueless for most purposes</li>
@@ -1457,22 +1467,22 @@
     <li>medium->An attached diary tells [schematic_origin]</li>
     <li>medium->An archaic mechanism [tells_verb]s [schematic_origin]</li>
     <li>medium->A miniature mechanoid whirrs into life, telling [schematic_origin]</li>-->
-    <li>medium->Un sistema sensorial incorporado [tells_verb] a los oyentes [schematic_origin]</li>
-    <li>medium->Dentro hay un fajo de papeles personales [tells_verb_ing] [schematic_origin]</li>
+    <li>medium->Un sistema sensorial integrado [tells_verb] a quien lo escucha [schematic_origin]</li>
+    <li>medium->Enrollado dentro hay un fajo de papeles personales [tells_verb_ing] [schematic_origin]</li>
     <li>medium->Una pegatina [tells_verb] información limitada sobre [schematic_origin]</li>
-    <li>medium->Un folleto informativo incluido [tells_verb] [schematic_origin]</li>
-    <li>medium->Hojas sueltas de pergamino [tells_verb] [schematic_origin]</li>
+    <li>medium->Un folleto informativo adjunto [tells_verb] [schematic_origin]</li>
+    <li>medium->Unas hojas sueltas de pergamino [tells_verb] [schematic_origin]</li>
     <li>medium->Una segunda hoja de papel [tells_verb] [schematic_origin]</li>
-    <li>medium->Tablillas de piedra inscritas [tells_verb] [schematic_origin]</li>
+    <li>medium->Unas tablillas de piedra inscritas [tells_verb] [schematic_origin]</li>
     <li>medium->Un [schematic_container] de plastiacero lleva inscrito [schematic_origin]</li>
-    <li>medium->Cae una nota garabateada, que [tells_verb] [schematic_origin]</li>
-    <li>medium->La parte trasera del documento [tells_verb] más sobre [schematic_origin]</li>
+    <li>medium->Cae una nota garabateada que [tells_verb] [schematic_origin]</li>
+    <li>medium->El reverso del documento [tells_verb] más sobre [schematic_origin]</li>
     <li>medium->Suena una grabación [tells_verb_ing] [schematic_origin]</li>
-    <li>medium->[schematic_origin] sería una conjetura, si no fuera por las notas sobre el documento</li>
-    <li>medium(p=4)->[schematic_origin] se conoce pero se incluye en las notas del documento</li>
+    <li>medium->[schematic_origin] sería una mera conjetura de no ser por las notas del documento</li>
+    <li>medium(p=4)->[schematic_origin] se conoce gracias a las notas añadidas al documento</li>
     <li>medium->Un diario adjunto cuenta [schematic_origin]</li>
     <li>medium->Un mecanismo arcaico [tells_verb] [schematic_origin]</li>
-    <li>medium->Un mecanoide en miniatura cobra vida, diciendo [schematic_origin]</li>
+    <li>medium->Un mecanoide en miniatura cobra vida y empieza a contar [schematic_origin]</li>
     <!-- EN: 
     <li>tells_verb->tell</li>
     <li>tells_verb->relay</li>
@@ -1481,11 +1491,18 @@
     <li>tells_verb->explica</li>
     <li>tells_verb->relata</li>
     <li>tells_verb->cuenta</li>
-    <li>tells_verb->reporta</li>
+    <li>tells_verb->detalla</li>
     <li>tells_verb_ing->explicando</li>
     <li>tells_verb_ing->relatando</li>
     <li>tells_verb_ing->contando</li>
-    <li>tells_verb_ing->reportando</li>
+    <li>tells_verb_ing->detallando</li>
+    <li>diagram_phrase->un borrador de diagrama</li>
+    <li>diagram_phrase->un esquema preliminar</li>
+    <li>diagram_phrase->un plano detallado</li>
+    <li>diagram_phrase->un gráfico técnico</li>
+    <li>diagram_phrase->un trazado completo</li>
+    <li>diagram_phrase->un croquis de trabajo</li>
+    <li>diagram_phrase->un corte técnico</li>
     <!-- EN: 
     <li>schematic_origin->the [notable_adjective] story of the schematic's creation</li>
     <li>schematic_origin->how the author came to create the schematic</li>
@@ -1525,18 +1542,18 @@
     <li>author_intent-> was lured into a love of [subject] by a children's book series</li>
     <li>author_intent-> never loved the study of [subject] but was obliged to do it</li>
     <li>author_intent-> felt [subject] was [ANYPAWN_possessive] calling</li>-->
-    <li>author_intent-> estaba voraz de conocimientos sobre [subject] desde muy joven y preguntaba a todo el mundo en su ciudad natal</li>
-    <li>author_intent-> soñaba con rejuvenecer [subject], liderando una revolución científica en Kuhn[worldname]</li>
-    <li>author_intent-> hizo de [subject] el trabajo de su vida</li>
-    <li>author_intent-> compartió sus opiniones sobre [subject] en un libro [physical_adjective], escrito [written_when]</li>
-    <li>author_intent-> no conoció vocación mejor que estudiar sobre [subject] y creó este esquema [written_when]</li>
-    <li>author_intent-> se topó con los secretos de [subject] en el estudio [physical_adjective] de su madre</li>
-    <li>author_intent-> estuvo gravemente herid[ANYPAWN_o_a] en el hospital durante su niñez, pero aprovechó el tiempo para estudiar sobre [subject]</li>
-    <li>author_intent-> quería que el mundo conociera sobre [subject] y, [written_when], creó este esquema</li>
-    <li>author_intent-> necesitaba que la galaxia supiera sobre [subject]</li>
-    <li>author_intent-> se aficionó a aprender sobre [subject] a raíz de una serie de libros infantiles</li>
-    <li>author_intent-> nunca amó el estudio sobre [subject], pero estaba obligad[ANYPAWN_o_a] a hacerlo</li>
-    <li>author_intent-> sintió que aprender sobre [subject] le estaba predestinad[ANYPAWN_o_a] desde su nacimiento</li>
+    <li>author_intent-> sentía una gran ansia de conocimiento sobre [subject] desde muy joven y preguntaba a todo el mundo en su ciudad natal</li>
+    <li>author_intent-> soñaba con renovar [subject] y provocar una revolución científica en Kuhn-[worldname]</li>
+    <li>author_intent-> hizo de [subject] la obra de su vida</li>
+    <li>author_intent-> expuso sus ideas sobre [subject] en un libro [physical_adjective], escrito [written_when]</li>
+    <li>author_intent-> no encontró vocación más alta que el estudio de [subject] y elaboró este esquema [written_when]</li>
+    <li>author_intent-> descubrió los secretos de [subject] en el estudio [physical_adjective] de su madre</li>
+    <li>author_intent-> pasó una larga enfermedad en la niñez y aprovechó ese tiempo para estudiar [subject]</li>
+    <li>author_intent-> quería que el mundo entendiera [subject] y, [written_when], creó este esquema</li>
+    <li>author_intent-> estaba convencid[ANYPAWN_o_a] de que la galaxia debía conocer [subject]</li>
+    <li>author_intent-> descubrió su pasión por [subject] gracias a una serie de libros infantiles</li>
+    <li>author_intent-> nunca amó el estudio de [subject], pero se vio obligad[ANYPAWN_o_a] a dedicarse a él</li>
+    <li>author_intent-> sintió desde siempre que [subject] era su verdadera vocación</li>
     <!-- EN: 
     <li>learning_story-> traveled far and wide, seeking wisdom about [subject]</li>
     <li>learning_story-> lived an identical day every day, working on [subject] in the cyclical cities of [midworld]</li>
@@ -1556,24 +1573,24 @@
     <li>learning_story-> raised cloned apatovores on [dinoworld] and traded their meat for knowledge of [subject]</li>
     <li>learning_story-> lived in the skyrippers of [urbworld], where knowledge of [subject] was common</li>
     <li>learning_story-> was raised in the outer deadlands of [ruinworld], learning [subject] to survive</li>-->
-    <li>learning_story-> viajó por todas partes, buscando sabiduría sobre [subject]</li>
-    <li>learning_story-> vivía un día idéntico todos los días, trabajando en [subject] en las ciudades cíclicas de [midworld]</li>
-    <li>learning_story-> surgió a través de una escuela de barrios marginales centrada en [subject] en [urbworld]</li>
+    <li>learning_story-> viajó por todas partes en busca de sabiduría sobre [subject]</li>
+    <li>learning_story-> vivió durante años jornadas idénticas, trabajando en [subject] en las ciudades cíclicas de [midworld]</li>
+    <li>learning_story-> se formó en una escuela de barrio dedicada a [subject] en [urbworld]</li>
     <li>learning_story-> se graduó con matrícula de honor en [subject] en la Academia de [worldname]</li>
-    <li>learning_story-> aprendió sobre [subject] en el mundo salvaje [animalworld]</li>
-    <li>learning_story-> descubrió un tesoro de esquemas perdidos sobre [subject] en las ruinas de [ruinworld]</li>
-    <li>learning_story-> atravesó las ennegrecidas calles de [steamworld], aprendiendo sobre [subject] incluso mientras llovía hollín</li>
-    <li>learning_story-> sobrevivió de algún modo a los pantanos tóxicos de [toxicworld], donde los rumores decían que había expertos en [subject]</li>
-    <li>learning_story-> recorrió los suburbios derretidos del mundo cristal [glassworld] en busca de conocimientos sobre [subject]</li>
-    <li>learning_story-> orbitó la esfera trascendente de [transcendentworld], aprendiendo sobre [subject] al interceptar el tráfico de comunicaciones</li>
-    <li>learning_story-> se adentró con mulas a las profundidades de [mineworld], escuchando a los viejos mineros contar historias de [subject] y aprendiendo sus secretos</li>
-    <li>learning_story-> era especialista en [subject] en el mundo central [coreworld]</li>
-    <li>learning_story-> poseía las fábricas del mundo industrial [indworld], y complacía su pasión sobre [subject] escribiendo mientras sus trabajadores servían como esclavos</li>
-    <li>learning_story-> aprendió sobre [subject] encarcelad[ANYPAWN_o_a] en la prisión Ciudad Celda V de [prisonworld], donde siempre defendió su inocencia</li>
-    <li>learning_story-> reconstruyó este esquema sobre [subject] en las colmenas del mundo basura [trashworld], recolectando fragmentos desechados por ciudadanos ricos de un mundobrillante</li>
-    <li>learning_story-> criaba apatóvoros clonados en [dinoworld] y cambiaba su carne por conocimientos sobre [subject]</li>
-    <li>learning_story-> vivió en las torres flotantes de [urbworld], donde el conocimiento sobre [subject] era común</li>
-    <li>learning_story-> se crió en los páramos muertos de [ruinworld], aprendiendo sobre [subject] para sobrevivir</li>
+    <li>learning_story-> aprendió por su cuenta sobre [subject] en el mundo salvaje de [animalworld]</li>
+    <li>learning_story-> descubrió un lote de esquemas perdidos sobre [subject] en las ruinas de [ruinworld]</li>
+    <li>learning_story-> recorrió las calles ennegrecidas de [steamworld], aprendiendo sobre [subject] entre lluvia de hollín</li>
+    <li>learning_story-> logró sobrevivir a los pantanos tóxicos de [toxicworld], donde corrían rumores sobre expertos en [subject]</li>
+    <li>learning_story-> exploró los suburbios derretidos del mundo cristal [glassworld] en busca de conocimientos sobre [subject]</li>
+    <li>learning_story-> orbitó la esfera trascendente de [transcendentworld], aprendiendo sobre [subject] al interceptar comunicaciones</li>
+    <li>learning_story-> descendió con las mulas a las profundidades de [mineworld], donde los viejos mineros le revelaron secretos sobre [subject]</li>
+    <li>learning_story-> trabajó como especialista en [subject] al servicio de [coreworld]</li>
+    <li>learning_story-> dirigió fábricas en el mundo industrial [indworld] y consagró su tiempo libre a [subject]</li>
+    <li>learning_story-> aprendió sobre [subject] mientras estaba encarcelad[ANYPAWN_o_a] en Ciudad Celda V, en [prisonworld]</li>
+    <li>learning_story-> recompuso este esquema sobre [subject] en los vertederos-colmena de [trashworld], reuniendo fragmentos descartados por ciudadanos de mundobrillantes</li>
+    <li>learning_story-> crió apatóvoros clonados en [dinoworld] y cambió su carne por conocimientos sobre [subject]</li>
+    <li>learning_story-> vivió en las torres aéreas de [urbworld], donde el saber sobre [subject] era moneda corriente</li>
+    <li>learning_story-> se crió en los páramos exteriores de [ruinworld] y aprendió sobre [subject] para poder sobrevivir</li>
     <!-- EN: 
     <li>calltoadventure-> felt [ANYPAWN_possessive] life was stagnant. Then one day, [ANYPAWN_pronoun] found [subject]</li>
     <li>calltoadventure-> was entrusted with starting a new colony, on [ANYPAWN_possessive] own, focused on [subject]</li>
@@ -1591,22 +1608,22 @@
     <li>calltoadventure-> traveled to the rim and back, learning about [subject] on [rimworld]</li>
     <li>calltoadventure-> sailed the seas of [oceanicworld], claiming to learn [subject] secrets from the living oceans themselves</li>
     <li>calltoadventure-> was a zero-g scavenger across [worldname]'s asteroid belt, finding the secrets of [subject] on either [asteroid] A3 or [asteroid] 7DD</li>-->
-    <li>calltoadventure-> sentía que su vida estaba estancada. Entonces un día, encontró [subject]</li>
-    <li>calltoadventure-> fue encomendado iniciar una nueva colonia, por su cuenta, centrada en [subject]</li>
-    <li>calltoadventure-> vio a su hermano mayor fallecer, lo que [ANYPAWN_objective] dejó como [ANYPAWN_objective] únic[ANYPAWN_o_a] especialista en [subject] de la familia</li>
-    <li>calltoadventure-> se enteró de que había una colonia abandonada de un mundobrillante que se centraba en [subject]</li>
-    <li>calltoadventure-> estaba en un crucero solar cuando fue capturado por piratas de [feudalworld]. Como expert[ANYPAWN_o_a] en [subject], le pidieron un rescate por un alto precio</li>
-    <li>calltoadventure-> perdió el rumbo hacia el mundo muerto [deadworld], donde aprendió sobre [subject]</li>
-    <li>calltoadventure-> descubrió un archivo de datos sobre [subject] en un mecanoide roto y aprendió de él</li>
-    <li>calltoadventure-> siguió a un topoterrario por su madriguera, donde aprendió sobre [subject]</li>
-    <li>calltoadventure-> fue criad[ANYPAWN_o_a] por un clan Yttakin amante de [subject] en [iceworld]</li>
-    <li>calltoadventure-> fue cread[ANYPAWN_o_a] por clonadores de sanguífagos y encontró placer sobre al estudiar [subject]</li>
-    <li>calltoadventure-> fue criad[ANYPAWN_o_a] en [warworld], de donde escapó usando una cápsula de transporte robada. El único libro disponible durante meses fue un manual sobre [subject]</li>
-    <li>calltoadventure-> pasó toda su vida viajando por las capas del mundoconcha [shellworld], persiguiendo a un mecanoide que funcionaba mal</li>
-    <li>calltoadventure-> escapó de la servidumbre en los caseríos de [medievalworld] escondiéndose en la nave espacial estelar de un comerciante que resultó ser experto en [subject]</li>
-    <li>calltoadventure-> viajó a las fronteras y volvió, aprendiendo sobre [subject] en [rimworld]</li>
-    <li>calltoadventure-> navegó por los mares de [oceanicworld], afirmando aprender los secretos sobre [subject] de los propios océanos vivientes</li>
-    <li>calltoadventure-> fue [ANYPAWN_gender ? un saqueador : una saqueadora] de gravedad cero del cinturón de asteroides del planeta [worldname], donde descubrió los secretos de [subject] en el asteroide [asteroid] A3 o [asteroid] 7DD</li>
+    <li>calltoadventure-> sentía que su vida se había estancado; entonces, un día, encontró [subject]</li>
+    <li>calltoadventure-> recibió el encargo de fundar una nueva colonia en solitario, centrada en [subject]</li>
+    <li>calltoadventure-> perdió a su herman[ANYPAWN_o_a] mayor y acabó convertid[ANYPAWN_o_a] en el único especialista familiar en [subject]</li>
+    <li>calltoadventure-> oyó hablar de una colonia abandonada de un mundobrillante dedicada a [subject]</li>
+    <li>calltoadventure-> viajaba en un crucero solar cuando lo capturaron piratas de [feudalworld]; como expert[ANYPAWN_o_a] en [subject], pidieron un gran rescate por [ANYPAWN_objective]</li>
+    <li>calltoadventure-> fue arrastrad[ANYPAWN_o_a] fuera de rumbo hasta el mundo muerto de [deadworld], donde aprendió sobre [subject]</li>
+    <li>calltoadventure-> encontró un archivo de datos sobre [subject] en un mecanoide averiado y aprendió de él</li>
+    <li>calltoadventure-> siguió a un topoterrero hasta su madriguera y allí aprendió sobre [subject]</li>
+    <li>calltoadventure-> se crió con un clan yttakin apasionado por [subject] en [iceworld]</li>
+    <li>calltoadventure-> fue cread[ANYPAWN_o_a] por clonadores de sanguófagos y descubrió placer en el estudio de [subject]</li>
+    <li>calltoadventure-> se crió en [warworld] y escapó en una cápsula robada; durante meses, lo único que pudo leer fue un manual sobre [subject]</li>
+    <li>calltoadventure-> pasó la vida recorriendo las capas de [shellworld], persiguiendo a un mecanoide averiado relacionado con [subject]</li>
+    <li>calltoadventure-> escapó de la servidumbre en los caseríos de [medievalworld] escondiéndose en la nave de un comerciante experto en [subject]</li>
+    <li>calltoadventure-> viajó hasta el borde y regresó, aprendiendo sobre [subject] en [rimworld]</li>
+    <li>calltoadventure-> navegó los mares de [oceanicworld], convencid[ANYPAWN_o_a] de que los propios océanos vivientes le revelarían los secretos de [subject]</li>
+    <li>calltoadventure-> fue saqueador[ANYPAWN_o_a] de gravedad cero en el cinturón de asteroides de [worldname], donde descubrió secretos de [subject] en [asteroid] A3 o en [asteroid] 7DD</li>
     <!-- EN: 
     <li>written_when-> the night before [ANYPAWN_possessive] execution</li>
     <li>written_when-> in [ANYPAWN_possessive] early years</li>
@@ -1624,20 +1641,20 @@
     <li>written_when-> at leisure, whilst sipping cooled drinks on [ANYPAWN_possessive] verandah</li>
     <li>written_when-> at a young age, working alone while [ANYPAWN_possessive] peers played</li>-->
     <li>written_when->la noche anterior a su ejecución</li>
-    <li>written_when->en sus primeros años</li>
+    <li>written_when->en su primera juventud</li>
     <li>written_when->durante el Periodo Azul de [worldname]</li>
-    <li>written_when->como parte de su tesis postdoctoral</li>
-    <li>written_when->en su deambular por el borde</li>
+    <li>written_when->como parte de su tesis posdoctoral</li>
+    <li>written_when->en sus deambulaciones por el borde</li>
     <li>written_when->en las instalaciones de clonación de ur-[worldname]</li>
-    <li>written_when->como parte final del ritual [notable_adjective] ka'[worldname]l</li>
-    <li>written_when->ociosamente, en la parte trasera de una carta de sus padres.</li>
-    <li>written_when->muchos años después de que lo concibieran por primera vez</li>
+    <li>written_when->como cierre del célebre ritual ka'[worldname]</li>
+    <li>written_when->de forma ociosa, en el reverso de una carta de sus padres</li>
+    <li>written_when->muchos años después de concebir la idea por primera vez</li>
     <li>written_when->en su vejez</li>
-    <li>written_when->por las noches, perdiendo a menudo horas sueño</li>
-    <li>written_when->cuando no estaba cuidando a sus hijos</li>
-    <li>written_when->con prisas, de camino al frente</li>
-    <li>written_when->con calma, mientras disfrutaba bebidas frías en su terraza</li>
-    <li>written_when->a una edad temprana, trabajando mientras sus compañeros jugaban</li>
+    <li>written_when->por las noches, robando horas al sueño</li>
+    <li>written_when->en los escasos ratos en que no cuidaba de sus hijos</li>
+    <li>written_when->a toda prisa, camino del frente</li>
+    <li>written_when->con calma, mientras apuraba bebidas frías en su terraza</li>
+    <li>written_when->siendo muy joven, trabajando a solas mientras sus iguales jugaban</li>
     <!-- EN: 
     <li>subject_consequence(p=18)->[subject_primary_story]</li>
     <li>subject_consequence->[digression]</li>
@@ -1649,12 +1666,12 @@
     <li>digression->The section on [digression_subject] is irrelevant</li>-->
     <li>subject_consequence(p=18)->[subject_primary_story]</li>
     <li>subject_consequence->[digression]</li>
-    <li>digression->En un momento dado, la historia se desvía hacia una confusa discusión sobre [digression_subject]</li>
-    <li>digression->La narrativa del esquema se pierde aquí, divagando sobre [digression_subject]</li>
+    <li>digression->en un momento dado, la historia se desvía hacia una confusa discusión sobre [digression_subject]</li>
+    <li>digression->la narrativa del esquema se pierde aquí, divagando sobre [digression_subject]</li>
     <li>digression->[theAuthor] ha insertado aquí una nota a pie de página sobre [digression_subject]</li>
-    <li>digression->No está claro por qué la historia se torna hacia [digression_subject]</li>
-    <li>digression->Es una sorpresa que el esquema [contain_verb] información sobre [digression_subject]</li>
-    <li>digression->La sección sobre [digression_subject] es irrelevante</li>
+    <li>digression->no está claro por qué la historia se torna hacia [digression_subject]</li>
+    <li>digression->es una sorpresa que el esquema [contain_verb] información sobre [digression_subject]</li>
+    <li>digression->la sección sobre [digression_subject] es irrelevante</li>
     <!-- EN: 
     <li>digression_subject->love and war</li>
     <li>digression_subject->interminable, increasingly minor political distinctions</li>
@@ -1672,7 +1689,7 @@
     <li>digression_subject->neutroamine barter in the rich skyrippers of [coreworld]</li>-->
     <li>digression_subject->el amor y la guerra</li>
     <li>digression_subject->las distinciones políticas interminables y cada vez menores</li>
-    <li>digression_subject->tendencias gastronómicas de un mundobrillante</li>
+    <li>digression_subject->tendencias gastronómicas de los mundobrillantes</li>
     <li>digression_subject->los mercados de la moda de [animalworld] y [urbworld]</li>
     <li>digression_subject->chismes difamatorios sobre el uso generalizado de potenciadores del amor</li>
     <li>digression_subject->las disposiciones militares de la flota de [glitterworld] de hace un siglo</li>
@@ -1693,8 +1710,8 @@
     <li>aftermath->[ANYPAWN_pronoun] devoted [ANYPAWN_possessive] last years to this schematic</li>
     <li>aftermath->Later, [ANYPAWN_pronoun] found peace in this work. [subject_chat]</li>
     <li>aftermath->[ANYPAWN_possessive] story ends here, with a technical description of [ANYPAWN_possessive] work on [worldname]. [subject_chat]</li>-->
-    <li>aftermath->Las páginas no comunican nada más de la historia [OftheAuthor]</li>
-    <li>aftermath->Una [note] escrita por otra persona dice que [theAuthor] se le vio por última vez en dirección a [deathworld]</li>
+    <li>aftermath->Las páginas no cuentan nada más sobre la historia [OftheAuthor]</li>
+    <li>aftermath->Una anotación de otra mano dice que a [theAuthor] se le vio por última vez en dirección a [deathworld]</li>
     <li>aftermath->Hay algunas páginas arrancadas</li>
     <li>aftermath->Las hojas están salpicadas de manchas marrones</li>
     <li>aftermath->A pesar de sus aventuras, logró crear este esquema</li>
@@ -1706,7 +1723,7 @@
     <li>subject_chat->Few dispute the findings in this [subject] document</li>
     <li>subject_chat->This document will be inspirational to anyone interested in [subject]</li>
     <li>subject_chat->Though the diagrams are faded, the [author]'s lessons on [subject] are valuable</li>-->
-    <li>subject_chat->La obra [OftheAuthor] [ANYPAWN_objective] acredita como autoridad sobre [subject]</li>
+    <li>subject_chat->La obra [OftheAuthor] [ANYPAWN_objective] consagra como autoridad sobre [subject]</li>
     <li>subject_chat->Pocos discuten las conclusiones de este documento sobre [subject]</li>
     <li>subject_chat->Este documento servirá de inspiración a cualquier persona interesada en [subject]</li>
     <li>subject_chat->Aunque los diagramas están descoloridos, las lecciones [OftheAuthor] sobre [subject] son valiosas</li>
@@ -1750,11 +1767,11 @@
     <li>negative_adjective->deficient</li>
     <li>appearance(p=3)->[phys_desc]</li>
     <li>appearance->[nonphys_desc]</li>-->
-    <li>notable_adjective->famoso</li>
+    <li>notable_adjective->célebre</li>
     <li>notable_adjective->oscuro</li>
     <li>notable_adjective->icónico</li>
     <li>notable_adjective->clásico</li>
-    <li>notable_adjective->habitual</li>
+    <li>notable_adjective->singular</li>
     <li>notable_adjective->familiar</li>
     <li>negative_adjective->rudimentario</li>
     <li>negative_adjective->simplista</li>
@@ -1840,7 +1857,7 @@
     <li>scent->incienso</li>
     <li>scent->sándalo</li>
     <li>scent->jugo dulce de boomrat</li>
-    <li>scent->especias de mundobrillante</li>
+    <li>scent->especias de mundobrillantes</li>
     <li>scent->semillas frescas de Gauranlen</li>
     <li>conjunction->y </li>
     <li>conjunction->pero </li>
@@ -1895,7 +1912,7 @@
     <li>theAuthor(ANYPAWN_gender!=Female)->el especialista</li>
     <li>theAuthor(ANYPAWN_gender==Female)->la especialista</li>
     <li>theAuthor(ANYPAWN_gender!=Female)->el técnico</li>
-    <li>theAuthor(ANYPAWN_gender==Female)->la técnico</li>
+    <li>theAuthor(ANYPAWN_gender==Female)->la técnica</li>
     <li>theAuthor(ANYPAWN_gender!=Female)->el experto</li>
     <li>theAuthor(ANYPAWN_gender==Female)->la experta</li>
     <li>theAuthor(ANYPAWN_gender!=Female)->el artesano</li>
@@ -2149,13 +2166,13 @@
     <li>schematic_container->archivo</li>
     <li>schematic_container->portafolio</li>
     <li>schematic_container->folleto</li>
-    <li>schematic_container->envoltorio</li>
-    <li>schematic_container->soporte</li>
-    <li>schematic_container->lote</li>
+    <li>schematic_container->carpeta</li>
+    <li>schematic_container->legajo</li>
+    <li>schematic_container->fajo</li>
     <li>schematic_container->expediente</li>
     <li>schematic_container->paquete</li>
-    <li>schematic_container->baúl</li>
-    <li>schematic_container->contenedor</li>
+    <li>schematic_container->estuche</li>
+    <li>schematic_container->portadocumentos</li>
     <li>physical_adjective->mugriento</li>
     <li>physical_adjective->pequeño</li>
     <li>physical_adjective->áspero</li>
@@ -2171,12 +2188,13 @@
     <li>physical_adjective->deformado</li>
     <li>physical_adjective->arcaico</li>
     <li>physical_adjective->grasiento</li>
-    <li>physical_adjective->abrasador</li>
+    <li>physical_adjective->frágil</li>
+    <li>physical_adjective->polvoriento</li>
     <li>physical_adjective->miserable</li>
-    <li>physical_adjective->leñoso</li>
-    <li>physical_adjective->espinoso</li>
+    <li>physical_adjective->austero</li>
+    <li>physical_adjective->ajado</li>
     <li>physical_adjective->chamuscado</li>
-    <li>physical_adjective->suave</li>
+    <li>physical_adjective->manchado</li>
     <li>physical_adjective->rústico</li>
     <li>physical_adjective->funcional</li>
     <li>physical_adjective->obsoleto</li>
@@ -2209,6 +2227,13 @@
     <li>schematic_synonym->prototipo</li>
     <li>schematic_synonym->estudio</li>
     <li>schematic_synonym->pliego</li>
+    <li>schematic_synonym_plural->esquemas</li>
+    <li>schematic_synonym_plural->modelos</li>
+    <li>schematic_synonym_plural->proyectos</li>
+    <li>schematic_synonym_plural->diseños</li>
+    <li>schematic_synonym_plural->prototipos</li>
+    <li>schematic_synonym_plural->estudios</li>
+    <li>schematic_synonym_plural->pliegos</li>
     <li>state_adjective->borrador de un</li>
     <li>state_adjective->terminado</li>
     <li>state_adjective->trabajo en curso de un</li>
@@ -2236,13 +2261,22 @@
     <li>device_synonym->gadget</li>
     <li>device_synonym->accesorio</li>
     <li>device_synonym->módulo</li>
+    <li>device_synonym_plural->mecanismos</li>
+    <li>device_synonym_plural->dispositivos</li>
+    <li>device_synonym_plural->artificios</li>
+    <li>device_synonym_plural->inventos</li>
+    <li>device_synonym_plural->artilugios</li>
+    <li>device_synonym_plural->aparatos</li>
+    <li>device_synonym_plural->gadgets</li>
+    <li>device_synonym_plural->accesorios</li>
+    <li>device_synonym_plural->módulos</li>
     <li>image_types->fotografías</li>
     <li>image_types->dibujos</li>
     <li>image_types->grabados</li>
     <li>image_types->acuarelas</li>
     <li>image_types->bosquejos</li>
     <li>image_types->bocetos</li>
-    <li>image_types->dibujos animados</li>
+    <li>image_types->viñetas</li>
     <li>other_subject->infraestructura</li>
     <li>other_subject->plantilla</li>
     <li>other_subject->comunicación</li>
@@ -2618,95 +2652,92 @@
   <Description_SkillBook.rulePack.rulesStrings>
     <li>subject->[subject_primary]</li>
     <li>desc->[discussion].\n\n[anecdote]. [production].\n\n[quality_statement]</li>
-    <li>discussion->Este [textbook] proporciona [useful_information] sobre [subject][detail]</li>
-    <li>discussion->Este [textbook] establece la autoridad del autor sobre [subject][detail]</li>
-    <li>discussion->Los que buscan [understanding_synonym] sobre [subject] se dirigen a este [textbook] [notable_adjective][detail]</li>
-    <li>discussion->Un [textbook] estandarizado sobre [subject][detail]</li>
-    <li>discussion->Una primera edición del [textbook] del autor sobre [subject][detail]</li>
-    <li>detail->. El [precis_synonym] se centra en los aspectos más hábiles del tema</li>
-    <li>detail->. Es un [precis_synonym] conciso de un tema complejo</li>
-    <li>detail->. El [precis_synonym] dice que, cuando [ANYPAWN_label] escribió esto, era lo más novedoso en el ámbito</li>
-    <li>detail->. Una cita en [note_location] dice: "Los verdaderos [students] en [subject] no pueden ignorar el libro de [ANYPAWN_label]"</li>
+    <li>discussion->Este [textbook] ofrece [useful_information] sobre [subject][detail]</li>
+    <li>discussion->Este [textbook] consolida la autoridad de su autor en materia de [subject][detail]</li>
+    <li>discussion->Quienes buscan [understanding_synonym] sobre [subject] suelen acabar en este [notable_adjective] [textbook][detail]</li>
+    <li>discussion->Es un [textbook] de referencia sobre [subject][detail]</li>
+    <li>discussion->Se trata de una edición temprana del [textbook] que el autor dedicó a [subject][detail]</li>
+    <li>detail->. El [precis_synonym] se centra en los aspectos más complejos del tema</li>
+    <li>detail->. Ofrece un [precis_synonym] conciso de una materia compleja</li>
+    <li>detail->. El [precis_synonym] sugiere que, cuando [ANYPAWN_label] escribió esta obra, estaba en la vanguardia del campo</li>
+    <li>detail->. En [note_location] se lee: "Los verdaderos [students] de [subject] no pueden ignorar la obra de [ANYPAWN_label]"</li>
     <li>students->estudiantes</li>
     <li>students->apasionados</li>
     <li>students->practicantes</li>
-    <li>detail->. Te lleva paso a paso a través del tema</li>
-    <li>detail(quality[less_than]4)->, aunque el autor se precipita en el tema</li>
-    <li>detail(quality[greater_than]3)->. Se trata de un tratamiento exhaustivo del tema</li>
-    <li>detail->. El autor afirma en su [precis_synonym] que existen copias fraudulentas de este libro, pero que esta no es una de ellas</li>
-    <li>detail(quality[less_than]4)->, aunque quizás el intento de comunicar sus ideas a través de un diálogo imaginario fue un error</li>
-    <li>detail->. La retórica del autor en el [precis_synonym] nos distrae de los conceptos centrales</li>
-    <li>production->El [precis_synonym] dice que se imprimió a mano en [worldname]</li>
-    <li>production->El [precis_synonym] dice que la Universidad de [worldname] hizo de esto un texto fijo</li>
-    <li>production->El [precis_synonym] dice que, aunque estas notas se hicieron para uso personal de [ANYPAWN_label], han sido ampliamente compartidas</li>
-    <li>production->Las partes útiles de este [textbook] se esconden entre los detalles biográficos</li>
-    <li>production->Un[note] en la [note_location] dice que la imprenta de [worldname] cerró después de los disturbios de [worldname], por lo que estas ediciones posteriores son raras</li>
-    <li>production->Un[note] inscrita dice que la mayoría de los ejemplares de este [textbook] se perdieron durante el Incidente de [worldname]</li>
-    <li>production->El [precis_synonym] aclara que los lectores conocedores de las técnicas de difusión de información arqueotecas tienden a evitar esta serie de [textbooks], pero no el por qué</li>
-    <li>production->Por [note_location], está claro que los prosélitos en [subject] de [worldname] se gastaron una fortuna imprimiendo copias de este libro, y luego en distribuirlo ampliamente</li>
-    <li>production->En [note_location] explica que los primeros ejemplares de este libro fueron escritos a mano por el autor</li>
-    <li>production->La duquesa de [worldname] patrocinó este [textbook] con la condición de que estuviera disponible gratuitamente</li>
-    <li>production->Una nota dice que una suscripción de los libreros de [coreworld] produjo la primera edición de este [textbook]</li>
-    <li>production->En la contraportada del libro, el editor anuncia una serie más amplia que aborda todos los temas necesarios para sobrevivir en los mundos limítrofes</li>
-    <li>production->Los editores podrían haber sido más rigurosos en su trabajo, dada la gramática descuidada</li>
+    <li>detail->. Recorre el tema paso a paso</li>
+    <li>detail(quality[less_than]4)->, aunque el autor pasa demasiado deprisa por algunos apartados</li>
+    <li>detail(quality[greater_than]3)->. Ofrece un tratamiento amplio y sólido del tema</li>
+    <li>detail->. El autor asegura en el [precis_synonym] que circulan copias fraudulentas de esta obra, y que esta no es una de ellas</li>
+    <li>detail(quality[less_than]4)->, aunque quizá el intento de exponer las ideas mediante un diálogo imaginario no fue la mejor decisión</li>
+    <li>detail->. La retórica del autor en el [precis_synonym] distrae de los conceptos centrales</li>
+    <li>production->El [precis_synonym] indica que se imprimió a mano en [worldname]</li>
+    <li>production->El [precis_synonym] explica que la Universidad de [worldname] lo convirtió en texto obligatorio</li>
+    <li>production->El [precis_synonym] aclara que, aunque estas notas nacieron para uso personal de [ANYPAWN_label], acabaron circulando ampliamente</li>
+    <li>production->Las partes más valiosas de este [textbook] se esconden entre los detalles biográficos</li>
+    <li>production->En [note_location] hay una nota manuscrita que explica que la imprenta de [worldname] cerró tras los disturbios de [worldname], de modo que las ediciones tardías son raras</li>
+    <li>production->En [note_location] hay una nota grabada que dice que la mayoría de los ejemplares de este [textbook] se perdió durante el Incidente de [worldname]</li>
+    <li>production->El [precis_synonym] deja claro que quienes conocen las técnicas arqueotécnicas de difusión de información tienden a evitar esta serie de [textbooks], aunque no explica por qué</li>
+    <li>production->En [note_location] queda claro que los estudiosos de [subject] de [worldname] gastaron una fortuna imprimiendo copias de esta obra y distribuyéndolas por doquier</li>
+    <li>production->En [note_location] se explica que los primeros ejemplares de esta obra fueron copiados a mano por el propio autor</li>
+    <li>production->La duquesa de [worldname] patrocinó este [textbook] con la condición de que pudiera consultarse libremente</li>
+    <li>production->Una nota indica que una suscripción entre los libreros de [coreworld] financió la primera edición de este [textbook]</li>
+    <li>production->En la contraportada, el editor anuncia una colección más amplia dedicada a la supervivencia en el borde</li>
+    <li>production->Los editores podrían haber sido más rigurosos, vista la gramática descuidada</li>
     <li>quality_statement->[exterior_quality] [page_quality]</li>
-    <li>anecdote->Dada la gran diferencia entre el año de nacimiento de [ANYPAWN_nameFull] y la fecha de publicación de este libro, es poco probable que viviera para verlo publicado</li>
-    <li>anecdote->En [note_location], alguien ha escrito una crítica despectiva del libro</li>
-    <li>anecdote->El [precis_synonym] indica que este libro pasó por el sistema de bibliotecas públicas de [urbworld]</li>
-    <li>anecdote->Según [note_location], [ANYPAWN_nameFull] era popular por su amplio conocimiento en muchas materias</li>
-    <li>anecdote->Según [note_location], la gente de [worldname] aún habla de [ANYPAWN_nameFull] y recuerda su pasión en [subject]</li>
-    <li>anecdote->Según [note_location], un extraño accidente mató al autor [ANYPAWN_nameFull], poco después de la publicación</li>
-    <li>anecdote->Según el [precis_synonym], [ANYPAWN_nameFull] pasó sus días enseñando en la academia de [coreworld]. Este libro está tomado de sus clases</li>
-    <li>anecdote->Según el [precis_synonym], los conocimientos de [ANYPAWN_nameFull] en [subject] eran tan reconocidos que la gente [ANYPAWN_objective] paraba por la calle para preguntarle al respecto</li>
-    <li>anecdote->Según [note_location], [ANYPAWN_nameFull] no tenía dinero y vendió los derechos de esta colección por muy poco</li>
-    <li>anecdote->Según [note_location], [ANYPAWN_nameFull] era ciego de nacimiento, por lo que nunca pudo leer su libro</li>
-    <li>anecdote->Según [note_location], el primer borrador del libro de [ANYPAWN_nameFull] contenía cincuenta páginas sobre divagaciones estúpidas. Se quitaron en la segunda edición</li>
-    <li>anecdote->Según [note_location], la reputación de [ANYPAWN_nameFull] era tan terrible que publicó este libro de manera anónima</li>
-    <li>anecdote->Según [note_location], de niño, [ANYPAWN_nameFull] era tan irresponsable que sus padres se desilusionaron con [PAWN_pronoun]. Este libro es una reivindicación de su habilidad</li>
-    <li>anecdote->Según el [precis_synonym], fue durante el cuarto matrimonio de [ANYPAWN_nameFull] cuando empezó a idear un libro sobre [subject]. (Esto [ANYPAWN_objective] llevó a su cuarto divorcio)</li>
-    <li>textbook->libro</li>
+    <li>anecdote->La distancia entre el nacimiento de [ANYPAWN_nameFull] y la fecha de publicación sugiere que no llegó a ver esta obra impresa</li>
+    <li>anecdote->En [note_location], alguien pegó una reseña demoledora del libro</li>
+    <li>anecdote->El [precis_synonym] indica que esta obra pasó por la red de bibliotecas públicas de [urbworld]</li>
+    <li>anecdote->Según [note_location], [ANYPAWN_nameFull] gozaba de fama por dominar materias muy diversas</li>
+    <li>anecdote->Según [note_location], en [worldname] aún recuerdan a [ANYPAWN_nameFull] por su pasión por [subject]</li>
+    <li>anecdote->Según [note_location], un extraño accidente de entrelazamiento acabó con la vida de [ANYPAWN_nameFull] poco después de la publicación</li>
+    <li>anecdote->Según el [precis_synonym], [ANYPAWN_nameFull] pasó años enseñando en la academia de [coreworld], y esta obra nace de aquellas lecciones</li>
+    <li>anecdote->Según el [precis_synonym], el dominio de [subject] de [ANYPAWN_nameFull] era tan célebre que la gente [ANYPAWN_objective] paraba por la calle para consultarle</li>
+    <li>anecdote->Según [note_location], [ANYPAWN_nameFull] vivía en la pobreza y vendió los derechos de esta serie por una miseria</li>
+    <li>anecdote->Según [note_location], [ANYPAWN_nameFull] era cieg[ANYPAWN_o_a] de nacimiento, de modo que nunca pudo leer su propia obra</li>
+    <li>anecdote->Según [note_location], el primer borrador incluía cincuenta páginas de divagaciones absurdas; se eliminaron en la segunda edición</li>
+    <li>anecdote->Según [note_location], la reputación de [ANYPAWN_nameFull] era tan mala que publicó la obra bajo seudónimo</li>
+    <li>anecdote->Según [note_location], de niñ[ANYPAWN_o_a], [ANYPAWN_nameFull] era tan perezos[ANYPAWN_o_a] que sus padres llegaron a desesperar; esta obra desmiente por completo aquella fama</li>
+    <li>anecdote->Según el [precis_synonym], fue durante el cuarto matrimonio de [ANYPAWN_nameFull] cuando empezó a idear un libro sobre [subject], lo que acabó llevándole a un cuarto divorcio</li>
     <li>textbook->manual</li>
-    <li>textbook->libro de texto</li>
-    <li>textbook(p=6)->libro</li>
-    <li>textbook->cuaderno de ejercicios</li>
-    <li>textbook->manual de consulta</li>
+    <li>textbook->tratado</li>
     <li>textbook->compendio</li>
-    <li>textbook->catálogo</li>
-    <li>textbook->folleto</li>
-    <li>textbook->libro de actividades</li>
-    <li>textbook->libro de cursos</li>
-    <li>textbook->libro de referencia</li>
-    <li>textbook->libro académico</li>
-    <li>textbook->libro enciclopedia</li>
-    <li>textbook->libro guía</li>
-    <li>textbook->libro de comercio</li>
-    <li>textbook->libro laboral</li>
-    <li>textbooks->libros guías</li>
-    <li>textbooks->libros de comercios</li>
-    <li>textbooks->libros laborales</li>
-    <li>textbooks->libros</li>
+    <li>textbook(p=6)->manual</li>
+    <li>textbook->cuaderno de estudio</li>
+    <li>textbook->manual de consulta</li>
+    <li>textbook->volumen</li>
+    <li>textbook->libro de estudio</li>
+    <li>textbook->texto de referencia</li>
+    <li>textbook->texto académico</li>
+    <li>textbook->tomo de consulta</li>
+    <li>textbook->volumen didáctico</li>
+    <li>textbook->tratado breve</li>
+    <li>textbook->manual práctico</li>
+    <li>textbook->compendio didáctico</li>
+    <li>textbook->texto técnico</li>
+    <li>textbook->volumen de estudio</li>
     <li>textbooks->manuales</li>
-    <li>textbooks->libros de textos</li>
-    <li>textbooks(p=6)->libros</li>
-    <li>textbooks->cuadernos de ejercicios</li>
-    <li>textbooks->manuales de consulta</li>
+    <li>textbooks->tratados</li>
     <li>textbooks->compendios</li>
-    <li>textbooks->catálogos</li>
-    <li>textbooks->folletos</li>
-    <li>textbooks->libros de actividades</li>
-    <li>textbooks->libros de cursos</li>
-    <li>textbooks->libros de referencia</li>
-    <li>textbooks->libros académicos</li>
-    <li>textbooks->libros enciclopedias</li>
-    <li>textbooks->libros guías</li>
-    <li>textbooks->libros de comercio</li>
-    <li>textbooks->libros laborales</li>
-    <li>precis_synonym->apunte</li>
-    <li>precis_synonym->frontispicio</li>
-    <li>precis_synonym->abstracto</li>
-    <li>precis_synonym->sumario</li>
-    <li>precis_synonym->borrador</li>
+    <li>textbooks->cuadernos de estudio</li>
+    <li>textbooks->manuales de consulta</li>
+    <li>textbooks(p=6)->manuales</li>
+    <li>textbooks->volúmenes</li>
+    <li>textbooks->libros de estudio</li>
+    <li>textbooks->textos de referencia</li>
+    <li>textbooks->textos académicos</li>
+    <li>textbooks->tomos de consulta</li>
+    <li>textbooks->volúmenes didácticos</li>
+    <li>textbooks->tratados breves</li>
+    <li>textbooks->manuales prácticos</li>
+    <li>textbooks->compendios didácticos</li>
+    <li>textbooks->textos técnicos</li>
+    <li>textbooks->volúmenes de estudio</li>
     <li>precis_synonym->resumen</li>
+    <li>precis_synonym->prólogo</li>
+    <li>precis_synonym->prefacio</li>
+    <li>precis_synonym->sumario</li>
+    <li>precis_synonym->comentario preliminar</li>
+    <li>precis_synonym->texto introductorio</li>
     <li>note_location->la portada</li>
     <li>note_location->la contraportada</li>
     <li>note_location->la solapa delantera</li>
@@ -2719,14 +2750,14 @@
     <li>note_location->la parte final</li>
     <li>note_location->la biografía del autor</li>
     <li>note_location->la etiqueta de envío</li>
-    <li>note->a nota</li>
-    <li>note-> anexo</li>
-    <li>note->a aclaración</li>
-    <li>note-> epílogo</li>
-    <li>note-> apéndice</li>
-    <li>note->a coda</li>
-    <li>note->a nota al pie</li>
-    <li>note->a nota al final</li>
+    <li>note->nota</li>
+    <li>note->anexo</li>
+    <li>note->aclaración</li>
+    <li>note->epílogo</li>
+    <li>note->apéndice</li>
+    <li>note->colofón</li>
+    <li>note->nota al pie</li>
+    <li>note->nota final</li>
     <li>useful_information->información relevante</li>
     <li>useful_information->información útil</li>
     <li>useful_information->datos interesantes</li>
@@ -2734,30 +2765,30 @@
     <li>useful_information->ideas prácticas</li>
     <li>useful_information->consejos útiles</li>
     <li>useful_information->detalles informativos</li>
-    <li>understanding_synonym->conocimientos</li>
-    <li>understanding_synonym->un progreso intelectual</li>
-    <li>understanding_synonym->una mayor comprensión</li>
-    <li>understanding_synonym->ayuda para aprender</li>
-    <li>understanding_synonym->ampliar sus conocimientos</li>
-    <li>understanding_synonym->aprender</li>
-    <li>understanding_synonym->sabiduría</li>
-    <li>understanding_synonym->repasar</li>
-    <li>notable_adjective->famoso</li>
-    <li>notable_adjective->oscuro</li>
+    <li>understanding_synonym->conocimientos sólidos</li>
+    <li>understanding_synonym->una comprensión más profunda</li>
+    <li>understanding_synonym->orientación</li>
+    <li>understanding_synonym->aprender más</li>
+    <li>understanding_synonym->claridad</li>
+    <li>understanding_synonym->una visión de conjunto</li>
+    <li>understanding_synonym->contexto</li>
+    <li>understanding_synonym->perspectiva</li>
+    <li>notable_adjective->célebre</li>
+    <li>notable_adjective->poco conocido</li>
     <li>notable_adjective->icónico</li>
     <li>notable_adjective->clásico</li>
-    <li>notable_adjective->habitual</li>
-    <li>notable_adjective->familiar</li>
-    <li>notable_adjective->intemporal</li>
+    <li>notable_adjective->extendido</li>
+    <li>notable_adjective->conocido</li>
+    <li>notable_adjective->sólido</li>
     <li>notable_adjective->útil</li>
-    <li>notable_adjective->armonioso</li>
+    <li>notable_adjective->apreciado</li>
     <li>notable_adjective->elegante</li>
-    <li>notable_adjective->simple</li>
-    <li>notable_adjective->funcional</li>
-    <li>notable_adjective->de mundo urbano</li>
-    <li>notable_adjective->de mundobrillante</li>
-    <li>notable_adjective->primitivo</li>
-    <li>notable_adjective->decorativo</li>
+    <li>notable_adjective->sobrio</li>
+    <li>notable_adjective->práctico</li>
+    <li>notable_adjective->influyente</li>
+    <li>notable_adjective->sofisticado</li>
+    <li>notable_adjective->arcaico</li>
+    <li>notable_adjective->anotado</li>
     <li>exterior_quality(quality[greater_than]4)->El exterior de este libro está finamente encuadernado y</li>
     <li>exterior_quality(quality[greater_than]4)->Es una joya del arte de la encuadernación y</li>
     <li>exterior_quality(quality[greater_than]4)->Su cubierta de cuero es rugosa, pero</li>

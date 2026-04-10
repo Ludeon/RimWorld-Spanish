@@ -138,13 +138,34 @@
     <li>questName(animalCount==1)->[beastFem] [AdjectiveBadass_Fem]</li>
     <li>questName(animalCount==1)->[beastMas] [AdjectiveBadass]</li>
     <li>questName(animalCount==1)->[beast] [Adjective1]</li>
-    <li>questName(animalCount>=2)->[beastsFem] [AdjectiveBadass_Fem]s</li>
-    <li>questName(animalCount>=2)->[beastsMas] [AdjectiveBadass]s</li>
+    <li>questName(animalCount>=2)->[beastsFem] [AdjectiveBadass_FemPlural]</li>
+    <li>questName(animalCount>=2)->[beastsMas] [AdjectiveBadass_Plural]</li>
     <li>questName(animalCount>=2)->[beasts] [Adjective]</li>
     <li>beast->[animalKind_label]</li>
     <li>Adjective1->salvaje</li>
     <li>Adjective1->demente</li>
     <li>Adjective1->despreciable</li>
+    <li>AdjectiveBadass_FemPlural->agresivas</li>
+    <li>AdjectiveBadass_FemPlural->belicosas</li>
+    <li>AdjectiveBadass_FemPlural->chifladas</li>
+    <li>AdjectiveBadass_FemPlural->enfadadas</li>
+    <li>AdjectiveBadass_FemPlural->furiosas</li>
+    <li>AdjectiveBadass_FemPlural->homicidas</li>
+    <li>AdjectiveBadass_FemPlural->imparables</li>
+    <li>AdjectiveBadass_FemPlural->iracundas</li>
+    <li>AdjectiveBadass_FemPlural->locas</li>
+    <li>AdjectiveBadass_FemPlural->lúgubres</li>
+    <li>AdjectiveBadass_FemPlural->macabras</li>
+    <li>AdjectiveBadass_FemPlural->maníacas</li>
+    <li>AdjectiveBadass_FemPlural->mortíferas</li>
+    <li>AdjectiveBadass_FemPlural->oscuras</li>
+    <li>AdjectiveBadass_FemPlural->salvajes</li>
+    <li>AdjectiveBadass_FemPlural->sanguinolentas</li>
+    <li>AdjectiveBadass_FemPlural->siniestras</li>
+    <li>AdjectiveBadass_FemPlural->sombrías</li>
+    <li>AdjectiveBadass_FemPlural->tenebrosas</li>
+    <li>AdjectiveBadass_FemPlural->tétricas</li>
+    <li>AdjectiveBadass_FemPlural->violentas</li>
     <li>beastFem->La bestia</li>
     <li>beastMas->El animal</li>
     <li>beasts(p=1)->Un grupo de [animalKind_labelPlural]</li>

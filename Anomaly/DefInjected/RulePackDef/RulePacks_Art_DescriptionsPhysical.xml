@@ -120,35 +120,48 @@
     <li>cube_style_group-></li>
     <li>cubeDescSentence(p=3)->[cubeLocation], [aPawn] [worshipsTheCube]</li>
     <li>cubeDescSentence(p=3)->[cubeLocation], [pawnsPlural] están [worshippingTheCube]</li>
+    <li>cubeDescSentence(p=2)->[cubeLocation], [pawnsCollective] está [worshippingTheCube]</li>
     <li>cubeDescSentence->El [cubeWorkM] invita al espectador a empezar a [worshippingTheCubeV]</li>
     <li>cubeDescSentence->La [cubeWorkF] invita al espectador a empezar a [worshippingTheCubeV]</li>
-    <li>cubeDescSentence->Las figuras [worshippingTheCube] desde el centro de este [cubeWorkM]</li>
-    <li>cubeDescSentence->Las figuras [worshippingTheCube] desde el centro de esta [cubeWorkF]</li>
-    <li>cubeWorkM->trabajo</li>
+    <li>cubeDescSentence->En el centro de este [cubeWorkM] aparecen figuras [worshippingTheCube]</li>
+    <li>cubeDescSentence->En el centro de esta [cubeWorkF] aparecen figuras [worshippingTheCube]</li>
+    <li>cubeDescSentence->Toda la escena parece animar a [worshippingTheCubeV]</li>
+    <li>cubeWorkM->grabado</li>
+    <li>cubeWorkM->relieve</li>
+    <li>cubeWorkM->tallado</li>
+    <li>cubeWorkM->conjunto</li>
+    <li>cubeWorkM->panel</li>
     <li>cubeWorkF->escultura</li>
     <li>cubeWorkF->obra de arte</li>
     <li>cubeWorkF->pieza</li>
+    <li>cubeWorkF->composición</li>
+    <li>cubeWorkF->figura</li>
     <li>aCube->un cubo abstracto</li>
     <li>aCube->un cubo perfecto</li>
     <li>aCube->un cubo deforme</li>
     <li>aCube->un cubo estilizado</li>
-    <li>aCube->un cubo multiplicador</li>
+    <li>aCube->un cubo que se multiplica</li>
     <li>aCube->un cubo rudimentario</li>
     <li>aCube->un cubo distorsionado</li>
     <li>aCube->un cubo aterrador</li>
     <li>aCube->un cubo oscuro</li>
+    <li>aCube->un cubo resplandeciente</li>
+    <li>aCube->un cubo imposible</li>
     <li>cubeLocation->cerca del centro</li>
     <li>cubeLocation->en cada cara del cubo</li>
-    <li>cubeLocation->en los centros de la cara</li>
+    <li>cubeLocation->en el centro de cada cara</li>
     <li>cubeLocation->encima de la figura principal</li>
     <li>cubeLocation->debajo de la figura principal</li>
     <li>cubeLocation->detrás de la figura principal</li>
     <li>cubeLocation->cerca de los bordes</li>
     <li>cubeLocation->a lo largo de los bordes</li>
-    <li>cubeLocation->a lo largo de los bordes</li>
+    <li>cubeLocation->alrededor del motivo principal</li>
+    <li>cubeLocation->a un lado de la figura principal</li>
+    <li>cubeLocation->junto al centro de la escena</li>
+    <li>cubeLocation->junto a la figura principal</li>
     <li>cubeDepicts->representa</li>
     <li>cubeDepicts->muestra</li>
-    <li>cubeDepicts->visualiza</li>
+    <li>cubeDepicts->presenta</li>
     <li>cubeDepicts->retrata</li>
     <li>aPawn->un autorretrato del artista</li>
     <li>aPawn->un trumbo</li>
@@ -157,22 +170,33 @@
     <li>aPawn->un neandertal</li>
     <li>aPawn->un líder de un mundobrillante</li>
     <li>aPawn->una figura indistinta</li>
+    <li>aPawn->un peregrino exhausto</li>
+    <li>aPawn->una silueta coronada</li>
     <li>aPawn->un chamán tribal</li>
     <li>aPawn->un sanguífago encapuchado</li>
     <li>aPawn->una princesa medieval</li>
     <li>aPawn->el líder de un lejano [Community]</li>
     <li>aPawn->una mujer empuñando [WeaponIndef]</li>
-    <li>aPawn->una procesión de túnicas</li>
+    <li>aPawn->una procesión de figuras con túnica</li>
     <li>pawnsPlural->tus colonos</li>
-    <li>pawnsPlural->un grupo de incursores</li>
-    <li>pawnsPlural->una congregación tribal</li>
-    <li>pawnsPlural->un enjambre mecanoide</li>
-    <li>pawnsPlural->una banda de piratas</li>
+    <li>pawnsPlural->incursores</li>
+    <li>pawnsPlural->fieles tribales</li>
+    <li>pawnsPlural->mecanoides</li>
+    <li>pawnsPlural->piratas</li>
     <li>pawnsPlural->agricultores rurales</li>
-    <li>pawnsPlural->[AnimalGroupIndef] de [AnimalAnyPl]</li>
-    <li>pawnsPlural->un grupo de una [Community_Fem] cercana</li>
-    <li>pawnsPlural->un grupo de un [Community] cercano</li>
+    <li>pawnsPlural->[AnimalAnyPl]</li>
+    <li>pawnsPlural->habitantes de una [Community_Fem] cercana</li>
+    <li>pawnsPlural->habitantes de un [Community] cercano</li>
     <li>pawnsPlural->[Quantity_adjphrase] personas</li>
+    <li>pawnsCollective->un grupo de incursores</li>
+    <li>pawnsCollective->una congregación tribal</li>
+    <li>pawnsCollective->un enjambre de mecanoides</li>
+    <li>pawnsCollective->una banda de piratas</li>
+    <li>pawnsCollective->un grupo de agricultores rurales</li>
+    <li>pawnsCollective->un grupo de [AnimalAnyPl]</li>
+    <li>pawnsCollective->un grupo de habitantes de una [Community_Fem] cercana</li>
+    <li>pawnsCollective->un grupo de habitantes de un [Community] cercano</li>
+    <li>pawnsCollective->un grupo de [Quantity_adjphrase] personas</li>
     <li>worshippingTheCube->adorando al cubo</li>
     <li>worshippingTheCube->inclinándose ante el cubo</li>
     <li>worshippingTheCube->arrodillándose ante el cubo</li>
@@ -185,9 +209,9 @@
     <li>worshippingTheCube->entablando amistad con el cubo</li>
     <li>worshippingTheCube->observando el cubo</li>
     <li>worshippingTheCube->obsesionándose con el cubo</li>
-    <li>worshippingTheCube->sacrificando al cubo</li>
+    <li>worshippingTheCube->haciendo sacrificios al cubo</li>
     <li>worshippingTheCube->haciendo ofrendas al cubo</li>
-    <li>worshippingTheCube->apoyándose contra el cubo</li>
+    <li>worshippingTheCube->arremetiendo contra el cubo</li>
     <li>worshippingTheCube->respetando el cubo</li>
     <li>worshippingTheCube->enterrando el cubo</li>
     <li>worshippingTheCube->colocando el cubo sobre un pedestal</li>
@@ -205,9 +229,9 @@
     <li>worshipsTheCube->entabla amistad con el cubo</li>
     <li>worshipsTheCube->observa el cubo</li>
     <li>worshipsTheCube->se obsesiona con el cubo</li>
-    <li>worshipsTheCube->se sacrifica al cubo</li>
+    <li>worshipsTheCube->hace sacrificios al cubo</li>
     <li>worshipsTheCube->hace ofrendas al cubo</li>
-    <li>worshipsTheCube->se apoya en el cubo</li>
+    <li>worshipsTheCube->arremete contra el cubo</li>
     <li>worshipsTheCube->ataca el cubo</li>
     <li>worshipsTheCube->sepulta el cubo</li>
     <li>worshipsTheCube->coloca el cubo sobre un pedestal</li>
@@ -225,27 +249,40 @@
     <li>worshipsTheCubeV->hacerse amigo del cubo</li>
     <li>worshipsTheCubeV->observar el cubo</li>
     <li>worshipsTheCubeV->obsesionarse con el cubo</li>
-    <li>worshipsTheCubeV->sacrificarse ante el cubo</li>
+    <li>worshipsTheCubeV->hacer sacrificios al cubo</li>
     <li>worshipsTheCubeV->hacer ofrendas al cubo</li>
-    <li>worshipsTheCubeV->apoyarse en el cubo</li>
+    <li>worshipsTheCubeV->arremeter contra el cubo</li>
     <li>worshipsTheCubeV->atacar el cubo</li>
     <li>worshipsTheCubeV->sepultar el cubo</li>
     <li>worshipsTheCubeV->colocar el cubo sobre un pedestal</li>
     <li>worshipsTheCubeV->copiar el cubo</li>
     <li>worshipsTheCubeV->llevarse el cubo a otro mundo</li>
-    <li>cubeExtraSentence->El cubo se ve [cubeEmotion] por esto</li>
+    <li>cubeExtraSentence->El cubo parece [cubeEmotion] ante esto</li>
+    <li>cubeExtraSentence->El cubo permanece [cubeEmotion] ante la escena</li>
     <li>cubeExtraSentence->[pawnsPlural] se acercan a hacer lo mismo</li>
+    <li>cubeExtraSentence->[pawnsCollective] se acerca a hacer lo mismo</li>
     <li>cubeExtraSentence->[aPawn] se acerca a hacer lo mismo</li>
     <li>cubeExtraSentence->[aPawn] mira con tristeza la escena</li>
     <li>cubeExtraSentence->[pawnsPlural] están tratando de robar el cubo</li>
+    <li>cubeExtraSentence->[pawnsCollective] está tratando de robar el cubo</li>
     <li>cubeExtraSentence->El cubo parece resplandecer suavemente</li>
+    <li>cubeExtraSentence->Todo el conjunto transmite una extraña solemnidad</li>
+    <li>cubeExtraSentence->La escena sugiere una devoción inquietante</li>
+    <li>cubeExtraSentence->La mirada acaba volviendo siempre al cubo</li>
+    <li>cubeExtraSentence->La geometría del cubo domina toda la obra</li>
+    <li>cubeExtraSentence->Todo alrededor parece girar en torno al cubo</li>
+    <li>cubeExtraSentence->La composición hace que el cubo parezca imponerse sobre todo lo demás</li>
+    <li>cubeExtraSentence->Las formas secundarias parecen inclinarse ante el cubo</li>
+    <li>cubeExtraSentence->La escena da la impresión de ser un ritual interrumpido</li>
     <li>cubeEmotion->inexpresivo</li>
     <li>cubeEmotion->complacido</li>
     <li>cubeEmotion->molesto</li>
     <li>cubeEmotion->impasible</li>
     <li>cubeEmotion->furioso</li>
     <li>cubeEmotion->encantado</li>
-    <li>cubeEmotion->agravado</li>
+    <li>cubeEmotion->irritado</li>
+    <li>cubeEmotion->sereno</li>
+    <li>cubeEmotion->atento</li>
   </ArtDescription_CubeSculpture.rulePack.rulesStrings>
   
   <!-- EN:
@@ -296,7 +333,7 @@
     <li>voidVerbphrase->se retuerce como si quisiera dañar al espectador</li>
     <li>voidVerbphrase->parece desplazarse bajo la mirada del espectador</li>
     <li>voidVerbphrase->emana una sensación de rabia</li>
-    <li>voidVerbphrase->emana una sensación de depresión y tristeza</li>
+    <li>voidVerbphrase->emana una sensación de abatimiento y tristeza</li>
     <li>voidVerbphrase->provoca sentimientos de temor y duda de sí mismo</li>
     <li>voidVerbphrase->se expande aleatoriamente en distintas direcciones a trompicones</li>
     <li>voidVerbphrase->parece temblar hasta que lo miras fijamente</li>
@@ -311,7 +348,7 @@
     <li>voidDesc->La superficie se arremolina, pasando de una textura orgánica a bordes y aspas maquinales.</li>
     <li>voidDesc->Parece como si se hubiera cortado en pedazos con gran fuerza, pero de algún modo sigue unida.</li>
     <li>voidDesc->Un apéndice en forma de mano espera como si estuviera listo para alcanzar y atacar.</li>
-    <li>voidDesc->Un par de figuras parecen penetrar y torturar a la otra con dedos enroscados y dentados.</li>
+    <li>voidDesc->Dos figuras parecen atravesarse y torturarse mutuamente con dedos curvados y dentados.</li>
     <li>voidDesc->Una forma compleja emerge de la boca de un rostro que grita.</li>
     <li>voidDesc->Una forma abstracta parecida a un animal parece arrancarse una de sus extremidades.</li>
     <li>voidDesc->Cientos de diminutos objetos abstractos en forma de figura pululan sobre un gran globo distorsionado.</li>

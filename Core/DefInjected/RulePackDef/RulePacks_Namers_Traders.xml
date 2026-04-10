@@ -20,25 +20,54 @@
     <li>maybe_adjective->[AdjectiveBadass]</li>
   -->
   <NamerTraderGeneral.rulePack.rulesStrings>
-    <li>r_name(p=4)->[BusinessTypeAny_def] [businessname]</li>
-    <li>r_name->[BusinessTypeAny_def] de [NamePerson]</li>
-    <li>r_name->[BusinessTypeAny_def] de [NamePerson] y hermanos</li>
-    <li>r_name->[BusinessType_Cap] [Animal] [maybe_adjective]</li>
+    <li>r_name(p=2)->[businessname] [businesstype]</li>
+    <li>r_name->[businessTypeDef] de [NamePerson]</li>
+    <li>r_name->[businessTypeDef] de [NamePerson] y compañía</li>
+    <li>r_name->[businessTypeDef] [traderAnimalReference]</li>
     <li>r_name->[Letter][Letter] [businesstype]</li>
-    <li>r_name(p=0.5)->[PersonAlly] [businesstype]</li>
-    <li>r_name(p=0.5)->[AdjectiveFriendly] [businesstype]</li>
-    <li>r_name(p=0.5)->Una [AdjectiveBadass_Fem] [BusinessType_Fem]</li>
-    <li>r_name(p=0.5)->[BusinessType_FemCap] de [AdjectiveBadass_Plural]</li>
-    <li>r_name(p=0.3)->[PersonFamily] [businesstype]</li>
-    <li>r_name(p=0.3)->[maybe_adjective] [NaturalObject] [businesstype]</li>
-    <li>r_name(p=0.2)->[maybe_adjective] [TreeType] [businesstype]</li>
-    <li>r_name(p=0.2)->La [BusinessType_Fem] de las [TreeType_Fem]s</li>
-    <li>r_name(p=0.2)->La [BusinessType_Fem] de [Vegetable_Fem]s [maybe_adjective]</li>
-    <li>r_name(p=0.2)->[Direction] [businesstype]</li>
-    <li>maybe_adjective-></li>
-    <li>maybe_adjective->[Color]</li>
-    <li>maybe_adjective->[AdjectiveFriendly]</li>
-    <li>maybe_adjective->[AdjectiveBadass]</li>
+    <li>r_name(p=0.5)->[businessTypeDef] del [PersonAlly]</li>
+    <li>r_name(p=0.5)->[businessTypeDef] [friendlyTradeStyle]</li>
+    <li>r_name(p=0.5)->[businessTypeDef] [roughTradeStyle]</li>
+    <li>r_name(p=0.3)->[businessTypeDef] [PersonFamilyDef]</li>
+    <li>r_name(p=0.3)->[businessTypeDef] [traderNaturalReference]</li>
+    <li>r_name(p=0.2)->[businessTypeDef] [traderTreeReference]</li>
+    <li>r_name(p=0.2)->[businessTypeDef] [traderVegetableReference]</li>
+    <li>r_name(p=0.2)->[businessTypeDef] [traderDirectionReference]</li>
+    <li>friendlyTradeStyle->de confianza</li>
+    <li>friendlyTradeStyle->de buen trato</li>
+    <li>friendlyTradeStyle->de trato amable</li>
+    <li>friendlyTradeStyle->con trato cercano</li>
+    <li>roughTradeStyle->de mala fama</li>
+    <li>roughTradeStyle->de reputación dudosa</li>
+    <li>roughTradeStyle->sin escrúpulos</li>
+    <li>roughTradeStyle->de armas tomar</li>
+    <li>tradeTypeMascCap->Consorcio</li>
+    <li>tradeTypeMascCap->Grupo</li>
+    <li>tradeTypeMascCap->Sindicato</li>
+    <li>tradeTypeFemCap->Asociación</li>
+    <li>tradeTypeFemCap->Coalición</li>
+    <li>tradeTypeFemCap->Compañía</li>
+    <li>tradeTypeFemCap->Cooperativa</li>
+    <li>tradeTypeFemCap->Empresa</li>
+    <li>tradeTypeFemCap->Federación</li>
+    <li>tradeTypeFemCap->Industria</li>
+    <li>tradeTypeFemCap->Sociedad</li>
+    <li>businessTypeDef->el [BusinessType]</li>
+    <li>businessTypeDef->la [BusinessType_Fem]</li>
+    <li>traderAnimalReference->del [Animal]</li>
+    <li>traderAnimalReference->de la [Animal_Fem]</li>
+    <li>traderNaturalReference->del [NaturalObject]</li>
+    <li>traderNaturalReference->de la [NaturalObject_Fem]</li>
+    <li>traderTreeReference->del [TreeType]</li>
+    <li>traderTreeReference->de la [TreeType_Fem]</li>
+    <li>traderVegetableReference->del [Vegetable]</li>
+    <li>traderVegetableReference->de la [Vegetable_Fem]</li>
+    <li>traderDirectionReference->del Norte</li>
+    <li>traderDirectionReference->del Sur</li>
+    <li>traderDirectionReference->del Este</li>
+    <li>traderDirectionReference->del Oeste</li>
+    <li>traderDirectionReference->del Levante</li>
+    <li>traderDirectionReference->de Poniente</li>
   </NamerTraderGeneral.rulePack.rulesStrings>
   
 </LanguageData>
