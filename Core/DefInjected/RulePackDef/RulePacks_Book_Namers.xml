@@ -192,14 +192,14 @@
   <Namer_Novel.rulePack.rulesStrings>
     <li>title(p=3)->[titleNaked]</li>
     <li>title->[story] de [ANYPAWN_nameIndef]</li>
-    <li>title->[Weapon_Fem] del [Character]</li>
+    <li>title->[Weapon_Fem] del [CharacterMascSafe]</li>
     <li>title->[Weapon] de la [Character_Fem]</li>
-    <li>title->[objectAny] del [Character]</li>
+    <li>title->[objectAny] del [CharacterMascSafe]</li>
     <li>title->[objectAny] de la [Character_Fem]</li>
-    <li>title->[Character] [linkagePlace] [place]</li>
-    <li>title->[story] del [Character]</li>
+    <li>title->[story] [linkagePlace] [place]</li>
+    <li>title->[story] del [CharacterMascSafe]</li>
     <li>title->El [Game] [adjective]</li>
-    <li>title->[Weapon] del [Character]</li>
+    <li>title->[Weapon] del [CharacterMascSafe]</li>
     <li>title->[Weapon_Fem] de la [Character_Fem]</li>
     <li>title->[story] de la [Character_Fem]</li>
     <li>titleNaked->[ConceptAny]</li>
@@ -208,9 +208,13 @@
     <li>titleNaked->[ConceptAny_Fem] [adjectiveFem]</li>
     <li>titleNaked->[ConceptAny] [linkage] [ConceptAny]</li>
     <li>titleNaked->[ConceptAny] [linkagePlace] [place]</li>
-    <li>titleNaked->[objectAny] [linkage] [ConceptAnyDef]</li>
+    <li>titleNaked->[objectAny] de [ConceptAny]</li>
+    <li>titleNaked->[objectAny] con [ConceptAny]</li>
     <li>objectAny->[Game]</li>
     <li>objectAny->[Weapon]</li>
+    <li>CharacterMascSafe->[PersonJob]</li>
+    <li>CharacterMascSafe->[Animal]</li>
+    <li>CharacterMascSafe->[Enemy]</li>
     <li>linkage->de</li>
     <li>linkage->con</li>
     <li>linkagePlace->en</li>

@@ -20,11 +20,19 @@
     <li>maybe_adjective->[AdjectiveBadass]</li>
   -->
   <NamerTraderGeneral.rulePack.rulesStrings>
-    <li>r_name(p=2)->[businessname] [businesstype]</li>
+    <li>r_name(p=1)->[businessname] [businesstype]</li>
     <li>r_name->[businessTypeDef] de [NamePerson]</li>
-    <li>r_name->[businessTypeDef] de [NamePerson] y compañía</li>
+    <li>r_name->[businessTypeDef] de [NamePerson] y asociados</li>
+    <li>r_name(p=0.7)->[tradeBrandCap] de [NamePerson]</li>
+    <li>r_name(p=0.4)->[tradeBrandCap] de [NamePerson] y asociados</li>
+    <li>r_name(p=0.6)->[tradeBrandCap] [traderAnimalReference]</li>
+    <li>r_name(p=0.4)->[tradeBrandCap] [traderDirectionReference]</li>
+    <li>r_name(p=0.5)->[tradeBrandBareCap] [traderAnimalBare]</li>
+    <li>r_name(p=0.3)->[tradeBrandBareCap] [traderNaturalBare]</li>
+    <li>r_name(p=0.3)->[tradeBrandBareCap] [traderTreeBare]</li>
+    <li>r_name(p=0.3)->[tradeBrandBareCap] [traderVegetableBare]</li>
+    <li>r_name(p=0.2)->[tradeBrandBareCap] [traderDirectionBare]</li>
     <li>r_name->[businessTypeDef] [traderAnimalReference]</li>
-    <li>r_name->[Letter][Letter] [businesstype]</li>
     <li>r_name(p=0.5)->[businessTypeDef] del [PersonAlly]</li>
     <li>r_name(p=0.5)->[businessTypeDef] [friendlyTradeStyle]</li>
     <li>r_name(p=0.5)->[businessTypeDef] [roughTradeStyle]</li>
@@ -37,37 +45,59 @@
     <li>friendlyTradeStyle->de buen trato</li>
     <li>friendlyTradeStyle->de trato amable</li>
     <li>friendlyTradeStyle->con trato cercano</li>
-    <li>roughTradeStyle->de mala fama</li>
     <li>roughTradeStyle->de reputación dudosa</li>
     <li>roughTradeStyle->sin escrúpulos</li>
     <li>roughTradeStyle->de armas tomar</li>
-    <li>tradeTypeMascCap->Consorcio</li>
-    <li>tradeTypeMascCap->Grupo</li>
-    <li>tradeTypeMascCap->Sindicato</li>
-    <li>tradeTypeFemCap->Asociación</li>
-    <li>tradeTypeFemCap->Coalición</li>
-    <li>tradeTypeFemCap->Compañía</li>
-    <li>tradeTypeFemCap->Cooperativa</li>
-    <li>tradeTypeFemCap->Empresa</li>
-    <li>tradeTypeFemCap->Federación</li>
-    <li>tradeTypeFemCap->Industria</li>
-    <li>tradeTypeFemCap->Sociedad</li>
+    <li>tradeBrandCap->Asociación</li>
+    <li>tradeBrandCap->Coalición</li>
+    <li>tradeBrandCap->Compañía</li>
+    <li>tradeBrandCap->Consorcio</li>
+    <li>tradeBrandCap->Cooperativa</li>
+    <li>tradeBrandCap->Corporación</li>
+    <li>tradeBrandCap->Empresa</li>
+    <li>tradeBrandCap->Envíos</li>
+    <li>tradeBrandCap->Exportaciones</li>
+    <li>tradeBrandCap->Federación</li>
+    <li>tradeBrandCap->Grupo</li>
+    <li>tradeBrandCap->Importaciones</li>
+    <li>tradeBrandCap->Industria</li>
+    <li>tradeBrandCap->Sindicato</li>
+    <li>tradeBrandCap->Sociedad</li>
+    <li>tradeBrandCap->Soluciones</li>
+    <li>tradeBrandCap->Transportes</li>
+    <li>tradeBrandBareCap->Compañía</li>
+    <li>tradeBrandBareCap->Empresa</li>
+    <li>tradeBrandBareCap->Industria</li>
     <li>businessTypeDef->el [BusinessType]</li>
     <li>businessTypeDef->la [BusinessType_Fem]</li>
     <li>traderAnimalReference->del [Animal]</li>
     <li>traderAnimalReference->de la [Animal_Fem]</li>
+    <li>traderAnimalBare->[Animal]</li>
+    <li>traderAnimalBare->[Animal_Fem]</li>
     <li>traderNaturalReference->del [NaturalObject]</li>
     <li>traderNaturalReference->de la [NaturalObject_Fem]</li>
+    <li>traderNaturalBare->[NaturalObject]</li>
+    <li>traderNaturalBare->[NaturalObject_Fem]</li>
     <li>traderTreeReference->del [TreeType]</li>
     <li>traderTreeReference->de la [TreeType_Fem]</li>
+    <li>traderTreeBare->[TreeType]</li>
+    <li>traderTreeBare->[TreeType_Fem]</li>
     <li>traderVegetableReference->del [Vegetable]</li>
     <li>traderVegetableReference->de la [Vegetable_Fem]</li>
+    <li>traderVegetableBare->[Vegetable]</li>
+    <li>traderVegetableBare->[Vegetable_Fem]</li>
     <li>traderDirectionReference->del Norte</li>
     <li>traderDirectionReference->del Sur</li>
     <li>traderDirectionReference->del Este</li>
     <li>traderDirectionReference->del Oeste</li>
     <li>traderDirectionReference->del Levante</li>
     <li>traderDirectionReference->de Poniente</li>
+    <li>traderDirectionBare->Norte</li>
+    <li>traderDirectionBare->Sur</li>
+    <li>traderDirectionBare->Este</li>
+    <li>traderDirectionBare->Oeste</li>
+    <li>traderDirectionBare->Levante</li>
+    <li>traderDirectionBare->Poniente</li>
   </NamerTraderGeneral.rulePack.rulesStrings>
   
 </LanguageData>

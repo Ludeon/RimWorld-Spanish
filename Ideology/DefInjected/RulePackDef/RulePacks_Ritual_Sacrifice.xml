@@ -16,17 +16,20 @@
     <li>sacrifice->slaughtering</li>
   -->
   <NamerRitualSacrifice.rulePack.rulesStrings>
-    <li>r_ritualName(p=0.0001)->[sacrifice] [memeAdjective]</li>
-    <li>r_ritualName(p=4)->[sacrifice] [memeAdjectiveFem]</li>
-    <li>r_ritualName->[sacrifice] de [chosenTheme]</li>
-    <li>r_ritualName(p=0.0001)->[sacrifice] [chosenAdjective]</li>
-    <li>r_ritualName->[sacrifice] de [keyDeity]</li>
-    <li>r_ritualName(p=2)->[sacrifice] de[memeConceptDef]</li>
-    <li>r_ritualName(p=0.0001)->[sacrifice] de [chosenIdeoName]</li>
-    <li>sacrifice->expiación</li>
-    <li>sacrifice->ofrenda</li>
-    <li>sacrifice->sacrificio</li>
-    <li>sacrifice->oblación</li>
+    <li>r_ritualName(p=4)->[sacrificeFem] [memeAdjectiveFem]</li>
+    <li>r_ritualName->[sacrificeFem] de [chosenTheme]</li>
+    <li>r_ritualName->[sacrificeFem] de [keyDeity]</li>
+    <li>r_ritualName(p=2)->[sacrificeFem] de [memeConcept]</li>
+    <li>r_ritualName->[sacrificeFem] de [chosenIdeoName]</li>
+    <li>r_ritualName->[sacrificeMasc] [memeAdjective]</li>
+    <li>r_ritualName->[sacrificeMasc] de [chosenTheme]</li>
+    <li>r_ritualName->[sacrificeMasc] de [keyDeity]</li>
+    <li>r_ritualName->[sacrificeMasc] de [memeConcept]</li>
+    <li>r_ritualName->[sacrificeMasc] de [chosenIdeoName]</li>
+    <li>sacrificeFem->expiación</li>
+    <li>sacrificeFem->ofrenda</li>
+    <li>sacrificeFem->oblación</li>
+    <li>sacrificeMasc->sacrificio</li>
   </NamerRitualSacrifice.rulePack.rulesStrings>
   
 </LanguageData>

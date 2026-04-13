@@ -463,13 +463,65 @@
     <li>tellsAStoryOf->narra</li>
     <li>tellsAStoryOf->relata</li>
     <li>tellsAStoryOf->da cuenta de</li>
-    <li>tellsAStoryOf->traza una crónica de</li>
+    <li>tellsAStoryOf->reconstruye</li>
     <li>tellsAStoryOf->explora</li>
     <li>tellsAStoryOf->recrea</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] experiencias que compartió con unos [entities]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] experiencias que compartió con unas [entities_Fem]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en un remoto [TerrainFeature]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en una remota [TerrainFeature_Fem]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en un remoto [remoteHideoutSite]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en una remota [remoteHideoutSite_Fem]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta con una base oculta en las inmediaciones de [TerrainFeatureIndef]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta cuya base estaba escondida cerca de [TerrainFeatureIndef]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que ocultaba su base entre [remoteHideoutSiteIndef] y [remoteHideoutBackdropIndef]</li>
+    <li>remoteHideoutSite->cañón</li>
+    <li>remoteHideoutSite->desfiladero</li>
+    <li>remoteHideoutSite->despeñadero</li>
+    <li>remoteHideoutSite->erial</li>
+    <li>remoteHideoutSite->páramo</li>
+    <li>remoteHideoutSite->peñón</li>
+    <li>remoteHideoutSite->paraje</li>
+    <li>remoteHideoutSite->risco</li>
+    <li>remoteHideoutSite->yermo</li>
+    <li>remoteHideoutSite_Fem->catarata</li>
+    <li>remoteHideoutSite_Fem->laguna</li>
+    <li>remoteHideoutSite_Fem->montaña</li>
+    <li>remoteHideoutSite_Fem->planicie</li>
+    <li>remoteHideoutSite_Fem->pradera</li>
+    <li>remoteHideoutSite_Fem->selva</li>
+    <li>remoteHideoutSite_Fem->cueva</li>
+    <li>remoteHideoutSite_Fem->gruta</li>
+    <li>remoteHideoutSite_Fem->caverna</li>
+    <li>remoteHideoutSiteIndef->un cañón</li>
+    <li>remoteHideoutSiteIndef->un desfiladero</li>
+    <li>remoteHideoutSiteIndef->un despeñadero</li>
+    <li>remoteHideoutSiteIndef->un erial</li>
+    <li>remoteHideoutSiteIndef->un páramo</li>
+    <li>remoteHideoutSiteIndef->un peñón</li>
+    <li>remoteHideoutSiteIndef->un paraje</li>
+    <li>remoteHideoutSiteIndef->un risco</li>
+    <li>remoteHideoutSiteIndef->un yermo</li>
+    <li>remoteHideoutSiteIndef->una catarata</li>
+    <li>remoteHideoutSiteIndef->una laguna</li>
+    <li>remoteHideoutSiteIndef->una montaña</li>
+    <li>remoteHideoutSiteIndef->una planicie</li>
+    <li>remoteHideoutSiteIndef->una pradera</li>
+    <li>remoteHideoutSiteIndef->una selva</li>
+    <li>remoteHideoutSiteIndef->una cueva</li>
+    <li>remoteHideoutSiteIndef->una gruta</li>
+    <li>remoteHideoutSiteIndef->una caverna</li>
+    <li>remoteHideoutBackdropIndef->un acantilado</li>
+    <li>remoteHideoutBackdropIndef->un bosque</li>
+    <li>remoteHideoutBackdropIndef->un desierto</li>
+    <li>remoteHideoutBackdropIndef->un lago</li>
+    <li>remoteHideoutBackdropIndef->un monte</li>
+    <li>remoteHideoutBackdropIndef->un nevado</li>
+    <li>remoteHideoutBackdropIndef->un pantano</li>
+    <li>remoteHideoutBackdropIndef->un peñasco</li>
+    <li>remoteHideoutBackdropIndef->un río</li>
+    <li>remoteHideoutBackdropIndef->un valle</li>
+    <li>remoteHideoutBackdropIndef->un volcán</li>
+    <li>remoteHideoutBackdropIndef->una laguna</li>
+    <li>remoteHideoutBackdropIndef->una catarata</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] la cacería de un misterioso cubo dorado</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] meditaciones profundas guiadas por un supralacayo de un culto arqueoista</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo colapsó su vida bajo la influencia psíquica de algo llamado Horax</li>
@@ -514,13 +566,13 @@
     <li>specificHorrorStory->Dedica mucho tiempo a intentar describir una entidad hiperinteligente llamada "Horax" que existe en un plano adyacente de la realidad.</li>
     <li>specificHorrorStory->Una sección describe la mecánica de la influencia psíquica oscura, en la que una entidad de otro plano puede influir involuntariamente en los pensamientos de los seres humanos sincronizándolos con su resonancia emocional.</li>
     <li>specificHorrorStory->Una sección describe diferentes hiperinteligencias arqueotecas y la naturaleza variable de sus emanaciones emocionales y psíquicas. Mientras que algunas se consideran neutrales o incluso benévolas, otras son entidades de pura rabia.</li>
-    <li>specificHorrorStory->Describe la sensación de que su mente está siendo reconfigurada a la fuerza por la oscura influencia psíquica de una inteligencia mayor.</li>
+    <li>specificHorrorStory->Describe la sensación de que su mente está siendo reconfigurada contra su voluntad por la oscura influencia psíquica de una inteligencia mayor.</li>
     <li>specificHorrorStory->En una sección, el autor intenta suicidarse, pero es encontrado y salvado por un amable [PersonJob].</li>
     <li>specificHorrorStory->El volumen está adornado con inquietantes ilustraciones que retratan una entidad grotesca y sobrenatural cuyos zarcillos de tinta se retuercen por las páginas, invocando una sensación de terror y fascinación a partes iguales.</li>
-    <li>specificHorrorStory->A lo largo de la narración, el concepto de dimensiones paralelas es recurrente y los personajes se encuentran con entidades que existen justo más allá del velo de la percepción, coexistiendo en una realidad que se cruza con la nuestra pero permanece oculta a nuestra vista.</li>
-    <li>specificHorrorStory->El libro se adentra en una escalofriante exposición sobre "Horax", una máquina hiperinteligente que se desplazó a través de una dimensión oculta hasta un lugar llamado el Vacío.</li>
+    <li>specificHorrorStory->A lo largo de la narración, el concepto de dimensiones paralelas es recurrente y los personajes se encuentran con entidades que existen justo más allá del velo de la percepción, coexistiendo en una realidad que se cruza con la nuestra pero permanece oculta a simple vista.</li>
+    <li>specificHorrorStory->El libro se adentra en una escalofriante exposición sobre "Horax", una máquina hiperinteligente que se desplazó a través de una dimensión oculta hasta un lugar llamado El Vacío.</li>
     <li>specificHorrorStory->Uno de los capítulos describe una teoría según la cual una hiperinteligencia lejana puede manipular psíquicamente la cognición humana, remodelando los pensamientos de una persona para alinearlos con sus propios patrones mentales.</li>
-    <li>specificHorrorStory->El protagonista cuenta que siente que una fuerza psíquica siniestra que emana de la nada le reconfigura la mente a la fuerza.</li>
+    <li>specificHorrorStory->El protagonista cuenta que siente que una fuerza psíquica siniestra que emana de la nada le reconfigura la mente de forma violenta.</li>
     <li>entities->demonios</li>
     <li>entities->cadáveres andantes</li>
     <li>entities->monstruos sedientos de dolor</li>

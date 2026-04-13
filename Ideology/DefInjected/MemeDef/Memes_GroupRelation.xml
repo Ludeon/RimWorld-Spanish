@@ -27,8 +27,10 @@
     <li>creation(tag=meme_Guilty)        ->[deity0_name] violó, asesinó y robó, y una gran culpa le devoró por dentro, y en su egoísmo, arrojó esta culpa sobre su pueblo elegido, y todos se ensuciaron con ella.</li>
     <li>episode(uses=1,tag=meme_Guilty)  ->Los creyentes salieron, conquistaron, quemaron y violaron durante mil años, y el dolor de [deity0_name] por su depravación le consumió.</li>
     <li>intro(tag=meme_Guilty)           ->Los [memberNamePlural] del [place_summary] [place_name] descuidaron su deber hacia [deity0_name], y dejaron que el [altarName] en su [altarRoomLabel] se arruinara.</li>
-    <li>conflict(tag=meme_Guilty)        ->Un [foeLeader] le prestó dinero al grupo de [memberNamePlural], que lo gastó en placeres egoístas y olvidó la importancia de[memeConceptDef].</li>
-    <li>founderJoin(tag=meme_Guilty)     ->Un [place_job] llamado [founderName] gozaba del favor de [foeLeader]. Durante el ritual conocido como [ritualName], [founder_pronoun] vio a los [foeSoldiers] de [foeLeader] matar en secreto a los [memberNamePlural], cada uno armado con una [place_personalWeapon]. [founderName] finalmente entendió el concepto de[memeConceptDef], y recibió la bendición de [deity0_name].</li>
+    <li>conflict(tag=meme_Guilty)        ->Un [foeLeader] le prestó dinero al grupo de [memberNamePlural], que lo gastó en placeres egoístas y olvidó la importancia [memeConceptDe].</li>
+    <li>conflict(tag=meme_Guilty)        ->Los [memberNamePlural] vivieron durante años como si nada debieran a nadie, hasta que la crueldad de un [foeLeader] les mostró el precio de olvidar la importancia [memeConceptDe].</li>
+    <li>founderJoin(tag=meme_Guilty)     ->Un [place_job] llamado [founderName] gozaba del favor de [foeLeader]. Durante el ritual conocido como [ritualName], [founder_pronoun] vio a los [foeSoldiers] de [foeLeader] matar en secreto a los [memberNamePlural], cada uno armado con una [place_personalWeapon]. [founderName] finalmente entendió el significado [memeConceptDe], y recibió la bendición de [deity0_name].</li>
+    <li>founderJoin(tag=meme_Guilty)     ->Un [place_job] llamado [founderName] había prosperado al servicio de [foeLeader], hasta que presenció en secreto cómo sus [foeSoldiers] castigaban a los [memberNamePlural]. Entonces [founderName] comprendió el significado [memeConceptDe] y recibió la bendición de [deity0_name].</li>
     <li>victory(tag=meme_Guilty)         ->Para expiar la mitad de sus males, [founderName] reunió a la mitad de los creyentes de [deity0_name] hacia [founder_pronoun] en un [place_community], desató [place_massWeapon] y murió con ellos. La segunda parte de la expiación continúa.</li>
     <li>setup(tag=meme_Guilty)           ->Una nueva generación llegó a comprender la maldad de su propia sociedad, y buscó justamente desmantelar las estructuras de opresión.</li>
     <li>story(uses=1,tag=meme_Guilty)    ->[founderName] reunió a los creyentes y les mostró la maldad de su historia y la culpa que arrastraban, y les exigió que lo hicieran mejor.</li>
@@ -73,10 +75,14 @@
     <li>memeConcept->arrepentimiento</li>
     <li>memeConcept->expiación</li>
     <li>memeConcept->vergüenza</li>
-    <li>memeConceptDef->l pecado</li>
-    <li>memeConceptDef->l arrepentimiento</li>
-    <li>memeConceptDef-> la expiación</li>
-    <li>memeConceptDef-> la vergüenza</li>
+    <li>memeConceptDef->el pecado</li>
+    <li>memeConceptDef->el arrepentimiento</li>
+    <li>memeConceptDef->la expiación</li>
+    <li>memeConceptDef->la vergüenza</li>
+    <li>memeConceptDe->del pecado</li>
+    <li>memeConceptDe->del arrepentimiento</li>
+    <li>memeConceptDe->de la expiación</li>
+    <li>memeConceptDe->de la vergüenza</li>
     <li>memeLeaderNoun->penitente</li>
     <li>memeLeaderNoun->pecador</li>
     <li>memeMoralist->perdonante</li>
@@ -176,8 +182,10 @@
     <li>memeAdjectiveFem->obediente</li>
     <li>memeConcept->familia</li>
     <li>memeConcept->compromiso</li>
-    <li>memeConceptDef-> la familia</li>
-    <li>memeConceptDef->l compromiso</li>
+    <li>memeConceptDef->la familia</li>
+    <li>memeConceptDef->el compromiso</li>
+    <li>memeConceptDe->de la familia</li>
+    <li>memeConceptDe->del compromiso</li>
     <li>memeMoralist->supraleal</li>
   </Loyalist.generalRules.rulesStrings>
   <!-- EN: loyal -->
@@ -230,7 +238,9 @@
   <Supremacist.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Supremacist)        ->El pueblo de [place_summary] [place_name] discutió sin cesar, y [deity0_name] se cansó de la discordia y proclamó a los [memberNamePlural] como legítimos gobernantes de todo.</li>
     <li>episode(uses=1,tag=meme_Supremacist)  ->Los fieles combatieron a los infieles, y [deity0_name] dijo: "Luchad contra ellos, en todas partes, en mi nombre, hasta que sea adorado en todo el universo y finalmente pueda reinar la verdadera paz."</li>
-    <li>intro(tag=meme_Supremacist)           ->El pueblo de [place_summary] [place_name] adoraba a [deity0_name]. [deity0_pronoun] vio que eran aptos para manejar el concepto de[memeConceptDef], y ordenó que estos adoradores gobernaran por encima de todos los demás.</li>
+    <li>intro(tag=meme_Supremacist)           ->El pueblo de [place_summary] [place_name] adoraba a [deity0_name]. [deity0_pronoun] vio que eran aptos para encarnar [memeConceptDef], y ordenó que estos adoradores gobernaran por encima de todos los demás.</li>
+    <li>intro(tag=meme_Supremacist)           ->En [place_summary] [place_name], los devotos de [deity0_name] aprendieron pronto que habían nacido para imponer [memeConceptDef] sobre todos los demás.</li>
+    <li>intro(tag=meme_Supremacist)           ->Los fieles de [deity0_name] en [place_summary] [place_name] fueron señalados como superiores, y se les enseñó que [memeConceptDef] debía regir el destino de todos.</li>
     <li>conflict(tag=meme_Supremacist)        ->Un [foeLeader] aprobó una ley que prohíbe a [memberNamePlural] ascender a las clases dirigentes de [place_name].</li>
     <li>founderJoin(tag=meme_Supremacist)     ->Un guerrero llamado [founderName] utilizó [place_massWeapon] para destruir un [place_community]. [deity0_name] vio la crueldad de [founderName] y [founder_objective] consagró como legítimo gobernante de toda la humanidad.</li>
     <li>victory(tag=meme_Supremacist)         ->[founderName] destruyó la capital de [place_name] con [place_massWeapon], matando al [foeLeader]. Tomó su lugar como gobernante de [place_name], y del universo más allá.</li>
@@ -289,9 +299,12 @@
     <li>memeConcept->guerra</li>
     <li>memeConcept->violencia</li>
     <li>memeConcept->dominio</li>
-    <li>memeConceptDef-> la guerra</li>
-    <li>memeConceptDef-> la violencia</li>
-    <li>memeConceptDef->l dominio</li>
+    <li>memeConceptDef->la guerra</li>
+    <li>memeConceptDef->la violencia</li>
+    <li>memeConceptDef->el dominio</li>
+    <li>memeConceptDe->de la guerra</li>
+    <li>memeConceptDe->de la violencia</li>
+    <li>memeConceptDe->del dominio</li>
     <li>memeLeaderNoun->general</li>
     <li>memeLeaderNoun->comandante</li>
     <li>memeLeaderNoun->alguacil</li>

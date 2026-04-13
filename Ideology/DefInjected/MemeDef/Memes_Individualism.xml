@@ -25,9 +25,11 @@
   <Collectivist.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Collectivist)        ->[deity0_name] hizo a todos los hombres y mujeres a partir de un gran molde, y a los que se desviaron los arrojó al fuego para que los creyentes pudieran vivir en armonía.</li>
     <li>episode(uses=1,tag=meme_Collectivist)  ->[deity0_name] dijo a todos: "Ninguno de vosotros está por encima del grupo. Trabajad juntos o pereced juntos".</li>
-    <li>intro(tag=meme_Collectivist)           ->Los habitantes de [place_summary] [place_name] trabajaron juntos en armonía y construyeron un(a) gran [altarName] para honrar a [deity0_name], que les enseñó el verdadero valor de[memeConceptDef].</li>
+    <li>intro(tag=meme_Collectivist)           ->Los habitantes de [place_summary] [place_name] trabajaron juntos en armonía y construyeron [altarNameIndef] para honrar a [deity0_name], que les enseñó el verdadero valor [memeConceptDe].</li>
+    <li>intro(tag=meme_Collectivist)           ->En [place_summary] [place_name], los habitantes aprendieron a trabajar como un solo cuerpo y erigieron [altarNameIndef] en honor a [deity0_name], que les mostró el valor [memeConceptDe].</li>
+    <li>intro(tag=meme_Collectivist)           ->Los pobladores de [place_summary] [place_name] dejaron a un lado sus diferencias y se unieron para honrar a [deity0_name], descubriendo así el verdadero valor [memeConceptDe].</li>
     <li>conflict(tag=meme_Collectivist)        ->El [foeLeader] no pudo soportar a la familia de los [memberNamePlural], y envió a sus [foeSoldiers] a [place_community] para dividirlos unos contra otros.</li>
-    <li>founderJoin(tag=meme_Collectivist)     ->Un [place_job] llamado [founderName] se arrojó [founder_pronoun] mismo a una hoguera para protestar contra su [foeLeader], pero los [memberNamePlural] [founder_objective] sacaron y convirtieron en su líder debido a su devoción al grupo.</li>
+    <li>founderJoin(tag=meme_Collectivist)     ->Un [place_job] llamado [founderName] se arrojó a sí mism[founder_o_a] a una hoguera para protestar contra su [foeLeader], pero los [memberNamePlural] [founder_objective] sacaron y convirtieron en su líder debido a su devoción al grupo.</li>
     <li>victory(tag=meme_Collectivist)         ->Las acciones de [founderName] unieron al pueblo. Marcharon al unísono hacia el hogar de [foeLeader]. Los que estaban en el frente se dejaron matar por los [foeSoldiers], pero el conjunto no pudo ser detenido, y capturaron al [foeLeader].</li>
     <li>setup(tag=meme_Collectivist)           ->En un mundo de sálvese quien pueda, [founderName] comenzó una nueva familia de extraños, reuniendo a muchas personas diferentes.</li>
     <li>story(uses=1,tag=meme_Collectivist)    ->Algunos de los falsos creyentes intentaron romper las reglas y decidir sus propios caminos. [founderName] los castigó severamente.</li>
@@ -73,7 +75,8 @@
     <li>memeCreedFem->comunidad</li>
     <li>memeCreedFem->familia</li>
     <li>memeConcept->familia</li>
-    <li>memeConceptDef-> la familia</li>
+    <li>memeConceptDef->la familia</li>
+    <li>memeConceptDe->de la familia</li>
     <li>memeLeaderNoun->presidente</li>
     <li>memeLeaderNoun->secretario</li>
     <li>memeMoralist->comisario</li>
@@ -163,9 +166,12 @@
     <li>memeConcept->individualidad</li>
     <li>memeConcept->independencia</li>
     <li>memeConcept->libertad</li>
-    <li>memeConceptDef-> la individualidad</li>
-    <li>memeConceptDef-> la independencia</li>
-    <li>memeConceptDef-> la libertad</li>
+    <li>memeConceptDef->la individualidad</li>
+    <li>memeConceptDef->la independencia</li>
+    <li>memeConceptDef->la libertad</li>
+    <li>memeConceptDe->de la individualidad</li>
+    <li>memeConceptDe->de la independencia</li>
+    <li>memeConceptDe->de la libertad</li>
   </Individualist.generalRules.rulesStrings>
   <!-- EN: freedomist -->
   <Individualist.symbolPacks.0.adjective>liberalista</Individualist.symbolPacks.0.adjective>

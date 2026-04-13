@@ -39,14 +39,14 @@
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] reunió a los animales y a los humanos de [place_summary] [place_name] en una gran conferencia.</li>
     <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] bendijo el [place_summary] [place_name] con estos animales: [sacredAnimalListEnd], y enseñó a la gente de allí a honrar a los animales.</li>
     <li>conflict(tag=meme_AnimalPersonhood)        ->Un malvado [foeLeader] ordenó cazar a los animales salvajes, y sus [foeSoldiers] los cazaron, usando su arma favorita, la [place_personalWeapon].</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] acudió a un [place_job] de nombre [founderName] [revelationAdverb] por un(a) [veneratedAnimal]. Pero [founderName] era el(la) [veneratedAnimal], y el(la) [veneratedAnimal] era [founderName], y [founder_pronoun] entendió el plan de [deity0_name].</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] se apareció a un [place_job] de nombre [founderName] [revelationAdverb] bajo la forma de [veneratedAnimal]. Fue entonces cuando [founderName] comprendió que [founder_pronoun] era la criatura venerada, y entendió el plan de [deity0_name].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->Un [place_job] de nombre [founderName] liberó a muchos animales que estaban esclavizados por amos crueles, y los llevó al lugar sagrado de [deity0_name], su gran [altarRoomLabel].</li>
     <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] llamó a los [memberNamePlural] y a los animales con la voz de [deity0_name], y en una gran estampida de pezuñas, patas y pies, pisotearon al [foeLeader] y a sus [foeSoldiers].</li>
-    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] vivió en el bosque durante veinte años, estudiando a los animales y conectando con ellos. [founder_pronoun] llegó a comprender su verdadera moralidad y fundaron nuestro movimiento.</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] vivió en el bosque durante veinte años, estudiando a los animales y conectando con ellos. [founder_pronoun] llegó a comprender su verdadera moralidad y fundó nuestro movimiento.</li>
     <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName] fue a comulgar con los animales en los campos y bosques, y se relacionó con ellos de igual a igual.</li>
-    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->En mis visitas diarias con [veneratedOrAnyAnimalPl] Aprendí a escucharles de verdad. Una y otra vez, a su manera, me repitieron su mensaje:</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->En mis visitas diarias con [veneratedOrAnyAnimalPl], aprendí a escucharles de verdad. Una y otra vez, a su manera, me repitieron su mensaje:</li>
     <li>lesson(tag=meme_AnimalPersonhood)              ->los animales son nuestros compañeros en este mundo, y es un error tratarlos como menos</li>
-    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->Yo mismo no lo creía hasta que un(a) [veneratedOrAnyAnimal] me lo susurró.</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->Yo no lo creía hasta que lo oí en los susurros de [veneratedMostlyAnimalPlDef].</li>
     <li>archistBasis(tag=meme_AnimalPersonhood)    ->Desde que los arqueotecas despertaron, es obvio que no han hecho ninguna distinción moral entre los humanos y los animales.</li>
     <li>archistFact(tag=meme_AnimalPersonhood)     ->Los arqueotecas están en un plano de moralidad superior al de la vida biológica. Su superioridad es tan grande que los humanos están en el mismo plano de moralidad que los animales.</li>
     <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd], los arqueotecas elevarán a los humanos como iguales solo si los humanos tratan a los animales como iguales.</li>
@@ -54,6 +54,9 @@
     <li>animistFact(tag=meme_AnimalPersonhood)     ->Los espíritus de los animales de la naturaleza son los mismos que residen en los seres humanos.</li>
     <li>veneratedOrAnyAnimalPl(priority=10)->[veneratedAnimalPl]</li>
     <li>veneratedOrAnyAnimalPl->[Animal_Plural]</li>
+    <li>veneratedMostlyAnimalPlDef(priority=10)->[veneratedAnimalPlDef]</li>
+    <li>veneratedMostlyAnimalPlDef->los [Animal_Plural]</li>
+    <li>veneratedMostlyAnimalPlDef->las [Animal_FemPlural]</li>
     <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
     <li>veneratedOrAnyAnimal->[Animal]</li>
     <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label], [animal2_thingDef_label],</li>
@@ -88,7 +91,8 @@
     <li>memeCreedFem->manada</li>
     <li>memeCreedFem->multitud</li>
     <li>memeConcept->animales</li>
-    <li>memeConceptDef-> los animales</li>
+    <li>memeConceptDef->los animales</li>
+    <li>memeConceptDe->de los animales</li>
     <li>memeLeaderNoun->bestia</li>
     <li>memeLeaderNoun->animal</li>
     <li>memeLeaderAdjective->alfa</li>
@@ -193,10 +197,14 @@
     <li>memeConcept->visión</li>
     <li>memeConcept->vista</li>
     <li>memeConcept->percepción</li>
-    <li>memeConceptDef-> la ceguera</li>
-    <li>memeConceptDef-> la visión</li>
-    <li>memeConceptDef-> la vista</li>
-    <li>memeConceptDef-> la percepción</li>
+    <li>memeConceptDef->la ceguera</li>
+    <li>memeConceptDef->la visión</li>
+    <li>memeConceptDef->la vista</li>
+    <li>memeConceptDef->la percepción</li>
+    <li>memeConceptDe->de la ceguera</li>
+    <li>memeConceptDe->de la visión</li>
+    <li>memeConceptDe->de la vista</li>
+    <li>memeConceptDe->de la percepción</li>
     <li>memeLeaderNoun->visionario</li>
     <li>memeLeaderAdjective->ciego</li>
     <li>memeMoralist->vidente</li>
@@ -278,10 +286,14 @@
     <li>memeConcept->homicidio</li>
     <li>memeConcept->alimentación</li>
     <li>memeConcept->carne</li>
-    <li>memeConceptDef-> la sangre</li>
-    <li>memeConceptDef->l homicidio</li>
-    <li>memeConceptDef-> la alimentación</li>
-    <li>memeConceptDef-> la carne</li>
+    <li>memeConceptDef->la sangre</li>
+    <li>memeConceptDef->el homicidio</li>
+    <li>memeConceptDef->la alimentación</li>
+    <li>memeConceptDef->la carne</li>
+    <li>memeConceptDe->de la sangre</li>
+    <li>memeConceptDe->del homicidio</li>
+    <li>memeConceptDe->de la alimentación</li>
+    <li>memeConceptDe->de la carne</li>
     <li>memeLeaderNoun->devorador</li>
     <li>memeLeaderNoun->chef</li>
     <li>memeLeaderNoun->chupasangre</li>
@@ -378,9 +390,12 @@
     <li>memeConcept->oscuridad</li>
     <li>memeConcept->tiniebla</li>
     <li>memeConcept->oscurecimiento</li>
-    <li>memeConceptDef-> la oscuridad</li>
-    <li>memeConceptDef-> las tinieblas</li>
-    <li>memeConceptDef->l oscurecimiento</li>
+    <li>memeConceptDef->la oscuridad</li>
+    <li>memeConceptDef->las tinieblas</li>
+    <li>memeConceptDef->el oscurecimiento</li>
+    <li>memeConceptDe->de la oscuridad</li>
+    <li>memeConceptDe->de las tinieblas</li>
+    <li>memeConceptDe->del oscurecimiento</li>
     <li>memeLeaderNoun->velador</li>
     <li>memeLeaderNoun->centinela</li>
     <li>memeLeaderAdjective->oscuro</li>
@@ -414,7 +429,8 @@
   <FleshPurity.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_FleshPurity)        ->[deity0_name] acabó con la contaminación y las máquinas de la era del humo para crear un jardín en el que [deity0_pronoun] dejaría a los primeros progenitores humanos puros.</li>
     <li>episode(uses=1,tag=meme_FleshPurity)  ->Los impuros, tatuados, perforados y modificados fueron arrojados al océano por [deity0_name].</li>
-    <li>intro(tag=meme_FleshPurity)           ->El [place_summary] [place_name] tenía en su [altarRoomLabel] un(a) [altarName] de [deity0_name], donde [deity0_type] bendecía a aquellos de carne pura.</li>
+    <li>intro(tag=meme_FleshPurity)           ->En [place_summary] [place_name], se alzaba [altarNameIndef] en el [altarRoomLabel] de [deity0_name], donde [deity0_type] bendecía a aquellos de carne pura.</li>
+    <li>intro(tag=meme_FleshPurity)           ->En [place_summary] [place_name], los fieles veneraban [altarNameIndef] en el [altarRoomLabel] de [deity0_name], donde [deity0_type] bendecía a quienes conservaban la pureza de la carne.</li>
     <li>conflict(tag=meme_FleshPurity)        ->Un malvado [foeLeader] envió a sus [foeSoldiers] a inyectar a todos con dispositivos de seguimiento.</li>
     <li>founderJoin(tag=meme_FleshPurity)     ->Un [place_job] llamado [founderName] protestó contra [foeLeader] arrodillándose frente al [place_powerCenter] y arrancándose toda la tecnología de su cuerpo con sus manos.</li>
     <li>victory(tag=meme_FleshPurity)         ->El [foeLeader] finalmente envió a los [foeSoldiers] a matar a los [memberNamePlural], pero la energía de [deity0_name] fluyó desde la carne pura de los [memberNamePlural], y los dispositivos en los cuerpos de los [foeSoldiers] se convirtieron en cenizas y los mataron.</li>
@@ -454,9 +470,12 @@
     <li>memeConcept->carne</li>
     <li>memeConcept->pureza</li>
     <li>memeConcept->inmaculación</li>
-    <li>memeConceptDef-> la carne</li>
-    <li>memeConceptDef-> la pureza</li>
-    <li>memeConceptDef-> la inmaculación</li>
+    <li>memeConceptDef->la carne</li>
+    <li>memeConceptDef->la pureza</li>
+    <li>memeConceptDef->la inmaculación</li>
+    <li>memeConceptDe->de la carne</li>
+    <li>memeConceptDe->de la pureza</li>
+    <li>memeConceptDe->de la inmaculación</li>
     <li>memeLeaderNoun->ente</li>
     <li>memeLeaderNoun->humano</li>
     <li>memeMoralist->purificador</li>
@@ -555,9 +574,12 @@
     <li>memeConcept->drogas</li>
     <li>memeConcept->felicidad</li>
     <li>memeConcept->sueños</li>
-    <li>memeConceptDef-> los sueños</li>
-    <li>memeConceptDef-> las drogas</li>
-    <li>memeConceptDef-> la felicidad</li>
+    <li>memeConceptDef->los sueños</li>
+    <li>memeConceptDef->las drogas</li>
+    <li>memeConceptDef->la felicidad</li>
+    <li>memeConceptDe->de los sueños</li>
+    <li>memeConceptDe->de las drogas</li>
+    <li>memeConceptDe->de la felicidad</li>
     <li>memeHyphenPrefix->droga</li>
     <li>memeHyphenPrefix->narco</li>
     <li>memeLeaderNoun->durmiente</li>
@@ -626,7 +648,8 @@
   <Nudism.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Nudism)           ->En un vacío puro y prístino, [deity0_name] miró, y deseó una raza de seres de piel libre hechos a su imagen y semejanza, y creó a la humanidad.</li>
     <li>episode(uses=1,tag=meme_Nudism)     ->La gente iba vestida, y mirando a [deity0_name] preguntaron: "¿Por qué no estás con ropa? Es repugnante". Y [deity0_name] respondió: "Tu forma y la mía fueron creadas desde los cielos. Cubrirlas es lo verdaderamente repugnante".</li>
-    <li>intro(tag=meme_Nudism)              ->En el [place_summary] [place_name], comenzó una tradición en el(la) [altarRoomLabel] de [deity0_name] donde la gente rezaba desnuda, y esto le complacía.</li>
+    <li>intro(tag=meme_Nudism)              ->En el [place_summary] [place_name], comenzó una tradición en el lugar sagrado de [deity0_name], su [altarRoomLabel], donde la gente rezaba desnuda, y esto le complacía.</li>
+    <li>intro(tag=meme_Nudism)              ->En el [place_summary] [place_name], los fieles de [deity0_name] se reunían en su [altarRoomLabel] y rezaban desnudos, convencidos de que así honraban mejor la verdad del cuerpo.</li>
     <li>conflict(tag=meme_Nudism)           ->Un hipócrita [foeLeader] se hizo con el poder y exigió que todo el mundo llevara ropa ajustada.</li>
     <li>founderJoin(tag=meme_Nudism)        ->El más fiel seguidor de [deity0_name], [founderName], se presentó ante el [place_powerCenter], se arrancó su ropa y se mostró a sí mismo desafiando las órdenes.</li>
     <li>victory(tag=meme_Nudism)            ->[founderName] rezó a [deity0_name], quien engullió el [place_name] en una ola de calor. Los [foeSoldiers] se despojaron de sus ropas para no perecer, y el [foeLeader] huyó avergonzado.</li>
@@ -665,8 +688,10 @@
     <li>memeHyphenPrefix->dermo</li>
     <li>memeConcept->desnudez</li>
     <li>memeConcept->piel</li>
-    <li>memeConceptDef-> la desnudez</li>
-    <li>memeConceptDef-> la piel</li>
+    <li>memeConceptDef->la desnudez</li>
+    <li>memeConceptDef->la piel</li>
+    <li>memeConceptDe->de la desnudez</li>
+    <li>memeConceptDe->de la piel</li>
     <li>memeLeaderNoun->mundano</li>
     <li>memeLeaderNoun->respirador</li>
     <li>memeLeaderNoun->tocador</li>
@@ -775,11 +800,16 @@
     <li>memeConcept->tortura</li>
     <li>memeConcept->sufrimiento</li>
     <li>memeConcept->sangre</li>
-    <li>memeConceptDef->l dolor</li>
-    <li>memeConceptDef->l tormento</li>
-    <li>memeConceptDef-> la tortura</li>
-    <li>memeConceptDef->l sufrimiento</li>
-    <li>memeConceptDef-> la sangre</li>
+    <li>memeConceptDef->el dolor</li>
+    <li>memeConceptDef->el tormento</li>
+    <li>memeConceptDef->la tortura</li>
+    <li>memeConceptDef->el sufrimiento</li>
+    <li>memeConceptDef->la sangre</li>
+    <li>memeConceptDe->del dolor</li>
+    <li>memeConceptDe->del tormento</li>
+    <li>memeConceptDe->de la tortura</li>
+    <li>memeConceptDe->del sufrimiento</li>
+    <li>memeConceptDe->de la sangre</li>
     <li>memeLeaderNoun->torturador</li>
     <li>memeLeaderNoun->agonizante</li>
     <li>memeLeaderNoun->flagelador</li>
@@ -885,7 +915,8 @@
     <li>memeAdjectiveFem->real</li>
     <li>memeHyphenPrefix->veritas</li>
     <li>memeConcept->verdad</li>
-    <li>memeConceptDef-> la verdad</li>
+    <li>memeConceptDef->la verdad</li>
+    <li>memeConceptDe->de la verdad</li>
     <li>memeLeaderNoun->orador</li>
     <li>memeMoralist->proselitista</li>
     <li>memeMoralist->convertidor</li>
@@ -984,10 +1015,14 @@
     <li>memeConcept->robo</li>
     <li>memeConcept->piratería</li>
     <li>memeConcept->asalto</li>
-    <li>memeConceptDef->l saqueo</li>
-    <li>memeConceptDef->l robo</li>
-    <li>memeConceptDef-> la piratería</li>
-    <li>memeConceptDef->l asalto</li>
+    <li>memeConceptDef->el saqueo</li>
+    <li>memeConceptDef->el robo</li>
+    <li>memeConceptDef->la piratería</li>
+    <li>memeConceptDef->el asalto</li>
+    <li>memeConceptDe->del saqueo</li>
+    <li>memeConceptDe->del robo</li>
+    <li>memeConceptDe->de la piratería</li>
+    <li>memeConceptDe->del asalto</li>
     <li>memeLeaderNoun->superior</li>
     <li>memeLeaderNoun->capitán</li>
     <li>memeLeaderNoun->capataz</li>
@@ -1103,7 +1138,8 @@
     <li>memeAdjectiveFem->campestre</li>
     <li>memeHyphenPrefix->ganatum</li>
     <li>memeConcept->ganadería</li>
-    <li>memeConceptDef-> la ganadería</li>
+    <li>memeConceptDef->la ganadería</li>
+    <li>memeConceptDe->de la ganadería</li>
     <li>memeLeaderNoun->ganadero</li>
     <li>memeLeaderNoun->ranchero</li>
     <li>memeLeaderNoun->vaquero</li>
@@ -1225,10 +1261,14 @@
     <li>memeConcept->artificial</li>
     <li>memeConcept->aumento</li>
     <li>memeConcept->mejora</li>
-    <li>memeConceptDef->l silicio</li>
-    <li>memeConceptDef-> lo artificial</li>
-    <li>memeConceptDef->l aumento</li>
-    <li>memeConceptDef-> la mejora</li>
+    <li>memeConceptDef->el silicio</li>
+    <li>memeConceptDef->lo artificial</li>
+    <li>memeConceptDef->el aumento</li>
+    <li>memeConceptDef->la mejora</li>
+    <li>memeConceptDe->del silicio</li>
+    <li>memeConceptDe->de lo artificial</li>
+    <li>memeConceptDe->del aumento</li>
+    <li>memeConceptDe->de la mejora</li>
     <li>memeLeaderNoun->informático</li>
     <li>memeLeaderNoun->superusuario</li>
     <li>memeLeaderNoun->poshumano</li>
@@ -1361,8 +1401,10 @@
     <li>memeCreed->bosque</li>
     <li>memeConcept->árboles</li>
     <li>memeConcept->bosques</li>
-    <li>memeConceptDef-> los árboles</li>
-    <li>memeConceptDef-> los bosques</li>
+    <li>memeConceptDef->los árboles</li>
+    <li>memeConceptDef->los bosques</li>
+    <li>memeConceptDe->de los árboles</li>
+    <li>memeConceptDe->de los bosques</li>
     <li>memeAdjective->robusto</li>
     <li>memeAdjective->corteza</li>
     <li>memeAdjectiveFem->robusta</li>
@@ -1462,9 +1504,12 @@
     <li>memeConcept->la Tierra</li>
     <li>memeConcept->piedra</li>
     <li>memeConcept->profundidad</li>
-    <li>memeConceptDef-> la tierra</li>
-    <li>memeConceptDef-> la piedra</li>
-    <li>memeConceptDef-> la profundidad</li>
+    <li>memeConceptDef->la tierra</li>
+    <li>memeConceptDef->la piedra</li>
+    <li>memeConceptDef->la profundidad</li>
+    <li>memeConceptDe->de la tierra</li>
+    <li>memeConceptDe->de la piedra</li>
+    <li>memeConceptDe->de la profundidad</li>
     <li>memeLeaderNoun->excavador</li>
     <li>memeLeaderNoun->sondador</li>
     <li>memeLeaderNoun->rodador</li>
