@@ -304,7 +304,7 @@
     <li>bookTypeSingle->trabajo de investigación</li>
     <li>bookTypeSingle->registro</li>
     <li>bookTypeSingle->informe</li>
-    <li>bookTypeSingle->parte</li>
+    <li>bookTypeSingle_Fem->parte</li>
     <li>bookTypeSingle_Fem->reseña</li>
     <li>bookTypeSingle->testamento</li>
     <li>bookTypeSingle->testimonio</li>
@@ -453,7 +453,7 @@
     <li>anAuthorDesc_Female->una mujer moralista</li>
     <li>anAuthorDesc_Female->una mujer amoral</li>
     <li>anAuthorDesc_Female->una mujer tenebrosa</li>
-    <li>tellsAStoryOf->cuenta la historia de</li>
+    <li>tellsAStoryOf->cuenta</li>
     <li>tellsAStoryOf->revela</li>
     <li>tellsAStoryOf->aborda</li>
     <li>tellsAStoryOf->describe</li>
@@ -468,11 +468,11 @@
     <li>tellsAStoryOf->recrea</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] experiencias que compartió con unos [entities]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] experiencias que compartió con unas [entities_Fem]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en un remoto [remoteHideoutSite]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en una remota [remoteHideoutSite_Fem]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta con una base oculta en las inmediaciones de [TerrainFeatureIndef]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta cuya base estaba escondida cerca de [TerrainFeatureIndef]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que ocultaba su base entre [remoteHideoutSiteIndef] y [remoteHideoutBackdropIndef]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una sociedad secreta que tiene una base oculta en un remoto [remoteHideoutSite]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una sociedad secreta que tiene una base oculta en una remota [remoteHideoutSite_Fem]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una sociedad secreta con una base oculta en las inmediaciones de [TerrainFeatureIndef]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una sociedad secreta cuya base estaba escondida cerca de [TerrainFeatureIndef]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una sociedad secreta que ocultaba su base entre [remoteHideoutSiteIndef] y [remoteHideoutBackdropIndef]</li>
     <li>remoteHideoutSite->cañón</li>
     <li>remoteHideoutSite->desfiladero</li>
     <li>remoteHideoutSite->despeñadero</li>
@@ -523,7 +523,7 @@
     <li>remoteHideoutBackdropIndef->una laguna</li>
     <li>remoteHideoutBackdropIndef->una catarata</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] la cacería de un misterioso cubo dorado</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] meditaciones profundas guiadas por un supralacayo de un culto arqueoista</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] meditaciones profundas guiadas por un supralacayo arqueoista</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo colapsó su vida bajo la influencia psíquica de algo llamado Horax</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] una remota excavación arqueológica en la que los investigadores se volvieron violentamente locos uno a uno</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo una tribu, de alguna manera, se transformó para servir al dios oscuro de un culto del placer sangriento</li>
@@ -533,7 +533,7 @@
     <li>experiencesWithMonsters->[tellsAStoryOf] una expedición exploradora forastera que sobrevivió a lluvias de sangre y a un cielo que trató de aplastarla con una oscuridad negrísima</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] un equipo de científicos que investigó una antigua fosa llena de terroríficas criaturas carnosas</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo un chamán tribal intentó encontrar la forma de detener los ataques nocturnos de [Animal_Plural] reanimados contra su aldea</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] un mito tribal sobre un antiguo dios de la ira cuya influencia afecta a todos los pueblos y los héroes que lo encerraron en una pequeña prisión de piedra</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] un mito tribal acerca de un antiguo dios de la ira cuya influencia afecta a todos los pueblos y los héroes que lo encerraron en una pequeña prisión de piedra</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] sus brutales experimentos con un [entity]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] sus brutales experimentos con una [entity_Fem]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] sus visiones recurrentes, en las que [vision]</li>
@@ -543,7 +543,7 @@
     <li>vision->es destrozad{ANYPAWN_gender ? o : a} por una [entity_Fem]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] su [findings] [objective]</li>
     <li>findings->experiencia con</li>
-    <li>findings->investigación sobre</li>
+    <li>findings->investigación en</li>
     <li>objective->rituales [maybeAdjectiveEvil] provocados por un incidente en el que [ritual_incident]</li>
     <li>objective->ciencias oscuras tras [entity_incident_Var]</li>
     <li>ritual_incident->observó a [targetHuman] aparecer de la nada</li>
@@ -630,7 +630,7 @@
     <li>writingQualityAdjective(quality==2)->simple</li>
     <li>writingQualityAdjective(quality==2)->aceptable</li>
     <li>writingQualityAdjective(quality==3)->monótono</li>
-    <li>writingQualityAdjective(quality==3)->bien escrito</li>
+    <li>writingQualityAdjective(quality==3)->bien estructurado</li>
     <li>writingQualityAdjective(quality==3)->bien redactado</li>
     <li>writingQualityAdjective(quality==3)->reflexivo</li>
     <li>writingQualityAdjective(quality==3)->legible</li>

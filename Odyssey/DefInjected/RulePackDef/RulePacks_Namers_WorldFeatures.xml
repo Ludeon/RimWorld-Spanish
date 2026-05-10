@@ -17,19 +17,37 @@
     <li>terrain_word(p=0.3)->tract</li>
   -->
   <NamerGlacialPlain.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->[narrative_name] [glacialPlain_adjective]</li>
-    <li>glacialPlain_adjective(p=2)->glacial</li>
-    <li>glacialPlain_adjective->frígido</li>
-    <li>glacialPlain_adjective->helado</li>
-    <li>glacialPlain_adjective->majestuoso</li>
-    <li>glacialPlain_adjective->congelado</li>
-    <li>terrain_word->glaciar</li>
-    <li>terrain_word(p=0.5)->campo de hielo</li>
-    <li>terrain_word(p=0.5)->casquete</li>
-    <li>terrain_word(p=0.3)->campo</li>
-    <li>terrain_word(p=0.3)->planicie glacial</li>
-    <li>terrain_word(p=0.3)->extensión</li>
-    <li>terrain_word(p=0.3)->vía</li>
+    <li>r_name(p=0.2)->[terrain_word_masc] [narrative_name]</li>
+    <li>r_name(p=0.6)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=0.4)->[terrain_word_masc] [glacialPlain_adjective_masc]</li>
+    <li>r_name(p=0.5)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=0.4)->[terrain_word_fem] [glacialPlain_adjective_fem]</li>
+    <li>r_name(p=0.4)->[terrain_word_plural_masc] [suffix_proper]</li>
+    <li>r_name(p=0.3)->[terrain_word_plural_masc] [glacialPlain_adjective_plural_masc]</li>
+    <li>r_name(p=0.3)->[terrain_word_plural_fem] [suffix_proper]</li>
+    <li>r_name(p=0.2)->[terrain_word_plural_fem] [glacialPlain_adjective_plural_fem]</li>
+    <li>glacialPlain_adjective_masc(p=2)->gélido</li>
+    <li>glacialPlain_adjective_masc->helado</li>
+    <li>glacialPlain_adjective_masc->majestuoso</li>
+    <li>glacialPlain_adjective_masc->congelado</li>
+    <li>glacialPlain_adjective_fem(p=2)->gélida</li>
+    <li>glacialPlain_adjective_fem->helada</li>
+    <li>glacialPlain_adjective_fem->majestuosa</li>
+    <li>glacialPlain_adjective_fem->congelada</li>
+    <li>glacialPlain_adjective_plural_masc(p=2)->gélidos</li>
+    <li>glacialPlain_adjective_plural_masc->helados</li>
+    <li>glacialPlain_adjective_plural_masc->majestuosos</li>
+    <li>glacialPlain_adjective_plural_masc->congelados</li>
+    <li>glacialPlain_adjective_plural_fem(p=2)->gélidas</li>
+    <li>glacialPlain_adjective_plural_fem->heladas</li>
+    <li>glacialPlain_adjective_plural_fem->majestuosas</li>
+    <li>glacialPlain_adjective_plural_fem->congeladas</li>
+    <li>terrain_word_masc->glaciar</li>
+    <li>terrain_word_masc->casquete</li>
+    <li>terrain_word_fem(p=0.5)->planicie</li>
+    <li>terrain_word_fem(p=0.5)->llanura</li>
+    <li>terrain_word_plural_masc(p=0.5)->campos de hielo</li>
+    <li>terrain_word_plural_fem(p=0.3)->extensiones</li>
   </NamerGlacialPlain.rulePack.rulesStrings>
   
   <!-- EN:
@@ -46,17 +64,26 @@
     <li>terrain_word->dark forest</li>
   -->
   <NamerGlowforest.rulePack.rulesStrings>
-    <li>r_name(p=0.3)->[narrative_name] [glowForest_adjective]</li>
-    <li>glowForest_adjective(p=2)->fúngico</li>
-    <li>glowForest_adjective->floreciente</li>
-    <li>glowForest_adjective->oscuro</li>
-    <li>glowForest_adjective->enmalezado</li>
-    <li>glowForest_adjective->nudoso</li>
-    <li>terrain_word(p=3)->lumibosque</li>
-    <li>terrain_word->lecho de micelio</li>
-    <li>terrain_word->bosque fúngico</li>
-    <li>terrain_word->tierras oscuras</li>
-    <li>terrain_word->bosque oscuro</li>
+    <li>r_name(p=0.2)->[terrain_word_masc] [narrative_name]</li>
+    <li>r_name(p=0.7)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=0.5)->[terrain_word_masc] [glowForest_adjective_masc]</li>
+    <li>r_name(p=0.3)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=0.2)->[terrain_word_fem] [glowForest_adjective_fem]</li>
+    <li>glowForest_adjective_masc(p=2)->fúngico</li>
+    <li>glowForest_adjective_masc->floreciente</li>
+    <li>glowForest_adjective_masc->oscuro</li>
+    <li>glowForest_adjective_masc->enmarañado</li>
+    <li>glowForest_adjective_masc->nudoso</li>
+    <li>glowForest_adjective_fem->fúngica</li>
+    <li>glowForest_adjective_fem->floreciente</li>
+    <li>glowForest_adjective_fem->oscura</li>
+    <li>glowForest_adjective_fem->enmarañada</li>
+    <li>glowForest_adjective_fem->nudosa</li>
+    <li>terrain_word_masc(p=3)->lumibosque</li>
+    <li>terrain_word_masc->lecho de micelio</li>
+    <li>terrain_word_masc->bosque</li>
+    <li>terrain_word_masc->sotobosque</li>
+    <li>terrain_word_fem->arboleda</li>
   </NamerGlowforest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -74,19 +101,28 @@
     <li>terrain_word->flats</li>
   -->
   <NamerGrasslands.rulePack.rulesStrings>
-    <li>r_name(p=0.3)->[narrative_name] [grasslands_adjective]</li>
-    <li>grasslands_adjective(p=2)->plano</li>
-    <li>grasslands_adjective->seco</li>
-    <li>grasslands_adjective->ventozo</li>
-    <li>grasslands_adjective->rodante</li>
-    <!-- ondulado ?-->
-    <li>grasslands_adjective->interminable</li>
-    <li>terrain_word(p=2)->pastizal</li>
-    <li>terrain_word(p=2)->pradera</li>
-    <li>terrain_word(p=2)->planicie</li>
-    <li>terrain_word->savanna</li>
-    <li>terrain_word->estepa</li>
-    <li>terrain_word->plano</li>
+    <li>r_name(p=0.2)->[terrain_word_fem] [narrative_name]</li>
+    <li>r_name(p=0.6)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=0.5)->[terrain_word_fem] [grasslands_adjective_fem]</li>
+    <li>r_name(p=0.5)->[terrain_word_plural] [suffix_proper]</li>
+    <li>r_name(p=0.4)->[terrain_word_plural] [grasslands_adjective_plural]</li>
+    <li>grasslands_adjective_fem(p=2)->llana</li>
+    <li>grasslands_adjective_fem->seca</li>
+    <li>grasslands_adjective_fem->barrida por el viento</li>
+    <li>grasslands_adjective_fem->ondulada</li>
+    <li>grasslands_adjective_fem->interminable</li>
+    <li>grasslands_adjective_plural(p=2)->llanas</li>
+    <li>grasslands_adjective_plural->secas</li>
+    <li>grasslands_adjective_plural->barridas por el viento</li>
+    <li>grasslands_adjective_plural->onduladas</li>
+    <li>grasslands_adjective_plural->interminables</li>
+    <li>terrain_word_fem(p=2)->pradera</li>
+    <li>terrain_word_fem(p=2)->planicie</li>
+    <li>terrain_word_fem->sabana</li>
+    <li>terrain_word_fem->estepa</li>
+    <li>terrain_word_plural->praderas</li>
+    <li>terrain_word_plural->llanuras</li>
+    <li>terrain_word_plural->estepas</li>
   </NamerGrasslands.rulePack.rulesStrings>
   
   <!-- EN:
@@ -106,20 +142,39 @@
     <li>terrain_word->range</li>
   -->
   <NamerLavaField.rulePack.rulesStrings>
-    <li>r_name(p=0.3)->[narrative_name] [lavaField_adjective]</li>
-    <li>lavaField_adjective(p=2)->volcánico</li>
-    <li>lavaField_adjective->de fuego</li>
-    <li>lavaField_adjective->infernal</li>
-    <li>lavaField_adjective->llameante</li>
-    <li>lavaField_adjective->ardiente</li>
-    <li>terrain_word(p=3)->campos de lava</li>
-    <li>terrain_word->grieta</li>
-    <li>terrain_word->tierra altas</li>
-    <li>terrain_word->planicie de magma</li>
-    <li>terrain_word->respiradero</li>
-    <li>terrain_word->horno</li>
-    <li>terrain_word->infierno</li>
-    <li>terrain_word->averno</li>
+    <li>r_name(p=0.2)->[terrain_word_masc] [narrative_name]</li>
+    <li>r_name(p=0.5)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=0.4)->[terrain_word_masc] [lavaField_adjective_masc]</li>
+    <li>r_name(p=0.5)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=0.4)->[terrain_word_fem] [lavaField_adjective_fem]</li>
+    <li>r_name(p=0.5)->[terrain_word_plural_masc] [suffix_proper]</li>
+    <li>r_name(p=0.3)->[terrain_word_plural_masc] [lavaField_adjective_plural_masc]</li>
+    <li>r_name(p=0.3)->[terrain_word_plural_fem] [suffix_proper]</li>
+    <li>r_name(p=0.2)->[terrain_word_plural_fem] [lavaField_adjective_plural_fem]</li>
+    <li>lavaField_adjective_masc(p=2)->volcánico</li>
+    <li>lavaField_adjective_masc->infernal</li>
+    <li>lavaField_adjective_masc->llameante</li>
+    <li>lavaField_adjective_masc->ardiente</li>
+    <li>lavaField_adjective_fem(p=2)->volcánica</li>
+    <li>lavaField_adjective_fem->infernal</li>
+    <li>lavaField_adjective_fem->llameante</li>
+    <li>lavaField_adjective_fem->ardiente</li>
+    <li>lavaField_adjective_plural_masc(p=2)->volcánicos</li>
+    <li>lavaField_adjective_plural_masc->infernales</li>
+    <li>lavaField_adjective_plural_masc->llameantes</li>
+    <li>lavaField_adjective_plural_masc->ardientes</li>
+    <li>lavaField_adjective_plural_fem(p=2)->volcánicas</li>
+    <li>lavaField_adjective_plural_fem->infernales</li>
+    <li>lavaField_adjective_plural_fem->llameantes</li>
+    <li>lavaField_adjective_plural_fem->ardientes</li>
+    <li>terrain_word_plural_masc(p=3)->campos de lava</li>
+    <li>terrain_word_plural_fem->tierras altas</li>
+    <li>terrain_word_fem->grieta</li>
+    <li>terrain_word_fem->planicie de magma</li>
+    <li>terrain_word_masc->respiradero</li>
+    <li>terrain_word_masc->horno</li>
+    <li>terrain_word_masc->infierno</li>
+    <li>terrain_word_masc->averno</li>
   </NamerLavaField.rulePack.rulesStrings>
   
   <!-- EN:
@@ -143,25 +198,40 @@
     <li>terrain_word->bastion</li>
   -->
   <NamerScarlands.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->[narrative_name] [ruin_adjective]</li>
-    <li>r_name(p=0.2)->[terrain_wordFem] [narrative_name]</li>
-    <li>r_name(p=0.2)->[terrain_word] [narrative_name]</li>
-    <li>ruin_adjective(p=2)->arruinado</li>
-    <li>ruin_adjective->ancestral</li>
-    <li>ruin_adjective->antiguo</li>
-    <li>ruin_adjective->destrozado</li>
-    <li>ruin_adjective->asolado</li>
-    <li>ruin_adjective->ceniziento</li>
-    <li>terrain_wordFem(p=6)->ruinas</li>
-    <li>terrain_wordFem(p=3)->tierras escarificadas</li>
-    <li>terrain_wordFem->megaestructura</li>
-    <li>terrain_wordFem->tierras baldías</li>
-    <li>terrain_word->desechos</li>
-    <li>terrain_word->barrancos</li>
-    <li>terrain_word->vestigio</li>
-    <li>terrain_wordFem->tierras tóxicas</li>
-    <li>terrain_wordFem->tierras</li>
-    <li>terrain_word->bastión</li>
+    <li>r_name(p=0.2)->[terrain_word_plural_fem] [narrative_name]</li>
+    <li>r_name(p=0.7)->[terrain_word_plural_fem] [suffix_proper]</li>
+    <li>r_name(p=0.4)->[terrain_word_plural_fem] [ruin_adjective_plural_fem]</li>
+    <li>r_name(p=0.3)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=0.2)->[terrain_word_fem] [ruin_adjective_fem]</li>
+    <li>r_name(p=0.3)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=0.2)->[terrain_word_masc] [ruin_adjective_masc]</li>
+    <li>ruin_adjective_masc(p=2)->arruinado</li>
+    <li>ruin_adjective_masc->ancestral</li>
+    <li>ruin_adjective_masc->antiguo</li>
+    <li>ruin_adjective_masc->destrozado</li>
+    <li>ruin_adjective_masc->asolado</li>
+    <li>ruin_adjective_masc->ceniciento</li>
+    <li>ruin_adjective_fem(p=2)->arruinada</li>
+    <li>ruin_adjective_fem->ancestral</li>
+    <li>ruin_adjective_fem->antigua</li>
+    <li>ruin_adjective_fem->destrozada</li>
+    <li>ruin_adjective_fem->asolada</li>
+    <li>ruin_adjective_fem->cenicienta</li>
+    <li>ruin_adjective_plural_fem(p=2)->arruinadas</li>
+    <li>ruin_adjective_plural_fem->ancestrales</li>
+    <li>ruin_adjective_plural_fem->antiguas</li>
+    <li>ruin_adjective_plural_fem->destrozadas</li>
+    <li>ruin_adjective_plural_fem->asoladas</li>
+    <li>ruin_adjective_plural_fem->cenicientas</li>
+    <li>terrain_word_plural_fem(p=6)->ruinas</li>
+    <li>terrain_word_plural_fem(p=3)->tierras escarificadas</li>
+    <li>terrain_word_plural_fem->tierras baldías</li>
+    <li>terrain_word_plural_fem->tierras tóxicas</li>
+    <li>terrain_word_plural_fem->tierras</li>
+    <li>terrain_word_fem->megaestructura</li>
+    <li>terrain_word_masc->despojo</li>
+    <li>terrain_word_masc->vestigio</li>
+    <li>terrain_word_masc->bastión</li>
   </NamerScarlands.rulePack.rulesStrings>
   
 </LanguageData>
