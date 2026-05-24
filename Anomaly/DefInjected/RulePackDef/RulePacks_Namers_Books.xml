@@ -209,8 +209,7 @@
     <li>title->[maybeThePl] [nounEvilAnyPl] de [ANYPAWN_nameIndef]</li>
     <li>title->[maybeThe_Fem] [nounEvilAny_Fem] de [ANYPAWN_nameIndef]</li>
     <li>title->[maybeThe_FemPl] [nounEvilAny_FemPl] de [ANYPAWN_nameIndef]</li>
-    <!-- Continuar desde aquí queda añadir femeninos y plurales -->
-    <li>title->[maybeThe] [nounEvilAny] [adjectiveEvil]</li>
+    <li>title->[maybeThe] [adjectiveEvil] [nounEvilCountable]</li>
     <li>title->[bookEvil] de [ANYPAWN_nameIndef]</li>
     <li>title->[maybeThe] [bookCompound]</li>
     <li>title->[bookCompound] de [ANYPAWN_nameIndef]</li>
@@ -246,8 +245,8 @@
     <li>bookEvil->almanaque</li>
     <li>bookEvil->manuscrito</li>
     <li>bookEvil->archivo</li>
-    <li>bookEvil->expolio</li>
-    <li>bookEvil->desvelamiento</li>
+    <li>bookEvil->compendio</li>
+    <li>bookEvil->presagio</li>
     <li>bookEvil->manifiesto</li>
     <li>bookEvil->testamento</li>
     <li>bookEvil->fragmento</li>
@@ -260,16 +259,16 @@
     <li>inThe->en el</li>
     <li>inThe->dentro del</li>
     <li>inThe->debajo del</li>
-    <li>inThe->abajo del</li>
-    <li>inThe->por el</li>
+    <li>inThe->bajo el</li>
+    <li>inThe->junto al</li>
     <li>inThe->sobre el</li>
-    <li>inThe->a través del</li>
+    <li>inThe->más allá del</li>
     <li>inThe_Fem->en la</li>
     <li>inThe_Fem->dentro de la</li>
     <li>inThe_Fem->debajo de la</li>
-    <li>inThe_Fem->por la</li>
+    <li>inThe_Fem->junto a la</li>
     <li>inThe_Fem->sobre la</li>
-    <li>inThe_Fem->a través de la</li>
+    <li>inThe_Fem->más allá de la</li>
     <li>adjectiveEvil(p=3)->vacío</li>
     <li>adjectiveEvil->dorado</li>
     <li>adjectiveEvil->antinatural</li>
@@ -288,34 +287,36 @@
     <li>adjectiveEvil->olvidado</li>
     <li>adjectiveEvil->velado</li>
     <li>adjectiveEvil->prohibido</li>
-    <li>adjectiveEvil->subsuperficial</li>
-    <li>adjectiveEvil->serpentil</li>
+    <li>adjectiveEvil->subterráneo</li>
+    <li>adjectiveEvil->serpentino</li>
     <li>nounEvilAny->[nounEvilCountable]</li>
     <li>nounEvilAny->[nounEvilUncountable]</li>
     <li>nounEvilAny_Fem->[nounEvilCountable_Fem]</li>
     <li>nounEvilAny_Fem->[nounEvilUncountable_Fem]</li>
     <li>nounEvilAnyPl->[nounEvilCountablePl]</li>
     <li>nounEvilAnyPl->[nounEvilUncountablePl]</li>
+    <li>nounEvilAny_FemPl->[nounEvilCountable_FemPl]</li>
+    <li>nounEvilAny_FemPl->[nounEvilUncountable_FemPl]</li>
     <li>nounEvilUncountable_Fem->carnimasa</li>
     <li>nounEvilUncountable_Fem->bioferrita</li>
     <li>nounEvilUncountable_Fem->necrovita</li>
-    <li>nounEvilUncountable->arqueoteca</li>
-    <li>nounEvilUncountable->necroteca</li>
-    <li>nounEvilUncountable->horax</li>
+    <li>nounEvilUncountable_Fem->arqueoteca</li>
+    <li>nounEvilUncountable_Fem->necroteca</li>
+    <li>nounEvilUncountable->Horax</li>
     <li>nounEvilUncountable_Fem->sangre</li>
     <li>nounEvilUncountable_Fem->muerte</li>
     <li>nounEvilUncountable_Fem->energía</li>
-    <li>nounEvilUncountable->susurros</li>
+    <li>nounEvilUncountablePl->susurros</li>
     <li>nounEvilUncountable->conocimiento</li>
     <li>nounEvilUncountable->horror</li>
     <li>nounEvilUncountablePl->hongos</li>
-    <li>nounEvilUncountable->putrescencia</li>
+    <li>nounEvilUncountable_Fem->putrescencia</li>
     <li>nounEvilUncountablePl->rituales</li>
     <li>nounEvilUncountable->asesinato</li>
     <li>nounEvilUncountable_Fem->oscuridad</li>
     <li>nounEvilUncountable_Fem->locura</li>
     <li>nounEvilUncountable->caos</li>
-    <li>nounEvilUncountable->desesperación</li>
+    <li>nounEvilUncountable_Fem->desesperación</li>
     <li>nounEvilUncountable->sufrimiento</li>
     <li>nounEvilUncountable_FemPl->pesadillas</li>
     <li>nounEvilUncountable_Fem->corrupción</li>
@@ -328,7 +329,7 @@
     <li>nounEvilUncountableDef->de la carnimasa</li>
     <li>nounEvilUncountableDef->de la bioferrita</li>
     <li>nounEvilUncountableDef->de la necrovita</li>
-    <li>nounEvilUncountableDef->del horax</li>
+    <li>nounEvilUncountableDef->de Horax</li>
     <li>nounEvilUncountableDef->de la sangre</li>
     <li>nounEvilUncountableDef->de la muerte</li>
     <li>nounEvilUncountableDef->de la energía</li>
@@ -352,41 +353,45 @@
     <li>nounEvilUncountableDef->de las sombras</li>
     <li>nounEvilUncountableDef->del vacío</li>
     <li>nounEvilUncountableVar->dorado</li>
-    <li>nounEvilUncountableVar->arqueoteca</li>
-    <li>nounEvilUncountableVar->necrotéc</li>
-    <li>nounEvilCountable->necrófago</li>
-    <li>nounEvilCountablePl->necrófagos</li>
-    <li>nounEvilCountable->goretesco</li>
-    <li>nounEvilCountablePl->goretescos</li>
-    <li>nounEvilCountable->noctol</li>
-    <li>nounEvilCountable->caminante</li>
-    <li>nounEvilCountablePl->caminantes</li>
-    <li>nounEvilCountable_Fem->carnibestia</li>
-    <li>nounEvilCountable_Fem->nociosfera</li>
-    <li>nounEvilCountable->cadáver</li>
-    <li>nounEvilCountable->cubo</li>
-    <li>nounEvilCountable->redivivo</li>
-    <li>nounEvilCountable->horrormetal</li>
+    <li>nounEvilUncountableVar->necrótico</li>
     <li>nounEvilCountable->abductor</li>
-    <li>nounEvilCountable->duplicador</li>
-    <li>nounEvilCountable->mutador</li>
-    <li>nounEvilCountable->precursor</li>
+    <li>nounEvilCountable->cadáver</li>
+    <li>nounEvilCountable->caminante</li>
     <li>nounEvilCountable->cegador</li>
-    <li>nounEvilCountable_Fem->quimera</li>
-    <li>nounEvilCountable->devorador</li>
-    <li>nounEvilCountable_Fem->esquirla</li>
-    <li>nounEvilCountable_Fem->escultura</li>
-    <li>nounEvilCountable->suero</li>
-    <li>nounEvilCountable->culto</li>
+    <li>nounEvilCountable->cubo</li>
     <li>nounEvilCountable->cultista</li>
-    <li>nounEvilCountable_Fem->cabra</li>
-    <li>nounEvilCountable_Fem->sombra</li>
-    <li>nounEvilCountable_FemPl->sombras</li>
-    <li>nounEvilCountable->merodeador</li>
-    <li>nounEvilCountablePl->ritos</li>
-    <li>nounEvilCountable->hex</li>
-    <li>nounEvilCountable_Fem->serpiente</li>
+    <li>nounEvilCountable->culto</li>
+    <li>nounEvilCountable->devorador</li>
+    <li>nounEvilCountable->duplicador</li>
     <li>nounEvilCountable->festín</li>
+    <li>nounEvilCountable->goretesco</li>
+    <li>nounEvilCountable->horrormetal</li>
+    <li>nounEvilCountable->maleficio</li>
+    <li>nounEvilCountable->merodeador</li>
+    <li>nounEvilCountable->mutador</li>
+    <li>nounEvilCountable->necrófago</li>
+    <li>nounEvilCountable->noctol</li>
+    <li>nounEvilCountable->precursor</li>
+    <li>nounEvilCountable->redivivo</li>
+    <li>nounEvilCountable->suero</li>
+    <li>nounEvilCountable_Fem->cabra</li>
+    <li>nounEvilCountable_Fem->carnibestia</li>
+    <li>nounEvilCountable_Fem->escultura</li>
+    <li>nounEvilCountable_Fem->esquirla</li>
+    <li>nounEvilCountable_Fem->nociosfera</li>
+    <li>nounEvilCountable_Fem->quimera</li>
+    <li>nounEvilCountable_Fem->serpiente</li>
+    <li>nounEvilCountable_Fem->sombra</li>
+    <li>nounEvilCountable_FemPl->cabras</li>
+    <li>nounEvilCountable_FemPl->esculturas</li>
+    <li>nounEvilCountable_FemPl->esquirlas</li>
+    <li>nounEvilCountable_FemPl->quimeras</li>
+    <li>nounEvilCountable_FemPl->sombras</li>
+    <li>nounEvilCountablePl->caminantes</li>
+    <li>nounEvilCountablePl->goretescos</li>
+    <li>nounEvilCountablePl->maleficios</li>
+    <li>nounEvilCountablePl->necrófagos</li>
+    <li>nounEvilCountablePl->ritos</li>
     <li>nounEvilCountableDefPl->de los necrófagos</li>
     <li>nounEvilCountableDefPl->de los goretescos</li>
     <li>nounEvilCountableDefPl->de los noctoles</li>
@@ -413,7 +418,7 @@
     <li>nounEvilCountableDefPl->de las sombras</li>
     <li>nounEvilCountableDefPl->de los merodeadores</li>
     <li>nounEvilCountableDefPl->de los ritos</li>
-    <li>nounEvilCountableDefPl->del hex</li>
+    <li>nounEvilCountableDefPl->de los maleficios</li>
     <li>nounEvilCountableDefPl->de las serpientes</li>
     <li>nounEvilCountableDefPl->de los festines</li>
     <li>placeEvil->océano</li>
@@ -453,23 +458,23 @@
     <li>suffixEvil->nomicon</li>
     <li>suffixEvil->doron</li>
     <li>suffixEvil->nax</li>
-    <li>suffixEvil->novicon</li>
+    <li>suffixEvil->novicón</li>
     <li>suffixEvil->vokon</li>
     <li>suffixEvil->mancy</li>
     <li>suffixEvil->gorgon</li>
     <li>suffixEvil->morth</li>
     <li>suffixEvil->cypher</li>
     <li>suffixEvil->vex</li>
-    <li>suffixEvil->vortex</li>
+    <li>suffixEvil->vórtex</li>
     <li>suffixEvil->nox</li>
     <li>suffixEvil->cybex</li>
     <li>suffixEvil->voron</li>
     <li>suffixEvil->karnix</li>
     <li>suffixEvil->nemex</li>
     <li>suffixEvil->vexor</li>
-    <li>suffixEvil->tronix</li>
+    <li>suffixEvil->trónix</li>
     <li>suffixEvil->cryptex</li>
-    <li>suffixEvil->chaonix</li>
+    <li>suffixEvil->chaónix</li>
     <li>suffixEvil->nix</li>
     <li>suffixEvil->vix</li>
   </Namer_Tome.rulePack.rulesStrings>

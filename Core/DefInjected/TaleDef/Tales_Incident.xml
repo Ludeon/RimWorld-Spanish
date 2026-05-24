@@ -37,11 +37,12 @@
     <li>circumstance_phrase->sobre [CommunityIndef]</li>
     <li>circumstance_phrase->entre [TerrainFeatureIndef] y [TerrainFeatureIndef]</li>
     <li>desc_sentence->Debajo, [PAWN_nameDef] juega {replace: a [GameDef]; "a el "-"al "} con semblante [AdjectiveFriendly].</li>
-    <li>desc_sentence->[PAWN_nameDef] observa con asombro en su rostro.</li>
+    <li>desc_sentence->[PAWN_nameDef] observa con asombro.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan desde abajo.</li>
     <li>desc_sentence->[PAWN_nameDef] está sentado cerca de [TerrainFeatureIndef], observando el cielo.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] pasean pacíficamente.</li>
-    <li>desc_sentence->Sin [Enemy]s a la vista.</li>
+    <li>desc_sentence->No hay [Enemy]s a la vista.</li>
+    <li>desc_sentence->No hay ni rastro de [Enemy]s.</li>
   </Aurora.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed -->
@@ -84,7 +85,7 @@
     <li>desc_sentence->[Quantity_adjphrase] figuras se aproximan por detrás de [TerrainFeatureIndef].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s se ven a la distancia.</li>
     <li>desc_sentence->[PAWN_nameDef] está rodead[PAWN_o_a] por [Enemy]s.</li>
-    <li>desc_sentence->[PAWN_nameDef] es retad[PAWN_o_a] por un [Enemy].</li>
+    <li>desc_sentence->[PAWN_nameDef] se enfrenta a un [Enemy].</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] huyen del lugar del conflicto con miedo.</li>
     <li>desc_sentence->A la distancia, un [PersonJob] observa.</li>
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
@@ -265,7 +266,7 @@
     <li>circumstance_phrase->un crepúsculo cubriendo [Quantity_adjphrase] [TerrainFeaturePlAny]</li>
     <li>circumstance_phrase->con estrellas visibles</li>
     <li>desc_sentence->Debajo, [PAWN_nameDef] juega {replace: a [GameDef]; "a el "-"al "} con semblante [AdjectiveFriendly].</li>
-    <li>desc_sentence->[PAWN_nameDef] observa con asombro en su rostro.</li>
+    <li>desc_sentence->[PAWN_nameDef] observa con asombro.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan desde abajo.</li>
     <li>desc_sentence->[PAWN_nameDef] está sentad[PAWN_o_a] junto a [TerrainFeatureIndef], observando el cielo.</li>
     <li>desc_sentence->[CommunityIndefCap] de espectadores observan el cielo en paz.</li>
@@ -373,7 +374,7 @@
     <li>circumstance_phrase->cubriendo [TerrainFeatureIndef] casi completamente</li>
     <li>circumstance_phrase->cubriendo [Quantity_adjphrase] [TerrainFeaturePlAny] casi completamente</li>
     <li>desc_sentence->[PAWN_nameDef] observa con temor.</li>
-    <li>desc_sentence->[PAWN_nameDef] observa con asombro en su rostro.</li>
+    <li>desc_sentence->[PAWN_nameDef] observa con asombro.</li>
     <li>desc_sentence->[PAWN_nameDef] está coordinando las medidas defensivas.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] corren a prepararse.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] huyen del área.</li>
@@ -713,7 +714,7 @@
     <li>circumstance_phrase->oscureciendo [TerrainFeatureIndef]</li>
     <li>circumstance_phrase->cubriendo [TerrainFeatureIndef]</li>
     <li>desc_sentence->[PAWN_nameDef] observa con temor.</li>
-    <li>desc_sentence->[PAWN_nameDef] observa con asombro en su rostro.</li>
+    <li>desc_sentence->[PAWN_nameDef] observa con asombro.</li>
     <li>desc_sentence->[PAWN_nameDef] está coordinando las medidas defensivas.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] corren para alejarse.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] huyen del área.</li>
@@ -766,8 +767,8 @@
     <li>circumstance_phrase->oscureciendo [TerrainFeatureIndef]</li>
     <li>circumstance_phrase->cubriendo [TerrainFeatureIndef]</li>
     <li>desc_sentence->[COLONIST_nameDef] observa con temor.</li>
-    <li>desc_sentence(p=0.5)->[COLONIST_nameDef] observa con asombro en su rostro.</li>
-    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef] observa con asombro en su rostro.</li>
+    <li>desc_sentence(p=0.5)->[COLONIST_nameDef] observa con asombro.</li>
+    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef] observa con asombro.</li>
     <li>desc_sentence->[COLONIST_nameDef] está coordinando las medidas defensivas.</li>
     <li>desc_sentence->[ATTACKER_nameDef] ríe con alegría.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] corren para alejarse.</li>

@@ -286,33 +286,33 @@
     <li>bookTypeSingle->comentario</li>
     <li>bookTypeSingle_Fem->composición</li>
     <li>bookTypeSingle_Fem->crítica</li>
-    <li>bookTypeSingle_Fem->redacción</li>
+    <li>bookTypeSingle_Fem->crónica</li>
     <li>bookTypeSingle_Fem->disquisición</li>
     <li>bookTypeSingle_Fem->disertación</li>
     <li>bookTypeSingle->editorial</li>
     <li>bookTypeSingle->ensayo</li>
     <li>bookTypeSingle_Fem->exposición</li>
-    <li>bookTypeSingle->descubrimiento</li>
-    <li>bookTypeSingle->grimoirio</li>
+    <li>bookTypeSingle->compendio</li>
+    <li>bookTypeSingle->grimorio</li>
     <li>bookTypeSingle->escrito</li>
     <li>bookTypeSingle_Fem->investigación</li>
     <li>bookTypeSingle->manifiesto</li>
     <li>bookTypeSingle->manuscrito</li>
-    <li>bookTypeSingle->opús</li>
-    <li>bookTypeSingle->papel</li>
+    <li>bookTypeSingle->opus</li>
+    <li>bookTypeSingle->documento</li>
     <li>bookTypeSingle_Fem->pieza</li>
     <li>bookTypeSingle->trabajo de investigación</li>
     <li>bookTypeSingle->registro</li>
     <li>bookTypeSingle->informe</li>
-    <li>bookTypeSingle->reporte</li>
+    <li>bookTypeSingle_Fem->parte</li>
     <li>bookTypeSingle_Fem->reseña</li>
     <li>bookTypeSingle->testamento</li>
     <li>bookTypeSingle->testimonio</li>
     <li>bookTypeSingle->texto</li>
     <li>bookTypeSingle_Fem->tesis</li>
-    <li>bookTypeSingle->tracto</li>
+    <li>bookTypeSingle->folleto</li>
     <li>bookTypeSingle->tratado</li>
-    <li>bookTypeSingle->tratamiento</li>
+    <li>bookTypeSingle->dosier</li>
     <li>bookTypeSingle->volumen</li>
     <li>bookTypeSingle->trabajo</li>
     <li>bookTypePlural->escrituras</li>
@@ -384,9 +384,9 @@
     <li>anAuthorDesc->un necio</li>
     <li>anAuthorDesc->un inocente</li>
     <li>anAuthorDesc->un perturbado</li>
-    <li>anAuthorDesc->un eldritch</li>
+    <li>anAuthorDesc->un siniestro</li>
     <li>anAuthorDesc->un escandaloso</li>
-    <li>anAuthorDesc->un arquetipo</li>
+    <li>anAuthorDesc->un singular</li>
     <li>anAuthorDesc->un aburrido</li>
     <li>anAuthorDesc->un loco</li>
     <li>anAuthorDesc->un inmoral</li>
@@ -403,10 +403,10 @@
     <li>anAuthorDesc_Fem->una testaruda</li>
     <li>anAuthorDesc_Fem->una necia</li>
     <li>anAuthorDesc_Fem->una inocente</li>
-    <li>anAuthorDesc_Fem->una perturbadora</li>
-    <li>anAuthorDesc_Fem->una eldritch</li>
+    <li>anAuthorDesc_Fem->una trastornada</li>
+    <li>anAuthorDesc_Fem->una siniestra</li>
     <li>anAuthorDesc_Fem->una escandalosa</li>
-    <li>anAuthorDesc_Fem->una arquetipa</li>
+    <li>anAuthorDesc_Fem->una singular</li>
     <li>anAuthorDesc_Fem->una aburrida</li>
     <li>anAuthorDesc_Fem->una loca</li>
     <li>anAuthorDesc_Fem->una inmoral</li>
@@ -424,9 +424,9 @@
     <li>anAuthorDesc_Male->un hombre necio</li>
     <li>anAuthorDesc_Male->un hombre inocente</li>
     <li>anAuthorDesc_Male->un hombre perturbado</li>
-    <li>anAuthorDesc_Male->un hombre eldritch</li>
+    <li>anAuthorDesc_Male->un hombre siniestro</li>
     <li>anAuthorDesc_Male->un hombre escandaloso</li>
-    <li>anAuthorDesc_Male->un arquetipo de hombre</li>
+    <li>anAuthorDesc_Male->un hombre singular</li>
     <li>anAuthorDesc_Male->un hombre aburrido</li>
     <li>anAuthorDesc_Male->un hombre loco</li>
     <li>anAuthorDesc_Male->un hombre inmoral</li>
@@ -444,60 +444,112 @@
     <li>anAuthorDesc_Female->una mujer necia</li>
     <li>anAuthorDesc_Female->una mujer inocente</li>
     <li>anAuthorDesc_Female->una mujer perturbada</li>
-    <li>anAuthorDesc_Female->una mujer eldritch</li>
+    <li>anAuthorDesc_Female->una mujer siniestra</li>
     <li>anAuthorDesc_Female->una mujer escandalosa</li>
-    <li>anAuthorDesc_Female->un arquetipo de mujer</li>
+    <li>anAuthorDesc_Female->una mujer singular</li>
     <li>anAuthorDesc_Female->una mujer aburrida</li>
     <li>anAuthorDesc_Female->una mujer loca</li>
     <li>anAuthorDesc_Female->una mujer inmoral</li>
     <li>anAuthorDesc_Female->una mujer moralista</li>
     <li>anAuthorDesc_Female->una mujer amoral</li>
     <li>anAuthorDesc_Female->una mujer tenebrosa</li>
-    <li>tellsAStoryOf->cuenta una historia de</li>
+    <li>tellsAStoryOf->cuenta</li>
     <li>tellsAStoryOf->revela</li>
-    <li>tellsAStoryOf->discute</li>
+    <li>tellsAStoryOf->aborda</li>
     <li>tellsAStoryOf->describe</li>
     <li>tellsAStoryOf->detalla</li>
-    <li>tellsAStoryOf->explica con más detalle sobre</li>
+    <li>tellsAStoryOf->profundiza en</li>
     <li>tellsAStoryOf->entra en detalles sobre</li>
     <li>tellsAStoryOf->narra</li>
     <li>tellsAStoryOf->relata</li>
-    <li>tellsAStoryOf->informa</li>
-    <li>tellsAStoryOf->hace una crónica sobre</li>
-    <li>tellsAStoryOf->describe</li>
-    <li>tellsAStoryOf->desarrolla</li>
+    <li>tellsAStoryOf->da cuenta de</li>
+    <li>tellsAStoryOf->reconstruye</li>
+    <li>tellsAStoryOf->explora</li>
+    <li>tellsAStoryOf->recrea</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] experiencias que compartió con unos [entities]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] experiencias que compartió con unas [entities_Fem]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en un remoto [TerrainFeature]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en una remota [TerrainFeature_Fem]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo fue la cacería de un misterioso cubo dorado</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] meditaciones profundas guiadas por un supralacayo de un culto arqueoista</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una sociedad secreta que tiene una base oculta en un remoto [remoteHideoutSite]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una sociedad secreta que tiene una base oculta en una remota [remoteHideoutSite_Fem]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una sociedad secreta con una base oculta en las inmediaciones de [TerrainFeatureIndef]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una sociedad secreta cuya base estaba escondida cerca de [TerrainFeatureIndef]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una sociedad secreta que ocultaba su base entre [remoteHideoutSiteIndef] y [remoteHideoutBackdropIndef]</li>
+    <li>remoteHideoutSite->cañón</li>
+    <li>remoteHideoutSite->desfiladero</li>
+    <li>remoteHideoutSite->despeñadero</li>
+    <li>remoteHideoutSite->erial</li>
+    <li>remoteHideoutSite->páramo</li>
+    <li>remoteHideoutSite->peñón</li>
+    <li>remoteHideoutSite->paraje</li>
+    <li>remoteHideoutSite->risco</li>
+    <li>remoteHideoutSite->yermo</li>
+    <li>remoteHideoutSite_Fem->catarata</li>
+    <li>remoteHideoutSite_Fem->laguna</li>
+    <li>remoteHideoutSite_Fem->montaña</li>
+    <li>remoteHideoutSite_Fem->planicie</li>
+    <li>remoteHideoutSite_Fem->pradera</li>
+    <li>remoteHideoutSite_Fem->selva</li>
+    <li>remoteHideoutSite_Fem->cueva</li>
+    <li>remoteHideoutSite_Fem->gruta</li>
+    <li>remoteHideoutSite_Fem->caverna</li>
+    <li>remoteHideoutSiteIndef->un cañón</li>
+    <li>remoteHideoutSiteIndef->un desfiladero</li>
+    <li>remoteHideoutSiteIndef->un despeñadero</li>
+    <li>remoteHideoutSiteIndef->un erial</li>
+    <li>remoteHideoutSiteIndef->un páramo</li>
+    <li>remoteHideoutSiteIndef->un peñón</li>
+    <li>remoteHideoutSiteIndef->un paraje</li>
+    <li>remoteHideoutSiteIndef->un risco</li>
+    <li>remoteHideoutSiteIndef->un yermo</li>
+    <li>remoteHideoutSiteIndef->una catarata</li>
+    <li>remoteHideoutSiteIndef->una laguna</li>
+    <li>remoteHideoutSiteIndef->una montaña</li>
+    <li>remoteHideoutSiteIndef->una planicie</li>
+    <li>remoteHideoutSiteIndef->una pradera</li>
+    <li>remoteHideoutSiteIndef->una selva</li>
+    <li>remoteHideoutSiteIndef->una cueva</li>
+    <li>remoteHideoutSiteIndef->una gruta</li>
+    <li>remoteHideoutSiteIndef->una caverna</li>
+    <li>remoteHideoutBackdropIndef->un acantilado</li>
+    <li>remoteHideoutBackdropIndef->un bosque</li>
+    <li>remoteHideoutBackdropIndef->un desierto</li>
+    <li>remoteHideoutBackdropIndef->un lago</li>
+    <li>remoteHideoutBackdropIndef->un monte</li>
+    <li>remoteHideoutBackdropIndef->un nevado</li>
+    <li>remoteHideoutBackdropIndef->un pantano</li>
+    <li>remoteHideoutBackdropIndef->un peñasco</li>
+    <li>remoteHideoutBackdropIndef->un río</li>
+    <li>remoteHideoutBackdropIndef->un valle</li>
+    <li>remoteHideoutBackdropIndef->un volcán</li>
+    <li>remoteHideoutBackdropIndef->una laguna</li>
+    <li>remoteHideoutBackdropIndef->una catarata</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] la cacería de un misterioso cubo dorado</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] meditaciones profundas guiadas por un supralacayo arqueoista</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo colapsó su vida bajo la influencia psíquica de algo llamado Horax</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo obtuvo información de una remota excavación arqueológica donde los investigadores se volvieron violentamente locos uno a uno</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] una remota excavación arqueológica en la que los investigadores se volvieron violentamente locos uno a uno</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo una tribu, de alguna manera, se transformó para servir al dios oscuro de un culto del placer sangriento</li>
-    <li>experiencesWithMonsters->intenta describir una tribu con una tradición de rituales de mutilación realizados a la luz del fuego con cuchillas oxidadas</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo una profesora no entendía que uno de sus estudiantes decía verdades mortales que ella no podía saber</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo un científico intenta utilizar antiguos medios arqueotecnológicos para reanimar a su esposa muerta</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo existió una expedición exploradora forastera que sobrevivió a lluvias de sangre y a un cielo que intentó aplastarlos hasta la muerte con una tinta ennegrecida</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo un equipo científico investigó una antigua fosa en el suelo llena de terroríficas criaturas carnosas</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo un chamán tribal intentó de encontrar la forma de detener los ataques nocturnos de [Animal_Plural] muertos reanimados a su aldea</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] un mito tribal sobre un antiguo dios de la ira cuya influencia afecta a todos los pueblos y los héroes que lo encerraron en una pequeña prisión de piedra</li>
+    <li>experiencesWithMonsters->intenta describir una tribu con una tradición de rituales de mutilación celebrados a la luz del fuego con cuchillas oxidadas</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] la historia de una profesora incapaz de comprender cómo uno de sus estudiantes pronunciaba verdades mortales imposibles de conocer</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] los intentos de un científico de reanimar a su esposa muerta mediante antiguos recursos arqueotecnológicos</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] una expedición exploradora forastera que sobrevivió a lluvias de sangre y a un cielo que trató de aplastarla con una oscuridad negrísima</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] un equipo de científicos que investigó una antigua fosa llena de terroríficas criaturas carnosas</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo un chamán tribal intentó encontrar la forma de detener los ataques nocturnos de [Animal_Plural] reanimados contra su aldea</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] un mito tribal acerca de un antiguo dios de la ira cuya influencia afecta a todos los pueblos y los héroes que lo encerraron en una pequeña prisión de piedra</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] sus brutales experimentos con un [entity]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] sus brutales experimentos con una [entity_Fem]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo sus visiones recurrentes en las que [vision]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] sus visiones recurrentes, en las que [vision]</li>
     <li>vision->figuras oscuras entraron en su mente y tomaron sus recuerdos</li>
     <li>vision->se persigue a sí mism{ANYPAWN_gender ? o : a} y no puede escapar por mucho que huya</li>
     <li>vision->es destrozad{ANYPAWN_gender ? o : a} por un [entity]</li>
     <li>vision->es destrozad{ANYPAWN_gender ? o : a} por una [entity_Fem]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] su [findings] [objective]</li>
     <li>findings->experiencia con</li>
-    <li>findings->investigación sobre</li>
-    <li>objective->rituales [maybeAdjectiveEvil] que fueron provocados por un incidente donde [ritual_incident]</li>
+    <li>findings->investigación en</li>
+    <li>objective->rituales [maybeAdjectiveEvil] provocados por un incidente en el que [ritual_incident]</li>
     <li>objective->ciencias oscuras tras [entity_incident_Var]</li>
     <li>ritual_incident->observó a [targetHuman] aparecer de la nada</li>
     <li>targetHuman->[anAuthorDesc_Female]</li>
     <li>targetHuman->[anAuthorDesc_Male]</li>
-    <li>ritual_incident->llovió sangre durante tres días lo cual volvió locos a sus amigos</li>
+    <li>ritual_incident->llovió sangre durante tres días, lo que volvió locos a sus amigos</li>
     <li>ritual_incident->[entity_incident]</li>
     <li>entity_incident->perdió su [BodyPart_Human] en un ataque de una [entity_Fem]</li>
     <li>entity_incident->perdió su [BodyPart_Human] en un ataque de un [entity]</li>
@@ -514,31 +566,31 @@
     <li>specificHorrorStory->Dedica mucho tiempo a intentar describir una entidad hiperinteligente llamada "Horax" que existe en un plano adyacente de la realidad.</li>
     <li>specificHorrorStory->Una sección describe la mecánica de la influencia psíquica oscura, en la que una entidad de otro plano puede influir involuntariamente en los pensamientos de los seres humanos sincronizándolos con su resonancia emocional.</li>
     <li>specificHorrorStory->Una sección describe diferentes hiperinteligencias arqueotecas y la naturaleza variable de sus emanaciones emocionales y psíquicas. Mientras que algunas se consideran neutrales o incluso benévolas, otras son entidades de pura rabia.</li>
-    <li>specificHorrorStory->Describe la sensación de que su mente está siendo reconfigurada a la fuerza por la oscura influencia psíquica de una inteligencia mayor.</li>
+    <li>specificHorrorStory->Describe la sensación de que su mente está siendo reconfigurada contra su voluntad por la oscura influencia psíquica de una inteligencia mayor.</li>
     <li>specificHorrorStory->En una sección, el autor intenta suicidarse, pero es encontrado y salvado por un amable [PersonJob].</li>
     <li>specificHorrorStory->El volumen está adornado con inquietantes ilustraciones que retratan una entidad grotesca y sobrenatural cuyos zarcillos de tinta se retuercen por las páginas, invocando una sensación de terror y fascinación a partes iguales.</li>
-    <li>specificHorrorStory->A lo largo de la narración, el concepto de dimensiones paralelas es recurrente y los personajes se encuentran con entidades que existen justo más allá del velo de la percepción, coexistiendo en una realidad que se cruza con la nuestra pero permanece oculta a nuestra vista.</li>
-    <li>specificHorrorStory->El libro se adentra en una escalofriante exposición sobre "Horax", una máquina hiperinteligente que se desplazó a través de una dimensión oculta hasta un lugar llamado el Vacío.</li>
+    <li>specificHorrorStory->A lo largo de la narración, el concepto de dimensiones paralelas es recurrente y los personajes se encuentran con entidades que existen justo más allá del velo de la percepción, coexistiendo en una realidad que se cruza con la nuestra pero permanece oculta a simple vista.</li>
+    <li>specificHorrorStory->El libro se adentra en una escalofriante exposición sobre "Horax", una máquina hiperinteligente que se desplazó a través de una dimensión oculta hasta un lugar llamado El Vacío.</li>
     <li>specificHorrorStory->Uno de los capítulos describe una teoría según la cual una hiperinteligencia lejana puede manipular psíquicamente la cognición humana, remodelando los pensamientos de una persona para alinearlos con sus propios patrones mentales.</li>
-    <li>specificHorrorStory->El protagonista cuenta que siente que una fuerza psíquica siniestra que emana de la nada le cambia los cables a la fuerza.</li>
+    <li>specificHorrorStory->El protagonista cuenta que siente que una fuerza psíquica siniestra que emana de la nada le reconfigura la mente de forma violenta.</li>
     <li>entities->demonios</li>
     <li>entities->cadáveres andantes</li>
     <li>entities->monstruos sedientos de dolor</li>
-    <li>entitiesy_Fem->criaturas de carne y hueso expuesto</li>
-    <li>entities->cadáveres andante de unos [Animal_Plural]</li>
+    <li>entities_Fem->criaturas de carne viva y hueso expuesto</li>
+    <li>entities->cadáveres andantes de [Animal_Plural]</li>
     <li>entities_Fem->figuras con forma de hombre hechas de metal y cuchillas</li>
-    <li>entities_Fem->esferas mecánicas flotantes que emite dolor</li>
+    <li>entities_Fem->esferas mecánicas flotantes que irradian dolor</li>
     <li>entities->hermosos cubos dorados que destruyen mentes</li>
     <li>entities_Fem->bestias hechas de carne sangrienta</li>
     <li>entities_Fem->formas que se esconden a plena vista</li>
-    <li>entities->cazadores que roba almas</li>
+    <li>entities->cazadores que roban almas</li>
     <li>entity->demonio</li>
     <li>entity->cadáver andante</li>
     <li>entity->monstruo sediento de dolor</li>
-    <li>entity_Fem->criatura de carne y hueso expuesto</li>
+    <li>entity_Fem->criatura de carne viva y hueso expuesto</li>
     <li>entity->cadáver andante de un [Animal]</li>
     <li>entity_Fem->figura con forma de hombre hecha de metal y cuchillas</li>
-    <li>entity_Fem->esfera mecánica flotante que emite dolor</li>
+    <li>entity_Fem->esfera mecánica flotante que irradia dolor</li>
     <li>entity->hermoso cubo dorado que destruye mentes</li>
     <li>entity_Fem->bestia hecha de carne sangrienta</li>
     <li>entity_Fem->forma que se esconde a plena vista</li>
@@ -556,7 +608,7 @@
     <li>adjectiveEvil->ominosos</li>
     <li>adjectiveEvil->arcanos</li>
     <li>adjectiveEvil->surrealistas</li>
-    <li>adjectiveEvil->asombrosos</li>
+    <li>adjectiveEvil->inquietantes</li>
     <li>adjectiveEvil->fantasmales</li>
     <li>adjectiveEvil->enigmáticos</li>
     <li>adjectiveEvil->infernales</li>
@@ -578,11 +630,11 @@
     <li>writingQualityAdjective(quality==2)->simple</li>
     <li>writingQualityAdjective(quality==2)->aceptable</li>
     <li>writingQualityAdjective(quality==3)->monótono</li>
-    <li>writingQualityAdjective(quality==3)->bien escrito</li>
+    <li>writingQualityAdjective(quality==3)->bien estructurado</li>
     <li>writingQualityAdjective(quality==3)->bien redactado</li>
     <li>writingQualityAdjective(quality==3)->reflexivo</li>
     <li>writingQualityAdjective(quality==3)->legible</li>
-    <li>writingQualityAdjective(quality==3)->divertido</li>
+    <li>writingQualityAdjective(quality==3)->corriente</li>
     <li>writingQualityAdjective(quality==4)->agradable</li>
     <li>writingQualityAdjective(quality==4)->entretenido</li>
     <li>writingQualityAdjective(quality==4)->emocionalmente expresivo</li>
@@ -622,7 +674,7 @@
     <li>writingQualityAdjective_Fem(quality==3)->bien articulada</li>
     <li>writingQualityAdjective_Fem(quality==3)->reflexiva</li>
     <li>writingQualityAdjective_Fem(quality==3)->legible</li>
-    <li>writingQualityAdjective_Fem(quality==3)->divertida</li>
+    <li>writingQualityAdjective_Fem(quality==3)->corriente</li>
     <li>writingQualityAdjective_Fem(quality==4)->agradable</li>
     <li>writingQualityAdjective_Fem(quality==4)->entretenida</li>
     <li>writingQualityAdjective_Fem(quality==4)->emocionalmente expresiva</li>
@@ -647,7 +699,7 @@
     <li>writingQualityAdjective_Pl(quality==0)->terribles</li>
     <li>writingQualityAdjective_Pl(quality==0)->pueriles</li>
     <li>writingQualityAdjective_Pl(quality==1)->débiles</li>
-    <li>writingQualityAdjective_Pl(quality==1)->toscamentes garabateadas</li>
+    <li>writingQualityAdjective_Pl(quality==1)->toscamente garabateadas</li>
     <li>writingQualityAdjective_Pl(quality==1)->tediosas</li>
     <li>writingQualityAdjective_Pl(quality==1)->inconsistentes</li>
     <li>writingQualityAdjective_Pl(quality==1)->garabateadas</li>
@@ -662,11 +714,11 @@
     <li>writingQualityAdjective_Pl(quality==3)->bien articuladas</li>
     <li>writingQualityAdjective_Pl(quality==3)->reflexivas</li>
     <li>writingQualityAdjective_Pl(quality==3)->legibles</li>
-    <li>writingQualityAdjective_Pl(quality==3)->divertidas</li>
+    <li>writingQualityAdjective_Pl(quality==3)->corrientes</li>
     <li>writingQualityAdjective_Pl(quality==4)->agradables</li>
     <li>writingQualityAdjective_Pl(quality==4)->entretenidas</li>
     <li>writingQualityAdjective_Pl(quality==4)->emocionalmente expresivas</li>
-    <li>writingQualityAdjective_Pl(quality==4)->estructuradas de forma precisas</li>
+    <li>writingQualityAdjective_Pl(quality==4)->estructuradas de forma precisa</li>
     <li>writingQualityAdjective_Pl(quality==4)->persuasivas</li>
     <li>writingQualityAdjective_Pl(quality==4)->respetables</li>
     <li>writingQualityAdjective_Pl(quality==5)->sólidas</li>
@@ -697,7 +749,7 @@
     <li>awfulDesc->es infantil</li>
     <li>awfulDesc->mezcla la realidad con la fantasía a su antojo</li>
     <li>awfulDesc->se lee como escritura automática</li>
-    <li>awfulDesc->está saturado de licor y sangre</li>
+    <li>awfulDesc->está saturado de icor y sangre</li>
     <li>awfulDesc->habla principalmente de un romance sobre dos [entities]</li>
     <li>awfulDesc->habla principalmente de un romance sobre dos [entities_Fem]</li>
     <li>decentDesc->es sólido pero se habría beneficiado de una buena edición</li>

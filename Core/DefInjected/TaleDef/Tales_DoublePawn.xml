@@ -168,17 +168,26 @@
   -->
   <Hunted.rulePack.rulesStrings>
     <li>tale_noun->[HUNTER_nameDef] cazó a [PREY_nameDef]</li>
-    <li>tale_noun->[HUNTER_nameDef] cazó un(a) [PREY_nameDef] con éxito</li>
-    <li>tale_noun->caza exitosa de [HUNTER_nameDef]</li>
-    <li>image->[PREY_nameFull] siendo cazado(a) por [HUNTER_nameFull] [circumstance_group]</li>
+    <li>tale_noun->[HUNTER_nameDef] logró cazar a [PREY_nameDef]</li>
+    <li>tale_noun->[HUNTER_nameDef] dio caza a [PREY_nameDef]</li>
+    <li>tale_noun->la caza de [PREY_nameDef] por [HUNTER_nameDef]</li>
+    <li>image->[HUNTER_nameFull] cazando a [PREY_nameFull] [circumstance_group]</li>
+    <li>image->[HUNTER_nameFull] persiguiendo a [PREY_nameFull] [circumstance_group]</li>
+    <li>image->[HUNTER_nameFull] siguiendo el rastro de [PREY_nameFull] [circumstance_group]</li>
     <li>image->[HUNTER_nameFull] acechando a [PREY_nameFull] desde lejos</li>
     <li>image->[HUNTER_nameFull] cazando a [prey_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->mientras [PREY_nameDef] se relaja</li>
     <li>circumstance_phrase->mientras [PREY_nameDef] camina por ahí</li>
     <li>circumstance_phrase->mientras [PREY_nameDef] come</li>
+    <li>circumstance_phrase->mientras [PREY_nameDef] husmea el suelo</li>
+    <li>circumstance_phrase->mientras [PREY_nameDef] se abre paso entre la maleza</li>
+    <li>circumstance_phrase->mientras [PREY_nameDef] se detiene un instante</li>
     <li>desc_sentence->[PREY_nameDef] no se da cuenta.</li>
     <li>desc_sentence->[HUNTER_nameDef] se aferra a su arma.</li>
     <li>desc_sentence->[PREY_nameDef] mira alrededor, como presintiendo el peligro.</li>
+    <li>desc_sentence->[HUNTER_nameDef] mantiene la mirada fija en su presa.</li>
+    <li>desc_sentence->[PREY_nameDef] parece confiarse demasiado.</li>
+    <li>desc_sentence->Todo parece en calma durante un instante.</li>
   </Hunted.rulePack.rulesStrings>
   
   <!-- EN: colonist kidnapped -->
@@ -400,15 +409,19 @@
     <li>image->[TAMER_nameFull] ofreciendo un bocado de comida a [ANIMAL_indefinite] [circumstance_group]</li>
     <li>image->[TAMER_nameFull] susurrando al oído de [ANIMAL_indefinite] [circumstance_group]</li>
     <li>image->[TAMER_nameFull] calmando a [ANIMAL_indefinite] salvaje [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] tendiendo la mano hacia [ANIMAL_indefinite] [circumstance_group]</li>
     <li>circumstance_phrase->con gran precaución</li>
     <li>circumstance_phrase->con una sonrisa</li>
     <li>circumstance_phrase->con gran cansancio, pero feliz</li>
+    <li>circumstance_phrase->con paciencia infinita</li>
+    <li>circumstance_phrase->en voz baja</li>
     <li>desc_sentence->[ANIMAL_nameDef] gruñe agresivamente.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] parece que tiene sueño y estar embriagado(a) de amor.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] parece tener sueño y estar muy mimoso.</li>
     <li>desc_sentence->[ANIMAL_nameDef] parece estar en un estado hipnótico.</li>
     <li>desc_sentence->[ANIMAL_nameDef] parece tener miedo pero muestra interés.</li>
     <li>desc_sentence->[ANIMAL_nameDef] parece mostrar fascinación.</li>
     <li>desc_sentence->[TAMER_nameDef] proyecta mucho amor hacia [ANIMAL_nameDef].</li>
+    <li>desc_sentence->[TAMER_nameDef] transmite calma {replace: a [ANIMAL_nameDef]; "a el "-"al "}.</li>
   </TamedAnimal.rulePack.rulesStrings>
   
   <!-- EN: traded with someone -->
@@ -484,24 +497,26 @@
     <li>tale_noun->[TRAINER_nameDef] entrenó a [ANIMAL_nameDef]</li>
     <li>tale_noun->[ANIMAL_nameDef] recibió entrenamiento</li>
     <li>tale_noun->[ANIMAL_nameDef] recibió entrenamiento de [TRAINER_nameDef]</li>
-    <li>image->[TRAINER_nameFull] [train_syn] a [ANIMAL_nameFull] en [TRAINABLE_label] [circumstance_group]</li>
-    <li>image->[TRAINER_nameFull] enseñando [TRAINABLE_label] a [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[TRAINER_nameFull] {replace: [train_syn] a [ANIMAL_nameFull] en [TRAINABLE_label]; "a el "-"al "} [circumstance_group]</li>
+    <li>image->[TRAINER_nameFull] {replace: enseñando [TRAINABLE_label] a [ANIMAL_nameFull]; "a el "-"al "} [circumstance_group]</li>
     <li>image->[TRAINER_nameFull] practicando [TRAINABLE_label] con [ANIMAL_nameFull] [circumstance_group]</li>
     <li>train_syn->entrenando</li>
-    <li>train_syn->adoctrinando</li>
-    <li>train_syn->amestrando</li>
-    <li>train_syn->enseñando</li>
+    <li>train_syn->adiestrando</li>
+    <li>train_syn->amaestrando</li>
+    <li>train_syn->instruyendo</li>
     <li>train_syn->educando</li>
     <li>circumstance_phrase->mientras otros observan</li>
     <li>circumstance_phrase->mientras unos [Animal_Plural] observan con disgusto</li>
     <li>circumstance_phrase->mientras [ANIMAL_nameDef] recuerda con nostalgia sus días de animal silvestre</li>
     <li>circumstance_phrase->mientras [TRAINER_nameDef] piensa en su próximo almuerzo</li>
     <li>circumstance_phrase->mientras los otros colonos hacen su trabajo</li>
+    <li>circumstance_phrase->con una paciencia admirable</li>
+    <li>circumstance_phrase->entre órdenes repetidas</li>
     <li>desc_sentence->[TRAINER_nameDef] se ve complacid[TRAINER_o_a].</li>
     <li>desc_sentence->[TRAINER_nameDef] sonríe.</li>
     <li>desc_sentence->[TRAINER_nameDef] se ve aburrid[TRAINER_o_a].</li>
     <li>desc_sentence->[TRAINER_nameDef] agita su puño amenazadoramente.</li>
-    <li>desc_sentence->[TRAINER_nameDef] frunce su ceño.</li>
+    <li>desc_sentence->[TRAINER_nameDef] frunce el ceño.</li>
     <li>desc_sentence->[ANIMAL_nameDef] muestra signos de confusión.</li>
     <li>desc_sentence->[ANIMAL_nameDef] tiene un arma en su hocico.</li>
     <li>desc_sentence->[ANIMAL_nameDef] gruñe.</li>
@@ -509,7 +524,7 @@
     <li>desc_sentence->[ANIMAL_nameDef] tiembla de miedo.</li>
     <li>desc_sentence->[ANIMAL_nameDef] se retuerce en el suelo.</li>
     <li>desc_sentence->[ANIMAL_nameDef] brinca de alegría.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] es mitad [Color] mitad [Color].</li>
+    <li>desc_sentence->[ANIMAL_nameDef] es mitad [Color] y mitad [Color].</li>
     <li>desc_sentence->[ANIMAL_nameDef] está durmiendo.</li>
     <li>desc_sentence->[TRAINER_nameDef] parece tener [Quantity_adjphrase] brazos.</li>
     <li>desc_sentence->[TRAINER_nameDef] parece estarse convirtiendo en [ANIMAL_definite].</li>

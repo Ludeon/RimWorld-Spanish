@@ -344,8 +344,8 @@
     <li>questName(asker_gender==Female,lodgerCount==1)->[asker_nameDef] la [lodgerAdjFem]</li>
     <li>questName(asker_gender!=Female,lodgerCount==1)->[athe] [lodgerSingle] [lodgerAdj]</li>
     <li>questName(asker_gender==Female,lodgerCount==1)->[atheFem] [lodgerSingleFem] [lodgerAdjFem]</li>
-    <li>questName(p=2,lodgerCount>=2)->[lodgerPlural] [lodgerAdj]s</li>
-    <li>questName(lodgerCount>=2)->Los [lodgerPlural] [lodgerAdj]s de [asker_nameDef]</li>
+    <li>questName(p=2,lodgerCount>=2)->[lodgerPlural] [lodgerAdjPlural]</li>
+    <li>questName(lodgerCount>=2)->Los [lodgerPlural] [lodgerAdjPlural] de [asker_nameDef]</li>
     <li>questName(lodgerCount>=2)->[asker_nameDef] y unos [lodgerPlural]</li>
     <li>athe->un</li>
     <li>athe->el</li>
@@ -362,6 +362,17 @@
     <li>lodgerAdj->desconocido</li>
     <li>lodgerAdj->desamparado</li>
     <li>lodgerAdj->abandonado</li>
+    <li>lodgerAdjPlural->cansados</li>
+    <li>lodgerAdjPlural->perdidos</li>
+    <li>lodgerAdjPlural->indigentes</li>
+    <li>lodgerAdjPlural->pobres</li>
+    <li>lodgerAdjPlural->desesperados</li>
+    <li>lodgerAdjPlural->tristes</li>
+    <li>lodgerAdjPlural->polvorientos</li>
+    <li>lodgerAdjPlural->sin esperanza</li>
+    <li>lodgerAdjPlural->desconocidos</li>
+    <li>lodgerAdjPlural->desamparados</li>
+    <li>lodgerAdjPlural->abandonados</li>
     <li>lodgerAdjFem->cansada</li>
     <li>lodgerAdjFem->perdida</li>
     <li>lodgerAdjFem->indigente</li>

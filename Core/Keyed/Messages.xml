@@ -45,7 +45,7 @@
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0_definite} que vestía {1_nameFull} se ha deteriorado por completo.</MessageWornApparelDeterioratedAway>
   <!-- EN: {0} has deteriorated away in storage. -->
-  <MessageDeterioratedAway>{0_indefinite} se ha deteriorado en el almacén.</MessageDeterioratedAway>
+  <MessageDeterioratedAway>{lookup: {0_indefinite}; fix_indefinite} se {replace: {lookup: {0_indefinite}; fix_indefinite; 2}; "{0_indefinite}"-"ha"} deteriorado en el almacén.</MessageDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>{0_definite} ha comenzado.</MessageSeasonBegun>
@@ -539,7 +539,7 @@
   <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>{1_labelShort} murió</GoodwillChangedReason_PawnDied>
   <!-- EN: {0_labelShort} stripped -->
-  <GoodwillChangedReason_PawnStripped>{0_labelShort} fue desnudado(a)</GoodwillChangedReason_PawnStripped>
+  <GoodwillChangedReason_PawnStripped>se desnudó a {0_labelShort}</GoodwillChangedReason_PawnStripped>
   <!-- EN: traded -->
   <GoodwillChangedReason_Traded>se comerció</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->

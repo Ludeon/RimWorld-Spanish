@@ -58,4 +58,4 @@ foreach ($archivo in $archivosTXT) {
     Write-Host "✔ Ordenado: $([System.IO.Path]::GetRelativePath($base, $ruta))" -ForegroundColor Green
 }
 
-Write-Host "`nProceso completado." -ForegroundColor Cyan
+Write-Host "Proceso completado." -ForegroundColor Cyan

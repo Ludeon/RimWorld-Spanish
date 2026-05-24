@@ -53,10 +53,14 @@
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] ha [damaged_past] [strikeAdv] [damaged_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
     <li>r_logentry->[INITIATOR_definite] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
     <li>r_logentry->[INITIATOR_definite] ha [damaged_past] [strikeAdv] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
-    <li>r_logentry(RECIPIENT_gender!=Female)->[RECIPIENT_definite] fue [damaged_past1]o.</li>
+    <li>r_logentry(RECIPIENT_gender!=Female)->[RECIPIENT_definite] resultó [damaged_past_masc] por [blastDef].</li>
+    <li>r_logentry(RECIPIENT_gender!=Female)->[RECIPIENT_definite] quedó [damaged_past_masc] por [blastDef].</li>
+    <li>r_logentry(RECIPIENT_gender!=Female)->[RECIPIENT_definite] fue [damaged_past_masc] por [blastDef].</li>
     <li>r_logentry(p=0.001,RECIPIENT_gender!=Female)->[RECIPIENT_definite] quedó atrapado en una explosión.</li>
     <li>r_logentry(p=0.001,RECIPIENT_gender!=Female)->[RECIPIENT_definite] fue golpeado por una explosión.</li>
-    <li>r_logentry(RECIPIENT_gender==Female)->[RECIPIENT_definite] fue [damaged_past1]a.</li>
+    <li>r_logentry(RECIPIENT_gender==Female)->[RECIPIENT_definite] resultó [damaged_past_fem] por [blastDef].</li>
+    <li>r_logentry(RECIPIENT_gender==Female)->[RECIPIENT_definite] quedó [damaged_past_fem] por [blastDef].</li>
+    <li>r_logentry(RECIPIENT_gender==Female)->[RECIPIENT_definite] fue [damaged_past_fem] por [blastDef].</li>
     <li>r_logentry(p=0.001,RECIPIENT_gender==Female)->[RECIPIENT_definite] quedó atrapada en una explosión.</li>
     <li>r_logentry(p=0.001,RECIPIENT_gender==Female)->[RECIPIENT_definite] fue golpeada por una explosión.</li>
     <li>blast->explosión</li>
@@ -67,17 +71,22 @@
     <li>blastMas->impacto</li>
     <li>blastDefCap->La [blast]</li>
     <li>blastDefCap->El [blastMas]</li>
+    <li>blastDef->la [blast]</li>
+    <li>blastDef->el [blastMas]</li>
     <li>fromof->de</li>
     <li>fromof->de</li>
-    <li>injured->lastimado</li>
     <li>injured->herido</li>
     <li>injured->lesionado</li>
-    <!--OJO "herid", "Lastimad" No es un error, se complementa con otras reglas para establecer el sexo del colono, damaged_past = herido o herida y así con el resto de damaged_past (zerstrick 16-10-2020) -->
-    <li>damaged_past1->herid</li>
-    <li>damaged_past1->lastimad</li>
-    <li>damaged_past1->perforad</li>
-    <li>damaged_past1->dañad</li>
-    <li>damaged_past1->atravesad</li>
+    <li>injured->dañado</li>
+    <li>injured->magullado</li>
+    <li>damaged_past_masc->herido</li>
+    <li>damaged_past_masc->lesionado</li>
+    <li>damaged_past_masc->perforado</li>
+    <li>damaged_past_masc->dañado</li>
+    <li>damaged_past_fem->herida</li>
+    <li>damaged_past_fem->lesionada</li>
+    <li>damaged_past_fem->perforada</li>
+    <li>damaged_past_fem->dañada</li>
   </Combat_ExplosionImpact.rulePack.rulesStrings>
   
   <!-- EN:

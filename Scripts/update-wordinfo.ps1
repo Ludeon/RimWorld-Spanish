@@ -19,6 +19,7 @@ foreach ($root in $roots) {
 
     # Paths of the XML files in which the words should be searched
     $paths = @(
+        "$root\DefInjected\BackstoryDef"
         "$root\DefInjected\BodyDef"
         "$root\DefInjected\BodyPartDef"
         "$root\DefInjected\BodyPartGroupDef"
@@ -30,14 +31,22 @@ foreach ($root in $roots) {
         "$root\DefInjected\MapGeneratorDef"
         "$root\DefInjected\PawnKindDef"
         "$root\DefInjected\PreceptDef"
+        "$root\DefInjected\PsychicRitualRoleDef"
         "$root\DefInjected\RoyalTitleDef"
         "$root\DefInjected\SitePartDef"
         "$root\DefInjected\TerrainDef"
         "$root\DefInjected\ThingDef"
+        "$root\DefInjected\TraderKindDef"
         "$root\DefInjected\WorldObjectDef"
+        "$root\DefInjected\RitualBehaviorDef"
+        "$root\DefInjected\PlanetLayerDef"
         "$root\DefInjected\RoomRoleDef"
         "$root\DefInjected\SkillDef"
     )
+
+    $generalPattern = "<(.*(labelMale|labelFemale|\.label|\.labelNoLocation|\.pawnSingular|title|titleShort|titleFemale|titleShortFemale|\.chargeNoun|\.customLabel))>(?<value>.*?)</\1>"
+    $malePattern = "<(.*(labelMale))>(?<value>.*?)</\1>"
+    $femalePattern = "<(.*(\.labelFemale|titleFemale|titleShortFemale))>(?<value>.*?)</\1>"
 
     # Search words in the XML files and save them in different lists of words depending on their gender
     foreach ($path in $paths) {
@@ -47,20 +56,32 @@ foreach ($root in $roots) {
         }
         Write-Host "    Procesando '$path'..." -ForegroundColor Blue
 
-        # unknown gender in $paths
+        # unknown gender words in $paths
         Get-Content -Path "$path/*" -Filter "*.xml" |
-            Select-String -Pattern "<(.*(\.label|\.pawnSingular|title|titleShort|\.chargeNoun|\.customLabel))>(.*?)</\1>" -All |
-            ForEach-Object { $_.Matches.Groups[3].Value.ToLower() } >> "$temp/all_unknown1.txt"
+            Select-String -Pattern $generalPattern -All |
+            ForEach-Object {
+                foreach ($match in $_.Matches) {
+                    $match.Groups["value"].Value.ToLower()
+                }
+            } >> "$temp/all_general1.txt"
 
         # male gender
         Get-Content -Path "$path/*" -Filter "*.xml" |
-            Select-String -Pattern "<(.*(labelMale))>(.*?)</\1>" -All |
-            ForEach-Object { $_.Matches.Groups[3].Value.ToLower() } >> "$temp/all_males.txt"
+            Select-String -Pattern $malePattern -All |
+            ForEach-Object {
+                foreach ($match in $_.Matches) {
+                    $match.Groups["value"].Value.ToLower()
+                }
+            } >> "$temp/all_males.txt"
 
         # female gender
         Get-Content -Path "$path/*" -Filter "*.xml" |
-            Select-String -Pattern "<(.*(\.labelFemale|titleFemale|titleShortFemale))>(.*?)</\1>" -All |
-            ForEach-Object { $_.Matches.Groups[3].Value.ToLower() } >> "$temp/all_females.txt"
+            Select-String -Pattern $femalePattern -All |
+            ForEach-Object {
+                foreach ($match in $_.Matches) {
+                    $match.Groups["value"].Value.ToLower()
+                }
+            } >> "$temp/all_females.txt"
     }
 
     # add season names (if not, they are auto-deleted)
@@ -87,7 +108,7 @@ foreach ($root in $roots) {
     # Create files
     foreach ($fileName in "Male", "Female", "Neuter", "New_Words") {
         if (!(Test-Path "$main/$fileName.txt")) {
-            New-Item -Path $main -Name "$fileName.txt"
+            New-Item -Path $main -Name "$fileName.txt" | Out-Null
         }
     }
 
@@ -114,7 +135,7 @@ foreach ($root in $roots) {
         DifferenceObject = (Get-Content -Path "$temp/all.txt")
     }
     if ($objects.ReferenceObject -and $objects.DifferenceObject) {
-        Compare-Object @objects -PassThru | Where-Object { $_.SideIndicator -eq "=>" } > "$main/New_words.txt"
+        Compare-Object @objects -PassThru | Where-Object { $_.SideIndicator -eq "=>" } > "$main/New_Words.txt"
     }
 
     # ==== Eliminar de New_Words.txt las ya clasificadas automáticamente ====

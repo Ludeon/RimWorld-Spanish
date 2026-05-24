@@ -12,8 +12,8 @@
     <li>questDescription->Has detectado un dron espacial en órbita que puede contener información sobre la reliquia [relic_name]. Tienes el código que lo obligará a aterrizar en [map_definite].\n\nPara obtener la información, hackea el ordenador del dron. El hackeo lleva tiempo, pero los que tienen una gran habilidad intelectual pueden acelerar el proceso.[raidsDescription]\n\nDespués de aterrizar, el dron espacial se autodestruirá en [destroyDelayTicks_duration].</li>
     <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] de la facción [enemyFaction_name] [droneDetectionMethod]. Mientras esté presente, enviarán atacantes aproximadamente cada [raidIntervalAvg_duration] para destruirlo y robar la riqueza que creen que contiene. Tendrás algo de tiempo para preparar las defensas a su alrededor antes de que lleguen.</li>
     <li>raidsDescription(allowViolence==false)-></li>
-    <li>droneDetectionMethod(enemyFactionNeolithic==true)->detectará el dron durante su descenso</li>
-    <li>droneDetectionMethod(enemyFactionNeolithic==false)->detectará la firma energética del dron</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->detectarán el dron durante su descenso</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==false)->detectarán la firma energética del dron</li>
   </Hack_Spacedrone.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[droneAdj] [drone] hack</li>

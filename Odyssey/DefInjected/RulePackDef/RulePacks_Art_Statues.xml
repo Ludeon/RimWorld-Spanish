@@ -169,18 +169,18 @@
   <ArtDescription_Statue.rulePack.rulesStrings>
     <li>r_statue_description->Esta estatua [statueDepicts] a [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
     <li>r_statue_description->Una estatua [statueAdj] que representa a [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
-    <li>r_statue_description->La estatua de [SUBJECT_nameFull] [carvedVerb] [carvedAdverb]. [SUBJECT_objective] [statueDepicts] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->La estatua de [SUBJECT_nameFull] está [carvedVerb] [carvedAdverb] y [SUBJECT_objective] [statueDepicts] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
     <li>r_statue_description->Una estatua que muestra a [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
-    <li>r_statue_description->La estatua de [SUBJECT_nameFull] [statueAdj]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->La estatua de [SUBJECT_nameFull] es [statueAdj]. [statueFaceDesc] [style_group_statue]</li>
     <li>statueSubjectDesc->de pie sosteniendo un [prop] con ambas manos</li>
     <li>statueSubjectDesc->de pie sosteniendo una [propFem] con ambas manos</li>
     <li>statueSubjectDesc->de pie y mirando noblemente a lo lejos</li>
-    <li>statueSubjectDesc->empuñando un puño hacia el cielo</li>
+    <li>statueSubjectDesc->alzando un puño hacia el cielo</li>
     <li>statueSubjectDesc->tendiendo la mano hacia arriba, aferrándose a algo invisible</li>
     <li>statueSubjectDesc->inclinándose hacia un lado como si estuviera a punto de caerse[maybeInsult]</li>
     <li>statueSubjectDesc->de pie sobre un solo pie[maybeInsult]</li>
     <li>statueSubjectDesc->inclinándose profundamente</li>
-    <li>statueSubjectDesc->contra el viento</li>
+    <li>statueSubjectDesc->plantando cara al viento</li>
     <li>statueSubjectDesc->de rodillas en oración</li>
     <li>statueSubjectDesc->con las manos alzadas como en oración</li>
     <li>statueSubjectDesc->con las manos apretadas en señal de gratitud</li>
@@ -229,7 +229,7 @@
     <li>statueFaceDesc->[SUBJECT_indefinite] tiene una mirada de [facialLook].</li>
     <li>statueFaceDesc->El rostro de [SUBJECT_indefinite] [depicts] [facialLook].</li>
     <li>statueFaceDesc->[SUBJECT_indefinite] tiene un semblante sabio y reflexivo.</li>
-    <li>statueFaceDesc->[SUBJECT_indefinite] grita, la boca abierta en un grito silencioso.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] grita, con la boca abierta en un grito mudo.</li>
     <li>statueFaceDesc->[SUBJECT_indefinite] mira con tristeza a lo lejos.</li>
     <li>statueFaceDesc->La estatua [depicts] a [SUBJECT_indefinite] con su característica mirada de determinación.</li>
     <li>statueFaceDesc->La estatua [depicts] a [SUBJECT_indefinite] riendo a carcajadas.</li>
@@ -264,27 +264,27 @@
     <li>style_group_statue->[artextra_clause_statue].</li>
     <li>style_group_statue-></li>
     <li>artextra_clause_statue->el pedestal de la estatua está bordeado por [subimageplural]</li>
-    <li>artextra_clause_statue->tallada en la piel del sujeto están [subimageplural]</li>
-    <li>artextra_clause_statue->Varias tallas más pequeñas rodean la estatua. Cada una se asemeja a [subimagesingle]</li>
+    <li>artextra_clause_statue->sobre la piel del sujeto hay tallados [subimageplural]</li>
+    <li>artextra_clause_statue->varias tallas más pequeñas rodean la estatua. Cada una se asemeja a [subimagesingle]</li>
     <li>artextra_clause_statue->las piernas de la estatua están ocultas por [subimageplural]</li>
-    <li>artextra_clause_statue->[carvedVerb] en la cara de la estatua es una imagen de [subimageany]</li>
+    <li>artextra_clause_statue->en el rostro de la estatua hay tallada una imagen de [subimageany]</li>
     <li>artextra_clause_statue->[SUBJECT_indefinite] se encuentra en medio de un [Community]</li>
-    <li>artextra_clause_statue->[SUBJECT_indefinite] se encuentra en medio de una [Communities_Fem]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] se encuentra en medio de una [Community_Fem]</li>
     <li>artextra_clause_statue->la base de la estatua parece ser un [TerrainFeature]</li>
     <li>artextra_clause_statue->la base de la estatua parece ser una [TerrainFeature_Fem]</li>
     <li>artextra_clause_statue->[SUBJECT_indefinite] parece surgir de un [TerrainFeature]</li>
     <li>artextra_clause_statue->[SUBJECT_indefinite] parece surgir de una [TerrainFeature_Fem]</li>
     <li>artextra_clause_statue->un pequeño [Character] aparece [side_position_statue]</li>
     <li>artextra_clause_statue->una pequeña [Character_Fem] aparece [side_position_statue]</li>
-    <li>artextra_clause_statue->un [Character] [PAWN_adj] aparece [side_position_statue]</li>
+    <li>artextra_clause_statue->un [Character] [pawn_adj] aparece [side_position_statue]</li>
     <li>artextra_clause_statue->[Quantity_adjphrase] [Character_Plural] aparecen [side_position_statue]</li>
-    <li>artextra_clause_statue->[Quantity_adjphrase] [Character_Plural] [PAWN_adjPl] aparecen [side_position_statue]</li>
-    <li>artextra_clause_statue->un [Animal] está tallado [side_position_statue]</li>
-    <li>artextra_clause_statue->una [Animal_Fem] está tallada [side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [Character_Plural] [pawn_adjPl] aparecen [side_position_statue]</li>
+    <li>artextra_clause_statue->Un [Animal] está tallado [side_position_statue]</li>
+    <li>artextra_clause_statue->Una [Animal_Fem] está tallada [side_position_statue]</li>
     <li>artextra_clause_statue->de lejos, la composición [composition] de la estatua revela el contorno de [subimageany]</li>
     <li>artextra_clause_statue->la estatua sostiene un [Animal] bajo un brazo</li>
     <li>artextra_clause_statue->la estatua sostiene una [Animal_Fem] bajo un brazo</li>
-    <li>artextra_clause_statue->la estatua sostiene [Quantity_adjphrase] [Character_Plural] [PAWN_adjPl]</li>
+    <li>artextra_clause_statue->la estatua sostiene [Quantity_adjphrase] [Character_Plural] [pawn_adjPl]</li>
     <li>artextra_clause_statue->el [statueBodyPart] de [SUBJECT_indefinite] está abierto. Dentro se pueden ver [subimageplural]</li>
     <li>artextra_clause_statue->la [statueBodyPartFem] de [SUBJECT_indefinite] está abierta. Dentro se pueden ver [subimageplural]</li>
     <li>carvedAdverb->cuidadosamente</li>
@@ -295,7 +295,7 @@
     <li>carvedVerb->tallada</li>
     <li>carvedVerb->esculpida</li>
     <li>carvedVerb->cincelada</li>
-    <li>statueAdj->más grande que la vida</li>
+    <li>statueAdj->de tamaño colosal</li>
     <li>statueAdj->altísima</li>
     <li>statueAdj->enorme</li>
     <li>statueAdj->grande</li>
@@ -305,23 +305,23 @@
     <li>statueAdj->solemne</li>
     <li>statueAdj->noble</li>
     <li>statueAdj->serena</li>
-    <li>statueAdj->desmoronándose</li>
+    <li>statueAdj->desmoronada</li>
     <li>statueAdj->modesta</li>
     <li>statueAdj->reveladora</li>
     <li>statueAdj->cruda</li>
-    <li>statueAdj->excitante</li>
+    <li>statueAdj->seductora</li>
     <li>statueAdj->provocativa</li>
     <li>statueAdj->sugerente</li>
     <li>statueAdj->grotesca</li>
     <li>statueAdj->espantosa</li>
     <li>statueAdj->majestuosa</li>
-    <li>statueDepicts->describe</li>
+    <li>statueDepicts->representa</li>
     <li>statueDepicts->muestra</li>
     <li>statueDepicts->retrata</li>
     <li>side_position_statue->en la base</li>
     <li>side_position_statue->en el pedestal junto a [SUBJECT_indefinite]</li>
     <li>side_position_statue->bajo el talón de [SUBJECT_indefinite]</li>
-    <li>side_position_statue->en brazos de [SUBJECT_indefinite]</li>
+    <li>side_position_statue->en los brazos de [SUBJECT_indefinite]</li>
     <li>side_position_statue->sobre la cabeza de [SUBJECT_indefinite]</li>
     <li>side_position_statue->sobre los hombros de [SUBJECT_indefinite]</li>
     <li>side_position_statue->detrás de la estatua central</li>
@@ -423,11 +423,11 @@
     <li>r_statue_name(p=4)->[SUBJECT_nameFull]</li>
     <li>r_statue_name->Estatua de [SUBJECT_indefinite]</li>
     <li>r_statue_name->Estudio de [SUBJECT_indefinite]</li>
-    <li>r_statue_name->Un estudio en [statueIdea]</li>
-    <li>r_statue_name->[SUBJECT_indefinite] [statueAdj]</li>
-    <li>r_statue_name->[SUBJECT_indefinite], la [statueAdj]</li>
-    <li>r_statue_name->El [subjectNounMasc] [statueAdj]</li>
-    <li>r_statue_name->La [subjectNoun] [statueAdj]</li>
+    <li>r_statue_name->Un estudio sobre [statueIdeaDef]</li>
+    <li>r_statue_name->[SUBJECT_indefinite], [statueEpithet]</li>
+    <li>r_statue_name->[SUBJECT_indefinite], la [statueTitle]</li>
+    <li>r_statue_name->El [subjectNounMasc] [statueAdjMasc]</li>
+    <li>r_statue_name->La [subjectNoun] [statueTitle]</li>
     <li>r_statue_name->Figura de [statueIdea]</li>
     <li>r_statue_name->[statueIdea] y [subjectNoun]</li>
     <li>r_statue_name->[subjectNoun] de [SUBJECT_indefinite]</li>
@@ -436,21 +436,48 @@
     <li>r_statue_name->[subjectNoun] de [statueIdea]</li>
     <li>r_statue_name->[SUBJECT_indefinite] y [talktopicheavyfile]</li>
     <li>statueAdj(p=5)->[AdjectiveAny]</li>
-    <li>statueAdj->Esculpida</li>
-    <li>statueAdj->Silenciosa</li>
-    <li>statueAdj->Eterna</li>
-    <li>statueAdj->Perfecta</li>
-    <li>statueAdj->Cincelada</li>
-    <li>statueAdj->Atemporal</li>
-    <li>statueAdj->Intacta</li>
-    <li>statueAdj->Resonante</li>
-    <li>statueAdj->Ideal</li>
-    <li>statueAdj->Humana</li>
-    <li>statueAdj->Imperfecta</li>
-    <li>statueAdj->Resonante</li>
-    <li>statueAdj->Luctuosa</li>
-    <li>statueAdj->Congelada</li>
-    <li>statueAdj->Desmoronada</li>
+    <li>statueTitle->Esculpida</li>
+    <li>statueTitle->Silenciosa</li>
+    <li>statueTitle->Eterna</li>
+    <li>statueTitle->Perfecta</li>
+    <li>statueTitle->Cincelada</li>
+    <li>statueTitle->Atemporal</li>
+    <li>statueTitle->Intacta</li>
+    <li>statueTitle->Resonante</li>
+    <li>statueTitle->Ideal</li>
+    <li>statueTitle->Humana</li>
+    <li>statueTitle->Serena</li>
+    <li>statueTitle->Imperfecta</li>
+    <li>statueTitle->Resonante</li>
+    <li>statueTitle->Doliente</li>
+    <li>statueTitle->Congelada</li>
+    <li>statueTitle->Desmoronada</li>
+    <li>statueAdjMasc->Esculpido</li>
+    <li>statueAdjMasc->Silencioso</li>
+    <li>statueAdjMasc->Eterno</li>
+    <li>statueAdjMasc->Perfecto</li>
+    <li>statueAdjMasc->Cincelado</li>
+    <li>statueAdjMasc->Atemporal</li>
+    <li>statueAdjMasc->Intacto</li>
+    <li>statueAdjMasc->Resonante</li>
+    <li>statueAdjMasc->Ideal</li>
+    <li>statueAdjMasc->Humano</li>
+    <li>statueAdjMasc->Sereno</li>
+    <li>statueAdjMasc->Imperfecto</li>
+    <li>statueAdjMasc->Doliente</li>
+    <li>statueAdjMasc->Congelado</li>
+    <li>statueAdjMasc->Desmoronado</li>
+    <li>statueEpithet->silente</li>
+    <li>statueEpithet->atemporal</li>
+    <li>statueEpithet->ideal</li>
+    <li>statueEpithet->colosal</li>
+    <li>statueEpithet->resonante</li>
+    <li>statueEpithet->vigilante</li>
+    <li>statueEpithet->de piedra</li>
+    <li>statueEpithet->sin edad</li>
+    <li>statueEpithet->solemne</li>
+    <li>statueEpithet->venerable</li>
+    <li>statueEpithet->impasible</li>
     <li>subjectNoun(p=2)->[PersonJob]</li>
     <li>subjectNoun(p=2)->[PersonFamily]</li>
     <li>subjectNoun(p=2)->[PersonAlly]</li>
@@ -460,6 +487,7 @@
     <li>subjectNoun->Centinela</li>
     <li>subjectNoun->Figura</li>
     <li>subjectNoun->Imagen</li>
+    <li>subjectNoun->Guardiana</li>
     <li>subjectNoun->Alma</li>
     <li>subjectNoun->Contemplación</li>
     <li>subjectNoun->Forma</li>
@@ -476,6 +504,24 @@
     <li>statueIdea(p=3)->[ConceptBadass]</li>
     <li>statueIdea(p=3)->[ConceptAngsty]</li>
     <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdeaDef(p=3)->[ConceptAnyDef]</li>
+    <li>statueIdeaDef->la Fortaleza</li>
+    <li>statueIdeaDef->la Sabiduría</li>
+    <li>statueIdeaDef->la Astucia</li>
+    <li>statueIdeaDef->el Heroísmo</li>
+    <li>statueIdeaDef->el Poder</li>
+    <li>statueIdeaDef->la Memoria</li>
+    <li>statueIdeaDef->el Espíritu</li>
+    <li>statueIdeaDef->la Luz</li>
+    <li>statueIdeaDef->el Recuerdo</li>
+    <li>statueIdeaDef->el Patriotismo</li>
+    <li>statueIdeaDef->la Luz matutina</li>
+    <li>statueIdeaDef->el Cielo nocturno</li>
+    <li>statueIdeaDef->el Amanecer</li>
+    <li>statueIdeaDef->la Arena errante</li>
+    <li>statueIdeaDef->el Amor eterno</li>
+    <li>statueIdeaDef->la Pasión</li>
+    <li>statueIdeaDef->la Promesa</li>
     <li>statueIdea->Fortaleza</li>
     <li>statueIdea->Sabiduría</li>
     <li>statueIdea->Astucia</li>
@@ -484,6 +530,7 @@
     <li>statueIdea->Memoria</li>
     <li>statueIdea->Espíritu</li>
     <li>statueIdea->Luz</li>
+    <li>statueIdea->Recuerdo</li>
     <li>statueIdea->Patriotismo</li>
     <li>statueIdea->Luz matutina</li>
     <li>statueIdea->Cielo nocturno</li>
@@ -491,6 +538,7 @@
     <li>statueIdea->Arena errante</li>
     <li>statueIdea->Amor eterno</li>
     <li>statueIdea->Pasión</li>
+    <li>statueIdea->Promesa</li>
   </NamerStatue.rulePack.rulesStrings>
   
 </LanguageData>

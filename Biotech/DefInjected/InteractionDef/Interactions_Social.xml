@@ -43,7 +43,7 @@
     <li>reaction->sonreír</li>
     <li>reaction->retorcerse de alegría</li>
     <li>reaction->reír</li>
-    <li>reaction->babearse juguetonamente</li>
+    <li>reaction->babear de emoción</li>
     <li>reaction->llorar de risa</li>
     <li>reaction->chillar</li>
     <li>reaction->eructar</li>
@@ -63,7 +63,7 @@
     <li>babyGame->al escondite</li>
     <li>babyGame->al cucú</li>
     <li>babyGame->a encontrar el dedo</li>
-    <li>babyGame->a mono mira, mono hace</li>
+    <li>babyGame->a imitar gestos</li>
     <li>babyGame->a mostrar y contar</li>
     <li>babyGame->a marionetas de dedo</li>
   </BabyPlay.logRulesInitiator.rulesStrings>
@@ -99,7 +99,8 @@
     <li>subject->kibble</li>
   -->
   <LessonAnimals.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] cómo [animal_verb] [article_animal] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] a [RECIPIENT_nameDef] cómo [animal_verb] [article_animal].</li>
+    <li>r_logentry(p=2)->[INITIATOR_nameDef] [teach_verb] a [RECIPIENT_nameDef] cómo [animal_verb_a] a [article_animal].</li>
     <li>article_animal->un megaperezoso</li>
     <li>article_animal->una megaraña</li>
     <li>article_animal->un trumbo</li>
@@ -119,6 +120,10 @@
     <li>animal_verb->calmar</li>
     <li>animal_verb->espantar</li>
     <li>animal_verb->ganarse la confianza de</li>
+    <li>animal_verb_a->domar</li>
+    <li>animal_verb_a->alimentar</li>
+    <li>animal_verb_a->calmar</li>
+    <li>animal_verb_a->espantar</li>
     <li>subject->psicología animal</li>
     <li>subject->técnicas de doma</li>
     <li>subject->fauna peligrosa</li>
@@ -150,6 +155,9 @@
     <li>subject->mixing paints</li>
   -->
   <LessonArtistic.logRulesInitiator.rulesStrings>
+    <li>lessonDetail-> sobre [subject]</li>
+    <li>lessonDetail-> acerca de [subject]</li>
+    <li>lessonDetail-> sobre el uso de [article_tool]</li>
     <li>article_tool->un pincel</li>
     <li>article_tool->un lápiz de carbón</li>
     <li>article_tool->un cincel</li>
@@ -192,6 +200,9 @@
     <li>subject->blueprints</li>
   -->
   <LessonConstruction.logRulesInitiator.rulesStrings>
+    <li>lessonDetail-> sobre [subject]</li>
+    <li>lessonDetail-> acerca de [subject]</li>
+    <li>lessonDetail-> sobre el uso de [article_tool]</li>
     <li>article_tool->un martillo</li>
     <li>article_tool->una sierra de mesa</li>
     <li>article_tool->una regla</li>
@@ -236,6 +247,9 @@
     <li>situation->safely</li>
   -->
   <LessonCooking.logRulesInitiator.rulesStrings>
+    <li>lessonDetail-> sobre [subject]</li>
+    <li>lessonDetail-> acerca de [subject]</li>
+    <li>lessonDetail-> sobre el uso de [article_tool]</li>
     <li>article_tool->una cocina</li>
     <li>article_tool->una espátula</li>
     <li>article_tool->un horno</li>
@@ -287,6 +301,9 @@
     <li>situation(p=0.1)->while drunk</li>
   -->
   <LessonCrafting.logRulesInitiator.rulesStrings>
+    <li>lessonDetail-> sobre [subject]</li>
+    <li>lessonDetail-> acerca de [subject]</li>
+    <li>lessonDetail-> sobre el uso de [article_tool]</li>
     <li>article_tool->un destornillador</li>
     <li>article_tool->un par de alicates</li>
     <li>article_tool->una placa de circuitos</li>
@@ -319,7 +336,10 @@
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
   -->
   <LessonGeneric.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] dio una lección a [RECIPIENT_nameDef]</li>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] dio una lección a [RECIPIENT_nameDef][lessonDetail]</li>
+    <li>r_logentry(p=2)->[INITIATOR_nameDef] impartió una lección a [RECIPIENT_nameDef][lessonDetail]</li>
+    <li>r_logentry(p=2)->[INITIATOR_nameDef] instruyó a [RECIPIENT_nameDef][lessonDetail]</li>
+    <li>lessonDetail(p=0.2)-></li>
   </LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
@@ -339,6 +359,7 @@
     <li>subject->Johnson-Tanaka propulsion</li>
   -->
   <LessonIntellectual.logRulesInitiator.rulesStrings>
+    <li>lessonDetail-> sobre [subject]</li>
     <li>subject->genética</li>
     <li>subject->tecnoplanos</li>
     <li>subject->funciones del multianalizador</li>
@@ -390,7 +411,7 @@
     <li>subject->sterilization methods</li>
   -->
   <LessonMedicine.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] cómo [medical_verb] [hediff] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] a [RECIPIENT_nameDef] cómo [medical_verb] [hediff].</li>
     <li>article_tool->un botiquín</li>
     <li>article_tool->un vendaje</li>
     <li>article_tool->una jeringa</li>
@@ -453,6 +474,10 @@
     <li>action_gerund->swinging</li>
   -->
   <LessonMelee.logRulesInitiator.rulesStrings>
+    <li>lessonDetail-> sobre combate cercano</li>
+    <li>lessonDetail-> acerca del combate cercano</li>
+    <li>lessonDetail-> sobre técnicas de combate cercano</li>
+    <li>lessonDetail-> sobre el uso de [article_tool]</li>
     <li>article_tool->un hacha</li>
     <li>article_tool->una porra</li>
     <li>article_tool->una espada</li>
@@ -504,6 +529,9 @@
     <li>situation(p=2)->underground</li>
   -->
   <LessonMining.logRulesInitiator.rulesStrings>
+    <li>lessonDetail-> sobre [subject]</li>
+    <li>lessonDetail-> acerca de [subject]</li>
+    <li>lessonDetail-> sobre el uso de [article_tool]</li>
     <li>article_tool->un pico</li>
     <li>article_tool->un taladro de profundidad</li>
     <li>article_tool->una pala</li>
@@ -548,6 +576,9 @@
     <li>subject->gauranlen trees</li>
   -->
   <LessonPlants.logRulesInitiator.rulesStrings>
+    <li>lessonDetail-> sobre [subject]</li>
+    <li>lessonDetail-> acerca de [subject]</li>
+    <li>lessonDetail-> sobre el uso de [article_tool]</li>
     <li>article_tool->una lámpara solar</li>
     <li>article_tool->un contenedor hidropónico</li>
     <li>article_tool->un aspersor</li>
@@ -589,6 +620,10 @@
     <li>action_gerund->reloading</li>
   -->
   <LessonShooting.logRulesInitiator.rulesStrings>
+    <li>lessonDetail-> sobre tiro</li>
+    <li>lessonDetail-> acerca del tiro</li>
+    <li>lessonDetail-> sobre puntería</li>
+    <li>lessonDetail-> sobre el uso de [article_tool]</li>
     <li>article_tool->un fusil</li>
     <li>article_tool->una pistola</li>
     <li>article_tool->una escopeta</li>
@@ -622,6 +657,8 @@
     <li>subject->sign language</li>
   -->
   <LessonSocial.logRulesInitiator.rulesStrings>
+    <li>lessonDetail-> sobre [subject]</li>
+    <li>lessonDetail-> acerca de [subject]</li>
     <li>subject->hablar en público</li>
     <li>subject->relaciones entre facciones</li>
     <li>subject->reclutar prisioneros</li>
@@ -722,7 +759,7 @@
     <li>talkedabout->expresó su interés compartido en</li>
     <li>talkedabout->debatió sobre</li>
     <li>talkedabout->discutió sobre</li>
-    <li>talkedabout->compartió historias de</li>
+    <li>talkedabout->compartió historias sobre</li>
     <li>talkedaboutPl->hablaron sobre</li>
     <li>talkedaboutPl->conversaron sobre</li>
     <li>talkedaboutPl->cuchichearon sobre</li>
@@ -735,7 +772,7 @@
     <li>talkedaboutPl->expresaron su interés compartido en</li>
     <li>talkedaboutPl->debatieron sobre</li>
     <li>talkedaboutPl->discutieron sobre</li>
-    <li>talkedaboutPl->compartieron historias de</li>
+    <li>talkedaboutPl->compartieron historias sobre</li>
     <li>adverb->amistosamente</li>
     <li>adverb->silenciosamente</li>
     <li>adverb->suavemente</li>
