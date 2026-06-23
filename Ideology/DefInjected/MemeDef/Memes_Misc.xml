@@ -39,7 +39,7 @@
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] reunió a los animales y a los humanos de [place_summary] [place_name] en una gran conferencia.</li>
     <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] bendijo el [place_summary] [place_name] con estos animales: [sacredAnimalListEnd], y enseñó a la gente de allí a honrar a los animales.</li>
     <li>conflict(tag=meme_AnimalPersonhood)        ->Un malvado [foeLeader] ordenó cazar a los animales salvajes, y sus [foeSoldiers] los cazaron, usando su arma favorita, la [place_personalWeapon].</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] se apareció a un [place_job] de nombre [founderName] [revelationAdverb] bajo la forma de [veneratedAnimal]. Fue entonces cuando [founderName] comprendió que [founder_pronoun] era la criatura venerada, y entendió el plan de [deity0_name].</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] se apareció a un [place_job] de nombre [founderName] [revelationAdverb] y le reveló la especie venerada: [veneratedAnimal]. Fue entonces cuando [founderName] entendió el plan de [deity0_name].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->Un [place_job] de nombre [founderName] liberó a muchos animales que estaban esclavizados por amos crueles, y los llevó al lugar sagrado de [deity0_name], su gran [altarRoomLabel].</li>
     <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] llamó a los [memberNamePlural] y a los animales con la voz de [deity0_name], y en una gran estampida de pezuñas, patas y pies, pisotearon al [foeLeader] y a sus [foeSoldiers].</li>
     <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] vivió en el bosque durante veinte años, estudiando a los animales y conectando con ellos. [founder_pronoun] llegó a comprender su verdadera moralidad y fundó nuestro movimiento.</li>
@@ -99,6 +99,11 @@
     <li>memeMoralist->encantador</li>
     <li>memeMoralist->vaquero</li>
     <li>memeMoralist->pastor</li>
+    <li>revelationAdverb->en una visión</li>
+    <li>revelationAdverb->en un sueño</li>
+    <li>revelationAdverb->en una pesadilla</li>
+    <li>revelationAdverb->como un [Animal]</li>
+    <li>revelationAdverb->como un mendigo</li>
   </AnimalPersonhood.generalRules.rulesStrings>
   <!-- EN: animalistic -->
   <AnimalPersonhood.symbolPacks.0.adjective>animalístico</AnimalPersonhood.symbolPacks.0.adjective>
@@ -429,8 +434,8 @@
   <FleshPurity.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_FleshPurity)        ->[deity0_name] acabó con la contaminación y las máquinas de la era del humo para crear un jardín en el que [deity0_pronoun] dejaría a los primeros progenitores humanos puros.</li>
     <li>episode(uses=1,tag=meme_FleshPurity)  ->Los impuros, tatuados, perforados y modificados fueron arrojados al océano por [deity0_name].</li>
-    <li>intro(tag=meme_FleshPurity)           ->En [place_summary] [place_name], se alzaba [altarNameIndef] situado [altarRoomLabelIn] de [deity0_name], donde [deity0_type] bendecía a aquellos de carne pura.</li>
-    <li>intro(tag=meme_FleshPurity)           ->En [place_summary] [place_name], los fieles veneraban [altarNameIndef] situado [altarRoomLabelIn] de [deity0_name], donde [deity0_type] bendecía a quienes conservaban la pureza de la carne.</li>
+    <li>intro(tag=meme_FleshPurity)           ->En el [place_summary] [place_name], se alzaba [altarNameIndef] situado [altarRoomLabelIn] de [deity0_name], donde [deity0_type] bendecía a aquellos de carne pura.</li>
+    <li>intro(tag=meme_FleshPurity)           ->En el [place_summary] [place_name], los fieles veneraban [altarNameIndef] situado [altarRoomLabelIn] de [deity0_name], donde [deity0_type] bendecía a quienes conservaban la pureza de la carne.</li>
     <li>conflict(tag=meme_FleshPurity)        ->Un malvado [foeLeader] envió a sus [foeSoldiers] a inyectar a todos con dispositivos de seguimiento.</li>
     <li>founderJoin(tag=meme_FleshPurity)     ->Un [place_job] llamado [founderName] protestó contra [foeLeader] arrodillándose frente al [place_powerCenter] y arrancándose toda la tecnología de su cuerpo con sus manos.</li>
     <li>victory(tag=meme_FleshPurity)         ->El [foeLeader] finalmente envió a los [foeSoldiers] a matar a los [memberNamePlural], pero la energía de [deity0_name] fluyó desde la carne pura de los [memberNamePlural], y los dispositivos en los cuerpos de los [foeSoldiers] se convirtieron en cenizas y los mataron.</li>

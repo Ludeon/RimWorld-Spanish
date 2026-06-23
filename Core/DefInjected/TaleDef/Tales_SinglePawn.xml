@@ -31,6 +31,7 @@
   -->
   <AteRawHumanlikeMeat.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] comió carne humana</li>
+    <li>tale_noun->[PAWN_nameDef] devoró carne de humanoide</li>
     <li>image->[PAWN_nameFull] [eat_gerund] la carne de un compañero humanoide [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [eat_gerund] la carne de un brazo humanoide [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [eat_gerund] la carne de un humanoide [circumstance_group]</li>
@@ -90,6 +91,7 @@
   -->
   <CraftedArt.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] fabricó [THING_indefinite]</li>
+    <li>tale_noun->[PAWN_nameDef] creó [THING_indefinite] con sus propias manos</li>
     <li>image->[PAWN_nameFull] fabricando [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
     <li>image->[PAWN_nameFull] completando su trabajo en [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
     <li>image->[PAWN_nameFull] trabajando en [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
@@ -201,6 +203,7 @@
   -->
   <FinishedResearchProject.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] terminó su investigación sobre [PROJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] completó el estudio de [PROJECT_label]</li>
     <!-- Añadir los proyectos de investigación al worldinfo para usar def e indef -->
     <li>image->[PAWN_nameFull] trabajando en la investigación [project_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] estudiando los secretos de [PROJECT_label] [circumstance_group]</li>
@@ -242,6 +245,7 @@
   -->
   <LandedInPod.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] aterrizó en una cápsula de escape</li>
+    <li>tale_noun->[PAWN_nameDef] llegó al planeta en una cápsula de escape</li>
     <li>image->[PAWN_nameFull] aterrizando en una cápsula de escape [circumstance_group]</li>
     <li>image->[PAWN_nameFull] bajando de la cápsula de escape [circumstance_group]</li>
     <li>image->[PAWN_nameFull] golpeando la tierra con la cápsula de escape [circumstance_group]</li>
@@ -293,6 +297,7 @@
   -->
   <MentalStateBerserk.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] se volvió frenétic[PAWN_o_a]</li>
+    <li>tale_noun->[PAWN_nameDef] enloqueció por completo</li>
     <li>image->[PAWN_nameFull] experimentando una ira frenética [circumstance_group]</li>
     <li>image->[PAWN_nameFull] entrando en un estado de locura [circumstance_group]</li>
     <li>image->[PAWN_nameFull] tambaleándose hacia adelante con una mirada psicótica en su rostro [circumstance_group]</li>
@@ -342,6 +347,7 @@
   -->
   <MentalStateGaveUp.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] se dejó llevar por la desesperación</li>
+    <li>tale_noun->[PAWN_nameDef] sucumbió ante la desesperación</li>
     <li>image->[PAWN_nameFull] finalmente dándose por vencid[PAWN_o_a] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] llorando incontrolablemente [circumstance_group]</li>
     <li>image->[PAWN_nameFull] tambaleándose con una expresión derrotada en el rostro [circumstance_group]</li>
@@ -379,7 +385,8 @@
     <li>desc_sentence->There is a sense that some secrets are yet to be uncovered.</li>
   -->
   <ReadBook.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] ha terminando [THING_title]</li>
+    <li>tale_noun->[PAWN_nameDef] ha terminado [THING_title]</li>
+    <li>tale_noun->[PAWN_nameDef] ha leído [THING_title]</li>
     <li>image->[PAWN_nameFull] cerrando [THING_title] por última vez, con una sonrisa de satisfacción adornando su rostro [circumstance_group]</li>
     <li>image->[PAWN_nameFull] pasando las páginas de [THING_title], absorbiendo el conocimiento en su interior [circumstance_group]</li>
     <li>image->[PAWN_nameFull] colocando [THING_title] de nuevo en la estantería, una sensación de logro irradiando desde su persona [circumstance_group]</li>
@@ -413,7 +420,11 @@
   -->
   <StruckMineable.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] encontró [THING_label]</li>
+    <li>tale_noun->[PAWN_nameDef] descubrió una veta de [THING_label]</li>
     <li>image->[PAWN_nameFull] encontrando [THING_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] golpeando una veta de [THING_label] con su pico [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] descubriendo un valioso filón de [THING_label] entre las rocas [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] extrayendo con asombro los primeros fragmentos de [THING_label] de la pared de roca [circumstance_group]</li>
     <li>circumstance_phrase->mientras mina</li>
     <li>circumstance_phrase->mientras excava</li>
     <li>circumstance_phrase->mientras hace túneles</li>
@@ -451,6 +462,7 @@
   -->
   <Vomited.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] vomitó</li>
+    <li>tale_noun->[PAWN_nameDef] vomitó violentamente</li>
     <li>image->[PAWN_nameFull] vomitando violentamente en el suelo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] observando disgustad[PAWN_o_a] un charco de vómito en el suelo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] doblad[PAWN_o_a] de dolor mientras vomita [circumstance_group]</li>
@@ -498,6 +510,7 @@
   -->
   <WalkedNaked.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] paseaba desnud[PAWN_o_a]</li>
+    <li>tale_noun->[PAWN_nameDef] se paseaba sin ropa</li>
     <li>image->[PAWN_nameFull] [nude_action] de manera totalmente natural [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [nude_action] sin más que sus zapatos [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [nude_action], desnud[PAWN_o_a], [circumstance_group]</li>
@@ -545,7 +558,8 @@
     <li>desc_sentence->[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
   -->
   <WasOnFire.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] prendió en fuego</li>
+    <li>tale_noun->[PAWN_nameDef] se prendió fuego</li>
+    <li>tale_noun->[PAWN_nameDef] ardió en llamas</li>
     <li>image->[PAWN_nameFull] intenta apagar frenéticamente el fuego en su cuerpo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] envuelt[PAWN_o_a] en llamas [circumstance_group]</li>
     <li>image->[PAWN_nameFull] de rodillas, con las manos en la cabeza intentando apagar las llamas que le envuelven [circumstance_group]</li>

@@ -425,15 +425,15 @@
     <li>r_statue_name->Estudio de [SUBJECT_indefinite]</li>
     <li>r_statue_name->Un estudio sobre [statueIdeaDef]</li>
     <li>r_statue_name->[SUBJECT_indefinite], [statueEpithet]</li>
-    <li>r_statue_name->[SUBJECT_indefinite], la [statueTitle]</li>
+    <li>r_statue_name->{SUBJECT_gender? [SUBJECT_indefinite], el [statueAdjMasc] : [SUBJECT_indefinite], la [statueTitle]}</li>
     <li>r_statue_name->El [subjectNounMasc] [statueAdjMasc]</li>
-    <li>r_statue_name->La [subjectNoun] [statueTitle]</li>
+    <li>r_statue_name->La [subjectNounFem] [statueTitle]</li>
     <li>r_statue_name->Figura de [statueIdea]</li>
     <li>r_statue_name->[statueIdea] y [subjectNoun]</li>
-    <li>r_statue_name->[subjectNoun] de [SUBJECT_indefinite]</li>
-    <li>r_statue_name->[SUBJECT_indefinite], el [subjectNoun]</li>
-    <li>r_statue_name->La [subjectNoun]</li>
-    <li>r_statue_name->[subjectNoun] de [statueIdea]</li>
+    <li>r_statue_name->{SUBJECT_gender? [subjectNoun] de [SUBJECT_indefinite] : [subjectNounFem] de [SUBJECT_indefinite]}</li>
+    <li>r_statue_name->{SUBJECT_gender? [SUBJECT_indefinite], el [subjectNoun] : [SUBJECT_indefinite], la [subjectNounFem]}</li>
+    <li>r_statue_name->{SUBJECT_gender? El [subjectNounMasc] : La [subjectNounFem]}</li>
+    <li>r_statue_name->{SUBJECT_gender? [subjectNoun] de [statueIdea] : [subjectNounFem] de [statueIdea]}</li>
     <li>r_statue_name->[SUBJECT_indefinite] y [talktopicheavyfile]</li>
     <li>statueAdj(p=5)->[AdjectiveAny]</li>
     <li>statueTitle->Esculpida</li>
@@ -478,6 +478,20 @@
     <li>statueEpithet->solemne</li>
     <li>statueEpithet->venerable</li>
     <li>statueEpithet->impasible</li>
+    <li>subjectNounFem(p=2)->[PersonJob_Fem]</li>
+    <li>subjectNounFem(p=2)->[PersonFamily_Fem]</li>
+    <li>subjectNounFem(p=2)->[PersonAlly_Fem]</li>
+    <li>subjectNounFem(p=2)->[PersonBadass_Fem]</li>
+    <li>subjectNounFem->Vigilante</li>
+    <li>subjectNounFem->Leyenda</li>
+    <li>subjectNounFem->Centinela</li>
+    <li>subjectNounFem->Figura</li>
+    <li>subjectNounFem->Imagen</li>
+    <li>subjectNounFem->Guardiana</li>
+    <li>subjectNounFem->Alma</li>
+    <li>subjectNounFem->Contemplación</li>
+    <li>subjectNounFem->Forma</li>
+    <li>subjectNounFem->Estatua</li>
     <li>subjectNoun(p=2)->[PersonJob]</li>
     <li>subjectNoun(p=2)->[PersonFamily]</li>
     <li>subjectNoun(p=2)->[PersonAlly]</li>

@@ -226,12 +226,19 @@
     <li>nounAttitudeGood->entusiasmo</li>
     <li>nounAttitudeGood->fervor</li>
     <li>nounAttitudeGood->optimismo</li>
+    <li>nounAttitudeGood->afán de aprendizaje</li>
+    <li>nounAttitudeGood->anhelo de superación</li>
+    <li>nounAttitudeGood->gran interés</li>
+    <li>nounAttitudeGood->espíritu de curiosidad</li>
     <li>nounFuture->las próximas semanas</li>
     <li>nounFuture->los próximos meses</li>
     <li>nounFuture->el próximo año</li>
     <li>nounFuture->el futuro</li>
     <li>nounGrowth->crecimiento personal</li>
     <li>nounGrowth->desarrollo personal</li>
+    <li>nounGrowth->crecimiento intelectual</li>
+    <li>nounGrowth->madurez emocional</li>
+    <li>nounGrowth->progreso individual</li>
     <li>situationFun->explorar la naturaleza con [friendNamePlural]</li>
     <li>situationFun->jugar [Game]</li>
     <li>situationFun->jugar [Game] con amigos</li>
@@ -241,7 +248,7 @@
     <li>situationFun->forjar amistades</li>
     <li>situationFun->estar al aire libre bajo el sol</li>
     <li>situationFun->observar el cielo nocturno en busca de meteoritos</li>
-    <li>situationFun->hablar en la radio acerca de [topicLearning]</li>
+    <li>situationFun->{replace: hablar en la radio acerca de [topicLearning]; "de el "-"del "}</li>
     <li>situationFun->charlar en la radio con forasteros</li>
     <li>situationFun->dibujar imágenes de [friendNamePlural] en el suelo</li>
     <li>situationFun->soñar despiert{PAWN_gender ? o : a} sobre [topicLearning]</li>
@@ -262,7 +269,7 @@
     <li>situationFunVar->forja amistades</li>
     <li>situationFunVar->está al aire libre bajo el sol</li>
     <li>situationFunVar->observa el cielo nocturno en busca de meteoritos</li>
-    <li>situationFunVar->habla en la radio acerca de [topicLearning]</li>
+    <li>situationFunVar->{replace: habla en la radio acerca de [topicLearning]; "de el "-"del "}</li>
     <li>situationFunVar->charla en la radio con forasteros</li>
     <li>situationFunVar->dibuja imágenes de [friendNamePlural] en el suelo</li>
     <li>situationFunVar->sueña despiert{PAWN_gender ? o : a} sobre [topicLearning]</li>
@@ -283,7 +290,7 @@
     <li>situationFunGerund->forjando amistades</li>
     <li>situationFunGerund->estando al aire libre bajo el sol</li>
     <li>situationFunGerund->observando el cielo nocturno en busca de meteoritos</li>
-    <li>situationFunGerund->hablando en la radio acerca de [topicLearning]</li>
+    <li>situationFunGerund->{replace: hablando en la radio acerca de [topicLearning]; "de el "-"del "}</li>
     <li>situationFunGerund->charlando en la radio con forasteros</li>
     <li>situationFunGerund->dibujando imágenes de [friendNamePlural] en el suelo</li>
     <li>situationFunGerund->soñando despiert{PAWN_gender ? o : a} sobre [topicLearning]</li>
@@ -344,6 +351,11 @@
     <li>topicLearning->la edición de genes</li>
     <li>topicLearning->la ciencia de cohetes</li>
     <li>topicLearning->la minería de minerales</li>
+    <li>topicLearning->los misterios de las estrellas</li>
+    <li>topicLearning->el comportamiento humano</li>
+    <li>topicLearning->la botánica aplicada</li>
+    <li>topicLearning->la cibernética avanzada</li>
+    <li>topicLearning->la supervivencia en condiciones extremas</li>
     <li>taskWork->cocinar comidas</li>
     <li>taskWork->adiestrar animales</li>
     <li>taskWork->cuidar a los enfermos</li>
@@ -351,6 +363,10 @@
     <li>taskWork->cazar múfalos</li>
     <li>taskWork->cultivar alimentos</li>
     <li>taskWork->confeccionar ropa</li>
+    <li>taskWork->construir estructuras</li>
+    <li>taskWork->investigar tecnologías</li>
+    <li>taskWork->minar recursos</li>
+    <li>taskWork->forjar armas</li>
     <li>taskWorkGerund->cocinando comidas</li>
     <li>taskWorkGerund->adiestrando animales</li>
     <li>taskWorkGerund->cuidando a los enfermos</li>
@@ -358,6 +374,10 @@
     <li>taskWorkGerund->cazando múfalos</li>
     <li>taskWorkGerund->cultivando alimentos</li>
     <li>taskWorkGerund->confeccionando ropa</li>
+    <li>taskWorkGerund->construyendo estructuras</li>
+    <li>taskWorkGerund->investigando tecnologías</li>
+    <li>taskWorkGerund->minando recursos</li>
+    <li>taskWorkGerund->forjando armas</li>
     <li>friendNamePlural->amigos</li>
     <li>friendNamePlural->seres queridos</li>
     <li>friendNamePlural->animales [friendAdjPlural]</li>
@@ -370,6 +390,10 @@
     <li>friendNameSingular->niño</li>
     <li>friendNameSingular->niño [friendAdj]</li>
     <li>friendNameSingular->familiar</li>
+    <li>friendNameSingular->camarada</li>
+    <li>friendNameSingular->aliado</li>
+    <li>friendNameSingular->compañero</li>
+    <li>friendNameSingular->mentor</li>
     <li>friendAdj->amable</li>
     <li>friendAdj->cariñoso</li>
     <li>friendAdj->curioso</li>

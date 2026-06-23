@@ -2,29 +2,29 @@
 <LanguageData>
   
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 1st to 2nd trimester. -->
-  <MessageColonistReaching2ndTrimesterPregnancy>El embarazo de {PAWN_labelShort} progresó desde el 1er trimestre al 2do trimestre.</MessageColonistReaching2ndTrimesterPregnancy>
+  <MessageColonistReaching2ndTrimesterPregnancy>El embarazo de {PAWN_labelShort} ha pasado del primer trimestre al segundo.</MessageColonistReaching2ndTrimesterPregnancy>
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 2nd to 3rd trimester. -->
-  <MessageColonistReaching3rdTrimesterPregnancy>El embarazo de {PAWN_labelShort} progresó desde el 2do trimestre al 3er trimestre.</MessageColonistReaching3rdTrimesterPregnancy>
+  <MessageColonistReaching3rdTrimesterPregnancy>El embarazo de {PAWN_labelShort} ha pasado del segundo trimestre al tercero.</MessageColonistReaching3rdTrimesterPregnancy>
   <!-- EN: {PAWN_labelShort}'s labor has begun the final stages. -->
-  <MessageColonistInFinalStagesOfLabor>El parto de {PAWN_labelShort} ha comenzado sus etapas finales.</MessageColonistInFinalStagesOfLabor>
+  <MessageColonistInFinalStagesOfLabor>{PAWN_labelShort} ha entrado en la fase final del parto.</MessageColonistInFinalStagesOfLabor>
 
   <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
-  <MessageMechChargerDestroyedMechGoesBerserk>¡Un cargador de mecas fue destruido mientras {PAWN_nameDef} estaba cargando! La interrupción de energía revolvió su cerebro y ahora se está volviendo frenético.</MessageMechChargerDestroyedMechGoesBerserk>
+  <MessageMechChargerDestroyedMechGoesBerserk>¡Han destruido un cargador de mecas mientras {PAWN_nameDef} se estaba recargando! La interrupción de energía ha alterado su cerebro y ha entrado en frenesí.</MessageMechChargerDestroyedMechGoesBerserk>
 
   <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
   <MessageCantUseOnResistingPerson>Imposible utilizar {ABILITY_label} sobre alguien que se resista activamente.</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
   <MessageCannotUseOnSameXenotype>{0_labelShort} ya tiene el xenotipo {0_xenotype}.</MessageCannotUseOnSameXenotype>
   <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
-  <MessagePawnHasNoXenogenes>{0_labelShort} no tiene xenogenes disponibles para implantar.</MessagePawnHasNoXenogenes>
+  <MessagePawnHasNoXenogenes>{0_labelShort} no tiene xenogenes disponibles que implantar.</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
   <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Los xenogérmenes solo pueden ser implantados en colonos, prisioneros y esclavos.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
   <MessageCannotImplantInTempFactionMembers>No se puede implantar en miembros temporales de facción.</MessageCannotImplantInTempFactionMembers>
   <!-- EN: A xenogerm has been completed. -->
-  <MessageXenogermCompleted>Un xenogermen ha sido completado.</MessageXenogermCompleted>
+  <MessageXenogermCompleted>Se ha completado un xenogermen.</MessageXenogermCompleted>
   <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
-  <MessageXenogermCancelledMissingPack>El trabajo del xenogermen en {0_labelShort} fue cancelado: Se necesita pack de genes.</MessageXenogermCancelledMissingPack>
+  <MessageXenogermCancelledMissingPack>Se ha cancelado el trabajo del xenogermen en {0_labelShort}: falta un pack de genes requerido.</MessageXenogermCancelledMissingPack>
   <!-- EN: Absorbing {PAWN_nameDef}'s xenogerm will anger {0}. -->
   <MessageAbsorbingXenogermWillAngerFaction>Absorber el xenogermen de {PAWN_nameDef} enfadará a {0}.</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
@@ -44,7 +44,7 @@
   <MessageNoBloodfeedersPrisonerInteractionReset>El modo de interacción de algunos prisioneros requería un chupasangre. Como el último chupasangre ha desaparecido, sus modos de interacción se han restablecido a "Sin interacción".</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
-  <MessagePregnancyTerminated>El embarazo de {PAWN_nameDef} fue finalizado con éxito.</MessagePregnancyTerminated>
+  <MessagePregnancyTerminated>El embarazo de {PAWN_nameDef} se ha interrumpido con éxito.</MessagePregnancyTerminated>
   
   <!-- Pollution -->
   <!-- EN: {0} has been angered ({1}) -->
@@ -60,9 +60,9 @@
   <!-- EN: Pollution has increased by {0} at {1}. -->
   <MessageWorldTilePollutionChanged>La contaminación ha subido un {0} en {1}.</MessageWorldTilePollutionChanged>
   <!-- EN: A cocoon has been disturbed and is opening! -->
-  <MessageCocoonDisturbed>¡Una crisálida se ha alterado y se está abriendo!</MessageCocoonDisturbed>
+  <MessageCocoonDisturbed>¡Una crisálida ha sido perturbada y se está abriendo!</MessageCocoonDisturbed>
   <!-- EN: Cocoons have been disturbed and are opening! -->
-  <MessageCocoonDisturbedPlural>¡Varias crisálidas se han alterado y se están abriendo!</MessageCocoonDisturbedPlural>
+  <MessageCocoonDisturbedPlural>¡Varias crisálidas han sido perturbadas y se están abriendo!</MessageCocoonDisturbedPlural>
   <!-- EN: {0} has rotted due to polluted terrain. -->
   <MessagePlantDiedOfRot_PollutedTerrain>{0} se ha podrido debido al terreno contaminado.</MessagePlantDiedOfRot_PollutedTerrain>
 
@@ -82,9 +82,9 @@
 
   <!-- Xenogerm -->
   <!-- EN: The total metabolism of the selected genes must be {MIN} or higher to continue, but currently it is only {AMOUNT}. -->
-  <MetabolismTooLowToCreateXenogerm>El metabolismo total de los genes seleccionados debe ser {MIN} o mayor para continuar, actualmente solo tiene {AMOUNT}.</MetabolismTooLowToCreateXenogerm>
+  <MetabolismTooLowToCreateXenogerm>El metabolismo total de los genes seleccionados debe ser {MIN} o más para continuar, pero actualmente es de {AMOUNT}.</MetabolismTooLowToCreateXenogerm>
   <!-- EN: The total complexity of the selected genes must be {MAX} or less to create a xenogerm, but currently it is {AMOUNT}. -->
-  <ComplexityTooHighToCreateXenogerm>La complejidad total de los genes seleccionados debe ser {MAX} o menos para crear un xenogermen, actualmente solo tiene {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
+  <ComplexityTooHighToCreateXenogerm>La complejidad total de los genes seleccionados debe ser {MAX} o menos para crear un xenogermen, pero actualmente es de {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
   <!-- EN: Cannot create a xenogerm with no genes. -->
   <MessageNoSelectedGenepacks>Imposible crear un xenogermen sin genes.</MessageNoSelectedGenepacks>
   <!-- EN: Cannot create a xenotype with no genes. -->
@@ -141,7 +141,7 @@
   <MessageDeathrestBuildingBound>{BUILDING_labelShort} se ha vinculado a {PAWN_nameDef} ({CUR}/{MAX} de capacidad de mortisueño).</MessageDeathrestBuildingBound>
 
   <!-- EN: Developmental stage selection disabled by scenario. -->
-  <MessageDevelopmentalStageSelectionDisabledByScenario>Selección de etapa de desarrollo deshabilitada por el escenario.</MessageDevelopmentalStageSelectionDisabledByScenario>
+  <MessageDevelopmentalStageSelectionDisabledByScenario>Selección de etapa de desarrollo desactivada por el escenario.</MessageDevelopmentalStageSelectionDisabledByScenario>
 
   <!-- EN: {PAWN_nameDef} did not have enough blood to produce a hemogen pack.  -->
   <MessagePawnHadNotEnoughBloodToProduceHemogenPack>{PAWN_nameDef} no tenía suficiente sangre para producir un pack de hemógeno.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
@@ -149,7 +149,7 @@
   <MessageCannotStartHemogenExtraction>{PAWN_nameDef} no tiene suficiente sangre para producir un pack de hemógeno.</MessageCannotStartHemogenExtraction>
 
   <!-- EN: You must choose how {PAWN_nameDef} will grow now. -->
-  <MessageCannotPostponeGrowthMoment>Deberás elegir cómo crecerá {PAWN_nameDef}.</MessageCannotPostponeGrowthMoment>
+  <MessageCannotPostponeGrowthMoment>Debes elegir cómo crecerá {PAWN_nameDef}.</MessageCannotPostponeGrowthMoment>
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>Advertencia: {0_labelShort} está llevando a un bebé mientras está reclutad{0_gender ? o : a}.</MessageDraftedPawnCarryingBaby>
@@ -159,7 +159,7 @@
   <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
   <MessagePregnancyFailed>Embarazo fallido entre {MOTHER_nameDef} y {FATHER_nameDef}</MessagePregnancyFailed>
   <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
-  <MessageFerilizeFailed>{PAWN_nameDef} falló en la fecundación del óvulo</MessageFerilizeFailed>
+  <MessageFerilizeFailed>{PAWN_nameDef} no logró fecundar el óvulo</MessageFerilizeFailed>
   <!-- EN: Combined genes exceeded metabolism limits. -->
   <CombinedGenesExceedMetabolismLimits>Los genes combinados superaron los límites del metabolismo.</CombinedGenesExceedMetabolismLimits>
 

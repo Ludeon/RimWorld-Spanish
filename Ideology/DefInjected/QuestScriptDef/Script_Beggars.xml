@@ -84,14 +84,18 @@
     <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->Un grupo de pobres [groupLabelPlural] incluyendo algunos niños se acercan en busca de ayuda</li>
     <li>requestInfo(beggarCount>=2)->Los [groupLabelPlural] están rogando [beggingForInfo]</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] necesita la plata para pagar una deuda a una banda de piratas que [beggars0_objective] persigue</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] suplica que le den la plata para saldar una deuda con unos piratas despiadados que intentan cazar[beggars0_objective]</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] quiere la plata para ayudar a comprar la libertad de su hermana mayor que fue esclavizada por los piratas</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] busca desesperadamente la plata para rescatar a su hermana mayor, secuestrada y esclavizada por una banda de piratas</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] necesita la medicina para ayudar a un viajero que está herido cerca de aquí</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] busca medicina para tratar de urgencia a un compañero de viaje gravemente herido en las inmediaciones</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef] necesita la medicina para salvar a su hermano pequeño que yace herido en las cercanías</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] necesita la medicina para salvar a su fiel mascota que se lesionó en la carretera</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] necesita [requestedThing_label] para inocular a un amigo enfermo contra enfermedades mortales</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] la quiere para ahogar sus penas tras perder a un compañero de viaje en un terrible accidente</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef] quiere la [requestedThing_label] para ayudar a aliviar el sufrimiento de un tío dolorosamente enfermo</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Necesitan la plata para poder pagar el rescate de un amigo que fue secuestrado recientemente</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Buscan plata con la esperanza de comprar la libertad de un compañero que cayó en manos de secuestradores</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Necesitan la medicina para intentar una operación que salve la vida de un compañero de viaje que fue atacado por mecanoides</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->Necesitan la medicina para preparar un remedio de herbolario para un amigo que está postrado en la cama con una fiebre intensa</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Necesitan la medicina para ayudar a sus amigos en un asentamiento cercano que fue devastado por los asaltantes</li>
@@ -131,14 +135,22 @@
     <li>alms->resources</li>
   -->
   <Beggars.questNameRules.rulesStrings>
+    <li>questName(beggarCount==1,beggars0_gender!=Female,priority=1)->un [beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount==1,beggars0_gender==Female,priority=1)->una [beggarSingle_Fem] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount==1,childCount==1,beggars0_gender!=Female,priority=2)->un joven [beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount==1,childCount==1,beggars0_gender==Female,priority=2)->una joven [beggarSingle_Fem] [seekingSingle] [alms]</li>
     <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
     <li>questName(beggarCount==1,childCount==1,priority=1)->un joven [beggarSingle] [seekingSingle] [alms]</li>
-    <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
+    <li>questName(beggarCount>=2)->unos [beggarPlural] [seekingPlural] [alms]</li>
     <li>questName(beggarCount>=2,allChildren==true,priority=1)->unos jóvenes [beggarPlural] [seekingPlural] [alms]</li>
     <li>beggarSingle->mendigo</li>
+    <li>beggarSingle_Fem->mendiga</li>
     <li>beggarSingle->vagabundo</li>
+    <li>beggarSingle_Fem->vagabunda</li>
     <li>beggarSingle->errante</li>
+    <li>beggarSingle_Fem->errante</li>
     <li>beggarSingle->viajero</li>
+    <li>beggarSingle_Fem->viajera</li>
     <li>beggarPlural->[beggarSingle]s</li>
     <li>seekingSingle->busca</li>
     <li>seekingSingle->solicita</li>

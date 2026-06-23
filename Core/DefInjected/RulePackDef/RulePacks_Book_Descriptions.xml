@@ -531,15 +531,29 @@
     <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->It is [decentDesc] [decentExtra]</li>
     <li>writingQualitySentence(quality[less_than]2)->It is [awfulDesc] [awfulExtra]</li>-->
     <li>writingQualityAdjective(quality==6)->notablemente bien redactada</li>
+    <li>writingQualityAdjective(quality==6)->extraordinariamente bien escrita</li>
+    <li>writingQualityAdjective(quality==6)->de factura impecable</li>
     <li>writingQualityAdjective(quality==5)->inteligente y perspicaz</li>
+    <li>writingQualityAdjective(quality==5)->aguda y sugerente</li>
+    <li>writingQualityAdjective(quality==5)->sutil e inteligente</li>
     <li>writingQualityAdjective(quality==4)->reflexiva y elocuente</li>
+    <li>writingQualityAdjective(quality==4)->meditada y expresiva</li>
+    <li>writingQualityAdjective(quality==4)->cuidadosa y convincente</li>
     <li>writingQualityAdjective(quality==3)->bien redactada</li>
+    <li>writingQualityAdjective(quality==3)->de prosa cuidada</li>
+    <li>writingQualityAdjective(quality==3)->correctamente escrita</li>
     <li>writingQualityAdjective(quality==2)->mediocre</li>
+    <li>writingQualityAdjective(quality==2)->pasable</li>
+    <li>writingQualityAdjective(quality==2)->sin demasiado brillo</li>
     <li>writingQualityAdjective(quality==1)->mal redactada</li>
+    <li>writingQualityAdjective(quality==1)->deficiente</li>
+    <li>writingQualityAdjective(quality==1)->torpemente escrita</li>
     <li>writingQualityAdjective(quality==0)->incoherente</li>
-    <li>writingQualitySentence(quality[greater_than]4)->[excellentDesc] [excellentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->[decentDesc] [decentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]2)->[awfulDesc] [awfulExtra]</li>
+    <li>writingQualityAdjective(quality==0)->casi ininteligible</li>
+    <li>writingQualityAdjective(quality==0)->apenas comprensible</li>
+    <li>writingQualitySentence(quality[greater_than]4)->[excellentDesc][excellentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->[decentDesc][decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]2)->[awfulDesc][awfulExtra]</li>
     <!-- EN: 
     <li>excellentDesc->a thoughtful exploration of the human spirit</li>
     <li>excellentDesc->deeply insightful about the complexity of the world</li>
@@ -588,7 +602,7 @@
     <li>decentExtra-> but the world is unoriginal and dull</li>
     <li>decentExtra-> but the writing is excessively flowery</li>
     <li>decentExtra-> but many of the story beats are unnecessary and fail to move the plot forward</li>-->
-    <li>decentExtra->, pero tiene algunos agujeros argumentales evidentes</li>
+    <li>decentExtra->, pero presenta algunos agujeros argumentales evidentes</li>
     <li>decentExtra->, pero a menudo es difícil de entender</li>
     <li>decentExtra->, pero está plagada de errores de coherencia</li>
     <li>decentExtra->, pero carece de emociones profundas</li>
@@ -1353,12 +1367,12 @@
     <li>subject_intro->[device_synonym]s associated with [subject_primary] are [shows_synonym_verb1]ed in this [maybe_physical_adjective][schematic_synonym]</li>
     <li>subject_intro->the [schematic_synonym] [shows_synonym_verb]s a [state_adjective] [diagram_type] about [subject_primary] and [subject_secondary]</li>
     <li>subject_intro->[device_synonym]s associated with [subject_primary] and [subject_secondary] are [shows_synonym_verb1]ed in this [maybe_physical_adjective][schematic_synonym]</li>-->
-    <li>subject_intro->el [schematic_synonym] presenta [diagram_phrase] sobre [subject]</li>
+    <li>subject_intro->aparece [diagram_phrase] sobre [subject]</li>
     <li>subject_intro->en este [schematic_synonym], [theAuthor] expone su [theory_synonym_adj] sobre [subject]</li>
     <li>subject_intro->este [physical_adjective] [schematic_synonym] contiene varios [schematic_synonym_plural] centrados en [subject]</li>
     <li>subject_intro->[theAuthor] ha recurrido a [image_types] para comunicar su [theory_synonym_adj] sobre [subject]</li>
     <li>subject_intro->los [device_synonym_plural] asociados con [subject_primary] aparecen representados en este [maybe_physical_adjective][schematic_synonym]</li>
-    <li>subject_intro->el [schematic_synonym] presenta [diagram_phrase] sobre [subject_primary] y [subject_secondary]</li>
+    <li>subject_intro->aparece [diagram_phrase] sobre [subject_primary] y [subject_secondary]</li>
     <li>subject_intro->los [device_synonym_plural] asociados con [subject_primary] y [subject_secondary] aparecen representados en este [maybe_physical_adjective][schematic_synonym]</li>
     <!-- EN: 
     <li>schematic_desc->[schematic_desc_first][schematic_desc_second]</li>
@@ -1388,31 +1402,31 @@
     <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_primary_gerund] and [subject_tertiary_gerund]</li>
     <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on  [subject_primary_gerund], [subject_secondary_gerund] and [subject_tertiary_gerund]</li>-->
     <li>schematic_desc->[schematic_desc_first][schematic_desc_second]</li>
-    <li>schematic_desc_first->la tecnología antigua descrita aquí sobre [subject_primary_gerund] queda muy por detrás de los sistemas actuales</li>
-    <li>schematic_desc_first->esto es solo un fragmento de un [schematic_synonym] completo sobre [subject_primary_gerund]</li>
+    <li>schematic_desc_first->la tecnología antigua descrita aquí para [subject_primary_gerund] queda muy por detrás de los sistemas actuales</li>
+    <li>schematic_desc_first->esto es solo un fragmento de un [schematic_synonym] completo para [subject_primary_gerund]</li>
     <li>schematic_desc_first->este [schematic_synonym] es [negative_adjective] en varios lugares</li>
-    <li>schematic_desc_first->el [schematic_synonym] sobre [subject_primary_gerund] está incompleto</li>
+    <li>schematic_desc_first->el [schematic_synonym] para [subject_primary_gerund] está incompleto</li>
     <li>schematic_desc_first->[subject_primary_gerund] con estos [schematic_synonym_plural] se complica por las anotaciones contradictorias</li>
     <li>schematic_desc_first->la comprensión [negative_adjective] [OftheAuthor] de [subject_primary_gerund] es evidente en todo momento</li>
     <li>schematic_desc_first->parte del [schematic_synonym] ha sido arrancado</li>
     <li>schematic_desc_first->el fuego y el hollín han estropeado el papel</li>
-    <li>schematic_desc_first->el [schematic_synonym] sobre [subject_primary_gerund] es demasiado [negative_adjective]</li>
-    <li>schematic_desc_first->la [other_subject] limitada sobre [subject_primary_gerund] comprometió este [schematic_synonym]</li>
-    <li>schematic_desc_first->los detalles imprecisos sobre [subject_primary_gerund] dificultan la aplicación de este [schematic_synonym]</li>
-    <li>schematic_desc_first->este [schematic_synonym] [negative_adjective] introduce a veces errores al abordar [subject_primary_gerund]</li>
-    <li>schematic_desc_first->este [schematic_synonym] sobre [subject_primary_gerund] resulta pobre desde el punto de vista estético</li>
-    <li>schematic_desc_first->la falta de imaginación sobre [subject_primary_gerund] ha limitado este [schematic_synonym]</li>
-    <li>schematic_desc_first->este [schematic_container] proporciona muchas especificaciones contradictorias sobre [subject_primary_gerund]</li>
-    <li>schematic_desc_first->los desacuerdos en torno a la [other_subject] han dejado ambigüedades en este [schematic_synonym] sobre [subject_primary_gerund]</li>
-    <li>schematic_desc_first->una redacción chapucera echa por tierra los meticulosos planes [OftheAuthor] sobre [subject_primary_gerund]</li>
-    <li>schematic_desc_first->las preocupaciones por la [other_subject] al abordar [subject_primary_gerund] limitaron este [schematic_synonym]</li>
-    <li>schematic_desc_first->este [schematic_synonym] sobre [subject_primary_gerund] ha sido copiado repetidamente, empañando su contenido</li>
+    <li>schematic_desc_first->el [schematic_synonym] para [subject_primary_gerund] es demasiado [negative_adjective]</li>
+    <li>schematic_desc_first->las limitaciones de [other_subject] para [subject_primary_gerund] comprometieron este [schematic_synonym]</li>
+    <li>schematic_desc_first->los detalles imprecisos sobre cómo [subject_primary_gerund] dificultan la aplicación de este [schematic_synonym]</li>
+    <li>schematic_desc_first->este [schematic_synonym] [negative_adjective] introduce a veces errores al tratar de [subject_primary_gerund]</li>
+    <li>schematic_desc_first->este [schematic_synonym] para [subject_primary_gerund] resulta pobre desde el punto de vista estético</li>
+    <li>schematic_desc_first->la falta de imaginación al plantear cómo [subject_primary_gerund] ha limitado este [schematic_synonym]</li>
+    <li>schematic_desc_first->este [schematic_container] proporciona muchas especificaciones contradictorias para [subject_primary_gerund]</li>
+    <li>schematic_desc_first->los desacuerdos en torno a la [other_subject] han dejado ambigüedades en este [schematic_synonym] para [subject_primary_gerund]</li>
+    <li>schematic_desc_first->una redacción chapucera echa por tierra los meticulosos planes [OftheAuthor] para [subject_primary_gerund]</li>
+    <li>schematic_desc_first->las carencias de [other_subject] para [subject_primary_gerund] limitaron este [schematic_synonym]</li>
+    <li>schematic_desc_first->este [schematic_synonym] para [subject_primary_gerund] ha sido copiado repetidamente, empañando sus instrucciones</li>
     <li>schematic_desc_first->este [schematic_synonym] no establece ninguna conexión real entre [subject_primary_gerund] y [subject_secondary_gerund]</li>
     <li>schematic_desc_first->[subject_primary_gerund] y [subject_secondary_gerund] no son fáciles de emparejar</li>
-    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym_plural] sobre [subject_primary_gerund] y [subject_secondary_gerund]</li>
-    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym_plural] tanto sobre [subject_tertiary_gerund] como de [subject_secondary_gerund]</li>
-    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym_plural] tanto sobre [subject_primary_gerund] como de [subject_tertiary_gerund]</li>
-    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym_plural] sobre [subject_primary_gerund], [subject_secondary_gerund] y [subject_tertiary_gerund]</li>
+    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym_plural] para [subject_primary_gerund] y [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym_plural] destinados a [subject_tertiary_gerund] y [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym_plural] destinados a [subject_primary_gerund] y [subject_tertiary_gerund]</li>
+    <li>schematic_desc_first->este [schematic_container] tiene [schematic_synonym_plural] para [subject_primary_gerund], [subject_secondary_gerund] y [subject_tertiary_gerund]</li>
     <!-- EN: 
     <li>schematic_desc_second(quality[less_than]2)->. This is frustrating for those learning the subject</li>
     <li>schematic_desc_second(quality[less_than]2)->, making it valueless for most purposes</li>
@@ -1433,15 +1447,15 @@
     <li>schematic_desc_second(quality[greater_than]4)->, but the issues are minor compared to the wealth of knowledge it contains</li>
     <li>schematic_desc_second(quality[greater_than]4)->. However, the lessons it teaches are timeless</li>-->
     <li>schematic_desc_second(quality[less_than]2)->. Esto es frustrante para los que están aprendiendo sobre el tema</li>
-    <li>schematic_desc_second(quality[less_than]2)->, por lo que carece de valor para la mayoría de fines</li>
+    <li>schematic_desc_second(quality[less_than]2)->, por lo que apenas sirve en la mayoría de contextos</li>
     <li>schematic_desc_second(quality[less_than]2)->, socavando las lecciones que comunica</li>
     <li>schematic_desc_second(quality[less_than]2)->. Solo los principiantes se beneficiarán de sus lecciones</li>
     <li>schematic_desc_second(quality[less_than]2)->. Un diseño engañoso puede ser peor que no tener nada</li>
     <li>schematic_desc_second(quality[less_than]2)->, por lo que su utilidad es cuestionable</li>
     <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, pero los conceptos básicos están presentes</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, pero aun así contiene suficientes datos como para proporcionar información útil</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, pero aun así contiene datos suficientes y resulta útil</li>
     <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Sin embargo, esto no le resta utilidad en el caso de los profesionales experimentados</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, aunque sigue teniendo cierto valor para la mayoría de los estudiantes</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, aunque mantiene cierto valor entre la mayoría de los estudiantes</li>
     <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Los principiantes seguirán beneficiándose de sus enseñanzas</li>
     <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Sin embargo, solo los expertos notarán los defectos</li>
     <li>schematic_desc_second(quality[greater_than]4)->. Sin embargo, el contenido es excepcional para la época</li>
@@ -1751,7 +1765,7 @@
     <li>linkage->encontró esto útil cuando </li>
     <li>linkage->a raíz de eso, </li>
     <li>linkage->en [worldname], utilizó su perspicacia y </li>
-    <li>linkage->para dominarlo, viajó a [worldname] donde [ANYPAWN_pronoun] </li>
+    <li>linkage->para dominar la materia, viajó a [worldname], donde </li>
     <!-- EN: 
     <li>notable_adjective->famous</li>
     <li>notable_adjective->obscure</li>
@@ -2279,12 +2293,12 @@
     <li>other_subject->infraestructura</li>
     <li>other_subject->plantilla</li>
     <li>other_subject->comunicación</li>
-    <li>other_subject->repercusión</li>
-    <li>other_subject->evaluación</li>
+    <li>other_subject->coordinación</li>
+    <li>other_subject->documentación</li>
     <li>other_subject->financiación</li>
     <li>dates->El esquema se publicó [date_form]</li>
     <li>dates->El esquema se imprimió por primera vez [date_form]</li>
-    <li>dates->No está claro exactamente cuando se creó el esquema</li>
+    <li>dates->No está claro exactamente cuándo se creó el esquema</li>
     <li>date_form->recientemente</li>
     <li>date_form->hace muchos siglos</li>
     <li>date_form->el [date]</li>

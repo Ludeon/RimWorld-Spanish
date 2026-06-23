@@ -139,6 +139,7 @@
   -->
   <CompletedLongConstructionProject.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] terminó la construcción de [OBJECT_indefinite]</li>
+    <li>tale_noun->[PAWN_nameDef] terminó de construir [OBJECT_indefinite]</li>
     <li>image->[PAWN_nameFull] construyendo [OBJECT_indefinite] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] acoplando las piezas de [OBJECT_indefinite] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] puliendo la superficie de [OBJECT_indefinite] [circumstance_group]</li>
@@ -176,6 +177,7 @@
   -->
   <CompletedLongCraftingProject.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] terminó la fabricación de [OBJECT_indefinite]</li>
+    <li>tale_noun->[PAWN_nameDef] terminó de fabricar [OBJECT_indefinite]</li>
     <li>image->[PAWN_nameFull] trabajando en [OBJECT_indefinite] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] puliendo la superficie de [OBJECT_indefinite] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] añadiendo detalle a la superficie de [OBJECT_indefinite] [circumstance_group]</li>
@@ -212,7 +214,8 @@
     <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
   -->
   <EnteredCryptosleep.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] entró a un sarcófago de criptosueño</li>
+    <li>tale_noun->[PAWN_nameDef] entró en un sarcófago de criptosueño</li>
+    <li>tale_noun->[PAWN_nameDef] se sumergió en el criptosueño</li>
     <li>image->[PAWN_nameFull] yaciendo dentro de un sarcófago de criptosueño [circumstance_group]</li>
     <li>image->[PAWN_nameFull] abriendo un sarcófago de criptosueño vacío [circumstance_group]</li>
     <li>image->[PAWN_nameFull] cerrando un sarcófago de criptosueño [circumstance_group]</li>
@@ -251,6 +254,7 @@
   -->
   <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] logró la máxima habilidad en [SKILL_label]</li>
+    <li>tale_noun->[PAWN_nameDef] demostró ser maestr[PAWN_o_a] en [SKILL_label]</li>
     <li>image->[PAWN_nameFull] practicando la habilidad de [SKILL_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] leyendo un libro sobre métodos de [SKILL_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] recibiendo entrenamiento en [SKILL_label] [circumstance_group]</li>
@@ -292,6 +296,7 @@
   -->
   <GainedMasterSkillWithPassion.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] logró la máxima habilidad en [SKILL_label]</li>
+    <li>tale_noun->[PAWN_nameDef] alcanzó la maestría en [SKILL_label]</li>
     <li>image->[PAWN_nameFull] practicando la habilidad de [SKILL_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] leyendo un libro sobre métodos de [SKILL_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] recibiendo entrenamiento en [SKILL_label] [circumstance_group]</li>
@@ -367,7 +372,8 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Meditated.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] meditaba</li>
+    <li>tale_noun->la meditación de [PAWN_nameDef]</li>
+    <li>tale_noun->[PAWN_nameDef] encontró la paz interior meditando</li>
     <li>image->[PAWN_nameFull] sentándose cerca de [TreeTypeIndef], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] sentándose con calma, [circumstance_group]</li>
     <li>image->[PAWN_nameFull] contemplando la distancia y [circumstance_group]</li>
@@ -407,6 +413,7 @@
   -->
   <MinedValuable.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] minó una rica veta de [MATERIAL_label]</li>
+    <li>tale_noun->[PAWN_nameDef] descubrió una rica veta de [MATERIAL_label]</li>
     <li>image->[PAWN_nameFull] trabajando una pared de [MATERIAL_label] con herramientas de minería, [circumstance_group]</li>
     <li>image->[PAWN_nameFull] revisando un trozo de [MATERIAL_label], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] descansando contra una pared de [MATERIAL_label], [circumstance_group]</li>
@@ -538,6 +545,7 @@
   -->
   <PutIntoCryptosleep.rulePack.rulesStrings>
     <li>tale_noun->[CARRIER_nameDef] llevó a [SLEEPER_nameDef] a un sarcófago de criptosueño</li>
+    <li>tale_noun->[CARRIER_nameDef] puso a [SLEEPER_nameDef] en criptosueño</li>
     <li>image->[CARRIER_nameFull] poniendo a [SLEEPER_nameDef] dentro de un sarcófago de criptosueño [circumstance_group]</li>
     <li>image->[CARRIER_nameFull] abriendo un sarcófago de criptosueño vacío mientras carga a [SLEEPER_nameDef] [circumstance_group]</li>
     <li>image->[CARRIER_nameFull] sellando a [SLEEPER_nameDef] dentro de un sarcófago de criptosueño [circumstance_group]</li>
@@ -575,6 +583,7 @@
   -->
   <Stripped.rulePack.rulesStrings>
     <li>tale_noun->[TAKER_nameDef] desvistió a [STRIPPED_nameDef]</li>
+    <li>tale_noun->[TAKER_nameDef] le quitó la ropa a [STRIPPED_nameDef]</li>
     <li>image->[TAKER_nameFull] desvistiendo a [STRIPPED_nameFull] en público [circumstance_group]</li>
     <li>image->[TAKER_nameFull] retirando la ropa de [STRIPPED_nameFull] [circumstance_group]</li>
     <li>image->[TAKER_nameFull] sosteniendo varios [Apparel]s, de pie junto a [STRIPPED_nameFull], que está sin nada de ropa [circumstance_group]</li>

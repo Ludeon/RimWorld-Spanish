@@ -36,6 +36,9 @@
     <li>terrain_word->respiraderos infernales</li>
     <li>terrain_word->agujeros infernales</li>
     <li>terrain_word->conductos de calor</li>
+    <li>terrain_word->fumarolas ardientes</li>
+    <li>terrain_word->fisuras de azufre</li>
+    <li>terrain_word->respiraderos magmáticos</li>
   </NamerLandmark_AncientHeatVent.rulePack.rulesStrings>
   
   <!-- EN:
@@ -46,9 +49,12 @@
   -->
   <NamerLandmark_AncientQuarry.rulePack.rulesStrings>
     <li>r_name(p=0.2)->sitio de excavación</li>
+    <li>r_name(p=0.2)->la excavación abandonada</li>
     <li>terrain_word->cantera</li>
     <li>terrain_word->minas</li>
     <li>terrain_word->pozos de rocas</li>
+    <li>terrain_word->foso de piedra</li>
+    <li>terrain_word->yacimiento minero</li>
   </NamerLandmark_AncientQuarry.rulePack.rulesStrings>
   
   <!-- EN:
@@ -148,6 +154,9 @@
   -->
   <NamerLandmark_Cavern.rulePack.rulesStrings>
     <li>r_name(p=0.2)->las cuevas de [NamePerson]</li>
+    <li>r_name(p=0.2)->los pasadizos oscuros de [NamePerson]</li>
+    <li>r_name(p=0.2)->las profundidades de [NamePerson]</li>
+    <li>r_name(p=0.2)->los abismos de [NamePerson]</li>
     <li>terrain_word(p=2)->caverna</li>
     <li>terrain_word->túnel</li>
     <li>terrain_word->red de cuevas</li>
@@ -173,6 +182,8 @@
   -->
   <NamerLandmark_ChemfuelRefinery.rulePack.rulesStrings>
     <li>r_name(p=0.2)->[terrain_word] de [NamePerson]</li>
+    <li>r_name(p=0.2)->el complejo químico de [NamePerson]</li>
+    <li>r_name(p=0.2)->la refinería abandonada de [NamePerson]</li>
     <li>terrain_word(p=2)->refinería</li>
     <li>terrain_word->planta</li>
     <li>terrain_word->planta química</li>
@@ -186,6 +197,8 @@
   -->
   <NamerLandmark_Cliffs.rulePack.rulesStrings>
     <li>r_name(p=0.2)->el fin de [NamePerson]</li>
+    <li>r_name(p=0.2)->el despeñadero de [NamePerson]</li>
+    <li>r_name(p=0.2)->el precipicio de [NamePerson]</li>
     <li>terrain_word(p=2)->acantilados</li>
     <li>terrain_word->muralla</li>
     <li>terrain_word->muro</li>
@@ -297,7 +310,7 @@
   -->
   <NamerLandmark_Harbor.rulePack.rulesStrings>
     <li>r_name(p=0.2)->puerto [NamePerson]</li>
-    <li>terrain_word->puerto</li>
+    <li>r_name(p=0.2)->el muelle de [NamePerson]</li>
     <li>terrain_word->puerto</li>
   </NamerLandmark_Harbor.rulePack.rulesStrings>
   
@@ -307,6 +320,9 @@
   -->
   <NamerLandmark_Hollow.rulePack.rulesStrings>
     <li>r_name(p=0.2)->el escondite de [NamePerson]</li>
+    <li>r_name(p=0.2)->la guarida oculta de [NamePerson]</li>
+    <li>r_name(p=0.2)->el refugio secreto de [NamePerson]</li>
+    <li>r_name(p=0.2)->la cuenca de [NamePerson]</li>
     <li>terrain_word->depresión</li>
   </NamerLandmark_Hollow.rulePack.rulesStrings>
   
@@ -319,6 +335,7 @@
   -->
   <NamerLandmark_HotSprings.rulePack.rulesStrings>
     <li>r_name(p=0.2)->el baño de [NamePerson]</li>
+    <li>r_name(p=0.2)->las termas de [NamePerson]</li>
     <li>terrain_word(p=2)->fuente termal</li>
     <li>terrain_word(p=2)->fuentes termales</li>
     <li>terrain_word->manantial</li>

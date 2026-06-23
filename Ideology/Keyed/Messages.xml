@@ -8,9 +8,9 @@
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
   <MessageIdeoIncompatiblePrecepts>{PRECEPT1} y {PRECEPT2} son incompatibles.</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
-  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} el deseo de ropa se superpone con la ropa requerida del rol de {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>La ropa deseada ({DESIREDAPPAREL}) se solapa con la ropa requerida por el rol de {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} se superpone con la ropa requerida del rol de {ROLE} ({ROLEAPPAREL}). Esto hará imposible a poseedores de ese rol llevar juntos la ropa requerida y deseada.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>La ropa deseada ({DESIREDAPPAREL}) se solapa con la ropa requerida por el rol de {ROLE} ({ROLEAPPAREL}). Esto impedirá que quienes tengan ese rol lleven juntas la ropa requerida y la deseada.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
   <MessageRitualMissingTarget>{PRECEPT} necesita uno de estos edificios</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
@@ -32,11 +32,11 @@
   <!-- EN: You need {0} to start the {1}. -->
   <MessageNoRequiredRolePawnToBeginRitual>Necesitas {0} para iniciar el {1}.</MessageNoRequiredRolePawnToBeginRitual>
   <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
-  <MessageNotEnoughSpectators>{1} requiere suficiente público para poder dar inicio ({0} como mínimo).</MessageNotEnoughSpectators>
+  <MessageNotEnoughSpectators>Se requieren al menos {0} espectadores para iniciar {1}.</MessageNotEnoughSpectators>
   <!-- EN: You must choose a role. -->
   <MessageRoleChangeChooseDifferentRole>Debes elegir un rol.</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>Antes de iniciar: {1}, debes asignar a alguien el rol de {0}.</MessageNeedAssignedRoleToBeginRitual>
+  <MessageNeedAssignedRoleToBeginRitual>Antes de iniciar {1}, debes asignar a alguien el rol de {0}.</MessageNeedAssignedRoleToBeginRitual>
   <!-- EN: Need at least one {0} participating. -->
   <MessageNeedAtLeastOneParticipantOfIdeo>Debe participar al menos 1 {0}.</MessageNeedAtLeastOneParticipantOfIdeo>
   
@@ -63,7 +63,7 @@
 
   <!-- Prisoner interactions -->
   <!-- EN: No warden is capable of this enslavement. -->
-  <MessageNoWardenCapableOfEnslavement>Ningún guardia es capaz de esta esclavización.</MessageNoWardenCapableOfEnslavement>
+  <MessageNoWardenCapableOfEnslavement>Ningún guardia puede realizar esta esclavización.</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
   <MessageNoWardenOfIdeo>No tienes guardias {MEMBERNAME} para convertir a {PRISONER_nameDef}. Su modo de interacción se revirtió a "Sin interacción".</MessageNoWardenOfIdeo>
 
@@ -89,9 +89,9 @@
   <!-- EN: {0_nameDef} was recruited. -->
   <MessageWandererRecruited>{0_nameDef} fue reclutad{0_gender ? o : a}.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
-  <MessageWandererLeftHealthy>{0_nameDef} salió del mapa saludable.</MessageWandererLeftHealthy>
+  <MessageWandererLeftHealthy>{0_nameDef} abandonó el mapa con buena salud.</MessageWandererLeftHealthy>
   <!-- EN: {0} has been failed. -->
-  <MessageCharityQuestEndedFailed>{0} ha fallado.</MessageCharityQuestEndedFailed>
+  <MessageCharityQuestEndedFailed>La misión {0} ha fracasado.</MessageCharityQuestEndedFailed>
   <!-- EN: {0} has been successfully completed. -->
   <MessageCharityQuestEndedSuccess>{0} se ha completado con éxito.</MessageCharityQuestEndedSuccess>
 
@@ -146,7 +146,7 @@
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
   <MessageSleepingThreatDelayActivated>{0_pawnsPlural} se despertarán en {1}.</MessageSleepingThreatDelayActivated>
   <!-- EN: Infestation arriving. -->
-  <MessageInfestationDelayActivated>Infestación llegando</MessageInfestationDelayActivated>
+  <MessageInfestationDelayActivated>Infestación en camino</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
   <MessageFuelNodeDelayActivated>¡{0} ha sido perturbado y podría explotar pronto!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
 

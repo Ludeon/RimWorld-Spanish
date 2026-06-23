@@ -70,6 +70,7 @@
   -->
   <CaravanAmbushedByHumanlike.rulePack.rulesStrings>
     <li>tale_noun->la caravana de [PAWN_nameDef] fue emboscada</li>
+    <li>tale_noun->la caravana de [PAWN_nameDef] cayó en una emboscada</li>
     <li>image->[PAWN_nameFull] poniéndose a cubierto [circumstance_group]</li>
     <li>image->[PAWN_nameFull] moviéndose para proteger a un aliado [circumstance_group]</li>
     <li>image->[PAWN_nameFull] moviéndose para atacar [circumstance_group]</li>
@@ -113,6 +114,7 @@
   -->
   <CaravanAmbushedByManhunter.rulePack.rulesStrings>
     <li>tale_noun->la caravana de [PAWN_nameDef] fue emboscada</li>
+    <li>tale_noun->la caravana de [PAWN_nameDef] bajo ataque de bestias cazahombres</li>
     <li>image->[PAWN_nameFull] escondiéndose [circumstance_group]</li>
     <li>image->[PAWN_nameFull] moviéndose para proteger a un aliado [circumstance_group]</li>
     <li>image->[PAWN_nameFull] moviéndose para atacar [circumstance_group]</li>
@@ -211,6 +213,7 @@
   -->
   <CaravanMeeting.rulePack.rulesStrings>
     <li>tale_noun->la caravana de [PAWN_nameDef] recibió visitas</li>
+    <li>tale_noun->la caravana de [PAWN_nameDef] se encontró con viajeros</li>
     <li>image->[PAWN_nameFull] saludando a un [PersonJob] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] inspeccionando a un [PersonJob] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] llamando a un [PersonJob] [circumstance_group]</li>
@@ -256,7 +259,9 @@
     <li>desc_sentence->There is no [Enemy] in sight.</li>
   -->
   <Eclipse.rulePack.rulesStrings>
-    <li>tale_noun->ocurrió un eclipse sobre [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->un eclipse solar sobre [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->{replace: un eclipse oscureciendo los cielos de [CommunityDef]; "de el "-"del "} de [PAWN_nameDef]</li>
+    <li>tale_noun->{replace: un eclipse que cubrió de oscuridad a [CommunityDef]; "a el "-"al "} de [PAWN_nameDef]</li>
     <li>image->un cielo extrañamente oscuro, [circumstance_phrase]</li>
     <li>image->un cielo crepuscular, [circumstance_phrase]</li>
     <li>image->una luna, rodeada por un tenue círculo de luz solar, [circumstance_phrase]</li>
@@ -407,6 +412,7 @@
   -->
   <Infestation.rulePack.rulesStrings>
     <li>tale_noun->la [Community_Fem] de [PAWN_nameDef] fue infestada por insectoides</li>
+    <li>tale_noun->una plaga de insectoides en la [Community_Fem] de [PAWN_nameDef]</li>
     <li>image->un enjambre de escarabajos [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] megarañas [circumstance_phrase]</li>
     <li>image->una abrumadora cantidad de insectoides [Color_Plural] [circumstance_phrase]</li>
@@ -458,7 +464,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <ManhunterPack.rulePack.rulesStrings>
-    <li>tale_noun->las bestias cazahombres amenazaron a [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->las bestias cazahombres {replace: amenazaron a [CommunityDef]; "a el "-"al "} de [PAWN_nameDef]</li>
     <li>tale_noun->[CommunityDef] de [PAWN_nameDef] recibió un ataque de animales locos</li>
     <li>image->un grupo de [Animal_Plural] [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Animal_Plural] [circumstance_phrase]</li>
@@ -513,8 +519,8 @@
     <li>desc_sentence->The surroundings are muted and dull.</li>
   -->
   <MeteoriteImpact.rulePack.rulesStrings>
-    <li>tale_noun->un meteorito cayó cerca de [CommunityDef] de [PAWN_nameDef]</li>
-    <li>tale_noun->un meteorito impactó cerca de [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->{replace: un meteorito cayó cerca de [CommunityDef]; "de el "-"del "} de [PAWN_nameDef]</li>
+    <li>tale_noun->{replace: un meteorito impactó cerca de [CommunityDef]; "de el "-"del "} de [PAWN_nameDef]</li>
     <li>image->un [AdjectiveLarge] meteorito llameante [airborne_circumstance]</li>
     <li>image->un punto brillante [airborne_circumstance]</li>
     <li>image->una [AdjectiveLarge_Fem] bola de fuego [Color_Fem] [airborne_circumstance]</li>
@@ -638,9 +644,9 @@
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   -->
   <ShipPartCrash.rulePack.rulesStrings>
-    <li>tale_noun->una antigua nave se estrelló cerca de [CommunityDef] de [PAWN_nameDef]</li>
-    <li>tale_noun->una antigua nave aterrizó cerca de [CommunityDef] de [PAWN_nameDef]</li>
-    <li>tale_noun->un módulo dañado de una nave aterrizó cerca de [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->{replace: una antigua nave se estrelló cerca de [CommunityDef]; "de el "-"del "} de [PAWN_nameDef]</li>
+    <li>tale_noun->{replace: una antigua nave aterrizó cerca de [CommunityDef]; "de el "-"del "} de [PAWN_nameDef]</li>
+    <li>tale_noun->{replace: un módulo dañado de una nave aterrizó cerca de [CommunityDef]; "de el "-"del "} de [PAWN_nameDef]</li>
     <li>image->un enjambre de [MechanoidAnyPl] [circumstance_phrase]</li>
     <li>image->un ejército de [MechanoidAnyPl] [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [MechanoidAnyPl] [circumstance_phrase]</li>
@@ -695,7 +701,7 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Tornado.rulePack.rulesStrings>
-    <li>tale_noun->un tornado se formó cerca de [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->{replace: un tornado se formó cerca de [CommunityDef]; "de el "-"del "} de [PAWN_nameDef]</li>
     <li>tale_noun->la [Community_Fem] de [PAWN_nameDef] fue amenazada por un tornado</li>
     <li>image->[behavior] cono de aire en movimiento [circumstance_phrase]</li>
     <li>image->[behavior] tornado [circumstance_phrase]</li>
@@ -748,7 +754,7 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <TornadoFromItem.rulePack.rulesStrings>
-    <li>tale_noun->un tornado se formó cerca de [CommunityDef] de [COLONIST_nameDef]</li>
+    <li>tale_noun->{replace: un tornado se formó cerca de [CommunityDef]; "de el "-"del "} de [COLONIST_nameDef]</li>
     <li>tale_noun->la [Community_Fem] de [COLONIST_nameDef] fue amenazada por un tornado</li>
     <li>image->[behavior] cono de aire en movimiento [circumstance_phrase]</li>
     <li>image->[behavior] tornado [circumstance_phrase]</li>
@@ -800,7 +806,7 @@
   -->
   <ToxicFallout.rulePack.rulesStrings>
     <li>tale_noun->lluvia tóxica cayó sobre [CommunityDef] de [PAWN_nameDef]</li>
-    <li>tale_noun->la atmósfera cerca de [CommunityDef] de [PAWN_nameDef] se volvió tóxica</li>
+    <li>tale_noun->la atmósfera {replace: cerca de [CommunityDef]; "de el "-"del "} de [PAWN_nameDef] se volvió tóxica</li>
     <li>image->un cielo ominoso, [circumstance_group]</li>
     <li>image->el aire volviéndose turbio y [circumstance_group]</li>
     <li>image->el suelo brillando apaciblemente y [circumstance_group]</li>
@@ -840,7 +846,8 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
   <VolcanicWinter.rulePack.rulesStrings>
-    <li>tale_noun->un invierno volcánico comenzó en [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->el comienzo de un invierno volcánico en [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->las cenizas volcánicas sobre [CommunityDef] de [PAWN_nameDef]</li>
     <li>image->un cielo frío y oscuro, [circumstance_group]</li>
     <li>image->el aire llenándose de ceniza, [circumstance_group]</li>
     <li>image->un [TerrainFeature] congelado y oscuro [circumstance_group]</li>

@@ -180,6 +180,8 @@
     <li>r_logentry(p=0.4)->[projectile] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] y alcanzó {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] golpeó {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} con [projectile] que tenía como destino a [ORIGINALTARGET_definite].</li>
     <li>WEAPON_projectile_label(p=0.05)->disparo</li>
+    <li>WEAPON_projectile_label(p=0.05)->proyectil</li>
+    <li>WEAPON_projectile_label(p=0.05)->tiro</li>
     <!--Dejar WEAPON_projectile_indefinite con este nombre aunque no sea indefinido zerstrick(5/3/2022) -->
     <li>WEAPON_projectile_indefinite(p=0.05)->el disparo</li>
     <li>destroyed_past->destrozado</li>
@@ -256,6 +258,8 @@
     <li>r_logentry(p=0.4)->[projectile] de [INITIATOR_definite] [missed] {replace: a [ORIGINALTARGET_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} y golpeó a [damaged_target_possessive_opt][deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] golpeó a [damaged_target_possessive_opt] con [projectile] que iba destinado a [ORIGINALTARGET_definite][deflected_result].</li>
     <li>WEAPON_projectile_label(p=0.05)->disparo</li>
+    <li>WEAPON_projectile_label(p=0.05)->proyectil</li>
+    <li>WEAPON_projectile_label(p=0.05)->tiro</li>
     <li>projectile(p=0.05)->el disparo</li>
     <li>damaged_target_possessive_opt->{replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}</li>
     <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->[recipient_part_damaged0_definite] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}</li>
@@ -327,8 +331,14 @@
     <li>shotat(p=0.5)->apuntó y disparo [aburst]</li>
     <li>shotat(p=0.5)->[skillAdv] apuntó y disparó [aburst]</li>
     <li>shotatC(p=0.3)->abrió fuego contra</li>
+    <li>shotatC(p=0.3)->disparó contra</li>
+    <li>shotatC(p=0.3)->comenzó a disparar a</li>
+    <li>shotatC(p=0.3)->disparó ráfagas hacia</li>
+    <li>shotatC(p=0.3)->descargó su arma contra</li>
     <li>aburst-></li>
     <li>aburst(BURST==True,p=3)->una ráfaga</li>
+    <li>aburst(BURST==True,p=3)->una descarga</li>
+    <li>aburst(BURST==True,p=3)->una ráfaga de disparos</li>
     <li>burst(BURST==True,p=0.5)->descarga</li>
     <li>burst(BURST==True,p=3)->ráfaga</li>
     <li>verb_shot->disparó</li>

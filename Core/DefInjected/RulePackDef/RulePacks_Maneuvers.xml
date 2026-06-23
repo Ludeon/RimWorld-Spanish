@@ -73,8 +73,10 @@
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] intentó tirar [TOOL_label] a los ojos de [RECIPIENT_definite], pero [RECIPIENT_definite] lo esquivó.</li>
-    <li>r_logentry->[INITIATOR_definite] intentó tirar [TOOL_label] a los ojos de [RECIPIENT_definite], pero [RECIPIENT_definite] lo bloqueó.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó arrojar [TOOL_label] {replace: a los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}, pero [RECIPIENT_definite] lo esquivó.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó arrojar [TOOL_label] {replace: a los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}, pero [RECIPIENT_definite] lo bloqueó.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó arrojar un puñado de [TOOL_label] {replace: a los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}, pero [RECIPIENT_definite] reaccionó rápido y lo esquivó.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó {replace: cegar a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} lanzándole [TOOL_label], pero [RECIPIENT_definite] logró interponer su defensa y bloquearlo.</li>
   </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   
   <!-- EN:
@@ -82,15 +84,18 @@
     <li>r_logentry(p=0.2)->[INITIATOR_definite] kicked a spray of [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] tiró [TOOL_label] a los ojos de [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] esparció [TOOL_label] a los ojos de [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] arrojó [TOOL_label] {replace: a los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] esparció [TOOL_label] {replace: hacia los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
+    <li>r_logentry->[INITIATOR_definite] arrojó un puñado de [TOOL_label] directamente {replace: hacia los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} en una sucia maniobra.</li>
+    <li>r_logentry->[INITIATOR_definite] dio una patada al suelo, haciendo volar [TOOL_label] {replace: hacia los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
   </Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but missed.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] intentó tirar [TOOL_label] a los ojos de [RECIPIENT_definite], pero falló.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó arrojar [TOOL_label] {replace: a los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}, pero falló.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó {replace: cegar a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} arrojándole [TOOL_label], pero no acertó.</li>
   </Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
   
   <!-- EN:

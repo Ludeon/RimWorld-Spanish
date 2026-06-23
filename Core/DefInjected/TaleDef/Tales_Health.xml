@@ -103,6 +103,7 @@
   -->
   <Exhausted.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] colapsó por agotamiento</li>
+    <li>tale_noun->[PAWN_nameDef] cayó exhaust[PAWN_o_a] por el agotamiento</li>
     <li>image->[PAWN_nameFull] colapsando en el suelo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] yaciendo en el suelo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] yaciendo en la cama [circumstance_group]</li>
@@ -141,8 +142,9 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <GaveBirth.rulePack.rulesStrings>
-    <li>tale_noun->[MOTHER_nameDef] dio a luz a su [CHILD_name] bebé</li>
-    <li>image->[MOTHER_nameFull] dando a luz a [CHILD_nameFull] bebé</li>
+    <li>tale_noun->[MOTHER_nameDef] dio a luz a su bebé [CHILD_name]</li>
+    <li>tale_noun->[MOTHER_nameDef] trajo al mundo a su bebé [CHILD_name]</li>
+    <li>image->[MOTHER_nameFull] dando a luz a su bebé [CHILD_nameFull]</li>
     <li>image->[MOTHER_nameFull] acurrucando a su [baby], [circumstance_group]</li>
     <li>image->[MOTHER_nameFull] yaciendo en cama junto a su [baby], [circumstance_group]</li>
     <li>image->[MOTHER_nameFull] colapsando en una silla con su [baby], [circumstance_group]</li>
@@ -226,6 +228,7 @@
   -->
   <HypothermiaRevealed.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] sufrió hipotermia</li>
+    <li>tale_noun->[PAWN_nameDef] padeció una severa hipotermia</li>
     <li>image->[PAWN_nameFull] arrastrándose por la nieve [circumstance_group]</li>
     <li>image->[PAWN_nameFull] junto a [TerrainFeatureIndef] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] buscando calor [circumstance_group]</li>
@@ -269,6 +272,7 @@
   -->
   <IllnessRevealed.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] sufrió de [ILLNESS_label]</li>
+    <li>tale_noun->[PAWN_nameDef] enfermó de [ILLNESS_label]</li>
     <li>image->[PAWN_nameFull] arrastrando los pies por el campo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] yaciendo en el suelo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] yaciendo en cama [circumstance_group]</li>
