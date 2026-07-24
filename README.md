@@ -67,7 +67,7 @@ Si queréis actualizar las traducciones a las más recientes, de forma semiautom
 ### Equipo de traducción
 
 - **[Zakees](https://github.com/Zakees)** (head translator)
-- **[Israel Gallego (Anth)](https://github.com/Wolf-Igmc4)** (translator)
+- **[Israel Gallego (Anth)](https://github.com/Anth-Zorax)** (translator)
 - **[Álvaro Maldonado Peña (picodepelicano)](https://github.com/picodepelicano)** (translator)
 
 ### Colaboradores
