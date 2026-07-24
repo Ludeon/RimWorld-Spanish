@@ -4,11 +4,11 @@
   <!-- EN: Uncontrolled mechs -->
   <AlertMechLacksOverseer>Mecas no controlados</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
-  <AlertMechLacksOverseerDesc>Uno o más de tus mecanoides no están controlados. Conecta tus mecanoides a un mecanitor con suficiente ancho de banda para controlarlos.\n\nSi permanecen sin control por más de un día, un mecanoide podría volverse salvaje. Cuando esto suceda, se unirán a {0} y se volverán hostiles hacia ti. Si un mecanoide se vuelve salvaje, arrastrará consigo a otros mecanoides cercanos.\n\nLos mecanoides salvajes no pueden ser resucitados en un gestador cuando son destruidos.</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerDesc>Uno o más de tus mecanoides no están controlados. Conecta tus mecanoides a un mecanitor con suficiente ancho de banda para controlarlos.\n\nSi un mecanoide permanece sin control durante más de un día, podría volverse salvaje. Cuando esto suceda, se unirá a {0} y se volverá hostil hacia ti. Si un mecanoide se vuelve salvaje, arrastrará consigo a otros mecanoides cercanos.\n\nLos mecanoides salvajes no pueden ser resucitados en un gestador cuando son destruidos.</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
   <AlertMechLacksOverseerUncontrolled>Los siguientes mecas no están controlados</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
-  <AlertMechLacksOverseerMayGoFeral>Los siguientes mecas no están controlados y podrán volverse hostiles en cualquier momento</AlertMechLacksOverseerMayGoFeral>
+  <AlertMechLacksOverseerMayGoFeral>Los siguientes mecas no están controlados y podrían volverse salvajes en cualquier momento</AlertMechLacksOverseerMayGoFeral>
 
   <!-- EN: {0} is low on resources -->
   <AlertWarqueenHasLowResources>{0} tiene pocos recursos</AlertWarqueenHasLowResources>
@@ -47,11 +47,11 @@
   <!-- EN: Low baby food -->
   <AlertLowBabyFood>Poca comida de bebé</AlertLowBabyFood>
   <!-- EN: You are dangerously low on baby food.\n\n    Babies needing food: {0}\n    Days worth of baby food in storage: {1}\n\nBuy, find or make some baby-edible food. This includes {2}. -->
-  <AlertLowBabyFoodDesc>Tu nivel de comida de bebé es peligrosamente bajo.\n\n    Bebés que necesitan comida: {0}\n    Días restantes en los almacenes: {1}\n\nCompra, encuentra o cocina comida para bebés. Esto incluye {2}.</AlertLowBabyFoodDesc>
+  <AlertLowBabyFoodDesc>Tu nivel de comida de bebé es peligrosamente bajo.\n\n    Bebés que necesitan comida: {0}\n    Días restantes en los almacenes: {1}\n\nCompra, encuentra o cocina alimentos aptos para bebés. Esto incluye {2}.</AlertLowBabyFoodDesc>
   <!-- EN: No baby feeders -->
   <AlertNoBabyFeeder>Sin alimentadores de bebés</AlertNoBabyFeeder>
   <!-- EN: No {FACTION_pawnsPlural} are assigned to feed these babies, or they're all downed.\n\nAssign one of your {FACTION_pawnsPlural} to childcare or assign a lactating {FACTION_pawnSingular} to feed these babies with Urgent priority in the babies' feeding tab, and ensure at least one of them is not downed. -->
-  <AlertNoBabyFeederDesc>No hay {FACTION_pawnsPlural} asignados para alimentar bebés, o están incapacitados.\n\nAsigna uno de tus {FACTION_pawnPlural} a cuidar niños o asigna un {FACTION_pawnSingular} en lactancia para alimentar a estos bebés con prioridad Urgente en la pestaña de Alimentación de los bebés, y asegúrate de que al menos uno de ellos no esté incapacitado.</AlertNoBabyFeederDesc>
+  <AlertNoBabyFeederDesc>No hay {FACTION_pawnsPlural} asignados para alimentar bebés, o están incapacitados.\n\nAsigna uno de tus {FACTION_pawnsPlural} a cuidar niños o asigna un {FACTION_pawnSingular} en lactancia para alimentar a estos bebés con prioridad Urgente en la pestaña "Nutrición" de los bebés, y asegúrate de que al menos uno de ellos no esté incapacitado.</AlertNoBabyFeederDesc>
   <!-- EN: Abandoned baby -->
   <AlertAbandonedBaby>Bebé abandonado</AlertAbandonedBaby>
   <!-- EN: There are abandoned babies nearby with no closeby caregivers.  If you don't adopt the babies, they'll probably starve to death.\n\nTo adopt a baby, select it and then select "{0}". -->
@@ -60,7 +60,7 @@
   <!-- EN: No baby food in caravan -->
   <AlertNoBabyFoodCaravan>Sin comida de bebé en la caravana</AlertNoBabyFoodCaravan>
   <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
-  <AlertNoBabyFoodCaravanDesc>Los bebés de esta caravana no tienen comida ni hay {FACTION_pawnPlural} en lactancia asignados para alimentarlos.</AlertNoBabyFoodCaravanDesc>
+  <AlertNoBabyFoodCaravanDesc>Los bebés de esta caravana no tienen comida ni hay {FACTION_pawnsPlural} en lactancia asignados para alimentarlos.</AlertNoBabyFoodCaravanDesc>
 
   <!-- EN: Toxic buildup -->
   <AlertToxicBuildup>Acumulación tóxica</AlertToxicBuildup>
@@ -79,7 +79,7 @@
   <!-- EN: Polluted terrain -->
   <AlertPollutedTerrain>Terreno contaminado</AlertPollutedTerrain>
   <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
-  <AlertPollutedTerrainDesc>Una persona o animal está sufriendo una acumulación tóxica y está en un terreno contaminado. Cuando alguien está en un terreno contaminado, acumulará niveles tóxicos hasta morir.\n\nEstas personas o animales están afectados:\n\n{0}\n\nMantén a la gente alejada de terrenos tóxicos, o busca otra forma de protegerlos de sus efectos. Algunas prendas, implantes o modificaciones genéticas pueden proteger de las acumulaciones tóxicas. El terreno contaminado no se puede cubrir usando un suelo, pero se puede limpiar a mano o por otros medios.</AlertPollutedTerrainDesc>
+  <AlertPollutedTerrainDesc>Una persona o animal está sufriendo una acumulación tóxica y está en un terreno contaminado. Cuando alguien está en un terreno contaminado, acumulará niveles tóxicos hasta morir.\n\nEstas personas o animales están afectados:\n\n{0}\n\nMantén a la gente alejada de terrenos contaminados, o busca otra forma de protegerlos de sus efectos. Algunas prendas, implantes o modificaciones genéticas pueden proteger de las acumulaciones tóxicas. El terreno contaminado no se puede cubrir usando un suelo, pero se puede limpiar a mano o por otros medios.</AlertPollutedTerrainDesc>
 
   <!-- EN: Mechanoid missing part -->
   <AlertMechMissingBodyPart>Meca con parte faltante</AlertMechMissingBodyPart>
@@ -93,7 +93,7 @@
   <!-- EN: These mechanoids are damaged and need repair -->
   <AlertMechNeedsRepairDescPrefix>Estos mecas están dañados y necesitan reparación</AlertMechNeedsRepairDescPrefix>
   <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
-  <AlertMechNeedsRepairDesc>Ordena a un mecanitor que lo repare, o selecciona el meca y activa la autorreparación. Reparar un meca requiere energía. Si la energía de un meca es tan baja que no pueda moverse, alguien deberá llevarlo hasta un cargador.</AlertMechNeedsRepairDesc>
+  <AlertMechNeedsRepairDesc>Ordena a un mecanitor que los repare, o selecciona un meca y activa la autorreparación. Reparar un meca requiere energía. Si la energía de un meca es tan baja que no pueda moverse, alguien deberá llevarlo hasta un cargador.</AlertMechNeedsRepairDesc>
   
   <!-- EN: {0} stopped -->
   <AlertToxifierGeneratorStopped>{0} detenido</AlertToxifierGeneratorStopped>
@@ -103,12 +103,12 @@
   <!-- EN: Psychic bond distance -->
   <AlertPsychicBondedPawnsSeparated>Vínculo psíquico distante</AlertPsychicBondedPawnsSeparated>
   <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
-  <AlertPsychicBondedPawnsSeparatedDesc>Algunos colonos con vínculos psíquicos han sido separados y están sintiendo efectos negativos desde la distancia. Para evitarlo, la gente con vínculos psíquicos debe estar en la misma casilla del mapa, caravana o vehículo. Además, no deben estar en criptosueño u otras animaciones de suspensión.\n\nLas siguientes personas están afectadas</AlertPsychicBondedPawnsSeparatedDesc>
+  <AlertPsychicBondedPawnsSeparatedDesc>Algunos colonos con vínculos psíquicos han sido separados y están sintiendo efectos negativos desde la distancia. Para evitarlo, la gente con vínculos psíquicos debe estar en la misma casilla del mundo, caravana o vehículo. Además, no deben estar en criptosueño ni en otro estado similar de animación suspendida.\n\nLas siguientes personas están afectadas</AlertPsychicBondedPawnsSeparatedDesc>
 
   <!-- EN: Gene bank needs power -->
-  <AlertGenebankUnpowered>Banco genético sin energía</AlertGenebankUnpowered>
+  <AlertGenebankUnpowered>Banco de genes sin energía</AlertGenebankUnpowered>
   <!-- EN: A gene bank is unpowered, so the genepacks inside it are slowly deteriorating. Restore power to the gene bank to prevent the genepacks from deteriorating.\n\nOnce the gene bank is powered, it will slowly reverse the deterioration of the genepacks inside it. -->
-  <AlertGenebankUnpoweredDesc>Un banco genético no tiene energía, por lo que los pack de genes de su interior se deteriorarán lentamente. Restablece la energía al banco para evitarlo.\n\nUna vez reciba energía, el banco revertirá el deterioro de los packs en su interior.</AlertGenebankUnpoweredDesc>
+  <AlertGenebankUnpoweredDesc>Un banco de genes no tiene energía, por lo que los paquetes de genes de su interior se deteriorarán lentamente. Restablece la energía al banco para evitarlo.\n\nUna vez reciba energía, el banco revertirá el deterioro de los paquetes en su interior.</AlertGenebankUnpoweredDesc>
 
   <!-- EN: {0} incoming -->
   <AlertBossgroupIncoming>{0} está llegando</AlertBossgroupIncoming>

@@ -52,10 +52,10 @@
     <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
   -->
   <Hospitality_Animals.questDescriptionRules.rulesStrings>
-    <li>threatsInfoMechClustersSingleAnimal->Por razones desconocidas, [lodgersPawnKind_definite], es objetivo de un enjambre de mecanoides en órbita.</li>
-    <li>threatsInfoMechClustersMultiAnimal->Por razones desconocidas, un grupo de [lodgersLabelPlural] son objetivos de un enjambre de mecanoides en órbita.</li>
-    <li>threatsInfoMechRaidsSingleAnimal->Por razones desconocidas, [lodgersPawnKind_definite], es objetivo de una colmena de mecanoides. </li>
-    <li>threatsInfoMechRaidsMultiAnimal->Por razones desconocidas, un grupo de [lodgersLabelPlural] son objetivo de una colmena de mecanoides.</li>
+    <li>threatsInfoMechClustersSingleAnimal->Por razones desconocidas, [lodgersPawnKind_definite] es objetivo de un enjambre de mecanoides en órbita.</li>
+    <li>threatsInfoMechClustersMultiAnimal->Por razones desconocidas, un grupo de [lodgersLabelPlural] es objetivo de un enjambre de mecanoides en órbita.</li>
+    <li>threatsInfoMechRaidsSingleAnimal->Por razones desconocidas, [lodgersPawnKind_definite] es objetivo de una colmena de mecanoides.</li>
+    <li>threatsInfoMechRaidsMultiAnimal->Por razones desconocidas, un grupo de [lodgersLabelPlural] es objetivo de una colmena de mecanoides.</li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->Una organización de bienestar animal quiere que cuides de [lodgersPawnKind_indefinite], de nombre [lodgers0_nameDef] en [map_definite] durante [shuttleDelayTicks_duration]. [healthInfo] [threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nLos activistas de bienestar animal se llevaron a [lodgers0_nameDef] antes de que el animal fuera sacrificado en una ceremonia celebrada por la facción [enemyFaction_name]. Ahora los [enemyFaction_pawnsPlural] quieren venganza. Si aceptas quedarte con [lodgers0_nameDef], [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
@@ -78,7 +78,7 @@
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
     <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] de la facción [asker_faction_name] tiene una solicitud para ti. Quiere que cuides de [lodgersCount] [lodgersLabelPlural] en [map_definite] durante [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
-    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nLa manada de [lodgersLabelPlural] es solicitado por [asker_nameDef] como parte de un importante acuerdo comercial. Para iniciar un conflicto, la facción [enemyFaction_name] está enviando a sus [enemyFaction_pawnsPlural] para cazarles. Si aceptas a la manada de [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nLa manada de [lodgersLabelPlural] es solicitada por [asker_nameDef] como parte de un importante acuerdo comercial. Para iniciar un conflicto, la facción [enemyFaction_name] está enviando a sus [enemyFaction_pawnsPlural] para cazarlos. Si aceptas acoger a la manada de [lodgersLabelPlural], [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
@@ -155,7 +155,7 @@
     <li>animalAdj2(generateThreats==true)->huyendo por su vida</li>
     <li>animalAdj2Pl(generateThreats==true)->con miedo</li>
     <li>animalAdj2Pl(generateThreats==true)->frágiles</li>
-    <li>animalAdj2Pl(generateThreats==true)->huyendo por sus vida</li>
+    <li>animalAdj2Pl(generateThreats==true)->huyendo por sus vidas</li>
   </Hospitality_Animals.questNameRules.rulesStrings>
   
 </LanguageData>

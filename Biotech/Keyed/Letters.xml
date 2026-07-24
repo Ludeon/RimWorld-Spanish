@@ -27,10 +27,10 @@
   <!-- EN: Summon {LEADER_label} available -->
   <LetterLabelCommsConsoleSpawned>Invocación de {LEADER_label} disponible</LetterLabelCommsConsoleSpawned>
   <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterCommsConsoleSpawned>Un mecanitor puede utilizar la {PARENT_label} para invocar a un peligroso y hostil mecanoide: {LEADER_label} ancestral. Prepárate, los mecanoides son extremadamente poderosos.\n\nSi derrotas a este meca: {LEADER_label}, dejará caer los siguientes objetos:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+  <LetterCommsConsoleSpawned>Un mecanitor puede utilizar la {PARENT_label} para invocar a un peligroso y hostil mecanoide: {LEADER_label}. Prepárate, porque llegarán mecanoides extremadamente poderosos.\n\nSi derrotas a este meca, dejará caer los siguientes objetos:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
-  <LetterLabelBossgroupCallerUnlocked>Invocación posible de {LEADER_label} </LetterLabelBossgroupCallerUnlocked>
+  <LetterLabelBossgroupCallerUnlocked>Invocación posible de {LEADER_label}</LetterLabelBossgroupCallerUnlocked>
   <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
   <LetterBossgroupCallerUnlocked>Ahora puedes construir una {PARENT_label} la cual un mecanitor puede utilizar para invocar a un {LEADER_label}. Si derrotas al {LEADER_label}, dejará caer los siguientes objetos:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
@@ -171,7 +171,7 @@
   <!-- EN: Xenogerm implantation ordered -->
   <LetterLabelXenogermOrderedImplanted>Implantación de xenogermen ordenada</LetterLabelXenogermOrderedImplanted>
   <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
-  <LetterXenogermOrderedImplanted>Has ordenado la implantación de un xenogermen en {PAWN_nameDef}. Este procedimiento requiere una cama médica y una medicina: {MEDICINENEEDED}.{BEDINFO}{MEDICINEINFO}\n\nPuedes cancelar este procedimiento al entrar en salud de {PAWN_nameDef} -> pestaña Operaciones.</LetterXenogermOrderedImplanted>
+  <LetterXenogermOrderedImplanted>Has ordenado la implantación de un xenogermen en {PAWN_nameDef}. Este procedimiento requiere una cama médica y una medicina: {MEDICINENEEDED}.{BEDINFO}{MEDICINEINFO}\n\nPuedes cancelar este procedimiento desde Salud de {PAWN_nameDef} -> pestaña Operaciones.</LetterXenogermOrderedImplanted>
   <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
   <XenogermOrderedImplantedBedNeeded>\n\nNo tienes ninguna cama médica disponible para {PAWN_nameDef}. Considera marcar una cama como médica.</XenogermOrderedImplantedBedNeeded>
   <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
@@ -185,9 +185,9 @@
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
   <LetterTextDeathrest>En cambio, ha caído en un mortisueño.</LetterTextDeathrest>
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
-  <LetterTextRegenerationComa>En cambio, ha caído en un coma regenerativo.</LetterTextRegenerationComa>
+  <LetterTextRegenerationComa>En cambio, ha caído en coma regenerativo.</LetterTextRegenerationComa>
   <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
-  <DeathrestLostSkill>Debido al shock neural de un traumático mortisueño, {PAWN_nameDef} ha perdido {XPLOSS} EXP en su habilidad de {SKILL}.</DeathrestLostSkill>
+  <DeathrestLostSkill>Debido a la conmoción neural de un traumático mortisueño, {PAWN_nameDef} ha perdido {XPLOSS} EXP en su habilidad de {SKILL}.</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>Daño letal recibido.</DeathrestLethalDamage>
 
@@ -199,7 +199,7 @@
   <!-- EN: Genes reimplanted -->
   <LetterLabelGenesImplanted>Genes reimplantados</LetterLabelGenesImplanted>
   <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
-  <LetterTextGenesImplanted>{CASTER_nameDef} ha implantado una copia de su xenogermen en {TARGET_nameDef}, pasándole todos sus xenogenes.\n\n{TARGET_nameDef} estará en coma xenogerminativo durante los siguientes {COMADURATION} mientras su cuerpo se adapta a los cambios.\n\n{CASTER_nameDef} sufrirá un shock de pérdida de genes durante los siguientes {SHOCKDURATION}. Sus genes también tendrán que volver a crecer. Este proceso lleva tiempo. Si {CASTER_nameDef} vuelve a implantar su xenogermen antes de que sus genes hayan vuelto a crecer, {CASTER_pronoun} morirá.</LetterTextGenesImplanted>
+  <LetterTextGenesImplanted>{CASTER_nameDef} ha implantado una copia de su xenogermen en {TARGET_nameDef}, pasándole todos sus xenogenes.\n\n{TARGET_nameDef} estará en coma xenogerminativo durante los siguientes {COMADURATION} mientras su cuerpo se adapta a los cambios.\n\n{CASTER_nameDef} sufrirá un debilitamiento por pérdida de genes durante los siguientes {SHOCKDURATION}. Sus genes también tendrán que volver a crecer. Este proceso lleva tiempo. Si {CASTER_nameDef} vuelve a implantar su xenogermen antes de que sus genes hayan vuelto a crecer, {CASTER_pronoun} morirá.</LetterTextGenesImplanted>
   
   <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
   <RefugeePodCrashBaby>Un bebé de nombre {PAWN_nameDef} de la facción {PAWN_factionName} se está estrellando en una cápsula de transporte cercana.\n\nPuedes elegir adoptar{PAWN_objective} con el comando "adoptar" o ignorar{PAWN_objective}.</RefugeePodCrashBaby>

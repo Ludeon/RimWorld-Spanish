@@ -251,8 +251,6 @@
     <li>asker_o_a(asker_gender==Female)->a</li>
     <li>asker_e_a(asker_gender!=Female)->e</li>
     <li>asker_e_a(asker_gender==Female)->a</li>
-    <li>asker_x_a(asker_gender!=Female)-></li>
-    <li>asker_x_a(asker_gender==Female)->a</li>
     <li>asker_a(asker_gender!=Female)->un</li>
     <li>asker_a(asker_gender==Female)->una</li>
     <li>asker_aCap(asker_gender!=Female)->Un</li>
@@ -263,27 +261,15 @@
     <li>asker_The(asker_gender==Female)->la</li>
     <li>asker_a_al(asker_gender!=Female)->al</li>
     <li>asker_a_al(asker_gender==Female)->a la</li>
-    <li>titleHeir_o_a(titleHeir_gender==Male)->o</li>
-    <li>titleHeir_o_a(titleHeir_gender==Female)->a</li>
-    <li>titleHeir_o_a(titleHeir_gender==None)->o</li>
-    <li>titleHeirDef(titleHeir_gender==Male)->el</li>
-    <li>titleHeirDef(titleHeir_gender==Female)->la</li>
-    <li>titleHeirDef(titleHeir_gender==None)->el</li>
     <!--INITIATOR-->
     <li>INITIATOR_o_a(INITIATOR_gender!=Female)->o</li>
     <li>INITIATOR_o_a(INITIATOR_gender==Female)->a</li>
     <!--PRISONER-->
     <li>PRISONER_o_a(PRISONER_gender!=Female)->o</li>
     <li>PRISONER_o_a(PRISONER_gender==Female)->a</li>
-    <!--PATIENT-->
-    <li>PATIENT_o_a(PATIENT_gender!=Female)->o</li>
-    <li>PATIENT_o_a(PATIENT_gender==Female)->a</li>
     <!--RECIPIENT-->
     <li>RECIPIENT_o_a(RECIPIENT_gender!=Female)->o</li>
     <li>RECIPIENT_o_a(RECIPIENT_gender==Female)->a</li>
-    <!--INITIATOR-->
-    <li>INITIATOR_o_a(INITIATOR_gender!=Female)->o</li>
-    <li>INITIATOR_o_a(INITIATOR_gender==Female)->a</li>
     <!--refugee-->
     <li>refugee_o_a(refugee_gender!=Female)->o</li>
     <li>refugee_o_a(refugee_gender==Female)->a</li>
@@ -292,8 +278,6 @@
     <!--joiner-->
     <li>joiner_a(joiner_gender!=Female)->un</li>
     <li>joiner_a(joiner_gender==Female)->una</li>
-    <li>joiner_A(joiner_gender!=Female)->Un</li>
-    <li>joiner_A(joiner_gender==Female)->Una</li>
     <li>joiner_o_a(joiner_gender!=Female)->o</li>
     <li>joiner_o_a(joiner_gender==Female)->a</li>
     <!-- regla especial para la misión JoinerTheat-->
@@ -302,8 +286,6 @@
     <!--lodgers-->
     <li>o_a(lodgers0_gender==Female)->a</li>
     <li>o_a(lodgers0_gender!=Female)->o</li>
-    <li>e_a(lodgers0_gender==Female)->a</li>
-    <li>e_a(lodgers0_gender!=Female)->e</li>
     <li>arrived(lodgerCount==1)->llegó</li>
     <li>arrived(lodgerCount>=2)->llegaron</li>
     <li>Un_Cap(lodgers0_gender==Female)->Una</li>
@@ -312,8 +294,6 @@
     <li>un_una(lodgers0_gender!=Female)->un</li>
     <li>insults(lodgers0_gender==Female)->a la calumniadora</li>
     <li>insults(lodgers0_gender!=Female)->al calumniador</li>
-    <li>arrived(lodgerCount==1)->llegó</li>
-    <li>arrived(lodgerCount>=2)->llegaron</li>
     <li>willStay(lodgerCount==1)->quedará</li>
     <li>willStay(lodgerCount>=2)->quedarán</li>
     <li>last(lodgers0_gender==Male)->El último</li>
@@ -332,11 +312,6 @@
     <!-- EnemyFaction -->
     <li>el_la(enemyFaction_leader==Male)->el</li>
     <li>el_la(enemyFaction_leader!=Male)->la</li>
-    <li>factionOpponentun_una(factionOpponent==Male)->un</li>
-    <li>factionOpponentun_una(factionOpponent!=Male)->una</li>
-    <!--Quest Hospitality -->
-    <li>arrived(lodgerCount==1)->llegó</li>
-    <li>arrived(lodgerCount>=2)->llegaron</li>
     <!--Scrip_LongRangeMineralScanner-->
     <li>targetMineable_labelVar(targetMineable==MineableGold)->mina de oro</li>
     <li>targetMineable_labelVar(targetMineable==MineableSilver)->mina de plata</li>
@@ -365,8 +340,6 @@
     <li>helpersTheCap(helpersCount==1,helpers0_gender!=Female)->El</li>
     <li>helpersTheCap(helpersCount==1,helpers0_gender==Female)->La</li>
     <li>helpersTheCap(helpersCount>=2)->Los</li>
-    <li>helpersSpent(helpersCount==1)->pasó</li>
-    <li>helpersSpent(helpersCount>=2)->pasaron</li>
     <!-- ShuttleCrash-->
     <li>crashedLanded(civilians_count==1)->estrelló</li>
     <li>crashedLanded(civilians_count>=2)->estrellaron</li>
@@ -382,14 +355,6 @@
     <li>founder_o_a(founder_gender!=Male)->a</li>
     <li>founder_Heroe(founder_gender==Male)->Un héroe</li>
     <li>founder_Heroe(founder_gender!=Male)->Una heroína</li>
-    <!-- pilgrim -->
-    <li>childGender(pawns0==Male)->un niño</li>
-    <li>childGender(pawns0!=Male)->una niña</li>
-    <li>siendo(pilgrimCount==1,pawns0==Male)->sea respetado</li>
-    <li>siendo(pilgrimCount==1,pawns0!=Male)->sea respetada</li>
-    <li>siendo(pilgrimCount>=2)->sean respetados</li>
-    <li>mayOffers(pilgrimCount==1)->podría</li>
-    <li>mayOffers(pilgrimCount>=2)->podrían</li>
     <!--Tales Jobs-->
     <!-- PAWN-->
     <li>PAWN_o_a(PAWN_gender!=Female)->o</li>
@@ -610,6 +575,14 @@
     <li>WeaponCacAnyIndefPl->unas [WeaponCac_FemPlural]</li>
   </GlobalUtility.rulePack.rulesStrings>
   
+  <!-- EN:
+    <li>talktopicheavyfile->Words/Nouns/TalkTopics_Heavy</li>
+    <li>talktopiclightfile->Words/Nouns/TalkTopics_Light</li>
+  -->
+  <TalkTopicsUtility.rulePack.rulesFiles>
+    <li>talktopicheavyfile->Words/Nouns/TalkTopics_Heavy</li>
+    <li>talktopiclightfile->Words/Nouns/TalkTopics_Light</li>
+  </TalkTopicsUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>TalkTopicAny->[TalkTopicLight]</li>
     <li>TalkTopicAny->[TalkTopicHeavy]</li>

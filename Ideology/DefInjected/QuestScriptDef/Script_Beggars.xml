@@ -70,20 +70,20 @@
     <li>groupLabelPlural(allChildren==true,priority=1)->niños</li>
     <li>groupLabelSingle->viajer[beggars_o_a]</li>
     <li>groupLabelSingle(childCount>=1,priority=1)->niñ[beggars_o_a]</li>
-    <li>travelerInfo(beggarCount==1)->Est[beggars_e_a] [groupLabelSingle] no forma</li>
-    <li>travelerInfo(beggarCount>=2)->Estos [groupLabelPlural] no forman</li>
-    <li>beggingForInfo->por x[requestedThingCount] [requestedThing_label]</li>
-    <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
-    <li>traverObjective(beggarCount>=2)->los</li>
-    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] parte de ninguna facción. Si lo deseas, puedes optar por matar, arrestar, vender o extraer [traverObjective], sin consecuencias diplomáticas.</li>
+    <li>travelerInfo(beggarCount==1)->Est[beggars_e_a] [groupLabelSingle] no forma parte de ninguna facción</li>
+    <li>travelerInfo(beggarCount>=2)->Estos [groupLabelPlural] no forman parte de ninguna facción</li>
+    <li>beggingForInfo->x[requestedThingCount] [requestedThing_label]</li>
+    <li>harmInfo(beggarCount==1)->matar, arrestar, vender o extraer órganos a [beggars0_nameDef]</li>
+    <li>harmInfo(beggarCount>=2)->matarlos, arrestarlos, venderlos o extraerles órganos</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo]. Si lo deseas, puedes optar por [harmInfo], sin consecuencias diplomáticas.</li>
     <li>approachInfo(beggarCount==1,beggars0_gender!=Female)->Un pobre [groupLabelSingle] llamado [beggars0_nameDef] se acerca en busca de ayuda</li>
     <li>approachInfo(beggarCount==1,beggars0_gender==Female)->Una pobre [groupLabelSingle] llamada [beggars0_nameDef] se acerca en busca de ayuda</li>
     <li>approachInfo(beggarCount>=2)->Unos pobres [groupLabelPlural] se acercan en busca de ayuda</li>
-    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] está rogando [beggingForInfo]</li>
-    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->Un grupo de pobres [groupLabelPlural] incluyendo un niño se acercan en busca de ayuda</li>
-    <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->Un grupo de pobres [groupLabelPlural] incluyendo algunos niños se acercan en busca de ayuda</li>
-    <li>requestInfo(beggarCount>=2)->Los [groupLabelPlural] están rogando [beggingForInfo]</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] necesita la plata para pagar una deuda a una banda de piratas que [beggars0_objective] persigue</li>
+    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] está pidiendo [beggingForInfo]</li>
+    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->Un grupo de pobres [groupLabelPlural] que incluye un niño se acerca en busca de ayuda</li>
+    <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->Un grupo de pobres [groupLabelPlural] que incluye algunos niños se acerca en busca de ayuda</li>
+    <li>requestInfo(beggarCount>=2)->Los [groupLabelPlural] están pidiendo [beggingForInfo]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] necesita la plata para pagar una deuda a una banda de piratas que intenta cazar[beggars0_objective]</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] suplica que le den la plata para saldar una deuda con unos piratas despiadados que intentan cazar[beggars0_objective]</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] quiere la plata para ayudar a comprar la libertad de su hermana mayor que fue esclavizada por los piratas</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] busca desesperadamente la plata para rescatar a su hermana mayor, secuestrada y esclavizada por una banda de piratas</li>
@@ -98,9 +98,9 @@
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Buscan plata con la esperanza de comprar la libertad de un compañero que cayó en manos de secuestradores</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Necesitan la medicina para intentar una operación que salve la vida de un compañero de viaje que fue atacado por mecanoides</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->Necesitan la medicina para preparar un remedio de herbolario para un amigo que está postrado en la cama con una fiebre intensa</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Necesitan la medicina para ayudar a sus amigos en un asentamiento cercano que fue devastado por los asaltantes</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Necesitan la medicina para ayudar a sus amigos en un asentamiento cercano que fue devastado por asaltantes</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Necesitan [requestedThing_label] para que puedan viajar con seguridad mientras buscan un nuevo lugar al que llamar hogar</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Ellos quieren [requestedThing_label] para ayudarles a ahogar sus penas tras perder su casa en un terrible ataque</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Quieren [requestedThing_label] para ayudarles a ahogar sus penas tras perder su hogar en un terrible ataque</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->Esperan utilizar la [requestedThing_label] para liberar a su amigo de los esclavistas haciendo que estos se intoxiquen antes, y así organizar su fuga</li>
     <li>interactionInfo(beggarCount==1)->Puedes regalarle artículos a [beggars0_nameDef] seleccionando un colono y haciendo clic con el botón derecho sobre [beggars0_pronoun]</li>
     <li>interactionInfo(beggarCount>=2)->Puedes regalarles artículos a los [groupLabelPlural] seleccionando un colono y haciendo clic con el botón derecho sobre [beggars0_nameDef]</li>

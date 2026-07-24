@@ -32,7 +32,7 @@
   <!-- EN: Cannot go here -->
   <CannotGoOutOfRange>No se puede ir aquí</CannotGoOutOfRange>
   <!-- EN: Must be emptied -->
-  <WasteContainerFull>Debe estar vacío</WasteContainerFull>
+  <WasteContainerFull>Debe vaciarse</WasteContainerFull>
   <!-- EN: Cannot repair mech {0} -->
   <CannotRepairMech>No se puede reparar el meca {0}</CannotRepairMech>
 
@@ -65,7 +65,7 @@
   <!-- EN: Cannot enter {0_labelShort} -->
   <CannotEnterBuilding>No se puede entrar en {0_labelShort}</CannotEnterBuilding>
   <!-- EN: {0_labelShort} is assigned to another person. -->
-  <AssignedToOtherPawn>{0_labelShort} está asignado a otra persona.</AssignedToOtherPawn>
+  <AssignedToOtherPawn>{0_definite} está {0_gender ? asignado : asignada} a otra persona.</AssignedToOtherPawn>
 
   <!-- EN: Absorb xenogerm of {PAWN_nameDef} -->
   <AbsorbXenogerm>Absorber el xenogermen de {PAWN_nameDef}</AbsorbXenogerm>
@@ -74,7 +74,7 @@
   <!-- EN: {PAWN_nameDef} is already {PAWN_xenotype} -->
   <SameXenotype>{PAWN_nameDef} ya es un {PAWN_xenotype}</SameXenotype>
   <!-- EN: {PAWN_nameDef} suffering from xenogerm loss shock -->
-  <XenogermLossShockPresent>{PAWN_nameDef} sufre un shock por la pérdida de xenogermen</XenogermLossShockPresent>
+  <XenogermLossShockPresent>{PAWN_nameDef} sufre un debilitamiento por la pérdida de xenogermen</XenogermLossShockPresent>
   <!-- EN: Carry to {0_labelShort} -->
   <CarryToSpecificThing>Llevar a {0_labelShort}</CarryToSpecificThing>
   <!-- EN: No reachable, un-reserved bed or deathrest casket in safe temperature. -->
@@ -118,11 +118,11 @@
   <!-- EN: {BABY_labelShort} is too full to suckle -->
   <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} está demasiad{BABY_gender ? o : a} llen{BABY_gender ? o : a} como para alimentarse</BreastfeedFailReason_BabyTooFull>
   <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
-  <BreastfeedFailReason_BabyForbiddenToMom>{BABY_labelShort} no es hij{BABY_gender ? o : a} de {MOM_labelShort}</BreastfeedFailReason_BabyForbiddenToMom>
+  <BreastfeedFailReason_BabyForbiddenToMom>{BABY_labelShort} se encuentra en una zona prohibida para {MOM_labelShort}</BreastfeedFailReason_BabyForbiddenToMom>
   <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
-  <BreastfeedFailReason_BabyForbiddenToHauler>{BABY_labelShort} no es hij{BABY_gender ? o : a} de {HAULER_labelShort}</BreastfeedFailReason_BabyForbiddenToHauler>
+  <BreastfeedFailReason_BabyForbiddenToHauler>{BABY_labelShort} se encuentra en una zona prohibida para {HAULER_labelShort}</BreastfeedFailReason_BabyForbiddenToHauler>
   <!-- EN: {MOM_labelShort} is forbidden to {HAULER_labelShort} -->
-  <BreastfeedFailReason_MomForbiddenToHauler>{MOM_labelShort} no es hij{BABY_gender ? o : a} de {HAULER_labelShort}</BreastfeedFailReason_MomForbiddenToHauler>
+  <BreastfeedFailReason_MomForbiddenToHauler>{MOM_labelShort} se encuentra en una zona prohibida para {HAULER_labelShort}</BreastfeedFailReason_MomForbiddenToHauler>
   <!-- EN: {MOM_labelShort} can breastfeed {BABY_labelShort} without help -->
   <BreastfeedFailReason_MomIsMobile>{MOM_labelShort} puede amamantar a {BABY_labelShort} sin ayuda</BreastfeedFailReason_MomIsMobile>
   <!-- EN: {HAULER_labelShort} cannot go from {BABY_labelShort} to {MOM_labelShort} -->

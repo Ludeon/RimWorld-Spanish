@@ -4,7 +4,7 @@
   <!-- EN: Mad {ANIMAL_labelShort} -->
   <LetterLabelAnimalInsanitySingle>{ANIMAL_indefinite} ha enloquecido</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>{ANIMAL_indefinite} ha enloquecido. Atacará todo lo que vea.</AnimalInsanitySingle>
+  <AnimalInsanitySingle>{ANIMAL_indefinite} ha enloquecido. Atacará a todo el que vea.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
   <LetterLabelAnimalInsanityMultiple>Un grupo de {0} ha enloquecido</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
@@ -32,7 +32,7 @@
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Cápsula de transporte estrellada</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} se ha estrellado en una cápsula de escape por las cercanías. Si sobrevive al impacto, resultará gravemente herid{PAWN_gender ? o : a}.</RefugeePodCrash>
+  <RefugeePodCrash>{PAWN_titleIndef} de nombre {PAWN_nameDef} se está estrellando en una cápsula de transporte cercana. Si sobrevive al impacto, quedará gravemente herid{PAWN_gender ? o : a}.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is a child of {AGE}. -->
   <RefugeePodCrash_Child>{PAWN_nameDef} es {PAWN_gender ? un niño : una niña} de {AGE}.</RefugeePodCrash_Child>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
@@ -45,7 +45,7 @@
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <LetterLabelWandererJoins>Vagabund{PAWN_gender ? o : a} se une: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} ha llegado y quiere unirse a la colonia.\n\nEstá dispuest{PAWN_gender ? o : a} a ayudar y contribuir, pero no se irá voluntariamente, alegando no tener otro sitio al que ir. Puedes optar por rechazar{PAWN_objective} y enviar{PAWN_objective} lejos. Sin embargo, tus colonos se sentirán molestos al rechazar a alguien necesitado</LetterWandererJoins>
+  <LetterWandererJoins>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} ha llegado y quiere unirse a la colonia.\n\nEstá dispuest{PAWN_gender ? o : a} a ayudar y contribuir, pero no se irá voluntariamente, alegando no tener otro sitio al que ir. Puedes optar por rechazar{PAWN_objective} y enviar{PAWN_objective} lejos. Sin embargo, tus colonos se sentirán molestos al rechazar a alguien necesitado.</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
@@ -59,7 +59,7 @@
   <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
   <ShortCircuitStartedFire>Una falla en la red en {0} ha causado un cortocircuito y ha iniciado un incendio.</ShortCircuitStartedFire>
   <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
-  <ShortCircuitDischargedEnergy>Un total de {0} Wd de energía en las baterías conectadas a la red eléctrica han sido descargadas debido a una explosión.</ShortCircuitDischargedEnergy>
+  <ShortCircuitDischargedEnergy>Un total de {0} Wd de energía en las baterías conectadas a la red eléctrica se han perdido debido a una explosión eléctrica.</ShortCircuitDischargedEnergy>
   <!-- EN: This large amount of power has created an explosion of considerable size. -->
   <ShortCircuitWasLarge>La gran cantidad de energía ha causado una explosión considerable.</ShortCircuitWasLarge>
   <!-- EN: That really is a huge explosion. Wow. -->
@@ -99,7 +99,7 @@
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>Manada de animales cazahombres</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>¡Una manada de {0} cazahombres ha entrado en la zona! Han sido conducidos a la locura por la enfermedad conocida como escaria, y recorrerán la región en busca de carne humanoide.\n\nNo atacarán las puertas a menos que vean a alguien atravesarlas. Mantén tus colonos a cubierto. Tampoco atacarán torretas desactivadas, así que apágalas si quieres salvarlas.\n\nLa manada de {0} dejará la zona en uno o dos días. Puedes esconderte y esperar, o hacerles frente.</ManhunterPackArrived>
+  <ManhunterPackArrived>¡Una manada de {0} cazahombres ha entrado en la zona! Han sido conducidos a la locura por la enfermedad conocida como escaria, y recorrerán la región en busca de carne humanoide.\n\nNo atacarán las puertas a menos que vean a alguien atravesarlas. Mantén a tus colonos a cubierto. Tampoco atacarán torretas desactivadas, así que apágalas si quieres salvarlas.\n\nLa manada de {0} dejará la zona en uno o dos días. Puedes esconderte y esperar, o hacerles frente.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
@@ -117,7 +117,7 @@
   <!-- EN: Drone intensifies -->
   <LetterLabelPsychicDroneLevelIncreased>Zumbido intensificado</LetterLabelPsychicDroneLevelIncreased>
   <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every {0} humanlike in the area now feels more disturbed, terrified, and paranoid. -->
-  <LetterPsychicDroneLevelIncreased>La nave estrellada está emanando un zumbido psíquico más potente. Cada {0} humanoide en el área empieza a sentirse perturbado, aterrorizado y paranoico.</LetterPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>La nave estrellada está emanando un zumbido psíquico más potente. {replace: {0}; "hombre"-"Todos los hombres humanoides de la zona empiezan a sentirse más perturbados, aterrorizados y paranoicos"; "mujer"-"Todas las mujeres humanoides de la zona empiezan a sentirse más perturbadas, aterrorizadas y paranoicas"}.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
   <!-- EN: Agent -->
@@ -165,7 +165,7 @@
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Demanda de rescate a {0}</RansomDemandTitle>
   <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
-  <RansomDemand>{1} te contacta por radio. Han secuestrado a {PAWN_labelShort}.\n\nEstán dispuestos a devolver{PAWN_objective} a cambio de {2} de plata.</RansomDemand>
+  <RansomDemand>{1} te contacta por radio. Tienen como rehén a {PAWN_labelShort} y exigen un rescate.\n\nEstán dispuestos a devolver{PAWN_objective} a cambio de {2} de plata.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>Aceptar</RansomDemand_Accept>
   <!-- EN: Reject -->
@@ -175,9 +175,9 @@
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>Has alcanzado las coordenadas enviadas por (*Name)Charlon Whitestone(/Name) y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\n(*Name)Charlon Whitestone(/Name) te advierte que el proceso de arranque tomará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros.\n\nAsegúrate de que tus defensas estén preparadas primero.</EscapeShipFound>
+  <EscapeShipFound>Has alcanzado las coordenadas enviadas por (*Name)Charlon Whitestone(/Name) y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\n(*Name)Charlon Whitestone(/Name) te advierte que el proceso de arranque tomará unos 15 días y que la señal de energía será detectable a larga distancia. Este tipo de señal indica capacidad de vuelo interestelar y atraerá a bandas de asaltantes desesperados y enjambres de mecanoides mortales.\n\nSufrirás ataques de una intensidad nunca vista. Asegúrate primero de que tus defensas estén preparadas.</EscapeShipFound>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
-  <EscapeShipFoundPeaceful>Has alcanzado las coordenadas enviadas por (*Name)Charlon Whitestone(/Name) y has descubierto la nave espacial oculta.\n\nEl reactor de la nave todavía está en modo de hibernación profunda, por lo que aún no puede volar. Puede iniciarlo interactuando con el núcleo del ordenador.\n\n(*Name)Charlon Whitestone(/Name) te advierte que el proceso de arranque tomará aproximadamente 15 días.</EscapeShipFoundPeaceful>
+  <EscapeShipFoundPeaceful>Has alcanzado las coordenadas enviadas por (*Name)Charlon Whitestone(/Name) y has descubierto la nave espacial oculta.\n\nEl reactor de la nave todavía está en modo de hibernación profunda, por lo que aún no puede volar. Puedes iniciarlo interactuando con el núcleo del ordenador.\n\n(*Name)Charlon Whitestone(/Name) te advierte que el proceso de arranque tomará aproximadamente 15 días.</EscapeShipFoundPeaceful>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
@@ -193,7 +193,7 @@
   <!-- EN: no caravan members capable of trading -->
   <CaravanMeeting_TradeIncapable>ningún miembro de la caravana es capaz de comerciar</CaravanMeeting_TradeIncapable>
   <!-- EN: need a trader with the title of {0} from {1_name} -->
-  <CaravanMeeting_NoPermit>se necesita un colono con el título de {0} de {1_name}</CaravanMeeting_NoPermit>
+  <CaravanMeeting_NoPermit>se necesita un colono negociador con el título de {0} de {1_name}</CaravanMeeting_NoPermit>
   
   <!-- Caravan request -->
   <!-- EN: Caravan request -->

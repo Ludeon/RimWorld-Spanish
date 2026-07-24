@@ -121,34 +121,35 @@
   <SocialFight.rulePack.rulesStrings>
     <li>tale_noun->[INITIATOR_nameDef] [fight_name_present] a [RESPONDER_nameDef]</li>
     <li>tale_noun->[INITIATOR_nameDef] tuvo un altercado con [RESPONDER_nameDef]</li>
-    <li>image->[INITIATOR_nameFull] insulta [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] desafia [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] amenaza [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] intimida [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] ataca [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] violenta [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] golpea [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] patada [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] acobardado por [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>fight_name_present->violentó</li>
+    <li>image->[INITIATOR_nameFull] insulta a [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] desafía a [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] amenaza a [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] intimida a [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] ataca a [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] agrede a [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] golpea a [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] patea a [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] se acobarda ante [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>fight_name_present->golpeó</li>
     <li>fight_name_present->atacó</li>
     <li>fight_name_present->agredió</li>
-    <li>circumstance_phrase->mientras [RESPONDER_nameDef] insulta [INITIATOR_objective]</li>
-    <li>circumstance_phrase->mientras [RESPONDER_nameDef] burla [INITIATOR_objective]</li>
-    <li>circumstance_phrase->mientras [RESPONDER_nameDef] amenaza [INITIATOR_objective]</li>
-    <li>circumstance_phrase->mientras [RESPONDER_nameDef] intimida [INITIATOR_objective]</li>
-    <li>circumstance_phrase->mientras [RESPONDER_nameDef] ataca [INITIATOR_objective]</li>
-    <li>circumstance_phrase->mientras [RESPONDER_nameDef] violenta [INITIATOR_objective]</li>
-    <li>circumstance_phrase->mientras [RESPONDER_nameDef] golpea [INITIATOR_objective]</li>
-    <li>circumstance_phrase->mientras [RESPONDER_nameDef] patea [INITIATOR_objective]</li>
-    <li>circumstance_phrase->mientras [RESPONDER_nameDef] acobarda por [INITIATOR_objective]</li>
-    <li>desc_sentence->[target] aparece sin remordimientos.</li>
-    <li>desc_sentence->[target] está consumido por la rabia.</li>
-    <li>desc_sentence->[target] no tiene emoción o expresión.</li>
-    <li>desc_sentence->[target] su cuerpo cubierto en [Gore].</li>
+    <li>circumstance_phrase->mientras [RESPONDER_nameDef] [INITIATOR_objective] insulta</li>
+    <li>circumstance_phrase->mientras [RESPONDER_nameDef] se burla de [INITIATOR_nameDef]</li>
+    <li>circumstance_phrase->mientras [RESPONDER_nameDef] [INITIATOR_objective] amenaza</li>
+    <li>circumstance_phrase->mientras [RESPONDER_nameDef] [INITIATOR_objective] intimida</li>
+    <li>circumstance_phrase->mientras [RESPONDER_nameDef] [INITIATOR_objective] ataca</li>
+    <li>circumstance_phrase->mientras [RESPONDER_nameDef] [INITIATOR_objective] agrede</li>
+    <li>circumstance_phrase->mientras [RESPONDER_nameDef] [INITIATOR_objective] golpea</li>
+    <li>circumstance_phrase->mientras [RESPONDER_nameDef] [INITIATOR_objective] patea</li>
+    <li>circumstance_phrase->mientras [RESPONDER_nameDef] se acobarda ante [INITIATOR_nameDef]</li>
+    <li>desc_sentence->[target] parece no sentir remordimientos.</li>
+    <li>desc_sentence->La rabia consume a [target].</li>
+    <li>desc_sentence->[target] no muestra emoción ni expresión.</li>
+    <li>desc_sentence->[target] tiene el cuerpo cubierto de [Gore].</li>
     <li>desc_sentence->[target] está gritando furiosamente.</li>
+    <li>desc_sentence->[target] tiene heridas visibles.</li>
     <li>desc_sentence->[target] está visiblemente herido.</li>
-    <li>desc_sentence->[target] sus ojos brillan de [Color].</li>
+    <li>desc_sentence->Los ojos de [target] brillan de [Color].</li>
     <li>target->[INITIATOR_nameDef]</li>
     <li>target->[RESPONDER_nameDef]</li>
   </SocialFight.rulePack.rulesStrings>

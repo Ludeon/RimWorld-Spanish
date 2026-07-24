@@ -233,8 +233,8 @@
   <Hospitality_Refugee.questDescriptionRules.rulesStrings>
     <!--<li>offer(lodgerCount==1)->offers</li>
     <li>offer(lodgerCount>=2)->offer</li>-->
-    <li>offer(lodgerCount==1)->ofrece</li>
-    <li>offer(lodgerCount>=2)->ofrecen</li>
+    <li>offer(lodgerCount==1)->se ofrece a</li>
+    <li>offer(lodgerCount>=2)->se ofrecen a</li>
     <li>mayAlso(lodgerCount==1)->puede</li>
     <li>mayAlso(lodgerCount>=2)->pueden</li>
     <!--<li>lodgersPronoun(lodgerCount==1)->[asker_pronoun]</li>
@@ -261,7 +261,7 @@
     <li>can_rest(lodgerCount==1)->podrá</li>
     <li>can_rest(lodgerCount>=2)->podrán</li>
     <!--<li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] begs you for permission to stay at [map_definite] for [questDurationTicks_duration] so [lodgersPronoun] can rest and regroup.\n\nIn return, [lodgersPronoun] [offer] to work and fight for free during that time.\n\n[joinInfo] [lodgersPronoun] may also reward you later for helping [lodgersObjective] - but there is no way to know [lodgersPossessive] true intentions.\n\n[travelerInfo] not part of any faction. If you wish, you can choose to kill, arrest, sell, or harvest [lodgersObjective], without diplomatic consequences.</li>-->
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] te pide permiso para quedarse en [map_definite] durante [questDurationTicks_duration] y así [lodgersPronoun] [can_rest] descansar y recuperarse.\n\nA cambio, te [offer] trabajar y luchar gratis durante ese tiempo.\n\n[joinInfo] también [mayAlso] recompensarte más tarde por ayudar[lodgersObjective], pero no hay forma de saber cuáles son sus verdaderas intenciones.\n\n[travelerInfo] parte de ninguna facción. Si lo deseas, puedes elegir entre matar[lodgersObjective], arrestar[lodgersObjective], vender[lodgersObjective] o extraer [lodgersObjective] sin consecuencias diplomáticas.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] te pide permiso para quedarse en [map_definite] durante [questDurationTicks_duration] y así [lodgersPronoun] [can_rest] descansar y recuperarse.\n\nA cambio, [offer] trabajar y luchar gratis durante ese tiempo.\n\n[joinInfo] también [mayAlso] recompensarte más tarde por ayudar[lodgersObjective], pero no hay forma de saber cuáles son sus verdaderas intenciones.\n\n[travelerInfo] parte de ninguna facción. Si lo deseas, puedes elegir entre matar[lodgersObjective], arrestar[lodgersObjective], vender[lodgersObjective] o extraer [lodgersObjective] sin consecuencias diplomáticas.</li>
     <!--<li>approachInfo(lodgerCount==1)->A desperate [faction_pawnSingular] named [asker_nameDef] is approaching.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] and another desperate [faction_pawnSingular] are approaching.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] is approaching with a child in tow.</li>
@@ -273,9 +273,9 @@
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] y otr[asker_o_a] [asker_kind] se están acercando de forma desesperada.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] se está acercando con un niño a cuestas.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] desesperados se están acercando. Su líder se llama [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] [faction_pawnsPlural] desesperados incluyendo un niño se acercan. Su líder se llama [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] [faction_pawnsPlural] desesperados incluyendo algunos niños se acercan. Su líder se llama [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Un grupo de [lodgerCount] [faction_pawnsPlural] se acercan desesperados. Está conformado por [asker_nameDef] y [lodgersCountMinusOne] niños que tomó bajo su tutela.</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] [faction_pawnsPlural] desesperados, incluido un niño, se acercan. Su líder se llama [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] [faction_pawnsPlural] desesperados, incluidos algunos niños, se acercan. Su líder se llama [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Un grupo de [lodgerCount] [faction_pawnsPlural] se acerca desesperado. Está formado por [asker_nameDef] y [lodgersCountMinusOne] niños que tomó bajo su tutela.</li>
     <!--<li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have lost [asker_possessive] home in a recent attack.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to woken up from cryptosleep all alone and friendless.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been chased from [asker_possessive] home by a vengeful ex-lover.</li>
@@ -292,10 +292,10 @@
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma que su ex amante [asker_objective] persigue para vengarse.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma haber sido desterrad[asker_o_a] después de una discusión con uno de los líderes de la aldea.</li>
     <li>claimInfo(lodgerCount>=2)->Afirman haber perdido su casa en un ataque reciente.</li>
-    <li>claimInfo(lodgerCount>=2)->Afirman haber escapado de una operación de cosecha de órganos.</li>
+    <li>claimInfo(lodgerCount>=2)->Afirman haber escapado de una operación de extracción de órganos.</li>
     <li>claimInfo(lodgerCount>=2)->Dicen que escaparon de una caravana de esclavos.</li>
-    <li>claimInfo(lodgerCount>=2)->Dicen que las plagas en sus cosechas los estaban matando de hambre en su pueblo.</li>
-    <li>claimInfo(lodgerCount>=2)->Dicen que una gran tormenta incendió su casa.</li>
+    <li>claimInfo(lodgerCount>=2)->Dicen que las plagas arruinaron los cultivos de su pueblo y los dejaron sin comida.</li>
+    <li>claimInfo(lodgerCount>=2)->Dicen que una gran tormenta eléctrica incendió su casa.</li>
     <li>claimInfo(lodgerCount>=2)->Dicen que su caravana fue emboscada y que se llevaron todo.</li>
     <li>claimInfo(lodgerCount>=2)->Dicen que fueron desterrados de su ciudad debido a desacuerdos morales.</li>
     <!--<li>joinInfo(lodgerCount==1)->If you make [asker_objective] happy, [asker_pronoun] may offer to join you.</li>
@@ -423,7 +423,7 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->Recompensa por traición: [factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] te prometió una recompensa si matabas a [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] ha escuchado noticias de que esto se ha hecho y te está enviando lo siguiente a través de una cápsula de escape (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] te prometió una recompensa si matabas a [asker_nameDef][otherMembers]. [factionOpponent_pronoun] ha escuchado noticias de que esto se ha hecho y te está enviando lo siguiente a través de una cápsula de escape (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Recompensa por traición retirada</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] se ha enterado de que todos los miembros supervivientes de la facción [faction_name] ¡se han unido a tu facción! [factionOpponent_nameDef] quería que todos los miembros de la facción [faction_name] murieran y, por tanto, se ha retractado de su oferta.</li>
     <li>betrayalOfferFailedLetterLabel->Recompensa por traición retractada</li>
@@ -433,7 +433,7 @@
     <li>otherLodgers(lodgerCount==2,lodgers0_gender!=Male)->y otra [lodgersLabel]</li>
     <li>otherLodgers(lodgerCount>=3)->y varios [lodgersLabelPlural]</li>
     <li>otherMembers(lodgerCount==1)-></li>
-    <li>otherMembers(lodgerCount>=2)-> Y todos los demás miembros de la facción [faction_name]</li>
+    <li>otherMembers(lodgerCount>=2)-> y a todos los demás miembros de la facción [faction_name]</li>
     <li>questOver->La misión "[resolvedQuestName]" ha terminado.</li>
   </RefugeeBetrayal.questContentRules.rulesStrings>
   <!-- EN:

@@ -17,7 +17,7 @@
   <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n{0} -->
   <BreakRiskExtremeDesc>Estos colonos están extremadamente estresados y podrían tener un colapso mental extremo (y posiblemente violento) en cualquier momento:\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
-  <BreakRiskDescEnding>Comprueba la pestaña de Necesidad de estos colonos para ver qué les molesta.\n\nPara hacerlos sentir mejor, puedes hacer cosas como prepararles comidas gourmet, darles más horas de ocio, mejorar la calidad de los objetos recreativos, mejorar su ambiente de trabajo, proporcionarles bebidas, drogas, entre otras cosas más.</BreakRiskDescEnding>
+  <BreakRiskDescEnding>Comprueba la pestaña de Bienestar de estos colonos para ver qué les molesta.\n\nPara hacerlos sentir mejor, puedes hacer cosas como prepararles comidas gourmet, darles más horas de ocio, mejorar la calidad de los objetos recreativos, mejorar su ambiente de trabajo, proporcionarles bebidas, drogas, entre otras cosas más.</BreakRiskDescEnding>
 
   <!-- EN: Colonist needs rescue -->
   <ColonistNeedsRescue>¡Un colono necesita rescate!</ColonistNeedsRescue>
@@ -26,7 +26,7 @@
   <!-- EN: These colonists are incapacitated on the ground:\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
   <ColonistsNeedRescueDesc>Estos colonos están incapacitados en el suelo:\n{0}\nManda a otro colono en su auxilio y llévalos a una cama.\n\n(Para rescatar, selecciona otro colono, haz clic derecho en la víctima y selecciona Rescatar.)</ColonistsNeedRescueDesc>
   <!-- EN: These colonists are incapacitated on the ground:\n{0}\n\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
-  <ColonistsNeedRescueDescController>Estos colonos están incapacitados en el suelo:\n{0}\n\nManda a otro colono en su auxilio y llévalos a una cama.\n\n(Para rescatar, selecciona otro colono, pulsa con el gatillo izquierdo en la víctima y selecciona Rescatar.)</ColonistsNeedRescueDescController>
+  <ColonistsNeedRescueDescController>Estos colonos están incapacitados en el suelo:\n{0}\n\nManda a otro colono en su auxilio y llévalos a una cama.\n\n(Para rescatar, selecciona otro colono, pulsa el gatillo izquierdo sobre la víctima y selecciona Rescatar.)</ColonistsNeedRescueDescController>
 
   <!-- EN: Need defenses -->
   <NeedDefenses>Necesitas defensas</NeedDefenses>
@@ -73,12 +73,12 @@
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Ropa andrajosa</AlertTatteredApparel>
   <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n{0}\n\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
-  <AlertTatteredApparelDesc>Estos colonos están vistiendo ropa desgastada, lo que les entristece:\n{0}\nEncuéntrales ropa que no esté tan deteriorada.\n\nPuedes confeccionarla en una mesa de sastrería o comprarla a los comerciantes.</AlertTatteredApparelDesc>
+  <AlertTatteredApparelDesc>Estos colonos están vistiendo ropa desgastada, lo que les entristece:\n{0}\n\nEncuéntrales ropa que no esté tan deteriorada.\n\nPuedes confeccionarla en un punto de artesanía o una mesa de sastrería, o comprarla a los comerciantes.</AlertTatteredApparelDesc>
 
   <!-- EN: Unhappy nudity -->
   <AlertUnhappyNudity>Desnudez indeseada</AlertUnhappyNudity>
   <!-- EN: These colonists are nude and not happy about it:\n{0}\n\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
-  <AlertUnhappyNudityDesc>Estos colonos están desnudos y no están felices al respecto:\n{0}\n\nEncuéntrales algo de ropa.\n\nPuedes confeccionarla en la mesa de sastrería o comprarla a los mercaderes.</AlertUnhappyNudityDesc>
+  <AlertUnhappyNudityDesc>Estos colonos están desnudos y no están felices al respecto:\n{0}\n\nEncuéntrales algo de ropa.\n\nPuedes confeccionar ropa en un punto de fabricación o una mesa de sastrería, o comprarla a los comerciantes.</AlertUnhappyNudityDesc>
 
   <!-- EN: Starvation -->
   <Starvation>Hambruna</Starvation>
@@ -152,7 +152,7 @@
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0} colonos ociosos</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
-  <ColonistsIdleDesc>Estos colonos están deambulando sin nada que hacer:\n{0}\n\nDeberías encontrarles algo productivo que hacer.</ColonistsIdleDesc>
+  <ColonistsIdleDesc>Estos colonos están deambulando sin nada que hacer:\n{0}\n\nDeberías asignarles alguna tarea productiva.</ColonistsIdleDesc>
   
   <!-- EN: Caravan idle -->
   <CaravanIdle>Caravana en espera</CaravanIdle>
@@ -162,9 +162,9 @@
   <!-- EN: Medical treatment needed -->
   <ColonistNeedsTreatment>Colonos necesitan tratamiento</ColonistNeedsTreatment>
   <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDesc>Estos colonos necesitan tratamiento médico. Sin él, podrían morir por sus heridas o estas podrían volverse permanentes.\n{0}\n\nTrátalos enviándolos a una cama hospitalaria.\n\n(Para ello, primero, asigna una cama hospitalaria, seleccionándola y designándola como tal. Luego, selecciona al colono herido y haz clic derecho en la cama hospitalaria para convertirlo en paciente)</ColonistNeedsTreatmentDesc>
+  <ColonistNeedsTreatmentDesc>Estos colonos necesitan tratamiento médico. Sin él, podrían morir por sus heridas o estas podrían volverse permanentes.\n{0}\n\nTrátalos enviándolos a una cama médica.\n\n(Para ello, primero, asigna una cama médica, seleccionándola y designándola como tal. Luego, selecciona al colono herido y haz clic derecho en la cama médica para convertirlo en paciente)</ColonistNeedsTreatmentDesc>
   <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDescController>Estos colonos necesitan tratamiento médico. Sin él, podrían morir por sus heridas o estas podrían volverse permanentes.\n{0}\n\nTrátalos enviándolos a una cama médica.\n\n(Para ello, primero, asigna una cama hospitalaria, seleccionándola y designándola como tal. Luego, selecciona al colono herido y pulsa con el gatillo izquierdo en la cama hospitalaria para convertirlo en paciente.)</ColonistNeedsTreatmentDescController>
+  <ColonistNeedsTreatmentDescController>Estos colonos necesitan tratamiento médico. Sin él, podrían morir por sus heridas o estas podrían volverse permanentes.\n{0}\n\nTrátalos enviándolos a una cama médica.\n\n(Para ello, primero, asigna una cama médica, seleccionándola y designándola como tal. Luego, selecciona al colono herido y pulsa el gatillo izquierdo sobre la cama médica para convertirlo en paciente.)</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotermia</AlertHypothermia>
@@ -225,7 +225,7 @@
   <!-- EN: Building unusable due to roof -->
   <BuildingCantBeUsedRoofed>Construcción inutilizada por techo</BuildingCantBeUsedRoofed>
   <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
-  <BuildingCantBeUsedRoofedDesc>Una o más de tus construcciones solo puede usarse si está al aire libre. No podrán utilizarse hasta que elimines el techo.</BuildingCantBeUsedRoofedDesc>
+  <BuildingCantBeUsedRoofedDesc>Hay una o más construcciones que solo pueden usarse si están al aire libre. No podrán utilizarse hasta que elimines el techo.</BuildingCantBeUsedRoofedDesc>
 
   <!-- EN: Heatstroke -->
   <AlertHeatstroke>Golpe de calor</AlertHeatstroke>
@@ -235,7 +235,7 @@
   <!-- EN: Guest unhappy -->
   <QuestPartMoodBelowThreshold>Invitado infeliz</QuestPartMoodBelowThreshold>
   <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n{1} -->
-  <QuestPartMoodBelowThresholdDesc>La misión {0} requiere que mantengas a estas personas de buen humor. Sin embargo, su humor es bajo. ¡Haz algo para que se sientan mejor!:\n{1}</QuestPartMoodBelowThresholdDesc>
+  <QuestPartMoodBelowThresholdDesc>La misión {0} requiere que mantengas a esta persona de buen humor. Sin embargo, su humor es bajo. Haz algo para que se sienta mejor:\n{1}</QuestPartMoodBelowThresholdDesc>
   
   <!-- EN: Shuttle leaving in {0} -->
   <QuestPartShuttleLeaveDelay>Transbordador se va en {0}</QuestPartShuttleLeaveDelay>
@@ -290,9 +290,9 @@
   <AlertAnimalPenNotEnclosedDesc>Un marcador de corral no está cerrado.\n\nCierra el corral utilizando vallas, barricadas, puertas, muros o portones para evitar que los animales se alejen.\n\nSi solo dispones de marcadores de corral no cerrados, tus adiestradores pueden conducir a los animales errantes de vuelta a casa, pero esto debe repetirse de vez en cuando, cada vez que los animales se alejen de nuevo.</AlertAnimalPenNotEnclosedDesc>
 
   <!-- EN: {ANIMAL_labelShort} in animal pen -->
-  <AlertPredatorInAnimalPen>{ANIMAL_nameIndef} en corral</AlertPredatorInAnimalPen>
+  <AlertPredatorInAnimalPen>{ANIMAL_labelShort} en corral</AlertPredatorInAnimalPen>
   <!-- EN: A predatory {ANIMAL_labelShort} has wandered into an animal pen.\n\nIt may decide to hunt your animals.\n\nYou can kill it, or wait and hope it leaves. -->
-  <AlertPredatorInAnimalPenDesc>{ANIMAL_nameIndef} ha entrado en un corral.\n\nAl ser un depredador, podría decidir cazar a tus animales.\n\nPuedes matarle o esperar a que se vaya.</AlertPredatorInAnimalPenDesc>
+  <AlertPredatorInAnimalPenDesc>{ANIMAL_indefinite} ha entrado en un corral.\n\nAl ser un depredador, podría decidir cazar a tus animales.\n\nPuedes eliminar al depredador o esperar a que se vaya.</AlertPredatorInAnimalPenDesc>
 
   <!-- EN: Animal wandering away -->
   <AlertAnimalIsRoaming>Animal deambulando</AlertAnimalIsRoaming>
@@ -310,7 +310,7 @@
   <AlertHitchedAnimalHungryNoFoodDesc>Algunos de los animales atados a un punto de encuentro de caravanas tienen hambre. Es posible que no haya comida adecuada a su alcance.\n\nLlévales comida o quita el punto de encuentro para que puedan encontrar comida por sí mismos.\n\nLos siguientes animales enganchados tienen hambre:\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
 
   <!-- EN: Raids arriving in {0} -->
-  <AlertTimedRaidsArrivingIn>Asalto llega en {0}</AlertTimedRaidsArrivingIn>
+  <AlertTimedRaidsArrivingIn>Asaltos en {0}</AlertTimedRaidsArrivingIn>
   <!-- EN: Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0} -->
   <AlertTimedRaidsArrivingInDesc>Los enemigos han sido atraídos a los siguientes lugares y empezarán a llegar en masa pronto.\n\n{0}</AlertTimedRaidsArrivingInDesc>
   <!-- EN: Arriving at {0} in {1} -->

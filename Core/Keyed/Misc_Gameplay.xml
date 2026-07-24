@@ -341,7 +341,7 @@
   <!-- EN: Shift + click: Set all to home\nShift + right click: Set all to unrestricted -->
   <AllowedAreaShiftClickTip>Shift + Clic izquierdo: Establecer todo en hogar\nShift + clic derecho: Sin restricciones</AllowedAreaShiftClickTip>
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
-  <CheckboxShiftClickTip>Shift + Clic izquierdo: Marcar todo\nShift + clic derecho: No revisar</CheckboxShiftClickTip>
+  <CheckboxShiftClickTip>Shift + Clic izquierdo: Marcar todo\nShift + clic derecho: Desmarcar todo</CheckboxShiftClickTip>
   <!-- EN: {0} {1} -->
   <KnownSiteThreatEnemyCountAppend>{0} {1}</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
@@ -413,9 +413,9 @@
   <!-- EN: your caravan -->
   <yourCaravan>tu caravana</yourCaravan>
   <!-- EN: {0} wildness -->
-  <CreatureWildness>salvajismo de {0}</CreatureWildness>
+  <CreatureWildness>{replace: salvajismo de {0_definite}; "de el "-"del "}</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>adiestrabilidad de la criatura</CreatureTrainability>
+  <CreatureTrainability>{replace: adiestrabilidad de {0_definite}; "de el "-"del "}</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
   <CreatureFollowDrafted>Sigue al amo cuando está reclutado</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
@@ -537,7 +537,7 @@
   <!-- EN: Natural goodwill range -->
   <NaturalGoodwillRange>Rango de la reputación natural</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>La reputación natural se basa en la identidad y creencias de las facciones. Si la reputación actual está lejos de la natural, cambiará lentamente hacia reputación natural con el tiempo.\n\nTodos los efectos de reputación son multiplicados por {0} cuando cambian hacia la reputación natural.</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>La reputación natural se basa en la identidad y creencias de las facciones. Si la reputación actual está lejos de la natural, cambiará lentamente hacia reputación natural con el tiempo.\n\nTodos los efectos de reputación se multiplican por {0} cuando cambian hacia la reputación natural.</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>reduciendo resistencia de {0_nameIndef}</JobReport_ReduceResistance>
   <!-- EN: Too large -->
@@ -772,7 +772,7 @@
   <!-- EN: Not enclosed - build fences -->
   <PenSizeDesc_Unenclosed>Sin cerrar, construye vallas</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <PenCapacityDesc>Capacidad de {ANIMALDEF_label}s</PenCapacityDesc>
+  <PenCapacityDesc>Capacidad para {ANIMALDEF_labelPlural}</PenCapacityDesc>
   <!-- EN: Example animals -->
   <PenExampleAnimals>Animales de ejemplo</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
@@ -1041,9 +1041,9 @@
   <!-- EN: Unconscious -->
   <Unconscious>Inconsciente</Unconscious>
   <!-- EN: In shock due to pain -->
-  <PainShock>En shock por el dolor</PainShock>
+  <PainShock>En estado de aturdimiento por el dolor</PainShock>
   <!-- EN: Pain shock -->
-  <PainShockShort>Shock por dolor</PainShockShort>
+  <PainShockShort>Colapso por dolor</PainShockShort>
   <!-- EN: Incapacitated -->
   <Incapacitated>Incapacitado</Incapacitated>
   <!-- EN: In restraints (slowed) -->
@@ -1165,7 +1165,7 @@
   <!-- EN: needs light level -->
   <PlantNeedsLightLevel>necesita un nivel de luz del</PlantNeedsLightLevel>
   <!-- EN: resting -->
-  <PlantResting>descansando</PlantResting>
+  <PlantResting>en reposo</PlantResting>
   <!-- EN: temperature growth multiplier {0}% -->
   <OutOfIdealTemperatureRange>Multiplicador de crecimiento de temperatura {0}%</OutOfIdealTemperatureRange>
   <!-- EN: out of temperature growth range -->
@@ -1279,7 +1279,7 @@
   <!-- EN: Toggle visibility of roofs. -->
   <ShowRoofOverlayToggleButton>Activar visibilidad de techos.</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>Activar la superposición de fertilidad.\n\nEsto muestra cuán fértil es el suelo, lo que afecta, qué tipos de plantas pueden crecer y qué tan rápido crecen.</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>Activar la superposición de fertilidad.\n\nEsto muestra cuán fértil es el suelo, lo que afecta a qué tipos de plantas pueden crecer y a qué velocidad lo hacen.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
   <ShowTerrainAffordanceOverlayToggleButton>Activar la visibilidad de la disponibilidad del terreno.\n\nEsto se relaciona con los tipos de edificios que se pueden construir en cada ubicación.\n\nPor ejemplo, algunos tipos de terreno solo aceptan edificios ligeros o medianos, pero no los pesados. Los puentes solo se pueden construir sobre el agua.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
@@ -1339,7 +1339,7 @@
   <!-- EN: Something is already placed on this wall. -->
   <SomethingPlacedOnThisWall>Ya hay algo colocado en esta pared.</SomethingPlacedOnThisWall>
   <!-- EN: This building can not support attachments. -->
-  <CannotSupportAttachment>Este edificio no admite anexos.</CannotSupportAttachment>
+  <CannotSupportAttachment>Esta construcción no admite elementos adyacentes.</CannotSupportAttachment>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>Se debe ubicar con el frente adyacente a la viga estructural de una nave.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1359,7 +1359,7 @@
   <!-- EN: Cannot be placed next to traps. -->
   <CannotPlaceAdjacentTrap>No se puede colocar junto a trampas.</CannotPlaceAdjacentTrap>
   <!-- EN: Cannot be placed next to another building of the same type. -->
-  <CannotPlaceAdjacentSameDef>No se puede colocar junto a otro edificio del mismo tipo.</CannotPlaceAdjacentSameDef>
+  <CannotPlaceAdjacentSameDef>No se puede colocar junto a otra construcción del mismo tipo.</CannotPlaceAdjacentSameDef>
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
@@ -1395,9 +1395,9 @@
   <!-- EN: No settlement to return to. Form a settlement first. -->
   <ShipNoSettlementToReturnTo>No hay asentamiento al que volver. Forma un asentamiento primero.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)Charlon Whitestone(/Name) está listo para comenzar la secuencia de recuperación de la hibernación del reactor.\n\nAdvierte que el proceso tomará alrededor de 15 días, y la señal de energía será detectable desde una gran distancia. Este tipo de firma de energía indica capacidad de vuelo interestelar y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarning>
+  <HibernateWarning>(*Name)Charlon Whitestone(/Name) está listo para comenzar la secuencia de recuperación de la hibernación del reactor.\n\nAdvierte que el proceso tomará alrededor de 15 días y que la señal de energía será detectable desde una gran distancia.\n\nEste tipo de señal indica capacidad de vuelo interestelar y atraerá a bandas de asaltantes desesperados y enjambres de mecanoides mortales.\n\nSufrirás ataques de una intensidad nunca vista. Asegúrate primero de que tus defensas estén preparadas.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>El reactor está listo para encenderse.\n\nEl proceso tomará alrededor de 15 días, y la señal de energía será detectable a largas distancias. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarningStandalone>
+  <HibernateWarningStandalone>El reactor está listo para encenderse.\n\nEl proceso tomará alrededor de 15 días y la señal de energía será detectable a larga distancia. Este tipo de señal indica capacidad de vuelo interestelar y atraerá a bandas de asaltantes desesperados y enjambres de mecanoides mortales.\n\nSufrirás ataques de una intensidad nunca vista. Asegúrate primero de que tus defensas estén preparadas.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>(*Name)Charlon Whitestone(/Name) está listo para iniciar la secuencia de recuperación de hibernación del reactor. Te advierte que el proceso durará unos 15 días.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
@@ -1409,7 +1409,7 @@
   <!-- EN: Use skilltrainer to learn {0} -->
   <SkillNeurotrainerUseLabel>Usa el neuroentrenador de habilidades para aprender {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>Una superdosis de mecanitas de un uso capaz de entrenar una habilidad específica.\n\nLa dosis es administrada a través de la órbita del ojo. Una vez liberados en el cerebro, los mecanitas rápidamente mejoran las habilidades del sujeto en un área en concreto, convirtiéndose en tejido nervioso según sea necesario.</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>Una superdosis de mecanitas de un uso capaz de entrenar una habilidad específica.\n\nLa dosis se administra a través de la órbita del ojo. Una vez liberadas en el cerebro, las mecanitas mejoran rápidamente las habilidades del sujeto en un área en concreto, convirtiéndose en tejido nervioso según sea necesario.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
   <SkillNeurotrainerUsed>{USER_labelShort} usó el neuroentrenador {1} para subir su nivel de {2} a {3}.</SkillNeurotrainerUsed>
 
@@ -1419,7 +1419,7 @@
   <!-- EN: Not installed -->
   <NotInstalled>No instalado</NotInstalled>
   <!-- EN: Extracted tree will die in {time} unless replanted. -->
-  <MinifiedTreeWillDieIn>El árbol extraído morirá en {time} si no es replantado.</MinifiedTreeWillDieIn>
+  <MinifiedTreeWillDieIn>El árbol extraído morirá en {time} si no se replanta.</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
@@ -1463,7 +1463,7 @@
   <!-- EN: Game Over -->
   <GameOver>Fin de la partida</GameOver>
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
-  <GameOverEveryoneDead>Todos los habitantes de la colonia han muerto o se han ido. Esta historia ha terminado.\n\nQuizás alguien le dé uso a estas ruinas en el futuro.</GameOverEveryoneDead>
+  <GameOverEveryoneDead>Todos los habitantes de la colonia han muerto o se han ido. Esta historia ha terminado.\n\nQuizá alguien le dé uso a estas ruinas en el futuro.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>A casi la velocidad de la luz, el arma destruyeplanetas se estrelló contra el suelo con la energía de un billón de bombas de hidrógeno. Como si fuera un globo de agua al que le han disparado con un rifle, el planeta se licúa con el impacto y dispersa su manto y núcleo fundidos a través del cosmos.\n\nUna parte de {0} ahora es un cinturón de asteroides. El resto es un páramo radioactivo e infernal azotado constantemente por terremotos de nivel planetario.\n\nNo sobreviviste.</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
@@ -1483,7 +1483,7 @@
   <!-- EN: Create new wanderers -->
   <GameOverCreateNewWanderers>Crear nuevos colonos</GameOverCreateNewWanderers>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
-  <GameOverCreateNewWanderersText>Todos han muerto o se han ido. Quizás alguien encuentre algún uso para estas ruinas en un futuro.\n\nElige a los nuevos vagabundos que llegarán a tu colonia y continúa la historia.</GameOverCreateNewWanderersText>
+  <GameOverCreateNewWanderersText>Todos han muerto o se han ido. Quizá alguien encuentre algún uso para estas ruinas en un futuro.\n\nElige a los nuevos vagabundos que llegarán a tu colonia y continúa la historia.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Menú principal</GameOverMainMenu>
   <!-- EN: No colony -->
@@ -1503,7 +1503,7 @@
   <!-- EN: Links to -->
   <FacilityPotentiallyLinkedTo>Vincular a</FacilityPotentiallyLinkedTo>
   <!-- EN: Not linked to a building -->
-  <FacilityNoPotentialLinks>No está vinculado a un edificio</FacilityNoPotentialLinks>
+  <FacilityNoPotentialLinks>No está vinculado a una construcción</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
   <FacilityMaxSimultaneousConnections>Máximas conexiones por construcción</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
@@ -1669,7 +1669,7 @@
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
   <PawnTooltipPsychicEntropyLimit>Alterna el limitador de calentamiento neural. Exceder tu límite de calentamiento puede causar un colapso psíquico que dure días. No causará daños permanentes.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
-  <PawnTooltipPsyfocus>Psicofoco: {0}</PawnTooltipPsyfocus>
+  <PawnTooltipPsyfocus>Psifoco: {0}</PawnTooltipPsyfocus>
   
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
@@ -1681,7 +1681,7 @@
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_WalkIn>{0_gender ? un : una} {0_title} de {0_age} años llamad{0_gender ? o : a} {0_nameDef} llegará y se unirá a tu colonia {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>{0_gender ? un : una} {0_title} de {0_age} años {0_title} llamad{0_gender ? o : a} {0_nameDef} se unirá a tu colonia {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <Reward_Pawn_Caravan>{0_gender ? un : una} {0_title} de {0_age} años llamad{0_gender ? o : a} {0_nameDef} se unirá a tu colonia {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
   <Reward_Items>llegarán cápsulas de transporte con los siguientes recursos (valor total {1}):\n\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):\n\n{0} -->
@@ -1779,7 +1779,7 @@
   <HealingRestoreBodyPart>{1_definite} de {0_nameDef} se ha restaurado.</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>Precaución: ¡Colocar un edificio aquí enfurecerá a la facción {FACTION_name}!</WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>Precaución: ¡Colocar una construcción aquí enfurecerá a la facción {FACTION_name}!</WarningBuildingCausesHostility>
 
   <!-- EN: Choose landing site -->
   <ChooseLandingSite>Elige un sitio de aterrizaje</ChooseLandingSite>
@@ -1847,7 +1847,7 @@
   <!-- EN: {0} quality depends on -->
   <RitualOutcomeQualityAbstract>La calidad depende de: {0}</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
-  <RitualOutcomeQualitySpecific>{0} obtuvo una calidad total de {1} en base a estos factores</RitualOutcomeQualitySpecific>
+  <RitualOutcomeQualitySpecific>{0} obtuvo una calidad total de {1} según estos factores</RitualOutcomeQualitySpecific>
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>Llevado a cabo recientemente</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
@@ -2009,7 +2009,7 @@
   <WhenDiscovered>al descubrirse</WhenDiscovered>
   
   <!-- EN: Was driven into a mental break after reading {0}. -->
-  <BookMentalBreakMessage>Ha sufrido un colapso mental tras leer {0}</BookMentalBreakMessage>
+  <BookMentalBreakMessage>Ha sufrido un colapso mental tras leer {0}.</BookMentalBreakMessage>
   <!-- EN: {0} done (complete in {1} hours) -->
   <BookReadProgress>"{0}" completado (terminado en {1} horas)</BookReadProgress>
   

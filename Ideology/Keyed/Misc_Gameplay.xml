@@ -6,9 +6,9 @@
   <!-- EN: Choose your ideoligion -->
   <ChooseYourIdeoligion>Elige tu ideoligión</ChooseYourIdeoligion>
   <!-- EN: A random structure will be used for your ideoligion. -->
-  <RandomStructureTip>Tu ideoligión utilizará una estructura aleatoria</RandomStructureTip>
+  <RandomStructureTip>Tu ideoligión utilizará una estructura aleatoria.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
-  <RandomStyleTip>Tu ideoligión utilizará un estilo aleatorio</RandomStyleTip>
+  <RandomStyleTip>Tu ideoligión utilizará un estilo aleatorio.</RandomStyleTip>
   <!-- EN: Ideology system inactive -->
   <PlayClassic>Modo clásico</PlayClassic>
   <!-- EN: Create custom\n(fluid) -->
@@ -22,7 +22,7 @@
   <!-- EN: Structure -->
   <Structure>Estructura</Structure>
   <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs. -->
-  <ChooseYourIdeoligionDesc>¿En qué creerán tus colonos iniciales? Sus creencias afectarán el juego y la estética. Podrás reclutar a otros a tus creencias, o creer en las suyas.</ChooseYourIdeoligionDesc>
+  <ChooseYourIdeoligionDesc>¿En qué creerán tus colonos iniciales? Sus creencias afectarán al juego y a la estética. Podrás conseguir que otros adopten tus creencias, o adoptar las suyas.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Crear personalizada</CreateCustom>
   <!-- EN: Delete custom -->
@@ -96,7 +96,7 @@
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
   <OrIdeoColor>, o el color de su ideoligión,</OrIdeoColor>
   <!-- EN: Set ideo color -->
-  <SetIdeoColor>Color de la ideo</SetIdeoColor>
+  <SetIdeoColor>Color de la ideoligión</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Color favorito</SetFavoriteColor>
   <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
@@ -182,9 +182,9 @@
   <!-- EN: Altar, ideogram or any ritual spot. -->
   <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Altar, ideograma o cualquier sitio de rituales.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: Lightball is not powered. -->
-  <RitualTargetLightBallIsNotPowered>La bola de discoteca no está conectada.</RitualTargetLightBallIsNotPowered>
+  <RitualTargetLightBallIsNotPowered>La bola giratoria no tiene energía.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
-  <RitualTargetNoPoweredSpeakers>No hay altavoces conectados.</RitualTargetNoPoweredSpeakers>
+  <RitualTargetNoPoweredSpeakers>No hay altavoces con energía.</RitualTargetNoPoweredSpeakers>
   <!-- EN: Campfire is not fueled. -->
   <RitualTargetCampfireNoFuel>La hoguera no tiene combustible.</RitualTargetCampfireNoFuel>
   <!-- EN: Campfire must be unroofed. -->
@@ -206,7 +206,7 @@
   <!-- EN: A participant cannot reach enough wood. -->
   <RitualTargetWoodInfoAppend>Un participante no puede reunir suficiente madera.</RitualTargetWoodInfoAppend>
   <!-- EN: {0} participants cannot reach enough wood. -->
-  <RitualTargetWoodInfoAppendMultiple>{0} participantes no pueden reunir suficiente madera</RitualTargetWoodInfoAppendMultiple>
+  <RitualTargetWoodInfoAppendMultiple>{0} participantes no pueden reunir suficiente madera.</RitualTargetWoodInfoAppendMultiple>
   <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
   <RitualTargetWoodInfoWarning>{PAWN_labelShort} no puede reunir suficiente madera.</RitualTargetWoodInfoWarning>
   <!-- EN: {0} must be able to reach ritual target. -->
@@ -222,10 +222,10 @@
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
   <RitualScarificationTriggerExtraDesc>Se espera la escarificación de {IDEOMEMBERPLURAL} al haber menos de {0} {IDEOMEMBERPLURAL} escarificados.</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
-  <RitualBlindingTriggerExtraDesc>Se espera la ceguera para cada {IDEOMEMBER} de la colonia.</RitualBlindingTriggerExtraDesc>
+  <RitualBlindingTriggerExtraDesc>Se espera cegar a todos los colonos actuales de esta ideoligión y a todos los nuevos miembros que se incorporen a ella.</RitualBlindingTriggerExtraDesc>
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
-  <RitualOutcomeExtraDesc_DancePartyWorkFocus>¡Todo el que participe en el ritual ganará un focus de trabajo durante un día ({PERCENTAGE} velocidad global de trabajo)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
+  <RitualOutcomeExtraDesc_DancePartyWorkFocus>¡Todo el que participe en el ritual ganará un enfoque de trabajo durante un día ({PERCENTAGE} velocidad global de trabajo)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
   <RitualOutcomeExtraDesc_BlindingPsylink>Gracias a un satisfactorio ritual de ceguera, ¡{PAWN_labelShort} ha ganado un nivel de psienlace!</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
@@ -235,7 +235,7 @@
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
   <RitualOutcomeExtraDesc_SkylanternWanderers>Tus faroles han atraído a algunos viajeros amigables. Te visitarán y dejarán un regalo.</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
-  <RitualOutcomeExtraDesc_Execution>Todos los esclavos participantes han sido estremecidos por la visión de la muerte. Sus niveles de supresión han subido al máximo.</RitualOutcomeExtraDesc_Execution>
+  <RitualOutcomeExtraDesc_Execution>La visión de la muerte ha estremecido a todos los esclavos participantes. Sus niveles de represión han subido al máximo.</RitualOutcomeExtraDesc_Execution>
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Debido a la calidad del ritual, tus puntos de desarrollo han aumentado en {2} (de {0} a {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
@@ -280,7 +280,7 @@
   <RitualAttachedOutcomeCantApply_NotAvailableRightNow>No disponible ahora mismo.</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
   
   <!-- EN: This building is a variation of -->
-  <IdeoBuildingVariationOf>Este edificio es una variación de</IdeoBuildingVariationOf>
+  <IdeoBuildingVariationOf>Esta construcción es una variación de</IdeoBuildingVariationOf>
   <!-- EN: Minimum expectations -->
   <IdeoBuildingMinimumExpectations>Expectativas mínimas</IdeoBuildingMinimumExpectations>
   <!-- EN: optional -->
@@ -303,7 +303,7 @@
   <!-- EN: For slave use -->
   <ForSlaveUse>Para uso de esclavos</ForSlaveUse>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
-  <SellingAsSlave>Si vendes a alguien a otra facción contra su voluntad, se convertirá en esclavo.</SellingAsSlave>
+  <SellingAsSlave>Si vendes a alguien a cualquier facción que no sea la suya, se convertirá en esclavo.</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
   <SellingAsRansom>Si vendes a alguien a su propia facción, será rescatado y no esclavizado.</SellingAsRansom>
 
@@ -314,7 +314,7 @@
 
   <!-- TextMotes -->
   <!-- EN: Slave suppression: {0} -->
-  <TextMote_SuppressionIncreased>Contención de esclavos: {0}</TextMote_SuppressionIncreased>
+  <TextMote_SuppressionIncreased>Represión de esclavos: {0}</TextMote_SuppressionIncreased>
 
   <!-- Role requirements -->
   <!-- EN: Requirements -->
@@ -351,7 +351,7 @@
   <!-- EN: No reachable altar, ideogram or ritual spot. -->
   <AbilityDisabledNoAltarIdeogramOrRitualsSpot>No hay un altar, ideograma o punto de rituales al alcance.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
   <!-- EN: No reachable ritual spot. -->
-  <AbilityDisabledNoRitualSpot>No hay un altar al alcance.</AbilityDisabledNoRitualSpot>
+  <AbilityDisabledNoRitualSpot>No hay un punto de rituales al alcance.</AbilityDisabledNoRitualSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>Voluntad\n{0} a {1}</TextMote_WillReduced>
@@ -385,7 +385,7 @@
   <!-- EN: Relic info found -->
   <RelicInfoFound>Información de reliquia encontrada</RelicInfoFound>
   <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
-  <InactiveRoleRequiresMoreBelievers>inactivo, requiere al menos {0} {1}s (tiene {2})</InactiveRoleRequiresMoreBelievers>
+  <InactiveRoleRequiresMoreBelievers>inactivo, requiere al menos {0} miembros de esta ideoligión (hay {2})</InactiveRoleRequiresMoreBelievers>
   
   <!-- EN: certainty -->
   <Certainty>certeza</Certainty>
@@ -436,7 +436,7 @@
   <ExpectedConvictionChance>Posibilidad de convicción</ExpectedConvictionChance>
  
   <!-- EN: Must be placed indoors. -->
-  <MustBePlacedIndoors>Debe colocarse bajo techo.</MustBePlacedIndoors>
+  <MustBePlacedIndoors>Debe colocarse en interiores.</MustBePlacedIndoors>
 
   <!-- Gauranlen trees/Dryads -->
   <!-- EN: Connected to -->
@@ -452,7 +452,7 @@
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
   <TreeBlockedByNearbyBuildingsDesc>Plantar {PLANT_definite} cerca de construcciones artificiales provocará que su fuerza de conexión decaiga con el tiempo. La fuerza de conexión determina el máximo número de dríadas que {PLANT_definite} puede tener a la vez.\n\n¿Seguro que quieres plantarlo aquí?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>Cambiar el tipo de casta {replace: de {TREE_definite}; "de el "-"del "} tomará tiempo y energía.\n\nDespués de que la persona conectada interactúe con el árbol, todas las dríadas estarán {DURATION} días en una crisálida mientras cambian a la casta seleccionada.\n\nLas crisálidas existentes cancelarán sus transformaciones para convertirse en la casta seleccionada.</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>Cambiar la casta {replace: de {TREE_definite}; "de el "-"del "} tomará tiempo y energía.\n\nDespués de que la persona conectada interactúe con el árbol, todas las dríadas estarán {DURATION} días en una crisálida mientras cambian a la casta seleccionada.\n\nLas crisálidas existentes cancelarán sus transformaciones para convertirse en la casta seleccionada.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>Cambia el tipo de dríadas creadas por {TREE_definite}.</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
@@ -462,11 +462,11 @@
   <!-- EN: {0} strength -->
   <ConnectionStrengthDisplay>Fuerza de {0}</ConnectionStrengthDisplay>
   <!-- EN: Determines how many dryads this tree can support. -->
-  <ConnectionStrengthDesc>Determina cuantas dríadas puede soportar este árbol.</ConnectionStrengthDesc>
+  <ConnectionStrengthDesc>Determina cuántas dríadas puede mantener este árbol.</ConnectionStrengthDesc>
   <!-- EN: Max dryads -->
   <MaximumDryads>Dríadas máximas</MaximumDryads>
   <!-- EN: The maximum number of dryads this tree can support. -->
-  <MaximumDryadsDesc>El número máximo de dríadas que este árbol puede soportar.</MaximumDryadsDesc>
+  <MaximumDryadsDesc>El número máximo de dríadas que este árbol puede mantener.</MaximumDryadsDesc>
   <!-- EN: Max dryads based on connection strength -->
   <MaxDryadsBasedOnConnectionStrength>Dríadas máximas según la fuerza de conexión.</MaxDryadsBasedOnConnectionStrength>
   <!-- EN: Pruning connection strength gain -->
@@ -476,7 +476,7 @@
   <!-- EN: Desired -->
   <DesiredConnectionStrength>Deseada</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} podará {TREE_definite} lo suficiente como para mantener la fuerza de conexión por encima de este nivel.\n\nUna mayor fuerza de conexión permite tener más dríadas, pero también caerá más rápido, por lo que deberá ser podado con más frecuencia.\n\nPuedes hacer clic en la barra para ajustar la fuerza deseada.\n\nCaída de fuerza por día: {FALL}\n\nLa fuerza de conexión es afectada por las estructuras cercanas.</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} podará {TREE_definite} lo suficiente como para mantener la fuerza de conexión por encima de este nivel.\n\nUna mayor fuerza de conexión permite tener más dríadas, pero también caerá más rápido, por lo que deberá ser podado con más frecuencia.\n\nPuedes hacer clic en la barra para ajustar la fuerza deseada.\n\nCaída de fuerza por día: {FALL}\n\nLa fuerza de conexión se ve afectada por las estructuras cercanas.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>Esperando a que {CONNECTEDPAWN_nameDef} cambie la casta de dríadas.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
@@ -498,7 +498,7 @@
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
   <DryadCannotChangeMaster>{ANIMAL_nameDef} está conectado a {MASTER_nameDef} por el árbol Gauranlen. Su maestro no se puede cambiar.</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
-  <ConnectionStrengthTooWeakForGaumakerPod>Fuerza de conexión muy baja para crear una dríada.</ConnectionStrengthTooWeakForGaumakerPod>
+  <ConnectionStrengthTooWeakForGaumakerPod>Fuerza de conexión demasiado baja para crear una vaina de Gauranlen.</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
   <Unconnected>desconectado</Unconnected>
   <!-- EN: Dryads -->
@@ -508,7 +508,7 @@
   <!-- EN: Currently affected by -->
   <CurrentlyAffectedBy>Actualmente afectado por</CurrentlyAffectedBy>
   <!-- EN: {0} connection strength needed to support a dryad. -->
-  <NotEnoughConnectionStrengthForSingleDryad>Se necesita {0} fuerza de conexión para soportar una dríada.</NotEnoughConnectionStrengthForSingleDryad>
+  <NotEnoughConnectionStrengthForSingleDryad>Se necesita {0} de fuerza de conexión para mantener una dríada.</NotEnoughConnectionStrengthForSingleDryad>
   <!-- EN: Cannot assign allowed area -->
   <CannotAssignAllowedAreaToDryad>No se puede asignar un área permitida</CannotAssignAllowedAreaToDryad>
 
@@ -596,7 +596,7 @@
   <!-- EN: Ready for cycle selection -->
   <BiosculpterPodCycleSelection>Preparado para selección de ciclo</BiosculpterPodCycleSelection>
   <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
-  <BiosculpterPodCycleStandby>A la espera para ciclo de {CYCLE} con {PAWN_labelShort}</BiosculpterPodCycleStandby>
+  <BiosculpterPodCycleStandby>En espera del ciclo de {CYCLE} para {PAWN_labelShort}</BiosculpterPodCycleStandby>
   <!-- EN: Nutrition loaded, no power -->
   <BiosculpterPodCycleSelectionNoPower>Falta nutrición, sin energía</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
@@ -612,11 +612,11 @@
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>Interrumpe el ciclo actual. El ocupante será expulsado sin beneficiarse del ciclo y sufrirá la enfermedad de la bioescultura por un corto tiempo.</BiosculpterInteruptCycleDesc>
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
-  <BiosculpterEnteringMessage>{PAWN_labelShort} va a entrar al bioescultor y comenzar un ciclo de {CYCLE}</BiosculpterEnteringMessage>
+  <BiosculpterEnteringMessage>{PAWN_labelShort} va a entrar en la cápsula de bioescultura y comenzar un ciclo de {CYCLE}</BiosculpterEnteringMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
   <BiosculpterLoadingStartedMessage>{PAWN_labelShort} va a recoger {INGREDIENTS} y comenzar un ciclo de {CYCLE}</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
-  <BiosculpterCarryStartedMessage>{PAWN_labelShort} va a recoger {INGREDIENTS}, colocar a {DOWNED_labelShort} en el bioescultor y comenzar un ciclo de {CYCLE}</BiosculpterCarryStartedMessage>
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} va a recoger {INGREDIENTS}, colocar a {DOWNED_labelShort} en la cápsula de bioescultura y comenzar un ciclo de {CYCLE}</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
   <NumNutrition>{0} nutrición</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -630,7 +630,7 @@
   <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <AgeReversalExpectationDeadline>Esperará su próxima reversión de edad en {DEADLINE} días.</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
-  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} ha completado su ciclo de placer</BiosculpterPleasureCompletedMessage>
+  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} ha completado su ciclo de placer.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>Factor de velocidad por limpieza</BiosculpterCleanlinessSpeedFactor>
   <!-- EN: Biotuned speed factor -->

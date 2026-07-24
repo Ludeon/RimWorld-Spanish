@@ -46,16 +46,16 @@
   <CantCastOnPocketMap>Debe realizarse el ritual psíquico {0} en la superficie.</CantCastOnPocketMap>
 
   <!-- EN: Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name}) -->
-  <PsychicRitualFactionWarning>Advertencia: Realizar un ritual a {PAWN_nameDef} enfurecerá a su facción ({FACTION_name})</PsychicRitualFactionWarning>
+  <PsychicRitualFactionWarning>Advertencia: Realizar un ritual sobre {PAWN_nameDef} enfurecerá a su facción ({FACTION_name})</PsychicRitualFactionWarning>
 
   <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
   <PsychicRitualWakingPawnWarning>{0} está durmiendo y se despertará cuando comience el ritual psíquico.</PsychicRitualWakingPawnWarning>
   <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
-  <PsychicRitualUndraftPawnWarning>{0} está actualmente reclutad{0_gender ? o : a}, dejará de estarlo cuando comience el ritual psíquico.</PsychicRitualUndraftPawnWarning>
+  <PsychicRitualUndraftPawnWarning>{0} está actualmente reclutad{0_gender ? o : a}, pero dejará de estarlo cuando comience el ritual psíquico.</PsychicRitualUndraftPawnWarning>
   <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
   <PsychicRitualWakingPawnsWarning>{0} están durmiendo y se despertarán cuando comience el ritual psíquico.</PsychicRitualWakingPawnsWarning>
   <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
-  <PsychicRitualUndraftPawnsWarning>{0} están actualmente reclutados, dejarán de estarlo cuando comience el ritual psíquico.</PsychicRitualUndraftPawnsWarning>
+  <PsychicRitualUndraftPawnsWarning>{0} están actualmente reclutados, pero dejarán de estarlo cuando comience el ritual psíquico.</PsychicRitualUndraftPawnsWarning>
 
   <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
   <PsychicRitualLeft>{0_labelShort} dejó el ritual psíquico {1}.</PsychicRitualLeft>
@@ -69,7 +69,7 @@
   <!-- EN: {0} is needed but only {1} is available -->
   <PsychicRitualOfferingsInsufficient>Se necesitan {0} pero solo está disponible {1}.</PsychicRitualOfferingsInsufficient>
   <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
-  <PsychicRitualTargetUnreachableByInvoker>{TARGET_labelShort} es inalcanzable por {INVOKER_labelShort}</PsychicRitualTargetUnreachableByInvoker>
+  <PsychicRitualTargetUnreachableByInvoker>{TARGET_labelShort} no está al alcance de {INVOKER_labelShort}</PsychicRitualTargetUnreachableByInvoker>
 
   <!-- EN: leave the {0} psychic ritual -->
   <CommandLeavePsychicRitual>abandonar el ritual psíquico {0}</CommandLeavePsychicRitual>
@@ -112,25 +112,25 @@
   <!-- EN: {PAWN_labelShort} is not humanlike -->
   <PsychicRitualLeaveReason_NonHumanlike>{PAWN_labelShort} no es humanoide</PsychicRitualLeaveReason_NonHumanlike>
   <!-- EN: {PAWN_labelShort} is a prisoner -->
-  <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort} es un prisionero</PsychicRitualLeaveReason_Prisoner>
+  <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort} es {PAWN_gender ? un prisionero : una prisionera}</PsychicRitualLeaveReason_Prisoner>
   <!-- EN: {PAWN_labelShort} is a slave -->
-  <PsychicRitualLeaveReason_Slave>{PAWN_labelShort} es un esclavo</PsychicRitualLeaveReason_Slave>
+  <PsychicRitualLeaveReason_Slave>{PAWN_labelShort} es {PAWN_gender ? un esclavo : una esclava}</PsychicRitualLeaveReason_Slave>
   <!-- EN: {PAWN_labelShort} is free -->
-  <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort} está deambulando</PsychicRitualLeaveReason_Freeman>
+  <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort} es libre</PsychicRitualLeaveReason_Freeman>
   <!-- EN: {PAWN_labelShort} is a {STAGE} -->
-  <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} está en el estado mental {STAGE}</PsychicRitualLeaveReason_DevelopmentalStage>
+  <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} es {replace: ^{STAGE}; "^Newborn"-"{PAWN_gender ? recién nacido : recién nacida}"; "^Baby"-"bebé"; "^niño"-"{PAWN_gender ? niño : niña}"; "^Child"-"{PAWN_gender ? niño : niña}"; "^adulto"-"{PAWN_gender ? adulto : adulta}"; "^Adult"-"{PAWN_gender ? adulto : adulta}"; "^"-""}</PsychicRitualLeaveReason_DevelopmentalStage>
   <!-- EN: {PAWN_labelShort} cannot reach the target location -->
   <PsychicRitualLeaveReason_CannotReachTarget>{PAWN_labelShort} no puede llegar a la ubicación de destino</PsychicRitualLeaveReason_CannotReachTarget>
   <!-- EN: {PAWN_labelShort} is asleep -->
   <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort} está dormid{PAWN_gender ? o : a}</PsychicRitualLeaveReason_Sleeping>
   <!-- EN: {PAWN_labelShort} is not a human -->
-  <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} no es un humano</PsychicRitualLeaveReason_Mutant>
+  <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} no es human{PAWN_gender ? o : a}</PsychicRitualLeaveReason_Mutant>
   <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
   <PsychicRitualLeaveReason_IdeoUnwilling>La creencia de {PAWN_labelShort} en {IDEO_name} impide su participación</PsychicRitualLeaveReason_IdeoUnwilling> 
   <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
   <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} no es psíquicamente sensible</PsychicRitualLeaveReason_NoPsychicSensitivity>
   <!-- EN: {PAWN_labelShort} is a temporary faction member -->
-  <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort} es un miembro temporal de la facción</PsychicRitualLeaveReason_TemporaryFactionMember>
+  <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort} forma parte temporalmente de la facción</PsychicRitualLeaveReason_TemporaryFactionMember>
   <!-- EN: {PAWN_labelShort} has other duties to attend to -->
   <PsychicRitualLeaveReason_PawnBusyWithLord>{PAWN_labelShort} tiene otras obligaciones que atender</PsychicRitualLeaveReason_PawnBusyWithLord>
   <!-- EN: {PAWN_labelShort} has other duties to attend to -->
@@ -211,7 +211,7 @@
   
   <!-- Philophagy -->
   <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
-  <PhilophagyTransferReport>{INVOKER_labelShort} robará {1} de EXP sobre {SKILL_label} de {TARGET_labelShort}.</PhilophagyTransferReport>
+  <PhilophagyTransferReport>{INVOKER_labelShort} robará {1} de EXP de {SKILL_label} a {TARGET_labelShort}.</PhilophagyTransferReport>
   <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
   <NoSkillsToTransfer>{TARGET_labelShort} no tiene habilidades que transferir.</NoSkillsToTransfer>
 </LanguageData>

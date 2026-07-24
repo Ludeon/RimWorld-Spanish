@@ -12,21 +12,21 @@
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
   <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>La ropa deseada ({DESIREDAPPAREL}) se solapa con la ropa requerida por el rol de {ROLE} ({ROLEAPPAREL}). Esto impedirá que quienes tengan ese rol lleven juntas la ropa requerida y la deseada.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
-  <MessageRitualMissingTarget>{PRECEPT} necesita uno de estos edificios</MessageRitualMissingTarget>
+  <MessageRitualMissingTarget>{PRECEPT} necesita una de estas construcciones</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
   <MessageBuildingMissingRitual>{PRECEPT} necesita un ritual asociado.</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
   <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} se niega a hacer esto por su ideoligión.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} intentó convertir a {RECIPIENT_nameDef} a su ideoligión. La certeza de {RECIPIENT_nameDef} bajó de {CERTAINTYBEFORE} a {CERTAINTYAFTER}. Está resentido por el intento de conversión.</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} intentó convertir a {RECIPIENT_nameDef} a su ideoligión. La certeza de {RECIPIENT_nameDef} bajó de {CERTAINTYBEFORE} a {CERTAINTYAFTER}. El intento de conversión le ha molestado.</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
   <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} intentó convertir a {PAWN2_nameDef} a su ideoligión. ¡Esto ha provocado una pelea!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
-  <MessageNotEnoughMemes>Debes elegir al menos {0} memes.</MessageNotEnoughMemes>
+  <MessageNotEnoughMemes>{replace: ^Debes elegir al menos {0} memes.; "^Debes elegir al menos 1 memes."-"Debes elegir al menos 1 meme."; "^"-""}</MessageNotEnoughMemes>
   <!-- EN: You can't choose more than {0} memes. -->
-  <MessageTooManyMemes>No puedes elegir más de {0} memes.</MessageTooManyMemes>
+  <MessageTooManyMemes>{replace: ^No puedes elegir más de {0} memes.; "^No puedes elegir más de 1 memes."-"No puedes elegir más de 1 meme."; "^"-""}</MessageTooManyMemes>
   <!-- EN: You must choose a structure meme. -->
-  <MessageNotEnoughStructureMemes>Debes elegir una estructura de meme.</MessageNotEnoughStructureMemes>
+  <MessageNotEnoughStructureMemes>Debes elegir un meme de estructura.</MessageNotEnoughStructureMemes>
   <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
   <MessageIncompatibleMemes>{0_label} y {1_label} son incompatibles entre sí.</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->

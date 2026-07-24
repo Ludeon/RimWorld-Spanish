@@ -28,12 +28,12 @@
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>Las relaciones con {0} han mejorado. Ahora te consideran neutral y ya no te atacarán.</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
-  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>Esto sucedió porque la reputación ({1}) ha sobrepasado {2}. Si la reputación cae por debajo de {3}, {0} se volverán hostiles de nuevo. Si la reputación se elevara por encima de {4}, se convertirían en tus aliados y lucharían por ti.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
+  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>Esto sucedió porque la reputación ({1}) ha sobrepasado {2}. Si la reputación cae por debajo de {3}, {0} se volverá hostil de nuevo. Si la reputación supera {4}, pasará a estar de tu lado y luchará por ti.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
   
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
   <LetterRelationsChange_NeutralFromAlly>Las relaciones con {0} se han enfriado. Ahora te consideran neutral en lugar de aliado.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>Aún seguirán interactuando pacíficamente contigo, ya no enviarán combatientes para ayudarte cuando estés bajo una amenaza.\n\nEsto sucedió porque la reputación ({1}) ha caído por debajo de {2}. Si la reputación cayera por debajo de {3}, se volverán hostiles hacia ti. Si las relaciones se elevaran por encima de {4}, serían tus aliados de nuevo.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
+  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>Aún seguirán interactuando pacíficamente contigo, pero ya no enviarán combatientes para ayudarte cuando estés bajo una amenaza.\n\nEsto sucedió porque la reputación ({1}) ha caído por debajo de {2}. Si la reputación cae por debajo de {3}, {0} se volverá hostil. Si la reputación supera {4}, volverá a aliarse contigo.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
   
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
   <LetterRelationsChange_Ally>Las relaciones con {0} son muy cercanas. Ahora te consideran un aliado.</LetterRelationsChange_Ally>
@@ -175,13 +175,13 @@
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>Relación</LetterLabelNoticedRelatedPawns>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
-  <LetterRelatedPawnsRaidEnemy>Hay personas que están relacionadas con tus {0} o prisioneros en el grupo de {1}.\n\nTen presente que, aunque se conozcan, aun así se atacarán debido a las malas relaciones entre las facciones.\n\nEstas personas son:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidEnemy>Hay personas que están relacionadas con tus {0} o prisioneros en el grupo de {1}.\n\nTen presente que, aunque tengan vínculos personales, aun así se atacarán debido a las malas relaciones entre las facciones.\n\nEstas personas son:</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
   <LetterRelatedPawnsRaidFriendly>Hay personas que están relacionadas con tus {0} o prisioneros en el grupo amistoso que llega de {1}:</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
   <LetterRelatedPawnsNeutralGroup>Hay personas que están relacionadas con tus {0} o prisioneros en el grupo que está llegando:</LetterRelatedPawnsNeutralGroup>
   <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradeShip>La nave de comercio está vendiendo a personas que tienen alguna relación con tus {0} o prisioneros:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradeShip>El comerciante orbital está vendiendo a personas que tienen alguna relación con tus {0} o prisioneros:</LetterRelatedPawnsTradeShip>
   <!-- EN: The settlement is selling people who have relationships with your {0} or prisoners: -->
   <LetterRelatedPawnsTradingWithSettlement>La colonia está vendiendo a personas que tienen relaciones con tus {0} o prisioneros:</LetterRelatedPawnsTradingWithSettlement>
   <!-- EN: The caravan is selling people who have relationships with your {0} or prisoners: -->
@@ -222,7 +222,7 @@
   <!-- EN: Rejected proposal -->
   <LetterLabelRejectedProposal>Propuesta rechazada</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
-  <LetterAcceptedProposal>En algún momento de los próximos días o cuádrums, celebrarán su ceremonia de matrimonio e invitarán a todos los colonos. Considera el colocar un lugar de matrimonio si quieres decidir exactamente dónde ocurrirá.</LetterAcceptedProposal>
+  <LetterAcceptedProposal>En algún momento de los próximos días o cuádrums, celebrarán su ceremonia de matrimonio e invitarán a todos los colonos. Considera colocar un lugar de matrimonio si quieres decidir exactamente dónde ocurrirá.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
   <LetterAcceptedProposal_NameChange>{PAWN_label} cambiará su apellido a {1}.</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
@@ -252,13 +252,13 @@
   <!-- EN: Prison break -->
   <LetterLabelPrisonBreak>Fuga</LetterLabelPrisonBreak>
   <!-- EN: Prisoners have staged a breakout! They've somehow defeated the door locks and are making their way out. They may seek weapons, fight, or try to escape. These prisoners are involved:\n\n{0}\n\nPrisoners are more likely to attempt breakout when they are numerous and healthy. -->
-  <LetterPrisonBreak>¡Tus prisioneros han organizado una fuga! De alguna manera han abierto la puerta y están escapando. Podrían buscar armas, luchar o simplemente escapar. Los prisioneros involucrados son:\n\n{0}\n\nLos prisioneros son más propensos a fugarse si están sanos y son numerosos.</LetterPrisonBreak>
+  <LetterPrisonBreak>¡Tus prisioneros han organizado una fuga! De alguna manera han burlado las cerraduras de las puertas y están escapando. Podrían buscar armas, luchar o simplemente escapar. Los prisioneros involucrados son:\n\n{0}\n\nLos prisioneros son más propensos a fugarse si están sanos y son numerosos.</LetterPrisonBreak>
 
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
   <LetterLabelNewlyAddicted>Adicción: {0}</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
-  <LetterNewlyAddicted>{PAWN_labelShort} ha desarrollado una adicción por {1_definite}.\n\nAhora tiene una necesidad de {1}, que podrás ver en su pestaña de Necesidad. Consumirá automáticamente la droga para satisfacer su necesidad. Si no la puede conseguir {1}, sufrirá síndrome de abstinencia.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{PAWN_labelShort} ha desarrollado una adicción {replace: a {1_definite}; "a el "-"al "}.\n\nAhora tiene una necesidad de {1}, que podrás ver en su pestaña de Bienestar. Consumirá automáticamente la droga para satisfacer su necesidad. Si no puede conseguir {1}, sufrirá síndrome de abstinencia.</LetterNewlyAddicted>
 
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
@@ -300,7 +300,7 @@
   <!-- EN: The enemy settlement {0} has been destroyed. -->
   <LetterFactionBaseDefeatedNoRaids>El asentamiento enemigo {0} ha sido destruido.</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
-  <LetterFactionBaseDefeated_FactionDestroyed>Esta era la última base de {0}, lo que significa que la facción {0} ya no existe.</LetterFactionBaseDefeated_FactionDestroyed>
+  <LetterFactionBaseDefeated_FactionDestroyed>Esta era la última base de {0}, lo que significa que la facción ya no existe.</LetterFactionBaseDefeated_FactionDestroyed>
 
   <!-- Quest completed -->
   <!-- EN: Quest completed -->
@@ -312,7 +312,7 @@
   <!-- EN: Distant resource scanned -->
   <LetterLabelFoundPreciousLump>Minerales encontrados</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>Usando el escáner de minerales de largo alcance, {WORKER_labelShort} ha encontrado cerca una veta de {0}.\n\nDesafortunadamente, otros lo explotarán primero en {1} días si no lo hacemos nosotros.\n\n{2}</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>Usando el escáner de minerales de largo alcance, {WORKER_labelShort} ha encontrado a cierta distancia una veta de {0}.\n\nDesafortunadamente, otros lo explotarán primero en {1} días si no lo hacemos nosotros.\n\n{2}.</LetterFoundPreciousLump>
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->
@@ -369,7 +369,7 @@
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
   <LetterCraftedLegendaryMessage>{WORKER_labelShort} ha creado una obra legendaria: {CRAFTED_labelShort}.\n\nLas noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort} ha creado una obra legendaria: {CRAFTED_labelShort}.\n\n{0}\nLas noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessageArt>
+  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort} ha creado una obra legendaria: {CRAFTED_labelShort}.\n\n{0}\n\nLas noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessageArt>
 
   <!-- EN: Masterwork -->
   <LetterCraftedMasterworkLabel>Obra maestra</LetterCraftedMasterworkLabel>
@@ -392,7 +392,7 @@
   <!-- EN: Reactor ready -->
   <LetterLabelHibernateComplete>Reactor listo</LetterLabelHibernateComplete>
   <!-- EN: (*Name)Charlon Whitestone(/Name) has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
-  <LetterHibernateComplete>(*Name)Charlon Whitestone(/Name) ha terminado la secuencia de recuperación de hibernación del reactor. El reactor está listo para despegar.</LetterHibernateComplete>
+  <LetterHibernateComplete>(*Name)Charlon Whitestone(/Name) ha terminado la secuencia de recuperación de hibernación del reactor. El reactor ya está listo para despegar.</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
   <LetterHibernateCompleteStandalone>La secuencia de encendido del reactor está completa. Ya está listo para impulsar un despegue.</LetterHibernateCompleteStandalone>
 
@@ -406,7 +406,7 @@
   <!-- EN: Faction base proximity -->
   <LetterLabelFactionBaseProximity>Proximidad a base de facción</LetterLabelFactionBaseProximity>
   <!-- EN: Because you are so close to other factions, they feel you're encroaching on their territory.\n\nFor the last quadrum, faction relations have been reduced by: -->
-  <LetterFactionBaseProximity>Como estás tan cerca de otras facciones, sienten que estás invadiendo su territorio.\n\nPara el último cuádrum, las relaciones entre las facciones se han reducido en:</LetterFactionBaseProximity>
+  <LetterFactionBaseProximity>Como estás tan cerca de otras facciones, sienten que estás invadiendo su territorio.\n\nDurante el último cuádrum, las relaciones entre las facciones se han reducido en:</LetterFactionBaseProximity>
 
   <!-- Caravans battlefield victory -->
   <!-- EN: Caravan battle won -->
@@ -420,17 +420,17 @@
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
   <LetterRescueQuestFinished>Has rescatado a {PAWN_nameDef} y se ha unido a tu grupo.</LetterRescueQuestFinished>
   <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
-  <LetterRescueQuestFinishedCaravanExtra>Puedes tomar{PAWN_objective} reformando la caravana en la pantalla Mundo, seleccionando este lugar y eligiendo la opción "Reformar caravana".</LetterRescueQuestFinishedCaravanExtra>
+  <LetterRescueQuestFinishedCaravanExtra>\n\nPuedes tomar{PAWN_objective} reformando la caravana en la pantalla Mundo, seleccionando este lugar y eligiendo la opción "Reformar caravana".</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
   <LetterLabelPredatorHuntingColonist>{PREDATOR_indefinite} está cazando a {PREY_definite}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <LetterPredatorHuntingColonist>{PREDATOR_indefinite} está cazando a {PREY_definite} para alimentarse</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{PREDATOR_indefinite} está cazando a {PREY_definite} para alimentarse.</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on -->
-  <LetterDisease_Blocked>{0} ha evitado contraer {1} a</LetterDisease_Blocked>
+  <LetterDisease_Blocked>{0}: se han evitado casos de {1} en las siguientes personas</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Enfermedad: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
@@ -456,7 +456,7 @@
   <!-- EN: While talking with the trader {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of -->
   <QuestDiscoveredFromTrader>Mientras {NEGOTIATOR_nameDef} hablaba con el comerciante {TRADER_nameDef}, se enteró de</QuestDiscoveredFromTrader>
   <!-- EN: To show {RECEIVER_possessive} gratitude for your charity, the beggar {RECEIVER_nameDef} shared a secret with {GIVER_nameDef}.\n\nYou have learned of -->
-  <QuestDiscoveredFromBeggar>Para mostrar su gratitud por tu generosidad, el mendigo {RECEIVER_nameDef} ha compartido un secreto con {GIVER_nameDef}. Has descubierto</QuestDiscoveredFromBeggar>
+  <QuestDiscoveredFromBeggar>Para mostrar su gratitud por tu generosidad, el mendigo {RECEIVER_nameDef} ha compartido un secreto con {GIVER_nameDef}.\n\nHas descubierto</QuestDiscoveredFromBeggar>
   <!-- EN: You have discovered -->
   <QuestDiscoveredFromDebug>Has descubierto</QuestDiscoveredFromDebug>
 
@@ -600,7 +600,7 @@
   <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
   <LetterSpeechInspiration>Gracias al extraordinario discurso de {SPEAKER_nameIndef}, ¡{PAWN_nameIndef} se siente inspirad{PAWN_gender ? o : a}!</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
-  <LetterSpeechInterrupted>Dado que el discurso fue interrumpido después de {0}, no fue muy efectivo.</LetterSpeechInterrupted>
+  <LetterSpeechInterrupted>Dado que el discurso fue interrumpido después de solo el {0}, no fue muy efectivo.</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
   <LetterSpeechCancelled>El discurso de {0} fue interrumpido antes de llegar a la mitad. No tuvo ningún efecto.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->

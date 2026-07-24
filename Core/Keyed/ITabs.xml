@@ -17,7 +17,7 @@
   <!-- EN: Gear -->
   <TabGear>Equipo</TabGear>
   <!-- EN: Needs -->
-  <TabNeeds>Necesidad</TabNeeds>
+  <TabNeeds>Bienestar</TabNeeds>
   <!-- EN: Storage -->
   <TabStorage>Almacén</TabStorage>
   <!-- EN: Shells -->
@@ -101,7 +101,7 @@
   <!-- EN: Relations gain on release -->
   <PrisonerReleasePotentialRelationGains>Mejora de relaciones al liberar</PrisonerReleasePotentialRelationGains>
   <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>La mejora en las relaciones con la facción del prisionero si los liberas. Esto es afectado por el estado de salud físico y mental del sujeto.</PrisonerReleaseRelationGainsDesc>
+  <PrisonerReleaseRelationGainsDesc>La mejora en las relaciones con la facción del prisionero si lo liberas. Depende de la identidad, la salud y el estado mental del prisionero.</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>Intervalo de fugas de prisión</PrisonBreakMTBDays>
   <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
@@ -135,7 +135,7 @@
   <!-- EN: Last resistance reduction -->
   <LastRecruitment>Última reducción de resistencia</LastRecruitment>
   <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
-  <LastRecruitmentDescription>Cuánta resistencia redujo {1} a {0_nameDef} cuando fue reclutado.</LastRecruitmentDescription>
+  <LastRecruitmentDescription>Cuánta resistencia redujo {1} a {0_nameDef} durante el último intento de reclutamiento.</LastRecruitmentDescription>
   <!-- EN: Opinion of recruiter -->
   <OpinionOfRecruiter>Opinión del reclutador</OpinionOfRecruiter>
   <!-- EN: Recruiter negotiation ability -->
@@ -143,7 +143,7 @@
   <!-- EN: Unwavering loyalty -->
   <NonRecruitable>Lealtad inquebrantable</NonRecruitable>
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
-  <NonRecruitableTip>Este prisionero posee una lealtad inquebrantable a su hogar que se niega a ser reclutado de cualquier forma.</NonRecruitableTip>
+  <NonRecruitableTip>Este prisionero es tan leal a su hogar que se niega por completo a ser reclutado.</NonRecruitableTip>
   <!-- EN: What type of medicine can be given to this prisoner. -->
   <MedicineQualityDescriptionPrisoner>El tipo de medicina que se le puede dar a este prisionero.</MedicineQualityDescriptionPrisoner>
 
@@ -230,29 +230,29 @@
   <!-- EN: Allow medicine -->
   <AllowMedicine>Medicina</AllowMedicine>
   <!-- EN: What type of medicine can be given to this person. -->
-  <MedicineQualityDescription>El tipo de medicamento se le puede administrar a esta persona</MedicineQualityDescription>
+  <MedicineQualityDescription>El tipo de medicamento que se le puede administrar a esta persona.</MedicineQualityDescription>
   <!-- EN: What type of food can be given to this person. -->
-  <FoodRestrictionDescription>El tipo de comida se le puede dar a esta persona</FoodRestrictionDescription>
+  <FoodRestrictionDescription>El tipo de comida que se le puede dar a esta persona.</FoodRestrictionDescription>
 
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>Ninguno</None>
   <!-- EN: Very poor -->
-  <VeryPoor>Escaso(a)</VeryPoor>
+  <VeryPoor>Muy deficiente</VeryPoor>
   <!-- EN: Poor -->
-  <Poor>Poco(a)</Poor>
+  <Poor>Deficiente</Poor>
   <!-- EN: Weakened -->
   <Weakened>Débil</Weakened>
   <!-- EN: OK -->
-  <GoodCondition>OK</GoodCondition>
+  <GoodCondition>Normal</GoodCondition>
   <!-- EN: Enhanced -->
-  <Enhanced>Mejorado</Enhanced>
+  <Enhanced>Superior</Enhanced>
   <!-- EN: Seriously impaired -->
-  <SeriouslyImpaired>Dañado(a) seriamente</SeriouslyImpaired>
+  <SeriouslyImpaired>Deterioro grave</SeriouslyImpaired>
   <!-- EN: Impaired -->
-  <Impaired>Dañado(a)</Impaired>
+  <Impaired>Deterioro</Impaired>
   <!-- EN: Slightly impaired -->
-  <SlightlyImpaired>Ligeramente dañado(a)</SlightlyImpaired>
+  <SlightlyImpaired>Deterioro leve</SlightlyImpaired>
   <!-- EN: None -->
   <NoPain>Ninguno</NoPain>
   <!-- EN: Little -->
@@ -363,9 +363,9 @@
   
   <!-- Quests tab -->
   <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't receive notifications about dismissed quests. -->
-  <DismissQuest>Descartar esta misión y moverla a la sección de misiones históricas.\n\nLa misión puede ser aceptada de nuevo en cualquier momento. No recibirás notificaciones sobre misiones descartadas.</DismissQuest>
+  <DismissQuest>Descartar esta misión y moverla a la sección de misiones históricas.\n\nPuedes restaurarla en cualquier momento. Sus efectos y plazos seguirán avanzando con normalidad. No recibirás notificaciones sobre las misiones descartadas.</DismissQuest>
   <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
-  <UnDismissQuest>Restaurar esta misión.\n\nLa misión será devuelta a la lista de misiones, y las notificaciones serán reactivadas.</UnDismissQuest>
+  <UnDismissQuest>Restaurar esta misión.\n\nLa misión volverá a la lista de misiones y se reactivarán las notificaciones.</UnDismissQuest>
   <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
   <QuestDismissed>Esta misión está aquí porque fue descartada.\n\nTendrás la opción de restaurarla hasta que se acabe el plazo.</QuestDismissed>
   <!-- EN: Delete this quest and remove it from the quest list forever. -->

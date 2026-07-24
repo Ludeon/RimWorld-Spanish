@@ -4,9 +4,9 @@
   <!-- EN: Dangerous activity levels -->
   <ActivityMultipleDangerous>Niveles de actividad peligrosos</ActivityMultipleDangerous>
   <!-- EN: These entities are at dangerously high activity levels -->
-  <ActivityDangerousDesc>Estas entidades se encuentran en niveles de actividad peligrosamente altos</ActivityDangerousDesc>  
+  <ActivityDangerousDesc>Estas entidades se encuentran en niveles de actividad peligrosamente altos.</ActivityDangerousDesc>  
   <!-- EN: When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel. -->
-  <ActivityDangerousDescAppended>Cuando una entidad alcance el 100% de actividad, se convertirá una entidad peligrosa.\n\nEnvía a tu guardia a reprimir estas entidades, o activa la represión automática usando el panel de actividad de la entidad.</ActivityDangerousDescAppended>
+  <ActivityDangerousDescAppended>Cuando una entidad alcance el 100% de actividad, se volverá peligrosa.\n\nEnvía a tu guardia a reprimir estas entidades, o activa la represión automática usando el panel de actividad de la entidad.</ActivityDangerousDescAppended>
 
   <!-- EN: Need anomaly project -->
   <NeedAnomalyProject>Necesitas un proyecto de anomalía</NeedAnomalyProject>
@@ -32,7 +32,7 @@
   <!-- EN: Cultist psychic ritual -->
   <Alert_CultistPsychicRitual>Ritual psíquico cultista</Alert_CultistPsychicRitual>
   <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
-  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef} ha comenzado a realizar el ritual {RITUAL_definite}. Si no {INVOKER_objective} interrumpes, las consecuencias podrían ser terribles.</Alert_CultistPsychicRitualDesc>
+  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef} ha comenzado a realizar {replace: el ritual de {RITUAL_definite}; "de el "-"del "}. Si no {INVOKER_objective} interrumpes, las consecuencias podrían ser terribles.</Alert_CultistPsychicRitualDesc>
 
   <!-- EN: Ghoul starvation -->
   <AlertMeatHunger>Inanición necrófaga</AlertMeatHunger>
@@ -49,7 +49,7 @@
   <!-- EN: Insufficient containment -->
   <Alert_InsufficientContainment>Contención insuficiente</Alert_InsufficientContainment>
   <!-- EN: The following entities are being held in rooms that do not meet their minimum containment strength -->
-  <Alert_InsufficientContainmentDesc>Las siguientes entidades están retenidas en salas que no cumplen su resistencia mínima de contención</Alert_InsufficientContainmentDesc>
+  <Alert_InsufficientContainmentDesc>Las siguientes entidades están retenidas en salas que no alcanzan la fuerza mínima de contención necesaria</Alert_InsufficientContainmentDesc>
   <!-- EN: They will escape soon. Build stronger walls, doors, or other containment devices to hold them. -->
   <Alert_InsufficientContainmentDescAppended>Pronto escaparán. Construye muros, puertas u otros dispositivos de contención más fuertes para retenerlos.</Alert_InsufficientContainmentDescAppended>
 

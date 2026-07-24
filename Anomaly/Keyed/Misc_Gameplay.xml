@@ -40,7 +40,7 @@
   <!-- EN: {PAWN_nameDef} hypnotized -->
   <LetterLabelPawnHypnotized>{PAWN_nameDef} hipnotizad{PAWN_gender ? o : a}</LetterLabelPawnHypnotized>
   <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
-  <LetterPawnHypnotized>{PAWN_nameDef} ha sido hipnotizad{PAWN_gender ? o : a} por un redivivo y ahora divaga incoherentemente sobre imágenes e ideas de pesadillas.\n\nMatar al redivivo acabará con la hipnosis.\n\nEste usa poderes psíquicos para distorsionar las percepciones de los que le rodean, haciéndose invisible. Sin embargo, puede ser cazado siguiendo las manchas negras que deja. Se revelará si es alcanzado por armas explosivas, espuma incendiaria, PEM, fuego o bengalas disruptoras.\n\nSi no muere, seguirá hipnotizando a nuevas víctimas.</LetterPawnHypnotized>
+  <LetterPawnHypnotized>{PAWN_nameDef} ha sido hipnotizad{PAWN_gender ? o : a} por un redivivo y ahora divaga incoherentemente sobre imágenes e ideas de pesadillas.\n\nMatar al redivivo acabará con la hipnosis.\n\nEste usa poderes psíquicos para distorsionar las percepciones de los que le rodean, haciéndose invisible. Sin embargo, puede ser cazado siguiendo las manchas negras que deja. Se revelará si es alcanzado por armas explosivas, espuma cortafuegos, PEM, fuego o bengalas disruptoras.\n\nSi no muere, seguirá hipnotizando a nuevas víctimas.</LetterPawnHypnotized>
   <!-- EN: Revenant flesh chunk -->
   <LetterRevenantFleshChunkLabel>Trozo de carne de redivivo</LetterRevenantFleshChunkLabel>
   <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
@@ -54,7 +54,7 @@
   <!-- EN: Revenant emergence -->
   <LetterLabelRevenantEmergence>Aparición de un redivivo</LetterLabelRevenantEmergence>
   <!-- EN: The revenant has reemerged from the safety of its spine! Destroy it before it escapes.\n\nIn the process, the revenant has mutated and adopted a new biosignature. -->
-  <LetterRevenantEmergence>¡El redivivo ha resurgido desde la integridad de su columna vertebral! Destrúyelo antes de que escape.\n\nEn el proceso, ha mutado y adoptado una nueva biofirma.</LetterRevenantEmergence>
+  <LetterRevenantEmergence>¡El redivivo ha resurgido desde el refugio de su columna vertebral! Destrúyelo antes de que escape.\n\nEn el proceso, ha mutado y adoptado una nueva biofirma.</LetterRevenantEmergence>
 
   <!-- Sightstealers -->
   <!-- EN: Sightstealer revealed -->
@@ -122,7 +122,7 @@
   <!-- EN: Entity escape -->
   <LetterLabelEscapingFromHoldingPlatform>Entidad escapando</LetterLabelEscapingFromHoldingPlatform> 
   <!-- EN: The following entities have escaped their restraints:\n\n{0}\n\nBuild stronger containment rooms to stop entities escaping. Entities are less likely to escape from holding platforms with high containment strength, which comes from strong walls and doors, good lighting, and special containment devices. -->
-  <LetterEscapingFromHoldingPlatform>Las siguientes entidades han escapado de sus ataduras:\n\n{0}\n\nConstruye celdas de contención más fuertes para impedir que las entidades escapen. Las entidades tienen menos probabilidades de escapar de las plataformas de contención con alta resistencia de contención, que proviene de paredes y puertas fuertes, buena iluminación y dispositivos especiales de contención.</LetterEscapingFromHoldingPlatform> 
+  <LetterEscapingFromHoldingPlatform>Las siguientes entidades han escapado de sus ataduras:\n\n{0}\n\nConstruye celdas de contención más fuertes para impedir que las entidades escapen. Las entidades tienen menos probabilidades de escapar de las plataformas con una fuerza de contención alta, que proviene de paredes y puertas fuertes, buena iluminación y dispositivos especiales de contención.</LetterEscapingFromHoldingPlatform> 
   <!-- EN: requires {0} -->
   <HoldingPlatformRequiresStrength>requiere {0}</HoldingPlatformRequiresStrength>
   <!-- EN: No holding platforms available. -->
@@ -153,7 +153,7 @@
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshmassStomachLetterLabel>Mutación del obelisco</ObeliskFleshmassStomachLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} stomach, as {PAWN_possessive} tissue began to roil and mutate. {PAWN_possessive} stomach has mutated into a mass of semi-sentient flesh. The harsh acids it produces are painful but prevent food poisoning. -->
-  <ObeliskFleshmassStomachLetter>Mientras interactuaba con el obelisco, {PAWN_nameDef} sintió un repentino y agudo dolor en el estómago, sus tejidos empezaron a agitarse y mutar. Su estómago ha mutado en una masa de carne semisensible. Los duros ácidos que produce son dolorosos, pero evitan la intoxicación alimentaria.</ObeliskFleshmassStomachLetter>
+  <ObeliskFleshmassStomachLetter>Mientras interactuaba con el obelisco, {PAWN_nameDef} sintió un repentino y agudo dolor en el estómago, sus tejidos empezaron a agitarse y mutar. Su estómago ha mutado en una masa de carne semiconsciente. Los potentes ácidos que produce son dolorosos, pero evitan la intoxicación alimentaria.</ObeliskFleshmassStomachLetter>
 
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedStomachLetterLabel>Interacción con el obelisco</MutatorObeliskFailedStomachLetterLabel>
@@ -163,7 +163,7 @@
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshmassLungLetterLabel>Mutación del obelisco</ObeliskFleshmassLungLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} chest, as {PAWN_possessive} lung began to twist and swell. {PAWN_possessive} lung has mutated into a painful mass of semi-sentient flesh. The tissue is constantly regrowing and replacing itself, making it immune to effects like lung rot and asthma. -->
-  <ObeliskFleshmassLungLetter>Mientras interactuaba con el obelisco, {PAWN_nameDef} sintió un repentino y agudo dolor en el pecho, mientras su pulmón empezaba a retorcerse e hincharse. Su pulmón ha mutado en una dolorosa masa de carne semisensible. El tejido crece y se reemplaza constantemente, lo que lo hace inmune a efectos como la putrefacción pulmonar y el asma.</ObeliskFleshmassLungLetter>
+  <ObeliskFleshmassLungLetter>Mientras interactuaba con el obelisco, {PAWN_nameDef} sintió un repentino y agudo dolor en el pecho, mientras su pulmón empezaba a retorcerse e hincharse. Su pulmón ha mutado en una dolorosa masa de carne semiconsciente. El tejido crece y se reemplaza constantemente, lo que lo hace inmune a efectos como la putrefacción pulmonar y el asma.</ObeliskFleshmassLungLetter>
 
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedLungLetterLabel>Interacción con el obelisco</MutatorObeliskFailedLungLetterLabel>
@@ -216,7 +216,7 @@
   <!-- EN: {PAWN_nameDef} reappeared -->
   <ObeliskAbductedLetterLabel>{PAWN_nameDef} ha reaparecido</ObeliskAbductedLetterLabel>
   <!-- EN: {PAWN_nameDef} has been teleported to a strange room. The walls are an unidentifiable gray material and the air is dead still. {PAWN_pronoun} doesn't know where {PAWN_pronoun} is - or how to get home.\n\nA nearby door is jammed but looks like it can be forced open with some effort. Right-click jammed doors to open them.\n\nBy studying the obelisk, other colonists may be able to understand what happened to {PAWN_nameDef} and find a way to help {PAWN_objective}. Alternatively, attacking the obelisk may provoke it to abduct more colonists. -->
-  <ObeliskAbductedLetter>{PAWN_nameDef} ha sido teletransportad{PAWN_gender ? o : a} a una extraña habitación. Las paredes son de un material gris inidentificable y el aire está muerto. No sabe dónde está ni cómo volver a casa.\n\nUna puerta cercana está atascada, pero parece que puede abrirse con un poco de esfuerzo. Haz clic con el botón derecho en las puertas atascadas para abrirlas.\n\nEstudiando el obelisco, otros colonos podrían entender lo que le ocurrió a {PAWN_nameDef} y encontrar una forma de ayudarle. Por otro lado, atacar el obelisco puede provocar que secuestre a más colonos.</ObeliskAbductedLetter>
+  <ObeliskAbductedLetter>{PAWN_nameDef} ha sido teletransportad{PAWN_gender ? o : a} a una extraña habitación. Las paredes son de un material gris inidentificable y el aire está completamente inmóvil. No sabe dónde está ni cómo volver a casa.\n\nUna puerta cercana está atascada, pero parece que puede abrirse con un poco de esfuerzo. Haz clic con el botón derecho en las puertas atascadas para abrirlas.\n\nAl estudiar el obelisco, otros colonos podrían entender lo que le ocurrió a {PAWN_nameDef} y encontrar una forma de ayudarle. Por otro lado, atacar el obelisco puede provocar que secuestre a más colonos.</ObeliskAbductedLetter>
 
   <!-- EN: {PAWN_nameIndef} has mutated into a fleshbeast. -->
   <MutatorObeliskMutated>{PAWN_nameIndef} ha mutado en una carnibestia.</MutatorObeliskMutated>
@@ -267,9 +267,9 @@
   <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {0}. -->
   <ActivitySuppressionTooltipDisabled>La represión automática está actualmente desactivada. Actívala para que los guardias repriman al {0}.</ActivitySuppressionTooltipDisabled>
   <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
-  <ActivitySuppressionTooltipDesc>El nivel de actividad {replace: de {0_definite}; "de el "-"del "} aumenta con el tiempo. La actividad aumenta más rápido si {0} sufre daño o se le provoca.\n\nSi el nivel de actividad alcanza el 100%, se activará {0}.\n\nLos vigilantes pueden reprimir {0_definite} para mantener su actividad en un nivel seguro. La reprimirán siempre que su actividad esté por encima del nivel asignado: {LEVEL}\n\nLas entidades que tengan niveles de actividad más altos darán más conocimientos cuando se estudien.</ActivitySuppressionTooltipDesc>
+  <ActivitySuppressionTooltipDesc>El nivel de actividad {replace: de {0_definite}; "de el "-"del "} aumenta con el tiempo. La actividad aumenta más rápido si {0} sufre daño o se le provoca.\n\nSi el nivel de actividad alcanza el 100%, se activará {0}.\n\nLos guardias pueden reprimir {0_definite} para mantener su actividad en un nivel seguro. Se encargarán de hacerlo siempre que su actividad esté por encima del nivel asignado: {LEVEL}\n\nLas entidades que tengan niveles de actividad más altos darán más conocimientos cuando se estudien.</ActivitySuppressionTooltipDesc>
   <!-- EN: This determines whether the {0} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
-  <ActivitySuppressionToggleTooltipDesc>Determina si {0} se reprimirá automáticamente cuando su actividad esté por encima del {LEVEL}. Actualmente, la represión automática está {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
+  <ActivitySuppressionToggleTooltipDesc>Determina si {0} se reprimirá automáticamente cuando su actividad esté por encima del {LEVEL}.\n\nActualmente, la represión automática está {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
 
   <!-- Activity Descs -->
   <!-- EN: activity level -->
@@ -314,7 +314,7 @@
   <!-- EN: Implanted before arrival at your colony -->
   <ImplantSourceUnknown>Implantado antes de llegar a tu colonia</ImplantSourceUnknown>
   <!-- EN: Implanter insectoid -->
-  <InsectImplant>Implantador insectoide </InsectImplant>
+  <InsectImplant>Implantador insectoide</InsectImplant>
   <!-- EN: Implanted during sleep by {SOURCE_nameDef} -->
   <SleepImplant>Implantado mientras dormía por {SOURCE_nameDef}</SleepImplant>
   <!-- EN: Implanted during surgery by {SOURCE_nameDef} -->
@@ -374,7 +374,7 @@
   <!-- EN: Collect more gray flesh and analyze it to determine the biosignature of the threat. Then, use the surgical inspection operation to search for that biosignature. It could take a long time to collect enough samples, and the surgery is invasive. -->
   <LetterGrayFleshMethodTwo>Recoge más carne gris y analízala para determinar la biofirma de la amenaza. A continuación, utiliza la operación de inspección quirúrgica para buscar esa biofirma. Podría llevar mucho tiempo recoger suficientes muestras, y la cirugía es invasiva.</LetterGrayFleshMethodTwo>
   <!-- EN: Execute or banish whoever you suspect. -->
-  <LetterGrayFleshMethodThree>Ejecuta o destierra de quien sospeches.</LetterGrayFleshMethodThree>
+  <LetterGrayFleshMethodThree>Ejecuta o destierra a toda persona de la que sospeches.</LetterGrayFleshMethodThree>
   
   <!-- EN: Metalhorrors awakening -->
   <LetterMetalhorrorReawakeningLabel>Despertar de ferroespantos</LetterMetalhorrorReawakeningLabel>
@@ -419,7 +419,7 @@
   <!-- EN: Create corpse stockpile -->
   <CreateCorpseStockpile>Crear vertedero</CreateCorpseStockpile>
   <!-- EN: Create a dumping stockpile zone around the harbinger tree for corpses.\n\nHarbinger trees will consume nearby corpses and raw meat. If well fed, the trees will grow faster and create new harbinger trees. -->
-  <CreateCorpseStockpileDesc>Crea una zona de almacenamiento de cadáveres alrededor del árbol del presagio.\n\nLos árboles del presagio consumirán los cadáveres cercanos y la carne cruda. Si están bien alimentados, crecerán más rápido y crearán nuevos árboles del presagio.</CreateCorpseStockpileDesc>
+  <CreateCorpseStockpileDesc>Crea un vertedero para cadáveres alrededor del árbol del presagio.\n\nLos árboles del presagio consumirán los cadáveres cercanos y la carne cruda. Si están bien alimentados, crecerán más rápido y crearán nuevos árboles del presagio.</CreateCorpseStockpileDesc>
 
   <!-- EN: Void node has been disabled. -->
   <VoidNodeDisabled>El nodo del vacío ha sido desactivado.</VoidNodeDisabled>
@@ -443,9 +443,9 @@
   <!-- EN: Unnatural healing -->
   <LetterUnnaturalHealingLabel>Curación antinatural</LetterUnnaturalHealingLabel>
   <!-- EN: {CASTER_nameDef} has finished {CASTER_possessive} psychic healing on {PAWN_nameDef}. -->
-  <LetterUnnaturalHealing>{CASTER_nameDef} ha terminado su curación psíquica en {PAWN_nameDef}.</LetterUnnaturalHealing>
+  <LetterUnnaturalHealing>{CASTER_nameDef} ha terminado de aplicar su curación psíquica a {PAWN_nameDef}.</LetterUnnaturalHealing>
   <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
-  <LetterUnnaturalHealingTentacle>Sin embargo, algo salió terriblemente mal. El brazo de {PAWN_nameDef} se abrió mientras un violento crecimiento emergía de su cuerpo. ¡Su brazo ha sido reemplazado por un tentáculo carnoso!</LetterUnnaturalHealingTentacle>
+  <LetterUnnaturalHealingTentacle>Sin embargo, algo salió terriblemente mal.\n\nEl brazo de {PAWN_nameDef} se abrió mientras un violento crecimiento emergía de su cuerpo. ¡Su brazo ha sido reemplazado por un tentáculo carnoso!</LetterUnnaturalHealingTentacle>
   
   <!-- Transmutation ability -->
   <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
@@ -679,7 +679,7 @@
   <LetterFloorEtchings>{PAWN_nameDef} ha conseguido descifrar los grabados del suelo.\n\n{RAMBLINGS}\n\nParecen indicar que hay una salida al {DIRECTION} de aquí.</LetterFloorEtchings>
 
   <!-- EN: Floor etchings -->
-  <LetterLabelFloorEtchingRamblings>Divagaciones sobre el suelo</LetterLabelFloorEtchingRamblings>
+  <LetterLabelFloorEtchingRamblings>Grabados en el suelo</LetterLabelFloorEtchingRamblings>
   <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings. -->
   <LetterFloorEtchingsRamblings>{PAWN_nameDef} ha conseguido descifrar los grabados del suelo.</LetterFloorEtchingsRamblings>
 
@@ -689,7 +689,7 @@
   <LetterLabyrinthExit>El obelisco zumbador ha devuelto a tus colonos secuestrados. Poco después de hacerlo, se desvaneció en el aire.\n\nTen cuidado, el obelisco puede haber devuelto a otras criaturas también.</LetterLabyrinthExit>
 
   <!-- EN: Jammed shut. Must be forced open. -->
-  <GrayDoorJammed>Atascada. Hay que forzarla para abrir.</GrayDoorJammed>
+  <GrayDoorJammed>Atascada. Hay que forzarla para abrirla.</GrayDoorJammed>
   <!-- EN: Activated by proximity. -->
   <ActivatedByProximity>Activado por proximidad.</ActivatedByProximity>
 
@@ -715,7 +715,7 @@
   <!-- EN: Discovered: {0} -->
   <DiscoveredCount>Descubiertas: {0}</DiscoveredCount>
   <!-- EN: Required entities discovered. -->
-  <VoidMonolithAllEntitiesDiscovered>Entidades descubiertas requeridas.</VoidMonolithAllEntitiesDiscovered>
+  <VoidMonolithAllEntitiesDiscovered>Entidades requeridas descubiertas.</VoidMonolithAllEntitiesDiscovered>
   <!-- EN: Required to increase level -->
   <VoidMonolithRequiresDiscovery>Requerido para aumentar el nivel</VoidMonolithRequiresDiscovery>
   <!-- EN: Undiscovered entities -->
@@ -725,7 +725,7 @@
   <!-- EN: Disturbing vision -->
   <VoidMonolithVisionLabel>Visión perturbadora</VoidMonolithVisionLabel>
   <!-- EN: {PAWN_nameDef} has had a strange dream. In it, {PAWN_pronoun} saw a black shape, unfurling in space and time, growing and consuming. The shape originated from a nearby crumbled monolith.\n\nUpon waking from the vision, {PAWN_nameDef} feels strangely drawn to the monolith. It calls to {PAWN_objective}. -->
-  <VoidMonolithVisionText>{PAWN_nameDef} ha tenido un sueño extraño. En este, {PAWN_pronoun} veía una forma negra, desplegándose en el espacio y el tiempo, creciendo y consumiéndose. La forma se originó en un monolito desmoronado cercano.\n\nAl despertar de la visión, {PAWN_nameDef} se sentía extrañamente atraíd{PAWN_gender ? o : a} por el monolito. Este {PAWN_objective} llamaba.</VoidMonolithVisionText>
+  <VoidMonolithVisionText>{PAWN_nameDef} ha tenido un sueño extraño. En él, vio una forma negra que se desplegaba en el espacio y el tiempo, creciendo y consumiéndolo todo. La forma se originó en un monolito cercano en ruinas.\n\nAl despertar de la visión, {PAWN_nameDef} se siente extrañamente atraíd{PAWN_gender ? o : a} por el monolito. Siente que {PAWN_objective} llama.</VoidMonolithVisionText>
   <!-- EN: Choose who should do this -->
   <VoidMonolithChooseActivator>Elige quién debe hacerlo</VoidMonolithChooseActivator>
   <!-- EN: Target is downed -->
@@ -741,7 +741,7 @@
   <!-- EN: Interacting with the psychic signal has caused a strange structure to appear. -->
   <MonolithArrivalText>La interacción con la señal psíquica ha provocado la aparición de una extraña estructura.</MonolithArrivalText>
   <!-- EN: It is very similar, if not identical, to the monolith you previously encountered. -->
-  <MonolithArrivalTextExt>Es muy similar, mas no idéntico, al monolito que encontraste anteriormente.</MonolithArrivalTextExt>
+  <MonolithArrivalTextExt>Es muy similar, si no idéntico, al monolito que encontraste anteriormente.</MonolithArrivalTextExt>
   <!-- EN: Can't {0} monolith -->
   <CantActivateMonolith>No puede {0} el monolito</CantActivateMonolith>
 
@@ -777,7 +777,7 @@
   <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
   <DisruptTheLinkCredits>Los flujos psíquicos se desestabilizan y la retorcida maquinaria arqueoteca chirría. El remolino del vacío parpadea. {PAWN_nameDef} siente que se desborda más allá de sus límites y colapsa sobre sí mism{PAWN_gender ? o : a}, todo a la vez.\n\nLa caverna metálica comienza a retorcerse, remodelándose como la cámara de un corazón masivo. Antes de que {PAWN_nameDef} tenga la oportunidad de gritar, {PAWN_pronoun} desaparece de la existencia.\n\n{PAWN_nameDef} ha rechazado el vacío.\n\nSu historia continúa...</DisruptTheLinkCredits>
   <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
-  <EmbraceTheVoidCredits>{PAWN_nameDef} se adentra en el vacío y el océano negro {PAWN_objective} inunda, abrumando todos sus sentidos y cada pensamiento de su mente.\n\nEl nodo del vacío ha sido reorientado lejos del mundo, hacia una sola persona. Las estructuras del vacío gritan, y luego desaparecen de la existencia.\n\n{PAWN_nameDef} ha aceptado el vacío.\n\nSu historia continúa...</EmbraceTheVoidCredits>
+  <EmbraceTheVoidCredits>{PAWN_nameDef} se adentra en el vacío y el océano negro {PAWN_objective} inunda, abrumando todos sus sentidos y cada pensamiento de su mente.\n\nEl nodo del vacío ha sido reorientado lejos del mundo, hacia una sola persona. Las estructuras del vacío gritan, y después desaparecen de la existencia.\n\n{PAWN_nameDef} ha aceptado el vacío.\n\nSu historia continúa...</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
   <StructureActivatedMessage>{PAWN_nameDef} ha terminado de activar {STRUCTURE_definite}</StructureActivatedMessage>
   <!-- EN: Structures activated -->
@@ -796,7 +796,7 @@
 
   <!-- Studiable -->
   <!-- EN: Knowledge from study reduced -->
-  <KnowledgeFactorOutdoors>Conocimientos de estudio reducido</KnowledgeFactorOutdoors>
+  <KnowledgeFactorOutdoors>Conocimientos adquiridos por estudio reducidos</KnowledgeFactorOutdoors>
 
   <!-- Unnatural darkness -->
   <!-- EN: Emergence in {0} -->
@@ -812,7 +812,7 @@
   <!-- EN: Eject contents -->
   <BioferriteHarvesterEjectContents>Expulsar contenido</BioferriteHarvesterEjectContents>
   <!-- EN: Eject all contained {0} onto the ground. -->
-  <BioferriteHarvesterEjectContentsDesc>Expulsar todos las {0} contenidas al suelo.</BioferriteHarvesterEjectContentsDesc>
+  <BioferriteHarvesterEjectContentsDesc>Expulsar al suelo todo el contenido ({0}).</BioferriteHarvesterEjectContentsDesc>
   <!-- EN: Toggle bioferrite unloading -->
   <BioferriteHarvesterToggleUnloading>Alternar la descarga de bioferrita</BioferriteHarvesterToggleUnloading>
   <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->

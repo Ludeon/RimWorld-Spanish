@@ -45,7 +45,7 @@
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0_definite} que vestía {1_nameFull} se ha deteriorado por completo.</MessageWornApparelDeterioratedAway>
   <!-- EN: {0} has deteriorated away in storage. -->
-  <MessageDeterioratedAway>{lookup: {0_indefinite}; fix_indefinite} se {replace: {lookup: {0_indefinite}; fix_indefinite; 2}; "{0_indefinite}"-"ha"} deteriorado en el almacén.</MessageDeterioratedAway>
+  <MessageDeterioratedAway>El deterioro ha echado a perder {0_indefinite} en el almacén.</MessageDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>{0_definite} ha comenzado.</MessageSeasonBegun>
@@ -54,7 +54,7 @@
   <MessageShipHasLeftCommsRange>La nave de {0} ha salido del rango de comunicaciones.</MessageShipHasLeftCommsRange>
 
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
-  <MessageNeedBeaconToTradeWithShip>Necesitas una baliza de comercio orbital para comerciar con una nave.</MessageNeedBeaconToTradeWithShip>
+  <MessageNeedBeaconToTradeWithShip>Necesitas una baliza de comercio orbital con energía para comerciar con una nave.</MessageNeedBeaconToTradeWithShip>
   <!-- EN: Caller must have the title of {0_label} or higher. -->
   <MessageNeedRoyalTitleToCallWithShip>El solicitante debe poseer el título de {0_label} o superior.</MessageNeedRoyalTitleToCallWithShip>
 
@@ -71,12 +71,12 @@
   <MessagePrisonerIsEscaping>{1_gender ? El prisionero: La prisionera} {1_labelShort} está escapando.</MessagePrisonerIsEscaping>
 
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
-  <MessageOutOfNearbyShellsFor>{PAWN_labelShort} no ha encontrado ningún obús sin reservar para {GUN_definite}.</MessageOutOfNearbyShellsFor>
+  <MessageOutOfNearbyShellsFor>{PAWN_labelShort} no ha encontrado cerca ningún obús sin reservar para {GUN_definite}.</MessageOutOfNearbyShellsFor>
   <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
-  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} no ha encontrado ningún {FUEL} sin reservar para {GUN_definite}.</MessageOutOfNearbyFuelFor>
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} no ha encontrado cerca ningún {FUEL} sin reservar para {GUN_definite}.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>Advertencia: {ANIMAL_kindBasePluralDef} tienen un {1} de probabilidad de atacar cuando les hacen daño. La probabilidad depende del alcance y de la estadística de sigilo del cazador.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>Advertencia: {ANIMAL_kindBasePluralDef} tienen una probabilidad base del {1} de atacar cuando les hacen daño. La probabilidad depende del alcance y de la estadística de sigilo del cazador.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Advertencia: {ANIMAL_kindBasePluralDef} podrían atacar si el intento de domesticación falla (probabilidad del {1}).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
@@ -87,7 +87,7 @@
   <MessageNoHuntersWithProperWeapon>Ningún cazador tiene un arma de caza válida. Equipa a un cazador con un arma a distancia adecuada.</MessageNoHuntersWithProperWeapon>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
-  <MessageInsectsHostileOnTaming>Advertencia: este espécimen de {PAWN_labelShort} es hostil y atacará a tu colono mientras le intenta domesticar.</MessageInsectsHostileOnTaming>
+  <MessageInsectsHostileOnTaming>Advertencia: este espécimen de {PAWN_labelShort} es hostil y atacará a tu colono mientras intenta domesticarlo.</MessageInsectsHostileOnTaming>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nuevo recluta</LetterLabelMessageRecruitSuccess>
@@ -119,7 +119,7 @@
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Debes designar plantas.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
-  <MessageMustDesignateHaulable>Debes designar objetos trasladables.</MessageMustDesignateHaulable>
+  <MessageMustDesignateHaulable>Debes designar objetos trasladables. Algunos objetos siempre son trasladables y no pueden designarse.</MessageMustDesignateHaulable>
   <!-- EN: Must designate impassable mineable rocks. -->
   <MessageMustDesignateMineable>Debes designar paredes de roca minables.</MessageMustDesignateMineable>
   <!-- EN: Must designate huntable animals. -->
@@ -129,9 +129,9 @@
   <!-- EN: Must designate abandoned claimable structures or items. -->
   <MessageMustDesignateClaimable>Debes designar estructuras u objetos abandonados que puedan reclamarse.</MessageMustDesignateClaimable>
   <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
-  <MessageMustDesignatePaintableBuildings>Debes designar construcciones pintables y sin pintar {0_label}.</MessageMustDesignatePaintableBuildings>
+  <MessageMustDesignatePaintableBuildings>Debes designar construcciones pintables que aún no estén pintadas de {0_label}.</MessageMustDesignatePaintableBuildings>
   <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
-  <MessageMustDesignatePaintableFloors>Debes designar suelos pintables que no estén pintados {0_label}.</MessageMustDesignatePaintableFloors>
+  <MessageMustDesignatePaintableFloors>Debes designar suelos pintables que aún no estén pintados de {0_label}.</MessageMustDesignatePaintableFloors>
   <!-- EN: Must designate painted buildings or floors. -->
   <MessageMustDesignatePainted>Debes designar edificios o suelos pintados.</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
@@ -145,7 +145,7 @@
   <!-- EN: Nothing can remove thick roofs. -->
   <MessageNothingCanRemoveThickRoofs>Nada puede quitar techos de roca natural.</MessageNothingCanRemoveThickRoofs>
   <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
-  <MessageAlreadyInStorage>Esto ya está en almacenamiento y será transportado a un almacén de alta prioridad de ser necesario.</MessageAlreadyInStorage>
+  <MessageAlreadyInStorage>Esto ya está en almacenamiento y se transportará a un almacén de alta prioridad de ser necesario.</MessageAlreadyInStorage>
   <!-- EN: Must designate corpse or downed character with strippable apparel. -->
   <MessageMustDesignateStrippable>Debes designar cadáveres o personajes incapacitados con equipamiento removible.</MessageMustDesignateStrippable>
   <!-- EN: Must designate tame animal that belongs to the colony. -->
@@ -165,13 +165,13 @@
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
   <MessageCannotAdoptWhileThreatsAreNear>No puedes adoptar {CLAIMABLE_labelShort} mientras haya {THREAT} cerca.</MessageCannotAdoptWhileThreatsAreNear>
   <!-- EN: Cannot remove foundation that supports a building. -->
-  <MessageCannotRemoveSupportingFoundation>No se pueden retirar los cimientos que sostienen un edificio.</MessageCannotRemoveSupportingFoundation>
+  <MessageCannotRemoveSupportingFoundation>No se pueden retirar los cimientos que sostienen una construcción.</MessageCannotRemoveSupportingFoundation>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>¡{1_labelShort} se ha resistido a ser arrestad{1_gender ? o : a}!</MessageRefusedArrest>
   
   <!-- EN: There are no medical beds available. -->
-  <MessageNoMedicalBeds>No hay camas hospitalarias disponibles.</MessageNoMedicalBeds>
+  <MessageNoMedicalBeds>No hay camas médicas disponibles.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>No hay camas de animales disponibles.</MessageNoAnimalBeds>
   <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
@@ -186,7 +186,7 @@
   <MessageNoLongerDowned>{1_label} ya puede caminar.</MessageNoLongerDowned>
 
   <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
-  <MessageInvoluntarySleep>{1_indefinite} ha colapsado debido al agotamiento extremo.</MessageInvoluntarySleep>
+  <MessageInvoluntarySleep>{1_labelShort} ha colapsado debido al agotamiento extremo.</MessageInvoluntarySleep>
 
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Esta operación va a enfadar a {0}.</MessageMedicalOperationWillAngerFaction>
@@ -215,7 +215,7 @@
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{PREDATOR_indefinite} se ha comido a {EATEN_labelShort}.</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>{PREDATOR} está cazando a {PREY_labelShort}.</MessageAttackedByPredator>
+  <MessageAttackedByPredator>¡{PREDATOR} está cazando a {PREY_labelShort}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
   <MessageRoamerLeaving>{PAWN_labelShort} ha comenzado a deambular. Abandonará el mapa a menos que un adiestrador de animales le atrape y lleve a un corral.</MessageRoamerLeaving>
@@ -269,7 +269,7 @@
   <MessageCannotSellItemsReason>Algunos objetos no pueden comercializarse porque: </MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>{WORKER_labelShort} ha fallado construyendo {0_indefinite}. Se han desperdiciado algunos recursos.</MessageConstructionFailed>
+  <MessageConstructionFailed>{WORKER_labelShort} ha fallado al construir {0_indefinite}. Se han desperdiciado algunos recursos.</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>Captura de pantalla guardada como: {0}</MessageScreenshotSavedAs>
@@ -284,7 +284,7 @@
   <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} ya no está insultando a {TARGET_label}.</MessageNoLongerOnTargetedInsultingSpree>
 
   <!-- EN: {1_label} has rotted away in storage. -->
-  <MessageRottedAwayInStorage>{1_label} se han podrido en el almacén.</MessageRottedAwayInStorage>
+  <MessageRottedAwayInStorage>La putrefacción ha echado a perder {1_label} en el almacén.</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
   <MessageFoodPoisoning>{PAWN_labelShort} ha sufrido una intoxicación alimenticia con: {FOOD_labelShort}. Causa: {2}.</MessageFoodPoisoning>
@@ -311,9 +311,9 @@
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
   <MessagePlantDiedOfRot_LeftUnharvested>{0_indefinite} se ha podrido por no cosecharse a tiempo.</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
-  <MessagePlantDiedOfRot_ExposedToLight>{0_indefinite} ha muerto por no estar expuesta a la luz.</MessagePlantDiedOfRot_ExposedToLight>
+  <MessagePlantDiedOfRot_ExposedToLight>{0_indefinite} ha muerto por estar expuest{0_gender ? o : a} a la luz.</MessagePlantDiedOfRot_ExposedToLight>
   <!-- EN: {0} has died from rotting. -->
-  <MessagePlantDiedOfRot>{0_indefinite} se ha podrido debido a que quedó sin cosechar.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfRot>{0_indefinite} se ha podrido.</MessagePlantDiedOfRot>
   <!-- EN: {0} has died because of poison. -->
   <MessagePlantDiedOfPoison>{0_indefinite} ha muerto a causa del veneno.</MessagePlantDiedOfPoison>
   <!-- EN: {1_label} has died because of blight. -->
@@ -371,7 +371,7 @@
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>Tus colonos han terminado de cargar las cápsulas de transporte. Lánzalas cuando estés listo.</MessageFinishedLoadingTransporters>
   <!-- EN: {SHUTTLE_label} is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingShuttle>{SHUTTLE_label} lleva la carga necesaria y puede despegar cuando esté listo.</MessageFinishedLoadingShuttle>
+  <MessageFinishedLoadingShuttle>{SHUTTLE_label} lleva la carga necesaria y ya puede despegar.</MessageFinishedLoadingShuttle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Tus {1} no pueden terminar de cargar las cápsulas de transporte porque algunos objetos o personas ya no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
@@ -464,7 +464,7 @@
   <!-- EN: {0} have woken up. -->
   <MessageSleepingPawnsWokenUp>Los {0} se han despertado.</MessageSleepingPawnsWokenUp>
   <!-- EN: Mech cluster buildings have been defeated. -->
-  <MessageMechClusterDefeated>Las construcciones del grupo mecanoide han sido derrotadas.</MessageMechClusterDefeated>
+  <MessageMechClusterDefeated>Las construcciones del grupo mecanoide han sido destruidas.</MessageMechClusterDefeated>
 
   <!-- EN: Item produced: {0}. -->
   <MessageCompSpawnerSpawnedItem>Objeto producido: {0}.</MessageCompSpawnerSpawnedItem>
@@ -595,17 +595,17 @@
   <!-- EN: {1}'s "{0}" can no longer deliver to unavailable stockpile {2}. -->
   <MessageBillValidationStoreZoneUnavailable>El "{0}" de {1} ya no puede dejarse en reservas desactivadas {2}.</MessageBillValidationStoreZoneUnavailable>
   <!-- EN: {0} can no longer work on "{1}" at {2}. The restriction has been removed. -->
-  <MessageBillValidationPawnUnavailable>{0} ya no puede trabajar en "{1}" a {2}. Se ha eliminado la restricción.</MessageBillValidationPawnUnavailable>
+  <MessageBillValidationPawnUnavailable>{0} ya no puede realizar "{1}" en {2}. Se ha eliminado la restricción.</MessageBillValidationPawnUnavailable>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
   <MessageBillValidationIncludeZoneDeleted>El "{0}" de {1} ya no puede contar los artículos de las reservas eliminadas {2}.</MessageBillValidationIncludeZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted building {2}. -->
-  <MessageBillValidationIncludeBuildingDeleted>El "{0}" de {1} ya no puede contar los artículos del edificio eliminado {2}.</MessageBillValidationIncludeBuildingDeleted>
+  <MessageBillValidationIncludeBuildingDeleted>El "{0}" de {1} ya no puede contar los artículos de la construcción eliminada {2}.</MessageBillValidationIncludeBuildingDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted storage group {2}. -->
   <MessageBillValidationIncludeStorageGroupDeleted>El "{0}" de {1} ya no puede contar los artículos del grupo de almacenamiento eliminado {2}.</MessageBillValidationIncludeStorageGroupDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
   <MessageBillValidationIncludeZoneUnavailable>El "{0}" de {1} ya no puede contar los artículos de la reserva desactivada {2}.</MessageBillValidationIncludeZoneUnavailable>
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
-  <MessageBillValidationStoreZoneInsufficient>El "{0}" de {1} ya no pueden dejarse todos los productos en la reserva {2}.</MessageBillValidationStoreZoneInsufficient>
+  <MessageBillValidationStoreZoneInsufficient>El "{0}" de {1} ya no puede dejar todos los productos en la reserva {2}.</MessageBillValidationStoreZoneInsufficient>
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>Debido a la falta de adiestramiento, {1_labelShort} ha regresado a la naturaleza.</MessageAnimalReturnedWild>
@@ -621,16 +621,16 @@
   <MessageCaravanArrivalActionNoLongerValid>{0} no pudo llegar a su destino.</MessageCaravanArrivalActionNoLongerValid>
 
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <MessageEnterCooldownBlocksEntering>Demasiado peligroso para volver a entrar por {0}.</MessageEnterCooldownBlocksEntering>
+  <MessageEnterCooldownBlocksEntering>Demasiado peligroso para volver a entrar durante {0}.</MessageEnterCooldownBlocksEntering>
 
   <!-- EN: {0_labelShort} can now freely use "{1}". -->
   <MessagePermitCooldownFinished>{0_labelShort} ya puede usar "{1}" de nuevo.</MessagePermitCooldownFinished>
 
   <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
-  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} está cazando a {PREY_definite} para alimentarse.</MessagePredatorHuntingPlayerAnimal>
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} está cazando a {PREY_definite} ({PREY_kindBase}) para alimentarse.</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
-  <MessagePrisonerResistanceBroken>La resistencia del prisionero {PRISONER_labelShort} ha sido suprimida por {WARDEN_labelShort}.</MessagePrisonerResistanceBroken>
+  <MessagePrisonerResistanceBroken>La resistencia del prisionero {PRISONER_labelShort} ha sido quebrantada por {WARDEN_labelShort}.</MessagePrisonerResistanceBroken>
   <!-- EN: Recruitment attempts will begin. -->
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Los intentos de reclutamiento comenzarán.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
@@ -667,7 +667,7 @@
   <MessagePawnsLeaving>{0} se van.</MessagePawnsLeaving>
 
   <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
-  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>El monumento ha sido destruido porque has construido un edificio no permitido en el interior.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
+  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>El monumento ha sido destruido porque has colocado una construcción no permitida en el interior.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
 
   <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
   <MessageNoResearchBenchForTechprint>No aplicable: no hay ninguna mesa de investigación libre y accesible.</MessageNoResearchBenchForTechprint>
@@ -761,7 +761,7 @@
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
   <MessageRitualRolePawnHasSameIdeo>{0_labelShort} tiene la misma ideoligión que el convertidor.</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
-  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} debe ser capaz de ser guardia.</MessageRitualRoleMustBeCapableOfWardening>
+  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} debe ser capaz de ejercer de guardia.</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->
   <MessageRitualRoleMustBeCapableOfGeneric>{0} debe ser capaz de {1}.</MessageRitualRoleMustBeCapableOfGeneric>
   <!-- EN: {0} must be capable of violence. -->
@@ -781,7 +781,7 @@
   <!-- EN: must be colonist and not enslaved for the {0} role. -->
   <MessageRitualRoleMustBeFreeColonist>debe ser colono y no estar esclavizado para el rol {0}.</MessageRitualRoleMustBeFreeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
-  <MessageRitualRoleMustHaveLargerBodySize>{0} debe tener un animal con un tamaño de cuerpo mínimo de {1}.</MessageRitualRoleMustHaveLargerBodySize>
+  <MessageRitualRoleMustHaveLargerBodySize>{0} debe tener un animal con un tamaño corporal mínimo de {1}.</MessageRitualRoleMustHaveLargerBodySize>
   <!-- EN: {0_labelShort} is in a mental state. -->
   <MessageRitualPawnMentalState>{0_labelShort} sufre un estado mental.</MessageRitualPawnMentalState>
   <!-- EN: {0_labelShort} is already {1}. -->
@@ -825,7 +825,7 @@
   <MessageWarningCutImportantPlant>Advertencia: {0} ha sido marcado para talarse.</MessageWarningCutImportantPlant>
 
   <!-- EN: {0_labelShort} is incapable of manipulation. -->
-  <MessageIncapableOfManipulation>{0_labelShort} es incapaz de ser manipulad{0_gender ? o : a}.</MessageIncapableOfManipulation>
+  <MessageIncapableOfManipulation>{0_labelShort} es incapaz de manipular.</MessageIncapableOfManipulation>
 
   <!-- EN: {0_labelShort} activation canceled -->
   <MessageActivationCanceled>Activación de {0_labelShort} cancelada</MessageActivationCanceled>

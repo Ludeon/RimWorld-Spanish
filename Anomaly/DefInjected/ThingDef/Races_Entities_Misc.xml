@@ -102,7 +102,7 @@
   <!-- EN: nociosphere -->
   <Nociosphere.label>nociosfera</Nociosphere.label>
   <!-- EN: A dark metallic sphere covered with curved and jagged grooves. The sphere emanates sensations of pain. It hurts to be near it.\n\nThe sphere thrums with a mysterious energy. It appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity. However, if you capture it, you can decrease its activity by suppressing it. -->
-  <Nociosphere.description>Una esfera metálica oscura cubierta de surcos curvos y dentados. La esfera emana sensaciones de dolor. Duele estar cerca de ella.\n\nLa esfera vibra con una energía misteriosa. Parece aumentar su actividad. No está claro qué ocurrirá cuando alcance su máxima capacidad. Sin embargo, si la capturas, puedes reducir su actividad suprimiéndola.</Nociosphere.description>
+  <Nociosphere.description>Una esfera metálica oscura cubierta de surcos curvos y dentados. La esfera emana sensaciones de dolor. Duele estar cerca de ella.\n\nLa esfera vibra con una energía misteriosa. Parece aumentar su actividad. No está claro qué ocurrirá cuando alcance su máxima capacidad. Sin embargo, si la capturas, puedes reducir su actividad reprimiéndola.</Nociosphere.description>
   <!-- EN: The nociosphere's activity level has reached 100% and it has activated. It has begun an onslaught of pain and destruction.\n\nIt will eventually depart - if you can survive long enough. -->
   <Nociosphere.comps.CompActivity.letterDesc>El nivel de actividad de la nociosfera ha alcanzado el 100% y se ha activado. Ha iniciado un ataque de dolor y destrucción.\n\nAcabará marchándose, si sobrevives lo suficiente.</Nociosphere.comps.CompActivity.letterDesc>
   <!-- EN: Nociosphere activated -->
@@ -110,7 +110,7 @@
   <!-- EN: Nociosphere study progress -->
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.0.label>Progreso del estudio de la nociosfera</Nociosphere.comps.CompStudyUnlocks.studyNotes.0.label>
   <!-- EN: {PAWN_nameDef} has learned more about the inner workings of the nociosphere. It seems to have a single purpose - to inflict pain on those around it.\n\n{PAWN_nameDef} thinks {PAWN_pronoun} may be able to weaponize the nociosphere but you must study it more first. -->
-  <Nociosphere.comps.CompStudyUnlocks.studyNotes.0.text>{PAWN_nameDef} ha aprendido más sobre el funcionamiento interno de la nociosfera. Parece tener un único propósito: infligir dolor a quienes la rodean.\n\n{PAWN_nameDef} cree que puede ser capaz de convertir en arma la nociosfera, pero antes debe estudiarla más.</Nociosphere.comps.CompStudyUnlocks.studyNotes.0.text>
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.0.text>{PAWN_nameDef} ha aprendido más sobre el funcionamiento interno de la nociosfera. Parece tener un único propósito: infligir dolor a quienes la rodean.\n\n{PAWN_nameDef} cree que podría convertir la nociosfera en un arma, pero antes debe estudiarla más.</Nociosphere.comps.CompStudyUnlocks.studyNotes.0.text>
   <!-- EN: Nociosphere study progress -->
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.1.label>Progreso del estudio de la nociosfera</Nociosphere.comps.CompStudyUnlocks.studyNotes.1.label>
   <!-- EN: By studying the nociosphere, you've learned how to intentionally activate it.\n\nWhen activated, the nociosphere will teleport to a remote location of your choice and unleash a barrage of pain on anyone nearby. The nociosphere will continue to hunt down anything nearby until it is destroyed or it chooses to return. Select the nociosphere to activate it. -->
@@ -120,7 +120,7 @@
   <!-- EN: {PAWN_nameDef} has made an alarming discovery about the nociosphere. The entity is showing early signs of instability.\n\nOnce the nociosphere starts to become unstable, you can dispose of it by sending it to attack a hostile threat. For a short period, the nociosphere will hunt down anything nearby - friend or foe.\n\nOnce its onslaught is complete, it will permanently depart. If it becomes fully unstable, it will no longer respond to suppression. -->
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>{PAWN_nameDef} ha hecho un descubrimiento alarmante sobre la nociosfera. La entidad está mostrando los primeros signos de inestabilidad.\n\nUna vez que la nociosfera empiece a volverse inestable, podrás deshacerte de ella enviándola a atacar a una amenaza hostil. Durante un breve periodo, la nociosfera perseguirá a todo lo que se encuentre cerca, amigo o enemigo.\n\nUna vez completado su ataque, se marchará permanentemente. Si se vuelve completamente inestable, dejará de responder a la represión.</Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>
   <!-- EN: Teleport the nociosphere to a nearby location. It will then unleash an onslaught of murder and pain on everyone nearby for a short time. The nociosphere will hunt down any creature, including allies and other entities.\n\nThe nociosphere can be sent multiple times. -->
-  <Nociosphere.comps.CompNociosphere.activateDescString>Teletransporta la nociosfera a un lugar cercano. A continuación, desatará una avalancha de muerte y dolor sobre todos los que se encuentren cerca durante un breve periodo de tiempo. La nociosfera perseguirá a cualquier ser vivo, incluidos los aliados.\n\nLa nociosfera puede enviarse varias veces.</Nociosphere.comps.CompNociosphere.activateDescString>
+  <Nociosphere.comps.CompNociosphere.activateDescString>Teletransporta la nociosfera a un lugar cercano. A continuación, desatará una avalancha de muerte y dolor sobre todos los que se encuentren cerca durante un breve periodo de tiempo. La nociosfera perseguirá a cualquier ser vivo, incluidos los aliados y otras entidades.\n\nLa nociosfera puede enviarse varias veces.</Nociosphere.comps.CompNociosphere.activateDescString>
   <!-- EN: Send the nociosphere... -->
   <Nociosphere.comps.CompNociosphere.activateLabelString>Enviar la nociosfera...</Nociosphere.comps.CompNociosphere.activateLabelString>
   <!-- EN: sending {0}: {1}s -->
@@ -142,9 +142,9 @@
   <!-- EN: Onslaught mode: {0} seconds left -->
   <Nociosphere.comps.CompNociosphere.onslaughtInspectText>Modo de arremetida: {0} segundos restantes</Nociosphere.comps.CompNociosphere.onslaughtInspectText>
   <!-- EN: Unstable: cannot be suppressed -->
-  <Nociosphere.comps.CompNociosphere.unstableInspectText>Inestable: no se puede suprimir</Nociosphere.comps.CompNociosphere.unstableInspectText>
+  <Nociosphere.comps.CompNociosphere.unstableInspectText>Inestable: no se puede reprimir</Nociosphere.comps.CompNociosphere.unstableInspectText>
   <!-- EN: Warning: the nociosphere will resist suppression in {0} days. -->
-  <Nociosphere.comps.CompNociosphere.unstableWarning>Advertencia: la nociosfera resistirá la supresión en {0} días.</Nociosphere.comps.CompNociosphere.unstableWarning>
+  <Nociosphere.comps.CompNociosphere.unstableWarning>Advertencia: la nociosfera resistirá la represión en {0} días.</Nociosphere.comps.CompNociosphere.unstableWarning>
   
   <!-- EN: noctol -->
   <Noctol.label>noctol</Noctol.label>
@@ -164,7 +164,7 @@
   <!-- EN: revenant -->
   <Revenant.label>redivivo</Revenant.label>
   <!-- EN: A spindly figure of desiccated skin stretched over an impossibly tall humanoid frame. The revenant's name comes from its pattern of returning to hypnotize new people each night.\n\nOutlander folklore describes an invisible spectre that captures the minds of sinners, placing them in a living hell. In the story, the victims can only be returned to life by hunting the creature as it sleeps and killing it.\n\nA hidden revenant can be revealed with disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <Revenant.description>Una figura enjuta de piel disecada que se extiende sobre un imposiblemente alto armazón humanoide. Su nombre se debe a que cada noche vuelve para hipnotizar a nuevas personas.\n\nEl folclore forastero describe un espectro invisible que captura las mentes de los pecadores, sumiéndolos en un infierno. En la historia, las víctimas solo pueden volver a la vida cazando a la criatura mientras duerme y matándola.\n\nUn redivivo oculto puede descubrirse con bengalas disruptoras, explosivos, PEM, espuma incendiaria o prendiéndole fuego.</Revenant.description>
+  <Revenant.description>Una figura enjuta de piel disecada que se extiende sobre un imposiblemente alto armazón humanoide. Su nombre se debe a que cada noche vuelve para hipnotizar a nuevas personas.\n\nEl folclore forastero describe un espectro invisible que captura las mentes de los pecadores, sumiéndolos en un infierno. En la historia, las víctimas solo pueden volver a la vida cazando a la criatura mientras duerme y matándola.\n\nUn redivivo oculto puede descubrirse con bengalas disruptoras, explosivos, PEM, espuma cortafuegos o prendiéndole fuego.</Revenant.description>
   <!-- EN: head -->
   <Revenant.tools.head.label>cabeza</Revenant.tools.head.label>
   

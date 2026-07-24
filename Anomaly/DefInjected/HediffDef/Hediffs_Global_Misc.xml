@@ -28,7 +28,7 @@
   <!-- EN: blood rage -->
   <BloodRage.label>ira sangrienta</BloodRage.label>
   <!-- EN: This creature has been exposed to blood rain, a psychofluid that induces rage. This rage will continue to grow as long as they're exposed to the blood rain, eventually resulting in a violent mental break. The effect grows quicker in some individuals, depending on their traits, psychic sensitivity, and random individual differences. -->
-  <BloodRage.description>Esta criatura ha estado expuesta a la lluvia sangrienta, un psicofluido que induce la ira. Esta rabia continuará creciendo mientras esté expuesta a la lluvia sangrienta, resultando eventualmente en un colapso mental violento. El efecto crece más rápido en algunos individuos, dependiendo de sus rasgos, sensibilidad psíquica y diferencias individuales aleatorias.</BloodRage.description>
+  <BloodRage.description>Esta criatura ha estado expuesta a la lluvia sangrienta, un psicofluido que induce la ira. Esta rabia continuará creciendo mientras esté expuesta a la lluvia sangrienta hasta provocar un colapso mental violento. El efecto crece más rápido en algunos individuos, dependiendo de sus rasgos, sensibilidad psíquica y diferencias individuales aleatorias.</BloodRage.description>
   <!-- EN: very mild -->
   <BloodRage.stages.very_mild.label>muy leve</BloodRage.stages.very_mild.label>
   <!-- EN: mild -->
@@ -150,9 +150,9 @@
   <DarknessExposure.description>Esta persona está inmersa en la oscuridad antinatural. Las criaturas o influencias de la oscuridad le harán daño si permanece demasiado tiempo.</DarknessExposure.description>
   
   <!-- EN: dark psychic shock -->
-  <DarkPsychicShock.label>shock psíquico oscuro</DarkPsychicShock.label>
+  <DarkPsychicShock.label>conmoción psíquica oscura</DarkPsychicShock.label>
   <!-- EN: Part of this person's neural pattern has been disrupted by a dark psychic power. The shock from this process has left them in a temporary coma. -->
-  <DarkPsychicShock.description>Parte del patrón neural de esta persona ha sido perturbado por un poder psíquico oscuro. El shock de este proceso le ha dejado en un coma temporal.</DarkPsychicShock.description>
+  <DarkPsychicShock.description>Parte del patrón neural de esta persona ha sido perturbado por un poder psíquico oscuro. La conmoción causada por este proceso le ha dejado en coma temporal.</DarkPsychicShock.description>
   
   <!-- EN: death refusal -->
   <DeathRefusal.label>mortis repelio</DeathRefusal.label>
@@ -273,7 +273,7 @@
   <!-- EN: pleasure pulse -->
   <PleasurePulse.label>pulso placentero</PleasurePulse.label>
   <!-- EN: This person has been impacted by a psychic pulse of pleasurable sensations and emotions. They feel unnaturally happy, distracting them from their work. -->
-  <PleasurePulse.description>Esta persona ha sido impactada por un pulso psíquico de sensaciones y emociones placenteras. Se siente antinaturalmente feliz, lo que le distrae de su trabajo.</PleasurePulse.description>
+  <PleasurePulse.description>Esta persona se ha visto afectada por un pulso psíquico de sensaciones y emociones placenteras. Se siente antinaturalmente feliz, lo que le distrae de su trabajo.</PleasurePulse.description>
   
   <!-- EN: psychically dead -->
   <PsychicallyDead.label>psíquicamente muerto</PsychicallyDead.label>
@@ -307,7 +307,7 @@
   <!-- EN: revenant hypnosis -->
   <RevenantHypnosis.label>hipnosis del redivivo</RevenantHypnosis.label>
   <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <RevenantHypnosis.description>Esta persona ha sido hipnotizada por un redivivo y permanece vinculada a él. Divaga sobre criaturas de pesadilla mientras sus ojos, que no parpadean, observan horrores invisibles.\n\nTras hipnotizar a una víctima, el redivivo hibernará en algún lugar del mismo mapa que su víctima. Un redivivo oculto puede descubrirse con bengalas disruptoras, explosivos, PEM, espuma incendiaria o fuego.</RevenantHypnosis.description>
+  <RevenantHypnosis.description>Esta persona ha sido hipnotizada por un redivivo y permanece vinculada a él. Divaga sobre criaturas de pesadilla mientras sus ojos, que no parpadean, observan horrores invisibles.\n\nTras hipnotizar a una víctima, el redivivo hibernará en algún lugar del mismo mapa que su víctima.\n\nMatar al redivivo pondrá fin a la hipnosis. Un redivivo oculto puede descubrirse con bengalas disruptoras, explosivos, PEM, espuma cortafuegos o fuego.</RevenantHypnosis.description>
   
   <!-- EN: shard holder -->
   <ShardHolder.label>portador de esquirlas</ShardHolder.label>
@@ -328,7 +328,7 @@
   <SleepSuppression.stages.extreme.label>extremo</SleepSuppression.stages.extreme.label>
   
   <!-- EN: void shock -->
-  <VoidShock.label>shock del vacío</VoidShock.label>
+  <VoidShock.label>conmoción del vacío</VoidShock.label>
   <!-- EN: This individual has witnessed the void. Their mind reels from the shock, overflowing with visions of infinite roiling, squirming, searing darkness stretching into the bottomless abyss from every surface and every screaming face. -->
   <VoidShock.description>Este individuo ha sido testigo del vacío. Su mente se tambalea por la conmoción, rebosante de visiones de infinitas tinieblas rugientes, retorcidas y abrasadoras que se extienden hacia el abismo sin fondo desde todas las superficies y todos los rostros que gritan.</VoidShock.description>
   
@@ -340,6 +340,6 @@
   <!-- EN: void touched -->
   <VoidTouched.label>esencia del vacío</VoidTouched.label>
   <!-- EN: This person has seen the depths of the void and drank from its essence. It lives inside them still, guiding their actions and twisting their flesh. It has turned their hair brittle and white. They no longer need sleep or comfort. The void provides for them. -->
-  <VoidTouched.description>Esta persona ha visto las profundidades del vacío y ha bebido de su esencia. Sigue viviendo en su interior, guiando sus actos y retorciendo su carne. Le ha vuelto el pelo blanco y quebradizo. Ya no necesita dormir ni estar cómodo. El vacío se ocupa de él.</VoidTouched.description>
+  <VoidTouched.description>Esta persona ha visto las profundidades del vacío y ha bebido de su esencia. Sigue viviendo en su interior, guiando sus actos y retorciendo su carne. Le ha vuelto el pelo blanco y quebradizo. Ya no necesita dormir ni comodidad. El vacío satisface sus necesidades.</VoidTouched.description>
   
 </LanguageData>

@@ -42,12 +42,12 @@
   <!-- EN: {0} role activated -->
   <LetterLabelRoleActive>Rol de {0} activado</LetterLabelRoleActive>
   <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, use the person's Social tab, or select a ritual spot or altar and press the 'Begin role change' button. -->
-  <LetterLabelRoleActiveDesc>El número de {0}s en tu colonia llegó a {1}. Ahora puedes asignar el rol de {ROLE_label} a uno de tus colonos.\n\nPara asignar un rol, utiliza la pestaña Social del colono, o selecciona un lugar ritual o un altar y pulsa el botón "Iniciar cambio de rol".</LetterLabelRoleActiveDesc>
+  <LetterLabelRoleActiveDesc>El número de miembros de esta ideoligión en tu colonia llegó a {1}. Ahora puedes asignar el rol de {ROLE_label} a uno de tus colonos.\n\nPara asignar un rol, utiliza la pestaña Social del colono, o selecciona un lugar ritual o un altar y pulsa el botón "Iniciar cambio de rol".</LetterLabelRoleActiveDesc>
 
   <!-- EN: {0} role deactivated -->
   <LetterLabelRoleInactive>Rol de {0} desactivado</LetterLabelRoleInactive>
   <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
-  <LetterLabelRoleInactiveDesc>El número de {0}s en tu colonia bajó a {1}. El rol {ROLE_label} ya no está activo. Este rol volverá a estar disponible cuando el número de {0}s llegue a {2}.</LetterLabelRoleInactiveDesc>
+  <LetterLabelRoleInactiveDesc>El número de miembros de esta ideoligión en tu colonia bajó a {1}. El rol {ROLE_label} ya no está activo. Este rol volverá a estar disponible cuando el número de miembros llegue a {2}.</LetterLabelRoleInactiveDesc>
 
   <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
   <LetterLabelRoleLost>El rol de {ROLE_label} de {PAWN_labelShort} se perdió</LetterLabelRoleLost>
@@ -56,13 +56,13 @@
   <!-- EN: {PAWN_pronoun} was unassigned. -->
   <LetterRoleLostReasonUnassignedDesc>desasignad{PAWN_gender ? o : a}.</LetterRoleLostReasonUnassignedDesc>
   <!-- EN: Role became inactive due to low {0} count. -->
-  <LetterRoleLostReasonLowBelieversDesc>El rol se inactivó debido al bajo número de {0}s.</LetterRoleLostReasonLowBelieversDesc>
+  <LetterRoleLostReasonLowBelieversDesc>El rol se inactivó porque quedan pocos miembros de esta ideoligión.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
   <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} perdió su posición de {ROLE_label} porque abandonó {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
   <!-- EN: {0} skipped -->
   <LetterObligationRoleInactive>{0} saltado</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
-  <LetterObligationRoleInactiveDateDesc>{0} es la fecha del {1}, pero como el rol {ROLE_label} está inactivo, los {2}s se lo saltarán.</LetterObligationRoleInactiveDateDesc>
+  <LetterObligationRoleInactiveDateDesc>{0} es la fecha del {1}, pero como el rol {ROLE_label} está inactivo, los miembros de esta ideoligión se lo saltarán.</LetterObligationRoleInactiveDateDesc>
   
   <!-- Ideo misc -->
   <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
@@ -112,7 +112,7 @@
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
   <LetterIdeoChangedWanderOwnRoom>{PAWN_nameDef} se está escondiendo en su habitación para enfrentarse a sus creencias.</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
-  <LetterIdeoChangedSadWander>{PAWN_nameDef} está deambulando en estado de shock mientras lidia con sus creencias.</LetterIdeoChangedSadWander>
+  <LetterIdeoChangedSadWander>{PAWN_nameDef} está deambulando en estado de conmoción mientras lidia con sus creencias.</LetterIdeoChangedSadWander>
 
   <!-- Change ideo divorces -->
   <!-- EN: Divorce -->
@@ -158,7 +158,7 @@
 
   <!-- Caravan destroyed -->
   <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disbanded. -->
-  <LetterOnlySlaveCaravanColonistsLeft>Todos los miembros no esclavos de {0} murieron. Los esclavos restantes se marcharon. La caravana se perdió.</LetterOnlySlaveCaravanColonistsLeft>
+  <LetterOnlySlaveCaravanColonistsLeft>Todos los miembros no esclavos de {0} murieron. Los esclavos restantes se marcharon. La caravana se disolvió.</LetterOnlySlaveCaravanColonistsLeft>
 
   <!-- Hacker lost -->
   <!-- EN: Last hacker lost -->

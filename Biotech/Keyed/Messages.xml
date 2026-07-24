@@ -24,18 +24,18 @@
   <!-- EN: A xenogerm has been completed. -->
   <MessageXenogermCompleted>Se ha completado un xenogermen.</MessageXenogermCompleted>
   <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
-  <MessageXenogermCancelledMissingPack>Se ha cancelado el trabajo del xenogermen en {0_labelShort}: falta un pack de genes requerido.</MessageXenogermCancelledMissingPack>
+  <MessageXenogermCancelledMissingPack>Se ha cancelado el trabajo del xenogermen en {0_labelShort}: falta un paquete de genes requerido.</MessageXenogermCancelledMissingPack>
   <!-- EN: Absorbing {PAWN_nameDef}'s xenogerm will anger {0}. -->
   <MessageAbsorbingXenogermWillAngerFaction>Absorber el xenogermen de {PAWN_nameDef} enfadará a {0}.</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
-  <MessageCannotUseOnOtherFactions>{ABILITY_label} solo puede ser usado en colonos, prisioneros y esclavos.</MessageCannotUseOnOtherFactions>
+  <MessageCannotUseOnOtherFactions>{ABILITY_label} solo puede usarse en colonos, prisioneros y esclavos.</MessageCannotUseOnOtherFactions>
   <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
   <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} se niega a convertirse en un xenotipo desagradable.</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanAddingEscortingMech>Autoañadir a {MECH_nameDef} a la caravana, ya que está escoltando a {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
+  <MessageCaravanAddingEscortingMech>Se añadirá automáticamente {MECH_nameDef} a la caravana, ya que está escoltando a {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
   <!-- EN: Auto-removing {MECH_nameDef} from the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanRemovingEscortingMech>Autoretirar a {MECH_nameDef} de la caravana, ya que está escoltando a {OVERSEER_nameDef}</MessageCaravanRemovingEscortingMech>
+  <MessageCaravanRemovingEscortingMech>Se retirará automáticamente {MECH_nameDef} de la caravana, ya que está escoltando a {OVERSEER_nameDef}</MessageCaravanRemovingEscortingMech>
 
   <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
   <MessageMechanitorCasketOpened>{0} fue un mecanitor. Puedes quitarle su {1_label} y usarlo en un colono.</MessageMechanitorCasketOpened>
@@ -67,10 +67,10 @@
   <MessagePlantDiedOfRot_PollutedTerrain>{0} se ha podrido debido al terreno contaminado.</MessagePlantDiedOfRot_PollutedTerrain>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
-  <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} debe estar inconsciente antes de poder forzar{PAWN_objective} a reimplantar su xenogermen.</MessageTargetMustBeDownedToForceReimplant>
+  <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} debe estar incapacitad{PAWN_gender ? o : a} antes de poder forzar{PAWN_objective} a reimplantar su xenogermen.</MessageTargetMustBeDownedToForceReimplant>
 
   <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
-  <MessageWorkTypeDisabledAge>{0_nameDef} tiene solo {1} años. El trabajo {2} solo se puede hacer desde los {3} años.</MessageWorkTypeDisabledAge>
+  <MessageWorkTypeDisabledAge>{0_nameDef} tiene solo {1} años. Este tipo de trabajo ({2}) no estará disponible hasta los {3} años.</MessageWorkTypeDisabledAge>
 
   <!-- EN: {PAWN_nameDef} can now wake from deathrest safely. -->
   <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} ahora puede despertar del mortisueño con seguridad.</MessageDeathrestingPawnCanWakeSafely>
@@ -90,7 +90,7 @@
   <!-- EN: Cannot create a xenotype with no genes. -->
   <MessageNoSelectedGenes>Imposible crear un xenotipo sin genes.</MessageNoSelectedGenes>
   <!-- EN: {0_label} can only store {1} genepacks. -->
-  <CanOnlyStoreNumGenepacks>{0_label} solo puede almacenar {1} packs de genes.</CanOnlyStoreNumGenepacks>
+  <CanOnlyStoreNumGenepacks>{0_label} solo puede almacenar {1} paquetes de genes.</CanOnlyStoreNumGenepacks>
   <!-- EN: Xenotype name cannot be empty. -->
   <XenotypeNameCannotBeEmpty>El nombre del xenotipo no puede estar vacío.</XenotypeNameCannotBeEmpty>
   <!-- EN: {0} lacks a prerequisite gene -->
@@ -107,9 +107,9 @@
   <SanguophagesLeavingTemperature>Los sanguífagos se irán debido a las temperaturas peligrosas.</SanguophagesLeavingTemperature>
 
   <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
-  <MessagePawnWokenFromSunlight>{PAWN_nameDef} fue despertado de su mortisueño debido a la exposición a la luz solar.</MessagePawnWokenFromSunlight>
+  <MessagePawnWokenFromSunlight>{PAWN_nameDef} fue despertad{PAWN_gender ? o : a} de su mortisueño debido a la exposición a la luz solar.</MessagePawnWokenFromSunlight>
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
-  <MessageBedExposedToSunlight>El {BED_labelShort} que está asignado para el mortisueño de {PAWN_nameDef} se expuso a la luz solar. {PAWN_nameDef} no podrá tomar su mortisueño aquí.</MessageBedExposedToSunlight>
+  <MessageBedExposedToSunlight>El {BED_labelShort} que está asignado para el mortisueño de {PAWN_nameDef} quedó expuesto a la luz solar. {PAWN_nameDef} no podrá entrar en mortisueño allí.</MessageBedExposedToSunlight>
 
   <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
   <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort} fue expulsad{PAWN_gender ? o : a} de un extractor de genes por falta de energía.</GeneExtractorNoPowerEjectedMessage>
@@ -135,7 +135,7 @@
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
   <MessageTooManyCustomXenotypes>Ya posees el número máximo de xenotipos personalizados. Debes borrar algunos si deseas crear más.</MessageTooManyCustomXenotypes>
   <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
-  <MessageConflictingGenesPresent>Imposible guardar xenotipos con varios genes conflictivos.</MessageConflictingGenesPresent>
+  <MessageConflictingGenesPresent>Imposible guardar un xenotipo con varios genes conflictivos.</MessageConflictingGenesPresent>
 
   <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
   <MessageDeathrestBuildingBound>{BUILDING_labelShort} se ha vinculado a {PAWN_nameDef} ({CUR}/{MAX} de capacidad de mortisueño).</MessageDeathrestBuildingBound>
