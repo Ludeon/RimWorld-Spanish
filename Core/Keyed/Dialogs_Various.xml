@@ -745,7 +745,7 @@
   <!-- EN: Travel supplies -->
   <TravelSupplies>Suministros de viaje</TravelSupplies>
   <!-- EN: You must assign at least one non-downed colonist. -->
-  <CaravanMustHaveAtLeastOneColonist>Debes asignar al menos un colono consciente.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanMustHaveAtLeastOneColonist>Debes asignar al menos un colono que no esté incapacitado.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
   <CaravanCouldNotFindExitSpot>La ubicación de salida elegida ({0}) es inaccesible.</CaravanCouldNotFindExitSpot>
   <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
@@ -883,7 +883,7 @@
   <!-- EN: Split caravan -->
   <SplitCaravan>Dividir caravana</SplitCaravan>
   <!-- EN: You must leave at least one non-downed colonist. -->
-  <SourceCaravanMustHaveAtLeastOneColonist>Debes dejar al menos un colono consciente.</SourceCaravanMustHaveAtLeastOneColonist>
+  <SourceCaravanMustHaveAtLeastOneColonist>Debes dejar al menos un colono que no esté incapacitado.</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>Cuántos de estos objetos la caravana presente tiene listos para pasar a la nueva.</SplitCaravanThingCountTip>
   
@@ -1125,7 +1125,7 @@
 
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
-  <NoGrowerCanPlant>Se requiere {1} de habilidad en agricultura para sembrar {0}.\n\nNinguno de tus agricultores conscientes posee esta habilidad, así que esta planta no se sembrará.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>Se requiere {1} de habilidad en agricultura para sembrar {0}.\n\nNinguno de tus agricultores que no esté incapacitado posee esta habilidad, así que esta planta no se sembrará.</NoGrowerCanPlant>
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
@@ -1137,7 +1137,7 @@
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>Algunos animales o prisioneros están tratando de unirse a esta caravana. Si la mueves, ya no podrán hacerlo.\n\nAnimales, prisioneros y colonos derribados dejados en un mapa sin colonos conscientes se consideran abandonados y pueden ser capturados por los enemigos.\n\n¿Seguro que quieres mover tu caravana?</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>Algunos animales o prisioneros están tratando de unirse a esta caravana. Si la mueves, ya no podrán hacerlo.\n\nAnimales, prisioneros y colonos incapacitados dejados en un mapa sin colonos que no estén incapacitados se consideran abandonados y pueden ser capturados por los enemigos.\n\n¿Seguro que quieres mover tu caravana?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->

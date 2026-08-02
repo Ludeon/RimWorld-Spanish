@@ -84,10 +84,10 @@
     <li>image->[SURGEON_nameFull] abriendo a [PATIENT_nameFull] con un bisturí [circumstance_group]</li>
     <li>circumstance_phrase->mientras [PATIENT_nameFull] tiembla de miedo</li>
     <li>circumstance_phrase->mientras la sangre encharca los pies de [SURGEON_nameDef]</li>
-    <li>circumstance_phrase->mientras le rodea de instrumentos quirúrgicos amenazadores</li>
+    <li>circumstance_phrase->mientras está rodead[SURGEON_o_a] de instrumentos quirúrgicos de aspecto amenazador</li>
     <li>circumstance_phrase->con herramientas improvisadas pero eficaces</li>
     <li>desc_sentence->[SURGEON_nameDef] suda profusamente.</li>
-    <li>desc_sentence->[SURGEON_nameDef] parece muy confundid[SURGEON_o_a].</li>
+    <li>desc_sentence->[SURGEON_nameDef] parece totalmente concentrad[SURGEON_o_a] en la tarea.</li>
     <li>desc_sentence->[SURGEON_nameDef] tiene sangre en su rostro.</li>
     <li>desc_sentence->[PATIENT_nameDef] se agita y se retuerce.</li>
   </DidSurgery.rulePack.rulesStrings>
@@ -326,14 +326,14 @@
     <li>image->[RECRUITER_nameFull], dando la bienvenida a [JOINER_nameFull] por unirse a la colonia [circumstance_group]</li>
     <li>image->[RECRUITER_nameFull] hablando convincentemente a [JOINER_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->con buena voluntad</li>
-    <li>circumstance_phrase->con un sacudón de manos afectuoso</li>
+    <li>circumstance_phrase->con un cordial apretón de manos</li>
     <li>circumstance_phrase->sonriendo amablemente</li>
     <li>circumstance_phrase->frente a toda la colonia</li>
     <li>circumstance_phrase->en una celda de prisioneros</li>
-    <li>desc_sentence->[JOINER_nameDef] asienta con la cabeza.</li>
+    <li>desc_sentence->[JOINER_nameDef] asiente con la cabeza.</li>
     <li>desc_sentence->[JOINER_nameDef] sonríe y hace contacto visual.</li>
     <li>desc_sentence->[JOINER_nameDef] parece aliviad[JOINERTales_o_a].</li>
-    <li>desc_sentence->[JOINER_nameDef] parece feliz.</li>
+    <li>desc_sentence->[JOINER_nameDef] parece esperanzad[JOINERTales_o_a].</li>
   </Recruited.rulePack.rulesStrings>
   
   <!-- EN: prisoner sold -->
@@ -366,7 +366,7 @@
     <li>tale_noun->[PRISONER_nameDef] fue vendid[PRISONER_o_a] como esclav[PRISONER_o_a] por [SELLER_nameDef]</li>
     <li>image->[TRADER_nameFull] comprando a [PRISONER_nameFull] a [SELLER_nameFull] [circumstance_group]</li>
     <li>image->[SELLER_nameFull] vendiendo a [PRISONER_nameFull] a [TRADER_nameFull] [circumstance_group]</li>
-    <li>circumstance_phrase->mientras los demás colonos observan con desapruebo</li>
+    <li>circumstance_phrase->mientras los demás colonos observan con desaprobación</li>
     <li>circumstance_phrase->mientras [SELLER_nameDef] cuenta su dinero</li>
     <li>circumstance_phrase->mientras [PRISONER_nameDef] se queja</li>
     <li>circumstance_phrase->a pesar de las quejas {replace: de [PRISONER_nameDef]; "de el "-"del "}</li>
