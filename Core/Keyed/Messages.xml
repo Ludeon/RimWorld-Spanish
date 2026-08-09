@@ -59,7 +59,7 @@
   <MessageNeedRoyalTitleToCallWithShip>El solicitante debe poseer el título de {0_label} o superior.</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
-  <MessageConditionCauserDespawned>{0} ha sido destruido/a.</MessageConditionCauserDespawned>
+  <MessageConditionCauserDespawned>Se ha destruido {0}.</MessageConditionCauserDespawned>
   
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Proyecto completado: {0}.</MessageBillComplete>
@@ -201,7 +201,7 @@
   <MessageGaveBirth>{0} ha dado a luz.</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsylinkNoSensitivity>{PAWN_labelShort} no podrá usar el psienlace mientras tenga cero de sensibilidad psíquica.</MessagePsylinkNoSensitivity>
+  <MessagePsylinkNoSensitivity>{PAWN_labelShort} no podrá usar el psienlace mientras no tenga sensibilidad psíquica.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>{PAWN_labelShort} ha perdido un nivel de implante de {1} debido a {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
@@ -218,7 +218,7 @@
   <MessageAttackedByPredator>¡{PREDATOR} está cazando a {PREY_labelShort}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>{PAWN_labelShort} ha comenzado a deambular. Abandonará el mapa a menos que un adiestrador de animales le atrape y lleve a un corral.</MessageRoamerLeaving>
+  <MessageRoamerLeaving>{PAWN_labelShort} ha comenzado a deambular. Abandonará el mapa a menos que un adiestrador de animales {PAWN_objective} ate con una cuerda y {PAWN_objective} lleve a un corral.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Una colmena de insectoides se ha reproducido.</MessageHiveReproduced>
@@ -437,7 +437,7 @@
   <MessageMechanoidsReinforcementsDrop>La baliza de aterrizaje de mecanoides ha desplegado refuerzos y llegarán desde cápsulas de desembarco cercanas.</MessageMechanoidsReinforcementsDrop>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
-  <MessageSelfTendUnsatisfied>Para poder autoatenderse, {1_labelShort} debe ser asignado al trabajo de Médico.</MessageSelfTendUnsatisfied>
+  <MessageSelfTendUnsatisfied>Para poder autoatenderse, {1_labelShort} debe tener asignado el trabajo de Médico.</MessageSelfTendUnsatisfied>
   <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
   <MessageCannotSelfTendEver>{1_labelShort} es incapaz de trabajar como Médico, y por tanto no puede autoatenderse.</MessageCannotSelfTendEver>
   
@@ -789,7 +789,7 @@
   <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
   <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort} no puede adoptar otro rol que el de espectador.</MessageRitualCannotAssignAnyRoleFromSpectating>
   <!-- EN: {0} cannot be an imprisoned wild man/woman. -->
-  <MessageRitualRoleMustNotBeImprisonedWildMan>{0} no puede ser un hombre/mujer salvaje encarcelado/a.</MessageRitualRoleMustNotBeImprisonedWildMan>
+  <MessageRitualRoleMustNotBeImprisonedWildMan>{0} no puede ser una persona salvaje encarcelada.</MessageRitualRoleMustNotBeImprisonedWildMan>
   <!-- EN: {0} must be free. -->
   <MessageRitualRoleMustNotBeImprisoned>{0} debe ser libre.</MessageRitualRoleMustNotBeImprisoned>
   <!-- EN: {0} cannot be a child. -->

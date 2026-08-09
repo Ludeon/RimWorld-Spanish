@@ -120,7 +120,7 @@
     <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}</li>
     <li>action(p=0.3)->[INITIATOR_definite] golpeó {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} logrando [damaged_inf][RECIPIENT_objective] con [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], golpeó {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} logrando [damaged_inf][RECIPIENT_objective] con [implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] usó [implement] para [damaged_inf] a [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] usó [implement] para [damaged_inf] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}</li>
     <li>action(p=0.3)->[INITIATOR_definite] usó [implement] [skillAdv] para [damaged_inf] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}</li>
   </Combat_Hit.rulePack.rulesStrings>
   

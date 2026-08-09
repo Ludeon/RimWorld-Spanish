@@ -113,7 +113,7 @@
   <!-- EN: Remove roof area -->
   <DesignatorAreaNoRoofExpand>Expandir área sin techo</DesignatorAreaNoRoofExpand>
   <!-- EN: Colonists will remove roofs in this area (except overhead mountain, which cannot be removed). -->
-  <DesignatorAreaNoRoofExpandDesc>Los colonos eliminarán los tejados en esta área (excepto bajo techo de montaña, que no se puede eliminar).</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofExpandDesc>Los colonos eliminarán los tejados en esta área (excepto los techos de montaña, que no se pueden eliminar).</DesignatorAreaNoRoofExpandDesc>
 
   <!-- EN: Ignore roof area -->
   <DesignatorAreaIgnoreRoofExpand>Ignorar área techada</DesignatorAreaIgnoreRoofExpand>
@@ -179,7 +179,7 @@
   <!-- EN: Strip -->
   <DesignatorStrip>Desnudar</DesignatorStrip>
   <!-- EN: Strip apparel from corpses and the wounded. -->
-  <DesignatorStripDesc>Desnuda a un cadáver, prisionero o paciente.</DesignatorStripDesc>
+  <DesignatorStripDesc>Quita la ropa a cadáveres y heridos.</DesignatorStripDesc>
 
   <!-- EN: Open -->
   <DesignatorOpen>Abrir</DesignatorOpen>
@@ -238,11 +238,11 @@
   <!-- EN: Color picker -->
   <DesignatorEyedropper>Selector de color</DesignatorEyedropper>
   <!-- EN: Grab existing color -->
-  <GrabExistingColor>Escoger color</GrabExistingColor>
+  <GrabExistingColor>Copiar color existente</GrabExistingColor>
   <!-- EN: Grab a color from an existing building. -->
-  <DesignatorEyeDropperDesc_Paint>Escoge el color de una construcción.</DesignatorEyeDropperDesc_Paint>
+  <DesignatorEyeDropperDesc_Paint>Copia el color de una construcción existente.</DesignatorEyeDropperDesc_Paint>
   <!-- EN: Grab a color from an existing carpet. -->
-  <DesignatorEyeDropperDesc_Carpet>Escoge el color de una alfombra.</DesignatorEyeDropperDesc_Carpet>
+  <DesignatorEyeDropperDesc_Carpet>Copia el color de una alfombra existente.</DesignatorEyeDropperDesc_Carpet>
   <!-- EN: Select a painted building. -->
   <SelectAPaintedBuilding>Selecciona una construcción pintada.</SelectAPaintedBuilding>
   <!-- EN: Select colored carpet. -->
@@ -294,9 +294,9 @@
   <!-- EN: {0_label} cannot be built on this terrain. -->
   <TerrainCannotSupport>{0_label} no se puede construir en este terreno.</TerrainCannotSupport>
   <!-- EN: {0_label} requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordance>{0_label} requiere un terreno de la siguiente dureza o mayor: {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <TerrainCannotSupport_TerrainAffordance>{0_label} requiere un terreno compatible con la siguiente característica: {1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} (cuando es de {2_label}) necesita un terreno que pueda aguantar: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} (cuando es de {2_label}) requiere un terreno compatible con la siguiente característica: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>Espacio ya ocupado.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->

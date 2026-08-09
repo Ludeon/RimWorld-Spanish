@@ -310,8 +310,8 @@
     <li>hostedSingOrPlural(lodgers0_gender!=Male,lodgerCount==1)->hospedada</li>
     <li>hostedSingOrPlural(lodgerCount>=2)->hospedados</li>
     <!-- EnemyFaction -->
-    <li>el_la(enemyFaction_leader==Male)->el</li>
-    <li>el_la(enemyFaction_leader!=Male)->la</li>
+    <li>el_la(enemyFaction_leader_gender==Male)->el</li>
+    <li>el_la(enemyFaction_leader_gender!=Male)->la</li>
     <!--Scrip_LongRangeMineralScanner-->
     <li>targetMineable_labelVar(targetMineable==MineableGold)->mina de oro</li>
     <li>targetMineable_labelVar(targetMineable==MineableSilver)->mina de plata</li>

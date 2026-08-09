@@ -88,9 +88,9 @@
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Enfermedad</LetterLabelNewDisease>
   <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewDisease>{PAWN} ha enfermado de {1}.\n\nAsegúrate de tener una cama médica y un médico, y de que {PAWN_definite} reciba un tratamiento adecuado y descanse todo lo posible.</NewDisease>
+  <NewDisease>{PAWN} ha enfermado de {1}.\n\nAsegúrate de tener una cama médica y un médico, y de que {PAWN_definite} reciba un tratamiento adecuado y permanezca en cama todo lo posible.</NewDisease>
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewPartDisease>{PAWN} ha enfermado de {3} y ha afectado a su {1}.\n\nAsegúrate de tener una cama médica y un médico, y de que {PAWN_definite} reciba un tratamiento adecuado y descanse todo lo posible.</NewPartDisease>
+  <NewPartDisease>{PAWN} ha enfermado de {3}. La infección está en su {1}.\n\nAsegúrate de tener una cama médica y un médico, y de que {PAWN_definite} reciba un tratamiento adecuado y permanezca en cama todo lo posible.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
   <NewDiseaseAnimal>{PAWN_labelShort} ha desarrollado una enfermedad: {1}</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
@@ -214,7 +214,7 @@
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
   <LetterNoLongerLovers>{PAWN1_labelShort} y {PAWN2_labelShort} ya no están en una relación.</LetterNoLongerLovers>
   <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
-  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} cambiará su apellido nuevamente a su apellido de solter{PAWN_gender ? o : a}.</LetterNoLongerLovers_BackToBirthName>
+  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} volverá a usar su apellido de nacimiento.</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
   <LetterLabelBreakup>Ruptura</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
@@ -310,7 +310,7 @@
 
   <!-- Long-range mineral scanner -->
   <!-- EN: Distant resource scanned -->
-  <LetterLabelFoundPreciousLump>Minerales encontrados</LetterLabelFoundPreciousLump>
+  <LetterLabelFoundPreciousLump>Recursos lejanos detectados</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
   <LetterFoundPreciousLump>Usando el escáner de minerales de largo alcance, {WORKER_labelShort} ha encontrado a cierta distancia una veta de {0}.\n\nDesafortunadamente, otros lo explotarán primero en {1} días si no lo hacemos nosotros.\n\n{2}.</LetterFoundPreciousLump>
 
@@ -561,7 +561,7 @@
   <!-- EN: Caravan detected -->
   <LetterLabelSiteCountdownStarted>Caravana detectada</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
-  <LetterTextSiteCountdownStarted>Tu caravana ha sido detectada. En {0}, el refuerzo {1} de {2} comenzará a llegar a la zona.\n\nReforma tu caravana y comienza a moverte para evitar a {1}. Una cuenta atrás hasta el momento de su llegada ahora es visible.</LetterTextSiteCountdownStarted>
+  <LetterTextSiteCountdownStarted>Tu caravana ha sido detectada. En {0}, el refuerzo (*Threat){1}(/Threat) de {2} comenzará a llegar a la zona.\n\nReforma tu caravana y comienza a moverte para evitar a (*Threat){1}(/Threat). Una cuenta atrás hasta el momento de su llegada ahora es visible.</LetterTextSiteCountdownStarted>
 
   <!-- EN: Unwavering prisoner -->
   <LetterLabelUnrecruitablePawnCaptured>Prisionero leal</LetterLabelUnrecruitablePawnCaptured>

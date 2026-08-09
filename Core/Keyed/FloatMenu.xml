@@ -541,7 +541,7 @@
   <!-- EN: Designate all -->
   <DesignateAll>Designar a todos</DesignateAll>
   <!-- EN: {0} affected -->
-  <CountToDesignate>{0} afectado</CountToDesignate>
+  <CountToDesignate>{replace: ^{0} afectados; "^1 afectados"-"1 afectado"; "^"-""}</CountToDesignate>
   <!-- EN: Forbid all items -->
   <ForbidAllItems>Prohibir todos los artículos</ForbidAllItems>
   <!-- EN: Unforbid all items -->
