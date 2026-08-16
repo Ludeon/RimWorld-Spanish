@@ -144,7 +144,7 @@
     <li>result(INITIATOR_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
-    <li>r_logentry(p=0.3)->[RECIPIENT_definite] evitó que [WEAPON_definite] de [INITIATOR_definite] le pudiera [damaged_inf].</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] evitó que [WEAPON_definite] {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "} le pudiera [damaged_inf].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] falló {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} y no pudo [damaged_inf][RECIPIENT_objective] con [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] mientras intentaba [damaged_inf] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} con [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] mientras intentaba [damaged_inf] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>

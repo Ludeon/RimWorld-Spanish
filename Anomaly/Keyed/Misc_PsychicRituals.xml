@@ -84,7 +84,7 @@
   <CommandCancelPsychicRitualConfirm>¿Estás seguro de que quieres cancelar el ritual psíquico {0}?</CommandCancelPsychicRitualConfirm>
 
   <!-- EN: {PAWN_labelShort} vanished -->
-  <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort} está desaparecid{PAWN_gender ? o : a}</PsychicRitualLeaveReason_Vanished>
+  <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort} ha desaparecido</PsychicRitualLeaveReason_Vanished>
   <!-- EN: {PAWN_labelShort} is incapacitated -->
   <PsychicRitualLeaveReason_Incapped>{PAWN_labelShort} está incapacitad{PAWN_gender ? o : a}</PsychicRitualLeaveReason_Incapped>
   <!-- EN: {PAWN_labelShort} is dead -->
@@ -98,7 +98,7 @@
   <!-- EN: {PAWN_labelShort} is drafted -->
   <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort} está reclutad{PAWN_gender ? o : a}</PsychicRitualLeaveReason_Drafted>
   <!-- EN: {PAWN_labelShort} is in a mental state -->
-  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort} se encuentra en un colapso mental</PsychicRitualLeaveReason_InMentalState>
+  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort} está sufriendo un colapso mental</PsychicRitualLeaveReason_InMentalState>
   <!-- EN: {PAWN_labelShort} is bleeding -->
   <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort} está sangrando</PsychicRitualLeaveReason_Bleeding>
   <!-- EN: {PAWN_labelShort} is on fire -->
@@ -118,7 +118,7 @@
   <!-- EN: {PAWN_labelShort} is free -->
   <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort} es libre</PsychicRitualLeaveReason_Freeman>
   <!-- EN: {PAWN_labelShort} is a {STAGE} -->
-  <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} es {replace: ^{STAGE}; "^Newborn"-"{PAWN_gender ? recién nacido : recién nacida}"; "^Baby"-"bebé"; "^niño"-"{PAWN_gender ? niño : niña}"; "^Child"-"{PAWN_gender ? niño : niña}"; "^adulto"-"{PAWN_gender ? adulto : adulta}"; "^Adult"-"{PAWN_gender ? adulto : adulta}"; "^"-""}</PsychicRitualLeaveReason_DevelopmentalStage>
+  <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} es {replace: ^{STAGE}; "^Newborn"-"{PAWN_gender ? recién nacido : recién nacida}"; "^newborn"-"{PAWN_gender ? recién nacido : recién nacida}"; "^recién nacido"-"{PAWN_gender ? recién nacido : recién nacida}"; "^Recién nacido"-"{PAWN_gender ? recién nacido : recién nacida}"; "^Baby"-"bebé"; "^baby"-"bebé"; "^bebé"-"bebé"; "^Bebé"-"bebé"; "^niño"-"{PAWN_gender ? niño : niña}"; "^Niño"-"{PAWN_gender ? niño : niña}"; "^Child"-"{PAWN_gender ? niño : niña}"; "^child"-"{PAWN_gender ? niño : niña}"; "^adulto"-"{PAWN_gender ? adulto : adulta}"; "^Adulto"-"{PAWN_gender ? adulto : adulta}"; "^Adult"-"{PAWN_gender ? adulto : adulta}"; "^adult"-"{PAWN_gender ? adulto : adulta}"; "^"-""}</PsychicRitualLeaveReason_DevelopmentalStage>
   <!-- EN: {PAWN_labelShort} cannot reach the target location -->
   <PsychicRitualLeaveReason_CannotReachTarget>{PAWN_labelShort} no puede llegar a la ubicación de destino</PsychicRitualLeaveReason_CannotReachTarget>
   <!-- EN: {PAWN_labelShort} is asleep -->

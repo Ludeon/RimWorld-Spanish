@@ -135,7 +135,7 @@
     <li>r_logentry(priority=-10)->[action].</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[TOOL_definite] de su [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->su [WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[TOOL_definite] de [WEAPON_indefinite]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[TOOL_definite] {replace: de [WEAPON_indefinite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "}</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->[WEAPON_indefinite]</li>
     <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->su [TOOL_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[TOOL_definite] de su [WEAPON_label]</li>

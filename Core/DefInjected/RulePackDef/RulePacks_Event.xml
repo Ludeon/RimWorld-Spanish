@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -8,7 +8,7 @@
     <li>r_logentry->[INITIATOR_definite] ha usado [ABILITY_label] en [SUBJECT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] activó su habilidad [ABILITY_label] contra [SUBJECT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] lanzó [ABILITY_label] sobre [SUBJECT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] desató [ABILITY_label] en dirección {replace: a [SUBJECT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
+    <li>r_logentry->[INITIATOR_definite] desató [ABILITY_label] en dirección {replace: a [SUBJECT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "; "a el "-"al "}.</li>
   </Event_AbilityUsed.rulePack.rulesStrings>
   
   <!-- EN:
@@ -45,8 +45,8 @@
   <Event_Stun.rulePack.rulesStrings>
     <li>r_logentry(SUBJECT_gender!=Female)->[SUBJECT_definite] estaba [stunned]o por el ataque.</li>
     <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] estaba [stunned]a por el ataque.</li>
-    <li>r_logentry(SUBJECT_gender!=Female)->[SUBJECT_definite] estaba [stunned]o por el ataque de [INITIATOR_definite].</li>
-    <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] estaba [stunned]a por el ataque de [INITIATOR_definite].</li>
+    <li>r_logentry(SUBJECT_gender!=Female)->[SUBJECT_definite] estaba [stunned]o por el ataque {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "}.</li>
+    <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] estaba [stunned]a por el ataque {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "}.</li>
     <!--Dejar como está sin la última vocal ya que se ha establecido una regla para eso. Zerstrick 16-10-2020-->
     <li>stunned(p=3)->aturdid</li>
     <li>stunned->pasmad</li>
@@ -56,8 +56,8 @@
     <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] está [staggered]a.</li>
     <li>r_logentry(SUBJECT_gender!=Female)->[SUBJECT_definite] está [staggered]o por el ataque.</li>
     <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] está [staggered]a por el ataque.</li>
-    <li>r_logentry(SUBJECT_gender!=Female)->[SUBJECT_definite] está [staggered]o por el ataque de [INITIATOR_definite].</li>
-    <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] está [staggered]a por el ataque de [INITIATOR_definite].</li>
+    <li>r_logentry(SUBJECT_gender!=Female)->[SUBJECT_definite] está [staggered]o por el ataque {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "}.</li>
+    <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] está [staggered]a por el ataque {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "}.</li>
     <li>staggered(p=3)->pasmad</li>
     <li>staggered->debilitad</li>
     <li>staggered->tembloros</li>
