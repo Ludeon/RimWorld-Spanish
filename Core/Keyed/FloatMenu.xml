@@ -477,21 +477,21 @@
   <CannotGenericAlreadyAmCustom>Ya se está {0}</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Will never do {0} -->
-  <CannotPrioritizeWorkTypeDisabled>Nunca hará {0}</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>No puede hacer este trabajo ({0})</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>falta el título necesario</MissingTitleAbility>
 
   <!-- EN: Will never {0} -->
-  <CannotPrioritizeWorkGiverDisabled>Nunca hará {0}</CannotPrioritizeWorkGiverDisabled>
+  <CannotPrioritizeWorkGiverDisabled>No puede hacer esta tarea ({0})</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
-  <WillNever>nunca hará {0}</WillNever>
+  <WillNever>{replace: ^{0}; "^investigación"-"no puede investigar"; "^"-"no puede ocuparse de "}</WillNever>
 
   <!-- EN: Not assigned to {0} -->
-  <CannotPrioritizeNotAssignedToWorkType>No asignado a {0}</CannotPrioritizeNotAssignedToWorkType>
+  <CannotPrioritizeNotAssignedToWorkType>Trabajo no asignado ({0})</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
-  <NotAssigned>no asignado</NotAssigned>
+  <NotAssigned>sin asignar</NotAssigned>
   <!-- EN: not assigned to {0} -->
-  <NotAssignedToWorkType>no asignado a {0}</NotAssignedToWorkType>
+  <NotAssignedToWorkType>trabajo no asignado ({0})</NotAssignedToWorkType>
 
   <!-- EN: Research is a long-term task -->
   <CannotPrioritizeResearch>No se puede priorizar: la investigación es una tarea a largo plazo</CannotPrioritizeResearch>
@@ -589,9 +589,9 @@
   <!-- EN: Tend {0} -->
   <Tend>Atender {0}</Tend>
   <!-- EN: Cannot tend {0} -->
-  <CannotTend>No se puede atender a {0}</CannotTend>
+  <CannotTend>No se puede atender {replace: a {0_definite}; "a el "-"al "}</CannotTend>
   <!-- EN: {0} does not require tending -->
-  <TendingNotRequired>{0} no necesita atención</TendingNotRequired>
+  <TendingNotRequired>No necesita ser atendid{0_gender ? o : a}</TendingNotRequired>
   <!-- EN: without medicine -->
   <WithoutMedicine>sin medicina</WithoutMedicine>
 

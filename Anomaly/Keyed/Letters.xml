@@ -21,7 +21,7 @@
 
   <!-- Psychic rituals -->
   <!-- EN: {0} complete -->
-  <PsychicRitualCompleteLabel>{0} completado</PsychicRitualCompleteLabel>
+  <PsychicRitualCompleteLabel>Ritual completado: {0}</PsychicRitualCompleteLabel>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities. -->
   <VoidProvocationCompletedText>{INVOKER_nameDef} ha terminado de realizar {replace: el ritual de {RITUAL_definite}; "de el "-"del "}, enviando un pulso psíquico que atraerá entidades.</VoidProvocationCompletedText>
@@ -63,9 +63,9 @@
   <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
   <ChronophagyCompleteText>{0_nameDef} ha completado con éxito {replace: el ritual de {RITUAL_definite}; "de el "-"del "}. Ha tenido los siguientes efectos:</ChronophagyCompleteText>
   <!-- EN: {0_nameDef} aged {1} years -->
-  <ChronophagyTargetAged>{0_nameDef} envejeció {1} años</ChronophagyTargetAged>
+  <ChronophagyTargetAged>{0_nameDef} envejeció {replace: ^{1} años; "^1 años"-"1 año"; "^"-""}</ChronophagyTargetAged>
   <!-- EN: {0_nameDef} became {1} years younger -->
-  <ChronophagyInvokerRejuvenated>{0_nameDef} se volvió {1} años más joven</ChronophagyInvokerRejuvenated>
+  <ChronophagyInvokerRejuvenated>{0_nameDef} se volvió {replace: ^{1} años; "^1 años"-"1 año"; "^"-""} más joven</ChronophagyInvokerRejuvenated>
   <!-- EN: {0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age. -->
   <ChronophagyTargetDiedOfOldAge>{0_nameDef} no pudo soportar la presión de envejecer debido al ritual de cronofagia y murió de vejez.</ChronophagyTargetDiedOfOldAge>
   <!-- EN: While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions -->
@@ -130,7 +130,7 @@
   <!-- EN: {STUDIER_nameDef} teleported -->
   <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} ha sido teletransportad{STUDIER_gender ? o : a}</VoidAwakeningFinalStructuresActivatedLabel> 
   <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence. -->
-  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} ha activado el monolito y ha sido arrancado de nuestro espacio-tiempo y arrojado a otro lugar.\n\nSe encuentra en una cámara erizada de pinchos metálicos dentados. Todas las superficies rezuman un fluido oscuro y resbaladizo, y el aire vibra cargado de energía.\n\nEste infierno metálico es un conducto abierto hacia una hiperinteligencia inhumana.</VoidAwakeningFinalStructuresActivatedText> 
+  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} ha activado el monolito y ha sido arrancad{STUDIER_gender ? o : a} de nuestro espacio-tiempo y arrojad{STUDIER_gender ? o : a} a otro lugar.\n\nSe encuentra en una cámara erizada de pinchos metálicos dentados. Todas las superficies rezuman un fluido oscuro y resbaladizo, y el aire vibra cargado de energía.\n\nEste infierno metálico es un conducto abierto hacia una hiperinteligencia inhumana.</VoidAwakeningFinalStructuresActivatedText>
   <!-- EN: Shambler assault -->
   <VoidAwakeningShamblerArrivalLabel>Asalto de caminantes</VoidAwakeningShamblerArrivalLabel>
   <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
@@ -228,7 +228,7 @@
   <!-- EN: Shamblers approach -->
   <LetterLabelShamblerSwarmArrived>Aproximación de caminantes</LetterLabelShamblerSwarmArrived>
   <!-- EN: Shambler approaches -->
-  <LetterLabelShamblerArrived>Caminantes acercándose</LetterLabelShamblerArrived>
+  <LetterLabelShamblerArrived>Se acerca un caminante</LetterLabelShamblerArrived>
   <!-- EN: A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
   <LetterShamblerSwarmArrived>Se acerca un grupo de (*Threat){0} caminantes putrefactos(/Threat). Una fuerza inhumana ha vuelto a poner en movimiento estos cadáveres y los empuja a matar.\n\nAhora vagarán por la zona. Si ven a un humano, atacarán. Si no encuentran a nadie, se marcharán en unos días.\n\nSi consigues capturar uno, podrás estudiarlo para obtener conocimiento sobre anomalías.</LetterShamblerSwarmArrived>
   <!-- EN: A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge. -->

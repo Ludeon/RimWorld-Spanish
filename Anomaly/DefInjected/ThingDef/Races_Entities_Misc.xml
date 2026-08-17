@@ -42,7 +42,7 @@
   <!-- EN: Digesting {PAWN_nameDef}: {SECONDS} seconds left -->
   <Devourer.comps.CompDevourer.digestingInspector>Digiriendo a {PAWN_nameDef}: quedan {SECONDS} segundos</Devourer.comps.CompDevourer.digestingInspector>
   <!-- EN: A devourer swallowed {PAWN_nameDef} whole! Kill the devourer before it digests {PAWN_nameDef}. -->
-  <Devourer.comps.CompDevourer.messageDigested>¡Un devorador se ha tragado a {PAWN_nameDef} enter{PAWN_gender ? o : a}! Mata al devorador antes de que {PAWN_objective} digiera.</Devourer.comps.CompDevourer.messageDigested>
+  <Devourer.comps.CompDevourer.messageDigested>¡Un devorador se ha tragado a {PAWN_nameDef}! Mata al devorador antes de que {PAWN_objective} digiera.</Devourer.comps.CompDevourer.messageDigested>
   <!-- EN: The devourer has regurgitated {PAWN_nameDef}. -->
   <Devourer.comps.CompDevourer.messageDigestionCompleted>El devorador ha regurgitado {PAWN_nameDef}.</Devourer.comps.CompDevourer.messageDigestionCompleted>
   <!-- EN: {PAWN_nameDef} emerged from the devourer. -->
@@ -140,7 +140,7 @@
   <!-- EN: The nociosphere has ended its onslaught and has returned to its initial location. -->
   <Nociosphere.comps.CompNociosphere.onslaughtEndedMessage>La nociosfera ha terminado su arremetida y ha vuelto a su ubicación inicial.</Nociosphere.comps.CompNociosphere.onslaughtEndedMessage>
   <!-- EN: Onslaught mode: {0} seconds left -->
-  <Nociosphere.comps.CompNociosphere.onslaughtInspectText>Modo de arremetida: {0} segundos restantes</Nociosphere.comps.CompNociosphere.onslaughtInspectText>
+<Nociosphere.comps.CompNociosphere.onslaughtInspectText>Modo de arremetida: quedan {0} segundos</Nociosphere.comps.CompNociosphere.onslaughtInspectText>
   <!-- EN: Unstable: cannot be suppressed -->
   <Nociosphere.comps.CompNociosphere.unstableInspectText>Inestable: no se puede reprimir</Nociosphere.comps.CompNociosphere.unstableInspectText>
   <!-- EN: Warning: the nociosphere will resist suppression in {0} days. -->
