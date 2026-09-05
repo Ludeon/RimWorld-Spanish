@@ -613,7 +613,7 @@
   <!-- EN: Use -->
   <UseGizmo>Usar</UseGizmo>
   <!-- EN: Order someone to use the {0}. -->
-  <UseGizmoTooltip>Ordena a alguien usar {0}.</UseGizmoTooltip>
+  <UseGizmoTooltip>Ordena a alguien usar {0_definite}.</UseGizmoTooltip>
   <!-- EN: Choose who should use this -->
   <UseGizmoMouse>Elige quién debería usar esto</UseGizmoMouse>
   <!-- EN: Select target -->
@@ -2025,7 +2025,7 @@
   <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
   <BookCantBeStage>{PAWN_nameDef} debe ser {PAWN_gender ? un : una} {STAGES}</BookCantBeStage>
   <!-- EN: {PAWN_nameDef} is blind -->
-  <BookBlind>{PAWN_nameDef} es ciego</BookBlind>
+  <BookBlind>{PAWN_nameDef} está cieg{PAWN_gender ? o : a}</BookBlind>
   
   <!-- EN: max level {0} -->
   <BookMaxLevel>nivel máx.: {0}</BookMaxLevel>

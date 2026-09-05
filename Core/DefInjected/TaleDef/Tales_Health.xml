@@ -142,8 +142,8 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <GaveBirth.rulePack.rulesStrings>
-    <li>tale_noun->[MOTHER_nameDef] dio a luz a su bebé [CHILD_name]</li>
-    <li>tale_noun->[MOTHER_nameDef] trajo al mundo a su bebé [CHILD_name]</li>
+    <li>tale_noun->[MOTHER_nameDef] dio a luz a su bebé [CHILD_nameDef]</li>
+    <li>tale_noun->[MOTHER_nameDef] trajo al mundo a su bebé [CHILD_nameDef]</li>
     <li>image->[MOTHER_nameFull] dando a luz a su bebé [CHILD_nameFull]</li>
     <li>image->[MOTHER_nameFull] acurrucando a su [baby], [circumstance_group]</li>
     <li>image->[MOTHER_nameFull] yaciendo en cama junto a su [baby], [circumstance_group]</li>
@@ -329,14 +329,11 @@
   <KilledCapacity.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} con [WeaponIndef]</li>
-    <li>image->[KILLER_nameFull] [cap_removal] la [CAPACITY] de [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] y [cap_removal] su [CAPACITY] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [cap_removal] la capacidad de [CAPACITY_label] de [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] y [cap_removal] su capacidad de [CAPACITY_label] [with_weapon_optional]</li>
     <li>cap_removal->destruyendo</li>
     <li>cap_removal->eliminando</li>
-    <li>cap_removal->derrotando</li>
-    <li>CAPACITY->capacidad</li>
-    <li>CAPACITY->tenacidad</li>
-    <li>CAPACITY->persistencia</li>
+    <li>cap_removal->anulando</li>
     <li>wound_name_past->mató</li>
     <li>wound_name_past->ejecutó</li>
     <li>wound_name_past->asesinó</li>
@@ -520,7 +517,7 @@
   </KilledMajorThreat.rulePack.rulesStrings>
   
   <!-- EN: killed in melee -->
-  <KilledMelee.label>asesinado en combate a cuerpo</KilledMelee.label>
+  <KilledMelee.label>asesinado en combate cuerpo a cuerpo</KilledMelee.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in close combat</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in melee with a [WEAPON_label]</li>
