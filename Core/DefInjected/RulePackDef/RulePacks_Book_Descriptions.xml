@@ -1637,7 +1637,7 @@
     <li>calltoadventure-> escapó de la servidumbre en los caseríos de [medievalworld] escondiéndose en la nave de un comerciante experto en [subject]</li>
     <li>calltoadventure-> viajó hasta el borde y regresó, aprendiendo sobre [subject] en [rimworld]</li>
     <li>calltoadventure-> navegó los mares de [oceanicworld], convencid[ANYPAWN_o_a] de que los propios océanos vivientes le revelarían los secretos {lookup: [subject]; book; 2}</li>
-    <li>calltoadventure-> fue saqueador[ANYPAWN_o_a] de gravedad cero en el cinturón de asteroides de [worldname], donde descubrió secretos {lookup: [subject]; book; 2} en [asteroid] A3 o en el asteroide 7DD</li>
+    <li>calltoadventure-> fue {replace: ^saqueador[ANYPAWN_o_a]; "^saqueadoro"-"^saqueador"; "^"-""} de gravedad cero en el cinturón de asteroides de [worldname], donde descubrió secretos {lookup: [subject]; book; 2} en [asteroid] A3 o en el asteroide 7DD</li>
     <!-- EN: 
     <li>written_when-> the night before [ANYPAWN_possessive] execution</li>
     <li>written_when-> in [ANYPAWN_possessive] early years</li>

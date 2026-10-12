@@ -915,7 +915,7 @@
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
   <TransporterSingleItemIsUnreachableMulti>No hay ningún camino disponible entre el transbordador y {0}x {1}.</TransporterSingleItemIsUnreachableMulti>
   <!-- EN: Only {0} colonists maximum allowed. -->
-  <TransporterSingleTooManyColonists>Solo se permite un máximo de {0} colonos.</TransporterSingleTooManyColonists>
+  <TransporterSingleTooManyColonists>Solo se permite un máximo de {replace: ^{0} colonos; "^1 colonos"-"1 colono"; "^"-""}.</TransporterSingleTooManyColonists>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -1023,7 +1023,7 @@
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
   <TakeToInventoryColumnDesc>La cantidad extra de droga que se tomará para consumo, para evitar que el colono tenga que visitar el almacén cada vez.</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForAddiction>Para adicciones\n\nUsar esta droga para alimentar las necesidades de adicciones ya presentes.\n\nAún si se desactiva, algunos personajes con rasgos específicos, o con un colapso mental, podrían usar la droga de todas maneras.</DrugUsageTipForAddiction>
+  <DrugUsageTipForAddiction>Para adicciones\n\nUsar esta droga para alimentar las necesidades de adicciones ya presentes.\n\nAun si se desactiva, algunos personajes con rasgos específicos, o con un colapso mental, podrían usar la droga de todas maneras.</DrugUsageTipForAddiction>
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
   <DrugUsageTipForJoy>Por diversión\n\nUsar esta droga con fines recreativos y sociales.\n\nAunque se desactive, algunos personajes con rasgos específicos, o en medio de un colapso mental, podrían usarla de todas formas.</DrugUsageTipForJoy>
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->

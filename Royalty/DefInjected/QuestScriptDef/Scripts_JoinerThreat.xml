@@ -23,7 +23,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction], de nombre [joiner_nameFull], ¡está pidiendo ayuda! [joiner_pronoun] se esconde de [hidingFrom]. Quiere huir y unirse a tu colonia en [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nPor miedo a ser descubiert{joiner_gender ? o : a}, [joiner_nameDef] afirma ser incapaz de contarte más sobre sí mism[joiner_o_a].</li>
+    <li>questDescription->[introduction], de nombre [joiner_nameFull], está pidiendo ayuda! [joiner_pronoun] se esconde de [hidingFrom]. Quiere huir y unirse a tu colonia en [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nPor miedo a ser descubiert{joiner_gender ? o : a}, [joiner_nameDef] afirma ser incapaz de contarte más sobre sí mism[joiner_o_a].</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->una manada de lobos hambrientos</li>
     <li>condDesc(gameCondition==ToxicFallout)->Sin embargo, [joiner_nameDef] solo puede matar a los lobos prendiendo fuego a un enorme vertedero de residuos tóxicos cercano. Como consecuencia de esto caerá una lluvia tóxica durante [gameConditionDuration_duration].</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->una pandilla de caníbales</li>
