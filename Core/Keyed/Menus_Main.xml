@@ -336,8 +336,22 @@
   <Incompatible>Incompatible</Incompatible>
   <!-- EN: Tag as translation -->
   <TagAsTranslation>Etiquetar como traducción</TagAsTranslation>
+  <!-- EN: Build asset pack -->
+  <UploadBuildAssetPack>Crear paquete de recursos</UploadBuildAssetPack>
+  <!-- EN: Packs textures and sounds into an asset pack in each load folder before uploading, to improve download and load times. Untick this to upload the mod folder as it is. -->
+  <UploadBuildAssetPackTip>Antes de subir el mod, agrupa las texturas y los sonidos de cada carpeta de carga en un paquete de recursos para reducir los tiempos de descarga y carga. Desmarca esta opción para subir la carpeta del mod tal cual.</UploadBuildAssetPackTip>
+  <!-- EN: Don't upload source textures -->
+  <UploadSkipSourceTextures>No subir archivos originales</UploadSkipSourceTextures>
+  <!-- EN: Skips uploading the original image and sound files that were included in asset packs. Leave this unticked if you need compatibility with RimWorld 1.6 or earlier. -->
+  <UploadSkipSourceTexturesTip>Omite la subida de los archivos originales de imagen y sonido incluidos en los paquetes de recursos. Deja esta opción desmarcada si necesitas compatibilidad con RimWorld 1.6 o versiones anteriores.</UploadSkipSourceTexturesTip>
+  <!-- EN: Baking asset packs -->
+  <BakingModAssetPacks>Generando paquetes de recursos</BakingModAssetPacks>
+  <!-- EN: Baking asset packs for {0} -->
+  <BakingModAssetPacksFor>Generando paquetes de recursos para {0}</BakingModAssetPacksFor>
+  <!-- EN: Baking the asset packs for {0} failed, the mod was not uploaded: -->
+  <ModAssetPackBakeFailed>No se pudieron generar los paquetes de recursos para {0}, por lo que no se ha subido el mod:</ModAssetPackBakeFailed>
   <!-- EN: Too many (max {0}):  -->
-  <TooMany>Demasiado (máx {0}):</TooMany>
+  <TooMany>Se ha superado el número máximo de usos ({0})</TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>Puedes actualizarlo en la Workshop, ya que tú eres el autor o la autora.</CanBeUpdatedOnWorkshop>
   <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
