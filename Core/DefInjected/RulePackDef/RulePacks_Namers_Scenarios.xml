@@ -20,6 +20,7 @@
     <li>r_name->[story] [Trans] [AnimalIndef]</li>
     <li>r_name->[story] [Trans] [TerrainFeatureIndef]</li>
     <li>r_name->[story] [Trans] un [PersonJob]</li>
+    <li>r_name->[story] [Trans] una [PersonJob_Fem]</li>
     <li>r_name->[story] [Trans] [ConceptAny]</li>
     <li>r_name->[ConceptAny] y [story]</li>
     <li>r_name->[story] [Trans] [CommunityDef]</li>
@@ -28,6 +29,14 @@
     <li>r_name->[story] en [Color] y [Color]</li>
     <li>r_name->[Color] [story]</li>
     <li>r_name->[story] [RomanNumeral]</li>
+    <li>r_name->{replace: [story] de [CommunityDef]; "de el "-"del "}</li>
+    <li>r_name->[story] de [WeaponIndef]</li>
+    <li>r_name->[story] de [AnimalIndef]</li>
+    <li>r_name->[story] de [TerrainFeatureIndef]</li>
+    <li>r_name->[story] de un [PersonJob]</li>
+    <li>r_name->[story] de la [PersonJob_Fem]</li>
+    <li>r_name->{replace: [story] de el [PersonJob]; "de el "-"del "}</li>
+    <li>r_name->{replace: [story] de [GameDef]; "de el "-"del "}</li>
   </NamerScenario.rulePack.rulesStrings>
   
 </LanguageData>

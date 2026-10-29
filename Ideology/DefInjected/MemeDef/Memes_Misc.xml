@@ -39,7 +39,7 @@
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] reunió a los animales y a los humanos de [place_summary] [place_name] en una gran conferencia.</li>
     <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] bendijo el [place_summary] [place_name] con estos animales: [sacredAnimalListEnd], y enseñó a la gente de allí a honrar a los animales.</li>
     <li>conflict(tag=meme_AnimalPersonhood)        ->Un malvado [foeLeader] ordenó cazar a los animales salvajes, y sus [foeSoldiers] los cazaron, usando su arma favorita, la [place_personalWeapon].</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] se apareció a un [place_job] de nombre [founderName] [revelationAdverb] bajo la forma de [veneratedAnimal]. Fue entonces cuando [founderName] comprendió que [founder_pronoun] era la criatura venerada, y entendió el plan de [deity0_name].</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] se apareció a un [place_job] de nombre [founderName] [revelationAdverb] y le reveló la especie venerada: [veneratedAnimal]. Fue entonces cuando [founderName] entendió el plan de [deity0_name].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->Un [place_job] de nombre [founderName] liberó a muchos animales que estaban esclavizados por amos crueles, y los llevó al lugar sagrado de [deity0_name], su gran [altarRoomLabel].</li>
     <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] llamó a los [memberNamePlural] y a los animales con la voz de [deity0_name], y en una gran estampida de pezuñas, patas y pies, pisotearon al [foeLeader] y a sus [foeSoldiers].</li>
     <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] vivió en el bosque durante veinte años, estudiando a los animales y conectando con ellos. [founder_pronoun] llegó a comprender su verdadera moralidad y fundó nuestro movimiento.</li>
@@ -99,6 +99,11 @@
     <li>memeMoralist->encantador</li>
     <li>memeMoralist->vaquero</li>
     <li>memeMoralist->pastor</li>
+    <li>revelationAdverb->en una visión</li>
+    <li>revelationAdverb->en un sueño</li>
+    <li>revelationAdverb->en una pesadilla</li>
+    <li>revelationAdverb->como un [Animal]</li>
+    <li>revelationAdverb->como un mendigo</li>
   </AnimalPersonhood.generalRules.rulesStrings>
   <!-- EN: animalistic -->
   <AnimalPersonhood.symbolPacks.0.adjective>animalístico</AnimalPersonhood.symbolPacks.0.adjective>
@@ -429,8 +434,8 @@
   <FleshPurity.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_FleshPurity)        ->[deity0_name] acabó con la contaminación y las máquinas de la era del humo para crear un jardín en el que [deity0_pronoun] dejaría a los primeros progenitores humanos puros.</li>
     <li>episode(uses=1,tag=meme_FleshPurity)  ->Los impuros, tatuados, perforados y modificados fueron arrojados al océano por [deity0_name].</li>
-    <li>intro(tag=meme_FleshPurity)           ->En [place_summary] [place_name], se alzaba [altarNameIndef] situado [altarRoomLabelIn] de [deity0_name], donde [deity0_type] bendecía a aquellos de carne pura.</li>
-    <li>intro(tag=meme_FleshPurity)           ->En [place_summary] [place_name], los fieles veneraban [altarNameIndef] situado [altarRoomLabelIn] de [deity0_name], donde [deity0_type] bendecía a quienes conservaban la pureza de la carne.</li>
+    <li>intro(tag=meme_FleshPurity)           ->En el [place_summary] [place_name], se alzaba [altarNameIndef] situado [altarRoomLabelIn] de [deity0_name], donde [deity0_type] bendecía a aquellos de carne pura.</li>
+    <li>intro(tag=meme_FleshPurity)           ->En el [place_summary] [place_name], los fieles veneraban [altarNameIndef] situado [altarRoomLabelIn] de [deity0_name], donde [deity0_type] bendecía a quienes conservaban la pureza de la carne.</li>
     <li>conflict(tag=meme_FleshPurity)        ->Un malvado [foeLeader] envió a sus [foeSoldiers] a inyectar a todos con dispositivos de seguimiento.</li>
     <li>founderJoin(tag=meme_FleshPurity)     ->Un [place_job] llamado [founderName] protestó contra [foeLeader] arrodillándose frente al [place_powerCenter] y arrancándose toda la tecnología de su cuerpo con sus manos.</li>
     <li>victory(tag=meme_FleshPurity)         ->El [foeLeader] finalmente envió a los [foeSoldiers] a matar a los [memberNamePlural], pero la energía de [deity0_name] fluyó desde la carne pura de los [memberNamePlural], y los dispositivos en los cuerpos de los [foeSoldiers] se convirtieron en cenizas y los mataron.</li>
@@ -532,7 +537,7 @@
     <li>intro(tag=meme_HighLife)              ->El [place_summary] [place_name] fue descubierto por primera vez por la gracia de [deity0_name], cuando un capitán borracho de una nave espacial casi se estrella contra ella.</li>
     <li>conflict(tag=meme_HighLife)           ->Un puritano [foeLeader] despreció a los [memberNamePlural], y para borrar su singularidad, prohibió el uso de sustancias que alteran la mente.</li>
     <li>founderJoin(tag=meme_HighLife)        ->Cuando todo parecía perdido, [deity0_name] acudió al profeta [founderName] en una neblina de drogas y dio la única perspectiva necesaria para derrotar a los [foeSoldiers].</li>
-    <li>victory(tag=meme_HighLife)            ->Los [foeSoldiers] de [foeLeader], armados con cada uno con una [place_personalWeapon], asaltaron el [place_community] de los [memberNamePlural]. [founderName] les ofreció la paz, y los [foeSoldiers] bajaron sus armas.</li>
+    <li>victory(tag=meme_HighLife)            ->Los [foeSoldiers] de [foeLeader], armados cada uno con una [place_personalWeapon], asaltaron el [place_community] de los [memberNamePlural]. [founderName] les ofreció la paz, y los [foeSoldiers] bajaron sus armas.</li>
     <li>setup(tag=meme_HighLife)              ->Expulsado de la sociedad, nuestro fundador [founderName] viajó a la selva e ingirió las hierbas exóticas que allí había. [founder_pronoun] encontró la verdad dentro de su propia conciencia alterada.</li>
     <li>story(uses=1,tag=meme_HighLife)       ->Para profundizar en su comprensión, [founderName] reunió a sus seguidores cada semana para compartir nuevos estados mentales inducidos por sustancias químicas.</li>
     <li>lessonIntro(tag=meme_HighLife)         ->Drogarse una vez no era suficiente. Había que hacerlo mil veces, entonces todas las piezas del rompecabezas encajaron en mi cerebro reventado como una casa que se cae, pero al revés.</li>
@@ -652,7 +657,7 @@
     <li>intro(tag=meme_Nudism)              ->En el [place_summary] [place_name], los fieles de [deity0_name] se reunían en su [altarRoomLabel] y rezaban desnudos, convencidos de que así honraban mejor la verdad del cuerpo.</li>
     <li>conflict(tag=meme_Nudism)           ->Un hipócrita [foeLeader] se hizo con el poder y exigió que todo el mundo llevara ropa ajustada.</li>
     <li>founderJoin(tag=meme_Nudism)        ->El más fiel seguidor de [deity0_name], [founderName], se presentó ante el [place_powerCenter], se arrancó su ropa y se mostró a sí mismo desafiando las órdenes.</li>
-    <li>victory(tag=meme_Nudism)            ->[founderName] rezó a [deity0_name], quien engullió el [place_name] en una ola de calor. Los [foeSoldiers] se despojaron de sus ropas para no perecer, y el [foeLeader] huyó avergonzado.</li>
+    <li>victory(tag=meme_Nudism)            ->[founderName] rezó a [deity0_name], quien engulló el [place_name] en una ola de calor. Los [foeSoldiers] se despojaron de sus ropas para no perecer, y el [foeLeader] huyó avergonzado.</li>
     <li>setup(tag=meme_Nudism)              ->[founderName] estaba esclavizado por el sistema, uniformado y controlado como los demás. Un día, [founder_pronoun] se quitó toda la ropa y corrió desnudo, y nació nuestro movimiento.</li>
     <li>story(uses=1,tag=meme_Nudism)       ->[founderName] aplicó la regla de no vestirse para mantener a los creyentes centrados en el verdadero objetivo y no en las apariencias materiales.</li>
     <li>lessonIntro(tag=meme_Nudism)         ->Durante los primeros años, saltar desnudo en el parque era vergonzoso. Pero después se convirtió en algo liberador. Aprendí cosas de la gente que pasaba. Por ejemplo:</li>
@@ -1457,7 +1462,7 @@
     <li>dangerousMining->insectos con microchips</li>
     <li>dangerousMining->explosiones nucleares</li>
     <li>setup(tag=meme_Tunneler)           ->En un mundo superficial y sin sentido, [founderName] meditó en una cueva profunda y encontró el sentido, y fundó nuestro movimiento.</li>
-    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName] escondió tesoros en profundas cavernas, para que los [memberNamePlural] aprendieran a cavar en las profundidades en busca de ellos.</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName] escondió tesoros en profundas cavernas, para que el grupo de [memberNamePlural] aprendiera a cavar en las profundidades en busca de ellos.</li>
     <li>lessonIntro(tag=meme_Tunneler)         ->El códice que encontré en la ciudad de las profundidades me enseñó una lección por encima de todas las demás:</li>
     <li>lesson(tag=meme_Tunneler)              ->el sol al aire libre no es un lugar de florecimiento humano, sino un lugar de muerte humana</li>
     <li>lessonReinforcement(tag=meme_Tunneler) ->Así que toma una pala y empieza a cavar conmigo. Solo es una tumba si nos detenemos.</li>

@@ -37,7 +37,7 @@
   <!-- EN: Deathrest connection limit -->
   <StatsReport_DeathrestConnectionLimit>Límite de conexión de mortisueño</StatsReport_DeathrestConnectionLimit>
   <!-- EN: How many of these buildings can connect to a deathrester while deathresting. This number is also limited by the person's deathrest capacity. -->
-  <StatsReport_DeathrestConnectionLimit_Desc>Cuántos de estos edificios se pueden conectar a un mortisoñador mientras está mortisoñando. Este número se limita por la capacidad de mortisueño de la persona.</StatsReport_DeathrestConnectionLimit_Desc>
+  <StatsReport_DeathrestConnectionLimit_Desc>Cuántos de estos dispositivos se pueden conectar a un mortisoñador mientras está mortisoñando. Este número se limita por la capacidad de mortisueño de la persona.</StatsReport_DeathrestConnectionLimit_Desc>
 
   <!-- EN: Growth tier -->
   <StatsReport_GrowthTier>Desarrollo</StatsReport_GrowthTier>
@@ -63,7 +63,7 @@
   <!-- EN: Has {0_label} gene -->
   <StatsReport_HasGene>Tiene el gen {0_label}</StatsReport_HasGene>
   <!-- EN: A person of the {0} xenotype.\n\nAbout {0}s: -->
-  <StatsReport_NonBaselinerDescription>Una persona del xenotipo {0}.\n\nSobre los {0}s</StatsReport_NonBaselinerDescription>
+  <StatsReport_NonBaselinerDescription>Una persona del xenotipo {0}.\n\nInformación sobre este xenotipo:</StatsReport_NonBaselinerDescription>
   
   <!-- EN: Lifestage -->
   <Stat_Thing_Apparel_ValidLifestage>Etapa de vida</Stat_Thing_Apparel_ValidLifestage>
@@ -94,9 +94,9 @@
   <!-- EN: {0_label} addiction chance factor -->
   <AddictionChanceFactor>Probabilidad de adicción {replace: a {0_definite}; "a el "-"al "}</AddictionChanceFactor>
   <!-- EN: {0_label} overdose chance factor -->
-  <OverdoseChanceFactor>{0_label} de factor de probabilidad de sobredosis</OverdoseChanceFactor>
+  <OverdoseChanceFactor>Factor de probabilidad de sobredosis de {0_label}</OverdoseChanceFactor>
   <!-- EN: {0_label} tolerance buildup factor -->
-  <ToleranceBuildupFactor>{0_label} de factor de acumulación de tolerancia</ToleranceBuildupFactor>
+  <ToleranceBuildupFactor>Factor de acumulación de tolerancia {replace: a {0_definite}; "a el "-"al "}</ToleranceBuildupFactor>
   <!-- EN: Immune to {0_label} addiction. -->
   <AddictionImmune>Inmune a la adicción {replace: a {0_definite}; "a el "-"al "}.</AddictionImmune>
   <!-- EN: Immune to food poisoning. -->
@@ -104,7 +104,7 @@
   <!-- EN: Will never do social fights. -->
   <WillNeverSocialFight>Nunca tendrá conflictos sociales.</WillNeverSocialFight>
   <!-- EN: Aging factors -->
-  <AgeFactors>Factor de envejecimiento</AgeFactors>
+  <AgeFactors>Factores de envejecimiento</AgeFactors>
   <!-- EN: Work speed is unaffected by darkness. -->
   <UnaffectedByDarkness>La velocidad de trabajo no se ve afectada por la oscuridad.</UnaffectedByDarkness>
   <!-- EN: Adds one level of passion in {0_label}. -->
@@ -130,12 +130,12 @@
   <StatsReport_GrowthVatSpeedFactor>Velocidad de la incubadora</StatsReport_GrowthVatSpeedFactor>
 
   <!-- EN: Carriers cannot build a tolerance to {0_label}. -->
-  <GeneToleranceBuildupImmune>Los portadores no pueden crear una tolerancia {replace: a {0_definite}; "a el "-"al "}.</GeneToleranceBuildupImmune>
+  <GeneToleranceBuildupImmune>Los portadores no pueden desarrollar tolerancia {replace: a {0_definite}; "a el "-"al "}.</GeneToleranceBuildupImmune>
   <!-- EN: Carriers build a tolerance to {0_label} {1} as quickly. -->
-  <GeneToleranceBuildupFactor>Los portadores desarrollan una tolerancia {replace: a {0_definite}; "a el "-"al "} {1} con la misma rapidez.</GeneToleranceBuildupFactor>
+  <GeneToleranceBuildupFactor>Los portadores desarrollan tolerancia {replace: a {0_definite}; "a el "-"al "} a un {1} de la velocidad normal.</GeneToleranceBuildupFactor>
   <!-- EN: Carriers cannot overdose on {0_label}. -->
   <GeneOverdoseImmune>Los portadores no pueden tener una sobredosis de {0_label}.</GeneOverdoseImmune>
   <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
-  <GeneOverdoseFactor>Los portadores tienen un {1} de probabilidades de tener una sobredosis de {0_label}.</GeneOverdoseFactor>
+  <GeneOverdoseFactor>Los portadores tienen un {1} de la probabilidad habitual de sufrir una sobredosis de {0_label}.</GeneOverdoseFactor>
 
 </LanguageData>

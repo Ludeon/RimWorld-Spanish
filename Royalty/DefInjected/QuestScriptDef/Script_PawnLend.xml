@@ -24,7 +24,7 @@
     <li>disease->plaga</li>
     <li>disease->malaria</li>
     <li>disease->infección</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_TheCap] [asker_royalTitleInCurrentFaction] [asker_nameFull], de la facción [asker_faction_name], necesita de personas para ayudarle a [dutyRoyalDescription].\n\nTe está pidiendo que le prestes a [colonistCountToLend] para servirle durante [lendForDays] días.\n\n[willSendShuttle]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_TheCap] [asker_royalTitleInCurrentFaction] [asker_nameFull], de la facción [asker_faction_name], necesita personas para ayudarle a [dutyRoyalDescription].\n\nTe está pidiendo que le prestes [colonistCountToLend] para servirle durante [lendForDays] días.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colono[minAgeOrOlder]</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonos[minAgeOrOlder]</li>
     <li>willSendShuttle->[asker_pronoun] enviará un transbordador para recoger [colonists].</li>

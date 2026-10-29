@@ -73,8 +73,10 @@
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] intentó tirar [TOOL_label] a los ojos de [RECIPIENT_definite], pero [RECIPIENT_definite] lo esquivó.</li>
-    <li>r_logentry->[INITIATOR_definite] intentó tirar [TOOL_label] a los ojos de [RECIPIENT_definite], pero [RECIPIENT_definite] lo bloqueó.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó arrojar [TOOL_label] {replace: a los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}, pero [RECIPIENT_definite] lo esquivó.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó arrojar [TOOL_label] {replace: a los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}, pero [RECIPIENT_definite] lo bloqueó.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó arrojar un puñado de [TOOL_label] {replace: a los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}, pero [RECIPIENT_definite] reaccionó rápido y lo esquivó.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó {replace: cegar a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} lanzándole [TOOL_label], pero [RECIPIENT_definite] logró interponer su defensa y bloquearlo.</li>
   </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   
   <!-- EN:
@@ -82,15 +84,18 @@
     <li>r_logentry(p=0.2)->[INITIATOR_definite] kicked a spray of [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] tiró [TOOL_label] a los ojos de [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] esparció [TOOL_label] a los ojos de [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] arrojó [TOOL_label] {replace: a los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] esparció [TOOL_label] {replace: hacia los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
+    <li>r_logentry->[INITIATOR_definite] arrojó un puñado de [TOOL_label] directamente {replace: hacia los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} en una sucia maniobra.</li>
+    <li>r_logentry->[INITIATOR_definite] dio una patada al suelo, haciendo volar [TOOL_label] {replace: hacia los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
   </Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but missed.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] intentó tirar [TOOL_label] a los ojos de [RECIPIENT_definite], pero falló.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó arrojar [TOOL_label] {replace: a los ojos de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}, pero falló.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó {replace: cegar a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} arrojándole [TOOL_label], pero no acertó.</li>
   </Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
   
   <!-- EN:
@@ -184,7 +189,7 @@
     <li>flavortext_situation->con fluidos que gotean de la [woundname]</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->y exponiendo la carne que está debajo</li>
     <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->y exponiendo la maquinaria que está debajo</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->y dejando una sangrienta [woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->dejando una [woundname] sangrienta</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] tiras desordenadas</li>
     <li>destroyed_suffix->[to] tiras</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] piezas desordenadas</li>
@@ -237,7 +242,7 @@
     <li>destroyed_past->desgarrado</li>
     <li>destroyed_present->golpeando</li>
     <li>destroyed_present->lacerando</li>
-    <li>destroyed_present->desprediendo</li>
+    <li>destroyed_present->desprendiendo</li>
     <li>destroyed_present->triturando</li>
     <li>destroyed_present->desgarrando</li>
   </Maneuver_Scratch_Damage.rulePack.rulesStrings>
@@ -306,7 +311,7 @@
     <li>flavortext_situation->con fluidos goteando de la [woundname]</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->exponiendo la carne debajo</li>
     <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->exponiendo los mecanismos debajo</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->dejando una sangrienta [woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->dejando una [woundname] sangrienta</li>
     <li>destroyed_past->biseccionado</li>
     <li>destroyed_past->dividido</li>
     <li>destroyed_past->cortado a la mitad</li>
@@ -441,8 +446,8 @@
     <li>woundname_mas->agujero</li>
     <li>woundname->herida</li>
     <li>woundname->hendidura</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->dejando una sangrienta [woundname]</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->dejando un sangriento [woundname_mas]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->dejando una [woundname] sangrienta</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->dejando un [woundname_mas] sangriento</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->dejando una desgarradora [woundname]</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->dejando un desgarrador [woundname_mas]</li>
     <li>destroyed_past->empalado</li>

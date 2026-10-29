@@ -11,7 +11,7 @@
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
   <MinimumRoyalTitleInspectString>Título mínimo ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
   <!-- EN: Trading here requires title: {0} -->
-  <RequiresTradePermission>Se requieren títulos para comerciar: {0}</RequiresTradePermission>
+  <RequiresTradePermission>Se requiere el título {0} para comerciar aquí</RequiresTradePermission>
   <!-- EN: Personal bedroom (partner allowed) -->
   <RequirementPersonalBedroom>Dormitorio personal (pareja permitida)</RequirementPersonalBedroom>
   
@@ -23,7 +23,7 @@
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION} -->
   <PsycastNeurotrainerDescription>Una superdosis de un solo uso de mecanitas que entrena un poder psíquico específico.\n\nLa dosis se administra a través de la órbita del ojo. Una vez liberadas en el cerebro, las mecanitas forman el conocimiento de una habilidad específica, transmutándose en tejido neural según sea necesario.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort} usó el neuroentrenador para aprender el poder psíquico {1}.</AbilityNeurotrainerUsed>
+  <AbilityNeurotrainerUsed>{USER_labelShort} usó el psientrenador para aprender el poder psíquico {1}.</AbilityNeurotrainerUsed>
   <!-- EN: requires psylink -->
   <PsycastNeurotrainerNoPsylink>requiere psienlace</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
@@ -121,7 +121,7 @@
   <!-- EN: Max psylink level -->
   <BeginLinkingRitualMaxPsylinkLevel>Nivel máximo de psienlace</BeginLinkingRitualMaxPsylinkLevel>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
-  <BeginLinkingRitualNeedLinkSpot>Se necesita un punto libre y accesible a 3 casillas para el ritual</BeginLinkingRitualNeedLinkSpot>
+  <BeginLinkingRitualNeedLinkSpot>Se necesita un punto libre y accesible a no más de 3 casillas para el ritual</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>Ritual de vinculación completado</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
@@ -163,10 +163,10 @@
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>¡No todos los objetos requeridos están cargados aún!</ShuttleRequiredItemsNotSatisfied>
   <!-- EN: Cannot load {0_labelShort} -->
-  <CannotLoadIntoShuttle>No puede cargar {0_labelShort}</CannotLoadIntoShuttle>
+  <CannotLoadIntoShuttle>No se puede cargar {0_labelShort}</CannotLoadIntoShuttle>
 
   <!-- EN: no heat to dump. -->
-  <AbilityNoEntropyToDump>no hay calentamiento neural que desechar.</AbilityNoEntropyToDump>
+  <AbilityNoEntropyToDump>no hay calentamiento neural que disipar.</AbilityNoEntropyToDump>
 
   <!-- EN: level {0} -->
   <LevelNum>nivel {0}</LevelNum> <!-- Psylink level as reported in health tab-->

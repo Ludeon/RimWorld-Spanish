@@ -20,14 +20,14 @@
   <ReliquaryPilgrims.questContentRules.rulesStrings>
     <li>pilgrimsArrivedLetterLabel->[pilgrimSingularOrPlural] [factionAdj] [hasHave] llegado</li>
     <li>pilgrimsArrivedLetterText->[questDescription]</li>
-    <li>delayedRewardLetterText->[pawns0_nameDef] te agradece por permitir[andFollowers] venerar la reliquia [relic_name] en el [venerateDate]. Como recompensa, [pawns0_nameDef] te envía lo siguiente por medio de cápsulas de transporte (valor total [rewardsMarketValue_money]):\n\n[rewards].</li>
+    <li>delayedRewardLetterText->[pawns0_nameDef] te agradece por haber podido venerar la reliquia [relic_name] en el [venerateDate][andFollowers]. Como recompensa, [pawns0_nameDef] te envía lo siguiente por medio de cápsulas de transporte (valor total [rewardsMarketValue_money]):\n\n[rewards].</li>
     <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] [hasHave] terminado de venerar la reliquia [relic_name] y se [areIs] marchando.</li>
     <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] [hasHave] dejado el mapa.</li>
     <li>areIs(pilgrimCount==1)->está</li>
     <li>areIs(pilgrimCount>=2)->están</li>
-    <li>andFollowers(pilgrimCount==1)->le</li>
-    <li>andFollowers(pilgrimCount==2)->le junto a otro [faction_pawnSingular]</li>
-    <li>andFollowers(pilgrimCount>=3)->le junto a otros [faction_pawnsPlural]</li>
+    <li>andFollowers(pilgrimCount==1)-></li>
+    <li>andFollowers(pilgrimCount==2)-> junto a otro [faction_pawnSingular]</li>
+    <li>andFollowers(pilgrimCount>=3)-> junto a otros [faction_pawnsPlural]</li>
     <li>pilgrimSingularOrPlural(pilgrimCount==1)->peregrino</li>
     <li>pilgrimSingularOrPlural(pilgrimCount>=2)->peregrinos</li>
     <li>factionAdj(pilgrimFaction==true)-></li>
@@ -63,17 +63,21 @@
     <li>visitSingularOrPlural(pilgrimCount>=2)->visit</li>
   -->
   <ReliquaryPilgrims.questDescriptionRules.rulesStrings>
-    <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [siendo] mientras [visitSingularOrPlural] la antigua reliquia, [mayOffers] ofrecerte una recompensa.</li>
-    <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural], [childGender], [hasHave] llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [siendo] mientras [visitSingularOrPlural] la antigua reliquia, [mayOffers] ofrecerte una recompensa.</li>
-    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->Un grupo de [pilgrimsLabelSingularOrPlural], incluyendo un niño, ha llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [siendo] mientras [visitSingularOrPlural] la antigua reliquia, [mayOffers] ofrecerte una recompensa.</li>
-    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->Un grupo de [pilgrimsLabelSingularOrPlural], incluyendo algunos niños, ha llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [siendo] mientras [visitSingularOrPlural] la antigua reliquia, [mayOffers] ofrecerte una recompensa.</li>
-    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->Un grupo de niños [pilgrimsLabelSingularOrPlural] ha llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [siendo] mientras [visitSingularOrPlural] la antigua reliquia, [mayOffers] ofrecerte una recompensa.</li>
+    <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [receiveRespect] el debido respeto mientras [visitSingularOrPlural] la antigua reliquia, [mayOffer] una recompensa.</li>
+    <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural], menor, [hasHave] llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [receiveRespect] el debido respeto mientras [visitSingularOrPlural] la antigua reliquia, [mayOffer] una recompensa.</li>
+    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->Un grupo de [pilgrimsLabelSingularOrPlural], incluido un menor, ha llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [receiveRespect] el debido respeto mientras [visitSingularOrPlural] la antigua reliquia, [mayOffer] una recompensa.</li>
+    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->Un grupo de [pilgrimsLabelSingularOrPlural], incluidos algunos menores, ha llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [receiveRespect] el debido respeto mientras [visitSingularOrPlural] la antigua reliquia, [mayOffer] una recompensa.</li>
+    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->Un grupo de [pilgrimsLabelSingularOrPlural] menores ha llegado a venerar la reliquia [relic_name].\n\nSi te aseguras de que [isAre] a salvo y [receiveRespect] el debido respeto mientras [visitSingularOrPlural] la antigua reliquia, [mayOffer] una recompensa.</li>
     <li>isAre(pilgrimCount==1)->esté</li>
     <li>isAre(pilgrimCount>=2)->estén</li>
     <li>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</li>
     <li>pronounSingularOrPlural(pilgrimCount>=2)->ellos</li>
+    <li>receiveRespect(pilgrimCount==1)->reciba</li>
+    <li>receiveRespect(pilgrimCount>=2)->reciban</li>
     <li>visitSingularOrPlural(pilgrimCount==1)->visita</li>
     <li>visitSingularOrPlural(pilgrimCount>=2)->visitan</li>
+    <li>mayOffer(pilgrimCount==1)->puede que te ofrezca</li>
+    <li>mayOffer(pilgrimCount>=2)->puede que te ofrezcan</li>
   </ReliquaryPilgrims.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'s [visitAdj] [visit]</li>
@@ -118,11 +122,11 @@
     <li>visitAdj1->sacramental</li>
     <li>visitAdj1->santificado</li>
     <li>visit->la visita</li>
-    <li>visit->el peregrinaje</li>
-    <li>visit1->la misión</li>
+    <li>visit1->el peregrinaje</li>
+    <li>visit->la misión</li>
     <li>visit->la expedición</li>
     <li>visit->la excursión</li>
-    <li>visit->la visita tour</li>
+    <li>visit1->el recorrido</li>
     <li>visit->la veneración</li>
   </ReliquaryPilgrims.questNameRules.rulesStrings>
   

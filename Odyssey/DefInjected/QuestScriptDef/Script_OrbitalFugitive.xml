@@ -69,7 +69,8 @@
     <li>questName->Una recompensa por [fugitive_nameDef]</li>
     <li>questName->El [criminalM] [fugitive_nameDef]</li>
     <li>questName->La [criminalF] [fugitive_nameDef]</li>
-    <li>questName->El [criminal] orbital</li>
+    <li>questName(fugitive_gender!=Female)->El [criminalM] orbital</li>
+    <li>questName(fugitive_gender==Female)->La [criminalF] orbital</li>
     <li>criminal->criminal</li>
     <li>criminal->fugitivo</li>
     <li>criminal->forajido</li>

@@ -6,7 +6,7 @@
   <!-- EN: Cannot use: {0} -->
   <CannotUseReason>No se puede usar: {0}</CannotUseReason>
   <!-- EN: Cannot use: EMP -->
-  <CannotUseSolarFlare>No se puede usar: Erupción solar</CannotUseSolarFlare>
+  <CannotUseSolarFlare>No se puede usar: PEM</CannotUseSolarFlare>
   <!-- EN: Cannot use: No power -->
   <CannotUseNoPower>No se puede usar: Sin energía</CannotUseNoPower>
   <!-- EN: Cannot use: No path -->
@@ -25,7 +25,7 @@
   <!-- EN: Attack {1_labelShort} -->
   <Attack>Atacar {1_labelShort}</Attack>
   <!-- EN: Fire at {1_labelShort} -->
-  <FireAt>Disparar a {1_label}</FireAt>
+  <FireAt>Disparar a {1_labelShort}</FireAt>
   <!-- EN: Remove -->
   <Remove>Eliminar</Remove>
 
@@ -85,13 +85,13 @@
   <!-- EN: missing {0} -->
   <MissingMaterials>necesita {0}</MissingMaterials>
   <!-- EN: No medicine for restriction '{CATEGORY}'. -->
-  <NoMedicineMatchingCategory>No hay restricciones de medicina para "{CATEGORY}".</NoMedicineMatchingCategory>
+  <NoMedicineMatchingCategory>No hay medicina para la restricción "{CATEGORY}".</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>bajo la habilidad requerida {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
-  <UnderAllowedSkill>bajo habilidad permitida {0}</UnderAllowedSkill>
+  <UnderAllowedSkill>por debajo de la habilidad permitida {0}</UnderAllowedSkill>
   <!-- EN: above allowed skill {0} -->
-  <AboveAllowedSkill>habilidad permitida {0}</AboveAllowedSkill>
+  <AboveAllowedSkill>por encima de la habilidad permitida {0}</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>no puede llegar fuera de la celda</NoReachableOutsideCell>
   <!-- EN: cannot exit map -->
@@ -99,7 +99,7 @@
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>Falta el nivel de habilidad requerido</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
-  <AnimalInteractedTooRecently>Este animal ya interactuó demasiado</AnimalInteractedTooRecently>
+  <AnimalInteractedTooRecently>interacción con el animal demasiado reciente</AnimalInteractedTooRecently>
   <!-- EN: interacted with too recently -->
   <PrisonerInteractedTooRecently>ya ha interactuado recientemente</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
@@ -107,7 +107,7 @@
   <!-- EN: not enough food -->
   <NoFood>sin comida</NoFood>
   <!-- EN: no food matching restrictions -->
-  <NoFoodMatchingRestrictions>no hay restricciones de comida coincidentes</NoFoodMatchingRestrictions>
+  <NoFoodMatchingRestrictions>no hay comida que cumpla las restricciones</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>Sin {0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
@@ -115,9 +115,9 @@
   <!-- EN: animals skill too low - need {0} -->
   <AnimalsSkillTooLow>Habilidad del animal demasiado baja - necesitas {0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
-  <CantInteractAnimalDowned>animal sacrificado</CantInteractAnimalDowned>
+  <CantInteractAnimalDowned>animal incapacitado</CantInteractAnimalDowned>
   <!-- EN: animal sleeping -->
-  <CantInteractAnimalAsleep>descanso animal</CantInteractAnimalAsleep>
+  <CantInteractAnimalAsleep>animal dormido</CantInteractAnimalAsleep>
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>animal ocupado</CantInteractAnimalBusy>
   <!-- EN: no allowed reachable pens -->
@@ -157,7 +157,7 @@
   <!-- EN: not ready for surgery -->
   <NotSurgeryReady>no está listo para la cirugía</NotSurgeryReady>
   <!-- EN: skill incapable -->
-  <SkillDisabled>habilidad incapaz</SkillDisabled>
+  <SkillDisabled>incapaz por habilidad</SkillDisabled>
   <!-- EN: too bright -->
   <CantSowCavePlantBecauseOfLight>demasiado brillante</CantSowCavePlantBecauseOfLight>
   <!-- EN: unroofed -->
@@ -177,13 +177,13 @@
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>ya instalado</InstallImplantAlreadyInstalled>
   <!-- EN: requires an existing {0} -->
-  <InstallImplantHediffRequired>requiere un {0}</InstallImplantHediffRequired>
+  <InstallImplantHediffRequired>requiere tener {0}</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>nivel máximo</InstallImplantAlreadyMaxLevel>
   <!-- EN: requires min level {0} -->
   <InstallImplantMinLevel>requiere nivel {0}</InstallImplantMinLevel>
   <!-- EN: psychically deaf -->
-  <InstallImplantPsychicallyDeaf>psíquicamente ciego</InstallImplantPsychicallyDeaf>
+  <InstallImplantPsychicallyDeaf>psíquicamente sordo</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Mejorar {0} al nivel {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
@@ -213,7 +213,7 @@
   <!-- EN: Cannot arrest -->
   <CannotArrest>No se puede arrestar</CannotArrest>
   <!-- EN: {0} chance of arrest -->
-  <ArrestChance>{0} probabilidades de arrestar</ArrestChance>
+  <ArrestChance>{0} de probabilidad de arresto</ArrestChance>
 
   <!-- EN: Capture {1_labelShort} -->
   <Capture>Capturar a {1_labelShort}</Capture>
@@ -256,13 +256,13 @@
   <!-- EN: Already occupied -->
   <CryptosleepCasketOccupied>Ya ocupado</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
-  <NoPrisonerBed>No hay una cama para prisioneros al alcance, sin reservar y en interiores</NoPrisonerBed>
+  <NoPrisonerBed>No hay una cama para prisioneros al alcance, sin reservar, en interiores y a una temperatura segura.</NoPrisonerBed>
   <!-- EN: No prisoner bed available. -->
   <NoPrisonerBedShort>No hay una cama para prisioneros disponible.</NoPrisonerBedShort>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
-  <NoNonPrisonerBed>No hay una cama para prisioneros al alcance y sin reservar</NoNonPrisonerBed>
+  <NoNonPrisonerBed>No hay una cama que no sea para prisioneros al alcance, sin reservar y a una temperatura segura.</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
-  <NoAnimalBed>No hay una cama para animales al alcance y sin reservar.</NoAnimalBed>
+  <NoAnimalBed>No hay una cama para animales al alcance, sin reservar y a una temperatura segura.</NoAnimalBed>
   <!-- EN: No reachable, unforbidden, un-reserved {0} -->
   <NoItemReservedOrReachable>{0} no disponible al alcance, sin prohibir ni reservar</NoItemReservedOrReachable>
   <!-- EN: No unforbidden, un-reserved {0} -->
@@ -295,7 +295,7 @@
   <!-- EN: Cannot equip {0} -->
   <CannotEquip>{0} no se puede equipar</CannotEquip>
   <!-- EN: Cannot man {1_labelShort} -->
-  <CannotManThing>No puede ser hombre {1_labelShort}</CannotManThing>
+  <CannotManThing>No se puede manejar {1_labelShort}</CannotManThing>
   
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>Forzar a vestir {1_labelShort}</ForceWear>
@@ -308,7 +308,7 @@
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>Forzar a equipar {1_labelShort}</ForceEquipApparel>
   <!-- EN: Force target to equip {1_labelShort}... -->
-  <ForceTargetToEquipApparel>No se puede forzar al objetivo a equipar {1_labelShort}</ForceTargetToEquipApparel>
+  <ForceTargetToEquipApparel>Forzar al objetivo a equipar {1_labelShort}...</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>No se puede equipar con {1_label}</CannotEquipApparel>
   <!-- EN: Cannot force target to equip {1_label} -->
@@ -323,7 +323,7 @@
   <!-- EN: Too few -->
   <ReloadNotEnough>Escaso</ReloadNotEnough>
   <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
-  <ReloadCannotCarryEnough>No puede llevar suficiente {AMMO_label} para recargar.</ReloadCannotCarryEnough>
+  <ReloadCannotCarryEnough>No puede llevar suficiente {AMMO_label} para recargar una carga.</ReloadCannotCarryEnough>
   
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>No se puede recoger {1_labelShort}</CannotPickUp>
@@ -347,13 +347,13 @@
   <!-- EN: Cannot load {1_label} (all) onto pack animal -->
   <CannotGiveToPackAnimalAll>No se puede cargar {1_label} (todos) en el animal de carga</CannotGiveToPackAnimalAll>
   <!-- EN: Load {1_label} onto pack animal -->
-  <GiveToPackAnimal>Dar {1_label} al animal de carga</GiveToPackAnimal>
+  <GiveToPackAnimal>Cargar {1_label} en el animal de carga</GiveToPackAnimal>
   <!-- EN: Load {1_label} (all) onto pack animal -->
-  <GiveToPackAnimalAll>Dar {1_label} (todos) al animal de carga</GiveToPackAnimalAll>
+  <GiveToPackAnimalAll>Cargar {1_label} (todos) en el animal de carga</GiveToPackAnimalAll>
   <!-- EN: Load {1_labelShort} onto pack animal... -->
-  <GiveToPackAnimalSome>Dar {1_labelShort} al animal de carga...</GiveToPackAnimalSome>
+  <GiveToPackAnimalSome>Cargar {1_labelShort} en el animal de carga...</GiveToPackAnimalSome>
   <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
-  <GiveToPackAnimalCount>Tomar {1_labelShort} x{{0}}</GiveToPackAnimalCount>
+  <GiveToPackAnimalCount>Cargar {1_labelShort} x{{0}} en el animal de carga</GiveToPackAnimalCount>
   
   <!-- EN: Cannot load {1_label} into caravan -->
   <CannotLoadIntoCaravan>No puede cargar {1_label} en la caravana</CannotLoadIntoCaravan>
@@ -416,7 +416,7 @@
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>la cama médica no es para esclavos</NotForSlaves>
   <!-- EN: Medical care disabled -->
-  <MedicalCareDisabled>Cuidados médicos deshabilitados</MedicalCareDisabled>
+  <MedicalCareDisabled>Cuidados médicos desactivados</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>ocupado por {0}</SomeoneElseSleeping>
   
@@ -474,24 +474,24 @@
   <!-- EN: Already {0} {2_labelShort} -->
   <CannotGenericAlreadyAm>No se puede {0} {2_labelShort}: ya lo está haciendo</CannotGenericAlreadyAm>
   <!-- EN: Already {0} -->
-  <CannotGenericAlreadyAmCustom>No se puede {0}</CannotGenericAlreadyAmCustom>
+  <CannotGenericAlreadyAmCustom>Ya se está {0}</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Will never do {0} -->
-  <CannotPrioritizeWorkTypeDisabled>Nunca hará {0}</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>No puede hacer este trabajo ({0})</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>falta el título necesario</MissingTitleAbility>
 
   <!-- EN: Will never {0} -->
-  <CannotPrioritizeWorkGiverDisabled>Nunca hará {0}</CannotPrioritizeWorkGiverDisabled>
+  <CannotPrioritizeWorkGiverDisabled>No puede hacer esta tarea ({0})</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
-  <WillNever>nunca hará {0}</WillNever>
+  <WillNever>{replace: ^{0}; "^investigación"-"no puede investigar"; "^"-"no puede ocuparse de "}</WillNever>
 
   <!-- EN: Not assigned to {0} -->
-  <CannotPrioritizeNotAssignedToWorkType>No asignado a {0}</CannotPrioritizeNotAssignedToWorkType>
+  <CannotPrioritizeNotAssignedToWorkType>Trabajo no asignado ({0})</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
-  <NotAssigned>no asignado</NotAssigned>
+  <NotAssigned>sin asignar</NotAssigned>
   <!-- EN: not assigned to {0} -->
-  <NotAssignedToWorkType>no asignado a {0}</NotAssignedToWorkType>
+  <NotAssignedToWorkType>trabajo no asignado ({0})</NotAssignedToWorkType>
 
   <!-- EN: Research is a long-term task -->
   <CannotPrioritizeResearch>No se puede priorizar: la investigación es una tarea a largo plazo</CannotPrioritizeResearch>
@@ -541,7 +541,7 @@
   <!-- EN: Designate all -->
   <DesignateAll>Designar a todos</DesignateAll>
   <!-- EN: {0} affected -->
-  <CountToDesignate>{0} afectado</CountToDesignate>
+  <CountToDesignate>{replace: ^{0} afectados; "^1 afectados"-"1 afectado"; "^"-""}</CountToDesignate>
   <!-- EN: Forbid all items -->
   <ForbidAllItems>Prohibir todos los artículos</ForbidAllItems>
   <!-- EN: Unforbid all items -->
@@ -589,9 +589,9 @@
   <!-- EN: Tend {0} -->
   <Tend>Atender {0}</Tend>
   <!-- EN: Cannot tend {0} -->
-  <CannotTend>No se puede atender a {0}</CannotTend>
+  <CannotTend>No se puede atender {replace: a {0_definite}; "a el "-"al "}</CannotTend>
   <!-- EN: {0} does not require tending -->
-  <TendingNotRequired>{0} no necesita atención</TendingNotRequired>
+  <TendingNotRequired>No necesita ser atendid{0_gender ? o : a}</TendingNotRequired>
   <!-- EN: without medicine -->
   <WithoutMedicine>sin medicina</WithoutMedicine>
 
@@ -621,7 +621,7 @@
   <FoodNotSuitable>Alimento no adecuado</FoodNotSuitable>
 
   <!-- EN: Unsuitable drug -->
-  <DrugNotSuitable>Medicina no adecuada</DrugNotSuitable>
+  <DrugNotSuitable>Droga no adecuada</DrugNotSuitable>
   
   <!-- Books -->
   <!-- EN: Assign reading... -->

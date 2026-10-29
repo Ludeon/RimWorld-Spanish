@@ -76,10 +76,8 @@
     <li>flavor(p=4)->en una [fireball]</li>
     <li>flavorsuffix(p=4)-></li>
     <li>flavorsuffix->, esparciendo [pieces] [everywhere]</li>
-    <li>flavorsuffix(subject_flesh!=Mechanoid,p=2)->, esparciendo [GoreMech]s [everywhere]</li>
-    <li>flavorsuffix(subject_flesh!=Mechanoid,p=2)->, esparciendo [GoreMechPl] [everywhere]</li>
-    <li>flavorsuffix(subject_flesh!=Mechanoid)->, dejando un montón de [GoreMech]s</li>
-    <li>flavorsuffix(subject_flesh!=Mechanoid)->, dejando un montón de [GoreMechPl]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->, esparciendo [Gore_Plural] [everywhere]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->, dejando un montón de [Gore_Plural]</li>
     <li>flavorsuffix->, dejando un pequeño cráter</li>
     <li>fireball(p=3)->bola de fuego</li>
     <li>fireball->bola de fuego</li>
@@ -100,8 +98,10 @@
     <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   -->
   <Transition_DiedInclude.rulePack.rulesStrings>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] ha causado que [SUBJECT_definite] [die].</li>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty] ha causado que [SUBJECT_definite] [die].</li>
+    <li>r_logentry(p=1.5,SUBJECT_flesh!=Mechanoid)->[CULPRITHEDIFF_labelNoun] ha causado la muerte {replace: de [SUBJECT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
+    <li>r_logentry(p=1.5,SUBJECT_flesh!=Mechanoid)->[CULPRITHEDIFF_labelNounPretty] ha causado la muerte {replace: de [SUBJECT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
+    <li>r_logentry(p=1.5,SUBJECT_flesh==Mechanoid)->[CULPRITHEDIFF_labelNoun] ha causado que [SUBJECT_definite] [die].</li>
+    <li>r_logentry(p=1.5,SUBJECT_flesh==Mechanoid)->[CULPRITHEDIFF_labelNounPretty] ha causado que [SUBJECT_definite] [die].</li>
     <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNoun] [flavorsuffix].</li>
     <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNounPretty] [flavorsuffix].</li>
     <li>r_logentry->[SUBJECT_definite] [died].</li>
@@ -139,30 +139,30 @@
     <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
   -->
   <Transition_Downed.rulePack.rulesStrings>
-    <li>r_logentry->[CULPRITHEDIFF_labelNoun] ha causado que [SUBJECT_definite] [collapsemeta].</li>
-    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] ha causado que [SUBJECT_definite] [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun] provocó que [SUBJECT_definite] [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] provocó que [SUBJECT_definite] [collapsemeta].</li>
     <li>r_logentry->[CULPRITHEDIFF_labelNoun] hizo que [SUBJECT_definite] [collapsemeta].</li>
     <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] hizo que [SUBJECT_definite] [collapsemeta].</li>
     <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun].</li>
     <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNounPretty].</li>
     <li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta].</li>
-    <li>collapse->colapse</li>
-    <li>collapse->caiga</li>
-    <li>collapse(SUBJECT_flesh!=Mechanoid)->se desmaye</li>
-    <li>collapse(SUBJECT_flesh==Mechanoid)->se estrelle</li>
-    <li>collapse(SUBJECT_flesh==Mechanoid)->se bloquee</li>
-    <li>collapse(SUBJECT_flesh==Mechanoid)->se apague</li>
+    <li>collapse->colapsara</li>
+    <li>collapse->cayera</li>
+    <li>collapse(SUBJECT_flesh!=Mechanoid)->se desmayara</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->se estrellara</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->se bloqueara</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->se apagara</li>
     <li>collapsed->colapsó</li>
     <li>collapsed->cayó</li>
     <li>collapsed(SUBJECT_flesh!=Mechanoid)->se desmayó</li>
     <li>collapsed(SUBJECT_flesh==Mechanoid)->se estrelló</li>
     <li>collapsed(SUBJECT_flesh==Mechanoid)->se bloqueó</li>
     <li>collapsed(SUBJECT_flesh==Mechanoid)->se apagó</li>
-    <li>helplessly->desamparadamente</li>
+    <li>helplessly->sin poder hacer nada</li>
     <li>helplessly(SUBJECT_flesh!=Mechanoid)->inconsciente</li>
-    <li>helplessly(SUBJECT_flesh!=Mechanoid)->débilmente</li>
-    <li>helplessly(SUBJECT_flesh!=Mechanoid,p=2)->incontrolablemente</li>
-    <li>helplessly(SUBJECT_flesh==Mechanoid)->débilmente</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->sin fuerzas</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid,p=2)->sin poder reaccionar</li>
+    <li>helplessly(SUBJECT_flesh==Mechanoid)->sin energía</li>
     <li>collapsemeta->[collapse]</li>
     <li>collapsemeta(p=0.5)->[collapse] [helplessly]</li>
     <li>collapsedmeta->[collapsed]</li>

@@ -16,8 +16,8 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->\n\n[helperKind_indefinite] se pondrá bajo tu control. Tendrás que darle alimento y alojamiento, y no debes de preocuparte si [helpers0_pronoun] muere en batalla, pues no habrá consecuencias.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] se pondrán bajo tu control. Tendrás que darles alimento y alojamiento, y no debes de preocuparte porque mueran en batalla, pues no habrá consecuencias.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\n[helperKind_indefinite] se pondrá bajo tu control. Tendrás que darle alimento y alojamiento, pero no debes preocuparte si [helpers0_pronoun] muere en batalla, pues no habrá consecuencias.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] se pondrán bajo tu control. Tendrás que darles alimento y alojamiento, pero no debes preocuparte si mueren en batalla, pues no habrá consecuencias.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] sido [helpersSent] para ayudarte.</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>

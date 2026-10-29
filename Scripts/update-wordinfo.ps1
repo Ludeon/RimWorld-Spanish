@@ -2,8 +2,58 @@
 
 $PSDefaultParameterValues["*:Encoding"] = "UTF8"
 
+Write-Host "Selecciona el modo de actualización:" -ForegroundColor Cyan
+Write-Host "  1. Conservar, ordenar y añadir" -ForegroundColor Green
+Write-Host "  2. Auditar palabras aparentemente obsoletas sin borrarlas" -ForegroundColor Yellow
+Write-Host "  3. Limpiar, ordenar y añadir" -ForegroundColor Red
+
+do {
+    $selection = Read-Host "Elige 1, 2 o 3"
+} until ($selection -in "1", "2", "3")
+
+$mode = switch ($selection) {
+    "1" { "Add" }
+    "2" { "Audit" }
+    "3" { "Prune" }
+}
+
+# Palabras que deben conservarse aunque no aparezcan en las fuentes examinadas.
+# Formato por línea: Expansion|Gender|word|optional reason
+$keepFile = Join-Path $PSScriptRoot "wordinfo-keep.txt"
+$keepEntries = @()
+if (Test-Path $keepFile) {
+    $keepEntries = Get-Content $keepFile |
+        Where-Object { $_.Trim() -and -not $_.TrimStart().StartsWith("//") } |
+        ForEach-Object {
+            $parts = $_ -split "\|", 4
+            if ($parts.Count -lt 3) {
+                Write-Warning "Entrada no válida en wordinfo-keep.txt: $_"
+                return
+            }
+            [PSCustomObject]@{
+                Root   = $parts[0].Trim()
+                Gender = $parts[1].Trim()
+                Word   = $parts[2].Trim()
+            }
+        }
+}
+
+function Test-WordInfoKeepEntry {
+    param(
+        [string]$Root,
+        [string]$Gender,
+        [string]$Word
+    )
+
+    return [bool]($keepEntries | Where-Object {
+        $_.Root -eq $Root -and $_.Gender -eq $Gender -and $_.Word -eq $Word
+    } | Select-Object -First 1)
+}
+
 # Create a temporary folder
 $temp = New-Item "$env:temp\$([GUID]::NewGuid())" -ItemType "Directory"
+$auditCandidates = @()
+$auditNewWords = @()
 
 # Define all roots: Core + DLCs
 $roots = Get-ChildItem -Directory |
@@ -14,8 +64,11 @@ $roots = Get-ChildItem -Directory |
 foreach ($root in $roots) {
     Write-Host "Procesando '$root'..." -ForegroundColor Green
 
-    # Create WordInfo/Gender folder
-    $main = New-Item "$root/WordInfo/Gender" -ItemType "Directory" -Force
+    $main = "$root/WordInfo/Gender"
+    if ($mode -ne "Audit") {
+        # Create WordInfo/Gender folder only in modes that write changes
+        New-Item $main -ItemType "Directory" -Force | Out-Null
+    }
 
     # Paths of the XML files in which the words should be searched
     $paths = @(
@@ -105,6 +158,60 @@ foreach ($root in $roots) {
     # Save a list of all found words
     Get-Content "$temp/all*.txt" | Sort-Object -Unique | Set-Content "$temp/all.txt"
 
+    # Audit mode simulates the update without writing anything under WordInfo.
+    if ($mode -eq "Audit") {
+        $allBases = Get-Content "$temp/all.txt"
+        $detectedMales = if (Test-Path "$temp/all_males.txt") { Get-Content "$temp/all_males.txt" } else { @() }
+        $detectedFemales = if (Test-Path "$temp/all_females.txt") { Get-Content "$temp/all_females.txt" } else { @() }
+        $existingMales = if (Test-Path "$main/Male.txt") { Get-Content "$main/Male.txt" } else { @() }
+        $existingFemales = if (Test-Path "$main/Female.txt") { Get-Content "$main/Female.txt" } else { @() }
+        $existingNeuters = if (Test-Path "$main/Neuter.txt") { Get-Content "$main/Neuter.txt" } else { @() }
+
+        # Include automatic gender detections in the simulation, as modes 1 and 3 would do.
+        $simulatedClassified = @(
+            $existingMales
+            $existingFemales
+            $existingNeuters
+            $detectedMales
+            $detectedFemales
+        ) | Sort-Object -Unique
+
+        foreach ($word in ($allBases | Where-Object { $simulatedClassified -notcontains $_ })) {
+            $auditNewWords += [PSCustomObject]@{
+                Root = $root
+                Word = $word
+            }
+        }
+
+        foreach ($gender in "Male", "Female", "Neuter") {
+            $file = "$main/$gender.txt"
+            if (!(Test-Path $file)) { continue }
+
+            foreach ($word in (Get-Content $file)) {
+                $isActive = $allBases -contains $word
+                if (!$isActive) {
+                    foreach ($base in $allBases) {
+                        if ($word.StartsWith($base + ' ')) {
+                            $isActive = $true
+                            break
+                        }
+                    }
+                }
+                if (!$isActive) {
+                    $auditCandidates += [PSCustomObject]@{
+                        Root      = $root
+                        Gender    = $gender
+                        Word      = $word
+                        Protected = Test-WordInfoKeepEntry $root $gender $word
+                    }
+                }
+            }
+        }
+
+        Remove-Item "$temp/all*.txt" -Force -ErrorAction SilentlyContinue
+        continue
+    }
+
     # Create files
     foreach ($fileName in "Male", "Female", "Neuter", "New_Words") {
         if (!(Test-Path "$main/$fileName.txt")) {
@@ -153,21 +260,29 @@ foreach ($root in $roots) {
         Write-Host "    New_Words.txt eliminado (vacío)" -ForegroundColor DarkGray
     }
 
-    # ==== Eliminar palabras obsoletas respetando sufijos ====
+    # ==== Conservar, auditar o eliminar palabras obsoletas respetando sufijos ====
     $allBases = Get-Content "$temp/all.txt"
     foreach ($gender in "Male", "Female", "Neuter") {
         $file = "$main/$gender.txt"
         if (Test-Path $file) {
             $current = Get-Content $file
-            $filtered = $current | Where-Object {
+            $obsolete = $current | Where-Object {
                 $w = $_
-                if ($allBases -contains $w) { return $true }
+                if ($allBases -contains $w) { return $false }
                 foreach ($base in $allBases) {
-                    if ($w.StartsWith($base + ' ')) { return $true }
+                    if ($w.StartsWith($base + ' ')) { return $false }
                 }
-                return $false
+                return $true
             }
-            $filtered | Sort-Object -Unique | Set-Content $file
+
+            if ($mode -eq "Prune") {
+                $filtered = $current | Where-Object {
+                    $word = $_
+                    ($obsolete -notcontains $word) -or (Test-WordInfoKeepEntry $root $gender $word)
+                }
+                $filtered | Sort-Object -Unique | Set-Content $file
+                Write-Host "    Limpieza aplicada a $root/WordInfo/Gender/$gender.txt" -ForegroundColor DarkRed
+            }
         }
     }
 
@@ -180,6 +295,37 @@ Write-Host ""
 Write-Host "Eliminando archivos temporales..." -ForegroundColor Yellow
 Write-Host ""
 Remove-Item -Recurse $temp -Force
+
+if ($mode -eq "Audit") {
+    Write-Host "====================================================" -ForegroundColor Cyan
+    Write-Host "RESUMEN DE AUDITORÍA (no se ha modificado WordInfo)" -ForegroundColor Cyan
+    Write-Host "====================================================" -ForegroundColor Cyan
+
+    Write-Host ""
+    Write-Host "Palabras candidatas que se agregarán con los modos 1 o 3:" -ForegroundColor Yellow
+    if ($auditNewWords.Count -eq 0) {
+        Write-Host "  Ninguna." -ForegroundColor DarkGray
+    } else {
+        foreach ($entry in $auditNewWords) {
+            Write-Host "  [candidata] $($entry.Root)|$($entry.Word)"
+        }
+    }
+
+    Write-Host ""
+    Write-Host "Palabras candidatas que se borrarán con el modo 3 (salvo las protegidas):" -ForegroundColor Yellow
+    if ($auditCandidates.Count -eq 0) {
+        Write-Host "  Ninguna." -ForegroundColor DarkGray
+    } else {
+        foreach ($entry in $auditCandidates) {
+            $status = if ($entry.Protected) { "protegida" } else { "candidata" }
+            Write-Host "  [$status] $($entry.Root)|$($entry.Gender)|$($entry.Word)"
+        }
+    }
+
+    Write-Host ""
+    Write-Host "Auditoría finalizada sin cambios en los archivos WordInfo." -ForegroundColor Green
+    return
+}
 
 Write-Host "====================================================" -ForegroundColor Green
 Write-Host "✓ Todos los archivos se han procesado correctamente." -ForegroundColor Green

@@ -2,10 +2,10 @@
 <LanguageData>
 
   <!-- EN: The recipe {0} requires a mechanitor to work on it. None of your colonists are mechanitors, so nobody will do this bill. -->
-  <RecipeRequiresMechanitor>Gestar o resucitar mecanoides requiere un mecanitor para trabajar en ella. Ninguno de tus colonos es mecanitor, así que nadie hará este proyecto.</RecipeRequiresMechanitor>
+  <RecipeRequiresMechanitor>La receta {0} requiere un mecanitor para trabajar en ella. Ninguno de tus colonos es mecanitor, así que nadie hará este proyecto.</RecipeRequiresMechanitor>
 
   <!-- EN: genepacks -->
-  <GenepackPlural>packs de genes</GenepackPlural>
+  <GenepackPlural>paquetes de genes</GenepackPlural>
   <!-- EN: Traits develop later during childhood -->
   <TraitsDevelopLaterBaby>Los rasgos se desarrollan más tarde durante la infancia</TraitsDevelopLaterBaby>
   <!-- EN: Skills develop later during childhood -->
@@ -36,7 +36,7 @@
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} as childcare work. -->
   <AutofeedModeTooltipChildcare>{FEEDER_nameDef} alimentará a {BABY_nameDef} por estar asignad{FEEDER_gender ? o : a} a cuidar niños.</AutofeedModeTooltipChildcare>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} day or night, even if {FEEDER_nameDef} is not assigned to childcare or is incapable of childcare. -->
-  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} alimentará a {BABY_nameDef} de día o de noche, incluso si {FEEDER_nameDef} no está asignad{FEEDER_gender ? o : a} a cuidar niños o sea incapaz de hacerlo.</AutofeedModeTooltipUrgent>
+  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} alimentará a {BABY_nameDef} de día o de noche, incluso si {FEEDER_nameDef} no está asignad{FEEDER_gender ? o : a} a cuidar niños o es incapaz de hacerlo.</AutofeedModeTooltipUrgent>
   <!-- EN: Consumable foods -->
   <BabyFoodConsumables>Alimentos consumibles</BabyFoodConsumables>
 
@@ -46,13 +46,13 @@
   <!-- EN: {BABY_labelShort} has not been exposed to any ideoligions yet. -->
   <IdeoExposureNoExposure>{BABY_labelShort} aún no ha sido expuest{BABY_gender ? o : a} a ninguna ideoligión.</IdeoExposureNoExposure>
   <!-- EN: {BABY_pronoun} can be exposed to ideoligions by interacting with followers of an ideoligion. These interactions include being breastfed, carried, played with, and more. At the age of {CHILDAGE} {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to. -->
-  <IdeoExposureNoExposureDetail>{BABY_pronoun} puede ser expuest{BABY_gender ? o : a} a las ideoligiones al interactuar con los seguidores de una ideoligión. Estas interacciones incluyen ser amamantado, llevado en brazos, jugar con ellos, etc. A la edad de {CHILDAGE}, {BABY_labelShort} se unirá a una de las ideoligiones a las que {BABY_pronoun} haya estado expuest{BABY_gender ? o : a}.</IdeoExposureNoExposureDetail>
+  <IdeoExposureNoExposureDetail>{BABY_pronoun} puede ser expuest{BABY_gender ? o : a} a las ideoligiones al interactuar con los seguidores de una ideoligión. Estas interacciones incluyen la lactancia, el transporte en brazos, los juegos y otras actividades. A la edad de {CHILDAGE}, {BABY_labelShort} se unirá a una de las ideoligiones a las que {BABY_pronoun} haya estado expuest{BABY_gender ? o : a}.</IdeoExposureNoExposureDetail>
   <!-- EN: {BABY_labelShort} is {PERCENT} likely to join the ideoligion {IDEO_name}. -->
   <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort} tiene un {PERCENT} de probabilidades de unirse a la ideoligión {IDEO_name}.</IdeoExposurePointsTooltipJoinLikelihood>
   <!-- EN: As {BABY_labelShort} interacts with followers of an ideoligion {BABY_pronoun} becomes more likely to join that ideoligion. {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to at the age of {CHILDAGE}. -->
   <IdeoExposurePointsTooltipJoinDescription>A medida que {BABY_labelShort} se relaciona con los seguidores de una ideoligión, {BABY_pronoun} tiene más probabilidades de unirse a esa ideoligión. {BABY_labelShort} se unirá a una de las ideoligiones a las que {BABY_pronoun} ha estado expuest{BABY_gender ? o : a} a la edad de {CHILDAGE}.</IdeoExposurePointsTooltipJoinDescription>
   <!-- EN: Ideoligion exposure is measured by exposure points. Interactions like being breastfed, carried, or played with will cause {BABY_labelShort} to gain exposure points for the ideoligions followed by those {BABY_pronoun} interacts with. -->
-  <IdeoExposurePointsTooltipExposureDescription>La exposición a las ideoligiones se mide por puntos de exposición. Interacciones como ser amamantado, cargado o jugar, harán que {BABY_labelShort} gane puntos de exposición para las ideoligiones seguidas de aquellas con las que {BABY_pronoun} interactúa.</IdeoExposurePointsTooltipExposureDescription>
+  <IdeoExposurePointsTooltipExposureDescription>La exposición a las ideoligiones se mide por puntos de exposición. Interacciones como la lactancia, el transporte en brazos o los juegos harán que {BABY_labelShort} gane puntos de exposición para las ideoligiones de las personas con las que {BABY_pronoun} interactúa.</IdeoExposurePointsTooltipExposureDescription>
   <!-- EN: {IDEO_name} exposure points -->
   <IdeoExposurePointsTooltipIdeoExposure>Puntos de exposición de {IDEO_name}</IdeoExposurePointsTooltipIdeoExposure>
   <!-- EN: Total exposure points -->
@@ -62,7 +62,7 @@
   <!-- EN: Romance -->
   <TryRomanceButtonLabel>Enamorar</TryRomanceButtonLabel>
   <!-- EN: Nobody for {0_labelShort} to romance. -->
-  <TryRomanceNoOptsMessage>{0_labelShort} no tiene con quien tener un romance.</TryRomanceNoOptsMessage>
+  <TryRomanceNoOptsMessage>{0_labelShort} no tiene a nadie con quien iniciar un romance.</TryRomanceNoOptsMessage>
   <!-- EN: unreachable -->
   <CantRomanceTargetUnreachable>inalcanzable</CantRomanceTargetUnreachable>
   <!-- EN: sleeping -->
@@ -106,7 +106,7 @@
   <!-- EN: Having {INITIATOR_nameDef} romance {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations. -->
   <RomanceExistingRelationshipWarning>Que {INITIATOR_nameDef} tenga un romance con {TARGET_nameDef} podría sembrar el resentimiento entre las parejas existentes, provocar rupturas y causar altercados.</RomanceExistingRelationshipWarning>
   <!-- EN: Romance chance -->
-  <RomanceChance>Oportunidad de romance</RomanceChance>
+  <RomanceChance>Probabilidad de romance</RomanceChance>
   <!-- EN: already {PAWN_nameDef}'s {RELATION} -->
   <RomanceChanceExistingRelation>ya es {RELATION} de {PAWN_nameDef}</RomanceChanceExistingRelation>
   <!-- EN: Cannot romance -->

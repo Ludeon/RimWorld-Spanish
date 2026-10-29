@@ -9,7 +9,7 @@
   <!-- EN: door opening speed -->
   <DoorOpenSpeed.label>velocidad de apertura de puerta</DoorOpenSpeed.label>
   <!-- EN: The speed at which the door opens when unpowered.\n\nSlow doors will slow down everyone who uses them. -->
-  <DoorOpenSpeed.description>La velocidad a la que se abre la puerta. Las puertas lentas ralentizarán a todos los que las usen.</DoorOpenSpeed.description>
+  <DoorOpenSpeed.description>La velocidad a la que se abre la puerta cuando no tiene energía.\n\nLas puertas lentas ralentizarán a todos los que las usen.</DoorOpenSpeed.description>
   
   <!-- EN: immunity gain speed factor -->
   <ImmunityGainSpeedFactor.label>factor de ganancia de inmunidad</ImmunityGainSpeedFactor.label>
@@ -59,7 +59,7 @@
   <!-- EN: trap melee damage -->
   <TrapMeleeDamage.label>daño cuerpo a cuerpo de la trampa</TrapMeleeDamage.label>
   <!-- EN: How much damage this trap does on average per hit. Each trap hits multiple times.\n\nThe actual damage in any instance will vary randomly. -->
-  <TrapMeleeDamage.description>Cuánto daño causa esta trampa, de media. Cada trampa golpea varias veces.\n\nEl daño real en cada caso variará aleatoriamente.</TrapMeleeDamage.description>
+  <TrapMeleeDamage.description>Cuánto daño causa de media cada impacto de esta trampa. Cada trampa golpea varias veces.\n\nEl daño real en cada caso variará aleatoriamente.</TrapMeleeDamage.description>
   
   <!-- EN: trap spring chance -->
   <TrapSpringChance.label>probabilidad de activación de trampa</TrapSpringChance.label>
@@ -79,6 +79,6 @@
   <!-- EN: work to build -->
   <WorkToBuild.label>cantidad de trabajo</WorkToBuild.label>
   <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered.\n\nThe work required to deconstruct the structure is also based on this. -->
-  <WorkToBuild.description>La cantidad base de trabajo que cuesta construir esto una vez que han sido reunidos todos los materiales.</WorkToBuild.description>
+  <WorkToBuild.description>La cantidad base de trabajo que cuesta construir esto una vez que se han reunido todos los materiales.\n\nEl trabajo necesario para deconstruir la estructura también se basa en este valor.</WorkToBuild.description>
   
 </LanguageData>
