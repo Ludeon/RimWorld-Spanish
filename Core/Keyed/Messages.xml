@@ -366,7 +366,7 @@
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
   <MessageTransportPodsArrivedAndLost>Tus cápsulas de transporte han llegado, pero como no había ningún colono dentro, el contenido se ha perdido.</MessageTransportPodsArrivedAndLost>
   <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
-  <MessageTransportPodsArrivedAndAddedToCaravan>Tus cápsulas de transporte han llegado. El contenido ha sido guardado en {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
+  <MessageTransportPodsArrivedAndAddedToCaravan>Tus cápsulas de transporte han llegado. El contenido ha sido añadido a {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
   
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>Tus colonos han terminado de cargar las cápsulas de transporte. Lánzalas cuando estés listo.</MessageFinishedLoadingTransporters>
@@ -416,7 +416,7 @@
   <!-- EN: {0} has run out of food. -->
   <MessageCaravanRanOutOfFood>{0} se ha quedado sin comida.</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
-  <MessageCaravanDeathCorpseAddedToInventory>El cadáver de {PAWN_definite} ha sido recogido por la caravana. Es pesado y puede inmovilizarla, pero se puede dejar atrás en la pestaña de elementos de la caravana.</MessageCaravanDeathCorpseAddedToInventory>
+  <MessageCaravanDeathCorpseAddedToInventory>El cadáver {replace: de {PAWN_definite}; "de el "-"del "} ha sido recogido por la caravana. Es pesado y puede inmovilizarla, pero se puede dejar atrás en la pestaña de elementos de la caravana.</MessageCaravanDeathCorpseAddedToInventory>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
   <MessageSelectOwnBaseToFormCaravan>Para formar una caravana, selecciona tu propia colonia o un sitio donde tengas personas.</MessageSelectOwnBaseToFormCaravan>
@@ -496,10 +496,10 @@
   <MessageWarningCavePlantsExposedToLight>Advertencia: {0} no puede vivir cuando se expone a la luz.</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} no puede alcanzar a {OLDTARGET_label}, así que decidió redirigir su ira hacia {TARGET_label}.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} no pudo alcanzar a {OLDTARGET_label}, así que decidió redirigir su ira hacia {TARGET_label}.</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} no puede alcanzar a {OLDTARGET_label}, así que decidió redirigir sus insultos hacia {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} no pudo alcanzar a {OLDTARGET_label}, así que decidió redirigir sus insultos hacia {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
 
   <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageMurderousRageChangedTarget>{PAWN_labelShort} ha decidido redirigir su rabia hacia {TARGET_label}.</MessageMurderousRageChangedTarget>
@@ -591,21 +591,21 @@
   <MessageFormedCaravan_Orders>Órdenes</MessageFormedCaravan_Orders>
 
   <!-- EN: {1}'s "{0}" can no longer deliver to deleted stockpile {2}. -->
-  <MessageBillValidationStoreZoneDeleted>El "{0}" de {1} ya no puede dejarse en las reservas eliminadas {2}.</MessageBillValidationStoreZoneDeleted>
+  <MessageBillValidationStoreZoneDeleted>El "{0}" de {1} ya no puede dejarse en el almacén eliminado {2}.</MessageBillValidationStoreZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer deliver to unavailable stockpile {2}. -->
-  <MessageBillValidationStoreZoneUnavailable>El "{0}" de {1} ya no puede dejarse en reservas desactivadas {2}.</MessageBillValidationStoreZoneUnavailable>
+  <MessageBillValidationStoreZoneUnavailable>El "{0}" de {1} ya no puede dejarse en el almacén desactivado {2}.</MessageBillValidationStoreZoneUnavailable>
   <!-- EN: {0} can no longer work on "{1}" at {2}. The restriction has been removed. -->
   <MessageBillValidationPawnUnavailable>{0} ya no puede realizar "{1}" en {2}. Se ha eliminado la restricción.</MessageBillValidationPawnUnavailable>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
-  <MessageBillValidationIncludeZoneDeleted>El "{0}" de {1} ya no puede contar los artículos de las reservas eliminadas {2}.</MessageBillValidationIncludeZoneDeleted>
+  <MessageBillValidationIncludeZoneDeleted>El "{0}" de {1} ya no puede contar los artículos del almacén eliminado {2}.</MessageBillValidationIncludeZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted building {2}. -->
   <MessageBillValidationIncludeBuildingDeleted>El "{0}" de {1} ya no puede contar los artículos de la construcción eliminada {2}.</MessageBillValidationIncludeBuildingDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted storage group {2}. -->
   <MessageBillValidationIncludeStorageGroupDeleted>El "{0}" de {1} ya no puede contar los artículos del grupo de almacenamiento eliminado {2}.</MessageBillValidationIncludeStorageGroupDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
-  <MessageBillValidationIncludeZoneUnavailable>El "{0}" de {1} ya no puede contar los artículos de la reserva desactivada {2}.</MessageBillValidationIncludeZoneUnavailable>
+  <MessageBillValidationIncludeZoneUnavailable>El "{0}" de {1} ya no puede contar los artículos del almacén desactivado {2}.</MessageBillValidationIncludeZoneUnavailable>
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
-  <MessageBillValidationStoreZoneInsufficient>El "{0}" de {1} ya no puede dejar todos los productos en la reserva {2}.</MessageBillValidationStoreZoneInsufficient>
+  <MessageBillValidationStoreZoneInsufficient>El "{0}" de {1} ya no puede dejar todos los productos en el almacén {2}.</MessageBillValidationStoreZoneInsufficient>
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>Debido a la falta de adiestramiento, {1_labelShort} ha regresado a la naturaleza.</MessageAnimalReturnedWild>
@@ -627,7 +627,7 @@
   <MessagePermitCooldownFinished>{0_labelShort} ya puede usar "{1}" de nuevo.</MessagePermitCooldownFinished>
 
   <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
-  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} está cazando a {PREY_definite} ({PREY_kindBase}) para alimentarse.</MessagePredatorHuntingPlayerAnimal>
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} está cazando {replace: a {PREY_definite}; "a el "-"al "} ({PREY_kindBase}) para alimentarse.</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken>La resistencia del prisionero {PRISONER_labelShort} ha sido quebrantada por {WARDEN_labelShort}.</MessagePrisonerResistanceBroken>

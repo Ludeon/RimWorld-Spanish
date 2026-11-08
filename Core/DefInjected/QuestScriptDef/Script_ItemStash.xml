@@ -6,7 +6,7 @@
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Hemos interceptado mensajes sobre una colección de objetos valiosos por valor de [itemStashContentsValue], no muy lejos de [map_definite]. La colección consta de:\n\n[itemStashContents]\n\nParece que [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(askerIsNull==true)->Hemos interceptado mensajes sobre una colección de objetos valiosos por valor de [itemStashContentsValue], no muy lejos {replace: de [map_definite]; "de el "-"del "}. La colección consta de:\n\n[itemStashContents]\n\nParece que [allSitePartsDescriptionsExceptFirst]</li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de la facción [asker_faction_name], nos ha informado de una colección de objetos valiosos por valor de [itemStashContentsValue], no muy lejos de nosotros. La colección consta de:\n\n[itemStashContents]\n\n[asker_label] dice que [allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:

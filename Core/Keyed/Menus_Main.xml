@@ -179,7 +179,7 @@
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
   <ConfirmUnsubscribeFrom>¿Seguro que quieres cancelar tu suscripción de {0}?</ConfirmUnsubscribeFrom>
   <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
-  <ConfirmUnsubscribeFromMultiple>¿Seguro que quieres cancelar tu suscripción de:\n\n{0}</ConfirmUnsubscribeFromMultiple>
+  <ConfirmUnsubscribeFromMultiple>¿Seguro que quieres cancelar tu suscripción de los siguientes mods?\n\n{0}</ConfirmUnsubscribeFromMultiple>
   <!-- EN: Author -->
   <Author>Autor</Author>
   <!-- EN: Enabled -->
@@ -350,6 +350,10 @@
   <BakingModAssetPacksFor>Generando paquetes de recursos para {0}</BakingModAssetPacksFor>
   <!-- EN: Baking the asset packs for {0} failed, the mod was not uploaded: -->
   <ModAssetPackBakeFailed>No se pudieron generar los paquetes de recursos para {0}, por lo que no se ha subido el mod:</ModAssetPackBakeFailed>
+  <!-- EN: Preparing upload -->
+  <PreparingWorkshopUpload>Preparando la subida</PreparingWorkshopUpload>
+  <!-- EN: Preparing {0} for upload failed, the mod was not uploaded: -->
+  <WorkshopUploadStagingFailed>No se pudo preparar {0} para la subida; el mod no se ha subido:</WorkshopUploadStagingFailed>
   <!-- EN: Too many (max {0}):  -->
   <TooMany>Se ha superado el número máximo de usos ({0})</TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
@@ -383,7 +387,7 @@
   <!-- EN: Custom playstyle settings -->
   <DifficultyCustomSectionLabel>Ajustes de estilo de juego personalizados</DifficultyCustomSectionLabel>
   <!-- EN: Set to standard playstyle... -->
-  <DifficultyReset>Se ha establecido un estilo de juego estándar...</DifficultyReset>
+  <DifficultyReset>Establecer estilo de juego estándar...</DifficultyReset>
   
   <!-- EN: Threats -->
   <DifficultyThreatSection>Amenazas</DifficultyThreatSection>
@@ -464,7 +468,7 @@
   <!-- EN: Food poison chance -->
   <Difficulty_FoodPoisonChanceFactor_Label>Prob. de intoxicación alimentaria</Difficulty_FoodPoisonChanceFactor_Label>
   <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
-  <Difficulty_FoodPoisonChanceFactor_Info>Ajusta la probabilidad extra de que una persona sufra una intoxicación alimenticia al comer comida potencialmente intoxicada.</Difficulty_FoodPoisonChanceFactor_Info>
+  <Difficulty_FoodPoisonChanceFactor_Info>Ajusta la probabilidad de que una persona sufra una intoxicación alimenticia al comer comida potencialmente intoxicada.</Difficulty_FoodPoisonChanceFactor_Info>
   <!-- EN: Animal revenge chance -->
   <Difficulty_ManhunterChanceOnDamageFactor_Label>Probabilidad de venganza animal</Difficulty_ManhunterChanceOnDamageFactor_Label>
   <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
@@ -500,7 +504,7 @@
   <!-- EN: Map generation natural hives -->
   <Difficulty_AllowCaveHives_Label>Mapa de generación de colmenas naturales</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
-  <Difficulty_AllowCaveHives_Info>Las colmenas de insectoides durmientes pueden generarse en cuevas naturales.\n\nEste escenario solo se aplica a la generación de mapas y no afecta a los insectoides activos que pueden hacer túneles durante el juego.</Difficulty_AllowCaveHives_Info>
+  <Difficulty_AllowCaveHives_Info>Las colmenas de insectoides durmientes pueden generarse en cuevas naturales.\n\nEste ajuste solo se aplica a la generación de mapas y no afecta a los insectoides activos que pueden hacer túneles durante el juego.</Difficulty_AllowCaveHives_Info>
   <!-- EN: Add unwavering prisoners -->
   <Difficulty_UnwaveringPrisoners_Label>Añade prisioneros inquebrantables</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
@@ -619,7 +623,7 @@
   <!-- EN: Movement difficulty -->
   <MovementDifficulty>Dificultad de movimiento</MovementDifficulty>
   <!-- EN: Animals can graze now -->
-  <AnimalsCanGrazeNow>En esta estación los animales pueden pastar</AnimalsCanGrazeNow>
+  <AnimalsCanGrazeNow>Los animales pueden pastar ahora</AnimalsCanGrazeNow>
   <!-- EN: Average disease frequency -->
   <AverageDiseaseFrequency>Frecuencia media de enfermedades</AverageDiseaseFrequency>
   <!-- EN: per year -->
@@ -762,7 +766,7 @@
   <!-- EN: Factions -->
   <Factions>Facciones</Factions>
   <!-- EN: max {0} basic factions allowed -->
-  <TotalFactionsAllowed>Permitido un máximo de {0} facciones visibles.</TotalFactionsAllowed>
+  <TotalFactionsAllowed>Permitido un máximo de {0} facciones básicas.</TotalFactionsAllowed>
   <!-- EN: max {0} -->
   <MaxFactionsForType>No puede haber más de {0}</MaxFactionsForType>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->

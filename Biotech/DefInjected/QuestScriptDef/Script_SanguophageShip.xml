@@ -22,7 +22,7 @@
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
   <SanguophageShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->¡Has interceptado una señal de socorro! Un transbordador hostil que transporta a un maestro sanguífago y {replace: ^[thrallCount] sanguiesclavos; "^1 sanguiesclavos"-"1 sanguiesclavo"; "^"-""} tiene problemas con los motores. Puedes usar señales para atraerlo y hacer que se estrelle cerca de [map_definite].\n\nUna vez que la nave se haya estrellado, podrás luchar contra el sanguífago y sus secuaces. Si logras capturar al maestro, podrás obligarle a convertir a uno de tus colonos en sanguífago.\n\n[sanguophageInfo]</li>
+    <li>questDescription->¡Has interceptado una señal de socorro! Un transbordador hostil que transporta a un maestro sanguífago y {replace: ^[thrallCount] sanguiesclavos; "^1 sanguiesclavos"-"1 sanguiesclavo"; "^"-""} tiene problemas con los motores. Puedes usar señales para atraerlo y hacer que se estrelle cerca {replace: de [map_definite]; "de el "-"del "}.\n\nUna vez que la nave se haya estrellado, podrás luchar contra el sanguífago y sus secuaces. Si logras capturar al maestro, podrás obligarle a convertir a uno de tus colonos en sanguífago.\n\n[sanguophageInfo]</li>
     <li>sanguophageInfo->(*Gray)Sobre los sanguífagos: Los sanguífagos son superhumanos eternos e inmortales, alimentados por arquitas creadas por la arqueotecnología que se encuentran en el torrente sanguíneo. Son hermosos y extremadamente inteligentes. Pueden curar cualquier herida, y nunca sufren enfermedades ni venenos. En combate, pueden lanzar espinas mortales y curar a sus amigos heridos. El precio es que los sanguífagos deben consumir el hemógeno derivado de la sangre humana para sobrevivir, y deben mortisoñar regularmente durante largos periodos. Son fácilmente destruidos por el fuego y ralentizados por la luz ultravioleta.(/Gray)</li>
   </SanguophageShip.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -67,7 +67,7 @@
     <li>shipAdjectiveFem->sanguínea</li>
     <li>shipNounFem->nave</li>
     <li>shipNoun->transbordador</li>
-    <li>shipNounFem->lanzadera</li>
+    <li>shipNounFem->aeronave</li>
     <li>shipNounFem->astronave</li>
     <li>shipNoun->transporte</li>
     <li>shipNoun->naufragio</li>

@@ -12,7 +12,7 @@
   <Breakup.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] ha roto su relación con [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] un tiempo a solas.</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] que lo mejor sería volver a ser amigos.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha dicho a [RECIPIENT_nameDef] que lo mejor sería volver a ser amigos.</li>
     <li>r_logentry->[INITIATOR_nameDef] ha terminado su relación romántica con [RECIPIENT_nameDef].</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
@@ -112,6 +112,8 @@
     <li>wootactic->[boasting] su propia [PersonalCharacteristic_Fem]</li>
     <li>wootactic->comparar[RECIPIENT_objective] con una [romantic_adj] [romantic_noun]</li>
     <li>wootactic->describir[RECIPIENT_objective] como una [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->comparar[RECIPIENT_objective] con un [romantic_adj_Masc] [romantic_noun_Masc]</li>
+    <li>wootactic->describir[RECIPIENT_objective] como un [romantic_adj_Masc] [romantic_noun_Masc]</li>
     <li>boasting->alardear sobre</li>
     <li>boasting->mencionar</li>
     <li>boasting->dar a entender cosas buenas sobre</li>
@@ -151,9 +153,31 @@
     <li>romantic_noun->luna</li>
     <li>romantic_noun->casa</li>
     <li>romantic_noun->aurora</li>
-    <li>romantic_noun->árbol de [TreeType_Fem]</li>
+    <li>romantic_noun->[TreeType_Fem]</li>
     <li>romantic_noun(p=2)->[TerrainFeature_Fem]</li>
     <li>romantic_noun(p=2)->[NaturalObject_Fem]</li>
+    <li>romantic_adj_Masc->hermoso</li>
+    <li>romantic_adj_Masc->precioso</li>
+    <li>romantic_adj_Masc->bello</li>
+    <li>romantic_adj_Masc->elegante</li>
+    <li>romantic_adj_Masc->brillante</li>
+    <li>romantic_adj_Masc->hermoso</li>
+    <li>romantic_adj_Masc->delicioso</li>
+    <li>romantic_adj_Masc->delicado</li>
+    <li>romantic_adj_Masc->magnífico</li>
+    <li>romantic_adj_Masc->fino</li>
+    <li>romantic_adj_Masc->maravilloso</li>
+    <li>romantic_adj_Masc->exquisito</li>
+    <li>romantic_adj_Masc->precioso</li>
+    <li>romantic_adj_Masc->espléndido</li>
+    <li>romantic_adj_Masc(p=3)->[AdjectiveBadass]</li>
+    <li>romantic_noun_Masc->río</li>
+    <li>romantic_noun_Masc->sol</li>
+    <li>romantic_noun_Masc->manantial</li>
+    <li>romantic_noun_Masc->amanecer</li>
+    <li>romantic_noun_Masc->[TreeType]</li>
+    <li>romantic_noun_Masc(p=2)->[TerrainFeature]</li>
+    <li>romantic_noun_Masc(p=2)->[NaturalObject]</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>

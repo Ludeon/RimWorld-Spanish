@@ -292,13 +292,13 @@
   -->
   <Combat_RangedDeflect.rulePack.rulesStrings>
     <li>r_logentry->[projectile] {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "} ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "; "a el "-"al "} [damaged_targetsDef][deflected_result].</li>
-    <li>r_logentry(p=2)->[projectile] {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "} [missed] [ORIGINALTARGET_definite] y ha [damaged_past] [damaged_target_possessive_opt][RECIPIENT_definite][deflected_result].</li>
-    <li>r_logentry->[damaged_target_possessive_opt] fue [damaged_past] por [projectile] {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "}[deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] golpeó a [damaged_target_possessive_opt] con [projectile][deflected_result].</li>
-    <li>r_logentry(p=0.2)->[projectile] {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "} golpeó a [damaged_target_possessive_opt][deflected_result].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] {replace: a [ORIGINALTARGET_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "; "a el "-"al "} y golpeó a [damaged_target_possessive_opt] con [projectile][deflected_result].</li>
-    <li>r_logentry(p=0.4)->[projectile] {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "} [missed] {replace: a [ORIGINALTARGET_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "; "a el "-"al "} y golpeó a [damaged_target_possessive_opt][deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] golpeó a [damaged_target_possessive_opt] con [projectile] que iba destinado {replace: a [ORIGINALTARGET_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "; "a el "-"al "}[deflected_result].</li>
+    <li>r_logentry(p=2)->[projectile] {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "} [missed] [ORIGINALTARGET_definite] y ha [damaged_past] [damaged_target_possessive_opt][deflected_result].</li>
+    <li>r_logentry->[RECIPIENT_definite] fue [damaged_past] por [projectile] {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "}[deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] golpeó [damaged_target_possessive_opt] con [projectile][deflected_result].</li>
+    <li>r_logentry(p=0.2)->[projectile] {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "} golpeó [damaged_target_possessive_opt][deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] {replace: a [ORIGINALTARGET_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "; "a el "-"al "} y golpeó [damaged_target_possessive_opt] con [projectile][deflected_result].</li>
+    <li>r_logentry(p=0.4)->[projectile] {replace: de [INITIATOR_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "; "de el "-"del "} [missed] {replace: a [ORIGINALTARGET_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "; "a el "-"al "} y golpeó [damaged_target_possessive_opt][deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] golpeó [damaged_target_possessive_opt] con [projectile] que iba destinado {replace: a [ORIGINALTARGET_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "; "a el "-"al "}[deflected_result].</li>
     <li>WEAPON_projectile_label(p=0.05)->disparo</li>
     <li>WEAPON_projectile_label(p=0.05)->proyectil</li>
     <li>WEAPON_projectile_label(p=0.05)->tiro</li>
@@ -370,7 +370,7 @@
     <li>shotat(p=0.2)->[skillAdv] le disparó</li>
     <li>shotat->disparó [aburst]</li>
     <li>shotat->disparó [aburst] [skillAdv]</li>
-    <li>shotat(p=0.5)->apuntó y disparo [aburst]</li>
+    <li>shotat(p=0.5)->apuntó y disparó [aburst]</li>
     <li>shotat(p=0.5)->[skillAdv] apuntó y disparó [aburst]</li>
     <li>shotatC(p=0.3)->abrió fuego contra</li>
     <li>shotatC(p=0.3)->disparó contra</li>

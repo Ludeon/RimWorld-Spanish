@@ -132,7 +132,7 @@
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
   <SaveIsUnknownFormat>Esta partida está en un formato desconocido y es casi seguro que no va a cargar apropiadamente.</SaveIsUnknownFormat>
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
-  <ProblemSavingFile>Hubo un problema guardando el archivo {0}:\n\n{1}\n\nConsulte el log de errores para obtener más información.</ProblemSavingFile>
+  <ProblemSavingFile>Hubo un problema guardando el archivo {0}:\n\n{1}\n\nRevisa el registro de errores para más información.</ProblemSavingFile>
   <!-- EN: Load anyway -->
   <LoadAnyway>Cargar de todos modos</LoadAnyway>
   <!-- EN: Load mod list from save -->
@@ -298,7 +298,7 @@
   <!-- EN: Infinite -->
   <Infinite>Infinito</Infinite>
   <!-- EN: Allowed {0} skill -->
-  <AllowedSkillRange>Habilidad mínima de {0}</AllowedSkillRange>
+  <AllowedSkillRange>Nivel de {0} permitido</AllowedSkillRange>
   <!-- EN: incompatible -->
   <IncompatibleLower>incompatible</IncompatibleLower>
   <!-- EN: Any worker -->
@@ -328,11 +328,11 @@
   <!-- EN: Pause when satisfied -->
   <PauseWhenSatisfied>Pausar cuando esté satisfecho</PauseWhenSatisfied>
   <!-- EN: Unpause at -->
-  <UnpauseWhenYouHave>Restablecer en</UnpauseWhenYouHave>
+  <UnpauseWhenYouHave>Reanudar en</UnpauseWhenYouHave>
   <!-- EN: paused -->
   <Paused>pausado</Paused>
   <!-- EN: Unpause -->
-  <Unpause>Restablecer</Unpause>
+  <Unpause>Reanudar</Unpause>
 
   <!-- EN: Count equipped -->
   <IncludeEquipped>Incluir equipado</IncludeEquipped>
@@ -545,7 +545,7 @@
   <!-- EN: Work speed governed by -->
   <WorkSpeedStat>Velocidad de trabajo afectada por</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
-  <EfficiencyStat>Cantidad de compensación afectada por</EfficiencyStat>
+  <EfficiencyStat>Cantidad de producción afectada por</EfficiencyStat>
   <!-- EN: {0} skill required -->
   <SkillRequiredToBuild>habilidad requerida: {0}</SkillRequiredToBuild>
   <!-- EN: Requires this level of {0} in order to build. -->
@@ -557,7 +557,7 @@
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Prob. de vengarse por daños</HarmedRevengeChance>
   <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
-  <HarmedRevengeChanceExplanation>La probabilidad de que esta criatura busque venganza por haber sido dañada.\n\nSi es atacada a muy corta distancia, la probabilidad es tres veces mayor.\n\nEsta probabilidad se aplica cada vez que sufre un daño. Para minimizar la posibilidad de que una criatura busque venganza, atácala a larga distancia con un arma de baja cadencia de tiro. Esto significa que, durante la caza, es menos probable que las armas de mayor daño y menor cadencia de tiro activen esta reacción.</HarmedRevengeChanceExplanation>
+  <HarmedRevengeChanceExplanation>La probabilidad de que esta criatura ataque al ser dañada.\n\nEsta probabilidad se multiplica hasta por tres si el atacante está más cerca.\n\nEsta probabilidad se aplica cada vez que recibe daño. Esto significa que, durante la caza, es menos probable que la activen las armas de disparo más lento y mayor daño.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Prob. de vengarse al fallar domesticación</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -569,7 +569,7 @@
   <!-- EN: Rearm cost -->
   <RearmCost>Coste del rearme</RearmCost>
   <!-- EN: Resources needed to rearm this turret -->
-  <RearmCostExplanation>Recursos necesarios para rearmar esta torreta (afectada por la dificultad).</RearmCostExplanation>
+  <RearmCostExplanation>Recursos necesarios para rearmar esta torreta.</RearmCostExplanation>
   <!-- EN: affected by difficulty -->
   <RearmCostExplanationDifficulty>afectado por dificultad</RearmCostExplanationDifficulty>
   <!-- EN: Shots before rearm -->
@@ -787,13 +787,13 @@
   <!-- EN: A large part of the caravan's food will rot soon. -->
   <CaravanFoodWillRotSoonWarningDialog>Una gran parte de la comida asignada se pudrirá pronto.</CaravanFoodWillRotSoonWarningDialog>
   <!-- EN: You have no caravan members capable of diplomacy or trading. -->
-  <CaravanIncapableOfSocial>No tiene miembros de caravanas capaces de emprender acciones de diplomacia o comercio.</CaravanIncapableOfSocial>
+  <CaravanIncapableOfSocial>No tienes miembros en la caravana capaces de ejercer diplomacia o comercio.</CaravanIncapableOfSocial>
   <!-- EN: Are you sure you want to form this caravan? -->
   <CaravanAreYouSure>¿Seguro que quieres formar esta caravana?</CaravanAreYouSure>
   <!-- EN: You must choose a route for the caravan first. -->
-  <MessageMustChooseRouteFirst>Primero debe elegir una ruta para la caravana.</MessageMustChooseRouteFirst>
+  <MessageMustChooseRouteFirst>Primero debes elegir una ruta para la caravana.</MessageMustChooseRouteFirst>
   <!-- EN: Your caravan is unable to leave the area. Make sure that at least one side is reachable. -->
-  <MessageNoValidExitTile>Su caravana no puede salir de la zona. Asegúrate de que al menos un lado sea accesible.</MessageNoValidExitTile>
+  <MessageNoValidExitTile>Tu caravana no puede salir de la zona. Asegúrate de que al menos un lado sea accesible.</MessageNoValidExitTile>
   <!-- EN: Weight of this item. -->
   <ItemWeightTip>Peso de este objeto.</ItemWeightTip>
   <!-- EN: Market value -->
@@ -897,7 +897,7 @@
   <!-- EN: The assigned people and items are too heavy for the transport pods. -->
   <TooBigTransportersMassUsage>Las personas y objetos asignados son demasiado pesados para las cápsulas de transporte.</TooBigTransportersMassUsage>
   <!-- EN: The assigned people and items are too heavy for the shuttle. -->
-  <TooBigTransporterSingleMassUsage>Las personas y objetos designados son demasiado pesados para la cápsula de transporte.</TooBigTransporterSingleMassUsage>
+  <TooBigTransporterSingleMassUsage>Las personas y objetos asignados son demasiado pesados para el transbordador.</TooBigTransporterSingleMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>No puedes enviar una cápsula de transporte vacía.</CantSendEmptyTransportPods>
   <!-- EN: You can't send empty shuttle. -->
@@ -1101,17 +1101,17 @@
   <!-- EN: Friendly faction members -->
   <MedGroupFriendlyFaction>Miembros de facción amigable</MedGroupFriendlyFaction>
   <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
-  <MedGroupFriendlyFactionDesc>Humanos o animales que forman parte de una facción que es amigable con tu facción (buena voluntad por encima de 75).</MedGroupFriendlyFactionDesc>
+  <MedGroupFriendlyFactionDesc>Humanos o animales que forman parte de una facción que es amigable con tu facción (reputación por encima de 75).</MedGroupFriendlyFactionDesc>
   
   <!-- EN: Neutral faction members -->
   <MedGroupNeutralFaction>Miembros de facción neutral</MedGroupNeutralFaction>
   <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
-  <MedGroupNeutralFactionDesc>Humanos o animales que forman parte de una facción que es neutral con tu facción (entre -75 y 75 de buena voluntad).</MedGroupNeutralFactionDesc>
+  <MedGroupNeutralFactionDesc>Humanos o animales que forman parte de una facción que es neutral con tu facción (entre -75 y 75 de reputación).</MedGroupNeutralFactionDesc>
 
   <!-- EN: Hostile faction members -->
   <MedGroupHostileFaction>Miembros de facción hostil</MedGroupHostileFaction>
   <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
-  <MedGroupHostileFactionDesc>Humanos o animales que forman parte de una facción que es hostil con tu facción (buena voluntad por debajo de -75).</MedGroupHostileFactionDesc>
+  <MedGroupHostileFactionDesc>Humanos o animales que forman parte de una facción que es hostil con tu facción (reputación por debajo de -75).</MedGroupHostileFactionDesc>
 
   <!-- EN: Other humans -->
   <MedGroupNoFaction>Otros humanos</MedGroupNoFaction>
@@ -1129,7 +1129,7 @@
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawns>Algunos de tus colonos o animales siguen en esta área. ¿Seguro que deseas abandonarlos?\n\nLas siguientes personas y animales se quedarán atrás:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>Algunos de tus colonos o animales siguen en esta área. ¿Seguro que deseas abandonarla?\n\nLas siguientes personas y animales se quedarán atrás:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
   <ConfirmAbandonHomeNegativeThoughts>Abandonar {0} hará que las siguientes personas tengan los siguientes pensamientos:</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
@@ -1231,7 +1231,7 @@
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Coste de psifoco por nivel de colapso mental</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
-  <AbilityAlreadyInspired>{0_labelShort} ya está inspirado.</AbilityAlreadyInspired>
+  <AbilityAlreadyInspired>{0_labelShort} ya está inspirad{0_gender ? o : a}.</AbilityAlreadyInspired>
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>{0_labelShort} no puede inspirarse ahora.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->

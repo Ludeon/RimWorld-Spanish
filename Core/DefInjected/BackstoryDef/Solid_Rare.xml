@@ -27,14 +27,14 @@
   <!-- EN: Growing up sheltered in an urbworld archology, [PAWN_nameDef] distracted [PAWN_objective]self by playing wargames and painting miniatures. While [PAWN_pronoun] was never very good at the game itself, it helped to connect [PAWN_objective] with others. -->
   <FeyCustomChildhood.description>Al crecer resguardad{PAWN_gender ? o : a} en una arcología de un mundo urbano, [PAWN_nameDef] se distrajo jugando juegos de guerra y pintando miniaturas. Aunque nunca fue muy buen{PAWN_gender ? o : a} en el juego en sí, le ayudó a conectarse con otros.</FeyCustomChildhood.description>
   <!-- EN: wargame fanatic -->
-  <FeyCustomChildhood.title>Fanático de los juegos de guerra</FeyCustomChildhood.title>
-  <FeyCustomChildhood.titleFemale>Fanática de los juegos de guerra</FeyCustomChildhood.titleFemale>
+  <FeyCustomChildhood.title>fanático de los juegos de guerra</FeyCustomChildhood.title>
+  <FeyCustomChildhood.titleFemale>fanática de los juegos de guerra</FeyCustomChildhood.titleFemale>
   <!-- EN: wargame fanatic -->
-  <FeyCustomChildhood.titleShort>Fanático</FeyCustomChildhood.titleShort>
-  <FeyCustomChildhood.titleShortFemale>Fanática</FeyCustomChildhood.titleShortFemale>
+  <FeyCustomChildhood.titleShort>fanático</FeyCustomChildhood.titleShort>
+  <FeyCustomChildhood.titleShortFemale>fanática</FeyCustomChildhood.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was a hobbyist game developer who lived in an endless cycle of unfinished projects and lofty ideas. -->
-  <JoeCustomAdulthood.description>[PAWN_nameDef] era un desarrollador de videojuegos aficionado que vivía en un ciclo interminable de proyectos inconclusos e ideas a largo plazo.</JoeCustomAdulthood.description>
+  <JoeCustomAdulthood.description>[PAWN_nameDef] era {PAWN_gender ? un desarrollador de videojuegos aficionado : una desarrolladora de videojuegos aficionada} que vivía en un ciclo interminable de proyectos inconclusos e ideas grandiosas.</JoeCustomAdulthood.description>
   <!-- EN: game developer -->
   <JoeCustomAdulthood.title>desarrollador de juegos</JoeCustomAdulthood.title>
   <JoeCustomAdulthood.titleFemale>desarrolladora de juegos</JoeCustomAdulthood.titleFemale>
@@ -43,7 +43,7 @@
   <JoeCustomAdulthood.titleShortFemale>desarrolladora</JoeCustomAdulthood.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was born into a family of musicians. When hard times came, [PAWN_pronoun] was forced to play the drum in a traveling band. -->
-  <JoeCustomChildhood.description>[PAWN_nameDef] nació en una familia de músicos. Cuando llegaron tiempos difíciles, se vio obligado a tocar el tambor en una banda itinerante.</JoeCustomChildhood.description>
+  <JoeCustomChildhood.description>[PAWN_nameDef] nació en una familia de músicos. Cuando llegaron tiempos difíciles, se vio obligad{PAWN_gender ? o : a} a tocar el tambor en una banda itinerante.</JoeCustomChildhood.description>
   <!-- EN: drummer -->
   <JoeCustomChildhood.title>baterista</JoeCustomChildhood.title>
   <!-- EN: drummer -->
@@ -68,7 +68,7 @@
   <LiamCustomChildhood.titleShortFemale>adicta a simuladores</LiamCustomChildhood.titleShortFemale>
   
   <!-- EN: After being laid off by an interplanetary megacorp, [PAWN_nameDef] spent several years disillusioned and fighting alcohol addiction.\n\n[PAWN_pronoun] ended up busking aboard a space freighter, playing a beaten-up guitar and entertaining the crew with blues and folk songs from the distant past. -->
-  <MateCustomAdulthood.description>Después de ser despedido por una megacorporación interplanetaria, [PAWN_nameDef] pasó varios años desilusionado y luchando contra la adicción al alcohol.\n\n[PAWN_pronoun] terminó tocando música callejera a bordo de un carguero espacial, tocando una guitarra maltrecha y entreteniendo a la tripulación con blues y canciones folclóricas del pasado distante.</MateCustomAdulthood.description>
+  <MateCustomAdulthood.description>Después de ser despedid{PAWN_gender ? o : a} por una megacorporación interplanetaria, [PAWN_nameDef] pasó varios años desilusionad{PAWN_gender ? o : a} y luchando contra la adicción al alcohol.\n\n[PAWN_pronoun] terminó haciendo música callejera a bordo de un carguero espacial, tocando una guitarra maltrecha y entreteniendo a la tripulación con blues y canciones folclóricas del pasado distante.</MateCustomAdulthood.description>
   <!-- EN: busker -->
   <MateCustomAdulthood.title>músico ambulante</MateCustomAdulthood.title>
   <MateCustomAdulthood.titleFemale>música ambulante</MateCustomAdulthood.titleFemale>
@@ -77,7 +77,7 @@
   <MateCustomAdulthood.titleShortFemale>música</MateCustomAdulthood.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] spent most of [PAWN_possessive] childhood dreaming of becoming a famous artist who could impress people with [PAWN_possessive] creations. -->
-  <MateCustomChildhood.description>[PAWN_nameDef] pasó la mayor parte de su infancia soñando con convertirse en un artista famoso que pudiera impresionar a la gente con sus creaciones.</MateCustomChildhood.description>
+  <MateCustomChildhood.description>[PAWN_nameDef] pasó la mayor parte de su infancia soñando con convertirse en {PAWN_gender ? un artista famoso : una artista famosa} que pudiera impresionar a la gente con sus creaciones.</MateCustomChildhood.description>
   <!-- EN: curious kid -->
   <MateCustomChildhood.title>niño curioso</MateCustomChildhood.title>
   <MateCustomChildhood.titleFemale>niña curiosa</MateCustomChildhood.titleFemale>
@@ -112,7 +112,7 @@
   <OskarCustomAdulthood.titleShort>modder</OskarCustomAdulthood.titleShort>
   
   <!-- EN: [PAWN_nameDef] was born on the dark edge of a tidally-locked urbworld. After an argument, [PAWN_possessive] father sold [PAWN_objective] to a local district lord as a slave artist.\n\nForced to create art or be punished, [PAWN_pronoun] withdrew and became unable to form relations with others. -->
-  <OskarCustomChildhood.description>[PAWN_nameDef] nació en el oscuro borde de un mundo urbano con rotación sincrónica. Después de una discusión, su padre {PAWN_gender ? lo : la} vendió a un señor del distrito local como {PAWN_gender ? un artista esclavo : una artista esclava}.\n\nForzad{PAWN_gender ? o : a} a crear arte o ser castigad{PAWN_gender ? o : a}, se encerró en {PAWN_gender ? sí mismo : sí misma} y se volvió incapaz de formar relaciones con otros.</OskarCustomChildhood.description>
+  <OskarCustomChildhood.description>[PAWN_nameDef] nació en el oscuro borde de un mundo urbano con rotación sincrónica. Después de una discusión, su padre [PAWN_objective] vendió a un señor del distrito local como {PAWN_gender ? un artista esclavo : una artista esclava}.\n\nForzad{PAWN_gender ? o : a} a crear arte o ser castigad{PAWN_gender ? o : a}, se encerró en {PAWN_gender ? sí mismo : sí misma} y se volvió incapaz de formar relaciones con otros.</OskarCustomChildhood.description>
   <!-- EN: art slave -->
   <OskarCustomChildhood.title>artista esclavo</OskarCustomChildhood.title>
   <OskarCustomChildhood.titleFemale>artista esclava</OskarCustomChildhood.titleFemale>

@@ -105,17 +105,17 @@
     <li>desc_sentence->Está cubiert[PAWN_o_a] de sudor.</li>
     <li>desc_sentence->El área de trabajo está muy organizada, con cada herramienta en su lugar.</li>
     <li>desc_sentence->Está ilustrad[PAWN_o_a] en una manera exagerada, para que se vea más poderos[PAWN_o_a].</li>
-    <li>desc_sentence->El tamaño de [THING_definite] está exagerado para enfatizar su importancia.</li>
+    <li>desc_sentence->El tamaño {replace: de [THING_definite]; "de el "-"del "} está exagerado para enfatizar su importancia.</li>
     <li>desc_sentence->[THING_definite] tiene un brillo artístico a su alrededor. Parece angelical.</li>
     <li>desc_sentence->[PAWN_nameDef] se pierde en el fondo, para enfatizar su nueva creación.</li>
-    <li>desc_sentence->[Quantity_adjphrase] observadores le rodean.</li>
-    <li>desc_sentence->Una multitud le vitorea desde el fondo.</li>
+    <li>desc_sentence->[Quantity_adjphrase] observadores [PAWN_objective] rodean.</li>
+    <li>desc_sentence->Una multitud [PAWN_objective] vitorea desde el fondo.</li>
     <li>quality_sentence->[THING_definite] parece ser de calidad [THING_quality].</li>
     <li>quality_sentence->[THING_definite] es de calidad [THING_quality].</li>
     <li>quality_sentence->El trabajo de [PAWN_nameDef] es de calidad [THING_quality].</li>
     <li>title_sentence->El título de [PAWN_nameDef] para [THING_definite] está escrito debajo: [THING_title]</li>
     <li>title_sentence->[THING_definite] tiene grabado el título de: [THING_title]</li>
-    <li>title_sentence->El título de [THING_definite], [THING_title], cuelga en el fondo.</li>
+    <li>title_sentence->El título {replace: de [THING_definite]; "de el "-"del "}, [THING_title], cuelga en el fondo.</li>
   </CraftedArt.rulePack.rulesStrings>
   
   <!-- EN: drunk -->
@@ -215,7 +215,7 @@
     <li>desc_sentence->[PAWN_nameDef] está sudando.</li>
     <li>desc_sentence->El trabajo parece excepcionalmente complejo.</li>
     <li>desc_sentence->[PAWN_nameDef] está completamente rodead[PAWN_o_a] por herramientas y diversos aparatos.</li>
-    <li>desc_sentence->[PAWN_nameDef] está observando su descubrimiento con placer.</li>
+    <li>desc_sentence->[PAWN_nameDef] está observando su descubrimiento con asombro.</li>
   </FinishedResearchProject.rulePack.rulesStrings>
   
   <!-- EN: landed in pod -->
@@ -390,11 +390,11 @@
     <li>image->[PAWN_nameFull] cerrando [THING_title] por última vez, con una sonrisa de satisfacción adornando su rostro [circumstance_group]</li>
     <li>image->[PAWN_nameFull] pasando las páginas de [THING_title], absorbiendo el conocimiento en su interior [circumstance_group]</li>
     <li>image->[PAWN_nameFull] colocando [THING_title] de nuevo en la estantería, una sensación de logro irradiando desde su persona [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] sentado en contemplación silenciosa, reflexionando sobre las verdades de [THING_title] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sentad[PAWN_o_a] en contemplación silenciosa, reflexionando sobre las verdades de [THING_title] [circumstance_group]</li>
     <li>circumstance_phrase->mientras se relaja en su rincón de lectura favorito</li>
     <li>circumstance_phrase->con una taza de té a su lado</li>
     <li>circumstance_phrase->bajo la suave luz de una lámpara de lectura</li>
-    <li>desc_sentence->[PAWN_nameDef] está rodeado de sus notas sobre [THING_title].</li>
+    <li>desc_sentence->[PAWN_nameDef] está rodead[PAWN_o_a] de sus notas sobre [THING_title].</li>
     <li>desc_sentence->Los ojos de [PAWN_nameDef] brillan con sabiduría recién adquirida.</li>
     <li>desc_sentence->[PAWN_nameDef] ha quedado para siempre marcad[PAWN_o_a] por las enseñanzas de [THING_title].</li>
     <li>desc_sentence->Hay una sensación de que algunos secretos aún están por descubrirse.</li>
@@ -512,15 +512,15 @@
     <li>tale_noun->[PAWN_nameDef] paseaba desnud[PAWN_o_a]</li>
     <li>tale_noun->[PAWN_nameDef] se paseaba sin ropa</li>
     <li>image->[PAWN_nameFull] [nude_action] de manera totalmente natural [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] [nude_action] sin más que sus zapatos [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] en cueros [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [nude_action], desnud[PAWN_o_a], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [nude_action] sin ninguna ropa [circumstance_group]</li>
     <li>nude_action->saltando</li>
     <li>nude_action->bailando</li>
     <li>nude_action->caminando por ahí</li>
     <li>nude_action->trotando</li>
-    <li>nude_action->limpiando su casa</li>
-    <li>nude_action->haciendo sus deberes</li>
+    <li>nude_action->exhibiéndose</li>
+    <li>nude_action->contoneándose</li>
     <li>nude_action->caminando de puntitas</li>
     <li>nude_action->paseando</li>
     <li>nude_action->explorando el área</li>

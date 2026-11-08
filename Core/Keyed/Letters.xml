@@ -38,7 +38,7 @@
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
   <LetterRelationsChange_Ally>Las relaciones con {0} son muy cercanas. Ahora te consideran un aliado.</LetterRelationsChange_Ally>
   <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
-  <LetterRelationsChange_AllyGoodwillDescription>Los aliados a veces aparecen para ayudarte a luchar contra tus enemigos cuando estás bajo ataque. También puedes llamarlos para pedirles ayuda en cualquier momento, a un coste de reputación.\n\nSe han convertido en aliados porque tu reputación ({0}) ha sobrepasado {1}. Si la reputación cayera por debajo de {2}, las relaciones volverán a ser neutrales.</LetterRelationsChange_AllyGoodwillDescription>
+  <LetterRelationsChange_AllyGoodwillDescription>Los aliados a veces aparecen para ayudarte a luchar contra tus enemigos cuando estás bajo ataque. También puedes llamarlos para pedirles ayuda en cualquier momento, a un coste de reputación.\n\nSe han convertido en aliados porque tu reputación ({0}) ha sobrepasado {1}. Si la reputación cae por debajo de {2}, las relaciones volverán a ser neutrales.</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
   <goodwill>reputación</goodwill>
@@ -126,12 +126,12 @@
   <LetterFriendlyTrapSprung>{1_labelShort} ha caído accidentalmente en una trampa y ha sufrido heridas.</LetterFriendlyTrapSprung>
 
   <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
-  <LetterHealthComplications>{PAWN_labelShort} ha desarrollado:\n\n  {1}\n\nEsto fue causado por:\n\n  {2}.</LetterHealthComplications>
+  <LetterHealthComplications>{PAWN_labelShort} ha desarrollado una condición de salud:\n\n  {1}\n\nEsto fue causado por:\n\n  {2}</LetterHealthComplications>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHealthComplicationsLabel>{PAWN_labelShort} sufre de {1}</LetterHealthComplicationsLabel>
   
   <!-- EN: {PAWN_labelShort} has developed a health condition: {1}. -->
-  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} ha desarrollado una condición médica: {1}.</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} ha desarrollado una condición de salud: {1}.</LetterHediffFromRandomHediffGiver>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
 
@@ -166,7 +166,7 @@
   <!-- EN: View quest -->
   <ViewQuest>Ver misión</ViewQuest>
   <!-- EN: The last events in {PAWN_definite}'s life -->
-  <LastEventsInLife>Últimos eventos en la vida de {PAWN_definite}</LastEventsInLife>
+  <LastEventsInLife>Últimos eventos en la vida {replace: de {PAWN_definite}; "de el "-"del "}</LastEventsInLife>
 
   <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
   <LetterInspirationBeginThanksToHighMoodPart>Gracias a su buen humor, ¡[PAWN_nameIndef] se siente inspirad{PAWN_gender ? o : a}!</LetterInspirationBeginThanksToHighMoodPart>
@@ -276,7 +276,7 @@
   <!-- EN: Caravan arrived at {0_label} -->
   <LetterLabelCaravanEnteredMap>La caravana llegó a {0_label}</LetterLabelCaravanEnteredMap>
   <!-- EN: {0} has arrived at {1_definite}. -->
-  <LetterCaravanEnteredMap>{0} ha llegado a {1_definite}.</LetterCaravanEnteredMap>
+  <LetterCaravanEnteredMap>{0} ha llegado {replace: a {1_definite}; "a el "-"al "}.</LetterCaravanEnteredMap>
 
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
@@ -312,7 +312,7 @@
   <!-- EN: Distant resource scanned -->
   <LetterLabelFoundPreciousLump>Recursos lejanos detectados</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>Usando el escáner de minerales de largo alcance, {WORKER_labelShort} ha encontrado a cierta distancia una veta de {0}.\n\nDesafortunadamente, otros lo explotarán primero en {1} días si no lo hacemos nosotros.\n\n{2}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>Usando el escáner de minerales de largo alcance, {WORKER_labelShort} ha encontrado a cierta distancia una veta de {0}.\n\nDesafortunadamente, otros la explotarán primero en {1} días si no lo hacemos nosotros.\n\n{2}.</LetterFoundPreciousLump>
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->
@@ -424,9 +424,9 @@
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
-  <LetterLabelPredatorHuntingColonist>{PREDATOR_indefinite} está cazando a {PREY_definite}</LetterLabelPredatorHuntingColonist>
+  <LetterLabelPredatorHuntingColonist>{PREDATOR_indefinite} está cazando {replace: a {PREY_definite}; "a el "-"al "}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <LetterPredatorHuntingColonist>{PREDATOR_indefinite} está cazando a {PREY_definite} para alimentarse.</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{PREDATOR_indefinite} está cazando {replace: a {PREY_definite}; "a el "-"al "} para alimentarse.</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on -->
